@@ -1,0 +1,30 @@
+Vorprojekt
+
+Momentan wissen wir so ungefähr worum es geht, nach dem ersten Treffen 
+werden wir unsere ersten genaueren Anforerdungen kennen.
+
+Dazu soll dann ein Vorprojekt erstellt werden, d.h. jeder muss sich der Aufgaben
+um das Projekt klar sein, worüber dann mit dem Tutor ausgemacht werden kann, was
+letzendlich im Vorprojekt landen soll.
+
+Dabei sollten folgende Punkte eingehalten werden:
+
+- Anforderungen aus dem Projektangebot entnehmen, diskutieren und ausgewählte Punkte als Zielstellung nehmen
+diese sollten
+--> zur weiterführenden Beschäftigung mit der Problemstellung,
+--> dem Einarbeiten in ausgewählte Technologien (theoretisch und vor allem praktisch),
+dienen.
+
+- die Aufgabe des Vorprojektes anhand dieser Anforderungen Formulieren
+- Ziel: 
+--> Prototyp, soll Anforderungen erfüllen, ist aber nicht entgültig
+--> soll allen Teammitgliedern als Einführung dienen
+--> das spätere Gesamtprojekt soll sich durch diese Vorarbeit mehr auf zeitkritisches und komplizierteres konzentrieren können
+------ 
+Möglichkeiten: Benutzerschnitstelle (optisch) und Teile der dahinter stehenden und 
+notwendigen Funktionalitäten implementieren(wichtige Funktionen evtl. bevorzugen, aber nicht zuviel Zeit mit Umsetzung verbringen)
+   
+Weiterhin soll das Vorprojekt mit den gewählten Aufgaben begründet werden:
+- Warum gerade das? Was bringt uns das? Warum nicht andere Anforderungen?
+- Wie kann man das Vorprojekt ins Gesamtprojekt einbinden?
+

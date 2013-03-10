@@ -1,0 +1,80 @@
+Anforderungen
+
+administrator
+
+	Der Administrator kann Zugänge zum Backend einrichten (Content Editor)
+
+	Der Administrator kann die durchführung von Backups kontrollieren
+
+
+content editor
+	
+	Der content editor kann sich am System an- und abmelden
+	
+	Er kann sein Passwort ändern
+
+	LF 30 VP 
+	Personen anlegen und Daten einfügen
+	
+	Personen und Daten Bearbeiten
+	
+	Es ist möglich Namen in alternativen Schreibweisen und Sprachen hinzuzufügen
+	
+	Es soll möglich sein Namen von Orten und Fachgebieten in verschiedenen Varianten (historische Epochen) hinzuzufügen.
+	
+	Hinzufügen neuer Kategorien
+	
+	optional:
+	(Die Möglichkeit das semantische Daten aus anderen Quellen (Wikipedia, CPL, Gemeinsame Normdatei der Deutschen National Bibliothek) vorgeschlagen werden und diese dann automatisch integriert werden.)
+	
+
+
+web user
+
+< ACHTUNG nochma> nachdenken und machen>
+	LF 10 VP 
+	Ein web user soll Inhalte im Frontend suchen können
+
+	LF 20 VP
+	Alle Daten zu einer Personen sollen übersichtlich dargestellt werden
+
+	
+	optional:
+	Kartendarstellung im Frontend (Orte der Lebensstationen werden eingeblendet)
+	Grafendarstellung von Beziehungen einzelner Instanzen.
+
+
+Serveranforderugen
+(Für die Schnittstellen)
+
+	Es ist möglich die bestehenden HTML Daten in die Datenbank zu überführen und Personen, Institutionen, Zeitpunkte, Fachgebiete, Titel und Auslandsaufenthalte semantisch zu erfassen.
+
+	Es soll möglich sein Transliterationen (Englisch, Deutsch, kyrillisch) von Namen automatisch zu 		erzeugen.
+
+optinal:
+	Bessere Semantische Aufbereitung der Daten (Umfang)
+
+
+Nicht funktionale Anforderugen
+	
+
+
+
+
+ToDo Wolf
+
+Grafik für Architektur von unserem Projekt
+ => PPT Aspekte Agata Grafik
+ => CPL Artikel Grafik Seite 227
+ 
+ 
+ 
+Arbeitspakete schreiben
+Qualitätssicherung besser machen
+Funktionen noch mal ansehen
+Glossar schauen 
+	SPARQL
+	Web Application
+	Framework
+	Datenbank
+	Semantic Web

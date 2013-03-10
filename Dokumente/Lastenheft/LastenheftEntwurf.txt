@@ -1,0 +1,142 @@
+
+Erstellung des ProjektangebotsAuf der Basis Ihrer Recherche (Aufgabenblatt 2) ist das Projektangebot zu erstellen, mit dem bereits deutlich werden soll, wie Sie sich die Umsetzung etwa denken, in welche gro ̈ßeren Arbeitspakete sich die Umsetzung zergliedern la ̈sst, mit welchen Meilensteinen der Projekt- fortschritt u ̈berwacht werden soll und mit welchem Aufwand Sie fu ̈r jedes der Pakete rechnen. Gliedern Sie das Projektangebot in die Abschnitte[Wolf]1. Zielbestimmung
+
+Die Internetseite der Personendatenbank des Projekts "Wissenschaftsbeziehungen im 19. Jahrhundert zwischen Deutschland und Russland auf den Gebieten Chemie, Pharmazie und Medizin" der Sächsischen Akademie der Wissenschaften zu Leipzig soll in eine moderne kollaborative semantischen Webapplikation überführt werden. Dazu müssen bestehnde Daten in eine semantische Datenbank überführt werden, umfangreiche Möglichkeiten geschaffen werden die Daten in einem Backend zu editieren und neue Daten einzufügen. Desweiteren soll ein schlichtes Frontend aufgebaut werden, in dem die Daten übersichtlich dargestellt werden. Dieses soll auch Suchmethoden integrieren, die angemessene Möglichkeiten bietet domänenspezifische Fragestellungen zu beantworten.
+Die Personendatenbank enthält bio- und bibliographischen Daten über Wissenschaftler, die sowohl in Russland als auch in Deutschland tätig waren.
+
+Glossar: Backend, Frontend
+
+[Wolf]2. Produkteinsatz
+Die Web Applikation wird auf der einen Seite dazu genutzt bestehende Daten zu bearbeiten und zu erweitern sowie neue Daten hinzuzufügen. Es sollen hierbei Bio- und Bibliographische Daten, die bei der Arbeit der Wissenschaftlerinen, die am Projekt beteiligt sind, durch das einfügen in das Backend semantisch aufgewertet werden(Zwei Sätze). Insbesondere muss die zu modellierende Datenstruktur in der Lage sein alle Daten aufzunehmen, bzw. leicht zu erweitern sein um die Datenstruktur mit im Forschungsprozess erwartbaren neu auftauchende Strukturen erweitern zu können.
+Die Arbeit der MedizingeschichtlerInnen an diesem Projekt ist langfristig ausgelegt. Das bedeutet, dass die Plattform eine stabile Basis bilden muss und die Persistenz der Daten in angemessenen Rahmen sichergestellt werden muss. Auch muss die Plattform einfache Erweiterungsmöglichkeiten bieten um auf technischer Seite leicht anpassbar zu sein und damit der Funktionsumfang leicht auszubauen ist und neuen Zielstellungen angepasst werden kann.
+Auf der anderen Seite soll die Webapplikation dem Web User die Möglichkeit geben einfach im Datenbestand zu recherchieren und Suchmöglichkeiten zu nutzen, die dabei helfen fachspezifische Fragestellungen zu klären.
+Desweitern soll es möglich sein den Datenbestand in das Semantic Web einzupflegen. Das bedeutet, dass die Daten nicht nur visuell, sondern auch semantisch im Web zugänglich gemacht werden sollen. Damit soll es Projekten der Fachdomäne ermöglicht werden leicht auf die Daten zuzugreifen und die Daten mit eigenen Beständen abzugleichen, bzw. mit Daten anderer Projekte zu verknüpfen.
+
+
+Vgl: 1/2 Seite
+Arbeitsgruppe der SAW Datenpflege und Erweiterung
+Tool zur Verwaltung recherchierter Daten der WissenschaftlerInnen
+Recherche von Forschern und Interessierten
+Schnittstelle fuer andere Projekte
+
+
+Glossar: Web User, Content Editor, Web Applikation, Semantic Web
+
+[Agata]3. Designu ̈bersicht
+
+
+Rollen: Administrator, Datenbearbeiter, Recherchierende
+Nutzerszenarien
+Usecases schildern 
+	Recherche
+	Konkretes Beispiel dazu 
+	Homepage aufrufen
+	1 Datennutzer recherchiert nach einem Deuchtschen Wissenschaftler, der einen Auslandaufenhalt in Russland zwischen 1820 und 1850 gemacht hat.
+	
+	Daten Bearbeiten
+	Konkretes Beispiel:
+	Einloggen, 
+	Eine Person wird neu angelgegt und Lebensdaten werden hinzugefuegt
+	Ausloggen 
+	
+
+4. Funktionalita ̈t und Arbeitspakete 
+Produktfunktionen (Gesch'ftsprozesse )
+Aus Anfordeungsanalyse
+[Agata]
+Administrator
+	Anlegen von Datenbearbeitern (Rechtevergabe)
+[Agata]
+Datenbearbeiter
+	Anmeldung/Abmeldung am System
+	
+	Daten Anlegen
+		Dem Datenbearbeiter ist es möglich neue Personen und Daten zu der Person hinzuzufügen.
+	Daten Bearbeiten
+		Dem ... bearbeiten.
+[Wolf]
+Recherchierende
+	Daten Betrachten 
+		Dem Recherchierenden ist es möglich ...
+	Daten Suchen
+		Dem Recherchierenden ist es möglich...	Suchmaske
+		Man kann suchen nach: Personen, bestimmten Zeiträumen, Institutionen, Fachgebiet, 
+		(A) Ausbildung, Ausbildungsorte, wissenschaftlicher Werdegang
+ 		(B)	Lebensstationen, Orte des Wirkens, Ehrungen 
+ 		Zu A und B eine Auswahlliste an Vorhandenen Ressourcen
+	Personendaten anschauen
+		Steckbrief mit allen Daten zu einer Person
+ 	
+	
+Vgl: 2 Seiten 
+
+[Agata]
+Optionale Produktfunktionen (Geschaeftsprozesse)
+	Kartendarstellung
+	Recherche Funktionen erweitern
+	Grafendarstellung von Beziehungen
+	Hinzufuegen neuer Kategorien
+	noch mehr Daten semantisch aufbereiten
+		"Grad der semantischen Bearbeitung der Daten"
+	
+Vgl. 1/2 Seite
+
+[Agata]
+Moegliche Erweiterungen (Nachfolgeprojekt)
+	(Beim Eintragen neuer Daten werden automatisch Daten anderer semantischen Ressourcen, die in Verbindung mit den 		Eingetragenen Daten stehen generiert.)
+Vgl. 1/4 Seite
+	
+
+[Agata => Wolf]
+
+Arbeitspakete
+Skizze des Entwicklungszyklus
+	Vorprojekt 10%
+		Im Rahme des Vorprojekts sollen die Grundfunktionen des Softwarepaketes implementiert werden. Zielsetzung ist es ein OntoWiki System aufzusetzen und einen Versuchsdatensatz mit geringen Umfang (ca. 10 Datensätze) Einzufügen um die Funktionsweise von OntoWiki zu testen und dem Auftraggeber Grundsätzliche Funktionsweisen demonstrieren zu können.
+		Auf der anderen Seite soll ein einfaches Frontend die Grundfunktionalität der Darstellung der Daten für den Webuser zeigen und einfache Suchfunktionen demonstriert werden können.
+	Datentransformation/ Haltung 40%
+		Ein Schwerpunkt der Arbeit wird der Umgang mit den Daten darstellen, da die Datengrundlage der Schlüssel für das Funktionieren des Softwarepakets darstellt. Je mehr Zeit in diese Grundlagenarbeit verwendet wird, desto größer sind die Möglichkeiten später das System zu erweitern.
+		Teilaspekt sind die Modellierung des Datenstruktur als Ontologie in enger Zusammenarbeit mit dem Auftraggeber. Hierbei soll durch Vokabular-Alignement eine größtmögliche Kompatibiltät mit bestehenden Semantischen Web Ressourcen ermöglicht werden. 
+		Das Hauptaugenmerk muss hier auf Personen, Institutionen, Zeitpunkt, berufliche Laufbahn sowie Fachgebiete gesetzt werden, da diese die Hauptgrundlage für die Recherchemöglichkeiten liefern.
+		Optional soll versucht werden einen möglichst großen Teil der weiteren Daten semantisch zu spezifizieren.
+		Dann muss eine Schnittstelle aufgebaut werden, die es ermöglicht die Altdaten (vorhanden in HTML-Struktur) zu importieren und semantisch aufzuwerten.
+	Backendendwicklung 30%
+		Die Entwicklung des Backends umfasst das Aufsetzen des Frameworks, Anpassung und Implementierung von Widgets zur Dateneingabe und Darstellung der Daten im Backend. Die Spezifizierung und Realisierung von Schnittstellen. Und implementierung von Serverfunktionalitäten.
+Weiterhin ist hier die Implementierung von optionalen in den Funktionalitäten formulierten Umsetzungen von Anforderungen zu nennen.
+	Frontendentwicklung 30%
+		In diesem Arbeitspaket soll die Darstellung für den web user realisiert werden. Hier liegt das Hauptaugenmerk auf die schlichte, Übersichtliche Darstellung der Daten und die Implementierung der spezifizierten Suchmöglichkeiten sowie die Implimentierung optionaler Funktionalitäten für das Frontend wie graphische Darstellungen.
+	Einrichten der Software auf dem Server der SAW 10%
+	Der letzte Teil der Arbeit wird die Portierung des Softwaresystems auf die Server der SAW und die evtl Schulung des Personals.
+	
+	
+Vgl. 1 Seite
+
+[Wolf]
+5. Qualita ̈tssicherung
+Um nach der Fertigstellung des Produkts schnell gewährleisten zu können, dass es produktiv eingesetzt werden kann ist es nötig das hauptaugenmerk auf Funktionalität, Zuverlässigkeit und Benutzbarkeit zu legen.
+Es muss gewährleistet sein, dass alle recherchierten Daten des Projekts leicht integriert werden können und die Benutzbarkeit darauf ausgerichtet ist, Nutzern mit normalen Computerkenntnissen einen leichten Einstieg in die Arbeit zu ermöglichen.
+Da das Projekt langfristig ausgelegt ist, muss der Zuverlässigkeit ein hoher Stellenwert eingeräumt werden. In dem Zusammenhang ist auf eine ausgereifte Testphase vor dem produktiven Einsatz unabdingbar.
+Insbesondere ist eine Rückkopplung zum Auftraggeber und eine iterrative Anpassung an die Bedürfnisse des Auftraggebers unabdingbar um einen schnellen Übergang in den produktiven Einsatz der Applikation zu ermöglichen. Dieser Punkt wiegt schwerer als die Effizienz, da ohne Zuverlässigkeit das Produkt nicht einsatzfähig ist.
+Die Wartbarkeit muss angemessen im normalen Berreich möglich sein.
+Die Übertragbarkeit muss möglch sein, da aber das Produkt eine Grundlage der Arbeit der WissenschaftlerInnen bieten soll ist nciht damit zu rechnen, dass das Produkt schnell durch ein anderes ersetzt wird. Zusätzlich ist durch die geplante Architektur ohne viel Aufwand möglich vorhandene Schnittstellen für die Übertragung auf Folgeprojekte zu gewährleisten.
+Die Qualität.
+
+Qualitaetsanforderugen
+					Sehr gut		Gut		Normal		Weniger Relevant		
+Produktqualität								XFunktionalität						XZuverlässigkeit						XBenutzbarkeit						XEffizienz												X						Wartbarkeit									XÜbertragbarkeit											X
+
+Vgl. 1/2 Seite
+
+[Beide]
+6. Glossar 
+(Haben die letztes Jahr gar nicht)
+Begriffe aus Erlaeuterungen hier definieren: Rollen, "Altdaten", "..."
+Frontend
+Backend
+Altdaten
+
+Erlaeutrungen der Aufgabenstellung:
+Stellen Sie im Abschnitt Designu ̈bersicht die wichtigsten Rollen und Nutzerszenarien dar.Stellen Sie im Abschnitt Funktionalit ̈at und Arbeitspakete eine Grobgliederung des Projekts dar. Teilen Sie Ihr Projekt dazu in wenigstens vier Arbeitspakete und geben Sie fu ̈r jeden Teil an, mit welchem Aufwand in Prozent des Gesamtprojekts Sie rechnen. Die gescha ̈tz- ten zeitlichen Aufwendungen sollten sich als inhaltliche Proportionen des Projektangebots wiederfinden. Ordnen Sie das Vorprojekt in diesen Rahmen ein.Das Projektangebot soll mehr Funktionalita ̈t beschreiben als im Rahmen des Projekts implementiert werden kann. Gliedern Sie dazu die Arbeitspakete in Muss- und Kann-Ziele und zeigen, welche Arbeiten evtl. von Nachfolgeprojekten in Angriff genommen werden ko ̈nnen. Die Aufwandsrechnung kann also in der Summe 100 % u ̈berschreiten.Abzugeben: Projektangebot (6 bis 8 Seiten).
+
+
+Bewertung mit Meilenstein 1 (25.01.13)
