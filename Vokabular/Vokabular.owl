@@ -1,0 +1,532 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Ontology1363810728406 "http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#" >
+    <!ENTITY Land "http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Land/" >
+    <!ENTITY inLand "http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#inLand/" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl"
+     xmlns:inLand="&Ontology1363810728406;inLand/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:Ontology1363810728406="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:Land="&Ontology1363810728406;Land/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#arbeitete -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;arbeitete">
+        <rdfs:range rdf:resource="&Ontology1363810728406;Arbeit"/>
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#begann -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;begann">
+        <rdfs:range rdf:resource="&Ontology1363810728406;Datum"/>
+        <rdfs:domain rdf:resource="&Ontology1363810728406;PoEoL"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#endete -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;endete">
+        <rdfs:range rdf:resource="&Ontology1363810728406;Datum"/>
+        <rdfs:domain rdf:resource="&Ontology1363810728406;PoEoL"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#hatBemerkung -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;hatBemerkung">
+        <rdfs:range rdf:resource="&Ontology1363810728406;Bemerkung"/>
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Information"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#hatdenTitel -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;hatdenTitel">
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Person"/>
+        <rdfs:range rdf:resource="&Ontology1363810728406;Titel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#hatdieQuelle -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;hatdieQuelle">
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Information"/>
+        <rdfs:range rdf:resource="&Ontology1363810728406;Quelle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#hatkyr.Alternativnamen -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;hatkyr.Alternativnamen">
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Person"/>
+        <rdfs:range rdf:resource="&Ontology1363810728406;kyr._Alternativname"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#hatkyr.Hauptnamen -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;hatkyr.Hauptnamen">
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Person"/>
+        <rdfs:range rdf:resource="&Ontology1363810728406;kyr._Hauptname"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#hatlat.Alternativnamen -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;hatlat.Alternativnamen">
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Person"/>
+        <rdfs:range rdf:resource="&Ontology1363810728406;lat._Alternativname"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#hatlat.Hauptnamen -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;hatlat.Hauptnamen">
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Person"/>
+        <rdfs:range rdf:resource="&Ontology1363810728406;lat._Hauptname"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#in -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;in">
+        <rdfs:range rdf:resource="&Ontology1363810728406;Ort"/>
+        <rdfs:domain rdf:resource="&Ontology1363810728406;PoEoL"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#inBeruf -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;inBeruf">
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Arbeit"/>
+        <rdfs:range rdf:resource="&Ontology1363810728406;Beruf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#inFach -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;inFach">
+        <rdfs:range rdf:resource="&Ontology1363810728406;Fach"/>
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Studium"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#inLand/Staat -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;inLand/Staat">
+        <rdfs:range rdf:resource="&Ontology1363810728406;Land/Staat"/>
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Ort"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#inStadt -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;inStadt">
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Ort"/>
+        <rdfs:range rdf:resource="&Ontology1363810728406;Stadt"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#inThema -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;inThema">
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Promotion"/>
+        <rdfs:range rdf:resource="&Ontology1363810728406;Thema"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#inVerw.bezirk -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;inVerw.bezirk">
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Ort"/>
+        <rdfs:range rdf:resource="&Ontology1363810728406;Verw.bezirk"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#istvomGeschlechther -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;istvomGeschlechther">
+        <rdfs:range rdf:resource="&Ontology1363810728406;Geschlecht"/>
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#j -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;j">
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Datum"/>
+        <rdfs:range rdf:resource="&Ontology1363810728406;Jahr"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#m -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;m">
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Datum"/>
+        <rdfs:range rdf:resource="&Ontology1363810728406;Monat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#promotionBei -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;promotionBei">
+        <rdfs:range rdf:resource="&Ontology1363810728406;Person"/>
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Promotion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#promovierte -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;promovierte">
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Person"/>
+        <rdfs:range rdf:resource="&Ontology1363810728406;Promotion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#starb -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;starb">
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Person"/>
+        <rdfs:range rdf:resource="&Ontology1363810728406;Tod"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#studierte -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;studierte">
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Person"/>
+        <rdfs:range rdf:resource="&Ontology1363810728406;Studium"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#t -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;t">
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Datum"/>
+        <rdfs:range rdf:resource="&Ontology1363810728406;Tag"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#wurdegeboren -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1363810728406;wurdegeboren">
+        <rdfs:range rdf:resource="&Ontology1363810728406;Geburt"/>
+        <rdfs:domain rdf:resource="&Ontology1363810728406;Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Arbeit -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Arbeit">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Zeitspanne"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Bemerkung -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Bemerkung">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Beruf -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Beruf">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Datum -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Datum">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Ereigniss -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Ereigniss">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;PoEoL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Fach -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Fach">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Geburt -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Geburt">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Ereigniss"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Geschlecht -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Geschlecht">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Information -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Information"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Jahr -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Jahr">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Land/Staat -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Land/Staat">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Monat -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Monat">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Ort -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Ort">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Person -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Person">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#PoEoL -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;PoEoL">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Promotion -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Promotion">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Zeitspanne"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Quelle -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Quelle">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Stadt -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Stadt">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Studium -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Studium">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Zeitspanne"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Tag -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Tag">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Thema -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Thema">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Titel -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Titel">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Tod -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Tod">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Ereigniss"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Verw.bezirk -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Verw.bezirk">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Zeitspanne -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;Zeitspanne">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;PoEoL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#kyr._Alternativname -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;kyr._Alternativname">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;kyr._Name"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#kyr._Hauptname -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;kyr._Hauptname">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;kyr._Name"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#kyr._Name -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;kyr._Name">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#lat._Alternativname -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;lat._Alternativname">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;lat._Name"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#lat._Hauptname -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;lat._Hauptname">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;lat._Name"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#lat._Name -->
+
+    <owl:Class rdf:about="&Ontology1363810728406;lat._Name">
+        <rdfs:subClassOf rdf:resource="&Ontology1363810728406;Information"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
