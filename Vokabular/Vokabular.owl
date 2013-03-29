@@ -6,20 +6,21 @@
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY Land "https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Land/" >
-    <!ENTITY inLand "https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#inLand/" >
+    <!ENTITY Land "https:// raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Land/" >
+    <!ENTITY inLand "https:// raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#inLand/" >
 ]>
 
 
 <rdf:RDF xmlns="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#"
      xml:base="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl"
      xmlns:inLand="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#inLand/"
+     xmlns:drw="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:Land="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Land/"
      xmlns:owl="http://www.w3.org/2002/07/owl#">
-    <owl:Ontology rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl"/>
+    <owl:Ontology rdf:about="https:// raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl"/>
     
 
 
@@ -45,110 +46,110 @@
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#arbeitete -->
+    <!-- &drw;arbeitete -->
 
-    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#arbeitete">
-        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Arbeit"/>
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
+    <owl:ObjectProperty rdf:about="&drw;arbeitete">
+        <rdfs:range rdf:resource="&drw;Arbeit"/>
+        <rdfs:domain rdf:resource="&drw;Person"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#begann -->
+    <!-- &drw;begann -->
 
-    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#begann">
-        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Datum"/>
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#PoEoL"/>
+    <owl:ObjectProperty rdf:about="&drw;begann">
+        <rdfs:range rdf:resource="&drw;Datum"/>
+        <rdfs:domain rdf:resource="&drw;PoEoL"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#endete -->
+    <!-- &drw;endete -->
 
-    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#endete">
-        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Datum"/>
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#PoEoL"/>
+    <owl:ObjectProperty rdf:about="&drw;endete">
+        <rdfs:range rdf:resource="&drw;Datum"/>
+        <rdfs:domain rdf:resource="&drw;PoEoL"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#hatdenAlternativnamen -->
+    <!-- &drw;hatdenAlternativnamen -->
 
-    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#hatdenAlternativnamen">
-        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Alternativname"/>
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
+    <owl:ObjectProperty rdf:about="&drw;hatdenAlternativnamen">
+        <rdfs:range rdf:resource="&drw;Alternativname"/>
+        <rdfs:domain rdf:resource="&drw;Person"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#hatdenHauptnamen -->
+    <!-- &drw;hatdenHauptnamen -->
 
-    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#hatdenHauptnamen">
-        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Hauptname"/>
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
+    <owl:ObjectProperty rdf:about="&drw;hatdenHauptnamen">
+        <rdfs:range rdf:resource="&drw;Hauptname"/>
+        <rdfs:domain rdf:resource="&drw;Person"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#hatdieNamensvariation -->
+    <!-- &drw;hatdieNamensvariation -->
 
-    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#hatdieNamensvariation">
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name"/>
-        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Namensvariation"/>
+    <owl:ObjectProperty rdf:about="&drw;hatdieNamensvariation">
+        <rdfs:domain rdf:resource="&drw;Name"/>
+        <rdfs:range rdf:resource="&drw;Namensvariation"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#in -->
+    <!-- &drw;in -->
 
-    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#in">
-        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ort"/>
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#PoEoL"/>
+    <owl:ObjectProperty rdf:about="&drw;in">
+        <rdfs:range rdf:resource="&drw;Ort"/>
+        <rdfs:domain rdf:resource="&drw;PoEoL"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#promotionBei -->
+    <!-- &drw;promotionBei -->
 
-    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#promotionBei">
-        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Promotion"/>
+    <owl:ObjectProperty rdf:about="&drw;promotionBei">
+        <rdfs:range rdf:resource="&drw;Person"/>
+        <rdfs:domain rdf:resource="&drw;Promotion"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#promovierte -->
+    <!-- &drw;promovierte -->
 
-    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#promovierte">
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
-        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Promotion"/>
+    <owl:ObjectProperty rdf:about="&drw;promovierte">
+        <rdfs:domain rdf:resource="&drw;Person"/>
+        <rdfs:range rdf:resource="&drw;Promotion"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#starb -->
+    <!-- &drw;starb -->
 
-    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#starb">
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
-        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Tod"/>
+    <owl:ObjectProperty rdf:about="&drw;starb">
+        <rdfs:domain rdf:resource="&drw;Person"/>
+        <rdfs:range rdf:resource="&drw;Tod"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#studierte -->
+    <!-- &drw;studierte -->
 
-    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#studierte">
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
-        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Studium"/>
+    <owl:ObjectProperty rdf:about="&drw;studierte">
+        <rdfs:domain rdf:resource="&drw;Person"/>
+        <rdfs:range rdf:resource="&drw;Studium"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#wurdegeboren -->
+    <!-- &drw;wurdegeboren -->
 
-    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#wurdegeboren">
-        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Geburt"/>
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
+    <owl:ObjectProperty rdf:about="&drw;wurdegeboren">
+        <rdfs:range rdf:resource="&drw;Geburt"/>
+        <rdfs:domain rdf:resource="&drw;Person"/>
     </owl:ObjectProperty>
     
 
@@ -164,155 +165,155 @@
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Beruf -->
+    <!-- &drw;Beruf -->
 
-    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Beruf">
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Arbeit"/>
-        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
+    <owl:DatatypeProperty rdf:about="&drw;Beruf">
+        <rdfs:domain rdf:resource="&drw;Arbeit"/>
+        <rdfs:subPropertyOf rdf:resource="&drw;Text"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Bool -->
+    <!-- &drw;Bool -->
 
-    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Bool">
+    <owl:DatatypeProperty rdf:about="&drw;Bool">
         <rdfs:range rdf:resource="&xsd;boolean"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Fach -->
+    <!-- &drw;Fach -->
 
-    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Fach">
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Studium"/>
-        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
+    <owl:DatatypeProperty rdf:about="&drw;Fach">
+        <rdfs:domain rdf:resource="&drw;Studium"/>
+        <rdfs:subPropertyOf rdf:resource="&drw;Text"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Jahr -->
+    <!-- &drw;Jahr -->
 
-    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Jahr">
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Datum"/>
-        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zahl"/>
+    <owl:DatatypeProperty rdf:about="&drw;Jahr">
+        <rdfs:domain rdf:resource="&drw;Datum"/>
+        <rdfs:subPropertyOf rdf:resource="&drw;Zahl"/>
         <rdfs:range rdf:resource="&xsd;int"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Land/Staat -->
+    <!-- &drw;Land/Staat -->
 
     <owl:DatatypeProperty rdf:about="&Land;Staat">
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ort"/>
-        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
+        <rdfs:domain rdf:resource="&drw;Ort"/>
+        <rdfs:subPropertyOf rdf:resource="&drw;Text"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Monat -->
+    <!-- &drw;Monat -->
 
-    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Monat">
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Datum"/>
-        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zahl"/>
+    <owl:DatatypeProperty rdf:about="&drw;Monat">
+        <rdfs:domain rdf:resource="&drw;Datum"/>
+        <rdfs:subPropertyOf rdf:resource="&drw;Zahl"/>
         <rdfs:range rdf:resource="&xsd;int"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Nachname -->
+    <!-- &drw;Nachname -->
 
-    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Nachname">
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name"/>
-        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
+    <owl:DatatypeProperty rdf:about="&drw;Nachname">
+        <rdfs:domain rdf:resource="&drw;Name"/>
+        <rdfs:subPropertyOf rdf:resource="&drw;Text"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Stadt -->
+    <!-- &drw;Stadt -->
 
-    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Stadt">
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ort"/>
-        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
+    <owl:DatatypeProperty rdf:about="&drw;Stadt">
+        <rdfs:domain rdf:resource="&drw;Ort"/>
+        <rdfs:subPropertyOf rdf:resource="&drw;Text"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Tag -->
+    <!-- &drw;Tag -->
 
-    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Tag">
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Datum"/>
-        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zahl"/>
+    <owl:DatatypeProperty rdf:about="&drw;Tag">
+        <rdfs:domain rdf:resource="&drw;Datum"/>
+        <rdfs:subPropertyOf rdf:resource="&drw;Zahl"/>
         <rdfs:range rdf:resource="&xsd;int"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text -->
+    <!-- &drw;Text -->
 
-    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text">
+    <owl:DatatypeProperty rdf:about="&drw;Text">
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Thema -->
+    <!-- &drw;Thema -->
 
-    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Thema">
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Promotion"/>
-        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
+    <owl:DatatypeProperty rdf:about="&drw;Thema">
+        <rdfs:domain rdf:resource="&drw;Promotion"/>
+        <rdfs:subPropertyOf rdf:resource="&drw;Text"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Titel -->
+    <!-- &drw;Titel -->
 
-    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Titel">
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
-        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
+    <owl:DatatypeProperty rdf:about="&drw;Titel">
+        <rdfs:domain rdf:resource="&drw;Person"/>
+        <rdfs:subPropertyOf rdf:resource="&drw;Text"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Verw.bezirk -->
+    <!-- &drw;Verw.bezirk -->
 
-    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Verw.bezirk">
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ort"/>
-        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
+    <owl:DatatypeProperty rdf:about="&drw;Verw.bezirk">
+        <rdfs:domain rdf:resource="&drw;Ort"/>
+        <rdfs:subPropertyOf rdf:resource="&drw;Text"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Vorname -->
+    <!-- &drw;Vorname -->
 
-    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Vorname">
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name"/>
-        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
+    <owl:DatatypeProperty rdf:about="&drw;Vorname">
+        <rdfs:domain rdf:resource="&drw;Name"/>
+        <rdfs:subPropertyOf rdf:resource="&drw;Text"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zahl -->
+    <!-- &drw;Zahl -->
 
-    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zahl">
+    <owl:DatatypeProperty rdf:about="&drw;Zahl">
         <rdfs:range rdf:resource="&xsd;int"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#kyrillisch -->
+    <!-- &drw;kyrillisch -->
 
-    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#kyrillisch">
-        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Bool"/>
-        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name"/>
+    <owl:DatatypeProperty rdf:about="&drw;kyrillisch">
+        <rdfs:subPropertyOf rdf:resource="&drw;Bool"/>
+        <rdfs:domain rdf:resource="&drw;Name"/>
         <rdfs:range rdf:resource="&xsd;boolean"/>
     </owl:DatatypeProperty>
     
@@ -329,128 +330,128 @@
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Alternativname -->
+    <!-- &drw;Alternativname -->
 
-    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Alternativname">
-        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name"/>
+    <owl:Class rdf:about="&drw;Alternativname">
+        <rdfs:subClassOf rdf:resource="&drw;Name"/>
     </owl:Class>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Arbeit -->
+    <!-- &drw;Arbeit -->
 
-    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Arbeit">
-        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zeitspanne"/>
+    <owl:Class rdf:about="&drw;Arbeit">
+        <rdfs:subClassOf rdf:resource="&drw;Zeitspanne"/>
     </owl:Class>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Datum -->
+    <!-- &drw;Datum -->
 
-    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Datum">
-        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information"/>
+    <owl:Class rdf:about="&drw;Datum">
+        <rdfs:subClassOf rdf:resource="&drw;Information"/>
     </owl:Class>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ereigniss -->
+    <!-- &drw;Ereigniss -->
 
-    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ereigniss">
-        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#PoEoL"/>
+    <owl:Class rdf:about="&drw;Ereigniss">
+        <rdfs:subClassOf rdf:resource="&drw;PoEoL"/>
     </owl:Class>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Geburt -->
+    <!-- &drw;Geburt -->
 
-    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Geburt">
-        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ereigniss"/>
+    <owl:Class rdf:about="&drw;Geburt">
+        <rdfs:subClassOf rdf:resource="&drw;Ereigniss"/>
     </owl:Class>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Hauptname -->
+    <!-- &drw;Hauptname -->
 
-    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Hauptname">
-        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name"/>
+    <owl:Class rdf:about="&drw;Hauptname">
+        <rdfs:subClassOf rdf:resource="&drw;Name"/>
     </owl:Class>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information -->
+    <!-- &drw;Information -->
 
-    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information"/>
+    <owl:Class rdf:about="&drw;Information"/>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name -->
+    <!-- &drw;Name -->
 
-    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name">
-        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information"/>
+    <owl:Class rdf:about="&drw;Name">
+        <rdfs:subClassOf rdf:resource="&drw;Information"/>
     </owl:Class>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Namensvariation -->
+    <!-- &drw;Namensvariation -->
 
-    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Namensvariation">
-        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name"/>
+    <owl:Class rdf:about="&drw;Namensvariation">
+        <rdfs:subClassOf rdf:resource="&drw;Name"/>
     </owl:Class>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ort -->
+    <!-- &drw;Ort -->
 
-    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ort">
-        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information"/>
+    <owl:Class rdf:about="&drw;Ort">
+        <rdfs:subClassOf rdf:resource="&drw;Information"/>
     </owl:Class>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person -->
+    <!-- &drw;Person -->
 
-    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person">
-        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information"/>
+    <owl:Class rdf:about="&drw;Person">
+        <rdfs:subClassOf rdf:resource="&drw;Information"/>
     </owl:Class>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#PoEoL -->
+    <!-- &drw;PoEoL -->
 
-    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#PoEoL">
-        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information"/>
+    <owl:Class rdf:about="&drw;PoEoL">
+        <rdfs:subClassOf rdf:resource="&drw;Information"/>
     </owl:Class>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Promotion -->
+    <!-- &drw;Promotion -->
 
-    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Promotion">
-        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zeitspanne"/>
+    <owl:Class rdf:about="&drw;Promotion">
+        <rdfs:subClassOf rdf:resource="&drw;Zeitspanne"/>
     </owl:Class>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Studium -->
+    <!-- &drw;Studium -->
 
-    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Studium">
-        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zeitspanne"/>
+    <owl:Class rdf:about="&drw;Studium">
+        <rdfs:subClassOf rdf:resource="&drw;Zeitspanne"/>
     </owl:Class>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Tod -->
+    <!-- &drw;Tod -->
 
-    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Tod">
-        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ereigniss"/>
+    <owl:Class rdf:about="&drw;Tod">
+        <rdfs:subClassOf rdf:resource="&drw;Ereigniss"/>
     </owl:Class>
     
 
 
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zeitspanne -->
+    <!-- &drw;Zeitspanne -->
 
-    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zeitspanne">
-        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#PoEoL"/>
+    <owl:Class rdf:about="&drw;Zeitspanne">
+        <rdfs:subClassOf rdf:resource="&drw;PoEoL"/>
     </owl:Class>
 </rdf:RDF>
 
