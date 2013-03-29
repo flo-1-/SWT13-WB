@@ -7,7 +7,7 @@
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
     <!ENTITY Land "https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Land/" >
-    <!ENTITY drw "https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl" >
+    <!ENTITY drw "https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#" >
     <!ENTITY inLand "https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#inLand/" >
 ]>
 
