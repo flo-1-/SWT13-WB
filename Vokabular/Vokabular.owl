@@ -6,21 +6,8 @@
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-<<<<<<< HEAD
-    <!ENTITY Land "http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Land/" >
-    <!ENTITY inLand "http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#inLand/" >
-]>
-
-
-<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#"
-     xml:base="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl"
-     xmlns:inLand="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#inLand/"
-=======
     <!ENTITY Land "https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Land/" >
-<<<<<<< HEAD
     <!ENTITY drw "https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#" >
-=======
->>>>>>> parent of 8a009b9... drw als kuerzel in Vokabular eingefuegt
     <!ENTITY inLand "https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#inLand/" >
 ]>
 
@@ -28,13 +15,12 @@
 <rdf:RDF xmlns="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#"
      xml:base="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl"
      xmlns:inLand="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#inLand/"
->>>>>>> Vokabular
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:Land="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Land/"
+     xmlns:Land="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Land/"
      xmlns:owl="http://www.w3.org/2002/07/owl#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl"/>
+    <owl:Ontology rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl"/>
     
 
 
@@ -60,244 +46,241 @@
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Elternteil -->
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Elternteil -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Elternteil">
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Person"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Person"/>
-=======
+    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Elternteil">
+        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
+    </owl:ObjectProperty>
+
+
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#arbeitete -->
 
     <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#arbeitete">
         <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Arbeit"/>
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
->>>>>>> Vokabular
     </owl:ObjectProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Kind -->
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Kind -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Kind">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Elternteil"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Person"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Person"/>
-=======
+    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Kind">
+        <owl:inverseOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Elternteil"/>
+        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
+    </owl:ObjectProperty>
+        
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#begann -->
 
     <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#begann">
         <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Datum"/>
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#PoEoL"/>
->>>>>>> Vokabular
     </owl:ObjectProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Lebensgefährte -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Lebensgefährte">
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Lebensgefährte -->
+
+    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Lebensgefährte">
         <rdf:type rdf:resource="&owl;SymmetricProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Person"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Person"/>
-=======
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
+        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
+    </owl:ObjectProperty>
+
+
+
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#endete -->
 
     <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#endete">
         <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Datum"/>
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#PoEoL"/>
->>>>>>> Vokabular
     </owl:ObjectProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Linkadresse -->
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Linkadresse -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Linkadresse">
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Link"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Literatur"/>
-=======
+    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Linkadresse">
+        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Link"/>
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Literatur"/>
+    </owl:ObjectProperty>   
+   
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#hatdenAlternativnamen -->
 
     <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#hatdenAlternativnamen">
         <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Alternativname"/>
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
->>>>>>> Vokabular
     </owl:ObjectProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#arbeitete -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#arbeitete">
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Arbeit"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Person"/>
-=======
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#arbeitete -->
+
+    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#arbeitete">
+        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Arbeit"/>
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
+    </owl:ObjectProperty>
+
+
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#hatdenHauptnamen -->
 
     <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#hatdenHauptnamen">
         <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Hauptname"/>
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
->>>>>>> Vokabular
     </owl:ObjectProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#begann -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#begann">
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Datum"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#PoEoL"/>
-=======
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#begann -->
+
+    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#begann">
+        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Datum"/>
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#PoEoL"/>
+    </owl:ObjectProperty>
+    
+    
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#hatdieNamensvariation -->
 
     <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#hatdieNamensvariation">
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name"/>
         <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Namensvariation"/>
->>>>>>> Vokabular
     </owl:ObjectProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#endete -->
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#endete -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#endete">
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Datum"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#PoEoL"/>
-=======
+    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#endete">
+        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Datum"/>
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#PoEoL"/>
+    </owl:ObjectProperty>
+    
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#in -->
 
     <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#in">
         <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ort"/>
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#PoEoL"/>
->>>>>>> Vokabular
     </owl:ObjectProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#hatdenAlternativnamen -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#hatdenAlternativnamen">
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Alternativname"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Person"/>
-=======
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#hatdenAlternativnamen -->
+
+    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#hatdenAlternativnamen">
+        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Alternativname"/>
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
+    </owl:ObjectProperty>
+    
+    
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#promotionBei -->
 
     <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#promotionBei">
         <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Promotion"/>
->>>>>>> Vokabular
     </owl:ObjectProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#hatdenHauptnamen -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#hatdenHauptnamen">
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Hauptname"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Person"/>
-=======
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#hatdenHauptnamen -->
+
+    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#hatdenHauptnamen">
+        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Hauptname"/>
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
+	</owl:ObjectProperty>
+	
+	
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#promovierte -->
 
     <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#promovierte">
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
         <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Promotion"/>
->>>>>>> Vokabular
     </owl:ObjectProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#hatdieNamensvariation -->
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#hatdieNamensvariation -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#hatdieNamensvariation">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Name"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Namensvariation"/>
-=======
+    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#hatdieNamensvariation">
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name"/>
+        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Namensvariation"/>
+	</owl:ObjectProperty>
+	
+    
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#starb -->
 
     <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#starb">
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
         <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Tod"/>
->>>>>>> Vokabular
     </owl:ObjectProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#in -->
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#in -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#in">
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Ort"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#PoEoL"/>
-=======
+    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#in">
+        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ort"/>
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#PoEoL"/>
+	</owl:ObjectProperty>
+	
+	
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#studierte -->
 
     <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#studierte">
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
         <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Studium"/>
->>>>>>> Vokabular
     </owl:ObjectProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#promotionBei -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#promotionBei">
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Person"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Promotion"/>
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#promotionBei -->
+
+    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#promotionBei">
+        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Promotion"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#promovierte -->
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#promovierte -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#promovierte">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Person"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Promotion"/>
+    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#promovierte">
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
+        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Promotion"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#starb -->
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#starb -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#starb">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Person"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Tod"/>
+    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#starb">
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
+        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Tod"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#studierte -->
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#studierte -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#studierte">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Person"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Studium"/>
+    <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#studierte">
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
+        <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Studium"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#wurdegeboren -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#wurdegeboren">
-        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Geburt"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Person"/>
-=======
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#wurdegeboren -->
 
     <owl:ObjectProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#wurdegeboren">
         <rdfs:range rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Geburt"/>
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
->>>>>>> Vokabular
+
     </owl:ObjectProperty>
     
 
@@ -313,337 +296,247 @@
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Bemerkung -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Bemerkung">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Information"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Text"/>
-=======
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Bemerkung -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Bemerkung">
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information"/>
+        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
+	</owl:DatatypeProperty>
+	
+	
+	
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Beruf -->
 
     <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Beruf">
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Arbeit"/>
         <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
->>>>>>> Vokabular
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
-
-
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Beruf -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Beruf">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Arbeit"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Text"/>
-        <rdfs:range rdf:resource="&xsd;string"/>
-    </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Bool -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Bool">
-=======
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Bool -->
 
     <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Bool">
->>>>>>> Vokabular
         <rdfs:range rdf:resource="&xsd;boolean"/>
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Ehrungsbezeichnung -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Ehrungsbezeichnung">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Ehrung"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Text"/>
-=======
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ehrungsbezeichnung -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ehrungsbezeichnung">
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ehrung"/>
+        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
+	</owl:DatatypeProperty>
+	
+	
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Fach -->
 
     <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Fach">
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Studium"/>
         <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
->>>>>>> Vokabular
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+    
+
+
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Geschlecht -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Geschlecht">
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
+        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Fach -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Fach">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Studium"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Text"/>
-        <rdfs:range rdf:resource="&xsd;string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Geschlecht -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Geschlecht">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Person"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Text"/>
-        <rdfs:range rdf:resource="&xsd;string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Jahr -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Jahr">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Datum"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Zahl"/>
-=======
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Jahr -->
 
     <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Jahr">
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Datum"/>
         <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zahl"/>
->>>>>>> Vokabular
         <rdfs:range rdf:resource="&xsd;int"/>
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Land/Staat -->
 
-    <owl:DatatypeProperty rdf:about="&Land;Staat">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Ort"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Text"/>
-        <rdfs:range rdf:resource="&xsd;string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Linkbezeichnung -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Linkbezeichnung">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Link"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Text"/>
-=======
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Land/Staat -->
 
     <owl:DatatypeProperty rdf:about="&Land;Staat">
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ort"/>
         <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
->>>>>>> Vokabular
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Monat -->
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Linkbezeichnung -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Monat">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Datum"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Zahl"/>
-=======
+    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Linkbezeichnung">
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Link"/>
+        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
+    </owl:DatatypeProperty>
+    
+    
+    
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Land/Staat -->
+
+    <owl:DatatypeProperty rdf:about="&Land;Staat">
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ort"/>
+        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Monat -->
 
     <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Monat">
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Datum"/>
         <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zahl"/>
->>>>>>> Vokabular
         <rdfs:range rdf:resource="&xsd;int"/>
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Nachname -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Nachname">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Name"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Text"/>
-=======
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Nachname -->
 
     <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Nachname">
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name"/>
         <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
->>>>>>> Vokabular
+
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Stadt -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Stadt">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Ort"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Text"/>
-=======
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Stadt -->
 
     <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Stadt">
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ort"/>
         <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
->>>>>>> Vokabular
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Tag -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Tag">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Datum"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Zahl"/>
-=======
+    
+    
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Tag -->
 
     <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Tag">
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Datum"/>
         <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zahl"/>
->>>>>>> Vokabular
         <rdfs:range rdf:resource="&xsd;int"/>
     </owl:DatatypeProperty>
     
 
-
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Text -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Text">
-=======
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text -->
 
     <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text">
->>>>>>> Vokabular
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Thema -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Thema">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Promotion"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Text"/>
-=======
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Thema -->
 
     <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Thema">
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Promotion"/>
         <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
->>>>>>> Vokabular
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
-
-
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Titel -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Titel">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Person"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Text"/>
-=======
+    
+    
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Titel -->
 
     <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Titel">
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person"/>
         <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
->>>>>>> Vokabular
+
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#URL -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#URL">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Link"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Text"/>
-=======
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#URL -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#URL">
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Link"/>
+        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
+    </owl:DatatypeProperty>
+
+
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Verw.bezirk -->
 
     <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Verw.bezirk">
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ort"/>
         <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
->>>>>>> Vokabular
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Verw.bezirk -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Verw.bezirk">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Ort"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Text"/>
-=======
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Vorname -->
 
     <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Vorname">
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name"/>
         <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Text"/>
->>>>>>> Vokabular
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Vorname -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Vorname">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Name"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Text"/>
-        <rdfs:range rdf:resource="&xsd;string"/>
-    </owl:DatatypeProperty>
     
 
-
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Zahl -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Zahl">
-=======
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zahl -->
 
     <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zahl">
->>>>>>> Vokabular
         <rdfs:range rdf:resource="&xsd;int"/>
     </owl:DatatypeProperty>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#kyrillisch -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#kyrillisch">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Bool"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Name"/>
-        <rdfs:range rdf:resource="&xsd;boolean"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#unvollständig -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#unvollständig">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Bool"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Information"/>
-=======
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#kyrillisch -->
 
     <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#kyrillisch">
         <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Bool"/>
         <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name"/>
->>>>>>> Vokabular
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#unvollständig -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#unvollständig">
+        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Bool"/>
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information"/>
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+
+
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#kyrillisch -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#kyrillisch">
+        <rdfs:subPropertyOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Bool"/>
+        <rdfs:domain rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name"/>
         <rdfs:range rdf:resource="&xsd;boolean"/>
     </owl:DatatypeProperty>
     
@@ -660,156 +553,98 @@
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Alternativname -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Alternativname">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Name"/>
-=======
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Alternativname -->
 
     <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Alternativname">
         <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name"/>
->>>>>>> Vokabular
     </owl:Class>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Arbeit -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Arbeit">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Zeitspanne"/>
-=======
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Arbeit -->
 
     <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Arbeit">
         <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zeitspanne"/>
->>>>>>> Vokabular
     </owl:Class>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Datum -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Datum">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Information"/>
-=======
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Datum -->
 
     <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Datum">
         <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information"/>
->>>>>>> Vokabular
     </owl:Class>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Ehrung -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Ehrung">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Ereigniss"/>
-=======
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ehrung -->
+
+    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ehrung">
+        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ereigniss"/>
+    </owl:Class>
+    
+    
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ereigniss -->
 
     <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ereigniss">
         <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#PoEoL"/>
->>>>>>> Vokabular
     </owl:Class>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Ereigniss -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Ereigniss">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#PoEoL"/>
-=======
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Geburt -->
 
     <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Geburt">
         <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ereigniss"/>
->>>>>>> Vokabular
     </owl:Class>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#GPL -->
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#GPL -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#GPL">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Literatur"/>
-=======
+    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#GPL">
+        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Literatur"/>
+    </owl:Class>
+    
+    
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Hauptname -->
 
     <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Hauptname">
         <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name"/>
->>>>>>> Vokabular
+    </owl:Class>
+    
+
+       
+
+
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Link -->
+
+    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Link">
+        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information"/>
     </owl:Class>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Geburt -->
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Literatur -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Geburt">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Ereigniss"/>
+    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Literatur">
+        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information"/>
+    </owl:Class>
+    
+
+    
+
+
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Namensvariation -->
+
+    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Namensvariation">
+        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Hauptname -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Hauptname">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Name"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Information -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Information"/>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Link -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Link">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Information"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Literatur -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Literatur">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Information"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Name -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Name">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Information"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Namensvariation -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Namensvariation">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Name"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Ort -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Ort">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Information"/>
-=======
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information -->
 
     <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information"/>
@@ -820,128 +655,113 @@
 
     <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name">
         <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information"/>
->>>>>>> Vokabular
     </owl:Class>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Person -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Person">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Information"/>
-=======
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Namensvariation -->
-
-    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Namensvariation">
-        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name"/>
->>>>>>> Vokabular
-    </owl:Class>
-    
-
-
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#PoEoL -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#PoEoL">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Information"/>
-=======
-    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ort -->
-
-    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ort">
-        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information"/>
->>>>>>> Vokabular
-    </owl:Class>
-    
-
-
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Promotion -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Promotion">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Zeitspanne"/>
-=======
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person -->
 
     <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person">
         <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information"/>
->>>>>>> Vokabular
+    </owl:Class>
+        
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Namensvariation -->
+
+    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Namensvariation">
+        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Name"/>
     </owl:Class>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Quelle -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Quelle">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Literatur"/>
-=======
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#PoEoL -->
 
     <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#PoEoL">
         <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information"/>
->>>>>>> Vokabular
+    </owl:Class>
+
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ort -->
+
+    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ort">
+        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information"/>
     </owl:Class>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Studium -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Studium">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Zeitspanne"/>
-=======
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Promotion -->
 
     <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Promotion">
         <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zeitspanne"/>
->>>>>>> Vokabular
+    </owl:Class>
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person -->
+
+    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Person">
+        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information"/>
     </owl:Class>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Tod -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Tod">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Ereigniss"/>
-=======
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Quelle -->
+
+    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Quelle">
+        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Literatur"/>
+    </owl:Class>
+    
+    
+    
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#PoEoL -->
+
+    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#PoEoL">
+        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Information"/>
+    </owl:Class>
+    
+
+
+   
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Promotion -->
+
+    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Promotion">
+        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zeitspanne"/>
+    </owl:Class>
+    
+
+
+    
+    
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Studium -->
 
     <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Studium">
         <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zeitspanne"/>
->>>>>>> Vokabular
     </owl:Class>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Werk -->
+    <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Werk -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Werk">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Literatur"/>
-=======
+    <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Werk">
+        <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Literatur"/>
+    </owl:Class>
+    
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Tod -->
 
     <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Tod">
         <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Ereigniss"/>
->>>>>>> Vokabular
     </owl:Class>
     
 
 
-<<<<<<< HEAD
-    <!-- http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Zeitspanne -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#Zeitspanne">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2013/2/Ontology1363810728406.owl#PoEoL"/>
-=======
+    
+    
+    
     <!-- https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zeitspanne -->
 
     <owl:Class rdf:about="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#Zeitspanne">
         <rdfs:subClassOf rdf:resource="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#PoEoL"/>
->>>>>>> Vokabular
     </owl:Class>
+
+
 </rdf:RDF>
 
 
