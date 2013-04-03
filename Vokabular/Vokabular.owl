@@ -14,7 +14,6 @@
 
 <rdf:RDF xmlns="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#"
      xml:base="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl"
-     xmlns:drw "https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#"
      xmlns:drw="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#"
      xmlns:inLand="https://raw.github.com/flo-1-/SWT13-WB/master/Vokabular/Vokabular.owl#inLand/"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
