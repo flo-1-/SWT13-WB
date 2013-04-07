@@ -9,7 +9,8 @@
 @prefix Land: <http://drw-model.saw-leipzig.de/Land/> .
 @base <http://drw-model.saw-leipzig.de/> .
 
-<http://drw-model.saw-leipzig.de/> rdf:type owl:Ontology .
+<http://drw-model.saw-leipzig.de/> rdf:type owl:Ontology ;
+			rdfs:label "DRW-Model".
 
 
 #################################################################
@@ -566,6 +567,7 @@
 ###  http://drw-model.saw-leipzig.de/Person
 
 :Person rdf:type owl:Class ;
+		rdfs:label "Person";
         
         rdfs:subClassOf :Information .
 
