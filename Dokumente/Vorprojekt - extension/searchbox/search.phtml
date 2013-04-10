@@ -1,0 +1,16 @@
+<?php 
+/* view for the 'search-result'-tab */
+?>
+<?php if (isset($this->queryResult)): ?>
+    <fieldset>
+        <?php if (is_array($this->queryResult)): ?>
+            <?php 
+				// use resultset.phtml (templates/partials/) to display search result
+               	echo $this->partial('partials/resultset.phtml', array('data' => $this->queryResult, 'header' => $this->header, 'urlBase'=>$this->urlBase)); 
+            ?>
+        <?php else: // no result? ?>
+            <pre><?php echo $this->escape($this->queryResult) ?></pre>
+        <?php endif; ?>
+    </fieldset>
+<?php endif; ?>
+</fieldset>
