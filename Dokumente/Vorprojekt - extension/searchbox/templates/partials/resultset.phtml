@@ -1,0 +1,44 @@
+<?php
+
+/**
+ * compare this with the 'resultset partial template' from 
+ * OntoWiki (Jonas Brekle)
+ * 
+ * display query result
+ * 
+ */
+
+$resultCounter = 1;
+?>
+<?php if(!empty($this->data)){ ?>
+	<table class="separated-vertical">
+		<!-- table head-->
+			<tr>
+				<th style="width: 1em">#</th>
+				<!-- resourceUri, Name, yearOfBirth, ... -->
+				<?php foreach ($this->header as $headerField){
+					echo '<th>'.$headerField.'</th>';
+				} ?>
+			</tr>       
+		<?php     	
+			foreach ($this->data as $row): ?>
+			<tr>
+				<!-- increment counter -->
+				<td><?php echo $resultCounter++ . "."?></td>
+				<?php foreach ($row as $field): ?>
+					<td>
+					<?php   
+					    // create link for the resourceUri and set expandable
+						if(substr($field,0,4)=="http"){ 
+							$shorturl = OntoWiki_Utils::contractNamespace($field);                		                		
+							echo '<a class="hasMenu expandable Resource" about="'.$field.'"  href="'.$this->urlBase.'resource/properties/view/?r='.$shorturl.'">'.$field.'</a>';
+						} else { // normal text: Name, yearOfBirth, ...						
+							echo $this->escape($field); //literal
+						}
+					?>
+					</td>
+				<?php endforeach; ?>
+			</tr>
+		<?php endforeach; ?>
+	</table>
+<?php }?>
