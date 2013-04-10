@@ -1,0 +1,9 @@
+<?php /* view for the searchbox -> enter search string */?>
+<form action="<?php echo $this->actionUrl?>" method="post">
+	<p><?php echo $this->searchHint?></p>
+	<!-- input field -> searchAction accsess with getParam('nameOfPerson')-->
+	<input name="nameOfPerson" style="min-width:100%;" >
+	<p></p>
+	<!-- submit form, reload page and call searchAction-->
+	<input class="button submit" type="submit" value="<?php echo $this->startSearch?>">	
+</form>
