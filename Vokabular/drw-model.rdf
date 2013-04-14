@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+﻿<?xml version="1.0" ?>
 
 
 
@@ -35,76 +35,87 @@
 
     
   <owl:Class rdf:about="http://drw-model.saw-leipzig.de/person">
-	  <rdfs:label>person</rdfs:label>
+	  <rdfs:label xml:lang="en">person</rdfs:label>
+	  <rdfs:label xml:lang="de">Person</rdfs:label>
    </owl:Class>
   <owl:Class rdf:about="http://drw-model.saw-leipzig.de/year">
-	  <rdfs:label>year</rdfs:label>
+	  <rdfs:label xml:lang="en">year</rdfs:label>
+	  <rdfs:label xml:lang="de">Jahr</rdfs:label>
    </owl:Class>
   <owl:Class rdf:about="http://drw-model.saw-leipzig.de/place">
-	  <rdfs:label>place</rdfs:label>
+	  <rdfs:label xml:lang="en">place</rdfs:label>
+	  <rdfs:label xml:lang="de">Ort</rdfs:label>
    </owl:Class>
    
    
   <owl:ObjectProperty rdf:about="http://drw-model.saw-leipzig.de/yearOfBirthIs">
-	  <rdfs:label>year of birth</rdfs:label>
-	  <rdfs:comment>associates a person with a year, in which the person was born</rdfs:comment>
+	  <rdfs:label xml:lang="en">year of birth</rdfs:label>
+	  <rdfs:label xml:lang="de">Geburtsjahr</rdfs:label>
+	  <rdfs:comment rdf:datatype="http://ns.ontowiki.net/SysOnt/Markdown">associates a person with a year, in which the person was born</rdfs:comment>
 	  <owl:inverseOf rdf:resource="http://drw-model.saw-leipzig.de/yearOfBirthOf"/>
-      <rdfs:range rdf:resource="http://drw-model.saw-leipzig.de/person"/>
-      <rdfs:domain rdf:resource="http://drw-model.saw-leipzig.de/year"/>
+      <rdfs:domain rdf:resource="http://drw-model.saw-leipzig.de/person"/>
+      <rdfs:range rdf:resource="http://drw-model.saw-leipzig.de/year"/>
    </owl:ObjectProperty>
    
   <owl:ObjectProperty rdf:about="http://drw-model.saw-leipzig.de/yearOfBirthOf">
-	  <rdfs:label>year of birth of</rdfs:label>
-	  <rdfs:comment>associates a year with a person, who was born in this year</rdfs:comment>
+	  <rdfs:label xml:lang="en">year of birth of</rdfs:label>
+	  <rdfs:label xml:lang="de">ist Geburtsjahr von</rdfs:label>
+	  <rdfs:comment rdf:datatype="http://ns.ontowiki.net/SysOnt/Markdown">associates a year with a person, who was born in this year</rdfs:comment>
 	  <owl:inverseOf rdf:resource="http://drw-model.saw-leipzig.de/yearOfBirthIs"/>
-      <rdfs:range rdf:resource="http://drw-model.saw-leipzig.de/year"/>
-      <rdfs:domain rdf:resource="http://drw-model.saw-leipzig.de/person"/>
+      <rdfs:domain rdf:resource="http://drw-model.saw-leipzig.de/year"/>
+      <rdfs:range rdf:resource="http://drw-model.saw-leipzig.de/person"/>
    </owl:ObjectProperty>
    
     <owl:ObjectProperty rdf:about="http://drw-model.saw-leipzig.de/yearOfDeathOf">
-	  <rdfs:label>year of death of</rdfs:label>
-	  <rdfs:comment>associates a year with a person, who died in this year</rdfs:comment>
+	  <rdfs:label xml:lang="en">year of death of</rdfs:label>
+	  <rdfs:label xml:lang="de">ist Todesjahr von</rdfs:label>
+	  <rdfs:comment rdf:datatype="http://ns.ontowiki.net/SysOnt/Markdown">associates a year with a person, who died in this year</rdfs:comment>
 	  <owl:inverseOf rdf:resource="http://drw-model.saw-leipzig.de/yearOfDeathIs"/>
-      <rdfs:range rdf:resource="http://drw-model.saw-leipzig.de/year"/>
-      <rdfs:domain rdf:resource="http://drw-model.saw-leipzig.de/person"/>
+      <rdfs:domain rdf:resource="http://drw-model.saw-leipzig.de/year"/>
+      <rdfs:range rdf:resource="http://drw-model.saw-leipzig.de/person"/>
    </owl:ObjectProperty>
    
     <owl:ObjectProperty rdf:about="http://drw-model.saw-leipzig.de/yearOfDeathIs">
-	  <rdfs:label>year of death</rdfs:label>
-	  <rdfs:comment>associates a year person with a year, in which the person died</rdfs:comment>
+	  <rdfs:label xml:lang="en">year of death</rdfs:label>
+	  <rdfs:label xml:lang="de">Todesjahr</rdfs:label>
+	  <rdfs:comment rdf:datatype="http://ns.ontowiki.net/SysOnt/Markdown">associates a year person with a year, in which the person died</rdfs:comment>
 	  <owl:inverseOf rdf:resource="http://drw-model.saw-leipzig.de/yearOfDeathOf"/>
-      <rdfs:range rdf:resource="http://drw-model.saw-leipzig.de/person"/>
-      <rdfs:domain rdf:resource="http://drw-model.saw-leipzig.de/year"/>
+      <rdfs:domain rdf:resource="http://drw-model.saw-leipzig.de/person"/>
+      <rdfs:range rdf:resource="http://drw-model.saw-leipzig.de/year"/>
    </owl:ObjectProperty>
    
     <owl:ObjectProperty rdf:about="http://drw-model.saw-leipzig.de/birthPlaceIs">
-	  <rdfs:label>birth place</rdfs:label>
-	  <rdfs:comment>associates a person whith a place, where he or she was born</rdfs:comment>
+	  <rdfs:label xml:lang="en">birth place</rdfs:label>
+	  <rdfs:label xml:lang="de">Geburtsort</rdfs:label>
+	  <rdfs:comment rdf:datatype="http://ns.ontowiki.net/SysOnt/Markdown">associates a person whith a place, where he or she was born</rdfs:comment>
 	  <owl:inverseOf rdf:resource="http://drw-model.saw-leipzig.de/birthPlaceOf"/>
-      <rdfs:range rdf:resource="http://drw-model.saw-leipzig.de/person"/>
-      <rdfs:domain rdf:resource="http://drw-model.saw-leipzig.de/place"/>
+      <rdfs:domain rdf:resource="http://drw-model.saw-leipzig.de/person"/>
+      <rdfs:range rdf:resource="http://drw-model.saw-leipzig.de/place"/>
    </owl:ObjectProperty>
    
 	<owl:ObjectProperty rdf:about="http://drw-model.saw-leipzig.de/birthPlaceOf">
-	  <rdfs:label>birth place of</rdfs:label>
-	  <rdfs:comment>associates a place with a person, who was born there</rdfs:comment>
+	  <rdfs:label xml:lang="en">birth place of</rdfs:label>
+	  <rdfs:label xml:lang="de">ist Geburtsort von</rdfs:label>
+	  <rdfs:comment rdf:datatype="http://ns.ontowiki.net/SysOnt/Markdown">associates a place with a person, who was born there</rdfs:comment>
 	  <owl:inverseOf rdf:resource="http://drw-model.saw-leipzig.de/birthPlaceIs"/>
-      <rdfs:range rdf:resource="http://drw-model.saw-leipzig.de/place"/>
-      <rdfs:domain rdf:resource="http://drw-model.saw-leipzig.de/person"/>
+      <rdfs:domain rdf:resource="http://drw-model.saw-leipzig.de/place"/>
+      <rdfs:range rdf:resource="http://drw-model.saw-leipzig.de/person"/>
    </owl:ObjectProperty>
    
    <owl:ObjectProperty rdf:about="http://drw-model.saw-leipzig.de/deathPlaceIs">
-	  <rdfs:label>birth place</rdfs:label>
-	  <rdfs:comment>associates a person whith a place, where he or she died</rdfs:comment>
-	  <owl:inverseOf rdf:resource="http://drw-model.saw-leipzig.de/birthPlaceOf"/>
-      <rdfs:range rdf:resource="http://drw-model.saw-leipzig.de/person"/>
-      <rdfs:domain rdf:resource="http://drw-model.saw-leipzig.de/place"/>
+	  <rdfs:label xml:lang="en">death place</rdfs:label>
+	  <rdfs:label xml:lang="de">Todesort</rdfs:label>
+	  <rdfs:comment rdf:datatype="http://ns.ontowiki.net/SysOnt/Markdown">associates a person whith a place, where he or she died</rdfs:comment>
+	  <owl:inverseOf rdf:resource="http://drw-model.saw-leipzig.de/deathPlaceOf"/>
+      <rdfs:domain rdf:resource="http://drw-model.saw-leipzig.de/person"/>
+      <rdfs:range rdf:resource="http://drw-model.saw-leipzig.de/place"/>
    </owl:ObjectProperty>
    
 	<owl:ObjectProperty rdf:about="http://drw-model.saw-leipzig.de/deathPlaceOf">
-	  <rdfs:label>birth place of</rdfs:label>
-	  <rdfs:comment>associates a place with a person, who died there</rdfs:comment>
-	  <owl:inverseOf rdf:resource="http://drw-model.saw-leipzig.de/birthPlaceIs"/>
+	  <rdfs:label xml:lang="en">death place of</rdfs:label>
+	  <rdfs:label xml:lang="de">ist Todesort von</rdfs:label>
+	  <rdfs:comment rdf:datatype="http://ns.ontowiki.net/SysOnt/Markdown">associates a place with a person, who died there</rdfs:comment>
+	  <owl:inverseOf rdf:resource="http://drw-model.saw-leipzig.de/deathPlaceIs"/>
       <rdfs:range rdf:resource="http://drw-model.saw-leipzig.de/place"/>
       <rdfs:domain rdf:resource="http://drw-model.saw-leipzig.de/person"/>
    </owl:ObjectProperty>
@@ -124,47 +135,30 @@
         <rdfs:domain rdf:resource="http://drw-model.saw-leipzig.de/Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    <owl:DatatypeProperty rdf:about="http://drw-model.saw-leipzig.de/yearOfDeath">
-        <rdfs:label>year of death</rdfs:label>
-        <rdfs:domain rdf:resource="http://drw-model.saw-leipzig.de/Person"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-    </owl:DatatypeProperty>
-
-    <owl:DatatypeProperty rdf:about="http://drw-model.saw-leipzig.de/placeName">
-		<rdfs:label>name of a place</rdfs:label>
-        <rdfs:domain rdf:resource="http://drw-model.saw-leipzig.de/place"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
+ 
     <owl:DatatypeProperty rdf:about="http://drw-model.saw-leipzig.de/labor">
 		<rdfs:label>labor</rdfs:label>
         <rdfs:domain rdf:resource="http://drw-model.saw-leipzig.de/Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    <owl:DatatypeProperty rdf:about="http://drw-model.saw-leipzig.de/numberOfYear">
-		<rdfs:label>number of year</rdfs:label>
-        <rdfs:domain rdf:resource="http://drw-model.saw-leipzig.de/year"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-    </owl:DatatypeProperty>
     
   <drw-model:year rdf:about="http://drw-model.saw-leipzig.de/1935">
-    <drw-model:yearNumber>1935</drw-model:yearNumber>
     <rdfs:label>1935</rdfs:label>
     <drw-model:yearOfBirthOf rdf:resource="http://drw-model.saw-leipzig.de/Elvis" />
   </drw-model:year>
   
   <drw-model:year rdf:about="http://drw-model.saw-leipzig.de/1977">
-    <drw-model:yearNumber>1977</drw-model:yearNumber>
     <rdfs:label>1977</rdfs:label>
     <drw-model:yearOfDeathOf rdf:resource="http://drw-model.saw-leipzig.de/Elvis" />
   </drw-model:year>
   
   <drw-model:place rdf:about="http://drw-model.saw-leipzig.de/Tupelo">
-    <drw-model:placeName>Tupelo</drw-model:placeName>  
+    <rdfs:label>Tupelo</rdfs:label>  
     <drw-model:birthPlaceOf rdf:resource="http://drw-model.saw-leipzig.de/Elvis" />
   </drw-model:place>
   
   <drw-model:place rdf:about="http://drw-model.saw-leipzig.de/Memphis">
-    <drw-model:placeName>Memphis</drw-model:placeName>  
+    <rdfs:label>Memphis</rdfs:label>  
     <drw-model:deathPlaceOf rdf:resource="http://drw-model.saw-leipzig.de/Elvis" />
   </drw-model:place>
   
@@ -178,11 +172,12 @@
     <drw-model:labor>Musician and Actor</drw-model:labor>
     <rdfs:label>Elvis Presley</rdfs:label>
   </drw-model:Person>
+  
+  <rdf:Property rdf:about="http://drw-model.saw-leipzig.de/Property/isFriendOf">
+	<rdfs:comment rdf:datatype="http://ns.ontowiki.net/SysOnt/Markdown">Drückt Freundschaftsbeziehung aus.</rdfs:comment>
+	<rdfs:domain rdf:resource="Person"/>
+	<rdfs:label xml:lang="en">is Friend of</rdfs:label>
+	<rdfs:label xml:lang="de">ist Freund von</rdfs:label>
+  </rdf:Property>
         
   </rdf:RDF>
-
-
-    
-    
-    
-   
