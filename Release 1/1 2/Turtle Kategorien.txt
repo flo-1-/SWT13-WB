@@ -1,0 +1,23 @@
+Vorname
+Nachname
+VornameKyr
+NachnameKyr
+Variationen
+Geburtsdatum
+Geburtsort
+Sterbedatum
+Sterbeort
+Beruf B
+Vater V
+Mutter M
+Ehegatte E
+Ausbildung A
+Nachkommen N
+Lebensstationen B
+Hervorzuhebende Leistungen WL
+Mitgliedschaften M
+Gedruckte Publikationsverzeichnisse GPV
+Werke W
+Quellen Q
+Sekundärliteratur SL
+Portraits P
