@@ -1,0 +1,42 @@
+Woldemar Eck
+.t100g {width:100%; vertical-align:top; text-align:left; font-weight:bold; color: #339966;}
+                 .t100s {width:100%; vertical-align:top; text-align:left; font-weight:bold; color: #110408;}
+                 .t100n {width:100%; vertical-align:top; text-align:left; font-weight:normal; color: #110408;}
+                 .t10 {width:10%; vertical-align:bottom; font-weight:bold; color: #339966;}
+
+                .t90l {width:90%; text-align: left; vertical-align:top; color: #339966;}
+                 .t5s {width:5%; text-align:left; vertical-align:top; font-weight: bold; color: #110408;}
+                .t95ls {width:95%; text-align:left; vertical-align:top; color: #110408;}
+                .t95lk {width:95%; text-align:left; vertical-align:middle; font-weight:normal; font-size:smaller; color: #110408;}
+                .t95lg {width:95%; text-align:left; vertical-align:top; font-weight:bold; color: #339966;}
+                .t90r {width:90%; text-align:right; vertical-align:top; font-weight:bold; color: #339966;}
+
+
+                .inhalt { font-family: "Arial Narrow"; text-align:center;}
+                .fett { font-weight: bold; }
+                .gruen { color: #339966; }
+                .grau  { color: #110408; }
+zurück
+ECK, Woldemar
+ЭKK, Влaдимир Влaдимирoвич / ĖKK, Vladimir Vladimirovič
+Namensvariationen: EECK
+* 1854
+† 1.4.1888, St. Petersburg
+Praktischer Arzt, Leibarzt
+V
+Woldemar Herman(n) (Vladimir Egorovič) (1818-1875), Arzt, Prof. für spezielle Pathologie und Therapie
+M
+Alexandra (Fëdorovna), geb. Zdekauer (1824-1870), Schwester von Nicolaus Theodor von
+ZDEKAUER
+A
+1866-1870 Besuch der Annenschule und 1870(?)-1876 Studium der Medizin an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg, 1888 Dr. med.
+B
+1877-1878 Arzt in der Donauarmee, danach vermutlich praktischer Arzt, 1883 Studienaufenthalt an der Universität Paris bei Jean-Martin CHARCOT (1825-1893), ab 1886 Leibarzt des Großfürsten MICHAIL NIKOLAEVIČ (1832-1909) und dessen Gemahlin, der Großfürstin OL'GA FЁDOROVNA, geb. Prinzessin CÄCILIE AUGUSTE VON BADEN (1839-1891), zugleich Arzt in eigener Privatpraxis.
+Erhielt 1888 den Ehrentitel "Hofrat".
+SL
+• Böhm 1998, 46.
+• Böhm 2003, 447.
+• EAD: Dokument-Id [59701/93963 (27.7.2010)].
+• WBIS RBA: R 521, 122.
+Gedruckte Version in:
+Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 73.

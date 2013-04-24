@@ -11,12 +11,12 @@ Beruf B
 Vater V
 Mutter M
 Ehegatte E
-Ausbildung A
 Nachkommen N
+Ausbildung A
 Lebensstationen B
-Hervorzuhebende Leistungen WL
+Leistungen WL
 Mitgliedschaften M
-Gedruckte Publikationsverzeichnisse GPV
+Publikationsverzeichnisse GPV
 Werke W
 Quellen Q
 Sekundärliteratur SL

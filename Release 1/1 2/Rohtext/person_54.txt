@@ -1,0 +1,46 @@
+Johann Gottlieb Thiemann
+.t100g {width:100%; vertical-align:top; text-align:left; font-weight:bold; color: #339966;}
+                 .t100s {width:100%; vertical-align:top; text-align:left; font-weight:bold; color: #110408;}
+                 .t100n {width:100%; vertical-align:top; text-align:left; font-weight:normal; color: #110408;}
+                 .t10 {width:10%; vertical-align:bottom; font-weight:bold; color: #339966;}
+
+                .t90l {width:90%; text-align: left; vertical-align:top; color: #339966;}
+                 .t5s {width:5%; text-align:left; vertical-align:top; font-weight: bold; color: #110408;}
+                .t95ls {width:95%; text-align:left; vertical-align:top; color: #110408;}
+                .t95lk {width:95%; text-align:left; vertical-align:middle; font-weight:normal; font-size:smaller; color: #110408;}
+                .t95lg {width:95%; text-align:left; vertical-align:top; font-weight:bold; color: #339966;}
+                .t90r {width:90%; text-align:right; vertical-align:top; font-weight:bold; color: #339966;}
+
+
+                .inhalt { font-family: "Arial Narrow"; text-align:center;}
+                .fett { font-weight: bold; }
+                .gruen { color: #339966; }
+                .grau  { color: #110408; }
+zurück
+THIEMANN, Johann Gottlieb
+ТИМАН, Готлиб Иван Карлович / TIMANN, Gotlib Ivan Karlovič
+Namensvariationen: TIEMANN, TIMAN
+* 12.9.1758, Moskau
+† ?
+Arzt
+V
+Karl Gottlieb († 1771), Praktischer Arzt und Chirurg
+M
+Charlotta Helena, geb. Ithimaean
+G
+Vermutlich Bruder von Johann Wilhelm Ludwig
+THIEMANN
+A
+Anfangs Schulbildung im Privatinstitut Johann Bernhard PFUNDHELLERS in Moskau, 1767-1772 Besuch des Moskauer Gymnasiums bei Rektor Johannes Matthias SCHADEN (1731-1797), bei PFUNDHELLER u.a., 1773-1775 Übungen in Chirurgie und Anatomie im Allgemeinen Krankenhaus in Moskau, 1775-1777 Studium bei Anton Alekseevič BARSOV (1730-1791), Dmitrij Sergeevič ANIČKOV (1733-1788), Johannes Joachim Julius ROST (1726-1791) und Johann Gottfried REICHEL († 1778) an der Universität Moskau, 1777-1781 Studium bei Johann Friedrich HILLER (1718-1790), Johann Daniel TITIUS (1729-1796), Johann Matthias SCHROECKH (1733-1808), Georg Rudolph BÖHMER (1723-1803), Christian Friedrich NÜRNBERGER (1744-1795), Georg August LANGGUTH (1711-1782) u.a. und 1781 Dr. med. an der Universität Wittenberg; weitere Daten nicht bekannt.
+W
+• De brassica, puerperis ipso festo amphidromiorum die, in commodum alimentum et salutare simul remedium oblata atque apposita. Wittenberg 1781, XVI S.; darin eigene Vita.
+• De seminum ad sementem praeparatione. Diss. Wittenberg 1781, 47 S.
+Q
+• Universitäts- und Landesbibliothek Sachsen-Anhalt in Halle/Saale, Abt. Sondersammlungen: Sign. Yo 9, f. 126v, f. 139v.
+• Eigene Vita in Latein in: De brassica ... (vgl.
+W
+), XIV-XVI.
+Empfohlene Zitierweise:
+Fischer, Marta: THIEMANN, Johann Gottlieb. In: Personendatenbank zum Vorhaben "Wissenschaftsbeziehungen im 19. Jahrhundert zwischen Deutschland und Russland auf den Gebieten Chemie, Pharmazie und Medizin" bei der Sächsischen Akademie der Wissenschaften zu Leipzig. Online-Ausgabe:
+http://drw.saw-leipzig.de/31014.html
+(2. Mai 2012).

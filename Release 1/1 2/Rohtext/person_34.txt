@@ -1,0 +1,37 @@
+Johann Heinrich Kohl
+.t100g {width:100%; vertical-align:top; text-align:left; font-weight:bold; color: #339966;}
+                 .t100s {width:100%; vertical-align:top; text-align:left; font-weight:bold; color: #110408;}
+                 .t100n {width:100%; vertical-align:top; text-align:left; font-weight:normal; color: #110408;}
+                 .t10 {width:10%; vertical-align:bottom; font-weight:bold; color: #339966;}
+
+                .t90l {width:90%; text-align: left; vertical-align:top; color: #339966;}
+                 .t5s {width:5%; text-align:left; vertical-align:top; font-weight: bold; color: #110408;}
+                .t95ls {width:95%; text-align:left; vertical-align:top; color: #110408;}
+                .t95lk {width:95%; text-align:left; vertical-align:middle; font-weight:normal; font-size:smaller; color: #110408;}
+                .t95lg {width:95%; text-align:left; vertical-align:top; font-weight:bold; color: #339966;}
+                .t90r {width:90%; text-align:right; vertical-align:top; font-weight:bold; color: #339966;}
+
+
+                .inhalt { font-family: "Arial Narrow"; text-align:center;}
+                .fett { font-weight: bold; }
+                .gruen { color: #339966; }
+                .grau  { color: #110408; }
+zurück
+KOHL, Johann Heinrich
+KOЛЬ / KOL'
+* 9./20.5.1775, Dorpat
+† ?
+Chirurg, Herzoglicher Leibarzt
+A
+Besuch der Stadtschule in Dorpat, danach Apothekenlehre in Wolmar, 1795 Provisor-Examen in St. Petersburg, 1795-1798 Provisor in Wolmar, 1798-1804 Studium der Medizin an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg, 1805 Dr. med. an der Universität Dorpat.
+B
+Leibarzt des Herzogs ALEXANDER I. von Württemberg (1771-1833).
+W
+• Animadversiones in aetiologiam hydropis. Dissertation. Dorpat 1805, 22 S.
+Online Ressource
+(4.4.2012).
+SL
+• EAD: Dokument-Id [71374/69478 (17.8.2010)].
+• WBIS DBA: I 687, 296-297; BaBA: I 173, 156-157.
+Gedruckte Version in:
+Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 126.

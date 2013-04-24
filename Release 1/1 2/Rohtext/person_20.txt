@@ -1,0 +1,55 @@
+Alexander von  Obermüller
+.t100g {width:100%; vertical-align:top; text-align:left; font-weight:bold; color: #339966;}
+                 .t100s {width:100%; vertical-align:top; text-align:left; font-weight:bold; color: #110408;}
+                 .t100n {width:100%; vertical-align:top; text-align:left; font-weight:normal; color: #110408;}
+                 .t10 {width:10%; vertical-align:bottom; font-weight:bold; color: #339966;}
+
+                .t90l {width:90%; text-align: left; vertical-align:top; color: #339966;}
+                 .t5s {width:5%; text-align:left; vertical-align:top; font-weight: bold; color: #110408;}
+                .t95ls {width:95%; text-align:left; vertical-align:top; color: #110408;}
+                .t95lk {width:95%; text-align:left; vertical-align:middle; font-weight:normal; font-size:smaller; color: #110408;}
+                .t95lg {width:95%; text-align:left; vertical-align:top; font-weight:bold; color: #339966;}
+                .t90r {width:90%; text-align:right; vertical-align:top; font-weight:bold; color: #339966;}
+
+
+                .inhalt { font-family: "Arial Narrow"; text-align:center;}
+                .fett { font-weight: bold; }
+                .gruen { color: #339966; }
+                .grau  { color: #110408; }
+zurück
+OBERMÜLLER, Alexander von
+OБEРМИЛЛEР, Aлeкcaндр Лeoнтьeвич / OBERMILLER, Aleksandr Leont'evič
+Namensvariationen: OBERMJULLER, OБEРМЮЛЛEР
+* 4./16.10.1828, St. Petersburg
+† 10./22.8.1892, Peterhof, Grabstätte: St. Petersburg, Lutherischer Friedhof Smolenskoe [Familiengrabstätte]
+Militärarzt, Kaiserlicher Leibchirurg
+V
+Ludwig Eberhard (* 1798)
+E
+Marie (Karlovna), geb. Hinrichs (1833-1919)
+N
+Marie (Aleksandrovna), verh. Schwede (* 1861)
+Alexander (Aleksandr Aleksandrovič) (* 1862), Kollegienrat
+Eugen (Evgenij Aleksandrovič) (1863-1916), Oberst
+A
+Besuch des 3. St. Petersburger Gymnasiums, bis 1853 Studium mit dem Abschluss "Arzt" an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg.
+B
+1853-1854 Assistenzarzt im 2. Militärlandhospital in St. Petersburg und zugleich in der Chirurgischen Klinik der MCA, 1854-1855 Assistent Nikolaj Ivanovič PIROGOVs (1810-1881) während der Belagerung von Sevastopol' im Krimkrieg, Assistenzarzt im Militärkrankenhaus in Moskau sowie Chirurg im Feldlazarett in Sestroreck, 1855-1880 Leibarzt des Großfürsten NIKOLAJ NIKOLAEVIČ (1831-1891), 1857 Begleiter der Großfürsten NIKOLAJ NIKOLAEVIČ und MICHAIL NIKOLAEVIČ (1832-1909) im Kaukasus, ab 1863 "Ehrenleibchirurg" und ab 1865 Leibchirurg am Hofe des Zaren ALEKSANDR II. (1818-1881), 1876-1878 Oberarzt des Hauptquartiers im Russisch-türkischen Krieg, 1880-1882 Assistent des Direktors des Hofmedizinalwesens, 1882-1888 Direktor und 1888-1892 Inspektor des Hofmedizinalwesens, außerdem Mitglied des Medizinalrats des Ministeriums des Innern und der Hauptverwaltung des Roten Kreuzes.
+Ihm wurden hohe Ehrentitel und Auszeichnungen zuteil: 1867 "Wirklicher Russischer Staatsrat", 1878 "Geheimrat", 1855 St.-Stanislav-Orden 2. Klasse, 1856 2. Klasse mit Schwertern, 1859 2. Klasse mit der Kaiserkrone und 1873 1. Klasse, 1861 St.-Vladimir-Orden 4. Klasse, 1871 3. Klasse und 1877 2. Klasse, 1864 St.-Annen-Orden 2. Klasse und 1876 1. Klasse, 1882 Weißer-Adler-Orden, 1887 Aleksandr-Nevskij-Orden u.a.
+M
+Verein St. Petersburger Ärzte (1859 Gründer), Russkoe chirurgičeskoe obščestvo Pirogova [Russische chirurgische Pirogov-Gesellschaft] (1882 Gründungsmitglied, Vorsitzender und ab 1892 Ehrenmitglied), Deutscher ärztlicher Verein in St. Petersburg (ab 1878), Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee], Mediko-filantropičeskij komitet [Medizinisch-philanthropisches Komitee] u.a.
+SL
+• Kladbišča Peterburga, 301, Nr. 146.
+• Lejb-chirurg, tajnyj sovetnik A. L. Obermiller. [Anlässlich des 30-jährigen Dienstjubiläums]. Vsemirnaja illjustracija 21 (1879), 429 und 454.
+• Pr-v [Priselkov], V.: A. L. Obermiller [Nekrolog]. Niva. Illjustrirovannyj žurnal literatury i sovremennoj žizni 23 (1892), 1013 und 1015.
+• RBS. Bd. [12]: Obez'janinov - Očkin (1905), 2-3; auch in: WBIS RBA: R 336, 26-31.
+• WBIS RBA: R 336, 26-33.
+P
+• Ivan Ivanovič Matjušin: Alexander von Obermüller [ohne Jahresangabe]. Gravur nach einer Zeichnung von Peter Fëdorovič Borel (1829-1898). Aus: Lejb-chirurg, tajnyj sovetnik A. L. Obermiller (
+SL
+), 429. Abgedruckt in: Fischer 2010, 172.
+• Portrait in: Pr-v (
+SL
+), 1013.
+Gedruckte Version in:
+Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 172-173.

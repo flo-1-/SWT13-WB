@@ -20,6 +20,7 @@ from HTMLParser import HTMLParser
 from drwHelper import openPickle
 from drwHelper import save
 from drwHelper import convertHTMLChars
+from drwHelper import testParser
 
 
 
@@ -70,26 +71,22 @@ class DrwHTMLParser(HTMLParser):
 
 
 
-def parser(feed):
-	"""instantiate the parser and fed it some HTML
-	
-	"""
+def parser(feed):								#Parser instanziieren und HTM übergeben
 	parser = DrwHTMLParser()
 	parser.feed(feed)
 	return parser.myText
 
 
 def main(argv):
-	htmlList = loadHTMLList()				#Laedt die Liste
-	htmlText = getTextOfHTML(htmlList[0])	#oeffnet die erste url aus der Liste
-	htmlText = convertHTMLChars(htmlText)	#nimmt die htmlEntities raus
-	text = parser(htmlText)					#Versuchs Parser
-	save(text, os.getcwd(), "inhaltUnstrukturiert",".txt")	
-#	for url in htmlList:
-##		print htmlList.index(url)
-#		htmlText = getTextOfHTML(url)
-#		htmlText = convertHTMLChars(htmlText)
+	htmlList = loadHTMLList()					#Laedt die Liste
 	
+#	for i in range(3):							#Testlauf mit den ersten urls
+	for i in range(len(htmlList)):				#durchlaufe alle URLs
+#		htmlText = getTextOfHTML(htmlList[i])	#oeffnet die i-te url aus der Liste
+#		htmlText = convertHTMLChars(htmlText)	#nimmt die htmlEntities raus
+#		text = parser(htmlText)					#Versuchs Parser
+#		save(text, os.getcwd()+"/Temp", "person_"+str(i),".txt")
+		testParser(i)	
 
 
 if __name__ == "__main__":

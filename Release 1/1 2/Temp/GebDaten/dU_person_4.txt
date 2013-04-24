@@ -1,0 +1,68 @@
+<vorname>Lev Vasil'evič</vorname>
+<nachname>POPOV</nachname>
+<namenkyr>ПOПOВ, Лeв Вacильeвич</namenkyr>
+<namensvariationen>POPOFF, POPOW, Leo</namensvariationen>
+<geburtsdatum>20.2.1845</geburtsdatum>
+<geburtsort>Siedlung Melechov, Region Černigov</geburtsort>
+† 25.10.1906, St. Petersburg
+Militärarzt, Professor für innere Medizin, Kaiserlicher Leibmedikus
+V
+Vasilij
+A
+Besuch der Geistlichen Lehranstalt in Černigov und des Priesterseminars in Voronež, 1863-1868 Studium und 1871 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg.
+B
+1868-1871 Assistent in der Klinik für innere Medizin von Sergej Petrovič
+BOTKIN
+an der MCA, zugleich Arzt im 2. Militärlandhospital in St. Petersburg, 1871-1872 Regimentsarzt in der Donsk-Armee, im 12. Velikoluckij- und im 144. Kaširskij-Infanterieregiment, 1872-1875 Studienaufenthalte an medizinischen Instituten der Universitäten in Westeuropa, darunter in Deutschland bei Rudolf VIRCHOW (1821-1902) und Ludwig TRAUBE (1818-1876) in Berlin sowie bei Friedrich Daniel von RECKLINGHAUSEN (1833-1910) und Felix HOPPE-SEYLER (1825-1895) in Straßburg, nach der Rückkehr zunächst Arzt im 94. Enisejskij-Infanterieregiment, ab 1875 Dozent am Lehrstuhl für allgemeine Pathologie und Diagnostik der MCA, 1877-1878 Arzt der Leibgarde und des Grenadier-Regiments im Russisch-türkischen Krieg, 1878-1880 Arzt am Militärkrankenhaus in St. Petersburg, 1880(oder 1881)-1882 ao. Professor und 1882-1889 o. Professor am Institut für Therapie der Universität Warschau, 1890-1898 o. Professor für Therapie und Direktor der Klinik für innere Medizin an der MCA, später "Ehrenleibmedikus" und ab 1905 Leibmedikus am Hofe des Zaren NIKOLAJ II. (1868-1918), außerdem beratendes Mitglied des Medizinalrats des Ministeriums des Innern.
+Inhaber des Ehrentitels "Wirklicher Russischer Staatsrat".
+WL
+1870 Untersuchung der Butylsäuregärung im Magen bei Pylorus-Stenose, 1875 Entdeckung der bei Flecktyphus charakteristischen Knötchen-Bildung im Gehirn, Beschreibung einer Reihe von Symptomen bei verschiedenen Herzfehlern, 1891 Beschreibung verschiedener Pulsarten in der linken Arteria radialis bei Mitral-Stenose u.a.
+M
+Obščestvo russkich vračej [Gesellschaft russischer Ärzte] (Vorsitzender), Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee].
+GPV
+Publikationen 1866-1885, in: Zmeev. Bd. 4 (1889), 77; auch in: WBIS RBA: R 376, 261-263.
+W
+• Opyty nad zaraženiem životnych izverženijami cholernych bol'nych. Diss. Sankt-Peterburg 1871, 69 S.
+• Kliničeskie lekcii. Bd. 1-2. Sankt-Peterburg 1895-1896.
+• Vozvratnyj tif. Sankt-Peterburg 1899, 128 S.
+• Po povodu odnogo slučaja miksėdemy, lečennogo preparatami ščitovidnoj železy. Bol'ničnaja gazeta Botkina (1899), 35 S.
+• Pam'jati Rudol'fa Virchova. Bol'ničnaja gazeta Botkina 13 (1902), 22 S.
+• Ob otnositel'noj vremennoj nedostatočnosti polulunnych klapanov aorty. Praktičeskij vrač 1 (1902).
+• Nedostatočnost' polunnych klapanov aorty i 2-stvorčatago klapana. Medicinskij žurnal (1902).
+• O serdečnom uduš'e (asthma cardiale) i srodnych s nim boleznennych pripadkach. Bol'ničnaja gazeta Botkina (1902), 90 S.
+Publikationen in deutscher Sprache
+:*)
+*) Mit Korrekturen und Ergänzungen der Angaben in Čistovič (
+SL
+) zu Titeln, Zeitschriften, Band-, Jahr- oder Seitenzahlen. Zmeev (
+GPV
+) gibt keine Hinweise auf deutsche Publikationen.
+• Ueber die Wirkung des Phosphorwasserstoffs auf das Blut und seine Pigmente, Hämoglobin und Hämatin. Vorläufige Mittheilung. Mit Dr. Koschlakow. Centralblatt für die medizinischen Wissenschaften 5 (1867), 403-405.
+• Das CO-Hämatin. Centralblatt für die medizinischen Wissenschaften 6 (1868), 657-658.
+• Ein Fall von Stenosis pylori mit consecutiver Erweiterung des Magens und Aufstossen von entzündbaren Gasen. Berliner klinische Wochenschrift 7 (1870), 453-455, 466-469, 477-480.
+• Vergleichende Untersuchungen über die Wirkung einiger Arzneistoffe bei der Zuckerruhr. Berliner klinische Wochenschrift 9 (1872), 333-335.
+• Versuche über die Infection von Thieren durch die Ausleerungen Cholerakranker, mit besonderer Beziehung zur Lehre über die Wirkung von Fäulnisproducten. Berliner klinische Wochenschrift 9 (1872), 393-396.
+• Untersuchungen über die Wirkung der Bierhefe und der in der Pasteur'schen Flüssigkeit enthaltenen Organismen auf den thierischen Körper. Berliner klinische Wochenschrift 9 (1872), 513-516.
+• Ein Fall von chronischer Vergiftung mit Zinkoxyddämpfen und Experimente über die Wirkung einiger fermentativer Mittel. Berliner klinische Wochenschrift 10 (1873), 49-52.
+• Ueber die Veränderungen des Muskelgewebes bei einigen Infectionskrankheiten. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 61 (1874), 322-342.
+• Ueber Veränderungen im Gehirn bei Abdominaltyphus und traumatischer Entzündung. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 63 (1875), 421-446.
+• Ueber die Veränderungen im Gehirn des Flecktyphus. Vorläufige Mittheilung. Centralblatt für die medizinischen Wissenschaften 13 (1875), 596-598.
+Ueber die Sumpfgasgährung. Archiv für die gesamte Physiologie des Menschen und der Tiere 10 (1875), 113-146.
+• Ueber die fäulnisswidrigen Mittel und ihre Rolle in der gegenwärtigen Pharmakologie. St. Petersburger medicinische Wochenschrift 1 (1876) 32, 3-5.
+• Ueber die natürliche pathologische Injection der Gallengänge und einige andere, nach der Unterbindung des Ductus choledochus bei Thieren beobachtete pathologische Erscheinungen. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 81 (1880), 524-552.
+• Ueber die Folgen der Unterbindung der Ureteren und der Nierenarterien bei Thieren, im Zusammenhang mit einigen anderen pathologischen Prozessen. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 82 (1880), 40-88.
+• Ueber Veränderungen im Gehirn bei Abdominal- und Flecktyphus und bei traumatischer Entzündung. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 87 (1882), 39-68.
+• Ueber die Verschiedenheit des Pulses in den Radialarterien (pulsus differens) als ein Symptom der Stenose des linken venösen Ostium. In: Festschrift, Rudolf Virchow gewidmet zur Vollendung seines 70. Lebensjahres. Berlin 1891 (Internationale Beiträge zur wissenschaftlichen Medicin 3), 333-347. (Popovs Unterschrift zum Artikel für Rudolf Virchows 70. Geburtstag 1891 abgedruckt in: Fischer 2010, 189).
+• Relative Insuffizienz der Tricuspidalklappe. Berliner klinische Wochenschrift 30 (1893), 465-467, 501-503, 523-526.
+• Hypertrophische Leberzirrhose mit chronischem Icterus, Pseudoleukaemie, I. Therapeutische Wochenschrift 11 (1895), 957-968; ~ II: Ebd., 985-993.
+SL
+• Čistovič, Nikolaj Jakovlevič: Pamjati L'va Vasil'eviča Popova. Obzor ego naučnych trudov. Russkij vrač 5 (1906) 46, 1429-1432 (Mit unvollständigen Angaben der im Text verteilten Publikationen in deutschen Zeitschriften).
+• [Nekrolog] Istoričeskij vestnik 106 (1906) 12, 1148-1149.
+• Professora MCA/VMA, 118.
+• WBIS RBA: R 376, 261-266.
+P
+Foto aus: Professora MCA/VMA (
+SL
+). Abgedruckt in: Fischer 2010, 186.
+Gedruckte Version in:
+Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 186-189.

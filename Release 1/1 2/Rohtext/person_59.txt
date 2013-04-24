@@ -1,0 +1,49 @@
+Wilhelm August (von) Büttig
+.t100g {width:100%; vertical-align:top; text-align:left; font-weight:bold; color: #339966;}
+                 .t100s {width:100%; vertical-align:top; text-align:left; font-weight:bold; color: #110408;}
+                 .t100n {width:100%; vertical-align:top; text-align:left; font-weight:normal; color: #110408;}
+                 .t10 {width:10%; vertical-align:bottom; font-weight:bold; color: #339966;}
+
+                .t90l {width:90%; text-align: left; vertical-align:top; color: #339966;}
+                 .t5s {width:5%; text-align:left; vertical-align:top; font-weight: bold; color: #110408;}
+                .t95ls {width:95%; text-align:left; vertical-align:top; color: #110408;}
+                .t95lk {width:95%; text-align:left; vertical-align:middle; font-weight:normal; font-size:smaller; color: #110408;}
+                .t95lg {width:95%; text-align:left; vertical-align:top; font-weight:bold; color: #339966;}
+                .t90r {width:90%; text-align:right; vertical-align:top; font-weight:bold; color: #339966;}
+
+
+                .inhalt { font-family: "Arial Narrow"; text-align:center;}
+                .fett { font-weight: bold; }
+                .gruen { color: #339966; }
+                .grau  { color: #110408; }
+zurück
+BÜTTIG, Wilhelm August (von)
+БИТТИГ, Вильгeльм Ивaнoвич / BITTIG, Vil'gel'm Ivanovič (fon)
+Namensvariationen: BJUTTIG, БЮТТИГ, Vil'gel'm Avgust, Вильгeльм Aвгуcт
+* 3./15.2.1809, Nickern bei Dresden
+† 14./26.4. oder 2.4. 1879, St. Petersburg, Grabstätte: Pavlovsk bei St. Petersburg
+Praktischer Arzt, Leibarzt
+A
+Schulbesuch in Lockwitz bei Dresden, 1833-1836 Studium der Medizin und 1836 Dr. med. an der Universität Leipzig [nicht in Russland].
+B
+Kam als junger Arzt nach Kurland, ging später nach St. Petersburg, wurde Ordinator am Maksimilian- oder [Deutschen] Alexander-Hospital (?), ab 1870 "Ehrenleibchirurg" am Hofe des Zaren ALEKSANDR II. (1818-1881) und zugleich bis 1879 Leibarzt des Großfürsten KONSTANTIN NIKOLAEVIČ (1827-1892).
+Inhaber des Ehrentitels "Wirklicher Russischer Staatsrat".
+Vermachte zusammen mit seinem Neffen Ernst Leberecht BÜTTIG Mittel für den Bau des 1884 errichteten Schulhauses in Nickern. Nach ihm ist auch die Büttigstraße in seinem Geburtsort, heute ein Dresdner Stadtteil, benannt.
+M
+Deutscher ärztlicher Verein in St. Petersburg (1864).
+W
+• De phlebitide puerperarum uterina ac femorali. Diss. Leipzig 1836, 28 S. (Titelblatt abgebildet in: Fischer 2010, 62 [Exemplar der Universitätsbibliothek Leipzig, Signatur: Gbh. 945-a(K)]).
+• Factische Berichtigungen gegen Herrn Dr. Wreden's Antikritik. St. Petersburger medicinische Zeitschrift 9 (1865), 308-317.
+Q
+• Universitätsarchiv Leipzig, Matrikel zwischen 1825 und 1889, Signatur 1: Rektor B 53.
+• [Todesanzeige.] St. Petersburger medicinische Wochenschrift 4 (1879), 130.
+SL
+• EAD: Dokument-Id [1289/1386 (23.7.2010)].
+• Peterburgskij nekropol'. Bd. 1 (1912), 359.
+P
+• Foto von Bernd Walther und Hans Reinecke (1977): Dr. med. von Büttig (19. Jahrhundert, Künstler unbekannt). Öl auf Leinwand. Städtische Galerie Dresden 1933/25. Quelle: Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden (SLUB), Abt. Deutsche Fotothek, df_hauptkatalog_0188866. Abgedruckt in: Fischer 2010, 61.
+•
+Online Ressource
+(4.4.2012).
+Gedruckte Version in:
+Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 61-62.

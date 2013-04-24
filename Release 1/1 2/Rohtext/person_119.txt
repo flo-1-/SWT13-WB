@@ -1,0 +1,51 @@
+Georg Nikolaus Weikard
+.t100g {width:100%; vertical-align:top; text-align:left; font-weight:bold; color: #339966;}
+                 .t100s {width:100%; vertical-align:top; text-align:left; font-weight:bold; color: #110408;}
+                 .t100n {width:100%; vertical-align:top; text-align:left; font-weight:normal; color: #110408;}
+                 .t10 {width:10%; vertical-align:bottom; font-weight:bold; color: #339966;}
+
+                .t90l {width:90%; text-align: left; vertical-align:top; color: #339966;}
+                 .t5s {width:5%; text-align:left; vertical-align:top; font-weight: bold; color: #110408;}
+                .t95ls {width:95%; text-align:left; vertical-align:top; color: #110408;}
+                .t95lk {width:95%; text-align:left; vertical-align:middle; font-weight:normal; font-size:smaller; color: #110408;}
+                .t95lg {width:95%; text-align:left; vertical-align:top; font-weight:bold; color: #339966;}
+                .t90r {width:90%; text-align:right; vertical-align:top; font-weight:bold; color: #339966;}
+
+
+                .inhalt { font-family: "Arial Narrow"; text-align:center;}
+                .fett { font-weight: bold; }
+                .gruen { color: #339966; }
+                .grau  { color: #110408; }
+zurück
+WEIKARD, Georg Nikolaus
+BEЙKAPT, Eгoр Никoлaeвич / VEJKART, Egor Nikolaevič
+Namensvariationen: WEIKART, WEICHARD, VEJKARDT, BEЙKAPД, BEЙKAPДT
+* 6.3.1756, Römershag in Franken
+† 7./19.6.1810, St. Petersburg
+Hofarzt, Leibmedikus
+V
+Johann Nikolaus (1719-1796), Gastwirt
+M
+Sabina Franziska, geb. Kluberdanz (1719-1758)
+G
+Adam Melchior Weikard (1742-1803), Hof- und Leibarzt, Philosoph
+Anna Sidonia, verh. Merz, Mutter von Johann(es) Jakob Balthasar
+Merz
+E
+Maria (Sophie?) (Karlovna), geb. Amburger (1776-1855)
+N
+Sophie (Egorovna), verh. Poggenpohl (1798-1879)
+Georg Karl (Egor Egorovič) (1800-1865?), Stabskapitän, zuletzt Zollbeamter
+Alexander (Egorovič) (1804-1855), Chef des Dienstkommandos im Außenministerium
+A
+Besuch des Gymnasiums in Fulda, ab 1770 Studium der Medizin und 1776 Dr. med. (vermutlich ohne schriftliche Dissertation) an der Bischöflichen Universität Fulda, 1782 Zulassung zur ärztlichen Praxis in Russland.
+B
+Ab 1777 Weiterbildung und danach bis 1782 praktischer Arzt in Paris, 1782 Arzt des Grafen Andrej Petrovič ŠUVALOV (1744-1789) und dessen Ehefrau während ihrer Reise von Paris nach St. Petersburg, danach ihr Hausarzt in St. Petersburg, ab 1784 Hofarzt, März bis Mai 1800 behandelnder Arzt des erkrankten Generals Aleksandr Vasil'evič SUVOROV (1729-1800) in Kobrin, ab 1809 Leibmedikus am Hofe des Zaren ALEKSANDR I. (1777-1825).
+Inhaber der russischen Ehrentitel "Kollegienrat" (1797) und "Staatsrat" (1799).
+M
+Anglijskij klub [Englischer Club in St. Petersburg] (1787-1806).
+SL
+• Amburger, Erik: Deutsche in Staat, Wirtschaft und Gesellschaft Russlands. Die Familie Amburger in St. Petersburg 1770-1920. Wiesbaden 1986, 69-76, 198, 269.
+• EAD: Dokument-Id [62602/62162 und 1037255 (13.8.2010)].
+Gedruckte Version in:
+Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 269.

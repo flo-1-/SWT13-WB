@@ -1,0 +1,51 @@
+Johann Heinrich (von) Eckhoff
+.t100g {width:100%; vertical-align:top; text-align:left; font-weight:bold; color: #339966;}
+                 .t100s {width:100%; vertical-align:top; text-align:left; font-weight:bold; color: #110408;}
+                 .t100n {width:100%; vertical-align:top; text-align:left; font-weight:normal; color: #110408;}
+                 .t10 {width:10%; vertical-align:bottom; font-weight:bold; color: #339966;}
+
+                .t90l {width:90%; text-align: left; vertical-align:top; color: #339966;}
+                 .t5s {width:5%; text-align:left; vertical-align:top; font-weight: bold; color: #110408;}
+                .t95ls {width:95%; text-align:left; vertical-align:top; color: #110408;}
+                .t95lk {width:95%; text-align:left; vertical-align:middle; font-weight:normal; font-size:smaller; color: #110408;}
+                .t95lg {width:95%; text-align:left; vertical-align:top; font-weight:bold; color: #339966;}
+                .t90r {width:90%; text-align:right; vertical-align:top; font-weight:bold; color: #339966;}
+
+
+                .inhalt { font-family: "Arial Narrow"; text-align:center;}
+                .fett { font-weight: bold; }
+                .gruen { color: #339966; }
+                .grau  { color: #110408; }
+zurück
+ECKHOFF, Johann Heinrich (von)
+ЭKГOФ, Иoгaн-Гeнриx / ĖKGOF, Iogan-Genrich (fon)
+Namensvariationen: ECKHOF
+* 3.11.1750, Goldingen
+† 21.7.1810, Mitau (?)
+Praktischer Arzt, Herzoglicher Leibarzt
+V
+Heinrich († 1767), Apotheker und Ratsherr
+M
+Marie Luise, geb. Wäber († nach 1782)
+E
+Benigna Gottlieb, geb. Huhn († 1849)
+N
+Karoline, verh. von Ockel
+Johann Otto (1793-1826), Praktischer, Militär- und Badearzt
+A
+Erster Unterricht durch privaten Hauslehrer, ab 1769 Studium anfangs der Philosophie an der Universität Halle an der Saale, ab 1770 der Anatomie, Physiologie und Chirurgie in Berlin, danach Abschluss des Medizinstudiums und 1773 Dr. med. in Halle.
+B
+1773-1790 Praktischer Arzt in Goldingen, danach 1790-1793 praktischer Arzt, 1793-1797 Stadt- und Landphysikus und zeitweise Leibarzt des Herzogs von Kurland Peter von BIRON (1724-1800) in Mitau, 1798 Operateur und ab 1798 Accoucheur bei der Kurländischen Medizinalverwaltung.
+Wurde 1800 mit dem russischen Titel "Hofrat" geehrt.
+WL
+Beschrieb als Erster die Schwefelquelle von Bad Baldohn in Kurland und stellte in 13 Punkten das Verhalten des Wassers gegenüber verschiedenen Reagenzien dar.
+M
+Gosudarstvennaja medicinskaja kollegija v Peterburge [Staatliches Medizinisches Kollegium in St. Petersburg] (1802 Ehrenmitglied), Moskovskoe obščestvo estestvoispytatelej [Moskauer Gesellschaft der Naturforscher] (ab 1806), Deutschsprachige Freimaurerloge "Peter zur Wahrheit".
+W
+• De causis sterilitatis non absolutis in utroque sexu. Dissertation. Halle an der Saale 1773, 23 S.
+• Beschreibung des Baldohnschen und Barbernschen Mineral-Wassers nebst einer Anweisung zum innerlichen und äußerlichen Gebrauch derselben. Mitau 1795, 6 + 64 S. Titelblatt abgedruckt in: Fischer 2010, 75.
+SL
+• Iodko, Olga V.: Die Rolle der Deutschen bei der Beschreibung und Erforschung des Kurortes Bad Baldohn in Kurland. In: Regine Pfrepper, Ingrid Kästner, Dietrich von Engelhardt (Hgg.): Von Samuel Gottlieb Gmelins Reise durch Russland bis zum Niedergang der Apothekerfamilie Poehl. Aachen 2001 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaften 4), 133-144.
+• WBIS DBA: I 266, 209-214; 1428, 27; II 308, 460; BaBA: I 72, 324-327; RBA: R 521, 93-94.
+Gedruckte Version in:
+Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 74-75.

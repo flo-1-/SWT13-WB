@@ -1,0 +1,45 @@
+Edgar Karl Ernst Bohl
+.t100g {width:100%; vertical-align:top; text-align:left; font-weight:bold; color: #339966;}
+                 .t100s {width:100%; vertical-align:top; text-align:left; font-weight:bold; color: #110408;}
+                 .t100n {width:100%; vertical-align:top; text-align:left; font-weight:normal; color: #110408;}
+                 .t10 {width:10%; vertical-align:bottom; font-weight:bold; color: #339966;}
+
+                .t90l {width:90%; text-align: left; vertical-align:top; color: #339966;}
+                 .t5s {width:5%; text-align:left; vertical-align:top; font-weight: bold; color: #110408;}
+                .t95ls {width:95%; text-align:left; vertical-align:top; color: #110408;}
+                .t95lk {width:95%; text-align:left; vertical-align:middle; font-weight:normal; font-size:smaller; color: #110408;}
+                .t95lg {width:95%; text-align:left; vertical-align:top; font-weight:bold; color: #339966;}
+                .t90r {width:90%; text-align:right; vertical-align:top; font-weight:bold; color: #339966;}
+
+
+                .inhalt { font-family: "Arial Narrow"; text-align:center;}
+                .fett { font-weight: bold; }
+                .gruen { color: #339966; }
+                .grau  { color: #110408; }
+zurück
+BOHL, Edgar Karl Ernst
+БOЛЬ, Эдгaр Гeoргиeвич / BOL', Ėdgar Georgievič
+Namensvariationen: Ėduard, Эдуaрд
+* 22.1./3.2.1867, Walk
+† nach 1912
+Praktischer Arzt, Herzoglicher Leibarzt
+V
+Georg, Kaufmann
+M
+Ottilie, geb. Ehmann
+A
+1879-1885 Besuch des Landesgymnasiums in Fellin, 1886-1892 Studium der Medizin an der Universität Dorpat (bzw. ab 1893 Jur'ev), 1894 Dr. med.
+B
+1892-1897 Assistent an der Chirurgischen Universitätsklinik in Dorpat/Jur'ev, 1897-1899 Arzt im Evangelischen Krankenhaus und 1899-1900 im Deutschen Alexander-Hospital in St. Petersburg, ab 1900 Leibarzt der Herzöge von Mecklenburg-Strelitz in Oranienbaum bei St. Petersburg, 1904-1905 Arzt der 4. Einheit P[etr] von Kaufmans (1857-1926) im Rot-Kreuz-Lazarett in Sljudjanka in Sibirien während des Russisch-Japanischen Krieges.
+M
+Verein St. Petersburger Ärzte (seit 1898).
+W
+• Studien zur Lehre vom Mechanismus der Schädelfracturen. Dissertation. Jurjew 1894, 72 S.
+Volltext
+(1.3.2012)
+SL
+• EAD: Dokument-Id [2527/2494 (22.7.2010)].
+• Kaufman, P[ëtr Michajlovič] fon: Krasnyj krest v tylu armii v japonskuju kompaniju 1904-1905 godov. Bd. 1: Sibirskij raion, Teil 1. S.-Peterburg 1909, 367.
+• WBIS BaBA: I 38, 54; RBA: R 60, 350.
+Gedruckte Version in:
+Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 37.

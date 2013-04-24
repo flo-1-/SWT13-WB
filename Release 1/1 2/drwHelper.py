@@ -102,9 +102,7 @@ def printWhatItIs(structure, level=0):
 	return text
 
 
-#????????????????????????
 #Schrift konvertieren
-#????????????????????????
 
 def convertHTMLChars(text):
 	"""Converts an text with htmlEntities to utf-8
@@ -114,7 +112,7 @@ def convertHTMLChars(text):
 	You have to append it manual, please.
 	
 	"""
-	text = text.decode('unicode-escape') # Macht, wenn der Test ein str ist ein unicode daraus
+	text = text.decode('unicode-escape') # Umwandlung von string in unicode
 	pattern = '&#\d{2,4};' #Patten fuer Re \d sind nur Zahlen {2,4} Anzahl der Zahlen (2 bis 4)
 	while re.search(pattern,text):
 		nextHTMLEntity = re.search(pattern,text).group()
@@ -162,8 +160,110 @@ def convertHTMLChars(text):
 	
 	return text
 	
+def testParser(i):
+
+	
+	#delZeilen(i)
+	#splitNamen(i)
+	#datenUmw(i)
+	sterDatenUmw(i)
+
+def sterDatenUmw(i):
+	# Daten öffnen
+	f = open(os.getcwd()+"/Temp/GebDaten/dU_person_"+str(i)+".txt",'r')
+	text = f.read()
+	f.close()
+
+	######################################
+
+	#Text mit gesplitteten Namen speichern	
+	f = open(os.getcwd()+"/Temp/SterDaten/sU_person_"+str(i)+".txt",'w')  
+	f.write(text)
+	f.close()
+
+def datenUmw(i):
+	#oA Daten öffnen
+	f = open(os.getcwd()+"/Temp/Namen_Split/sN_person_"+str(i)+".txt",'r')
+	text = f.read()
+	f.close()
+
+	#Geburtsort und Datum splitten
+	zeilen = text.splitlines(True)
+	z = -1
 	
 	
+	#Zeile mit * am Anfang ermitteln
+	for k in range(7):
+		if (str(zeilen[k])[:1] == "*"):
+			z = k
+			break
+	
+	if (z == -1):
+		print "Fehler! Datei enthaelt kein * vor Zeile 7"
+	else:
+		if (str(zeilen[z]).find(",") != -1 ):																	#wenn Komma vorhanden ist
+			gebDatum = (str(zeilen[z])[2:(str(zeilen[z]).find(","))])											#	schreibe Datum und Ort
+			gebOrt = (str(zeilen[z])[(str(zeilen[z]).find(",")+2):-1])
+			zeilen[z] = "<geburtsdatum>"+gebDatum+"</geburtsdatum>\n<geburtsort>"+gebOrt+"</geburtsort>\n"
+			text = "".join(zeilen[:])
+		elif ((str(zeilen[z]).find("1") != -1) or (str(zeilen[z]).find("0") != -1)):							#wenn kein Komma, aber Zahlen vorhanden sind
+			gebDatum = (str(zeilen[z])[1:]).strip()																#	schreibe nur Datum
+			zeilen[z] = "<geburtsdatum>"+gebDatum+"</geburtsdatum>\n"
+			text = "".join(zeilen[:])
+		else:																									#wenn kein Komma und keine Zahlen vorhanden sind
+			gebOrt = (str(zeilen[z])[1:]).strip()																#	schreibe nur Ort
+			zeilen[z] = "<geburtsort>"+gebOrt+"</geburtsort>\n"
+			text = "".join(zeilen[:])
+
+
+	#Text mit gesplitteten Namen speichern	
+	f = open(os.getcwd()+"/Temp/GebDaten/dU_person_"+str(i)+".txt",'w')  
+	f.write(text)
+	f.close()
+	
+def splitNamen(i):
+	#oA Daten öffnen
+	f = open(os.getcwd()+"/Temp/Ohne_Anfang/oA_person_"+str(i)+".txt",'r')
+	text = f.read()
+	f.close()
+
+	#Namen splitten
+	nachname = text[0:(text.find(","))]
+	vorname = text[(text.find(",")+2):(text.find("\n"))]
+	zeilen = text.splitlines(True)
+	text = "".join(zeilen[1:])
+	text = ("<vorname>"+vorname+"</vorname>\n<nachname>"+nachname+"</nachname>\n") + text
+	
+	#namekyr
+	zeilen = text.splitlines(True)
+	zeilen[2] = "<namenkyr>"+str(zeilen[2])[:-1]+"</namenkyr>\n"
+	text = "".join(zeilen[:])
+	
+	#Namensvariation
+	zeilen = text.splitlines(True)
+	if (str(zeilen[3])[:5] == "Namen"):
+		zeilen[3] = "<namensvariationen>"+str(zeilen[3])[19:-1]+"</namensvariationen>\n"
+		text = "".join(zeilen[:])
+	
+	#Text mit gesplitteten Namen speichern	
+	f = open(os.getcwd()+"/Temp/Namen_Split/sN_person_"+str(i)+".txt",'w')  
+	f.write(text)
+	f.close()
+
+	
+def delZeilen(i):
+	#rohdaten öffnen
+	f = open(os.getcwd()+"/Rohtext/person_"+str(i)+".txt",'r')
+	text = f.read()
+	f.close()
+	
+	zeilen = text.splitlines(True)
+	text = "".join(zeilen[19:])
+	
+	#Text ohne Anfang speichern	
+	f = open(os.getcwd()+"/Temp/Ohne_Anfang/oA_person_"+str(i)+".txt",'w')  
+	f.write(text)
+	f.close()
 
 def main(argv):
 	pass
