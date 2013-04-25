@@ -1,0 +1,75 @@
+<vorname>Ferdinand Justus Christian (von)</vorname>
+<nachname>LODER</nachname>
+<namenkyr>ЛOДEР, Xриcтиaн Ивaнoвич / LODER, Christian Ivanovič</namenkyr>
+<namensvariationen>Ioanovič, Иoaнoвич</namensvariationen>
+<geburtsdatum>28.2./11.3.1753</geburtsdatum>
+<geburtsort>Riga</geburtsort>
+<sterbedatum>4./16.4.1832</sterbedatum>
+<sterbeort>Moskau, Grabstätte: Friedhof Vvedenskoe (abgedruckt in: Fischer 2010, 148). Siehe auch</sterbeort>
+<beruf>Professor für Anatomie, Chirurgie und Geburtshilfe, Kaiserlicher Leibarzt</beruf>
+<vater>Johann(es) (1687-1775), Geistlicher und Lyzeumsdirektor in Riga</vater>
+<mutter>Helene, geb. Cappel</mutter>
+<ehegatte>1. Wilhelmine Dorothea Victoria, geb. Roederer (1756-1791)
+2. Charlotte Luise Aug., geb. Richter (1773-1847)</ehegatte>
+<nachkommen>Johanna
+Eduard (1786-1812), Professor der Medizin
+Bertha (* 1796)
+August (1804-1810)</nachkommen>
+<ausbildung>1769-1773 Besuch des Lyzeums in Riga, ab 1773 Studium der Medizin und 1777 Dr. med. et chir. an der Universität Göttingen, 1779 Dr. phil. an der Universität Jena.</ausbildung>
+<lebensstationen>1778-1803 Professor und viermal Prorektor an der Universität Jena, 1782-1783 Fortbildungsreisen als Hörer von Vorlesungen und Hospitant bei Operationen in Kliniken in Frankreich, England und in den Niederlanden, zugleich ab 1781 Leibarzt des Herzogs von Sachsen-Weimar CARL AUGUST (1757-1828), außerdem 1782 Stadtphysikus in Jena, 1803-1807 Professor für Anatomie an der Universität Halle, 1808-1809 Leibarzt FRIEDRICH WILHELMS III. von Preußen (1770-1840) während dessen Exil in Memel und in Königsberg, ab 1809 in St. Petersburg und Eröffnung einer eigenen Arzt-Praxis, 1810 Ernennung zum Leibarzt des Zaren ALEKSANDR I. (1777-1825), zugleich 1810-1812 praktischer Arzt in Moskau, 1812 Gründer der Militärhospitäler und Verwundetenlazarette im Gouvernement Rjazan', 1813-1817 Direktor des Militärhospitals in Moskau, 1818-1831 Ehrenprofessor und ab 1819 Lehrstuhl für Anatomie an der Universität Moskau, zugleich Dozent in der Moskauer Abteilung der Mediko-chirurgischen Akademie (MCA), außerdem ab 1812 Mitglied des Medizinalrats des Ministeriums des Innern.
+Inhaber hoher Ehrentitel und Auszeichnungen, darunter 1782 "Preußischer Hofrat", 1799 "Preußischer Geheimer Hofrat", 1803 "Preußischer Geheimrat", 1809 preußisches Adelsdiplom, 1810 "Wirklicher Russischer Staatsrat", "Wirklicher russischer Geheimrat", 1812 St.-Annen-Orden 2. Klasse mit Brillanten, 1827 Ritter des Preußischen Roten Adler-Ordens 2. Klasse, 1831 "Russischer Geheimrat", Großkreuz des St.-Vladimir-Ordens 2. Klasse.
+Ihm posthum zuteil gewordene Ehrungen: 1836 Enthüllung seiner Marmorbüste im Anatomischen Kabinett der Universität Moskau, heute im Historischen Museum der Medizinischen Akademie Moskau aufgestellt (abgedruckt in: Fischer 2010, 148), seit 1997 Loder-Stipendium an der Medizinischen Fakultät der Friedrich-Schiller-Universität Jena, Loderstraße in Jena.</lebensstationen>
+<leistungen>Galt an der Wende zum 19. Jahrhundert als einer der bedeutendsten Anatomen Deutschlands, führte in die Theorie der Chirurgie einige Erkenntnisse in der Behandlung der Verrenkungen, der Wassersucht, des Mundhöhlenkrebses, der Polypen u.a. ein. Zu seinen Verdiensten zählt auch die Anwendung und Befürwortung des Alanson'schen Lappenschnitts bei Amputationen.
+1779 Gründer des Accouchierhauses in Jena, Gründer und Leiter des Naturalienkabinetts in Jena, 1806 Gründer eines Krankenhauses und des Chirurgisch-gynäkologischen Instituts in Halle, 1820 Gründer des Anatomischen Instituts und der Sammlung der anatomischen Präparate an der Universität Moskau, 1828 Gründer der Anstalt für künstliche Mineralwässer in Moskau.
+Herausgeber des
+Journal für die Chirurgie, Geburtshülfe und gerichtliche Arzneykunde
+1 (1797)-4 (1801/1806).</leistungen>
+M
+Königliche Societät der Wissenschaften zu Göttingen, Churfürstlich Mayntzische Academie nützlicher Wissenschaften [später Akademie gemeinnütziger Wissenschaften] zu Erfurt (ab 1779), St. Petersburgskaja Imperatorskaja akademija nauk [St. Petersburger Kaiserliche Akademie der Wissenschaften] (Ehrenmitglied ab 1794) u.a.
+GPV
+Publikationen 1772-1826, in: Recke, Johann Friedrich von, Napiersky, Carl Eduard: Allgemeines Schriftsteller- und Gelehrten-Lexikon der Provinzen Livland, Esthland und Kurland. Bd. 3. Mitau 1831, 93-97; Nachträge und Fortsetzungen. Bd. 2. Mitau 1861, 21; auch in: WBIS DBA: I 774, 286-291.
+W
+• Descriptio anatomica baseos cranii humani iconibus illustrata. Diss. med. Göttingen 1777.
+• Anatomisches Handbuch. Jena 1788; 2. Aufl.: Osteologie und Syndesmologie. Jena 1800; lateinische Ausgabe u. d. T.: Elementa anatomiae humani corporis. Bd. 1: Osteologia, Syndesmologia, Myologia. Moskau, Riga, Dorpat 1823, 572 S.
+• Anfangsgründe der medicinischen Anthropologie und der Stats-Arzneykunde. Jena 1791, 581 S.; 2. Aufl. Weimar 1793, 782 S.; 3. Aufl. Weimar 1800, 674 S.
+• Anatomische Tafeln zur Beförderung der Kenntniss des menschlichen Körpers. Tabulae anatomicae ad illustrandam humani corporis fabricam. Weimar 1803, 182 Bl.
+• Reč' o pol'ze anatomii ... na otkrytie v Imperatorskom Moskovskom universitete anatomičeskogo teatra 1819 goda nojabrja 10go dnja. Moskva 1819, 21 S.; lateinisch: Oratio de inauguratione novi Theatri anatomici X Novembris 1819 publice habita. Moskau 1819, 25 S.
+• O prigotovlenii iskustvennych mineral'nych vod po metode doktora Struve v Dresdene i proėkt zavedenija podobnych vod v Moskve. Moskva 1825, 15 S.
+Q
+• Rossijskij gosudarstvennyj istoričeskij archiv, Sankt-Peterburg [Russisches Staatliches Historisches Archiv, St. Petersburg]: РГИА Ф. 733, оп. 28, д. 287, лл. 1-145.
+• Central'nyj gosudarstvennyj istoričeskij archiv Sankt-Peterburga [Staatliches Historisches Zentralarchiv zu St. Petersburg]: ЦГИА СПб Ф. 418, оп. 81, д. 2361, лл. 7-14, оп. 116, д. 43, оп. 127, д. 26, оп. 335, д. 1; Ф. 459, оп. 1, д. 3133, лл. 8-9об; д. 3165; д. 3654, лл. 6-90; Ф. 733, оп. 28, д. 287, лл. 8-9.
+• Preußisches Staatsarchiv Berlin (ehemals Merseburg), Historische Abteilung II: Nr. 21395, Bl. 139-142.
+• Reč', proiznesennaja 21. dek. 1836 g. v den' otkrytija bjusta pokojnogo lejb-medika Ch. I. Lodera. Moskva 1837, 11 S.
+SL
+• ADB. Bd. 19 (1884), 76-79.
+• Bočarov, V. Ja., Gončarov, N. I.: Iz naučnogo nasledija Ch. I. Lodera. Archiv anatomii, gistologii i ėmbriologii 77 (1979), 107-109.
+• EAD: Dokument-Id [72802/72490 (18.8.2010)].
+• Klinger, Gottwald: Zum 250. Geburtstag des Anatomen, Chirurgen und Geburtshelfers Justus Christian Loder (1753-1832). Akademie gemeinnütziger Wissenschaften zu Erfurt, Jahrbuch 2003 (2004), 22-27.
+• Kublik, Steffen, Westphalen, Gerlinde Gräfin von: Justus Christian Loder (1753-1832). Anatom, Chirurg und kaiserlich-russischer Leibarzt. Großbodungen 2003 (Bodunger Beiträge 4), 38 S.
+• Müller-Dietz, Heinz E.: Ärzte zwischen Deutschland und Russland. Lebensbilder zur Geschichte der medizinischen Wechselbeziehungen. Stuttgart, Jena, New York 1995 (Medizin in Geschichte und Kultur 19), 72-79.
+• NDB. Bd. 15 (1987), 7-10.
+• Nemcy Rossii 2004, 355-356.
+• Petrov, Fëdor Aleksandrovič: Nemeckie professora v Moskovskom universitete [1755-1900]. Moskva 1997, 133-140.
+• Salaks, Juris, Müller-Dietz, Heinz E.: Neue Beiträge zur Loder-Forschung: Die Herkunft und Jugend von Justus Christian von Loder (1753-1832). In: Ingrid Kästner (Hg.): Deutsch-russische Beziehungen in der Medizin des 18. und 19. Jahrhunderts. Aachen 2000 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaft 1), 35-46.
+• Volkov/Kulikova 2003 a, 142-143.
+• Volkov/Kulikova 2003 b, 284-285.
+• WBIS DBA: I 774, 278-293; III 573, 273, 276-279; BaBA: I 210, 196-208; RBA: R 288, 457-458.
+P
+• Johann Daniel Laurens d. J. (um 1770-nach 1832): Justus Christian von Loder [ohne Jahresangabe]. Kupferstich nach einem Gemälde von Johann Friedrich August Tischbein (1750-1812). Goethe-Museum Düsseldorf / Anton-und-Katharina-Kippenberg-Stiftung. (Wiedergabe mit freundlicher Genehmigung und Scan zugesandt am 14.1.2010 sowie am 20.7.2012). Abgedruckt in: Fischer 2010, 144. Siehe auch Exemplar in der Bibliotheca Palatina, Universitätsbibliothek Heidelberg, Slg. P 0998.
+Online Ressource
+(4.4.2012).
+• Johann Gotthard Müller (1747-1830): Justus Christian von Loder (1801). Kupferstich nach einem Gemälde von 1798 von Johann Friedrich August Tischbein (1750-1812). Goethe-Museum Düsseldorf, Raum IV (Naturwissenschaften), Bild 39 (Wiedergabe mit freundlicher Genehmigung, Scan zugesandt am 14.1.2010). Abgedruckt in: Fischer 2010, 149 (Tafel VII); auch in: Kublik (
+SL
+), Abb. 2, S. 5. Siehe auch
+online Ressource
+(4.4.2012).
+• Ivan Petrovič Vitali (1794-1855): Justus Christian von Loder (1836). Marmorbüste. Historisches Museum der Medizinischen Akademie Moskau. Aus: Volkov/Kulikova 2003 a (
+SL
+), 142. Abgedruckt in: Fischer 2010, 148. Siehe auch
+online Ressource
+(4.4.2012).
+• Portrait [Lithographie] in: Müller-Dietz (
+SL
+), 73.
+Gedruckte Version in:
+Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 144-149.

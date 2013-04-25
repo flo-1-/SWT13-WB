@@ -162,21 +162,206 @@ def convertHTMLChars(text):
 	
 def testParser(i):
 
-	
 	#delZeilen(i)
 	#splitNamen(i)
 	#datenUmw(i)
-	sterDatenUmw(i)
+	#sterDatenUmw(i)
+	#beruf(i)
+	#vater(i)
+	kateg(i)
+
+def kateg(i):
+	# Daten öffnen
+	f = open(os.getcwd()+"/Temp/Vater/vA_person_"+str(i)+".txt",'r')
+	text = f.read()
+	f.close()
+	
+	text = positionen(text, "M")
+	text = positionen(text, "E")
+	text = positionen(text, "N")
+	text = positionen(text, "A")
+	text = positionen(text, "B")
+	text = positionen(text, "WL")
+	"""
+	text = positionen(text, "M")
+	text = positionen(text, "GPV")
+	text = positionen(text, "W")
+	text = positionen(text, "Q")
+	text = positionen(text, "SL")
+	text = positionen(text, "P")
+	"""
+	
+	#Text speichern	
+	f = open(os.getcwd()+"/Temp/Rest/rE_person_"+str(i)+".txt",'w')  
+	f.write(text)
+	f.close()
+
+def positionen(text, kat):
+	#text in zeilen aufspalten
+	zeilen = text.splitlines(True)
+	z_start = -1
+	z_end = -1
+	
+	#Zeile mit Kategorie am Anfang ermitteln
+	for u in range(len(zeilen)):
+		if (str(zeilen[u]) == kat+"\n"):
+			z_start = u
+			break
+	
+	if (z_start == -1):
+		print "Kategorie "+kat+" in "+zeilen[0][5:-6]+" nicht gefunden"
+	else:
+		for p in range(z_start+1, len(zeilen)):
+			if ((str(zeilen[p])[1:] == "\n") or (str(zeilen[p])[2:] == "\n") or (str(zeilen[p])[3:] == "\n")):
+				z_end = p
+				break
+		
+		tempV = ""
+		
+		for q in range((z_start+1), (z_end)):
+			tempV += zeilen[q]
+			zeilen[q] = ""
+		
+		if ((kat == "M") and (("A\n" in text[z_start:]) or ("B\n" in text[z_start:]) or ("WL\n" in text[z_start:]))):
+			zeilen[z_start] = "<mutter>"+tempV[:-1]+"</mutter>\n"
+		elif kat == "E":
+			zeilen[z_start] = "<ehegatte>"+tempV[:-1]+"</ehegatte>\n"
+		elif kat == "N":
+			zeilen[z_start] = "<nachkommen>"+tempV[:-1]+"</nachkommen>\n"
+		elif kat == "A":
+			zeilen[z_start] = "<ausbildung>"+tempV[:-1]+"</ausbildung>\n"
+		elif kat == "B":
+			zeilen[z_start] = "<lebensstationen>"+tempV[:-1]+"</lebensstationen>\n"
+		elif kat == "WL":
+			zeilen[z_start] = "<leistungen>"+tempV[:-1]+"</leistungen>\n"
+		elif ((kat == "M") and (("A\n" in text[:z_start]) or ("B\n" in text[:z_start]) or ("WL\n" in text[:z_start]))):
+			zeilen[z_start] = "<mitgliedschaften>"+tempV[:-1]+"</mitgliedschaften>\n"
+		elif kat == "GPV":
+			zeilen[z_start] = "<publikationsverzeichnisse>"+tempV[:-1]+"</publikationsverzeichnisse>\n"
+		elif kat == "W":
+			zeilen[z_start] = "<werke>"+tempV[:-1]+"</werke>\n"
+		elif kat == "Q":
+			zeilen[z_start] = "<quellen>"+tempV[:-1]+"</quellen>\n"
+		elif kat == "SL":
+			zeilen[z_start] = "<sekundärliteratur>"+tempV[:-1]+"</sekundärliteratur>\n"
+		elif kat == "P":
+			zeilen[z_start] = "<portraits>"+tempV[:-1]+"</portraits>\n"
+		else:
+			print "Fehler: Kein Text geschrieben!"
+		
+	text = "".join(zeilen[:])
+		
+	return text
+
+def vater(i):
+	# Daten öffnen
+	f = open(os.getcwd()+"/Temp/Beruf/bR_person_"+str(i)+".txt",'r')
+	text = f.read()
+	f.close()
+	
+	#text in zeilen aufspalten
+	zeilen = text.splitlines(True)
+	z_start = -1
+	z_end = -1
+	
+	#Zeile ohne < am Anfang ermitteln
+	for u in range(len(zeilen)):
+		if (str(zeilen[u])[:1] != "<"):
+			z_start = u
+			break
+	
+	if (z_start == -1):
+		print "Fehler 01!"
+	elif ((zeilen[z_start][:1] == "V")):
+		for p in range(z_start+1, len(zeilen)):
+			if ((str(zeilen[p])[1:] == "\n") or (str(zeilen[p])[2:] == "\n") or (str(zeilen[p])[3:] == "\n")):
+				z_end = p
+				break
+		
+		tempV = ""
+		
+		for q in range((z_start+1), (z_end)):
+			tempV += zeilen[q]
+			zeilen[q] = ""
+			
+		zeilen[z_start] = "<vater>"+tempV[:-1]+"</vater>\n"
+		text = "".join(zeilen[:])
+		
+				
+	#Text mit vater speichern	
+	f = open(os.getcwd()+"/Temp/Vater/vA_person_"+str(i)+".txt",'w')  
+	f.write(text)
+	f.close()
+
+def beruf(i):
+	# Daten öffnen
+	f = open(os.getcwd()+"/Temp/SterDaten/sU_person_"+str(i)+".txt",'r')
+	text = f.read()
+	f.close()
+	
+	#text in zeilen aufspalten
+	zeilen = text.splitlines(True)
+	z = -1
+	
+	#Zeile ohne < am Anfang ermitteln
+	for u in range(15):
+		if (str(zeilen[u])[:1] != "<"):
+			z = u
+			break
+	
+	if (z == -1):
+		print "Fehler! Datei enthaelt kein < vor Zeile 15"
+	else:
+		if ((zeilen[z][:6] == "Online") or (zeilen[z][:6] == "online")):
+			tempBer = zeilen[z+2][:-1].strip()
+			zeilen[z+1] = ""
+			zeilen[z+2] = ""
+			zeilen[z] = "<beruf>"+tempBer+"</beruf>\n"
+			text = "".join(zeilen[:])
+		else:
+			zeilen[z] = "<beruf>"+zeilen[z][:-1].strip()+"</beruf>\n"
+			text = "".join(zeilen[:])
+			
+	
+	#Text mit beruf speichern	
+	f = open(os.getcwd()+"/Temp/Beruf/bR_person_"+str(i)+".txt",'w')  
+	f.write(text)
+	f.close()
 
 def sterDatenUmw(i):
 	# Daten öffnen
 	f = open(os.getcwd()+"/Temp/GebDaten/dU_person_"+str(i)+".txt",'r')
 	text = f.read()
 	f.close()
+	
+	#text in zeilen aufspalten
+	zeilen = text.splitlines(True)
+	z = -1
+	
+	#Zeile mit † am Anfang ermitteln
+	for u in range(7):
+		if (str(zeilen[u])[:1] != "<"):
+			z = u
+			break
+	
+	if (z == -1):
+		print "Fehler! Datei enthaelt kein † vor Zeile 7"
+	else:
+		if (str(zeilen[z]).find(",") != -1 ):
+			sterDatum = (str(zeilen[z])[4:(str(zeilen[z]).find(","))])	
+			sterOrt = (str(zeilen[z])[(str(zeilen[z]).find(",")+2):-1])
+			zeilen[z] = "<sterbedatum>"+sterDatum+"</sterbedatum>\n<sterbeort>"+sterOrt+"</sterbeort>\n"
+			text = "".join(zeilen[:])
+		elif ((str(zeilen[z]).find("1") != -1) or (str(zeilen[z]).find("0") != -1)):	
+			sterDatum = (str(zeilen[z])[4:-1])	
+			zeilen[z] = "<sterbedatum>"+sterDatum+"</sterbedatum>\n"
+			text = "".join(zeilen[:])
+		else:		
+			sterOrt = (str(zeilen[z])[4:-1])
+			zeilen[z] = "<sterbeort>"+sterOrt+"</sterbeort>\n"
+			text = "".join(zeilen[:])
 
-	######################################
-
-	#Text mit gesplitteten Namen speichern	
+	#Text mit sterbedaten speichern	
 	f = open(os.getcwd()+"/Temp/SterDaten/sU_person_"+str(i)+".txt",'w')  
 	f.write(text)
 	f.close()
@@ -216,7 +401,7 @@ def datenUmw(i):
 			text = "".join(zeilen[:])
 
 
-	#Text mit gesplitteten Namen speichern	
+	#Text mit geburtsdaten speichern	
 	f = open(os.getcwd()+"/Temp/GebDaten/dU_person_"+str(i)+".txt",'w')  
 	f.write(text)
 	f.close()

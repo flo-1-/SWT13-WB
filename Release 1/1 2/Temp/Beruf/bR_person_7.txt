@@ -1,0 +1,38 @@
+<vorname>Johann Friedrich (von)</vorname>
+<nachname>PERSON</nachname>
+<namenkyr>ПEРCOН, Ивaн Ивaнoвич / PERSON, Ivan Ivanovič (fon)</namenkyr>
+<geburtsdatum>12./23.8.1797</geburtsdatum>
+<geburtsort>St. Petersburg</geburtsort>
+<sterbedatum>10./22.10.1867</sterbedatum>
+<sterbeort>St. Petersburg</sterbeort>
+<beruf>Praktischer Arzt, Medizinalinspektor, Ehrenleibmedikus</beruf>
+V
+Johann Heinrich (1759-1830), Schmiedemeister
+M
+Margarethe Elisabeth, geb. Geyer
+E
+Henriette Marie, geb. Frischmann (1806-1869)
+N
+Friedrich Julius (Ivanovič) (1836-1892) [?]
+Carl Georg (Ivanovič) (1836-1890) [?]
+A
+1805-1813 Besuch des deutschen Petri-Gymnasiums in St. Petersburg, 1813-1817 Studium und 1835 Dr. med. an der Mediko-chirurgischen Akademie (MCA) St. Petersburg.
+B
+1817 Ordinator im Obuchov-Krankenhaus in St. Petersburg, danach vier Jahre Studienaufenthalte an Universitäten in Westeuropa, nach der Rückkehr in St. Petersburg als praktischer Arzt in der Reichsbank, im Münzhof und im Findelhaus beschäftigt, 1832-1863 behandelnder Arzt im Petri-Waisenhaus, zugleich 30 Jahre in der Lehranstalt für Taubstumme tätig, bereits vor 1863 Assistent des Medizinalinspektors und 1863-1867 Medizinalinspektor der "Institutionen der Zarin Marija", ab 1864 "Ehrenleibmedikus" am Hofe des Zaren ALEKSANDR II. (1818-1881) und Mitglied des Medizinalrats des Ministeriums des Innern, außerdem zeitweise Konsultant im Maksimilian-Krankenhaus.
+Erhielt die Ehrentitel "Wirklicher Russischer Staatsrat" (1849) und "Geheimrat" (1865), 1877 wurde an der MCA ein jährliches Person-Stipendium eingerichtet.
+WL
+Auf seine Initiative hin wurden in den St. Petersburger Zivilkrankenhäusern viele Umgestaltungen und Verbesserungen eingeführt, u.a. wissenschaftliche Ärzte-Beratungen, Ämter der Prosektoren, Anwendung der Mikroskopie und von Laboruntersuchungen zur Erkennung von Krankheiten, Einführung der künstlichen Beatmung.
+Außerdem beteiligte sich P. an der Ausarbeitung zahlreicher medizinischer Schutzmaßnahmen, insbesondere gegen Infektionskrankheiten.
+M
+Deutscher ärztlicher Verein (ab 1835), Deutsche Akademie der Naturforscher Leopoldina (ab 1856), Mediko-filantropičeskij komitet [Mediko-philanthropisches Komitee] (ab 1862).
+W
+Disquisitiones sterilitatis muliebris. S.-Peterburg 1835, 90 S.
+SL
+• Amburger 1966, 155.
+• Böhm 2003, 486, Akte pn3-388.
+• EAD: Dokument-Id [61772/60632 und 10441136 (9.8.2010)].
+• Gennadi. Bd. 3 (1876), 123.
+• RBS. Bd. [13]: Pavel, prepodobnyj - Petr (Ilejka) (1902), 571-572; auch in: WBIS RBA: R 359, 7-11.
+• WBIS RBA: R 359, 7-12.
+Gedruckte Version in:
+Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 184-185.

@@ -1,0 +1,38 @@
+<vorname>Johann Georg Gottfried (von)</vorname>
+<nachname>DOPPELMAIER</nachname>
+<namenkyr>ДOППEЛЬMEЙEР, Ивaн / DOPPEL'MEJER, Ivan</namenkyr>
+<namensvariationen>DOPPELMAIR, DOPPELMAYR, DOPPELMEIER</namensvariationen>
+<geburtsdatum>11.11.1753</geburtsdatum>
+<geburtsort>Hof</geburtsort>
+<sterbedatum>28.3.1826</sterbedatum>
+<sterbeort>Narva</sterbeort>
+<beruf>Praktischer Arzt, Hofarzt</beruf>
+V
+Johann Siegmund, Stadtapotheker
+M
+Catharina Dorothea, geb. Herdeg
+E
+Karoline Sophie, geb. von Schlammersdorf, verw. von Schirnding (1750?-1823)
+A
+1764-1771 Besuch des Gymnasiums in Hof, 1771-1776 Studium der Medizin an der Universität Jena (?) und an der Universität Erlangen, zeitweise praktische Übungen in Wien, 1776 Dr. med. in Erlangen.
+B
+1776-1783 Praktischer Arzt in Schwarzenbach an der Saale bei Hof, 1783 oder 1784 Auswanderung nach Russland und dort als Arzt zugelassen, zunächst bei der Armee angestellt, danach Hausarzt bei der Familie DEMIDOV in Moskau, ab 1799 Hofarzt, 1799-1803 Stadtphysikus in St. Petersburg, 1803-1810 im Auftrag der Universität Dorpat als "Korrespondent" in Deutschland mit Aufenthalten in Coburg, Heidelberg, Leipzig und Mannheim, 1810-1812 Stadtphysikus in Moskau, danach im Landesinneren als Lazarettarzt angestellt, lebte zuletzt als praktischer Arzt in Narva.
+Inhaber des russischen Ehrentitels "Kollegienrat" (ab 1799), des Adelstitels sowie des Gold- und Rosenkreuzerordens.
+M
+Deutsche Gesellschaft zu Erlangen (1773).
+W
+• De difficili in observationes anatomicas epicrisi. Commentatio 5. Diss. Erlangen 1776, 38 S.
+• [Anonym, wird aber Doppelmaier zugeschrieben, vgl. auch Briefe an Jean Paul, Kommentare] Abhandlung und Bemerkungen über die vom Herrn Generalchirurgus Theden in Berlin bekannt gemachte Spiesglastinktur von einem Schüler aus der Gesellschaft wahrer und ächter Naturforscher. Amsterdam 1783, 45 S.
+• Außerdem Herausgeber einer Sammlung russischer Volkslieder von 1803 und 1814.
+Q
+• Gesamtkirchenverwaltung Hof:
+- Geburtseintrag 1753/151: "Johann Georg Gottfriedt, Dit. Herrn Johann Siegmundt Doppelmayer Die Mutter Frau Catharina Dorothea, eine gebohrene Herdegin, Liebes Söhnl. Ist gebohren Sonntag den 11. November, getauft Dienstag den 12.[?] dito."
+- Heiratseintrag der Eltern: " D 1744/142 Dit. Herr Johann Sigmund DoppelMayer Bürger und StadtApothecker allhier, sato: Dit. Herrn Johann Gabriel DoppelMayers, der römisch kayserlichen Academie Not. Caesarius .-. in gleichem der Kayserlichen Russischen, wie auch Der Königl. Englischen, und Königlich Preußischen Societeten, der Wissenschafften Mitglied und Professoris Matheseos, in Nürnberg ehel. Einiger Sohn, Mitt Jungfer Catharina Dorothea Herdegin, H. Georg Friederich Herdegen, gewesenen Kauf und Handelsmann in Culmbach hinterlassener ehel. Ältester Tochter ledigen Stands Werden Auf gnädigst ergangnen Hochfürstlichen Befehl Einmahl Vor alle mahl Proclamiert und werden in Bayreuth den 3. December Copuliert Wird Ihnen hier dreymahl zusammen geschlagen entrichten alle Jahre Steuher in H. Johann Adam Trögers Freytags Predigers Wöchnerei."
+• Brief an Jean Paul. Schwarzenbach, nach dem 4. und vor dem 14. April 1783.
+SL
+• EAD: Dokument-Id [62415/61975 (27.7.2010)].
+• Frick, Karl R. H.: Die Erleuchteten. Gnostisch-theosophische und alchemistisch-rosenkreuzerische Geheimgesellschaften bis zum Ende des 18. Jahrhunderts. Wiesbaden 2003, 338.
+• Paulus, Jörg: Der Enthusiast und sein Schatten. Literarische Schwärmer- und Philisterkritik. Berlin, New York 1998, 151-152.
+• WBIS DBA: I 248, 254; I 248, 279-280, 282-284; II 286, 54; BaBA: II 53, 40.
+Gedruckte Version in:
+Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 71-72.

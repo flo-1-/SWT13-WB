@@ -1,0 +1,31 @@
+<vorname>Ivan Pavlovič</vorname>
+<nachname>KOROVIN</nachname>
+<namenkyr>KOРOВИН, Ивaн Пaвлoвич</namenkyr>
+<namensvariationen>KOROWIN, I. (Joh.)</namensvariationen>
+<geburtsdatum>1843</geburtsdatum>
+<sterbedatum>25.8.1908</sterbedatum>
+<beruf>Kinderarzt, Ehrenleibmedikus, Leib-Pädiater</beruf>
+<vater>Pavel</vater>
+<ausbildung>Besuch des Priesterseminars in Perm', anschließend Studium der Medizin zunächst in Kazan', danach bis 1870 in St. Petersburg an der Mediko-chirurgischen Akademie (MCA) und 1874 Promotion zum Dr. med.</ausbildung>
+<lebensstationen>1870-1896 Assistent am Lehrstuhl für Kinderkrankheiten bei Nikolaj Ivanovič BYSTROV (1841-1906) in der Kinderklinik bzw. (ab 1874) am Klinischen Michail-Krankenhaus des Baronet Wyllie an der MCA, 1876 Studienaufenthalt im Ausland, vermutlich auch in Deutschland, außerdem später auch Leiter der Studentenausbildung in der Kinderklinik des Baronet-Wyllie-Krankenhauses, Oberarzt in der Kinderklinik am Nikolaj-Militärkrankenhaus, zugleich Kinderarzt in eigener Privatpraxis in St. Petersburg sowie zuerst "Ehrenleibmedikus" und ab 1905 Leib-Pädiater am Hofe des Zaren NIKOLAJ II. (1868-1918).</lebensstationen>
+<leistungen>Seine Dissertation Zur Frage des Gebrauchs der Stärkenahrung bei Brustkindern war eine der ersten Studien über die Physiologie der Verdauung und des Stoffwechsels im frühen Kindesalter in Russland.</leistungen>
+W
+• O fermentativnom vlijanii na krachmal' nastoev pancreas i parotis u grudnych detej. Medicinskij vestnik (1873), 13 ff.
+• O fermentirujuščej sposobnosti vydelenij polosti rta i eja diastatičeskoj sposobnosti, u novoroždennych i grudnych detej, različnych vozrastov. Medicinskij vestnik (1873), 16 ff.
+• O fermentativnoj dejatel'nosti kišečnych ispražnenij u novoroždennych. Medicinskij vestnik (1873), 226 ff.
+• Ueber die fermentative Wirkung des pankreatischen Saftes und der Glandula Parotis von Neugeborenen und Brustkindern auf Stärke. Centralblatt für die medicinischen Wissenschaften 11 (1873), 261-262.
+• Ueber die Absonderung des Speichels und seine distatische Eigenschaft bei Neugeborenen und Säuglingen. Centralblatt für die medicinischen Wissenschaften 11 (1873), 305-307.
+• K voprosu ob upotreblenii krachmalistoj pišči grudnymi det'mi. Diss. S.-Peterburg 1874, 47 S.
+• Zur Frage über Assimilation der stärkehaltigen Speise bei Säuglingen. Jahrbuch für Kinderheilkunde und physische Erziehung N.F. 8 (1875), 381-416.
+• Po Rusi. Zdorov'e (1881) Nr. 153-158.
+• Außerdem Berichte in Protokoly zasedanij Obščestva russkich vračej 1872-1873.
+SL
+• [Nekrolog.] Istoričeskij vestnik 114 (1908) 10, 373-374.
+• Šengelidze, V.: Pamjati Ivana Pavloviča Korovina. Russkij vrač 7 (1908), 1202-1203.
+• Zmeev. Bd. 3 (1888), 162; auch in: WBIS RBA: R 250, 87.
+P
+Foto aus: Šengelidze (
+SL
+), 1202, Abgedruckt in: Fischer 2010, 127.
+Gedruckte Version in:
+Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 127-128.

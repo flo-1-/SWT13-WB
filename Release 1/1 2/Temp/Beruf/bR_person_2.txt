@@ -1,0 +1,60 @@
+<vorname>Johann Georg von</vorname>
+<nachname>RÜHL</nachname>
+<namenkyr>РЮЛЬ, Ивaн Фëдoрoвич / RJUL', Ivan Fëdorovič fon</namenkyr>
+<namensvariationen>Iogann Georg, Иoгaнн Гeoрг</namensvariationen>
+<geburtsdatum>21.5.1768 [nicht 20./31.5.1769]</geburtsdatum>
+<geburtsort>Dohremuisch bei Marienburg</geburtsort>
+<sterbedatum>17./29.12.1846 [nicht 29.12.1846/10.1.1847]</sterbedatum>
+<sterbeort>Sankt Petersburg, Grabstätte: Lutherischer Friedhof Volkovo (abgedruckt in: Fischer 2010, 220).</sterbeort>
+<beruf>Militärarzt, Hofchirurg, Leibmedikus</beruf>
+V
+Friedrich Ludwig (1736-1792?), Arzt, Kaiserlicher Hofchirurg
+M
+Katharina Dorothea, geb. Heitmann
+G
+Otto Friedrich Paul (1764-1835), Propst, Konsistorialrat
+E
+1. [Name unbekannt]
+2. Evdokija (Avdot'ja) Sergeevna (1785-1848)
+N
+Aleksej (* 1794)
+Emilie (Emilija Ivanovna), verh. von Arpshoven (1795[oder 1802]-1863)
+Vera (Ivanovna), verh. Wyllie (1811-1893)
+A
+Bis 1784 Privatunterricht vom Vater, 1784-1787 medizinische Ausbildung im Mediko-chirurgischen Institut, dem sog. Kalinkin-Institut, in St. Petersburg mit dem Abschluss "Praktischer Medico-Chirurg", 1792 Dr. med. et chir. an der Universität Erfurt [nicht in Erlangen].
+B
+1787-1788 Ordinator im Obuchov-Krankenhaus in St. Petersburg, 1788-1790 Arzt der Schiffsflotte im Russisch-schwedischen Krieg, mit Aufenthalten u.a. in Kopenhagen, wo er während der Winterpause der Flotte 1788 an der dortigen Universität Vorlesungen bei Frederik Christian WINSLØW (1752-1811), Christian Gottlieb KRATZENSTEIN [russ. Krazenštejn, nicht Kostenštejn] (1723-1795) und Johann Clemens TODE (1736-1806) hörte, 1790-1793 Stabsarzt im Generallandhospital in St. Petersburg und 1793-1794 in Moskau, 1794-1798 Arzt im Preobraženskij-Leibgarde-Regiment, 1798-1802 Junior-Hofchirurg, ab 1802 Hofchirurg des Zarenhofs sowie am Hofe der Großfürstin EKATERINA PAVLOVNA (1788-1819), 1804-1805 Leibarzt der Zarin MARIJA FЁDOROVNA, geb. SOPHIE DOROTHEE VON WÜRTTEMBERG (1759-1828), 1805-1806 Chefarzt der Wolhynischen Armee im Russisch-österreichisch-französischen Krieg, u.a. in der Schlacht bei Austerlitz, ab 1806 Leibarzt der Kaiserlichen Familie und Aufseher der Krankenhäuser der Erziehungs- und Wohltätigkeitsanstalten, ab 1810 Leibchirurg und 1823-1828 erneut Leibarzt der Zarin MARIJA FЁDOROVNA, ab 1823 Mitglied des Medizinalrats des Ministeriums des Innern, 1828-1846 Medizinalinspektor der "Institutionen der Zarin Marija", 1832 Gründer und ab 1835 Kurator des Krankenhauses "Aller Leidtragenden" in St. Petersburg.
+Inhaber der russischen Ehrentitel "Hofrat" (1799), "Kollegienrat" (1800), "Staatsrat" (1808), "Wirklicher Russischer Staatsrat" (1817), "Geheimrat" (1825), "Wirklicher Russischer Geheimrat" (1843) sowie zahlreicher Auszeichnungen, darunter 1806 St.-Vladimir-Orden 4. Klasse und 1821 Großkreuz 2. Klasse, 1819 Preußischer Roter-Adler-Orden, 1821 St.-Annen-Orden 1. Klasse mit der Kaiserkrone, 1837 Weißer-Adler-Orden und Medaille anlässlich des 50-jährigen Dienstjubiläums, 1842 Aleksandr-Nevskij-Orden.
+WL
+Spielte eine bedeutende Rolle in der öffentlichen Gesundheitsfürsorge im Russischen Zarenreich, war 1831 Mitorganisator der medizinischen Maßnahmen während der Choleraepidemie,1 Reorganisator der psychiatrischen Betreuung, Autor von Statuten des Krankenhauses "Aller Leidtragenden", Stifter einiger Preise, z.B. der "I. F. Rühl-Prämie" für gute Leistungen von Absolventen der Feldscherschulen, 1818 Entwicklung einer Unterschenkel-Prothese, 1835 Erfinder der Couveuse = der "Ruehlschen Wiege" (Inkubator für zu früh geborene Kinder).
+M
+Mediko-chirurgičeskaja akademija [Mediko-chirurgische Akademie] St. Petersburg (1813 korrespondierendes und 1815 Ehrenmitglied), Mediko-filantropičeskij komitet [Mediko-philanthropisches Komitee] (1828 Vorsitzender), Demidovskij dom prizrenija [Demidovskij Fürsorge-Haus] (Ehrenmitglied 1833), Sovet Imperatorskogo čelovekoljubivogo občestva [Rat der Kaiserlichen philanthropischen Gesellschaft] (Ehrenmitglied 1837), Imperatorskoe vol'no-ėkonomičeskoe obščestvo [Kaiserliche freie ökonomische Gesellschaft zu St. Petersburg] (1838-1846 Vorsitzender der 5. Sektion).
+W
+• Dissertatio de usu medicamentorum antimonialium in febribus intermittentibus. Erfurt 1792, 10 S.
+• Ueber die Ersetzungschirurgie im Allgemeinen, nebst Abbildung und Beschreibung eines künstlichen Unterschenkels. Journal der practischen Arzneykunde 47 (1818), 3-16.
+• Beschreibung eines neuen Stelzfusses, vom Russisch-Kaiserl. wirklichen Staatsrath und Leibarzte von Rühl. Journal der practischen Arzneykunde 47 (1818), 108-110.
+• Farmakopeja dlja rukovodstva vračam bednych, sostojaščich v vedomstve Filantropičeskogo komiteta. Sankt-Peterburg 1829, 36 S.; 2. Aufl. 1845, 24 S.; 3. Aufl. 1860, 46 S.
+• Projekt ustava dlja Sanktpeterburgskogo Doma umališennych, nyne Bol'nicy vsech skorbjaščich. Sankt-Peterburg 1832, 93 S.;
+deutsch
+.: Project zum Reglement der Verwaltung des St. Petersburgischen Irrenhauses. St. Petersburg 1837, 94 S.
+• Kratkoe nastavlenie, kakim obrazom dolžno obchodit'sja s umališennymi ... Sankt-Peterburg 1839, 23 S.
+Q
+Stadtarchiv Erfurt: Matrikel der philosophischen Fakultät der Universität Erfurt 1-1/X B XIII-46, Bd. 5, S. 75: 24. Januar 1792: Georg Ruehl, Livonus, M.[ed.] C[and.] (Schriftliche Mitteilung vom 11.8.2009).
+SL
+• Böhm 1998, 81.
+• EAD: Dokument-Id [77315/75681 (4.8.2010)].
+• Nemcy Rossii. Bd. 3 (2006), 364-365.
+• Russkie portrety XVIII i XIX vekov. Izd. Velikogo Knjazja Nikolaja Michajloviča Romanova. Bd. 4. Moskva 2000 [1908], 519-521 [russ. u. franz.].
+• WBIS DBA: I 1065, 96-98; II 1107, 95; BaBA: I 307, 25-29; RBA: R 411, 158-170.
+P
+• Portrait in Pastell. [Ohne weitere Angaben, früher im Privatbesitz von M. Ja. Wyllie in St. Petersburg]. Aus: Russkie portrety (
+SL
+), 84, Bild-Nr. 155. Abgedruckt in: Fischer 2010, 216.
+• Portrait, Staatliches Museum für Geschichte, Architektur und Kunst, Rybinsk,
+Online Ressource
+(4.4.2012).
+• Medaille mit dem Portrait von Johann Georg von Rühl. St. Petersburger Münzhof 1837. Künstler der Kopfseite Aleksandr Pavlovič Ljalin (1802-1862).
+Online Ressource
+(9.3.2012). Abgedruckt in: Fischer 2010, 219.
+Gedruckte Version in:
+Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 216-220.

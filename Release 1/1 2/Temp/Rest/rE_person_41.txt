@@ -1,0 +1,32 @@
+<vorname>Ludwig</vorname>
+<nachname>SEGETH</nachname>
+<namenkyr>СЕГЕТ, Людвиг Францович / SEGET, Ljudvig Francovič</namenkyr>
+<geburtsdatum>1806 Tarnowitz</geburtsdatum>
+<geburtsort>Oberschlesien (heute Tarnowskie Góry, Polen)</geburtsort>
+<sterbedatum>20.6./2.7.1853</sterbedatum>
+<sterbeort>Kiev (?)</sterbeort>
+<beruf>Apotheker, Chemiker, Dozent für Pharmazie und Pharmakognosie</beruf>
+<vater>Franz (?), Bergzehndner in Berg- und Hüttenwerken Tarnowitz</vater>
+<nachkommen>Sohn Fedor Ljudvigovič (* 1830), Accoucheur und Kreisarzt in Kiev</nachkommen>
+<ausbildung>Besuch des Gymnasiums in Gleiwitz (polnisch: Gliwice), 1822-1825 Lehre in der Apotheke Cochler in Tarnowitz, 1832 (?) Examen "Apotheker 1. Klasse" in Berlin, 1836 russisches Diplom "Apotheker 1. Klasse" an der Mediko-Chirurgischen Akademie (MCA) in Moskau, 1839 Dr. phil. "in absentia" an der Universität Jena.</ausbildung>
+<lebensstationen>Nach der Apothekenlehre Anstellung im Laboratorium des Medizinalrats H. OLEARIUS in Breslau, Besuch privater Vorlesungen bei den Professoren Nathaniel Wolfgang FISCHER (1782-1850), Ludolph Christian TREVIRANUS (1779-1864), Heinrich GÖPPERT (1800-1884) u.a. in Breslau und ab 1830 bei den Professoren Eilhard MITSCHERLICH (1794-1864), Heinrich ROSE (1795-1864), Ernst Ludwig SCHUBARTH (1797-1868) u.a. in Berlin, nach dem Examen als 2. Chemiker in der "Mineralwasseranstalt Dr. Struve</lebensstationen>
+&
+Soltmann" in Berlin angestellt, 1835 [nicht 1834] zur Gründung einer Mineralwassereinrichtung nach Kiev gesandt, in Kiev Chemiker und Direktor der "Anstalt für Bereitung künstlicher Mineralwässer nach Dr. Struve's Methode", ab 1843 Dozent für Pharmazie und Pharmakognosie an der St.-Vladimir-Universität in Kiev.
+Inhaber des russischen Ehrentitels "Kollegienrat".
+<leistungen>Beschreibung von Heilpflanzen des Gouvernements Kiev; 1843-1853 kostenlose gerichtsmedizinische Analysen in Kiev.
+<mutter>Pharmazeutische Vereine in Breslau und Berlin, Berliner Botanischer Privat-Verein, Teilnehmer an Versammlungen der Gesellschaft für Vaterländische Cultur in Schlesien in Breslau.</mutter></leistungen>
+W
+• Kurs farmakognozii [Manuskript, nicht erschienen].
+• Analiz vod različnych istočnikov g. Kieva. o.O. u. J.
+• Ueber den Labradorstein bei (von) Kijew: Bulletin scientifique, Académie impériale des Sciences de St. Pétersbourg 7 (1840), 26-28 = Journal für praktische Chemie 20 (1840), 253-256.
+• Phosphorsaures Eisen von Kertsch in der Krimm: Bulletin scientifique, Académie impériale des Sciences de St. Pétersbourg 7 (1840), 28-29 = Journal für praktische Chemie 20 (1840), 256-258.
+• Nabljudenija nad solnečnym zatmeniem, byvšim v Kieve 16 (28) julja 1851 g. Kiev 1852.
+Q
+Archiv der Friedrich-Schiller-Universität Jena, Bestand M Nr. 289.
+SL
+• Erik-Amburger-Datenbank [EAD]: Dokument-Id [65742/65067].
+• WBIS RBA.
+Empfohlene Zitierweise:
+Fischer, Marta: SEGETH, Ludwig. In: Personendatenbank zum Vorhaben "Wissenschaftsbeziehungen im 19. Jahrhundert zwischen Deutschland und Russland auf den Gebieten Chemie, Pharmazie und Medizin" bei der Sächsischen Akademie der Wissenschaften zu Leipzig. Online-Ausgabe:
+http://drw.saw-leipzig.de/10203.html
+(2. Mai 2012).

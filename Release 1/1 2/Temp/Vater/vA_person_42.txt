@@ -1,0 +1,34 @@
+<vorname>Julius</vorname>
+<nachname>JENCKEN</nachname>
+<namenkyr>ИEНKEН, Юлий Фëдoрoвич / IENKEN, Julij Fëdorovič</namenkyr>
+<namensvariationen>GENKEN, ГEНKEН</namensvariationen>
+<geburtsdatum>8.8.1810</geburtsdatum>
+<geburtsort>Reval</geburtsort>
+<sterbedatum>21.9.1870</sterbedatum>
+<sterbeort>Sankt Petersburg</sterbeort>
+<beruf>Arzt, Augenchirurg, Leibarzt</beruf>
+<vater>Ferdinand Johann (1785/86-1864), Arzt, Gründer einer orthopädischen Anstalt</vater>
+M
+Annette, geb. Möller, oder A. S. (Nanny), geb. Müller, oder Josepha Renata, geb. Muller (* 1791)
+E
+Emilie, geb. von Eversmann (1818-1866)
+A
+Besuch eines Gymnasiums in St. Petersburg, 1830-1836 Studium der Medizin mit dem Abschluss "Arzt 2. Klasse" an der Universität Dorpat.
+B
+1837-1842 außeretatmäßiger Arzt, 1842-1850 Assistenzarzt und ab 1850 Oberarzt am Kaiserlichen Findelhaus in St. Petersburg, zugleich 1838-1842 Chirurg an der Augenheilanstalt, 1844 Stabsarzt, auch Beamter der Medizinalverwaltung des Ministerium des Innern, Arzt beim "Pupillenrat" (Auch Waisen- oder Vormundschaftsrat = Obervormundschaftsbehörde) und bei der 4. Abteilung der Kaiserlichen Kanzlei, später Leibarzt des Prinzen Peter von OLDENBURG, russ. Petr Georgievič OL'DENBURGSKIJ (1812-1881).
+Inhaber hoher russischer Ehrentitel und Auszeichnungen: "Wirklicher Russischer Staatsrat", 1855 "Hofrat", 1859 "Kollegienrat", Bronzemedaille zum Gedächtnis an den Krimkrieg 1853-1856.
+WL
+Soll als erster Chirurg in Russland 1838 eine Hornhauttransplantation am linken Auge eines Jungen mit der Cornea eines Kaninchens durchgeführt haben. Sein Hauptbeschäftigungsgebiet war ab 1847 jedoch die Pockenkrankheit.
+W
+O sochranenii ospennoj materii v volosnych trubočkach i o sposobe peresylki ee. Sankt-Peterburg 1856, 13 S.
+SL
+• EAD: Dokument-Id [70137/68653 (26.7.2010)].
+• Krasjukov, Aleksandr Pavlovič: General - Gitarrist Sarenko. Illjustrirovannyj biografičeskij ėnciklopedičeskij slovar'.
+Online Ressource
+(26.3.2012).
+• Magil'nickij, Solomon Girševič: Pervaja v Rossii peresadka rogovoj oboročki čeloveku (1838).
+Online Ressource
+(26.3.2012).
+• WBIS BaBA: I 143, 52.
+Gedruckte Version in:
+Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 115-116.
