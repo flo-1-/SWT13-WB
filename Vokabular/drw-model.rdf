@@ -171,7 +171,7 @@
     <drw-model:deathPlaceIs rdf:resource="http://drw-model.saw-leipzig.de/Tupelo" />
     <drw-model:labor>Musician and Actor</drw-model:labor>
     <rdfs:label>Elvis Presley</rdfs:label>
-  </drw-model:Person>
+  </drw-model:person>
   
   <rdf:Property rdf:about="http://drw-model.saw-leipzig.de/Property/isFriendOf">
 	<rdfs:comment rdf:datatype="http://ns.ontowiki.net/SysOnt/Markdown">Drückt Freundschaftsbeziehung aus.</rdfs:comment>

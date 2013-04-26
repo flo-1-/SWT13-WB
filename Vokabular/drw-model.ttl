@@ -1,0 +1,471 @@
+
+@base <http://drw-catalog.saw-leipzig.de/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix drw-catalog: <http://drw-catalog.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+<> a owl:Ontology ;
+   rdfs:label "DRW-Model" .
+
+<http://drw-catalog.saw-leipzig.de/person>
+		a owl:Class ;
+                rdfs:label "Person"@en ;
+                rdfs:label "Person"@de .
+
+<http://drw-catalog.saw-leipzig.de/Comment>
+		a owl:Class ;
+                rdfs:label "Comment"@en ;
+                rdfs:label "Kommentar"@de .
+
+<http://drw-catalog.saw-leipzig.de/name>
+		a owl:Class ;
+                rdfs:label "Name"@en ;
+                rdfs:label "Name"@de .
+
+<http://drw-catalog.saw-leipzig.de/MainName>
+		a owl:Class ;
+		rdfs:subClassOf <http://drw-catalog.saw-leipzig.de/Name> ;
+                rdfs:label "Main Name"@en ;
+                rdfs:label "Hauptname"@de .
+
+<drw-catalog.saw-leipzig.de/AlternativeName>
+		a owl:Class ;
+		rdfs:subClassOf <http://drw-catalog.saw-leipzig.de/Name> ;
+                rdfs:label "Alternative Name"@en ;
+                rdfs:label "Alternativname"@de .
+
+<http://drw-catalog.saw-leipzig.de/NameVariation>
+		a owl:Class ;
+		rdfs:subClassOf <http://drw-catalog.saw-leipzig.de/Name> ;
+                rdfs:label "Name Variation"@en ;
+                rdfs:label "Namensvariation"@de .
+
+<http://drw-catalog.saw-leipzig.de/Place>
+		a owl:Class ;
+                rdfs:label "Place"@en ;
+                rdfs:label "Ort"@de .
+
+<http://drw-catalog.saw-leipzig.de/Town>
+		a owl:Class ;
+		rdfs:label "Town"@en ;
+                rdfs:label "Stadt"@de .
+
+<http://drw-catalog.saw-leipzig.de/District>
+		a owl:Class ;
+		rdfs:label "District"@en ;
+                rdfs:label "Verwaltungsbezirk"@de .
+
+<http://drw-catalog.saw-leipzig.de/ContryOrState>
+		a owl:Class ;
+		rdfs:label "Country or State"@en ;
+                rdfs:label "Land oder Staat"@de .
+
+<http://drw-catalog.saw-leipzig.de/Date>
+		a owl:Class ;
+                rdfs:label "Date"@en ;
+                rdfs:label "Datum"@de .
+
+<http://drw-catalog.saw-leipzig.de/Day>
+		a owl:Class ;
+		rdfs:label "Day"@en ;
+                rdfs:label "Tag"@de .
+
+<http://drw-catalog.saw-leipzig.de/Month>
+		a owl:Class ;
+		rdfs:label "Month"@en ;
+                rdfs:label "Monat"@de .
+
+<http://drw-catalog.saw-leipzig.de/Year>
+		a owl:Class ;
+		rdfs:label "Year"@en ;
+                rdfs:label "Jahr"@de .
+
+<http://drw-catalog.saw-leipzig.de/PoL>
+		a owl:Class ;
+                rdfs:label "Period of Life"@en ;
+                rdfs:label "Lebensabschnitt"@de .
+
+<http://drw-catalog.saw-leipzig.de/Education>
+		a owl:Class ;
+		rdfs:subClassOf <http://drw-catalog.saw-leipzig.de/PoL> ;
+                rdfs:label "Education"@en ;
+                rdfs:label "Ausbildung"@de .
+
+<http://drw-catalog.saw-leipzig.de/Studies>
+		a owl:Class ;
+		rdfs:subClassOf <http://drw-catalog.saw-leipzig.de/Education> ;
+                rdfs:label "Studies"@en ;
+                rdfs:label "Studium"@de .
+
+<http://drw-catalog.saw-leipzig.de/Promotion>
+		a owl:Class ;
+		rdfs:subClassOf <http://drw-catalog.saw-leipzig.de/Education> ;
+                rdfs:label "Promotion"@en ;
+                rdfs:label "Promotion"@de .
+
+<http://drw-catalog.saw-leipzig.de/Labor>
+		a owl:Class ;
+		rdfs:subClassOf <http://drw-catalog.saw-leipzig.de/PoL> ;
+                rdfs:label "Labor"@en ;
+                rdfs:label "Arbeit"@de .
+
+<http://drw-catalog.saw-leipzig.de/Birth>
+		a owl:Class ;
+		rdfs:subClassOf <http://drw-catalog.saw-leipzig.de/PoL> ;
+                rdfs:label "Birth"@en ;
+                rdfs:label "Geburt"@de .
+
+<http://drw-catalog.saw-leipzig.de/Death>
+		a owl:Class ;
+		rdfs:subClassOf <http://drw-catalog.saw-leipzig.de/PoL> ;
+                rdfs:label "Death"@en ;
+                rdfs:label "Tod"@de .
+
+<http://drw-catalog.saw-leipzig.de/HonoursAndAwards>
+		a owl:Class ;
+		rdfs:subClassOf <http://drw-catalog.saw-leipzig.de/PoL> ;
+                rdfs:label "Honours and Awards"@en ;
+                rdfs:label "Ehrungen und Auszeichnungen"@de .
+
+<http://drw-catalog.saw-leipzig.de/Membership>
+		a owl:Class ;
+		rdfs:subClassOf <http://drw-catalog.saw-leipzig.de/PoL> ;
+                rdfs:label "Membership"@en ;
+                rdfs:label "Mitgliedschaft"@de .
+
+<http://drw-catalog.saw-leipzig.de/Literature>
+		a owl:Class ;
+                rdfs:label "Literature"@en ;
+                rdfs:label "Literatur"@de .
+
+<http://drw-catalog.saw-leipzig.de/Publication>
+		a owl:Class ;
+		rdfs:subClassOf <http://drw-catalog.saw-leipzig.de/Literature> ;
+                rdfs:label "Publication"@en ;
+                rdfs:label "Publikation"@de .
+
+<http://drw-catalog.saw-leipzig.de/Source>
+		a owl:Class ;
+		rdfs:subClassOf <http://drw-catalog.saw-leipzig.de/Literature> ;
+                rdfs:label "Source"@en ;
+                rdfs:label "Quelle"@de .
+
+<http://drw-catalog.saw-leipzig.de/Link>
+		a owl:Class ;
+		rdfs:label "Link"@en ;
+                rdfs:label "Link"@de .
+
+
+
+
+
+<http://drw-catalog.saw-leipzig.de/hasSource>
+		a owl:ObjectProperty ;
+		rdfs:label "has Source"@en ;
+                rdfs:label "hat die Quelle"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Thing> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/Source> .
+
+<http://drw-catalog.saw-leipzig.de/hasComment>
+		a owl:ObjectProperty ;
+		rdfs:label "has Comment"@en ;
+                rdfs:label "hat den Kommentar"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Thing> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/Comment> .
+
+<http://drw-catalog.saw-leipzig.de/hasMainName>
+		a owl:ObjectProperty ;
+		rdfs:label "has Main Name"@en ;
+                rdfs:label "hat den Hauptnamen"@de ;
+		owl:inverseOf <http://drw-model.saw-leipzig.de/isMainNameOf> ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Person> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/MainName> .
+
+<http://drw-catalog.saw-leipzig.de/isMainNameOf>
+		a owl:ObjectProperty ;
+		rdfs:label "is Main Name of"@en ;
+                rdfs:label "ist der Hauptname von"@de ;
+		owl:inverseOf <http://drw-model.saw-leipzig.de/hasMainName> ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/MainName> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/Person> .
+
+<http://drw-catalog.saw-leipzig.de/hasAlternativeName>
+		a owl:ObjectProperty ;
+		rdfs:label "has Alternative Name"@en ;
+                rdfs:label "hat den Alternativnamen"@de ;
+		owl:inverseOf <http://drw-model.saw-leipzig.de/isAlternativeNameOf> ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Person> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/AlternativeName> .
+
+<http://drw-catalog.saw-leipzig.de/isAlternativeNameOf>
+		a owl:ObjectProperty ;
+		rdfs:label "is Alternative Name of"@en ;
+                rdfs:label "ist Alternativname von"@de ;
+		owl:inverseOf <http://drw-model.saw-leipzig.de/hasAlternativeName> ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/AlternativeName> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/Person> .
+
+<http://drw-catalog.saw-leipzig.de/hasNameVariation>
+		a owl:ObjectProperty ;
+		rdfs:label "has the Name Variation"@en ;
+                rdfs:label "hat die Namensvariation"@de ;
+		owl:inverseOf <http://drw-model.saw-leipzig.de/isNameVariationOf> ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Name> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/NameVariation> .
+
+<http://drw-catalog.saw-leipzig.de/isNameVariationOf>
+		a owl:ObjectProperty ;
+		rdfs:label "is Name Variation of"@en ;
+                rdfs:label "ist Namensvariation von"@de ;
+		owl:inverseOf <http://drw-model.saw-leipzig.de/hasNameVariation> ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/NameVariation> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/Name> .
+
+<http://drw-catalog.saw-leipzig.de/began>
+		a owl:ObjectProperty ;
+		rdfs:label "began"@en ;
+                rdfs:label "begann"@de ;
+		owl:inverseOf <http://drw-model.saw-leipzig.de/beginningOf> ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/PoL> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/Date> .
+
+<http://drw-catalog.saw-leipzig.de/beginningOf>
+		a owl:ObjectProperty ;
+		rdfs:label "beginning of"@en ;
+                rdfs:label "Beginn von"@de ;
+		owl:inverseOf <http://drw-model.saw-leipzig.de/began> ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Date> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/PoL> .
+
+
+<http://drw-catalog.saw-leipzig.de/ended>
+		a owl:ObjectProperty ;
+		rdfs:label "ended"@en ;
+                rdfs:label "endete"@de ;
+		owl:inverseOf <http://drw-model.saw-leipzig.de/endOf> ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/PoL> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/Date> .
+
+<http://drw-catalog.saw-leipzig.de/endOf>
+		a owl:ObjectProperty ;
+		rdfs:label "end of"@en ;
+                rdfs:label "Ende von"@de ;
+		owl:inverseOf <http://drw-model.saw-leipzig.de/ended> ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Date> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/PoL> .
+
+<http://drw-catalog.saw-leipzig.de/onDay>
+		a owl:ObjectProperty ;
+		rdfs:label "on Day"@en ;
+                rdfs:label "an Tag"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Date> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/Day> .
+
+<http://drw-catalog.saw-leipzig.de/inMonth>
+		a owl:ObjectProperty ;
+		rdfs:label "in Month"@en ;
+                rdfs:label "im Monat"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Date> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/Month> .
+
+<http://drw-catalog.saw-leipzig.de/inYear>
+		a owl:ObjectProperty ;
+		rdfs:label "in Year"@en ;
+                rdfs:label "im Jahr"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Date> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/Year> .
+
+<http://drw-catalog.saw-leipzig.de/inPlace>
+		a owl:ObjectProperty ;
+		rdfs:label "in place"@en ;
+                rdfs:label "im Ort"@de ;
+		owl:inverseOf <http://drw-model.saw-leipzig.de/placeOf> ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/PoL> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/Place> .
+
+<http://drw-catalog.saw-leipzig.de/placeOf>
+		a owl:ObjectProperty ;
+		rdfs:label "place of"@en ;
+                rdfs:label "Ort von"@de ;
+		owl:inverseOf <http://drw-model.saw-leipzig.de/inPlace> ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Place> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/PoL> .
+
+<http://drw-catalog.saw-leipzig.de/inTown>
+		a owl:ObjectProperty ;
+		rdfs:label "in Town"@en ;
+                rdfs:label "in Stadt"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Place> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/Town> .
+
+<http://drw-catalog.saw-leipzig.de/inDistrict>
+		a owl:ObjectProperty ;
+		rdfs:label "in District"@en ;
+                rdfs:label "in Verwaltungsbezirk"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Place> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/District> .
+
+<http://drw-catalog.saw-leipzig.de/inCountryOrState>
+		a owl:ObjectProperty ;
+		rdfs:label "in Country or State"@en ;
+                rdfs:label "in Land oder Staate"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Place> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/CountryOrState> .
+
+<http://drw-catalog.saw-leipzig.de/associatedLiterature>
+		a owl:ObjectProperty ;
+		rdfs:label "associated Literature"@en ;
+                rdfs:label "assoziierte Literatur"@de ;
+		owl:inverseOf <http://drw-model.saw-leipzig.de/associatedPerson> ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Person> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/Literature> .
+
+<http://drw-catalog.saw-leipzig.de/associatedPerson>
+		a owl:ObjectProperty ;
+		rdfs:label "associated Person"@en ;
+                rdfs:label "assoziierte Person"@de ;
+		owl:inverseOf <http://drw-model.saw-leipzig.de/associatedLiterature> ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Literature> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/Person> .
+
+<http://drw-catalog.saw-leipzig.de/hasLinkAdress>
+		a owl:ObjectProperty ;
+		rdfs:label "has Link Adress"@en ;
+                rdfs:label "hat die Linkadresse"@de ;
+		owl:inverseOf <http://drw-model.saw-leipzig.de/isLinkAdressOf> ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Literature> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/Link> .
+
+<http://drw-catalog.saw-leipzig.de/isLinkAdressOf>
+		a owl:ObjectProperty ;
+		rdfs:label "is Link Adress of"@en ;
+                rdfs:label "ist Linkadresse von"@de ;
+		owl:inverseOf <http://drw-model.saw-leipzig.de/hasLinkAdress> ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Link> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/Literature> .
+
+<http://drw-catalog.saw-leipzig.de/dateOfInsertion>
+		a owl:ObjectProperty ;
+		rdfs:label "date of Insertion"@en ;
+                rdfs:label "Eintragungsdatum"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Link> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/Date> .
+
+<http://drw-catalog.saw-leipzig.de/dateOfInsertion>
+		a owl:ObjectProperty ;
+		rdfs:label "date of Insertion"@en ;
+                rdfs:label "Eintragungsdatum"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Link> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/Date> .
+
+
+
+
+
+<http://drw-catalog.saw-leipzig.de/isIncomplete>
+		a owl:DatatypeProperty ;
+		rdfs:label "is incomplete"@en ;
+                rdfs:label "ist unvollständig"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Thing> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/http://www.w3.org/2001/XMLSchema#bool> .
+
+<http://drw-catalog.saw-leipzig.de/hasText>
+		a owl:DatatypeProperty ;
+		rdfs:label "has text"@en ;
+                rdfs:label "hat den Text"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Comment> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/http://www.w3.org/2001/XMLSchema#string> .
+
+<http://drw-catalog.saw-leipzig.de/firstNameIs>
+		a owl:DatatypeProperty ;
+		rdfs:label "first name is"@en ;
+                rdfs:label "Vorname ist"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Name> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/http://www.w3.org/2001/XMLSchema#string> .
+
+<http://drw-catalog.saw-leipzig.de/lastNameIs>
+		a owl:DatatypeProperty ;
+		rdfs:label "last name is"@en ;
+                rdfs:label "Nachname ist"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Name> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/http://www.w3.org/2001/XMLSchema#string> .
+
+<http://drw-catalog.saw-leipzig.de/hasURL>
+		a owl:DatatypeProperty ;
+		rdfs:label "has URL"@en ;
+                rdfs:label "hat die URL"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Link> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/http://www.w3.org/2001/XMLSchema#string> .
+
+<http://drw-catalog.saw-leipzig.de/motherIs>
+		a owl:DatatypeProperty ;
+		rdfs:label "mother is"@en ;
+                rdfs:label "die Mutter ist"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Person> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/http://www.w3.org/2001/XMLSchema#string> .
+
+<http://drw-catalog.saw-leipzig.de/fatherIs>
+		a owl:DatatypeProperty ;
+		rdfs:label "father is"@en ;
+                rdfs:label "der Vater ist"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Person> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/http://www.w3.org/2001/XMLSchema#string> .
+
+<http://drw-catalog.saw-leipzig.de/hasSibling>
+		a owl:DatatypeProperty ;
+		rdfs:label "has sibling"@en ;
+                rdfs:label "hat Geschwister"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Person> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/http://www.w3.org/2001/XMLSchema#string> .
+
+<http://drw-catalog.saw-leipzig.de/wasMarriedTo>
+		a owl:DatatypeProperty ;
+		rdfs:label "was married to"@en ;
+                rdfs:label "war verheiratet mit"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Person> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/http://www.w3.org/2001/XMLSchema#string> .
+
+<http://drw-catalog.saw-leipzig.de/hasDescendant>
+		a owl:DatatypeProperty ;
+		rdfs:label "has descendant"@en ;
+                rdfs:label "hat den Nachfahren"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Person> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/http://www.w3.org/2001/XMLSchema#string> .
+
+<http://drw-catalog.saw-leipzig.de/>
+		a owl:DatatypeProperty ;
+		rdfs:label ""@en ;
+                rdfs:label ""@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/http://www.w3.org/2001/XMLSchema#string> .
+
+<http://drw-catalog.saw-leipzig.de/isGenderwise>
+		a owl:DatatypeProperty ;
+		rdfs:label "is genderwise"@en ;
+                rdfs:label "ist vom Geschlecht her"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Person> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/http://www.w3.org/2001/XMLSchema#string> .
+
+<http://drw-catalog.saw-leipzig.de/hasTitle>
+		a owl:DatatypeProperty ;
+		rdfs:label "has title"@en ;
+                rdfs:label "hat den Titel"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Person> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/http://www.w3.org/2001/XMLSchema#string> .
+
+<http://drw-catalog.saw-leipzig.de/generalLaborIs>
+		a owl:DatatypeProperty ;
+		rdfs:label "general labor is"@en ;
+                rdfs:label "Hauptbeschäftigung ist"@de ;
+		rdfs:domain <http://drw-model.saw-leipzig.de/Person> ;
+		rdfs:range <http://drw-model.saw-leipzig.de/http://www.w3.org/2001/XMLSchema#string> .
+
+
+
+
+
+
