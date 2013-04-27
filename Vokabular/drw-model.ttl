@@ -1,0 +1,535 @@
+
+@base <http://drw-model.saw-leipzig.de/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+<> a owl:Ontology ;
+   rdfs:label "DRW-Model" .
+
+<Person>
+		a owl:Class ;
+                rdfs:label "Person"@en ;
+                rdfs:label "Person"@de ;
+		rdfs:comment "An historical relevant Person." .
+
+<Comment>
+		a owl:Class ;
+                rdfs:label "Comment"@en ;
+                rdfs:label "Kommentar"@de ;
+		rdfs:comment "A Comment for a specific Information in this database." .
+
+<Name>
+		a owl:Class ;
+                rdfs:label "Name"@en ;
+                rdfs:label "Name"@de ;
+		rdfs:comment "The Name of a Person." .
+
+<MainName>
+		a owl:Class ;
+		rdfs:subClassOf <Name> ;
+                rdfs:label "Main Name"@en ;
+                rdfs:label "Hauptname"@de ;
+		rdfs:comment "The Main Name of a Person." .
+
+<AlternativeName>
+		a owl:Class ;
+		rdfs:subClassOf <Name> ;
+                rdfs:label "Alternative Name"@en ;
+                rdfs:label "Alternativname"@de ;
+		rdfs:comment "An Alternative Name of a Person." .
+
+<NameVariation>
+		a owl:Class ;
+		rdfs:subClassOf <Name> ;
+                rdfs:label "Name Variation"@en ;
+                rdfs:label "Namensvariation"@de ;
+		rdfs:comment "A Name Variation of a specific Name." .
+
+<FirstName>
+		a owl:Class ;
+		rdfs:subClassOf <Name> ;
+                rdfs:label "First Name"@en ;
+                rdfs:label "Vorname"@de ;
+		rdfs:comment "A First Name of a Person, part of a specific Name." .
+
+<LastName>
+		a owl:Class ;
+		rdfs:subClassOf <Name> ;
+                rdfs:label "Last Name"@en ;
+                rdfs:label "Nachname"@de ;
+		rdfs:comment "A Last Name of a Person, part of a specific Name." .
+
+<Place>
+		a owl:Class ;
+                rdfs:label "Place"@en ;
+                rdfs:label "Ort"@de ;
+		rdfs:comment "A specific Place in the world." .
+
+<Town>
+		a owl:Class ;
+		rdfs:label "Town"@en ;
+                rdfs:label "Stadt"@de ;
+		rdfs:comment "A Town, part of a Place." .
+
+<District>
+		a owl:Class ;
+		rdfs:label "District"@en ;
+                rdfs:label "Verwaltungsbezirk"@de ;
+		rdfs:comment "A District, part of a Place." .
+
+<ContryOrState>
+		a owl:Class ;
+		rdfs:label "Country or State"@en ;
+                rdfs:label "Land oder Staat"@de ;
+		rdfs:comment "A Country or State, part of a Place." .
+
+<Date>
+		a owl:Class ;
+                rdfs:label "Date"@en ;
+                rdfs:label "Datum"@de ;
+		rdfs:comment "A specific Date in time." .
+
+<Day>
+		a owl:Class ;
+		rdfs:label "Day"@en ;
+                rdfs:label "Tag"@de ;
+		rdfs:comment "A Day, part of a Date." .
+
+<Month>
+		a owl:Class ;
+		rdfs:label "Month"@en ;
+                rdfs:label "Monat"@de ;
+		rdfs:comment "A Month, part of a Date." .
+
+<Year>
+		a owl:Class ;
+		rdfs:label "Year"@en ;
+                rdfs:label "Jahr"@de ;
+		rdfs:comment "A Year, part of a Date." .
+
+<PoL>
+		a owl:Class ;
+                rdfs:label "Period of Life"@en ;
+                rdfs:label "Lebensabschnitt"@de ;
+		rdfs:comment "A Period of Life, used to describe a part of a Persons life." .
+
+<Education>
+		a owl:Class ;
+		rdfs:subClassOf <PoL> ;
+                rdfs:label "Education"@en ;
+                rdfs:label "Ausbildung"@de ;
+		rdfs:comment "A PoL used for Education." .
+
+<Studies>
+		a owl:Class ;
+		rdfs:subClassOf <Education> ;
+                rdfs:label "Studies"@en ;
+                rdfs:label "Studium"@de ;
+		rdfs:comment "A PoL used for Studies, subclass of Education." .
+
+<Promotion>
+		a owl:Class ;
+		rdfs:subClassOf <Education> ;
+                rdfs:label "Promotion"@en ;
+                rdfs:label "Promotion"@de ;
+		rdfs:comment "A PoL used for Promotion, Subclass of Education." .
+
+<Labor>
+		a owl:Class ;
+		rdfs:subClassOf <PoL> ;
+                rdfs:label "Labor"@en ;
+                rdfs:label "Arbeit"@de ;
+		rdfs:comment "A PoL used for Labor." .
+
+<Birth>
+		a owl:Class ;
+		rdfs:subClassOf <PoL> ;
+                rdfs:label "Birth"@en ;
+                rdfs:label "Geburt"@de ;
+		rdfs:comment "A PoL, describing the birth of a Person." .
+
+<Death>
+		a owl:Class ;
+		rdfs:subClassOf <PoL> ;
+                rdfs:label "Death"@en ;
+                rdfs:label "Tod"@de ;
+		rdfs:comment "A PoL, describing the death of a Person." .
+
+<HonoursAndAwards>
+		a owl:Class ;
+		rdfs:subClassOf <PoL> ;
+                rdfs:label "Honours and Awards"@en ;
+                rdfs:label "Ehrungen und Auszeichnungen"@de ;
+		rdfs:comment "A PoL, describing Awards and Honours a Persons gained." .
+
+<Membership>
+		a owl:Class ;
+		rdfs:subClassOf <PoL> ;
+                rdfs:label "Membership"@en ;
+                rdfs:label "Mitgliedschaft"@de ;
+		rdfs:comment "A PoL, describing the Membership of a Person in specific groups." .
+
+<Literature>
+		a owl:Class ;
+                rdfs:label "Literature"@en ;
+                rdfs:label "Literatur"@de ;
+		rdfs:comment "A part of Literature associated with at least one Person." .
+
+<Publication>
+		a owl:Class ;
+		rdfs:subClassOf <Literature> ;
+                rdfs:label "Publication"@en ;
+                rdfs:label "Publikation"@de ;
+		rdfs:comment "A Publication of a Person, subclass of Literature." .
+
+<Source>
+		a owl:Class ;
+		rdfs:subClassOf <Literature> ;
+                rdfs:label "Source"@en ;
+                rdfs:label "Quelle"@de ;
+		rdfs:comment "A Source of an information, subclass of Literature." .
+
+<Link>
+		a owl:Class ;
+		rdfs:label "Link"@en ;
+                rdfs:label "Link"@de ;
+		rdfs:comment "An hyperlink to an online ressurce." .
+
+
+
+
+
+<hasSource>
+		a owl:ObjectProperty ;
+		rdfs:label "has Source"@en ;
+                rdfs:label "hat die Quelle"@de ;
+		rdfs:domain <Thing> ;
+		rdfs:range <Source> ;
+		rdfs:comment "Property between a Thing and the Source of that information." .
+
+<hasComment>
+		a owl:ObjectProperty ;
+		rdfs:label "has Comment"@en ;
+                rdfs:label "hat den Kommentar"@de ;
+		rdfs:domain <Thing> ;
+		rdfs:range <Comment> ;
+		rdfs:comment "Property between a Thing and a Comment related to it."" .
+
+<hasMainName>
+		a owl:ObjectProperty ;
+		rdfs:label "has Main Name"@en ;
+                rdfs:label "hat den Hauptnamen"@de ;
+		owl:inverseOf <isMainNameOf> ;
+		rdfs:domain <Person> ;
+		rdfs:range <MainName> ;
+		rdfs:comment "Property between a Person and her or his Main Name." .
+
+<isMainNameOf>
+		a owl:ObjectProperty ;
+		rdfs:label "is Main Name of"@en ;
+                rdfs:label "ist der Hauptname von"@de ;
+		owl:inverseOf <hasMainName> ;
+		rdfs:domain <MainName> ;
+		rdfs:range <Person> ;
+		rdfs:comment "Inverse property between a Main Name and a Person." .
+
+<hasAlternativeName>
+		a owl:ObjectProperty ;
+		rdfs:label "has Alternative Name"@en ;
+                rdfs:label "hat den Alternativnamen"@de ;
+		owl:inverseOf <isAlternativeNameOf> ;
+		rdfs:domain <Person> ;
+		rdfs:range <AlternativeName> ;
+		rdfs:comment "Property between a Person and her or his Alternative Name." .
+
+<isAlternativeNameOf>
+		a owl:ObjectProperty ;
+		rdfs:label "is Alternative Name of"@en ;
+                rdfs:label "ist Alternativname von"@de ;
+		owl:inverseOf <hasAlternativeName> ;
+		rdfs:domain <AlternativeName> ;
+		rdfs:range <Person> ;
+		rdfs:comment "Inverse Property between an Alternative name and a Person." .
+
+<hasNameVariation>
+		a owl:ObjectProperty ;
+		rdfs:label "has the Name Variation"@en ;
+                rdfs:label "hat die Namensvariation"@de ;
+		owl:inverseOf <isNameVariationOf> ;
+		rdfs:domain <Name> ;
+		rdfs:range <NameVariation> ;
+		rdfs:comment "Property between a Name and a Name Variation of it." .
+
+<isNameVariationOf>
+		a owl:ObjectProperty ;
+		rdfs:label "is Name Variation of"@en ;
+                rdfs:label "ist Namensvariation von"@de ;
+		owl:inverseOf <hasNameVariation> ;
+		rdfs:domain <NameVariation> ;
+		rdfs:range <Name> ;
+		rdfs:comment "Inverse Property between a Name Variation and a Name." .
+
+<firstNameIs>
+		a owl:ObjectProperty ;
+		rdfs:label "first name is"@en ;
+                rdfs:label "Vorname ist"@de ;
+		rdfs:domain <Name> ;
+		rdfs:range <FirstName> ;
+		rdfs:comment "Property between a Name object and the First Name of a Person." .
+
+<lastNameIs>
+		a owl:ObjectProperty ;
+		rdfs:label "last name is"@en ;
+                rdfs:label "Nachname ist"@de ;
+		rdfs:domain <Name> ;
+		rdfs:range <LastName> ;
+		rdfs:comment "Property between a Name Object and the Last Name of a Person." .
+
+<began>
+		a owl:ObjectProperty ;
+		rdfs:label "began"@en ;
+                rdfs:label "begann"@de ;
+		owl:inverseOf <beginningOf> ;
+		rdfs:domain <PoL> ;
+		rdfs:range <Date> ;
+		rdfs:comment "Property between a PoL and the Date when it began." .
+
+<beginningOf>
+		a owl:ObjectProperty ;
+		rdfs:label "beginning of"@en ;
+                rdfs:label "Beginn von"@de ;
+		owl:inverseOf <began> ;
+		rdfs:domain <Date> ;
+		rdfs:range <PoL> ;
+		rdfs:comment "Property between a Date and all PoL's which began on that Date." .
+
+
+<ended>
+		a owl:ObjectProperty ;
+		rdfs:label "ended"@en ;
+                rdfs:label "endete"@de ;
+		owl:inverseOf <endOf> ;
+		rdfs:domain <PoL> ;
+		rdfs:range <Date> ;
+		rdfs:comment "Property between a PoL and the Date when it ended." .
+
+<endOf>
+		a owl:ObjectProperty ;
+		rdfs:label "end of"@en ;
+                rdfs:label "Ende von"@de ;
+		owl:inverseOf <ended> ;
+		rdfs:domain <Date> ;
+		rdfs:range <PoL> ;
+		rdfs:comment "Property between a Date all PoL's which ended on that Date." .
+
+<onDay>
+		a owl:ObjectProperty ;
+		rdfs:label "on Day"@en ;
+                rdfs:label "an Tag"@de ;
+		rdfs:domain <Date> ;
+		rdfs:range <Day> ;
+		rdfs:comment "Property between a Date object and a specific Day." .
+
+<inMonth>
+		a owl:ObjectProperty ;
+		rdfs:label "in Month"@en ;
+                rdfs:label "im Monat"@de ;
+		rdfs:domain <Date> ;
+		rdfs:range <Month> ;
+		rdfs:comment "Property between a Date object and a specific Month." .
+
+<inYear>
+		a owl:ObjectProperty ;
+		rdfs:label "in Year"@en ;
+                rdfs:label "im Jahr"@de ;
+		rdfs:domain <Date> ;
+		rdfs:range <Year> ;
+		rdfs:comment "Property between a Date object and a specific Year." .
+
+<inPlace>
+		a owl:ObjectProperty ;
+		rdfs:label "in place"@en ;
+                rdfs:label "im Ort"@de ;
+		owl:inverseOf <placeOf> ;
+		rdfs:domain <PoL> ;
+		rdfs:range <Place> ;
+		rdfs:comment "Property between a PoL and the Place where it took place." .
+
+<placeOf>
+		a owl:ObjectProperty ;
+		rdfs:label "place of"@en ;
+                rdfs:label "Ort von"@de ;
+		owl:inverseOf <inPlace> ;
+		rdfs:domain <Place> ;
+		rdfs:range <PoL> ;
+		rdfs:comment "Property between a Place and all PoL's which took place there." .
+
+<inTown>
+		a owl:ObjectProperty ;
+		rdfs:label "in Town"@en ;
+                rdfs:label "in Stadt"@de ;
+		rdfs:domain <Place> ;
+		rdfs:range <Town> ;
+		rdfs:comment "Property between a Place object and a specific Town." .
+
+<inDistrict>
+		a owl:ObjectProperty ;
+		rdfs:label "in District"@en ;
+                rdfs:label "in Verwaltungsbezirk"@de ;
+		rdfs:domain <Place> ;
+		rdfs:range <District> ;
+		rdfs:comment "Property between a Place object and a specific District." .
+
+<inCountryOrState>
+		a owl:ObjectProperty ;
+		rdfs:label "in Country or State"@en ;
+                rdfs:label "in Land oder Staate"@de ;
+		rdfs:domain <Place> ;
+		rdfs:range <CountryOrState> ;
+		rdfs:comment "Property between a Place object and a specific Country or State." .
+
+<associatedLiterature>
+		a owl:ObjectProperty ;
+		rdfs:label "associated Literature"@en ;
+                rdfs:label "assoziierte Literatur"@de ;
+		owl:inverseOf <associatedPerson> ;
+		rdfs:domain <Person> ;
+		rdfs:range <Literature> ;
+		rdfs:comment "Property between a Person and a piece of Literature associated with her or him." .
+
+<associatedPerson>
+		a owl:ObjectProperty ;
+		rdfs:label "associated Person"@en ;
+                rdfs:label "assoziierte Person"@de ;
+		owl:inverseOf <associatedLiterature> ;
+		rdfs:domain <Literature> ;
+		rdfs:range <Person> ;
+		rdfs:comment "Property between a piece of Literature and a Person associated with it." .
+
+<hasLinkAdress>
+		a owl:ObjectProperty ;
+		rdfs:label "has Link Adress"@en ;
+                rdfs:label "hat die Linkadresse"@de ;
+		owl:inverseOf <isLinkAdressOf> ;
+		rdfs:domain <Literature> ;
+		rdfs:range <Link> ;
+		rdfs:comment "Property between a piece of Literature and a Link to further information." .
+
+<isLinkAdressOf>
+		a owl:ObjectProperty ;
+		rdfs:label "is Link Adress of"@en ;
+                rdfs:label "ist Linkadresse von"@de ;
+		owl:inverseOf <hasLinkAdress> ;
+		rdfs:domain <Link> ;
+		rdfs:range <Literature> ;
+		rdfs:comment "Inverse Property between a Link and a piece of Literature." .
+
+<dateOfInsertion>
+		a owl:ObjectProperty ;
+		rdfs:label "date of Insertion"@en ;
+                rdfs:label "Eintragungsdatum"@de ;
+		rdfs:domain <Link> ;
+		rdfs:range <Date> ;
+		rdfs:comment "Property between a Link and a Date, specifying the Date when it was inserted." .
+
+<motherIs>
+		a owl:ObjectProperty ;
+		rdfs:label "mother is"@en ;
+                rdfs:label "die Mutter ist"@de ;
+		rdfs:domain <Person> ;
+		rdfs:range <Person> ;
+		rdfs:comment "Property between a person and her or his mother." .
+
+<fatherIs>
+		a owl:ObjectProperty ;
+		rdfs:label "father is"@en ;
+                rdfs:label "der Vater ist"@de ;
+		rdfs:domain <Person> ;
+		rdfs:range <Person> ;
+		rdfs:comment "Property between a person and her or his father." .
+
+<hasSibling>
+		a owl:ObjectProperty ;
+		rdfs:label "has sibling"@en ;
+                rdfs:label "hat Geschwister"@de ;
+		rdfs:domain <Person> ;
+		rdfs:range <Person> ;
+		rdfs:comment "Property between a person and her or his Sibling." .
+
+<wasMarriedTo>
+		a owl:ObjectProperty ;
+		rdfs:label "was married to"@en ;
+                rdfs:label "war verheiratet mit"@de ;
+		rdfs:domain <Person> ;
+		rdfs:range <Person> ;
+		rdfs:comment "Property between a person and her or his marriage partner." .
+
+<hasDescendant>
+		a owl:ObjectProperty ;
+		rdfs:label "has descendant"@en ;
+                rdfs:label "hat den Nachfahren"@de ;
+		rdfs:domain <Person> ;
+		rdfs:range <Person> ;
+		rdfs:comment "Property between a person and her or his descendant." .
+
+
+
+
+
+
+<isIncomplete>
+		a owl:DatatypeProperty ;
+		rdfs:label "is incomplete"@en ;
+                rdfs:label "ist unvollständig"@de ;
+		rdfs:domain <Thing> ;
+		rdfs:range <xsd:bool> ;
+		rdfs:comment "Property between a Thing and the information if it is an incomplete information." .
+
+<hasText>
+		a owl:DatatypeProperty ;
+		rdfs:label "has text"@en ;
+                rdfs:label "hat den Text"@de ;
+		rdfs:domain <Comment> ;
+		rdfs:range <xsd:string> ;
+		rdfs:comment "Property between a comment and its text." .
+
+<hasURL>
+		a owl:DatatypeProperty ;
+		rdfs:label "has URL"@en ;
+                rdfs:label "hat die URL"@de ;
+		rdfs:domain <Link> ;
+		rdfs:range <xsd:string> ;
+		rdfs:comment "Property between a Link and its URL." .
+
+<isGenderwise>
+		a owl:DatatypeProperty ;
+		rdfs:label "is genderwise"@en ;
+                rdfs:label "ist vom Geschlecht her"@de ;
+		rdfs:domain <Person> ;
+		rdfs:range <xsd:string> ;
+		rdfs:comment "Property between a Person and her or his gender." .
+
+<hasTitle>
+		a owl:DatatypeProperty ;
+		rdfs:label "has title"@en ;
+                rdfs:label "hat den Titel"@de ;
+		rdfs:domain <Person> ;
+		rdfs:range <xsd:string> ;
+		rdfs:comment "Property between a Person and her or his title." .
+
+<generalLaborIs>
+		a owl:DatatypeProperty ;
+		rdfs:label "general labor is"@en ;
+                rdfs:label "Hauptbeschäftigung ist"@de ;
+		rdfs:domain <Person> ;
+		rdfs:range <xsd:string> ;
+		rdfs:comment "Property between her or his general labor." .
+
+
+
+
+
+
