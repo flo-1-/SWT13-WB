@@ -1,0 +1,236 @@
+{
+ 'Quelle': 
+  Fischer, Marta: Lebensmuster. Biobibliographisches Lexikon der Physiologen zwischen Deutschland und Russland im 19. Jahrhundert. Aachen: Shaker 2012 (Relationes 9)
+ 'WL': 
+  Arbeitsgebiete: vergleichende Anatomie und Biologie, Herz- und Muskelphysiologie, Bewegungsvorgänge und Funktionen der Sinnesorgane, tierische Elektrizität u. a.
+Nach ihm sind benannt:
+Das Engelmann-Syndrom (eine seltene Form der Osteosklerose, gekennzeichnet durch eine generalisierte Knochenhypertrophie mit zunehmender Knochenverhärtung bei gleichzeitiger Verminderung der Knochenbelastbarkeit)#footnote3#
+Engelmannscher Bakterienversuch (Nachweis der Grünlücke)#footnote4#
+1898-1908 Herausgeber der Physiologischen Abteilung von #italic#Archiv für Anatomie und Physiologie#/italic#
+ 'Bildbeschreibung': 
+  Portrait (Abb.) aus: Rothschuh 1953 (<b>SL</b>).
+ 'A': 
+  [
+   [
+    yearList
+    [
+     [
+      1857-1861
+      Besuch der Thomasschule zu Leipzig
+     ]
+     [
+      1861-1863
+      Studium der Naturwissenschaften und der Medizin an der Universität Jena bei Carl #name#Gegenbaur#/name# (1826-1903)
+     ]
+     [
+      1863-1866
+      Studium (je zwei Semester) an den Universitäten Leipzig, Heidelberg und Göttingen
+     ]
+     [
+      1866-1867
+      Fortsetzung des Studiums an der Universität Leipzig bei Carl #name#Credé#/name# (1819-1892), Christian Georg Theodor #name#Ruete#/name# (1810-1867) und Carl August #name#Wunderlich#/name# (1815-1877)
+     ]
+     [
+      1867
+      Promotion zum Dr. med. in Leipzig bei Albert von #name#Bezold#/name# (1836-1868)
+     ]
+    ]
+   ]
+  ]
+ 'B': 
+  [
+   [
+    yearList
+    [
+     [
+      1867-1877
+      Assistent bei Franciscus Cornelis #name#Donders#/name# (1818-1889) an der Universität Utrecht
+     ]
+     [
+      1877-1888
+      ao. Professor („Buitengewoon Hoogleerar“) für allgemeine Biologie und Histologie an der Universität Utrecht
+     ]
+     [
+      1888-1897
+      o. Professor für Physiologie an der Universität Utrecht
+     ]
+     [
+      1897-1908
+      o. Professor für Physiologie und Leiter des Physiologischen Instituts an der Friedrich-Wilhelms-Universität in Berlin (Nachfolger von Emil #internNameLink#30230#endNameNr#Du Bois-Reymond#/internNameLink#)
+     ]
+     [
+      1901-1902
+      Dekan der Medizinischen Fakultät an der Universität Berlin
+     ]
+     [
+      zw. 1902-1906
+      Forschungsaufenthalt bei I. P. #internNameLink#30785#endNameNr#Pavlov#/internNameLink# am Institut für Experimentelle Medizin (IEM) in St. Petersburg#footnote2#
+     ]
+     [
+      1908
+      Emeritierung
+     ]
+     [
+      
+      
+     ]
+    ]
+   ]
+   [
+    Ehrungen und Auszeichnungen:
+    1894 Ehrendoktor der Universität Oxford
+Nach ihm ist die Engelmannstraße im Leipziger Stadtteil Sellerhausen benannt
+   ]
+  ]
+ 'E': 
+  1. Maria Anna Theresia, geb. Donders (1846-1870)
+2. Emma Wilhelmina Franziska, geb. Vick (Künstlername: Emma Brandes) (1854-1940), Pianistin#footnote1#
+ 'Name': 
+{
+   'Vornamen': 
+    Theodor Wilhelm
+   'Nachname': 
+    Engelmann
+}
+ 'PortraitURL': 
+  portraits/20028.png
+ 'M': 
+  Christiana Theresia, geb. Hasse (1820-1907)
+ 'N': 
+  1.
+Zwillinge: Paula, verh. Krais (1870-1945), und Franz (1870-1908), Jurist
+2.
+Elisabeth, verh. van Heijst (Heyst) (1875-1901)
+Anna Louisa, verh. Narath (1876-1924)
+Wilhelm (1878-1955), Verlagsbuchhändler
+Hans Robert (1885-1946), Jurist, Verlagsbuchhändler
+ 'Q': 
+  [
+   Vita in: Diss. Leipzig 1867 (vgl. <b>W</b>), 44.
+   Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr. 2835.
+   Johannes Brahms im Briefwechsel mit Th. Wilhelm Engelmann. Mit einer Einleitung von Julius Röntgen. Berlin, Leipzig 1918, 182 S. (als Google book unter http://www.archive.org/details/johannesbrahmsim00brah, 23.8.2011)#footnote7#.
+  ]
+ 'P': 
+  [
+   Portrait (Abb.) aus: Rothschuh 1953 (<b>SL</b>).
+   Portrait in: Pagel 1901 (<b>SL</b>).
+   Portrait (mit Unterschrift) in: Wikipedia (<b>SL</b>).
+   Portraits in: Kingreen 1972 (<b>SL</b>): von 1905 (Abb. 1), um 1870 (Abb. 8), am Schreibtisch seines Arbeitszimmers (Abb. 13), im Physiologischen Institut Berlin (Abb. 14), 2 Karikaturen (Abb. 15 u. 16), das Ehepaar Engelmann mit Geiger Josef Joachim (Abb. 17).
+  ]
+ 'Geburtsdaten': 
+{
+   'Jahr': 
+    1843
+   'Ort': 
+    Leipzig
+   'Datum': 
+    14.11.1843
+}
+ 'Namensvariationen': 
+  [
+{
+    'vornamen': 
+     [
+      [
+       Федор
+      ]
+      [
+       Вильгельм
+      ]
+     ]
+    'nachname': 
+     Энгельман
+    'sprache': 
+     russ.
+}
+{
+    'vornamen': 
+     [
+      [
+       Fedor
+      ]
+      [
+       Vil’gel’m
+      ]
+     ]
+    'nachname': 
+     Ėngel'man
+    'sprache': 
+     russ. trans.
+}
+  ]
+ 'W': 
+{
+   'general': 
+    [
+     Zur Naturgeschichte der Infusionsthiere, Leipzig 1862, 47 S. = Zeitschrift für wissenschaftliche Zoologie 11 (1862), 347-393.
+     Über die Hornhaut des Auges. Diss. Leipzig 1867, 44 S.
+     Bacterium photometricum. Ein Beitrag zur vergleichenden Physiologie des Licht- und Farbsinnes. Archiv für die gesamte Physiologie des Menschen und der Tiere 30 (1883), 95-124.
+     Über den Ursprung der Muskelkraft. Leipzig 1892, 59 S.; 2. Aufl. 1893, 80 S.
+    ]
+}
+ 'V': 
+  Wilhelm (1808-1878), Buchhändler und Bibliograph
+ 'GPV': 
+{
+   'general': 
+    [
+     Publikationen 1868-1901, in: Poggendorff. Bd. 3 und 4 (<b>SL</b>).
+     Bibliographie (1859-1907, 245 Nrn.), in: Kingreen 1972 (<b>SL</b>), 90-121.
+    ]
+}
+ 'ID': 
+  20028
+ 'MG': 
+  Koninklijke Akademie van Wetenschappen (Niederlande) (1870), Leopoldina (1889, Fachsektion Physiologie), Académie Royale des Sciences, des Lettres et des Beaux-Arts de Belgique (1893)#footnote5#, Königlich-Preußische Akademie der Wissenschaften zu Berlin (1898), Suomen Akatemia [Finnische Akademie der Wissenschaften]#footnote6# u. a.
+ 'First Page': 
+  73
+ 'Last Page': 
+  76
+ 'Sterbedaten': 
+{
+   'Jahr': 
+    1909
+   'Ort': 
+    Lankwitz bei Berlin, Grabstätte: Berlin, Kaiser-Wilhelm-Gedächtnis-Friedhof
+   'Datum': 
+    20.5.1909
+}
+ 'SL': 
+{
+   'general': 
+    [
+     Deutsches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 285, 34-35; II 331, 71-90; III 216, 139-144, 148.
+     Jubiläums Katalog der Verlagsbuchhandlung Wilhelm Engelmann in Leipzig, 1811-1911. Leipzig, 1911, 1-114.
+     Kingreen, Helmut: Theodor Wilhelm Engelmann, 1843-1909. Ein bedeutender deutscher Physiologie an der Schwelle zum 20. Jahrhundert. Münster 1972 (Münstersche Beiträge zur Geschichte und Theorie der Medizin 6), 121 S., mit Bilder-Anhang; darin Abb. 18a-18c: Stammtafel der Familie Engelmann.
+     Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 460-461.
+     Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim.
+     Piper, H.: Nachruf auf Th. W. Engelmann. Münchener Medizinische Wochenschrift 56 (1909), 1797-1800.
+     Poggendorff - Biographisch-literarisches Handwörterbuch zur Geschichte der exacten Naturwissenschaften, enthaltend Nachweisungen über Lebensverhältnisse und Leistungen von Mathematikern, Astronomen, Physikern, Chemikern, Mineralogen, Geologen usw. aller Völker und Zeiten. Gesammelt von J. C. Poggendorff, Mitglied der Akademie der Wissenschaften zu Berlin / J. C. Poggendorff - Biographisch-literarisches Handwörterbuch der exakten Naturwissenschaften. Bd. 1-8. Leipzig, Berlin 1863-2004. Bd. 3, 412; Bd. 4, 385-386; Bd. 5, 339; Bd. 6, 666; Bd. 7a, Suppl., 186-187.
+     Rothschuh, Karl Eduard: Geschichte der Physiologie. Berlin, Göttingen, Heidelberg 1953, 213-214.
+     Stürzbecher, Manfred: Engelmann, Theodor Wilhelm. In: Neue Deutsche Biographie (Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010.) 4 (1959), 517-518 [Onlinefassung: URL: http://www.deutsche-biographie.de/pnd118684795.html, 19.8.2011).
+     Verworn, Max: Theodor Wilhelm Engelmann †. Zeitschrift für allgemeine Physiologie 10 (1910), I-VI [im Anhang].
+     Vinogradov, Jurij Abramovič, Golikov, Jurij Pavlovič, Grekova, Tat’jana Ivanovna (Sostaviteli): I. P. Pavlov: Dostovernost’ i polnota biografii. Sankt-Peterburg 2005, 138.
+     Wikipedia (http://de.wikipedia.org/wiki/Theodor_Wilhelm_Engelmann, 23.8.2011).
+    ]
+}
+ 'footnotes': 
+{
+   '1': 
+    Schülerin von Clara Schumann (1819-1896). Zur Biographie vgl. Silke Wenzel (mit Portrait von 1870) in: Musik und Gender im Internet (http://mugi.hfmt-hamburg.de/A_lexartikel/lexartikel.php?id=bran1854, 19.8.2011) und Schumann-Portal (mit Portrait, ca. 15jährig) (http://www.schumann-portal.de/pgcms/output.php?PAGE_ID=2450&amp;PHPSESSID=33daa56bb5a11901f731fd86149b5556, 19.8.2011)
+   '2': 
+    Engelmann schlug auch als Mitglied der Leopoldina (s. <b>M</b>) zusammen mit weiteren Vertretern der Fachsektion Physiologie I. P. Pavlov zur Auszeichnung mit der Goldenen Cothenius-Medaille vor. Vgl. Pfrepper 2009 (<b>SL</b>), 112, und → Pavlov.
+   '3': 
+    Vgl. http://www.enzyklo.de/Begriff/Engelmann-Syndrom (19.8.2011).
+   '4': 
+    Vgl. <b>W</b> (1883) und http://de.wikipedia.org/wiki/Gr%C3%BCnl%C3%BCcke (19.8.2011).
+   '5': 
+    Vgl. Annuaire de l’ Académie Royale des Sciences, des Lettres et des Beaux-Arts de Belgique 70 (1904), 25.
+   '6': 
+    Vgl. Acta Societatis Scientiarum Fennicae 36 (1909), IX.
+   '7': 
+    Engelmann war ein Freund von Johannes Brahms (1833-1897). Dieser widmete ihm das Stück „Opus 67, Quartett Nr. 3“.
+}
+ 'Berufe': 
+  Professor für Physiologie
+}
