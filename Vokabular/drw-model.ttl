@@ -216,7 +216,7 @@
                 rdfs:label "hat den Kommentar"@de ;
 		rdfs:domain <Thing> ;
 		rdfs:range <Comment> ;
-		rdfs:comment "Property between a Thing and a Comment related to it."" .
+		rdfs:comment "Property between a Thing and a Comment related to it." .
 
 <hasMainName>
 		a owl:ObjectProperty ;
