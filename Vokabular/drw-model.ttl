@@ -526,8 +526,15 @@
                 rdfs:label "Hauptbeschäftigung ist"@de ;
 		rdfs:domain <Person> ;
 		rdfs:range <xsd:string> ;
-		rdfs:comment "Property between her or his general labor." .
+		rdfs:comment "Property between a Person and her or his general labor." .
 
+<drwID>
+		a owl:DatatypeProperty ;
+		rdfs:label "drw ID is"@en ;
+                rdfs:label "drw ID ist"@de ;
+		rdfs:domain <Person> ;
+		rdfs:range <xsd:string> ;
+		rdfs:comment "Property between a Person and her or his drw ID." .
 
 
 
