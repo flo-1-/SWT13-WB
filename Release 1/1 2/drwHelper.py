@@ -93,7 +93,7 @@ def printWhatItIs(structure, level=0):
 		for entry in structure:
 			text = levelTabPrint(text)
 			text += "'" + str(entry) + "'" + ': \n'
-			text += print_what_it_is(structure[entry], level+1)
+			text += printWhatItIs(structure[entry], level+1)
 		level -= 1
 		text += u'}'
 	else:
