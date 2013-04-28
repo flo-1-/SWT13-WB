@@ -29,7 +29,11 @@
                 rdfs:label "Assoziierte Person"@de ;
 		rdfs:comment "A Person related to a Important Person." .
 
-
+<GeneralLabor>
+		a owl:Class ;
+                rdfs:label "General Labor"@en ;
+                rdfs:label "Hauptbeschäftigung"@de ;
+		rdfs:comment "The General Labor of a Person." .
 
 <Comment>
 		a owl:Class ;
@@ -174,7 +178,7 @@
                 rdfs:label "Lebensabschnitt"@de ;
 		rdfs:comment "A Period of Life, used to describe a part of a Persons life." .
 
-<Education>
+<A>
 		a owl:Class ;
 		rdfs:subClassOf <PoL> ;
                 rdfs:label "Education"@en ;
@@ -183,24 +187,38 @@
 
 <Studies>
 		a owl:Class ;
-		rdfs:subClassOf <Education> ;
+		rdfs:subClassOf <A> ;
                 rdfs:label "Studies"@en ;
                 rdfs:label "Studium"@de ;
 		rdfs:comment "A PoL used for Studies, subclass of Education." .
 
 <Promotion>
 		a owl:Class ;
-		rdfs:subClassOf <Education> ;
+		rdfs:subClassOf <A> ;
                 rdfs:label "Promotion"@en ;
                 rdfs:label "Promotion"@de ;
 		rdfs:comment "A PoL used for Promotion, Subclass of Education." .
 
-<Labor>
+<B>
 		a owl:Class ;
 		rdfs:subClassOf <PoL> ;
+                rdfs:label "Station of Life"@en ;
+                rdfs:label "Station of Life"@de ;
+		rdfs:comment "A PoL used for mixed PoLs." .
+
+<Labor>
+		a owl:Class ;
+		rdfs:subClassOf <B> ;
                 rdfs:label "Labor"@en ;
                 rdfs:label "Arbeit"@de ;
 		rdfs:comment "A PoL used for Labor." .
+		
+<MG>
+		a owl:Class ;
+		rdfs:subClassOf <PoL> ;
+                rdfs:label "Membership"@en ;
+                rdfs:label "Mitgliedschaft"@de ;
+		rdfs:comment "A PoL used for a Membership." .
 
 <Birth>
 		a owl:Class ;
@@ -249,6 +267,13 @@
                 rdfs:label "Source"@en ;
                 rdfs:label "Quelle"@de ;
 		rdfs:comment "A Source of an information, subclass of Literature." .
+		
+<SecondaryLiterature>
+		a owl:Class ;
+		rdfs:subClassOf <> ;
+                rdfs:label "Secondary Literature"@en ;
+                rdfs:label "Sekundärliteratur"@de ;
+		rdfs:comment "A Secondary Source related to a Person." .
 
 <Link>
 		a owl:Class ;
@@ -352,6 +377,22 @@
 		rdfs:domain <Name> ;
 		rdfs:range <LastName> ;
 		rdfs:comment "Property between a Name Object and the Last Name of a Person." .
+		
+<hasGeneralLabor>
+		a owl:ObjectProperty ;
+                rdfs:label "has General Labor"@en ;
+                rdfs:label "hat die Hauptbeschäftigung"@de ;
+                rdfs:domain <Person>
+                rdfs:range <GeneralLabor>
+		rdfs:comment "Property between a Person and her or his General Labor." .
+		
+<isGeneralLaborOf>
+		a owl:ObjectProperty ;
+                rdfs:label "is General Labor of"@en ;
+                rdfs:label "ist Hauptbeschäftigung von"@de ;
+                rdfs:domain <GeneralLabor>
+                rdfs:range <Person>
+		rdfs:comment "Property between a General Labor and the related Person." .
 
 <hasPoL>
 		a owl:ObjectProperty ;
@@ -389,7 +430,7 @@
 				rdfs:label "ist Lebensstation von"@de ;
 		rdfs:domain <StationOfLife> ;
 		rdfs:range <Person> ;
-		rdfs:comment "Property between a StationOfLife and the related Person." .
+		rdfs:comment "Property between a Station Of Life and the related Person." .
 
 
 <hasEducation>
@@ -604,7 +645,13 @@
 
 
 
-
+<hasID>
+		a owl:DatatypeProperty ;
+		rdfs:label "has the ID"@en ;
+                rdfs:label "hat die ID"@de ;
+		rdfs:domain <Person> ;
+		rdfs:range <xsd:string> ;
+		rdfs:comment "Property between a Person and her or his database ID." .
 
 <isIncomplete>
 		a owl:DatatypeProperty ;
