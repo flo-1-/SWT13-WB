@@ -114,30 +114,106 @@ def deleteCSS(text):
 	
 	return text
 
+def getKat(zeilen, ergebnis, kat):
+	start = ende = -1
+	n = o = 0
+	
+	for n in range(len(zeilen)):
+		if (zeilen[n] == kat + "\n") and (ende == -1):
+			start = n+1
+		elif ((zeilen[n][1:] == "\n") or (zeilen[n][2:] == "\n") or (zeilen[n][3:] == "\n") or (n+1 == len(zeilen)) ) and (n > start) and (start != -1):
+			ende = n
+			break
+	if (start != -1) and (ende != -1):
+		for o in range(start, ende):
+			ergebnis += zeilen[o]
+		ergebnis = ergebnis[:-1]
+		
+	return ergebnis
+
+def getMut(zeilen, ergebnis, kat):
+	start = ende = wlba = fund = -1
+	n = o = p = 0
+	
+	for p in range(len(zeilen)):
+		if (zeilen[p] == "M\n"):
+			fund += 1	#M Counter
+		if ((zeilen[p] == "WL\n") or (zeilen[p] == "B\n") or (zeilen[p] == "A\n")) and (fund == 0):
+			wlba = 1	#Mutter present
+		if (fund == 1):
+			wlba = 2	#Mutter and Mitglied present
+			break
+	
+	#only Mutter present or Mutter and Mitglied present
+	if ((fund == 0) and (wlba == 1)) or (fund == 1):
+		for n in range(len(zeilen)):
+			if (zeilen[n] == kat + "\n") and (ende == -1):
+				start = n+1
+			elif ((zeilen[n][1:] == "\n") or (zeilen[n][2:] == "\n") or (zeilen[n][3:] == "\n") or (n+1 == len(zeilen)) ) and (n > start) and (start != -1):
+				ende = n
+				break
+		if (start != -1) and (ende != -1):
+			for o in range(start, ende):
+				ergebnis += zeilen[o]
+			ergebnis = ergebnis[:-1]
+		
+	return ergebnis
+
+def getMit(zeilen, ergebnis, kat):
+	start = ende = wlba = fund = -1
+	n = o = p = q = r = c = 0
+	
+	for p in range(len(zeilen)):
+		if (zeilen[p] == "M\n"):
+			fund += 1
+		if ((zeilen[p] == "WL\n") or (zeilen[p] == "B\n") or (zeilen[p] == "A\n")) and (fund == -1):
+			wlba = 0	#Mutter not present
+		if ((zeilen[p] == "WL\n") or (zeilen[p] == "B\n") or (zeilen[p] == "A\n")) and (fund == 0):
+			wlba = 1	#Mutter present
+		if (fund == 1):
+			wlba = 2	#Mutter and Mitglied present
+			break
+	
+	#only Mutter present
+	if ((fund == 0) and (wlba == 0)):
+		for n in range(len(zeilen)):
+			if (zeilen[n] == kat + "\n") and (ende == -1):
+				start = n+1
+			elif ((zeilen[n][1:] == "\n") or (zeilen[n][2:] == "\n") or (zeilen[n][3:] == "\n") or (n+1 == len(zeilen)) ) and (n > start) and (start != -1):
+				ende = n
+				break
+		if (start != -1) and (ende != -1):
+			for o in range(start, ende):
+				ergebnis += zeilen[o]
+			ergebnis = ergebnis[:-1]
+		
+	return ergebnis
+
+	#Mutter and Mitglied present
+	if (fund == 1):
+		for q in range(len(zeilen)):
+			if (zeilen[q] == kat + "\n") and (ende == -1) and (c == 0):
+				c = 1
+			elif (zeilen[q] == kat + "\n") and (ende == -1) and (c != 0):
+				start = q+1
+			elif ((zeilen[q][1:] == "\n") or (zeilen[q][2:] == "\n") or (zeilen[q][3:] == "\n") or (q+1 == len(zeilen)) ) and (q > start) and (start != -1):
+				ende = q
+				break
+		if (start != -1) and (ende != -1) and (c != 0):
+			for r in range(start, ende):
+				ergebnis += zeilen[r]
+			ergebnis = ergebnis[:-1]
+		
+	return ergebnis
+
 def saveNamen(text, namenDict):
 	zeilen = text.splitlines(True)
 	kreuzZeile = -1
-	v_start = -1
-	v_ende = -1
-	m_start = -1
-	m_ende = -1
-	wl_b_a = -1
-	mi_start = -1
-	mi_ende = -1
-	wl_b_a_2 = -1
 	ID = zeilen[0][:-1].strip()
 	nachName = zeilen[1][:(zeilen[1].find(","))].strip()
 	vorName = zeilen[1][(zeilen[1].find(",")+1):].strip()
-	nameKyr = ""
-	namensVar = ""
-	geburtsDaten = ""
-	sterbeDaten = ""
-	beruf = ""
-	vater = ""
-	ehegatte = ""
-	mutter = ""
-	mitglied = ""
-	
+	nameKyr = namensVar = geburtsDaten = sterbeDaten = beruf = vater = ehegatte = mutter = mitglied = ausbildung = lebensstationen = ""
+	leistungen = werke = sekundLit = publikVerz = quellen = portraits = geschwister = nachkommen = ""
 	
 	#Kyrillischer Name
 	for i in range(2,5):
@@ -162,29 +238,6 @@ def saveNamen(text, namenDict):
 		if ((zeilen[k][:2].strip() == "*")):
 			geburtsDaten = zeilen[k][2:-1].strip()
 			break
-			
-			"""
-			if "," in zeilen[k]:
-				geburtsDatum += zeilen[k][2:(zeilen[k].find(","))].strip()
-				geburtsOrt += zeilen[k][(zeilen[k].find(",")+1):-1].strip()
-			elif "in" in zeilen[k]:
-				if (not ("im" in zeilen[k][:zeilen[k].find("in")]) or ("auf" in zeilen[k][:zeilen[k].find("in")])):
-					geburtsDatum += zeilen[k][2:(zeilen[k].find("in"))].strip()
-					geburtsOrt += zeilen[k][(zeilen[k].find("in")+2):-1].strip()
-				elif "im" in zeilen[k]:
-					if (not ("in" in zeilen[k][:zeilen[k].find("im")]) or ("auf" in zeilen[k][:zeilen[k].find("im")])):
-						geburtsDatum += zeilen[k][2:(zeilen[k].find("im"))].strip()
-						geburtsOrt += zeilen[k][(zeilen[k].find("im")+2):-1].strip()
-					elif "auf" in zeilen[k]:
-						if (not ("in" in zeilen[k][:zeilen[k].find("auf")]) or ("im" in zeilen[k][:zeilen[k].find("auf")])):
-							geburtsDatum += zeilen[k][2:(zeilen[k].find("auf"))].strip()
-							geburtsOrt += zeilen[k][(zeilen[k].find("auf")+2):-1].strip()
-			else:
-				if "0" in zeilen[k] or "1" in zeilen[k]:
-					geburtsDatum += zeilen[k][2:-1].strip()
-				else:
-					geburtsOrt += zeilen[k][2:-1].strip()
-			"""
 	
 	#Sterbedaten
 	for l in range(20):
@@ -200,66 +253,20 @@ def saveNamen(text, namenDict):
 		else:
 			break
 	
-	#Vater
-	for n in range(len(zeilen)):
-		if zeilen[n] == "V\n":
-			v_start = n+1
-		if ((zeilen[n][1:] == "\n") or (zeilen[n][2:] == "\n") or (zeilen[n][3:] == "\n")) and (n > v_start):
-			v_ende = n
-			break
-	for o in range(v_start, v_ende):
-		vater += zeilen[o]
-		
-	vater = vater[:-1]
-	
-	#Ehegatte
-	for p in range(len(zeilen)):
-		if zeilen[p] == "E\n":
-			v_start = p+1
-		if ((zeilen[p][1:] == "\n") or (zeilen[p][2:] == "\n") or (zeilen[p][3:] == "\n")) and (p > v_start):
-			v_ende = p
-			break
-	for q in range(v_start, v_ende):
-		ehegatte += zeilen[q]
-		
-	ehegatte = ehegatte[:-1]
-	
-	"""
-	#Mutter
-	for r in range(len(zeilen)):
-		if ((zeilen[r] == "WL\n") or (zeilen[r] == "B\n") or (zeilen[r] == "A\n")):
-			wl_b_a = 1
-		if (zeilen[r] == "M\n"):
-			if (wl_b_a != 1):
-				m_start = r+1
-		if ((zeilen[r][1:] == "\n") or (zeilen[r][2:] == "\n") or (zeilen[r][3:] == "\n")) and (r > m_start) and (m_start != -1):
-			m_ende = r
-			break
-	
-	print str(m_start)
-	print str(m_ende)
-	
-	if ((m_start != -1) and (m_ende != -1)):
-		for t in range(m_start, m_ende):
-			mutter += zeilen[t]
-		mutter = mutter[:-1]
-	
-	#Mitgliedschaft
-	for v in range(len(zeilen)):
-		if ((zeilen[v] == "WL\n") or (zeilen[v] == "B\n") or (zeilen[v] == "A\n")):
-			wl_b_a_2 = 1
-		if (zeilen[v] == "M\n"):
-			if (wl_b_a_2 == 1):
-				mi_start = v+1
-		if ((zeilen[v][1:] == "\n") or (zeilen[v][2:] == "\n") or (zeilen[v][3:] == "\n")) and (v > mi_start) and (mi_start != -1):
-			mi_ende = v
-			break
-	
-	if ((mi_start != -1) and (mi_ende != -1)):
-		for w in range(mi_start, mi_ende):
-			mitglied += zeilen[w]
-		mitglied = mitglied[:-1]
-	"""
+	vater = getKat(zeilen, vater, "V")			#Vater
+	ehegatte = getKat(zeilen, ehegatte, "E")		#Ehegatten
+	ausbildung = getKat(zeilen, ausbildung, "A")		#Ausbildung
+	lebensstationen = getKat(zeilen, lebensstationen, "B")	#Lebensstationen
+	leistungen = getKat(zeilen, leistungen, "WL")		#Leistungen
+	werke = getKat(zeilen, werke, "W")			#Werke
+	sekundLit = getKat(zeilen, sekundLit, "SL")		#Sekundaerliteratur
+	portraits = getKat(zeilen, portraits, "P")		#Portraits
+	publikVerz = getKat(zeilen, publikVerz, "GPV")		#Publikationsverzeichnisse
+	quellen = getKat(zeilen, quellen, "Q")			#Quellen
+	geschwister = getKat(zeilen, geschwister, "G")		#Geschwister
+	nachkommen = getKat(zeilen, nachkommen, "N")		#Nachkommen
+	mutter = getMut(zeilen, mutter, "M")			#Mutter
+	mitglied = getMit(zeilen, mitglied, "M")		#Mitgliedschaft
 	
 	#Dictionary fuellen
 	namenDict["ID"] = ID
@@ -281,21 +288,40 @@ def saveNamen(text, namenDict):
 		namenDict["Mutter"] = mutter
 	if mitglied != "":
 		namenDict["Mitgliedschaft"] = mitglied
-	
+	if ausbildung != "":
+		namenDict["Ausbildung"] = ausbildung
+	if lebensstationen != "":
+		namenDict["Lebensstationen"] = lebensstationen
+	if leistungen != "":
+		namenDict["Leistungen"] = leistungen
+	if werke != "":
+		namenDict["Werke"] = werke
+	if sekundLit != "":
+		namenDict["Sekundaerliteratur"] = sekundLit
+	if publikVerz != "":
+		namenDict["Publikationsverzeichnisse"] = publikVerz
+	if portraits != "":
+		namenDict["Portraits"] = portraits
+	if quellen != "":
+		namenDict["Quellen"] = quellen
+	if geschwister != "":
+		namenDict["Geschwister"] = geschwister
+	if nachkommen != "":
+		namenDict["Nachkommen"] = nachkommen
 
 def main(argv):
 	htmlList = loadHTMLList()						#loads the url list
 	personenDict = {}							#dictionary for all persons
-#	for i in range(4, 7):							#loop for testing purposes
-	for i in range(len(htmlList)):						#loop through the urls
+	for i in range(7,8):							#loop for testing purposes
+#	for i in range(len(htmlList)):						#loop through the urls
 		htmlText = getTextOfHTML(htmlList[i])				#get text of i-th htm file
 		htmlText = convertHTMLChars(htmlText)				#convert speacial htm characters to unicode
 		text = htmlList[i][26:31] + "\n"				#add the file number to the new text 
 		text += parser(htmlText)					#delete certain htm tags
 		text = deleteCSS(text)						#delete CSS code and some whitespaces
 		save(text, os.getcwd()+"/Temp", "person_"+str(i),".txt")	#save the new text in a subfolder
-		saveNamen(text, personenDict)
-		print printWhatItIs(personenDict)
+		saveNamen(text, personenDict)					#save the content of each category in a dictionary "personenDict"
+		print printWhatItIs(personenDict)				#print the dictionary for testing purposes
 
 if __name__ == "__main__":
 	main(sys.argv[1:])
