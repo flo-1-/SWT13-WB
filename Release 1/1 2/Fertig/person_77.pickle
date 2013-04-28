@@ -1,74 +1,74 @@
 (dp0
-S'Publikationsverzeichnisse'
+S'A'
 p1
-V\u2022 Publikationen 1865-1886, in: Zmeev (<b>SL</b>).\u000a\u2022 Publikationen 1877-1899, in: Brokgauz/Efron; zit. nach WBIS RBA: R 507, 412 (<b>SL</b>).
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-V\u0160ER\u0160EVSKIJ
-p6
-sS'Vorname'
-p7
-VMichail Markovi\u010d
-p8
-ssS'Kyrillische Namen'
-p9
-V\u0428E\u0420\u0428E\u0412CK\u0418\u0419, M\u0438xa\u0438\u043b Ma\u0440\u043ao\u0432\u0438\u0447
-p10
-sS'Ausbildung'
-p11
 VBis 1869 Studium und 1873 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg.
+p2
+sS'MG'
+p3
+VVoenno-medicinskij u\u010denyj komitet [Militärmedizinisches Gelehrtenkomitee].
+p4
+sS'B'
+p5
+V1869-1871 Assistenzarzt im Nikolaj- und im Klinischen Militärkrankenhaus der MCA, 1874-1876 im Medizinaldepartment der "Institutionen der Zarin Marija", danach 1876 im 93. Regiment und 1877 im 146. Caricynskij-Infanterieregiment, 1878-1879 Aufenthalte in verschiedenen Krankenhäusern in Deutschland und in Frankreich, 1879-1881 Arzt im Preobra\u017eenskij-Leibgarde-Regiment, zugleich Leibarzt des Großfürsten NIKOLAJ NIKOLAEVI\u010c (1831-1891), ab 1880 "Ehrenleibmedikus" und ab 1903 Leibarzt am Hofe des Zaren NIKOLAJ II. (1868-1918), insbesondere der Großfürsten und Großfürstinnen VLADIMIR ALEKSANDROVI\u010c (1847-1909) und MARIJA PAVLOVNA (1854-1920), PETR NIKOLAEVI\u010c (1864-1931) und MILICA NIKOLAEVNA (1866-1951) sowie von GEORGIJ ALEKSANDROVI\u010c (1871-1899), außerdem praktischer Arzt für innere Krankheiten in eigener Privatpraxis und Konsultant für Nervenkrankheiten im Nikolaj-Militärkrankenhaus.\u000aInhaber hoher Ehrentitel und Auszeichnungen, z.B. "Staatsrat", "Geheimrat", St.-Stanislav-Orden 1. Klasse, St.-Vladimir- und St.-Annen-Orden 3. Klasse, Preußischer Roter-Adler-Orden, Kommandeurskreuz des Württembergischen Friedrichsordens 2. Klasse, Kommandeurskreuz des Ernestinischen Hausordens von Sachsen-Coburg-Gotha 2. Klasse.
+p6
+sS'E'
+p7
+VOl'ga Alekseevna \u0160er\u0161evskaja, geb. Pu\u0161kareva (\u2020 1899)
+p8
+sS'Name'
+p9
+(dp10
+S'Nachname'
+p11
+V\u0160ER\u0160EVSKIJ
 p12
-sS'Portraits'
+sS'Vorname'
 p13
-V\u2022 Foto aus: G. L. I. (<b>SL</b>), 981. Abgedruckt in: Fischer 2010, 249.\u000a\u2022 Foto [Ausschnitt] in: [Nekrolog] (<b>SL</b>).
+VMichail Markovi\u010d
 p14
-sS'Namensvariationen'
+ssS'Namensvariationen'
 p15
 VSCHERSCHEWSKY
 p16
-sS'Leistungen'
+sS'Namen (kyrillisch)'
 p17
-VWidmete sich hauptsächlich dem Studium der inneren und der Nervenkrankheiten, beschäftigte sich mit den Fragen der Organneurosen, der Ätiologie der Arteriosklerose (z.B. schwere körperliche Arbeit und seelische Störungen), wies auf Veränderungen des Aortenbogens bei Thoraxdeformitäten hin u.a.
+V\u0428E\u0420\u0428E\u0412CK\u0418\u0419, M\u0438xa\u0438\u043b Ma\u0440\u043ao\u0432\u0438\u0447
 p18
-sS'Beruf'
+sS'Berufe'
 p19
 VPraktischer Arzt, Militärarzt, Ehrenleibmedikus
 p20
-sS'Nachkommen'
+sS'WL'
 p21
-VEvgenija Michajlovna \u0160er\u0161evskaja, verh. Studenskaja, in 2. Ehe verh. Braun (1874-1906), Dichterin und Übersetzerin
+VWidmete sich hauptsächlich dem Studium der inneren und der Nervenkrankheiten, beschäftigte sich mit den Fragen der Organneurosen, der Ätiologie der Arteriosklerose (z.B. schwere körperliche Arbeit und seelische Störungen), wies auf Veränderungen des Aortenbogens bei Thoraxdeformitäten hin u.a.
 p22
-sS'Geburtsdaten'
+sS'P'
 p23
-V27.6.1846 oder 1847 im Gouvernement Wilna
+V\u2022 Foto aus: G. L. I. (<b>SL</b>), 981. Abgedruckt in: Fischer 2010, 249.\u000a\u2022 Foto [Ausschnitt] in: [Nekrolog] (<b>SL</b>).\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 249-251.</i>
 p24
-sS'Lebensstationen'
+sS'Geburtsdaten'
 p25
-V1869-1871 Assistenzarzt im Nikolaj- und im Klinischen Militärkrankenhaus der MCA, 1874-1876 im Medizinaldepartment der "Institutionen der Zarin Marija", danach 1876 im 93. Regiment und 1877 im 146. Caricynskij-Infanterieregiment, 1878-1879 Aufenthalte in verschiedenen Krankenhäusern in Deutschland und in Frankreich, 1879-1881 Arzt im Preobra\u017eenskij-Leibgarde-Regiment, zugleich Leibarzt des Großfürsten NIKOLAJ NIKOLAEVI\u010c (1831-1891), ab 1880 "Ehrenleibmedikus" und ab 1903 Leibarzt am Hofe des Zaren NIKOLAJ II. (1868-1918), insbesondere der Großfürsten und Großfürstinnen VLADIMIR ALEKSANDROVI\u010c (1847-1909) und MARIJA PAVLOVNA (1854-1920), PETR NIKOLAEVI\u010c (1864-1931) und MILICA NIKOLAEVNA (1866-1951) sowie von GEORGIJ ALEKSANDROVI\u010c (1871-1899), außerdem praktischer Arzt für innere Krankheiten in eigener Privatpraxis und Konsultant für Nervenkrankheiten im Nikolaj-Militärkrankenhaus.\u000aInhaber hoher Ehrentitel und Auszeichnungen, z.B. "Staatsrat", "Geheimrat", St.-Stanislav-Orden 1. Klasse, St.-Vladimir- und St.-Annen-Orden 3. Klasse, Preußischer Roter-Adler-Orden, Kommandeurskreuz des Württembergischen Friedrichsordens 2. Klasse, Kommandeurskreuz des Ernestinischen Hausordens von Sachsen-Coburg-Gotha 2. Klasse.
+V27.6.1846 oder 1847 im Gouvernement Wilna
 p26
 sS'Sterbedaten'
 p27
 V6.2.1910, St. Petersburg, Grabstätte: Friedhof Smolenskoe
 p28
-sS'Sekundaerliteratur'
+sS'W'
 p29
-V\u2022 G. L. I.: Pamjati M. M. \u0160er\u0161evskago. Istori\u010deskij vestnik (32) 119 (1910), 978-989.\u000a\u2022 [Nekrolog] Niva 41 (1910) 9, 177, Bildnis auf S. 178.\u000a\u2022 Pridvornyj kalendar': na 1910 god. S.-Peterburg [1910], 286-287.\u000a\u2022 Tarakanovskij, Georgij Georgievi\u010d: Evgenija Studenskaja - perevod\u010dik pesni "Naverch, o tovari\u0161\u010di, vse po mestam!" Kortik 3 (2004), 92-96. Auszug vgl. http://tsushima.su/RU/libru/i/Page_7/page_18/page_19/page_27/page_27_001/  (27.3.2012).\u000a\u2022 WBIS RBA: R 507, 410-414.\u000a\u2022 Zmeev. Bd 4 (1889), 198-199; auch in: WBIS RBA: R 507, 410-412.
-p30
-sS'Werke'
-p31
 V\u2022 [Übersetzung von: Wilhelm Griesinger, Max von Pettenkofer, Carl August Wunderlich: Cholera-Regulativ. Den Sanitätsbehörden, den Aerzten und dem Publikum vorgelegt. München 1866 oder 1867] Grizinger, Pettenkofer, Wundterlich: Predochranitel'nye mery protiv cholery. Archiv sudebnoj mediciny i ob\u0161\u010destvennoj gigieny 5 (1869) Nr. 3.\u000a\u2022 [Übersetzung von: Ernst Buchner: Lehrbuch der gerichtlichen Medicin für Aerzte und Juristen. München 1867, 454 S.] \u0116rnst Buchner: Sudebnaja medicina dlja vra\u010dej i juristov. Sankt-Peterburg 1870, 278 S.\u000a\u2022 [Hg. der Übersetzung von: Carl Ernst Bock: Supplementband zu allen Ausgaben von Bock's Buch vom gesunden und kranken Menschen, der Gartenlaube entnommen. Leipzig 1862] Bud'te zdorovy! Populjarno-medicinskie besedy d-ra Boka. Bd. 2. Sankt-Peterburg 1872, 315 S.; ... 6. Aufl. Sankt-Peterburg 1876, 439 S.\u000a\u2022 Ob inervacii matki. Diss. Sankt-Peterburg 1873, 38 S.\u000a\u2022 K patologii nejrozov ki\u0161e\u010dnogo kanala. Sankt-Peterburg 1888, 37 S.\u000a\u2022 Ueber Thermoneurosen. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 96 (1884), 131-175. http://www.springerlink.com/content/4467485294450l74/fulltext.pdf (5.4.2012).
+p30
+sS'SL'
+p31
+V\u2022 G. L. I.: Pamjati M. M. \u0160er\u0161evskago. Istori\u010deskij vestnik (32) 119 (1910), 978-989.\u000a\u2022 [Nekrolog] Niva 41 (1910) 9, 177, Bildnis auf S. 178.\u000a\u2022 Pridvornyj kalendar': na 1910 god. S.-Peterburg [1910], 286-287.\u000a\u2022 Tarakanovskij, Georgij Georgievi\u010d: Evgenija Studenskaja - perevod\u010dik pesni "Naverch, o tovari\u0161\u010di, vse po mestam!" Kortik 3 (2004), 92-96. Auszug vgl. http://tsushima.su/RU/libru/i/Page_7/page_18/page_19/page_27/page_27_001/  (27.3.2012).\u000a\u2022 WBIS RBA: R 507, 410-414.\u000a\u2022 Zmeev. Bd 4 (1889), 198-199; auch in: WBIS RBA: R 507, 410-412.
 p32
-sS'Ehegatten'
+sS'GPV'
 p33
-VOl'ga Alekseevna \u0160er\u0161evskaja, geb. Pu\u0161kareva (\u2020 1899)
+V\u2022 Publikationen 1865-1886, in: Zmeev (<b>SL</b>).\u000a\u2022 Publikationen 1877-1899, in: Brokgauz/Efron; zit. nach WBIS RBA: R 507, 412 (<b>SL</b>).
 p34
-sS'Mitgliedschaft'
+sS'N'
 p35
-VVoenno-medicinskij u\u010denyj komitet [Militärmedizinisches Gelehrtenkomitee].
+VEvgenija Michajlovna \u0160er\u0161evskaja, verh. Studenskaja, in 2. Ehe verh. Braun (1874-1906), Dichterin und Übersetzerin
 p36
 sS'ID'
 p37

@@ -1,70 +1,70 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VJohann Nikolaus (1719-1796), Gastwirt
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VWEIKARD
-p6
-sS'Vorname'
-p7
-VGeorg Nikolaus
-p8
-ssS'Kyrillische Namen'
-p9
-VBE\u0419KAPT, E\u0433o\u0440 \u041d\u0438\u043ao\u043bae\u0432\u0438\u0447 / VEJKART, Egor Nikolaevi\u010d
-p10
-sS'Ausbildung'
-p11
 VBesuch des Gymnasiums in Fulda, ab 1770 Studium der Medizin und 1776 Dr. med. (vermutlich ohne schriftliche Dissertation) an der Bischöflichen Universität Fulda, 1782 Zulassung zur ärztlichen Praxis in Russland.
-p12
-sS'Geschwister'
-p13
-VAdam Melchior Weikard (1742-1803), Hof- und Leibarzt, Philosoph\u000aAnna Sidonia, verh. Merz, Mutter von Johann(es) Jakob Balthasar #internNameLink#30434#endNameNr#Merz#/internNameLink#
-p14
-sS'Namensvariationen'
-p15
-VWEIKART, WEICHARD, VEJKARDT, BE\u0419KAP\u0414, BE\u0419KAP\u0414T
-p16
-sS'Mutter'
-p17
-VSabina Franziska, geb. Kluberdanz (1719-1758)
-p18
-sS'Beruf'
-p19
-VHofarzt, Leibmedikus
-p20
-sS'Nachkommen'
-p21
-VSophie (Egorovna), verh. Poggenpohl (1798-1879)\u000aGeorg Karl (Egor Egorovi\u010d) (1800-1865?), Stabskapitän, zuletzt Zollbeamter\u000aAlexander (Egorovi\u010d) (1804-1855), Chef des Dienstkommandos im Außenministerium
-p22
-sS'Geburtsdaten'
-p23
-V6.3.1756, Römershag in Franken
-p24
-sS'Lebensstationen'
-p25
+p2
+sS'MG'
+p3
+VAnglijskij klub [Englischer Club in St. Petersburg] (1787-1806).
+p4
+sS'B'
+p5
 VAb 1777 Weiterbildung und danach bis 1782 praktischer Arzt in Paris, 1782 Arzt des Grafen Andrej Petrovi\u010d \u0160UVALOV (1744-1789) und dessen Ehefrau während ihrer Reise von Paris nach St. Petersburg, danach ihr Hausarzt in St. Petersburg, ab 1784 Hofarzt, März bis Mai 1800 behandelnder Arzt des erkrankten Generals Aleksandr Vasil'evi\u010d SUVOROV (1729-1800) in Kobrin, ab 1809 Leibmedikus am Hofe des Zaren ALEKSANDR I. (1777-1825).\u000aInhaber der russischen Ehrentitel "Kollegienrat" (1797) und "Staatsrat" (1799).
+p6
+sS'E'
+p7
+VMaria (Sophie?) (Karlovna), geb. Amburger (1776-1855)
+p8
+sS'Name'
+p9
+(dp10
+S'Nachname'
+p11
+VWEIKARD
+p12
+sS'Vorname'
+p13
+VGeorg Nikolaus
+p14
+ssS'G'
+p15
+VAdam Melchior Weikard (1742-1803), Hof- und Leibarzt, Philosoph\u000aAnna Sidonia, verh. Merz, Mutter von Johann(es) Jakob Balthasar #internNameLink#30434#endNameNr#Merz#/internNameLink#
+p16
+sS'Namensvariationen'
+p17
+VWEIKART, WEICHARD, VEJKARDT, BE\u0419KAP\u0414, BE\u0419KAP\u0414T
+p18
+sS'M'
+p19
+VSabina Franziska, geb. Kluberdanz (1719-1758)
+p20
+sS'Namen (kyrillisch)'
+p21
+VBE\u0419KAPT, E\u0433o\u0440 \u041d\u0438\u043ao\u043bae\u0432\u0438\u0447 / VEJKART, Egor Nikolaevi\u010d
+p22
+sS'Berufe'
+p23
+VHofarzt, Leibmedikus
+p24
+sS'Geburtsdaten'
+p25
+V6.3.1756, Römershag in Franken
 p26
 sS'Sterbedaten'
 p27
 V7./19.6.1810, St. Petersburg
 p28
-sS'Sekundaerliteratur'
+sS'V'
 p29
-V\u2022 Amburger, Erik: Deutsche in Staat, Wirtschaft und Gesellschaft Russlands. Die Familie Amburger in St. Petersburg 1770-1920. Wiesbaden 1986, 69-76, 198, 269.\u000a\u2022 EAD: Dokument-Id [62602/62162 und 1037255 (13.8.2010)].
+VJohann Nikolaus (1719-1796), Gastwirt
 p30
-sS'Ehegatten'
+sS'N'
 p31
-VMaria (Sophie?) (Karlovna), geb. Amburger (1776-1855)
+VSophie (Egorovna), verh. Poggenpohl (1798-1879)\u000aGeorg Karl (Egor Egorovi\u010d) (1800-1865?), Stabskapitän, zuletzt Zollbeamter\u000aAlexander (Egorovi\u010d) (1804-1855), Chef des Dienstkommandos im Außenministerium
 p32
-sS'Mitgliedschaft'
+sS'SL'
 p33
-VAnglijskij klub [Englischer Club in St. Petersburg] (1787-1806).
+V\u2022 Amburger, Erik: Deutsche in Staat, Wirtschaft und Gesellschaft Russlands. Die Familie Amburger in St. Petersburg 1770-1920. Wiesbaden 1986, 69-76, 198, 269.\u000a\u2022 EAD: Dokument-Id [62602/62162 und 1037255 (13.8.2010)].\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 269.</i>
 p34
 sS'ID'
 p35

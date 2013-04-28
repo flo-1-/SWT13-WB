@@ -1,70 +1,70 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VVasilij, Geistlicher in Zimovejka
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VENOCHIN
-p6
-sS'Vorname'
-p7
-VIvan Vasil'evi\u010d
-p8
-ssS'Kyrillische Namen'
-p9
-VE\u041dOX\u0418\u041d, \u0418\u0432a\u043d \u0412a\u0441\u0438\u043b\u044ce\u0432\u0438\u0447
-p10
-sS'Ausbildung'
-p11
 VNach dem häuslichen Privatunterricht Ausbildung am Priesterseminar in Kursk, 1809-1814 Studium an der Kiever Mogila-Akademie, 1817 bis 1821 Studium (auf Staatskosten) mit dem Abschluss "Arzt 1. Klasse", 1835(?) "Mediko-Chirurg" und 1836 Dr. med. et chir. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg.
+p2
+sS'MG'
+p3
+VVoenno-medicinskij u\u010denyj komitet [Militärmedizinisches Gelehrtenkomitee] (ab 1845), St. Peterburgskoe ob\u0161\u010destvo russkich vra\u010dej [St. Petersburger Gesellschaft russischer Ärzte] (12 Jahre Vorsitzender), Mediko-chirurgi\u010deskaja akademija [Mediko-chirurgische Akademie] St. Petersburg, Moskovskoe fiziko-medicinskoe ob\u0161\u010destvo [Moskauer Physikalisch-medizinische Gesellschaft], Var\u0161avskoe medicinskoe ob\u0161\u010destvo [Warschauer medizinische Gesellschaft], Kavkazskij u\u010denyj komitet [Kaukasisches Gelehrtenkomitee], (Reale) Accademia Medico-Chirurgica di Napoli, Accademia dei Lincei di Roma, Accademia di Scienze e Lettere di Palermo, Gesellschaft der Ärzte in Wien.
+p4
+sS'B'
+p5
+V1814-1817 Lehrer für französische Sprache, Poetik und Mathematik am Priesterseminar in Kursk, 1821-1824 Arzt und 1824-1828 Stabsarzt im Pavlovskij-Leibgarde-Regiment, 1828 Arzt und ab 1829 Oberarzt im Preobra\u017eenskij-Leibgarde-Regiment, zugleich Chefarzt des Artillerie-Hospitals, außerdem 1827 Begleiter des Zaren NIKOLAJ I. (1796-1855) auf seiner Reise durch Russland, 1828-1829 im Russisch-türkischen Krieg sowie 1830 während der Choleraepidemie in Warschau und Moskau, während des polnischen Aufstandes 1831 Oberarzt in der Paskevi\u010d-Garde-Kavallerie, ab Dezember 1831 Leibchirurg, 1837 Begleiter des Thronfolgers ALEKSANDR Nikolaevi\u010d (1818-1881) auf der Russlandreise und 1838-1839 als dessen Leibarzt auf Europareisen (als Angehöriger der Kaiserlichen Suite mit zahlreichen ausländischen Orden und Mitgliedschaften ausgezeichnet), ab 1855 auch Leibarzt am Zarenhof, ab 1849 Chefarzt der militärmedizinischen Lehranstalten, ab 1857 Direktor des Militärmedizinischen Departements, ab 1862 Hauptmedizinalinspektor im Hauptstab der Armee, außerdem Mitglied des Medizinalrats des Ministeriums des Innern, im September 1862 Erkrankung während der Manöver auf dem Chodynskij-Feld, danach im Ausland von berühmten Ärzten behandelt, z.B. von Friedrich Theodor von FRERICHS (1819-1885), Direktor der II. Medizinischen Klinik der Charité in Berlin, und in verschiedenen Kurorten, darunter in Nizza, zuletzt Aufenthalt in einer Privatpension in Paris, wo er auch starb.\u000aInhaber der Ehrentitel "Wirklicher Russischer Staatsrat" und "Geheimrat" (1855), des St.-Annen-Ordens 1. Klasse mit der Kaiserkrone, des St.-Vladimir-Ordens 4. Klasse, einiger russischer Militärorden und -medaillen sowie zahlreicher ausländischer Orden, darunter des Ordens Philipps des Großmütigen von Hessen-Darmstadt 2. Klasse, des Königlich Preußischen Roter Adler-Ordens 2. Klasse, des Österreichisch-Kaiserlichen Ordens der Eisernen Krone und des Leopold-Ordens, des Ordens der Württembergischen Krone 2. Klasse, des Großherzoglichen Badischen Ordens vom Zähringer Löwen 2. Klasse, des Weimarer Falken-Ordens 3. Klasse, des Sächsischen Zivilverdienstordens 3. Klasse.\u000aPosthume Ehrung: 1866-1917 Enochin-Stipendium an der MCA.
+p6
+sS'E'
+p7
+VMarija Vikent'evna Enochina, geb. \u0116ngler (1824-1884)
+p8
+sS'Name'
+p9
+(dp10
+S'Nachname'
+p11
+VENOCHIN
 p12
-sS'Portraits'
+sS'Vorname'
 p13
-VBoris Aleksandrovi\u010d Nachapetov: I. V. Enochin. Zeichnung. Aus: Nachapetov 2003, 115. Abgedruckt in: Fischer 2010, 82.
+VIvan Vasil'evi\u010d
 p14
-sS'Namensvariationen'
+ssS'Namensvariationen'
 p15
 VJENOCHIN, I. V.
 p16
-sS'Leistungen'
+sS'Namen (kyrillisch)'
 p17
-VBrachte viele nützliche Veränderungen in die russische Medizinerausbildung ein, darunter Befürwortung einer höheren Qualifikation von Militärärzten, die Entsendung der Militärärzte zur Weiterbildung an die Akademie- und Universitätskliniken und ins Ausland, die Bestückung der Krankenhausbibliotheken mit wichtiger medizinischer Literatur und der Ausbildungsstätten mit Lernhilfen; spielte eine bedeutende Rolle bei der Umstrukturierung des Militärmedizinischen Departements; aufgrund seiner Bemühungen wurden die Gehälter der Militärärzte bedeutend verbessert.\u000aErweiterte das <i>Voenno-medicinskij \u017eurnal</i> von dreimonatlicher auf monatliche Ausgabe, Gründer der <i>Protokoly zasedanij Ob\u0161\u010destva russkich vra\u010dej</i>.
+VE\u041dOX\u0418\u041d, \u0418\u0432a\u043d \u0412a\u0441\u0438\u043b\u044ce\u0432\u0438\u0447
 p18
-sS'Beruf'
+sS'Berufe'
 p19
 VMilitärarzt, Kaiserlicher Leibarzt
 p20
-sS'Geburtsdaten'
+sS'WL'
 p21
-V24.6.1791, Zimovejka im Kreis Koro\u010da, Gouvernement Kursk
+VBrachte viele nützliche Veränderungen in die russische Medizinerausbildung ein, darunter Befürwortung einer höheren Qualifikation von Militärärzten, die Entsendung der Militärärzte zur Weiterbildung an die Akademie- und Universitätskliniken und ins Ausland, die Bestückung der Krankenhausbibliotheken mit wichtiger medizinischer Literatur und der Ausbildungsstätten mit Lernhilfen; spielte eine bedeutende Rolle bei der Umstrukturierung des Militärmedizinischen Departements; aufgrund seiner Bemühungen wurden die Gehälter der Militärärzte bedeutend verbessert.\u000aErweiterte das <i>Voenno-medicinskij \u017eurnal</i> von dreimonatlicher auf monatliche Ausgabe, Gründer der <i>Protokoly zasedanij Ob\u0161\u010destva russkich vra\u010dej</i>.
 p22
-sS'Lebensstationen'
+sS'P'
 p23
-V1814-1817 Lehrer für französische Sprache, Poetik und Mathematik am Priesterseminar in Kursk, 1821-1824 Arzt und 1824-1828 Stabsarzt im Pavlovskij-Leibgarde-Regiment, 1828 Arzt und ab 1829 Oberarzt im Preobra\u017eenskij-Leibgarde-Regiment, zugleich Chefarzt des Artillerie-Hospitals, außerdem 1827 Begleiter des Zaren NIKOLAJ I. (1796-1855) auf seiner Reise durch Russland, 1828-1829 im Russisch-türkischen Krieg sowie 1830 während der Choleraepidemie in Warschau und Moskau, während des polnischen Aufstandes 1831 Oberarzt in der Paskevi\u010d-Garde-Kavallerie, ab Dezember 1831 Leibchirurg, 1837 Begleiter des Thronfolgers ALEKSANDR Nikolaevi\u010d (1818-1881) auf der Russlandreise und 1838-1839 als dessen Leibarzt auf Europareisen (als Angehöriger der Kaiserlichen Suite mit zahlreichen ausländischen Orden und Mitgliedschaften ausgezeichnet), ab 1855 auch Leibarzt am Zarenhof, ab 1849 Chefarzt der militärmedizinischen Lehranstalten, ab 1857 Direktor des Militärmedizinischen Departements, ab 1862 Hauptmedizinalinspektor im Hauptstab der Armee, außerdem Mitglied des Medizinalrats des Ministeriums des Innern, im September 1862 Erkrankung während der Manöver auf dem Chodynskij-Feld, danach im Ausland von berühmten Ärzten behandelt, z.B. von Friedrich Theodor von FRERICHS (1819-1885), Direktor der II. Medizinischen Klinik der Charité in Berlin, und in verschiedenen Kurorten, darunter in Nizza, zuletzt Aufenthalt in einer Privatpension in Paris, wo er auch starb.\u000aInhaber der Ehrentitel "Wirklicher Russischer Staatsrat" und "Geheimrat" (1855), des St.-Annen-Ordens 1. Klasse mit der Kaiserkrone, des St.-Vladimir-Ordens 4. Klasse, einiger russischer Militärorden und -medaillen sowie zahlreicher ausländischer Orden, darunter des Ordens Philipps des Großmütigen von Hessen-Darmstadt 2. Klasse, des Königlich Preußischen Roter Adler-Ordens 2. Klasse, des Österreichisch-Kaiserlichen Ordens der Eisernen Krone und des Leopold-Ordens, des Ordens der Württembergischen Krone 2. Klasse, des Großherzoglichen Badischen Ordens vom Zähringer Löwen 2. Klasse, des Weimarer Falken-Ordens 3. Klasse, des Sächsischen Zivilverdienstordens 3. Klasse.\u000aPosthume Ehrung: 1866-1917 Enochin-Stipendium an der MCA.
+VBoris Aleksandrovi\u010d Nachapetov: I. V. Enochin. Zeichnung. Aus: Nachapetov 2003, 115. Abgedruckt in: Fischer 2010, 82.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 82-84.</i>
 p24
-sS'Sterbedaten'
+sS'Geburtsdaten'
 p25
-V12.7.1863, Paris, Grabstätte: St. Petersburg, Friedhof Novodevi\u010d'e
+V24.6.1791, Zimovejka im Kreis Koro\u010da, Gouvernement Kursk
 p26
-sS'Sekundaerliteratur'
+sS'Sterbedaten'
 p27
-V\u2022 Kladbi\u0161\u010da Peterburga, 390, Nr. 76.\u000a\u2022 Nachapetov 2003, 71-98.\u000a\u2022 Nachapetov 2005, 200-233.\u000a\u2022 S\u0116S - Spravo\u010dnyj \u0117nciklopedi\u010deskij slovar'. Red. von A. Star\u010devskij. Bd. 4. S.-Peterburg 1855, 429-430.\u000a\u2022 WBIS RBA: R 178, 93-95.\u000a\u2022 Vgl. Andreas von Rosen: Aus den Memoiren eines russischen Dekabristen. Beiträge zur Geschichte des St. Petersburger Militäraufstandes vom 14. (26.) December 1825 und seiner Theilnehmer. Leipzig 1869, 269.
+V12.7.1863, Paris, Grabstätte: St. Petersburg, Friedhof Novodevi\u010d'e
 p28
-sS'Werke'
+sS'W'
 p29
 V\u2022 Tractatus de medulla spinalis. Diss. Moskva 1836, 87 S.\u000a\u2022 Autor einiger Artikel, insbesondere in Protokoly zasedanij Ob\u0161\u010destva russkich vra\u010dej
 p30
-sS'Ehegatten'
+sS'V'
 p31
-VMarija Vikent'evna Enochina, geb. \u0116ngler (1824-1884)
+VVasilij, Geistlicher in Zimovejka
 p32
-sS'Mitgliedschaft'
+sS'SL'
 p33
-VVoenno-medicinskij u\u010denyj komitet [Militärmedizinisches Gelehrtenkomitee] (ab 1845), St. Peterburgskoe ob\u0161\u010destvo russkich vra\u010dej [St. Petersburger Gesellschaft russischer Ärzte] (12 Jahre Vorsitzender), Mediko-chirurgi\u010deskaja akademija [Mediko-chirurgische Akademie] St. Petersburg, Moskovskoe fiziko-medicinskoe ob\u0161\u010destvo [Moskauer Physikalisch-medizinische Gesellschaft], Var\u0161avskoe medicinskoe ob\u0161\u010destvo [Warschauer medizinische Gesellschaft], Kavkazskij u\u010denyj komitet [Kaukasisches Gelehrtenkomitee], (Reale) Accademia Medico-Chirurgica di Napoli, Accademia dei Lincei di Roma, Accademia di Scienze e Lettere di Palermo, Gesellschaft der Ärzte in Wien.
+V\u2022 Kladbi\u0161\u010da Peterburga, 390, Nr. 76.\u000a\u2022 Nachapetov 2003, 71-98.\u000a\u2022 Nachapetov 2005, 200-233.\u000a\u2022 S\u0116S - Spravo\u010dnyj \u0117nciklopedi\u010deskij slovar'. Red. von A. Star\u010devskij. Bd. 4. S.-Peterburg 1855, 429-430.\u000a\u2022 WBIS RBA: R 178, 93-95.\u000a\u2022 Vgl. Andreas von Rosen: Aus den Memoiren eines russischen Dekabristen. Beiträge zur Geschichte des St. Petersburger Militäraufstandes vom 14. (26.) December 1825 und seiner Theilnehmer. Leipzig 1869, 269.
 p34
 sS'ID'
 p35

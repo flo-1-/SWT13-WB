@@ -1,70 +1,70 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VLudwig, Landwirt
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VFREMMERT
-p6
-sS'Vorname'
-p7
-VWilhelm Pontus Hugo
-p8
-ssS'Kyrillische Namen'
-p9
-V\u0424\u0420EMME\u0420T, X\u0443\u0433o \u0424e\u0434. / FREMMERT, Chugo Fed.
-p10
-sS'Ausbildung'
-p11
 VBesuch des Gouvernement-Gymnasiums in Reval, 1852-1855 Apothekerlehrling und 1855-1857 Apothekengehilfe in St. Petersburg, danach Abitur, 1859-1862 Studium der Medizin an der Universität Moskau.
-p12
-sS'Namensvariationen'
-p13
-VFREMERT, FROMMERT, \u0424\u0420EME\u0420T, \u0424\u0420OMME\u0420T, Gugo, \u0413\u0443\u0433o
-p14
-sS'Mutter'
-p15
-Vgeb. Hansen
-p16
-sS'Beruf'
-p17
-VArzt, Hofmedikus
-p18
-sS'Nachkommen'
-p19
-VMarie (Mary) Alice Julie (M\u0117ri Gugovna), verh. Martens (1879-1942)
-p20
-sS'Geburtsdaten'
-p21
-V24.8./5.9.1837, Jaggowal
-p22
-sS'Lebensstationen'
-p23
+p2
+sS'MG'
+p3
+VVerein St. Petersburger Ärzte (ab 1870), Mediko-filantropi\u010deskij komitet [Mediko-philanthropisches Komitee] (1893-1903), Deutscher ärztlicher Verein in St. Petersburg (ab 1895).
+p4
+sS'B'
+p5
 V1863 Arzt und Kreisarzt in Moskau, danach 1863-1904 praktischer Arzt in St. Petersburg: 1863-1866 Ordinator im "Krankenhaus für ungelernte Arbeiter" (später "Städtisches Aleksandr-Hospital"), 1866-1888 Ordinator am Obuchov-Krankenhaus, zugleich ab 1866 Arzt an der Nebe'schen Papierfabrik an der I\u017eora im Gouvernement St. Petersburg, 1869-1904 Arzt bei der Schuldentilgungskommission, 1874-1903 Ordinator bzw. Konsultant an der "Heilanstalt der Mediko-philanthropischen Gesellschaft", 1875-1879 externer Arzt bzw. Konsultant am "Ambulatorium des Thronfolgers Nikolaj Aleksandrovi\u010d", 1879-1904 Hofmedikus und zuletzt Bezirksarzt der Hauptpalastverwaltung.\u000aInhaber des Ehrentitels "Wirklicher Russischer Staatsrat".
+p6
+sS'E'
+p7
+VEmilie Amalie Johanna [Johanne] Charlotta [Charlotte], geb. Nebe (1843?-1932)
+p8
+sS'Name'
+p9
+(dp10
+S'Nachname'
+p11
+VFREMMERT
+p12
+sS'Vorname'
+p13
+VWilhelm Pontus Hugo
+p14
+ssS'Namensvariationen'
+p15
+VFREMERT, FROMMERT, \u0424\u0420EME\u0420T, \u0424\u0420OMME\u0420T, Gugo, \u0413\u0443\u0433o
+p16
+sS'M'
+p17
+Vgeb. Hansen
+p18
+sS'Namen (kyrillisch)'
+p19
+V\u0424\u0420EMME\u0420T, X\u0443\u0433o \u0424e\u0434. / FREMMERT, Chugo Fed.
+p20
+sS'Berufe'
+p21
+VArzt, Hofmedikus
+p22
+sS'Geburtsdaten'
+p23
+V24.8./5.9.1837, Jaggowal
 p24
 sS'Sterbedaten'
 p25
 V4./16. oder 17.6.1904, St. Petersburg
 p26
-sS'Sekundaerliteratur'
+sS'W'
 p27
-V\u2022 EAD: Dokument-Id [66974/66595 (28.7.2010)].\u000a\u2022 WBIS DBA II 395, 182; RBA: R 481, 389.
-p28
-sS'Werke'
-p29
 V\u2022 Ot ottjagivanii pjatki posle operacii \u0160opara. Voenno-medicinskij \u017eurnal Teil 101, Jg. 46 (1868) II, 29-56.\u000a\u2022 Ein Fall von Verstümmelungsverhütung durch das Mikroskop. St. Petersburger medicinische Zeitschrift 6 (1864), 357-360.\u000a\u2022 Zur Kritik und Casuistik der sogenannten Chopart'schen Exarticulation. Archiv für klinische Chirurgie 9 (1868), 21-51.\u000a\u2022 Ueber Fibroma molluscum. St. Petersburger medicinische Zeitschrift N.F. 3 (1872/73), 197-219.\u000a\u2022 Ein mehrfacher Fremdkörper im linken Bronchus. St. Petersburger medicinische Zeitschrift N.F. 4 (1873/74), 260-265.\u000a\u2022 Zur Terminologie des Keloïds. St. Petersburger medicinische Wochenschrift 1 (1876) 29, 3-5.\u000a\u2022 Beiträge zur Lehre von den Congelationen. Ein Bericht über ca. 500 Fälle von partieller Erfrierung. Archiv für klinische Chirurgie 25 (1880), 1-48.\u000a\u2022 Zur Casuistik der Leukoplakie. St. Petersburger medicinische Wochenschrift N.F. 2 [= 10] (1885), 4-5.\u000a\u2022 Ueber die Morbiditätsverhältnisse in Papierfabriken. Deutsche Vierteljahrsschrift für öffentliche Gesundheitspflege 23 (1891), 529-577; <b>russisch</b>: O zabolevaemosti rabo\u010dich na pis\u010debuma\u017enych fabrikach. Vestnik ob\u0161\u010dej gigieny, sudebnoj i prakti\u010deskoj mediciny (1892) Nr. 1-3.
+p28
+sS'V'
+p29
+VLudwig, Landwirt
 p30
-sS'Ehegatten'
+sS'N'
 p31
-VEmilie Amalie Johanna [Johanne] Charlotta [Charlotte], geb. Nebe (1843?-1932)
+VMarie (Mary) Alice Julie (M\u0117ri Gugovna), verh. Martens (1879-1942)
 p32
-sS'Mitgliedschaft'
+sS'SL'
 p33
-VVerein St. Petersburger Ärzte (ab 1870), Mediko-filantropi\u010deskij komitet [Mediko-philanthropisches Komitee] (1893-1903), Deutscher ärztlicher Verein in St. Petersburg (ab 1895).
+V\u2022 EAD: Dokument-Id [66974/66595 (28.7.2010)].\u000a\u2022 WBIS DBA II 395, 182; RBA: R 481, 389.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 100-101.</i>
 p34
 sS'ID'
 p35

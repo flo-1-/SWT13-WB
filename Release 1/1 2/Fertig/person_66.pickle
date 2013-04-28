@@ -1,78 +1,78 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VTheodor oder Friedrich (Fëdor Ivanovi\u010d) (1755-1795 oder 1797), Chirurg, Polizeiarzt, Stabsarzt
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VARENDT
-p6
-sS'Vorname'
-p7
-VNikolaus Martin (von)
-p8
-ssS'Kyrillische Namen'
-p9
-V\u0410\u0420E\u041d\u0414\u0422, \u041d\u0438\u043a\u043e\u043ba\u0439 \u0424ë\u0434\u043e\u0440o\u0432\u0438\u0447 / ARENDT, Nikolaj Fëdorovi\u010d (fon)
-p10
-sS'Ausbildung'
-p11
 V1801-1804 Studium an der Mediko-chirurgischen Akademie (MCA) in Moskau, 1804-1805 an der MCA in St. Petersburg, 1821 Dr. med. (ohne Examen).
+p2
+sS'MG'
+p3
+VOb\u0161\u010destvo russkich vra\u010dej [Gesellschaft russischer Ärzte], Fiziko-medicinskoe ob\u0161\u010destvo Moskvy [Physisch-medizinische Gesellschaft zu Moskau], Deutscher ärztlicher Verein in St. Petersburg (ab 1826), Mediko-filantropi\u010deskij komitet [Mediko-philanthropisches Komitee] (ab 1845), Académie Royale de Médecine de France (ab 1845), Mediko-chirurgi\u010deskaja akademija [Mediko-chirurgische Akademie] St. Petersburg (ab 1850), Deutsche Akademie der Naturforscher Leopoldina (ab 1855).
+p4
+sS'B'
+p5
+V1805-1806 Arzt im Militärhauptkrankenhaus in St. Petersburg, ab 1806 Militärarzt im Navaginskij-Musketierregiment: 1806-1809 Chirurg im Krieg gegen NAPOLEON und 1807 gegen Schweden, 1808 Stabsarzt, 1809 Chefarzt des Militärlandkrankenhauses, 1812 Arzt 1. Klasse, 1813 Divisionsarzt der 13. Infanteriedivision bei Dresden und Leipzig, Ernennung zum Stabsarzt des 1. Infanteriekorps während des Marsches nach Paris, 1814-1815 Chefarzt Russischer Lazarette in Frankreich, 1815-1819 Arzt der 12. Artilleriedivision, 1819-1820 Oberarzt der Gardekavallerie, 1821 Generalstabsarzt einer Sonderarmee, 1820-1826 Chefarzt des St. Petersburger Artillerielazaretts, 1827 Pensionierung vom Militärdienst; 1827-1845 leitender Arzt der Einrichtungen des St. Petersburger Collegiums für allgemeine Fürsorge, zugleich ab 1827 praktischer Arzt in eigener Praxis und Konsultant in staatlichen Zivilhospitälern und Armenhäusern, darunter im Obuchov- und Maria-Magdalena-Krankenhaus, 1829-1839 Leibarzt des Zaren NIKOLAJ I. (1796-1855), 1831 zum Hauptstab des Zaren beordert, außerdem 1832 behandelnder Arzt des Dichters Michail Jur'evi\u010d LERMONTOV (1814 bis 1841) und 1837 des im Duell mit Georges-Charles D'ANTHÈS (1812-1895) [de Heeckeren, Französischer Diplomat, 1830-1837 in St. Petersburg, verheiratet mit Ekaterina Nikolaevna, geb. Gon\u010darova (1809-1843), der Schwägerin von PU\u0160KIN] verwundeten Aleksandr Sergeevi\u010d PU\u0160KIN (1799-1837), 1834 Mitbegründer und Konsultant des Kinderkrankenhauses (seit 1859 <i>Nikolaevskaja detskaja bol'nica</i>) in St. Petersburg, 1840 Reise nach Deutschland und Frankreich, ab 1844 Stellvertreter des Medizinalinspektors und ab 1847 Inspektor der "Institutionen der Zarin Marija" in St. Petersburg, außerdem Chef und Inspektor der Zivilhospitäler und Mitglied des Militärrats beim Ministerium für Volksaufklärung und geistliche Angelegenheiten. \u000aInhaber hoher russischer Ehrentitel (darunter 1823 "Kollegienrat", 1826 "Staatsrat", 1833 Adelsdiplom mit Urkunde und Wappenzeichnung, 1849 "Geheimrat"), insgesamt 30 Auszeichnungen - Silberner Satz chirurgischer Instrumente, Ringe, Tabatieren mit Monogrammen, 6 Abzeichen für Ehrendienste, 3 Medaillen und 15 Orden (darunter St.-Annen-Orden 1. und 2. Klasse, St.-Vladimir-Orden 3. und 4. Klasse, Weißer-Adler-Orden, Aleksandr-Nevskij-Orden) - sowie weitere Ehrungen: Sein Name ist als ausgezeichneter Student auf der Marmortafel im Konferenzsaal der Medizinisch-chirurgischen Akademie eingetragen, 1815 Offizierskreuz der Ehrenlegion Frankreichs, 1857 Einrichtung des Arendt-Stipendiums an der Mediko-chirurgischen Akademie.
+p6
+sS'E'
+p7
+V1. Maria Cornelia (Marija Jakovlevna), geb. Gimmis (\u2020 1848) \u000a2. Henriette (Genrietta Ri\u010dardovna), geb. Shillingworth (4 Kinder)
+p8
+sS'Name'
+p9
+(dp10
+S'Nachname'
+p11
+VARENDT
 p12
-sS'Portraits'
+sS'Vorname'
 p13
-V\u2022 Portrait aus der Mitte des 19. Jahrhunderts [Künstler und Aufbewahrungsort unbekannt]. http://upload.wikimedia.org/wikipedia/commons/2/24/NickolayFedorovichArdent-old.jpg (1.3.2012).\u000a\u2022 Boris Aleksandrovi\u010d Nachapetov: N. F. Arendt. Zeichnung. In: Nachapetov 2003 (<b>SL</b>), 12.\u000a\u2022 Iosif Ivanovi\u010d (auch Juzef Antonovi\u010d) Ole\u0161kevi\u010d (1777-1830): Nikolaus Arendt (1822). Öl auf Leinwand. Aufbewahrungsort: Staatliche Tret'jakov-Galerie in Moskau. Abgedruckt in: Fischer 2010, 9. http://vivatfomenko.narod.ru/lib/arendt_1.jpg (1.3.2012).\u000a\u2022 Lithographie von Dürie nach der Zeichnung von Franz Krüger. http://visualrian.ru/ru/site/gallery/#77862/context[lightbox]=35841 (8.2.2012).\u000a\u2022 Portrait aus der Mitte des 19. Jahrhunderts, in: Bogla\u010dev/Bogla\u010deva; http://vivatfomenko.narod.ru/lib/arendt_2.jpg  (8.2.2012).
+VNikolaus Martin (von)
 p14
-sS'Namensvariationen'
+ssS'Namensvariationen'
 p15
 VNicolai
 p16
-sS'Mutter'
+sS'M'
 p17
 VKatharina
 p18
-sS'Leistungen'
+sS'Namen (kyrillisch)'
 p19
-VEiner der bekanntesten Feldchirurgen und "Operationskünstler" Europas im 19. Jahrhundert - seine inhaltsreichen Operationsbeschreibungen leisteten einen wichtigen Beitrag zur Entwicklung der medizinischen Wissenschaft und wurden in die Fachbücher für Chirurgie aufgenommen, gilt als Begründer der "wahren Chirurgie" in Russland. Erfinder der stumpfen Aneurysma-Nadel mit Stahlfeder. Ihm wird die erstmalige Unterbindung der Arteria iliaca externa, A. carotis und A. subclavia beim Aneurysma zugeschrieben. Mitbegründer des ersten Kinderkrankenhauses in Russland, einer der ersten Anwender der Äthernarkose bei Kindern. Der von ihm durchgesetzte grundsätzliche Kontrollbesuch der Kranken nach der Operation verringerte die Zahl der Todesfälle.
+V\u0410\u0420E\u041d\u0414\u0422, \u041d\u0438\u043a\u043e\u043ba\u0439 \u0424ë\u0434\u043e\u0440o\u0432\u0438\u0447 / ARENDT, Nikolaj Fëdorovi\u010d (fon)
 p20
-sS'Beruf'
+sS'Berufe'
 p21
 VPraktischer Arzt, Militärchirurg, Leibarzt des Kaiserlichen Hofes
 p22
-sS'Nachkommen'
+sS'WL'
 p23
-VNikolai (Nikolaj Nikolaevi\u010d) (*1850 oder 1858), Leutnant, später Beamter der Militärhauptverwaltung des Armeeministeriums \u000aTheodor (Fëdor Nikolaevi\u010d) (*1852) \u000aMaria (Marija Nikolaevna) (*1853) \u000aRobert (Vladimir Nikolaevi\u010d) (1855-1872)
+VEiner der bekanntesten Feldchirurgen und "Operationskünstler" Europas im 19. Jahrhundert - seine inhaltsreichen Operationsbeschreibungen leisteten einen wichtigen Beitrag zur Entwicklung der medizinischen Wissenschaft und wurden in die Fachbücher für Chirurgie aufgenommen, gilt als Begründer der "wahren Chirurgie" in Russland. Erfinder der stumpfen Aneurysma-Nadel mit Stahlfeder. Ihm wird die erstmalige Unterbindung der Arteria iliaca externa, A. carotis und A. subclavia beim Aneurysma zugeschrieben. Mitbegründer des ersten Kinderkrankenhauses in Russland, einer der ersten Anwender der Äthernarkose bei Kindern. Der von ihm durchgesetzte grundsätzliche Kontrollbesuch der Kranken nach der Operation verringerte die Zahl der Todesfälle.
 p24
-sS'Geburtsdaten'
+sS'P'
 p25
-V23.4.1785 oder 1786, Kazan'
+V\u2022 Portrait aus der Mitte des 19. Jahrhunderts [Künstler und Aufbewahrungsort unbekannt]. http://upload.wikimedia.org/wikipedia/commons/2/24/NickolayFedorovichArdent-old.jpg (1.3.2012).\u000a\u2022 Boris Aleksandrovi\u010d Nachapetov: N. F. Arendt. Zeichnung. In: Nachapetov 2003 (<b>SL</b>), 12.\u000a\u2022 Iosif Ivanovi\u010d (auch Juzef Antonovi\u010d) Ole\u0161kevi\u010d (1777-1830): Nikolaus Arendt (1822). Öl auf Leinwand. Aufbewahrungsort: Staatliche Tret'jakov-Galerie in Moskau. Abgedruckt in: Fischer 2010, 9. http://vivatfomenko.narod.ru/lib/arendt_1.jpg (1.3.2012).\u000a\u2022 Lithographie von Dürie nach der Zeichnung von Franz Krüger. http://visualrian.ru/ru/site/gallery/#77862/context[lightbox]=35841 (8.2.2012).\u000a\u2022 Portrait aus der Mitte des 19. Jahrhunderts, in: Bogla\u010dev/Bogla\u010deva; http://vivatfomenko.narod.ru/lib/arendt_2.jpg  (8.2.2012).\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 5-9.</i>
 p26
-sS'Lebensstationen'
+sS'Geburtsdaten'
 p27
-V1805-1806 Arzt im Militärhauptkrankenhaus in St. Petersburg, ab 1806 Militärarzt im Navaginskij-Musketierregiment: 1806-1809 Chirurg im Krieg gegen NAPOLEON und 1807 gegen Schweden, 1808 Stabsarzt, 1809 Chefarzt des Militärlandkrankenhauses, 1812 Arzt 1. Klasse, 1813 Divisionsarzt der 13. Infanteriedivision bei Dresden und Leipzig, Ernennung zum Stabsarzt des 1. Infanteriekorps während des Marsches nach Paris, 1814-1815 Chefarzt Russischer Lazarette in Frankreich, 1815-1819 Arzt der 12. Artilleriedivision, 1819-1820 Oberarzt der Gardekavallerie, 1821 Generalstabsarzt einer Sonderarmee, 1820-1826 Chefarzt des St. Petersburger Artillerielazaretts, 1827 Pensionierung vom Militärdienst; 1827-1845 leitender Arzt der Einrichtungen des St. Petersburger Collegiums für allgemeine Fürsorge, zugleich ab 1827 praktischer Arzt in eigener Praxis und Konsultant in staatlichen Zivilhospitälern und Armenhäusern, darunter im Obuchov- und Maria-Magdalena-Krankenhaus, 1829-1839 Leibarzt des Zaren NIKOLAJ I. (1796-1855), 1831 zum Hauptstab des Zaren beordert, außerdem 1832 behandelnder Arzt des Dichters Michail Jur'evi\u010d LERMONTOV (1814 bis 1841) und 1837 des im Duell mit Georges-Charles D'ANTHÈS (1812-1895) [de Heeckeren, Französischer Diplomat, 1830-1837 in St. Petersburg, verheiratet mit Ekaterina Nikolaevna, geb. Gon\u010darova (1809-1843), der Schwägerin von PU\u0160KIN] verwundeten Aleksandr Sergeevi\u010d PU\u0160KIN (1799-1837), 1834 Mitbegründer und Konsultant des Kinderkrankenhauses (seit 1859 <i>Nikolaevskaja detskaja bol'nica</i>) in St. Petersburg, 1840 Reise nach Deutschland und Frankreich, ab 1844 Stellvertreter des Medizinalinspektors und ab 1847 Inspektor der "Institutionen der Zarin Marija" in St. Petersburg, außerdem Chef und Inspektor der Zivilhospitäler und Mitglied des Militärrats beim Ministerium für Volksaufklärung und geistliche Angelegenheiten. \u000aInhaber hoher russischer Ehrentitel (darunter 1823 "Kollegienrat", 1826 "Staatsrat", 1833 Adelsdiplom mit Urkunde und Wappenzeichnung, 1849 "Geheimrat"), insgesamt 30 Auszeichnungen - Silberner Satz chirurgischer Instrumente, Ringe, Tabatieren mit Monogrammen, 6 Abzeichen für Ehrendienste, 3 Medaillen und 15 Orden (darunter St.-Annen-Orden 1. und 2. Klasse, St.-Vladimir-Orden 3. und 4. Klasse, Weißer-Adler-Orden, Aleksandr-Nevskij-Orden) - sowie weitere Ehrungen: Sein Name ist als ausgezeichneter Student auf der Marmortafel im Konferenzsaal der Medizinisch-chirurgischen Akademie eingetragen, 1815 Offizierskreuz der Ehrenlegion Frankreichs, 1857 Einrichtung des Arendt-Stipendiums an der Mediko-chirurgischen Akademie.
+V23.4.1785 oder 1786, Kazan'
 p28
 sS'Sterbedaten'
 p29
 V14./26. oder 2./14.10.1859, St. Petersburg
 p30
-sS'Sekundaerliteratur'
+sS'W'
 p31
-V\u2022 Bogla\u010dev/Bogla\u010deva - Bogla\u010dev, Sergej Vasil'evi\u010d, Bogla\u010deva, Irina Anatol'evna: Lejb-medik Nikolaj Fëdorovi\u010d Arendt. In: Galina Ivanovna Smagina (Hg.): Nemcy Sankt-Peterburga. Nauka, kul'tura, obrazovanie. Die Deutschen in Sankt-Petersburg. Wissenschaft, Kultur, Bildung. Sankt-Peterburg 2005, 505-520.\u000a\u2022 \u010cerejskij, Lazar' A.: Pu\u0161kin i ego okru\u017eenie. Leningrad 1975, 17.\u000a\u2022 EAD: Dokument-Id [4274/4098, 4280/4104 und 58009/44945 (20.7.2010)].\u000a\u2022 Nachapetov 2003, 60-66 und 213.\u000a\u2022 Nachapetov 2005, 186-195 und 278.\u000a\u2022 Nemcy Rossii. Bd. 1 (1999), 71-72.\u000a\u2022 WBIS RBA: R 24, 410-424.
-p32
-sS'Werke'
-p33
 VBriefwechsel: Lettre à M. le professeur Malgaigne sur le régime des opérés en Russie, et sur résultats donnés par quelques grandes opérations (1/13 août 1850). Revue médico-chirurgicale de Paris 7 (1850), 137-140; <b>deutsch</b>: Ueber das Regimen der in Russland Operirten und die durch einige grössere Operationen erzielten Heilresultate. Schreiben des Hrn. Dr. Arendt, Leibarzt Sr. Majestät des Kaisers und Inspector der Civilhospitäler in St. Petersburg an den Hrn. Professor Dr. Malgaigne. Zitiert bei: Maximilian Heine: Ein Beitrag zur Würdigung der Chirurgie in Russland und Frankreich. Medicinische Zeitung Russlands 8 (1851), 116-121; Referat: A. Nikitin: Obzor chirurgi\u010deskich operacij, proizvedennych lejb-medikom Arendtom. Severnaja p\u010dela (1851) 139, 555-556.
+p32
+sS'V'
+p33
+VTheodor oder Friedrich (Fëdor Ivanovi\u010d) (1755-1795 oder 1797), Chirurg, Polizeiarzt, Stabsarzt
 p34
-sS'Ehegatten'
+sS'N'
 p35
-V1. Maria Cornelia (Marija Jakovlevna), geb. Gimmis (\u2020 1848) \u000a2. Henriette (Genrietta Ri\u010dardovna), geb. Shillingworth (4 Kinder)
+VNikolai (Nikolaj Nikolaevi\u010d) (*1850 oder 1858), Leutnant, später Beamter der Militärhauptverwaltung des Armeeministeriums \u000aTheodor (Fëdor Nikolaevi\u010d) (*1852) \u000aMaria (Marija Nikolaevna) (*1853) \u000aRobert (Vladimir Nikolaevi\u010d) (1855-1872)
 p36
-sS'Mitgliedschaft'
+sS'SL'
 p37
-VOb\u0161\u010destvo russkich vra\u010dej [Gesellschaft russischer Ärzte], Fiziko-medicinskoe ob\u0161\u010destvo Moskvy [Physisch-medizinische Gesellschaft zu Moskau], Deutscher ärztlicher Verein in St. Petersburg (ab 1826), Mediko-filantropi\u010deskij komitet [Mediko-philanthropisches Komitee] (ab 1845), Académie Royale de Médecine de France (ab 1845), Mediko-chirurgi\u010deskaja akademija [Mediko-chirurgische Akademie] St. Petersburg (ab 1850), Deutsche Akademie der Naturforscher Leopoldina (ab 1855).
+V\u2022 Bogla\u010dev/Bogla\u010deva - Bogla\u010dev, Sergej Vasil'evi\u010d, Bogla\u010deva, Irina Anatol'evna: Lejb-medik Nikolaj Fëdorovi\u010d Arendt. In: Galina Ivanovna Smagina (Hg.): Nemcy Sankt-Peterburga. Nauka, kul'tura, obrazovanie. Die Deutschen in Sankt-Petersburg. Wissenschaft, Kultur, Bildung. Sankt-Peterburg 2005, 505-520.\u000a\u2022 \u010cerejskij, Lazar' A.: Pu\u0161kin i ego okru\u017eenie. Leningrad 1975, 17.\u000a\u2022 EAD: Dokument-Id [4274/4098, 4280/4104 und 58009/44945 (20.7.2010)].\u000a\u2022 Nachapetov 2003, 60-66 und 213.\u000a\u2022 Nachapetov 2005, 186-195 und 278.\u000a\u2022 Nemcy Rossii. Bd. 1 (1999), 71-72.\u000a\u2022 WBIS RBA: R 24, 410-424.
 p38
 sS'ID'
 p39

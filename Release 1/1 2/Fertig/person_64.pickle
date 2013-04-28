@@ -1,62 +1,62 @@
 (dp0
-S'Vater'
+S'A'
 p1
-V Leo (Lev)
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VABELMANN
-p6
-sS'Vorname'
-p7
-VMoses
-p8
-ssS'Kyrillische Namen'
-p9
-V\u0410\u0411\u0415\u041b\u042c\u041c\u0410\u041d, \u041c\u043e\u0440\u0438\u0441 \u041b\u044c\u0432\u043e\u0432\u0438\u0447  / ABEL'MAN, Moris L'vovi\u010d
-p10
-sS'Ausbildung'
-p11
 V1883-1889 Studium der Medizin an der Universität Dorpat und an der Universität Straßburg, 1890 Dr. med. in Dorpat.
+p2
+sS'MG'
+p3
+VVerein St. Petersburger Ärzte (ab 1890), Ob\u0161\u010destvo detskich vra\u010dej Sankt-Peterburga [Verein St. Petersburger Kinderärzte] (ab 1907 Vizepräses).
+p4
+sS'B'
+p5
+VAb 1890 praktischer Arzt in St. Petersburg, zugleich Volontärarzt und 1892 Ordinator im Elisabeth-Kinderkrankenhaus, 1890-1892 Studienaufenthalte in Kinderkliniken in Deutschland, 1893-1900 Spezialarzt für Kinderheilkunde an der Maximilian-Heilanstalt, 1894-1902 ohne Entgelt praktizierender Arzt im Deutschen Alexanderhospital für Männer, ab 1898 Vertrauensarzt und ab 1909 Chefarzt der Versicherungsgesellschaft "Rossija" in St. Petersburg.\u000aInhaber hoher russischer Ehrentitel, darunter 1900 "Hofrat", 1916 "Wirklicher Russischer Staatsrat".
+p6
+sS'Name'
+p7
+(dp8
+S'Nachname'
+p9
+VABELMANN
+p10
+sS'Vorname'
+p11
+VMoses
 p12
-sS'Portraits'
+ssS'Namensvariationen'
 p13
-VPortrait aus: \u0160ustov 1910 (<b>SL</b>).\u000aEmpfohlene Zitierweise:
-p14
-sS'Namensvariationen'
-p15
 VABELMAN, Moisej, Moritz, Moric, Boris
+p14
+sS'Namen (kyrillisch)'
+p15
+V\u0410\u0411\u0415\u041b\u042c\u041c\u0410\u041d, \u041c\u043e\u0440\u0438\u0441 \u041b\u044c\u0432\u043e\u0432\u0438\u0447  / ABEL'MAN, Moris L'vovi\u010d
 p16
-sS'Beruf'
+sS'Berufe'
 p17
 VFacharzt für Kinderheilkunde
 p18
-sS'Geburtsdaten'
+sS'P'
 p19
-V26.10. oder 18.10. 1863, Kowno (Kaunas, Litauen)
+VPortrait aus: \u0160ustov 1910 (<b>SL</b>).\u000aEmpfohlene Zitierweise:\u000aFischer, Marta: ABELMANN, Moses. In: Personendatenbank zum Vorhaben "Wissenschaftsbeziehungen im 19. Jahrhundert zwischen Deutschland und Russland auf den Gebieten Chemie, Pharmazie und Medizin" bei der Sächsischen Akademie der Wissenschaften zu Leipzig. Online-Ausgabe: <i>http://drw.saw-leipzig.de/30002.html</i> (2. Mai 2012).\u000a
 p20
-sS'Lebensstationen'
+sS'Geburtsdaten'
 p21
-VAb 1890 praktischer Arzt in St. Petersburg, zugleich Volontärarzt und 1892 Ordinator im Elisabeth-Kinderkrankenhaus, 1890-1892 Studienaufenthalte in Kinderkliniken in Deutschland, 1893-1900 Spezialarzt für Kinderheilkunde an der Maximilian-Heilanstalt, 1894-1902 ohne Entgelt praktizierender Arzt im Deutschen Alexanderhospital für Männer, ab 1898 Vertrauensarzt und ab 1909 Chefarzt der Versicherungsgesellschaft "Rossija" in St. Petersburg.\u000aInhaber hoher russischer Ehrentitel, darunter 1900 "Hofrat", 1916 "Wirklicher Russischer Staatsrat".
+V26.10. oder 18.10. 1863, Kowno (Kaunas, Litauen)
 p22
 sS'Sterbedaten'
 p23
 V1916
 p24
-sS'Werke'
+sS'W'
 p25
 V\u2022 Ueber die Ausnützung der Nahrungsstoffe nach Pankreasexstirpation, mit besonderer Berücksichtigung der Lehre von der Fettresorption. Diss. Dorpat 1890, 79 S.\u000a\u2022 Slu\u010dai bronchi\u0117ktazii, razviv\u0161ejsja pod vlijaniem koklju\u0161a. Bol'ni\u010dnaja gazeta Botkina 4 (1893), 11 S.\u000a\u2022 K u\u010deniju o cikli\u010deskoj al'buminurii [mit Titel in russ. u. franz. Sprache und franz. Zusammenfassung]. Ruskij archiv patologii, klini\u010deskoj mediciny i bakteriologii 4 (1897), 12 S.\u000a\u2022 Tetanija, laringospazm i ich otno\u0161enie k anglijskoj bolezni. Bol'ni\u010dnaja gazeta Botkina 9 (1898), 18 S.\u000a\u2022 Pamjati Vladimira Nikolaevi\u010da Rejtca. Doklady, \u010ditanye v zasedanii ob\u0161\u010destva detskich vra\u010dej v S.-Peterburge, 13. okt. 1904. Sankt-Peterburg 1904, 16 S.\u000a\u2022 Estestvennoe i isskustvennoe vskarmlivanie grudnych detej. Sovremennaja klinika i terapija (1908) 7-10, 65 S.
 p26
-sS'Sekundaerliteratur'
+sS'V'
 p27
-V\u2022 Erik-Amburger-Datenbank [EAD]: Dokument-Id: [36161/52005].\u000a\u2022 \u0160ustov, A. S. (Hg.): Na\u0161i dejateli po medicine. S.-Peterburg 1910 (Illjustrirovannyj vestnik kul'tury, nau\u010dno-vospitatel'nago, techni\u010deskago i torgovo-promy\u0161lennago progressa Rossii 1).\u000a\u2022 WBIS BaBA.\u000a\u2022 WBIS RBA.
+V Leo (Lev)
 p28
-sS'Mitgliedschaft'
+sS'SL'
 p29
-VVerein St. Petersburger Ärzte (ab 1890), Ob\u0161\u010destvo detskich vra\u010dej Sankt-Peterburga [Verein St. Petersburger Kinderärzte] (ab 1907 Vizepräses).
+V\u2022 Erik-Amburger-Datenbank [EAD]: Dokument-Id: [36161/52005].\u000a\u2022 \u0160ustov, A. S. (Hg.): Na\u0161i dejateli po medicine. S.-Peterburg 1910 (Illjustrirovannyj vestnik kul'tury, nau\u010dno-vospitatel'nago, techni\u010deskago i torgovo-promy\u0161lennago progressa Rossii 1).\u000a\u2022 WBIS BaBA.\u000a\u2022 WBIS RBA.
 p30
 sS'ID'
 p31

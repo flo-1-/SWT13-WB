@@ -1,70 +1,70 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VJohann Matthias, Weißgerber, Kaufmann
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VBOSSE
-p6
-sS'Vorname'
-p7
-VKarl Julius (von)
-p8
-ssS'Kyrillische Namen'
-p9
-V\u0411O\u0421\u0421E, \u041aa\u0440\u043b \u0418\u0432a\u043do\u0432\u0438\u0447 / BOSSE, Karl Ivanovi\u010d (fon)
-p10
-sS'Ausbildung'
-p11
 VBis 1826 Studium an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg mit dem Abschluss Arzt 1. Klasse, 1840 Diplom "Mediko-Chirurg".
-p12
-sS'Namensvariationen'
-p13
-VCarl, Julius-Karl, Karl Fëdorovi\u010d, Fedorovi\u010d, \u041aa\u0440\u043b \u0424ë\u0434o\u0440o\u0432\u0438\u0447, \u0424e\u0434o\u0440o\u0432\u0438\u0447
-p14
-sS'Mutter'
-p15
-VChristina Wilhelmine, geb. Tallquist (* 1784)
-p16
-sS'Beruf'
-p17
-VPraktischer Arzt, Hofchirurg
-p18
-sS'Nachkommen'
-p19
-VVladimir Karlovi\u010d (1834-1904), Armeeoffizier\u000aFëdor Karlovi\u010d (* 1854), Armeeoffizier\u000aAleksandr Karlovi\u010d, Architekt\u000aNikolaj Karlovi\u010d\u000aTochter [Name unbekannt]
-p20
-sS'Geburtsdaten'
-p21
-V1./13.7.1806, Wesenberg
-p22
-sS'Lebensstationen'
-p23
+p2
+sS'MG'
+p3
+VKievskoe ob\u0161\u010destvo vra\u010dej [Gesellschaft der Ärzte in Kiew] (ab 1840), Voenno-medicinskij nau\u010dnyj komitet [Militärmedizinisches Gelehrtenkomitee] (Ehrenmitglied ab 1852).
+p4
+sS'B'
+p5
 V1826-1827 Arzt am Militär-Krankenhaus in Narva, 1828-1830 Ordinator im Kalinkin-Krankenhaus in St. Petersburg, 1830 Stabsarzt, 1830-1831 Kreisarzt in Kiev, 1831-1842 als Hofbeamter in der Funktion des Arztes der Fayence-Fabrik von Me\u017eigor'e bei Kiev, zugleich acht Jahre privat praktizierender Chirurg, 1842-1853 Arzt der Kaiserlichen Gobelin-Manufaktur in St. Petersburg, zugleich 1843-1849 Senior-Ordinator, 1849-1851 Gehilfe des Chefarztes und 1851 Chefarzt im St. Petersburger Militärlandhospital Nr. 1, ab 1853 Leibchirurg am Zarenhof, bereits 1850 und 1851 Arzt der Großfürsten NIKOLAJ NIKOLAEVI\u010c (1831-1891) und MICHAIL NIKOLAEVI\u010c (1832-1909) auf ihrer Russlandreise, 1852 auf zwei Auslandsreisen, 1854 auf der Reise nach Sevastopol' während des Krim-Krieges und 1855 auf den Reisen nach Warschau, Nikolaev und Reval.\u000aInhaber hoher russischer Ehrentitel und Auszeichnungen: 1850 "Staatsrat", 1856 "Wirklicher Russischer Staatsrat", 1854 oder 1855 Adelstitel mit Wappendiplom, 1853 Ritter des St.-Annen-Ordens 2. Klasse, 1854 St.-Vladimir-Orden 3. Klasse mit Schwertern.
+p6
+sS'E'
+p7
+VOlga Fëdorovna, geb. Mason, oder geb. Zylow (Cylova) (1810-1872)
+p8
+sS'Name'
+p9
+(dp10
+S'Nachname'
+p11
+VBOSSE
+p12
+sS'Vorname'
+p13
+VKarl Julius (von)
+p14
+ssS'Namensvariationen'
+p15
+VCarl, Julius-Karl, Karl Fëdorovi\u010d, Fedorovi\u010d, \u041aa\u0440\u043b \u0424ë\u0434o\u0440o\u0432\u0438\u0447, \u0424e\u0434o\u0440o\u0432\u0438\u0447
+p16
+sS'M'
+p17
+VChristina Wilhelmine, geb. Tallquist (* 1784)
+p18
+sS'Namen (kyrillisch)'
+p19
+V\u0411O\u0421\u0421E, \u041aa\u0440\u043b \u0418\u0432a\u043do\u0432\u0438\u0447 / BOSSE, Karl Ivanovi\u010d (fon)
+p20
+sS'Berufe'
+p21
+VPraktischer Arzt, Hofchirurg
+p22
+sS'Geburtsdaten'
+p23
+V1./13.7.1806, Wesenberg
 p24
 sS'Sterbedaten'
 p25
 V5./17.3.1857, St. Petersburg, Grabstätte: Lutherischer Friedhof Volkovo
 p26
-sS'Sekundaerliteratur'
+sS'W'
 p27
-V\u2022 EAD: Dokument-Id [2120/2088 (22.7.2010)].\u000a\u2022 Nemcy Rossii. Bd. 1 (1999), 234-235.\u000a\u2022 RBS. Bd. [3] (1908), 291-293.
-p28
-sS'Werke'
-p29
 V\u2022 O bercotarannoj amputacii (amputatio tibio-tarsalis). Voenno-medicinskij \u017eurnal Teil 54 (1849) Nr. 1.\u000a\u2022 O dejstvii gal'vanopunktury pri le\u010denii anevrizm. Voenno-medicinskij \u017eurnal Teil 55 (1850) Nr. 1.\u000a\u2022 O vospalenii glubokich limfati\u010deskich sosudov. Voenno-medicinskij \u017eurnal Teil 55 (1850) Nr. 2.\u000a\u2022 [Übersetzung von: Zehetmayer, Franz: Grundzüge der Percussion und Auscultation und ihrer Anwendung auf die Diagnostik der Brustfell- und Lungenkrankheiten: als Leitfaden zum Selbstunterrichte für Ärzte. 2. Aufl. Wien 1845] Ze\u0117tmajer, Franc: Pustukivanie i vyslu\u0161ivanie (percussio et auscultatio), s primeneniem \u0117tich sredstv k raspoznavaniju boleznej grudnoj plevy i legkich. Sankt-Peterburg 1849, VIII + 298 S.
+p28
+sS'V'
+p29
+VJohann Matthias, Weißgerber, Kaufmann
 p30
-sS'Ehegatten'
+sS'N'
 p31
-VOlga Fëdorovna, geb. Mason, oder geb. Zylow (Cylova) (1810-1872)
+VVladimir Karlovi\u010d (1834-1904), Armeeoffizier\u000aFëdor Karlovi\u010d (* 1854), Armeeoffizier\u000aAleksandr Karlovi\u010d, Architekt\u000aNikolaj Karlovi\u010d\u000aTochter [Name unbekannt]
 p32
-sS'Mitgliedschaft'
+sS'SL'
 p33
-VKievskoe ob\u0161\u010destvo vra\u010dej [Gesellschaft der Ärzte in Kiew] (ab 1840), Voenno-medicinskij nau\u010dnyj komitet [Militärmedizinisches Gelehrtenkomitee] (Ehrenmitglied ab 1852).
+V\u2022 EAD: Dokument-Id [2120/2088 (22.7.2010)].\u000a\u2022 Nemcy Rossii. Bd. 1 (1999), 234-235.\u000a\u2022 RBS. Bd. [3] (1908), 291-293.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 38-39.</i>
 p34
 sS'ID'
 p35

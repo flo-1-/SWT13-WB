@@ -1,49 +1,49 @@
 (dp0
-S'Name'
+S'A'
 p1
-(dp2
-S'Nachname'
-p3
-VKOHL
-p4
-sS'Vorname'
-p5
-VJohann Heinrich
-p6
-ssS'Kyrillische Namen'
-p7
-VKO\u041b\u042c / KOL'
-p8
-sS'Ausbildung'
-p9
 VBesuch der Stadtschule in Dorpat, danach Apothekenlehre in Wolmar, 1795 Provisor-Examen in St. Petersburg, 1795-1798 Provisor in Wolmar, 1798-1804 Studium der Medizin an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg, 1805 Dr. med. an der Universität Dorpat.
-p10
-sS'Beruf'
-p11
-VChirurg, Herzoglicher Leibarzt
-p12
-sS'Geburtsdaten'
-p13
-V9./20.5.1775, Dorpat
-p14
-sS'Lebensstationen'
-p15
+p2
+sS'B'
+p3
 VLeibarzt des Herzogs ALEXANDER I. von Württemberg (1771-1833).
+p4
+sS'Name'
+p5
+(dp6
+S'Nachname'
+p7
+VKOHL
+p8
+sS'Vorname'
+p9
+VJohann Heinrich
+p10
+ssS'Namen (kyrillisch)'
+p11
+VKO\u041b\u042c / KOL'
+p12
+sS'ID'
+p13
+V30421
+p14
+sS'Geburtsdaten'
+p15
+V9./20.5.1775, Dorpat
 p16
 sS'Sterbedaten'
 p17
 V?
 p18
-sS'Werke'
+sS'W'
 p19
 V\u2022 Animadversiones in aetiologiam hydropis. Dissertation. Dorpat 1805, 22 S. http://dspace.utlib.ee/dspace/bitstream/handle/10062/7119/kohl_animadversiones.pdf?sequence=1  (4.4.2012).
 p20
-sS'Sekundaerliteratur'
+sS'SL'
 p21
-V\u2022 EAD: Dokument-Id [71374/69478 (17.8.2010)].\u000a\u2022 WBIS DBA: I 687, 296-297; BaBA: I 173, 156-157.
+V\u2022 EAD: Dokument-Id [71374/69478 (17.8.2010)].\u000a\u2022 WBIS DBA: I 687, 296-297; BaBA: I 173, 156-157.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 126.</i>
 p22
-sS'ID'
+sS'Berufe'
 p23
-V30421
+VChirurg, Herzoglicher Leibarzt
 p24
 s.

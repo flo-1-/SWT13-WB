@@ -1,58 +1,58 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VJulius, Kaufmann
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VBUSCH
-p6
-sS'Vorname'
-p7
-VAlexander Johann
-p8
-ssS'Kyrillische Namen'
-p9
-V\u0411\u0423\u0428, A\u043be\u043aca\u043d\u0434\u0440 \u042e\u043b\u0438\u0443co\u0432\u0438\u0447 / BU\u0160, Aleksandr Juliusovi\u010d
-p10
-sS'Ausbildung'
-p11
 V1873 Absolvent des 1. Gymnasiums zu Wilna, 1884 Abschluss des Medizinstudiums in Russland.
+p2
+sS'B'
+p3
+VNach 1884 Arzt in St. Petersburg, ab 1890 Assistenzarzt im Garde-Ulanen-Regiment, seit 1900 Älterer Ordinator im Nikolaj-Militärhospital in St. Petersburg, später Oberarzt im Preobra\u017eenskij-Leibgarde-Regiment und ab 1914 Korpsarzt des Gardekorps, ab 1912 "Ehrenleibmedikus" am Hofe des Zaren NIKOLAJ II. (1868-1918).\u000aInhaber hoher russischer Ehrentitel und Auszeichnungen, darunter 1911 "Wirklicher Russischer Staatsrat", 1915 "Geheimrat", Ritter des St.-Stanislav-Ordens 2. Klasse, des St.-Annen-Ordens 3. Klasse und des St. Vladmir-Ordens 4. Klasse, 1913 Gedenkmedaille "300 Jahre Romanov-Dynastie".
+p4
+sS'E'
+p5
+VLidija Arsen'evna, geb. Dvukraeva
+p6
+sS'Name'
+p7
+(dp8
+S'Nachname'
+p9
+VBUSCH
+p10
+sS'Vorname'
+p11
+VAlexander Johann
 p12
-sS'Namensvariationen'
+ssS'Namensvariationen'
 p13
 V\u042e\u043b\u0438e\u0432\u0438\u0447
 p14
-sS'Mutter'
+sS'M'
 p15
 VCharl[otte], geb. Lange
 p16
-sS'Beruf'
+sS'Namen (kyrillisch)'
 p17
-VMilitärarzt, Ehrenleibmedikus
+V\u0411\u0423\u0428, A\u043be\u043aca\u043d\u0434\u0440 \u042e\u043b\u0438\u0443co\u0432\u0438\u0447 / BU\u0160, Aleksandr Juliusovi\u010d
 p18
-sS'Geburtsdaten'
+sS'Berufe'
 p19
-V1857
+VMilitärarzt, Ehrenleibmedikus
 p20
-sS'Lebensstationen'
+sS'Geburtsdaten'
 p21
-VNach 1884 Arzt in St. Petersburg, ab 1890 Assistenzarzt im Garde-Ulanen-Regiment, seit 1900 Älterer Ordinator im Nikolaj-Militärhospital in St. Petersburg, später Oberarzt im Preobra\u017eenskij-Leibgarde-Regiment und ab 1914 Korpsarzt des Gardekorps, ab 1912 "Ehrenleibmedikus" am Hofe des Zaren NIKOLAJ II. (1868-1918).\u000aInhaber hoher russischer Ehrentitel und Auszeichnungen, darunter 1911 "Wirklicher Russischer Staatsrat", 1915 "Geheimrat", Ritter des St.-Stanislav-Ordens 2. Klasse, des St.-Annen-Ordens 3. Klasse und des St. Vladmir-Ordens 4. Klasse, 1913 Gedenkmedaille "300 Jahre Romanov-Dynastie".
+V1857
 p22
 sS'Sterbedaten'
 p23
 Vnach 1917
 p24
-sS'Sekundaerliteratur'
+sS'V'
 p25
-V\u2022 EAD: Dokument-ID [59404/46767 (26.7.2010)].\u000a\u2022 Nachapetov 2003, 215.\u000a\u2022 Pridvornyj kalendar': na 1913 god. S.-Peterburg [1913], 317; ~ 1914, 398.
+VJulius, Kaufmann
 p26
-sS'Ehegatten'
+sS'SL'
 p27
-VLidija Arsen'evna, geb. Dvukraeva
+V\u2022 EAD: Dokument-ID [59404/46767 (26.7.2010)].\u000a\u2022 Nachapetov 2003, 215.\u000a\u2022 Pridvornyj kalendar': na 1913 god. S.-Peterburg [1913], 317; ~ 1914, 398.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 63.</i>
 p28
 sS'ID'
 p29

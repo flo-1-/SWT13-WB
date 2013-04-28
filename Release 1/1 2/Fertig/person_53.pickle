@@ -1,65 +1,65 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VAdolph (1798-1856), Pastor in Dünamünde, Begründer einer Knabenerziehungsanstalt
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VALBANUS
-p6
-sS'Vorname'
-p7
-VKarl August von
-p8
-ssS'Kyrillische Namen'
-p9
-V\u0410\u041b\u042c\u0411\u0410\u041d\u0423\u0421, \u0410\u0432\u0433\u0443\u0441\u0442 \u0410\u0434\u043e\u043b\u044c\u0444\u043e\u0432\u0438\u0447 / AL'BANUS, Avgust Adol'fovi\u010d fon 
-p10
-sS'Ausbildung'
-p11
 VBesuch der Schulanstalten in Engelhardshof und Birkenruh in Livland, 1855-1860 Studium der Zoologie und der Medizin und 1860 Dr. med. an der Universität Dorpat, 1860-1862 Studienaufenthalte in Berlin, Prag und Wien.
-p12
-sS'Mutter'
-p13
-VHelene, geb. Dahl
-p14
-sS'Beruf'
-p15
-VArzt, Großfürstlicher Leibarzt
-p16
-sS'Geburtsdaten'
-p17
-V3./15.5.1837, Dünamünde
-p18
-sS'Lebensstationen'
-p19
-V1862 zunächst Arzt im Obuchov-Krankenhaus in St. Petersburg, später im Hospital des St. Petersburger Stadt-Gefängnisses, 1871-1886 Leibmedikus des Großfürsten MICHAIL NIKOLAEVI\u010c (1832-1909) in Tiflis und in St. Petersburg, ab 1880 "Ehrenleibmedikus" am Zarenhof, lebte zuletzt im Ruhestand in Riga. \u000aInhaber hoher russischer Ehrentitel, darunter "Geheimrat", 1887 "Wirklicher Russischer Staatsrat".
-p20
-sS'Sterbedaten'
-p21
-V12./24.6.1887, Riga
-p22
-sS'Sekundaerliteratur'
-p23
-V\u2022 EAD: Dokument-Id [117/122 (20.7.2010)]. \u000a\u2022 WBIS RBA: R 13, 301; 7, 201.
-p24
-sS'Werke'
-p25
-V\u2022 Experimentelle Untersuchungen über die Beziehung des Halsstranges des Sympathicus zur Temperatur des Kaninchenohres. Diss. Dorpat 1860, 64 S. http://dspace.utlib.ee/dspace/handle/10062/7023  (28.2.2012).\u000a\u2022 Zwölf Fälle von Tuberculose des Bauchfelles. St. Petersburger medicinische Zeitschrift 17 (1870), 313-353.
-p26
-sS'Ehegatten'
-p27
-VHelene Karoline Luise, geb. Brückner (1836?-1871)
-p28
-sS'Mitgliedschaft'
-p29
+p2
+sS'MG'
+p3
 VVerein St. Petersburger Ärzte (ab 1867, Ehrenmitglied 1887), Deutscher ärztlicher Verein in St. Petersburg (ab 1883/4?).
-p30
+p4
+sS'B'
+p5
+V1862 zunächst Arzt im Obuchov-Krankenhaus in St. Petersburg, später im Hospital des St. Petersburger Stadt-Gefängnisses, 1871-1886 Leibmedikus des Großfürsten MICHAIL NIKOLAEVI\u010c (1832-1909) in Tiflis und in St. Petersburg, ab 1880 "Ehrenleibmedikus" am Zarenhof, lebte zuletzt im Ruhestand in Riga. \u000aInhaber hoher russischer Ehrentitel, darunter "Geheimrat", 1887 "Wirklicher Russischer Staatsrat".
+p6
+sS'E'
+p7
+VHelene Karoline Luise, geb. Brückner (1836?-1871)
+p8
+sS'Name'
+p9
+(dp10
+S'Nachname'
+p11
+VALBANUS
+p12
+sS'Vorname'
+p13
+VKarl August von
+p14
+ssS'SL'
+p15
+V\u2022 EAD: Dokument-Id [117/122 (20.7.2010)]. \u000a\u2022 WBIS RBA: R 13, 301; 7, 201.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 1.</i>
+p16
+sS'M'
+p17
+VHelene, geb. Dahl
+p18
+sS'Namen (kyrillisch)'
+p19
+V\u0410\u041b\u042c\u0411\u0410\u041d\u0423\u0421, \u0410\u0432\u0433\u0443\u0441\u0442 \u0410\u0434\u043e\u043b\u044c\u0444\u043e\u0432\u0438\u0447 / AL'BANUS, Avgust Adol'fovi\u010d fon 
+p20
 sS'ID'
-p31
+p21
 V30017
+p22
+sS'Geburtsdaten'
+p23
+V3./15.5.1837, Dünamünde
+p24
+sS'Sterbedaten'
+p25
+V12./24.6.1887, Riga
+p26
+sS'W'
+p27
+V\u2022 Experimentelle Untersuchungen über die Beziehung des Halsstranges des Sympathicus zur Temperatur des Kaninchenohres. Diss. Dorpat 1860, 64 S. http://dspace.utlib.ee/dspace/handle/10062/7023  (28.2.2012).\u000a\u2022 Zwölf Fälle von Tuberculose des Bauchfelles. St. Petersburger medicinische Zeitschrift 17 (1870), 313-353.
+p28
+sS'V'
+p29
+VAdolph (1798-1856), Pastor in Dünamünde, Begründer einer Knabenerziehungsanstalt
+p30
+sS'Berufe'
+p31
+VArzt, Großfürstlicher Leibarzt
 p32
 s.

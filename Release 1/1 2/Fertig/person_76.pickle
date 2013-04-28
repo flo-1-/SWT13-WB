@@ -1,73 +1,73 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VAlexander (Aleksandr Iv.), Apotheker
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VREMMERT
-p6
-sS'Vorname'
-p7
-VAdolf
-p8
-ssS'Kyrillische Namen'
-p9
-V\u0420EMME\u0420\u0422, A\u0434o\u043b\u044c\u0444 A\u043be\u043aca\u043d\u0434\u0440o\u0432\u0438\u0447 / REMMERT, Adol'f Aleksandrovi\u010d
-p10
-sS'Ausbildung'
-p11
 VBesuch des Gymnasium in St. Petersburg, 1853-1858 Studium der Medizin und 1872 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg
+p2
+sS'MG'
+p3
+VVerein St. Petersburger Aerzte (ab 1864), Voenno-medicinskij u\u010denyj komitet [Militärmedizinisches Gelehrtenkomitee] (ab 1887, 1887-1902 Präses).\u000aEhrenmitglied: Veterinärmedizinisches Institut der Universität Dorpat (1898), Voenno-medicinskaja akademija [Militärmedizinische Akademie St. Petersburg] (1901).
+p4
+sS'B'
+p5
+VIn St. Petersburg 1859-1862 Ordinator am Elisabeth-Kinderhospital, 1859-1865 außeretatmäßiger Ordinator im Kaiserlichen Hebammeninstitut, zugleich 1862-1865 Arzt im "Kinderasyl des Prinzen von Oldenburg", 1866 Ordinator am Cholerahospital und 1867 Leibarzt der Kinder des Großfürsten MICHAIL NIKOLAEVI\u010c (1832-1909), 1868-1872 beratendes Mitglied und 1872-1887 Chef der Kaukasischen und der Transkaukasischen Zivil-Medizinalverwaltung, ab 1869 zugleich Leiter der Kurorte im Gouvernement Tiflis, 1877-1880 Ausübung verschiedener militär-medizinischen Funktionen im Russisch-türkischen Krieg, 1878 zugleich stellvertretender Feld-Militär-Medizinalinspektor der Kaukasischen Armee, 1878-1887 Militär-Medizinalinspektor und 1887-1902 Ober-Militär-Medizinalinspektor des Kaukasischen Militärbezirkes, ab 1882 "Ehrenleibmedikus" am Zarenhof, 1893 und 1896 Aufenthalte in Deutschland, Frankreich, England und in der Schweiz zum Kennenlernen der Organisation der militärmedizinischen Heeresversorgung, außerdem ständiges Mitglied des Medizinalrats des Ministeriums des Innern und des Sanitätskomitees beim Rat des Kriegsministeriums.\u000aInhaber hoher russischer Ehrentitel und anderer Auszeichnungen, darunter 1878 "Wirklicher Russischer Staatsrat", 1888 "Geheimrat" und 1898 "Wirklicher Russischer Geheimrat", Ritter des Aleksandr-Nevskij-Ordens, des Preußischen Roten-Adler-Ordens, Commandeur de la Légion d'honneur (Frankreich).
+p6
+sS'E'
+p7
+VAnna Nikolaevna (lebte noch 1912 in St. Petersburg)
+p8
+sS'Name'
+p9
+(dp10
+S'Nachname'
+p11
+VREMMERT
 p12
-sS'Portraits'
+sS'Vorname'
 p13
-V\u2022 Portrait aus: Voenno-istori\u010deskij \u017eurnal (2007) Nr. 6, 58. Abgedruckt in: Fischer 2010, 211.\u000a\u2022 Portrait in: Al'manach sovremennych russkich gosudarstvennych dejatelej. Bd. 2. S.-Peterburg 1897, 1191; auch in: WBIS RBA: R 394, 207.
+VAdolf
 p14
-sS'Leistungen'
+ssS'WL'
 p15
 VGründer des Transkaukasischen Hebammen-Institutes und der Veterinär-Feldscherschule in Tiflis, des Kurortes Abas-Tuman und Verfasser des dortigen Kur-Regimes, Begründer und Förderer der Fabrik für Militär-medizinische Präparate und Instrumente in St. Petersburg.
 p16
-sS'Beruf'
+sS'Namen (kyrillisch)'
 p17
-VPraktischer Arzt, Militärarzt, Kaiserlicher Leibarzt
+V\u0420EMME\u0420\u0422, A\u0434o\u043b\u044c\u0444 A\u043be\u043aca\u043d\u0434\u0440o\u0432\u0438\u0447 / REMMERT, Adol'f Aleksandrovi\u010d
 p18
-sS'Nachkommen'
+sS'ID'
 p19
-VAlexander (Aleksandr Adol'fovi\u010d) (1861-1931), Marineoffizier\u000aNina (Adol'fovna), verh. Sander (\u2020 1909)
+V30450
 p20
-sS'Geburtsdaten'
+sS'P'
 p21
-V14./26.7.1835, St. Petersburg
+V\u2022 Portrait aus: Voenno-istori\u010deskij \u017eurnal (2007) Nr. 6, 58. Abgedruckt in: Fischer 2010, 211.\u000a\u2022 Portrait in: Al'manach sovremennych russkich gosudarstvennych dejatelej. Bd. 2. S.-Peterburg 1897, 1191; auch in: WBIS RBA: R 394, 207.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 211-212.</i>
 p22
-sS'Lebensstationen'
+sS'Geburtsdaten'
 p23
-VIn St. Petersburg 1859-1862 Ordinator am Elisabeth-Kinderhospital, 1859-1865 außeretatmäßiger Ordinator im Kaiserlichen Hebammeninstitut, zugleich 1862-1865 Arzt im "Kinderasyl des Prinzen von Oldenburg", 1866 Ordinator am Cholerahospital und 1867 Leibarzt der Kinder des Großfürsten MICHAIL NIKOLAEVI\u010c (1832-1909), 1868-1872 beratendes Mitglied und 1872-1887 Chef der Kaukasischen und der Transkaukasischen Zivil-Medizinalverwaltung, ab 1869 zugleich Leiter der Kurorte im Gouvernement Tiflis, 1877-1880 Ausübung verschiedener militär-medizinischen Funktionen im Russisch-türkischen Krieg, 1878 zugleich stellvertretender Feld-Militär-Medizinalinspektor der Kaukasischen Armee, 1878-1887 Militär-Medizinalinspektor und 1887-1902 Ober-Militär-Medizinalinspektor des Kaukasischen Militärbezirkes, ab 1882 "Ehrenleibmedikus" am Zarenhof, 1893 und 1896 Aufenthalte in Deutschland, Frankreich, England und in der Schweiz zum Kennenlernen der Organisation der militärmedizinischen Heeresversorgung, außerdem ständiges Mitglied des Medizinalrats des Ministeriums des Innern und des Sanitätskomitees beim Rat des Kriegsministeriums.\u000aInhaber hoher russischer Ehrentitel und anderer Auszeichnungen, darunter 1878 "Wirklicher Russischer Staatsrat", 1888 "Geheimrat" und 1898 "Wirklicher Russischer Geheimrat", Ritter des Aleksandr-Nevskij-Ordens, des Preußischen Roten-Adler-Ordens, Commandeur de la Légion d'honneur (Frankreich).
+V14./26.7.1835, St. Petersburg
 p24
 sS'Sterbedaten'
 p25
 V26.7./8.8.1902, Abas Tuman, Georgien
 p26
-sS'Sekundaerliteratur'
+sS'W'
 p27
-V\u2022 EAD: Dokument-Id [62757/61560 (9.8.2010)].\u000a\u2022 Hesse, Erich: Album Nevanorum 1847-1908. 2. Aufl. Dorpat 1909, 87-89.\u000a\u2022 WBIS RBA: R 394, 207-210.\u000a\u2022 \u017dirov, Evgenij: Mineral'nyj puzyr'. Den'gi Nr. 48 (604) vom 4.12.2006. http://www.kommersant.ru/doc.aspx?DocsID=727014  (7.3.2012).
-p28
-sS'Werke'
-p29
 VK voprosu o razdvoenii matki. Diss. Sankt-Peterburg 1872, 60 S.
+p28
+sS'V'
+p29
+VAlexander (Aleksandr Iv.), Apotheker
 p30
-sS'Ehegatten'
+sS'N'
 p31
-VAnna Nikolaevna (lebte noch 1912 in St. Petersburg)
+VAlexander (Aleksandr Adol'fovi\u010d) (1861-1931), Marineoffizier\u000aNina (Adol'fovna), verh. Sander (\u2020 1909)
 p32
-sS'Mitgliedschaft'
+sS'SL'
 p33
-VVerein St. Petersburger Aerzte (ab 1864), Voenno-medicinskij u\u010denyj komitet [Militärmedizinisches Gelehrtenkomitee] (ab 1887, 1887-1902 Präses).\u000aEhrenmitglied: Veterinärmedizinisches Institut der Universität Dorpat (1898), Voenno-medicinskaja akademija [Militärmedizinische Akademie St. Petersburg] (1901).
+V\u2022 EAD: Dokument-Id [62757/61560 (9.8.2010)].\u000a\u2022 Hesse, Erich: Album Nevanorum 1847-1908. 2. Aufl. Dorpat 1909, 87-89.\u000a\u2022 WBIS RBA: R 394, 207-210.\u000a\u2022 \u017dirov, Evgenij: Mineral'nyj puzyr'. Den'gi Nr. 48 (604) vom 4.12.2006. http://www.kommersant.ru/doc.aspx?DocsID=727014  (7.3.2012).
 p34
-sS'ID'
+sS'Berufe'
 p35
-V30450
+VPraktischer Arzt, Militärarzt, Kaiserlicher Leibarzt
 p36
 s.

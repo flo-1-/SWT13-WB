@@ -1,73 +1,73 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VNikolaus, Gutsbesitzer
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VETLINGER
-p6
-sS'Vorname'
-p7
-VWilhelm Rudolf von
-p8
-ssS'Kyrillische Namen'
-p9
-V\u042dT\u041b\u0418\u041d\u0413E\u0420, \u0412\u0438\u043b\u044c\u0433e\u043b\u044c\u043c \u041d\u0438\u043ao\u043bae\u0432\u0438\u0447 / \u0116TLINGER, Vil'gel'm Nikolaevi\u010d fon
-p10
-sS'Ausbildung'
-p11
 VBis 1836 Besuch des Richelieu-Gymnasiums in Odessa, 1836-1840 Studium der Medizin an der Universität Berlin, 1841-1842 an der Universität Bonn und 1844 Dr. med. in Bonn, 1845 Examen zum Arzt 1. Klasse an der Universität Dorpat.
+p2
+sS'MG'
+p3
+VVerein St. Petersburger Ärzte (Stifter und ab 1874 Ehrenmitglied), Deutscher ärztlicher Verein in St. Petersburg (ab 1864 und ab 1874 Ehrenmitglied).
+p4
+sS'B'
+p5
+V1842-1844 Assistent an der gynäkologischen Klinik bei Hermann Friedrich KILIAN (1800-1863) an der Universität Bonn, 1845-1850 Ordinator und Professor und 1850[nicht 1870]-1874 Direktor des "Hebammeninstituts der Großfürstin Elena Pavlovna" in St. Petersburg, zugleich 1845-1890 praktischer Arzt in St. Petersburg, ab 1874 beratendes Mitglied des Medizinalrats des Ministeriums des Innern, ab 1879 Leibgeburtshelfer am Zarenhof und der Großfürstin MARIJA PAVLOVNA, geb. MARIE ZU MECKLENBURG[-SCHWERIN] (1854-1920).\u000aInhaber der Ehrentitel "Wirklicher Russischer Staatsrat" (1867) und "Geheimrat" (1882).
+p6
+sS'E'
+p7
+VEdmonde Georgine Gottliebe, geb. Baronesse Fölkersam (1836-1918)
+p8
+sS'Name'
+p9
+(dp10
+S'Nachname'
+p11
+VETLINGER
 p12
-sS'Quellen'
+sS'Vorname'
 p13
-VRheinische Friedrich-Wilhelms-Universität Bonn, Universitätsarchiv: Immatrikulationsalbum 1841: Signatur UAB AB 03, Nr. 171; Promotionsalbum 1843: Signatur UAB AB 41 (Promotionstag: 4. Juni 1844). Auszug aus dem Immatrikulationsalbum des Universitätsarchivs Bonn (Nr. 171, jeweils letzte Zeile) abgedruckt in: Fischer 2010, 87. Schriftliche Mitteilung und Scans zugesandt am 1.7.2010.
+VWilhelm Rudolf von
 p14
-sS'Leistungen'
+ssS'WL'
 p15
 VUnter seiner Leitung wurde das Hebammeninstitut in St. Petersburg zur ersten geburtshilflichen Ausbildungsstätte in Russland.
 p16
-sS'Beruf'
+sS'Namen (kyrillisch)'
 p17
-VPraktischer Arzt, Gynäkologe, Leibgeburtshelfer
+V\u042dT\u041b\u0418\u041d\u0413E\u0420, \u0412\u0438\u043b\u044c\u0433e\u043b\u044c\u043c \u041d\u0438\u043ao\u043bae\u0432\u0438\u0447 / \u0116TLINGER, Vil'gel'm Nikolaevi\u010d fon
 p18
-sS'Nachkommen'
+sS'ID'
 p19
-VSophie Elisabeth (Vil'gel'movna), gesch. Fölkersam, verh. Neander (1867-1944)\u000aEsther Gottlieb (Vil'gel'movna), verh. von Obermüller (1872-1916)\u000aEugenie Agnes (Vil'gel'movna), verh. von Etlinger
+V30258
 p20
-sS'Geburtsdaten'
+sS'Q'
 p21
-V14./26.3. oder 15.3.1819 oder 15.3.1818, Uman', Gouvernement Kiev
+VRheinische Friedrich-Wilhelms-Universität Bonn, Universitätsarchiv: Immatrikulationsalbum 1841: Signatur UAB AB 03, Nr. 171; Promotionsalbum 1843: Signatur UAB AB 41 (Promotionstag: 4. Juni 1844). Auszug aus dem Immatrikulationsalbum des Universitätsarchivs Bonn (Nr. 171, jeweils letzte Zeile) abgedruckt in: Fischer 2010, 87. Schriftliche Mitteilung und Scans zugesandt am 1.7.2010.
 p22
-sS'Lebensstationen'
+sS'Geburtsdaten'
 p23
-V1842-1844 Assistent an der gynäkologischen Klinik bei Hermann Friedrich KILIAN (1800-1863) an der Universität Bonn, 1845-1850 Ordinator und Professor und 1850[nicht 1870]-1874 Direktor des "Hebammeninstituts der Großfürstin Elena Pavlovna" in St. Petersburg, zugleich 1845-1890 praktischer Arzt in St. Petersburg, ab 1874 beratendes Mitglied des Medizinalrats des Ministeriums des Innern, ab 1879 Leibgeburtshelfer am Zarenhof und der Großfürstin MARIJA PAVLOVNA, geb. MARIE ZU MECKLENBURG[-SCHWERIN] (1854-1920).\u000aInhaber der Ehrentitel "Wirklicher Russischer Staatsrat" (1867) und "Geheimrat" (1882).
+V14./26.3. oder 15.3.1819 oder 15.3.1818, Uman', Gouvernement Kiev
 p24
 sS'Sterbedaten'
 p25
 V8./20.11.1890, St. Petersburg
 p26
-sS'Sekundaerliteratur'
+sS'W'
 p27
-V\u2022 EAD: Dokument-Id [59815/94077 (27.7.2010)].\u000a\u2022 Peterburgskij nekropol'. Bd. 4 (1913), 656.\u000a\u2022 WBIS RBA: R 523, 65-67.
-p28
-sS'Werke'
-p29
 VObservationes obstetriciae per tredecim menses in clinico Bonnensi institutae, adiectis adnotationibus epicriticis. Dissertation. Bonn 1844, 60 S.
+p28
+sS'V'
+p29
+VNikolaus, Gutsbesitzer
 p30
-sS'Ehegatten'
+sS'N'
 p31
-VEdmonde Georgine Gottliebe, geb. Baronesse Fölkersam (1836-1918)
+VSophie Elisabeth (Vil'gel'movna), gesch. Fölkersam, verh. Neander (1867-1944)\u000aEsther Gottlieb (Vil'gel'movna), verh. von Obermüller (1872-1916)\u000aEugenie Agnes (Vil'gel'movna), verh. von Etlinger
 p32
-sS'Mitgliedschaft'
+sS'SL'
 p33
-VVerein St. Petersburger Ärzte (Stifter und ab 1874 Ehrenmitglied), Deutscher ärztlicher Verein in St. Petersburg (ab 1864 und ab 1874 Ehrenmitglied).
+V\u2022 EAD: Dokument-Id [59815/94077 (27.7.2010)].\u000a\u2022 Peterburgskij nekropol'. Bd. 4 (1913), 656.\u000a\u2022 WBIS RBA: R 523, 65-67.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 85-87.</i>
 p34
-sS'ID'
+sS'Berufe'
 p35
-V30258
+VPraktischer Arzt, Gynäkologe, Leibgeburtshelfer
 p36
 s.

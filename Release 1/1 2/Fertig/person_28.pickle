@@ -1,62 +1,62 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VJakob Wilhelm (?)
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VMÜLLER
-p6
-sS'Vorname'
-p7
-VKarl Wilhelm David (von)
-p8
-ssS'Kyrillische Namen'
-p9
-VM\u0438\u043b\u043be\u0440, Ka\u0440\u043b \u042f\u043ao\u0432\u043b\u0435\u0432\u0438\u0447 / MILLER, Karl Jakovlevi\u010d (fon)
-p10
-sS'Ausbildung'
-p11
 VSchulbesuch und Studium in Deutschland, 1809 Examen als "Mediko-Chirurg" an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg.
-p12
-sS'Namensvariationen'
-p13
-VMJULLER, M\u042e\u041b\u041b\u0415\u0420, Carl, Karl Vil'gel'movi\u010d, Ka\u0440\u043b \u0412\u0438\u043b\u044c\u0433\u0435\u043b\u044c\u043c\u043e\u0432\u0438\u0447
-p14
-sS'Beruf'
-p15
-VMilitärarzt, Hofarzt, Leibmedikus
-p16
-sS'Nachkommen'
-p17
-VAlexander Christian Jakob (Karlovi\u010d) (1811-1863), Beamter in der Kreditkanzlei des Finanzministeriums
-p18
-sS'Geburtsdaten'
-p19
-V10. oder 12. /21.12.1779, Berlin
-p20
-sS'Lebensstationen'
-p21
+p2
+sS'MG'
+p3
+VDeutscher ärztlicher Verein in St. Petersburg (1819 Mitgründer).
+p4
+sS'B'
+p5
 VKam 1808 aus Königsberg in russische Dienste und wurde als Assistenzarzt im Kavaliergarderegiment angestellt, 1812-1814 Hofarzt beim Zaren ALEKSANDR I. (1777-1825), danach Aufenthalte im Ausland, später Leibmedikus am Zarenhof.\u000aErhielt die russischen Ehrentitel "Kollegienassessor" (1809) und "Staatsrat" sowie den Adelstitel.
+p6
+sS'E'
+p7
+V1. Katharina Elisabeth, geb. Vorbrodt (1791-1820)\u000a2. Elizaveta Pavlovna, geb. Schröter (1800-1825)
+p8
+sS'Name'
+p9
+(dp10
+S'Nachname'
+p11
+VMÜLLER
+p12
+sS'Vorname'
+p13
+VKarl Wilhelm David (von)
+p14
+ssS'Namensvariationen'
+p15
+VMJULLER, M\u042e\u041b\u041b\u0415\u0420, Carl, Karl Vil'gel'movi\u010d, Ka\u0440\u043b \u0412\u0438\u043b\u044c\u0433\u0435\u043b\u044c\u043c\u043e\u0432\u0438\u0447
+p16
+sS'Namen (kyrillisch)'
+p17
+VM\u0438\u043b\u043be\u0440, Ka\u0440\u043b \u042f\u043ao\u0432\u043b\u0435\u0432\u0438\u0447 / MILLER, Karl Jakovlevi\u010d (fon)
+p18
+sS'Berufe'
+p19
+VMilitärarzt, Hofarzt, Leibmedikus
+p20
+sS'Geburtsdaten'
+p21
+V10. oder 12. /21.12.1779, Berlin
 p22
 sS'Sterbedaten'
 p23
 V28.11./10.12.1828, St. Petersburg
 p24
-sS'Sekundaerliteratur'
+sS'V'
 p25
-V\u2022 Böhm 2003, 481.\u000a\u2022 EAD: Dokument-Id [61484/61150 (6.8.2010)].\u000a\u2022 Sbornik biografij kavalergardov 1826-1908. Red. Sergej Alekseevi\u010d Pan\u010dulidzev. Reprint izdanija 1908 goda. Moskva 2008, 399-400.
+VJakob Wilhelm (?)
 p26
-sS'Ehegatten'
+sS'N'
 p27
-V1. Katharina Elisabeth, geb. Vorbrodt (1791-1820)\u000a2. Elizaveta Pavlovna, geb. Schröter (1800-1825)
+VAlexander Christian Jakob (Karlovi\u010d) (1811-1863), Beamter in der Kreditkanzlei des Finanzministeriums
 p28
-sS'Mitgliedschaft'
+sS'SL'
 p29
-VDeutscher ärztlicher Verein in St. Petersburg (1819 Mitgründer).
+V\u2022 Böhm 2003, 481.\u000a\u2022 EAD: Dokument-Id [61484/61150 (6.8.2010)].\u000a\u2022 Sbornik biografij kavalergardov 1826-1908. Red. Sergej Alekseevi\u010d Pan\u010dulidzev. Reprint izdanija 1908 goda. Moskva 2008, 399-400.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 163.</i>
 p30
 sS'ID'
 p31

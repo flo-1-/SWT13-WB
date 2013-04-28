@@ -13,8 +13,13 @@ import cgi #Fuer die HTML Entities
 #-------------------------------------------------------
 
 def textEinlesen(pfad,dateiname):
-	"""	Umgang mit Datein
-		text aus Datei Lesen ( UTF 8 codiert)"""
+	"""
+	read text from file (UTF 8 coded)
+	@param pfad: path to read from
+	@param dateiname: file to read
+	@type pfad: String
+	@type dateiname: String
+	"""
 	datei = pfad+"/"+dateiname
 	text = "Fehler"
 	try:
@@ -28,7 +33,13 @@ def textEinlesen(pfad,dateiname):
 
 
 def openPickle(pfad, dateiname):
-	"""	Daten aus einer pickle Datei lesen"""
+	"""
+	read data from pickle file
+	@param pfad: path to open from
+	@param dateiname: file to open
+	@type pfad: String
+	@type dateiname: String
+	"""
 	datei = pfad+"/"+dateiname
 #	print(datei)
 	newPickle = dict()
@@ -45,7 +56,17 @@ def openPickle(pfad, dateiname):
 
 
 def save(Text, pfad, dateiname, ending):
-	"""text in Datei schreiben"""
+	"""
+	save file
+	@param pfad: saving path
+	@param dateiname: file to save
+	@param Text: content to save
+	@param ending: file format
+	@type pfad: String
+	@type dateiname: String
+	@param Text: String
+	@param ending: String
+	"""
 	dateiname = dateiname.partition(".")[0] + ending
 	datei = pfad+"/"+dateiname
 	try:
@@ -57,16 +78,41 @@ def save(Text, pfad, dateiname, ending):
 
 
 def saveHTML(htmlText, pfad, dateiname):
+	"""
+	save as html
+	@param htmlText: htm to save
+	@param pfad: saving path
+	@param dateiname: filename
+	@type htmlText: String
+	@type pfad: String
+	@type dateiname: String
+	"""
 	save(htmlText, pfad, dateiname,".html")
 
 
 def saveTTL(htmlText, pfad, dateiname):
-	"""Save als .ttl"""
+	"""
+	save as turtle
+	@param htmlText: htm to save
+	@param pfad: saving path
+	@param dateiname: filename
+	@type htmlText: String
+	@type pfad: String
+	@type dateiname: String
+	"""
 	save(htmlText, pfad, dateiname,".ttl")
 
 	
 def saveCurDict(curDict, pfad, dateiname):
-	"""Daten in eine Datei schreiben (mit pickle)"""
+	"""
+	save dict as pickle
+	@param curDict: dict to save
+	@param pfad: saving path
+	@param dateiname: filename
+	@type curDict: Dictionary
+	@type pfad: String
+	@type dateiname: String
+	"""
 	dateiname = dateiname.partition(".")[0] + ".pickle"
 	datei = pfad+"/"+dateiname
 	try:
@@ -78,7 +124,13 @@ def saveCurDict(curDict, pfad, dateiname):
 
 
 def printWhatItIs(structure, level=0):
-	"""Printfunktion fuer verschachtelte Dictionarys"""
+	"""
+	print dictionaries for testing
+	@param structure: data structure
+	@param level: depth of structure to print
+	@type structure: Dictionary
+	@type level: Integer
+	"""
 	def levelTabPrint(text):
 		for step in range(level):
 			text += u' '
@@ -105,12 +157,12 @@ def printWhatItIs(structure, level=0):
 #Schrift konvertieren
 
 def convertHTMLChars(text):
-	"""Converts an text with htmlEntities to utf-8
+	"""
+	Converts an text with htmlEntities to utf-8
 	@return an utf 8 String
 	@exception raises Exception, if an HTMLEntity is not converted because
 	its not in the EntityList 
 	You have to append it manual, please.
-	
 	"""
 	text = text.decode('unicode-escape') # Umwandlung von string in unicode
 	pattern = '&#\d{2,4};' #Patten fuer Re \d sind nur Zahlen {2,4} Anzahl der Zahlen (2 bis 4)

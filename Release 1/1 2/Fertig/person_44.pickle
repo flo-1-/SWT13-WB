@@ -1,66 +1,66 @@
 (dp0
-S'Name'
+S'A'
 p1
-(dp2
-S'Nachname'
-p3
-VKABAT
-p4
-sS'Vorname'
-p5
-VJohann von
-p6
-ssS'Kyrillische Namen'
-p7
-VKA\u0411AT, \u0418\u0432a\u043d \u0418\u0432a\u043do\u0432\u0438\u0447 / KABAT, Ivan Ivanovi\u010d fon
-p8
-sS'Ausbildung'
-p9
 V1827-1833 Studium an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg, 1835 Abschluss als "Medico-Chirurg".
-p10
-sS'Quellen'
-p11
+p2
+sS'Q'
+p3
 V[Todesanzeige]. St. Petersburger medicinische Wochenschrift N.F. 1 [= 9] (1884), 134.
-p12
-sS'Namensvariationen'
-p13
-VKABBAT, KA\u0411\u0411AT
-p14
-sS'Leistungen'
-p15
-VFührte 1858 als Erster in Russland die Iridektomie nach GRAEFE durch, brachte den ersten Augenspiegel (Ophthalmoskop) aus Deutschland an die Mediko-chirurgische Akademie.\u000aVerdienste bei der Einrichtung von Militär-Sanitätsstationen für Augenkranke in Südrussland.
-p16
-sS'Beruf'
-p17
-VAugenarzt, Kaiserlicher Leibokulist
-p18
-sS'Nachkommen'
-p19
-VIvan Ivanovi\u010d (1843-1902), Hofmeister, Landwirtschaftsministerialbeamter, Senator
-p20
-sS'Geburtsdaten'
-p21
-V1812
-p22
-sS'Lebensstationen'
-p23
+p4
+sS'MG'
+p5
+VMediko-chirurgi\u010deskaja akademija [Mediko-chirurgische Akademie] (Ehrenmitglied ab 1861), Voenno-medicinskij u\u010denyj komitet [Militärmedizinisches Gelehrtenkomitee].
+p6
+sS'B'
+p7
 VAb 1834 Assistenzarzt, 1840-1846 Oberarzt am St. Petersburger Militärlandhospital, währenddessen 1840 zur Bekämpfung von Augenkrankheiten in der Armee eingesetzt, ab 1846 Professor und Leiter der Augenklinik an der MCA, 1856 Studienaufenthalte in Deutschland bei Albrecht von GRAEFE (1828-1870) in Berlin sowie in Frankreich und in England, nahm 1857 am 1. augenärztlichen Kongress in Brüssel teil, 1847-1881 zugleich Leib-Okulist des Zaren ALEKSANDR II. (1818-1881).\u000aInhaber des Ehrentitels "Geheimrat".
+p8
+sS'Name'
+p9
+(dp10
+S'Nachname'
+p11
+VKABAT
+p12
+sS'Vorname'
+p13
+VJohann von
+p14
+ssS'Namensvariationen'
+p15
+VKABBAT, KA\u0411\u0411AT
+p16
+sS'Namen (kyrillisch)'
+p17
+VKA\u0411AT, \u0418\u0432a\u043d \u0418\u0432a\u043do\u0432\u0438\u0447 / KABAT, Ivan Ivanovi\u010d fon
+p18
+sS'Berufe'
+p19
+VAugenarzt, Kaiserlicher Leibokulist
+p20
+sS'WL'
+p21
+VFührte 1858 als Erster in Russland die Iridektomie nach GRAEFE durch, brachte den ersten Augenspiegel (Ophthalmoskop) aus Deutschland an die Mediko-chirurgische Akademie.\u000aVerdienste bei der Einrichtung von Militär-Sanitätsstationen für Augenkranke in Südrussland.
+p22
+sS'Geburtsdaten'
+p23
+V1812
 p24
 sS'Sterbedaten'
 p25
 V3. oder 4./15.4.1884, St. Petersburg, Grabstätte: Friedhof Novodevi\u010d'e [Grabstelle nicht erhalten]
 p26
-sS'Werke'
+sS'W'
 p27
 V\u2022 Opyt primenenija gal'vano-magnitnogo toka k le\u010deniju glaznych boleznej. Sankt-Peterburg 1844.\u000a\u2022 Proekt ob ustrojstve narodnych prijutov dlja prizrenija bol'nych i ranenych vo vremja vojny. Mit V. S. Sacharov. Sankt-Peterburg 1877, 14 S.\u000a\u2022 Zapiska ob ujstrojstve sanitarnych stancij v voennych okrugach. Mit V. S. Sacharov. Sankt-Peterburg 1878.\u000a\u2022 Krasnyj krest na sanitarnych stancijach v Slavjanske, na Kavkaze i v Krymu v 1878 g. Sankt-Peterburg 1880, 42 S.\u000a\u2022 Barak-\u0161ater i barak-saklja. Sankt-Peterburg 1882, 14 S.
 p28
-sS'Sekundaerliteratur'
+sS'SL'
 p29
-V\u2022 Emel'janova/Jakovlev - Emel'janova, Natal'ja Aleksandrovna, Jakovlev, Aleksandr Andreevi\u010d: Al'brecht von Grefe - vydaju\u0161\u010dijsja nemeckij oftal'molog (ego \u017eizn', vra\u010debnaja i nau\u010dnaja dejatel'nost'). http://www.medlit.ru/medrus/vestof.htm (2001) Nr. 6, 54-55. http://www.fesmu.ru/elib/Article.aspx?id=67929  (4.4.2012).\u000a\u2022 Hirschberg, Julius: Die Augenärzte Rußlands, 1800 bis 1875. In: Geschichte der Augenheilkunde, 3. Buch, 17. Abschnitt. Leipzig 1916 (Handbuch der gesamten Heilkunde 14), 207-208; auch in: WBIS RBA: R 218, 29-30.\u000a\u2022 Ivanovskij 1898, 433 und 559.\u000a\u2022 Kladbi\u0161\u010da Peterburga, 383.\u000a\u2022 WBIS RBA: R 218, 27-31.
+V\u2022 Emel'janova/Jakovlev - Emel'janova, Natal'ja Aleksandrovna, Jakovlev, Aleksandr Andreevi\u010d: Al'brecht von Grefe - vydaju\u0161\u010dijsja nemeckij oftal'molog (ego \u017eizn', vra\u010debnaja i nau\u010dnaja dejatel'nost'). http://www.medlit.ru/medrus/vestof.htm (2001) Nr. 6, 54-55. http://www.fesmu.ru/elib/Article.aspx?id=67929  (4.4.2012).\u000a\u2022 Hirschberg, Julius: Die Augenärzte Rußlands, 1800 bis 1875. In: Geschichte der Augenheilkunde, 3. Buch, 17. Abschnitt. Leipzig 1916 (Handbuch der gesamten Heilkunde 14), 207-208; auch in: WBIS RBA: R 218, 29-30.\u000a\u2022 Ivanovskij 1898, 433 und 559.\u000a\u2022 Kladbi\u0161\u010da Peterburga, 383.\u000a\u2022 WBIS RBA: R 218, 27-31.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 117-118.</i>
 p30
-sS'Mitgliedschaft'
+sS'N'
 p31
-VMediko-chirurgi\u010deskaja akademija [Mediko-chirurgische Akademie] (Ehrenmitglied ab 1861), Voenno-medicinskij u\u010denyj komitet [Militärmedizinisches Gelehrtenkomitee].
+VIvan Ivanovi\u010d (1843-1902), Hofmeister, Landwirtschaftsministerialbeamter, Senator
 p32
 sS'ID'
 p33

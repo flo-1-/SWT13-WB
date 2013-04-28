@@ -1,77 +1,77 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VJohann Anton (\u0116manuilovi\u010d) (1761-1838), Arzt, Medizinalinspektor
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VMAYER
-p6
-sS'Vorname'
-p7
-VCarl Wilhelm Christoph von
-p8
-ssS'Kyrillische Namen'
-p9
-V\u041c\u0410\u0419\u0415\u0420, \u041a\u0430\u0440\u043b \u0410\u043d\u0442\u043e\u043d\u043e\u0432\u0438\u0447 / MAJER, Karl Antonovi\u010d
-p10
-sS'Ausbildung'
-p11
 VKam um 1808 mit ca. 15 Jahren nach Russland (Berufung des Vaters in russische Dienste), studierte Medizin und wurde zum Dr. med. promoviert.
-p12
-sS'Quellen'
-p13
-VBriefe an Johann Bartholomäus Trommsdorff vom 9. März und 6. und 10. April 1826 aus Würzburg. In: Der Briefwechsel von Johann Bartholomäus von Trommsdorff (1770-1837). Bearb. von Hartmut Bettin, Christoph Friedrich, Wolfgang Götz. Halle (Saale), Stuttgart 2002 (Acta historica Leopoldina 18, Lfg. 7), 127-129.
-p14
-sS'Mutter'
-p15
-VSoph. Aug. Kath., geb. Ploettner (1761-1832)
-p16
-sS'Leistungen'
-p17
-V1859 Mitgründer des Diakonissenkrankenhauses und des Evangelischen Hospitals in St. Petersburg.
-p18
-sS'Beruf'
-p19
-VPraktischer Arzt, Kaiserlicher Leibchirurg
-p20
-sS'Nachkommen'
-p21
-VCarl Anton Julius Paul (Karl Karlovi\u010d) (1830-1883), Arzt, Direktor des Evangelischen Hospitals in St. Petersburg
-p22
-sS'Geburtsdaten'
-p23
-V1. oder 5.1.1793, Braunschweig
-p24
-sS'Lebensstationen'
-p25
+p2
+sS'MG'
+p3
+VDeutscher ärztlicher Verein (ab 1822, 1826-29 Sekretär), Medicinskij filantropi\u010deskij komitet [Medizinisch-philanthrophisches Komitee] (1862 Präsident).
+p4
+sS'B'
+p5
 VVon 1815 bis 1822 vermutlich als praktischer Arzt tätig, ab 1822 Hofarzt, 1826 als Reisebegleiter eines Grafen von KOTSCHEBCY [vielleicht KOTZEBUE ?] in Deutschland, davon von März bis April in Würzburg, 1826-1833 kaiserlicher Leibchirurg, zugleich 1826-1848 Chefarzt am Obuchov-Hospital in St. Petersburg und ab 1828 Direktor der dortigen Feldscherschule, 1859-1865 Ehrenkurator und Präsident des Verwaltungsrates des Evangelischen Hospitals in St. Petersburg, außerdem 1845 und 1848 Direktor des Kinderasyls Vvedenskoe in Moskau.\u000aIhm sind die hohen russischen Ehrentitel "Hofrat", "Wirklicher russischer Staatsrat" (1837) und "Geheimrat" zuteil geworden.
+p6
+sS'E'
+p7
+VSophie, geb. von Meyer (1806-1886)
+p8
+sS'Name'
+p9
+(dp10
+S'Nachname'
+p11
+VMAYER
+p12
+sS'Vorname'
+p13
+VCarl Wilhelm Christoph von
+p14
+ssS'WL'
+p15
+V1859 Mitgründer des Diakonissenkrankenhauses und des Evangelischen Hospitals in St. Petersburg.
+p16
+sS'M'
+p17
+VSoph. Aug. Kath., geb. Ploettner (1761-1832)
+p18
+sS'Namen (kyrillisch)'
+p19
+V\u041c\u0410\u0419\u0415\u0420, \u041a\u0430\u0440\u043b \u0410\u043d\u0442\u043e\u043d\u043e\u0432\u0438\u0447 / MAJER, Karl Antonovi\u010d
+p20
+sS'ID'
+p21
+V30692
+p22
+sS'Q'
+p23
+VBriefe an Johann Bartholomäus Trommsdorff vom 9. März und 6. und 10. April 1826 aus Würzburg. In: Der Briefwechsel von Johann Bartholomäus von Trommsdorff (1770-1837). Bearb. von Hartmut Bettin, Christoph Friedrich, Wolfgang Götz. Halle (Saale), Stuttgart 2002 (Acta historica Leopoldina 18, Lfg. 7), 127-129.
+p24
+sS'Geburtsdaten'
+p25
+V1. oder 5.1.1793, Braunschweig
 p26
 sS'Sterbedaten'
 p27
 V31.12.1865/12.1.1866, St. Petersburg, Grabstätte: Lutherischer Friedhof Volkovo, Abt. 10-5
 p28
-sS'Sekundaerliteratur'
+sS'W'
 p29
-V\u2022 Böhm, Benedikt: Wolkowo lutherischer Friedhof in St. Petersburg. Volkovskoe ljuteranskoe kladbi\u0161\u010de Sankt-Peterburga. Bd. [I]. Sankt-Peterburg 1998, 68.\u000a\u2022 Erik-Amburger-Datenbank [EAD]: Dokument-Id [61219/60885 und 1059515].\u000aEmpfohlene Zitierweise:
-p30
-sS'Werke'
-p31
 V\u2022 Tractatus de vulneribus pectoris penetrantibus. Pt. 1. St.-Petersburg 1823, 183 S.\u000a\u2022 Kaukasische Mineralwasser. Tabellen. Journal der practischen Heilkunde 61 (1825) 5, 111-115.\u000a\u2022 Übersicht der Bestandteile der Mineralwässer des Kaukasus. (Trommsdorffs) Neues Journal der Pharmacie 12 (1826) 1, 288-290.
+p30
+sS'V'
+p31
+VJohann Anton (\u0116manuilovi\u010d) (1761-1838), Arzt, Medizinalinspektor
 p32
-sS'Ehegatten'
+sS'N'
 p33
-VSophie, geb. von Meyer (1806-1886)
+VCarl Anton Julius Paul (Karl Karlovi\u010d) (1830-1883), Arzt, Direktor des Evangelischen Hospitals in St. Petersburg
 p34
-sS'Mitgliedschaft'
+sS'SL'
 p35
-VDeutscher ärztlicher Verein (ab 1822, 1826-29 Sekretär), Medicinskij filantropi\u010deskij komitet [Medizinisch-philanthrophisches Komitee] (1862 Präsident).
+V\u2022 Böhm, Benedikt: Wolkowo lutherischer Friedhof in St. Petersburg. Volkovskoe ljuteranskoe kladbi\u0161\u010de Sankt-Peterburga. Bd. [I]. Sankt-Peterburg 1998, 68.\u000a\u2022 Erik-Amburger-Datenbank [EAD]: Dokument-Id [61219/60885 und 1059515].\u000aEmpfohlene Zitierweise:\u000aFischer, Marta: MAYER, Carl Wilhelm Christoph von. In: Personendatenbank zum Vorhaben "Wissenschaftsbeziehungen im 19. Jahrhundert zwischen Deutschland und Russland auf den Gebieten Chemie, Pharmazie und Medizin" bei der Sächsischen Akademie der Wissenschaften zu Leipzig. Online-Ausgabe: <i>http://drw.saw-leipzig.de/30692.html</i> (2. Mai 2012).\u000a
 p36
-sS'ID'
+sS'Berufe'
 p37
-V30692
+VPraktischer Arzt, Kaiserlicher Leibchirurg
 p38
 s.

@@ -1,70 +1,70 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VChristian Jakob, Kaufmann
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VKÜHLEWEIN
-p6
-sS'Vorname'
-p7
-VJakob Heinrich (von)
-p8
-ssS'Kyrillische Namen'
-p9
-VK\u042e\u041b\u042c\u0412E\u0419\u041d, \u042f\u043ao\u0432 K\u0440ec\u0442\u044c\u044f\u043do\u0432\u0438\u0447 / KJUL'VEJN, Jakov Krest'janovi\u010d (fon)
-p10
-sS'Ausbildung'
-p11
 V1783 Beginn des Jurastudiums und Wechsel zur Medizin an der Universität Halle/Saale, 1784-1785 Fortsetzung des Medizinstudiums an der Universität Erfurt, danach 1785-1786 an der Universität Göttingen und dort 1786 Dr. med.
-p12
-sS'Namensvariationen'
-p13
-VKÜLEWEIN, KIL'VEJN, KJULEVEJN, K\u0418\u041b\u042c\u0412E\u0419\u041d, K\u042e\u041bE\u0412E\u0419\u041d, Jacob, Jakov Christianovi\u010d, Jakov Genrich, \u042f\u043ao\u0432 X\u0440\u0438c\u0442\u0438a\u043do\u0432\u0438\u0447 , \u042f\u043ao\u0432 \u0413e\u043d\u0440\u0438x
-p14
-sS'Mutter'
-p15
-VMargaretha Luise, geb. Schroeter
-p16
-sS'Beruf'
-p17
-VMilitärarzt, Kaiserlicher Leibchirurg
-p18
-sS'Nachkommen'
-p19
-VAlexander Eberhard (Aleksandr Jakovlevi\u010d) (1791-1815), Militär- u. Bezirksarzt\u000aJakob Johann(es) (Georg?) (Jakov Jakovlevi\u010d) (*1794), Verwaltungsbeamter\u000aSophie (Sof'ja Jakovlevna), verh. von Budberg (1793-1831)\u000aElisabeth (Elizaveta Jakovlevna), verh. von Budberg (1789?-1835)\u000aMarie (Marija Jakovlevna) (1806-1871)\u000aAnna (Jakovlevna) (1806?-1881)
-p20
-sS'Geburtsdaten'
-p21
-V30.8./10.9.1765 oder 1766, Riga
-p22
-sS'Lebensstationen'
-p23
+p2
+sS'MG'
+p3
+VS.-Peterburgskaja Mediko-chirurgi\u010deskaja akademija [St. Petersburger Mediko-chirurgische Akademie] (ab 1813).
+p4
+sS'B'
+p5
 VAb August 1786 (oder 1784 oder 1787) in Russland zugelassen, 1787-1792 und 1795-1797 Gouvernement-Arzt in Novgorod, 1793 Arzt der 6. Division in Smolensk und 1794 in der Armee Nikolaj Vasil'evi\u010d REPNINS (1734-1801) in Polen, 1797-1800 Chirurg in Vologda, zeitweise 1797 und 1798 auch in Orël, 1800-1802 Arzt des Kavaliergarderegiments und Polizeiarzt in St. Petersburg, 1802 Hofchirurg, 1805 Arzt des Kaiserlichen Gefolges im Felde, ab 1806 Arzt am Findelhaus in St. Petersburg, 1808 Leibchirurg, 1811 Hofarzt und ab 1824 Leibmedikus am Zarenhof.\u000aInhaber hoher russischer Ehrentitel und Auszeichnungen: 1798 "Hofrat", 1806 "Kollegienrat", 1810 "Wirklicher Russischer Staatsrat", Ritter des St.-Annen-Ordens 2. Klasse und 1807 des St.-Vladimir-Ordens 3. Klasse.
+p6
+sS'E'
+p7
+VAnna Elisabeth, geb. Hippius (1770-1825)
+p8
+sS'Name'
+p9
+(dp10
+S'Nachname'
+p11
+VKÜHLEWEIN
+p12
+sS'Vorname'
+p13
+VJakob Heinrich (von)
+p14
+ssS'Namensvariationen'
+p15
+VKÜLEWEIN, KIL'VEJN, KJULEVEJN, K\u0418\u041b\u042c\u0412E\u0419\u041d, K\u042e\u041bE\u0412E\u0419\u041d, Jacob, Jakov Christianovi\u010d, Jakov Genrich, \u042f\u043ao\u0432 X\u0440\u0438c\u0442\u0438a\u043do\u0432\u0438\u0447 , \u042f\u043ao\u0432 \u0413e\u043d\u0440\u0438x
+p16
+sS'M'
+p17
+VMargaretha Luise, geb. Schroeter
+p18
+sS'Namen (kyrillisch)'
+p19
+VK\u042e\u041b\u042c\u0412E\u0419\u041d, \u042f\u043ao\u0432 K\u0440ec\u0442\u044c\u044f\u043do\u0432\u0438\u0447 / KJUL'VEJN, Jakov Krest'janovi\u010d (fon)
+p20
+sS'Berufe'
+p21
+VMilitärarzt, Kaiserlicher Leibchirurg
+p22
+sS'Geburtsdaten'
+p23
+V30.8./10.9.1765 oder 1766, Riga
 p24
 sS'Sterbedaten'
 p25
 V7./19.7.1829, St. Petersburg, Grabstätte: Lutherischer Friedhof Volkovo
 p26
-sS'Sekundaerliteratur'
+sS'W'
 p27
-V\u2022 Böhm 2003, 187 und 472.\u000a\u2022 EAD: Dokument-Id [71968/70421 (2.8.2010)].\u000a\u2022 Peterburgskij nekropol'. Bd. 2 (1912), 583.\u000a\u2022 WBIS DBA: I 718, 292; II 768, 184; BaBA: I 186, 26-28; RBA: R 232, 96-97.
-p28
-sS'Werke'
-p29
 V\u2022 Dissertatio inauguralis medica de duireticorum medicamentorum temere adhibitorum noxa in hydrope. Dissertation. Göttingen 1786, 22 S. http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=PPN654836639&IDDOC=727571  (4.4.2012).\u000a\u2022 Anweisung zur Impfung der Schutzblattern (Entwurf); lettisch: Eerasdischana kà glahbschanas-bakkes irr eedehstijamas (o. O. 1825); estnisch (übersetzt von O. W. Masing): Öppetus, kuida usi-rougid panna. Riga 1825.
+p28
+sS'V'
+p29
+VChristian Jakob, Kaufmann
 p30
-sS'Ehegatten'
+sS'N'
 p31
-VAnna Elisabeth, geb. Hippius (1770-1825)
+VAlexander Eberhard (Aleksandr Jakovlevi\u010d) (1791-1815), Militär- u. Bezirksarzt\u000aJakob Johann(es) (Georg?) (Jakov Jakovlevi\u010d) (*1794), Verwaltungsbeamter\u000aSophie (Sof'ja Jakovlevna), verh. von Budberg (1793-1831)\u000aElisabeth (Elizaveta Jakovlevna), verh. von Budberg (1789?-1835)\u000aMarie (Marija Jakovlevna) (1806-1871)\u000aAnna (Jakovlevna) (1806?-1881)
 p32
-sS'Mitgliedschaft'
+sS'SL'
 p33
-VS.-Peterburgskaja Mediko-chirurgi\u010deskaja akademija [St. Petersburger Mediko-chirurgische Akademie] (ab 1813).
+V\u2022 Böhm 2003, 187 und 472.\u000a\u2022 EAD: Dokument-Id [71968/70421 (2.8.2010)].\u000a\u2022 Peterburgskij nekropol'. Bd. 2 (1912), 583.\u000a\u2022 WBIS DBA: I 718, 292; II 768, 184; BaBA: I 186, 26-28; RBA: R 232, 96-97.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 132-134.</i>
 p34
 sS'ID'
 p35

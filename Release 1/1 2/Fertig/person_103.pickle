@@ -1,74 +1,74 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VHeinrich (\u2020 1767), Apotheker und Ratsherr
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VECKHOFF
-p6
-sS'Vorname'
-p7
-VJohann Heinrich (von)
-p8
-ssS'Kyrillische Namen'
-p9
-V\u042dK\u0413O\u0424, \u0418o\u0433a\u043d-\u0413e\u043d\u0440\u0438x / \u0116KGOF, Iogan-Genrich (fon)
-p10
-sS'Ausbildung'
-p11
 VErster Unterricht durch privaten Hauslehrer, ab 1769 Studium anfangs der Philosophie an der Universität Halle an der Saale, ab 1770 der Anatomie, Physiologie und Chirurgie in Berlin, danach Abschluss des Medizinstudiums und 1773 Dr. med. in Halle.
-p12
-sS'Namensvariationen'
-p13
-VECKHOF
-p14
-sS'Mutter'
-p15
-VMarie Luise, geb. Wäber (\u2020 nach 1782)
-p16
-sS'Leistungen'
-p17
-VBeschrieb als Erster die Schwefelquelle von Bad Baldohn in Kurland und stellte in 13 Punkten das Verhalten des Wassers gegenüber verschiedenen Reagenzien dar.
-p18
-sS'Beruf'
-p19
-VPraktischer Arzt, Herzoglicher Leibarzt
-p20
-sS'Nachkommen'
-p21
-VKaroline, verh. von Ockel\u000aJohann Otto (1793-1826), Praktischer, Militär- und Badearzt
-p22
-sS'Geburtsdaten'
-p23
-V3.11.1750, Goldingen
-p24
-sS'Lebensstationen'
-p25
+p2
+sS'MG'
+p3
+VGosudarstvennaja medicinskaja kollegija v Peterburge [Staatliches Medizinisches Kollegium in St. Petersburg] (1802 Ehrenmitglied), Moskovskoe ob\u0161\u010destvo estestvoispytatelej [Moskauer Gesellschaft der Naturforscher] (ab 1806), Deutschsprachige Freimaurerloge "Peter zur Wahrheit".
+p4
+sS'B'
+p5
 V1773-1790 Praktischer Arzt in Goldingen, danach 1790-1793 praktischer Arzt, 1793-1797 Stadt- und Landphysikus und zeitweise Leibarzt des Herzogs von Kurland Peter von BIRON (1724-1800) in Mitau, 1798 Operateur und ab 1798 Accoucheur bei der Kurländischen Medizinalverwaltung.\u000aWurde 1800 mit dem russischen Titel "Hofrat" geehrt.
+p6
+sS'E'
+p7
+VBenigna Gottlieb, geb. Huhn (\u2020 1849)
+p8
+sS'Name'
+p9
+(dp10
+S'Nachname'
+p11
+VECKHOFF
+p12
+sS'Vorname'
+p13
+VJohann Heinrich (von)
+p14
+ssS'Namensvariationen'
+p15
+VECKHOF
+p16
+sS'M'
+p17
+VMarie Luise, geb. Wäber (\u2020 nach 1782)
+p18
+sS'Namen (kyrillisch)'
+p19
+V\u042dK\u0413O\u0424, \u0418o\u0433a\u043d-\u0413e\u043d\u0440\u0438x / \u0116KGOF, Iogan-Genrich (fon)
+p20
+sS'Berufe'
+p21
+VPraktischer Arzt, Herzoglicher Leibarzt
+p22
+sS'WL'
+p23
+VBeschrieb als Erster die Schwefelquelle von Bad Baldohn in Kurland und stellte in 13 Punkten das Verhalten des Wassers gegenüber verschiedenen Reagenzien dar.
+p24
+sS'Geburtsdaten'
+p25
+V3.11.1750, Goldingen
 p26
 sS'Sterbedaten'
 p27
 V21.7.1810, Mitau (?)
 p28
-sS'Sekundaerliteratur'
+sS'W'
 p29
-V\u2022 Iodko, Olga V.: Die Rolle der Deutschen bei der Beschreibung und Erforschung des Kurortes Bad Baldohn in Kurland. In: Regine Pfrepper, Ingrid Kästner, Dietrich von Engelhardt (Hgg.): Von Samuel Gottlieb Gmelins Reise durch Russland bis zum Niedergang der Apothekerfamilie Poehl. Aachen 2001 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaften 4), 133-144.\u000a\u2022 WBIS DBA: I 266, 209-214; 1428, 27; II 308, 460; BaBA: I 72, 324-327; RBA: R 521, 93-94.
-p30
-sS'Werke'
-p31
 V\u2022 De causis sterilitatis non absolutis in utroque sexu. Dissertation. Halle an der Saale 1773, 23 S.\u000a\u2022 Beschreibung des Baldohnschen und Barbernschen Mineral-Wassers nebst einer Anweisung zum innerlichen und äußerlichen Gebrauch derselben. Mitau 1795, 6 + 64 S. Titelblatt abgedruckt in: Fischer 2010, 75.
+p30
+sS'V'
+p31
+VHeinrich (\u2020 1767), Apotheker und Ratsherr
 p32
-sS'Ehegatten'
+sS'N'
 p33
-VBenigna Gottlieb, geb. Huhn (\u2020 1849)
+VKaroline, verh. von Ockel\u000aJohann Otto (1793-1826), Praktischer, Militär- und Badearzt
 p34
-sS'Mitgliedschaft'
+sS'SL'
 p35
-VGosudarstvennaja medicinskaja kollegija v Peterburge [Staatliches Medizinisches Kollegium in St. Petersburg] (1802 Ehrenmitglied), Moskovskoe ob\u0161\u010destvo estestvoispytatelej [Moskauer Gesellschaft der Naturforscher] (ab 1806), Deutschsprachige Freimaurerloge "Peter zur Wahrheit".
+V\u2022 Iodko, Olga V.: Die Rolle der Deutschen bei der Beschreibung und Erforschung des Kurortes Bad Baldohn in Kurland. In: Regine Pfrepper, Ingrid Kästner, Dietrich von Engelhardt (Hgg.): Von Samuel Gottlieb Gmelins Reise durch Russland bis zum Niedergang der Apothekerfamilie Poehl. Aachen 2001 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaften 4), 133-144.\u000a\u2022 WBIS DBA: I 266, 209-214; 1428, 27; II 308, 460; BaBA: I 72, 324-327; RBA: R 521, 93-94.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 74-75.</i>
 p36
 sS'ID'
 p37

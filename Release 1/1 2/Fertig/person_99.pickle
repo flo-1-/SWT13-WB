@@ -1,65 +1,65 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VJakob Lazarus (Leiblicher Vater)\u000aFriedrich Wilhelm von Bodungen, Senator und Bürgermeister in Hannoversch Münden (Adoptivvater)
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VBODUNGEN
-p6
-sS'Vorname'
-p7
-VCarl Friedrich Wilhelm von
-p8
-ssS'Kyrillische Namen'
-p9
-V\u0411O\u0414\u0423\u041d\u0413E\u041d, Ka\u0440\u043b / BODUNGEN, Karl
-p10
-sS'Ausbildung'
-p11
 VBis 1817 Besuch der Lateinschule in Münden, 1817-1819 Privatunterricht bei Pastor OPPERMANN in Grona (bei Göttingen), daraufhin ca. 1 Jahr eigene Studien in Göttingen, danach 4 Jahre Besuch der Klosterschule und 1823 Reifeprüfung in Holzminden, 1824-1827 Studium der Medizin und 1827 Dr. med. (ohne schriftliche Dissertation) an der Universität Göttingen.
+p2
+sS'B'
+p3
+VAb 1830 in Russland, vermutlich zunächst als praktischer Arzt tätig, ab 1845 Hofchirurg der Großfürstin MARIJA NIKOLAEVNA (1819-1876) und ihres Gemahls Maximilian DE BEAUHARNAIS (1817-1852), 3. Herzog von Leuchtenberg (russ. Maksimilian Evgen'evi\u010d LEJCHTENBERGSKIJ).\u000aInhaber der russischen Ehrentitel "Titularrat" (1852) und "Hofrat" (1862).
+p4
+sS'E'
+p5
+VAnna, geb. Weppener (1806-1888)
+p6
+sS'Name'
+p7
+(dp8
+S'Nachname'
+p9
+VBODUNGEN
+p10
+sS'Vorname'
+p11
+VCarl Friedrich Wilhelm von
 p12
-sS'Quellen'
+ssS'SL'
 p13
-VGeorg-August-Universität Göttingen, Universitätsarchiv (schriftliche Mitteilung vom 23.4.2009):\u000a\u2022 Matrikeleintrag: 23. April 1824, Carl Friedrich Wilhelm von Bodungen, Hannover, med., Zeugnis von Holzminden, Vater: Senator in Münden.\u000a\u2022 Bestand Med. Prom. 1827: Antrag, Promotionsurkunde vom 29.12.1827, Curriculum vitae in lateinischer Sprache (abgedruckt in: Fischer 2010, 33-34).
+V\u2022 Böhm 2003, 36.\u000a\u2022 EAD: Dokument-Id [59171/46534 (30.7.2010)].\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 31-34.</i>
 p14
-sS'Mutter'
+sS'M'
 p15
 VLea, geb. Hirsch
 p16
-sS'Beruf'
+sS'Namen (kyrillisch)'
 p17
-VArzt, Hofchirurg
+V\u0411O\u0414\u0423\u041d\u0413E\u041d, Ka\u0440\u043b / BODUNGEN, Karl
 p18
-sS'Nachkommen'
+sS'ID'
 p19
-VGustav Karl (Karlovi\u010d) (1836-1893), Gynäkologe, Kinderarzt\u000aFriedrich Wilhelm (Fridrich Karlovi\u010d) (1838-1912), Geographielehrer\u000aNikolai Karl (Karl Karlovi\u010d), Ingenieur, Deutschlehrer\u000aAdolf Lorenz (Karlovi\u010d) (1848-1911), Gouverneurssekretär\u000aJohanna Charlotte (Karlovna), verh. Kölln\u000aOttilie (Karlovna) (\u2020 1912)\u000aJulie (Karlovna) (\u2020 1916)
+V30109
 p20
-sS'Geburtsdaten'
+sS'Q'
 p21
-V1804, Witzenhausen oder Münden, geboren als LAZARUS, Carl (vermutlich jüdischer Herkunft)
+VGeorg-August-Universität Göttingen, Universitätsarchiv (schriftliche Mitteilung vom 23.4.2009):\u000a\u2022 Matrikeleintrag: 23. April 1824, Carl Friedrich Wilhelm von Bodungen, Hannover, med., Zeugnis von Holzminden, Vater: Senator in Münden.\u000a\u2022 Bestand Med. Prom. 1827: Antrag, Promotionsurkunde vom 29.12.1827, Curriculum vitae in lateinischer Sprache (abgedruckt in: Fischer 2010, 33-34).
 p22
-sS'Lebensstationen'
+sS'Geburtsdaten'
 p23
-VAb 1830 in Russland, vermutlich zunächst als praktischer Arzt tätig, ab 1845 Hofchirurg der Großfürstin MARIJA NIKOLAEVNA (1819-1876) und ihres Gemahls Maximilian DE BEAUHARNAIS (1817-1852), 3. Herzog von Leuchtenberg (russ. Maksimilian Evgen'evi\u010d LEJCHTENBERGSKIJ).\u000aInhaber der russischen Ehrentitel "Titularrat" (1852) und "Hofrat" (1862).
+V1804, Witzenhausen oder Münden, geboren als LAZARUS, Carl (vermutlich jüdischer Herkunft)
 p24
 sS'Sterbedaten'
 p25
 V21.3.1863, St. Petersburg, Grabstätte: Lutherischer Friedhof Volkovo
 p26
-sS'Sekundaerliteratur'
+sS'V'
 p27
-V\u2022 Böhm 2003, 36.\u000a\u2022 EAD: Dokument-Id [59171/46534 (30.7.2010)].
+VJakob Lazarus (Leiblicher Vater)\u000aFriedrich Wilhelm von Bodungen, Senator und Bürgermeister in Hannoversch Münden (Adoptivvater)
 p28
-sS'Ehegatten'
+sS'N'
 p29
-VAnna, geb. Weppener (1806-1888)
+VGustav Karl (Karlovi\u010d) (1836-1893), Gynäkologe, Kinderarzt\u000aFriedrich Wilhelm (Fridrich Karlovi\u010d) (1838-1912), Geographielehrer\u000aNikolai Karl (Karl Karlovi\u010d), Ingenieur, Deutschlehrer\u000aAdolf Lorenz (Karlovi\u010d) (1848-1911), Gouverneurssekretär\u000aJohanna Charlotte (Karlovna), verh. Kölln\u000aOttilie (Karlovna) (\u2020 1912)\u000aJulie (Karlovna) (\u2020 1916)
 p30
-sS'ID'
+sS'Berufe'
 p31
-V30109
+VArzt, Hofchirurg
 p32
 s.

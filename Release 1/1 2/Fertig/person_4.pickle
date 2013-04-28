@@ -1,70 +1,70 @@
 (dp0
-S'Publikationsverzeichnisse'
+S'A'
 p1
-VPublikationen 1866-1885, in: Zmeev. Bd. 4 (1889), 77; auch in: WBIS RBA: R 376, 261-263.
-p2
-sS'Vater'
-p3
-VVasilij
-p4
-sS'Name'
-p5
-(dp6
-S'Nachname'
-p7
-VPOPOV
-p8
-sS'Vorname'
-p9
-VLev Vasil'evi\u010d
-p10
-ssS'Kyrillische Namen'
-p11
-V\u041fO\u041fO\u0412, \u041be\u0432 \u0412ac\u0438\u043b\u044ce\u0432\u0438\u0447
-p12
-sS'Ausbildung'
-p13
 VBesuch der Geistlichen Lehranstalt in \u010cernigov und des Priesterseminars in Vorone\u017e, 1863-1868 Studium und 1871 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg.
-p14
-sS'Portraits'
-p15
-VFoto aus: Professora MCA/VMA (<b>SL</b>). Abgedruckt in: Fischer 2010, 186.
-p16
-sS'Namensvariationen'
-p17
+p2
+sS'MG'
+p3
+VOb\u0161\u010destvo russkich vra\u010dej [Gesellschaft russischer Ärzte] (Vorsitzender), Voenno-medicinskij u\u010denyj komitet [Militärmedizinisches Gelehrtenkomitee].
+p4
+sS'B'
+p5
+V1868-1871 Assistent in der Klinik für innere Medizin von Sergej Petrovi\u010d #internNameLink#30136#endNameNr#BOTKIN#/internNameLink# an der MCA, zugleich Arzt im 2. Militärlandhospital in St. Petersburg, 1871-1872 Regimentsarzt in der Donsk-Armee, im 12. Velikoluckij- und im 144. Ka\u0161irskij-Infanterieregiment, 1872-1875 Studienaufenthalte an medizinischen Instituten der Universitäten in Westeuropa, darunter in Deutschland bei Rudolf VIRCHOW (1821-1902) und Ludwig TRAUBE (1818-1876) in Berlin sowie bei Friedrich Daniel von RECKLINGHAUSEN (1833-1910) und Felix HOPPE-SEYLER (1825-1895) in Straßburg, nach der Rückkehr zunächst Arzt im 94. Enisejskij-Infanterieregiment, ab 1875 Dozent am Lehrstuhl für allgemeine Pathologie und Diagnostik der MCA, 1877-1878 Arzt der Leibgarde und des Grenadier-Regiments im Russisch-türkischen Krieg, 1878-1880 Arzt am Militärkrankenhaus in St. Petersburg, 1880(oder 1881)-1882 ao. Professor und 1882-1889 o. Professor am Institut für Therapie der Universität Warschau, 1890-1898 o. Professor für Therapie und Direktor der Klinik für innere Medizin an der MCA, später "Ehrenleibmedikus" und ab 1905 Leibmedikus am Hofe des Zaren NIKOLAJ II. (1868-1918), außerdem beratendes Mitglied des Medizinalrats des Ministeriums des Innern.\u000aInhaber des Ehrentitels "Wirklicher Russischer Staatsrat".
+p6
+sS'Name'
+p7
+(dp8
+S'Nachname'
+p9
+VPOPOV
+p10
+sS'Vorname'
+p11
+VLev Vasil'evi\u010d
+p12
+ssS'Namensvariationen'
+p13
 VPOPOFF, POPOW, Leo
+p14
+sS'Namen (kyrillisch)'
+p15
+V\u041fO\u041fO\u0412, \u041be\u0432 \u0412ac\u0438\u043b\u044ce\u0432\u0438\u0447
+p16
+sS'Berufe'
+p17
+VMilitärarzt, Professor für innere Medizin, Kaiserlicher Leibmedikus
 p18
-sS'Leistungen'
+sS'WL'
 p19
 V1870 Untersuchung der Butylsäuregärung im Magen bei Pylorus-Stenose, 1875 Entdeckung der bei Flecktyphus charakteristischen Knötchen-Bildung im Gehirn, Beschreibung einer Reihe von Symptomen bei verschiedenen Herzfehlern, 1891 Beschreibung verschiedener Pulsarten in der linken Arteria radialis bei Mitral-Stenose u.a.
 p20
-sS'Beruf'
+sS'P'
 p21
-VMilitärarzt, Professor für innere Medizin, Kaiserlicher Leibmedikus
+VFoto aus: Professora MCA/VMA (<b>SL</b>). Abgedruckt in: Fischer 2010, 186.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 186-189.</i>
 p22
 sS'Geburtsdaten'
 p23
 V20.2.1845, Siedlung Melechov, Region \u010cernigov
 p24
-sS'Lebensstationen'
-p25
-V1868-1871 Assistent in der Klinik für innere Medizin von Sergej Petrovi\u010d #internNameLink#30136#endNameNr#BOTKIN#/internNameLink# an der MCA, zugleich Arzt im 2. Militärlandhospital in St. Petersburg, 1871-1872 Regimentsarzt in der Donsk-Armee, im 12. Velikoluckij- und im 144. Ka\u0161irskij-Infanterieregiment, 1872-1875 Studienaufenthalte an medizinischen Instituten der Universitäten in Westeuropa, darunter in Deutschland bei Rudolf VIRCHOW (1821-1902) und Ludwig TRAUBE (1818-1876) in Berlin sowie bei Friedrich Daniel von RECKLINGHAUSEN (1833-1910) und Felix HOPPE-SEYLER (1825-1895) in Straßburg, nach der Rückkehr zunächst Arzt im 94. Enisejskij-Infanterieregiment, ab 1875 Dozent am Lehrstuhl für allgemeine Pathologie und Diagnostik der MCA, 1877-1878 Arzt der Leibgarde und des Grenadier-Regiments im Russisch-türkischen Krieg, 1878-1880 Arzt am Militärkrankenhaus in St. Petersburg, 1880(oder 1881)-1882 ao. Professor und 1882-1889 o. Professor am Institut für Therapie der Universität Warschau, 1890-1898 o. Professor für Therapie und Direktor der Klinik für innere Medizin an der MCA, später "Ehrenleibmedikus" und ab 1905 Leibmedikus am Hofe des Zaren NIKOLAJ II. (1868-1918), außerdem beratendes Mitglied des Medizinalrats des Ministeriums des Innern.\u000aInhaber des Ehrentitels "Wirklicher Russischer Staatsrat".
-p26
 sS'Sterbedaten'
-p27
+p25
 V25.10.1906, St. Petersburg
-p28
-sS'Werke'
-p29
+p26
+sS'W'
+p27
 V\u2022 Opyty nad zara\u017eeniem \u017eivotnych izver\u017eenijami cholernych bol'nych. Diss. Sankt-Peterburg 1871, 69 S.\u000a\u2022 Klini\u010deskie lekcii. Bd. 1-2. Sankt-Peterburg 1895-1896.\u000a\u2022 Vozvratnyj tif. Sankt-Peterburg 1899, 128 S.\u000a\u2022 Po povodu odnogo slu\u010daja miks\u0117demy, le\u010dennogo preparatami \u0161\u010ditovidnoj \u017eelezy. Bol'ni\u010dnaja gazeta Botkina (1899), 35 S.\u000a\u2022 Pam'jati Rudol'fa Virchova. Bol'ni\u010dnaja gazeta Botkina 13 (1902), 22 S.\u000a\u2022 Ob otnositel'noj vremennoj nedostato\u010dnosti polulunnych klapanov aorty. Prakti\u010deskij vra\u010d 1 (1902).\u000a\u2022 Nedostato\u010dnost' polunnych klapanov aorty i 2-stvor\u010datago klapana. Medicinskij \u017eurnal (1902).\u000a\u2022 O serde\u010dnom udu\u0161'e (asthma cardiale) i srodnych s nim boleznennych pripadkach. Bol'ni\u010dnaja gazeta Botkina (1902), 90 S.\u000a<b>Publikationen in deutscher Sprache</b>:*)\u000a*) Mit Korrekturen und Ergänzungen der Angaben in \u010cistovi\u010d (<b>SL</b>) zu Titeln, Zeitschriften, Band-, Jahr- oder Seitenzahlen. Zmeev (<b>GPV</b>) gibt keine Hinweise auf deutsche Publikationen.\u000a\u2022 Ueber die Wirkung des Phosphorwasserstoffs auf das Blut und seine Pigmente, Hämoglobin und Hämatin. Vorläufige Mittheilung. Mit Dr. Koschlakow. Centralblatt für die medizinischen Wissenschaften 5 (1867), 403-405.\u000a\u2022 Das CO-Hämatin. Centralblatt für die medizinischen Wissenschaften 6 (1868), 657-658.\u000a\u2022 Ein Fall von Stenosis pylori mit consecutiver Erweiterung des Magens und Aufstossen von entzündbaren Gasen. Berliner klinische Wochenschrift 7 (1870), 453-455, 466-469, 477-480.\u000a\u2022 Vergleichende Untersuchungen über die Wirkung einiger Arzneistoffe bei der Zuckerruhr. Berliner klinische Wochenschrift 9 (1872), 333-335.\u000a\u2022 Versuche über die Infection von Thieren durch die Ausleerungen Cholerakranker, mit besonderer Beziehung zur Lehre über die Wirkung von Fäulnisproducten. Berliner klinische Wochenschrift 9 (1872), 393-396.\u000a\u2022 Untersuchungen über die Wirkung der Bierhefe und der in der Pasteur'schen Flüssigkeit enthaltenen Organismen auf den thierischen Körper. Berliner klinische Wochenschrift 9 (1872), 513-516.\u000a\u2022 Ein Fall von chronischer Vergiftung mit Zinkoxyddämpfen und Experimente über die Wirkung einiger fermentativer Mittel. Berliner klinische Wochenschrift 10 (1873), 49-52.\u000a\u2022 Ueber die Veränderungen des Muskelgewebes bei einigen Infectionskrankheiten. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 61 (1874), 322-342.\u000a\u2022 Ueber Veränderungen im Gehirn bei Abdominaltyphus und traumatischer Entzündung. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 63 (1875), 421-446.\u000a\u2022 Ueber die Veränderungen im Gehirn des Flecktyphus. Vorläufige Mittheilung. Centralblatt für die medizinischen Wissenschaften 13 (1875), 596-598.\u000aUeber die Sumpfgasgährung. Archiv für die gesamte Physiologie des Menschen und der Tiere 10 (1875), 113-146.\u000a\u2022 Ueber die fäulnisswidrigen Mittel und ihre Rolle in der gegenwärtigen Pharmakologie. St. Petersburger medicinische Wochenschrift 1 (1876) 32, 3-5.\u000a\u2022 Ueber die natürliche pathologische Injection der Gallengänge und einige andere, nach der Unterbindung des Ductus choledochus bei Thieren beobachtete pathologische Erscheinungen. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 81 (1880), 524-552.\u000a\u2022 Ueber die Folgen der Unterbindung der Ureteren und der Nierenarterien bei Thieren, im Zusammenhang mit einigen anderen pathologischen Prozessen. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 82 (1880), 40-88.\u000a\u2022 Ueber Veränderungen im Gehirn bei Abdominal- und Flecktyphus und bei traumatischer Entzündung. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 87 (1882), 39-68.\u000a\u2022 Ueber die Verschiedenheit des Pulses in den Radialarterien (pulsus differens) als ein Symptom der Stenose des linken venösen Ostium. In: Festschrift, Rudolf Virchow gewidmet zur Vollendung seines 70. Lebensjahres. Berlin 1891 (Internationale Beiträge zur wissenschaftlichen Medicin 3), 333-347. (Popovs Unterschrift zum Artikel für Rudolf Virchows 70. Geburtstag 1891 abgedruckt in: Fischer 2010, 189).\u000a\u2022 Relative Insuffizienz der Tricuspidalklappe. Berliner klinische Wochenschrift 30 (1893), 465-467, 501-503, 523-526.\u000a\u2022 Hypertrophische Leberzirrhose mit chronischem Icterus, Pseudoleukaemie, I. Therapeutische Wochenschrift 11 (1895), 957-968; ~ II: Ebd., 985-993.
+p28
+sS'V'
+p29
+VVasilij
 p30
-sS'Sekundaerliteratur'
+sS'GPV'
 p31
-V\u2022 \u010cistovi\u010d, Nikolaj Jakovlevi\u010d: Pamjati L'va Vasil'evi\u010da Popova. Obzor ego nau\u010dnych trudov. Russkij vra\u010d 5 (1906) 46, 1429-1432 (Mit unvollständigen Angaben der im Text verteilten Publikationen in deutschen Zeitschriften).\u000a\u2022 [Nekrolog] Istori\u010deskij vestnik 106 (1906) 12, 1148-1149.\u000a\u2022 Professora MCA/VMA, 118.\u000a\u2022 WBIS RBA: R 376, 261-266.
+VPublikationen 1866-1885, in: Zmeev. Bd. 4 (1889), 77; auch in: WBIS RBA: R 376, 261-263.
 p32
-sS'Mitgliedschaft'
+sS'SL'
 p33
-VOb\u0161\u010destvo russkich vra\u010dej [Gesellschaft russischer Ärzte] (Vorsitzender), Voenno-medicinskij u\u010denyj komitet [Militärmedizinisches Gelehrtenkomitee].
+V\u2022 \u010cistovi\u010d, Nikolaj Jakovlevi\u010d: Pamjati L'va Vasil'evi\u010da Popova. Obzor ego nau\u010dnych trudov. Russkij vra\u010d 5 (1906) 46, 1429-1432 (Mit unvollständigen Angaben der im Text verteilten Publikationen in deutschen Zeitschriften).\u000a\u2022 [Nekrolog] Istori\u010deskij vestnik 106 (1906) 12, 1148-1149.\u000a\u2022 Professora MCA/VMA, 118.\u000a\u2022 WBIS RBA: R 376, 261-266.
 p34
 sS'ID'
 p35

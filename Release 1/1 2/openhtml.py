@@ -25,6 +25,8 @@ def loadHTMLList():
 def getTextOfHTML(url):
 	"""
 	opens an url and returns its content as a string
+	@param url: A URL to get the text from
+	@type url: String
 	@return The Content of the URL as a string
 	"""
 	oneHTML = urllib.urlopen(url)
@@ -79,6 +81,8 @@ class DrwHTMLParser(HTMLParser):
 
 def parser(feed):
 	"""
+	@param feed: Text to parse
+	@type feed: String
 	@return parsed String
 	"""
 	parser = DrwHTMLParser()
@@ -88,6 +92,9 @@ def parser(feed):
 
 def deleteCSS(text):
 	"""
+	deletes the css classes of a html file
+	@param text: Raw HTM file without the tags
+	@type text: String
 	@return cleaned text as a string
 	"""
 	zeilen = text.splitlines(True)
@@ -111,6 +118,15 @@ def deleteCSS(text):
 	return text
 
 def getKat(zeilen, ergebnis, kat):
+	"""
+	returns a string with the content of the desired category
+	@param zeilen: lines of a text
+	@param ergebnis: content of category
+	@param kat: short name for category
+	@type zeilen: L{lines}
+	@type ergebnis: String
+	@type kat: String
+	"""
 	start = ende = -1
 	n = o = 0
 	
@@ -118,8 +134,13 @@ def getKat(zeilen, ergebnis, kat):
 		if (zeilen[n] == kat + "\n") and (ende == -1):
 			start = n+1
 		elif ((zeilen[n][1:] == "\n") or (zeilen[n][2:] == "\n") or (zeilen[n][3:] == "\n") or (n+1 == len(zeilen)) ) and (n > start) and (start != -1):
-			ende = n
-			break
+			if (n+1 == len(zeilen)):
+				ende = n+1
+				zeilen[n] = zeilen[n] + "X"
+				break
+			else:
+				ende = n
+				break
 	if (start != -1) and (ende != -1):
 		for o in range(start, ende):
 			ergebnis += zeilen[o]
@@ -128,6 +149,13 @@ def getKat(zeilen, ergebnis, kat):
 	return ergebnis
 
 def getMut(zeilen, ergebnis):
+	"""
+	see getKat(), but specified for Mutter
+	@param zeilen: lines of a text
+	@param ergebnis: content of category
+	@type zeilen: L{lines}
+	@type ergebnis: String
+	"""
 	start = ende = wlba = fund = -1
 	n = o = p = 0
 	ergebnis = ""
@@ -157,6 +185,13 @@ def getMut(zeilen, ergebnis):
 	return ergebnis
 
 def getMit(zeilen, ergebnis):
+	"""
+	see getKat(), but specified for Mitglied
+	@param zeilen: lines of a text
+	@param ergebnis: content of category
+	@type zeilen: L{lines}
+	@type ergebnis: String
+	"""
 	start = ende = wlba = fund = -1
 	n = o = p = q = r = c = 0
 	ergebnis = ""
@@ -201,6 +236,13 @@ def getMit(zeilen, ergebnis):
 			return ergebnis
 
 def saveNamen(text, namenDict):
+	"""
+	saves the contents of each category in a dictionary
+	@param text: cleaned text without html text or css classes
+	@param namenDict: dictionary to save the data in
+	@type text: String
+	@type namenDict: Dictionary
+	"""
 	zeilen = text.splitlines(True)
 	kreuzZeile = -1
 	ID = zeilen[0][:-1].strip()
@@ -265,7 +307,7 @@ def saveNamen(text, namenDict):
 	#Dictionary fuellen
 	namenDict["ID"] = ID
 	namenDict["Name"] = {"Nachname": nachName, "Vorname": vorName}
-	namenDict["Kyrillische Namen"] = nameKyr
+	namenDict["Namen (kyrillisch)"] = nameKyr
 	if namensVar != "":
 		namenDict["Namensvariationen"] = namensVar
 	if geburtsDaten != "":
@@ -273,51 +315,51 @@ def saveNamen(text, namenDict):
 	if sterbeDaten != "":
 		namenDict["Sterbedaten"] = sterbeDaten
 	if beruf != "":
-		namenDict["Beruf"] = beruf
+		namenDict["Berufe"] = beruf
 	if vater != "":
-		namenDict["Vater"] = vater
+		namenDict["V"] = vater
 	if ehegatte != "":
-		namenDict["Ehegatten"] = ehegatte
+		namenDict["E"] = ehegatte
 	if (mutter != "") and not (mutter is None):
-		namenDict["Mutter"] = mutter
+		namenDict["M"] = mutter
 	if (mitglied != "") and not (mitglied is None):
-		namenDict["Mitgliedschaft"] = mitglied
+		namenDict["MG"] = mitglied
 	if ausbildung != "":
-		namenDict["Ausbildung"] = ausbildung
+		namenDict["A"] = ausbildung
 	if lebensstationen != "":
-		namenDict["Lebensstationen"] = lebensstationen
+		namenDict["B"] = lebensstationen
 	if leistungen != "":
-		namenDict["Leistungen"] = leistungen
+		namenDict["WL"] = leistungen
 	if werke != "":
-		namenDict["Werke"] = werke
+		namenDict["W"] = werke
 	if sekundLit != "":
-		namenDict["Sekundaerliteratur"] = sekundLit
+		namenDict["SL"] = sekundLit
 	if publikVerz != "":
-		namenDict["Publikationsverzeichnisse"] = publikVerz
+		namenDict["GPV"] = publikVerz
 	if portraits != "":
-		namenDict["Portraits"] = portraits
+		namenDict["P"] = portraits
 	if quellen != "":
-		namenDict["Quellen"] = quellen
+		namenDict["Q"] = quellen
 	if geschwister != "":
-		namenDict["Geschwister"] = geschwister
+		namenDict["G"] = geschwister
 	if nachkommen != "":
-		namenDict["Nachkommen"] = nachkommen
+		namenDict["N"] = nachkommen
 
 def main(argv):
-	htmlList = loadHTMLList()						#loads the url list
-	personenDict = {}							#dictionary for all persons
-#	for i in range(5,6):							#loop for testing purposes
-	for i in range(len(htmlList)):						#loop through the urls
+	htmlList = loadHTMLList()							#loads the url list
+	personenDict = {}								#dictionary for all persons
+#	for i in range(5,6):								#loop for testing purposes
+	for i in range(len(htmlList)):							#loop through the urls
 		personenDict.clear()
-		htmlText = getTextOfHTML(htmlList[i])				#get text of i-th htm file
-		htmlText = convertHTMLChars(htmlText)				#convert speacial htm characters to unicode
-		text = htmlList[i][26:31] + "\n"				#add the file number to the new text 
-		text += parser(htmlText)					#delete certain htm tags
-		text = deleteCSS(text)						#delete CSS code and some whitespaces
-		save(text, os.getcwd()+"/Temp", "person_"+str(i),".txt")	#save the new text in a subfolder
-		saveNamen(text, personenDict)					#save the content of each category in a dictionary "personenDict"
-		saveCurDict(personenDict, os.getcwd()+"/Fertig", "person_"+str(i))
-#		print printWhatItIs(personenDict)				#print the dictionary for testing purposes
+		htmlText = getTextOfHTML(htmlList[i])					#get text of i-th htm file
+		htmlText = convertHTMLChars(htmlText)					#convert speacial htm characters to unicode
+		text = htmlList[i][26:31] + "\n"					#add the file number to the new text 
+		text += parser(htmlText)						#delete certain htm tags
+		text = deleteCSS(text)							#delete CSS code and some whitespaces
+		save(text, os.getcwd()+"/Temp", "person_"+str(i),".txt")		#save the new text in a subfolder
+		saveNamen(text, personenDict)						#save the content of each category in a dictionary "personenDict"
+		saveCurDict(personenDict, os.getcwd()+"/Fertig", "person_"+str(i))	#save each dict to a pickle file
+#		print printWhatItIs(personenDict)					#print the dictionary for testing purposes
 
 if __name__ == "__main__":
 	main(sys.argv[1:])
