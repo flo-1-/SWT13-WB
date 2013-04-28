@@ -76,7 +76,35 @@
                 rdfs:label "Kommentar zum allen Geschwistern"@de ;
 		rdfs:comment "A Comment for all sibling of a specific Person." .
 
-<StationOfLifeComment>
+<AComment>
+		a owl:Class ;
+		rdfs:subClassOf <Comment> ;
+                rdfs:label "Comment for Stations Of Life"@en ;
+                rdfs:label "Kommentar zu Lebensstationen"@de ;
+		rdfs:comment "A Comment for all Stations Of Life of a specific Person." .
+
+<BComment>
+		a owl:Class ;
+		rdfs:subClassOf <Comment> ;
+                rdfs:label "Comment for Stations Of Life"@en ;
+                rdfs:label "Kommentar zu Lebensstationen"@de ;
+		rdfs:comment "A Comment for all Stations Of Life of a specific Person." .
+
+<MGComment>
+		a owl:Class ;
+		rdfs:subClassOf <Comment> ;
+                rdfs:label "Comment for Stations Of Life"@en ;
+                rdfs:label "Kommentar zu Lebensstationen"@de ;
+		rdfs:comment "A Comment for all Stations Of Life of a specific Person." .
+
+<BirthComment>
+		a owl:Class ;
+		rdfs:subClassOf <Comment> ;
+                rdfs:label "Comment for Stations Of Life"@en ;
+                rdfs:label "Kommentar zu Lebensstationen"@de ;
+		rdfs:comment "A Comment for all Stations Of Life of a specific Person." .
+
+<DeathComment>
 		a owl:Class ;
 		rdfs:subClassOf <Comment> ;
                 rdfs:label "Comment for Stations Of Life"@en ;
@@ -218,7 +246,7 @@
 		rdfs:subClassOf <PoL> ;
                 rdfs:label "Membership"@en ;
                 rdfs:label "Mitgliedschaft"@de ;
-		rdfs:comment "A PoL used for a Membership." .
+		rdfs:comment "A PoL used for a Membership of a Person in specific groups." .
 
 <Birth>
 		a owl:Class ;
@@ -240,13 +268,6 @@
                 rdfs:label "Honours and Awards"@en ;
                 rdfs:label "Ehrungen und Auszeichnungen"@de ;
 		rdfs:comment "A PoL, describing Awards and Honours a Persons gained." .
-
-<Membership>
-		a owl:Class ;
-		rdfs:subClassOf <PoL> ;
-                rdfs:label "Membership"@en ;
-                rdfs:label "Mitgliedschaft"@de ;
-		rdfs:comment "A PoL, describing the Membership of a Person in specific groups." .
 
 <Literature>
 		a owl:Class ;
@@ -692,16 +713,6 @@
 		rdfs:domain <Person> ;
 		rdfs:range <xsd:string> ;
 		rdfs:comment "Property between a Person and her or his title." .
-
-<generalLaborIs>
-		a owl:DatatypeProperty ;
-		rdfs:label "general labor is"@en ;
-                rdfs:label "Hauptbeschäftigung ist"@de ;
-		rdfs:domain <Person> ;
-		rdfs:range <xsd:string> ;
-		rdfs:comment "Property between her or his general labor." .
-
-
 
 
 
