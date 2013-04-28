@@ -79,9 +79,9 @@
 <AComment>
 		a owl:Class ;
 		rdfs:subClassOf <Comment> ;
-                rdfs:label "Comment for Stations Of Life"@en ;
-                rdfs:label "Kommentar zu Lebensstationen"@de ;
-		rdfs:comment "A Comment for all Stations Of Life of a specific Person." .
+                rdfs:label "Comment for Educational PoLs"@en ;
+                rdfs:label "Kommentar zu Ausbildungs-PoLs"@de ;
+		rdfs:comment "A Comment for all Educational PoLs of a specific Person." .
 
 <BComment>
 		a owl:Class ;
@@ -93,23 +93,30 @@
 <MGComment>
 		a owl:Class ;
 		rdfs:subClassOf <Comment> ;
-                rdfs:label "Comment for Stations Of Life"@en ;
-                rdfs:label "Kommentar zu Lebensstationen"@de ;
-		rdfs:comment "A Comment for all Stations Of Life of a specific Person." .
+                rdfs:label "Comment for Memberships"@en ;
+                rdfs:label "Kommentar zu Mitgliedschaften"@de ;
+		rdfs:comment "A Comment for all Memberships of a specific Person." .
 
 <BirthComment>
 		a owl:Class ;
 		rdfs:subClassOf <Comment> ;
-                rdfs:label "Comment for Stations Of Life"@en ;
-                rdfs:label "Kommentar zu Lebensstationen"@de ;
-		rdfs:comment "A Comment for all Stations Of Life of a specific Person." .
+                rdfs:label "Comment for Birth"@en ;
+                rdfs:label "Kommentar zur Geburt"@de ;
+		rdfs:comment "A Comment for the birth of a specific Person." .
 
 <DeathComment>
 		a owl:Class ;
 		rdfs:subClassOf <Comment> ;
-                rdfs:label "Comment for Stations Of Life"@en ;
-                rdfs:label "Kommentar zu Lebensstationen"@de ;
-		rdfs:comment "A Comment for all Stations Of Life of a specific Person." .
+                rdfs:label "Comment for Death"@en ;
+                rdfs:label "Kommentar zum Tod"@de ;
+		rdfs:comment "A Comment for the death of a specific Person." .
+
+<HonoursOrAwardsComment>
+		a owl:Class ;
+		rdfs:subClassOf <Comment> ;
+                rdfs:label "Comment for Honours Or Awards"@en ;
+                rdfs:label "Kommentar zu Ehrungen und Auszeichnungen"@de ;
+		rdfs:comment "A Comment for all Honours Or Awards of a specific Person." .
 
 <Name>
 		a owl:Class ;
