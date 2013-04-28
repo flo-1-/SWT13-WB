@@ -1,62 +1,62 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VPhilipp
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VBECK
-p6
-sS'Vorname'
-p7
-VJohann
-p8
-ssS'Kyrillische Namen'
-p9
-V\u0411EK, \u0418\u0432a\u043d \u0424\u0438\u043b\u0438\u043f\u043f\u043e\u0432\u0438\u0447 / BEK, Ivan Filippovi\u010d
-p10
-sS'Ausbildung'
-p11
 VBis 1755 wundärztliche Ausbildung in Kiel und Berlin, 1781 Immatrikulation an der Universität Frankfurt/Oder und als Dr. med. ohne Examen in Russland anerkannt.
-p12
-sS'Namensvariationen'
-p13
-VJean, Iogann, \u0418o\u0433a\u043d\u043d
-p14
-sS'Beruf'
-p15
-VChirurg, Militärarzt, Leib- und Hofarzt
-p16
-sS'Nachkommen'
-p17
-VAlexander (Aleksandr Ivanovi\u010d) (1777-1850), Archivar\u000aMaria (Marija Ivanovna), verh. Renny (1781-1816)\u000aEnkel: Ivan Aleksandrovi\u010d (1807-1842), Diplomat, Lyriker, Übersetzer
-p18
-sS'Geburtsdaten'
-p19
-V20.5.1735, Riga
-p20
-sS'Lebensstationen'
-p21
+p2
+sS'MG'
+p3
+VFiziko-medicinskoe ob\u0161\u010destvo Moskvy [Physiko-medizinische Gesellschaft zu Moskau], Mediko-chirurgi\u010deskaja akademija [Mediko-chirurgische Akademie] St. Petersburg (Ehrenmitglied), Deutsche Akademie der Naturforscher Leopoldina (ab 1781).
+p4
+sS'B'
+p5
 VAb 1755 im russischen Militärdienst, zunächst am Militärlandhospital in St. Petersburg, besuchte an der dortigen Ärzteschule zwei Jahre Vorlesungen, wurde 1757 zum Chirurgen befördert, diente dann im Krankenhaus in der St. Petersburger Admiralität, 1758-1761 Arzt bei der russischen Feldarmee, 1761 zur Hauptartillerieverwaltung kommandiert und Ende des Jahres zum Hofchirurgen ernannt, ab 1773 Leibchirurg des Thronfolgers PAVEL PETROVI\u010c (1754-1801), ab 1786 Leibmedikus der Großfürsten und der Großfürstinnen, ab 1796 Stabsmedikus beim Zaren PAVEL I., ab 1803 Mitglied des Medizinalrats des Ministeriums des Innern.\u000aInhaber hoher russischer Ehrentitel und Auszeichnungen, darunter "Wirklicher Russischer Staatsrat", 1797 "Geheimrat", 1799 St. Annen-Orden 1. Klasse, 1803 goldene Tabakdose, ab 1797 Besitzer eines Guts mit 1500 Seelen im Kreis Bronnicy, Gouvernement Moskau (Geschenk des Zaren PAVEL I. als Dank für eine besondere Kurmethode zur Behandlung des Bandwurms [nach einem von BECK gekauften geheimen Rezept]).
+p6
+sS'E'
+p7
+VAksinija Timofeevna (\u2020 1782), Staatsrätin
+p8
+sS'Name'
+p9
+(dp10
+S'Nachname'
+p11
+VBECK
+p12
+sS'Vorname'
+p13
+VJohann
+p14
+ssS'Namensvariationen'
+p15
+VJean, Iogann, \u0418o\u0433a\u043d\u043d
+p16
+sS'Namen (kyrillisch)'
+p17
+V\u0411EK, \u0418\u0432a\u043d \u0424\u0438\u043b\u0438\u043f\u043f\u043e\u0432\u0438\u0447 / BEK, Ivan Filippovi\u010d
+p18
+sS'Berufe'
+p19
+VChirurg, Militärarzt, Leib- und Hofarzt
+p20
+sS'Geburtsdaten'
+p21
+V20.5.1735, Riga
 p22
 sS'Sterbedaten'
 p23
 V2./17.9.1811, Marty\u0161kino, zwischen Oranienbaum und St. Petersburg
 p24
-sS'Sekundaerliteratur'
+sS'V'
 p25
-V\u2022 EAD: Dokument-Id [2506/2474 (20.7.2010)].\u000a\u2022 Nemcy Rossii. Bd. 1 (1999), 144.\u000a\u2022 WBIS BaBA: I 22, 445; RBA: R 42, 252-253; RS 4, 448-451.\u000aGeburtsurkunde des späteren Zaren Aleksandr I. Pavlovi\u010d (1777-1825) vom 13. Oktober 1777 mit Becks Unterschrift. Abgedruckt in: Fischer 2010, 12.
+VPhilipp
 p26
-sS'Ehegatten'
+sS'N'
 p27
-VAksinija Timofeevna (\u2020 1782), Staatsrätin
+VAlexander (Aleksandr Ivanovi\u010d) (1777-1850), Archivar\u000aMaria (Marija Ivanovna), verh. Renny (1781-1816)\u000aEnkel: Ivan Aleksandrovi\u010d (1807-1842), Diplomat, Lyriker, Übersetzer
 p28
-sS'Mitgliedschaft'
+sS'SL'
 p29
-VFiziko-medicinskoe ob\u0161\u010destvo Moskvy [Physiko-medizinische Gesellschaft zu Moskau], Mediko-chirurgi\u010deskaja akademija [Mediko-chirurgische Akademie] St. Petersburg (Ehrenmitglied), Deutsche Akademie der Naturforscher Leopoldina (ab 1781).
+V\u2022 EAD: Dokument-Id [2506/2474 (20.7.2010)].\u000a\u2022 Nemcy Rossii. Bd. 1 (1999), 144.\u000a\u2022 WBIS BaBA: I 22, 445; RBA: R 42, 252-253; RS 4, 448-451.\u000aGeburtsurkunde des späteren Zaren Aleksandr I. Pavlovi\u010d (1777-1825) vom 13. Oktober 1777 mit Becks Unterschrift. Abgedruckt in: Fischer 2010, 12.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 11-12.</i>
 p30
 sS'ID'
 p31

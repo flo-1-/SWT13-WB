@@ -1,78 +1,78 @@
 (dp0
-S'Publikationsverzeichnisse'
+S'A'
 p1
-VPublikationen 1848-1868, in: Zmeev, Lev Fëdorovi\u010d: Russkie vra\u010di pisateli. Bd 1-4. S.-Peterburg 1886-1889; zit. nach WBIS RBA: R 96, 166-167.
-p2
-sS'Vater'
-p3
-VAlexander, Roßarzt
-p4
-sS'Name'
-p5
-(dp6
-S'Nachname'
-p7
-VWILCZKOWSKI
-p8
-sS'Vorname'
-p9
-VNicolaus
-p10
-ssS'Kyrillische Namen'
-p11
-V\u0412\u0418\u041b\u042c\u0427KO\u0412CK\u0418\u0419, \u041d\u0438\u043ao\u043ba\u0439 A\u043be\u043aca\u043d\u0434\u0440o\u0432\u0438\u0447 / VIL'\u010cKOVSKIJ, Nikolaj Aleksandrovi\u010d
-p12
-sS'Ausbildung'
-p13
 V1843-1848 Studium der Medizin und 1848 Dr. med. an der Universität Dorpat.
+p2
+sS'MG'
+p3
+VVoenno-medicinskij u\u010denyj komitet [Militärmedizinisches Gelehrtenkomitee] (ab 1869), Rotes Kreuz (Ehrenmitglied).
+p4
+sS'B'
+p5
+V1848-1849 Ordinator am Militär-Hospital in Warschau, 1849-1851 Arzt im Leibgarde-Jägerregiment, 1851-1855 Oberarzt im 1. Reserve-Pionier-Bataillon, 1855-1857 im 1. Militärlandhospital in St. Petersburg, 1857-1858 im Militärhospital in Krasnosel'sk und 1858-1859 in der Militärgarde von Staraja Russa, 1859-1860 Studienaufenthalte im Ausland, z.B. in Berlin bei Bernhard Rudolf Konrad von LANGENBECK (1810-1887), Rudolf VIRCHOW (1821-1902), Albrecht von GRAEFE (1828-1870) und Felix HOPPE-SEYLER (1825-1895) an der Charité, bei Moritz Michael EULENBURG (1811-1887) und Heimann Wolff BEREND (1809-1873) an den Orthopädischen Instituten sowie im Bethanien-Krankenhaus und im Feldlarazett, 1861-1864 Assistent des Chefarztes, ab 1864 Chefarzt, ab 1876 Leiter der "Medizinischen Kurse für Frauen" am Nikolaj-Militärlandhospital und ab 1866 Konsultant im "Marien-Institut für adlige Fräulein" in St. Petersburg, ab 1875 Hofarzt des III. Hofmedizinalbezirkes, ab 1882 Assistent des Verwalters der Medizinalabteilung am Hofe sowie "Ehrenleibchirurg" des Zaren NIKOLAJ II. (1868-1918).\u000aInhaber des russischen Ehrentitels "Geheimrat" (1888).
+p6
+sS'E'
+p7
+VEkaterina Grigor'evna (1833-1897)
+p8
+sS'Name'
+p9
+(dp10
+S'Nachname'
+p11
+VWILCZKOWSKI
+p12
+sS'Vorname'
+p13
+VNicolaus
 p14
-sS'Quellen'
+ssS'Namensvariationen'
 p15
-V\u2022 Klini\u010deskija lekcii Langenbeka v Berline. Voenno-medicinskij \u017eurnal Teil 77, Jg. 38 (1860) IV, 352-372.\u000a\u2022 Ot\u010det o zanjatijach za granicej v 1859-61. Voenno-medicinskij \u017eurnal Teil 79, Jg. 38 (1860) III, 372-385, Teil 80, Jg. 39 (1861) II, 443 ff., Teil 83, Jg. 40 (1862) II, 46-106, 114-121.
-p16
-sS'Namensvariationen'
-p17
 VWILCZKOWSKY, Nikolai
-p18
-sS'Mutter'
-p19
+p16
+sS'M'
+p17
 VWilh., geb. Hohndorff
+p18
+sS'Namen (kyrillisch)'
+p19
+V\u0412\u0418\u041b\u042c\u0427KO\u0412CK\u0418\u0419, \u041d\u0438\u043ao\u043ba\u0439 A\u043be\u043aca\u043d\u0434\u0440o\u0432\u0438\u0447 / VIL'\u010cKOVSKIJ, Nikolaj Aleksandrovi\u010d
 p20
-sS'Beruf'
+sS'Berufe'
 p21
 VMilitärarzt, Hofmedikus
 p22
-sS'Nachkommen'
+sS'Q'
 p23
-VNikolaj Nikolaevi\u010d (1862-1900)
+V\u2022 Klini\u010deskija lekcii Langenbeka v Berline. Voenno-medicinskij \u017eurnal Teil 77, Jg. 38 (1860) IV, 352-372.\u000a\u2022 Ot\u010det o zanjatijach za granicej v 1859-61. Voenno-medicinskij \u017eurnal Teil 79, Jg. 38 (1860) III, 372-385, Teil 80, Jg. 39 (1861) II, 443 ff., Teil 83, Jg. 40 (1862) II, 46-106, 114-121.
 p24
 sS'Geburtsdaten'
 p25
 V19.10. oder 5.12.1823 oder 1824, Fellin
 p26
-sS'Lebensstationen'
-p27
-V1848-1849 Ordinator am Militär-Hospital in Warschau, 1849-1851 Arzt im Leibgarde-Jägerregiment, 1851-1855 Oberarzt im 1. Reserve-Pionier-Bataillon, 1855-1857 im 1. Militärlandhospital in St. Petersburg, 1857-1858 im Militärhospital in Krasnosel'sk und 1858-1859 in der Militärgarde von Staraja Russa, 1859-1860 Studienaufenthalte im Ausland, z.B. in Berlin bei Bernhard Rudolf Konrad von LANGENBECK (1810-1887), Rudolf VIRCHOW (1821-1902), Albrecht von GRAEFE (1828-1870) und Felix HOPPE-SEYLER (1825-1895) an der Charité, bei Moritz Michael EULENBURG (1811-1887) und Heimann Wolff BEREND (1809-1873) an den Orthopädischen Instituten sowie im Bethanien-Krankenhaus und im Feldlarazett, 1861-1864 Assistent des Chefarztes, ab 1864 Chefarzt, ab 1876 Leiter der "Medizinischen Kurse für Frauen" am Nikolaj-Militärlandhospital und ab 1866 Konsultant im "Marien-Institut für adlige Fräulein" in St. Petersburg, ab 1875 Hofarzt des III. Hofmedizinalbezirkes, ab 1882 Assistent des Verwalters der Medizinalabteilung am Hofe sowie "Ehrenleibchirurg" des Zaren NIKOLAJ II. (1868-1918).\u000aInhaber des russischen Ehrentitels "Geheimrat" (1888).
-p28
 sS'Sterbedaten'
-p29
+p27
 V1.11.1906, St. Petersburg
-p30
-sS'Sekundaerliteratur'
-p31
-V\u2022 EAD: Dokument-Id [82108/80054 (16.8.2010)].\u000a\u2022 Grekova, T. I., Golikov, Jurij P.: Medicinskij Peterburg. Biomedicinskij \u017eurnal - Medline.ru (2001), 67-167, zit. 135. http://www.economyphone.com/public/histm/medmono/100/43.phtml#top  (12.3.2012).\u000a\u2022 [Nekrolog] Istori\u010deskij vestnik 106 (1906), 1145-1146.\u000a\u2022 Peterburgskij nekropol'. Bd. 1 (1912), 437.\u000a\u2022 WBIS BaBA: I 405, 362; RBA: R 96, 166-167; RS 10, 329.
-p32
-sS'Werke'
-p33
+p28
+sS'W'
+p29
 V\u2022 De entropio, trichiasi et distichiasi [!] animadversiones. Diss. Dorpat 1848, 39 S. http://dspace.utlib.ee/dspace/bitstream/10062/3246/1/wilczkowski.pdf (12.3.2012).\u000a\u2022 Das Militär-Hospital in Krasnoe Selo im Sommer 1857 [, Teil 1] (Der Scorbut, Typhus, Krankheiten der Lungen und des Brustfells). Deutsche Klinik 10 (1858), 93-96; ~ [, Teil 2] (Cholera, Chirurgische Krankheiten, Augenentzündungen). Ibid., 100-103.\u000a\u2022 Autor einiger Veröffentlichungen in <i>Voenno-medicinskij \u017eurnal</i> (vgl. <b>GPV</b>), darunter zwei Berichte über seine Studienaufenthalte im Ausland (vgl. <b>Q</b>).
+p30
+sS'V'
+p31
+VAlexander, Roßarzt
+p32
+sS'GPV'
+p33
+VPublikationen 1848-1868, in: Zmeev, Lev Fëdorovi\u010d: Russkie vra\u010di pisateli. Bd 1-4. S.-Peterburg 1886-1889; zit. nach WBIS RBA: R 96, 166-167.
 p34
-sS'Ehegatten'
+sS'N'
 p35
-VEkaterina Grigor'evna (1833-1897)
+VNikolaj Nikolaevi\u010d (1862-1900)
 p36
-sS'Mitgliedschaft'
+sS'SL'
 p37
-VVoenno-medicinskij u\u010denyj komitet [Militärmedizinisches Gelehrtenkomitee] (ab 1869), Rotes Kreuz (Ehrenmitglied).
+V\u2022 EAD: Dokument-Id [82108/80054 (16.8.2010)].\u000a\u2022 Grekova, T. I., Golikov, Jurij P.: Medicinskij Peterburg. Biomedicinskij \u017eurnal - Medline.ru (2001), 67-167, zit. 135. http://www.economyphone.com/public/histm/medmono/100/43.phtml#top  (12.3.2012).\u000a\u2022 [Nekrolog] Istori\u010deskij vestnik 106 (1906), 1145-1146.\u000a\u2022 Peterburgskij nekropol'. Bd. 1 (1912), 437.\u000a\u2022 WBIS BaBA: I 405, 362; RBA: R 96, 166-167; RS 10, 329.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 274-275.</i>
 p38
 sS'ID'
 p39

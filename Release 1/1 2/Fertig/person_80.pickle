@@ -1,36 +1,36 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VWoldemar Herman(n) (Vladimir Egorovi\u010d) (1818-1875), Arzt, Prof. für spezielle Pathologie und Therapie
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VECK
-p6
-sS'Vorname'
-p7
-VWoldemar
-p8
-ssS'Kyrillische Namen'
-p9
-V\u042dKK, \u0412\u043ba\u0434\u0438\u043c\u0438\u0440 \u0412\u043ba\u0434\u0438\u043c\u0438\u0440o\u0432\u0438\u0447 / \u0116KK, Vladimir Vladimirovi\u010d
-p10
-sS'Ausbildung'
-p11
 V1866-1870 Besuch der Annenschule und 1870(?)-1876 Studium der Medizin an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg, 1888 Dr. med.
-p12
-sS'Namensvariationen'
-p13
+p2
+sS'B'
+p3
+V1877-1878 Arzt in der Donauarmee, danach vermutlich praktischer Arzt, 1883 Studienaufenthalt an der Universität Paris bei Jean-Martin CHARCOT (1825-1893), ab 1886 Leibarzt des Großfürsten MICHAIL NIKOLAEVI\u010c (1832-1909) und dessen Gemahlin, der Großfürstin OL'GA F\u0401DOROVNA, geb. Prinzessin CÄCILIE AUGUSTE VON BADEN (1839-1891), zugleich Arzt in eigener Privatpraxis.\u000aErhielt 1888 den Ehrentitel "Hofrat".
+p4
+sS'Name'
+p5
+(dp6
+S'Nachname'
+p7
+VECK
+p8
+sS'Vorname'
+p9
+VWoldemar
+p10
+ssS'Namensvariationen'
+p11
 VEECK
-p14
-sS'Mutter'
-p15
+p12
+sS'M'
+p13
 VAlexandra (Fëdorovna), geb. Zdekauer (1824-1870), Schwester von Nicolaus Theodor von #internNameLink#30473#endNameNr#ZDEKAUER#/internNameLink#
+p14
+sS'Namen (kyrillisch)'
+p15
+V\u042dKK, \u0412\u043ba\u0434\u0438\u043c\u0438\u0440 \u0412\u043ba\u0434\u0438\u043c\u0438\u0440o\u0432\u0438\u0447 / \u0116KK, Vladimir Vladimirovi\u010d
 p16
-sS'Beruf'
+sS'Berufe'
 p17
 VPraktischer Arzt, Leibarzt
 p18
@@ -38,17 +38,17 @@ sS'Geburtsdaten'
 p19
 V1854
 p20
-sS'Lebensstationen'
-p21
-V1877-1878 Arzt in der Donauarmee, danach vermutlich praktischer Arzt, 1883 Studienaufenthalt an der Universität Paris bei Jean-Martin CHARCOT (1825-1893), ab 1886 Leibarzt des Großfürsten MICHAIL NIKOLAEVI\u010c (1832-1909) und dessen Gemahlin, der Großfürstin OL'GA F\u0401DOROVNA, geb. Prinzessin CÄCILIE AUGUSTE VON BADEN (1839-1891), zugleich Arzt in eigener Privatpraxis.\u000aErhielt 1888 den Ehrentitel "Hofrat".
-p22
 sS'Sterbedaten'
-p23
+p21
 V1.4.1888, St. Petersburg
+p22
+sS'V'
+p23
+VWoldemar Herman(n) (Vladimir Egorovi\u010d) (1818-1875), Arzt, Prof. für spezielle Pathologie und Therapie
 p24
-sS'Sekundaerliteratur'
+sS'SL'
 p25
-V\u2022 Böhm 1998, 46.\u000a\u2022 Böhm 2003, 447.\u000a\u2022 EAD: Dokument-Id [59701/93963 (27.7.2010)].\u000a\u2022 WBIS RBA: R 521, 122.
+V\u2022 Böhm 1998, 46.\u000a\u2022 Böhm 2003, 447.\u000a\u2022 EAD: Dokument-Id [59701/93963 (27.7.2010)].\u000a\u2022 WBIS RBA: R 521, 122.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 73.</i>
 p26
 sS'ID'
 p27

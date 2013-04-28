@@ -1,36 +1,36 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VDementij
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VBUBNOV
-p6
-sS'Vorname'
-p7
-VNikolaj Dement'evi\u010d
-p8
-ssS'Kyrillische Namen'
-p9
-V\u0411\u0423\u0411\u041dO\u0412, \u041d\u0438\u043ao\u043ba\u0439 \u0414e\u043ce\u043d\u0442\u044ce\u0432\u0438\u0447
-p10
-sS'Ausbildung'
-p11
 VBesuch des 3. Gymnasiums in Moskau, danach bis 1861 Studium der Medizin und 1862 Arzt-Examen an der Universität Moskau, 1864 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg.
-p12
-sS'Namensvariationen'
-p13
+p2
+sS'B'
+p3
+V1862-1864 Assistenzarzt im Preobra\u017eenskij-Leibgarde-Regiment, 1866-1868 Studienaufenthalte im Ausland, z.B. 1867 an der Universität Würzburg im Pathologischen Institut bei Friedrich Daniel von RECKLINGHAUSEN (1833-1910) und 1868 an der Universität Wien am Institut für experimentelle Pathologie bei Salomon STRICKER (1834-1898), 1869 höherer Beamter am Medizinaldepartement des Ministeriums des Innern, 1869-1878 Leibarzt des Prinzen Peter von OLDENBURG, russ. Petr Georgievi\u010d OL'DENBURGSKIJ (1812-1881), zugleich erneut Arzt im Preobra\u017eenskij-Leibgarde-Regiment mit Beteiligung am Deutsch-französischen Krieg 1870-1871 und am Russisch-türkischen Krieg 1877-1878, ab 1879 "Ehrenleibmedikus" am Hofe des Zaren ALEKSANDR II. (1818-1881) und Arzt der Kaiserlichen Lehranstalt für Recht, 1880-1882 Konsultant und 1887-1889 Medizinalinspektor der "Institutionen der Zarin Marija" in Moskau, ab 1882 Vizedirektor der Medizinalverwaltung, ab 1883 Mitglied des Medizinalrats des Ministeriums des Innern, außerdem beratendes Mitglied im Veterinärkomitee sowie in weiteren medizinischen Kommissionen.\u000aInhaber des Ehrentitels "Wirklicher Russischer Staatsrat" und des St.-Vladimir-Ordens 4. Klasse.
+p4
+sS'Name'
+p5
+(dp6
+S'Nachname'
+p7
+VBUBNOV
+p8
+sS'Vorname'
+p9
+VNikolaj Dement'evi\u010d
+p10
+ssS'Namensvariationen'
+p11
 VBUBNOFF, N.
-p14
-sS'Mutter'
-p15
+p12
+sS'M'
+p13
 VEvgenija Aleksandrovna Bubnova, geb. Demidova (1846-1877)
+p14
+sS'Namen (kyrillisch)'
+p15
+V\u0411\u0423\u0411\u041dO\u0412, \u041d\u0438\u043ao\u043ba\u0439 \u0414e\u043ce\u043d\u0442\u044ce\u0432\u0438\u0447
 p16
-sS'Beruf'
+sS'Berufe'
 p17
 VMilitärarzt, Leibmedikus, Führungskraft in der Medizinalverwaltung
 p18
@@ -38,21 +38,21 @@ sS'Geburtsdaten'
 p19
 V7.3.1837, Moskau
 p20
-sS'Lebensstationen'
-p21
-V1862-1864 Assistenzarzt im Preobra\u017eenskij-Leibgarde-Regiment, 1866-1868 Studienaufenthalte im Ausland, z.B. 1867 an der Universität Würzburg im Pathologischen Institut bei Friedrich Daniel von RECKLINGHAUSEN (1833-1910) und 1868 an der Universität Wien am Institut für experimentelle Pathologie bei Salomon STRICKER (1834-1898), 1869 höherer Beamter am Medizinaldepartement des Ministeriums des Innern, 1869-1878 Leibarzt des Prinzen Peter von OLDENBURG, russ. Petr Georgievi\u010d OL'DENBURGSKIJ (1812-1881), zugleich erneut Arzt im Preobra\u017eenskij-Leibgarde-Regiment mit Beteiligung am Deutsch-französischen Krieg 1870-1871 und am Russisch-türkischen Krieg 1877-1878, ab 1879 "Ehrenleibmedikus" am Hofe des Zaren ALEKSANDR II. (1818-1881) und Arzt der Kaiserlichen Lehranstalt für Recht, 1880-1882 Konsultant und 1887-1889 Medizinalinspektor der "Institutionen der Zarin Marija" in Moskau, ab 1882 Vizedirektor der Medizinalverwaltung, ab 1883 Mitglied des Medizinalrats des Ministeriums des Innern, außerdem beratendes Mitglied im Veterinärkomitee sowie in weiteren medizinischen Kommissionen.\u000aInhaber des Ehrentitels "Wirklicher Russischer Staatsrat" und des St.-Vladimir-Ordens 4. Klasse.
-p22
 sS'Sterbedaten'
-p23
+p21
 V19.7.1889, St. Petersburg
-p24
-sS'Werke'
-p25
+p22
+sS'W'
+p23
 V\u2022 Iskrivlenija matki, mechanizm i uslovija ich obrazovanija. Diss. Sankt-Peterburg 1864, 56 S.\u000a\u2022 Ueber die Organisation des Trombus. Vorläufige Mittheilung. Centralblatt für die medicinischen Wissenschaften 5 (1867), 753-756.\u000a\u2022 Ueber die Organisation des Trombus. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 44 (1868), 462-472.\u000a\u2022 Beiträge zur Kenntniß der Structur des Knorpels. Sitzungsberichte der mathematisch-naturwissenschaftlichen Classe der Kaiserlichen Akademie der Wissenschaften [Wien] 57 (1868) Abt 1, 912-915.\u000a\u2022 Akupressura, kak sredstvo ostanavlivat' krovote\u010denie.(Acupressura, Acufilopressura et Acutorsio). Voenno-medicinskij \u017eurnal Teil 103, Jg. 46 (1868) III, 75-80.\u000a\u2022 \u010castnaja pomo\u0161\u010d nejtral'nych gosudarstv v vojnu 1870-1871 godov. Russkij invalid (1873) Nr. 243.\u000a\u2022 O sbere\u017eenii zdorov'ja soldata. Iz lekcij, \u010ditanych v kazarmach polka. In: Soldatskaja kniga. Sankt-Peterburg 1877.\u000aB. soll außerdem eine Abhandlung über die Notwendigkeit der Umgestaltung in der medizinischen Verwaltung verfasst haben.
+p24
+sS'V'
+p25
+VDementij
 p26
-sS'Sekundaerliteratur'
+sS'SL'
 p27
-V\u2022 Jazykov, Dmitrij Dmitrievi\u010d: Obzor \u017eizni i trudov pokojnych russkich pisatelej. Bd. 9: Russkie pisateli i pisatel'nicy umer\u0161ie v 1889 godu. Moskva 1905, 11.\u000a\u2022 Pfrepper, Regine, Pfrepper, Gerd: Studienaufenthalte russischer Mediziner an deutschen Universitäten im 19. Jahrhundert. In: Ingrid Kästner, Regine Pfrepper (Hgg.), "... so ist die Naturwissenschaft das wahre internationale Band der Völker". Aachen 2004 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaften 9), 273-292.\u000a\u2022 WBIS RBA: R 69, 337-341.
+V\u2022 Jazykov, Dmitrij Dmitrievi\u010d: Obzor \u017eizni i trudov pokojnych russkich pisatelej. Bd. 9: Russkie pisateli i pisatel'nicy umer\u0161ie v 1889 godu. Moskva 1905, 11.\u000a\u2022 Pfrepper, Regine, Pfrepper, Gerd: Studienaufenthalte russischer Mediziner an deutschen Universitäten im 19. Jahrhundert. In: Ingrid Kästner, Regine Pfrepper (Hgg.), "... so ist die Naturwissenschaft das wahre internationale Band der Völker". Aachen 2004 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaften 9), 273-292.\u000a\u2022 WBIS RBA: R 69, 337-341.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 58-59.</i>
 p28
 sS'ID'
 p29

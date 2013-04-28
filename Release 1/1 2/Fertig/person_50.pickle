@@ -1,82 +1,82 @@
 (dp0
-S'Publikationsverzeichnisse'
+S'A'
 p1
-VBrennsohn, Isidorus: Die Aerzte Livlands von den ältesten Zeiten bis zur Gegenwart. Ein biographisches Lexikon nebst einer historischen Einleitung über das Medizinalwesen Livlands. Riga 1905 (Biographien baltischer Aerzte 2).
-p2
-sS'Vater'
-p3
-VJohann Christoph (1733-1812), Archidiakonus und Magister
-p4
-sS'Name'
-p5
-(dp6
-S'Nachname'
-p7
-VERDMANN
-p8
-sS'Vorname'
-p9
-VJohann Friedrich (von)
-p10
-ssS'Kyrillische Namen'
-p11
-V\u042d\u0420\u0414\u041c\u0410\u041d, \u0424\u0451\u0434\u043e\u0440 \u0425\u0440\u0438\u0441\u0442\u043e\u0444\u043e\u0440\u043e\u0432\u0438\u0447 / \u0116RDMAN, Fëdor Christoforovi\u010d
-p12
-sS'Ausbildung'
-p13
 V1791-1795 Besuch der Lateinschule in Wittenberg, 1795 Studium der Theologie und 1795-1800 der Medizin, 1800 Examen pro candidatura med., 1802 Dr.med., 1804 Dr. med. habil., Universität Wittenberg.
+p2
+sS'MG'
+p3
+VMoskovskoe ob\u0161\u010destvo estestvoispytatelej [Societät der Naturforscher zu Moskau], S. Peterburgskoe farmacevti\u010deskoe ob\u0161\u010destvo [Pharmazeutische Gesellschaft zu St. Petersburg], Moskovskoe fisiko-medicinskoe ob\u0161\u010destvo [Physikalisch-medizinische Gesellschaft zu Moskau], Medizinisch-physikalische Gesellschaft zu Erlangen, Ökonomische Gesellschaft zu Abo und Leipzig, Gesellschaft für Natur- und Heilkunde zu Dresden, Ärztlicher Verein zu Hamburg, Naturforschende Gesellschaft zu Halle und Medizinisch-chirurgische Gesellschaft zu Berlin.
+p4
+sS'B'
+p5
+V1804-1808 ao. Professor für Naturwissenschaften, 1808-1810 Professor für Pathologie und Therapie der Universität Wittenberg; 1802-1803 Studien zur Anwendung des Galvanismus in der Medizin an der Irrenanstalt Wien; 1810-1817/18 Professor für Pathologie, Therapie und Klinik und 1814 Dekan der Medizinischen Fakultät der Universität Kazan'; gleichzeitig auch Schulvisitator der Gouvernements Saratov, Simbirsk, Astrachan', Perm' und Tobol'sk; 1817/18-1823 Professor für Therapie und Klinik der Universität Dorpat; 1823-1827 Leibarzt des Königs Friedrich August I. von Sachsen in Dresden; 1827-1840 in Dorpat Professor für Arzneimittellehre, Diätetik, Geschichte der Medizin und medizinischer Literatur, mehrmals Dekan der Medizinischen Fakultät, 1830-1838 Leiter des Professoren-Instituts, 1840 emeritiert; 1842 Rückkehr nach Deutschland.\u000aInhaber hoher russischer Auszeichnungen (u.a. 1840 Titel "Wirklicher Russischer Staatsrat").
+p6
+sS'E'
+p7
+VFriederika Anna Dorothea, geb. von Kalm (* 1787)
+p8
+sS'Name'
+p9
+(dp10
+S'Nachname'
+p11
+VERDMANN
+p12
+sS'Vorname'
+p13
+VJohann Friedrich (von)
 p14
-sS'Portraits'
+ssS'Namensvariationen'
 p15
-V\u2022 Lithographie von Georg Friedrich Schlater (1804-1870). Quelle: Fotosammlung Herbert Normann - Bibliotheca Universitatis Tartuensis, Abteilung für Manuskripte und Raritäten, Bestand 78, Fo 15:70.\u000a\u2022 Lithographie von Carl August Senff (1770-1838), Dorpat 1823. Quelle E-Katalog ESTER Tartugem, Bibliot. Carol Morgenstern No 36. http://www.utlib.ee/ekollekt/bskunst/senff/011.htm (15.5.2012).\u000a\u2022 Bildnis im Internet-Katalog der Stadt Kasan. http://kazan.ws/culture/pic_cul/972.jpg  (15.5.2012).
-p16
-sS'Namensvariationen'
-p17
 VIogann Fridrich, \u0418\u043e\u0433\u0430\u043d\u043d \u0424\u0440\u0438\u0434\u0440\u0438\u0445
-p18
-sS'Mutter'
-p19
+p16
+sS'M'
+p17
 VChristiana Eleonore, geb. Clausnitzer
+p18
+sS'Namen (kyrillisch)'
+p19
+V\u042d\u0420\u0414\u041c\u0410\u041d, \u0424\u0451\u0434\u043e\u0440 \u0425\u0440\u0438\u0441\u0442\u043e\u0444\u043e\u0440\u043e\u0432\u0438\u0447 / \u0116RDMAN, Fëdor Christoforovi\u010d
 p20
-sS'Leistungen'
+sS'Berufe'
 p21
-VGründer der pharmakologischen Sammlung an der Universität Dorpat; Reisen nach Astrachan', in das Wolga- und das Kamagebiet und Nordsibirien. Die Ergebnisse sind in einem mehrbändigen medizinisch-topographischen Werk erschienen; Außerdem 40 wissenschaftliche Veröffentlichungen, beispielsweise über die Klumpfüße bei Neugeborenen, über Wechselfieber und zu seinem Spezialgebiet, der Polarisationslehre.
-p22
-sS'Beruf'
-p23
 VMediziner, Leibarzt, Professor für spezielle Therapie und Pathologie, Medizinhistoriker
+p22
+sS'WL'
+p23
+VGründer der pharmakologischen Sammlung an der Universität Dorpat; Reisen nach Astrachan', in das Wolga- und das Kamagebiet und Nordsibirien. Die Ergebnisse sind in einem mehrbändigen medizinisch-topographischen Werk erschienen; Außerdem 40 wissenschaftliche Veröffentlichungen, beispielsweise über die Klumpfüße bei Neugeborenen, über Wechselfieber und zu seinem Spezialgebiet, der Polarisationslehre.
 p24
-sS'Nachkommen'
+sS'P'
 p25
-VSohn: Karl Michael Theodor Friedrich (1816-1887), Arzt
+V\u2022 Lithographie von Georg Friedrich Schlater (1804-1870). Quelle: Fotosammlung Herbert Normann - Bibliotheca Universitatis Tartuensis, Abteilung für Manuskripte und Raritäten, Bestand 78, Fo 15:70.\u000a\u2022 Lithographie von Carl August Senff (1770-1838), Dorpat 1823. Quelle E-Katalog ESTER Tartugem, Bibliot. Carol Morgenstern No 36. http://www.utlib.ee/ekollekt/bskunst/senff/011.htm (15.5.2012).\u000a\u2022 Bildnis im Internet-Katalog der Stadt Kasan. http://kazan.ws/culture/pic_cul/972.jpg  (15.5.2012).\u000aGedruckte Version in: <i>Kaden, Heiner; Riha, Ortrun (Hgg.): Studien zu Carl Julius Fritzsche (1808-1871) und Il'ja Il'i\u010d Me\u010dnikov (1845-1916). Quellenarbeit in der Wissenschaftsgeschichte Aachen: Shaker 2008 (Relationes 1), 6-8.</i>
 p26
 sS'Geburtsdaten'
 p27
 V18.7.1778, Wittenberg
 p28
-sS'Lebensstationen'
-p29
-V1804-1808 ao. Professor für Naturwissenschaften, 1808-1810 Professor für Pathologie und Therapie der Universität Wittenberg; 1802-1803 Studien zur Anwendung des Galvanismus in der Medizin an der Irrenanstalt Wien; 1810-1817/18 Professor für Pathologie, Therapie und Klinik und 1814 Dekan der Medizinischen Fakultät der Universität Kazan'; gleichzeitig auch Schulvisitator der Gouvernements Saratov, Simbirsk, Astrachan', Perm' und Tobol'sk; 1817/18-1823 Professor für Therapie und Klinik der Universität Dorpat; 1823-1827 Leibarzt des Königs Friedrich August I. von Sachsen in Dresden; 1827-1840 in Dorpat Professor für Arzneimittellehre, Diätetik, Geschichte der Medizin und medizinischer Literatur, mehrmals Dekan der Medizinischen Fakultät, 1830-1838 Leiter des Professoren-Instituts, 1840 emeritiert; 1842 Rückkehr nach Deutschland.\u000aInhaber hoher russischer Auszeichnungen (u.a. 1840 Titel "Wirklicher Russischer Staatsrat").
-p30
 sS'Sterbedaten'
-p31
+p29
 V28.1.1846, Wiesbaden
-p32
-sS'Sekundaerliteratur'
-p33
-V\u2022 Günther, Bettina: Ein deutscher Arzt im Russischen Reich: Johann Friedrich Erdmann (1778-1846). Diss. Leipzig 2004.\u000a\u2022 DBA, BaBA, RBA.
-p34
-sS'Werke'
-p35
+p30
+sS'W'
+p31
 V\u2022 Utrum aqua per electricitatem columnae a cel. Volta inventae in elementa sua dissolvatur? Dissertatio physico-chemica. Wittenberg 1802.\u000a\u2022 Elementa organonomiae ex notione motus derivata. Wittenberg 1808.\u000a\u2022 De hydropis natura et curatione, Bd. 1-4: Wittenberg 1808; Bd. 5: 1809; Bd. 6 bis 10: 1810.\u000a\u2022 Beiträge zur Kenntniß des Innern von Russland. Riga, Dorpat bzw. Leipzig 1822-1826.\u000a\u2022 Aus der aerztlichen Praxis: Beobachtungen und Ansichten. Halle 1847.
+p32
+sS'V'
+p33
+VJohann Christoph (1733-1812), Archidiakonus und Magister
+p34
+sS'GPV'
+p35
+VBrennsohn, Isidorus: Die Aerzte Livlands von den ältesten Zeiten bis zur Gegenwart. Ein biographisches Lexikon nebst einer historischen Einleitung über das Medizinalwesen Livlands. Riga 1905 (Biographien baltischer Aerzte 2).
 p36
-sS'Ehegatten'
+sS'N'
 p37
-VFriederika Anna Dorothea, geb. von Kalm (* 1787)
+VSohn: Karl Michael Theodor Friedrich (1816-1887), Arzt
 p38
-sS'Mitgliedschaft'
+sS'SL'
 p39
-VMoskovskoe ob\u0161\u010destvo estestvoispytatelej [Societät der Naturforscher zu Moskau], S. Peterburgskoe farmacevti\u010deskoe ob\u0161\u010destvo [Pharmazeutische Gesellschaft zu St. Petersburg], Moskovskoe fisiko-medicinskoe ob\u0161\u010destvo [Physikalisch-medizinische Gesellschaft zu Moskau], Medizinisch-physikalische Gesellschaft zu Erlangen, Ökonomische Gesellschaft zu Abo und Leipzig, Gesellschaft für Natur- und Heilkunde zu Dresden, Ärztlicher Verein zu Hamburg, Naturforschende Gesellschaft zu Halle und Medizinisch-chirurgische Gesellschaft zu Berlin.
+V\u2022 Günther, Bettina: Ein deutscher Arzt im Russischen Reich: Johann Friedrich Erdmann (1778-1846). Diss. Leipzig 2004.\u000a\u2022 DBA, BaBA, RBA.
 p40
 sS'ID'
 p41

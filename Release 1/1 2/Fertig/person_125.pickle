@@ -1,74 +1,74 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VJürgen Christian, Gerber, Fabrikant
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VWELTZIEN
-p6
-sS'Vorname'
-p7
-VJohann Christian (von)
-p8
-ssS'Kyrillische Namen'
-p9
-V\u0412E\u041b\u042c\u0426\u042b\u041d, \u0418\u0432a\u043d \u042e\u0440\u044ce\u0432\u0438\u0447 / VEL'CYN, Ivan Jur'evi\u010d (fon)
-p10
-sS'Ausbildung'
-p11
 VStudium der Medizin 1785-1786 in Jena und 1787-1788 in Berlin [nicht in Leipzig], 1788-1789 und 1789 Dr. med. in Göttingen, danach wissenschaftliche Aufenthalte an Kliniken in Berlin, London und Paris, 1790 als Arzt in Russland zugelassen.
-p12
-sS'Namensvariationen'
-p13
-VWELZIN, VEL'CIN, \u0412E\u041b\u042c\u0426\u0418\u041d, Vasil'evi\u010d, \u0412ac\u0438\u043b\u044ce\u0432\u0438\u0447
-p14
-sS'Mutter'
-p15
-VAnna Margaretha, geb. Klein
-p16
-sS'Leistungen'
-p17
-VGilt als einer der Begründer der öffentlichen Gesundheitsfürsorge im Russischen Reich (vgl. <b>W</b> 1795).
-p18
-sS'Beruf'
-p19
-VProfessor für Pathologie und Therapie, Hygieniker, Kaiserlicher Leibarzt
-p20
-sS'Nachkommen'
-p21
-VConstantin Emanuel (Ivanovi\u010d) (1798-1821[oder 1824]), Arzt\u000aMarie (Ivanovna), verh. von Seidlitz (1808-1833), Erste Ehefrau von Carl Johann von #internNameLink#30412#endNameNr#Seidlitz#/internNameLink#.
-p22
-sS'Geburtsdaten'
-p23
-V14.2.1767, Riga
-p24
-sS'Lebensstationen'
-p25
+p2
+sS'MG'
+p3
+VMediko-filantropi\u010deskij komitet [Mediko-philanthropisches Komitee] (Mitbegründer und 1802 Präsident), Mediko-chirurgi\u010deskaja akademija [Mediko-chirurgische Akademie (MCA)] in St. Petersburg (ab 1819).
+p4
+sS'B'
+p5
 V1790-1792 Assistenzarzt am Haupt-Militärlandhospital und Professor für Pathologie und Therapie am Mediko-chirurgischen Kalinkin-Institut in St. Petersburg, 1792-1795 Gouvernementsarzt in Jaroslavl', ab 1795 Hofarzt und 1798 sowie 1802-1809 Leibmedikus des Großfürsten KONSTANTIN PAVLOVI\u010c (1779-1831) auf dessen Heereszügen, ab 1804 Mitglied des Medizinalrats des Ministeriums des Innern, 1807 Gründer von Militärkrankenhäusern in den Gouvernements Grodno, Wilna, Minsk und Kurland, 1810-1825(oder bis 1821) Oberarzt des Pagenkorps in St. Petersburg, ab 1819 zugleich Leibarzt des Zaren ALEKSANDR I. (1777-1825), lebte ab 1825 im Ruhestand auf seinem Landgut Somel in Livland.\u000aInhaber folgender russischer Ehrentitel und Auszeichnungen: 1797 "Kollegienrat", 1799 "Staatsrat", "Wirklicher Russischer Staatsrat", 1807 St.-Annen-Orden 2. Klasse mit Brillanten.
+p6
+sS'E'
+p7
+VHelena Elisabeth, geb. Baronesse Freedericksz, verw. von Pirch (*1771)
+p8
+sS'Name'
+p9
+(dp10
+S'Nachname'
+p11
+VWELTZIEN
+p12
+sS'Vorname'
+p13
+VJohann Christian (von)
+p14
+ssS'Namensvariationen'
+p15
+VWELZIN, VEL'CIN, \u0412E\u041b\u042c\u0426\u0418\u041d, Vasil'evi\u010d, \u0412ac\u0438\u043b\u044ce\u0432\u0438\u0447
+p16
+sS'M'
+p17
+VAnna Margaretha, geb. Klein
+p18
+sS'Namen (kyrillisch)'
+p19
+V\u0412E\u041b\u042c\u0426\u042b\u041d, \u0418\u0432a\u043d \u042e\u0440\u044ce\u0432\u0438\u0447 / VEL'CYN, Ivan Jur'evi\u010d (fon)
+p20
+sS'Berufe'
+p21
+VProfessor für Pathologie und Therapie, Hygieniker, Kaiserlicher Leibarzt
+p22
+sS'WL'
+p23
+VGilt als einer der Begründer der öffentlichen Gesundheitsfürsorge im Russischen Reich (vgl. <b>W</b> 1795).
+p24
+sS'Geburtsdaten'
+p25
+V14.2.1767, Riga
 p26
 sS'Sterbedaten'
 p27
 V25.3. oder 26.11.1829, Landgut Somel bei Torma (oder St. Petersburg)
 p28
-sS'Sekundaerliteratur'
+sS'W'
 p29
-V\u2022 Agranovskij, M. Z.: Ivan Vel'cin kak gigienist. Gigiena i sanitarija 33 (1968), 62-64.\u000a\u2022 EAD: Dokument-Id [81729/79675 (15.8.2010)].\u000a\u2022 Heine, Maximilian: Die bekanntesten Aerzte Russlands unter der Regierung der Kaiserin Catharina II. Medizinische Zeitung Russlands 12 (1855), 294.\u000a\u2022 Nemcy Rossii. Bd. 1 (1999), 342-343.\u000a\u2022 WBIS DBA: I 1350, 60-61; II 1387, 298; BaBA: I 402, 424-426; RBA: R 89, 416-419.
-p30
-sS'Werke'
-p31
 V\u2022 De affectuum animi usu medico. Dissertation. Göttingen 1789, 44 S. http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=PPN654600406&IDDOC=761848  (5.4.2012). Titelblatt des Exemplars der Universitätsbibliothek Leipzig [Signatur: Allg.Path.1914] abgedruckt in: Fischer 2010, 273.\u000a\u2022 Rede, welche im kaiserl. Medicinisch-chirurgischen Institute bey der feierlichen Eröffnung ihres (sic) neuen Wohngebäudes gehalten worden. St. Petersburg 1791, 14 S.\u000a\u2022 Na\u010dertanie vra\u010debnogo blagoustrojstva, ili o sredstvach, zavisja\u0161\u010dich ot pravitel'stva k sochraneniju narodnogo zdorov'ja. Sankt-Peterburg 1795, 239 S.\u000a\u2022 Osnovy sanitarno-policejskogo nadzora. Sankt-Peterburg 1800.
+p30
+sS'V'
+p31
+VJürgen Christian, Gerber, Fabrikant
 p32
-sS'Ehegatten'
+sS'N'
 p33
-VHelena Elisabeth, geb. Baronesse Freedericksz, verw. von Pirch (*1771)
+VConstantin Emanuel (Ivanovi\u010d) (1798-1821[oder 1824]), Arzt\u000aMarie (Ivanovna), verh. von Seidlitz (1808-1833), Erste Ehefrau von Carl Johann von #internNameLink#30412#endNameNr#Seidlitz#/internNameLink#.
 p34
-sS'Mitgliedschaft'
+sS'SL'
 p35
-VMediko-filantropi\u010deskij komitet [Mediko-philanthropisches Komitee] (Mitbegründer und 1802 Präsident), Mediko-chirurgi\u010deskaja akademija [Mediko-chirurgische Akademie (MCA)] in St. Petersburg (ab 1819).
+V\u2022 Agranovskij, M. Z.: Ivan Vel'cin kak gigienist. Gigiena i sanitarija 33 (1968), 62-64.\u000a\u2022 EAD: Dokument-Id [81729/79675 (15.8.2010)].\u000a\u2022 Heine, Maximilian: Die bekanntesten Aerzte Russlands unter der Regierung der Kaiserin Catharina II. Medizinische Zeitung Russlands 12 (1855), 294.\u000a\u2022 Nemcy Rossii. Bd. 1 (1999), 342-343.\u000a\u2022 WBIS DBA: I 1350, 60-61; II 1387, 298; BaBA: I 402, 424-426; RBA: R 89, 416-419.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 272-273.</i>
 p36
 sS'ID'
 p37

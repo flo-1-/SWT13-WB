@@ -1,74 +1,74 @@
 (dp0
-S'Publikationsverzeichnisse'
+S'A'
 p1
-V\u2022 Publikationen 1815-1831, in: Recke, Johann Friedrich von, Napiersky, Karl Eduard: Allgemeines Schriftsteller- und Gelehrten-Lexikon der Provinzen Livland, Esthland und Kurland. Bd. 4. Mitau 1832; zit. nach WBIS DBA: I 1347, 155-156.\u000a\u2022 Publikationen 1845-1868, in: Lip\u0161ic, Sergej Ju.: Russkie botaniki. Biografo-bibliografi\u010deskij slovar'. Botanicorum Rossicorum. Lexicon biographo-bibliographicum. Bd. 2. Moskva 1947, 79-80; auch in: WBIS RBA: SU 82, 16-18.
-p2
-sS'Vater'
-p3
-VJohann Gottfried, Gerbermeister, Kaufmann
-p4
-sS'Name'
-p5
-(dp6
-S'Nachname'
-p7
-VWEISSE
-p8
-sS'Vorname'
-p9
-VJohann Friedrich (von)
-p10
-ssS'Kyrillische Namen'
-p11
-VBE\u0419CCE, \u0424ë\u0434o\u0440 \u0418\u0432a\u043do\u0432\u0438\u0447 / VEJSSE, Fëdor Ivanovi\u010d (fon)
-p12
-sS'Ausbildung'
-p13
 V1806-1810 Besuch des Gouvernement-Gymnasiums in Reval, 1811-1815 Studium der Medizin und 1815 Dr. med. an der Universität Dorpat.
+p2
+sS'MG'
+p3
+VDeutscher ärztlicher Verein (ab 1820, 1822-1825 und 1829-1834 Sekretär, 1864-1866 Präses), Mediko-filantropi\u010deskij komitet [Mediko-philanthrophisches Komitee] (1833, 1848, 1852, ab 1862 Ehrenmitglied), Imperatorskaja Sankt-Peterburgskaja Akademija nauk [Kaiserliche St. Petersburger Akademie der Wissenschaften] (ab 1855), Deutsche Akademie der Naturforscher Leopoldina (ab 1859), Russkoe mineralogi\u010deskoe ob\u0161\u010destvo [Russische Mineralogische Gesellschaft] (ab 1865 Ehrenmitglied).
+p4
+sS'B'
+p5
+V1812-1813 Krankenpfleger in den Kriegslazaretten in Riga, 1815-1819 Studienaufenthalte in Westeuropa, darunter in Deutschland bei Christoph Wilhelm HUFELAND (1762-1836), Ernst HORN (1774-1848) und Karl Christian WOLFART (1778-1832) in Berlin, bei Johann Friedrich BLUMENBACH (1752-1840) in Göttingen, bei Lorenz OKEN (1779-1851) in Jena und bei Leopold Anton GOELIS (1764-1827) am Kinderkrankenhaus in Wien sowie in Heidelberg, kehrte 1819 über Königsberg mit Besuch bei Karl Ernst von BAER (1792-1876) zunächst nach Reval zurück, ließ sich 1820 als praktischer Arzt in St. Petersburg nieder, war zugleich 1820-1846 Arzt des Stadtgefängnisses sowie Schularzt des 1., 2. u. 3. Gymnasiums, 1835-1865 (oder 1859) Oberarzt und Dir. des Nikolaj-Kinderhospitals Nr. 1, auch Leibmedikus, 1865 bis 1866 Aufenthalt in Italien, danach in Reval lebend.\u000aErhielt die Ehrentitel "Hofrat" (1824), "Wirklicher Russischer Staatsrat" (1843), später "Geheimrat" und den Adelstitel.
+p6
+sS'E'
+p7
+V1. Henriette, geb. Stier\u000a2. Johanna Henriette, geb. von Rüdiger (1815-1870)
+p8
+sS'Name'
+p9
+(dp10
+S'Nachname'
+p11
+VWEISSE
+p12
+sS'Vorname'
+p13
+VJohann Friedrich (von)
 p14
-sS'Namensvariationen'
+ssS'Namensvariationen'
 p15
 VIogann Fridrich, \u0418o\u0433a\u043d\u043d \u0424\u0440\u0438\u0434\u0440\u0438x
 p16
-sS'Mutter'
+sS'M'
 p17
 VAnna Rosina, geb. Boehmer
 p18
-sS'Leistungen'
+sS'Namen (kyrillisch)'
 p19
-VAutor einer Reihe von Beiträgen über Kinderheilkunde in verschiedenen Journalen sowie umfangreicher Abhandlungen über "Infusorien" und verwandte Tierformen in den <i>Mémoires</i> und dem <i>Bulletin</i> der St. Petersburger Akademie; W. beschrieb über 156 in St. Petersburg von ihm beobachtete "Infusorien"-Arten, untersuchte den Badeschlamm von Staraja Russa, Hapsal, Arensburg u.a.
+VBE\u0419CCE, \u0424ë\u0434o\u0440 \u0418\u0432a\u043do\u0432\u0438\u0447 / VEJSSE, Fëdor Ivanovi\u010d (fon)
 p20
-sS'Beruf'
+sS'Berufe'
 p21
 VPraktischer Arzt, Naturforscher, Leibmedikus
 p22
-sS'Geburtsdaten'
+sS'WL'
 p23
-V22.2./4.3.1792, Reval
+VAutor einer Reihe von Beiträgen über Kinderheilkunde in verschiedenen Journalen sowie umfangreicher Abhandlungen über "Infusorien" und verwandte Tierformen in den <i>Mémoires</i> und dem <i>Bulletin</i> der St. Petersburger Akademie; W. beschrieb über 156 in St. Petersburg von ihm beobachtete "Infusorien"-Arten, untersuchte den Badeschlamm von Staraja Russa, Hapsal, Arensburg u.a.
 p24
-sS'Lebensstationen'
+sS'Geburtsdaten'
 p25
-V1812-1813 Krankenpfleger in den Kriegslazaretten in Riga, 1815-1819 Studienaufenthalte in Westeuropa, darunter in Deutschland bei Christoph Wilhelm HUFELAND (1762-1836), Ernst HORN (1774-1848) und Karl Christian WOLFART (1778-1832) in Berlin, bei Johann Friedrich BLUMENBACH (1752-1840) in Göttingen, bei Lorenz OKEN (1779-1851) in Jena und bei Leopold Anton GOELIS (1764-1827) am Kinderkrankenhaus in Wien sowie in Heidelberg, kehrte 1819 über Königsberg mit Besuch bei Karl Ernst von BAER (1792-1876) zunächst nach Reval zurück, ließ sich 1820 als praktischer Arzt in St. Petersburg nieder, war zugleich 1820-1846 Arzt des Stadtgefängnisses sowie Schularzt des 1., 2. u. 3. Gymnasiums, 1835-1865 (oder 1859) Oberarzt und Dir. des Nikolaj-Kinderhospitals Nr. 1, auch Leibmedikus, 1865 bis 1866 Aufenthalt in Italien, danach in Reval lebend.\u000aErhielt die Ehrentitel "Hofrat" (1824), "Wirklicher Russischer Staatsrat" (1843), später "Geheimrat" und den Adelstitel.
+V22.2./4.3.1792, Reval
 p26
 sS'Sterbedaten'
 p27
 V5./17.8.1869, Reval
 p28
-sS'Sekundaerliteratur'
+sS'W'
 p29
-V\u2022 Stieda, Ludwig: Weiße, Johann Friedrich. Allgemeine Deutsche Biographie 41 (1896), 594-596. #internNameLink#84918#endNameNr#Online Ressource#/internNameLink# (1.8.2012).\u000a\u2022 EAD: Dokument-Id [81680/80635 und 1052280 (13.8.2010)].\u000a\u2022 Volkov/Kulikova 2003 b, 108. Bei der Angabe "1860-1861 Leiter des Lehrstuhls für Biologie an der MCA, Verdienter Professor (1860)" handelt es sich um eine Verwechslung mit dem Botaniker Vejs (Weiss), Leopol'd (Lev) Ivanovi\u010d (1811-1861).\u000a\u2022 WBIS DBA: I 1347, 153-157, II 1383, 431; BaBA: I 402, 252-255; RBA: R 88, 405, SU 82, 16-18, RS 10, 6.
-p30
-sS'Werke'
-p31
 V\u2022 Pathologia consensus. Diss. Dorpat 1815, 44 S.\u000a\u2022 Enchiridium botanicum plantas Ingermanniae indigenas continens; Enchiridion botanicum petropolitanum [2 Manuskripte aus dem Nachlass].
+p30
+sS'V'
+p31
+VJohann Gottfried, Gerbermeister, Kaufmann
 p32
-sS'Ehegatten'
+sS'GPV'
 p33
-V1. Henriette, geb. Stier\u000a2. Johanna Henriette, geb. von Rüdiger (1815-1870)
+V\u2022 Publikationen 1815-1831, in: Recke, Johann Friedrich von, Napiersky, Karl Eduard: Allgemeines Schriftsteller- und Gelehrten-Lexikon der Provinzen Livland, Esthland und Kurland. Bd. 4. Mitau 1832; zit. nach WBIS DBA: I 1347, 155-156.\u000a\u2022 Publikationen 1845-1868, in: Lip\u0161ic, Sergej Ju.: Russkie botaniki. Biografo-bibliografi\u010deskij slovar'. Botanicorum Rossicorum. Lexicon biographo-bibliographicum. Bd. 2. Moskva 1947, 79-80; auch in: WBIS RBA: SU 82, 16-18.
 p34
-sS'Mitgliedschaft'
+sS'SL'
 p35
-VDeutscher ärztlicher Verein (ab 1820, 1822-1825 und 1829-1834 Sekretär, 1864-1866 Präses), Mediko-filantropi\u010deskij komitet [Mediko-philanthrophisches Komitee] (1833, 1848, 1852, ab 1862 Ehrenmitglied), Imperatorskaja Sankt-Peterburgskaja Akademija nauk [Kaiserliche St. Petersburger Akademie der Wissenschaften] (ab 1855), Deutsche Akademie der Naturforscher Leopoldina (ab 1859), Russkoe mineralogi\u010deskoe ob\u0161\u010destvo [Russische Mineralogische Gesellschaft] (ab 1865 Ehrenmitglied).
+V\u2022 Stieda, Ludwig: Weiße, Johann Friedrich. Allgemeine Deutsche Biographie 41 (1896), 594-596. #internNameLink#84918#endNameNr#Online Ressource#/internNameLink# (1.8.2012).\u000a\u2022 EAD: Dokument-Id [81680/80635 und 1052280 (13.8.2010)].\u000a\u2022 Volkov/Kulikova 2003 b, 108. Bei der Angabe "1860-1861 Leiter des Lehrstuhls für Biologie an der MCA, Verdienter Professor (1860)" handelt es sich um eine Verwechslung mit dem Botaniker Vejs (Weiss), Leopol'd (Lev) Ivanovi\u010d (1811-1861).\u000a\u2022 WBIS DBA: I 1347, 153-157, II 1383, 431; BaBA: I 402, 252-255; RBA: R 88, 405, SU 82, 16-18, RS 10, 6.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 270-271.</i>
 p36
 sS'ID'
 p37

@@ -1,61 +1,61 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VViktor
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VTIMOFEEV
-p6
-sS'Vorname'
-p7
-VAleksandr Viktorovi\u010d
-p8
-ssS'Kyrillische Namen'
-p9
-VT\u0418MO\u0424EE\u0412, A\u043be\u043aca\u043d\u0434\u0440 \u0412\u0438\u043a\u0442o\u0440o\u0432\u0438\u0447
-p10
-sS'Ausbildung'
-p11
 VBis 1879 Besuch des 3. Moskauer und des 2. St. Petersburger Gymnasiums, 1879-1883 Studium der Naturwissenschaften an der Physikalisch-mathematischen Fakultät an der Universität, danach 1883-1886 der Medizin und 1888 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg.
-p12
-sS'Portraits'
-p13
-VFoto aus: Afanas'ev, Nikolaj Ivanovi\u010d: Sovremenniki: Al'bom biografij. Bd. 2. [Sankt-Peterburg] 1910, 414; auch in: WBIS RBA: R 456, 382. Abgedruckt in: Fischer 2010, 260.
-p14
-sS'Leistungen'
-p15
+p2
+sS'B'
+p3
+V1886-1889 Assistent und Ordinator in der Klinik für innere Medizin bei Sergej Petrovi\u010d #internNameLink#30136#endNameNr#BOTKIN#/internNameLink# an der MCA, 1889 Spezialisierung in Psychiatrie und ein halbes Jahr Tätigkeit in der Psychiatrischen Heilanstalt in Kazan', danach ein Jahr Studien in verschiedenen psychiatrischen Heilanstalten in Europa, 1892-1914 Direktor der Fürsorgeanstalt für Geisteskranke in St. Petersburg, zeitweise Mitglied des Verwaltungsrates und Initiator zahlreicher baulicher Maßnahmen, außerdem "Ehrenleibmedikus" am Hofe des Zaren NIKOLAJ II. (1868-1918), 1914 zur Teilnahme am I. Weltkrieg in die Armee eingezogen.\u000aInhaber des Ehrentitels "Wirklicher russischer Staatsrat" sowie des St.-Stanislav-Ordens 1. Klasse, des St.-Vladimir-Ordens 3. Klasse, des St.-Annen-Ordens 2. Klasse, des Bucharischen Goldener-Stern-Ordens 1. Klasse, der Gedenkmedaille "300 Jahre Romanov-Dynastie" (1913) u.a.
+p4
+sS'Name'
+p5
+(dp6
+S'Nachname'
+p7
+VTIMOFEEV
+p8
+sS'Vorname'
+p9
+VAleksandr Viktorovi\u010d
+p10
+ssS'WL'
+p11
 VFührte eine neue Methode, die sog. "Bettbehandlung"*) der Geisteskranken, in Russland ein.\u000a*) Seit den 1890-er Jahren eine gängige Form zur Therapie bzw. zur sicheren Verwahrung von "unruhigen Kranken".
+p12
+sS'Namen (kyrillisch)'
+p13
+VT\u0418MO\u0424EE\u0412, A\u043be\u043aca\u043d\u0434\u0440 \u0412\u0438\u043a\u0442o\u0440o\u0432\u0438\u0447
+p14
+sS'ID'
+p15
+V30464
 p16
-sS'Beruf'
+sS'P'
 p17
-VPraktischer Arzt, Psychiater, Ehrenleibmedikus
+VFoto aus: Afanas'ev, Nikolaj Ivanovi\u010d: Sovremenniki: Al'bom biografij. Bd. 2. [Sankt-Peterburg] 1910, 414; auch in: WBIS RBA: R 456, 382. Abgedruckt in: Fischer 2010, 260.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 260-261.</i>
 p18
 sS'Geburtsdaten'
 p19
 V1860 oder 1861 oder 1862, Moskau
 p20
-sS'Lebensstationen'
-p21
-V1886-1889 Assistent und Ordinator in der Klinik für innere Medizin bei Sergej Petrovi\u010d #internNameLink#30136#endNameNr#BOTKIN#/internNameLink# an der MCA, 1889 Spezialisierung in Psychiatrie und ein halbes Jahr Tätigkeit in der Psychiatrischen Heilanstalt in Kazan', danach ein Jahr Studien in verschiedenen psychiatrischen Heilanstalten in Europa, 1892-1914 Direktor der Fürsorgeanstalt für Geisteskranke in St. Petersburg, zeitweise Mitglied des Verwaltungsrates und Initiator zahlreicher baulicher Maßnahmen, außerdem "Ehrenleibmedikus" am Hofe des Zaren NIKOLAJ II. (1868-1918), 1914 zur Teilnahme am I. Weltkrieg in die Armee eingezogen.\u000aInhaber des Ehrentitels "Wirklicher russischer Staatsrat" sowie des St.-Stanislav-Ordens 1. Klasse, des St.-Vladimir-Ordens 3. Klasse, des St.-Annen-Ordens 2. Klasse, des Bucharischen Goldener-Stern-Ordens 1. Klasse, der Gedenkmedaille "300 Jahre Romanov-Dynastie" (1913) u.a.
-p22
 sS'Sterbedaten'
-p23
+p21
 Vnach 1917
-p24
-sS'Werke'
-p25
+p22
+sS'W'
+p23
 V\u2022 K voprosu o nedostato\u010dnosti polulunnych klapanov aorty. Diss. Sankt-Peterburg 1888, 25 S.\u000a\u2022 Slu\u010daj otpravlenija nitrobenzolom ("Essence de Mirbane"). Soob\u0161\u010denija, v zasedanii Ob\u0161\u010destva russkich vra\u010dej 20 apr. 1889. Sankt-Peterburg 1889, 5 S.\u000a\u2022 K voprosu o razvitii gipertrofii serdca pri \u0117ksperimental'nych porokach ego. E\u017eenedel'naja klini\u010deskaja gazeta (1889), 13 S.\u000a\u2022 O dlitel'nych izmenenijach v dychanii posle pererezki blu\u017edaju\u0161\u010dich nervov. E\u017eenedel'naja klini\u010deskaja gazeta (1889), 15 S.\u000a\u2022 Nervnaja sistema serdca v te\u010denii \u0117ksperimental'nych porokov ego. E\u017eenedel'naja klini\u010deskaja gazeta (1889), 17 S.\u000a\u2022 K voprosu o trofi\u010deskom vlijanii blu\u017edaju\u0161\u010dich nervov na serdce. E\u017eenedel'naja klini\u010deskaja gazeta (1889), 11 S.\u000a\u2022 O le\u010denii du\u0161evno-bol'nych v krovati. [Metod t. n. Bettbehandlung]. Archiv psichiatrii, nevrologii i sudebnoj psichopatologii (1892), 14 S.\u000a\u2022 O\u010derki francuzkich le\u010debnic dlja du\u0161evno-bol'nych. Vestnik ob\u0161\u010destvennoj gigieny, sudebnoj i prakti\u010deskoj mediciny (1892), 67 S.\u000a\u2022 Osnovy psichiatri\u010deskoj \u0117kspertizy. Mit Michail Vasil'evi\u010d Ignat'ev. Sankt-Peterburg 1893, 117 S.\u000a\u2022 O vypiske bol'nych. Obozrenie psichiatrii, nevrologii i \u0117ksperimental'noj psichologii (1906) Juli-Nr., 14 S.
+p24
+sS'V'
+p25
+VViktor
 p26
-sS'Sekundaerliteratur'
+sS'SL'
 p27
 V\u2022 Nachapetov 2003, 223.\u000a\u2022 Poppe, Konrad Karlovi\u010d: Istorija 3-j gorodskoj psichiatri\u010deskoj bol'nicy im. I. I. Skvorcova-Stepanova v Sankt-Peterburge. \u017durnal nevrologii i psichiatrii 5 (2007), 55-62. http://www.mediasphera.ru/uppic/Zhurnal%20nevrologii%20i%20psikhiatrii%20imeni%20S.S.%20Korsakova/2007/5/9/NEV_2007_05_09.pdf  (12.3.2012).\u000a\u2022 Pridvornyj kalendar': na 1910 god. S.-Peterburg [o. J.], 289; ~ 1911, 300; ~ 1913, 315; ~ 1914, 394.\u000a\u2022 \u0160ustov, A. S. (Hg.): Na\u0161i dejateli po medicine. S.-Peterburg 1910 (Illjustrirovan-nyj vestnik kul'tury, nau\u010dno-vospitatel'nago, techni\u010deskago i torgovo-promy\u0161lennago progressa Rossii 1).\u000a\u2022 WBIS RBA: R 456, 381-383.
 p28
-sS'ID'
+sS'Berufe'
 p29
-V30464
+VPraktischer Arzt, Psychiater, Ehrenleibmedikus
 p30
 s.

@@ -1,62 +1,62 @@
 (dp0
-S'Name'
+S'A'
 p1
-(dp2
-S'Nachname'
-p3
-VBÜTTIG
-p4
-sS'Vorname'
-p5
-VWilhelm August (von)
-p6
-ssS'Kyrillische Namen'
-p7
-V\u0411\u0418\u0422\u0422\u0418\u0413, \u0412\u0438\u043b\u044c\u0433e\u043b\u044c\u043c \u0418\u0432a\u043do\u0432\u0438\u0447 / BITTIG, Vil'gel'm Ivanovi\u010d (fon)
-p8
-sS'Ausbildung'
-p9
 VSchulbesuch in Lockwitz bei Dresden, 1833-1836 Studium der Medizin und 1836 Dr. med. an der Universität Leipzig [nicht in Russland].
+p2
+sS'MG'
+p3
+VDeutscher ärztlicher Verein in St. Petersburg (1864).
+p4
+sS'B'
+p5
+VKam als junger Arzt nach Kurland, ging später nach St. Petersburg, wurde Ordinator am Maksimilian- oder [Deutschen] Alexander-Hospital (?), ab 1870 "Ehrenleibchirurg" am Hofe des Zaren ALEKSANDR II. (1818-1881) und zugleich bis 1879 Leibarzt des Großfürsten KONSTANTIN NIKOLAEVI\u010c (1827-1892).\u000aInhaber des Ehrentitels "Wirklicher Russischer Staatsrat".\u000aVermachte zusammen mit seinem Neffen Ernst Leberecht BÜTTIG Mittel für den Bau des 1884 errichteten Schulhauses in Nickern. Nach ihm ist auch die Büttigstraße in seinem Geburtsort, heute ein Dresdner Stadtteil, benannt.
+p6
+sS'Name'
+p7
+(dp8
+S'Nachname'
+p9
+VBÜTTIG
 p10
-sS'Portraits'
+sS'Vorname'
 p11
-V\u2022 Foto von Bernd Walther und Hans Reinecke (1977): Dr. med. von Büttig (19. Jahrhundert, Künstler unbekannt). Öl auf Leinwand. Städtische Galerie Dresden 1933/25. Quelle: Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden (SLUB), Abt. Deutsche Fotothek, df_hauptkatalog_0188866. Abgedruckt in: Fischer 2010, 61.\u000a\u2022 #internNameLink#70252#endNameNr#Online Ressource#/internNameLink# (4.4.2012).
+VWilhelm August (von)
 p12
-sS'Namensvariationen'
+ssS'Namensvariationen'
 p13
 VBJUTTIG, \u0411\u042e\u0422\u0422\u0418\u0413, Vil'gel'm Avgust, \u0412\u0438\u043b\u044c\u0433e\u043b\u044c\u043c A\u0432\u0433\u0443c\u0442
 p14
-sS'Beruf'
+sS'Namen (kyrillisch)'
 p15
-VPraktischer Arzt, Leibarzt
+V\u0411\u0418\u0422\u0422\u0418\u0413, \u0412\u0438\u043b\u044c\u0433e\u043b\u044c\u043c \u0418\u0432a\u043do\u0432\u0438\u0447 / BITTIG, Vil'gel'm Ivanovi\u010d (fon)
 p16
-sS'Geburtsdaten'
+sS'Berufe'
 p17
-V3./15.2.1809, Nickern bei Dresden
+VPraktischer Arzt, Leibarzt
 p18
-sS'Lebensstationen'
+sS'Q'
 p19
-VKam als junger Arzt nach Kurland, ging später nach St. Petersburg, wurde Ordinator am Maksimilian- oder [Deutschen] Alexander-Hospital (?), ab 1870 "Ehrenleibchirurg" am Hofe des Zaren ALEKSANDR II. (1818-1881) und zugleich bis 1879 Leibarzt des Großfürsten KONSTANTIN NIKOLAEVI\u010c (1827-1892).\u000aInhaber des Ehrentitels "Wirklicher Russischer Staatsrat".\u000aVermachte zusammen mit seinem Neffen Ernst Leberecht BÜTTIG Mittel für den Bau des 1884 errichteten Schulhauses in Nickern. Nach ihm ist auch die Büttigstraße in seinem Geburtsort, heute ein Dresdner Stadtteil, benannt.
-p20
-sS'Sterbedaten'
-p21
-V14./26.4. oder 2.4. 1879, St. Petersburg, Grabstätte: Pavlovsk bei St. Petersburg
-p22
-sS'Werke'
-p23
-V\u2022 De phlebitide puerperarum uterina ac femorali. Diss. Leipzig 1836, 28 S. (Titelblatt abgebildet in: Fischer 2010, 62 [Exemplar der Universitätsbibliothek Leipzig, Signatur: Gbh. 945-a(K)]).\u000a\u2022 Factische Berichtigungen gegen Herrn Dr. Wreden's Antikritik. St. Petersburger medicinische Zeitschrift 9 (1865), 308-317.
-p24
-sS'Sekundaerliteratur'
-p25
-V\u2022 EAD: Dokument-Id [1289/1386 (23.7.2010)].\u000a\u2022 Peterburgskij nekropol'. Bd. 1 (1912), 359.
-p26
-sS'Quellen'
-p27
 V\u2022 Universitätsarchiv Leipzig, Matrikel zwischen 1825 und 1889, Signatur 1: Rektor B 53.\u000a\u2022 [Todesanzeige.] St. Petersburger medicinische Wochenschrift 4 (1879), 130.
+p20
+sS'P'
+p21
+V\u2022 Foto von Bernd Walther und Hans Reinecke (1977): Dr. med. von Büttig (19. Jahrhundert, Künstler unbekannt). Öl auf Leinwand. Städtische Galerie Dresden 1933/25. Quelle: Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden (SLUB), Abt. Deutsche Fotothek, df_hauptkatalog_0188866. Abgedruckt in: Fischer 2010, 61.\u000a\u2022 #internNameLink#70252#endNameNr#Online Ressource#/internNameLink# (4.4.2012).\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 61-62.</i>
+p22
+sS'Geburtsdaten'
+p23
+V3./15.2.1809, Nickern bei Dresden
+p24
+sS'Sterbedaten'
+p25
+V14./26.4. oder 2.4. 1879, St. Petersburg, Grabstätte: Pavlovsk bei St. Petersburg
+p26
+sS'W'
+p27
+V\u2022 De phlebitide puerperarum uterina ac femorali. Diss. Leipzig 1836, 28 S. (Titelblatt abgebildet in: Fischer 2010, 62 [Exemplar der Universitätsbibliothek Leipzig, Signatur: Gbh. 945-a(K)]).\u000a\u2022 Factische Berichtigungen gegen Herrn Dr. Wreden's Antikritik. St. Petersburger medicinische Zeitschrift 9 (1865), 308-317.
 p28
-sS'Mitgliedschaft'
+sS'SL'
 p29
-VDeutscher ärztlicher Verein in St. Petersburg (1864).
+V\u2022 EAD: Dokument-Id [1289/1386 (23.7.2010)].\u000a\u2022 Peterburgskij nekropol'. Bd. 1 (1912), 359.
 p30
 sS'ID'
 p31

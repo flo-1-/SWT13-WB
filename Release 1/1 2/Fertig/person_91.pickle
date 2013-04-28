@@ -1,82 +1,82 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VSergej Petrovi\u010d #internNameLink#30136#endNameNr#Botkin#/internNameLink#, Prof. für innere Medizin, Kaiserlicher Leibarzt
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VBOTKIN
-p6
-sS'Vorname'
-p7
-VSergej Sergeevi\u010d
-p8
-ssS'Geschwister'
-p9
-VEvgenij Sergeevi\u010d #internNameLink#30135#endNameNr#Botkin#/internNameLink#
-p10
-sS'Kyrillische Namen'
-p11
-V\u0411OT\u041a\u0418\u041d, Ce\u0440\u0433e\u0439 Ce\u0440\u0433ee\u0432\u0438\u0447
-p12
-sS'Ausbildung'
-p13
 V1875-1879 Besuch des 2. Klassischen St. Petersburger Gymnasiums, 1879-1883 Studium der Naturwissenschaften an der Physikalisch-mathematischen Fakultät der Universität St. Petersburg, 1883-1886 Studium und 1888 Dr. med. an der Militärmedizinischen Akademie (MMA) in St. Petersburg.
+p2
+sS'MG'
+p3
+VImperatorskaja akademija chudo\u017eestv [Kaiserliche Akademie der Künste] (ab 1905).
+p4
+sS'B'
+p5
+V1886-1889 Arzt in Weiterbildung an der Klinik für innere Medizin seines Vaters Sergej Petrovi\u010d an der MMA, 1889-1891 Auslandsaufenthalte zu Studien der Pathologischen Anatomie bei Friedrich Daniel von RECKLINGHAUSEN (1833-1910) und der experimentellen Pathologie und Pharmakologie bei Bernhard NAUNYN (1839-1925) in Straßburg, der Bakteriologie bei Carl FLÜGGE (1847-1923) in Breslau und der Immunität bei Robert KOCH (1843-1910) in Berlin, arbeitete dort in der Medizinischen Klinik von Ernst von LEYDEN (1832-1910) und in der Therapeutischen Klinik von Carl GERHARDT (1833-1902), ab 1892 Privatdozent an der MMA, 1892 Teilnahme am 11. Kongress für innere Medizin vom 20.-23. April in Leipzig, zugleich bis 1894 Senior-Ordinator im Städtischen Barackenkrankenhaus in St. Petersburg, 1894-1898 Prof. am Lehrstuhl für Infektionskrankheiten und 1898 bis 1910 am Lehrstuhl für Therapie und Leiter der Klinik für innere Medizin an der MMA, 1897 und 1900 erneute Studienaufenthalte bei Robert Koch in Berlin, 1904-1905 im Russisch-japanischen Krieg Hauptbevollmächtigter des Roten Kreuzes in der Nordost-Armee, ab 1905 "Ehrenleibmedikus" am Hofe des Zaren NIKOLAJ II. (1868-1918).\u000aInhaber hoher Ehrentitel und Auszeichnungen, darunter "Wirklicher Russischer Staatsrat", Ritter des St.-Vladimir-Ordens 3. Klasse, Ritter des St.-Annen-Ordens 2. Klasse, Officier de la Légion d'Honneur, Kommandeurskreuz des Ordens Philipps des Großmütigen von Hessen-Darmstadt 2. Klasse.
+p6
+sS'E'
+p7
+VAleksandra Pavlovna Botkina, geb. Tret'jakova (1867-1959)
+p8
+sS'Name'
+p9
+(dp10
+S'Nachname'
+p11
+VBOTKIN
+p12
+sS'Vorname'
+p13
+VSergej Sergeevi\u010d
 p14
-sS'Portraits'
+ssS'G'
 p15
-V\u2022 Foto aus: Volkov/Kulikova 2003 b (<b>SL</b>) [Bildeinlage]. Abgedruckt in: Fischer 2010, 50.\u000a\u2022 Foto in: Professora MCA/VMA (<b>SL</b>).\u000a\u2022 Ivan Nikolaevi\u010d Kramskoj (1837-1887): Sergej Sergeevi\u010d Botkin (1882). Öl auf Leinwand. Standort: Staatliche Tret'jakov-Galerie in Moskau. Abgedruckt in: Fischer 2010, 55 (Tafel IV).\u000a\u2022 Valentin Aleksandrovi\u010d Serov (1865-1911): Portrait der Töchter S. S. Botkins (1900). Bleistiftzeichnung. Standort: Staatliche Tret'jakov-Galerie in Moskau. Abgedruckt in: Fischer 2010, 54 (Tafel III) [Ein Aquarell befindet sich im Russischen Staatsmuseum St. Petersburg, nicht, wie teilweise im Internet angegeben wird, in der Tret'jakov-Galerie].
+VEvgenij Sergeevi\u010d #internNameLink#30135#endNameNr#Botkin#/internNameLink#
 p16
 sS'Namensvariationen'
 p17
 VBOTKIN, Sergei Sergeewitsch
 p18
-sS'Mutter'
+sS'M'
 p19
 VAnastasija Aleksandrovna Botkina, geb. Krylova (\u2020 1873)
 p20
-sS'Leistungen'
+sS'Namen (kyrillisch)'
 p21
-VErster Professor für Bakteriologie und Infektionskrankheiten in Russland, Gründer der russischen Bakteriologen- und Infektiologen-Schule, Entdecker von Lactobazillen, Entdecker der Leukozytolyse, 1890 Erfindung eines Apparates zur Züchtung anaerober Bakterien (Anaerobenapparat nach Botkin) (abgedruckt in: Fischer 2010, 53), 1892 Entdeckung des Buttersäurebazillus (<i>Bacillus butyricum</i> Botkin), 1892 Entdeckung einer Immunisierung durch das Blut von an Cholera Verstorbenen, 1905 Mitentdecker des sog. "mandschurischen Typhus", seit 1906 Anwendung der Röntgentherapie in der Praxis, 1909 Gründung einer Abteilung für Hydrotherapie an der MMA.\u000aAb 1890 Mitherausgeber von <i>Bol'ni\u010dnaja gazeta Botkina</i>.
+V\u0411OT\u041a\u0418\u041d, Ce\u0440\u0433e\u0439 Ce\u0440\u0433ee\u0432\u0438\u0447
 p22
-sS'Beruf'
+sS'Berufe'
 p23
 VProfessor für innere Medizin, Bakteriologe, Militärarzt
 p24
-sS'Nachkommen'
+sS'WL'
 p25
-VAleksandra Sergeevna Botkina, verh. Chochlova (1897-1985), Schauspielerin, Regisseurin\u000aAnastasija Sergeevna Botkina
+VErster Professor für Bakteriologie und Infektionskrankheiten in Russland, Gründer der russischen Bakteriologen- und Infektiologen-Schule, Entdecker von Lactobazillen, Entdecker der Leukozytolyse, 1890 Erfindung eines Apparates zur Züchtung anaerober Bakterien (Anaerobenapparat nach Botkin) (abgedruckt in: Fischer 2010, 53), 1892 Entdeckung des Buttersäurebazillus (<i>Bacillus butyricum</i> Botkin), 1892 Entdeckung einer Immunisierung durch das Blut von an Cholera Verstorbenen, 1905 Mitentdecker des sog. "mandschurischen Typhus", seit 1906 Anwendung der Röntgentherapie in der Praxis, 1909 Gründung einer Abteilung für Hydrotherapie an der MMA.\u000aAb 1890 Mitherausgeber von <i>Bol'ni\u010dnaja gazeta Botkina</i>.
 p26
-sS'Geburtsdaten'
+sS'P'
 p27
-V13./25.12.1859, Paris
+V\u2022 Foto aus: Volkov/Kulikova 2003 b (<b>SL</b>) [Bildeinlage]. Abgedruckt in: Fischer 2010, 50.\u000a\u2022 Foto in: Professora MCA/VMA (<b>SL</b>).\u000a\u2022 Ivan Nikolaevi\u010d Kramskoj (1837-1887): Sergej Sergeevi\u010d Botkin (1882). Öl auf Leinwand. Standort: Staatliche Tret'jakov-Galerie in Moskau. Abgedruckt in: Fischer 2010, 55 (Tafel IV).\u000a\u2022 Valentin Aleksandrovi\u010d Serov (1865-1911): Portrait der Töchter S. S. Botkins (1900). Bleistiftzeichnung. Standort: Staatliche Tret'jakov-Galerie in Moskau. Abgedruckt in: Fischer 2010, 54 (Tafel III) [Ein Aquarell befindet sich im Russischen Staatsmuseum St. Petersburg, nicht, wie teilweise im Internet angegeben wird, in der Tret'jakov-Galerie].\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 50-55.</i>
 p28
-sS'Lebensstationen'
+sS'Geburtsdaten'
 p29
-V1886-1889 Arzt in Weiterbildung an der Klinik für innere Medizin seines Vaters Sergej Petrovi\u010d an der MMA, 1889-1891 Auslandsaufenthalte zu Studien der Pathologischen Anatomie bei Friedrich Daniel von RECKLINGHAUSEN (1833-1910) und der experimentellen Pathologie und Pharmakologie bei Bernhard NAUNYN (1839-1925) in Straßburg, der Bakteriologie bei Carl FLÜGGE (1847-1923) in Breslau und der Immunität bei Robert KOCH (1843-1910) in Berlin, arbeitete dort in der Medizinischen Klinik von Ernst von LEYDEN (1832-1910) und in der Therapeutischen Klinik von Carl GERHARDT (1833-1902), ab 1892 Privatdozent an der MMA, 1892 Teilnahme am 11. Kongress für innere Medizin vom 20.-23. April in Leipzig, zugleich bis 1894 Senior-Ordinator im Städtischen Barackenkrankenhaus in St. Petersburg, 1894-1898 Prof. am Lehrstuhl für Infektionskrankheiten und 1898 bis 1910 am Lehrstuhl für Therapie und Leiter der Klinik für innere Medizin an der MMA, 1897 und 1900 erneute Studienaufenthalte bei Robert Koch in Berlin, 1904-1905 im Russisch-japanischen Krieg Hauptbevollmächtigter des Roten Kreuzes in der Nordost-Armee, ab 1905 "Ehrenleibmedikus" am Hofe des Zaren NIKOLAJ II. (1868-1918).\u000aInhaber hoher Ehrentitel und Auszeichnungen, darunter "Wirklicher Russischer Staatsrat", Ritter des St.-Vladimir-Ordens 3. Klasse, Ritter des St.-Annen-Ordens 2. Klasse, Officier de la Légion d'Honneur, Kommandeurskreuz des Ordens Philipps des Großmütigen von Hessen-Darmstadt 2. Klasse.
+V13./25.12.1859, Paris
 p30
 sS'Sterbedaten'
 p31
 V29.1./11.2.1910, St. Petersburg, Grabstätte: Friedhof Tichvinskoe (abgedruckt in: Fischer 2010, 53). http://img-fotki.yandex.ru/get/4608/melanyja.8e/0_582dc_76c7031c_XL  (4.4.2012)
 p32
-sS'Sekundaerliteratur'
+sS'W'
 p33
-V\u2022 Doviner, D. G.: Sergej Sergeevi\u010d Botkin i ego nau\u010dnoe nasledie. Klini\u010deskaja medicina Bd. 32, Jg. 35 (1954) 1, 86-92.\u000a\u2022 Nachapetov 2003, 107-126, 214.\u000a\u2022 Pridvornyj kalendar': na 1910 god. S.-Peterburg [o.J.], 289-290.\u000a\u2022 Professora MCA/VMA, 118.\u000a\u2022 Volkov/Kulikova 2003 b, 73-74.\u000a\u2022 WBIS RBA: R 64, 221-224.
-p34
-sS'Werke'
-p35
 V\u2022 K voprosu o svjazi me\u017edu chimi\u010deskimi svojstvami i fiziologi\u010deskim dejstviem \u0161\u010delo\u010dnych metallov pervoj gruppy po Mendeleevu. E\u017eenedel'naja klini\u010deskaja gazeta (1885) Nr. 23.\u000a\u2022 Vlijanie solej rubidija i cezija na serdce i krovoobra\u0161\u010denie v svjazi s zakonnost'ju fiziologi\u010deskogo dejstvija \u0161\u010delo\u010dnych metallov. Diss. S.-Peterburg 1888, 34 S.\u000a\u2022 O \u017eeludo\u010dnom soke pri skorbute. E\u017eenedel'naja klini\u010deskaja gazeta (1889) Nr. 25-28.\u000a\u2022 Kolebanija v sostave \u017eeludo\u010dnago soka pri ostrych lichorado\u010dnych zabolevani jach. E\u017eenedel'naja klini\u010deskaja gazeta (1889) Nr. 29-32.\u000a\u2022 K voprosu o patologi\u010deskoj anatomii infekcionnoj \u017eeltuchi. E\u017eenedel'naja klini\u010deskaja gazeta (1889) Nr. 31.\u000a\u2022 Eine einfache Methode zur Isolierung anaërober Bacterien. Zeitschrift für Hygiene 9 (1890), 383-388.\u000a\u2022 Hämatologische Untersuchungen bei Tuberculininjectionen. Deutsche medici-nische Wochenschrift 18 (1892), 321-322.\u000a\u2022 Ueber einen Bacillus butyricus. Zeitschrift für Hygiene 11 (1892), 421-434.\u000a\u2022 K patologii cholery. Bol'ni\u010dnaja gazeta Botkina (1894), 10 S.\u000a\u2022 Man'\u010d\u017eurskij tif, ego klinika i vozbuditel'. Mit Semen Semenovi\u010d Zimnickij. In: Trudy Pervogo s-ezda rossijskich terapevtov v Moskve. Viktor Aleksandrovi\u010d Vorob'ev, Maksim Petrovi\u010d Kon\u010dalovskij (Red.) Moskva 1910; <b>deutsch</b>: Der mandschurische Typhus, sein klinisches Bild und sein Erreger. Zeitschrift für klinische Medicin 72 (1911), 271-291.
+p34
+sS'V'
+p35
+VSergej Petrovi\u010d #internNameLink#30136#endNameNr#Botkin#/internNameLink#, Prof. für innere Medizin, Kaiserlicher Leibarzt
 p36
-sS'Ehegatten'
+sS'N'
 p37
-VAleksandra Pavlovna Botkina, geb. Tret'jakova (1867-1959)
+VAleksandra Sergeevna Botkina, verh. Chochlova (1897-1985), Schauspielerin, Regisseurin\u000aAnastasija Sergeevna Botkina
 p38
-sS'Mitgliedschaft'
+sS'SL'
 p39
-VImperatorskaja akademija chudo\u017eestv [Kaiserliche Akademie der Künste] (ab 1905).
+V\u2022 Doviner, D. G.: Sergej Sergeevi\u010d Botkin i ego nau\u010dnoe nasledie. Klini\u010deskaja medicina Bd. 32, Jg. 35 (1954) 1, 86-92.\u000a\u2022 Nachapetov 2003, 107-126, 214.\u000a\u2022 Pridvornyj kalendar': na 1910 god. S.-Peterburg [o.J.], 289-290.\u000a\u2022 Professora MCA/VMA, 118.\u000a\u2022 Volkov/Kulikova 2003 b, 73-74.\u000a\u2022 WBIS RBA: R 64, 221-224.
 p40
 sS'ID'
 p41

@@ -1,86 +1,86 @@
 (dp0
-S'Publikationsverzeichnisse'
+S'A'
 p1
-V\u2022 Gedichte (<b>W</b>), 32-38.\u000a\u2022 Recke, Johann Friedrich von; Napiersky, Carl Eduard: Allgemeines Schriftsteller- und Gelehrten-Lexikon der Provinzen Livland, Esthland und Kurland. Nachträge und Fortsetzungen. Unter Mitwirkung von C. E. Napiersky, bearb. von Theodor Beise. Bd. 2. Mitau 1861, 244-247; auch in: WBIS DBA: I 1285, 62-64, 66-70, und BaBA: I 375, 11-18.
-p2
-sS'Vater'
-p3
-VJohann Anton [nicht Anton Bernhard] (1722-1784), Pfarrer, Theologe und Schriftsteller
-p4
-sS'Name'
-p5
-(dp6
-S'Nachname'
-p7
-VTRINIUS
-p8
-sS'Vorname'
-p9
-VCarl Bernhard (von)
-p10
-ssS'Kyrillische Namen'
-p11
-VT\u0420\u0418\u041d\u0418\u0423C, Ka\u0440\u043b A\u043d\u0442o\u043do\u0432\u0438\u0447 / TRINIUS, Karl Antonovi\u010d
-p12
-sS'Ausbildung'
-p13
 VBis 1796 Besuch des Gymnasiums in Eisleben, 1796 Studium der Medizin an der Universität Jena, 1797 an der Universität Halle, 1798 an der Universität Leipzig, 1899-1802 und 1802 Dr. med. et chir. an der Universität Göttingen, 1803 Staatsprüfung bei Christoph Wilhelm HUFELAND (1762-1836) in Berlin, 1804 Arzt-Examen an der Universität Dorpat.
+p2
+sS'Q'
+p3
+V\u2022 St.-Andreas-Kirche Eisleben [Kirchenbuch]: Geb. 6.3.1778, Vater: Johann Anton, Großvater: Franz Friedrich Bernhard Trinius (Telefonische Mitteilung vom 15.4.2009).\u000a\u2022 Archiv der Deutschen Akademie der Naturforscher Leopoldina: MNr. 1233: * 6.3.1778, Eisleben, \u2020 12.3.1844, St. Petersburg; Lebensorte: St. Petersburg, Jena, Halle/Saale, Leipzig, Göttingen, Hasenpoth; mit Kurzbiographie aus DBE Bd. 10 (1999), 524.
+p4
+sS'MG'
+p5
+VImperatorskaja Akademija nauk [Kaiserliche Akademie der Wissenschaften] St. Petersburg (1810 korresp. und 1823 ord. Mitglied), Deutsche Akademie der Naturforscher Leopoldina (ab 1821), Deutscher Ärztlicher Verein in St. Petersburg (1824-1840), außerdem Physikalische Gesellschaft zu Göttingen, Botanische Gesellschaft zu Regensburg, Imperatorskoe Moskovskoe ob\u0161\u010destvo ispytatelej prirody [Kaiserliche Gesellschaft der Naturforscher zu Moskau], Kurländische Gesellschaft für Literatur und Kunst.
+p6
+sS'B'
+p7
+VAb 1804 in Kurland, zunächst Arzt des Kammerherrn Johann Emmerich von KEYSERLING (\u2020 1811) in Gawesen, 1805-1807 praktischer Arzt in Hasenpoth, teilweise auch in Wien (?),1808-1824 Leibarzt der Herzogin ANTOINETTE VON WÜRTTEMBERG, geb. Prinzessin VON SACHSEN-COBURG-SAALFELD (1779-1824) in Deutschland und in Russland, davon 1811-1815 und 1822-1824 in St. Petersburg und 1816-1822 in Vitebsk, 1823 Gründer und erster Direktor des Botanischen Museums der Kaiserlichen Akademie der Wissenschaften in St. Petersburg, 1824-1827 Leibarzt der Großfürstin ELENA PAVLOVNA, geb. FRIEDERIKE CHARLOTTE MARIE Prinzessin VON WÜRTTEMBERG (1806-1873), 1829-1833 Lehrer des Thronfolgers ALEKSANDR NIKOLAEVI\u010c (1818-1881), 1836-1838 Auslandsreisen im Auftrag der Kaiserlichen Akademie zur Besichtigung botanischer Sammlungen, u.a. in Berlin, Leipzig, Halle, Wien, 1837 in München und zuletzt 1838 in Dresden, danach Rückkehr nach St. Petersburg.\u000aInhaber hoher russischer Ehrentitel und Auszeichnungen, darunter "Kaiserlicher Russischer Hofrat" und "Staatsrat", Adelstitel, Ritter des St.-Vladimir-Ordens, 1828 Ritter des St.-Annen-Ordens 2. Klasse und 1830 mit der Kaiserkrone.
+p8
+sS'E'
+p9
+VJosepha Karol. Gottlieb, geb. Borikovsky (1775-1857)
+p10
+sS'Name'
+p11
+(dp12
+S'Nachname'
+p13
+VTRINIUS
 p14
-sS'Portraits'
+sS'Vorname'
 p15
-V\u2022 Portrait [ohne weitere Angaben]. Aus: Rossijskaja akademija nauk. Personal'nyj sostav. Kniga 1: 1724-1917. Moskva 1999, 41. Abgedruckt in: Fischer 2010, 262.\u000a\u2022 Portrait, http://upload.wikimedia.org/wikipedia/commons/0/08/Carl-Bernhard-Trinius.jpg  (5.4.2012).
+VCarl Bernhard (von)
 p16
-sS'Namensvariationen'
+ssS'Namensvariationen'
 p17
 VKarl, Karl Berngard, Bernchard, Ka\u0440\u043b \u0411e\u0440\u043d\u0433a\u0440\u0434, \u0411e\u0440\u043dxa\u0440\u0434
 p18
-sS'Mutter'
+sS'M'
 p19
 VCharlotte Gerhardine, geb. Hahnemann (1752-1812), Schwester von Samuel Hahnemann (1755-1843), dem Begründer der Homöopathie.
 p20
-sS'Leistungen'
+sS'Namen (kyrillisch)'
 p21
-VGehörte zu den ersten homöopathischen Ärzten im Russischen Zarenreich.\u000aEntdeckte und beschrieb eine Vielzahl neuer Gräserarten russischer und anderer Gebiete, veröffentlichte 34 Abhandlungen sowie viele Einzelabhandlungen und Manuskripte zur Botanik (vgl. <b>GPV</b>), stellte zwischen 1824 und 1844 eine Sammlung mit 4000-5000 Pflanzenbeschreibungen zusammen, das sog. "Herbarium Trinii", und vermachte es dem Botanischen Museum in St. Petersburg.*\u000aNach ihm wurde 1814 von Georg Franz HOFFMANN (1760-1826)** die Pflanzengattung <i>Trinia (Apiaceae)</i> = Faserschirm benannt,*** deren heimischer Vertreter <i>Trinia glauca</i> = Blaugrüner Faserschirm ist (abgedruckt in: Fischer 2010, 265). http://luirig.altervista.org/cpm/albums/fitch2/wal-hoo00444-trinia-glauca.jpg (5.4.2012).\u000aSein botanisches Autorenkürzel ist "TRIN."\u000a*) Die digitalisierte Form, das Ergebnis eines Gemeinschaftsprojektes des Smithsonian Institute (USA) und des Botanischen Instituts V. L. Komarov (St. Petersburg) ist seit 1995 als IDC Microfiches u. d. T. "Catalogue of the C. B. Trinius Herbarium" veröffentlicht, http://botany.si.edu/projects/trinius.html (27.3.2012).\u000a**) Ab 1804 Professor für Botanik und Pharmakologie und Gründer und Direktor des Botanischen Gartens an der Universität Moskau.\u000a***) Vgl. Ergänzungsblätter zur Jenaischen allgemeinen Literatur-Zeitung (1816) Nr. 31, 244.
+VT\u0420\u0418\u041d\u0418\u0423C, Ka\u0440\u043b A\u043d\u0442o\u043do\u0432\u0438\u0447 / TRINIUS, Karl Antonovi\u010d
 p22
-sS'Beruf'
+sS'Berufe'
 p23
 VPraktischer Arzt, Leibarzt, Botaniker, Dichter
 p24
-sS'Nachkommen'
+sS'WL'
 p25
-VTochter Amalie Julie Charlotte (Karlovna), verh. von Bulmerincq (1805-1891)\u000aTochter [Vorname und Lebensdaten unbekannt], verh. Hermann
+VGehörte zu den ersten homöopathischen Ärzten im Russischen Zarenreich.\u000aEntdeckte und beschrieb eine Vielzahl neuer Gräserarten russischer und anderer Gebiete, veröffentlichte 34 Abhandlungen sowie viele Einzelabhandlungen und Manuskripte zur Botanik (vgl. <b>GPV</b>), stellte zwischen 1824 und 1844 eine Sammlung mit 4000-5000 Pflanzenbeschreibungen zusammen, das sog. "Herbarium Trinii", und vermachte es dem Botanischen Museum in St. Petersburg.*\u000aNach ihm wurde 1814 von Georg Franz HOFFMANN (1760-1826)** die Pflanzengattung <i>Trinia (Apiaceae)</i> = Faserschirm benannt,*** deren heimischer Vertreter <i>Trinia glauca</i> = Blaugrüner Faserschirm ist (abgedruckt in: Fischer 2010, 265). http://luirig.altervista.org/cpm/albums/fitch2/wal-hoo00444-trinia-glauca.jpg (5.4.2012).\u000aSein botanisches Autorenkürzel ist "TRIN."\u000a*) Die digitalisierte Form, das Ergebnis eines Gemeinschaftsprojektes des Smithsonian Institute (USA) und des Botanischen Instituts V. L. Komarov (St. Petersburg) ist seit 1995 als IDC Microfiches u. d. T. "Catalogue of the C. B. Trinius Herbarium" veröffentlicht, http://botany.si.edu/projects/trinius.html (27.3.2012).\u000a**) Ab 1804 Professor für Botanik und Pharmakologie und Gründer und Direktor des Botanischen Gartens an der Universität Moskau.\u000a***) Vgl. Ergänzungsblätter zur Jenaischen allgemeinen Literatur-Zeitung (1816) Nr. 31, 244.
 p26
-sS'Geburtsdaten'
+sS'P'
 p27
-V6.3.1778, Eisleben
+V\u2022 Portrait [ohne weitere Angaben]. Aus: Rossijskaja akademija nauk. Personal'nyj sostav. Kniga 1: 1724-1917. Moskva 1999, 41. Abgedruckt in: Fischer 2010, 262.\u000a\u2022 Portrait, http://upload.wikimedia.org/wikipedia/commons/0/08/Carl-Bernhard-Trinius.jpg  (5.4.2012).\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 262-265.</i>
 p28
-sS'Lebensstationen'
+sS'Geburtsdaten'
 p29
-VAb 1804 in Kurland, zunächst Arzt des Kammerherrn Johann Emmerich von KEYSERLING (\u2020 1811) in Gawesen, 1805-1807 praktischer Arzt in Hasenpoth, teilweise auch in Wien (?),1808-1824 Leibarzt der Herzogin ANTOINETTE VON WÜRTTEMBERG, geb. Prinzessin VON SACHSEN-COBURG-SAALFELD (1779-1824) in Deutschland und in Russland, davon 1811-1815 und 1822-1824 in St. Petersburg und 1816-1822 in Vitebsk, 1823 Gründer und erster Direktor des Botanischen Museums der Kaiserlichen Akademie der Wissenschaften in St. Petersburg, 1824-1827 Leibarzt der Großfürstin ELENA PAVLOVNA, geb. FRIEDERIKE CHARLOTTE MARIE Prinzessin VON WÜRTTEMBERG (1806-1873), 1829-1833 Lehrer des Thronfolgers ALEKSANDR NIKOLAEVI\u010c (1818-1881), 1836-1838 Auslandsreisen im Auftrag der Kaiserlichen Akademie zur Besichtigung botanischer Sammlungen, u.a. in Berlin, Leipzig, Halle, Wien, 1837 in München und zuletzt 1838 in Dresden, danach Rückkehr nach St. Petersburg.\u000aInhaber hoher russischer Ehrentitel und Auszeichnungen, darunter "Kaiserlicher Russischer Hofrat" und "Staatsrat", Adelstitel, Ritter des St.-Vladimir-Ordens, 1828 Ritter des St.-Annen-Ordens 2. Klasse und 1830 mit der Kaiserkrone.
+V6.3.1778, Eisleben
 p30
 sS'Sterbedaten'
 p31
 V29.2./12.3.1844, St. Petersburg, Grabstätte: Friedhof Smolenskoe
 p32
-sS'Sekundaerliteratur'
+sS'W'
 p33
-V\u2022 Stieda, Ludwig: Trinius, Karl Bernhard. Allgemeine Deutsche Biographie 38 (1894), 619-621. #internNameLink#26838#endNameNr#Online Ressource#/internNameLink# (5.4.2012).\u000a\u2022 Biographie in: Gedichte (<b>W</b>), 1-24.\u000a\u2022 Dörges, Anke: Julius Schweikert (1807-1876) - ein homöopathischer Arzt im Russland des 19. Jahrhunderts. In: Regine Pfrepper, Sabine Fahrenbach, Natalja Decker (Hgg.): "Wer vieles bringt, wird manchem etwas bringen" - ein medizin- und wissenschaftshistorisches Florilegium. Festgabe für Ingrid Kästner zum 60. Geburtstag. Aachen 2002 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaft 5), 91-102.\u000a\u2022 EAD: Dokument-Id [52987/40476 (12.8.2010)].\u000a\u2022 Engelhardt, Dietrich von (Hg.): Biographische Enzyklopädie deutschsprachiger Mediziner. München 2002, 634.\u000a\u2022 Nemcy Rossii. Bd. 3 (2006), 569.\u000a\u2022 WBIS DBA: I 1285, 60-70, 73-74; II 1318, 121; BaBA: I 375, 11-21; RBA: R 463, 46-49.
-p34
-sS'Werke'
-p35
 V\u2022 De morbis inflammatoriis. Diss. med. Göttingen 1802.\u000a\u2022 Flore des environs de St.-Pétersbourg et de Moscou. Mit Joseph Liboschitz. St.-Petersbourg 1811, 121 S.\u000a\u2022 Fundamenta agrostographiae sive theoria constructionis floris graminei. Wien 1820.\u000a\u2022 Clavis agrostographiae antiquioris: Uebersicht des Zustandes der Agrostographie bis auf Linné ... Coburg 1822.\u000a\u2022 De graminibus unifloris et sesquifloris. Diss. bot. Sankt-Peterburg 1824.\u000a\u2022 De graminibus paniceis. Diss. bot. altera. Sankt-Peterburg 1826.\u000aWar auch Autor von Gedichten und einigen Dramen:\u000a\u2022 Gedichte. Mit der Biographie des Verfassers nach seinem Tode hrsg. von zweien seiner Freunde [Michael Eugen von Bulmerincq, Georg Adolf Dietrich von #internNameLink#30445#endNameNr#Rauch#/internNameLink#]. Berlin 1848, 273 S.
+p34
+sS'V'
+p35
+VJohann Anton [nicht Anton Bernhard] (1722-1784), Pfarrer, Theologe und Schriftsteller
 p36
-sS'Ehegatten'
+sS'GPV'
 p37
-VJosepha Karol. Gottlieb, geb. Borikovsky (1775-1857)
+V\u2022 Gedichte (<b>W</b>), 32-38.\u000a\u2022 Recke, Johann Friedrich von; Napiersky, Carl Eduard: Allgemeines Schriftsteller- und Gelehrten-Lexikon der Provinzen Livland, Esthland und Kurland. Nachträge und Fortsetzungen. Unter Mitwirkung von C. E. Napiersky, bearb. von Theodor Beise. Bd. 2. Mitau 1861, 244-247; auch in: WBIS DBA: I 1285, 62-64, 66-70, und BaBA: I 375, 11-18.
 p38
-sS'Quellen'
+sS'N'
 p39
-V\u2022 St.-Andreas-Kirche Eisleben [Kirchenbuch]: Geb. 6.3.1778, Vater: Johann Anton, Großvater: Franz Friedrich Bernhard Trinius (Telefonische Mitteilung vom 15.4.2009).\u000a\u2022 Archiv der Deutschen Akademie der Naturforscher Leopoldina: MNr. 1233: * 6.3.1778, Eisleben, \u2020 12.3.1844, St. Petersburg; Lebensorte: St. Petersburg, Jena, Halle/Saale, Leipzig, Göttingen, Hasenpoth; mit Kurzbiographie aus DBE Bd. 10 (1999), 524.
+VTochter Amalie Julie Charlotte (Karlovna), verh. von Bulmerincq (1805-1891)\u000aTochter [Vorname und Lebensdaten unbekannt], verh. Hermann
 p40
-sS'Mitgliedschaft'
+sS'SL'
 p41
-VImperatorskaja Akademija nauk [Kaiserliche Akademie der Wissenschaften] St. Petersburg (1810 korresp. und 1823 ord. Mitglied), Deutsche Akademie der Naturforscher Leopoldina (ab 1821), Deutscher Ärztlicher Verein in St. Petersburg (1824-1840), außerdem Physikalische Gesellschaft zu Göttingen, Botanische Gesellschaft zu Regensburg, Imperatorskoe Moskovskoe ob\u0161\u010destvo ispytatelej prirody [Kaiserliche Gesellschaft der Naturforscher zu Moskau], Kurländische Gesellschaft für Literatur und Kunst.
+V\u2022 Stieda, Ludwig: Trinius, Karl Bernhard. Allgemeine Deutsche Biographie 38 (1894), 619-621. #internNameLink#26838#endNameNr#Online Ressource#/internNameLink# (5.4.2012).\u000a\u2022 Biographie in: Gedichte (<b>W</b>), 1-24.\u000a\u2022 Dörges, Anke: Julius Schweikert (1807-1876) - ein homöopathischer Arzt im Russland des 19. Jahrhunderts. In: Regine Pfrepper, Sabine Fahrenbach, Natalja Decker (Hgg.): "Wer vieles bringt, wird manchem etwas bringen" - ein medizin- und wissenschaftshistorisches Florilegium. Festgabe für Ingrid Kästner zum 60. Geburtstag. Aachen 2002 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaft 5), 91-102.\u000a\u2022 EAD: Dokument-Id [52987/40476 (12.8.2010)].\u000a\u2022 Engelhardt, Dietrich von (Hg.): Biographische Enzyklopädie deutschsprachiger Mediziner. München 2002, 634.\u000a\u2022 Nemcy Rossii. Bd. 3 (2006), 569.\u000a\u2022 WBIS DBA: I 1285, 60-70, 73-74; II 1318, 121; BaBA: I 375, 11-21; RBA: R 463, 46-49.
 p42
 sS'ID'
 p43

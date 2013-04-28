@@ -1,86 +1,86 @@
 (dp0
-S'Publikationsverzeichnisse'
+S'A'
 p1
-VPublikationen 1821-1872, in: RBS, zit. nach WBIS RBA: R 193, im Text verteilt auf S. 228-234.
-p2
-sS'Vater'
-p3
-VCarl Johann (geb. in Königslutter), Koch in Reval
-p4
-sS'Name'
-p5
-(dp6
-S'Nachname'
-p7
-VSEIDLITZ
-p8
-sS'Vorname'
-p9
-VCarl Johann von
-p10
-ssS'Kyrillische Namen'
-p11
-V\u0417E\u0419\u0414\u041b\u0418\u0426, \u041aa\u0440\u043b \u041aa\u0440\u043bo\u0432\u0438\u0447 / ZEJDLIC, Karl Karlovi\u010d fon
-p12
-sS'Ausbildung'
-p13
 VBesuch der Kreisschule und 1810-1815 des Gouvernement-Gymnasiums in Reval, 1815-1820 Studium der Medizin und 1821 Dr. med. an der Universität Dorpat.
+p2
+sS'Q'
+p3
+VRossijskij gosudarstvennyj archiv literatury i isskustva, Moskva [Russisches Staatliches Archiv für Literatur und Kunst]: \u0420\u0413\u0410\u041b\u0418 \u0424. 209 (Rukopisy K. K. Zejdlica 1822-1870).
+p4
+sS'MG'
+p5
+VMediko-chirurgi\u010deskaja akademija [Mediko-chirurgische Akademie] (Ehrenmitglied), Deutscher ärztlicher Verein in St. Petersburg (ab 1825), Estländische literarische Gesellschaft in Reval, Gelehrte Estnische Gesellschaft zu Dorpat, Académie des Sciences (France), Vizepräsident der Livländischen Gemeinnützigen und Ökonomischen Sozietät, Vorsitzender der Gesellschaft für Geschichte und Altertumskunde der Ostseeprovinzen in Riga, Administrator der Robert Heimbürger Stiftung der Kaiserlichen Universität zu Dorpat.
+p6
+sS'B'
+p7
+VAb 1821 im russischen Militärdienst, 1822-1825 Arzt am Marinehospital in St. Petersburg, 1823 zur Cholerabekämpfung in Astrachan', 1825-1828 Studienaufenthalte in Krankenhäusern in Paris, Montpellier, Genf und Pisa, an der Charité in Berlin und im Allgemeinen Krankenhaus in Wien, 1828-1829 Oberarzt des Hauptquartiers des 2. Armeekorps und des Pesthospitals in Adrianopel, 1829-1830 Gesandtschaftsarzt in Konstantinopel, 1830-1836/37 Chefarzt am Marine-Hospital in St. Petersburg, 1835 Leibarzt der Großfürstin ELENA PAVLOVNA, geb. FRIEDERIKE CHARLOTTE MARIE Prinzessin VON WÜRTTEMBERG (1806-1873) während ihrer Reise nach Berlin, 1836 (oder ab 1830) Medizinalinspektor des St. Petersburger Hafens, war zeitweise auch Mitglied des Medizinalrats des Ministeriums des Innern, 1836-1846 (oder 1837-1847) Professor für innere Medizin und Lehrstuhl für Therapie an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg, 1846 (oder 1864) pensioniert, lebte ab 1847 in Livland, teils in Dorpat und auf seinem Landgut in Meyershof.\u000aInhaber der Goldmedaille der Medizinischen Fakultät der Universität Dorpat (1818) sowie der Ehrentitel "Wirklicher Russischer Staatsrat" und "Dr. med. h. c." der Universitäten Paris und Kopenhagen.
+p8
+sS'E'
+p9
+V1. Marie (Ivanovna), geb. Weltzien (1808-1833), Tochter von Johann Christian #internNameLink#30469#endNameNr#Weltzien#/internNameLink#\u000a2. Justine Charlotte (Egorovna), geb. von Rauch (1816-1896), Tochter von Georg Adolph Dietrich von #internNameLink#30445#endNameNr#Rauch#/internNameLink#
+p10
+sS'Name'
+p11
+(dp12
+S'Nachname'
+p13
+VSEIDLITZ
 p14
-sS'Portraits'
+sS'Vorname'
 p15
-V\u2022 Foto aus den 1880-er Jahren. Aus: Vui\u010d (<b>SL</b>); auch in: WBIS RBA: R 193, 237 (<b>SL</b>). Abgedruckt in: Fischer 2010, 227. http://www.nasledie-rus.ru/img/690000/691415.jpg (5.4.2012).\u000a\u2022 Aleksandra Andreevna Voejkova (1797-1829): Carl Johann von Seidlitz. Bleistiftzeichnung aus den 1820-er Jahren. Aus: Vui\u010d (<b>SL</b>). Abgedruckt in: Fischer 2010, 230. http://www.nasledie-rus.ru/img/690000/691402.jpg (5.4.2012).\u000a\u2022 Julie Wilhelmine Hagen-Schwarz (1824-1902): Carl Johann von Seidlitz (1882). Stich. In: Farber (<b>SL</b>), 155, und Vui\u010d. http://www.nasledie-rus.ru/img/690000/691412.jpg  (5.4.2012).\u000a\u2022 Foto in: Professora MCA/VMA (<b>SL</b>).\u000a\u2022 Foto in: Kichigina 2011, 192 (<b>SL</b>).
+VCarl Johann von
 p16
-sS'Namensvariationen'
+ssS'Namensvariationen'
 p17
 VSEIDLITZ-MEYERSHOF, Karl, Iogann, \u0418o\u0433a\u043d\u043d
 p18
-sS'Mutter'
+sS'M'
 p19
 VLuise Helene, geb. Kalk
 p20
-sS'Leistungen'
+sS'Namen (kyrillisch)'
 p21
-VReformierte den medizinischen Unterricht an der MCA (rationelle Unterrichtsmethoden, klare Gliederung der Unterrichtsfächer u.a.), 1836 Gründer des ersten Ambulatoriums an der Klinik für innere Medizin, später auch des Kliniklaboratoriums, Gründer der Propädeutischen Klinik, erste Anwendung mikroskopischer Untersuchungen, der Differentialdiagnostik und physikalischer Untersuchungsmethoden (Perkussion, Palpation, Auskultation) in Russland, bewies 1840 als Erster in Russland die Möglichkeit der Anwendung des künstlichen Pneumothorax bei Lungentuberkulose.\u000aBetreuer des schriftlichen Nachlasses des russischen Dichters Vasilij Andreevi\u010d \u017dUKOVSKIJ (1783-1852).*)\u000a*) O\u010derka razvitija po\u0117ti\u010deskoj dejatel'nosti V. A. \u017dukovskogo. \u017durnal Ministerstva narodnogo prosve\u0161\u010denija (1869) Nr. 4-6; deutsche Ausgabe: Wasily Andrejewitsch Joukoffsky. Ein russisches Dichterleben. Mitau 1870, 240 S.; russische Neuausgabe: \u017dizn' i po\u0117zija V. A. \u017dukovskago. 1783-1852. Po neizdannym isto\u010dnikam i li\u010dnym vospominanijam K. K. Zejdlica. Sankt-Peterburg 1883, 259 S. http://www.archive.org/stream/zhiznipoeziavaz00seidgoog#page/n6/mode/1up (19.6.2009).\u000aVerfasser von 17 wissenschaftlichen Arbeiten auf dem Gebiet der Infektionskrankheiten und Kriegsseuchen (vgl. <b>GPV</b>).\u000a1874-1882 Redaktions-Leiter der Publikation General-Nivellement von Livland. Lfg. 1-4. Dorpat 1877-1883.
+V\u0417E\u0419\u0414\u041b\u0418\u0426, \u041aa\u0440\u043b \u041aa\u0440\u043bo\u0432\u0438\u0447 / ZEJDLIC, Karl Karlovi\u010d fon
 p22
-sS'Beruf'
+sS'Berufe'
 p23
 VMilitärarzt, Professor für innere Medizin, Leibarzt
 p24
-sS'Nachkommen'
+sS'WL'
 p25
-VMarie (Karlovna), verh. von Oettingen (1832-1903)\u000aCarl Johann Maria (Karlovi\u010d) (1838-1897), Leutnant\u000aGeorg Karl Maria (Karlovi\u010d) (1840-1917), Zoologe\u000aOskar Alex. Carl Maria (Karlovi\u010d) (1847-1916)
+VReformierte den medizinischen Unterricht an der MCA (rationelle Unterrichtsmethoden, klare Gliederung der Unterrichtsfächer u.a.), 1836 Gründer des ersten Ambulatoriums an der Klinik für innere Medizin, später auch des Kliniklaboratoriums, Gründer der Propädeutischen Klinik, erste Anwendung mikroskopischer Untersuchungen, der Differentialdiagnostik und physikalischer Untersuchungsmethoden (Perkussion, Palpation, Auskultation) in Russland, bewies 1840 als Erster in Russland die Möglichkeit der Anwendung des künstlichen Pneumothorax bei Lungentuberkulose.\u000aBetreuer des schriftlichen Nachlasses des russischen Dichters Vasilij Andreevi\u010d \u017dUKOVSKIJ (1783-1852).*)\u000a*) O\u010derka razvitija po\u0117ti\u010deskoj dejatel'nosti V. A. \u017dukovskogo. \u017durnal Ministerstva narodnogo prosve\u0161\u010denija (1869) Nr. 4-6; deutsche Ausgabe: Wasily Andrejewitsch Joukoffsky. Ein russisches Dichterleben. Mitau 1870, 240 S.; russische Neuausgabe: \u017dizn' i po\u0117zija V. A. \u017dukovskago. 1783-1852. Po neizdannym isto\u010dnikam i li\u010dnym vospominanijam K. K. Zejdlica. Sankt-Peterburg 1883, 259 S. http://www.archive.org/stream/zhiznipoeziavaz00seidgoog#page/n6/mode/1up (19.6.2009).\u000aVerfasser von 17 wissenschaftlichen Arbeiten auf dem Gebiet der Infektionskrankheiten und Kriegsseuchen (vgl. <b>GPV</b>).\u000a1874-1882 Redaktions-Leiter der Publikation General-Nivellement von Livland. Lfg. 1-4. Dorpat 1877-1883.
 p26
-sS'Geburtsdaten'
+sS'P'
 p27
-V6./17.3.1798, Reval
+V\u2022 Foto aus den 1880-er Jahren. Aus: Vui\u010d (<b>SL</b>); auch in: WBIS RBA: R 193, 237 (<b>SL</b>). Abgedruckt in: Fischer 2010, 227. http://www.nasledie-rus.ru/img/690000/691415.jpg (5.4.2012).\u000a\u2022 Aleksandra Andreevna Voejkova (1797-1829): Carl Johann von Seidlitz. Bleistiftzeichnung aus den 1820-er Jahren. Aus: Vui\u010d (<b>SL</b>). Abgedruckt in: Fischer 2010, 230. http://www.nasledie-rus.ru/img/690000/691402.jpg (5.4.2012).\u000a\u2022 Julie Wilhelmine Hagen-Schwarz (1824-1902): Carl Johann von Seidlitz (1882). Stich. In: Farber (<b>SL</b>), 155, und Vui\u010d. http://www.nasledie-rus.ru/img/690000/691412.jpg  (5.4.2012).\u000a\u2022 Foto in: Professora MCA/VMA (<b>SL</b>).\u000a\u2022 Foto in: Kichigina 2011, 192 (<b>SL</b>).\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 227-230.</i>
 p28
-sS'Lebensstationen'
+sS'Geburtsdaten'
 p29
-VAb 1821 im russischen Militärdienst, 1822-1825 Arzt am Marinehospital in St. Petersburg, 1823 zur Cholerabekämpfung in Astrachan', 1825-1828 Studienaufenthalte in Krankenhäusern in Paris, Montpellier, Genf und Pisa, an der Charité in Berlin und im Allgemeinen Krankenhaus in Wien, 1828-1829 Oberarzt des Hauptquartiers des 2. Armeekorps und des Pesthospitals in Adrianopel, 1829-1830 Gesandtschaftsarzt in Konstantinopel, 1830-1836/37 Chefarzt am Marine-Hospital in St. Petersburg, 1835 Leibarzt der Großfürstin ELENA PAVLOVNA, geb. FRIEDERIKE CHARLOTTE MARIE Prinzessin VON WÜRTTEMBERG (1806-1873) während ihrer Reise nach Berlin, 1836 (oder ab 1830) Medizinalinspektor des St. Petersburger Hafens, war zeitweise auch Mitglied des Medizinalrats des Ministeriums des Innern, 1836-1846 (oder 1837-1847) Professor für innere Medizin und Lehrstuhl für Therapie an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg, 1846 (oder 1864) pensioniert, lebte ab 1847 in Livland, teils in Dorpat und auf seinem Landgut in Meyershof.\u000aInhaber der Goldmedaille der Medizinischen Fakultät der Universität Dorpat (1818) sowie der Ehrentitel "Wirklicher Russischer Staatsrat" und "Dr. med. h. c." der Universitäten Paris und Kopenhagen.
+V6./17.3.1798, Reval
 p30
 sS'Sterbedaten'
 p31
 V7./19.2. oder 6./18.12.1885, Dorpat
 p32
-sS'Sekundaerliteratur'
+sS'W'
 p33
-V\u2022 ADB. Bd. 33 (1891), 645\u000a\u2022 EAD [1]: Dokument-Id [78721/77482 und 1075605 (10.8.2010)].\u000a\u2022 EAD [2]: Dokument-Id [1072484 (10.8.2010)].\u000a\u2022 Farber, V. B.: K. K. Zejdlic kak klinicist. Klini\u010deskaja medicina Bd. 36, Jg. 39 (1958) 1, 154-158.\u000a\u2022 Raikov, Boris Evgen'evi\u010d: Karl Ernst von Baer 1792-1876. Sein Leben und Werk. Leipzig 1968 (Acta historica Leopoldina 5), 348-350: [Kurzbiographie].\u000a\u2022 Nemcy Rossii. Bd. 1 (1999), 795.\u000a\u2022 Professora MCA/VMA, 117.\u000a\u2022 Vui\u010d, Lada: Neizvestnye stranicy biografii druga V. A. \u017dukovskog, avtora pervogo \u017eizneopisanija po\u0117ta: Spb. 1883: "Vernyj drug \u017eivym i mertvym" doktor Zejdlic. Na\u0161e nasledie (2004) Nr. 69. http://www.nasledie-rus.ru/podshivka/6914.php (12.3.2012).\u000a\u2022 WBIS DBA: I 1172, 160-164; II 1213, 250; BaBA: I 330, 95-102; RBA: R 193, 227-240; SU 179,420; RS 26, 46-48.\u000a\u2022 Galina Kichigina: Physical Methods and Pathologico-Anatomical Diagnosis in Early Nineteenth-Century Clinical Medicine. Karl Johann von Seidlitz (1798-1885) at the St. Petersburg Medico-Surgical Academy, 1836-1846. In: Ortrun Riha und Marta Fischer (Hgg:): "Naturwissenschaft als Kommunikationsraum". Internationale Tagung, Leipzig 29.9.-1.10.2010. Aachen 2011 (Relationes 6), 189-201.
-p34
-sS'Werke'
-p35
 V\u2022 Praecipuis oculorum morbis inter Esthonos obviis. Dissertation. Dorpat 1821, 73 S. http://dspace.utlib.ee/dspace/bitstream/10062/7359/1/seidlitz_praecipuis.pdf (12.3.2012)\u000a\u2022 Medicinische Geschichte des Russisch-türkischen Feldzugs in den Jahren 1828 und 1829. Hg. v. Friedrich Alexander Simon. Hamburg 1854, 292 S.\u000a\u2022 Bericht über die Ergebnisse des therapeutisch-klinischen Unterrichts an der Mediko-chirurgischen Akademie zu St. Petersburg 1839-1840. St. Petersburg 1841, 244 S.\u000a\u2022 [Hg.] Briefe auf einer Reise in Deutschland: in den Jahren 1821 und 1822. Geschrieben von Constantin Emanuel von Weltzien (1798-1824). Dorpat 1874, 120 S.
+p34
+sS'V'
+p35
+VCarl Johann (geb. in Königslutter), Koch in Reval
 p36
-sS'Ehegatten'
+sS'GPV'
 p37
-V1. Marie (Ivanovna), geb. Weltzien (1808-1833), Tochter von Johann Christian #internNameLink#30469#endNameNr#Weltzien#/internNameLink#\u000a2. Justine Charlotte (Egorovna), geb. von Rauch (1816-1896), Tochter von Georg Adolph Dietrich von #internNameLink#30445#endNameNr#Rauch#/internNameLink#
+VPublikationen 1821-1872, in: RBS, zit. nach WBIS RBA: R 193, im Text verteilt auf S. 228-234.
 p38
-sS'Quellen'
+sS'N'
 p39
-VRossijskij gosudarstvennyj archiv literatury i isskustva, Moskva [Russisches Staatliches Archiv für Literatur und Kunst]: \u0420\u0413\u0410\u041b\u0418 \u0424. 209 (Rukopisy K. K. Zejdlica 1822-1870).
+VMarie (Karlovna), verh. von Oettingen (1832-1903)\u000aCarl Johann Maria (Karlovi\u010d) (1838-1897), Leutnant\u000aGeorg Karl Maria (Karlovi\u010d) (1840-1917), Zoologe\u000aOskar Alex. Carl Maria (Karlovi\u010d) (1847-1916)
 p40
-sS'Mitgliedschaft'
+sS'SL'
 p41
-VMediko-chirurgi\u010deskaja akademija [Mediko-chirurgische Akademie] (Ehrenmitglied), Deutscher ärztlicher Verein in St. Petersburg (ab 1825), Estländische literarische Gesellschaft in Reval, Gelehrte Estnische Gesellschaft zu Dorpat, Académie des Sciences (France), Vizepräsident der Livländischen Gemeinnützigen und Ökonomischen Sozietät, Vorsitzender der Gesellschaft für Geschichte und Altertumskunde der Ostseeprovinzen in Riga, Administrator der Robert Heimbürger Stiftung der Kaiserlichen Universität zu Dorpat.
+V\u2022 ADB. Bd. 33 (1891), 645\u000a\u2022 EAD [1]: Dokument-Id [78721/77482 und 1075605 (10.8.2010)].\u000a\u2022 EAD [2]: Dokument-Id [1072484 (10.8.2010)].\u000a\u2022 Farber, V. B.: K. K. Zejdlic kak klinicist. Klini\u010deskaja medicina Bd. 36, Jg. 39 (1958) 1, 154-158.\u000a\u2022 Raikov, Boris Evgen'evi\u010d: Karl Ernst von Baer 1792-1876. Sein Leben und Werk. Leipzig 1968 (Acta historica Leopoldina 5), 348-350: [Kurzbiographie].\u000a\u2022 Nemcy Rossii. Bd. 1 (1999), 795.\u000a\u2022 Professora MCA/VMA, 117.\u000a\u2022 Vui\u010d, Lada: Neizvestnye stranicy biografii druga V. A. \u017dukovskog, avtora pervogo \u017eizneopisanija po\u0117ta: Spb. 1883: "Vernyj drug \u017eivym i mertvym" doktor Zejdlic. Na\u0161e nasledie (2004) Nr. 69. http://www.nasledie-rus.ru/podshivka/6914.php (12.3.2012).\u000a\u2022 WBIS DBA: I 1172, 160-164; II 1213, 250; BaBA: I 330, 95-102; RBA: R 193, 227-240; SU 179,420; RS 26, 46-48.\u000a\u2022 Galina Kichigina: Physical Methods and Pathologico-Anatomical Diagnosis in Early Nineteenth-Century Clinical Medicine. Karl Johann von Seidlitz (1798-1885) at the St. Petersburg Medico-Surgical Academy, 1836-1846. In: Ortrun Riha und Marta Fischer (Hgg:): "Naturwissenschaft als Kommunikationsraum". Internationale Tagung, Leipzig 29.9.-1.10.2010. Aachen 2011 (Relationes 6), 189-201.
 p42
 sS'ID'
 p43

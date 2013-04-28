@@ -1,70 +1,70 @@
 (dp0
-S'Vater'
+S'A'
 p1
-VFriedrich Wilhelm
-p2
-sS'Name'
-p3
-(dp4
-S'Nachname'
-p5
-VKADE
-p6
-sS'Vorname'
-p7
-VErnst (von)
-p8
-ssS'Kyrillische Namen'
-p9
-VKA\u0414E, \u042d\u0440a\u0441\u0442 \u0412a\u0441\u0438\u043b\u044ce\u0432\u0438\u0447 / KADE, \u0116rast Vasil'evi\u010d (fon)
-p10
-sS'Ausbildung'
-p11
 VBesuch des Gymnasiums in Mitau, 1836-1841 Studium an der Medizinischen Fakultät der Universität Moskau, 1861 Dr. med. in St. Petersburg.
-p12
-sS'Quellen'
-p13
+p2
+sS'Q'
+p3
 V\u2022 [Anonym:] Geheimrath Dr. Ernst von Kade \u000a. St. Petersburger medicinische Wochenschrift N. F. 6 [= 14] (1889), 427-428.
-p14
-sS'Namensvariationen'
-p15
-V\u0116rnest Vil'gel'movi\u010d, \u042d\u0440\u043de\u0441\u0442 \u0412\u0438\u043b\u044c\u0433e\u043b\u044c\u043co\u0432\u0438\u0447
-p16
-sS'Leistungen'
-p17
-VInitiierte die Gründung der Russischen chirurgischen Pirogov-Gesellschaft.
-p18
-sS'Beruf'
-p19
-VChirurg, Ehrenleibchirurg
-p20
-sS'Geburtsdaten'
-p21
-V3./15.10.1817, Mitau
-p22
-sS'Lebensstationen'
-p23
+p4
+sS'MG'
+p5
+VVerein St. Petersburger Ärzte, Russkoe chirurgi\u010deskoe ob\u0161\u010destvo Pirogova [Russische chirurgische Pirogov-Gesellschaft] (Gründungsinitiator, zeitweise Präses).
+p6
+sS'B'
+p7
 V1841-1843 Studienaufenthalte zwecks chirurgischer Weiterbildung im Ausland, darunter bei Bernhard von LANGENBECK (1810-1887) an der Chirurgischen Klinik und bei Johann Lucas SCHÖNLEIN (1793-1864) an der Medizinischen Klinik der Charité in Berlin, nach der Rückkehr bis 1851 Chirurg in der Gesandtschaft in Teheran, 1851-1854 außeretatmäßiger Arzt und 1857 etatmäßiger Arzt im Marien-Hospital für Arme in St. Petersburg, 1854-1855 Chirurg und Assistent von Nikolaj Ivanovi\u010d PIROGOV (1810-1881) in Sevastopol' während des Krimkrieges, ab 1856 Hofchirurg beim Großfürsten NIKOLAJ NIKOLAEVI\u010c (1831-1891), 1858-1860 erneut Studienaufenthalt bei Bernhard von LANGENBECK in Berlin und Studien in Paris, 1864-1867 Leiter der chirurgischen Abteilung und 1867-1871 Chefarzt des Marien-Hospitals für Arme, 1871-1884 Beratendes Mitglied im Medizinalrat des Ministeriums des Innern, 1877-1878 Feldchirurg während des Russisch-türkischen Krieges im Sonderhospital der "Institutionen der Zarin Marija" in Sistovo sowie in mehreren "fliegenden" (mobilen) Ambulanzen, ab 1874 "Ehrenleibchirurg" des Zaren ALEKSANDR II. (1818-1881).\u000aInhaber der Ehrentitel "Wirklicher Russischer Staatsrat" (1869) und "Geheimrat" (1881).
+p8
+sS'E'
+p9
+Voh. Amalie Auguste, geb. Knoop (1833-1882)
+p10
+sS'Name'
+p11
+(dp12
+S'Nachname'
+p13
+VKADE
+p14
+sS'Vorname'
+p15
+VErnst (von)
+p16
+ssS'Namensvariationen'
+p17
+V\u0116rnest Vil'gel'movi\u010d, \u042d\u0440\u043de\u0441\u0442 \u0412\u0438\u043b\u044c\u0433e\u043b\u044c\u043co\u0432\u0438\u0447
+p18
+sS'Namen (kyrillisch)'
+p19
+VKA\u0414E, \u042d\u0440a\u0441\u0442 \u0412a\u0441\u0438\u043b\u044ce\u0432\u0438\u0447 / KADE, \u0116rast Vasil'evi\u010d (fon)
+p20
+sS'Berufe'
+p21
+VChirurg, Ehrenleibchirurg
+p22
+sS'WL'
+p23
+VInitiierte die Gründung der Russischen chirurgischen Pirogov-Gesellschaft.
 p24
-sS'Sterbedaten'
+sS'Geburtsdaten'
 p25
-V22.11./4.12.1889, St. Petersburg, Grabstätte: Lutherischer Friedhof Volkovo, Abt. 23-53
+V3./15.10.1817, Mitau
 p26
-sS'Sekundaerliteratur'
+sS'Sterbedaten'
 p27
-V\u2022 Böhm 1998, 59.\u000a\u2022 EAD: Dokument-Id [70312/68828 und 1048348 (2.8.2010)].\u000a\u2022 Nemcy Rossii. Bd. 2 (2004), 8.\u000a\u2022 WBIS RBA: R 218, 359-361.
+V22.11./4.12.1889, St. Petersburg, Grabstätte: Lutherischer Friedhof Volkovo, Abt. 23-53
 p28
-sS'Werke'
+sS'W'
 p29
 V\u2022 O ranach sustavov. [Diss.] Sankt-Peterburg 1861, 123 S.\u000a\u2022 Ueber conservative und operative Indicationen bei Gliedverletzungen - wie soll operiert werden und wann? St. Petersburger medicinische Zeitschrift 7 (1864), 32-63 und 133-206.\u000a\u2022 Zur chirurgischen Casuistik. St. Petersburger medicinische Zeitschrift 10 (1866), 202-245.\u000a\u2022 Aneurysma der art. ischiadica, Unterbindung der art. iliaca communis sinistra. St. Petersburger medicinische Wochenschrift 1 (1876) 8, 2-5.\u000a\u2022 Das temporäre Kriegslazareth des Ressorts der Anstalten der Kaiserin Maria im Kloster Mariahimmelfahrt bei Sistowa. St. Petersburger medicinische Wochenschrift 2 (1877), 381-385; 3 (1878), 19-29.\u000a\u2022 Chirurgische Mittheilungen. St. Petersburger medicinische Wochenschrift 6 (1881), 50-52, 67-69 und 83-84.\u000a\u2022 Zur Frage von der Knochen- und Gelenktuberculose. St. Petersburger medicinische Wochenschrift 7 (1882), 117-120.
 p30
-sS'Ehegatten'
+sS'V'
 p31
-Voh. Amalie Auguste, geb. Knoop (1833-1882)
+VFriedrich Wilhelm
 p32
-sS'Mitgliedschaft'
+sS'SL'
 p33
-VVerein St. Petersburger Ärzte, Russkoe chirurgi\u010deskoe ob\u0161\u010destvo Pirogova [Russische chirurgische Pirogov-Gesellschaft] (Gründungsinitiator, zeitweise Präses).
+V\u2022 Böhm 1998, 59.\u000a\u2022 EAD: Dokument-Id [70312/68828 und 1048348 (2.8.2010)].\u000a\u2022 Nemcy Rossii. Bd. 2 (2004), 8.\u000a\u2022 WBIS RBA: R 218, 359-361.\u000aGedruckte Version in: <i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 119-120.</i>
 p34
 sS'ID'
 p35
