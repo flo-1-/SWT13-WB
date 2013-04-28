@@ -24,6 +24,7 @@
 		
 <RelatedPerson>
 		a owl:Class ;
+		rdfs:subClassOf <Person> ;
                 rdfs:label "Related Person"@en ;
                 rdfs:label "Assoziierte Person"@de ;
 		rdfs:comment "A Person related to a Important Person." .
