@@ -10,6 +10,7 @@ from HTMLParser import HTMLParser
 
 from drwHelper import openPickle
 from drwHelper import save
+from drwHelper import saveCurDict
 from drwHelper import convertHTMLChars
 from drwHelper import printWhatItIs
 
@@ -21,7 +22,6 @@ def loadHTMLList():
 	
 	return htmlList
 
-
 def getTextOfHTML(url):
 	"""
 	opens an url and returns its content as a string
@@ -31,7 +31,6 @@ def getTextOfHTML(url):
 	hTMLText = oneHTML.read()
 	
 	return hTMLText
-
 
 # create a subclass and override the handler methods
 class DrwHTMLParser(HTMLParser):
@@ -78,8 +77,6 @@ class DrwHTMLParser(HTMLParser):
 				self.myText += "\n" + data
 		self.myText = self.myText.replace("\n\n","\n")
 
-
-
 def parser(feed):
 	"""
 	@return parsed String
@@ -88,7 +85,6 @@ def parser(feed):
 	parser.feed(feed)
 	
 	return parser.myText
-
 
 def deleteCSS(text):
 	"""
@@ -131,9 +127,10 @@ def getKat(zeilen, ergebnis, kat):
 		
 	return ergebnis
 
-def getMut(zeilen, ergebnis, kat):
+def getMut(zeilen, ergebnis):
 	start = ende = wlba = fund = -1
 	n = o = p = 0
+	ergebnis = ""
 	
 	for p in range(len(zeilen)):
 		if (zeilen[p] == "M\n"):
@@ -147,7 +144,7 @@ def getMut(zeilen, ergebnis, kat):
 	#only Mutter present or Mutter and Mitglied present
 	if ((fund == 0) and (wlba == 1)) or (fund == 1):
 		for n in range(len(zeilen)):
-			if (zeilen[n] == kat + "\n") and (ende == -1):
+			if (zeilen[n] == "M\n") and (ende == -1):
 				start = n+1
 			elif ((zeilen[n][1:] == "\n") or (zeilen[n][2:] == "\n") or (zeilen[n][3:] == "\n") or (n+1 == len(zeilen)) ) and (n > start) and (start != -1):
 				ende = n
@@ -159,25 +156,25 @@ def getMut(zeilen, ergebnis, kat):
 		
 	return ergebnis
 
-def getMit(zeilen, ergebnis, kat):
+def getMit(zeilen, ergebnis):
 	start = ende = wlba = fund = -1
 	n = o = p = q = r = c = 0
+	ergebnis = ""
 	
 	for p in range(len(zeilen)):
 		if (zeilen[p] == "M\n"):
 			fund += 1
-		if ((zeilen[p] == "WL\n") or (zeilen[p] == "B\n") or (zeilen[p] == "A\n")) and (fund == -1):
+		elif ((zeilen[p] == "WL\n") or (zeilen[p] == "B\n") or (zeilen[p] == "A\n")) and (fund == -1):
 			wlba = 0	#Mutter not present
-		if ((zeilen[p] == "WL\n") or (zeilen[p] == "B\n") or (zeilen[p] == "A\n")) and (fund == 0):
+		elif ((zeilen[p] == "WL\n") or (zeilen[p] == "B\n") or (zeilen[p] == "A\n")) and (fund == 0):
 			wlba = 1	#Mutter present
-		if (fund == 1):
-			wlba = 2	#Mutter and Mitglied present
-			break
-	
-	#only Mutter present
+		elif (fund == 1):
+			break		#Mutter and Mitglied present
+
+	#only Mitglied present
 	if ((fund == 0) and (wlba == 0)):
 		for n in range(len(zeilen)):
-			if (zeilen[n] == kat + "\n") and (ende == -1):
+			if (zeilen[n] == "M\n") and (ende == -1):
 				start = n+1
 			elif ((zeilen[n][1:] == "\n") or (zeilen[n][2:] == "\n") or (zeilen[n][3:] == "\n") or (n+1 == len(zeilen)) ) and (n > start) and (start != -1):
 				ende = n
@@ -186,15 +183,13 @@ def getMit(zeilen, ergebnis, kat):
 			for o in range(start, ende):
 				ergebnis += zeilen[o]
 			ergebnis = ergebnis[:-1]
-		
-	return ergebnis
-
+			return ergebnis
 	#Mutter and Mitglied present
-	if (fund == 1):
+	elif (fund == 1):
 		for q in range(len(zeilen)):
-			if (zeilen[q] == kat + "\n") and (ende == -1) and (c == 0):
+			if (zeilen[q] == "M\n") and (ende == -1) and (c == 0):
 				c = 1
-			elif (zeilen[q] == kat + "\n") and (ende == -1) and (c != 0):
+			elif (zeilen[q] == "M\n") and (ende == -1) and (c != 0):
 				start = q+1
 			elif ((zeilen[q][1:] == "\n") or (zeilen[q][2:] == "\n") or (zeilen[q][3:] == "\n") or (q+1 == len(zeilen)) ) and (q > start) and (start != -1):
 				ende = q
@@ -203,8 +198,7 @@ def getMit(zeilen, ergebnis, kat):
 			for r in range(start, ende):
 				ergebnis += zeilen[r]
 			ergebnis = ergebnis[:-1]
-		
-	return ergebnis
+			return ergebnis
 
 def saveNamen(text, namenDict):
 	zeilen = text.splitlines(True)
@@ -265,8 +259,8 @@ def saveNamen(text, namenDict):
 	quellen = getKat(zeilen, quellen, "Q")			#Quellen
 	geschwister = getKat(zeilen, geschwister, "G")		#Geschwister
 	nachkommen = getKat(zeilen, nachkommen, "N")		#Nachkommen
-	mutter = getMut(zeilen, mutter, "M")			#Mutter
-	mitglied = getMit(zeilen, mitglied, "M")		#Mitgliedschaft
+	mutter = getMut(zeilen, mutter)				#Mutter
+	mitglied = getMit(zeilen, mitglied)			#Mitgliedschaft
 	
 	#Dictionary fuellen
 	namenDict["ID"] = ID
@@ -284,9 +278,9 @@ def saveNamen(text, namenDict):
 		namenDict["Vater"] = vater
 	if ehegatte != "":
 		namenDict["Ehegatten"] = ehegatte
-	if mutter != "":
+	if (mutter != "") and not (mutter is None):
 		namenDict["Mutter"] = mutter
-	if mitglied != "":
+	if (mitglied != "") and not (mitglied is None):
 		namenDict["Mitgliedschaft"] = mitglied
 	if ausbildung != "":
 		namenDict["Ausbildung"] = ausbildung
@@ -312,8 +306,9 @@ def saveNamen(text, namenDict):
 def main(argv):
 	htmlList = loadHTMLList()						#loads the url list
 	personenDict = {}							#dictionary for all persons
-	for i in range(7,8):							#loop for testing purposes
-#	for i in range(len(htmlList)):						#loop through the urls
+#	for i in range(5,6):							#loop for testing purposes
+	for i in range(len(htmlList)):						#loop through the urls
+		personenDict.clear()
 		htmlText = getTextOfHTML(htmlList[i])				#get text of i-th htm file
 		htmlText = convertHTMLChars(htmlText)				#convert speacial htm characters to unicode
 		text = htmlList[i][26:31] + "\n"				#add the file number to the new text 
@@ -321,7 +316,8 @@ def main(argv):
 		text = deleteCSS(text)						#delete CSS code and some whitespaces
 		save(text, os.getcwd()+"/Temp", "person_"+str(i),".txt")	#save the new text in a subfolder
 		saveNamen(text, personenDict)					#save the content of each category in a dictionary "personenDict"
-		print printWhatItIs(personenDict)				#print the dictionary for testing purposes
+		saveCurDict(personenDict, os.getcwd()+"/Fertig", "person_"+str(i))
+#		print printWhatItIs(personenDict)				#print the dictionary for testing purposes
 
 if __name__ == "__main__":
 	main(sys.argv[1:])
