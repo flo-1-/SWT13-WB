@@ -14,12 +14,69 @@
                 rdfs:label "Person"@en ;
                 rdfs:label "Person"@de ;
 		rdfs:comment "An historical relevant Person." .
+		
+<ImportantPerson>
+		a owl:Class ;
+		rdfs:subClassOf <Person> ;
+                rdfs:label "Important Person"@en ;
+                rdfs:label "Wichtige Person"@de ;
+		rdfs:comment "A Person important for the DRW database." .
+		
+<RelatedPerson>
+		a owl:Class ;
+                rdfs:label "Related Person"@en ;
+                rdfs:label "Assoziierte Person"@de ;
+		rdfs:comment "A Person related to a Important Person." .
+
+
 
 <Comment>
 		a owl:Class ;
                 rdfs:label "Comment"@en ;
                 rdfs:label "Kommentar"@de ;
 		rdfs:comment "A Comment for a specific Information in this database." .
+		
+<MotherComment>
+		a owl:Class ;
+		rdfs:subClassOf <Comment> ;
+                rdfs:label "Comment for mother"@en ;
+                rdfs:label "Kommentar zur Mutter"@de ;
+		rdfs:comment "A Comment for the mother of a specific Person." .
+		
+<FatherComment>
+		a owl:Class ;
+		rdfs:subClassOf <Comment> ;
+                rdfs:label "Comment for father"@en ;
+                rdfs:label "Kommentar zum Vater"@de ;
+		rdfs:comment "A Comment for the father of a specific Person." .
+
+<MarriagePartnerComment>
+		a owl:Class ;
+		rdfs:subClassOf <Comment> ;
+                rdfs:label "Comment for marriage partner"@en ;
+                rdfs:label "Kommentar zum Ehepartner"@de ;
+		rdfs:comment "A Comment for the marriage partner of a specific Person." .
+
+<DescendantComment>
+		a owl:Class ;
+		rdfs:subClassOf <Comment> ;
+                rdfs:label "Comment for all descendants"@en ;
+                rdfs:label "Kommentar zu allen Nachfahren"@de ;
+		rdfs:comment "A Comment for all descendant of a specific Person." .
+
+<SiblingComment>
+		a owl:Class ;
+		rdfs:subClassOf <Comment> ;
+                rdfs:label "Comment for all siblings"@en ;
+                rdfs:label "Kommentar zum allen Geschwistern"@de ;
+		rdfs:comment "A Comment for all sibling of a specific Person." .
+
+<StationOfLifeComment>
+		a owl:Class ;
+		rdfs:subClassOf <Comment> ;
+                rdfs:label "Comment for Stations Of Life"@en ;
+                rdfs:label "Kommentar zu Lebensstationen"@de ;
+		rdfs:comment "A Comment for all Stations Of Life of a specific Person." .
 
 <Name>
 		a owl:Class ;
@@ -197,6 +254,13 @@
 		rdfs:label "Link"@en ;
                 rdfs:label "Link"@de ;
 		rdfs:comment "An hyperlink to an online ressurce." .
+		
+<Picture>
+		a owl:Class ;
+		rdfs:subClassOf <Link> ;
+		rdfs:label "Picture"@en ;
+                rdfs:label "Bild"@de ;
+		rdfs:comment "A Picture of a Person." .
 
 
 
@@ -287,6 +351,67 @@
 		rdfs:domain <Name> ;
 		rdfs:range <LastName> ;
 		rdfs:comment "Property between a Name Object and the Last Name of a Person." .
+
+<hasPoL>
+		a owl:ObjectProperty ;
+		owl:inverseOf <isPoLOf> ;
+		rdfs:label "has PoL"@en ;
+				rdfs:label "hat PoL"@de ;
+		rdfs:domain <Person> ;
+		rdfs:range <PoL> ;
+		rdfs:comment "Property between a Person and a Period of her or his Life." .
+		
+<isPoLOf>
+		a owl:ObjectProperty ;
+		owl:inverseOf <hasPoL> ;
+		rdfs:label "is PoL of"@en ;
+				rdfs:label "ist PoL von"@de ;
+		rdfs:domain <PoL> ;
+		rdfs:range <Person> ;
+		rdfs:comment "Inverse property between a PoL and the related Person." .
+
+<hasStationOfLife>
+		a owl:ObjectProperty ;
+		owl:subPropertyOf <hasPol> ;
+		owl:inverseOf <isStationOfLifeOf> ;
+		rdfs:label "has the Station Of Life"@en ;
+				rdfs:label "hat die Lebensstation"@de ;
+		rdfs:domain <Person> ;
+		rdfs:range <StationOfLife> ;
+		rdfs:comment "Property between a Person and one of her or his Stations Of Life." .
+		
+<isStationOfLifeOfOf>
+		a owl:ObjectProperty ;
+		owl:subPropertyOf <isPolOf> ;
+		owl:inverseOf <hasStationOfLife> ;
+		rdfs:label "is Station Of Life of"@en ;
+				rdfs:label "ist Lebensstation von"@de ;
+		rdfs:domain <StationOfLife> ;
+		rdfs:range <Person> ;
+		rdfs:comment "Property between a StationOfLife and the related Person." .
+
+
+<hasEducation>
+		a owl:ObjectProperty ;
+		owl:subPropertyOf <hasPol> ;
+		owl:inverseOf <isEducationOf> ;
+		rdfs:label "has the Educational PoL"@en ;
+				rdfs:label "hat Ausbildungs PoL"@de ;
+		rdfs:domain <Person> ;
+		rdfs:range <Education> ;
+		rdfs:comment "Property between a Person and one part of her or his Education." .
+		
+<isEducationOf>
+		a owl:ObjectProperty ;
+		owl:subPropertyOf <isPolOf> ;
+		owl:inverseOf <hasEducation> ;
+		rdfs:label "is Educational PoL of"@en ;
+				rdfs:label "ist Ausbildungs PoL von"@de ;
+		rdfs:domain <Education> ;
+		rdfs:range <Person> ;
+		rdfs:comment "Property between a part of Education and the related Person." .
+
+
 
 <began>
 		a owl:ObjectProperty ;
@@ -439,40 +564,40 @@
 		a owl:ObjectProperty ;
 		rdfs:label "mother is"@en ;
                 rdfs:label "die Mutter ist"@de ;
-		rdfs:domain <Person> ;
-		rdfs:range <Person> ;
+		rdfs:domain <ImportantPerson> ;
+		rdfs:range <RelatedPerson> ;
 		rdfs:comment "Property between a person and her or his mother." .
 
 <fatherIs>
 		a owl:ObjectProperty ;
 		rdfs:label "father is"@en ;
                 rdfs:label "der Vater ist"@de ;
-		rdfs:domain <Person> ;
-		rdfs:range <Person> ;
+		rdfs:domain <ImportantPerson> ;
+		rdfs:range <RelatedPerson> ;
 		rdfs:comment "Property between a person and her or his father." .
 
 <hasSibling>
 		a owl:ObjectProperty ;
 		rdfs:label "has sibling"@en ;
                 rdfs:label "hat Geschwister"@de ;
-		rdfs:domain <Person> ;
-		rdfs:range <Person> ;
+		rdfs:domain <ImportantPerson> ;
+		rdfs:range <RelatedPerson> ;
 		rdfs:comment "Property between a person and her or his Sibling." .
 
 <wasMarriedTo>
 		a owl:ObjectProperty ;
 		rdfs:label "was married to"@en ;
                 rdfs:label "war verheiratet mit"@de ;
-		rdfs:domain <Person> ;
-		rdfs:range <Person> ;
+		rdfs:domain <ImportantPerson> ;
+		rdfs:range <RelatedPerson> ;
 		rdfs:comment "Property between a person and her or his marriage partner." .
 
 <hasDescendant>
 		a owl:ObjectProperty ;
 		rdfs:label "has descendant"@en ;
                 rdfs:label "hat den Nachfahren"@de ;
-		rdfs:domain <Person> ;
-		rdfs:range <Person> ;
+		rdfs:domain <ImportantPerson> ;
+		rdfs:range <RelatedPerson> ;
 		rdfs:comment "Property between a person and her or his descendant." .
 
 
@@ -526,15 +651,8 @@
                 rdfs:label "Hauptbeschäftigung ist"@de ;
 		rdfs:domain <Person> ;
 		rdfs:range <xsd:string> ;
-		rdfs:comment "Property between a Person and her or his general labor." .
+		rdfs:comment "Property between her or his general labor." .
 
-<drwID>
-		a owl:DatatypeProperty ;
-		rdfs:label "drw ID is"@en ;
-                rdfs:label "drw ID ist"@de ;
-		rdfs:domain <Person> ;
-		rdfs:range <xsd:string> ;
-		rdfs:comment "Property between a Person and her or his drw ID." .
 
 
 
