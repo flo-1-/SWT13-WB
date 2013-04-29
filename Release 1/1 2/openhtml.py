@@ -3,8 +3,8 @@
 
 import os
 import sys
-import urllib
-import re
+import urllib	#to open URLs
+import re	#regular expressions
 
 from HTMLParser import HTMLParser
 
@@ -97,23 +97,23 @@ def deleteCSS(text):
 	@type text: String
 	@return cleaned text as a string
 	"""
-	zeilen = text.splitlines(True)
+	zeilen = text.splitlines(True)					#split text into a list of lines
 	startZeile = 1
 	endZeile = -1
 	
-	for i in range(len(zeilen)):
-		if ("personendatenbank.html" in zeilen[i]):
-			endZeile = i+1
+	for i in range(len(zeilen)):					#scan through all lines
+		if ("personendatenbank.html" in zeilen[i]):		#if a line has a specific content
+			endZeile = i+1					#take the next index as endpoint
 			break
 	
-	for i in range(startZeile, endZeile):
-		zeilen[i] = ""
+	for i in range(startZeile, endZeile):				#from the first line to the endpoint
+		zeilen[i] = ""						#delete the lines
 		
-	for i in range(len(zeilen)):
-		if zeilen[i].strip() == "":
-			zeilen[i] = ""
+	for i in range(len(zeilen)):					#scan through all lines
+		if zeilen[i].strip() == "":				#if lines have whitespaces or linebreaks
+			zeilen[i] = ""					#delete these unnessessary lines
 	
-	text = "".join(zeilen[:])
+	text = "".join(zeilen[:])					#glue the splitted lines together
 	
 	return text
 
@@ -130,21 +130,23 @@ def getKat(zeilen, ergebnis, kat):
 	start = ende = -1
 	n = o = 0
 	
-	for n in range(len(zeilen)):
-		if (zeilen[n] == kat + "\n") and (ende == -1):
-			start = n+1
+	for n in range(len(zeilen)):					#scan through all lines
+		if (zeilen[n] == kat + "\n") and (ende == -1):		#if the desired short name is found
+			start = n+1					#take the next line as starting point
+		#if a starting point is found and another short name for a category is found or the end of the document is reached
 		elif ((zeilen[n][1:] == "\n") or (zeilen[n][2:] == "\n") or (zeilen[n][3:] == "\n") or (n+1 == len(zeilen)) ) and (n > start) and (start != -1):
-			if (n+1 == len(zeilen)):
-				ende = n+1
-				zeilen[n] = zeilen[n] + "X"
+			if (n+1 == len(zeilen)):			#if end of document is reached
+				ende = n+1				#take the last line as endpoint
+				zeilen[n] = zeilen[n] + "X"		#add a character (because it will be deleted later)
 				break
-			else:
-				ende = n
+			else:						#if next category is found
+				ende = n				#take that line as endpoint
 				break
-	if (start != -1) and (ende != -1):
-		for o in range(start, ende):
+	if (start != -1) and (ende != -1):				#if start and endpoint are found
+		for o in range(start, ende):				#add the lines between them to the result
 			ergebnis += zeilen[o]
-		ergebnis = ergebnis[:-1]
+		ergebnis = ergebnis[:-1]				#delete the last character (linebreak if endpoint is ...
+									#...a category or 'X' if endpoint is the end of the document)
 		
 	return ergebnis
 
@@ -160,18 +162,19 @@ def getMut(zeilen, ergebnis):
 	n = o = p = 0
 	ergebnis = ""
 	
-	for p in range(len(zeilen)):
-		if (zeilen[p] == "M\n"):
-			fund += 1	#M Counter
+	for p in range(len(zeilen)):					#scan through all lines
+		if (zeilen[p] == "M\n"):				#if category M is found
+			fund += 1					#inrement counter
+		#if categor WL, B or A is found and one category M was found before
 		if ((zeilen[p] == "WL\n") or (zeilen[p] == "B\n") or (zeilen[p] == "A\n")) and (fund == 0):
-			wlba = 1	#Mutter present
-		if (fund == 1):
-			wlba = 2	#Mutter and Mitglied present
+			wlba = 1					#first category M is Mutter
+		if (fund == 1):						#if two categories M are found
+			wlba = 2					#Mutter and Mitglied are present
 			break
 	
 	#only Mutter present or Mutter and Mitglied present
-	if ((fund == 0) and (wlba == 1)) or (fund == 1):
-		for n in range(len(zeilen)):
+	if ((fund == 0) and (wlba == 1)) or (fund == 1):		#if one M is found before WL, B or A or two M were found
+		for n in range(len(zeilen)):				#see doc for getKat(), it is the same from here
 			if (zeilen[n] == "M\n") and (ende == -1):
 				start = n+1
 			elif ((zeilen[n][1:] == "\n") or (zeilen[n][2:] == "\n") or (zeilen[n][3:] == "\n") or (n+1 == len(zeilen)) ) and (n > start) and (start != -1):
@@ -196,18 +199,18 @@ def getMit(zeilen, ergebnis):
 	n = o = p = q = r = c = 0
 	ergebnis = ""
 	
-	for p in range(len(zeilen)):
+	for p in range(len(zeilen)):					#see getMut() for this loop
 		if (zeilen[p] == "M\n"):
 			fund += 1
 		elif ((zeilen[p] == "WL\n") or (zeilen[p] == "B\n") or (zeilen[p] == "A\n")) and (fund == -1):
-			wlba = 0	#Mutter not present
+			wlba = 0					#Mutter not present
 		elif ((zeilen[p] == "WL\n") or (zeilen[p] == "B\n") or (zeilen[p] == "A\n")) and (fund == 0):
-			wlba = 1	#Mutter present
+			wlba = 1					#Mutter present
 		elif (fund == 1):
-			break		#Mutter and Mitglied present
+			break						#Mutter and Mitglied present
 
 	#only Mitglied present
-	if ((fund == 0) and (wlba == 0)):
+	if ((fund == 0) and (wlba == 0)):				#see getMut() for this condition
 		for n in range(len(zeilen)):
 			if (zeilen[n] == "M\n") and (ende == -1):
 				start = n+1
@@ -220,8 +223,9 @@ def getMit(zeilen, ergebnis):
 			ergebnis = ergebnis[:-1]
 			return ergebnis
 	#Mutter and Mitglied present
-	elif (fund == 1):
+	elif (fund == 1):						#see getMut() for this condition
 		for q in range(len(zeilen)):
+			#c is a counter to skip the first M
 			if (zeilen[q] == "M\n") and (ende == -1) and (c == 0):
 				c = 1
 			elif (zeilen[q] == "M\n") and (ende == -1) and (c != 0):
@@ -243,67 +247,70 @@ def saveNamen(text, namenDict):
 	@type text: String
 	@type namenDict: Dictionary
 	"""
-	zeilen = text.splitlines(True)
-	kreuzZeile = -1
-	ID = zeilen[0][:-1].strip()
-	nachName = zeilen[1][:(zeilen[1].find(","))].strip()
-	vorName = zeilen[1][(zeilen[1].find(",")+1):].strip()
+	zeilen = text.splitlines(True)					#split text into a list of lines
+	kreuzZeile = -1							#line with a cross-shape character
+	ID = zeilen[0][:-1].strip()					#take the first line without linebreak as ID
+	nachName = zeilen[1][:(zeilen[1].find(","))].strip()		#take the second line before the comma as nachName
+	vorName = zeilen[1][(zeilen[1].find(",")+1):].strip()		#take the second line after the comma as vorName
+	#set the contents to empty string so the can be overwritten properly
 	nameKyr = namensVar = geburtsDaten = sterbeDaten = beruf = vater = ehegatte = mutter = mitglied = ausbildung = lebensstationen = ""
 	leistungen = werke = sekundLit = publikVerz = quellen = portraits = geschwister = nachkommen = ""
 	
 	#Kyrillischer Name
-	for i in range(2,5):
+	for i in range(2,5):						#scan through lines 2, 3 and 4
+		#if a line starts with a '*' or 'Namen'
 		if (zeilen[i][:2].strip() == "*" or zeilen[i][:5].strip() == "Namen") or (zeilen[i][:5].strip() == "Name"):
 			break
 		else:
-			if (zeilen[i][-1:] == "\n"):
-				nameKyr += zeilen[i][:-1]
+			if (zeilen[i][-1:] == "\n"):			#if the line ends with a linebreak
+				nameKyr += zeilen[i][:-1]		#save nameKyr without it
 			else:
-				nameKyr += zeilen[i]
+				nameKyr += zeilen[i]			#save line in nameKyr
 	
 	#Namensvariationen
-	for j in range(3,10):
+	for j in range(3,10):						#scan through lines 4 to 9
+		#if line starts with 'Namen'
 		if ((zeilen[j][:5].strip() == "Namen") or (zeilen[j][:5].strip() == "Name")):
-			if (zeilen[j][-1:] == "\n"):
-				namensVar += zeilen[j][19:-1].strip()
+			if (zeilen[j][-1:] == "\n"):			#if line ends with a linebreak
+				namensVar += zeilen[j][19:-1].strip()	#save the text after string 'Namensvariatonen: ' without it
 			else:
-				namensVar += zeilen[j][19:].strip()
+				namensVar += zeilen[j][19:].strip()	#save the text after string 'Namensvariationen: '
 	
 	#Geburtsdatum und Ort
-	for k in range(3,10):
-		if ((zeilen[k][:2].strip() == "*")):
-			geburtsDaten = zeilen[k][2:-1].strip()
+	for k in range(3,10):						#scan through lines 4 to 9
+		if ((zeilen[k][:2].strip() == "*")):			#if a line starts with a '*'
+			geburtsDaten = zeilen[k][2:-1].strip()		#save that line without linebreaks
 			break
 	
 	#Sterbedaten
-	for l in range(20):
-		if ((zeilen[l][:2].strip() == u'†')):
-			kreuzZeile = l
-			sterbeDaten = zeilen[l][2:-1].strip()
+	for l in range(20):						#scan through lines 1 to 19
+		if ((zeilen[l][:2].strip() == u'†')):			#if a line starts with a cross-shaped character
+			kreuzZeile = l					#save that linenumber in kreuzZeile
+			sterbeDaten = zeilen[l][2:-1].strip()		#save the content of the line without linebreak and first character
 			break
 	
 	#Beruf
-	for m in range(kreuzZeile+1, 20):
-		if not (zeilen[m][1:] == "\n"):
-			beruf += zeilen[m][:-1]
+	for m in range(kreuzZeile+1, 20):				#scan from the line after the cross to line 19
+		if not (zeilen[m][1:] == "\n"):				#if a lines second character is not a linebreak
+			beruf += zeilen[m][:-1]				#save that line as beruf
 		else:
 			break
 	
-	vater = getKat(zeilen, vater, "V")			#Vater
-	ehegatte = getKat(zeilen, ehegatte, "E")		#Ehegatten
-	ausbildung = getKat(zeilen, ausbildung, "A")		#Ausbildung
-	lebensstationen = getKat(zeilen, lebensstationen, "B")	#Lebensstationen
-	leistungen = getKat(zeilen, leistungen, "WL")		#Leistungen
-	werke = getKat(zeilen, werke, "W")			#Werke
-	sekundLit = getKat(zeilen, sekundLit, "SL")		#Sekundaerliteratur
-	portraits = getKat(zeilen, portraits, "P")		#Portraits
-	publikVerz = getKat(zeilen, publikVerz, "GPV")		#Publikationsverzeichnisse
-	quellen = getKat(zeilen, quellen, "Q")			#Quellen
-	geschwister = getKat(zeilen, geschwister, "G")		#Geschwister
-	nachkommen = getKat(zeilen, nachkommen, "N")		#Nachkommen
-	mutter = getMut(zeilen, mutter)				#Mutter
-	mitglied = getMit(zeilen, mitglied)			#Mitgliedschaft
-	
+	vater = getKat(zeilen, vater, "V")				#Vater
+	ehegatte = getKat(zeilen, ehegatte, "E")			#Ehegatten
+	ausbildung = getKat(zeilen, ausbildung, "A")			#Ausbildung
+	lebensstationen = getKat(zeilen, lebensstationen, "B")		#Lebensstationen
+	leistungen = getKat(zeilen, leistungen, "WL")			#Leistungen
+	werke = getKat(zeilen, werke, "W")				#Werke
+	sekundLit = getKat(zeilen, sekundLit, "SL")			#Sekundaerliteratur
+	portraits = getKat(zeilen, portraits, "P")			#Portraits
+	publikVerz = getKat(zeilen, publikVerz, "GPV")			#Publikationsverzeichnisse
+	quellen = getKat(zeilen, quellen, "Q")				#Quellen
+	geschwister = getKat(zeilen, geschwister, "G")			#Geschwister
+	nachkommen = getKat(zeilen, nachkommen, "N")			#Nachkommen
+	mutter = getMut(zeilen, mutter)					#Mutter
+	mitglied = getMit(zeilen, mitglied)				#Mitgliedschaft
+
 	#Dictionary fuellen
 	namenDict["ID"] = ID
 	namenDict["Name"] = {"Nachname": nachName, "Vorname": vorName}
