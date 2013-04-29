@@ -195,17 +195,17 @@ def printDict(dictToPrint):
 	return printText	
 
 def delSpecialChar(unicodeString, htmlCode=True):
-	"""	Konvertiert einen unicode String in einen ASCII String mit HTML 
-		Entitaeten
-		Wenn htmlCode=False angegeben wird, dann werden auch <,>,\", & 
-		uebertragen. Das funktioniert natuerlich nicht mit htmlCode.Der ist ja 
-		dann nicht mehr lesbar"""
-	if htmlCode == False:
-		unicodeString = cgi.escape(unicodeString, quote=True)
-	asciiString = unicodeString.encode('ascii', 'ignore')
-	del(unicodeString)
-	
-	return asciiString
+    """    Konvertiert einen unicode String in einen ASCII String mit HTML 
+        Entitaeten
+        Wenn htmlCode=False angegeben wird, dann werden auch <,>,\", & 
+        uebertragen. Das funktioniert natuerlich nicht mit htmlCode.Der ist ja 
+        dann nicht mehr lesbar"""
+    if htmlCode == False:
+        unicodeString = cgi.escape(unicodeString, quote=True)
+    asciiString = unicodeString.encode('ascii', 'ignore')
+    del(unicodeString)
+    
+    return asciiString
 				
 	
 
