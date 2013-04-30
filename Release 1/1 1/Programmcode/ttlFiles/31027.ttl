@@ -1,0 +1,171 @@
+
+<ImportantPerson/31027>
+	rdfs:label "Tichomirov, Nikolaj Pavlovič" ;
+	drw-model:hasEducation <Education/31027hasEducation3> ;
+	drw-model:fatherIs <RelatedPerson/31027fatherIs> ;
+	drw-model:hasEducation <Education/31027hasEducation0> ;
+	drw-model:hasEducation <Education/31027hasEducation2> ;
+	drw-model:hasSL <SLPublication/31027hasSL2> ;
+	drw-model:hasW <WPublication/31027hasW1> ;
+	drw-model:hasStationOfLife <StationOfLife/31027hasStationOfLife0> ;
+	drw-model:hasStationOfLife <StationOfLife/31027hasStationOfLife2> ;
+	drw-model:hasSL <SLPublication/31027hasSL0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31027hasGeneralLabor0> ;
+	drw-model:hasSL <SLPublication/31027hasSL1> ;
+	drw-model:hasW <WPublication/31027hasW0> ;
+	drw-model:hasGPV <GPVPublication/31027hasGPV0> ;
+	drw-model:hasStationOfLife <StationOfLife/31027hasStationOfLife1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <Education/31027hasEducation5> ;
+	drw-model:drwID "31027" ;
+	drw-model:hasMainName <MainName/31027> ;
+	drw-model:hasWL <WLStationOfLife/31027hasWL0> ;
+	drw-model:hasStationOfLife <StationOfLife/31027hasStationOfLife3> ;
+	drw-model:hasEducation <Education/31027hasEducation4> ;
+	drw-model:hasW <WPublication/31027hasW2> ;
+	drw-model:hasEducation <Education/31027hasEducation1> .
+
+<Education/31027hasEducation2>
+	a drw-model:Education ;
+	rdfs:label "Studium an der Militärmedizinischen Akademie (MMA) in St. Petersburg" ;
+	drw-model:began <Date/1898_1903> .
+
+<SLPublication/31027hasSL1>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/31027hasStationOfLife1>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/ab_1909> ;
+	rdfs:label "zugleich Arzt am Klinischen Militärhospital St. Petersburg" .
+
+<GPVPublication/31027hasGPV0>
+	rdfs:label "Osnovnye pečatnye raboty (1905-1951), in: Kvasov/Fedorova-Grot 1970 (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<WPublication/31027hasW2>
+	rdfs:label "Über die Lage der Flimmergrenze im direkten und indirekten Sehen. Mit E. Th. v. Brücke. Archiv für die gesammte Physiologie des Menschen und der Thiere 128 (1909), 177-190." ;
+	a drw-model:WPublication .
+
+<Date/Vor_1898>
+	a drw-model:Date ;
+	rdfs:label "Vor 1898" .
+
+<Date/1898>
+	rdfs:label "1898" ;
+	a drw-model:Date .
+
+<NameVariation/31027var0>
+	rdfs:label "Tichomiroff, N. P."@de ;
+	a drw-model:NameVariation .
+
+<Date/ab_1909>
+	rdfs:label "ab 1909" ;
+	a drw-model:Date .
+
+<Education/31027hasEducation4>
+	drw-model:began <Date/1906> ;
+	a drw-model:Education ;
+	rdfs:label "Dr. med. an der MMA St. Petersburg" .
+
+<Date/1898_1903>
+	a drw-model:Date ;
+	rdfs:label "1898-1903" .
+
+<WLStationOfLife/31027hasWL0>
+	rdfs:label "Forschungsgebiete: Physiologie der Ernährung und der Nerventätigkeit (z. B. Untersuchungen der Einwirkung von Alkali auf das Protein-Enzym des Magensaftes, der Beziehung zwischen dem Gehalt der organischen Substanzen im Pankreassaft und seiner Verdauungskraft, Erarbeitung einer Methode zur systematischen Verwendung bedingter Reflexe der Speicheldrüsen zur Untersuchung der Großhirnhemisphären als erster wissenschaftlicher Versuch) und Elektrophysiologie" ;
+	a drw-model:WLStationOfLife .
+
+<GeneralLabor/31027hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<WPublication/31027hasW1>
+	rdfs:label "Zur Kenntnis des Muskelrhythmus. Mit R. Dittler. Archiv für die gesammte Physiologie des Menschen und der Thiere 125 (1908), 111-136." ;
+	a drw-model:WPublication .
+
+<Date/1909_1912>
+	a drw-model:Date ;
+	rdfs:label "1909-1912" .
+
+<Date/1907_1908>
+	a drw-model:Date ;
+	rdfs:label "1907-1908" .
+
+<Education/31027hasEducation0>
+	rdfs:label "Besuch der Kirchenschule in Dankov (3 Jahre) und des Gymnasiums in Vladimir (1 Jahr)" ;
+	drw-model:began <Date/Vor_1898> ;
+	a drw-model:Education .
+
+<Date/1913_1917>
+	a drw-model:Date ;
+	rdfs:label "1913-1917" .
+
+<Education/31027hasEducation3>
+	drw-model:began <Date/1903_1906> ;
+	a drw-model:Education ;
+	rdfs:label "Weiterbildung an der MMA und an der Physiologischen Abteilung des Instituts für experimentelle Medizin (IEM) bei I. P. #internNameLink#30785#endNameNr#Pavlov#/internNameLink#" .
+
+<SLPublication/31027hasSL2>
+	a drw-model:SLPublication ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 439." .
+
+<StationOfLife/31027hasStationOfLife2>
+	drw-model:began <Date/1913_1917> ;
+	rdfs:label "Professor am Lehrstuhl für Physiologie am Polytechnischen Institut in Rostov am Don" ;
+	a drw-model:StationOfLife .
+
+<StationOfLife/31027hasStationOfLife3>
+	rdfs:label "Professor und ab 1822 Leiter des Lehrstuhls für Physiologie der landwirtschaftlichen Nutztiere am Zooveterinärmedizinischen Institut in Novočerkassk" ;
+	drw-model:began <Date/1918_1955> ;
+	a drw-model:StationOfLife .
+
+<Date/1903_1906>
+	rdfs:label "1903-1906" ;
+	a drw-model:Date .
+
+<StationOfLife/31027hasStationOfLife0>
+	rdfs:label "Privatdozent und 1912-1913 Prosektor am Lehrstuhl für Physiologie an der MMA St. Petersburg" ;
+	drw-model:began <Date/1909_1912> ;
+	a drw-model:StationOfLife .
+
+<SLPublication/31027hasSL0>
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 244-246." ;
+	a drw-model:SLPublication .
+
+<Date/1918_1955>
+	rdfs:label "1918-1955" ;
+	a drw-model:Date .
+
+<Date/1906>
+	rdfs:label "1906" ;
+	a drw-model:Date .
+
+<RelatedPerson/31027fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Pavel, Lehrer an der Kirchenschule in Dankov" .
+
+<NameVariation/31027var1>
+	rdfs:label "Tichomirow, N. P."@de ;
+	a drw-model:NameVariation .
+
+<MainName/31027>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/31027var1> ;
+	drw-model:hasNameVariation <NameVariation/31027var0> ;
+	rdfs:label "Tichomirov, Nikolaj Pavlovič" .
+
+<Education/31027hasEducation5>
+	rdfs:label "Weiterbildung im Ausland, darunter in Deutschland bei E. #internNameLink#30372#endNameNr#Hering#/internNameLink# (1834-1918), Ernst Theodor von #name#Brücke#/name# (1880-1941) und Rudolf #name#Dittler#/name# (1881-1959) am Physiologischen Institut der Universität Leipzig" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1907_1908> .
+
+<WPublication/31027hasW0>
+	rdfs:label "Opyt strogo-ob-ektivnogo issledovanija funkcij bol’šich polušarij u sobaki. Sankt-Peterburg 1906, 142 S." ;
+	a drw-model:WPublication .
+
+<Education/31027hasEducation1>
+	drw-model:began <Date/1898> ;
+	a drw-model:Education ;
+	rdfs:label "Abschluss des Gymnasiums in Tula" .
+

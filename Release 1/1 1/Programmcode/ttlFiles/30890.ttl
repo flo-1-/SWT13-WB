@@ -1,0 +1,204 @@
+
+<Date/1920_1930>
+	a drw-model:Date ;
+	rdfs:label "1920-1930" .
+
+<StationOfLife/30890hasStationOfLife3>
+	rdfs:label "Professor für Physiologie an den Höheren Kursen für Frauen (ab 1918 2. Moskauer Staatsuniversität)#footnote3#" ;
+	drw-model:began <Date/1904_1924> ;
+	a drw-model:StationOfLife .
+
+<Date/1903_1912>
+	a drw-model:Date ;
+	rdfs:label "1903-1912" .
+
+<StationOfLife/30890hasStationOfLife4>
+	drw-model:began <Date/1919> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Prorektor und Rektor der 2. Moskauer Staatsuniversität" .
+
+<StationOfLife/30890hasStationOfLife0>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1903_1904> ;
+	rdfs:label "Privatdozent (ab Jan.) und Laborant (ab Okt.) am Lehrstuhl für Physiologie der Medizinischen Fakultät der Universität Moskau" .
+
+<StationOfLife/30890hasStationOfLife6>
+	drw-model:began <Date/1909_1918> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "zugleich Dozent an der „Sonntagsuniversität“ (ab 1909 „Städtische Volksuniversität“ A. L. Šanjavskij) in Moskau" .
+
+<NameVariation/30890var1>
+	a drw-model:NameVariation ;
+	rdfs:label "Schaternikow, Michael"@de .
+
+<RelatedPerson/30890fatherIs>
+	rdfs:label "Nikolaj Evgen’evič, Stadtverwaltungsbeamter" ;
+	a drw-model:RelatedPerson .
+
+<StationOfLife/30890hasStationOfLife1>
+	rdfs:label "zugleich populärwissenschaftliche Vorlesungen#footnote1# und" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1902_1905> .
+
+<Date/1891_1896>
+	a drw-model:Date ;
+	rdfs:label "1891-1896" .
+
+<Date/1918_1920>
+	rdfs:label "1918-1920" ;
+	a drw-model:Date .
+
+<Date/1903_1904>
+	a drw-model:Date ;
+	rdfs:label "1903-1904" .
+
+<Date/1909_1918>
+	a drw-model:Date ;
+	rdfs:label "1909-1918" .
+
+<Education/30890hasEducation5>
+	a drw-model:Education ;
+	drw-model:began <Date/1900_1902> ;
+	rdfs:label "Weiterbildung in Deutschland:
+- am Königlich-Sächsischen Polytechnikum Dresden (Praktikum in organischer Chemie und Gasanalyse)
+- an der Universität Gießen (Physikpraktikum)
+- bei T. W. #internNameLink#20028#endNameNr#Engelmann#/internNameLink#, Richard Joseph #name#Meyer#/name# (1865-1939) und W. #internNameLink#30743#endNameNr#Nagel#/internNameLink# an der Universität Berlin
+- bei J. von #internNameLink#30584#endNameNr#Kries#/internNameLink# an der Universität Freiburg i. Br.
+- bei Carl von #name#Voit#/name# (1831-1908) an der Universität München
+- außerdem in Bonn, Marburg und Leipzig" .
+
+<StationOfLife/30890hasStationOfLife10>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<StationOfLife/30890hasStationOfLife9>
+	drw-model:began <Date/1920_1930> ;
+	rdfs:label "Gründer und erster Direktor des Instituts für Physiologie der Ernährung in Moskau" ;
+	a drw-model:StationOfLife .
+
+<Education/30890hasEducation3>
+	drw-model:began <Date/1899> ;
+	rdfs:label "Dr. med. an der Medizinischen Fakultät der Universität Moskau" ;
+	a drw-model:Education .
+
+<MainName/30890>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30890var1> ;
+	drw-model:hasNameVariation <NameVariation/30890var0> ;
+	rdfs:label "Šaternikov, Michail Nikolaevič" .
+
+<Date/1917_1939>
+	a drw-model:Date ;
+	rdfs:label "1917-1939" .
+
+<Date/1904_1924>
+	a drw-model:Date ;
+	rdfs:label "1904-1924" .
+
+<StationOfLife/30890hasStationOfLife5>
+	rdfs:label "zugleich Dozent und außerplanmäßiger Professor (ab 1912)am Gewerbeinstitut in Moskau" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1908_1930> .
+
+<Education/30890hasEducation2>
+	rdfs:label "außerplanmäßiger Assistent bei #internNameLink#30924#endNameNr#Sečenov#/internNameLink#" ;
+	drw-model:began <Date/1896_1899> ;
+	a drw-model:Education .
+
+<GeneralLabor/30890hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<NameVariation/30890var0>
+	rdfs:label "Schaternikoff, Michael"@de ;
+	a drw-model:NameVariation .
+
+<ImportantPerson/30890>
+	drw-model:hasStationOfLife <StationOfLife/30890hasStationOfLife1> ;
+	drw-model:hasStationOfLife <StationOfLife/30890hasStationOfLife4> ;
+	drw-model:hasEducation <Education/30890hasEducation1> ;
+	drw-model:hasStationOfLife <StationOfLife/30890hasStationOfLife0> ;
+	drw-model:hasEducation <Education/30890hasEducation4> ;
+	drw-model:fatherIs <RelatedPerson/30890fatherIs> ;
+	drw-model:hasEducation <Education/30890hasEducation2> ;
+	drw-model:hasStationOfLife <StationOfLife/30890hasStationOfLife3> ;
+	drw-model:hasEducation <Education/30890hasEducation5> ;
+	rdfs:label "Šaternikov, Michail Nikolaevič" ;
+	drw-model:hasEducation <Education/30890hasEducation3> ;
+	drw-model:hasStationOfLife <StationOfLife/30890hasStationOfLife7> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <StationOfLife/30890hasStationOfLife2> ;
+	drw-model:hasStationOfLife <StationOfLife/30890hasStationOfLife8> ;
+	drw-model:hasMainName <MainName/30890> ;
+	drw-model:hasStationOfLife <StationOfLife/30890hasStationOfLife10> ;
+	drw-model:hasStationOfLife <StationOfLife/30890hasStationOfLife5> ;
+	drw-model:hasStationOfLife <StationOfLife/30890hasStationOfLife6> ;
+	drw-model:hasStationOfLife <StationOfLife/30890hasStationOfLife9> ;
+	drw-model:drwID "30890" ;
+	drw-model:hasEducation <Education/30890hasEducation0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30890hasGeneralLabor0> .
+
+<StationOfLife/30890hasStationOfLife7>
+	rdfs:label "Professor und Leiter des Lehrstuhls für Physiologie an der Universität Moskau (ab 1930 l. Moskauer Medizinisches Institut)" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1917_1939> .
+
+<Date/1902_1905>
+	a drw-model:Date ;
+	rdfs:label "1902-1905" .
+
+<Date/1889>
+	a drw-model:Date ;
+	rdfs:label "1889" .
+
+<StationOfLife/30890hasStationOfLife2>
+	drw-model:began <Date/1903_1912> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Lektor an den weiterbildenden Arbeiterkursen#footnote2# in Moskau" .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<Education/30890hasEducation1>
+	drw-model:began <Date/1891_1896> ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Moskau bei I. M. #internNameLink#30924#endNameNr#Sečenov#/internNameLink# und L. Z. #internNameLink#30732#endNameNr#Morochovec#/internNameLink#" ;
+	a drw-model:Education .
+
+<Education/30890hasEducation0>
+	rdfs:label "Abschluss des 2. Gymnasiums in Moskau" ;
+	drw-model:began <Date/1889> ;
+	a drw-model:Education .
+
+<Date/1899>
+	rdfs:label "1899" ;
+	a drw-model:Date .
+
+<StationOfLife/30890hasStationOfLife8>
+	rdfs:label "Leiter des Laboratoriums für Ernährungsphysiologie am Wissenschaftlich-technischen Institut für Ernährung in Moskau" ;
+	drw-model:began <Date/1918_1920> ;
+	a drw-model:StationOfLife .
+
+<Date/1908_1930>
+	a drw-model:Date ;
+	rdfs:label "1908-1930" .
+
+<Date/1919>
+	a drw-model:Date ;
+	rdfs:label "1919" .
+
+<Education/30890hasEducation4>
+	drw-model:began <Date/1899> ;
+	rdfs:label "Weiterbildung in Deutschland (auf eigene Kosten):
+- bei Wilhelm #internNameLink#10154#endNameNr#Ostwald#/internNameLink# (1853-1932) an der Universität Leipzig (Sommerkurs in physikalischer Chemie)" ;
+	a drw-model:Education .
+
+<Date/1900_1902>
+	a drw-model:Date ;
+	rdfs:label "1900-1902" .
+
+<Date/1896_1899>
+	a drw-model:Date ;
+	rdfs:label "1896-1899" .
+

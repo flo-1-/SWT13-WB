@@ -1,0 +1,191 @@
+
+<Education/30893hasEducation1>
+	drw-model:began <Date/1844_1846> ;
+	rdfs:label "Besuch des deutschen Privatpensionats von J. K. Zobel#footnote1# in Char’kov" ;
+	a drw-model:Education .
+
+<StationOfLife/30893hasStationOfLife0>
+	drw-model:began <Date/1856_1857> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Gehilfe des Ordinators an der Chirurgischen Klinik der Universität Char’kov" .
+
+<Date/1861_1862>
+	a drw-model:Date ;
+	rdfs:label "1861-1862" .
+
+<Date/1890_1894>
+	a drw-model:Date ;
+	rdfs:label "1890-1894" .
+
+<MainName/30893>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30893var0> ;
+	rdfs:label "Ščelkov, Ivan Petrovič" .
+
+<StationOfLife/30893hasStationOfLife2>
+	a drw-model:StationOfLife ;
+	rdfs:label "Assistent an der Medizinischen Fakultät der Universität Char’kov" ;
+	drw-model:began <Date/1861_1862> .
+
+<ImportantPerson/30893>
+	drw-model:hasStationOfLife <StationOfLife/30893hasStationOfLife7> ;
+	drw-model:hasStationOfLife <StationOfLife/30893hasStationOfLife5> ;
+	drw-model:drwID "30893" ;
+	rdfs:label "Ščelkov, Ivan Petrovič" ;
+	drw-model:hasEducation <Education/30893hasEducation0> ;
+	drw-model:hasSibling <RelatedPerson/30893hasSibling> ;
+	drw-model:hasEducation <Education/30893hasEducation3> ;
+	drw-model:hasStationOfLife <StationOfLife/30893hasStationOfLife4> ;
+	drw-model:hasStationOfLife <StationOfLife/30893hasStationOfLife2> ;
+	drw-model:hasStationOfLife <StationOfLife/30893hasStationOfLife8> ;
+	drw-model:hasEducation <Education/30893hasEducation1> ;
+	drw-model:hasEducation <Education/30893hasEducation2> ;
+	drw-model:fatherIs <RelatedPerson/30893fatherIs> ;
+	drw-model:hasStationOfLife <StationOfLife/30893hasStationOfLife10> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <StationOfLife/30893hasStationOfLife0> ;
+	drw-model:hasStationOfLife <StationOfLife/30893hasStationOfLife3> ;
+	drw-model:hasStationOfLife <StationOfLife/30893hasStationOfLife6> ;
+	drw-model:hasStationOfLife <StationOfLife/30893hasStationOfLife9> ;
+	drw-model:hasMainName <MainName/30893> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30893hasGeneralLabor0> ;
+	drw-model:hasStationOfLife <StationOfLife/30893hasStationOfLife1> ;
+	drw-model:hasEducation <Education/30893hasEducation4> .
+
+<NameVariation/30893var0>
+	rdfs:label "Sczelkow, Johann"@de ;
+	a drw-model:NameVariation .
+
+<StationOfLife/30893hasStationOfLife4>
+	a drw-model:StationOfLife ;
+	rdfs:label "zugleich Dozent für Naturwissenschaften am Institut für adlige Mädchen in Char’kov" ;
+	drw-model:began <Date/1862_1863> .
+
+<StationOfLife/30893hasStationOfLife8>
+	rdfs:label "Rektor der Universität Char’kov" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1884_1890> .
+
+<Date/1846_1850>
+	rdfs:label "1846-1850" ;
+	a drw-model:Date .
+
+<StationOfLife/30893hasStationOfLife10>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<Date/Vor_1844>
+	a drw-model:Date ;
+	rdfs:label "Vor 1844" .
+
+<Date/1884_1890>
+	a drw-model:Date ;
+	rdfs:label "1884-1890" .
+
+<StationOfLife/30893hasStationOfLife3>
+	drw-model:began <Date/1862_1863> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Adjunkt-Professor an der Medizinischen Fakultät der Universität Char’kov" .
+
+<Date/1857>
+	a drw-model:Date ;
+	rdfs:label "1857" .
+
+<Date/1863_1886>
+	rdfs:label "1863-1886" ;
+	a drw-model:Date .
+
+<Education/30893hasEducation3>
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Char’kov" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1850_1855> .
+
+<Date/1844_1846>
+	a drw-model:Date ;
+	rdfs:label "1844-1846" .
+
+<StationOfLife/30893hasStationOfLife1>
+	rdfs:label "Weiterbildung in Deutschland und Österreich mit Stipendium des Ministeriums für Volksaufklärung:
+- bei E. W. von #internNameLink#30184#endNameNr#Brücke#/internNameLink# und Carl von #name#Rokitansky#/name# (1804-1878) an der Universität Wien
+- bei Vilém Dušan (Wilhelm) #name#Lambl#/name# (1824-1895) an der Universität Prag
+- bei R. #internNameLink#31069#endNameNr#Virchow#/internNameLink#, F. #internNameLink#30395#endNameNr#Hoppe-Seyler#/internNameLink# und E. #internNameLink#30230#endNameNr#Du Bois-Reymond#/internNameLink# an der Universität Berlin
+- bei C. #internNameLink#30664#endNameNr#Ludwig#/internNameLink# an der Militärärztlichen Akademie Josephinum in Wien" ;
+	drw-model:began <Date/1858_1861> ;
+	a drw-model:StationOfLife .
+
+<StationOfLife/30893hasStationOfLife5>
+	rdfs:label "o. Professor für Physiologie und allgemeine Pathologie und ab 1864 Leiter des Laboratoriums für Physiologie an der Medizinischen Fakultät der Universität Char’kov" ;
+	drw-model:began <Date/1863_1886> ;
+	a drw-model:StationOfLife .
+
+<Education/30893hasEducation4>
+	rdfs:label "Dr. med. an der Universität Char’kov" ;
+	drw-model:began <Date/1857> ;
+	a drw-model:Education .
+
+<Date/1858_1861>
+	a drw-model:Date ;
+	rdfs:label "1858-1861" .
+
+<Date/1862_1863>
+	rdfs:label "1862-1863" ;
+	a drw-model:Date .
+
+<RelatedPerson/30893hasSibling>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Vladimir Petrovič (1835-1902), 1883-1900 Kommunalpolitiker, 1892 Bürgermeister von Char’kov" .
+
+<StationOfLife/30893hasStationOfLife7>
+	rdfs:label "Prorektor der Universität Char’kov" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1881_1884> .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<Date/1850_1855>
+	a drw-model:Date ;
+	rdfs:label "1850-1855" .
+
+<StationOfLife/30893hasStationOfLife9>
+	drw-model:began <Date/1890_1894> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Rektor der Universität Warschau" .
+
+<StationOfLife/30893hasStationOfLife6>
+	drw-model:began <Date/1867_1870> ;
+	rdfs:label "Dekan und der Medizinischen Fakultät der Universität Char’kov" ;
+	a drw-model:StationOfLife .
+
+<GeneralLabor/30893hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<RelatedPerson/30893fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Petr Dmitrievič († 1845), Kaufmann" .
+
+<Date/1867_1870>
+	a drw-model:Date ;
+	rdfs:label "1867-1870" .
+
+<Date/1856_1857>
+	a drw-model:Date ;
+	rdfs:label "1856-1857" .
+
+<Date/1881_1884>
+	a drw-model:Date ;
+	rdfs:label "1881-1884" .
+
+<Education/30893hasEducation2>
+	rdfs:label "Besuch des II. Gymnasiums in Char’kov" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1846_1850> .
+
+<Education/30893hasEducation0>
+	rdfs:label "Anfangs häuslicher Unterricht" ;
+	a drw-model:Education ;
+	drw-model:began <Date/Vor_1844> .
+

@@ -1,0 +1,309 @@
+
+<SLPublication/30269hasSL2>
+	rdfs:label "Makarov, Vjačeslav Aleksandrovič: Aleksej Matveevič Filomafitskij (1807-1849). Moskva 1986 [b], 149 S." ;
+	a drw-model:SLPublication .
+
+<GPVPublication/30269hasGPV1>
+	rdfs:label "Trudy A. M. Filomatskogo (10 Nrn.), in: Makarov 1986 b (<b>SL</b>), 143." ;
+	a drw-model:GPVPublication .
+
+<StationOfLife/30269hasStationOfLife0>
+	rdfs:label "Dozent an der Medizinischen Fakultät der Universität Moskau (4 Monate)" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1835> .
+
+<WPublication/30269hasW0>
+	rdfs:label "De avium respiratione. Diss. Dorpat 1833, 43 S. (Volltext unter http://dspace.utlib.ee/dspace/bitstream/handle/10062/2277/philomathitsky.pdf?sequence=1, 10.5.2011)." ;
+	a drw-model:WPublication .
+
+<SLPublication/30269hasSL11>
+	a drw-model:SLPublication ;
+	rdfs:label "Šaskol’skaja, N. P.: A. M. Filomafitskij i načalo izučenija i primenenija narkoza v Moskovskom universitete. Trudy Instituta istorii estestvoznanija 1 (1947), 413-416." .
+
+<Date/1824>
+	rdfs:label "1824" ;
+	a drw-model:Date .
+
+<GPVPublication/30269hasGPV0>
+	rdfs:label "Publikationen 1833-1849, in: Zmeev, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<WPublication/30269hasW2>
+	rdfs:label "O projavlenii žizni v vsech carstvach prirody. In: Reči proiznesennyja v toržestvennom Sobranii Imperatorskago Moskovskago universiteta 10 ijunja 1844. Moskva 1844." ;
+	a drw-model:WPublication .
+
+<SLPublication/30269hasSL8>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 456-457." ;
+	a drw-model:SLPublication .
+
+<RelatedPerson/30269fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Matvej Stepanovič (* 1770), Kirchendiener#footnote1#" .
+
+<Education/30269hasEducation4>
+	drw-model:began <Date/1833> ;
+	a drw-model:Education ;
+	rdfs:label "Dr. med. an der Universität Dorpat" .
+
+<Date/1837_1849>
+	a drw-model:Date ;
+	rdfs:label "1837-1849" .
+
+<RelatedPerson/30269hasSibling>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Bruder Evgraf Matveevič (1791-1831), Professor für Alte Geschichte und Geographie an der Universität Char’kov
+Schwestern Ekaterina Matveevna (* 1790), Marija Matveevna (* 1795) und Ol’ga Matveevna Filomafitskaja (* 1802)" .
+
+<ImportantPerson/30269>
+	drw-model:hasW <WPublication/30269hasW3> ;
+	drw-model:hasSL <SLPublication/30269hasSL6> ;
+	drw-model:hasSL <SLPublication/30269hasSL8> ;
+	drw-model:hasEducation <Education/30269hasEducation2> ;
+	drw-model:hasStationOfLife <StationOfLife/30269hasStationOfLife4> ;
+	drw-model:hasSL <SLPublication/30269hasSL5> ;
+	drw-model:hasGPV <GPVPublication/30269hasGPV1> ;
+	drw-model:hasSibling <RelatedPerson/30269hasSibling> ;
+	drw-model:hasW <WPublication/30269hasW0> ;
+	drw-model:motherIs <RelatedPerson/30269motherIs> ;
+	drw-model:hasWL <WLStationOfLife/30269hasWL4> ;
+	drw-model:hasEducation <Education/30269hasEducation3> ;
+	drw-model:hasDescendant <RelatedPerson/30269hasDescendant> ;
+	drw-model:hasStationOfLife <StationOfLife/30269hasStationOfLife3> ;
+	drw-model:fatherIs <RelatedPerson/30269fatherIs> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/30269hasHounoursAndAwards> ;
+	drw-model:hasSL <SLPublication/30269hasSL7> ;
+	drw-model:hasW <WPublication/30269hasW1> ;
+	drw-model:hasSL <SLPublication/30269hasSL4> ;
+	drw-model:hasEducation <Education/30269hasEducation0> ;
+	drw-model:hasStationOfLife <StationOfLife/30269hasStationOfLife2> ;
+	drw-model:hasSL <SLPublication/30269hasSL0> ;
+	drw-model:hasP <P/30269hasP3> ;
+	drw-model:hasSL <SLPublication/30269hasSL10> ;
+	drw-model:hasP <P/30269hasP1> ;
+	drw-model:hasSL <SLPublication/30269hasSL9> ;
+	drw-model:hasWL <WLStationOfLife/30269hasWL2> ;
+	rdfs:label "Filomafitskij, Aleksej Matveevič" ;
+	drw-model:hasEducation <Education/30269hasEducation1> ;
+	drw-model:hasEducation <Education/30269hasEducation4> ;
+	drw-model:hasStationOfLife <StationOfLife/30269hasStationOfLife1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:wasMarriedTo <RelatedPerson/30269wasMarriedTo> ;
+	drw-model:hasWL <WLStationOfLife/30269hasWL0> ;
+	drw-model:hasMembership <Membership/30269hasMembership> ;
+	drw-model:hasP <P/30269hasP2> ;
+	drw-model:hasWL <WLStationOfLife/30269hasWL3> ;
+	drw-model:hasStationOfLife <StationOfLife/30269hasStationOfLife5> ;
+	drw-model:hasMainName <MainName/30269> ;
+	drw-model:hasSL <SLPublication/30269hasSL3> ;
+	drw-model:hasEducation <Education/30269hasEducation5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30269hasGeneralLabor0> ;
+	drw-model:hasW <WPublication/30269hasW2> ;
+	drw-model:hasWL <WLStationOfLife/30269hasWL1> ;
+	drw-model:hasSL <SLPublication/30269hasSL2> ;
+	drw-model:hasP <P/30269hasP0> ;
+	drw-model:hasSL <SLPublication/30269hasSL1> ;
+	drw-model:hasStationOfLife <StationOfLife/30269hasStationOfLife0> ;
+	drw-model:drwID "30269" ;
+	drw-model:hasGPV <GPVPublication/30269hasGPV0> ;
+	drw-model:hasSL <SLPublication/30269hasSL11> .
+
+<Education/30269hasEducation1>
+	drw-model:began <Date/1824> ;
+	rdfs:label "Beginn des Studiums an der Philologischen Fakultät der Universität Char’kov (4 Monate)" ;
+	a drw-model:Education .
+
+<StationOfLife/30269hasStationOfLife3>
+	drw-model:began <Date/1846_1848> ;
+	rdfs:label "Dekan der Medizinischen Fakultät an der Universität Moskau" ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30269hasSL3>
+	rdfs:label "Makarov, Vjačeslav Aleksandrovič: Pervyj otečestvennyj učebnik po fiziologii (K 150-letiju izdanija učebnika A. M. Filomafitskogo „Fiziologija, izdannaja dlja rukovodstva svoich slušatelej“). Fiziologičeskij žurnal SSSR imeni I. M. Sečenova 72 (1986 [a]) 10, 1460-1466." ;
+	a drw-model:SLPublication .
+
+<Date/1835_1837>
+	a drw-model:Date ;
+	rdfs:label "1835-1837" .
+
+<Education/30269hasEducation3>
+	rdfs:label "Weiterbildung am Professoren-Institut der Universität Dorpat bei Martin Heinrich #internNameLink#30836#endNameNr#Rathke#/internNameLink# (1793-1860)" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1828_1833> .
+
+<Date/1833>
+	a drw-model:Date ;
+	rdfs:label "1833" .
+
+<Date/1842_1843>
+	a drw-model:Date ;
+	rdfs:label "1842-1843" .
+
+<WPublication/30269hasW1>
+	rdfs:label "Fiziologija, izdannaja dlja rukovodstva svoich slušatelej. Bd. 1, Teil 1: Obščaja fiziologija; Bd. 2, Teil 2 und 3: Častnaja fiziologija. Moskva 1836-1840; 2. Aufl.: Moskva 1842-1844." ;
+	a drw-model:WPublication .
+
+<WLStationOfLife/30269hasWL2>
+	rdfs:label "Forschungsthemen: Stoffwechsel (als Wärmequelle im Organismus), Natur der Nervenprozesse (u. a. Versuche mit Durchtrennung des Vagus-Nerven), Chemie und Mechanismus der Magenverdauung, Bluttransfusion, Probleme des Einflusses der Dämpfe von Schwefel-Äther auf den Körper, Studium des Hustenreflexes u. a." ;
+	a drw-model:WLStationOfLife .
+
+<WLStationOfLife/30269hasWL0>
+	rdfs:label "Mitbegründer der experimentellen Physiologie in Russland" ;
+	a drw-model:WLStationOfLife .
+
+<P/30269hasP1>
+	rdfs:label "Portrait in: Kovaleva (<b>SL</b>)." ;
+	a drw-model:P .
+
+<Membership/30269hasMembership>
+	rdfs:label "Imperatorskoe obščestvo ispytatelej prirody v Moskve [Kaiserliche Gesellschaft der Naturforscher in Moskau] (1837), Moskovskoe Fiziko-medicinskoe obščestvo [Moskauer Physikalisch-medizinische Gesellschaft]" ;
+	a drw-model:Membership .
+
+<StationOfLife/30269hasStationOfLife2>
+	drw-model:began <Date/1837_1849> ;
+	rdfs:label "o. Professor für Physiologie des gesunden Menschen an der Medizinischen Fakultät der Universität Moskau" ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30269hasSL0>
+	rdfs:label "Kovaleva, Ljubov’: Filomafitskij Aleksej Matveevič. Russkij fiziolog (http://demetra.yar.ru/oblast/tutaevskiy/piople/filomaf/, 10.5.2011)." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30269hasSL6>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 477, 284-301; SU 451, 380; RS 70, 280." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30269hasStationOfLife4>
+	a drw-model:StationOfLife ;
+	rdfs:label "öffentliche Vorlesungen in Moskau" ;
+	drw-model:began <Date/1842_1843> .
+
+<StationOfLife/30269hasStationOfLife1>
+	rdfs:label "ao. Professor für Physiologie und allgemeine Pathologie an der Medizinischen Fakultät der Universität Moskau" ;
+	drw-model:began <Date/1835_1837> ;
+	a drw-model:StationOfLife .
+
+<WPublication/30269hasW3>
+	rdfs:label "Traktat o perelivanii krovi (kak edinstvennom sredstve vo mnogich slučajach spasti ugasajuščuju žizn’). Moskva 1846-1848." ;
+	a drw-model:WPublication .
+
+<SLPublication/30269hasSL4>
+	a drw-model:SLPublication ;
+	rdfs:label "Pfrepper, Regine, Pfrepper, Gerd: Wissensspuren. Reisen russischer Mediziner nach Westeuropa im 19. Jahrhundert. Aachen 2012 (Relationes 11)" .
+
+<Date/1828_1833>
+	a drw-model:Date ;
+	rdfs:label "1828-1833" .
+
+<GeneralLabor/30269hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie und allgemeine Pathologie" .
+
+<MainName/30269>
+	a drw-model:MainName ;
+	rdfs:label "Filomafitskij, Aleksej Matveevič" ;
+	drw-model:hasNameVariation <NameVariation/30269var0> .
+
+<Date/1824_1828>
+	a drw-model:Date ;
+	rdfs:label "1824-1828" .
+
+<RelatedPerson/30269motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Irina Ivanovna Filomafitskaja (* 1768)" .
+
+<SLPublication/30269hasSL9>
+	rdfs:label "Volkov, Vladimir Akimovič, Kulikova, Marina Vladimirovna: Moskovskie professora XVIII - načala XX vekov. Estestvennye i techničeskie nauki. Moskva 2003, 246-247." ;
+	a drw-model:SLPublication .
+
+<HonoursAndAwards/30269hasHounoursAndAwards>
+	rdfs:label "„Staatsrat“<br>1841 #italic#Demidovskaja premija#/italic##footnote2# (als Teilprämie, für das Lehrbuch #italic#Fiziologija#/italic#)" ;
+	a drw-model:HonoursAndAwards .
+
+<Date/1835>
+	a drw-model:Date ;
+	rdfs:label "1835" .
+
+<Education/30269hasEducation5>
+	drw-model:began <Date/1833_1835> ;
+	a drw-model:Education ;
+	rdfs:label "Studienaufenthalt in Deutschland (ohne Publikationen in deutscher Sprache):
+- bei den Physiologen J. P. #internNameLink#30739#endNameNr#Müller#/internNameLink# und Carl Heinrich #name#Schultz#/name# (1798-1871), dem Anatom Christian Gottfried #internNameLink#30239#endNameNr#Ehrenberg#/internNameLink# (1795-1876), dem Pathologen Christoph Wilhelm #internNameLink#30406#endNameNr#Hufeland#/internNameLink# (1762-1836), dem Chemiker Eilhard #internNameLink#10148#endNameNr#Mitscherlich#/internNameLink# (1794-1863) und dem Physiker Georg Adolf #name#Ermann#/name# (1806-1877) an der Universität Berlin sowie bei Johann Nepomuk #name#Rust#/name# (1775-1840) an der Charité in Berlin" .
+
+<Date/1846_1848>
+	a drw-model:Date ;
+	rdfs:label "1846-1848" .
+
+<P/30269hasP3>
+	rdfs:label "Portrait in: BSĖ 2, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:P .
+
+<WLStationOfLife/30269hasWL4>
+	rdfs:label "Verwendung von optischen Instrumenten (z. B. zum ersten Mal in Russland ein Mikroskop für die Untersuchung von Blut-Zellen)" ;
+	a drw-model:WLStationOfLife .
+
+<NameVariation/30269var0>
+	a drw-model:NameVariation ;
+	rdfs:label "Philomathitsky, Alexius"@de .
+
+<RelatedPerson/30269hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "3 Töchter [Namen unbekannt]" .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<SLPublication/30269hasSL10>
+	rdfs:label "Wikipedia (http://ru.wikipedia.org/wiki/Филомафитский,_Алексей_Матвеевич, 10.5.2011)." ;
+	a drw-model:SLPublication .
+
+<Education/30269hasEducation0>
+	drw-model:began <Date/1824> ;
+	a drw-model:Education ;
+	rdfs:label "Besuch des Priesterseminars in Jaroslavl’" .
+
+<Date/1833_1835>
+	a drw-model:Date ;
+	rdfs:label "1833-1835" .
+
+<WLStationOfLife/30269hasWL3>
+	rdfs:label "1847 Entwicklung und Einführung, zugleich mit Nikolaj Ivanovič #internNameLink#30801#endNameNr#Pirogov#/internNameLink# (1810-1881), der Methode der intravenösen Anästhesie in Russland" ;
+	a drw-model:WLStationOfLife .
+
+<Education/30269hasEducation2>
+	drw-model:began <Date/1824_1828> ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Char’kov (Abschluss „Arzt 1. Abteilung“)" ;
+	a drw-model:Education .
+
+<SLPublication/30269hasSL7>
+	a drw-model:SLPublication ;
+	rdfs:label "Strašun, Il’ja D. (Hauptred.): 175 let Moskovskogo Gosudarstvennogo Medicinskogo Instituta. Moskva, Leningrad 1940, 436 S., 107-108." .
+
+<SLPublication/30269hasSL5>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SLPublication .
+
+<WLStationOfLife/30269hasWL1>
+	rdfs:label "1836 Autor des ersten Lehrbuchs der Physiologie in Russland#footnote3#" ;
+	a drw-model:WLStationOfLife .
+
+<P/30269hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Volkov/Kulikova 2003 a (<b>SL</b>), 247." .
+
+<SLPublication/30269hasSL1>
+	a drw-model:SLPublication ;
+	rdfs:label "Koštojanc, Ch. S.: Aleksej Filomafitskij – osnovopoložnik moskovskoj fiziologičeskoj školy. Fiziologičeskij žurnal SSSR imeni I. M. Sečenova 31 (1945) 3-4, 109-119." .
+
+<RelatedPerson/30269wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "[Name unbekannt]" .
+
+<StationOfLife/30269hasStationOfLife5>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<P/30269hasP2>
+	a drw-model:P ;
+	rdfs:label "Portrait [Ausschnitt] in: <b>SL</b> Makarov 1986 [b], Strašun 1940, Volkov/Kulikova 2003 b, Bildeinlage zw. S. 504-505, und Wikipedia." .
+

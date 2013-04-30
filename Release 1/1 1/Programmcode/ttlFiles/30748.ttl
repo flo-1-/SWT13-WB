@@ -1,0 +1,158 @@
+
+<GPVPublication/30748hasGPV1>
+	rdfs:label "Publikationen 1869-1886 (16 Nrn.), in: Bogdanov, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<WLStationOfLife/30748hasWL0>
+	rdfs:label "Stellte im Physiologischen Laboratorium der Universität Kazan’ eine bemerkenswerte vergleichend-anatomische Sammlung von Präparaten für Kreislauf- und Nervensystem zusammen" ;
+	a drw-model:WLStationOfLife .
+
+<Date/1864_1869>
+	rdfs:label "1864-1869" ;
+	a drw-model:Date .
+
+<SLPublication/30748hasSL3>
+	rdfs:label "Česnakova [Im Original Druckfehler, es muss heißen: Česnokova], Sof’ja Aleksandrovna, Lindemann, Marianne: Russische Physiologen in Laboratorien von Carl Ludwig. Wissenschaftliche Zeitschrift der Karl-Marx-Universität Leipzig, Mathematisch-naturwissenschaftliche Reihe 19 (1970), 316." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30748hasSL2>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 322, 64-71." ;
+	a drw-model:SLPublication .
+
+<Date/1873>
+	rdfs:label "1873" ;
+	a drw-model:Date .
+
+<MainName/30748>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30748var0> ;
+	rdfs:label "Navalichin, Ivan Grigor'evič" .
+
+<Date/bis_1864>
+	a drw-model:Date ;
+	rdfs:label "bis 1864" .
+
+<WPublication/30748hasW0>
+	rdfs:label "Naprjaženie mozga i ego vzaimnye sootnošenija s krovoobraščeniem. Diss. 1873. Kazan’ 1874, 132 S." ;
+	a drw-model:WPublication .
+
+<SLPublication/30748hasSL1>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SLPublication .
+
+<WLStationOfLife/30748hasWL1>
+	rdfs:label "Autor mehrerer Arbeiten, vorwiegend in den Schriften der Gesellschaft der Naturforscher an der Universität Kazan’, zu Milz, Schild- und Speicheldrüse, über das Absterben und die Neubildung der Muskelfasern u. a." ;
+	a drw-model:WLStationOfLife .
+
+<Education/30748hasEducation1>
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Kazan’ bei F. V. #internNameLink#30478#endNameNr#Ovsjannikov#/internNameLink#" ;
+	drw-model:began <Date/bis_1864> ;
+	a drw-model:Education .
+
+<StationOfLife/30748hasStationOfLife0>
+	rdfs:label "Praktischer Arzt im Ural" ;
+	drw-model:began <Date/1864_1869> ;
+	a drw-model:StationOfLife .
+
+<Date/1869_1873>
+	a drw-model:Date ;
+	rdfs:label "1869-1873" .
+
+<WPublication/30748hasW1>
+	rdfs:label "Ueber die Wirkung des verminderten Blutzuflusses zum Gehirn auf den Blutstrom im Aortensystem. Centralblatt für die medicinischen Wissenschaften 8 (1870), 483-485." ;
+	a drw-model:WPublication .
+
+<StationOfLife/30748hasStationOfLife2>
+	rdfs:label "Weiterbildung in Deutschland:
+- bei R. #internNameLink#30362#endNameNr#Heidenhain#/internNameLink# im Physiologischen Institut der Universität Breslau
+- bei C. #internNameLink#30664#endNameNr#Ludwig#/internNameLink# an der Physiologischen Anstalt der Universität Leipzig (keine Publikation)" ;
+	drw-model:began <Date/1874_1876> ;
+	a drw-model:StationOfLife .
+
+<ImportantPerson/30748>
+	drw-model:hasW <WPublication/30748hasW0> ;
+	drw-model:hasWL <WLStationOfLife/30748hasWL0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30748hasGeneralLabor0> ;
+	drw-model:hasSL <SLPublication/30748hasSL2> ;
+	drw-model:hasStationOfLife <StationOfLife/30748hasStationOfLife0> ;
+	drw-model:hasEducation <Education/30748hasEducation1> ;
+	drw-model:hasGPV <GPVPublication/30748hasGPV0> ;
+	drw-model:hasWL <WLStationOfLife/30748hasWL1> ;
+	drw-model:hasStationOfLife <StationOfLife/30748hasStationOfLife1> ;
+	drw-model:hasMainName <MainName/30748> ;
+	drw-model:hasEducation <Education/30748hasEducation2> ;
+	drw-model:hasSL <SLPublication/30748hasSL1> ;
+	drw-model:drwID "30748" ;
+	drw-model:hasW <WPublication/30748hasW1> ;
+	rdfs:label "Navalichin, Ivan Grigor'evič" ;
+	drw-model:hasSL <SLPublication/30748hasSL0> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasGPV <GPVPublication/30748hasGPV1> ;
+	drw-model:hasStationOfLife <StationOfLife/30748hasStationOfLife3> ;
+	drw-model:hasW <WPublication/30748hasW2> ;
+	drw-model:hasEducation <Education/30748hasEducation0> ;
+	drw-model:hasMembership <Membership/30748hasMembership> ;
+	drw-model:hasSL <SLPublication/30748hasSL3> ;
+	drw-model:hasStationOfLife <StationOfLife/30748hasStationOfLife2> ;
+	drw-model:fatherIs <RelatedPerson/30748fatherIs> .
+
+<GPVPublication/30748hasGPV0>
+	rdfs:label "Publikationen 1869-1885, in: Zmeev, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<GeneralLabor/30748hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Dozent für Physiologie und Histologie" .
+
+<Date/1877_1884>
+	a drw-model:Date ;
+	rdfs:label "1877-1884" .
+
+<RelatedPerson/30748fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Grigorij" .
+
+<Date/Vor_1864>
+	a drw-model:Date ;
+	rdfs:label "Vor 1864" .
+
+<SLPublication/30748hasSL0>
+	rdfs:label "Hirsch, Gustav (Hg.): Biographisches Lexikon der hervorragenden Ärzte aller Zeiten und Völker. 2. Aufl. Bd. 4. Berlin, Wien 1932, 330-331." ;
+	a drw-model:SLPublication .
+
+<Date/1874_1876>
+	rdfs:label "1874-1876" ;
+	a drw-model:Date .
+
+<Education/30748hasEducation2>
+	rdfs:label "Dr. med. an der Universität Kazan’" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1873> .
+
+<Membership/30748hasMembership>
+	rdfs:label "Obščestvo vračej v Kazani [Gesellschaft der Ärzte in Kazan’], Obščestvo estestvoispytatelej pri Kazanskom universitete [Gesellschaft der Naturforscher an der Universität Kazan’] (1872-1974 Sekretär)" ;
+	a drw-model:Membership .
+
+<NameVariation/30748var0>
+	rdfs:label "Nawalichin, Iwan/J. Gregorjewitsch"@de ;
+	a drw-model:NameVariation .
+
+<Education/30748hasEducation0>
+	drw-model:began <Date/Vor_1864> ;
+	a drw-model:Education ;
+	rdfs:label "Abschluss des Gymnasiums in Troick, Bez. Čeljabinsk" .
+
+<StationOfLife/30748hasStationOfLife3>
+	drw-model:began <Date/1877_1884> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Dozent für Physiologie, Histologie und Embryologie am Staatlichen Veterinärinstitut in Kazan’" .
+
+<WPublication/30748hasW2>
+	rdfs:label "Myothermische Untersuchungen. Archiv für die gesammte Physiologie des Menschen und der Thiere 14 (1877), 293-329." ;
+	a drw-model:WPublication .
+
+<StationOfLife/30748hasStationOfLife1>
+	drw-model:began <Date/1869_1873> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Gehilfe des Prosektors und Assistent von A. O. #internNameLink#30571#endNameNr#Kovalevskij#/internNameLink# am Lehrstuhl für Physiologie an der Universität Kazan’" .
+

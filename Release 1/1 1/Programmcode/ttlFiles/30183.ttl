@@ -1,0 +1,380 @@
+
+<SLPublication/30183hasSL2>
+	a drw-model:SLPublication ;
+	rdfs:label "Gurlt, E.: Medicinisch-naturwissenschaftlicher Nekrolog des Jahres 1894. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 139 (1895) 3, 581." .
+
+<Membership/30183hasMembership>
+	rdfs:label "Obščestvo estestvoispytatelej v Kieve, v Odesse, v Tiflise [Gesellschaft der Naturforscher in Kiev, Odessa und Tiflis] (Gründungsmitglied), Imperatorskoe obščestvo ljubitelej estestvoznanija, antropologii i ėtnografii pri Moskovskom universitete [Kaiserliche Gesellschaft der Liebhaber der Naturwissenschaften, der Anthropologie und Ethnographie an der Universität Moskau] (1879), Museum für Völkerkunde zu Leipzig (1878), Société d’Anthropologie de Paris (1878), Obščestvo Odesskich vračej [Gesellschaft der Ärzte zu Odessa] (1883 Ehrenmitglied)" ;
+	a drw-model:Membership .
+
+<WLStationOfLife/30183hasWL1>
+	rdfs:label "1874 Nachweis der Existenz zweier (motorischer) Gehirnzentren im Vorderhirn" ;
+	a drw-model:WLStationOfLife .
+
+<MainName/30183>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30183var0> ;
+	rdfs:label "Bec, Vladimir Alekseevič" ;
+	drw-model:hasNameVariation <NameVariation/30183var1> .
+
+<Date/1861_1862>
+	a drw-model:Date ;
+	rdfs:label "1861-1862" .
+
+<GeneralLabor/30183hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Anatomie und Histologie" .
+
+<StationOfLife/30183hasStationOfLife3>
+	rdfs:label "Leiter des Lehrstuhls für Anatomie an der Universität Kiev, zeitweise Direktor des Anatomischen Theaters" ;
+	drw-model:began <Date/1868_1890> ;
+	a drw-model:StationOfLife .
+
+<WLStationOfLife/30183hasWL5>
+	rdfs:label "1872 Gründer des Photographischen Kabinetts am Anatomischen Theater der Universität Kiev" ;
+	a drw-model:WLStationOfLife .
+
+<SLPublication/30183hasSL4>
+	rdfs:label "Kukuev, Lev Aleksandrovič: Vladimir Alekseevič Bec. Nevropatologija i psichiatrija 18 (1949) 3, 5-8." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30183hasStationOfLife7>
+	rdfs:label "Studienreise (April-Oktober) nach Österreich, Deutschland, England und Frankreich, darunter Mai-Juli Demonstration seiner Präparate-Sammlung bei #internNameLink#30184#endNameNr#Brücke#/internNameLink# und in der Gesellschaft der Ärzte in Wien sowie Teilnahme an der 45. Versammlung Deutscher Naturforscher und Ärzte zu Leipzig vom 14.-18. August" ;
+	drw-model:began <Date/1872> ;
+	a drw-model:StationOfLife .
+
+<HonoursAndAwards/30183hasHounoursAndAwards>
+	rdfs:label "1870 St.-Stanislav-Orden 2. Klasse mit Kaiserlicher Krone<br>1870 Silbermedaille auf der Allrussischen Manufakturausstellung in St. Petersburg [Abb. in Moskalenko/Cherkasov/Vasilenko 2010]<br>1873 Fortschritts-Medaille auf der 5. Weltausstellung in Wien [Abb. in Moskalenko/Cherkasov/Vasilenko 2010]<br>1873 St.-Annen-Orden 2. Klasse<br>1878 St.-Vladimir-Orden 3. Klasse<br>1882 „Wirklicher Russischer Staatsrat“<br>1888 „Verdienter o. Professor“ der Universität Kiev<br>V.-O.-Bec-Memorialmuseum im Gebäude des Lehrstuhls für normale Anatomie der Medizinischen Nationaluniversität „A. A. Bogomolec“ in Kiev" ;
+	a drw-model:HonoursAndAwards .
+
+<Date/1860_1861>
+	a drw-model:Date ;
+	rdfs:label "1860-1861" .
+
+<StationOfLife/30183hasStationOfLife1>
+	drw-model:began <Date/1863_1867> ;
+	rdfs:label "Vorlesungen in Anatomie an der naturwissenschaftlichen Abteilung der Physiko-mathematischen Fakultät und in Histologie an der medizinischen Fakultät der Universität Kiev" ;
+	a drw-model:StationOfLife .
+
+<Date/1863_1867>
+	a drw-model:Date ;
+	rdfs:label "1863-1867" .
+
+<Date/1884_1894#footnote2#>
+	a drw-model:Date ;
+	rdfs:label "1884-1894#footnote2#" .
+
+<StationOfLife/30183hasStationOfLife5>
+	drw-model:began <Date/1871_1894> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Konsultant für Nervenkrankheiten am Städtischen St.-Kyrill-Krankenhaus in Kiev" .
+
+<Date/1853_1860>
+	a drw-model:Date ;
+	rdfs:label "1853-1860" .
+
+<WLStationOfLife/30183hasWL3>
+	rdfs:label "Pionier der Mikroskopie" ;
+	a drw-model:WLStationOfLife .
+
+<Date/ohne_Datum>
+	rdfs:label "ohne Datum" ;
+	a drw-model:Date .
+
+<Date/1873>
+	rdfs:label "1873" ;
+	a drw-model:Date .
+
+<Date/1853>
+	a drw-model:Date ;
+	rdfs:label "1853" .
+
+<Date/1868_1870>
+	a drw-model:Date ;
+	rdfs:label "1868-1870" .
+
+<Q/30183hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Pis’mo iz Veny. Sovremennaja medicina (1861) Nr. 19, 1093-1100; auch in: Chačaturjan 1950 (<b>GPV</b>), 285-293." .
+
+<NameVariation/30183var0>
+	rdfs:label "Bec, Volodymyr Oleksijovyč"@de ;
+	a drw-model:NameVariation .
+
+<Date/1863>
+	a drw-model:Date ;
+	rdfs:label "1863" .
+
+<RelatedPerson/30183fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Aleksej, Adliger, Major" .
+
+<RelatedPerson/30183wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "D., geb. Štram [Stramm]" .
+
+<Education/30183hasEducation0>
+	drw-model:began <Date/ohne_Datum> ;
+	a drw-model:Education ;
+	rdfs:label "Erstunterricht vom Lehrer der Lancasterschule Ivan #name#Malevskij#/name# in Petrovka und Besuch des Gymnasiums in Nižyn" .
+
+<WPublication/30183hasW2>
+	rdfs:label "Morfologija osteogeneza. Sistematičeskij očerk istorii razvitija i rosta kostej čeloveka. Kiev 1887, 256 S." ;
+	a drw-model:WPublication .
+
+<Education/30183hasEducation2>
+	drw-model:began <Date/1853_1860> ;
+	a drw-model:Education ;
+	rdfs:label "Studium der Medizin an der St.-Vladimir-Universität Kiev" .
+
+<WPublication/30183hasW0>
+	rdfs:label "O mechanisme krovoobraščenija v pečeni. Diss. Kiev 1863, 15 S." ;
+	a drw-model:WPublication .
+
+<SLPublication/30183hasSL5>
+	rdfs:label "Marinža, Luk’jan: V. A. Bec. Rodonačal’nik učenija o citoarchitektonike kory mozga. Zdorov’ja Ukrajiny. Medyčna gazeta (2007) Nr. 7, 74 (http://health-ua.com/articles/3626.html, 25.7.2011)." ;
+	a drw-model:SLPublication .
+
+<GPVPublication/30183hasGPV1>
+	rdfs:label "Publikationen 1860-1887 (37 Nrn.), in: Bogdanov, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<Education/30183hasEducation4>
+	drw-model:began <Date/1861_1862> ;
+	a drw-model:Education ;
+	rdfs:label "Weiterbildung in Österreich und Deutschland:
+- bei E. W. v. #internNameLink#30184#endNameNr#Brücke#/internNameLink# und Josef #internNameLink#30411#endNameNr#Hyrtl#/internNameLink# (1810-1894) an der Universität und bei C. #internNameLink#30664#endNameNr#Ludwig#/internNameLink# an der Militär-medizinischen Akademie Josephinum in Wien#footnote1#
+- bei Robert Wilhelm #internNameLink#10029#endNameNr#Bunsen#/internNameLink# (1811-1899) und (Vorlesungen) bei Gustav Robert #name#Kirchhoff#/name# (1824-1887) und H. v. #internNameLink#30366#endNameNr#Helmholtz#/internNameLink# (1821-1894) an der Universität Heidelberg
+- bei Rudolf Albert von #internNameLink#30553#endNameNr#Koelliker#/internNameLink# (1817-1905) an der Universität Würzburg" .
+
+<WLStationOfLife/30183hasWL2>
+	rdfs:label "Einer der Begründer der modernen Neuroanatomie" ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30183hasStationOfLife9>
+	drw-model:began <Date/1884_1894#footnote2#> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Oberarzt bei der „Süd-Westlichen Eisenbahn“ in Kiev" .
+
+<WLStationOfLife/30183hasWL0>
+	rdfs:label "Hauptforschungsgebiet: Zentralnervensystem" ;
+	a drw-model:WLStationOfLife .
+
+<GPVPublication/30183hasGPV2>
+	rdfs:label "Chačaturjan 1950 – V. A. Bec: Anatomičeskie i gistologičeskie issledovanija (Izbrannye trudy). Red. A. A. Chačaturjan. Moskva 1950, 299 S.; darin S. 295-298: Bibliografija važnejšich rabot V. A. Beca [1860-1887]." ;
+	a drw-model:GPVPublication .
+
+<SLPublication/30183hasSL3>
+	a drw-model:SLPublication ;
+	rdfs:label "Kukuev, Lev Aleksandrovič: V. A. Bec, 1834-1894. Moskva 1950 (Vydajuščiesja dejateli otečestvennoj mediciny), 88 S." .
+
+<Date/1872>
+	rdfs:label "1872" ;
+	a drw-model:Date .
+
+<SLPublication/30183hasSL1>
+	rdfs:label "Erik-Amburger-Datenbank. Ausländer im vorrevolutionären Russland (http://88.217.241.77/amburger/, 10.4.2012): Dokument-Id [53344/42033 (16.6.2011)]." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30183hasStationOfLife2>
+	drw-model:began <Date/1868_1870> ;
+	rdfs:label "ao. Professor, ab 1870 o. Professor an der Universität Kiev" ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30183hasSL8>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 52, 45-55; RS 6, 71-72." ;
+	a drw-model:SLPublication .
+
+<WLStationOfLife/30183hasWL4>
+	rdfs:label "Gründer einer einzigartigen Sammlung anatomischer und histologischer Präparate (ca. 10 000 Objekte/Katalogisate/Specimina u. ä.)" ;
+	a drw-model:WLStationOfLife .
+
+<WPublication/30183hasW6>
+	rdfs:label "Außerdem Mitautor eines biographischen Werkes: Istoričeskie dejateli jugo-zapadnoj Rossii v biografijach i portretach. Sostavili Vladimir Bonifat’evič Antonovič i V. A. Bec po kollekcii Vasilija Vasil’eviča Tarnovskogo. Bd. 1. Kiev 1885, VI + II + 110 S., 19 Portraits, 2 Bl. Faks." ;
+	a drw-model:WPublication .
+
+<P/30183hasP1>
+	rdfs:label "Portrait in: Chačaturjan 1950 (<b>GPV</b>), nach dem Titelblatt." ;
+	a drw-model:P .
+
+<StationOfLife/30183hasStationOfLife0>
+	drw-model:began <Date/1863_1867> ;
+	rdfs:label "Prosektor am Lehrstuhl für Anatomie an der Universität Kiev" ;
+	a drw-model:StationOfLife .
+
+<WLStationOfLife/30183hasWL6>
+	rdfs:label "Nach ihm ist benannt:" ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30183hasStationOfLife4>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/ab_1871_zugleich> .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<SLPublication/30183hasSL0>
+	rdfs:label "Chačaturjan, A. A.: Vladimir Alekseevič Bec, 1834-1894 gg. In: Chačaturjan 1950 (<b>GPV</b>), 7-55; Osnovnye daty žizni i dejatel’nosti V. A. Beca. In: Ibid., 294-295." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30183hasStationOfLife6>
+	drw-model:began <Date/1871_1873> ;
+	rdfs:label "öffentliche Vorlesungen in physiologischer Anatomie in Kiev" ;
+	a drw-model:StationOfLife .
+
+<NameVariation/30183var1>
+	rdfs:label "Betz, Wladimir/Woldemar"@de ;
+	a drw-model:NameVariation .
+
+<P/30183hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb. [Gemälde eines unbekannten Künstlers von ca. 1880]) aus: http://en.wikipedia.org/wiki/File:Vladimir_Betz.JPG (25.7.2011); Reproduktionen in <b>SL</b> Kukuev 1950, Moskalenko/Cherkasov/Vasilenko 2010." .
+
+<WPublication/30183hasW4>
+	rdfs:label "Neskol’ko slov o Sanitarnoj komissii i o Kievskoj gorodskoj sanitarnoj stancii. Kiev 1892, 26 S." ;
+	a drw-model:WPublication .
+
+<StationOfLife/30183hasStationOfLife10>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<Date/1871_1894>
+	a drw-model:Date ;
+	rdfs:label "1871-1894" .
+
+<WLStationOfLife/30183hasWL7>
+	rdfs:label "Betz-Riesenzellen, auch Betz-Zelle und Betzsche Riesenpyramide [#italic#Kletki Beca#/italic#] (Die größten Pyramidenzellen des Neocortex in Schicht V)#footnote3#" ;
+	a drw-model:WLStationOfLife .
+
+<Date/1871_1873>
+	a drw-model:Date ;
+	rdfs:label "1871-1873" .
+
+<Date/1868_1890>
+	rdfs:label "1868-1890" ;
+	a drw-model:Date .
+
+<Q/30183hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Osnovnyj anatomičeskij muzej pri Kafedre anatomii čeloveka Nacional’nogo medicinskogo universiteta im. akademika A. A. Bogomol’ca v Kieve." .
+
+<SLPublication/30183hasSL6>
+	a drw-model:SLPublication ;
+	rdfs:label "Moskalenko, V. F., Cherkasov, V. G., Vasilenko, D. A.: The World-Renowned Ukrainian Neuroanatomist Prof. Vladimir A. Bets (on the 175th Anniversary of His Birthday). Neurophysiology 42 (2010), 1-7." .
+
+<SLPublication/30183hasSL9>
+	rdfs:label "Vikipedija (http://ru.wikipedia.org/wiki/Бец,_Владимир_Алексеевич, 25.7.2011)." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30183hasSL10>
+	a drw-model:SLPublication ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 51-52." .
+
+<Education/30183hasEducation1>
+	a drw-model:Education ;
+	rdfs:label "Abschluss des 2. Gymnasiums in Kiev" ;
+	drw-model:began <Date/1853> .
+
+<WPublication/30183hasW1>
+	rdfs:label "Dva centra v korkovom sloe čelovečeskogo mozga. Moskovskij vračebnyj vestnik (1874) Nr. 24, 26-28; (1875) Nr. [?], 9 S." ;
+	a drw-model:WPublication .
+
+<SLPublication/30183hasSL7>
+	a drw-model:SLPublication ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 99." .
+
+<WPublication/30183hasW5>
+	rdfs:label "Očerk meroprijatij v ėpidemiju cholery 1892 goda na linii Jugo-zapadnych železnych dorog. Kiev 1893, 52 S." ;
+	a drw-model:WPublication .
+
+<Education/30183hasEducation3>
+	drw-model:began <Date/1860_1861> ;
+	a drw-model:Education ;
+	rdfs:label "Gehilfe des Prosektors am Lehrstuhl für Anatomie an der Universität Kiev" .
+
+<ImportantPerson/30183>
+	drw-model:hasP <P/30183hasP1> ;
+	drw-model:hasW <WPublication/30183hasW4> ;
+	drw-model:hasGPV <GPVPublication/30183hasGPV1> ;
+	drw-model:hasStationOfLife <StationOfLife/30183hasStationOfLife9> ;
+	drw-model:hasStationOfLife <StationOfLife/30183hasStationOfLife6> ;
+	drw-model:drwID "30183" ;
+	drw-model:hasWL <WLStationOfLife/30183hasWL2> ;
+	drw-model:hasEducation <Education/30183hasEducation4> ;
+	drw-model:hasSL <SLPublication/30183hasSL8> ;
+	drw-model:hasSL <SLPublication/30183hasSL6> ;
+	drw-model:hasGPV <GPVPublication/30183hasGPV2> ;
+	drw-model:hasW <WPublication/30183hasW3> ;
+	drw-model:hasGPV <GPVPublication/30183hasGPV0> ;
+	drw-model:hasSL <SLPublication/30183hasSL4> ;
+	rdfs:label "Bec, Vladimir Alekseevič" ;
+	drw-model:hasWL <WLStationOfLife/30183hasWL5> ;
+	drw-model:hasEducation <Education/30183hasEducation3> ;
+	drw-model:hasStationOfLife <StationOfLife/30183hasStationOfLife0> ;
+	drw-model:hasStationOfLife <StationOfLife/30183hasStationOfLife2> ;
+	drw-model:hasW <WPublication/30183hasW2> ;
+	drw-model:hasQ <Q/30183hasQ1> ;
+	drw-model:hasW <WPublication/30183hasW6> ;
+	drw-model:hasWL <WLStationOfLife/30183hasWL7> ;
+	drw-model:hasStationOfLife <StationOfLife/30183hasStationOfLife4> ;
+	drw-model:hasSL <SLPublication/30183hasSL5> ;
+	drw-model:hasSL <SLPublication/30183hasSL0> ;
+	drw-model:hasSL <SLPublication/30183hasSL9> ;
+	drw-model:hasWL <WLStationOfLife/30183hasWL4> ;
+	drw-model:hasMainName <MainName/30183> ;
+	drw-model:hasEducation <Education/30183hasEducation2> ;
+	drw-model:fatherIs <RelatedPerson/30183fatherIs> ;
+	drw-model:hasSL <SLPublication/30183hasSL1> ;
+	drw-model:hasW <WPublication/30183hasW1> ;
+	drw-model:hasWL <WLStationOfLife/30183hasWL1> ;
+	drw-model:hasWL <WLStationOfLife/30183hasWL6> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/30183hasHounoursAndAwards> ;
+	drw-model:hasSL <SLPublication/30183hasSL10> ;
+	drw-model:hasStationOfLife <StationOfLife/30183hasStationOfLife1> ;
+	drw-model:hasSL <SLPublication/30183hasSL2> ;
+	drw-model:hasStationOfLife <StationOfLife/30183hasStationOfLife3> ;
+	drw-model:wasMarriedTo <RelatedPerson/30183wasMarriedTo> ;
+	drw-model:hasEducation <Education/30183hasEducation1> ;
+	drw-model:hasP <P/30183hasP0> ;
+	drw-model:hasStationOfLife <StationOfLife/30183hasStationOfLife5> ;
+	drw-model:hasW <WPublication/30183hasW0> ;
+	drw-model:hasQ <Q/30183hasQ0> ;
+	drw-model:hasMembership <Membership/30183hasMembership> ;
+	drw-model:hasWL <WLStationOfLife/30183hasWL0> ;
+	drw-model:hasStationOfLife <StationOfLife/30183hasStationOfLife8> ;
+	drw-model:hasW <WPublication/30183hasW5> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <Education/30183hasEducation0> ;
+	drw-model:hasStationOfLife <StationOfLife/30183hasStationOfLife10> ;
+	drw-model:hasSL <SLPublication/30183hasSL3> ;
+	drw-model:hasWL <WLStationOfLife/30183hasWL3> ;
+	drw-model:hasEducation <Education/30183hasEducation5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30183hasGeneralLabor0> ;
+	drw-model:hasStationOfLife <StationOfLife/30183hasStationOfLife7> ;
+	drw-model:hasSL <SLPublication/30183hasSL7> .
+
+<GPVPublication/30183hasGPV0>
+	rdfs:label "Publikationen 1860-1883 (36 Nrn.), in: Ikonnikov 1884, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<StationOfLife/30183hasStationOfLife8>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1873> ;
+	rdfs:label "Delegierung (für 5 Monate) zu der 5. Weltausstellung in Wien, zugleich Vorlesungen mit Demonstrationen für Ärzte (in deutscher und russischer Sprache) im Auditorium von #internNameLink#30184#endNameNr#Brücke#/internNameLink# am Josephinum" .
+
+<Date/ab_1871_zugleich>
+	a drw-model:Date ;
+	rdfs:label "ab 1871 zugleich:" .
+
+<WPublication/30183hasW3>
+	rdfs:label "Atlas čelovečeskago mozga. [Kiev] 1860-1890." ;
+	a drw-model:WPublication .
+
+<Education/30183hasEducation5>
+	rdfs:label "Dr. med. an der Universität Kiev" ;
+	drw-model:began <Date/1863> ;
+	a drw-model:Education .
+

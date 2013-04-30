@@ -1,0 +1,195 @@
+
+<Date/1884_1887>
+	a drw-model:Date ;
+	rdfs:label "1884-1887" .
+
+<GPVPublication/30614hasGPV0>
+	rdfs:label "Publikationen in deutscher Sprache 1868-1880, in: Poggendorff (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<StationOfLife/30614hasStationOfLife5>
+	rdfs:label "Inspektor für Maß- und Gewichtswesen im Eichamt in St. Petersburg" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1893_1901> .
+
+<StationOfLife/30614hasStationOfLife1>
+	rdfs:label "Dozent am Lehrstuhl für Physik an der Universität Warschau" ;
+	drw-model:began <Date/1875_1878> ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30614hasSL1>
+	a drw-model:SLPublication ;
+	rdfs:label "Ivanovskij 1898 - Istorija Imperatorskoj voenno-medicinskoj (byvšej mediko-chirurgičeskoj) akademii za sto let 1798-1898. Glavnyj red. Ivanovskij. Sankt-Peterburg 1898, 638, 647." .
+
+<RelatedPerson/30614fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ivan Ivanovič (1793/4–1879), Direktor der Kreditabteilung im Finanzministerium, Senator" .
+
+<StationOfLife/30614hasStationOfLife3>
+	rdfs:label "Physiker am Physikalischen Zentralobservatorium in St. Petersburg" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1881_1884> .
+
+<WLStationOfLife/30614hasWL1>
+	rdfs:label "1872 Nachweis von Frauenhofer’schen Linien im dunklen infrararoten Teil des Spektrums" ;
+	a drw-model:WLStationOfLife .
+
+<SLPublication/30614hasSL3>
+	a drw-model:SLPublication ;
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 272, 269-272." .
+
+<Date/1879_1881>
+	a drw-model:Date ;
+	rdfs:label "1879-1881" .
+
+<Date/1874_1875>
+	a drw-model:Date ;
+	rdfs:label "1874-1875" .
+
+<MainName/30614>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30614var0> ;
+	rdfs:label "Lamanskij, Sergej Ivanovič" .
+
+<Date/1874_?>
+	a drw-model:Date ;
+	rdfs:label "1874 (?)" .
+
+<NameVariation/30614var0>
+	a drw-model:NameVariation ;
+	rdfs:label "Lamansky, Sergei Iwanowitsch"@de .
+
+<RelatedPerson/30614hasSibling>
+	a drw-model:RelatedPerson ;
+	rdfs:label "#footnote1#
+Jakov Ivanovič (1822-1872), Bergbauingenieur, Direktor des Technologischen Instituts
+Evgenij Ivanovič (1825/6-1902), Bankdirektor
+Vladimir Ivanovič (1833-1914), Professor für Slavistik, Historiker
+Konstantin Ivanovič (1839-1885), Richter
+Porfirij Ivanovič, Ministerialbeamter" .
+
+<GeneralLabor/30614hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologe" .
+
+<WLStationOfLife/30614hasWL2>
+	rdfs:label "Übersetzung zahlreicher physikalischer Lehrbücher ins Russische (aus dem Deutschen vgl. <b>W</b>)" ;
+	a drw-model:WLStationOfLife .
+
+<Education/30614hasEducation0>
+	drw-model:began <Date/Bis_1862> ;
+	a drw-model:Education ;
+	rdfs:label "Studium an der Universität in St. Petersburg#footnote2#" .
+
+<Education/30614hasEducation2>
+	a drw-model:Education ;
+	drw-model:began <Date/1874_?> ;
+	rdfs:label "Dr. med. in St. Petersburg" .
+
+<Membership/30614hasMembership>
+	rdfs:label "Imperatorskoe Russkoe techničeskoe obščestvo [Kaiserliche Russische technische Gesellschaft] (?)" ;
+	a drw-model:Membership .
+
+<Date/1864_1874>
+	a drw-model:Date ;
+	rdfs:label "1864-1874" .
+
+<StationOfLife/30614hasStationOfLife2>
+	rdfs:label "Studienaufenthalt in Zürich#footnote3# und bei Eleuthère #name#Mascart#/name# (1837-1908) am Collège de France in Paris" ;
+	drw-model:began <Date/1879_1881> ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30614hasSL4>
+	a drw-model:SLPublication ;
+	rdfs:label "Vikipedija (http://ru.wikipedia.org/wiki/Ламанский,_Сергей_Иванович, 31.5.2011)." .
+
+<StationOfLife/30614hasStationOfLife4>
+	rdfs:label "Leitender Techniker der städtischen Kommission für Stadtbeleuchtung in St. Petersburg" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1884_1887> .
+
+<Date/1875_1878>
+	a drw-model:Date ;
+	rdfs:label "1875-1878" .
+
+<Date/Bis_1862>
+	a drw-model:Date ;
+	rdfs:label "Bis 1862" .
+
+<StationOfLife/30614hasStationOfLife0>
+	rdfs:label "Dozent für Physik (Vorlesungen zur Elektrizität und Magnetismus) an der Mediko-Chirurgischen Akademie (MCA) in St. Petersburg" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1874_1875> .
+
+<WLStationOfLife/30614hasWL0>
+	rdfs:label "Forschungsthemen: Wärmeverteilung im Sonnenspektrum, Fluoreszenz, Erforschung von Schmierölen, Leucht- und Wassergas, Gasbrenner u. a." ;
+	a drw-model:WLStationOfLife .
+
+<SLPublication/30614hasSL2>
+	a drw-model:SLPublication ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 96." .
+
+<ImportantPerson/30614>
+	drw-model:hasWL <WLStationOfLife/30614hasWL1> ;
+	drw-model:hasStationOfLife <StationOfLife/30614hasStationOfLife0> ;
+	drw-model:hasStationOfLife <StationOfLife/30614hasStationOfLife2> ;
+	rdfs:label "Lamanskij, Sergej Ivanovič" ;
+	drw-model:hasSL <SLPublication/30614hasSL3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30614hasGeneralLabor0> ;
+	drw-model:motherIs <RelatedPerson/30614motherIs> ;
+	drw-model:hasSL <SLPublication/30614hasSL2> ;
+	drw-model:hasEducation <Education/30614hasEducation0> ;
+	drw-model:hasSL <SLPublication/30614hasSL4> ;
+	drw-model:hasSibling <RelatedPerson/30614hasSibling> ;
+	drw-model:hasSL <SLPublication/30614hasSL1> ;
+	drw-model:fatherIs <RelatedPerson/30614fatherIs> ;
+	drw-model:hasEducation <Education/30614hasEducation1> ;
+	drw-model:drwID "30614" ;
+	drw-model:hasStationOfLife <StationOfLife/30614hasStationOfLife3> ;
+	drw-model:hasStationOfLife <StationOfLife/30614hasStationOfLife5> ;
+	drw-model:hasWL <WLStationOfLife/30614hasWL2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30614hasGeneralLabor2> ;
+	drw-model:hasMembership <Membership/30614hasMembership> ;
+	drw-model:hasSL <SLPublication/30614hasSL0> ;
+	drw-model:hasGPV <GPVPublication/30614hasGPV0> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasGeneralLabor <GeneralLabor/30614hasGeneralLabor1> ;
+	drw-model:hasStationOfLife <StationOfLife/30614hasStationOfLife4> ;
+	drw-model:hasStationOfLife <StationOfLife/30614hasStationOfLife1> ;
+	drw-model:hasEducation <Education/30614hasEducation2> ;
+	drw-model:hasWL <WLStationOfLife/30614hasWL0> ;
+	drw-model:hasMainName <MainName/30614> .
+
+<RelatedPerson/30614motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Vera Jakovlevna Lamanskaja, geb. Malozemova" .
+
+<Date/1893_1901>
+	rdfs:label "1893-1901" ;
+	a drw-model:Date .
+
+<GeneralLabor/30614hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiker" .
+
+<SLPublication/30614hasSL0>
+	a drw-model:SLPublication ;
+	rdfs:label "Poggendorff - Biographisch-literarisches Handwörterbuch zur Geschichte der exacten Naturwissenschaften, enthaltend Nachweisungen über Lebensverhältnisse und Leistungen von Mathematikern, Astronomen, Physikern, Chemikern, Mineralogen, Geologen usw. aller Völker und Zeiten. Gesammelt von J. C. Poggendorff, Mitglied der Akademie der Wissenschaften zu Berlin / J. C. Poggendorff - Biographisch-literarisches Handwörterbuch der exakten Naturwissenschaften. Bd. 1-8. Leipzig, Berlin 1863-2004. Bd. 3, 767." .
+
+<Education/30614hasEducation1>
+	rdfs:label "Weiterbildung in Deutschland:
+- bei Rudolf #name#Leuckart#/name# (1822-1898) an der UniversitätGießen
+- bei Georg #name#Meissner#/name# (1829-1905) an der Universität Göttingen
+- bei R. #internNameLink#30362#endNameNr#Heidenhain#/internNameLink# an der Universität Breslau
+- bei H. von #internNameLink#30366#endNameNr#Helmholtz#/internNameLink# an der Universität Heidelberg" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1864_1874> .
+
+<Date/1881_1884>
+	a drw-model:Date ;
+	rdfs:label "1881-1884" .
+
+<GeneralLabor/30614hasGeneralLabor2>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Petrochemiker" .
+

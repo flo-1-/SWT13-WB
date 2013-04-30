@@ -1,0 +1,312 @@
+
+<Date/1875>
+	a drw-model:Date ;
+	rdfs:label "1875" .
+
+<SLPublication/30584hasSL3>
+	rdfs:label "Frank, O.: Nekrolog. Jahrbuch der Bayerischen Akademie der Wissenschaften 1928/29 (1929), 87-88." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30584hasSL6>
+	a drw-model:SLPublication ;
+	rdfs:label "Orden pour le Mérite (http://www.orden-pourlemerite.de/mitglieder/johannes-adolf-von-kries?m=3&amp;u=5, 3.1.2012)." .
+
+<Q/30584hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Stammbaum Johannes von Kries. Aus dem Privatbesitz von Prof. Bernd Buldt (vgl. Anm. 1)." .
+
+<RelatedPerson/30584fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Adolf Anton Franz (1808-1889), Amtsrat, Pächter der Domäne Roggenhausen#footnote1#" .
+
+<WPublication/30584hasW0>
+	rdfs:label "vgl. <b>SL</b>" ;
+	a drw-model:WPublication .
+
+<SLPublication/30584hasSL5>
+	rdfs:label "Hoffmann, Paul: Johannes von Kreis zum Gedächtnis. Forschungen und Fortschritte 5 (1929), 46-47." ;
+	a drw-model:SLPublication .
+
+<RelatedPerson/30584wasMarriedTo>
+	rdfs:label "Else, geb. Wichgraf (1859-1937)" ;
+	a drw-model:RelatedPerson .
+
+<Date/Bis_1869>
+	a drw-model:Date ;
+	rdfs:label "Bis 1869" .
+
+<SLPublication/30584hasSL10>
+	a drw-model:SLPublication ;
+	rdfs:label "Rothschuh, Karl Eduard: Geschichte der Physiologie. Berlin, Göttingen, Heidelberg 1953, 128-129." .
+
+<Q/30584hasQ4>
+	a drw-model:Q ;
+	rdfs:label "Erich von Kries: Geschichte der Familie von Kries. Görlitz 1912, 189 S." .
+
+<Education/30584hasEducation1>
+	rdfs:label "Studium der Medizin an den Universitäten Halle (bei A. W. #internNameLink#31075#endNameNr#Volkmann#/internNameLink#), Leipzig und Zürich" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1869_1875> .
+
+<SLPublication/30584hasSL7>
+	a drw-model:SLPublication ;
+	rdfs:label "Ostdeutsche Biographie (http://www.ostdeutsche-biographie.de/kriejo78.htm, 3.1.2012)." .
+
+<MainName/30584>
+	a drw-model:MainName ;
+	rdfs:label "Kries, Johannes Adolf von" ;
+	drw-model:hasNameVariation <NameVariation/30584var0> .
+
+<Education/30584hasEducation3>
+	rdfs:label "Habilitation in Physiologie in Leipzig" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1878> .
+
+<SLPublication/30584hasSL9>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SLPublication .
+
+<HonoursAndAwards/30584hasHounoursAndAwards>
+	rdfs:label "„Geheimer Rat“<br>1918 Orden Pour le Mérite für Wissenschaften und Künste<br>Dr. phil. h. c. und Dr. phil. nat. h. c. (1886/87 ?), Dr. iur. h. c. (1904)<br>Ehrenbürger der Technischen Hochschule Karlsruhe<br>Festgabe zum 70. Geburtstag am 6. Oktober 1923. [Teil 1] #italic#Pflüger’s Archiv für die gesamte Physiologie des Menschen und der Tiere#/italic# 201 (1923), 1-332; [Teil 2] #italic#Psychologische Forschung#/italic# 3 (1923) 3, 209-318." ;
+	a drw-model:HonoursAndAwards .
+
+<Q/30584hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Universitätsarchiv Leipzig: Matrikel zwischen 1825 und 1889, Signatur: Rektor <b>B</b> 57; Personalakten, Bestand Promotionen 1810-1969, Signatur: Med. Fak. Prom. Bd. 1 (1865-1877); Personalakten von Professoren und Dozenten bis zum Jahr 1990, Signatur: PA 1466." .
+
+<SLComment/30584hasSLComment>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<SLPublication/30584hasSL17>
+	a drw-model:SLPublication ;
+	rdfs:label "Wegbereiter unserer naturwissenschaftlich-medizinischen Moderne (http://appserv5.ph-heidelberg.de/onlinelex/index.php?id=1001, 3.1.2012)." .
+
+<SLPublication/30584hasSL19>
+	rdfs:label "Wikipedia (http://de.wikipedia.org/wiki/Johannes_von_Kries, 3.1.2012)." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30584hasStationOfLife3>
+	a drw-model:StationOfLife ;
+	rdfs:label "o. Professor für Physiologie und Direktor (kommissarisch bis 1924) des Physiologischen Instituts in Freiburg/Br." ;
+	drw-model:began <Date/1883_1923> .
+
+<SLPublication/30584hasSL15>
+	rdfs:label "Vikipedija (http://ru.wikipedia.org/wiki/Крис,_Иоганн, 3.1.2012)." ;
+	a drw-model:SLPublication .
+
+<Date/1869_1875>
+	a drw-model:Date ;
+	rdfs:label "1869-1875" .
+
+<StationOfLife/30584hasStationOfLife1>
+	drw-model:began <Date/1877_1880> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Assistent bei C. #internNameLink#30664#endNameNr#Ludwig#/internNameLink# an der Universität Leipzig" .
+
+<SLPublication/30584hasSL14>
+	rdfs:label "VL People (http://vlp.mpiwg-berlin.mpg.de/people/data?id=per323, 3.1.2012)." ;
+	a drw-model:SLPublication .
+
+<GeneralLabor/30584hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<SLPublication/30584hasSL1>
+	rdfs:label "Poggendorff - Biographisch-literarisches Handwörterbuch zur Geschichte der exacten Naturwissenschaften, enthaltend Nachweisungen über Lebensverhältnisse und Leistungen von Mathematikern, Astronomen, Physikern, Chemikern, Mineralogen, Geologen usw. aller Völker und Zeiten. Gesammelt von J. C. Poggendorff, Mitglied der Akademie der Wissenschaften zu Berlin / J. C. Poggendorff - Biographisch-literarisches Handwörterbuch der exakten Naturwissenschaften. Bd. 1-8. Leipzig, Berlin 1863-2004. Bd. 6, 1408." ;
+	a drw-model:SLPublication .
+
+<P/30584hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Rothschuh 1953 (<b>SL</b>); auch in <b>SL</b> Familienverband von Kries e.V. [mit Unterschrift], Ostdeutsche Biographie, Skramlik 1923, VL People." .
+
+<SLPublication/30584hasSL16>
+	rdfs:label "Walter, Heinz: Kries, Johannes v. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. Bd. 13 (1982) 46-47 (Onlinefassung unter http://www.deutsche-biographie.de/pnd116545844.html, 3.1.2012)." ;
+	a drw-model:SLPublication .
+
+<Q/30584hasQ3>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr. 2377." .
+
+<SLPublication/30584hasSL0>
+	a drw-model:SLPublication ;
+	rdfs:label "Asher, Leon: Johannes von Kries. Klinische Wochenschrift 8 (1929), 383." .
+
+<SLPublication/30584hasSL4>
+	a drw-model:SLPublication ;
+	rdfs:label "Frey, M.: Johannes von Kries, 1853-1928. Naturwissenschaften 17 (1929), 435-437." .
+
+<Date/1876_1877>
+	a drw-model:Date ;
+	rdfs:label "1876-1877" .
+
+<SLPublication/30584hasSL2>
+	rdfs:label "Familienverband von Kries e.V.: Bedeutende Mitglieder der Familie (http://www.von-kries.de/cms/front_content.php?idart=44, 3.1.2012)." ;
+	a drw-model:SLPublication .
+
+<Date/1880_1883>
+	a drw-model:Date ;
+	rdfs:label "1880-1883" .
+
+<Date/1877_1880>
+	a drw-model:Date ;
+	rdfs:label "1877-1880" .
+
+<SLPublication/30584hasSL11>
+	a drw-model:SLPublication ;
+	rdfs:label "Skramlik E. v.: Johannes von Kries zu seinem 70. Geburtstag. Deutsche medizinische Wochenschrift 49 (1923) 42, 1344." .
+
+<RelatedPerson/30584hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "#footnote2#
+Ellen, verh. Nagel (1882-1944), Ehefrau von W. #internNameLink#30743#endNameNr#Nagel#/internNameLink#
+(Char)Lotte Minna (1884-1979)
+Walter (1888/9-1898[Schaukelunfall])
+Hans Richard (1899-1918[Selbstmord])
+Gerda Elisabeth von Kries-Roggenhausen, verh. Preuß (1901-1972), Schriftstellerin" .
+
+<Education/30584hasEducation0>
+	drw-model:began <Date/Bis_1869> ;
+	rdfs:label "Besuch des Gymnasiums in Marienwerder" ;
+	a drw-model:Education .
+
+<SLPublication/30584hasSL13>
+	rdfs:label "Trendelenburg, Wilhelm: Johannes v. Kries. Naturwissenschaften 11 (1923), 817-820." ;
+	a drw-model:SLPublication .
+
+<Q/30584hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Historische Vorlesungsverzeichnisse der Universität Leipzig (http://histvv.uni-leipzig.de/dozenten/kries_j.html, 3.1.2012)." .
+
+<Education/30584hasEducation2>
+	drw-model:began <Date/1875> ;
+	a drw-model:Education ;
+	rdfs:label "Promotion zum Dr. med. an der Universität Leipzig" .
+
+<SLPublication/30584hasSL8>
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 913-914." ;
+	a drw-model:SLPublication .
+
+<HounoursAndAwardsComment/30584hasHounoursAndAwardsComment>
+	rdfs:label "(Auswahl)" ;
+	a drw-model:HounoursAndAwardsComment .
+
+<WLStationOfLife/30584hasWL0>
+	rdfs:label "vgl. <b>SL</b>" ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30584hasStationOfLife4>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<Date/1878>
+	a drw-model:Date ;
+	rdfs:label "1878" .
+
+<NameVariation/30584var0>
+	rdfs:label "Крис, Иоганн"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Kris, Iogann"@de .
+
+<SLPublication/30584hasSL18>
+	rdfs:label "Weizsäcker, Viktor: Johannes von Kries zum 70. Geburtstag. Klinische Wochenschrift 2 (1923), 1913-1914." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30584hasStationOfLife2>
+	rdfs:label "ao. Professor für Physiologie an der Universität Freiburg/Br." ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1880_1883> .
+
+<GeneralLabor/30584hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Psychologe" .
+
+<Date/1883_1923>
+	rdfs:label "1883-1923" ;
+	a drw-model:Date .
+
+<StationOfLife/30584hasStationOfLife0>
+	rdfs:label "Mitarbeiter am Physikalischen Institut der Universität Berlin bei H. #internNameLink#30366#endNameNr#Helmholtz#/internNameLink#" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1876_1877> .
+
+<GPVPublication/30584hasGPV0>
+	rdfs:label "vgl. <b>SL</b>" ;
+	a drw-model:GPVPublication .
+
+<SLPublication/30584hasSL12>
+	rdfs:label "Trendelenburg, Wilhelm: Johannes v. Kries zum Gedenken. Münchener medizinische Wochenschrift 76 (1929), 922-924." ;
+	a drw-model:SLPublication .
+
+<RelatedPerson/30584motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johanna, geb. Reichenau (1815-1888)" .
+
+<P/30584hasP1>
+	a drw-model:P ;
+	rdfs:label "Weitere Portraits in: Festgabe (<b>B</b>) und Wegbereiter (<b>SL</b>)." .
+
+<Membership/30584hasMembership>
+	a drw-model:Membership ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<ImportantPerson/30584>
+	drw-model:hasMainName <MainName/30584> ;
+	drw-model:hasMembership <Membership/30584hasMembership> ;
+	drw-model:hasEducation <Education/30584hasEducation0> ;
+	drw-model:hasSL <SLPublication/30584hasSL10> ;
+	drw-model:hasSL <SLPublication/30584hasSL15> ;
+	drw-model:motherIs <RelatedPerson/30584motherIs> ;
+	drw-model:hasSL <SLPublication/30584hasSL19> ;
+	drw-model:hasSL <SLPublication/30584hasSL4> ;
+	drw-model:hasStationOfLife <StationOfLife/30584hasStationOfLife1> ;
+	drw-model:hasStationOfLife <StationOfLife/30584hasStationOfLife3> ;
+	drw-model:hasSL <SLPublication/30584hasSL3> ;
+	drw-model:hasEducation <Education/30584hasEducation1> ;
+	drw-model:hasSL <SLPublication/30584hasSL14> ;
+	drw-model:hasQ <Q/30584hasQ1> ;
+	drw-model:hasSL <SLPublication/30584hasSL18> ;
+	drw-model:hasStationOfLife <StationOfLife/30584hasStationOfLife2> ;
+	drw-model:hasStationOfLife <StationOfLife/30584hasStationOfLife0> ;
+	rdfs:label "Kries, Johannes Adolf von" ;
+	drw-model:hasQ <Q/30584hasQ3> ;
+	drw-model:hasSL <SLPublication/30584hasSL0> ;
+	drw-model:hasW <WPublication/30584hasW0> ;
+	drw-model:hasStationOfLife <StationOfLife/30584hasStationOfLife4> ;
+	drw-model:hasHounoursAndAwardsComment <HounoursAndAwardsComment/30584hasHounoursAndAwardsComment> ;
+	drw-model:hasSL <SLPublication/30584hasSL13> ;
+	drw-model:hasQ <Q/30584hasQ4> ;
+	drw-model:drwID "30584" ;
+	drw-model:hasSL <SLPublication/30584hasSL17> ;
+	drw-model:wasMarriedTo <RelatedPerson/30584wasMarriedTo> ;
+	drw-model:hasSL <SLPublication/30584hasSL9> ;
+	drw-model:hasQ <Q/30584hasQ0> ;
+	drw-model:hasSL <SLPublication/30584hasSL12> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30584hasGeneralLabor1> ;
+	drw-model:fatherIs <RelatedPerson/30584fatherIs> ;
+	drw-model:hasSL <SLPublication/30584hasSL16> ;
+	drw-model:hasDescendant <RelatedPerson/30584hasDescendant> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasGPV <GPVPublication/30584hasGPV0> ;
+	drw-model:hasEducation <Education/30584hasEducation2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30584hasGeneralLabor0> ;
+	drw-model:hasSL <SLPublication/30584hasSL1> ;
+	drw-model:hasSL <SLPublication/30584hasSL11> ;
+	drw-model:hasWL <WLStationOfLife/30584hasWL0> ;
+	drw-model:hasSL <SLPublication/30584hasSL8> ;
+	drw-model:hasSL <SLPublication/30584hasSL5> ;
+	drw-model:hasEducation <Education/30584hasEducation3> ;
+	drw-model:hasSL <SLPublication/30584hasSL2> ;
+	drw-model:hasSLComment <SLComment/30584hasSLComment> ;
+	drw-model:hasSL <SLPublication/30584hasSL7> ;
+	drw-model:hasQ <Q/30584hasQ2> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/30584hasHounoursAndAwards> ;
+	drw-model:hasP <P/30584hasP1> ;
+	drw-model:hasSL <SLPublication/30584hasSL6> ;
+	drw-model:hasP <P/30584hasP0> .
+

@@ -1,0 +1,278 @@
+
+<StationOfLife/30410hasStationOfLife8>
+	rdfs:label "Gründungsvorsitzender der Deutschen Physiologischen Gesellschaft (DPG)" ;
+	drw-model:began <Date/ohne_Datum> ;
+	a drw-model:StationOfLife .
+
+<Date/1888_1895>
+	a drw-model:Date ;
+	rdfs:label "1888-1895" .
+
+<Date/Vor_1878>
+	a drw-model:Date ;
+	rdfs:label "Vor 1878" .
+
+<NameVariation/30410var0>
+	rdfs:label "Гюртле, Карл"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Gjurtle, Karl"@de .
+
+<P/30410hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Pagel 1901 (<b>SL</b>)." .
+
+<ImportantPerson/30410>
+	drw-model:hasHounoursAndAwardsComment <HounoursAndAwardsComment/30410hasHounoursAndAwardsComment> ;
+	drw-model:hasP <P/30410hasP1> ;
+	drw-model:hasSL <SLPublication/30410hasSL3> ;
+	drw-model:hasP <P/30410hasP0> ;
+	drw-model:hasEducation <Education/30410hasEducation2> ;
+	drw-model:hasStationOfLife <StationOfLife/30410hasStationOfLife4> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/30410hasHounoursAndAwards> ;
+	drw-model:hasW <WPublication/30410hasW0> ;
+	drw-model:hasSL <SLPublication/30410hasSL6> ;
+	drw-model:hasDescendant <RelatedPerson/30410hasDescendant> ;
+	drw-model:hasStationOfLife <StationOfLife/30410hasStationOfLife9> ;
+	drw-model:hasStationOfLife <StationOfLife/30410hasStationOfLife5> ;
+	drw-model:hasEducation <Education/30410hasEducation3> ;
+	drw-model:hasSL <SLPublication/30410hasSL2> ;
+	drw-model:hasEducation <Education/30410hasEducation0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30410hasGeneralLabor0> ;
+	drw-model:hasEducation <Education/30410hasEducation4> ;
+	drw-model:hasStationOfLife <StationOfLife/30410hasStationOfLife8> ;
+	drw-model:hasStationOfLife <StationOfLife/30410hasStationOfLife3> ;
+	drw-model:hasSL <SLPublication/30410hasSL1> ;
+	drw-model:hasSLComment <SLComment/30410hasSLComment> ;
+	drw-model:hasWL <WLStationOfLife/30410hasWL1> ;
+	drw-model:hasStationOfLife <StationOfLife/30410hasStationOfLife7> ;
+	drw-model:drwID "30410" ;
+	drw-model:hasStationOfLife <StationOfLife/30410hasStationOfLife0> ;
+	drw-model:hasQ <Q/30410hasQ0> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasMembership <Membership/30410hasMembership> ;
+	drw-model:hasSL <SLPublication/30410hasSL0> ;
+	drw-model:hasSL <SLPublication/30410hasSL5> ;
+	drw-model:wasMarriedTo <RelatedPerson/30410wasMarriedTo> ;
+	drw-model:hasMainName <MainName/30410> ;
+	drw-model:hasWL <WLStationOfLife/30410hasWL0> ;
+	drw-model:hasStationOfLife <StationOfLife/30410hasStationOfLife2> ;
+	drw-model:hasSL <SLPublication/30410hasSL4> ;
+	drw-model:hasStationOfLife <StationOfLife/30410hasStationOfLife6> ;
+	drw-model:hasGPV <GPVPublication/30410hasGPV0> ;
+	drw-model:hasEducation <Education/30410hasEducation1> ;
+	rdfs:label "Hürthle, Karl Wilhelm" ;
+	drw-model:hasStationOfLife <StationOfLife/30410hasStationOfLife1> .
+
+<Date/ab_1927>
+	a drw-model:Date ;
+	rdfs:label "ab 1927" .
+
+<SLPublication/30410hasSL5>
+	rdfs:label "Wikipedia (http://de.wikipedia.org/wiki/Karl_H%C3%BCrthle, 21.12.2011)." ;
+	a drw-model:SLPublication .
+
+<RelatedPerson/30410wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Agnes, geb. Landerer" .
+
+<StationOfLife/30410hasStationOfLife0>
+	a drw-model:StationOfLife ;
+	rdfs:label "während der Studienzeit Assistent am Physiologischen Institut bei Karl von #name#Vierordt#/name# (1818-1884)" ;
+	drw-model:began <Date/1881_1882> .
+
+<SLPublication/30410hasSL2>
+	a drw-model:SLPublication ;
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 787; auch in Deutsches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013)" .
+
+<Date/1881_1882>
+	rdfs:label "1881-1882" ;
+	a drw-model:Date .
+
+<Date/ohne_Datum>
+	rdfs:label "ohne Datum" ;
+	a drw-model:Date .
+
+<StationOfLife/30410hasStationOfLife3>
+	drw-model:began <Date/1888_1895> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Assistent bei R. #internNameLink#30362#endNameNr#Heidenhain#/internNameLink# und Privatdozent am Physiologischen Institut an der Universität Breslau" .
+
+<WLStationOfLife/30410hasWL0>
+	rdfs:label "Nach ihm sind benannt:" ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30410hasStationOfLife7>
+	rdfs:label "Forschungen am Physiologischen Institut in Tübingen und in der Abteilung für experimentelle Pathologie und Therapie am Kerckhoff-Institut in Bad Nauheim" ;
+	drw-model:began <Date/ab_1927> ;
+	a drw-model:StationOfLife .
+
+<Education/30410hasEducation4>
+	drw-model:began <Date/1889> ;
+	rdfs:label "Habilitation für Physiologie an der Universität Breslau" ;
+	a drw-model:Education .
+
+<StationOfLife/30410hasStationOfLife5>
+	rdfs:label "o. Professor und Leiter des neuerbauten Instituts in Breslau" ;
+	drw-model:began <Date/1898_1927> ;
+	a drw-model:StationOfLife .
+
+<Education/30410hasEducation2>
+	drw-model:began <Date/1878_1884> ;
+	a drw-model:Education ;
+	rdfs:label "Studium der Medizin an der Universität Tübingen" .
+
+<HonoursAndAwards/30410hasHounoursAndAwards>
+	rdfs:label "1909 „Geheimer Medizinalrat“<br>1911 Roter Adler-Orden 4. Klasse<br>1934 Carl-Ludwig-Ehrenmünze (Deutsche Gesellschaft für Kardiologie, Herz- und Kreislaufforschung)" ;
+	a drw-model:HonoursAndAwards .
+
+<Education/30410hasEducation0>
+	drw-model:began <Date/Vor_1878> ;
+	rdfs:label "Besuch der Grundschule in Ludwigsburg" ;
+	a drw-model:Education .
+
+<HounoursAndAwardsComment/30410hasHounoursAndAwardsComment>
+	rdfs:label "(Auswahl)" ;
+	a drw-model:HounoursAndAwardsComment .
+
+<Date/1878_1884>
+	a drw-model:Date ;
+	rdfs:label "1878-1884" .
+
+<GeneralLabor/30410hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<StationOfLife/30410hasStationOfLife9>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<Date/1884>
+	a drw-model:Date ;
+	rdfs:label "1884" .
+
+<WPublication/30410hasW0>
+	rdfs:label "vgl. <b>SL</b>" ;
+	a drw-model:WPublication .
+
+<Date/1898_1927>
+	rdfs:label "1898-1927" ;
+	a drw-model:Date .
+
+<Date/1884_1886>
+	a drw-model:Date ;
+	rdfs:label "1884-1886" .
+
+<Membership/30410hasMembership>
+	a drw-model:Membership ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<NameVariation/30410var1>
+	rdfs:label "Chjurtle, Karl"@de ;
+	rdfs:label "Хюртле, Карл"@ru ;
+	a drw-model:NameVariation .
+
+<SLPublication/30410hasSL6>
+	rdfs:label "Winterstein, Hans: Karl Hürthle zum 70. Geburtstag. Deutsche Medizinische Wochenschrift 56 (1930), 449." ;
+	a drw-model:SLPublication .
+
+<Date/1886_1888>
+	a drw-model:Date ;
+	rdfs:label "1886-1888" .
+
+<SLPublication/30410hasSL3>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 96, 172." ;
+	a drw-model:SLPublication .
+
+<WLStationOfLife/30410hasWL1>
+	rdfs:label "Hürthle-Zellen [russ. #italic#kletki Chjurtlja#/italic# oder #italic#Gjurtlja#/italic#], Hürthle-Zell-Adenom, Hürthle-Zell-Karzinom#footnote1#. Weiteres vgl. <b>SL</b>" ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30410hasStationOfLife1>
+	drw-model:began <Date/1884_1886> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "zweiter Prosektor am Anatomischen Institut in Tübingenbei Wilhelm #name#Henke#/name# (1834-1896)" .
+
+<SLPublication/30410hasSL1>
+	rdfs:label "Zeitgenossenlexikon - Deutsches Zeitgenossenlexikon. Biographisches Handbuch deutscher Männer und Frauen der Gegenwart. Hg. v. Franz Neubert. Leipzig 1905, 663; auch in Deutsches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): 626, 325." ;
+	a drw-model:SLPublication .
+
+<RelatedPerson/30410hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "5 Kinder [Namen unbekannt]" .
+
+<Date/1927>
+	a drw-model:Date ;
+	rdfs:label "1927" .
+
+<StationOfLife/30410hasStationOfLife4>
+	rdfs:label "ao. Professor am Lehrstuhl für Physiologie in Breslau" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1895_1898> .
+
+<Date/1889>
+	a drw-model:Date ;
+	rdfs:label "1889" .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<Date/1895_1898>
+	a drw-model:Date ;
+	rdfs:label "1895-1898" .
+
+<Date/1878>
+	a drw-model:Date ;
+	rdfs:label "1878" .
+
+<StationOfLife/30410hasStationOfLife2>
+	rdfs:label "Assistent bei Paul #internNameLink#30338#endNameNr#Grützner#/internNameLink# (1847-1919) in Tübingen" ;
+	drw-model:began <Date/1886_1888> ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30410hasSL4>
+	rdfs:label "Rosenfeld, Georg: Karl Hürthle zum 70. Geburtstag. Medizinische Klinik 26 (1930), 411-412." ;
+	a drw-model:SLPublication .
+
+<GPVPublication/30410hasGPV0>
+	rdfs:label "vgl. <b>SL</b>" ;
+	a drw-model:GPVPublication .
+
+<StationOfLife/30410hasStationOfLife6>
+	a drw-model:StationOfLife ;
+	rdfs:label "Emeritierung in Breslau" ;
+	drw-model:began <Date/1927> .
+
+<Education/30410hasEducation3>
+	rdfs:label "Staatsexamen, Approbation und Promotion in Tübingen" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1884> .
+
+<P/30410hasP1>
+	rdfs:label "Portraits in <b>SL</b>: Wikipedia, Winterstein 1930, WBIS DBA: II G 8, 10 [mit Unterschrift]." ;
+	a drw-model:P .
+
+<MainName/30410>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30410var0> ;
+	drw-model:hasNameVariation <NameVariation/30410var1> ;
+	rdfs:label "Hürthle, Karl Wilhelm" .
+
+<Education/30410hasEducation1>
+	rdfs:label "Abschluss des Gymnasiums in Stuttgart" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1878> .
+
+<Q/30410hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr. 4345." .
+
+<SLComment/30410hasSLComment>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<SLPublication/30410hasSL0>
+	rdfs:label "Deutsches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 578, 270; II G 8, 9-10; 626, 325-328." ;
+	a drw-model:SLPublication .
+

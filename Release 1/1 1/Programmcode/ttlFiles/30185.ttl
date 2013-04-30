@@ -1,0 +1,254 @@
+
+<NameVariation/30185var0>
+	a drw-model:NameVariation ;
+	rdfs:label "Tschagowetz, W. J."@de .
+
+<Date/1904_1909>
+	a drw-model:Date ;
+	rdfs:label "1904-1909" .
+
+<StationOfLife/30185hasStationOfLife5>
+	rdfs:label "zugleich Dozent an der Suvorov-Lehranstalt für Geburtshelferinnen und Feldscherinnen sowie in den Fröbelschen Kursen in St. Petersburg" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1904_1909> .
+
+<Date/1903>
+	a drw-model:Date ;
+	rdfs:label "1903" .
+
+<StationOfLife/30185hasStationOfLife1>
+	a drw-model:StationOfLife ;
+	rdfs:label "Forschungstätigkeit im Physiologischen Laboratorium der MMA bei #internNameLink#30785#endNameNr#Pavlov#/internNameLink#" ;
+	drw-model:began <Date/1900_1903> .
+
+<GPVPublication/30185hasGPV0>
+	rdfs:label "Izbrannye trudy v odnom tome. Kiev 1957, 514 S.; darin außerdem auf S. 506-507 ein separates Verzeichnis (27 Nrn.), zusammengestellt von N. K. Vitte." ;
+	a drw-model:GPVPublication .
+
+<SLPublication/30185hasSL5>
+	a drw-model:SLPublication ;
+	rdfs:label "Šustov, A. S. (Hg.): Naši dejateli po medicine. Sankt-Peterburg 1910 (Illjustrirovannyj vestnik kul’tury, naučno-vospitatel’nago, techničeskago i torgovo-promyšlennago progressa Rossii 1) [Microfiche, ohne Seitenangaben]" .
+
+<StationOfLife/30185hasStationOfLife7>
+	rdfs:label "Professor und Lehrstuhl für Physiologie an der Medizinischen Fakultät der Universität Sv. Vladimir Kiev, bzw. ab 1921 am Medizinischen Institut Kiev (MIK)#footnote3#" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1910_1935> .
+
+<WLStationOfLife/30185hasWL2>
+	rdfs:label "Spielte 1928 eine wichtige Rolle bei der Entstehung des Instituts für Pathologie und Arbeitshygiene in Kiev, wo er auch eine experimentelle Forschungstätigkeit ausübte.#footnote4#" ;
+	a drw-model:WLStationOfLife .
+
+<RelatedPerson/30185fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Jurij, Landvermesser" .
+
+<SLPublication/30185hasSL1>
+	a drw-model:SLPublication ;
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 265-266." .
+
+<StationOfLife/30185hasStationOfLife3>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1904_1909> ;
+	rdfs:label "Privatdozent am Lehrstuhl für Physiologie der MMA" .
+
+<Education/30185hasEducation2>
+	rdfs:label "Examen für die Dissertation an der Universität Warschau" ;
+	drw-model:began <Date/1898_1902> ;
+	a drw-model:Education .
+
+<Membership/30185hasMembership>
+	rdfs:label "Akademija nauk Ukrainskoj SSR [Akademie der Wissenschaften der Ukrainischen SSR] (ab 1939), Obščestvo russkich vračej v S.-Peterburge [Gesellschaft russischer Ärzte in St. Petersburg], Obščestvo rossijskich fiziologov im. I. M. Sečenova [I. M. Sečenov-Gesellschaft russischer Physiologen] (Vorstandsmitglied)" ;
+	a drw-model:Membership .
+
+<SLPublication/30185hasSL3>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 492, 108-109; SU 467, 106-111." ;
+	a drw-model:SLPublication .
+
+<Education/30185hasEducation0>
+	drw-model:began <Date/1892> ;
+	a drw-model:Education ;
+	rdfs:label "Abschluss des 2. Gymnasiums in Kiev" .
+
+<WLStationOfLife/30185hasWL0>
+	rdfs:label "Begründer der Kiever Physiologenschule" ;
+	a drw-model:WLStationOfLife .
+
+<GeneralLabor/30185hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<P/30185hasP1>
+	rdfs:label "Foto in: Kvasov/Fedorova-Grot 1967 (<b>SL</b>), Bildeinlage zw. S. 224 -225." ;
+	a drw-model:P .
+
+<StationOfLife/30185hasStationOfLife8>
+	drw-model:began <Date/1936_1941> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Professor und Leiter des Lehrstuhls für Physiologie am 2. Staatlichen medizinischen Institut Kiev" .
+
+<Date/1897_1900>
+	rdfs:label "1897-1900" ;
+	a drw-model:Date .
+
+<Date/1900_1903>
+	rdfs:label "1900-1903" ;
+	a drw-model:Date .
+
+<MainName/30185>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30185var0> ;
+	rdfs:label "Čagovec, Vasilij Jur'evič" ;
+	drw-model:hasNameVariation <NameVariation/30185var1> .
+
+<WPublication/30185hasW0>
+	rdfs:label "Očerk ėlektričeskich javlenij na živych tkanjach s točki zrenija novejšich fiziko-chimičeskich teorij. Diss. Sankt-Peterburg 1903, 307 S." ;
+	a drw-model:WPublication .
+
+<StationOfLife/30185hasStationOfLife4>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1904_1909> ;
+	rdfs:label "zugleich Prosektor am Lehrstuhl für Physiologie des Medizinischen Instituts für Frauen in St. Petersburg" .
+
+<RelatedPerson/30185motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "[Name unbekannt], Lehrerin" .
+
+<NameVariation/30185var1>
+	a drw-model:NameVariation ;
+	rdfs:label "Tschagowez, W. J."@de .
+
+<StationOfLife/30185hasStationOfLife6>
+	rdfs:label "Professor am Lehrstuhl für Pharmakologie an den Universitäten Tomsk und Char’kov" ;
+	drw-model:began <Date/1909> ;
+	a drw-model:StationOfLife .
+
+<Date/1892>
+	a drw-model:Date ;
+	rdfs:label "1892" .
+
+<Date/1910_1935>
+	a drw-model:Date ;
+	rdfs:label "1910-1935" .
+
+<ImportantPerson/30185>
+	drw-model:hasWL <WLStationOfLife/30185hasWL0> ;
+	drw-model:hasEducation <Education/30185hasEducation3> ;
+	drw-model:hasSL <SLPublication/30185hasSL1> ;
+	drw-model:hasGPV <GPVPublication/30185hasGPV1> ;
+	drw-model:hasStationOfLife <StationOfLife/30185hasStationOfLife4> ;
+	drw-model:hasStationOfLife <StationOfLife/30185hasStationOfLife7> ;
+	drw-model:hasEducation <Education/30185hasEducation2> ;
+	drw-model:hasStationOfLife <StationOfLife/30185hasStationOfLife8> ;
+	drw-model:motherIs <RelatedPerson/30185motherIs> ;
+	drw-model:hasStationOfLife <StationOfLife/30185hasStationOfLife2> ;
+	drw-model:hasW <WPublication/30185hasW0> ;
+	drw-model:hasStationOfLife <StationOfLife/30185hasStationOfLife1> ;
+	drw-model:hasGPV <GPVPublication/30185hasGPV0> ;
+	drw-model:hasSL <SLPublication/30185hasSL4> ;
+	drw-model:hasStationOfLife <StationOfLife/30185hasStationOfLife5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30185hasGeneralLabor0> ;
+	drw-model:hasStationOfLife <StationOfLife/30185hasStationOfLife3> ;
+	drw-model:fatherIs <RelatedPerson/30185fatherIs> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30185hasGeneralLabor1> ;
+	drw-model:hasMainName <MainName/30185> ;
+	drw-model:hasSL <SLPublication/30185hasSL2> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasQ <Q/30185hasQ0> ;
+	drw-model:hasEducation <Education/30185hasEducation1> ;
+	drw-model:hasMembership <Membership/30185hasMembership> ;
+	drw-model:drwID "30185" ;
+	drw-model:hasSL <SLPublication/30185hasSL5> ;
+	drw-model:hasP <P/30185hasP0> ;
+	drw-model:hasSL <SLPublication/30185hasSL0> ;
+	drw-model:hasWL <WLStationOfLife/30185hasWL3> ;
+	drw-model:hasWL <WLStationOfLife/30185hasWL1> ;
+	drw-model:hasP <P/30185hasP1> ;
+	drw-model:hasEducation <Education/30185hasEducation0> ;
+	drw-model:hasWL <WLStationOfLife/30185hasWL2> ;
+	drw-model:hasStationOfLife <StationOfLife/30185hasStationOfLife0> ;
+	drw-model:hasSL <SLPublication/30185hasSL3> ;
+	drw-model:hasStationOfLife <StationOfLife/30185hasStationOfLife6> ;
+	drw-model:hasP <P/30185hasP2> ;
+	rdfs:label "Čagovec, Vasilij Jur'evič" ;
+	drw-model:hasP <P/30185hasP3> .
+
+<SLPublication/30185hasSL4>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 475-476." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30185hasStationOfLife2>
+	rdfs:label "zugleich Mitarbeiter im Ministerium für Finanzen in St. Petersburg" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1900_1903> .
+
+<SLPublication/30185hasSL0>
+	a drw-model:SLPublication ;
+	rdfs:label "Babskij, E. B.: Vasilij Jur’evič Čagovec, I [Zur Biographie], II [Zum wissenschaftlichen Werk]. In: Izbrannye trudy (<b>GPV</b>), 3-42." .
+
+<GPVPublication/30185hasGPV1>
+	rdfs:label "Deutschsprachige und in deutschen Zeitschriften referierte russische Publikationen 1897-1912, in: Pfrepper 2009 (<b>SL</b>); z. B. von 1908 (B 2)." ;
+	a drw-model:GPVPublication .
+
+<Date/1892_1897>
+	a drw-model:Date ;
+	rdfs:label "1892-1897" .
+
+<WLStationOfLife/30185hasWL1>
+	rdfs:label "Legte die erste Ionentheorie der Bioelektrizität in Russland vor." ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30185hasStationOfLife0>
+	rdfs:label "Militärarzt im Lukovskij-Infanterie-Reserveregiment in verschiedenen polnischen Gouvernements, z. B. 1899 in Breziny, Gouv. Petrokov#footnote2#" ;
+	drw-model:began <Date/1897_1900> ;
+	a drw-model:StationOfLife .
+
+<Education/30185hasEducation3>
+	drw-model:began <Date/1903> ;
+	rdfs:label "Dr. med. an der MMA" ;
+	a drw-model:Education .
+
+<Education/30185hasEducation1>
+	rdfs:label "Studium an der Militärmedizinischen Akademie (MMA) in St. Petersburg mit dem Abschluss „Arzt“ (Tätigkeit als Student am Lehrstuhl für Physiologie bei I. R. #internNameLink#30479#endNameNr#Tarchanov#/internNameLink# und I. P. #internNameLink#30785#endNameNr#Pavlov#/internNameLink#)" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1892_1897> .
+
+<SLPublication/30185hasSL2>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 165-166." ;
+	a drw-model:SLPublication .
+
+<P/30185hasP0>
+	rdfs:label "Foto (Abb.) aus: BSĖ 2, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:P .
+
+<GeneralLabor/30185hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<Q/30185hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Central’nyj naučnyj archiv Akademii nauk Ukrainskoj SSR [Wissenschaftliches Zentralarchiv der Akademie der Wissenschaften der Ukrainischen SSR]: #italic#ЦНА АН УССР, ф. 13, 5 д., 1902, 1937.#/italic#" .
+
+<Date/1936_1941>
+	a drw-model:Date ;
+	rdfs:label "1936-1941" .
+
+<Date/1909>
+	a drw-model:Date ;
+	rdfs:label "1909" .
+
+<WLStationOfLife/30185hasWL3>
+	rdfs:label "Mitredakteur in der Kiever Abteilung des #italic#Russkij fiziologičeskij žurnal#/italic#" ;
+	a drw-model:WLStationOfLife .
+
+<Date/1898_1902>
+	a drw-model:Date ;
+	rdfs:label "1898-1902" .
+
+<P/30185hasP3>
+	a drw-model:P ;
+	rdfs:label "2 Portraits in: Izbrannye trudy v odnom tome (<b>GPV</b>) (V. J. Čagovec sitzend, Frontispiz; V. J. Čagovec im Laboratorium, zw. S. 12 und 13)." .
+
+<P/30185hasP2>
+	a drw-model:P ;
+	rdfs:label "Foto in: Šustov 1910 (<b>SL</b>)." .
+

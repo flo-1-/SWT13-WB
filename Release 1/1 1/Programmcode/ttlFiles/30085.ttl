@@ -1,0 +1,196 @@
+
+<GeneralLabor/30085hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<Education/30085hasEducation1>
+	rdfs:label "Besuch des 2. Gymnasiums in Odessa" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1849_1853> .
+
+<Education/30085hasEducation3>
+	rdfs:label "Dr. med. an der Universität Moskau" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1861#footnote8#> .
+
+<Date/Bis_1849>
+	a drw-model:Date ;
+	rdfs:label "Bis 1849" .
+
+<StationOfLife/30085hasStationOfLife7>
+	rdfs:label "Dozent für Anatomie an der Physiko-mathematischen Fakultät der Novorossijskij Universität Odessa" ;
+	drw-model:began <Date/1871_1881> ;
+	a drw-model:StationOfLife .
+
+<Date/1865_1871>
+	a drw-model:Date ;
+	rdfs:label "1865-1871" .
+
+<StationOfLife/30085hasStationOfLife5>
+	drw-model:began <Date/1866> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Weiterbildung in Deutschland:
+- bei E. H. #internNameLink#30230#endNameNr#Du Bois-Reymond#/internNameLink# am Physiologischen Laboratorium der Universität Berlin" .
+
+<StationOfLife/30085hasStationOfLife0>
+	drw-model:began <Date/1858_1861> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Arzt im Kreis Čigirin, Gouvernement Kiev" .
+
+<Date/1866>
+	a drw-model:Date ;
+	rdfs:label "1866" .
+
+<Date/ab_1861>
+	a drw-model:Date ;
+	rdfs:label "ab 1861" .
+
+<Date/1849_1853>
+	a drw-model:Date ;
+	rdfs:label "1849-1853" .
+
+<RelatedPerson/30085fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Jacob Jehoschua (Yehoshua) Ossip (Iosif)#footnote2#" .
+
+<StationOfLife/30085hasStationOfLife8>
+	rdfs:label "Leiter der Krankenstation des Roten Kreuzes im Russisch-Türkischen Krieg" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1877_1878> .
+
+<StationOfLife/30085hasStationOfLife10>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<RelatedPerson/30085motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Edel, geb. Eger (Eiger, Ejger)#footnote3#" .
+
+<Date/1881_1882>
+	rdfs:label "1881-1882" ;
+	a drw-model:Date .
+
+<Education/30085hasEducation0>
+	rdfs:label "Erster Unterricht von der Mutter in Brody und vom Großvater Solomon (Šlomo) #name#Eger#/name# #name#(Eiger, Ejger)#/name# (1785-1852)#footnote7# in Posen (Poznań)" ;
+	drw-model:began <Date/Bis_1849> ;
+	a drw-model:Education .
+
+<Date/1858_1861>
+	a drw-model:Date ;
+	rdfs:label "1858-1861" .
+
+<Date/1877_1878>
+	a drw-model:Date ;
+	rdfs:label "1877-1878" .
+
+<Education/30085hasEducation2>
+	drw-model:began <Date/1853_1858> ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Moskau" ;
+	a drw-model:Education .
+
+<Date/1861#footnote8#>
+	a drw-model:Date ;
+	rdfs:label "1861#footnote8#" .
+
+<Date/1864>
+	a drw-model:Date ;
+	rdfs:label "1864" .
+
+<Date/1861_1865>
+	a drw-model:Date ;
+	rdfs:label "1861-1865" .
+
+<StationOfLife/30085hasStationOfLife6>
+	rdfs:label "Weiterbildung in Deutschland:
+- bei C. #internNameLink#30664#endNameNr#Ludwig#/internNameLink# an der Physiologischen Anstalt der Universität Leipzig" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1868_1869> .
+
+<StationOfLife/30085hasStationOfLife2>
+	drw-model:began <Date/1861_1865> ;
+	rdfs:label "zugleich außeretatmäßiger Ordinator am Städtischen Krankenhaus" ;
+	a drw-model:StationOfLife .
+
+<NameVariation/30085var0>
+	a drw-model:NameVariation ;
+	rdfs:label "Bernštejn, Natan/Nikolaj Ossipovič/Iosifovič"@de ;
+	rdfs:label "Бернштейн, Натан/Николай Оссипович/Иосифович"@ru .
+
+<StationOfLife/30085hasStationOfLife4>
+	drw-model:began <Date/1865_1871> ;
+	rdfs:label "Dozent für Anatomie und Physiologie an der Physiko-mathematischen Fakultät der Novorossijskij Universität Odessa" ;
+	a drw-model:StationOfLife .
+
+<StationOfLife/30085hasStationOfLife1>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/ab_1861> ;
+	rdfs:label "Arzt in eigener Privatpraxis" .
+
+<ImportantPerson/30085>
+	drw-model:hasStationOfLife <StationOfLife/30085hasStationOfLife5> ;
+	drw-model:motherIs <RelatedPerson/30085motherIs> ;
+	drw-model:hasDescendant <RelatedPerson/30085hasDescendant> ;
+	drw-model:hasMainName <MainName/30085> ;
+	drw-model:hasStationOfLife <StationOfLife/30085hasStationOfLife7> ;
+	drw-model:hasStationOfLife <StationOfLife/30085hasStationOfLife4> ;
+	drw-model:fatherIs <RelatedPerson/30085fatherIs> ;
+	drw-model:hasEducation <Education/30085hasEducation2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30085hasGeneralLabor1> ;
+	drw-model:hasStationOfLife <StationOfLife/30085hasStationOfLife3> ;
+	drw-model:drwID "30085" ;
+	drw-model:hasEducation <Education/30085hasEducation3> ;
+	drw-model:hasStationOfLife <StationOfLife/30085hasStationOfLife6> ;
+	rdfs:label "Bernštejn, Natan Ossipovič" ;
+	drw-model:hasStationOfLife <StationOfLife/30085hasStationOfLife2> ;
+	drw-model:hasStationOfLife <StationOfLife/30085hasStationOfLife9> ;
+	drw-model:hasEducation <Education/30085hasEducation0> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <StationOfLife/30085hasStationOfLife10> ;
+	drw-model:hasStationOfLife <StationOfLife/30085hasStationOfLife1> ;
+	drw-model:hasEducation <Education/30085hasEducation1> ;
+	drw-model:hasStationOfLife <StationOfLife/30085hasStationOfLife0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30085hasGeneralLabor0> ;
+	drw-model:hasStationOfLife <StationOfLife/30085hasStationOfLife8> .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<StationOfLife/30085hasStationOfLife3>
+	rdfs:label "Lektor für Anatomie des Menschen am Richelieu-Gymnasium in Odessa" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1864> .
+
+<RelatedPerson/30085hasDescendant>
+	rdfs:label "Aleksandr Nikolaevič (Natanovič) (1870-1922), Russischer Psychiater#footnote4#
+Sergej Natanovič (1880-1968), Russischer Mathematiker#footnote5#
+Enkel: Nikolaj Aleksandrovič (1896-1966), Russischer Psychophysiologe#footnote6#" ;
+	a drw-model:RelatedPerson .
+
+<Date/1871_1881>
+	a drw-model:Date ;
+	rdfs:label "1871-1881" .
+
+<MainName/30085>
+	a drw-model:MainName ;
+	rdfs:label "Bernštejn, Natan Ossipovič" ;
+	drw-model:hasNameVariation <NameVariation/30085var0> .
+
+<Date/1853_1858>
+	a drw-model:Date ;
+	rdfs:label "1853-1858" .
+
+<GeneralLabor/30085hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Dozent für Anatomie und Physiologie" .
+
+<Date/1868_1869>
+	a drw-model:Date ;
+	rdfs:label "1868-1869" .
+
+<StationOfLife/30085hasStationOfLife9>
+	rdfs:label "Genesungsaufenthalte in Wiesbaden, Nizza und in Italien" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1881_1882> .
+

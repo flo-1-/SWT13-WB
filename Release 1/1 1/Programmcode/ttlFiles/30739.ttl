@@ -1,0 +1,363 @@
+
+<RelatedPerson/30739wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Maria Anna (Nanny), geb. Zeiller (* 1800)" .
+
+<P/30739hasP1>
+	a drw-model:P ;
+	rdfs:label "Portraits in <b>SL</b> (Auswahl): Hoffmann/Laitko/Müller-Wille (Hgg.) 2007, HUB Rektoren, Koller 1958, [Kurzbiographie], Lohff 1991 und 2006, Pagel 1901, RAN, VL People, Wegbereiter, Wikipedia." .
+
+<WLStationOfLife/30739hasWL0>
+	rdfs:label "vgl.:SL" ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30739hasStationOfLife0>
+	drw-model:began <Date/1824_1826> ;
+	rdfs:label "Privatdozent an der Universität Bonn" ;
+	a drw-model:StationOfLife .
+
+<GeneralLabor/30739hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Meeresbiologe" .
+
+<Date/1824>
+	rdfs:label "1824" ;
+	a drw-model:Date .
+
+<StationOfLife/30739hasStationOfLife4>
+	drw-model:began <Date/1838/39_1847/48> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Rektor der Universität Berlin" .
+
+<RelatedPerson/30739motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anna Katharina Theresia, geb. Wittmann (1775–1852)" .
+
+<StationOfLife/30739hasStationOfLife2>
+	drw-model:began <Date/1830_1833> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "o. Professor für Physiologie und vergleichende Anatomie in Bonn" .
+
+<Education/30739hasEducation3>
+	rdfs:label "Promotion zum Dr. med. in Bonn" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1822> .
+
+<Date/1838/39_1847/48>
+	a drw-model:Date ;
+	rdfs:label "1838/39, 1847/48" .
+
+<StationOfLife/30739hasStationOfLife6>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<Date/1822>
+	a drw-model:Date ;
+	rdfs:label "1822" .
+
+<Education/30739hasEducation1>
+	drw-model:began <Date/1818_1819> ;
+	rdfs:label "Freiwilliger Militärdienst bei den Pionieren" ;
+	a drw-model:Education .
+
+<SLPublication/30739hasSL7>
+	rdfs:label "Jahn, Ilse: Müller, Johannes. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. Bd. 18 (1997), 425-426 (online unter: http://www.deutsche-biographie.de/sfz66607.html, 1.3.2012)." ;
+	a drw-model:SLPublication .
+
+<Date/1811_1818>
+	rdfs:label "1811-1818" ;
+	a drw-model:Date .
+
+<SLPublication/30739hasSL6>
+	rdfs:label "Hoffmann, Dieter, Laitko, Hubert, Müller-Wille, Staffan (Hgg.): Lexikon der bedeutenden Naturwissenschaftler. Unter Mitarb. von Ilse Jahn. Sonderausgabe. Bd. 1-3. München 2007 Bd. 3 (2007), 51-54." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30739hasSL0>
+	a drw-model:SLPublication ;
+	rdfs:label "Brokgauz/Efron. Bd. 20 (1897), 356." .
+
+<Q/30739hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr. 1289." .
+
+<P/30739hasP0>
+	rdfs:label "Portrait (Abb. [Ausschnitt]) aus: Bildersammlung des Karl-Sudhoff-Instituts für Geschichte der Medizin und Naturwissenschaften der Universität Leipzig, E 1504." ;
+	a drw-model:P .
+
+<SLPublication/30739hasSL17>
+	rdfs:label "Rothschuh, Karl Eduard: Geschichte der Physiologie. Berlin, Göttingen, Heidelberg 1953, 112-118." ;
+	a drw-model:SLPublication .
+
+<MainName/30739>
+	a drw-model:MainName ;
+	rdfs:label "Müller, Johannes Peter" ;
+	drw-model:hasNameVariation <NameVariation/30739var0> .
+
+<SLPublication/30739hasSL21>
+	rdfs:label "Wegbereiter unserer naturwissenschaftlich-medizinischen Moderne (http://appserv5.ph-heidelberg.de/onlinelex/index.php?id=1037, 20.12.2011)." ;
+	a drw-model:SLPublication .
+
+<Education/30739hasEducation4>
+	drw-model:began <Date/1822_1824> ;
+	a drw-model:Education ;
+	rdfs:label "zum Ablegen der Staatprüfung in Berlin" .
+
+<HounoursAndAwardsComment/30739hasHounoursAndAwardsComment>
+	rdfs:label "(Auswahl)" ;
+	a drw-model:HounoursAndAwardsComment .
+
+<SLPublication/30739hasSL5>
+	a drw-model:SLPublication ;
+	rdfs:label "Hagner, Michael: Müller, Johannes Peter. In: Engelhardt, Dietrich von (Hg.): Biographische Enzyklopädie deutschsprachiger Mediziner. Bd. 1-2. München 2002, 423-424." .
+
+<Date/1834>
+	a drw-model:Date ;
+	rdfs:label "1834" .
+
+<SLPublication/30739hasSL9>
+	rdfs:label "Ksoll, Margit: Müller, Johannes Peter. In: Biographisch-bibliographisches Kirchenlexikon. Bd. 6. Hamm (Westf.) 1993, Sp. 271-274." ;
+	a drw-model:SLPublication .
+
+<Date/1819_1822>
+	a drw-model:Date ;
+	rdfs:label "1819-1822" .
+
+<ImportantPerson/30739>
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/30739hasHounoursAndAwards> ;
+	drw-model:fatherIs <RelatedPerson/30739fatherIs> ;
+	drw-model:hasQ <Q/30739hasQ0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30739hasGeneralLabor1> ;
+	drw-model:hasDescendant <RelatedPerson/30739hasDescendant> ;
+	drw-model:hasEducation <Education/30739hasEducation3> ;
+	drw-model:hasSL <SLPublication/30739hasSL20> ;
+	drw-model:hasSL <SLPublication/30739hasSL2> ;
+	drw-model:hasP <P/30739hasP3> ;
+	drw-model:motherIs <RelatedPerson/30739motherIs> ;
+	drw-model:hasSL <SLPublication/30739hasSL5> ;
+	drw-model:hasSL <SLPublication/30739hasSL16> ;
+	drw-model:hasSL <SLPublication/30739hasSL13> ;
+	drw-model:wasMarriedTo <RelatedPerson/30739wasMarriedTo> ;
+	drw-model:hasStationOfLife <StationOfLife/30739hasStationOfLife1> ;
+	drw-model:hasStationOfLife <StationOfLife/30739hasStationOfLife2> ;
+	drw-model:hasStationOfLife <StationOfLife/30739hasStationOfLife6> ;
+	drw-model:hasSL <SLPublication/30739hasSL21> ;
+	drw-model:hasSL <SLPublication/30739hasSL6> ;
+	drw-model:hasSL <SLPublication/30739hasSL10> ;
+	drw-model:hasGPV <GPVPublication/30739hasGPV0> ;
+	drw-model:hasSL <SLPublication/30739hasSL18> ;
+	drw-model:hasSL <SLPublication/30739hasSL1> ;
+	drw-model:hasSL <SLPublication/30739hasSL8> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30739hasGeneralLabor0> ;
+	drw-model:hasEducation <Education/30739hasEducation4> ;
+	drw-model:hasP <P/30739hasP4> ;
+	drw-model:hasSLComment <SLComment/30739hasSLComment> ;
+	drw-model:hasSL <SLPublication/30739hasSL22> ;
+	drw-model:hasP <P/30739hasP0> ;
+	drw-model:hasSL <SLPublication/30739hasSL12> ;
+	drw-model:hasStationOfLife <StationOfLife/30739hasStationOfLife0> ;
+	drw-model:hasSL <SLPublication/30739hasSL19> ;
+	drw-model:hasP <P/30739hasP2> ;
+	drw-model:hasW <WPublication/30739hasW0> ;
+	drw-model:hasMainName <MainName/30739> ;
+	drw-model:hasMembership <Membership/30739hasMembership> ;
+	drw-model:hasEducation <Education/30739hasEducation5> ;
+	drw-model:hasStationOfLife <StationOfLife/30739hasStationOfLife4> ;
+	drw-model:hasSL <SLPublication/30739hasSL11> ;
+	drw-model:hasEducation <Education/30739hasEducation0> ;
+	drw-model:hasWL <WLStationOfLife/30739hasWL0> ;
+	drw-model:hasSL <SLPublication/30739hasSL0> ;
+	drw-model:hasSL <SLPublication/30739hasSL4> ;
+	drw-model:hasSL <SLPublication/30739hasSL9> ;
+	drw-model:hasHounoursAndAwardsComment <HounoursAndAwardsComment/30739hasHounoursAndAwardsComment> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SLPublication/30739hasSL14> ;
+	drw-model:hasSL <SLPublication/30739hasSL15> ;
+	drw-model:hasEducation <Education/30739hasEducation1> ;
+	rdfs:label "Müller, Johannes Peter" ;
+	drw-model:hasSL <SLPublication/30739hasSL3> ;
+	drw-model:hasSL <SLPublication/30739hasSL17> ;
+	drw-model:hasStationOfLife <StationOfLife/30739hasStationOfLife5> ;
+	drw-model:hasStationOfLife <StationOfLife/30739hasStationOfLife3> ;
+	drw-model:hasEducation <Education/30739hasEducation2> ;
+	drw-model:hasSL <SLPublication/30739hasSL7> ;
+	drw-model:drwID "30739" ;
+	drw-model:hasP <P/30739hasP1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30739hasGeneralLabor2> .
+
+<Date/1833_1858>
+	rdfs:label "1833-1858" ;
+	a drw-model:Date .
+
+<WPublication/30739hasW0>
+	rdfs:label "vgl.:SL" ;
+	a drw-model:WPublication .
+
+<SLPublication/30739hasSL11>
+	rdfs:label "Lohff, Brigitte: Müller, Johannes Peter. In: Eckart, Wolfgang U., Gradmann, Christoph: Ärzte Lexikon. Von der Antike bis zur Gegenwart. 3. Aufl. Heidelberg u. a. 2006, 235-236." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30739hasSL14>
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 1166-1169." ;
+	a drw-model:SLPublication .
+
+<Date/1822_1824>
+	a drw-model:Date ;
+	rdfs:label "1822-1824" .
+
+<SLPublication/30739hasSL15>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SLPublication .
+
+<SLComment/30739hasSLComment>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<SLPublication/30739hasSL4>
+	rdfs:label "Hagner, Michael, Wahrig-Schmidt, Bettina (Hgg.): Johannes Müller und die Philosophie. Berlin 1992, 341 S." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30739hasStationOfLife1>
+	a drw-model:StationOfLife ;
+	rdfs:label "ao. Professor für Physiologie und vergleichende Anatomie an der Universität Bonn" ;
+	drw-model:began <Date/1826_1830> .
+
+<GeneralLabor/30739hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Anatomie und Physiologie" .
+
+<Date/1818_1819>
+	a drw-model:Date ;
+	rdfs:label "1818-1819" .
+
+<SLPublication/30739hasSL18>
+	a drw-model:SLPublication ;
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 321, 132-134." .
+
+<StationOfLife/30739hasStationOfLife3>
+	rdfs:label "o. Professor für Anatomie und Physiologie an der Universität Berlin und Direktor des Anatomisch-Zootomischen Museums" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1833_1858> .
+
+<NameVariation/30739var0>
+	rdfs:label "Mjuller, Iogannes/Ivan Peter"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Мюллер, Иоганнес/Иван Петер"@ru .
+
+<Date/1826_1830>
+	a drw-model:Date ;
+	rdfs:label "1826-1830" .
+
+<SLPublication/30739hasSL16>
+	rdfs:label "Rossijskaja akademija nauk. Personal’nyj sostav. Kniga 1: 1724-1917. Moskva 1999; Kniga 2: 1918-1973. Moskva 1999 Kniga 1 (1999), 372." ;
+	a drw-model:SLPublication .
+
+<RelatedPerson/30739hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sohn Max (1821-1896), Chirurg, Ophthalmologe
+Tochter [Name unbekannt]" .
+
+<Date/1830_1833>
+	a drw-model:Date ;
+	rdfs:label "1830-1833" .
+
+<GPVPublication/30739hasGPV0>
+	rdfs:label "vgl.:SL" ;
+	a drw-model:GPVPublication .
+
+<Education/30739hasEducation2>
+	drw-model:began <Date/1819_1822> ;
+	a drw-model:Education ;
+	rdfs:label "Studium der Medizin an der Universität Bonn" .
+
+<RelatedPerson/30739fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Mathias (1767-1820), Schuhmacher" .
+
+<SLPublication/30739hasSL3>
+	rdfs:label "Haberling, Wilhelm: Johannes Müller. Das Leben des rheinischen Naturforschers auf Grund neuer Quellen und seiner Briefe. Leipzig 1924 (Grosse Männer 9), 500 S." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30739hasStationOfLife5>
+	rdfs:label "Gründer des #italic#Archivs für Anatomie, Physiologie und wissenschaftliche Medizin#/italic#" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1834> .
+
+<Education/30739hasEducation0>
+	drw-model:began <Date/1811_1818> ;
+	a drw-model:Education ;
+	rdfs:label "Besuch der Sekundärschule (Lateinschule der Jesuiten) in Koblenz" .
+
+<SLPublication/30739hasSL19>
+	rdfs:label "VL People (vlp.mpiwg-berlin.mpg.de/people/data?id=per120, 20.12.2011)." ;
+	a drw-model:SLPublication .
+
+<P/30739hasP2>
+	rdfs:label "Louisa Corbeaux: Johannes Müller (1837). Lithographie. In: Rothschuh 1953 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<HonoursAndAwards/30739hasHounoursAndAwards>
+	rdfs:label "1854 Copley-Medal (Royal Society London)<br>1854 Prix Cuvier (Académie des Sciences Paris)<br>1899 Denkmal am Jesuitenplatz in Koblenz<br>Statue vom Bildhauer Richard #name#Ohmann#/name# (1850-1910) über dem Haupteingang zum Museum für Naturkunde in Berlin<br>1982 Postkarte mit Portrait und Poststempel (Bundesrepublik Deutschland)<br>Nach ihm sind benannt:<br>Johannes-Müller-Institut für Physiologie an der Charité in Berlin<br>Johannes-Müller-Straße in Bonn, Koblenz, Köln-Riehl" ;
+	a drw-model:HonoursAndAwards .
+
+<Membership/30739hasMembership>
+	a drw-model:Membership ;
+	rdfs:label "Mitglied der Kaiserlichen Akademie der Wissenschaften in St. Petersburg. Weiteres vgl.:SL" .
+
+<Education/30739hasEducation5>
+	drw-model:began <Date/1824> ;
+	a drw-model:Education ;
+	rdfs:label "Habilitation in Bonn" .
+
+<SLPublication/30739hasSL22>
+	rdfs:label "[Kurzbiographie] Humboldt-Universität Berlin (http://www.hu-berlin.de/ueberblick/geschichte/rektoren/mueller/standardseite?set_language=de&amp;cl=de, 20.12.2011)." ;
+	a drw-model:SLPublication .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<Date/1824_1826>
+	a drw-model:Date ;
+	rdfs:label "1824-1826" .
+
+<SLPublication/30739hasSL20>
+	rdfs:label "Virchow, Rudolf: Johannes Müller – eine Gedächtnisrede, gehalten bei der Todtenfeier am 24. Juli 1858 in der Aula der Universität zu Berlin. Hirschwald, Berlin 1858, 48 S." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30739hasSL12>
+	rdfs:label "Munk, Hermann: Müller, Johannes. In: Allgemeine Deutsche Biographie. Bd. 1-56. Leipzig 1875–1912,  Bd. 22 (1885), 625-628." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30739hasSL10>
+	a drw-model:SLPublication ;
+	rdfs:label "Lohff, Brigitte: Johannes Müller (1801-1858). In: Dietrich von Engelhardt, Fritz Hartmann (Hgg.): Klassiker der Medizin. Bd. 2. München 1991, 119-134." .
+
+<P/30739hasP3>
+	rdfs:label "Oskar Begas (1828-1883): Johannes Müller (1856). Öl auf Leinwand. Staatliche Museen zu Berlin, Nationalgalerie, Inv.-Nr. GK I 2948." ;
+	a drw-model:P .
+
+<SLPublication/30739hasSL1>
+	a drw-model:SLPublication ;
+	rdfs:label "Catalog der hinterlassenen Bibliothek des am 28. April 1858 in Berlin verstorbenen Dr. Johannes Müller. Bonn 1858, 309 S." .
+
+<SLPublication/30739hasSL8>
+	a drw-model:SLPublication ;
+	rdfs:label "Koller, G.: Das Leben des Biologen Johannes Müller 1801-1858. Stuttgart 1958 (Große Naturforscher 23), 267 S." .
+
+<P/30739hasP4>
+	rdfs:label "Pasquale Baroni: Johannes Peter Müller [undatiert]. Öl auf Leinwand. Museo di Anatomia Umana „Luigi Rolando”, Torino." ;
+	a drw-model:P .
+
+<SLPublication/30739hasSL2>
+	rdfs:label "HUB Rektoren (http://www.hu-berlin.de/ueberblick/geschichte/rektoren/mueller, 20.12.2011)." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30739hasSL13>
+	a drw-model:SLPublication ;
+	rdfs:label "Otis, Laura: Müller’s lab. Oxford, New York, NY u. a. 2007, 316 S." .
+
+<GeneralLabor/30739hasGeneralLabor2>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Naturphilosoph" .
+

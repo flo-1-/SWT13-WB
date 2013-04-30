@@ -1,0 +1,273 @@
+
+<Date/1862_1866>
+	rdfs:label "1862-1866" ;
+	a drw-model:Date .
+
+<WPublication/31139hasW3>
+	rdfs:label "[Redakteur der Übersetzung von: Stricker, Salomon (Hg.): Handbuch der Lehre von den Geweben des Menschen und der Thiere. Bd. 1. Leipzig 1871] Rukovodstvo k učeniju o tkan’jach čeloveka i životnych. T. 1. Sankt-Peterburg 1873." ;
+	a drw-model:WPublication .
+
+<Date/1869>
+	rdfs:label "1869" ;
+	a drw-model:Date .
+
+<StationOfLife/31139hasStationOfLife2>
+	drw-model:began <Date/1869> ;
+	rdfs:label "Studienaufenthalt bei #internNameLink#30664#endNameNr#Ludwig#/internNameLink# an der Physiologischen Anstalt der Universität Leipzig" ;
+	a drw-model:StationOfLife .
+
+<Date/1854_1859>
+	a drw-model:Date ;
+	rdfs:label "1854-1859" .
+
+<Date/1859_1862>
+	a drw-model:Date ;
+	rdfs:label "1859-1862" .
+
+<StationOfLife/31139hasStationOfLife4>
+	rdfs:label "zugleich Leiter des Lehrstuhls für Physiologie an der MCA" ;
+	drw-model:began <Date/1870_1872> ;
+	a drw-model:StationOfLife .
+
+<RelatedPerson/31139fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Nikolaj, Leibeigener am Hofe#footnote4# oder Kleinbürger#footnote5#" .
+
+<MainName/31139>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/31139var0> ;
+	drw-model:hasNameVariation <NameVariation/31139var1> ;
+	rdfs:label "Zavarykin, Fedor Nikolaevič" .
+
+<StationOfLife/31139hasStationOfLife0>
+	rdfs:label "Privatdozent am Lehrstuhl für Physiologie in der Veterinär-medizinischen Abteilung der MCA in St. Petersburg" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1866> .
+
+<NameVariation/31139var0>
+	rdfs:label "Sawarykin, F. N."@de ;
+	a drw-model:NameVariation .
+
+<StationOfLife/31139hasStationOfLife6>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<SLPublication/31139hasSL2>
+	a drw-model:SLPublication ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 31, 99, 101, 102, 129." .
+
+<StationOfLife/31139hasStationOfLife5>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/ab_1897> ;
+	rdfs:label "in Pension auf seinem Gutshof Taraskovo" .
+
+<Education/31139hasEducation4>
+	rdfs:label "Dr. med. an der MCA" ;
+	drw-model:began <Date/1862> ;
+	a drw-model:Education .
+
+<Date/1870_1872>
+	rdfs:label "1870-1872" ;
+	a drw-model:Date .
+
+<HonoursAndAwards/31139hasHounoursAndAwards>
+	rdfs:label "1870 „Staatsrat“, später „Geheimrat“(?)<br>1882 Akademiemitglied der MCA/MMA<br>1889 „Verdienter Professor“ der MMA<br>1895 Ehrenmitglied der MMA" ;
+	a drw-model:HonoursAndAwards .
+
+<SLPublication/31139hasSL8>
+	rdfs:label "Česnakova [Im Original Druckfehler, es muss heißen: Česnokova], Sof’ja Aleksandrovna, Lindemann, Marianne: Russische Physiologen in Laboratorien von Carl Ludwig. Wissenschaftliche Zeitschrift der Karl-Marx-Universität Leipzig, Mathematisch-naturwissenschaftliche Reihe 19 (1970), 316." ;
+	a drw-model:SLPublication .
+
+<SLPublication/31139hasSL0>
+	rdfs:label "Ivanovskij 1898 - Istorija Imperatorskoj voenno-medicinskoj (byvšej mediko-chirurgičeskoj) akademii za sto let 1798-1898. Glavnyj red. Ivanovskij. Sankt-Peterburg 1898, 614-615, 652, 741." ;
+	a drw-model:SLPublication .
+
+<Education/31139hasEducation0>
+	rdfs:label "Besuch der Bezirksschule in Voronež" ;
+	drw-model:began <Date/Vor_1854> ;
+	a drw-model:Education .
+
+<SLPublication/31139hasSL7>
+	rdfs:label "[Todesanzeige.] Leopoldina 41 (1905), 55." ;
+	a drw-model:SLPublication .
+
+<Date/ab_1897>
+	rdfs:label "ab 1897" ;
+	a drw-model:Date .
+
+<P/31139hasP2>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Klišov/Odincova (<b>SL</b>)." .
+
+<P/31139hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Volkov/Kulikova 2003 b (<b>SL</b>), Bildeinlage zw. S. 176-177." .
+
+<Education/31139hasEducation2>
+	drw-model:began <Date/1854_1859> ;
+	a drw-model:Education ;
+	rdfs:label "Studium an der Mediko-Chirurgischen Akademie (MCA) in St. Petersburg" .
+
+<GPVPublication/31139hasGPV1>
+	rdfs:label "Publikationen 1862-1889 (15 Nrn.), in: Bogdanov, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<WLStationOfLife/31139hasWL1>
+	rdfs:label "Forschungsthemen: Blutanalyse, Histologie der Nieren, Fettresorption, Lymphgefäßsystem des Darms u. a." ;
+	a drw-model:WLStationOfLife .
+
+<WLStationOfLife/31139hasWL2>
+	rdfs:label "1870-1873 Mitherausgeber von #italic#Žurnal normal’noj i patologičeskoj gistologii, farmakologii i kliničeskoj mediciny#/italic#, der ersten Zeitschrift zu dieser Thematik in Russland" ;
+	a drw-model:WLStationOfLife .
+
+<P/31139hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Ivanovskij 1898 (<b>SL</b>), Bildeinlage zw. S. 736-737." .
+
+<Date/Vor_1854>
+	a drw-model:Date ;
+	rdfs:label "Vor 1854" .
+
+<StationOfLife/31139hasStationOfLife3>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1869_1895> ;
+	rdfs:label "o. Professor und Leiter des Lehrstuhls für Histologie und Embryologie an der MCA (ab 1881 Militärmedizinische Akademie [MMA])" .
+
+<Date/1854>
+	rdfs:label "1854" ;
+	a drw-model:Date .
+
+<StationOfLife/31139hasStationOfLife1>
+	rdfs:label "Adjunkt-Professor am Lehrstuhl für normale Histologie der MCA" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1867_1869> .
+
+<SLPublication/31139hasSL5>
+	a drw-model:SLPublication ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 187-188." .
+
+<NameVariation/31139var1>
+	rdfs:label "Zawarykin, Theodor"@de ;
+	a drw-model:NameVariation .
+
+<SLPublication/31139hasSL6>
+	rdfs:label "Wikipedia (http://ru.wikipedia.org/wiki/Заварыкин,_Фёдор_Николаевич, 6.5.2011)." ;
+	a drw-model:SLPublication .
+
+<Date/1867_1869>
+	a drw-model:Date ;
+	rdfs:label "1867-1869" .
+
+<SLPublication/31139hasSL3>
+	rdfs:label "Professora MCA/VMA - Professora Voenno-medicinskoj (Mediko-chirurgičeskoj) akademii (1798-1998). Glavnyj red. Jurij Leonidovič Ševčenko. Sankt-Peterburg 1998, 162." ;
+	a drw-model:SLPublication .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<Date/1866>
+	a drw-model:Date ;
+	rdfs:label "1866" .
+
+<SLPublication/31139hasSL1>
+	rdfs:label "Klišov, A. A., Odincova, I. A.: Professor F. N. Zavarykin i ego rol’ v rozvitii gistologičeskoj školy VMA. Archiv anatomii, gistologii i ėmbriologii 88 (1985)#footnote9# 4, 96-97." ;
+	a drw-model:SLPublication .
+
+<Date/1862>
+	a drw-model:Date ;
+	rdfs:label "1862" .
+
+<Education/31139hasEducation5>
+	drw-model:began <Date/1862_1866> ;
+	a drw-model:Education ;
+	rdfs:label "Weiterbildung in Deutschland:
+- bei C. #internNameLink#30664#endNameNr#Ludwig#/internNameLink# an der Militärärztlichen Akademie Josephinum in Wien
+- bei Robert #internNameLink#10029#endNameNr#Bunsen#/internNameLink# (1811-1899), Emil #internNameLink#10045#endNameNr#Erlenmeyer#/internNameLink##footnote6# (1825-1909) und H. von #internNameLink#30366#endNameNr#Helmholtz#/internNameLink# an der Universität Heidelberg#footnote7#" .
+
+<SLPublication/31139hasSL4>
+	a drw-model:SLPublication ;
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 187, 59-65." .
+
+<WPublication/31139hasW1>
+	rdfs:label "Obščaja gistologija. Lekcii F. N. Zavarykina, čitannye v 1878/1879 g. Sankt-Peterburg 1879, 130 S." ;
+	a drw-model:WPublication .
+
+<Date/1869_1895>
+	a drw-model:Date ;
+	rdfs:label "1869-1895" .
+
+<Education/31139hasEducation1>
+	drw-model:began <Date/1854> ;
+	a drw-model:Education ;
+	rdfs:label "Abschluss des Gouvernements-Gymnasiums in Voronež" .
+
+<WPublication/31139hasW2>
+	rdfs:label "Častnaja gistologija. Lekcii F. N. Zavarykina, čitannye v 1878/1879 g. Sankt-Peterburg 1879, 272 S." ;
+	a drw-model:WPublication .
+
+<ImportantPerson/31139>
+	drw-model:hasSL <SLPublication/31139hasSL6> ;
+	drw-model:hasGPV <GPVPublication/31139hasGPV1> ;
+	drw-model:hasW <WPublication/31139hasW2> ;
+	drw-model:hasWL <WLStationOfLife/31139hasWL0> ;
+	drw-model:hasStationOfLife <StationOfLife/31139hasStationOfLife1> ;
+	drw-model:hasStationOfLife <StationOfLife/31139hasStationOfLife3> ;
+	drw-model:hasSL <SLPublication/31139hasSL3> ;
+	drw-model:fatherIs <RelatedPerson/31139fatherIs> ;
+	drw-model:hasStationOfLife <StationOfLife/31139hasStationOfLife5> ;
+	drw-model:hasGPV <GPVPublication/31139hasGPV0> ;
+	drw-model:hasW <WPublication/31139hasW1> ;
+	drw-model:hasP <P/31139hasP0> ;
+	drw-model:hasSL <SLPublication/31139hasSL7> ;
+	drw-model:hasWL <WLStationOfLife/31139hasWL2> ;
+	drw-model:hasSL <SLPublication/31139hasSL8> ;
+	drw-model:drwID "31139" ;
+	drw-model:hasW <WPublication/31139hasW0> ;
+	drw-model:hasWL <WLStationOfLife/31139hasWL1> ;
+	drw-model:hasEducation <Education/31139hasEducation5> ;
+	drw-model:hasEducation <Education/31139hasEducation3> ;
+	drw-model:hasStationOfLife <StationOfLife/31139hasStationOfLife6> ;
+	drw-model:hasEducation <Education/31139hasEducation2> ;
+	drw-model:hasW <WPublication/31139hasW3> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <Education/31139hasEducation1> ;
+	drw-model:hasEducation <Education/31139hasEducation4> ;
+	drw-model:hasSL <SLPublication/31139hasSL5> ;
+	drw-model:hasSL <SLPublication/31139hasSL0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31139hasGeneralLabor0> ;
+	drw-model:hasMainName <MainName/31139> ;
+	drw-model:hasP <P/31139hasP2> ;
+	drw-model:hasSL <SLPublication/31139hasSL1> ;
+	drw-model:hasStationOfLife <StationOfLife/31139hasStationOfLife0> ;
+	drw-model:hasStationOfLife <StationOfLife/31139hasStationOfLife2> ;
+	drw-model:hasSL <SLPublication/31139hasSL2> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/31139hasHounoursAndAwards> ;
+	rdfs:label "Zavarykin, Fedor Nikolaevič" ;
+	drw-model:hasStationOfLife <StationOfLife/31139hasStationOfLife4> ;
+	drw-model:hasEducation <Education/31139hasEducation0> ;
+	drw-model:hasSL <SLPublication/31139hasSL4> ;
+	drw-model:hasP <P/31139hasP1> .
+
+<WPublication/31139hasW0>
+	rdfs:label "Novyj sposob opredelenija massy krovjanych šarikov v krovi. Diss. Sankt-Peterburg 1862." ;
+	a drw-model:WPublication .
+
+<WLStationOfLife/31139hasWL0>
+	rdfs:label "Mitbegründer der Histologenschule an der MCA/MMA" ;
+	a drw-model:WLStationOfLife .
+
+<Education/31139hasEducation3>
+	drw-model:began <Date/1859_1862> ;
+	a drw-model:Education ;
+	rdfs:label "Fortbildung und 1860-1862 Assistent von I. M. #internNameLink#30924#endNameNr#Sečenov#/internNameLink# am Professoreninstitut sowie Junior-Ordinator in der Psychiatrischen Klinik des Militärlandhospitals Nr. 2 an der MCA" .
+
+<GeneralLabor/31139hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Histologie und Physiologie" .
+
+<GPVPublication/31139hasGPV0>
+	rdfs:label "Publikationen 1862-1885, in: Zmeev, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+

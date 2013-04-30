@@ -1,0 +1,384 @@
+
+<StationOfLife/30603hasStationOfLife9>
+	drw-model:began <Date/1919> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "zugleich Direktor der „Sibirischen Höheren Frauenstudien“" .
+
+<SLPublication/30603hasSL9>
+	a drw-model:SLPublication ;
+	rdfs:label "[Kurzbiographie], in: Kuz’min, Michail Kuz’mič: Akademik F. V. Ovsjannikov (K istorii nervizma v Rossii). Moskva 1963, 124-127." .
+
+<Date/1897>
+	a drw-model:Date ;
+	rdfs:label "1897" .
+
+<Date/1903>
+	a drw-model:Date ;
+	rdfs:label "1903" .
+
+<SLPublication/30603hasSL6>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 261." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30603hasStationOfLife10>
+	drw-model:began <Date/1925_1927> ;
+	rdfs:label "Professor für Physiologie am Klinischen Institut für Funktionelle Diagnostik und Experimentelle Therapie „Glavnauka“ der Moskauer Staatlichen Universität und am Institut für Kurwesen sowie Konsultant am Wissenschaftlichen Chemisch-pharmazeutischen Forschungsinstitut in Moskau" ;
+	a drw-model:StationOfLife .
+
+<StationOfLife/30603hasStationOfLife7>
+	rdfs:label "Leiter des Zoologischen Museums der Universität Tomsk" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1912_1913> .
+
+<Date/ab_1898>
+	a drw-model:Date ;
+	rdfs:label "ab 1898" .
+
+<SLPublication/30603hasSL4>
+	a drw-model:SLPublication ;
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 264, 438-443; SU 259, 351-353; RS 32, 386-390." .
+
+<WPublication/30603hasW2>
+	rdfs:label "Dal’nejšie opyty oživlenija serdca. Ibid. (5) 17 (1902) Nr. 15." ;
+	a drw-model:WPublication .
+
+<P/30603hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto [A. A. Kuljabko am Schreibtisch sitzend] in: [Zur Biographie] (<b>SL</b>)." .
+
+<SLPublication/30603hasSL2>
+	a drw-model:SLPublication ;
+	rdfs:label "Pfrepper, Regine, Pfrepper, Gerd: Wissensspuren. Reisen russischer Mediziner nach Westeuropa im 19. Jahrhundert. Aachen 2012 (Relationes 11)" .
+
+<SLPublication/30603hasSL0>
+	rdfs:label "Istorija kafedry fiziologii čeloveka i životnych (http://www.bio.tsu.ru/physiol/history.html, 15.11.2010)." ;
+	a drw-model:SLPublication .
+
+<WLStationOfLife/30603hasWL2>
+	rdfs:label "Mitbegründer der Radiobiologie in Russland (untersuchte die Wirkung der Röntgenstrahlen auf den Körper)" ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30603hasStationOfLife5>
+	drw-model:began <Date/1903> ;
+	rdfs:label "o. Professor für Physiologie an der Universität Kazan’#footnote5#" ;
+	a drw-model:StationOfLife .
+
+<WLStationOfLife/30603hasWL0>
+	rdfs:label "Hauptforschungsgebiet: Fragen der Wiederbelebung isolierter Organe#footnote7#" ;
+	a drw-model:WLStationOfLife .
+
+<RelatedPerson/30603wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Marija Ivanovna, geb. Mendeleeva#footnote1#, verw. Zubova" .
+
+<StationOfLife/30603hasStationOfLife1>
+	rdfs:label "Privatdozent am Lehrstuhl für Zoologie, Physiologie und vergleichende Anatomie der Universität St. Petersburg" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1898_1903> .
+
+<Date/1901>
+	a drw-model:Date ;
+	rdfs:label "1901" .
+
+<Date/1895_1903>
+	rdfs:label "1895-1903" ;
+	a drw-model:Date .
+
+<ImportantPerson/30603>
+	drw-model:hasWL <WLStationOfLife/30603hasWL1> ;
+	drw-model:hasSL <SLPublication/30603hasSL0> ;
+	drw-model:hasWL <WLStationOfLife/30603hasWL3> ;
+	drw-model:hasEducation <Education/30603hasEducation6> ;
+	drw-model:hasStationOfLife <StationOfLife/30603hasStationOfLife4> ;
+	drw-model:hasStationOfLife <StationOfLife/30603hasStationOfLife9> ;
+	drw-model:hasStationOfLife <StationOfLife/30603hasStationOfLife6> ;
+	drw-model:hasSL <SLPublication/30603hasSL11> ;
+	drw-model:wasMarriedTo <RelatedPerson/30603wasMarriedTo> ;
+	drw-model:hasSL <SLPublication/30603hasSL9> ;
+	drw-model:hasSL <SLPublication/30603hasSL7> ;
+	drw-model:hasStationOfLife <StationOfLife/30603hasStationOfLife0> ;
+	rdfs:label "Kuljabko, Aleksej Aleksandrovič" ;
+	drw-model:hasW <WPublication/30603hasW1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <Education/30603hasEducation2> ;
+	drw-model:hasStationOfLife <StationOfLife/30603hasStationOfLife11> ;
+	drw-model:hasP <P/30603hasP2> ;
+	drw-model:hasStationOfLife <StationOfLife/30603hasStationOfLife8> ;
+	drw-model:hasSL <SLPublication/30603hasSL5> ;
+	drw-model:hasW <WPublication/30603hasW3> ;
+	drw-model:hasP <P/30603hasP3> ;
+	drw-model:hasMainName <MainName/30603> ;
+	drw-model:hasQ <Q/30603hasQ1> ;
+	drw-model:hasStationOfLife <StationOfLife/30603hasStationOfLife2> ;
+	drw-model:hasEducation <Education/30603hasEducation3> ;
+	drw-model:hasW <WPublication/30603hasW2> ;
+	drw-model:hasSL <SLPublication/30603hasSL3> ;
+	drw-model:hasStationOfLife <StationOfLife/30603hasStationOfLife10> ;
+	drw-model:hasSL <SLPublication/30603hasSL6> ;
+	drw-model:hasStationOfLife <StationOfLife/30603hasStationOfLife3> ;
+	drw-model:drwID "30603" ;
+	drw-model:hasGPV <GPVPublication/30603hasGPV0> ;
+	drw-model:hasSL <SLPublication/30603hasSL10> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30603hasGeneralLabor0> ;
+	drw-model:hasSL <SLPublication/30603hasSL2> ;
+	drw-model:hasEducation <Education/30603hasEducation0> ;
+	drw-model:hasSL <SLPublication/30603hasSL4> ;
+	drw-model:hasW <WPublication/30603hasW0> ;
+	drw-model:hasQ <Q/30603hasQ0> ;
+	drw-model:hasSL <SLPublication/30603hasSL1> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/30603hasHounoursAndAwards> ;
+	drw-model:hasWL <WLStationOfLife/30603hasWL2> ;
+	drw-model:hasMembership <Membership/30603hasMembership> ;
+	drw-model:hasGPV <GPVPublication/30603hasGPV1> ;
+	drw-model:hasP <P/30603hasP0> ;
+	drw-model:fatherIs <RelatedPerson/30603fatherIs> ;
+	drw-model:hasSL <SLPublication/30603hasSL8> ;
+	drw-model:hasEducation <Education/30603hasEducation5> ;
+	drw-model:hasDescendant <RelatedPerson/30603hasDescendant> ;
+	drw-model:hasStationOfLife <StationOfLife/30603hasStationOfLife5> ;
+	drw-model:hasEducation <Education/30603hasEducation1> ;
+	drw-model:hasStationOfLife <StationOfLife/30603hasStationOfLife7> ;
+	drw-model:hasP <P/30603hasP1> ;
+	drw-model:hasWL <WLStationOfLife/30603hasWL0> ;
+	drw-model:hasStationOfLife <StationOfLife/30603hasStationOfLife1> ;
+	drw-model:hasEducation <Education/30603hasEducation4> .
+
+<Q/30603hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Universität Leipzig, Universitätsarchiv: Personalakten der Quästurbehörde zwischen 1889 und 1944/1945 [Formular ohne Nr.]." .
+
+<StationOfLife/30603hasStationOfLife3>
+	rdfs:label "zugleich Physiologe am Physiologischen Laboratorium der Akademie der Wissenschaften St. Petersburg und" ;
+	drw-model:began <Date/1901> ;
+	a drw-model:StationOfLife .
+
+<Date/1884>
+	a drw-model:Date ;
+	rdfs:label "1884" .
+
+<Date/1888>
+	a drw-model:Date ;
+	rdfs:label "1888" .
+
+<GPVPublication/30603hasGPV0>
+	rdfs:label "Publikationen 1889-1903 (16 Nrn.), in: Zagoskin 1904, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<Date/ab_1917>
+	a drw-model:Date ;
+	rdfs:label "ab 1917" .
+
+<Date/1884_1888>
+	rdfs:label "1884-1888" ;
+	a drw-model:Date .
+
+<Date/1902_1903>
+	a drw-model:Date ;
+	rdfs:label "1902-1903" .
+
+<WPublication/30603hasW0>
+	rdfs:label "K voprosu o želnych kapilljarach. Diss. Sankt-Peterburg 1897, 94 S." ;
+	a drw-model:WPublication .
+
+<Membership/30603hasMembership>
+	rdfs:label "Obščestvo estestvoispytateleji vračej Tomskogo universiteta [Gesellschaft der Naturforscher und Ärzte der Universität Tomsk] (1907-1910 Vorsitzender)
+Physiologische Gesellschaft zu Berlin sowie physiologische Gesellschaften in England, Frankreich und Ungarn" ;
+	a drw-model:Membership .
+
+<RelatedPerson/30603hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sof’ja Vasil’evna (* 1894)" .
+
+<Education/30603hasEducation1>
+	rdfs:label "Studium an der naturwissenschaftlichen Abteilung der Physiko-mathematischen Fakultät der Universität St. Petersburg, insbesondere der Histologie bei F. V. #internNameLink#30478#endNameNr#Ovsjannikov#/internNameLink# und der Physiologie bei I. M. #internNameLink#30924#endNameNr#Sečenov#/internNameLink#" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1884_1888> .
+
+<StationOfLife/30603hasStationOfLife4>
+	rdfs:label "Vorlesungen in Physiologie am Biologischen Laboratorium St. Petersburg#footnote4# und in Hygiene bei der „Gesellschaft für die Gesundheit von Frauen“" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1902_1903> .
+
+<Date/1898_1903>
+	a drw-model:Date ;
+	rdfs:label "1898-1903" .
+
+<NameVariation/30603var0>
+	a drw-model:NameVariation ;
+	rdfs:label "Kuliabko, Alexis/Alexei"@de .
+
+<Education/30603hasEducation3>
+	drw-model:began <Date/1888_1890> ;
+	a drw-model:Education ;
+	rdfs:label "Studium der Medizin an der Militärmedizinischen Akademie (MMA) St. Petersburg" .
+
+<Date/1903_1924>
+	a drw-model:Date ;
+	rdfs:label "1903-1924" .
+
+<HonoursAndAwards/30603hasHounoursAndAwards>
+	rdfs:label "1914 „Wirklicher Russischer Staatsrat“<br>1906 Goldmedaille der Rezensenten (für Arbeiten zur Wiederbelebung des Herzens)<br>1918 „Verdienter Professor“ der Universität Tomsk<br>1893 St.-Annen-Orden 3. Klasse und 1908 2. Klasse<br>1893 St.-Stanislav-Orden 3. Klasse und 1902 2. Klasse<br>1911 St.-Vladimir-Orden 4. Klasse und 1917 3. Klasse<br>Medaille zur Erinnerung an die Zarenherrschaft Aleksandr III.<br>1913 Gedenkmedaille „300 Jahre Romanov-Dynastie“<br>Postume Ehrung:<br>Anlässlich des 5. Sibirischen physiologischen Kongresses im Juni 2005 Enthüllung der Gedenktafel#footnote6# für Aleksej Aleksandrovič Kuljabko am Hauptgebäude der Sibirischen Staatlichen Medizinischen Universität in Tomsk" ;
+	a drw-model:HonoursAndAwards .
+
+<Education/30603hasEducation5>
+	rdfs:label "Weiterbildung in Deutschland, Frankreich, Schweiz, Österreich und Italien:
+- u. a. Vorlesungen bei E. #internNameLink#30230#endNameNr#Du Bois-Reymond#/internNameLink# an der Universität Berlin
+- bei W. #internNameLink#30599#endNameNr#Kühne#/internNameLink# an der Universität Heidelberg
+- bei C. #internNameLink#30664#endNameNr#Ludwig#/internNameLink# an der Universität Leipzig" ;
+	drw-model:began <Date/1894> ;
+	a drw-model:Education .
+
+<P/30603hasP3>
+	a drw-model:P ;
+	rdfs:label "Foto von 1910, in: [Kurzbiographie] (<b>SL</b>), 125." .
+
+<Date/1925_1927>
+	a drw-model:Date ;
+	rdfs:label "1925-1927" .
+
+<SLPublication/30603hasSL11>
+	a drw-model:SLPublication ;
+	rdfs:label "[Zur Biographie] Kafedra normal’noj fiziologii Sibirskogo gosudarstvennogo medicinskogo universiteta 120 let (http://www.ssmu.ru/ofice/f2/norm/ubiley.shtml, 15.11.2010)." .
+
+<StationOfLife/30603hasStationOfLife8>
+	rdfs:label "zugleich Dozent an der Physiko-mathematischen Fakultät" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/ab_1917> .
+
+<Education/30603hasEducation6>
+	drw-model:began <Date/1897> ;
+	a drw-model:Education ;
+	rdfs:label "Dr. med. an der MMA St. Petersburg" .
+
+<StationOfLife/30603hasStationOfLife11>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<SLPublication/30603hasSL7>
+	rdfs:label "Zelenin, Sergej Fedorovič: Iz biografii A. A. Kuljabko. Problemy social’noj gigieny, zdravoochranenija i istorii mediciny (1999) Nr. 4, 60-61." ;
+	a drw-model:SLPublication .
+
+<Date/1894>
+	a drw-model:Date ;
+	rdfs:label "1894" .
+
+<StationOfLife/30603hasStationOfLife6>
+	rdfs:label "ao. Professor (1903-1904), o. Professor und Lehrstuhl für Physiologie (1904-1915), außeretatmäßiger Professor (1915-1924) an der Medizinischen Fakultät der Universität Tomsk" ;
+	drw-model:began <Date/1903_1924> ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30603hasSL5>
+	rdfs:label "Us, Larisa Borisovna: Meždunarodnye naučnye svjazi Sibiri (konec XIX - načalo XX v.). Priloženie I: Zarubežnye komandirovki professorov Tomskogo universiteta (1888-1917). Novosibirsk 2005 (http://history.nsc.ru/kapital/project/us/index.html, 15.11.2010)." ;
+	a drw-model:SLPublication .
+
+<WLStationOfLife/30603hasWL3>
+	rdfs:label "Autor von mehr als 50 Publikationen, u. a. auch zur Physiologie des Zentralnervensystems, über die Wirkung von Schlangengift auf den Organismus, zur Toxikologie und zur Geschichte der Medizin" ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30603hasStationOfLife2>
+	rdfs:label "weitere Reisen#footnote2# nach England, in die Zoologische Station Neapel, in die Niederlande und nach Deutschland, z. B.:
+- 1898/1900 zu T. W. #internNameLink#20028#endNameNr#Engelmann#/internNameLink#, Hermann #name#Munk#/name# (1839-1912) und Hans #name#Thierfelder#/name# (1858-1930) nach Berlin
+- 1901 zu E. #internNameLink#30372#endNameNr#Hering#/internNameLink# an die Universität Leipzig#footnote3#
+- 1907: am 5. Juli zu Vorträgen in die Physiologische Gesellschaft nach Berlin und am 13.-16. August zum 7. Internationalen Physiologenkongress in Heidelberg
+- 1909 als Teilnehmer an der 500-Jahrfeier der Universität Leipzig" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/ab_1898> .
+
+<RelatedPerson/30603fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Aleksandr, Hauptmann der Artillerie und Leiter der Feuerwehrschule des Westsibirischen Militärbezirkes" .
+
+<P/30603hasP0>
+	rdfs:label "Gemälde (Abb. [ohne weitere Angaben]) aus: [Zur Biographie] (<b>SL</b>)." ;
+	a drw-model:P .
+
+<Date/1888_1890>
+	a drw-model:Date ;
+	rdfs:label "1888-1890" .
+
+<P/30603hasP2>
+	a drw-model:P ;
+	rdfs:label "Foto in: <b>SL</b> Istorija kafedry und Zelenin; oval in: Tomskij universitet, zit. n. WBIS RBA (<b>SL</b>)." .
+
+<WLStationOfLife/30603hasWL1>
+	rdfs:label "Anfang des 20. Jahrhunderts Untersuchungen zu den Auswirkungen von Erdöl und seiner Derivate auf den menschlichen Körper und Entwicklung von Maßnahmen zur Bekämpfung von dessen toxischer Wirkung" ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30603hasStationOfLife0>
+	drw-model:began <Date/1895_1903> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Wissenschaftlicher Laborant im physiologischen Laboratorium der Akademie der Wissenschaften St Petersburg" .
+
+<Date/1890_1893>
+	a drw-model:Date ;
+	rdfs:label "1890-1893" .
+
+<SLPublication/30603hasSL3>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 184-186." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30603hasSL1>
+	a drw-model:SLPublication ;
+	rdfs:label "Kazancev, I. B.: K 140-letiju so dnja roždenija professora A. A. Kuljabko. In: Materialy Vserossijskoj itogovoj 66-oj naučnoj studentečeskoj konferencii im. N. I. Pirogova, Tomsk, 23-25 aprelja 2007 g. Sbornik naučnych trudov. Red. Vjačeslav Viktorovič Novickij, Ljudmila Michajlovna Ogorodova. Tomsk 2007, 153-155 (http://tele-conf.ru/sborniki-nauchnyih-trudov/, 15.11.2010)." .
+
+<GeneralLabor/30603hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<MainName/30603>
+	a drw-model:MainName ;
+	rdfs:label "Kuljabko, Aleksej Aleksandrovič" ;
+	drw-model:hasNameVariation <NameVariation/30603var0> .
+
+<GPVPublication/30603hasGPV1>
+	rdfs:label "Deutschsprachige und in deutschen Zeitschriften referierte russische Publikationen 1889-1904, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<WPublication/30603hasW3>
+	rdfs:label "Otec russkoj fiziologii. Pamjati professora I. Sečenova. Vestnik znanija (1916) Nr. 1, 55-70; Nr. 2, 120-127." ;
+	a drw-model:WPublication .
+
+<Date/1912_1913>
+	rdfs:label "1912-1913" ;
+	a drw-model:Date .
+
+<SLPublication/30603hasSL10>
+	rdfs:label "[Zefirov, Andrej L’vovič u. a.:] Kazanskaja fiziologičeskaja škola na rubeže vekov. Kazanskij Imperatorskij universitet (1804-1917 gg.). (http://www.kcn.ru/tat_ru/science/fiziologi/fiz_fizmat.htm, 15.11.2010)." ;
+	a drw-model:SLPublication .
+
+<WPublication/30603hasW1>
+	rdfs:label "Opyty oživlenija serdca. Izvestija Peterburgskoj Akademii nauk. (5) 16 (1902)." ;
+	a drw-model:WPublication .
+
+<Q/30603hasQ1>
+	a drw-model:Q ;
+	rdfs:label "VII Meždunarodnyj fiziologičeskij kongress v Gejdel’berge. Otčet professora A. A. Kuljabko. Jur’ev 1907, 38 S." .
+
+<Education/30603hasEducation0>
+	rdfs:label "Absschluss des Gymnasiums in Vernyj (heute Almaty, Kasachstan)" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1884> .
+
+<Date/1919>
+	a drw-model:Date ;
+	rdfs:label "1919" .
+
+<SLPublication/30603hasSL8>
+	rdfs:label "[Kurzbiographie SMR] Spravočnik “Mediki Rossii” (SMR) (http://ap.sibtechcenter.ru/ap_person.tal?identifier=AKuliabkAlekA2006012663480700, 15.11.2010)." ;
+	a drw-model:SLPublication .
+
+<Education/30603hasEducation2>
+	drw-model:began <Date/1888> ;
+	rdfs:label "Studienabschluss mit Magisterarbeit" ;
+	a drw-model:Education .
+
+<Education/30603hasEducation4>
+	rdfs:label "Prosektor am Lehrstuhl für Physiologie und Abschluss des Studiums der Medizin an der Universität Tomsk als Arzt (mit Auszeichnung)" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1890_1893> .
+

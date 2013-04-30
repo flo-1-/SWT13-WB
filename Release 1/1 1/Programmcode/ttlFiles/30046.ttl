@@ -1,0 +1,357 @@
+
+<WLStationOfLife/30046hasWL8>
+	rdfs:label "Reisemikroskop nach Babuchin, Stativ nach Babuchin, Großes Stativ Babuchin, Studenten-Mikroskop nach Babuchin#footnote10#" ;
+	a drw-model:WLStationOfLife .
+
+<ImportantPerson/30046>
+	drw-model:hasStationOfLife <StationOfLife/30046hasStationOfLife6> ;
+	drw-model:hasW <WPublication/30046hasW0> ;
+	drw-model:hasSL <SLPublication/30046hasSL9> ;
+	drw-model:hasEducation <Education/30046hasEducation4> ;
+	drw-model:hasWL <WLStationOfLife/30046hasWL7> ;
+	drw-model:hasEducation <Education/30046hasEducation1> ;
+	drw-model:hasW <WPublication/30046hasW5> ;
+	drw-model:hasP <P/30046hasP4> ;
+	drw-model:hasStationOfLife <StationOfLife/30046hasStationOfLife7> ;
+	drw-model:hasMainName <MainName/30046> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30046hasGeneralLabor1> ;
+	drw-model:hasW <WPublication/30046hasW4> ;
+	drw-model:hasP <P/30046hasP2> ;
+	drw-model:hasEducation <Education/30046hasEducation3> ;
+	drw-model:hasWL <WLStationOfLife/30046hasWL8> ;
+	drw-model:hasWL <WLStationOfLife/30046hasWL1> ;
+	drw-model:hasWL <WLStationOfLife/30046hasWL6> ;
+	drw-model:hasEducation <Education/30046hasEducation0> ;
+	drw-model:hasW <WPublication/30046hasW3> ;
+	drw-model:hasStationOfLife <StationOfLife/30046hasStationOfLife4> ;
+	drw-model:hasSL <SLPublication/30046hasSL5> ;
+	drw-model:drwID "30046" ;
+	drw-model:hasWL <WLStationOfLife/30046hasWL0> ;
+	drw-model:fatherIs <RelatedPerson/30046fatherIs> ;
+	drw-model:hasStationOfLife <StationOfLife/30046hasStationOfLife3> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/30046hasHounoursAndAwards> ;
+	drw-model:hasSL <SLPublication/30046hasSL10> ;
+	drw-model:hasStationOfLife <StationOfLife/30046hasStationOfLife0> ;
+	drw-model:hasWL <WLStationOfLife/30046hasWL2> ;
+	drw-model:hasSL <SLPublication/30046hasSL2> ;
+	drw-model:wasMarriedTo <RelatedPerson/30046wasMarriedTo> ;
+	drw-model:hasP <P/30046hasP1> ;
+	drw-model:hasWL <WLStationOfLife/30046hasWL3> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SLPublication/30046hasSL0> ;
+	drw-model:hasStationOfLife <StationOfLife/30046hasStationOfLife5> ;
+	rdfs:label "Babuchin, Aleksandr Ivanovič" ;
+	drw-model:hasP <P/30046hasP3> ;
+	drw-model:hasEducation <Education/30046hasEducation6> ;
+	drw-model:hasSL <SLPublication/30046hasSL1> ;
+	drw-model:hasWL <WLStationOfLife/30046hasWL5> ;
+	drw-model:hasSL <SLPublication/30046hasSL7> ;
+	drw-model:hasGPV <GPVPublication/30046hasGPV0> ;
+	drw-model:hasStationOfLife <StationOfLife/30046hasStationOfLife2> ;
+	drw-model:hasStationOfLife <StationOfLife/30046hasStationOfLife1> ;
+	drw-model:hasSL <SLPublication/30046hasSL3> ;
+	drw-model:hasSL <SLPublication/30046hasSL6> ;
+	drw-model:hasW <WPublication/30046hasW2> ;
+	drw-model:hasEducation <Education/30046hasEducation5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30046hasGeneralLabor0> ;
+	drw-model:hasWL <WLStationOfLife/30046hasWL4> ;
+	drw-model:hasSL <SLPublication/30046hasSL4> ;
+	drw-model:hasEducation <Education/30046hasEducation2> ;
+	drw-model:hasP <P/30046hasP0> ;
+	drw-model:hasSL <SLPublication/30046hasSL8> ;
+	drw-model:hasW <WPublication/30046hasW1> .
+
+<RelatedPerson/30046fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ivan († 1852), Offizier, Gutsverwalter" .
+
+<RelatedPerson/30046wasMarriedTo>
+	rdfs:label "P. P. Babuchina, geb. Bogoljubskaja" ;
+	a drw-model:RelatedPerson .
+
+<SLPublication/30046hasSL9>
+	a drw-model:SLPublication ;
+	rdfs:label "[Anonym] Gistolog, fiziolog, bakteriolog Aleksandr Babuchin, 1827-1891. In: Aleksandr Polynkin: Istorija orlovskogo kraja v licach (http://www.orel-story.ru/forum/index.php?action=vthread&amp;forum=17&amp;topic=491, 3.5.2011)." .
+
+<Date/1865>
+	a drw-model:Date ;
+	rdfs:label "1865" .
+
+<SLPublication/30046hasSL10>
+	rdfs:label "Česnakova [Im Original Druckfehler, es muss heißen: Česnokova], Sof’ja Aleksandrovna, Lindemann, Marianne: Russische Physiologen in Laboratorien von Carl Ludwig. Wissenschaftliche Zeitschrift der Karl-Marx-Universität Leipzig, Mathematisch-naturwissenschaftliche Reihe 19 (1970), 318." ;
+	a drw-model:SLPublication .
+
+<Date/1850_1852>
+	rdfs:label "1850-1852" ;
+	a drw-model:Date .
+
+<WLStationOfLife/30046hasWL0>
+	rdfs:label "Begründer der Moskauer Histologen- und Bakteriologenschule" ;
+	a drw-model:WLStationOfLife .
+
+<SLPublication/30046hasSL6>
+	a drw-model:SLPublication ;
+	rdfs:label "Vikipedija (http://ru.wikipedia.org/wiki/Бабухин,_Александр_Иванович, 19.4.2011)." .
+
+<StationOfLife/30046hasStationOfLife3>
+	a drw-model:StationOfLife ;
+	rdfs:label "zugleich Dozent für Physiologie der Tiere an der Land- und Forstwirtschaftsakademie Petrovskoe-Razumovskoe bei Moskau" ;
+	drw-model:began <Date/1868_1885> .
+
+<WPublication/30046hasW2>
+	rdfs:label "Chrustalik, Organ obonjanija. Moskva 2004 (Retinoidy 18), 26 S. [Übersetzung von V. M. Poljačenko der Publikationen in deutscher Sprache im <b>GPV</b> Nr. 12 und 11]." ;
+	a drw-model:WPublication .
+
+<Education/30046hasEducation0>
+	a drw-model:Education ;
+	drw-model:began <Date/1840_1848> ;
+	rdfs:label "Besuch des Gymnasiums in Orel" .
+
+<StationOfLife/30046hasStationOfLife7>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<SLPublication/30046hasSL0>
+	rdfs:label "Hirschberg, Julius: Die Augenärzte Rußlands, 1800 bis 1875. In: Geschichte der Augenheilkunde, 3. Buch, 17. Abschnitt. Leipzig 1916 (Handbuch der gesamten Heilkunde 14), 176." ;
+	a drw-model:SLPublication .
+
+<WPublication/30046hasW1>
+	rdfs:label "Zametki ob ėlektričestve. Izvlečenie iz poslednich izsledovanij ėlektričeskago organa ryb. Protokoly zasedanij fiziko-medicinskogo obščestva pri Moskovskom universitete (1882), 37-38 (Mit Titelergänzung zu <b>GPV</b> Nr. 20)." ;
+	a drw-model:WPublication .
+
+<Date/1848_1849>
+	rdfs:label "1848-1849" ;
+	a drw-model:Date .
+
+<Date/1863_1865>
+	a drw-model:Date ;
+	rdfs:label "1863-1865" .
+
+<StationOfLife/30046hasStationOfLife1>
+	rdfs:label "Professor für Histologie (1865-1869 ao., 1869-1891 o. und 1890 „Verdienter Professor“) an der Universität Moskau" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1865_1891> .
+
+<StationOfLife/30046hasStationOfLife4>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1876_1877> ;
+	rdfs:label "Leiter einer Forschungsxpedition nach Ägypten" .
+
+<Education/30046hasEducation3>
+	rdfs:label "Fortsetzung des Studiums an der Medizinischen Fakultät der Universität Moskau bei I. T. #internNameLink#30314#endNameNr#Glebov#/internNameLink# und Peter Eduard #internNameLink#30245#endNameNr#Einbrodt#/internNameLink# (1802-1840)#footnote6#" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1855_1859> .
+
+<GeneralLabor/30046hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Histologie" .
+
+<Date/1868_1885>
+	a drw-model:Date ;
+	rdfs:label "1868-1885" .
+
+<GPVPublication/30046hasGPV0>
+	rdfs:label "Opublikovannye trudy A. I. Babuchina (russische und deutsche Arbeiten 1860-1884, 20 Nrn.) [deutsche Titel teilweise korrekturbedürftig], in: Metelkin/Alov/Chesin (<b>SL</b>), 280-281." ;
+	a drw-model:GPVPublication .
+
+<StationOfLife/30046hasStationOfLife6>
+	drw-model:began <Date/1883> ;
+	rdfs:label "Weitere Aufenthalte im deutschsprachigen Raum:
+- bei E. #internNameLink#30230#endNameNr#Du Bois-Reymond#/internNameLink# an der Universität Berlin" ;
+	a drw-model:StationOfLife .
+
+<Education/30046hasEducation5>
+	rdfs:label "Dr. med. an der Universität Moskau" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1862> .
+
+<MainName/30046>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30046var0> ;
+	rdfs:label "Babuchin, Aleksandr Ivanovič" .
+
+<SLPublication/30046hasSL3>
+	a drw-model:SLPublication ;
+	rdfs:label "Pfrepper, Regine, Pfrepper, Gerd: Wissensspuren. Reisen russischer Mediziner nach Westeuropa im 19. Jahrhundert. Aachen 2012 (Relationes 11)" .
+
+<HonoursAndAwards/30046hasHounoursAndAwards>
+	rdfs:label "„Wirklicher Russischer Staatsrat“<br>1893 Marmor-Büste des Bildhauers Ivan Ilarionovič #name#Sevrjugin#/name# im Historischen Museum der Moskauer Medizinischen Akademie „I. M. Sečenov“<br>1923-1943 #italic#Bol’nica im. A. I. Babuchina#/italic# [Babuchin-Krankenhaus] in Moskau#footnote7#<br>2001Denkmal mit o. g. Büste in Bronze vor dem Medizinischen Institut der Universität Orel#footnote8#<br>Seit 2002 #italic#Babuchinskie čtenija#/italic# [Babuchin-Lesungen], jährlich am Lehrstuhl für Histologie des Medizinischen Instituts der Universität Orel<br>Histologisches Babuchin-Kabinett am Lehrstuhl für Histologie des Medizinischen Instituts der Universität Orel" ;
+	a drw-model:HonoursAndAwards .
+
+<NameVariation/30046var0>
+	a drw-model:NameVariation ;
+	rdfs:label "Babuchin, Alexander#footnote1#"@de .
+
+<WLStationOfLife/30046hasWL4>
+	rdfs:label "1868 Beschreibung (als Einer der Ersten) der Neurofibrillen in peripheren Nervenfasern" ;
+	a drw-model:WLStationOfLife .
+
+<SLPublication/30046hasSL1>
+	rdfs:label "Metelkin, A. I., Alov, Iosif Aleksandrovič, Chesin, Ja. E.: A. I. Babuchin, osnovopoložnik Moskovskoj školy gistologov i bakteriologov, 1827-1891. Moskva 1955 (Vydajuščiesja dejateli otečestvennoj mediciny), 305 S. [Exemplar der Bayerischen Staatsbibliothek München]; darin u. a.: Osnovnye daty žizni i dejatel’nosti A. I. Babuchina (S. 277-279) sowie Portraits zahlreicher Physiologen und Mediziner." ;
+	a drw-model:SLPublication .
+
+<P/30046hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Metelkin/Alov/Chesin (<b>SL</b>), zw. S. 3-4 und vorderer Umschlag." .
+
+<Education/30046hasEducation2>
+	rdfs:label "Beginn des Studiums an der Medizinischen Fakultät der Universität Moskau#footnote5#" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1850_1852> .
+
+<P/30046hasP3>
+	rdfs:label "Portrait in: Volkov 2003 b (<b>SL</b>), Bildeinlage zw. S. 32-33." ;
+	a drw-model:P .
+
+<WPublication/30046hasW3>
+	rdfs:label "O formirovanii glaza, v častnosti, setčatki. Moskva 2005 (Retinoidy 20), 27. S. [Übersetzung von V. M. Poljačenko der Publikation in deutscher Sprache im <b>GPV</b> Nr. 4]." ;
+	a drw-model:WPublication .
+
+<SLPublication/30046hasSL2>
+	a drw-model:SLPublication ;
+	rdfs:label "Nozdrin, V. I., Samarin, V. I., Tulčin, L. M.: Babuchin. Moskva 2007, 97 S." .
+
+<SLPublication/30046hasSL7>
+	rdfs:label "Volkov, Vladimir Akimovič, Kulikova, Marina Vladimirovna: Moskovskie professora XVIII - načala XX vekov. Estestvennye i techničeskie nauki. Moskva 2003, 26-27." ;
+	a drw-model:SLPublication .
+
+<Date/1876_1877>
+	a drw-model:Date ;
+	rdfs:label "1876-1877" .
+
+<P/30046hasP2>
+	rdfs:label "Portrait in: [Anonym] (<b>SL</b>)." ;
+	a drw-model:P .
+
+<Date/1888>
+	a drw-model:Date ;
+	rdfs:label "1888" .
+
+<Date/1859_1863>
+	a drw-model:Date ;
+	rdfs:label "1859-1863" .
+
+<SLPublication/30046hasSL8>
+	a drw-model:SLPublication ;
+	rdfs:label "Volkov/ Kulikova 2003 b, 34-35." .
+
+<StationOfLife/30046hasStationOfLife2>
+	rdfs:label "Gründer und Leiter des ersten bakteriologischen Laboratoriums an der Universität Moskau" ;
+	drw-model:began <Date/1888> ;
+	a drw-model:StationOfLife .
+
+<StationOfLife/30046hasStationOfLife5>
+	rdfs:label "Weitere Aufenthalte im deutschsprachigen Raum:
+- bei E. W. von #internNameLink#30184#endNameNr#Brücke#/internNameLink# in Wien
+- bei #internNameLink#30664#endNameNr#Ludwig#/internNameLink# an der Physiologischen Anstalt der Universität Leipzig" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1866> .
+
+<Date/1840_1848>
+	a drw-model:Date ;
+	rdfs:label "1840-1848" .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<Education/30046hasEducation1>
+	rdfs:label "Beginn des Studiums an der Mathematischen Fakultät der Universität Moskau#footnote4#" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1848_1849> .
+
+<StationOfLife/30046hasStationOfLife0>
+	drw-model:began <Date/1865> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Dozent am Lehrstuhl für Histologie, Embryologie und vergleichende Anatomie an der Universität Moskau" .
+
+<WLStationOfLife/30046hasWL3>
+	rdfs:label "1877 Nachweis der Erregung der Nervenfaser in beide Richtungen" ;
+	a drw-model:WLStationOfLife .
+
+<WPublication/30046hasW0>
+	rdfs:label "Ob otnošenii bluždajuščich nervov k serdcu. Rassuždenie lekarja A. Babuchina. Diss. Moskva 1862, 120 S (auch <b>GPV</b> Nr. 3)." ;
+	a drw-model:WPublication .
+
+<WPublication/30046hasW5>
+	rdfs:label "Ėlektričeskie organy u ryb. Moskva 2007 (Retinoidy 26), 87 S. [Übersetzung von V. M. Poljačenko der Publikationen in deutscher Sprache im <b>GPV</b> Nr. 10 und 13-19 (angegebene Titel korrekturbedürftig)]." ;
+	a drw-model:WPublication .
+
+<GeneralLabor/30046hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Embryologie und Physiologie" .
+
+<WLStationOfLife/30046hasWL2>
+	rdfs:label "Forschungsgebiete: Untersuchungen der Histogenese und der Histo-physiologie der Muskel- und Nervenfasern, Bildung und Struktur der Netzhaut und der Axialzylinder der Nervenfasern, Elektrophysiologie" ;
+	a drw-model:WLStationOfLife .
+
+<Date/1865_1891>
+	a drw-model:Date ;
+	rdfs:label "1865-1891" .
+
+<Education/30046hasEducation4>
+	a drw-model:Education ;
+	rdfs:label "Arzt in Weiterbildung an der Medizinischen Fakultät der Universität Moskau" ;
+	drw-model:began <Date/1859_1863> .
+
+<Date/1866>
+	a drw-model:Date ;
+	rdfs:label "1866" .
+
+<Date/1855_1859>
+	rdfs:label "1855-1859" ;
+	a drw-model:Date .
+
+<Date/1862>
+	a drw-model:Date ;
+	rdfs:label "1862" .
+
+<Education/30046hasEducation6>
+	rdfs:label "Weiterbildung in Deutschland:
+- bei Heinrich #name#Müller#/name# (1820-1864) in Würzburg
+- bei C. #internNameLink#30664#endNameNr#Ludwig#/internNameLink# an der Physiologischen Anstalt der Universität Leipzig
+- an den Universitäten Heidelberg und Wien" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1863_1865> .
+
+<WLStationOfLife/30046hasWL5>
+	rdfs:label "1869 Nachweis der Bildung der elektrischen Organe von Fischen aus embryonalen Muskelzellen" ;
+	a drw-model:WLStationOfLife .
+
+<WPublication/30046hasW4>
+	rdfs:label "O stroenii setčatki i osevogo cilindra. Moskva 2006 (Retinoidy 22), 31 S. [Übersetzung von V. M. Poljačenko der Publikationen in deutscher Sprache im <b>GPV</b> Nr. 5, 7 und 8]." ;
+	a drw-model:WPublication .
+
+<WLStationOfLife/30046hasWL6>
+	rdfs:label "Nach ihm ist benannt:" ;
+	a drw-model:WLStationOfLife .
+
+<Date/1883>
+	a drw-model:Date ;
+	rdfs:label "1883" .
+
+<P/30046hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Volkov 2003 a (<b>SL</b>)." .
+
+<WLStationOfLife/30046hasWL1>
+	rdfs:label "1888 Gründer des ersten bakteriologischen Laboratoriums an der Universität Moskau" ;
+	a drw-model:WLStationOfLife .
+
+<WLStationOfLife/30046hasWL7>
+	rdfs:label "#italic#Babuchina membrana#/italic# [Membrana limitans]#footnote9# der Retina" ;
+	a drw-model:WLStationOfLife .
+
+<SLPublication/30046hasSL5>
+	a drw-model:SLPublication ;
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 31, 196-201;#footnote11# SU 31, 27-28." .
+
+<SLPublication/30046hasSL4>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SLPublication .
+
+<P/30046hasP4>
+	rdfs:label "Ivan Ilarionovič Sevrjugin: Marmor-Büste (1893). Historisches Museum der Moskauer Medizinischen Akademie „I. M. Sečenov“ in St. Petersburg; Abb. in <b>SL</b> Metelkin/Alov/Chesin 1955, 129, und Nozdrin/Samarin/Tulčin 2007, Vorderer Umschlag." ;
+	a drw-model:P .
+

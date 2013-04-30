@@ -1,0 +1,251 @@
+
+<Date/1789_1791>
+	a drw-model:Date ;
+	rdfs:label "1789-1791" .
+
+<StationOfLife/30734hasStationOfLife10>
+	rdfs:label "lebte auf seinem Anwesen nahe Smolensk" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/ab_ca_1846> .
+
+<Date/1809_1815>
+	rdfs:label "1809-1815" ;
+	a drw-model:Date .
+
+<MainName/30734>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30734var1> ;
+	rdfs:label "Muchin, Efrem Osipovič (Kavaler)" ;
+	drw-model:hasNameVariation <NameVariation/30734var0> .
+
+<Date/1795>
+	a drw-model:Date ;
+	rdfs:label "1795" .
+
+<Date/1791_1795>
+	a drw-model:Date ;
+	rdfs:label "1791-1795" .
+
+<RelatedPerson/30734fatherIs>
+	rdfs:label "Osip, Adliger" ;
+	a drw-model:RelatedPerson .
+
+<GeneralLabor/30734hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologie und Gerichtsmedizin" .
+
+<Date/1813_1835>
+	a drw-model:Date ;
+	rdfs:label "1813-1835" .
+
+<Date/1781_1787>
+	a drw-model:Date ;
+	rdfs:label "1781-1787" .
+
+<Date/1787_1791>
+	rdfs:label "1787-1791" ;
+	a drw-model:Date .
+
+<Date/1813_1817>
+	rdfs:label "1813-1817" ;
+	a drw-model:Date .
+
+<StationOfLife/30734hasStationOfLife8>
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Moskau" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1820_1824#footnote5#_oder_1821_1826#footnote6#> .
+
+<Date/1795_1800>
+	a drw-model:Date ;
+	rdfs:label "1795-1800" .
+
+<Education/30734hasEducation4>
+	rdfs:label "Dozent für Anatomie und Verbandslehre an der MCSE, zugleich Operateur am Militärhospital" ;
+	drw-model:began <Date/1791_1795> ;
+	a drw-model:Education .
+
+<Date/1800_1804>
+	rdfs:label "1800-1804" ;
+	a drw-model:Date .
+
+<NameVariation/30734var0>
+	a drw-model:NameVariation ;
+	rdfs:label "Muchin, Efrem [Ritter]"@de .
+
+<StationOfLife/30734hasStationOfLife3>
+	rdfs:label "Wissenschaftlicher Sekretär der MCAM" ;
+	drw-model:began <Date/1812_1814> ;
+	a drw-model:StationOfLife .
+
+<Education/30734hasEducation6>
+	drw-model:began <Date/1795_1800> ;
+	a drw-model:Education ;
+	rdfs:label "Adjunkt-Professor für Pathologie und Therapie und Prosektor (1796) an der Mediko-Chirurgischen Schule (MCSM) und am Militärhospital Moskau" .
+
+<Date/1800_1810>
+	a drw-model:Date ;
+	rdfs:label "1800-1810" .
+
+<StationOfLife/30734hasStationOfLife7>
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Moskau" ;
+	drw-model:began <Date/1816_1817> ;
+	a drw-model:StationOfLife .
+
+<Education/30734hasEducation0>
+	drw-model:began <Date/1781_1787> ;
+	a drw-model:Education ;
+	rdfs:label "Besuch des Kollegiums in Char’kov#footnote3#" .
+
+<Date/1820_1824#footnote5#_oder_1821_1826#footnote6#>
+	rdfs:label "1820-1824#footnote5# oder 1821-1826#footnote6#" ;
+	a drw-model:Date .
+
+<StationOfLife/30734hasStationOfLife1>
+	drw-model:began <Date/1800_1804> ;
+	rdfs:label "Professor für Anatomie und Physiologie an der Mediko-Chirurgischen Akademie Moskau (MCAM)" ;
+	a drw-model:StationOfLife .
+
+<Education/30734hasEducation2>
+	drw-model:began <Date/1787_1789> ;
+	rdfs:label "Krankenpfleger im Hauptquartier des Generalfeldmarschalls Grigorij Aleksandrovič #name#Potemkin#/name# (1739-1791) während des Türkenkriegs" ;
+	a drw-model:Education .
+
+<StationOfLife/30734hasStationOfLife5>
+	drw-model:began <Date/1813_1817> ;
+	rdfs:label "Oberarzt am Erziehungshaus und Chefarzt der Krankenabteilung an der Handelsschule in Moskau" ;
+	a drw-model:StationOfLife .
+
+<ImportantPerson/30734>
+	rdfs:label "Muchin, Efrem Osipovič (Kavaler)" ;
+	drw-model:hasGeneralLabor <GeneralLabor/30734hasGeneralLabor1> ;
+	drw-model:hasStationOfLife <StationOfLife/30734hasStationOfLife8> ;
+	drw-model:hasDescendant <RelatedPerson/30734hasDescendant> ;
+	drw-model:hasEducation <Education/30734hasEducation7> ;
+	drw-model:fatherIs <RelatedPerson/30734fatherIs> ;
+	drw-model:hasStationOfLife <StationOfLife/30734hasStationOfLife10> ;
+	drw-model:hasStationOfLife <StationOfLife/30734hasStationOfLife7> ;
+	drw-model:hasEducation <Education/30734hasEducation6> ;
+	drw-model:hasStationOfLife <StationOfLife/30734hasStationOfLife6> ;
+	drw-model:hasEducation <Education/30734hasEducation8> ;
+	drw-model:hasMainName <MainName/30734> ;
+	drw-model:hasStationOfLife <StationOfLife/30734hasStationOfLife11> ;
+	drw-model:hasEducation <Education/30734hasEducation3> ;
+	drw-model:drwID "30734" ;
+	drw-model:hasEducation <Education/30734hasEducation5> ;
+	drw-model:hasEducation <Education/30734hasEducation2> ;
+	drw-model:hasStationOfLife <StationOfLife/30734hasStationOfLife0> ;
+	drw-model:hasStationOfLife <StationOfLife/30734hasStationOfLife2> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <Education/30734hasEducation4> ;
+	drw-model:hasStationOfLife <StationOfLife/30734hasStationOfLife4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30734hasGeneralLabor0> ;
+	drw-model:hasEducation <Education/30734hasEducation1> ;
+	drw-model:hasStationOfLife <StationOfLife/30734hasStationOfLife1> ;
+	drw-model:hasStationOfLife <StationOfLife/30734hasStationOfLife9> ;
+	drw-model:hasStationOfLife <StationOfLife/30734hasStationOfLife3> ;
+	drw-model:hasEducation <Education/30734hasEducation0> ;
+	drw-model:hasStationOfLife <StationOfLife/30734hasStationOfLife5> .
+
+<Date/1802_1808>
+	a drw-model:Date ;
+	rdfs:label "1802-1808" .
+
+<Date/1800>
+	a drw-model:Date ;
+	rdfs:label "1800" .
+
+<StationOfLife/30734hasStationOfLife11>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<Date/1787_1789>
+	a drw-model:Date ;
+	rdfs:label "1787, 1789" .
+
+<Date/ab_ca_1846>
+	a drw-model:Date ;
+	rdfs:label "ab ca. 1846" .
+
+<Date/1816_1817>
+	a drw-model:Date ;
+	rdfs:label "1816-1817" .
+
+<Date/1812_1814>
+	rdfs:label "1812-1814" ;
+	a drw-model:Date .
+
+<Education/30734hasEducation8>
+	rdfs:label "Doktordiplom der Universität Göttingen (?)#footnote4#" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1804> .
+
+<Date/1804>
+	a drw-model:Date ;
+	rdfs:label "1804" .
+
+<StationOfLife/30734hasStationOfLife9>
+	rdfs:label "praktischer Arzt in Moskau" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/ab_1835> .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<Date/ab_1835>
+	rdfs:label "ab 1835" ;
+	a drw-model:Date .
+
+<StationOfLife/30734hasStationOfLife2>
+	drw-model:began <Date/1809_1815> ;
+	rdfs:label "Professor für Anatomie und Physiologie an der Mediko-Chirurgischen Akademie Moskau (MCAM)" ;
+	a drw-model:StationOfLife .
+
+<Education/30734hasEducation5>
+	drw-model:began <Date/1795> ;
+	a drw-model:Education ;
+	rdfs:label "Weiterbildung in medizinisch-physiologischen Wissenschaften an der Universität Moskau" .
+
+<NameVariation/30734var1>
+	rdfs:label "Muchin, Ephremus de [Ritter]"@de ;
+	a drw-model:NameVariation .
+
+<RelatedPerson/30734hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Aleksandr Efremovič (1805-1861), Stabskapitän, Schriftsteller#footnote2#" .
+
+<StationOfLife/30734hasStationOfLife0>
+	rdfs:label "Chefarzt am Öffentlichen Golicyn-Krankenhaus in Moskau" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1800_1810> .
+
+<StationOfLife/30734hasStationOfLife6>
+	drw-model:began <Date/1813_1835> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "o. Professor am Lehrstuhl für Anatomie, Physiologie und Gerichtsmedizin an der Universität Moskau" .
+
+<Education/30734hasEducation1>
+	rdfs:label "Studium an der Mediko-Chirurgischen Schule (MCSE) des Militärhospitals in Elizavetgrad, Abschluß „Arzt“" ;
+	drw-model:began <Date/1787_1791> ;
+	a drw-model:Education .
+
+<StationOfLife/30734hasStationOfLife4>
+	drw-model:began <Date/1802_1808> ;
+	rdfs:label "zugleich Dozent an der Slawisch-Griechisch-Lateinischen Akademie und an der Geistlichen Akademie in Moskau" ;
+	a drw-model:StationOfLife .
+
+<Education/30734hasEducation3>
+	a drw-model:Education ;
+	rdfs:label "Unterarzt und Prosektor der anatomischen Abteilung am Militärhospital in Elizavetgrad" ;
+	drw-model:began <Date/1789_1791> .
+
+<GeneralLabor/30734hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Anatomie" .
+
+<Education/30734hasEducation7>
+	rdfs:label "Dissertation zum Dr. med. am Medizinalkontor in Moskau" ;
+	drw-model:began <Date/1800> ;
+	a drw-model:Education .
+

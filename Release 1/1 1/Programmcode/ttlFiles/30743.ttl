@@ -1,0 +1,201 @@
+
+<Date/1895>
+	a drw-model:Date ;
+	rdfs:label "1895" .
+
+<GeneralLabor/30743hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Sinnesphysiologie" .
+
+<RelatedPerson/30743fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Albrecht Eduard (1833-1895), Professor für Ophthalmologie" .
+
+<Date/1893>
+	a drw-model:Date ;
+	rdfs:label "1893" .
+
+<Date/Vor_1892>
+	rdfs:label "Vor 1892" ;
+	a drw-model:Date .
+
+<RelatedPerson/30743wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ellen, geb. von Kries (1882-1944)#footnote2#" .
+
+<Education/30743hasEducation2>
+	rdfs:label "Dr. med. in Tübingen" ;
+	drw-model:began <Date/1893> ;
+	a drw-model:Education .
+
+<Education/30743hasEducation0>
+	rdfs:label "Studium der Naturwissenschaften und der Medizin an der Universität Tübingen" ;
+	a drw-model:Education ;
+	drw-model:began <Date/Vor_1892> .
+
+<Education/30743hasEducation1>
+	drw-model:began <Date/1892> ;
+	rdfs:label "Dr. rer. nat. in Tübingen" ;
+	a drw-model:Education .
+
+<SLPublication/30743hasSL2>
+	rdfs:label "Durig, [Albert]: Willibald Nagel †. Wiener klinische Wochenschrift 6 (1911), 217." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30743hasStationOfLife1>
+	rdfs:label "Assistent bei J. v. #internNameLink#30584#endNameNr#Kries#/internNameLink# am Physiologischen Institut in Freiburg i. Br." ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1895> .
+
+<SLPublication/30743hasSL4>
+	rdfs:label "Gerabek 1996 – Gerabek, Werner: Nagel, Willibald. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. Bd. 18 (1996), 712-713 (Onlinefassung unter http://www.deutsche-biographie.de/pnd116880309.html, 4.1.2012)." ;
+	a drw-model:SLPublication .
+
+<MainName/30743>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30743var1> ;
+	drw-model:hasNameVariation <NameVariation/30743var0> ;
+	rdfs:label "Nagel, Wilibald A." .
+
+<StationOfLife/30743hasStationOfLife3>
+	rdfs:label "ao. Professor für Physiologie und Leiter der Abteilung für Sinnesphysiologie an der Friedrich-Wilhelms-Universität Berlin" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1902_1908> .
+
+<ImportantPerson/30743>
+	drw-model:hasSL <SLPublication/30743hasSL4> ;
+	drw-model:hasMainName <MainName/30743> ;
+	drw-model:hasEducation <Education/30743hasEducation3> ;
+	drw-model:hasStationOfLife <StationOfLife/30743hasStationOfLife4> ;
+	drw-model:hasStationOfLife <StationOfLife/30743hasStationOfLife2> ;
+	drw-model:hasSL <SLPublication/30743hasSL7> ;
+	drw-model:hasSL <SLPublication/30743hasSL1> ;
+	drw-model:hasEducation <Education/30743hasEducation1> ;
+	drw-model:drwID "30743" ;
+	drw-model:hasEducation <Education/30743hasEducation2> ;
+	drw-model:hasSL <SLPublication/30743hasSL5> ;
+	drw-model:hasSL <SLPublication/30743hasSL3> ;
+	drw-model:hasStationOfLife <StationOfLife/30743hasStationOfLife0> ;
+	drw-model:hasStationOfLife <StationOfLife/30743hasStationOfLife3> ;
+	drw-model:hasWL <WLStationOfLife/30743hasWL0> ;
+	rdfs:label "Nagel, Wilibald A." ;
+	drw-model:hasSL <SLPublication/30743hasSL2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30743hasGeneralLabor0> ;
+	drw-model:wasMarriedTo <RelatedPerson/30743wasMarriedTo> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <StationOfLife/30743hasStationOfLife1> ;
+	drw-model:hasDescendant <RelatedPerson/30743hasDescendant> ;
+	drw-model:hasP <P/30743hasP0> ;
+	drw-model:hasSL <SLPublication/30743hasSL8> ;
+	drw-model:hasGPV <GPVPublication/30743hasGPV0> ;
+	drw-model:fatherIs <RelatedPerson/30743fatherIs> ;
+	drw-model:hasW <WPublication/30743hasW0> ;
+	drw-model:hasMembership <Membership/30743hasMembership> ;
+	drw-model:hasSL <SLPublication/30743hasSL6> ;
+	drw-model:hasEducation <Education/30743hasEducation0> ;
+	drw-model:hasSL <SLPublication/30743hasSL0> .
+
+<SLPublication/30743hasSL6>
+	rdfs:label "Trendelenburg Wilhelm: Willibald A. Nagel [Nekrolog]. Klinische Monatsblätter für Augenheilkunde 49 (1911), 387-390." ;
+	a drw-model:SLPublication .
+
+<NameVariation/30743var1>
+	rdfs:label "Nagel', Vilibal’d A."@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Нагель, Вилибальд А."@ru .
+
+<SLPublication/30743hasSL8>
+	rdfs:label "[Nekrolog] Nagel, Wilibald. In: Biographisches Jahrbuch und deutscher Nekrolog. Bd. 16. Berlin 1914, 56." ;
+	a drw-model:SLPublication .
+
+<Date/1908_1911>
+	a drw-model:Date ;
+	rdfs:label "1908-1911" .
+
+<Date/1893_1894>
+	a drw-model:Date ;
+	rdfs:label "1893-1894" .
+
+<NameVariation/30743var0>
+	rdfs:label "Nagel, Wilibald/Willibald A."@de ;
+	a drw-model:NameVariation .
+
+<SLPublication/30743hasSL3>
+	rdfs:label "Fischer, Isidor (Hg.): Biographisches Lexikon der hervorragenden Ärzte der letzten fünfzig Jahre. Bd. 2. Berlin 1933, 1099." ;
+	a drw-model:SLPublication .
+
+<Date/1892>
+	a drw-model:Date ;
+	rdfs:label "1892" .
+
+<WPublication/30743hasW0>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:WPublication .
+
+<GPVPublication/30743hasGPV0>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:GPVPublication .
+
+<P/30743hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait: Foto (Abb.) von Fritz Blohm 1910 in Rostock. Aus: Wikipedia (<b>SL</b>)." .
+
+<Date/1895_1902>
+	a drw-model:Date ;
+	rdfs:label "1895-1902" .
+
+<Education/30743hasEducation3>
+	rdfs:label "Habilitation an der Universität Freiburg i. Br." ;
+	a drw-model:Education ;
+	drw-model:began <Date/1895> .
+
+<SLPublication/30743hasSL0>
+	a drw-model:SLPublication ;
+	rdfs:label "Deutsche Biographische Enzyklopädie. Hrsg. v. Walther Killy und Rudolf Vierhaus. Bd. 1-10. München u. a. 1995-1999,  Bd. 7 (1998), 335." .
+
+<StationOfLife/30743hasStationOfLife0>
+	rdfs:label "Assistent am Physiologischen Institut in Tübingen" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1893_1894> .
+
+<Membership/30743hasMembership>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:Membership .
+
+<SLPublication/30743hasSL1>
+	rdfs:label "Deutsches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): III 654, 420-423." ;
+	a drw-model:SLPublication .
+
+<WLStationOfLife/30743hasWL0>
+	rdfs:label "Mitherausgeber der #italic#Zeitschrift für Psychologie und Physiologie der Sinnesorgane#/italic#, ab 41 (1907) #italic#Zeitschrift für Sinnesphysiologie#/italic#. Weiteres vgl.: <b>SL</b>" ;
+	a drw-model:WLStationOfLife .
+
+<SLPublication/30743hasSL5>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30743hasStationOfLife2>
+	drw-model:began <Date/1895_1902> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Privatdozent für Physiologie in Freiburg i. Br." .
+
+<SLPublication/30743hasSL7>
+	a drw-model:SLPublication ;
+	rdfs:label "Wikipedia (http://de.wikipedia.org/wiki/Willibald_Nagel_%28Physiologe%29, 4.1.2012)." .
+
+<StationOfLife/30743hasStationOfLife4>
+	drw-model:began <Date/1908_1911> ;
+	rdfs:label "o. Professor für Physiologie an der Universität Rostock" ;
+	a drw-model:StationOfLife .
+
+<Date/1902_1908>
+	a drw-model:Date ;
+	rdfs:label "1902-1908" .
+
+<RelatedPerson/30743hasDescendant>
+	rdfs:label "#footnote3#
+Gerhard Albrecht (1903-1998)
+Helmut (1905-1930)
+Günther Otto (1907-1989)" ;
+	a drw-model:RelatedPerson .
+

@@ -1,0 +1,461 @@
+
+<Date/1920_1931>
+	rdfs:label "1920-1931" ;
+	a drw-model:Date .
+
+<P/30770hasP5>
+	rdfs:label "Portrait in: Professora MCA/VMA (<b>SL</b>), 23." ;
+	a drw-model:P .
+
+<StationOfLife/30770hasStationOfLife15>
+	drw-model:began <Date/ohne_Datum> ;
+	rdfs:label "Zeitweise auch Dozent am Landwirtschaftsinstitut und am Chemisch-pharmazeutischen Institut in Leningrad" ;
+	a drw-model:StationOfLife .
+
+<Date/ohne_Datum>
+	rdfs:label "ohne Datum" ;
+	a drw-model:Date .
+
+<Q/30770hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Vospominanija o zagraničnoj komandirovke 1908-1910 gg. In: Izbrannye trudy v pjati tomach (<b>GPV</b>), Bd. 5 (1968), 228-242." .
+
+<StationOfLife/30770hasStationOfLife6>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1918> ;
+	rdfs:label "Professor an der Universität Jur’ev" .
+
+<GPVPublication/30770hasGPV0>
+	rdfs:label "Izbrannye trudy v pjati tomach. Moskva u. a. Bd. 1: Voprosy evoljucionnoj fiziologii. 1961, 455 S.; Bd. 2: Adaptacionno-trofičeskaja funkcija pervoj sistemy. 1962, 608 S.; Bd. 3: Voprosy vysšej nervnoj dejatel’nosti i ee razvitija. 1964, 479 S.; Bd. 4: Voprosy obščej fiziologii i patofiziologii. 1966, 298 S.; Bd. 5: Stat’i i vstuplenija. 1968, 319 S." ;
+	a drw-model:GPVPublication .
+
+<SLPublication/30770hasSL2>
+	a drw-model:SLPublication ;
+	rdfs:label "Grigor’ev, Anatolij I., Grigor’jan, Noravard A.: Naučnaja škola akademika Leona Abgaroviča Orbeli. K 125-letiju so dnja roždenija. Moskva 2007, 375 S.; darin S. 352-356: Osnovnye daty žizni i dejatel’nosti akademika L. A. Orbeli." .
+
+<Membership/30770hasMembership>
+	rdfs:label "Obščestvo rossijskich fiziologov im. I. M. Sečenova [I. M. Sečenov-Gesellschaft russischer Physiologen] (1917 Vorstandsmitglied und 1925-1931 Vorsitzender), Société de Biologie, Paris (1930), Akademija nauk SSSR [Akademie der Wissenschaften der UdSSR] (ab 1932 korrespondierendes Mitglied, ab 1935 ordentliches Mitglied, 1939-1948 Sekretär der Abteilung für biologische Wissenschaften und 1942-1946 Vizepräsident der Akademie), Leopoldina (1932), Nacional’naja akademia nauk Armjanskoj SSR [Nationalakademie der Armenischen SSR] (1943), Akademija medicinskich nauk SSSR [Akademie der medizinischen Wissenschaften der UdSSR] (1944), Leningradskoe obščestvo estestvoispytatelej [Gesellschaft der Naturforscher zu Leningrad] (1957-1958 Präsident), American Physiological Society, Physiological Society Great Britain, New York Academy of Medicine, Société de Médecine de Paris, Medizinische Akademie Rumäniens u. a." ;
+	a drw-model:Membership .
+
+<HonoursAndAwards/30770hasHounoursAndAwards>
+	rdfs:label "1903  Goldmedaille für erste Arbeiten in Physiologie (MMA)<br>1929  Pavlov-Preis (I. M. Sečenov-Gesellschaft russischer Physiologen)<br>1934  „Verdienter Wissenschaftler“ der RSFSR<br>1936, 1944, 1948 Rot-Banner-Orden<br>1937  I. P. Pavlov-Prämie (Akademie der Wissenschaften der UdSSR)<br>1941  Staatspreis 1. Klasse (= Stalin-Prämie)<br>1943  Orden des Roten Sterns<br>1944  Generalleutnant des Medizinischen Dienstes<br>1944, 1945, 1948, 1957 Lenin-Orden<br>1945  Held der sozialistischen Arbeit<br>1947  Goldene I. I. Mečnikov-Medaille für das Jahr 1946 (Akademie der   Wissenschaften der UdSSR)<br>1948  Ehrendoktor der Karls-Universität Prag<br>1969  Denkmal des Bildhauers D. M. #name#Epifanov#/name# am Institut für Evolu tionsphysiologie und Biochemie I. M. Sečenov in Leningrad<br>1987  Briefmarke (5 Kopeek) der Post der UdSSR<br>2000  Briefmarke (110 Dram) der Armenischen Post<br>Denkmal der Gebrüder #name#Orbeli#/name# in Cachkadzor<br>Gedenktafeln an Gebäuden der MMA, des Staatlichen Naturwissenschaftlichen Instituts „P. F. Lesgaft“, des Instituts für Physiologie I. P. Pavlov sowie des ehemaligen Wohnhauses Orbelis in Leningrad<br>#italic#Institut fiziologii imeni L. A. Orbeli Nacional’noj Akademii nauk Armenii#/italic#, Eriwan<br>#italic#Dom-Muzej brat’ev Orbeli#/italic# [Museum der Brüder Orbeli] in Cachkadzor (Armenien)<br>#italic#Ulica Orbeli#/italic# (Straße in St. Petersburg, benannt nach Iosif und Leon Orbeli)<br>Festgabe anläßlich des 75. Geburtstages: #italic#Fiziologičeskij žurnal SSSR imeni I. M. Sečenova#/italic# 43 (1957) Nr. 7." ;
+	a drw-model:HonoursAndAwards .
+
+<StationOfLife/30770hasStationOfLife14>
+	drw-model:began <Date/1956_1958> ;
+	rdfs:label "Direktor des Instituts für Evolutionsphysiologie I. M. Sečenov der Akademie der Wissenschaften der UdSSR in Leningrad" ;
+	a drw-model:StationOfLife .
+
+<P/30770hasP6>
+	a drw-model:P ;
+	rdfs:label "Portraits in: Orbeli 1966 (<b>SL</b>): Foto von 1904 zw. S. 16-17, Foto von 1925 zw. S. 64-65, Foto von 1957 zw. S. 104-105; mehrere Gruppenfotos." .
+
+<Date/1918_1957>
+	a drw-model:Date ;
+	rdfs:label "1918-1957" .
+
+<SLPublication/30770hasSL12>
+	a drw-model:SLPublication ;
+	rdfs:label "Wikipedia (http://ru.wikipedia.org/wiki/Орбели,_Леон_Абгарович, 19.5.2011)." .
+
+<Date/1949_1951>
+	a drw-model:Date ;
+	rdfs:label "1949-1951" .
+
+<GPVPublication/30770hasGPV1>
+	rdfs:label "Osnovnye pečatnye raboty (1903-1955), in: Kvasov/Fedorova-Grot 1970 (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<Q/30770hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr. 4031 (1. Vorschlag zur Aufnahme in die Leopoldina vom 17.3.1932, unterzeichnet von Emil Abderhalden, Dankschreiben Orbelis zur Wahl vom 16.4.1932, Schreiben der Leopoldina mit der Bitte um Veröffentlichungsverzeichnis; 2. Veröffentlichungsverzeichnis (vgl. <b>GPV</b>); 3. Verzeichnis biographischer Artikel [z. B. zum 65., 70., 75. Geburtstag] und Nekrologe)." .
+
+<SLPublication/30770hasSL3>
+	a drw-model:SLPublication ;
+	rdfs:label "Grigor’jan, Noravard A.: Akademik Leon Abgarovič Orbeli. Naučnoe nasledie. Moskva 1997 (Rossijskaja Akademija Nauk. Naučnoe nasledstvo 26), 349 S.; darin ab S. 49: Neizdannye materialy [Unveröffentlichte Materialien], darunter z. B. S. 59-62: Curriculum vitae von 1916 (mit Faksimile der Handschrift); S. 348-351: Inhaltsangabe und Kurz-Zusammenfassung in Englisch u. d. T. Academician Leon Abgarovich Orbeli: Scientific heritage." .
+
+<WLStationOfLife/30770hasWL2>
+	rdfs:label "(Mit)Redakteur mehrer Periodika, z. B.: 1912-1917 #italic#Trudy Obščestva russkich vračej v Sankt-Peterburge#/italic#, ab 1917 Redaktionsmitglied und ab 1937 Hauptredakteur von #italic#Fiziologičeskij žurnal SSSR imeni I. M. Sečenova#/italic#, 1933-1934 #italic#Archiv biologičeskich nauk#/italic#, 1933-1950 Redaktionsmitglied von #italic#Priroda#/italic# sowie 1937-1949 Redakteur der Herausgabe #italic#Trudy fiziologičeskich laboratorii akademika I. P. Pavlova#/italic#" ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30770hasStationOfLife13>
+	drw-model:began <Date/1954_1956> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Leiter des Laboratoriums für Evolutionsphysiologie an der Akademie der Wissenschaften der UdSSR in Leningrad" .
+
+<P/30770hasP7>
+	rdfs:label "Portraits in: Lejbson 1990 (<b>SL</b>): Foto von 1957 im Frontispiz; Familienfotos von 1957: [mit dem Bruder I. A. Orbeli] S. 48, [mit der Ehefrau] S. 64; Foto von 1947 in Koltuši S. 168; mehrere Gruppenfotos." ;
+	a drw-model:P .
+
+<Date/1911_1913>
+	rdfs:label "1911-1913" ;
+	a drw-model:Date .
+
+<SLPublication/30770hasSL8>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 33, 51, 87, 96, 109, 218." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30770hasStationOfLife7>
+	rdfs:label "Leiter des Physiologischen Laboratoriums am Staatlichen Naturwissenschaftlichen Institut „P. F. Lesgaft“ in Petrograd/Leningrad" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1918_1957> .
+
+<Education/30770hasEducation0>
+	drw-model:began <Date/1899> ;
+	a drw-model:Education ;
+	rdfs:label "Abschluss des 3. Gymnasiums in Tiflis" .
+
+<Date/1932_1936>
+	rdfs:label "1932-1936" ;
+	a drw-model:Date .
+
+<GPVPublication/30770hasGPV2>
+	rdfs:label "Chronologičeskij ukazatel’ trudov (1903-1989 [mit Nachauflagen und Neuausgaben]), in: Bebich 1994 (<b>SL</b>), 29-64." ;
+	a drw-model:GPVPublication .
+
+<RelatedPerson/30770hasSibling>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ruben Abgarovič (1880-1943), Jurist, Experte auf dem Gebiet der Unterwasserarchäologie
+Iosif Abgarovič (1887-1961), Orientalist, Direktor der Eremitage" .
+
+<HounoursAndAwardsComment/30770hasHounoursAndAwardsComment>
+	rdfs:label "(Auswahl)" ;
+	a drw-model:HounoursAndAwardsComment .
+
+<Date/1908>
+	a drw-model:Date ;
+	rdfs:label "1908" .
+
+<StationOfLife/30770hasStationOfLife8>
+	rdfs:label "Professor und Lehrstuhl für Physiologie am 1. Medizinischen Institut (später Medizinische Universität „I. P. Palov“) in Petrograd/Leningrad" ;
+	drw-model:began <Date/1920_1931> ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30770hasSL0>
+	rdfs:label "Bebich, I. G. (Hg.): Leon Abgarovič Orbeli, 1882-1958. 2. izd. Moskva 1994 (Materialy k biobibliografii učenych; Serija biologičeskich nauk: Fiziologija 17), 123 S.; darin S. 3-8: Osnovnye daty žizni i dejatel’nosti akademika L. A. Orbeli." ;
+	a drw-model:SLPublication .
+
+<P/30770hasP10>
+	rdfs:label "Gravur von M. Sil’janova auf Briefmarke von 1987." ;
+	a drw-model:P .
+
+<ImportantPerson/30770>
+	drw-model:hasP <P/30770hasP9> ;
+	drw-model:hasStationOfLife <StationOfLife/30770hasStationOfLife6> ;
+	drw-model:hasEducation <Education/30770hasEducation3> ;
+	drw-model:fatherIs <RelatedPerson/30770fatherIs> ;
+	drw-model:hasSL <SLPublication/30770hasSL2> ;
+	drw-model:hasStationOfLife <StationOfLife/30770hasStationOfLife3> ;
+	drw-model:drwID "30770" ;
+	drw-model:hasStationOfLife <StationOfLife/30770hasStationOfLife8> ;
+	drw-model:hasGPV <GPVPublication/30770hasGPV1> ;
+	drw-model:hasP <P/30770hasP4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30770hasGeneralLabor0> ;
+	drw-model:hasP <P/30770hasP2> ;
+	drw-model:hasSL <SLPublication/30770hasSL0> ;
+	drw-model:hasStationOfLife <StationOfLife/30770hasStationOfLife7> ;
+	drw-model:hasStationOfLife <StationOfLife/30770hasStationOfLife15> ;
+	drw-model:hasEducation <Education/30770hasEducation2> ;
+	drw-model:hasSL <SLPublication/30770hasSL1> ;
+	drw-model:motherIs <RelatedPerson/30770motherIs> ;
+	drw-model:hasSL <SLPublication/30770hasSL7> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/30770hasHounoursAndAwards> ;
+	drw-model:hasMainName <MainName/30770> ;
+	drw-model:hasP <P/30770hasP8> ;
+	drw-model:hasGPV <GPVPublication/30770hasGPV0> ;
+	drw-model:hasGPV <GPVPublication/30770hasGPV3> ;
+	drw-model:hasP <P/30770hasP1> ;
+	drw-model:hasQ <Q/30770hasQ2> ;
+	drw-model:hasSL <SLPublication/30770hasSL3> ;
+	drw-model:hasSL <SLPublication/30770hasSL5> ;
+	drw-model:hasStationOfLife <StationOfLife/30770hasStationOfLife16> ;
+	drw-model:hasStationOfLife <StationOfLife/30770hasStationOfLife9> ;
+	drw-model:hasStationOfLife <StationOfLife/30770hasStationOfLife4> ;
+	drw-model:hasEducation <Education/30770hasEducation1> ;
+	drw-model:hasSL <SLPublication/30770hasSL10> ;
+	drw-model:hasSL <SLPublication/30770hasSL4> ;
+	drw-model:hasStationOfLife <StationOfLife/30770hasStationOfLife13> ;
+	drw-model:hasSL <SLPublication/30770hasSL8> ;
+	drw-model:hasDescendant <RelatedPerson/30770hasDescendant> ;
+	drw-model:hasP <P/30770hasP7> ;
+	drw-model:hasStationOfLife <StationOfLife/30770hasStationOfLife0> ;
+	drw-model:hasSL <SLPublication/30770hasSL9> ;
+	drw-model:hasWL <WLStationOfLife/30770hasWL1> ;
+	drw-model:hasMembership <Membership/30770hasMembership> ;
+	drw-model:hasEducation <Education/30770hasEducation0> ;
+	drw-model:hasHounoursAndAwardsComment <HounoursAndAwardsComment/30770hasHounoursAndAwardsComment> ;
+	drw-model:hasP <P/30770hasP0> ;
+	drw-model:hasQ <Q/30770hasQ0> ;
+	drw-model:hasStationOfLife <StationOfLife/30770hasStationOfLife14> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <StationOfLife/30770hasStationOfLife12> ;
+	drw-model:hasStationOfLife <StationOfLife/30770hasStationOfLife5> ;
+	drw-model:hasP <P/30770hasP6> ;
+	drw-model:hasSL <SLPublication/30770hasSL11> ;
+	drw-model:hasP <P/30770hasP10> ;
+	drw-model:hasW <WPublication/30770hasW1> ;
+	rdfs:label "Orbeli, Leon Abgarovič" ;
+	drw-model:hasWL <WLStationOfLife/30770hasWL0> ;
+	drw-model:hasGPV <GPVPublication/30770hasGPV2> ;
+	drw-model:hasSL <SLPublication/30770hasSL12> ;
+	drw-model:hasW <WPublication/30770hasW2> ;
+	drw-model:hasStationOfLife <StationOfLife/30770hasStationOfLife10> ;
+	drw-model:hasStationOfLife <StationOfLife/30770hasStationOfLife2> ;
+	drw-model:hasStationOfLife <StationOfLife/30770hasStationOfLife1> ;
+	drw-model:hasP <P/30770hasP3> ;
+	drw-model:hasWL <WLStationOfLife/30770hasWL2> ;
+	drw-model:hasP <P/30770hasP5> ;
+	drw-model:hasQ <Q/30770hasQ1> ;
+	drw-model:hasW <WPublication/30770hasW0> ;
+	drw-model:wasMarriedTo <RelatedPerson/30770wasMarriedTo> ;
+	drw-model:hasStationOfLife <StationOfLife/30770hasStationOfLife11> ;
+	drw-model:hasSL <SLPublication/30770hasSL6> ;
+	drw-model:hasSibling <RelatedPerson/30770hasSibling> .
+
+<RelatedPerson/30770wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Elizaveta Ioakimovna, geb. Aladžalova (1879-1974)" .
+
+<StationOfLife/30770hasStationOfLife12>
+	rdfs:label "Leiter des Lehrstuhls „Höhere Nerventätigkeit“ am Staatlichen Institut für die Weiterbildung von Ärzten in Leningrad" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1949_1951> .
+
+<SLPublication/30770hasSL9>
+	a drw-model:SLPublication ;
+	rdfs:label "Professora MCA/VMA - Professora Voenno-medicinskoj (Mediko-chirurgičeskoj) akademii (1798-1998). Glavnyj red. Jurij Leonidovič Ševčenko. Sankt-Peterburg 1998, 23-24, 58-59." .
+
+<Date/1918>
+	a drw-model:Date ;
+	rdfs:label "1918" .
+
+<P/30770hasP0>
+	rdfs:label "Portrait (Abb. [Ausschnitt]) aus: Nekrologi (<b>SL</b>) Nr. 1, Frontispiz; auch in: RAN (<b>SL</b>)." ;
+	a drw-model:P .
+
+<StationOfLife/30770hasStationOfLife0>
+	rdfs:label "Arzt im Nikolaj-Militärkrankenhaus in Kronštadt und im Marine-Hospital der Baltischen Flotte in St. Petersburg" ;
+	drw-model:began <Date/1904_1908> ;
+	a drw-model:StationOfLife .
+
+<P/30770hasP8>
+	rdfs:label "Portraits in: Grigor’jan 1997 (<b>SL</b>): Foto, Frontispiz; Fotos in der Bildeinlage zw. S.160-161 [mit der Mutter, mit Eltern und Brüdern, als Student 1900, mit Ehefrau, Tochter und Enkel 1940, Orbeli 1939, Orbeli in Uniform 1942, Orbeli am Mikroskop 1947 u. a. sowie mehrere Gruppenfotos]." ;
+	a drw-model:P .
+
+<RelatedPerson/30770hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Marija Leonovna (1916-1949), Biophysikerin" .
+
+<Education/30770hasEducation1>
+	drw-model:began <Date/1899_1904> ;
+	a drw-model:Education ;
+	rdfs:label "Studium an der Militärmedizinischen Akademie (MMA) in St. Petersburg bei I. P. #internNameLink#30785#endNameNr#Pavlov#/internNameLink#" .
+
+<GPVPublication/30770hasGPV3>
+	rdfs:label "4 Publikationen in deutscher Sprache (1910) vgl. Pfrepper 2009 (<b>SL</b>), 51, Anm. 167." ;
+	a drw-model:GPVPublication .
+
+<Date/1899>
+	rdfs:label "1899" ;
+	a drw-model:Date .
+
+<SLPublication/30770hasSL1>
+	rdfs:label "Ginecinskij, A. G., Krens, E. M., Tonkich, A. V.: Leon Abgarovič Orbeli (K 75-letiju so dnja roždenija). Fiziologičeskij žurnal SSSR imeni I. M. Sečenova 43 (1957) 7, 595-599." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30770hasStationOfLife9>
+	rdfs:label "Leiter der Abteilung für Evolutionsphysiologie am Gesamtunionsinstitut für experimentelle Physiologie (VIĖF) in Moskau" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1932_1936> .
+
+<Date/1910_1911>
+	rdfs:label "1910-1911" ;
+	a drw-model:Date .
+
+<MainName/30770>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30770var1> ;
+	drw-model:hasNameVariation <NameVariation/30770var0> ;
+	rdfs:label "Orbeli, Leon Abgarovič" .
+
+<P/30770hasP1>
+	rdfs:label "Portrait in: Ginecinskij/Krens/Tonkich 1957 (<b>SL</b>), Frontispiz." ;
+	a drw-model:P .
+
+<Date/1934>
+	a drw-model:Date ;
+	rdfs:label "1934" .
+
+<StationOfLife/30770hasStationOfLife1>
+	rdfs:label "zugleich Mitarbeiter und ab 1907 stellvertretender Leiter der Physiologischen Abteilung am Institut für experimentelle Medizin (IEM) in St. Petersburg" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1905_1920> .
+
+<P/30770hasP9>
+	rdfs:label "Portraits in: Grigor’ev/Grigor’jan 2007 (<b>SL</b>): Foto [Orbeli am Mikroskop], Frontispiz; Fotos [als Gymnasiast und als Student] S. 22; Foto von 1945, S. 209; Familienfotos: [mit Eltern und Brüdern] S. 12, [mit der Mutter] S 14, [mit Ehefrau] S. 348, [mit Ehefrau, Tochter und Enkel] S. 349; mehrere Gruppenfotos." ;
+	a drw-model:P .
+
+<SLPublication/30770hasSL6>
+	rdfs:label "Nekrologi: Akademik Leon Abgarovič Orbeli. Fiziologičeskij žurnal SSSR imeni I. M. Sečenova 45 (1859) 1, 123-124; Leon Abgarovič Orbeli. Ibid. 7, 749-752." ;
+	a drw-model:SLPublication .
+
+<Education/30770hasEducation2>
+	drw-model:began <Date/1908> ;
+	a drw-model:Education ;
+	rdfs:label "Dr. med. an der MMA St. Petersburg" .
+
+<Date/1905_1920>
+	a drw-model:Date ;
+	rdfs:label "1905-1920" .
+
+<Date/1909_1910>
+	a drw-model:Date ;
+	rdfs:label "1909-1910" .
+
+<Date/1936_1950>
+	a drw-model:Date ;
+	rdfs:label "1936-1950" .
+
+<Date/ab_1913>
+	rdfs:label "ab 1913" ;
+	a drw-model:Date .
+
+<RelatedPerson/30770motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Varvara Moiseevna (Movsesovna), geb. Fürstin Argutinskaja-Dolgorukova, Wohltäterin, Lehrerin für Fortepiano" .
+
+<StationOfLife/30770hasStationOfLife11>
+	rdfs:label "Direktor des Instituts für Physiologie der Akademie der Wissenschaften der UdSSR in Leningrad und Leiter der Biologischen Station des IEM (ab 1939 Institut für vergleichende Physiologie der höheren Nerventätigkeit, später I. P. Pavlov-Institut für Physiologie) in Koltuši (heute Ortsteil von #italic#Pavlovo#/italic#)#footnote3#" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1936_1950> .
+
+<Date/1904_1908>
+	a drw-model:Date ;
+	rdfs:label "1904-1908" .
+
+<StationOfLife/30770hasStationOfLife2>
+	drw-model:began <Date/1909_1910> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Weiterbildung in Deutschland:
+- bei E. #internNameLink#30372#endNameNr#Hering#/internNameLink#, E. T. von #internNameLink#30184#endNameNr#Brücke#/internNameLink# und Rudolf #name#Dittler#/name# (1881-1959) am Physiologischen Institut sowie bei Paul Emil #name#Flechsig#/name# (1847-1929) im Histologielaboratorium an der Universität Leipzig
+- bei S. #internNameLink#30298#endNameNr#Garten#/internNameLink# an der Universität Gießen" .
+
+<P/30770hasP2>
+	rdfs:label "Portrait in: Kvasov/Fedorova-Grot 1967 (<b>SL</b>), Bildeinlage zw. S.160-161." ;
+	a drw-model:P .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<SLPublication/30770hasSL7>
+	a drw-model:SLPublication ;
+	rdfs:label "Pfrepper, Regine, Pfrepper, Gerd: Wissensspuren. Reisen russischer Mediziner nach Westeuropa im 19. Jahrhundert. Aachen 2012 (Relationes 11)" .
+
+<WPublication/30770hasW0>
+	rdfs:label "Uslovnye refleksy s glaza u sobaki. Diss. Sankt-Peterburg 1908, 111 S." ;
+	a drw-model:WPublication .
+
+<Education/30770hasEducation3>
+	drw-model:began <Date/1934> ;
+	a drw-model:Education ;
+	rdfs:label "Dr. med. und biol. (ohne schriftliche Dissertation) in Moskau" .
+
+<NameVariation/30770var1>
+	a drw-model:NameVariation ;
+	rdfs:label "Orbeli, Lewon"@de .
+
+<StationOfLife/30770hasStationOfLife10>
+	rdfs:label "Leiter des neuorganisierten Laboratoriums für Physiologie der Tiere der Akademie der Wissenschaften der UdSSR in Moskau" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1934> .
+
+<P/30770hasP3>
+	a drw-model:P ;
+	rdfs:label "Portrait [sitzend] in: Nekrologi (<b>SL</b>) Nr. 7, vor S. 749." .
+
+<WLStationOfLife/30770hasWL0>
+	rdfs:label "Einer der Begründer der Evolutionsphysiologie in der UdSSR" ;
+	a drw-model:WLStationOfLife .
+
+<SLPublication/30770hasSL11>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 341, 388-392; SU 335-276." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30770hasStationOfLife3>
+	rdfs:label "außerdem Studienaufenthalt bei John Newport #name#Langley#/name# (1852-1925) und Joseph #name#Barcroft#/name# (1872-1947) an der Universität Cambridge und an der Zoologischen Station in Neapel" ;
+	drw-model:began <Date/1910_1911> ;
+	a drw-model:StationOfLife .
+
+<StationOfLife/30770hasStationOfLife4>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1911_1913> ;
+	rdfs:label "Privatdozent, 1913-1930 etatmäßiger Dozent, 1925-1950 Professor und Leiter des Lehrstuhls für Physiologie an der MMA, 1943-1950 Vorsteher der MMA in St. Petersburg" .
+
+<SLPublication/30770hasSL4>
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 177-180." ;
+	a drw-model:SLPublication .
+
+<Date/1956_1958>
+	a drw-model:Date ;
+	rdfs:label "1956-1958" .
+
+<WPublication/30770hasW1>
+	rdfs:label "Was erwartet die Physiologie des vegetativen Nervensystems von der Histologie. Trudy obščestva rossijskich fiziologov 2 (1929), 6-8." ;
+	a drw-model:WPublication .
+
+<Date/1954_1956>
+	a drw-model:Date ;
+	rdfs:label "1954-1956" .
+
+<WLStationOfLife/30770hasWL1>
+	rdfs:label "Forschungsthemen: Physiologie der Wahrnehmung, des vegetativen Nervensystems, der bedingten Reflexe und der subkortikalen Hirnzentren, Untersuchungen der neurophysiologischen Mechanismen der aktiven Tätigkeit des Menschen, der Ernährung, der Sinnesorgane u. a." ;
+	a drw-model:WLStationOfLife .
+
+<NameVariation/30770var0>
+	rdfs:label "Орбели, Леон/Левон Абгарович/Абгари"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Orbeli, Leon/Levon Abgarovič/Abgari"@de .
+
+<RelatedPerson/30770fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Abgar Iosifovič, Friedensrichter in Eriwan, Prokurist in Kutaisi und Rechtsanwalt in Tiflis" .
+
+<P/30770hasP4>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Medicinskij institut, zit. n. WBIS RBA (<b>SL</b>)." .
+
+<StationOfLife/30770hasStationOfLife16>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<SLPublication/30770hasSL10>
+	a drw-model:SLPublication ;
+	rdfs:label "Rossijskaja akademija nauk. Personal’nyj sostav. Kniga 1: 1724-1917. Moskva 1999; Kniga 2: 1918-1973. Moskva 1999 Kniga 2 (1999), 30, 411." .
+
+<Q/30770hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Orbeli, L. A.: Vospominanija. Red. Evgenij Michajlovič Kresp. Moskva, Leningrad 1966, 121 S." .
+
+<StationOfLife/30770hasStationOfLife5>
+	drw-model:began <Date/ab_1913> ;
+	rdfs:label "Dozent an den Höheren Kursen für Frauen in St. Petersburg" ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30770hasSL5>
+	rdfs:label "Lejbson, Lev G.: Akademik L. A. Orbeli. Neopublikovannye glavy biografii. Leningrad 1990, 191 S." ;
+	a drw-model:SLPublication .
+
+<GeneralLabor/30770hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<Date/1899_1904>
+	a drw-model:Date ;
+	rdfs:label "1899-1904" .
+
+<WPublication/30770hasW2>
+	rdfs:label "Lekcii po fiziologii nervnoj sistemy. Moskva, Leningrad 1934, 225 S.; 2. Aufl. Leningrad 1935, 411 S." ;
+	a drw-model:WPublication .
+

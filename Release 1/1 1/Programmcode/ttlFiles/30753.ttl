@@ -1,0 +1,596 @@
+
+<Education/30753hasEducation3>
+	drw-model:began <Date/1894_1895> ;
+	rdfs:label "Studium der Medizin an der Universität Berlin" ;
+	a drw-model:Education .
+
+<Date/1915>
+	rdfs:label "1915" ;
+	a drw-model:Date .
+
+<Date/1933_1936>
+	a drw-model:Date ;
+	rdfs:label "1933-1936" .
+
+<StationOfLife/30753hasStationOfLife11>
+	rdfs:label "kriegsgerichtlicher Prozess gegen #internNameLink#30753#endNameNr#Nicolai#/internNameLink# wegen des Vergehens gegen das Pressegesetz, 1921 Prozess verloren" ;
+	drw-model:began <Date/1917> ;
+	a drw-model:StationOfLife .
+
+<Date/1901>
+	a drw-model:Date ;
+	rdfs:label "1901" .
+
+<P/30753hasP3>
+	a drw-model:P ;
+	rdfs:label "Gemälde von 1915 [Künstler und Aufbewahrungsort unbekannt], in: <b>SL</b> Zuelzer 1981 und 1982." .
+
+<Date/1885_1894>
+	rdfs:label "1885-1894" ;
+	a drw-model:Date .
+
+<Date/ohne_Datum>
+	rdfs:label "ohne Datum" ;
+	a drw-model:Date .
+
+<StationOfLife/30753hasStationOfLife16>
+	rdfs:label "Emigration nach Südamerika" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1922> .
+
+<SLPublication/30753hasSL11>
+	a drw-model:SLPublication ;
+	rdfs:label "Zuelzer, Wolf: Der Fall Nicolai. Frankfurt am Main 1981, 447 S.; darin: Die wichtigsten Daten im Leben von Georg Friedrich Nikolai, S. 432-435." .
+
+<WPublication/30753hasW4>
+	rdfs:label "Das Elektrokardiogramm des gesunden und kranken Menschen. Mit Friedrich Kraus. Berlin 1910, 322 S." ;
+	a drw-model:WPublication .
+
+<Date/1901_1902>
+	a drw-model:Date ;
+	rdfs:label "1901-1902" .
+
+<SLPublication/30753hasSL2>
+	rdfs:label "Eckart, Wolfgang U., Gradmann, Christoph: Ärzte Lexikon. Von der Antike bis zur Gegenwart. 3. Aufl. Heidelberg u. a. 2006, 240." ;
+	a drw-model:SLPublication .
+
+<GeneralLabor/30753hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Arzt" .
+
+<StationOfLife/30753hasStationOfLife6>
+	drw-model:began <Date/1909_1920> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Titular-Professor an der Universität Berlin" .
+
+<Education/30753hasEducation2>
+	drw-model:began <Date/1894_1895> ;
+	rdfs:label "Studium der Medizin an der Universität Königsberg" ;
+	a drw-model:Education .
+
+<Date/1894_1895>
+	a drw-model:Date ;
+	rdfs:label "1894-1895" .
+
+<Date/1912>
+	a drw-model:Date ;
+	rdfs:label "1912" .
+
+<StationOfLife/30753hasStationOfLife20>
+	drw-model:began <Date/1930_1931> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Vorlesungen am Colegio Libre d’Estudios Superiores in Buenos Aires" .
+
+<P/30753hasP2>
+	a drw-model:P ;
+	rdfs:label "Verschiedene Portraits (z. B. von 1891, 1918, 1922, im Alter von 80 Jahren), Karrikaturen, Gruppen- und Familienfotos in <b>SL</b> Zuelzer 1981 und 1982." .
+
+<StationOfLife/30753hasStationOfLife17>
+	drw-model:began <Date/1922_1927> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Professor für Physiologie an der Universidad Nacional de Córdoba in Argentinien" .
+
+<Date/1897_1898>
+	a drw-model:Date ;
+	rdfs:label "1897-1898" .
+
+<SLPublication/30753hasSL9>
+	rdfs:label "Wikipedia (http://de.wikipedia.org/wiki/Georg_Friedrich_Nicolai, 28.7.2011)." ;
+	a drw-model:SLPublication .
+
+<Date/1939>
+	a drw-model:Date ;
+	rdfs:label "1939" .
+
+<WPublication/30753hasW3>
+	rdfs:label "Die physiologische Methodik zur Erforschung der Tierpsyche, ihre Möglichkeit und ihre Anwendung (Antrittsvorlesung [an der Universität Berlin], gehalten am 16. Mai 1907). Leipzig 1907, 27 S. = Journal für Psychologie und Neurologie 10 (1908), 1-27." ;
+	a drw-model:WPublication .
+
+<StationOfLife/30753hasStationOfLife5>
+	drw-model:began <Date/ab_1908> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Assistenzarzt#footnote4# an der II. Medizinischen Klinik der Charité bei Friedrich Kraus (1858-1936)" .
+
+<SLPublication/30753hasSL1>
+	a drw-model:SLPublication ;
+	rdfs:label "Brocke, Bernhard vom: Nicolai, Georg Friedrich. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. Bd: 19 (1998), 203-204 (Online unter http://www.deutsche-biographie.de/pnd118587676.html, 28.7.2011)." .
+
+<RelatedPerson/30753hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Tochter Irene (1915-1933[Selbstmord])#footnote2#" .
+
+<P/30753hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Deutsche Uebersee-Zeitung (Auslands-Ausgabe des Hamburger Fremdenblatts) 1921, Nr. 29, 17. Juli." .
+
+<RelatedPerson/30753fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Gustav Lewinstein (Pseud. J. Weinstengel) (1830-1902), Privatdozent für Chemie an der Universität Heidelberg, Journalist, Chefredakteur der Deutschen Tabak-Zeitung" .
+
+<Education/30753hasEducation1>
+	drw-model:began <Date/1894> ;
+	a drw-model:Education ;
+	rdfs:label "Reifeprüfung am Gymnasium in Hagenau (Elsaß)" .
+
+<Date/1903>
+	a drw-model:Date ;
+	rdfs:label "1903" .
+
+<Date/1930_1931>
+	rdfs:label "1930-1931" ;
+	a drw-model:Date .
+
+<Date/1906_1908>
+	a drw-model:Date ;
+	rdfs:label "1906, 1908" .
+
+<Education/30753hasEducation9>
+	rdfs:label "Habilitation an der Universität Berlin" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1907> .
+
+<SLPublication/30753hasSL8>
+	rdfs:label "Vinogradov, Jurij Abramovič, Golikov, Jurij Pavlovič, Grekova, Tat’jana Ivanovna (Sostaviteli): I. P. Pavlov: Dostovernost’ i polnota biografii. Sankt-Peterburg 2005, 137-138." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30753hasStationOfLife14>
+	rdfs:label "Ernennung zum ao. Professor an der Medizinischen Fakultät der Universität Berlin" ;
+	drw-model:began <Date/1919> ;
+	a drw-model:StationOfLife .
+
+<WPublication/30753hasW2>
+	rdfs:label "Ungleichförmigkeiten in der Fortpflanzungsgeschwindigkeit des Nervenprinzips. Habil.-Schr. Berlin 1907." ;
+	a drw-model:WPublication .
+
+<Date/1928_1929>
+	a drw-model:Date ;
+	rdfs:label "1928-1929" .
+
+<GeneralLabor/30753hasGeneralLabor2>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Pazifist" .
+
+<WLStationOfLife/30753hasWL0>
+	rdfs:label "Forschungsthemen: Bedingte Reflexe, Kardiographie und -therapie, Psychogenese u. a." ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30753hasStationOfLife4>
+	drw-model:began <Date/1907_1909> ;
+	rdfs:label "Privatdozent an der Universität Berlin" ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30753hasSL0>
+	a drw-model:SLPublication ;
+	rdfs:label "Barták, J. Jeden ze zapomenutých zakladatelů elektrokardiografie. Časopis lékařů českých 125 (1986) 19, 591." .
+
+<RelatedPerson/30753motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Elise Lewinstein, geb. Michaelis (1844-1928), Lehrerin" .
+
+<Q/30753hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Personenarchiv im Leibniz Informationszentrum Wirtschaft (ZBW), P20: Nicolai, G. F., 1874-1964 (online unter http://zbw.eu/beta/p20/person/22623, 10.8.2011)." .
+
+<StationOfLife/30753hasStationOfLife3>
+	rdfs:label "Forschungsaufenthalte in den Niederlanden, Russland und Italien:
+- bei Willem #name#Einthoven#/name# (1860-1927) in Leiden
+- März-September 1906#footnote3# bei I. P. #internNameLink#30785#endNameNr#Pavlov#/internNameLink# am Institut für Experimentelle Medizin (IEM) in St. Petersburg (Untersuchungen zu Verhaltensreflexen)
+- 1908 bei Anton Dohrn (1840-1909) an der Zoologischen Station in Neapel" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1906_1908> .
+
+<NameVariation/30753var0>
+	rdfs:label "Николаи, Георг Фридрих"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Nikolai, Georg Fridrich"@de .
+
+<P/30753hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) von 1918 aus: Zuelzer 1981 (<b>SL</b>), Bildeinlage zw. S.224-225; auch in: Kestner 2011 (<b>SL</b>)." .
+
+<Date/1933>
+	a drw-model:Date ;
+	rdfs:label "1933" .
+
+<Education/30753hasEducation0>
+	rdfs:label "Besuch der Internatsschulen in Wulkow (1885-1889), in Schwedt (1889-1890) und des Ernestinums in Gotha (1890-1894)" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1885_1894> .
+
+<Date/1918>
+	a drw-model:Date ;
+	rdfs:label "1918" .
+
+<Date/1898_1900>
+	rdfs:label "1898-1900" ;
+	a drw-model:Date .
+
+<StationOfLife/30753hasStationOfLife26>
+	drw-model:began <Date/ohne_Datum> ;
+	rdfs:label "Außerdem als Kriegsgegner und in seiner politisch-pazifistischen Tätigkeit Mitglied u. a. im „Bund Neues Vaterland“, ab 1922 „Deutsche Liga für Menschenrechte“, und Vorstandsmitglied der Deutschen Friedensgesellschaft" ;
+	a drw-model:StationOfLife .
+
+<Q/30753hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Nachlass Georg Friedrich Nicolai, in: Institut für Zeitgeschichte München-Berlin, Archiv, Bestand: ED 184, Bd. 1-107 (online unter http://www.ifz-muenchen.de/archiv/ed_0184.pdf, 10.8.2011)." .
+
+<SLPublication/30753hasSL7>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 118-119." ;
+	a drw-model:SLPublication .
+
+<WLStationOfLife/30753hasWL1>
+	rdfs:label "Einer der Begründer der Elektrokardiographie" ;
+	a drw-model:WLStationOfLife .
+
+<WPublication/30753hasW1>
+	rdfs:label "Über das Elektrocardiogramm unter normalen und pathologischen Verhältnissen. Mit Friedrich Kraus. [S. l.] [ca. 1900], Separatabdrucke von 13 medizinischen Abhandlungen." ;
+	a drw-model:WPublication .
+
+<Date/1922>
+	a drw-model:Date ;
+	rdfs:label "1922" .
+
+<StationOfLife/30753hasStationOfLife2>
+	drw-model:began <Date/1903_1907> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Assistent bei T. W. #internNameLink#20028#endNameNr#Engelmann#/internNameLink# am Physiologischen Institut in Berlin" .
+
+<NameVariation/30753var1>
+	a drw-model:NameVariation ;
+	rdfs:label "Nicolai, Jorge Fr."@de .
+
+<WPublication/30753hasW8>
+	rdfs:label "Procedimientos no medicamentosos en cardioterapía. La Plata 1930 (Extensión Universitaria 9), 44 S." ;
+	a drw-model:WPublication .
+
+<Education/30753hasEducation7>
+	drw-model:began <Date/1900_1901> ;
+	rdfs:label "Volontär-Assistent bei E. #internNameLink#30372#endNameNr#Hering#/internNameLink# und Studium der Zoologie und Chemie an der Universität Leipzig" ;
+	a drw-model:Education .
+
+<StationOfLife/30753hasStationOfLife25>
+	rdfs:label "mehrere Vortrags- und Kulturreisen:
+- 1931 in die UdSSR, 1932 nach Spanien, 1938 nach Bolivien, 1939 in die USA
+- 1954 als Präsident der chilenischen Delegation auf dem Kongress für kulturelle Freiheit nach Hamburg
+- 1960 Ehrengast des Internationalen Soziologenkongresses in Mexico" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1931_1960> .
+
+<StationOfLife/30753hasStationOfLife15>
+	drw-model:began <Date/1920> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Aberkennung der #italic#venia legendi#/italic# an der Universität Berlin und bis 1932 als beurlaubter Professor geführt" .
+
+<SLPublication/30753hasSL12>
+	rdfs:label "Zuelzer, Wolf: The Nicolai case. A biography. Detroit/MI 1982, 463 S.; darin: Chronology of G. F. Nicolai: Life, S. 445-446." ;
+	a drw-model:SLPublication .
+
+<Education/30753hasEducation8>
+	drw-model:began <Date/1901> ;
+	a drw-model:Education ;
+	rdfs:label "Promotion zum Dr. med. an der Universität Leipzig" .
+
+<MainName/30753>
+	a drw-model:MainName ;
+	rdfs:label "Nicolai, Georg Friedrich" ;
+	drw-model:hasNameVariation <NameVariation/30753var1> ;
+	drw-model:hasNameVariation <NameVariation/30753var0> .
+
+<SLPublication/30753hasSL6>
+	rdfs:label "Kästner, Ingrid: Der deutsche Arzt und Pazifist Georg Frierich Nicolai (1874-1964) als Schüler des russischen Physiologen Ivan Petrovič Pavlov (1849-1936). Würzburger medizinhistorische Mitteilungen 24 (2005), 261-267." ;
+	a drw-model:SLPublication .
+
+<WPublication/30753hasW0>
+	rdfs:label "Ueber die Leitungsgeschwindigkeit im Riechnerven des Hechtes. Diss. Leipzig 1901, 25 S." ;
+	a drw-model:WPublication .
+
+<WLStationOfLife/30753hasWL2>
+	rdfs:label "1921-1922 Film #italic#Grundlagen der Relativitätstheorie#/italic# bei Colonna-Film Berlin" ;
+	a drw-model:WLStationOfLife .
+
+<ImportantPerson/30753>
+	drw-model:hasSL <SLPublication/30753hasSL3> ;
+	drw-model:hasEducation <Education/30753hasEducation7> ;
+	drw-model:hasSL <SLPublication/30753hasSL1> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife10> ;
+	drw-model:fatherIs <RelatedPerson/30753fatherIs> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife5> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife6> ;
+	drw-model:hasW <WPublication/30753hasW4> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife9> ;
+	drw-model:motherIs <RelatedPerson/30753motherIs> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife23> ;
+	drw-model:hasSL <SLPublication/30753hasSL5> ;
+	drw-model:hasGPV <GPVPublication/30753hasGPV0> ;
+	drw-model:hasSL <SLPublication/30753hasSL9> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife19> ;
+	drw-model:hasP <P/30753hasP3> ;
+	drw-model:hasEducation <Education/30753hasEducation0> ;
+	drw-model:hasWL <WLStationOfLife/30753hasWL0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30753hasGeneralLabor0> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife14> ;
+	drw-model:hasEducation <Education/30753hasEducation8> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife1> ;
+	drw-model:hasSL <SLPublication/30753hasSL2> ;
+	rdfs:label "Nicolai, Georg Friedrich" ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife4> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife18> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife24> ;
+	drw-model:hasP <P/30753hasP4> ;
+	drw-model:hasEducation <Education/30753hasEducation1> ;
+	drw-model:hasW <WPublication/30753hasW6> ;
+	drw-model:hasWL <WLStationOfLife/30753hasWL1> ;
+	drw-model:hasP <P/30753hasP2> ;
+	drw-model:hasSL <SLPublication/30753hasSL11> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife0> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife17> ;
+	drw-model:hasSL <SLPublication/30753hasSL12> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife20> ;
+	drw-model:hasDescendant <RelatedPerson/30753hasDescendant> ;
+	drw-model:hasEducation <Education/30753hasEducation4> ;
+	drw-model:hasSL <SLPublication/30753hasSL10> ;
+	drw-model:hasGPV <GPVPublication/30753hasGPV1> ;
+	drw-model:hasWL <WLStationOfLife/30753hasWL3> ;
+	drw-model:hasMainName <MainName/30753> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife26> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife25> ;
+	drw-model:wasMarriedTo <RelatedPerson/30753wasMarriedTo> ;
+	drw-model:hasEducation <Education/30753hasEducation2> ;
+	drw-model:hasWL <WLStationOfLife/30753hasWL2> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife13> ;
+	drw-model:hasW <WPublication/30753hasW0> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife16> ;
+	drw-model:hasQ <Q/30753hasQ1> ;
+	drw-model:drwID "30753" ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife3> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <WPublication/30753hasW5> ;
+	drw-model:hasEducation <Education/30753hasEducation5> ;
+	drw-model:hasW <WPublication/30753hasW7> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife15> ;
+	drw-model:hasW <WPublication/30753hasW2> ;
+	drw-model:hasP <P/30753hasP1> ;
+	drw-model:hasEducation <Education/30753hasEducation3> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife21> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife12> ;
+	drw-model:hasW <WPublication/30753hasW1> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife7> ;
+	drw-model:hasSL <SLPublication/30753hasSL8> ;
+	drw-model:hasSL <SLPublication/30753hasSL4> ;
+	drw-model:hasEducation <Education/30753hasEducation6> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife11> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30753hasGeneralLabor2> ;
+	drw-model:hasSL <SLPublication/30753hasSL6> ;
+	drw-model:hasW <WPublication/30753hasW3> ;
+	drw-model:hasP <P/30753hasP0> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife2> ;
+	drw-model:hasW <WPublication/30753hasW8> ;
+	drw-model:hasSL <SLPublication/30753hasSL0> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife22> ;
+	drw-model:hasEducation <Education/30753hasEducation9> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30753hasGeneralLabor1> ;
+	drw-model:hasQ <Q/30753hasQ0> ;
+	drw-model:hasStationOfLife <StationOfLife/30753hasStationOfLife8> ;
+	drw-model:hasSL <SLPublication/30753hasSL7> .
+
+<StationOfLife/30753hasStationOfLife1>
+	drw-model:began <Date/1903> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Assistent am Physiologischen Institut der Universität Halle" .
+
+<Date/1922_1927>
+	a drw-model:Date ;
+	rdfs:label "1922-1927" .
+
+<StationOfLife/30753hasStationOfLife24>
+	drw-model:began <Date/1939> ;
+	rdfs:label "Gründung des Instituts für Psychogenese an der Universität in Santiago" ;
+	a drw-model:StationOfLife .
+
+<Date/1916>
+	a drw-model:Date ;
+	rdfs:label "1916" .
+
+<StationOfLife/30753hasStationOfLife12>
+	rdfs:label "Versetzung zu den Musketieren nach Eilenburg" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1917> .
+
+<StationOfLife/30753hasStationOfLife9>
+	drw-model:began <Date/1915> ;
+	rdfs:label "Einberufung in den Kriegsdienst und Verweigerung, darauf Versetzung als Militärarzt in das Seuchenlazarett auf der Festung Graudenz bei Königsberg" ;
+	a drw-model:StationOfLife .
+
+<StationOfLife/30753hasStationOfLife23>
+	rdfs:label "Professor für Physiologie an der Escuela de Medicina Veterinaria de la Universidad de Chile in Santiago" ;
+	drw-model:began <Date/ab_1936> ;
+	a drw-model:StationOfLife .
+
+<WPublication/30753hasW7>
+	rdfs:label "Itogi sovremennogo estestvoznanija. Berlin 1922, 71 S." ;
+	a drw-model:WPublication .
+
+<SLPublication/30753hasSL5>
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 290." ;
+	a drw-model:SLPublication .
+
+<Date/1903_1907>
+	a drw-model:Date ;
+	rdfs:label "1903-1907" .
+
+<Date/1919>
+	a drw-model:Date ;
+	rdfs:label "1919" .
+
+<WLStationOfLife/30753hasWL3>
+	rdfs:label "Zahlreiche pazifistische Veröffentlichungen, insbesondere das in Deutschland verbotene, in der Schweiz erschienene und in viele Sprachen übersetzte Buch #italic#Die Biologie des Krieges#/italic# (vgl. <b>W</b>)" ;
+	a drw-model:WLStationOfLife .
+
+<Date/1920>
+	rdfs:label "1920" ;
+	a drw-model:Date .
+
+<GPVPublication/30753hasGPV1>
+	rdfs:label "Chronology of G. F. Nicolai: Selected Writings (1896-1957), in: Zuelzer 1982 (<b>SL</b>), 446-451." ;
+	a drw-model:GPVPublication .
+
+<Date/1900_1901>
+	a drw-model:Date ;
+	rdfs:label "1900-1901" .
+
+<RelatedPerson/30753wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Friederike Nicolai, geb. Busley († nach 1982)" .
+
+<StationOfLife/30753hasStationOfLife8>
+	drw-model:began <Date/1914> ;
+	rdfs:label "Chefarzt der Herzstation am Lazarett Tempelhof und Antikriegs-Kolleg an der Universität Berlin zum Thema „Der Krieg als biologischer Faktor in der Entwicklung der Menschheit“" ;
+	a drw-model:StationOfLife .
+
+<Education/30753hasEducation5>
+	rdfs:label "Studium wieder in Berlin (Physikum und Verweisung von der Universität)" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1897_1898> .
+
+<Date/1907>
+	rdfs:label "1907" ;
+	a drw-model:Date .
+
+<Date/1896_1897>
+	a drw-model:Date ;
+	rdfs:label "1896-1897" .
+
+<Date/1917>
+	a drw-model:Date ;
+	rdfs:label "1917" .
+
+<SLPublication/30753hasSL10>
+	a drw-model:SLPublication ;
+	rdfs:label "Winter, Irena: Georg Friedrich Nicolai, ein Kämpfer gegen den Krieg. In: Forschen und Wirken. Festschrift zur 150-Jahr-Feier der Humboldt-Universität zu Berlin 1810-1960. Bd. 1.: Beiträge zur wissenschaftlichen und politischen Entwicklung der Universität. Berlin 1960, 453-469." .
+
+<StationOfLife/30753hasStationOfLife13>
+	rdfs:label "im Frühjahr Flucht mit einem deutschen Militärflugzeug nach Dänemark, im November Rückkehr nach Deutschland" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1918> .
+
+<StationOfLife/30753hasStationOfLife22>
+	drw-model:began <Date/1933_1936> ;
+	rdfs:label "Dozent an der Universidad de Chile in Santiago" ;
+	a drw-model:StationOfLife .
+
+<WPublication/30753hasW6>
+	rdfs:label "Die Biologie des Krieges. Betrachtungen eines deutschen Naturforschers. Bd. 1-2. Zürich 1917-1919; engl.: The biology of war. New York 1918, 553 S.; <b>russ.</b>: Biologija vojny (Mysli estestvoveda). Leningrad 1926, 244 S." ;
+	a drw-model:WPublication .
+
+<StationOfLife/30753hasStationOfLife18>
+	drw-model:began <Date/1922_1927> ;
+	rdfs:label "Eröffnung der ersten Praxis für Herzkrankheiten in Argentinien" ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30753hasSL4>
+	rdfs:label "Kestner, Ingrid: Nemeckij vrač i pacifist Georg Fridrich Nikolai (1874-1964) – učenik russkogo fiziologa Ivana Petroviča Pavlova. In: Dittmar Dal’mann, Galina Smagina (Otv. Red.): Nemcy v Rossii: Vstreči na perekrestke kul’tur. Sankt-Peterburg 2011, 371-380." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30753hasStationOfLife0>
+	drw-model:began <Date/1901_1902> ;
+	rdfs:label "Schiffsarzt (Reisen durch Ostasien, u. a. in Hongkong, Manila und Sumatra)" ;
+	a drw-model:StationOfLife .
+
+<Date/1909_1920>
+	a drw-model:Date ;
+	rdfs:label "1909-1920" .
+
+<Date/1914>
+	rdfs:label "1914" ;
+	a drw-model:Date .
+
+<Date/1894>
+	a drw-model:Date ;
+	rdfs:label "1894" .
+
+<GPVPublication/30753hasGPV0>
+	rdfs:label "Georg Friedrich Nicolai, Schriften (Auswahl-Bibliographie, 72 Titel), in: Zuelzer 1981 (<b>SL</b>), 437-440." ;
+	a drw-model:GPVPublication .
+
+<Date/ab_1908>
+	rdfs:label "ab 1908" ;
+	a drw-model:Date .
+
+<StationOfLife/30753hasStationOfLife10>
+	drw-model:began <Date/1916> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Versetzung in das Festungslazarett in Danzig" .
+
+<Education/30753hasEducation4>
+	rdfs:label "Studium der Medizin in Paris (Konversion)" ;
+	drw-model:began <Date/1896_1897> ;
+	a drw-model:Education .
+
+<P/30753hasP4>
+	a drw-model:P ;
+	rdfs:label "Gruppenbild mit einigen Mitarbeitern des IEM in St. Petersburg, darunter I. P. #internNameLink#30785#endNameNr#Pavlov#/internNameLink#, in: Vinogradov/Golikov/Grekova 2005 (<b>SL</b>), 137." .
+
+<Education/30753hasEducation6>
+	drw-model:began <Date/1898_1900> ;
+	a drw-model:Education ;
+	rdfs:label "Studium der Medizin an der Universität Heidelberg (Staatsexamen), Volontär am Städtischen Krankenhaus in Karlsruhe" .
+
+<WPublication/30753hasW5>
+	rdfs:label "Ueber die Ursprungsorte der Extrasystolen. Zentralblatt für Physiologie 26 (1912), 104-108." ;
+	a drw-model:WPublication .
+
+<StationOfLife/30753hasStationOfLife21>
+	drw-model:began <Date/1933> ;
+	rdfs:label "Auswanderung nach Chile" ;
+	a drw-model:StationOfLife .
+
+<Date/1907_1909>
+	a drw-model:Date ;
+	rdfs:label "1907-1909" .
+
+<StationOfLife/30753hasStationOfLife19>
+	drw-model:began <Date/1928_1929> ;
+	rdfs:label "Professor für Soziologie an der Universidad Nacional de Rosario in Argentinien" ;
+	a drw-model:StationOfLife .
+
+<Date/1931_1960>
+	rdfs:label "1931-1960" ;
+	a drw-model:Date .
+
+<Date/ab_1936>
+	a drw-model:Date ;
+	rdfs:label "ab 1936" .
+
+<SLPublication/30753hasSL3>
+	a drw-model:SLPublication ;
+	rdfs:label "Jüdisches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 505, 39-42; II 406, 256-257." .
+
+<GeneralLabor/30753hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<StationOfLife/30753hasStationOfLife7>
+	rdfs:label "Eröffnung eines diagnostischen Privatlaboratoriums in Charlottenburg, zugleich medizinischer Berater von #name#Auguste Victoria#/name# (1858-1921), der Ehefrau von Kaiser #name#Wilhelm II.#/name# (1859-1941)" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1912> .
+

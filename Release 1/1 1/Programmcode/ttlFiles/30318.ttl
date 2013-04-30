@@ -1,0 +1,242 @@
+
+<SLPublication/30318hasSL7>
+	a drw-model:SLPublication ;
+	rdfs:label "Trincker, Dietrich: Goltz, Friedrich Leopold. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. Bd. 6 (1964), 636-637 (Onlinefassung unter: http://www.deutsche-biographie.de/pnd116764694.html, 21.11.2011)." .
+
+<StationOfLife/30318hasStationOfLife0>
+	rdfs:label "Assistent an der chirurgischen Klinik in Königsberg" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1860_1861> .
+
+<SLPublication/30318hasSL10>
+	rdfs:label "Wegbereiter unserer naturwissenschaftlich-medizinischen Moderne (http://appserv5.ph-heidelberg.de/onlinelex/index.php?id=945, 21.11.2011)." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30318hasStationOfLife2>
+	drw-model:began <Date/1865_1869> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "ao. Professor in Königsberg" .
+
+<SLPublication/30318hasSL9>
+	a drw-model:SLPublication ;
+	rdfs:label "Vikipedija (http://ru.wikipedia.org/wiki/Гольц,_Фридрих, 21.11.2011)." .
+
+<RelatedPerson/30318hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Bernhard (Adoptivsohn)" .
+
+<Date/1861>
+	rdfs:label "1861" ;
+	a drw-model:Date .
+
+<SLPublication/30318hasSL0>
+	a drw-model:SLPublication ;
+	rdfs:label "Bickel, A.: Friedrich Goltz †. Deutsche medizinische Wochenschrift 28 (1902), 403." .
+
+<GeneralLabor/30318hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<RelatedPerson/30318fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Heinrich (1798-1846), Polizei-Inspektor" .
+
+<StationOfLife/30318hasStationOfLife4>
+	a drw-model:StationOfLife ;
+	rdfs:label "o. Professor an der Kaiser-Wilhelms-Universität Straßburg" ;
+	drw-model:began <Date/1872_1901> .
+
+<SLPublication/30318hasSL11>
+	rdfs:label "Wikipedia (http://de.wikipedia.org/wiki/Friedrich_Goltz_(Physiologe), 21.11.2011)." ;
+	a drw-model:SLPublication .
+
+<NameVariation/30318var0>
+	rdfs:label "Гольц, Фридрих Леопольд"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Gol'c, Fridrich Leopol’d"@de .
+
+<P/30318hasP0>
+	rdfs:label "Portrait (Abb.) aus: Pagel 1901 (<b>SL</b>); auch in Bickel 1902 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<GPVPublication/30318hasGPV0>
+	rdfs:label "vgl. <b>SL</b>" ;
+	a drw-model:GPVPublication .
+
+<Education/30318hasEducation2>
+	drw-model:began <Date/1858> ;
+	a drw-model:Education ;
+	rdfs:label "Promotion in Königsberg" .
+
+<Date/1870_1872>
+	rdfs:label "1870-1872" ;
+	a drw-model:Date .
+
+<Education/30318hasEducation0>
+	drw-model:began <Date/vor_1853> ;
+	rdfs:label "Erster Unterricht in der Johannisschule in Danzig, Fortsetzung der Schulausbildung in Thorn" ;
+	a drw-model:Education .
+
+<ImportantPerson/30318>
+	drw-model:hasSL <SLPublication/30318hasSL3> ;
+	drw-model:hasSLComment <SLComment/30318hasSLComment> ;
+	drw-model:hasStationOfLife <StationOfLife/30318hasStationOfLife5> ;
+	drw-model:hasSL <SLPublication/30318hasSL0> ;
+	drw-model:hasQ <Q/30318hasQ0> ;
+	drw-model:hasP <P/30318hasP1> ;
+	drw-model:hasEducation <Education/30318hasEducation1> ;
+	drw-model:hasSL <SLPublication/30318hasSL4> ;
+	drw-model:hasSL <SLPublication/30318hasSL10> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30318hasGeneralLabor0> ;
+	drw-model:wasMarriedTo <RelatedPerson/30318wasMarriedTo> ;
+	drw-model:hasEducation <Education/30318hasEducation0> ;
+	drw-model:hasMainName <MainName/30318> ;
+	drw-model:hasMembership <Membership/30318hasMembership> ;
+	drw-model:hasDescendant <RelatedPerson/30318hasDescendant> ;
+	drw-model:hasSL <SLPublication/30318hasSL1> ;
+	drw-model:motherIs <RelatedPerson/30318motherIs> ;
+	drw-model:hasStationOfLife <StationOfLife/30318hasStationOfLife4> ;
+	drw-model:hasStationOfLife <StationOfLife/30318hasStationOfLife2> ;
+	drw-model:fatherIs <RelatedPerson/30318fatherIs> ;
+	drw-model:hasSL <SLPublication/30318hasSL11> ;
+	drw-model:drwID "30318" ;
+	drw-model:hasSL <SLPublication/30318hasSL5> ;
+	drw-model:hasEducation <Education/30318hasEducation3> ;
+	drw-model:hasSL <SLPublication/30318hasSL9> ;
+	drw-model:hasP <P/30318hasP0> ;
+	drw-model:hasSL <SLPublication/30318hasSL2> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <Education/30318hasEducation2> ;
+	drw-model:hasStationOfLife <StationOfLife/30318hasStationOfLife0> ;
+	drw-model:hasStationOfLife <StationOfLife/30318hasStationOfLife3> ;
+	drw-model:hasSL <SLPublication/30318hasSL6> ;
+	drw-model:hasW <WPublication/30318hasW0> ;
+	drw-model:hasWL <WLStationOfLife/30318hasWL0> ;
+	drw-model:hasSL <SLPublication/30318hasSL7> ;
+	drw-model:hasSL <SLPublication/30318hasSL8> ;
+	drw-model:hasGPV <GPVPublication/30318hasGPV0> ;
+	drw-model:hasStationOfLife <StationOfLife/30318hasStationOfLife1> ;
+	rdfs:label "Goltz, Friedrich Leopold" .
+
+<SLPublication/30318hasSL1>
+	rdfs:label "Engelhardt, Dietrich von (Hg.): Biographische Enzyklopädie deutschsprachiger Mediziner. Bd. 1-2. München 2002, 225." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30318hasStationOfLife5>
+	rdfs:label "Rektor der Universität Straßburg" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1888_1889> .
+
+<SLPublication/30318hasSL5>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 96, 247." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30318hasSL3>
+	rdfs:label "Kraft, Heinrich: Friedrich Leopold Goltz. Münchener Medicinische Wochenschrift 23 (1902), 965-970." ;
+	a drw-model:SLPublication .
+
+<WPublication/30318hasW0>
+	rdfs:label "vgl. <b>SL</b>" ;
+	a drw-model:WPublication .
+
+<Date/1853_1857>
+	rdfs:label "1853-1857" ;
+	a drw-model:Date .
+
+<Date/1858>
+	a drw-model:Date ;
+	rdfs:label "1858" .
+
+<StationOfLife/30318hasStationOfLife1>
+	rdfs:label "Prosektor am Anatomischen Institut und Privatdozent in Königsberg" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1861_1865> .
+
+<SLPublication/30318hasSL6>
+	a drw-model:SLPublication ;
+	rdfs:label "Rothschuh, Karl Eduard: Geschichte der Physiologie. Berlin, Göttingen, Heidelberg 1953, 186-187." .
+
+<RelatedPerson/30318wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Agnes, geb. Simon" .
+
+<MainName/30318>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30318var0> ;
+	rdfs:label "Goltz, Friedrich Leopold" .
+
+<Date/1865_1869>
+	a drw-model:Date ;
+	rdfs:label "1865-1869" .
+
+<SLPublication/30318hasSL8>
+	a drw-model:SLPublication ;
+	rdfs:label "VL People (http://vlp.mpiwg-berlin.mpg.de/people/data?id=per169, 21.11.2011)." .
+
+<StationOfLife/30318hasStationOfLife3>
+	rdfs:label "o. Professor für Physiologie in Halle" ;
+	drw-model:began <Date/1870_1872> ;
+	a drw-model:StationOfLife .
+
+<Date/1861_1865>
+	a drw-model:Date ;
+	rdfs:label "1861-1865" .
+
+<SLPublication/30318hasSL4>
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 614-615." ;
+	a drw-model:SLPublication .
+
+<Membership/30318hasMembership>
+	a drw-model:Membership ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<P/30318hasP1>
+	rdfs:label "Portraits in <b>SL</b> (Auswahl): Ewald 1903, Rothschuh 1953, VL People, Vikipedija, Wegbereiter, Wikipedia." ;
+	a drw-model:P .
+
+<RelatedPerson/30318motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Leopoldine Friederike, geb. von Blumberg (1810-1870)" .
+
+<Date/1888_1889>
+	rdfs:label "1888-1889" ;
+	a drw-model:Date .
+
+<SLComment/30318hasSLComment>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<Education/30318hasEducation3>
+	drw-model:began <Date/1861> ;
+	a drw-model:Education ;
+	rdfs:label "Habilitation in Königsberg" .
+
+<Education/30318hasEducation1>
+	drw-model:began <Date/1853_1857> ;
+	rdfs:label "Studium der Medizin an der Universität Königsberg" ;
+	a drw-model:Education .
+
+<SLPublication/30318hasSL2>
+	rdfs:label "Ewald, Julius Richard: Friedrich Goltz. Archiv für die gesammte Physiologie des Menschen und der Thiere 94 (1903), 1-64." ;
+	a drw-model:SLPublication .
+
+<Date/1872_1901>
+	a drw-model:Date ;
+	rdfs:label "1872-1901" .
+
+<WLStationOfLife/30318hasWL0>
+	rdfs:label "vgl. <b>SL</b>" ;
+	a drw-model:WLStationOfLife .
+
+<Date/vor_1853>
+	a drw-model:Date ;
+	rdfs:label "vor 1853" .
+
+<Q/30318hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr. 2128." .
+
+<Date/1860_1861>
+	a drw-model:Date ;
+	rdfs:label "1860-1861" .
+

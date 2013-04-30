@@ -1,0 +1,386 @@
+
+<Date/1857_1867>
+	a drw-model:Date ;
+	rdfs:label "1857-1867" .
+
+<StationOfLife/30314hasStationOfLife10>
+	rdfs:label "zugleich Junior-Ordinator am Militärkrankenhaus in Moskau" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1845_1855> .
+
+<Date/1838_1840>
+	a drw-model:Date ;
+	rdfs:label "1838-1840" .
+
+<Education/30314hasEducation1>
+	drw-model:began <Date/1816_1821> ;
+	a drw-model:Education ;
+	rdfs:label "Besuch der Kirchenschule in Zarajsk" .
+
+<Date/Vor_1816>
+	a drw-model:Date ;
+	rdfs:label "Vor 1816" .
+
+<StationOfLife/30314hasStationOfLife11>
+	rdfs:label "Vizepräsident der Mediko-Chirurgischen Akademie (MCA) in St. Petersburg" ;
+	drw-model:began <Date/1857_1867> ;
+	a drw-model:StationOfLife .
+
+<WLStationOfLife/30314hasWL2>
+	rdfs:label "Initiator bedeutender Reformen an der MCA, u. a.: Anfertigung von Dissertationen in russischer Sprache statt auf Latein, Gründung eines Spezialinstituts zur Vorbereitung auf die Professur, Gründung von wissenschaftlichen Kabinetten und Laboratorien" ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30314hasStationOfLife9>
+	rdfs:label "Professor für Physiologie des gesunden Menschen an der Medizinischen Fakultät der Universität Moskau" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1849_1857> .
+
+<Date/1840_1841>
+	rdfs:label "1840-1841" ;
+	a drw-model:Date .
+
+<Date/1837_1838>
+	a drw-model:Date ;
+	rdfs:label "1837-1838" .
+
+<HonoursAndAwards/30314hasHounoursAndAwards>
+	rdfs:label "1845 „Kollegienrat“<br>1848 „Staatsrat“<br>„Geheimrat“#footnote5#<br>„Verdienter Professor“ an der Universität Moskau<br>1880 Ehrenmitglied der Universität Moskau<br>1880 Ehrenmitglied der MCA St. Petersburg<br>#italic#Demidovskaja premija#/italic# [Demidov-Preis] (als Teilprämie)<br>Widmung:<br>Zwei Festbände anlässlich seines 50-jährigen Dienstjubiläums:<br>1. #italic#Opisanie prazdnovanija jubileja pjatidesjatiletnej služby … tajnago sovetnika Ivana Timofeeviča Glebova, 17-go nojabrja 1880 goda#/italic# [Glückwunschschreiben und Telegramme]. S.-Peterburg 1881, 74 S.<br>2. #italic#Novšija izsledovanija po različnym otrasljam medicinskich nauk. Sbornik rabot vračej Institita Imperatorskoj Mediko-chirurgičeskoj Akademii. Izdanyj k dnju 50-ti letnjago jubilea služby Ivana Timofeeviča Glebova#/italic# (= #italic#Glebovskij sbornik#/italic#). Red. K. F. Slavjanskij. S.-Peterburg 1880, 400 S." ;
+	a drw-model:HonoursAndAwards .
+
+<Date/1830_1832>
+	rdfs:label "1830-1832" ;
+	a drw-model:Date .
+
+<GPVPublication/30314hasGPV2>
+	rdfs:label "Publikationen 1830-1883 (16 Nrn.), in: Bogdanov, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<ImportantPerson/30314>
+	drw-model:hasEducation <Education/30314hasEducation4> ;
+	drw-model:hasW <WPublication/30314hasW1> ;
+	drw-model:hasSL <SLPublication/30314hasSL8> ;
+	drw-model:hasWL <WLStationOfLife/30314hasWL2> ;
+	drw-model:hasStationOfLife <StationOfLife/30314hasStationOfLife1> ;
+	drw-model:hasSL <SLPublication/30314hasSL4> ;
+	drw-model:hasSL <SLPublication/30314hasSL5> ;
+	drw-model:hasW <WPublication/30314hasW0> ;
+	drw-model:hasGPV <GPVPublication/30314hasGPV2> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/30314hasHounoursAndAwards> ;
+	drw-model:hasWL <WLStationOfLife/30314hasWL0> ;
+	drw-model:hasStationOfLife <StationOfLife/30314hasStationOfLife12> ;
+	drw-model:hasStationOfLife <StationOfLife/30314hasStationOfLife0> ;
+	drw-model:hasSL <SLPublication/30314hasSL1> ;
+	drw-model:fatherIs <RelatedPerson/30314fatherIs> ;
+	rdfs:label "Glebov, Ivan Timofeevič" ;
+	drw-model:hasStationOfLife <StationOfLife/30314hasStationOfLife5> ;
+	drw-model:hasW <WPublication/30314hasW2> ;
+	drw-model:hasSL <SLPublication/30314hasSL6> ;
+	drw-model:hasP <P/30314hasP2> ;
+	drw-model:hasGPV <GPVPublication/30314hasGPV1> ;
+	drw-model:hasP <P/30314hasP0> ;
+	drw-model:hasStationOfLife <StationOfLife/30314hasStationOfLife8> ;
+	drw-model:hasP <P/30314hasP1> ;
+	drw-model:hasEducation <Education/30314hasEducation3> ;
+	drw-model:hasStationOfLife <StationOfLife/30314hasStationOfLife6> ;
+	drw-model:hasStationOfLife <StationOfLife/30314hasStationOfLife13> ;
+	drw-model:hasMainName <MainName/30314> ;
+	drw-model:hasSL <SLPublication/30314hasSL2> ;
+	drw-model:hasStationOfLife <StationOfLife/30314hasStationOfLife9> ;
+	drw-model:hasWL <WLStationOfLife/30314hasWL1> ;
+	drw-model:hasStationOfLife <StationOfLife/30314hasStationOfLife2> ;
+	drw-model:hasGPV <GPVPublication/30314hasGPV0> ;
+	drw-model:wasMarriedTo <RelatedPerson/30314wasMarriedTo> ;
+	drw-model:hasSL <SLPublication/30314hasSL3> ;
+	drw-model:hasEducation <Education/30314hasEducation1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <StationOfLife/30314hasStationOfLife10> ;
+	drw-model:hasWL <WLStationOfLife/30314hasWL5> ;
+	drw-model:hasWL <WLStationOfLife/30314hasWL3> ;
+	drw-model:hasStationOfLife <StationOfLife/30314hasStationOfLife7> ;
+	drw-model:hasSL <SLPublication/30314hasSL7> ;
+	drw-model:drwID "30314" ;
+	drw-model:hasEducation <Education/30314hasEducation0> ;
+	drw-model:hasEducation <Education/30314hasEducation5> ;
+	drw-model:hasStationOfLife <StationOfLife/30314hasStationOfLife14> ;
+	drw-model:hasStationOfLife <StationOfLife/30314hasStationOfLife3> ;
+	drw-model:hasEducation <Education/30314hasEducation2> ;
+	drw-model:hasStationOfLife <StationOfLife/30314hasStationOfLife11> ;
+	drw-model:hasMembership <Membership/30314hasMembership> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30314hasGeneralLabor0> ;
+	drw-model:hasWL <WLStationOfLife/30314hasWL4> ;
+	drw-model:hasSL <SLPublication/30314hasSL0> ;
+	drw-model:hasGPV <GPVPublication/30314hasGPV3> ;
+	drw-model:hasStationOfLife <StationOfLife/30314hasStationOfLife4> .
+
+<Date/1826_1830>
+	a drw-model:Date ;
+	rdfs:label "1826-1830" .
+
+<Date/1834>
+	a drw-model:Date ;
+	rdfs:label "1834" .
+
+<WLStationOfLife/30314hasWL5>
+	rdfs:label "Stellte zum ersten Mal Hemmungserscheinungen im Zentralnervensystem fest." ;
+	a drw-model:WLStationOfLife .
+
+<SLPublication/30314hasSL1>
+	a drw-model:SLPublication ;
+	rdfs:label "Ivanovskij 1898 - Istorija Imperatorskoj voenno-medicinskoj (byvšej mediko-chirurgičeskoj) akademii za sto let 1798-1898. Glavnyj red. Ivanovskij. Sankt-Peterburg 1898, 538-539, 543-544, 579." .
+
+<SLPublication/30314hasSL7>
+	a drw-model:SLPublication ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 138-139." .
+
+<StationOfLife/30314hasStationOfLife5>
+	rdfs:label "Studienaufenthalte in Frankreich u. a. bei Claude #name#Bernard#/name# (1813-1878) und François #name#Magendie#/name# (1783-1855), in England, Italien und in der Schweiz bei Johann Lukas #name#Schönlein#/name# (1793-1864) und Lorenz #name#Oken#/name# (1779-1851) in Zürich" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1838_1840> .
+
+<WLStationOfLife/30314hasWL4>
+	rdfs:label "Erste Durchführung neurophysiologischer Experimente in Russland" ;
+	a drw-model:WLStationOfLife .
+
+<GPVPublication/30314hasGPV0>
+	rdfs:label "Publikationen 1830-1882, in: Zmeev, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<Date/1849_1857>
+	a drw-model:Date ;
+	rdfs:label "1849-1857" .
+
+<StationOfLife/30314hasStationOfLife6>
+	rdfs:label "Dozent für Physiologie und allgemeine Pathologie an der MMCA" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1840_1841> .
+
+<SLPublication/30314hasSL2>
+	a drw-model:SLPublication ;
+	rdfs:label "Makarov, Vjačeslav Aleksandrovič: Ivan Timofeevič Glebov, 1806-1884. Moskva 1995, 113 S; darin: Osnovnye daty žizni i dejatel’nosti I. T. Glebova#footnote6# (107-108)." .
+
+<StationOfLife/30314hasStationOfLife2>
+	drw-model:began <Date/1833_1835> ;
+	rdfs:label "Adjunkt bei Iustin Evdokimovič #name#Djad’kovskij#/name# (1784-1841) am Lehrstuhl für Pathologie und Therapie an der MMCA" ;
+	a drw-model:StationOfLife .
+
+<Date/1832_1833>
+	a drw-model:Date ;
+	rdfs:label "1832-1833" .
+
+<StationOfLife/30314hasStationOfLife0>
+	rdfs:label "Arzt im Cholera-Krankenhaus in Moskau, in Simbirsk, in Stavropol’ u. a." ;
+	drw-model:began <Date/1830_1832> ;
+	a drw-model:StationOfLife .
+
+<Date/1841_1842>
+	rdfs:label "1841-1842" ;
+	a drw-model:Date .
+
+<SLPublication/30314hasSL8>
+	rdfs:label "Volkov, Vladimir Akimovič, Kulikova, Marina Vladimirovna: Moskovskie professora XVIII - načala XX vekov. Estestvennye i techničeskie nauki. Moskva 2003, 61-62." ;
+	a drw-model:SLPublication .
+
+<WPublication/30314hasW1>
+	rdfs:label "De Pathematibus sensu physiologico, pathologico, therapeutico et pharmacologico. Diss. Moskva 1834." ;
+	a drw-model:WPublication .
+
+<WPublication/30314hasW0>
+	rdfs:label "[Mitübersetzung von: François Magendie: Précis élémentaire de physiologie. Bd. 1-2. 2. Aufl. Paris 1825] Kratkoe osnovanie fiziologii. Bd. 1-2. Moskva 1830." ;
+	a drw-model:WPublication .
+
+<GeneralLabor/30314hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie und vergleichende Anatomie" .
+
+<NameVariation/30314var1>
+	a drw-model:NameVariation ;
+	rdfs:label "Glebow, Iwan/Johannes"@de .
+
+<Date/1816_1821>
+	rdfs:label "1816-1821" ;
+	a drw-model:Date .
+
+<Date/1858_1866>
+	a drw-model:Date ;
+	rdfs:label "1858-1866" .
+
+<StationOfLife/30314hasStationOfLife14>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<Education/30314hasEducation3>
+	rdfs:label "Studium an der Moskauer Mediko-Chirurgischen Akademie (MMCA), Abschluss „Arzt 1. Abteilung“ (bereits als Student Aufseher des Anatomischen Kabinetts, Prosektor und Ordinator an der Chirurgischen Klinik bei FedorAndreevič #name#Gil’tebrandt#/name# [1773-1845]#footnote3# sowie Gehilfe des Bibliothekars)" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1826_1830> .
+
+<GPVPublication/30314hasGPV3>
+	rdfs:label "Trudy I. T. Glebova (18 Nrn.), in: Makarov (<b>SL</b>), 109." ;
+	a drw-model:GPVPublication .
+
+<Date/1821_1826>
+	rdfs:label "1821-1826" ;
+	a drw-model:Date .
+
+<Education/30314hasEducation0>
+	drw-model:began <Date/Vor_1816> ;
+	rdfs:label "Anfangs Unterricht vom Vater" ;
+	a drw-model:Education .
+
+<NameVariation/30314var0>
+	a drw-model:NameVariation ;
+	rdfs:label "Gleboff#footnote1#, Iwan/Johannes"@de .
+
+<StationOfLife/30314hasStationOfLife13>
+	rdfs:label "Mitgründer und Kurator des „Instituts für Ärzte“ (auch Professoreninstitut genannt) an der MCA" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1858_1866> .
+
+<P/30314hasP2>
+	rdfs:label "Portrait [stehend] in: : Makarov (<b>SL</b>), 87." ;
+	a drw-model:P .
+
+<RelatedPerson/30314fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Timofej, Geistlicher, Diakon in Glebovo-Gorodišče" .
+
+<GPVPublication/30314hasGPV1>
+	rdfs:label "Publikationen 1834-1882 (16 Nrn.), in: Dobroljubov/Jachontov, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<WLStationOfLife/30314hasWL3>
+	rdfs:label "Autor der ersten Arbeit über Emotionen in Russland" ;
+	a drw-model:WLStationOfLife .
+
+<Date/1857_1859>
+	a drw-model:Date ;
+	rdfs:label "1857-1859" .
+
+<WLStationOfLife/30314hasWL1>
+	rdfs:label "1844-1846 Gründer der Sammlung zur vergleichenden Anatomie an der Universität Moskau" ;
+	a drw-model:WLStationOfLife .
+
+<P/30314hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus den 80-er Jahren des 19. Jahrhunderts. Aus: Strašun 1940 (<b>SL</b>); auch in: Makarov (<b>SL</b>), 102." .
+
+<WPublication/30314hasW2>
+	rdfs:label "Fiziologija appetita ili goloda. Moskva 1856." ;
+	a drw-model:WPublication .
+
+<SLPublication/30314hasSL0>
+	rdfs:label "Hirsch, Gustav (Hg.): Biographisches Lexikon der hervorragenden Ärzte aller Zeiten und Völker. 2. Aufl. Bd. 2. Berlin, Wien 1930 Bd. 2 (1930), 771." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30314hasStationOfLife12>
+	rdfs:label "Leiter der Abteilung „Medizinische Klinik“ an der MCA" ;
+	drw-model:began <Date/1857_1859> ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30314hasSL6>
+	rdfs:label "Strašun, Il’ja D. (Hauptred.): 175 let Moskovskogo Gosudarstvennogo Medicinskogo Instituta. Moskva, Leningrad 1940, 436 S., 108." ;
+	a drw-model:SLPublication .
+
+<Date/1845_1855>
+	a drw-model:Date ;
+	rdfs:label "1845-1855" .
+
+<StationOfLife/30314hasStationOfLife8>
+	rdfs:label "Professor für vergleichende Anatomie und Physiologie an der Physiko-mathematischen Fakultät und für Zoologie an der Medizinischen Fakultät der Universität Moskau" ;
+	drw-model:began <Date/1842_1849> ;
+	a drw-model:StationOfLife .
+
+<Education/30314hasEducation5>
+	rdfs:label "Dr. med. an der MMCA" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1834> .
+
+<Date/1831>
+	a drw-model:Date ;
+	rdfs:label "1831" .
+
+<StationOfLife/30314hasStationOfLife4>
+	drw-model:began <Date/1837_1838> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Weiterbildung in Deutschland (ohne Publikationen in deutscher Sprache):
+- an der Universität Halle/Saale bei Peter David #name#Krukenberg#/name# (1787-1865) und Ernst #name#Blasius#/name# (1802-1875) und bei Gustav Wilhelm #name#Münter#/name# (1804-1870) im Anatomischen Kabinett
+- an der Universität Leipzig bei Johann Christian August #name#Clarus#/name# (1774-1854) und Ernst Heinrich #internNameLink#31106#endNameNr#Weber#/internNameLink# (1795-1878)
+- an der Universität Berlin an verschiedenen Kliniken, darunter: Klinik für innerlich Kranke bei Eduard #name#Wolff#/name# (1794-1878), für Kinderkrankheiten bei Stephan Friedrich #name#Barez#/name# (1790-1856), für Ophthalmiatrie bei Johann Christian #name#Jüngken#/name# (1794-1875), für Frauenkrankheiten bei Karl Alexander Ferdinand #name#Kluge#/name# (1782-1844), für Chirurgie bei Johann Nepomuk #name#Rust#/name# (1775-1840) und Johann Friedrich #name#Dieffenbach#/name# (1792-1847), für Geburtshilfe bei Dietrich Wilhelm Heinrich #name#Busch#/name# (1788-1858), für Nervenkrankheiten bei Ernst Moritz Heinrich #name#Romberg#/name# (1795-1873), Vorlesungen zur Anatomie bei J. P. #internNameLink#30739#endNameNr#Müller#/internNameLink# (1801-1858), Friedrich Gustav Jakob #name#Henle#/name# (1809-1885) und Friedrich #name#Schlemm#/name# (1795-1859), zur Physiologie bei Theodor #name#Schwann#/name# (1810-1882), zur Mikroskopie bei Christian Gottfried #internNameLink#30239#endNameNr#Ehrenberg#/internNameLink# (1795-1876), zur Chemie bei Eilhard #internNameLink#10148#endNameNr#Mitscherlich#/internNameLink# (1794-1863) und zur Botanik bei Franz Julius Ferdinand #name#Meyen#/name# (1804-1840)
+- am Städtischen Krankenhaus in München bei Philipp Franz von #name#Walther#/name# (1782-1849)
+- an der Universität Wien u. a. bei Christian Josef von #name#Berres#/name# (1796-1844), Carl von #name#Rokitansky#/name# (1804-1878) und Friedrich #name#Jaeger von Jaxthal#/name# (1784-1871) sowie insbesondere bei Johann #name#Klein#/name# (1788-1856) am Allgemeinen Krankenhaus Wien" .
+
+<Date/1842_1849>
+	a drw-model:Date ;
+	rdfs:label "1842-1849" .
+
+<SLPublication/30314hasSL3>
+	a drw-model:SLPublication ;
+	rdfs:label "Pfrepper, Regine, Pfrepper, Gerd: Wissensspuren. Reisen russischer Mediziner nach Westeuropa im 19. Jahrhundert. Aachen 2012 (Relationes 11)" .
+
+<StationOfLife/30314hasStationOfLife1>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1832_1833> ;
+	rdfs:label "Adjunkt für Anatomie und Physiologie und Gehilfe des Bibliothekars an der MMCA" .
+
+<Membership/30314hasMembership>
+	rdfs:label "Moskovskoe obščestvo ispytatelej prirody [Gesellschaft der Naturforscher in Moskau] (1844), Moskovskoe Fiziko-medicinskoe obščestvo [Physikalisch-medizinische Gesellschaft in Moskau] (1845), Obščestvo russkich vračej v Peterburge [Gesellschaft russischer Ärzte in St. Petersburg] (1845), Kongelige Nordiske Oldskriftselskab København [Königliche Gesellschaft für Nordische Altertumskunde zu Kopenhagen] (1845), Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee] (1868)" ;
+	a drw-model:Membership .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<StationOfLife/30314hasStationOfLife7>
+	rdfs:label "o. Professor für Physiologie und allgemeine Pathologie an der MMCA (1842[?]#footnote4# Schließung und Überführung an die Medizinische Fakultät der Universität Moskau)" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1841_1842> .
+
+<Date/1833_1835>
+	a drw-model:Date ;
+	rdfs:label "1833-1835" .
+
+<StationOfLife/30314hasStationOfLife3>
+	drw-model:began <Date/1835_1837> ;
+	rdfs:label "Adjunkt-Professor für Zootomie der Haustiere, vergleichende Physiologie, Veterinärpathologie und Chirurgie an der MMCA" ;
+	a drw-model:StationOfLife .
+
+<RelatedPerson/30314wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anna Ivanovna Glebova (1817-1905)#footnote2#" .
+
+<MainName/30314>
+	a drw-model:MainName ;
+	rdfs:label "Glebov, Ivan Timofeevič" ;
+	drw-model:hasNameVariation <NameVariation/30314var1> ;
+	drw-model:hasNameVariation <NameVariation/30314var0> .
+
+<P/30314hasP1>
+	rdfs:label "Portrait [Lithographie] in: Festband 2. (vgl. <b>B</b>), Frontispiz (mit Unterschrift), <b>SL</b> Volkov/Kulikova 2003 a, 61, und Makarov, vorderer Umschlag; Ausschnitt in: Volkov/Kulikova 2003 b (<b>SL</b>), Bildeinlage zw. S. 176-177." ;
+	a drw-model:P .
+
+<Date/1835_1837>
+	a drw-model:Date ;
+	rdfs:label "1835-1837" .
+
+<Education/30314hasEducation4>
+	rdfs:label "Examen zum „Accoucheur“ (Geburtshelfer) an der MMCA" ;
+	drw-model:began <Date/1831> ;
+	a drw-model:Education .
+
+<SLPublication/30314hasSL5>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 126, 276-309; 537, 89-98; SU 112, 216." ;
+	a drw-model:SLPublication .
+
+<Education/30314hasEducation2>
+	drw-model:began <Date/1821_1826> ;
+	rdfs:label "Besuch des Priesterseminars in Rjazan’" ;
+	a drw-model:Education .
+
+<WLStationOfLife/30314hasWL0>
+	rdfs:label "1842 Gründer des Lehrstuhls für vergleichende Anatomie und Physiologie an der Physiko-mathematischen Fakultät der Universität Moskau" ;
+	a drw-model:WLStationOfLife .
+
+<SLPublication/30314hasSL4>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SLPublication .
+

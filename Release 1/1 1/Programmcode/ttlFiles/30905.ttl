@@ -1,0 +1,310 @@
+
+<StationOfLife/30905hasStationOfLife2>
+	drw-model:began <Date/1869_1894> ;
+	rdfs:label "Professor für Physiologie an der Medizinischen Fakultät der Universität Dorpat/Jur’ev" ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30905hasSL0>
+	rdfs:label "Baltisches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 321, 301-307; II 239, 248-253, 260-261." ;
+	a drw-model:SLPublication .
+
+<WPublication/30905hasW0>
+	rdfs:label "Ovis bicorporis descriptio, adjunctis notationibus de monstrorum duplicium ortu in genere. Diss. Dorpat 1858, 67 S." ;
+	a drw-model:WPublication .
+
+<StationOfLife/30905hasStationOfLife0>
+	drw-model:began <Date/1864_1866> ;
+	rdfs:label "etatmäßiger Dozent für Physiologie und Adjunkt-Professor an der Medizinischen Fakultät und dem Veterinärinstitut der Universität Dorpat" ;
+	a drw-model:StationOfLife .
+
+<RelatedPerson/30905hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sohn [Name unbekannt]
+Elisabeth (* 1872)
+Johann Oswald Erhard (1876-1959), Professor für Mathematik#footnote3#
+Bertha, verh. Koch (* 1877)" .
+
+<Date/1866_1867>
+	rdfs:label "1866-1867" ;
+	a drw-model:Date .
+
+<SLPublication/30905hasSL2>
+	rdfs:label "Ilomets, Tullio: Chemistry and Chemistry-Related Sciences at Tartu (Dortpat) University in 1802-1919 (http://mega.chem.ut.ee/obki/keemia1/TU1802_1919.htm, 3.12.2010)." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30905hasSL1>
+	rdfs:label "Deutsches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 1114, 133-134; II 1160, 91." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30905hasSL7>
+	rdfs:label "Peppinghaus, Rolf: Die Verdienste des Dorpater Professors Alexander Schmidt zur Erkennung des Wesens der Blutgerinnung. Düsseldorf 1939 (Düsseldorfer Arbeiten zur Geschichte der Medizin 14), 66 S." ;
+	a drw-model:SLPublication .
+
+<GPVPublication/30905hasGPV2>
+	rdfs:label "Publikationen 1864-1895, in: Levickij 1903, zit. n. WBIS BaBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<GPVPublication/30905hasGPV0>
+	rdfs:label "Publikationen 1858-1892, in: Wikipedia (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<P/30905hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto um 1890, in: Wikipedia (<b>SL</b>)." .
+
+<Date/vor_1850>
+	a drw-model:Date ;
+	rdfs:label "vor 1850" .
+
+<NameVariation/30905var0>
+	rdfs:label "Шмидт, Александр Александрович"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Šmidt, Aleksandr Aleksandrovič"@de .
+
+<Date/1858_1862>
+	rdfs:label "1858-1862" ;
+	a drw-model:Date .
+
+<SLPublication/30905hasSL8>
+	a drw-model:SLPublication ;
+	rdfs:label "Pfrepper, Regine: Lebendige Stoffe. Deutsch-russischer Wissensaustausch in der Physiologischen Chemie im 19. Jahrhundert. Aachen 2011 (Relationes 7), 192-195." .
+
+<Date/1885_1889/90>
+	a drw-model:Date ;
+	rdfs:label "1885-1889/90" .
+
+<Education/30905hasEducation4>
+	rdfs:label "Weiterbildung in Österreich, Deutschland und Frankreich:
+- bei C. → Ludwig an der Militärärztlichen Akademie Josephinum in Wien
+- bei F. → Hoppe-Seyler an der Universität Berlin
+- an den Universitäten Jena, Tübingen, Paris" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1858_1862> .
+
+<SLPublication/30905hasSL12>
+	rdfs:label "Wormer, Eberhard J.: Schmidt, Hermann Adolf Alexander von. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. Bd. 23 (2007), 176-177 (online unter: http://www.deutsche-biographie.de/sfz113719.html, 3.12.2010)." ;
+	a drw-model:SLPublication .
+
+<Date/1877_1879>
+	a drw-model:Date ;
+	rdfs:label "1877-1879" .
+
+<RelatedPerson/30905fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Gottlob Alexander (1794-1871#footnote2#), Geistlicher" .
+
+<StationOfLife/30905hasStationOfLife4>
+	rdfs:label "Rektor der Universität Dorpat/Jur’ev" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1885_1889/90> .
+
+<WLStationOfLife/30905hasWL3>
+	rdfs:label "Gilt somit als Entdecker des Wesens der Blutgerinnung" ;
+	a drw-model:WLStationOfLife .
+
+<Education/30905hasEducation2>
+	drw-model:began <Date/1851_1857> ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Dorpat" ;
+	a drw-model:Education .
+
+<RelatedPerson/30905wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ida, geb. von Fick (1841-1931)" .
+
+<Date/1869_1894>
+	a drw-model:Date ;
+	rdfs:label "1869-1894" .
+
+<Education/30905hasEducation0>
+	drw-model:began <Date/vor_1850> ;
+	a drw-model:Education ;
+	rdfs:label "Abschluss des Gymnasiums in Reval" .
+
+<SLPublication/30905hasSL6>
+	a drw-model:SLPublication ;
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 1508-1509." .
+
+<SLPublication/30905hasSL4>
+	rdfs:label "Markosjan, A. A.: Sistema svertyvanija krovi (K 100-letiju pervoj raboty A. A. Šmidta po svertyvaniju krovi). Fiziologičeskij žurnal SSSR im. I. M. Sečenova 48 (1962) 11, 1431-1434." ;
+	a drw-model:SLPublication .
+
+<WLStationOfLife/30905hasWL1>
+	rdfs:label "- 1876 Aufstellung einer komplexen Theorie der fermentativen Blutgerinnung" ;
+	a drw-model:WLStationOfLife .
+
+<GeneralLabor/30905hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<Date/1864_1866>
+	a drw-model:Date ;
+	rdfs:label "1864-1866" .
+
+<WPublication/30905hasW1>
+	rdfs:label "Zur Blutlehre. Leipzig 1892, 270 S." ;
+	a drw-model:WPublication .
+
+<StationOfLife/30905hasStationOfLife3>
+	drw-model:began <Date/1877_1879> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Dekan der Medizinischen Fakultät" .
+
+<Date/1858>
+	a drw-model:Date ;
+	rdfs:label "1858" .
+
+<Date/1850_1851>
+	a drw-model:Date ;
+	rdfs:label "1850-1851" .
+
+<SLPublication/30905hasSL3>
+	rdfs:label "Krüger, Friedrich Carl von: Prof. Dr. Alexander Schmidt †. Münchener medicinische Wochenschrift 41 (1894), 826-827." ;
+	a drw-model:SLPublication .
+
+<GPVPublication/30905hasGPV1>
+	rdfs:label "Publikationen 1861-1895, in: Pfrepper 2009 und 2011 (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<MainName/30905>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30905var0> ;
+	rdfs:label "Schmidt, Hermann Adolf Alexander von" ;
+	drw-model:hasNameVariation <NameVariation/30905var1> .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<P/30905hasP2>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Volkov/Kulikova 2003 b (<b>SL</b>); auch in: Kalnin 1996, zit. n. WBIS BaBA (<b>SL</b>)." .
+
+<HonoursAndAwards/30905hasHounoursAndAwards>
+	rdfs:label "„Wirklicher Russischer Staatsrat“" ;
+	a drw-model:HonoursAndAwards .
+
+<SLPublication/30905hasSL13>
+	rdfs:label "Česnakova [Im Original Druckfehler, es muss heißen: Česnokova], Sof’ja Aleksandrovna, Lindemann, Marianne: Russische Physiologen in Laboratorien von Carl Ludwig. Wissenschaftliche Zeitschrift der Karl-Marx-Universität Leipzig, Mathematisch-naturwissenschaftliche Reihe 19 (1970), 316." ;
+	a drw-model:SLPublication .
+
+<RelatedPerson/30905motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Eugenie, geb. v. Poppen (1796-1866)" .
+
+<NameVariation/30905var1>
+	rdfs:label "Шмидт, Герман Адольф Александр [фон]"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Šmidt, German Adol’f Aleksandr [fon]"@de .
+
+<SLPublication/30905hasSL11>
+	rdfs:label "Wikipedia (http://de.wikipedia.org/wiki/Hermann_Adolf_Alexander_Schmidt, 3.12.2010 und http://pl.wikipedia.org/wiki/Alexander_Schmidt, 3.12.2010)." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30905hasSL10>
+	a drw-model:SLPublication ;
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 511, 34; SU 487, 89; RS 76,103." .
+
+<Date/1851_1857>
+	a drw-model:Date ;
+	rdfs:label "1851-1857" .
+
+<Date/1862>
+	a drw-model:Date ;
+	rdfs:label "1862" .
+
+<SLPublication/30905hasSL9>
+	a drw-model:SLPublication ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 230-234." .
+
+<WLStationOfLife/30905hasWL2>
+	rdfs:label "- 1892 Beschreibung der Umsetzungsprozesse im strömenden Blut" ;
+	a drw-model:WLStationOfLife .
+
+<Education/30905hasEducation5>
+	drw-model:began <Date/1862> ;
+	rdfs:label "Habilitation und Privatdozent an der Medizinischen Fakultät der Universität Dorpat" ;
+	a drw-model:Education .
+
+<StationOfLife/30905hasStationOfLife5>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<Education/30905hasEducation3>
+	drw-model:began <Date/1858> ;
+	a drw-model:Education ;
+	rdfs:label "Dr. med. an der Universität Dorpat" .
+
+<P/30905hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Pagel 1901 (<b>SL</b>); Auch in <b>SL</b>: Ilomets und [Ausschnitt] in Eesti entsüklopeedia 2000, zit. n. WBIS BaBA" .
+
+<StationOfLife/30905hasStationOfLife1>
+	rdfs:label "Weiterbildung in Deutschland mit Delegierung der Universität Dorpat:
+- bei → Ludwig an der Universität Leipzig" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1866_1867> .
+
+<WLStationOfLife/30905hasWL0>
+	rdfs:label "Forschungsgebiet: Chemie und Biologie des Blutes, insb. Prozesse der Blutgerinnung (erste Publikation bereits 1861):" ;
+	a drw-model:WLStationOfLife .
+
+<ImportantPerson/30905>
+	drw-model:hasSL <SLPublication/30905hasSL10> ;
+	drw-model:hasGPV <GPVPublication/30905hasGPV0> ;
+	drw-model:hasSL <SLPublication/30905hasSL5> ;
+	drw-model:hasSL <SLPublication/30905hasSL8> ;
+	drw-model:hasSL <SLPublication/30905hasSL9> ;
+	drw-model:hasSL <SLPublication/30905hasSL11> ;
+	drw-model:hasStationOfLife <StationOfLife/30905hasStationOfLife2> ;
+	drw-model:hasGPV <GPVPublication/30905hasGPV1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30905hasGeneralLabor0> ;
+	drw-model:hasW <WPublication/30905hasW1> ;
+	drw-model:hasSL <SLPublication/30905hasSL6> ;
+	drw-model:hasSL <SLPublication/30905hasSL2> ;
+	drw-model:hasWL <WLStationOfLife/30905hasWL3> ;
+	drw-model:hasEducation <Education/30905hasEducation4> ;
+	rdfs:label "Schmidt, Hermann Adolf Alexander von" ;
+	drw-model:hasWL <WLStationOfLife/30905hasWL2> ;
+	drw-model:hasP <P/30905hasP1> ;
+	drw-model:hasStationOfLife <StationOfLife/30905hasStationOfLife3> ;
+	drw-model:hasEducation <Education/30905hasEducation1> ;
+	drw-model:drwID "30905" ;
+	drw-model:hasW <WPublication/30905hasW0> ;
+	drw-model:hasSL <SLPublication/30905hasSL7> ;
+	drw-model:hasDescendant <RelatedPerson/30905hasDescendant> ;
+	drw-model:motherIs <RelatedPerson/30905motherIs> ;
+	drw-model:hasP <P/30905hasP0> ;
+	drw-model:hasSL <SLPublication/30905hasSL12> ;
+	drw-model:hasSL <SLPublication/30905hasSL3> ;
+	drw-model:hasStationOfLife <StationOfLife/30905hasStationOfLife4> ;
+	drw-model:hasSL <SLPublication/30905hasSL4> ;
+	drw-model:hasWL <WLStationOfLife/30905hasWL1> ;
+	drw-model:hasGPV <GPVPublication/30905hasGPV2> ;
+	drw-model:hasEducation <Education/30905hasEducation0> ;
+	drw-model:hasSL <SLPublication/30905hasSL0> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <StationOfLife/30905hasStationOfLife0> ;
+	drw-model:wasMarriedTo <RelatedPerson/30905wasMarriedTo> ;
+	drw-model:hasP <P/30905hasP2> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/30905hasHounoursAndAwards> ;
+	drw-model:hasWL <WLStationOfLife/30905hasWL0> ;
+	drw-model:hasEducation <Education/30905hasEducation3> ;
+	drw-model:fatherIs <RelatedPerson/30905fatherIs> ;
+	drw-model:hasEducation <Education/30905hasEducation5> ;
+	drw-model:hasSL <SLPublication/30905hasSL13> ;
+	drw-model:hasMainName <MainName/30905> ;
+	drw-model:hasStationOfLife <StationOfLife/30905hasStationOfLife5> ;
+	drw-model:hasSL <SLPublication/30905hasSL1> ;
+	drw-model:hasStationOfLife <StationOfLife/30905hasStationOfLife1> ;
+	drw-model:hasEducation <Education/30905hasEducation2> .
+
+<Education/30905hasEducation1>
+	drw-model:began <Date/1850_1851> ;
+	a drw-model:Education ;
+	rdfs:label "Studium an der Historisch-philosophischen Fakultät der Universität Dorpat" .
+
+<SLPublication/30905hasSL5>
+	rdfs:label "Munk, I.: Alexander Schmidt †. Deutsche medicinische Wochenschrift 20 (1894), 411-412." ;
+	a drw-model:SLPublication .
+

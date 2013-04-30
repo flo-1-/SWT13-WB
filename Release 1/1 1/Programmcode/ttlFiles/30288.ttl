@@ -1,0 +1,350 @@
+
+<P/30288hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Voswinckel (Hg.) 2002 (<b>SL</b>), Bildeinlage zw. S. 390-391, Bild 34." .
+
+<SLPublication/30288hasSL2>
+	rdfs:label "Deutsches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): II 402, 365-371." ;
+	a drw-model:SLPublication .
+
+<Date/1924>
+	a drw-model:Date ;
+	rdfs:label "1924" .
+
+<RelatedPerson/30288motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Margarethe, geb. Rosenberg" .
+
+<StationOfLife/30288hasStationOfLife9>
+	drw-model:began <Date/1924_1933> ;
+	rdfs:label "Honorarprofessor an der Universität Berlin" ;
+	a drw-model:StationOfLife .
+
+<Date/1902_1916>
+	rdfs:label "1902-1916" ;
+	a drw-model:Date .
+
+<SLPublication/30288hasSL0>
+	a drw-model:SLPublication ;
+	rdfs:label "Poggendorff - Biographisch-literarisches Handwörterbuch zur Geschichte der exacten Naturwissenschaften, enthaltend Nachweisungen über Lebensverhältnisse und Leistungen von Mathematikern, Astronomen, Physikern, Chemikern, Mineralogen, Geologen usw. aller Völker und Zeiten. Gesammelt von J. C. Poggendorff, Mitglied der Akademie der Wissenschaften zu Berlin / J. C. Poggendorff - Biographisch-literarisches Handwörterbuch der exakten Naturwissenschaften. Bd. 1-8. Leipzig, Berlin 1863-2004. Bd. 6, 818, Bd. 7a, 122; Bd. 8, 1289." .
+
+<Date/1905>
+	a drw-model:Date ;
+	rdfs:label "1905" .
+
+<Date/1919_1923>
+	rdfs:label "1919-1923" ;
+	a drw-model:Date .
+
+<Date/1901>
+	a drw-model:Date ;
+	rdfs:label "1901" .
+
+<Date/1916_1924>
+	a drw-model:Date ;
+	rdfs:label "1916-1924" .
+
+<RelatedPerson/30288hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Richard (1896-1979), deutsch-britischer Schriftsteller, Herausgeber und Lektor, Präsident des Deutscher PEN-Club im Exil in London, Vize- und Ehrenpräsident des PEN-Zentrums der Bundesrepublik Deutschland#footnote2#
+Käthe, verh. Bischoff (* 1897), Ärztin
+Walter (* 1898)" .
+
+<Date/1902_1904>
+	a drw-model:Date ;
+	rdfs:label "1902, 1904" .
+
+<GPVPublication/30288hasGPV0>
+	rdfs:label "Publikationen 1903-1923, in: Poggendorff Bd. 6 (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<Education/30288hasEducation0>
+	rdfs:label "Studium in Kiel, München und Heidelberg" ;
+	drw-model:began <Date/1890_1894> ;
+	a drw-model:Education .
+
+<WPublication/30288hasW2>
+	rdfs:label "Allgemeine und spezielle Physiologie des Menschenwachstums. Für Anthropologen, Physiologen, Anatomen und Ärzte. Berlin 1914, 161 S." ;
+	a drw-model:WPublication .
+
+<MainName/30288>
+	a drw-model:MainName ;
+	rdfs:label "Friedenthal, Hans Wilhelm Carl" ;
+	drw-model:hasNameVariation <NameVariation/30288var0> ;
+	drw-model:hasNameVariation <NameVariation/30288var1> .
+
+<WLStationOfLife/30288hasWL4>
+	rdfs:label "1911 Zentrifuge mit 45000 Umdrehungen/Min." ;
+	a drw-model:WLStationOfLife .
+
+<Education/30288hasEducation2>
+	drw-model:began <Date/1901> ;
+	rdfs:label "Habilitation für Physiologie an der Universität Berlin" ;
+	a drw-model:Education .
+
+<WPublication/30288hasW0>
+	rdfs:label "Die Hülfsmittel des Geburtshelfers nebst Beschreibg e. neuen Perforatoriums m. Extraktionsvorrichtg ... Diss. Bonn 1894, 54 S." ;
+	a drw-model:WPublication .
+
+<StationOfLife/30288hasStationOfLife4>
+	rdfs:label "Forschungsaufenthalte bei I. P. #internNameLink#30785#endNameNr#Pavlov#/internNameLink# in der physiologischen Abteilung des Instituts für Experimentelle Medizin (IEM) in St. Petersburg" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1902_1904> .
+
+<ImportantPerson/30288>
+	drw-model:wasMarriedTo <RelatedPerson/30288wasMarriedTo> ;
+	drw-model:hasSL <SLPublication/30288hasSL7> ;
+	drw-model:hasGPV <GPVPublication/30288hasGPV0> ;
+	drw-model:hasW <WPublication/30288hasW3> ;
+	drw-model:hasStationOfLife <StationOfLife/30288hasStationOfLife10> ;
+	drw-model:hasStationOfLife <StationOfLife/30288hasStationOfLife7> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30288hasGeneralLabor0> ;
+	drw-model:hasEducation <Education/30288hasEducation2> ;
+	drw-model:hasSL <SLPublication/30288hasSL8> ;
+	drw-model:hasStationOfLife <StationOfLife/30288hasStationOfLife9> ;
+	drw-model:hasStationOfLife <StationOfLife/30288hasStationOfLife6> ;
+	drw-model:hasWL <WLStationOfLife/30288hasWL6> ;
+	drw-model:hasSL <SLPublication/30288hasSL9> ;
+	drw-model:hasSL <SLPublication/30288hasSL4> ;
+	drw-model:hasP <P/30288hasP1> ;
+	drw-model:hasStationOfLife <StationOfLife/30288hasStationOfLife3> ;
+	drw-model:hasWL <WLStationOfLife/30288hasWL1> ;
+	drw-model:hasStationOfLife <StationOfLife/30288hasStationOfLife11> ;
+	drw-model:hasW <WPublication/30288hasW2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30288hasGeneralLabor2> ;
+	drw-model:hasW <WPublication/30288hasW4> ;
+	drw-model:hasWL <WLStationOfLife/30288hasWL0> ;
+	drw-model:fatherIs <RelatedPerson/30288fatherIs> ;
+	drw-model:hasWL <WLStationOfLife/30288hasWL3> ;
+	drw-model:hasDescendant <RelatedPerson/30288hasDescendant> ;
+	drw-model:hasW <WPublication/30288hasW0> ;
+	drw-model:motherIs <RelatedPerson/30288motherIs> ;
+	drw-model:hasStationOfLife <StationOfLife/30288hasStationOfLife0> ;
+	drw-model:hasEducation <Education/30288hasEducation0> ;
+	drw-model:hasWL <WLStationOfLife/30288hasWL2> ;
+	drw-model:hasP <P/30288hasP0> ;
+	drw-model:hasSL <SLPublication/30288hasSL1> ;
+	drw-model:hasStationOfLife <StationOfLife/30288hasStationOfLife4> ;
+	drw-model:hasW <WPublication/30288hasW1> ;
+	drw-model:hasSL <SLPublication/30288hasSL2> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasWL <WLStationOfLife/30288hasWL4> ;
+	drw-model:hasSL <SLPublication/30288hasSL5> ;
+	drw-model:hasMainName <MainName/30288> ;
+	drw-model:hasStationOfLife <StationOfLife/30288hasStationOfLife1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30288hasGeneralLabor1> ;
+	drw-model:hasSL <SLPublication/30288hasSL0> ;
+	drw-model:hasSL <SLPublication/30288hasSL6> ;
+	drw-model:hasGPV <GPVPublication/30288hasGPV1> ;
+	drw-model:hasEducation <Education/30288hasEducation1> ;
+	drw-model:hasStationOfLife <StationOfLife/30288hasStationOfLife5> ;
+	drw-model:drwID "30288" ;
+	drw-model:hasMembership <Membership/30288hasMembership> ;
+	drw-model:hasSL <SLPublication/30288hasSL3> ;
+	drw-model:hasStationOfLife <StationOfLife/30288hasStationOfLife8> ;
+	drw-model:hasWL <WLStationOfLife/30288hasWL5> ;
+	rdfs:label "Friedenthal, Hans Wilhelm Carl" ;
+	drw-model:hasEducation <Education/30288hasEducation3> ;
+	drw-model:hasStationOfLife <StationOfLife/30288hasStationOfLife2> .
+
+<WPublication/30288hasW4>
+	rdfs:label "[Hg.] Arbeiten aus dem Gebiet der experimentellen Physiologie. Jena 1908-1911." ;
+	a drw-model:WPublication .
+
+<StationOfLife/30288hasStationOfLife6>
+	rdfs:label "Studienreisen auf den Balkan, nach Ungarn, Rumänien, Griechenland und in die Türkei, zusammen mit seinem Sohn Richard" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1914> .
+
+<StationOfLife/30288hasStationOfLife3>
+	rdfs:label "Dozent für Anthropologie an der Universität Berlin" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1902_1916> .
+
+<NameVariation/30288var0>
+	a drw-model:NameVariation ;
+	rdfs:label "Friedenthal, Hans Wilhelm Carl/Karl (von#footnote1#)"@de .
+
+<WLStationOfLife/30288hasWL1>
+	rdfs:label "Forschungsergebnisse und Erfindungen:" ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30288hasStationOfLife10>
+	drw-model:began <Date/1924> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Gründer und Leiter der Arbeitsstätte für Menschheitskunde an der Universität Berlin" .
+
+<WLStationOfLife/30288hasWL3>
+	rdfs:label "1908 Spiegel-Anthropometer" ;
+	a drw-model:WLStationOfLife .
+
+<SLPublication/30288hasSL8>
+	a drw-model:SLPublication ;
+	rdfs:label "Voswinckel, Peter (Hg.): Biographisches Lexikon der hervorragenden Ärzte der letzten fünfzig Jahre von Isidor Fischer †. Bände III-IV: Nachträge und Ergänzungen. 3. Bd. Hildesheim, Zürich, New York 2002, 457." .
+
+<GeneralLabor/30288hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Anthropologe" .
+
+<Date/1896_1898>
+	rdfs:label "1896-1898" ;
+	a drw-model:Date .
+
+<SLPublication/30288hasSL4>
+	a drw-model:SLPublication ;
+	rdfs:label "Kreuter, Alma: Deutschsprachige Neurologen und Psychiater. Ein biographisch-bibliographisches Lexikon von den Vorläufern bis zur Mitte des 20. Jahrhunderts. München, New Providence, London, Paris 1996, 397-398." .
+
+<SLPublication/30288hasSL6>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 116-117." ;
+	a drw-model:SLPublication .
+
+<RelatedPerson/30288wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Martha Anna Ludowika, geb. Elster" .
+
+<Date/1902>
+	a drw-model:Date ;
+	rdfs:label "1902" .
+
+<SLPublication/30288hasSL3>
+	rdfs:label "Jüdisches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 255, 15-20; II 164, 85-90." ;
+	a drw-model:SLPublication .
+
+<P/30288hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait um 1920, in: Kaiser, Margarete (Hg.): Liebeslehre. Berlin 1928, S. VI (online unter http://www.hirschfeld.in-berlin.de/institut/en/personen/bilder/pers_13b1.html, 1.8.2011)." .
+
+<SLPublication/30288hasSL5>
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 290." ;
+	a drw-model:SLPublication .
+
+<WLStationOfLife/30288hasWL6>
+	rdfs:label "Inhaber einiger Patente" ;
+	a drw-model:WLStationOfLife .
+
+<Date/1914>
+	rdfs:label "1914" ;
+	a drw-model:Date .
+
+<Date/1933>
+	a drw-model:Date ;
+	rdfs:label "1933" .
+
+<StationOfLife/30288hasStationOfLife8>
+	rdfs:label "zugleich Leiter einiger Abteilungen (1919 Abteilung für experimentelle Biologie, 1920 der sexualbiologischen Abteilung und 1922-1923 der anthropologischen Abteilung) am Institut für Sexualwissenschaft in Berlin" ;
+	drw-model:began <Date/1919_1923> ;
+	a drw-model:StationOfLife .
+
+<Date/1894>
+	a drw-model:Date ;
+	rdfs:label "1894" .
+
+<SLPublication/30288hasSL1>
+	a drw-model:SLPublication ;
+	rdfs:label "Deutsche Biographische Enzyklopädie. Hrsg. v. Walther Killy und Rudolf Vierhaus. Bd. 1-10. München u. a. 1995-1999,  Bd. 3 (1996), 449." .
+
+<Date/1898_1901>
+	a drw-model:Date ;
+	rdfs:label "1898-1901" .
+
+<StationOfLife/30288hasStationOfLife0>
+	rdfs:label "Assistent bei I. #internNameLink#30865#endNameNr#Rosenthal#/internNameLink# an der Universität Erlangen und bei Hans #name#Buchner#/name# (1850-1902) an der Universität München" ;
+	drw-model:began <Date/1896_1898> ;
+	a drw-model:StationOfLife .
+
+<StationOfLife/30288hasStationOfLife2>
+	rdfs:label "zugleich Niederlassung als praktischer Arzt und Leiter des Säuglingsheimes in Nicolassee" ;
+	drw-model:began <Date/1901> ;
+	a drw-model:StationOfLife .
+
+<RelatedPerson/30288fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Paul Gaspard, Bankdirektor, Kommerzienrat" .
+
+<GPVPublication/30288hasGPV1>
+	rdfs:label "Schriften (Auswahl) [1899-1930], in: Kreuter 1996 (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<WLStationOfLife/30288hasWL2>
+	rdfs:label "1904 Säuregrad (später pH-Wert) zur Messung der Wasserstoffkonzentration von Lösungen (zusammen mit Eduard #name#Salm#/name#)" ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30288hasStationOfLife7>
+	rdfs:label "ao. Titular-Professor an der Universität Berlin" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1916_1924> .
+
+<Education/30288hasEducation1>
+	rdfs:label "Promotion an der Universität Bonn" ;
+	drw-model:began <Date/1894> ;
+	a drw-model:Education .
+
+<WPublication/30288hasW1>
+	rdfs:label "Beiträge zur Naturgeschichte des Menschen. Jena 1908-1910." ;
+	a drw-model:WPublication .
+
+<StationOfLife/30288hasStationOfLife1>
+	rdfs:label "Assistent an der Universität Berlin bei Hermann #name#Munk#/name# (1839-1912) und W. #internNameLink#30743#endNameNr#Nagel#/internNameLink#" ;
+	drw-model:began <Date/1898_1901> ;
+	a drw-model:StationOfLife .
+
+<Education/30288hasEducation3>
+	drw-model:began <Date/1902> ;
+	rdfs:label "Habilitation für Anthropologie an der Universität Bonn" ;
+	a drw-model:Education .
+
+<StationOfLife/30288hasStationOfLife5>
+	rdfs:label "Gründung eines Privatlaboratoriums in Berlin" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1905> .
+
+<Date/1890_1894>
+	a drw-model:Date ;
+	rdfs:label "1890-1894" .
+
+<WLStationOfLife/30288hasWL5>
+	rdfs:label "1911 H-Ionen Dosimeter mit Indikatoren" ;
+	a drw-model:WLStationOfLife .
+
+<WPublication/30288hasW3>
+	rdfs:label "Menschheitskunde. Leipzig 1927, 131 S." ;
+	a drw-model:WPublication .
+
+<WLStationOfLife/30288hasWL0>
+	rdfs:label "Forschungsthemen: Experimentelle Physiologie (z. B. Physiologie der Verdauungsorgane), Naturgeschichte des Menschen, Sexualkunde u. a." ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30288hasStationOfLife11>
+	drw-model:began <Date/1933> ;
+	rdfs:label "Entlassung 1933 aus dem Universitätsdienst" ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30288hasSL9>
+	rdfs:label "Wikipedia (http://de.wikipedia.org/wiki/Hans_Wilhelm_Carl_Friedenthal, 1.8.2011)." ;
+	a drw-model:SLPublication .
+
+<Date/1924_1933>
+	a drw-model:Date ;
+	rdfs:label "1924-1933" .
+
+<Membership/30288hasMembership>
+	rdfs:label "Gesellschaft für Menschheitskunde (1926 Gründungsmitglied), Anthropologische Gesellschaft, Gesellschaft für Säugetierkunde" ;
+	a drw-model:Membership .
+
+<GeneralLabor/30288hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Mediziner" .
+
+<NameVariation/30288var1>
+	rdfs:label "Фриденталь, Г[анс]"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Fridental', G[ans]"@de .
+
+<GeneralLabor/30288hasGeneralLabor2>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Biochemiker" .
+
+<SLPublication/30288hasSL7>
+	a drw-model:SLPublication ;
+	rdfs:label "Vinogradov, Jurij Abramovič, Golikov, Jurij Pavlovič, Grekova, Tat’jana Ivanovna (Sostaviteli): I. P. Pavlov: Dostovernost’ i polnota biografii. Sankt-Peterburg 2005, 136." .
+

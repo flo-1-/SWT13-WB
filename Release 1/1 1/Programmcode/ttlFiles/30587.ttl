@@ -1,0 +1,202 @@
+
+<Date/zw_1902_1906>
+	a drw-model:Date ;
+	rdfs:label "zw. 1902-1906" .
+
+<StationOfLife/30587hasStationOfLife2>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/18661870/71> ;
+	rdfs:label "Kriegsteilnahmen als Feldarzt im Deutsch-Österreichischen und Deutsch-Französischen Krieg" .
+
+<StationOfLife/30587hasStationOfLife0>
+	rdfs:label "Assistent bei L. #internNameLink#31038#endNameNr#Traube#/internNameLink# sowie bei W. #internNameLink#30599#endNameNr#Kühne#/internNameLink# an der Charité in Berlin" ;
+	drw-model:began <Date/1863_1868> ;
+	a drw-model:StationOfLife .
+
+<StationOfLife/30587hasStationOfLife4>
+	rdfs:label "Privatdozent an der Medizinischen Fakultät der Universität Leipzig" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1872_1875> .
+
+<Date/1859>
+	a drw-model:Date ;
+	rdfs:label "1859" .
+
+<StationOfLife/30587hasStationOfLife6>
+	rdfs:label "ao. Professor für Physiologie an der Universität Berlin" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1877_1884> .
+
+<Education/30587hasEducation1>
+	rdfs:label "Studium der Medizin an den Universitäten Berlin, Heidelberg und Pisa" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1859_1863> .
+
+<Date/1877_1884>
+	a drw-model:Date ;
+	rdfs:label "1877-1884" .
+
+<Education/30587hasEducation3>
+	rdfs:label "Habilitation an der Universität Leipzig" ;
+	drw-model:began <Date/1872> ;
+	a drw-model:Education .
+
+<Date/1863>
+	a drw-model:Date ;
+	rdfs:label "1863" .
+
+<Date/1865>
+	a drw-model:Date ;
+	rdfs:label "1865" .
+
+<Date/1868_1872>
+	rdfs:label "1868-1872" ;
+	a drw-model:Date .
+
+<RelatedPerson/30587hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "1 Sohn, 1 Tochter [Namen unbekannt]" .
+
+<Date/1863_1868>
+	a drw-model:Date ;
+	rdfs:label "1863-1868" .
+
+<GeneralLabor/30587hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Arzt" .
+
+<StationOfLife/30587hasStationOfLife8>
+	drw-model:began <Date/1894_1895> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Rektor der Universität Bern" .
+
+<Date/1875_1877>
+	a drw-model:Date ;
+	rdfs:label "1875-1877" .
+
+<Date/1872>
+	rdfs:label "1872" ;
+	a drw-model:Date .
+
+<Date/1859_1863>
+	a drw-model:Date ;
+	rdfs:label "1859-1863" .
+
+<Date/1884_1914>
+	a drw-model:Date ;
+	rdfs:label "1884-1914" .
+
+<StationOfLife/30587hasStationOfLife3>
+	rdfs:label "Assistent bei C. #internNameLink#30664#endNameNr#Ludwig#/internNameLink# am Physiologischen Institut der Universität Leipzig" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1868_1872> .
+
+<RelatedPerson/30587motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johanna, geb. Prausnitzer" .
+
+<Date/1894_1895>
+	a drw-model:Date ;
+	rdfs:label "1894-1895" .
+
+<RelatedPerson/30587hasSibling>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Leopold (1823-1891), Mathematiker" .
+
+<Date/18661870/71>
+	a drw-model:Date ;
+	rdfs:label "1866,1870/71" .
+
+<MainName/30587>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30587var0> ;
+	rdfs:label "Kronecker, Karl Hugo" .
+
+<StationOfLife/30587hasStationOfLife1>
+	drw-model:began <Date/1865> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Registrierung und Niederlassung als praktischer Arzt inBerlin" .
+
+<StationOfLife/30587hasStationOfLife10>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<StationOfLife/30587hasStationOfLife5>
+	drw-model:began <Date/1875_1877> ;
+	rdfs:label "ao. Professor für Medizin an der Medizinischen Fakultät der Universität Leipzig" ;
+	a drw-model:StationOfLife .
+
+<ImportantPerson/30587>
+	drw-model:hasStationOfLife <StationOfLife/30587hasStationOfLife1> ;
+	drw-model:hasStationOfLife <StationOfLife/30587hasStationOfLife3> ;
+	drw-model:hasStationOfLife <StationOfLife/30587hasStationOfLife5> ;
+	drw-model:hasStationOfLife <StationOfLife/30587hasStationOfLife8> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30587hasGeneralLabor0> ;
+	drw-model:hasMainName <MainName/30587> ;
+	drw-model:hasEducation <Education/30587hasEducation3> ;
+	drw-model:hasSibling <RelatedPerson/30587hasSibling> ;
+	drw-model:hasStationOfLife <StationOfLife/30587hasStationOfLife10> ;
+	drw-model:hasStationOfLife <StationOfLife/30587hasStationOfLife7> ;
+	drw-model:wasMarriedTo <RelatedPerson/30587wasMarriedTo> ;
+	rdfs:label "Kronecker, Karl Hugo" ;
+	drw-model:hasStationOfLife <StationOfLife/30587hasStationOfLife9> ;
+	drw-model:hasStationOfLife <StationOfLife/30587hasStationOfLife6> ;
+	drw-model:hasEducation <Education/30587hasEducation2> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasDescendant <RelatedPerson/30587hasDescendant> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30587hasGeneralLabor1> ;
+	drw-model:hasEducation <Education/30587hasEducation1> ;
+	drw-model:hasStationOfLife <StationOfLife/30587hasStationOfLife0> ;
+	drw-model:hasStationOfLife <StationOfLife/30587hasStationOfLife2> ;
+	drw-model:fatherIs <RelatedPerson/30587fatherIs> ;
+	drw-model:hasStationOfLife <StationOfLife/30587hasStationOfLife4> ;
+	drw-model:motherIs <RelatedPerson/30587motherIs> ;
+	drw-model:drwID "30587" ;
+	drw-model:hasEducation <Education/30587hasEducation0> .
+
+<Education/30587hasEducation0>
+	a drw-model:Education ;
+	rdfs:label "Abschluss des Gymnasiums in Liegnitz" ;
+	drw-model:began <Date/1859> .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<Education/30587hasEducation2>
+	rdfs:label "Promotion zum Dr. med. an der Universität Berlin bei E. H. #internNameLink#30230#endNameNr#Du Bois-Reymond#/internNameLink#" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1863> .
+
+<StationOfLife/30587hasStationOfLife7>
+	drw-model:began <Date/1884_1914> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "o. Professor für Physiologie und Gründer und Leiter des „Hallerianums“, des spät. Physiologischen Instituts an der Universität Bern" .
+
+<NameVariation/30587var0>
+	rdfs:label "Kroneker, Karl Gugo/Chugo"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Кронекер, Карл Гуго/Хуго"@ru .
+
+<RelatedPerson/30587fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Isidor, Großkaufmann und Bankier, Rittergutsbesitzer" .
+
+<GeneralLabor/30587hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<StationOfLife/30587hasStationOfLife9>
+	drw-model:began <Date/zw_1902_1906> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Forschungsaufenthalt bei I. P. #internNameLink#30785#endNameNr#Pavlov#/internNameLink# am Institut für Experimentelle Medizin (IEM) in St. Petersburg" .
+
+<Date/1872_1875>
+	a drw-model:Date ;
+	rdfs:label "1872-1875" .
+
+<RelatedPerson/30587wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Elise Gertrud Marie, geb. Bredschneider" .
+

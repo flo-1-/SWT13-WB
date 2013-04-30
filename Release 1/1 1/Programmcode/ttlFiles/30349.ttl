@@ -1,0 +1,303 @@
+
+<StationOfLife/30349hasStationOfLife0>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1889_1890> ;
+	rdfs:label "Assistent am Hygiene-Institut der Universität Berlin bei R. #internNameLink#30550#endNameNr#Koch#/internNameLink#" .
+
+<Date/1895>
+	a drw-model:Date ;
+	rdfs:label "1895" .
+
+<StationOfLife/30349hasStationOfLife2>
+	drw-model:began <Date/ab_1891> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Assistent am Physiologischen-chemischen Institut an der Universität Bern bei Marcel #internNameLink#10151#endNameNr#Nencki#/internNameLink# (1847-1901)" .
+
+<RelatedPerson/30349motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Therese, geb. Rosenthal (1832-1912)" .
+
+<Date/1889_1890>
+	rdfs:label "1889-1890" ;
+	a drw-model:Date .
+
+<RelatedPerson/30349fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Albert (1824-1898), Großindustrieller, Inhaber der Firma „Hahn’sche Werke“ (Röhrenwalzwerke und Kunstwollhandel) in Berlin, mit einer Niederlassung in Moskau" .
+
+<StationOfLife/30349hasStationOfLife8>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1901_1911> ;
+	rdfs:label "ao. Professor an der Universität München" .
+
+<StationOfLife/30349hasStationOfLife10>
+	drw-model:began <Date/ab_1905> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Honorar-Professor an der Technischen Hochschule München" .
+
+<Date/1893_1894>
+	a drw-model:Date ;
+	rdfs:label "1893-1894" .
+
+<Date/1895_1901>
+	a drw-model:Date ;
+	rdfs:label "1895-1901" .
+
+<Date/1905>
+	a drw-model:Date ;
+	rdfs:label "1905" .
+
+<Date/1913>
+	a drw-model:Date ;
+	rdfs:label "1913" .
+
+<MainName/30349>
+	a drw-model:MainName ;
+	rdfs:label "Hahn, Martin John#footnote1#" ;
+	drw-model:hasNameVariation <NameVariation/30349var0> ;
+	drw-model:hasNameVariation <NameVariation/30349var1> .
+
+<Date/1901_1911>
+	a drw-model:Date ;
+	rdfs:label "1901-1911" .
+
+<RelatedPerson/30349hasSibling>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Oscar (1860-1907), Großindustrieller
+Georg (1864-1953), Jurist, Großindustrieller
+Martha, verh. Remak#footnote4# (1857-1932)
+Gertrud, verh. Hensel#footnote5# (1866-1954)
+Johannes (Hans), Geheimer Regierungsrat
+Fanny" .
+
+<StationOfLife/30349hasStationOfLife16>
+	rdfs:label "weitere Reise nach Russland" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1913> .
+
+<Date/ohne_Datum>
+	rdfs:label "ohne Datum" ;
+	a drw-model:Date .
+
+<StationOfLife/30349hasStationOfLife13>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1910> ;
+	rdfs:label "Schlafkrankheitsstudien in Ostafrika" .
+
+<Date/ab_1905>
+	a drw-model:Date ;
+	rdfs:label "ab 1905" .
+
+<NameVariation/30349var1>
+	rdfs:label "Gan, Martin Al’bert"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Ган, Мартин Альберт"@ru .
+
+<StationOfLife/30349hasStationOfLife11>
+	rdfs:label "Reisen zu Seuchenbekämpfung und Cholerastudien nach Süd-Russland (Wolgagebiet und Kaspisches Meer), Russisch-Mittelasien (Ural) und nach St. Petersburg (Obuchov-Krankenhaus)" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1903_1904_1908> .
+
+<Date/Bis_1884>
+	a drw-model:Date ;
+	rdfs:label "Bis 1884" .
+
+<StationOfLife/30349hasStationOfLife4>
+	rdfs:label "zur Bekämpfung der Cholera in Russland in Astrachan’ eingesetzt" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1892> .
+
+<StationOfLife/30349hasStationOfLife6>
+	rdfs:label "Assistent am Hygiene-Institut der Universität München bei Max Josef von #internNameLink#30799#endNameNr#Pettenkofer#/internNameLink# (1818-1901), Hans #name#Buchner#/name# (1850-1902) und Max von #name#Gruber#/name# (1853-1927)" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1894_1895> .
+
+<Education/30349hasEducation0>
+	rdfs:label "Besuch des Königlichen Wilhelms-Gymnasiums in Berlin" ;
+	drw-model:began <Date/Bis_1884> ;
+	a drw-model:Education .
+
+<Education/30349hasEducation2>
+	rdfs:label "Promotion zum Dr. med. an der Universität München bei Wilhelm von #name#Ziemssen#/name# (1829-1902)" ;
+	drw-model:began <Date/1889> ;
+	a drw-model:Education .
+
+<Date/1912_1922>
+	a drw-model:Date ;
+	rdfs:label "1912-1922" .
+
+<Date/ab_1891>
+	a drw-model:Date ;
+	rdfs:label "ab 1891" .
+
+<GeneralLabor/30349hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Mikrobiologe" .
+
+<StationOfLife/30349hasStationOfLife19>
+	rdfs:label "Enthebung von allen Ämtern und vorzeitige Emeritierung" ;
+	drw-model:began <Date/1933> ;
+	a drw-model:StationOfLife .
+
+<StationOfLife/30349hasStationOfLife1>
+	drw-model:began <Date/1890_1891> ;
+	rdfs:label "Assistent an der Universität Berlin, zunächst in der bakteriologischen Abteilung, danach in der chemischen Abteilung des Pathologischen Instituts bei Ernst Leopold #name#Salkowski#/name# (1844-1923) und am Institut für Pathologische Anatomie bei R. #internNameLink#31069#endNameNr#Virchow#/internNameLink#" ;
+	a drw-model:StationOfLife .
+
+<Date/1933>
+	a drw-model:Date ;
+	rdfs:label "1933" .
+
+<Date/1892>
+	a drw-model:Date ;
+	rdfs:label "1892" .
+
+<StationOfLife/30349hasStationOfLife12>
+	a drw-model:StationOfLife ;
+	rdfs:label "erneut bei #internNameLink#30785#endNameNr#Pavlov#/internNameLink# am IEM in St. Petersburg" ;
+	drw-model:began <Date/1905> .
+
+<Date/1894_1895>
+	a drw-model:Date ;
+	rdfs:label "1894-1895" .
+
+<Date/1910>
+	a drw-model:Date ;
+	rdfs:label "1910" .
+
+<Date/1901_1909>
+	a drw-model:Date ;
+	rdfs:label "1901, 1909" .
+
+<Date/1890_1891>
+	a drw-model:Date ;
+	rdfs:label "1890-1891" .
+
+<Date/1903_1904_1908>
+	rdfs:label "1903, 1904, 1908" ;
+	a drw-model:Date .
+
+<StationOfLife/30349hasStationOfLife9>
+	rdfs:label "Forschungsreise nach Indien (Peststudien in Bombay)" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1901_1909> .
+
+<StationOfLife/30349hasStationOfLife17>
+	rdfs:label "im I. Weltkrieg Korps- und Armeehygieniker an verschiedenen Fronten, u. a. 1918 in Odessa" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1914_1918> .
+
+<NameVariation/30349var0>
+	rdfs:label "Ган, Мартын Альбертович"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Gan, Martyn Al’bertovič"@de .
+
+<Date/1889>
+	a drw-model:Date ;
+	rdfs:label "1889" .
+
+<Date/1922_1933>
+	a drw-model:Date ;
+	rdfs:label "1922-1933" .
+
+<Date/1914_1918>
+	rdfs:label "1914-1918" ;
+	a drw-model:Date .
+
+<StationOfLife/30349hasStationOfLife14>
+	drw-model:began <Date/1911_1912> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "o. Professor und Direktor des Hygienischen Instituts an der Universität Königsberg" .
+
+<StationOfLife/30349hasStationOfLife20>
+	drw-model:began <Date/ohne_Datum> ;
+	rdfs:label "" ;
+	a drw-model:StationOfLife .
+
+<Date/1884_1889>
+	a drw-model:Date ;
+	rdfs:label "1884-1889" .
+
+<Date/1911_1912>
+	a drw-model:Date ;
+	rdfs:label "1911-1912" .
+
+<ImportantPerson/30349>
+	drw-model:hasGeneralLabor <GeneralLabor/30349hasGeneralLabor1> ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife19> ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife0> ;
+	drw-model:fatherIs <RelatedPerson/30349fatherIs> ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife15> ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife9> ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife11> ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife4> ;
+	drw-model:drwID "30349" ;
+	drw-model:motherIs <RelatedPerson/30349motherIs> ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife5> ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife1> ;
+	drw-model:hasEducation <Education/30349hasEducation3> ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife12> ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife18> ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife20> ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife6> ;
+	rdfs:label "Hahn, Martin John#footnote1#" ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife16> ;
+	drw-model:hasEducation <Education/30349hasEducation2> ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife13> ;
+	drw-model:hasSibling <RelatedPerson/30349hasSibling> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <Education/30349hasEducation1> ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife10> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30349hasGeneralLabor0> ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife17> ;
+	drw-model:hasMainName <MainName/30349> ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife7> ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife14> ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife2> ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife3> ;
+	drw-model:hasStationOfLife <StationOfLife/30349hasStationOfLife8> ;
+	drw-model:hasEducation <Education/30349hasEducation0> .
+
+<StationOfLife/30349hasStationOfLife18>
+	rdfs:label "o. Professor und Direktor des Hygiene-Instituts in Berlin" ;
+	drw-model:began <Date/1922_1933> ;
+	a drw-model:StationOfLife .
+
+<StationOfLife/30349hasStationOfLife15>
+	rdfs:label "o. Professor an der Universität Freiburg i. Br." ;
+	drw-model:began <Date/1912_1922> ;
+	a drw-model:StationOfLife .
+
+<StationOfLife/30349hasStationOfLife7>
+	drw-model:began <Date/1895_1901> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Privatdozent an der Universität München" .
+
+<Education/30349hasEducation1>
+	drw-model:began <Date/1884_1889> ;
+	a drw-model:Education ;
+	rdfs:label "Studium der Medizin in Heidelberg, München (1886 Physikum), Berlin und Freiburg i. Br." .
+
+<StationOfLife/30349hasStationOfLife3>
+	drw-model:began <Date/1891_1893> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Forschungsaufenthalt in der physiologisch-chemischen Abteilung des Instituts für experimentelle Medizin (IEM) in St. Petersburg bei I. P. #internNameLink#30785#endNameNr#Pavlov#/internNameLink#" .
+
+<Date/1891_1893>
+	a drw-model:Date ;
+	rdfs:label "1891-1893" .
+
+<Education/30349hasEducation3>
+	rdfs:label "Habilitation in Hygiene an der Universität München" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1895> .
+
+<GeneralLabor/30349hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Hygiene" .
+
+<StationOfLife/30349hasStationOfLife5>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1893_1894> ;
+	rdfs:label "Assistent am Pathologischen Institut der Universität Halle" .
+

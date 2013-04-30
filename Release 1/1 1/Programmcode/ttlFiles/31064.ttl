@@ -1,0 +1,229 @@
+
+<Date/1894_1914>
+	a drw-model:Date ;
+	rdfs:label "1894-1914" .
+
+<StationOfLife/31064hasStationOfLife5>
+	a drw-model:StationOfLife ;
+	rdfs:label "Professor (1894 ao und 1897#footnote5# o. Prof.) für Physiologie an der Novorossijskij Universität Odessa" ;
+	drw-model:began <Date/1894_1914> .
+
+<StationOfLife/31064hasStationOfLife1>
+	rdfs:label "Arzt in Weiterbildung am Klinischen Krankenhaus der MMA" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1886_1889> .
+
+<Education/31064hasEducation1>
+	a drw-model:Education ;
+	drw-model:began <Date/1877_1882> ;
+	rdfs:label "Studium an der naturwissenschaftlichen Abteilung der Physiko-mathematischen Fakultät der Universität St. Petersburg bei Nikolaj Nikolaevič #internNameLink#10015#endNameNr#Beketov#/internNameLink# (1826-1911), Aleksandr Michajlovič #internNameLink#10030#endNameNr#Butlerov#/internNameLink# (1828-1886), Vasilij Vasil’evič #name#Dokučaev#/name# (1846-1903), Dmitrij Ivanovič #internNameLink#10141#endNameNr#Mendeleev#/internNameLink# (1834-1907) und I. M. #internNameLink#30924#endNameNr#Sečenov#/internNameLink#" .
+
+<StationOfLife/31064hasStationOfLife3>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1890_1892> ;
+	rdfs:label "Weiterbildung in Deutschland, Schweiz und Frankreich (Delegierung):- bei Ernst Leopold #name#Salkowski#/name# (1844-1923) an der Universität Berlin- bei E. #internNameLink#30800#endNameNr#Pflüger#/internNameLink# an der Universität Bonn- bei Marcel #internNameLink#10151#endNameNr#Nencki#/internNameLink# (1847-1901) an der Universität Bern- bei Il’ja I’jič #internNameLink#30695#endNameNr#Mečnikov#/internNameLink# (1845-1916) am Institut Pasteur in Paris" .
+
+<Date/1877>
+	a drw-model:Date ;
+	rdfs:label "1877" .
+
+<Education/31064hasEducation3>
+	drw-model:began <Date/1888> ;
+	a drw-model:Education ;
+	rdfs:label "Dr. med. an der MMA St. Petersburg" .
+
+<Date/1905>
+	a drw-model:Date ;
+	rdfs:label "1905" .
+
+<NameVariation/31064var1>
+	rdfs:label "Verigo, Bronislav Valent Fortunatovič"@de ;
+	rdfs:label "Вериго, Бронислав Валент Фортунатович"@ru ;
+	a drw-model:NameVariation .
+
+<Date/1920_1925>
+	a drw-model:Date ;
+	rdfs:label "1920-1925" .
+
+<Date/1892_1894>
+	rdfs:label "1892-1894" ;
+	a drw-model:Date .
+
+<Date/1890_1892>
+	rdfs:label "1890-1892" ;
+	a drw-model:Date .
+
+<StationOfLife/31064hasStationOfLife13>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<MainName/31064>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/31064var1> ;
+	rdfs:label "Verigo, Bronislav Fortunatovič" ;
+	drw-model:hasNameVariation <NameVariation/31064var2> ;
+	drw-model:hasNameVariation <NameVariation/31064var0> .
+
+<StationOfLife/31064hasStationOfLife11>
+	rdfs:label "Dekan der Medizinischen Fakultät an der Universität Perm’" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1920_1925> .
+
+<StationOfLife/31064hasStationOfLife4>
+	rdfs:label "Privatdozent für Physiologie an der MMA" ;
+	drw-model:began <Date/1892_1894> ;
+	a drw-model:StationOfLife .
+
+<RelatedPerson/31064fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Fortunat, Lehrer für Altkirchenslawisch am Gymnasium in Dünaburg" .
+
+<StationOfLife/31064hasStationOfLife9>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1915_1917> ;
+	rdfs:label "Forschungstätigkeit am Staatlichen Naturwissenschaftlichen Institut „P. F. Lesgaft“, zugleich (Privat)Dozent am Psycho-Neurologischen Institut von Vladimir Michajlovič #internNameLink#30059#endNameNr#Bechterev#/internNameLink# (1857-1927) und an der MMA in Petrograd" .
+
+<RelatedPerson/31064wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anna Stepanovna" .
+
+<Date/1915_1917>
+	rdfs:label "1915-1917" ;
+	a drw-model:Date .
+
+<StationOfLife/31064hasStationOfLife7>
+	a drw-model:StationOfLife ;
+	rdfs:label "Aktive Teilnahme in der Universitätskommission im Kampf gegen die Judenpogrome, danach Verfolgung" ;
+	drw-model:began <Date/1905> .
+
+<Date/1922_1925>
+	rdfs:label "1922-1925" ;
+	a drw-model:Date .
+
+<StationOfLife/31064hasStationOfLife2>
+	rdfs:label "Prosektor am Lehrstuhl für Physiologie an der MMA" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1889_1890#footnote4#> .
+
+<Date/1888>
+	a drw-model:Date ;
+	rdfs:label "1888" .
+
+<StationOfLife/31064hasStationOfLife0>
+	drw-model:began <Date/1882_1888> ;
+	rdfs:label "Assistent von #internNameLink#30924#endNameNr#Sečenov#/internNameLink# an den Höheren Kursen für Frauen (Bestuževskie kursy)" ;
+	a drw-model:StationOfLife .
+
+<Education/31064hasEducation0>
+	rdfs:label "Abschluss des Gymnasiums in Vitebsk (Weißrussland)" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1877> .
+
+<NameVariation/31064var2>
+	a drw-model:NameVariation ;
+	rdfs:label "Werigo, Bronislaw"@de .
+
+<Education/31064hasEducation2>
+	drw-model:began <Date/1883_1886> ;
+	rdfs:label "Studium der Medizin an der Militärmedizinischen Akademie (MMA) St. Petersburg bei N. E. #internNameLink#31083#endNameNr#Vvedenskij#/internNameLink#, I. R. #internNameLink#30479#endNameNr#Tarchanov#/internNameLink#, Nikolaj Pavlovič #internNameLink#30579#endNameNr#Kravkov#/internNameLink# (1865-1924) und I. P. #internNameLink#30785#endNameNr#Pavlov#/internNameLink#" ;
+	a drw-model:Education .
+
+<Date/1877_1882>
+	rdfs:label "1877-1882" ;
+	a drw-model:Date .
+
+<Date/1883_1886>
+	a drw-model:Date ;
+	rdfs:label "1883-1886" .
+
+<Date/1886_1889>
+	a drw-model:Date ;
+	rdfs:label "1886-1889" .
+
+<NameVariation/31064var0>
+	rdfs:label "Verigo, Bronislav-Valentij Fortunatovič"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Вериго, Бронислав-Валентий Фортунатович"@ru .
+
+<GeneralLabor/31064hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<ImportantPerson/31064>
+	drw-model:hasStationOfLife <StationOfLife/31064hasStationOfLife9> ;
+	drw-model:hasEducation <Education/31064hasEducation1> ;
+	rdfs:label "Verigo, Bronislav Fortunatovič" ;
+	drw-model:hasStationOfLife <StationOfLife/31064hasStationOfLife13> ;
+	drw-model:hasMainName <MainName/31064> ;
+	drw-model:hasStationOfLife <StationOfLife/31064hasStationOfLife6> ;
+	drw-model:hasStationOfLife <StationOfLife/31064hasStationOfLife5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31064hasGeneralLabor0> ;
+	drw-model:hasStationOfLife <StationOfLife/31064hasStationOfLife8> ;
+	drw-model:hasStationOfLife <StationOfLife/31064hasStationOfLife1> ;
+	drw-model:wasMarriedTo <RelatedPerson/31064wasMarriedTo> ;
+	drw-model:hasDescendant <RelatedPerson/31064hasDescendant> ;
+	drw-model:hasStationOfLife <StationOfLife/31064hasStationOfLife11> ;
+	drw-model:hasEducation <Education/31064hasEducation2> ;
+	drw-model:hasStationOfLife <StationOfLife/31064hasStationOfLife4> ;
+	drw-model:hasStationOfLife <StationOfLife/31064hasStationOfLife12> ;
+	drw-model:hasStationOfLife <StationOfLife/31064hasStationOfLife0> ;
+	a drw-model:ImportantPerson ;
+	drw-model:fatherIs <RelatedPerson/31064fatherIs> ;
+	drw-model:hasStationOfLife <StationOfLife/31064hasStationOfLife7> ;
+	drw-model:hasEducation <Education/31064hasEducation0> ;
+	drw-model:hasStationOfLife <StationOfLife/31064hasStationOfLife2> ;
+	drw-model:hasStationOfLife <StationOfLife/31064hasStationOfLife10> ;
+	drw-model:hasEducation <Education/31064hasEducation3> ;
+	drw-model:drwID "31064" ;
+	drw-model:hasStationOfLife <StationOfLife/31064hasStationOfLife3> .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<Date/1914>
+	rdfs:label "1914" ;
+	a drw-model:Date .
+
+<RelatedPerson/31064hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Magdalina Bronislavovna, verh. Vlastova, in 2. Ehe verh. Čudnovskaja (1891-1994), Malerin, Grafikerin#footnote2#
+Aleksandr Bronislavovič (1893-1953), Geophysiker, Professor am Radiuminstitut Leningrad#footnote3#" .
+
+<Date/1917_1925>
+	rdfs:label "1917-1925" ;
+	a drw-model:Date .
+
+<Date/1899>
+	rdfs:label "1899" ;
+	a drw-model:Date .
+
+<Date/1882_1888>
+	a drw-model:Date ;
+	rdfs:label "1882-1888" .
+
+<StationOfLife/31064hasStationOfLife8>
+	drw-model:began <Date/1914> ;
+	rdfs:label "Einrichtung eines Forschungslaboratoriums und Fotokabinetts in Vlasovo bei Moskau, Forschungen in Elektrophysiologie" ;
+	a drw-model:StationOfLife .
+
+<Date/1889_1890#footnote4#>
+	a drw-model:Date ;
+	rdfs:label "1889-1890#footnote4#" .
+
+<StationOfLife/31064hasStationOfLife10>
+	rdfs:label "Professor für Physiologie und Gründer des Physiologischen Laboratoriums an der Universität Perm’" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1917_1925> .
+
+<StationOfLife/31064hasStationOfLife6>
+	drw-model:began <Date/1899> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Auslandsaufenthalt (sieben Monate)" .
+
+<StationOfLife/31064hasStationOfLife12>
+	rdfs:label "Direktor des Biologischen Wissenschaftlichen Forschungsinstitutes in Perm’" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1922_1925> .
+

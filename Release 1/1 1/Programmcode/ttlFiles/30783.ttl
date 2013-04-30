@@ -1,0 +1,318 @@
+
+<RelatedPerson/30783wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ol’ga Vasil’evna Pašutina" .
+
+<Date/1876_1878>
+	rdfs:label "1876-1878" ;
+	a drw-model:Date .
+
+<WPublication/30783hasW0>
+	rdfs:label "Nekotorye opyty nad fermentami, prevraščajuščimi v gljukozu krachmal i trostnikovyj sachar. Diss. Sankt-Peterburg 1870#footnote2#, 300 S." ;
+	a drw-model:WPublication .
+
+<P/30783hasP2>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Al’manach dejatelej, zit. n. WBIS RBA (<b>SL</b>)." .
+
+<Date/1859_1862>
+	a drw-model:Date ;
+	rdfs:label "1859-1862" .
+
+<Date/1862_1868>
+	a drw-model:Date ;
+	rdfs:label "1862-1868" .
+
+<Date/ab_1889>
+	rdfs:label "ab 1889" ;
+	a drw-model:Date .
+
+<P/30783hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Ivanovskij 1898 (<b>SL</b>), Bildeinlage zw. S. 720-721; Ausschnitt in: Volkov/Kulikova 2003 b (<b>SL</b>), Bildeinlage zw. S. 368-369." .
+
+<StationOfLife/30783hasStationOfLife5>
+	drw-model:began <Date/1890_1901> ;
+	rdfs:label "Leiter der MMA" ;
+	a drw-model:StationOfLife .
+
+<HounoursAndAwardsComment/30783hasHounoursAndAwardsComment>
+	rdfs:label "(Auswahl)" ;
+	a drw-model:HounoursAndAwardsComment .
+
+<StationOfLife/30783hasStationOfLife1>
+	rdfs:label "ao. Professor und Leiter des Lehrstuhls für allgemeine Pathologie an der Universität Kazan’" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1874_1879> .
+
+<SLPublication/30783hasSL0>
+	rdfs:label "Ivanovskij 1898 - Istorija Imperatorskoj voenno-medicinskoj (byvšej mediko-chirurgičeskoj) akademii za sto let 1798-1898. Glavnyj red. Ivanovskij. Sankt-Peterburg 1898, 693-697, 716, 806-807." ;
+	a drw-model:SLPublication .
+
+<GPVPublication/30783hasGPV2>
+	rdfs:label "V[iktor] V[asil’evič] Pašutin. Izbrannye proizvedenija. Red. A. D. Ado, A. M. Chomjakov. Moskva 1952, 347 S.; darin S. 343-345: Pečatnye trudy V. V. Pašutina (1865-1902)." ;
+	a drw-model:GPVPublication .
+
+<HonoursAndAwards/30783hasHounoursAndAwards>
+	rdfs:label "„Wirklicher Russischer Staatsrat“<br>1890 Akademiemitglied an der MMA<br>1892 „Geheimrat“<br>1896 „Verdienter Professor“ der MMA<br>St.-Annen-Orden 1. Klasse" ;
+	a drw-model:HonoursAndAwards .
+
+<Education/30783hasEducation4>
+	rdfs:label "Dr. med. an der MCA" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1870> .
+
+<StationOfLife/30783hasStationOfLife7>
+	drw-model:began <Date/ab_1889> ;
+	rdfs:label "Vorsitzender des Medizinalrats des Ministeriums des Innern" ;
+	a drw-model:StationOfLife .
+
+<StationOfLife/30783hasStationOfLife2>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1876_1878> ;
+	rdfs:label "zugleich Vorlesungen in Pharmakologie und Physiologie an der Universität Kazan’" .
+
+<Education/30783hasEducation5>
+	drw-model:began <Date/1871_1873> ;
+	rdfs:label "Studienaufenthalte in Deutschland:
+- 1871 bei C. #internNameLink#30664#endNameNr#Ludwig#/internNameLink#, E. #internNameLink#30372#endNameNr#Hering#/internNameLink# und Karl-Hugo #name#Huppert#/name# (1832-1904) an der Universität Leipzig
+- 1873 bei Friedrich Daniel von #name#Recklinghausen#/name# (1833-1910) und E. F. E. #internNameLink#30395#endNameNr#Hoppe-Seyler#/internNameLink# an der Universität Straßburg" ;
+	a drw-model:Education .
+
+<GPVPublication/30783hasGPV1>
+	rdfs:label "Publikationen 1865-1886, in: Zmeev, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<Date/1890_1901>
+	a drw-model:Date ;
+	rdfs:label "1890-1901" .
+
+<StationOfLife/30783hasStationOfLife0>
+	drw-model:began <Date/1873_1874> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Privatdozent für Physiologie der Ernährung an der MCA" .
+
+<Education/30783hasEducation3>
+	rdfs:label "Weiterbildung an der MCA im Laboratorium bei I. M. #internNameLink#30924#endNameNr#Sečenov#/internNameLink# und an der Klinik für innere Medizin bei Sergej Petrovič #internNameLink#30136#endNameNr#Botkin#/internNameLink# (1832-1889)" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1869_1871> .
+
+<WLStationOfLife/30783hasWL0>
+	rdfs:label "Begründer der Pathophysiologie in Russland" ;
+	a drw-model:WLStationOfLife .
+
+<Membership/30783hasMembership>
+	rdfs:label "Voenno-sanitarnoe obščestvo v Gel’sinforse [Militärmedizinische Gesellschaft in Helsingfors] (1886), Obščestvo russkich vračej v S.-Peterburge [Gesellschaft russischer Ärzte in St. Petersburg] (1893), Obščestvo nevropatologov i psichiatrov pri Kazanskom universitete [Gesellschaft der Neuropathologen und Psychiater der Universität Kazan’] (1893), Obščestvo naučnoj mediciny i gigieny pri Char’kovskom universitete [Gesellschaft für wissenschaftliche Medizin und Hygiene an der Universität Char’kov] (1894), Russkoe chirurgičeskoe obščestvo Pirogova [Russische chirurgische Pirogov-Gesellschaft] (1897), sowie weitere medizinische Gesellschaften, z. B. Gesellschaft der Ärzte in Donsk, Kiev, Kostroma, Minsk, Odessa, Simbirsk, Royal Academy London (1900) u. a." ;
+	a drw-model:Membership .
+
+<WLStationOfLife/30783hasWL6>
+	rdfs:label "Autor des ersten russischen Lehrbuchs zur Pathophysiologie" ;
+	a drw-model:WLStationOfLife .
+
+<Education/30783hasEducation1>
+	drw-model:began <Date/1859_1862> ;
+	a drw-model:Education ;
+	rdfs:label "Besuch des Priesterseminars in Voronež" .
+
+<SLPublication/30783hasSL5>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 344-345." ;
+	a drw-model:SLPublication .
+
+<GPVPublication/30783hasGPV0>
+	rdfs:label "Publikationen 1865-1879 (13 Nrn.), in: Zagoskin 1904, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<GeneralLabor/30783hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Pathologie und Pathophysiologie" .
+
+<NameVariation/30783var0>
+	rdfs:label "Paschutin, Victor/Wic./B.#footnote1#"@de ;
+	a drw-model:NameVariation .
+
+<Date/1885_1889>
+	a drw-model:Date ;
+	rdfs:label "1885-1889" .
+
+<WLStationOfLife/30783hasWL4>
+	rdfs:label "1890 Entwicklung des ersten Kalorimeters zur Beobachtung des menschlichen Körpers (#italic#Pašutina kalorimetr#/italic#)" ;
+	a drw-model:WLStationOfLife .
+
+<Date/1873_1874>
+	a drw-model:Date ;
+	rdfs:label "1873-1874" .
+
+<SLPublication/30783hasSL3>
+	a drw-model:SLPublication ;
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 355, 433-447; SU 346, 3-4." .
+
+<Date/1869_1871>
+	rdfs:label "1869-1871" ;
+	a drw-model:Date .
+
+<StationOfLife/30783hasStationOfLife8>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<WLStationOfLife/30783hasWL2>
+	rdfs:label "Initiator zahlreicher Erneuerungen an der MCA/MMA (z. B. Fakultäts- und Klinikgründungen, Baumaßnahmen und Stipendien, Gründung des Akademiejournals #italic#Izvestija Imperatorskoj voenno-medicinskoj akademii#/italic#)" ;
+	a drw-model:WLStationOfLife .
+
+<WPublication/30783hasW1>
+	rdfs:label "Lekcii obščej patologii (patologičeskoj fiziologii). Bd. 1-2. Kazan’ 1878-1881; Neuausg. u. d. T.: Kurs obščej i ėksperimental’noj patologii (patologičeskoj fiziologii). Bd. 1-2. Sankt-Peterburg 1885-1902." ;
+	a drw-model:WPublication .
+
+<Date/1874_1879>
+	a drw-model:Date ;
+	rdfs:label "1874-1879" .
+
+<Date/1887>
+	rdfs:label "1887" ;
+	a drw-model:Date .
+
+<StationOfLife/30783hasStationOfLife4>
+	rdfs:label "Wissenschaftlicher Sekretär der MMA" ;
+	drw-model:began <Date/1885_1889> ;
+	a drw-model:StationOfLife .
+
+<WLStationOfLife/30783hasWL3>
+	rdfs:label "Forschungsthemen: Pathologie des Stoffwechsels, Pathologische Prozesse im Atemwegssystem, Leber- und Nierenpathophysiologie, Thermoregulation, Grundmechanismen der Krankheitsentstehung, physiologische Wirkung des Fastens, Sauerstoffmangel, Vitaminmangel u. a." ;
+	a drw-model:WLStationOfLife .
+
+<P/30783hasP1>
+	rdfs:label "Portrait in: Professora MCA/VMA (<b>SL</b>), 14." ;
+	a drw-model:P .
+
+<GPVPublication/30783hasGPV3>
+	rdfs:label "Bibliografičeskij ukazatel’: I.: Pečatnye trudy V. V. Pašutina (1865-1902, 27 Nrn.), in: Veselkin 1950 (<b>SL</b>), 221-222." ;
+	a drw-model:GPVPublication .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<SLPublication/30783hasSL1>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 31, 56, 101, 102, 139, 235." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30783hasStationOfLife6>
+	drw-model:began <Date/1887> ;
+	rdfs:label "Mitglied des Ministerialrats für Volksaufklärung" ;
+	a drw-model:StationOfLife .
+
+<Date/1870>
+	a drw-model:Date ;
+	rdfs:label "1870" .
+
+<P/30783hasP4>
+	rdfs:label "Portraits in: Veselkin 1950 (<b>SL</b>): Brustbild (vorderer Umschlag), Foto aus den 70-er Jahren (vor S. 3), Foto als Absolvent der MCA 1868 (S. 19)." ;
+	a drw-model:P .
+
+<RelatedPerson/30783fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Vasilij, Geistlicher" .
+
+<StationOfLife/30783hasStationOfLife3>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1879_1890> ;
+	rdfs:label "o. Professor und Leiter des Lehrstuhls für allgemeine und experimentelle Pathologie an der MCA (ab 1881 Militär-medizinische Akademie [MMA] St. Petersburg)" .
+
+<Education/30783hasEducation2>
+	drw-model:began <Date/1862_1868> ;
+	a drw-model:Education ;
+	rdfs:label "Studium an der Mediko-Chirurgischen Akademie (MCA) in St. Petersburg" .
+
+<WLStationOfLife/30783hasWL1>
+	rdfs:label "Gründer des Laboratoriums für experimentelle Pathologie an der Universität Kazan’" ;
+	a drw-model:WLStationOfLife .
+
+<MainName/30783>
+	a drw-model:MainName ;
+	rdfs:label "Pašutin, Viktor Vasil'evič" ;
+	drw-model:hasNameVariation <NameVariation/30783var0> .
+
+<Date/1871_1873>
+	a drw-model:Date ;
+	rdfs:label "1871-1873" .
+
+<Education/30783hasEducation0>
+	drw-model:began <Date/Bis_1859> ;
+	a drw-model:Education ;
+	rdfs:label "Besuch der Kirchenschule in Voronež" .
+
+<ImportantPerson/30783>
+	drw-model:hasSL <SLPublication/30783hasSL0> ;
+	drw-model:hasStationOfLife <StationOfLife/30783hasStationOfLife0> ;
+	drw-model:hasGPV <GPVPublication/30783hasGPV0> ;
+	drw-model:wasMarriedTo <RelatedPerson/30783wasMarriedTo> ;
+	drw-model:hasP <P/30783hasP2> ;
+	drw-model:hasEducation <Education/30783hasEducation2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30783hasGeneralLabor0> ;
+	drw-model:hasSL <SLPublication/30783hasSL2> ;
+	drw-model:hasWL <WLStationOfLife/30783hasWL5> ;
+	drw-model:hasStationOfLife <StationOfLife/30783hasStationOfLife1> ;
+	drw-model:hasWL <WLStationOfLife/30783hasWL1> ;
+	drw-model:hasW <WPublication/30783hasW1> ;
+	drw-model:hasWL <WLStationOfLife/30783hasWL6> ;
+	drw-model:hasEducation <Education/30783hasEducation1> ;
+	drw-model:hasEducation <Education/30783hasEducation5> ;
+	drw-model:hasSL <SLPublication/30783hasSL4> ;
+	drw-model:hasP <P/30783hasP1> ;
+	drw-model:hasSL <SLPublication/30783hasSL1> ;
+	drw-model:hasP <P/30783hasP4> ;
+	drw-model:hasWL <WLStationOfLife/30783hasWL3> ;
+	drw-model:hasWL <WLStationOfLife/30783hasWL4> ;
+	drw-model:hasP <P/30783hasP0> ;
+	drw-model:hasStationOfLife <StationOfLife/30783hasStationOfLife2> ;
+	drw-model:hasGPV <GPVPublication/30783hasGPV3> ;
+	drw-model:hasW <WPublication/30783hasW0> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/30783hasHounoursAndAwards> ;
+	drw-model:hasStationOfLife <StationOfLife/30783hasStationOfLife5> ;
+	drw-model:hasWL <WLStationOfLife/30783hasWL2> ;
+	drw-model:hasStationOfLife <StationOfLife/30783hasStationOfLife6> ;
+	drw-model:hasMembership <Membership/30783hasMembership> ;
+	drw-model:hasHounoursAndAwardsComment <HounoursAndAwardsComment/30783hasHounoursAndAwardsComment> ;
+	drw-model:hasGPV <GPVPublication/30783hasGPV2> ;
+	drw-model:hasSL <SLPublication/30783hasSL5> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <StationOfLife/30783hasStationOfLife3> ;
+	drw-model:fatherIs <RelatedPerson/30783fatherIs> ;
+	drw-model:hasMainName <MainName/30783> ;
+	drw-model:hasEducation <Education/30783hasEducation0> ;
+	drw-model:hasP <P/30783hasP3> ;
+	drw-model:hasStationOfLife <StationOfLife/30783hasStationOfLife4> ;
+	drw-model:hasStationOfLife <StationOfLife/30783hasStationOfLife7> ;
+	drw-model:hasStationOfLife <StationOfLife/30783hasStationOfLife8> ;
+	drw-model:hasWL <WLStationOfLife/30783hasWL0> ;
+	drw-model:hasEducation <Education/30783hasEducation3> ;
+	drw-model:hasSL <SLPublication/30783hasSL3> ;
+	drw-model:drwID "30783" ;
+	drw-model:hasEducation <Education/30783hasEducation4> ;
+	rdfs:label "Pašutin, Viktor Vasil'evič" ;
+	drw-model:hasGPV <GPVPublication/30783hasGPV1> .
+
+<SLPublication/30783hasSL4>
+	rdfs:label "Veselkin, Petr Nikolaevič: V. V. Pašutin. Moskva 1950, 230 S." ;
+	a drw-model:SLPublication .
+
+<P/30783hasP3>
+	rdfs:label "Portrait in: V. V. Pašutin. Izbrannye proizvedenija (<b>GPV</b>), nach dem Titelblatt." ;
+	a drw-model:P .
+
+<WLStationOfLife/30783hasWL5>
+	rdfs:label "Entwicklung eines Schutzanzugs für in Epidemiezentren beschäftigte Personen" ;
+	a drw-model:WLStationOfLife .
+
+<Date/1879_1890>
+	a drw-model:Date ;
+	rdfs:label "1879-1890" .
+
+<Date/Bis_1859>
+	a drw-model:Date ;
+	rdfs:label "Bis 1859" .
+
+<SLPublication/30783hasSL2>
+	a drw-model:SLPublication ;
+	rdfs:label "Professora MCA/VMA - Professora Voenno-medicinskoj (Mediko-chirurgičeskoj) akademii (1798-1998). Glavnyj red. Jurij Leonidovič Ševčenko. Sankt-Peterburg 1998, 14-15, 171-172." .
+

@@ -1,0 +1,334 @@
+
+<StationOfLife/30496hasStationOfLife3>
+	rdfs:label "Ordinator am Militärlandhospital Nr. 1 in St. Petersburg" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1852_1860> .
+
+<Education/30496hasEducation4>
+	drw-model:began <Date/1848> ;
+	a drw-model:Education ;
+	rdfs:label "Dr. med. an der Universität Dorpat" .
+
+<P/30496hasP3>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Professora MCA/VMA (<b>SL</b>)." .
+
+<ImportantPerson/30496>
+	drw-model:hasStationOfLife <StationOfLife/30496hasStationOfLife4> ;
+	drw-model:hasStationOfLife <StationOfLife/30496hasStationOfLife6> ;
+	drw-model:hasEducation <Education/30496hasEducation4> ;
+	drw-model:hasP <P/30496hasP2> ;
+	drw-model:hasP <P/30496hasP0> ;
+	drw-model:fatherIs <RelatedPerson/30496fatherIs> ;
+	drw-model:hasW <WPublication/30496hasW2> ;
+	drw-model:hasWL <WLStationOfLife/30496hasWL1> ;
+	drw-model:hasSL <SLPublication/30496hasSL2> ;
+	drw-model:hasSL <SLPublication/30496hasSL7> ;
+	drw-model:hasEducation <Education/30496hasEducation5> ;
+	drw-model:hasStationOfLife <StationOfLife/30496hasStationOfLife8> ;
+	drw-model:hasP <P/30496hasP4> ;
+	drw-model:hasMembership <Membership/30496hasMembership> ;
+	drw-model:hasSL <SLPublication/30496hasSL6> ;
+	drw-model:hasEducation <Education/30496hasEducation0> ;
+	drw-model:hasW <WPublication/30496hasW3> ;
+	drw-model:hasSL <SLPublication/30496hasSL5> ;
+	drw-model:hasStationOfLife <StationOfLife/30496hasStationOfLife7> ;
+	drw-model:hasP <P/30496hasP1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30496hasGeneralLabor0> ;
+	drw-model:hasStationOfLife <StationOfLife/30496hasStationOfLife1> ;
+	drw-model:hasEducation <Education/30496hasEducation1> ;
+	drw-model:hasSL <SLPublication/30496hasSL1> ;
+	drw-model:hasW <WPublication/30496hasW0> ;
+	rdfs:label "Jakubovič, Nikolaj Martynovič" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <StationOfLife/30496hasStationOfLife11> ;
+	drw-model:hasSL <SLPublication/30496hasSL4> ;
+	drw-model:hasWL <WLStationOfLife/30496hasWL3> ;
+	drw-model:hasStationOfLife <StationOfLife/30496hasStationOfLife3> ;
+	drw-model:hasStationOfLife <StationOfLife/30496hasStationOfLife0> ;
+	drw-model:hasGPV <GPVPublication/30496hasGPV0> ;
+	drw-model:hasP <P/30496hasP3> ;
+	drw-model:drwID "30496" ;
+	drw-model:hasStationOfLife <StationOfLife/30496hasStationOfLife5> ;
+	drw-model:hasSL <SLPublication/30496hasSL0> ;
+	drw-model:hasStationOfLife <StationOfLife/30496hasStationOfLife10> ;
+	drw-model:hasW <WPublication/30496hasW1> ;
+	drw-model:hasWL <WLStationOfLife/30496hasWL0> ;
+	drw-model:hasEducation <Education/30496hasEducation2> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/30496hasHounoursAndAwards> ;
+	drw-model:hasMainName <MainName/30496> ;
+	drw-model:hasEducation <Education/30496hasEducation3> ;
+	drw-model:hasStationOfLife <StationOfLife/30496hasStationOfLife2> ;
+	drw-model:hasWL <WLStationOfLife/30496hasWL2> ;
+	drw-model:hasStationOfLife <StationOfLife/30496hasStationOfLife9> ;
+	drw-model:hasSL <SLPublication/30496hasSL3> .
+
+<WLStationOfLife/30496hasWL0>
+	rdfs:label "Mitbegründer der Histologie und erster Inhaber des Lehrstuhls für Histologie in Russland" ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30496hasStationOfLife1>
+	rdfs:label "Ordinator am Militärhospital in Sevastopol’" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1852> .
+
+<Education/30496hasEducation0>
+	a drw-model:Education ;
+	drw-model:began <Date/Vor_1838> ;
+	rdfs:label "Besuch des Privatpensionats in Ekaterinoslav" .
+
+<StationOfLife/30496hasStationOfLife5>
+	rdfs:label "Adjunkt-Professor für für Histologie und Embryologie am Lehrstuhl für Physiologie und Entwicklungsgeschichte an der MCA" ;
+	drw-model:began <Date/1853_1857> ;
+	a drw-model:StationOfLife .
+
+<P/30496hasP0>
+	a drw-model:P ;
+	rdfs:label "Foto (Abb.) aus: Ivanovskij 1898 (<b>SL</b>), Bildeinlage zw. S. 552-553." .
+
+<P/30496hasP4>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Volkov/Kulikova 2003 b (<b>SL</b>), Bildeinlage zw. S. 528-529." .
+
+<Education/30496hasEducation2>
+	rdfs:label "Ordinator an der Klinik für Geburtshilfe, später in der Abteilung für Therapie, zuletzt Assistent des Professors für Chirurgie und Ophthalmologie Tit Lavrent’evič #name#Vancetti#/name# (1809-1888)#footnote6# an der Universität Char’kov" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1838_1840> .
+
+<StationOfLife/30496hasStationOfLife7>
+	rdfs:label "ao. Professor am Lehrstuhl für Physiologie an der MCA" ;
+	drw-model:began <Date/1857_1860> ;
+	a drw-model:StationOfLife .
+
+<P/30496hasP2>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Klišov 1986 (<b>SL</b>), 522." .
+
+<SLPublication/30496hasSL3>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30496hasSL1>
+	rdfs:label "Klišov, Aleksej Andreevič: Jakubovič Nikolaj Martynovič (1817-1879). In: Bol’šaja medicinskaja ėnciklopedija. 3. Aufl. Bd. 28. Moskva 1986, 522-523." ;
+	a drw-model:SLPublication .
+
+<Date/Vor_1838>
+	rdfs:label "Vor 1838" ;
+	a drw-model:Date .
+
+<GeneralLabor/30496hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie und Histologie" .
+
+<GPVPublication/30496hasGPV0>
+	rdfs:label "Publikationen 1848-1871 [russ. u. franz.], in: Zmeev, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<SLPublication/30496hasSL4>
+	rdfs:label "Professora MCA/VMA - Professora Voenno-medicinskoj (Mediko-chirurgičeskoj) akademii (1798-1998). Glavnyj red. Jurij Leonidovič Ševčenko. Sankt-Peterburg 1998, 162." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30496hasSL2>
+	rdfs:label "Klišov, Aleksej Andreevič: N. M. Jakubovič – pervyj russkij professor-gistolog. In: Archiv anatomii, gistologii i ėmbriologii 81 (1981) 10, 105-115." ;
+	a drw-model:SLPublication .
+
+<Date/1852_1860>
+	rdfs:label "1852-1860" ;
+	a drw-model:Date .
+
+<StationOfLife/30496hasStationOfLife8>
+	drw-model:began <Date/1858_1859> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Studienaufenthalt bei Claude #name#Bernard#/name# (1813-1878) in Frankreich" .
+
+<SLPublication/30496hasSL6>
+	rdfs:label "Vikipedija (http://ru.wikipedia.org/wiki/Якубович,_Николай_Мартынович, 13.5.2011)." ;
+	a drw-model:SLPublication .
+
+<Date/1838_1840>
+	a drw-model:Date ;
+	rdfs:label "1838-1840" .
+
+<WLStationOfLife/30496hasWL2>
+	rdfs:label "Nach ihm ist benannt:" ;
+	a drw-model:WLStationOfLife .
+
+<WPublication/30496hasW3>
+	rdfs:label "Mittheilungen über die feinere Struktur des Gehirns und Rückenmarks (Als Fortsetzung der im Bulletin de l’Académie des Sciences de St. Petersbourg niedergelegten mikroskopischen Untersuchungen). Breslau 1857, 45 S." ;
+	a drw-model:WPublication .
+
+<NameVariation/30496var1>
+	a drw-model:NameVariation ;
+	rdfs:label "Jakubowitsch, Nikolai Martinowitsch"@de .
+
+<StationOfLife/30496hasStationOfLife11>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<WPublication/30496hasW1>
+	rdfs:label "Mikroskopische Untersuchungen über die Nervenursprünge im Gehirn [1855]. Zusammen mit F. V. → Ovsjannikov. Bulletin de la Classe phisico-mathématique de l’Académie Impériale des Sciences de St.-Petersbourg 14 (1856), 173-174." ;
+	a drw-model:WPublication .
+
+<Date/1851_1852>
+	a drw-model:Date ;
+	rdfs:label "1851-1852" .
+
+<Date/1848_1850>
+	a drw-model:Date ;
+	rdfs:label "1848-1850" .
+
+<Education/30496hasEducation5>
+	rdfs:label "Weiterbildung in Deutschland:
+- bei Rudolf Albert von #internNameLink#30553#endNameNr#Koelliker#/internNameLink# (1817-1905) und R. #internNameLink#31069#endNameNr#Virchow#/internNameLink# in Würzburg
+- bei E. H. #internNameLink#30230#endNameNr#Du Bois-Reymond#/internNameLink#, Jakob #name#Moleschott#/name# (1822-1893) und J. #internNameLink#30739#endNameNr#Müller#/internNameLink# u. a. in Berlin" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1848_1850> .
+
+<Date/1853_1857>
+	rdfs:label "1853-1857" ;
+	a drw-model:Date .
+
+<WLStationOfLife/30496hasWL3>
+	rdfs:label "Westphal-Edinger-Jakubowitsch-Kern [#italic#Jadro Jakuboviča-Ėdingera-Westfalja#/italic#]#footnote7#" ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30496hasStationOfLife2>
+	rdfs:label "zeitweise im Militärmedizinischen Department als Redakteur von #italic#Voenno-medicinskij žurnal#/italic# tätig" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1852> .
+
+<SLPublication/30496hasSL5>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 528, 368-381; SU 501, 447." ;
+	a drw-model:SLPublication .
+
+<Date/1857_1860>
+	a drw-model:Date ;
+	rdfs:label "1857-1860" .
+
+<StationOfLife/30496hasStationOfLife6>
+	drw-model:began <Date/1856> ;
+	rdfs:label "Studienaufenthalte bei K. B. #internNameLink#30844#endNameNr#Reichert#/internNameLink# an der Universität Breslau sowie erneut bei #internNameLink#31069#endNameNr#Virchow#/internNameLink# und #internNameLink#30739#endNameNr#Müller#/internNameLink# in Berlin" ;
+	a drw-model:StationOfLife .
+
+<HonoursAndAwards/30496hasHounoursAndAwards>
+	rdfs:label "1869 „Staatsrat“<br>1866 Montyon-Prämie (Académie des Sciences, Paris)" ;
+	a drw-model:HonoursAndAwards .
+
+<Education/30496hasEducation1>
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Char’kov" ;
+	a drw-model:Education ;
+	drw-model:began <Date/Bis_1838#footnote5#> .
+
+<Date/1860_1868>
+	rdfs:label "1860-1868" ;
+	a drw-model:Date .
+
+<StationOfLife/30496hasStationOfLife0>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1851_1852> ;
+	rdfs:label "Arzt im Armenhaus und in einer Privatpraxis in St. Petersburg" .
+
+<P/30496hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait [Gemälde] in: Klišov 1981 (<b>SL</b>), 106." .
+
+<Education/30496hasEducation3>
+	a drw-model:Education ;
+	drw-model:began <Date/1840_1848> ;
+	rdfs:label "Prosektor und Assistent am Lehrstuhl für Anatomie an der Universität Dorpat bei A. W. #internNameLink#31075#endNameNr#Volkmann#/internNameLink#, F. H. #internNameLink#30091#endNameNr#Bidder#/internNameLink# u. a." .
+
+<StationOfLife/30496hasStationOfLife4>
+	a drw-model:StationOfLife ;
+	rdfs:label "Privatdozent für Histologie und Embryologie an der Mediko-Chirurgischen Akademie (MCA) in St. Petersburg" ;
+	drw-model:began <Date/1853> .
+
+<WLStationOfLife/30496hasWL1>
+	rdfs:label "Hauptforschungsgebiet: Mikroskopische Anatomie des zentralen Nervensystems" ;
+	a drw-model:WLStationOfLife .
+
+<Date/1840_1848>
+	a drw-model:Date ;
+	rdfs:label "1840-1848" .
+
+<StationOfLife/30496hasStationOfLife10>
+	a drw-model:StationOfLife ;
+	rdfs:label "o. Professor und Leiter des Lehrstuhls für Histologie und Embryologie an der MCA" ;
+	drw-model:began <Date/1868_1869> .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<Date/1848>
+	a drw-model:Date ;
+	rdfs:label "1848" .
+
+<SLPublication/30496hasSL0>
+	rdfs:label "Ivanovskij 1898 - Istorija Imperatorskoj voenno-medicinskoj (byvšej mediko-chirurgičeskoj) akademii za sto let 1798-1898. Glavnyj red. Ivanovskij. Sankt-Peterburg 1898, 614-615." ;
+	a drw-model:SLPublication .
+
+<Date/1853>
+	a drw-model:Date ;
+	rdfs:label "1853" .
+
+<Date/Bis_1838#footnote5#>
+	a drw-model:Date ;
+	rdfs:label "Bis 1838#footnote5#" .
+
+<StationOfLife/30496hasStationOfLife9>
+	rdfs:label "o. Professor für Physiologie und Entwicklungsgeschichte an der MCA" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1860_1868> .
+
+<Date/1852>
+	a drw-model:Date ;
+	rdfs:label "1852" .
+
+<Date/1868_1869>
+	a drw-model:Date ;
+	rdfs:label "1868-1869" .
+
+<Date/1856>
+	a drw-model:Date ;
+	rdfs:label "1856" .
+
+<NameVariation/30496var2>
+	a drw-model:NameVariation ;
+	rdfs:label "Jakubowitsch, Nicolaus von#footnote1#"@de .
+
+<RelatedPerson/30496fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Martyn, Adliger und Gutsbesitzer" .
+
+<SLPublication/30496hasSL7>
+	a drw-model:SLPublication ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 523-524." .
+
+<MainName/30496>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30496var1> ;
+	drw-model:hasNameVariation <NameVariation/30496var0> ;
+	drw-model:hasNameVariation <NameVariation/30496var2> ;
+	rdfs:label "Jakubovič, Nikolaj Martynovič" .
+
+<Membership/30496hasMembership>
+	a drw-model:Membership ;
+	rdfs:label "Deutsche Akademie der Naturforscher Leopoldina (1858)#footnote8#, Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee] (1862)" .
+
+<WPublication/30496hasW0>
+	rdfs:label "De saliva. Diss. Dorpat 1848; deutsch u. d. T.: Ueber den Speichel. Annalen der Chemie 79 (1851), 156-183." ;
+	a drw-model:WPublication .
+
+<NameVariation/30496var0>
+	a drw-model:NameVariation ;
+	rdfs:label "Jacubowitch, Nikolai Martinowitsch"@de .
+
+<Date/1858_1859>
+	a drw-model:Date ;
+	rdfs:label "1858-1859" .
+
+<WPublication/30496hasW2>
+	rdfs:label "Mikroskopische Untersuchungen über die Nervenursprünge im Rückenmarke und verlängertem Marke, über die Empfindungszellen und sympatischen Zellen in denselben und über die Structur der Primitivnervenzellen, Nervenfasern und der Nerven überhaupt [1856]. Bulletin de la Classe phisico-mathématique de l’Académie Impériale des Sciences de St.-Petersbourg 15 (1857), 1-11." ;
+	a drw-model:WPublication .
+

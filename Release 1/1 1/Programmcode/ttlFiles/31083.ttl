@@ -1,0 +1,429 @@
+
+<WLStationOfLife/31083hasWL5>
+	rdfs:label "Wedenski-Hemmung (Ermüdung des über längere Zeit und mit hoher Frequenz indirekt über den zugehörigen motorischen Nerven gereizten Muskels, die auf einer Ermüdung der Erregungsübertragung an der motorischen Endplatte beruht [synaptische Ermüdung]. Als sog. Parabiose auch phasenhafte Änderung der Erregungsleitung eines isolierten Nerven bei lokaler Aufbringung eines Narkotikums oder bei anderer lokaler Schädigung)." ;
+	a drw-model:WLStationOfLife .
+
+<GPVPublication/31083hasGPV1>
+	rdfs:label "N. E. Vvedenskij. Sobranie sočinenij – N. E. Wedensky. Sämtliche Werke. Bd. 4 (1. Hälfte). Hg. v. Aleksej Alekseevič Uchtowsky. Leningrad 1935, 219 S.; (2. Hälfte): 1938, 177 S." ;
+	a drw-model:GPVPublication .
+
+<Membership/31083hasMembership>
+	rdfs:label "Obščestvo Rossijskich fiziologov im. I. M. Sečenova [I. M. Sečenov-Gesellschaft russischer Physiologen] (Vorstandsmitglied), Obščestvo estestvoispytatelej [Gesellschaft der Naturforscher] (Vorstandsmitglied), Imperatorskaja akademija nauk [Kaiserliche Akademie der Wissenschaften St. Petersburg] (1908#footnote4# korresp. Mitglied auf Vorschlag von I. P. Pavlov), Obščestvo russkich vračej [Gesellschaft russischer Ärzte] (1910 Ehrenmitglied), Obščestvo psichiatrov [Gesellschaft der Psychiater]" ;
+	a drw-model:Membership .
+
+<SLPublication/31083hasSL3>
+	a drw-model:SLPublication ;
+	rdfs:label "Mamontov, Vladimir Jakovlevič, Vetjukov, I. A.: Fiziolog N. E. Vvedenskij. Vologda 1960, 100 S." .
+
+<Education/31083hasEducation3>
+	rdfs:label "Fortsetzung des Studiums an der Universität St. Petersburg bei I. M. #internNameLink#30924#endNameNr#Sečenov#/internNameLink#" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1878_1879> .
+
+<Date/1887>
+	rdfs:label "1887" ;
+	a drw-model:Date .
+
+<P/31083hasP8>
+	a drw-model:P ;
+	rdfs:label "Foto aus den 90-er Jahren des 19. Jh. In: Terechov 1952 (<b>SL</b>), vor S. 258." .
+
+<WLStationOfLife/31083hasWL3>
+	rdfs:label "Nach ihm sind benannt:#footnote3#" ;
+	a drw-model:WLStationOfLife .
+
+<Date/1862_1868>
+	a drw-model:Date ;
+	rdfs:label "1862-1868" .
+
+<Education/31083hasEducation1>
+	rdfs:label "Studium der Naturwissenschaften an der Physiko-mathematischen Fakultät der Universität St. Petersburg" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1872_1874> .
+
+<P/31083hasP11>
+	a drw-model:P ;
+	rdfs:label "Druck [ohne weitere Angaben] in: Rusinov 1952 (<b>SL</b>)." .
+
+<P/31083hasP1>
+	rdfs:label "Portrait auf vorderer Umschlagseite, im Frontispiz und von 1889 auf S. 9, in: Aršavskij 1950 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<Education/31083hasEducation7>
+	rdfs:label "Magisterdissertation zool. an der Universität St. Petersburg" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1884> .
+
+<SLPublication/31083hasSL11>
+	rdfs:label "Vasil’ev, L. L.: Nikolaj Evgen’evič Vvedenskij, ego žizn’ i učenie (K stoletiju so dnja roždenija). Žurnal nevropatologii i psichiatrii imeni S. S. Korsakova 52 (1952) 4, 3-11." ;
+	a drw-model:SLPublication .
+
+<P/31083hasP3>
+	rdfs:label "Portrait in: Golikov 1954 (<b>SL</b>), zw. S. 2-3." ;
+	a drw-model:P .
+
+<Education/31083hasEducation5>
+	drw-model:began <Date/1881/82/84> ;
+	a drw-model:Education ;
+	rdfs:label "Weiterbildung in Deutschland, Österreich und der Schweiz:
+- bei R. P. H. #internNameLink#30362#endNameNr#Heidenhain#/internNameLink# an der Universitär Breslau
+- bei E. #internNameLink#30230#endNameNr#Du Bois-Reymond#/internNameLink# und K. H. #internNameLink#30587#endNameNr#Kronecker#/internNameLink# an der Universität Berlin
+- bei E. F. E. #internNameLink#30395#endNameNr#Hoppe-Seyler#/internNameLink#an der Universität Straßburg" .
+
+<SLPublication/31083hasSL9>
+	a drw-model:SLPublication ;
+	rdfs:label "Terechov, P. G.: Iz materialov k biografii N. E. Vvedenskogo. Fiziologičeskij žurnal SSSR im. I. M. Sečenova 38 (1952), 258-280." .
+
+<Date/ohne_Datum>
+	rdfs:label "ohne Datum" ;
+	a drw-model:Date .
+
+<Date/1879_1881>
+	a drw-model:Date ;
+	rdfs:label "1879-1881" .
+
+<StationOfLife/31083hasStationOfLife0>
+	rdfs:label "Privatdozent am Lehrstuhl für Physiologie der Universität St. Petersburg" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1884_1889> .
+
+<P/31083hasP7>
+	a drw-model:P ;
+	rdfs:label "Foto in: Šustov 1910 (<b>SL</b>)." .
+
+<Date/1889_1922>
+	a drw-model:Date ;
+	rdfs:label "1889-1922" .
+
+<P/31083hasP6>
+	rdfs:label "Foto [mit Unterschrift], in: Durmiš’jan 1952 (<b>SL</b>), zw. S. 96-97." ;
+	a drw-model:P .
+
+<SLPublication/31083hasSL1>
+	rdfs:label "Durmiš’jan, Mušeg G.: N. E. Vvedenskij i ego učenie (K stoletiju so dnja roždenija). Žurnal obščej biologii 13 (1952) 2, 89-104; auch in: Vvedenskij 1952 (<b>GPV</b>), III-XXII." ;
+	a drw-model:SLPublication .
+
+<Date/1874_1877>
+	a drw-model:Date ;
+	rdfs:label "1874-1877" .
+
+<SLPublication/31083hasSL5>
+	a drw-model:SLPublication ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 263-266." .
+
+<StationOfLife/31083hasStationOfLife2>
+	drw-model:began <Date/1883_1888> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Dozent an den Höheren Kursen für Frauen und" .
+
+<HonoursAndAwards/31083hasHounoursAndAwards>
+	rdfs:label "1886 „Goldmedaille des Grafen D. A. Tolstoj“ (für beide Dissertationen) (Kaiserliche Akademie der Wissenschaften)<br>1909 „Verdienter Professor“" ;
+	a drw-model:HonoursAndAwards .
+
+<StationOfLife/31083hasStationOfLife6>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<SLPublication/31083hasSL13>
+	rdfs:label "Wikipedia (http://ru.wikipedia.org/wiki/Введенский,_Николай_Евгеньевич, 12.4.2011)." ;
+	a drw-model:SLPublication .
+
+<GPVPublication/31083hasGPV6>
+	rdfs:label "Publikationen 1879-1886 (26 Nrn.), in: S.-Peterburgskij universitet, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<GeneralLabor/31083hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<RelatedPerson/31083fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Evgenij, Dorfpfarrer und Lehrer" .
+
+<StationOfLife/31083hasStationOfLife4>
+	rdfs:label "Vorlesungen an der Volksuniversität Vologda und in Pskov" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1921> .
+
+<SLPublication/31083hasSL4>
+	rdfs:label "Perepiska A. F. Samojlova i I. S. Beritašvili. Hauptred. A. I. Rojtbak. Moskva 1986, 34-38 (3 Briefe zwischen Vvedenskij und Samojlov im November/Dezember 1911)." ;
+	a drw-model:SLPublication .
+
+<Date/1883_1888>
+	rdfs:label "1883-1888" ;
+	a drw-model:Date .
+
+<GPVPublication/31083hasGPV5>
+	rdfs:label "Spisok rabot 1879#footnote5#-1920, in: Aršavskij (<b>SL</b>), 174-176." ;
+	a drw-model:GPVPublication .
+
+<GPVPublication/31083hasGPV3>
+	rdfs:label "N. E. Vvedenskij. Izbrannye proizvedenija. V dvuch tomach. Obšč. red. S[ergej] I[vanovič] Vavilov. [Leningrad] 1950-1951 (Klassiki nauki [5]), 1361 S." ;
+	a drw-model:GPVPublication .
+
+<WPublication/31083hasW0>
+	rdfs:label "O sootnošenijach meždu razdraženiem i vozbuždeniem pri tetanuse. Ueber die Beziehungen zwischen Reizung und Erregung im Tetanus. [Mit Titel und einer Zusammenfassung in deutscher Sprache]. Diss. Sankt-Peterburg 1886, 348 S." ;
+	a drw-model:WPublication .
+
+<Date/1872_1874>
+	rdfs:label "1872-1874" ;
+	a drw-model:Date .
+
+<NameVariation/31083var1>
+	rdfs:label "Wedenskii, Nikolai/Nicolai J."@de ;
+	a drw-model:NameVariation .
+
+<GPVPublication/31083hasGPV0>
+	rdfs:label "N. E. Vvedenskij. Sobranie sočinenij. Bd. 2: O sootnošenijach meždu razdraženiem i vozbuždeniem pri tetanuse. Sankt-Peterburg 1886, 348 S.; 2. Aufl.: Leningrad 1934, 246 S." ;
+	a drw-model:GPVPublication .
+
+<Date/1884>
+	a drw-model:Date ;
+	rdfs:label "1884" .
+
+<SLPublication/31083hasSL14>
+	a drw-model:SLPublication ;
+	rdfs:label "Šustov, A. S. (Hg.): Naši dejateli po medicine. Sankt-Peterburg 1910 (Illjustrirovannyj vestnik kul’tury, naučno-vospitatel’nago, techničeskago i torgovo-promyšlennago progressa Rossii 1) [Microfiche, ohne Seitenangaben]." .
+
+<Education/31083hasEducation2>
+	drw-model:began <Date/1874_1877> ;
+	rdfs:label "Gefängnishaft wegen revolutionärer Propaganda" ;
+	a drw-model:Education .
+
+<WLStationOfLife/31083hasWL4>
+	rdfs:label "Wedenski-Phänomen (Situation der unzureichenden sensorischen Blockade in der Regionalanästhesie mit vollem Wirkeffekt bei probatorischer algetischer Einzelreizung, aber Schmerzfortleitung bei Impulssalven durch chirurgische Stimulation)." ;
+	a drw-model:WLStationOfLife .
+
+<SLPublication/31083hasSL6>
+	rdfs:label "Rossijskaja akademija nauk. Personal’nyj sostav. Kniga 1: 1724-1917. Moskva 1999; Kniga 2: 1918-1973. Moskva 1999. Kniga 1 (1999), 195." ;
+	a drw-model:SLPublication .
+
+<WLStationOfLife/31083hasWL2>
+	rdfs:label "Verfasser von Arbeiten über elektrische Erscheinungen in Muskeln und Nerven, über Erregung, Hemmung und Narkose u. a." ;
+	a drw-model:WLStationOfLife .
+
+<Education/31083hasEducation0>
+	drw-model:began <Date/1862_1868> ;
+	a drw-model:Education ;
+	rdfs:label "Besuch der Kirchenschule und 1868-1872 des Priesterseminars in Vologda" .
+
+<Date/1921>
+	rdfs:label "1921" ;
+	a drw-model:Date .
+
+<Date/ab_1908>
+	rdfs:label "ab 1908" ;
+	a drw-model:Date .
+
+<P/31083hasP0>
+	rdfs:label "Portrait (Abb. [Ausschnitt]) aus: Terechov 1958 (<b>SL</b>), Frontispiz." ;
+	a drw-model:P .
+
+<Education/31083hasEducation6>
+	rdfs:label "- bei Eugen #name#Baumann#/name# (1846-1896) an der Universität Freiburg/Br." ;
+	a drw-model:Education ;
+	drw-model:began <Date/188789> .
+
+<P/31083hasP10>
+	a drw-model:P ;
+	rdfs:label "Foto in: Wikipedia (<b>SL</b>)." .
+
+<WLStationOfLife/31083hasWL0>
+	rdfs:label "Mitbegründer der Physiologenschule in Russland" ;
+	a drw-model:WLStationOfLife .
+
+<SLPublication/31083hasSL7>
+	a drw-model:SLPublication ;
+	rdfs:label "Rusinov, Vladimir Sergeevič: Vydajuščijsja russkij fiziolog Nikolaj Evgen’evič Vvedenskij (K stoletiju so dnja roždenija). Moskva 1952, 31 S." .
+
+<WPublication/31083hasW2>
+	rdfs:label "Kurs fiziologii životnych i čeloveka. Po lekcijam prof. N. E. Vvedenskogo, čitannym 1911-1913 gg. Sost. B. Rudzat, L. Pautov. Bd. 1. Sankt-Peterburg 1914, 215 S." ;
+	a drw-model:WPublication .
+
+<Education/31083hasEducation4>
+	rdfs:label "Konservator im zootechnischen Kabinett, Laborant bei dem Zoologen Nikolaj Petrovič #name#Vagner#/name# (1829-1907) und Assistent von #internNameLink#30924#endNameNr#Sečenov#/internNameLink# an der Universität St. Petersburg" ;
+	drw-model:began <Date/1879_1881> ;
+	a drw-model:Education .
+
+<Date/188789>
+	a drw-model:Date ;
+	rdfs:label "1887(89)" .
+
+<GPVPublication/31083hasGPV7>
+	rdfs:label "Deutschsprachige und in deutschen Zeitschriften referierte russische Publikationen 1879-1913, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<SLPublication/31083hasSL0>
+	rdfs:label "Aršavskij, I[l’ja] A[rkad’evič]: N. E. Vvedenskij, 1852-1922. Moskva 1950 (Vydajuščiesja Dejateli otečestvennoj mediciny), 181 S." ;
+	a drw-model:SLPublication .
+
+<ImportantPerson/31083>
+	drw-model:hasEducation <Education/31083hasEducation8> ;
+	drw-model:hasStationOfLife <StationOfLife/31083hasStationOfLife6> ;
+	drw-model:hasP <P/31083hasP9> ;
+	drw-model:hasP <P/31083hasP7> ;
+	drw-model:hasMembership <Membership/31083hasMembership> ;
+	drw-model:hasGPV <GPVPublication/31083hasGPV3> ;
+	drw-model:hasEducation <Education/31083hasEducation0> ;
+	drw-model:hasP <P/31083hasP11> ;
+	drw-model:hasP <P/31083hasP4> ;
+	drw-model:hasWL <WLStationOfLife/31083hasWL4> ;
+	drw-model:hasEducation <Education/31083hasEducation5> ;
+	drw-model:hasGPV <GPVPublication/31083hasGPV0> ;
+	drw-model:hasStationOfLife <StationOfLife/31083hasStationOfLife1> ;
+	drw-model:hasGPV <GPVPublication/31083hasGPV2> ;
+	drw-model:hasEducation <Education/31083hasEducation3> ;
+	drw-model:hasSL <SLPublication/31083hasSL13> ;
+	drw-model:hasW <WPublication/31083hasW1> ;
+	drw-model:hasStationOfLife <StationOfLife/31083hasStationOfLife5> ;
+	drw-model:hasWL <WLStationOfLife/31083hasWL3> ;
+	drw-model:hasSL <SLPublication/31083hasSL8> ;
+	drw-model:hasGPV <GPVPublication/31083hasGPV7> ;
+	drw-model:hasEducation <Education/31083hasEducation4> ;
+	drw-model:hasP <P/31083hasP2> ;
+	drw-model:hasSL <SLPublication/31083hasSL3> ;
+	drw-model:hasWL <WLStationOfLife/31083hasWL1> ;
+	drw-model:hasEducation <Education/31083hasEducation2> ;
+	drw-model:drwID "31083" ;
+	drw-model:hasSL <SLPublication/31083hasSL10> ;
+	drw-model:hasW <WPublication/31083hasW0> ;
+	drw-model:hasSL <SLPublication/31083hasSL0> ;
+	drw-model:hasWL <WLStationOfLife/31083hasWL2> ;
+	drw-model:hasSL <SLPublication/31083hasSL12> ;
+	drw-model:hasGPV <GPVPublication/31083hasGPV6> ;
+	drw-model:hasEducation <Education/31083hasEducation7> ;
+	drw-model:hasP <P/31083hasP3> ;
+	drw-model:hasSL <SLPublication/31083hasSL9> ;
+	drw-model:hasSL <SLPublication/31083hasSL4> ;
+	drw-model:hasSL <SLPublication/31083hasSL2> ;
+	drw-model:hasWL <WLStationOfLife/31083hasWL0> ;
+	drw-model:hasMainName <MainName/31083> ;
+	drw-model:hasGPV <GPVPublication/31083hasGPV5> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <StationOfLife/31083hasStationOfLife4> ;
+	drw-model:hasStationOfLife <StationOfLife/31083hasStationOfLife2> ;
+	drw-model:hasP <P/31083hasP8> ;
+	drw-model:fatherIs <RelatedPerson/31083fatherIs> ;
+	drw-model:hasEducation <Education/31083hasEducation6> ;
+	drw-model:hasSL <SLPublication/31083hasSL7> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/31083hasHounoursAndAwards> ;
+	drw-model:hasSL <SLPublication/31083hasSL1> ;
+	drw-model:hasP <P/31083hasP10> ;
+	drw-model:hasSL <SLPublication/31083hasSL14> ;
+	rdfs:label "Vvedenskij, Nikolaj Evgen'evič" ;
+	drw-model:hasP <P/31083hasP6> ;
+	drw-model:hasGPV <GPVPublication/31083hasGPV1> ;
+	drw-model:hasW <WPublication/31083hasW2> ;
+	drw-model:hasP <P/31083hasP5> ;
+	drw-model:hasSL <SLPublication/31083hasSL5> ;
+	drw-model:hasP <P/31083hasP0> ;
+	drw-model:hasEducation <Education/31083hasEducation1> ;
+	drw-model:hasSL <SLPublication/31083hasSL6> ;
+	drw-model:hasStationOfLife <StationOfLife/31083hasStationOfLife0> ;
+	drw-model:hasStationOfLife <StationOfLife/31083hasStationOfLife3> ;
+	drw-model:hasWL <WLStationOfLife/31083hasWL5> ;
+	drw-model:hasP <P/31083hasP1> ;
+	drw-model:hasGPV <GPVPublication/31083hasGPV4> ;
+	drw-model:hasSL <SLPublication/31083hasSL11> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31083hasGeneralLabor0> .
+
+<Date/1881/82/84>
+	a drw-model:Date ;
+	rdfs:label "1881/82/84" .
+
+<SLPublication/31083hasSL2>
+	rdfs:label "Golikov, N. V. (Hauptred.): Fiziologija. K stoletiju so dnja roždenija N. E. Vvedenskogo. Leningrad 1954 (Učenye zapiski Leningradskogo Gosudarstvennogo Universiteta im. A. A. Ždanova, Serija biologičeskich nauk 176, 37), 358 S.; darin: I. A. Vetjukov, K. S. Točilov: N. E. Vvedenskij (1852-1922), S. 3-27." ;
+	a drw-model:SLPublication .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<StationOfLife/31083hasStationOfLife1>
+	rdfs:label "Professor (1889 ao. und 1895#footnote2# o. Prof.) und Leiter des Lehrstuhls für Physiologie an der Universität St. Petersburg" ;
+	drw-model:began <Date/1889_1922> ;
+	a drw-model:StationOfLife .
+
+<P/31083hasP4>
+	a drw-model:P ;
+	rdfs:label "Portraits in: Mamontov/Vetjukov 1960 (<b>SL</b>): Foto (vordere Umschlagseite), als Student (S. 15), mit Studenten im Laboratorium (S. 41), 1908 im Laboratorium bei der Arbeit (S. 93)." .
+
+<WLStationOfLife/31083hasWL1>
+	rdfs:label "Hauptforschungsgebiet: Physiologie der Nerventätigkeit, Psychophysiologie" ;
+	a drw-model:WLStationOfLife .
+
+<NameVariation/31083var2>
+	rdfs:label "Wedensky, Nikolai/Nicolai J."@de ;
+	a drw-model:NameVariation .
+
+<Date/1884_1889>
+	a drw-model:Date ;
+	rdfs:label "1884-1889" .
+
+<MainName/31083>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/31083var2> ;
+	drw-model:hasNameVariation <NameVariation/31083var0> ;
+	rdfs:label "Vvedenskij, Nikolaj Evgen'evič" ;
+	drw-model:hasNameVariation <NameVariation/31083var1> .
+
+<P/31083hasP2>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Vasil’ev 1952 (<b>SL</b>), 2, und Vvedenskij 1952 (<b>GPV</b>)." .
+
+<P/31083hasP5>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Rojtbak 1986 (<b>SL</b>), 35; Ausschnitt in: RAN (<b>SL</b>), auch als Druck in: Estestvoznanie, zit. n. WBIS RBA (<b>SL</b>)." .
+
+<StationOfLife/31083hasStationOfLife3>
+	drw-model:began <Date/ab_1908> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Professor am Psycho-Neurologischen Institut in St. Petersburg" .
+
+<SLPublication/31083hasSL12>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 106-107." ;
+	a drw-model:SLPublication .
+
+<NameVariation/31083var0>
+	rdfs:label "Wedenski, Nikolai/Nicolai J."@de ;
+	a drw-model:NameVariation .
+
+<Date/1878_1879>
+	a drw-model:Date ;
+	rdfs:label "1878-1879" .
+
+<GPVPublication/31083hasGPV4>
+	rdfs:label "Chronologičeskij ukazatel’ trudov 1872-1956, in: Terechov 1958 (<b>SL</b>), 48-77." ;
+	a drw-model:GPVPublication .
+
+<Education/31083hasEducation8>
+	drw-model:began <Date/1887> ;
+	a drw-model:Education ;
+	rdfs:label "Dr. zool. an der Universität St. Petersburg" .
+
+<StationOfLife/31083hasStationOfLife5>
+	drw-model:began <Date/ohne_Datum> ;
+	rdfs:label "Erster Vertreter Russlands im Organisationsvorstand internationaler Physiologen-Kongresse" ;
+	a drw-model:StationOfLife .
+
+<WPublication/31083hasW1>
+	rdfs:label "Vozbuždenie, tormoženie i narkoz. Sankt-Peterburg 1901, 110 S." ;
+	a drw-model:WPublication .
+
+<SLPublication/31083hasSL10>
+	rdfs:label "Terechov, P. G.: Nikolaj Evgen’evič Vvedenskij (1852-1922). Moskva 1958 (Materialy k biobibliografii učenych SSSR. Serija biologičeskich nauk. Fiziologia 7), 104 S." ;
+	a drw-model:SLPublication .
+
+<P/31083hasP9>
+	a drw-model:P ;
+	rdfs:label "Foto in: Volkov/Kulikova 2003 b (<b>SL</b>), Bildeinlage zw. S. 176-177." .
+
+<SLPublication/31083hasSL8>
+	a drw-model:SLPublication ;
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 87, 361-378; SU 81, 107-116." .
+
+<GPVPublication/31083hasGPV2>
+	rdfs:label "N. E. Vvedenskij. Izbrannye proizvedenija. Moskva 1952, 698 S.; darin: Spisok trudov N. E. Vvedenskogo 1871-1921 (146 Nrn.) und 1934-1951 (Nr. 147-153)." ;
+	a drw-model:GPVPublication .
+

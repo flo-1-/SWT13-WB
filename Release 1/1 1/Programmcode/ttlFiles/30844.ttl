@@ -1,0 +1,385 @@
+
+<StationOfLife/30844hasStationOfLife6>
+	drw-model:began <Date/1851_1853> ;
+	rdfs:label "Dekan der Medizinischen Fakultät in Dorpat" ;
+	a drw-model:StationOfLife .
+
+<NameVariation/30844var1>
+	rdfs:label "Рейхерт, Карл Богуслав/Богуславович"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Rejchert, Karl Boguslav/Boguslavovič"@de .
+
+<SLPublication/30844hasSL18>
+	rdfs:label "Voswinckel, Peter: Reichert, Karl Bogislaus. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. 21 (2003), 313-314 (Onlinefassung unter http://www.deutsche-biographie.de/sfz75936.html, 26.1.2012)." ;
+	a drw-model:SLPublication .
+
+<GeneralLabor/30844hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Anatomie und Physiologie" .
+
+<RelatedPerson/30844fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann Carl (1765-1811), Justizamtsmann, Bürgermeister von Rastenburg
+Stiefvater: Justus Friedrich Krueger (1766-1837), Direktor der Herzog-Albrechts-Schule (Gymnasium) in Rastenburg" .
+
+<StationOfLife/30844hasStationOfLife4>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1841_1843> ;
+	rdfs:label "Privatdozent in Berlin" .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<StationOfLife/30844hasStationOfLife8>
+	drw-model:began <Date/1858_1883> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "o. Professor für Anatomie an der Universität Berlin 1858-1883Direktor der Anatomischen Anstalt" .
+
+<Membership/30844hasMembership>
+	a drw-model:Membership ;
+	rdfs:label "Mitglied Kaiserlichen Akademie der Wissenschaften in St. Petersburg. Weiteres vgl.: <b>SL</b>" .
+
+<Date/1840_1841>
+	rdfs:label "1840-1841" ;
+	a drw-model:Date .
+
+<RelatedPerson/30844motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Dorothea Emilie Leopoldine, geb. von Natzmer (?-1849)" .
+
+<Education/30844hasEducation2>
+	drw-model:began <Date/1832_1836> ;
+	a drw-model:Education ;
+	rdfs:label "Fortsetzung des Studiums am Friedrich-Wilhelm-Institut in Berlin, u. a. bei Friedrich Schlemm (1795-1859) und J. P. → Müller" .
+
+<SLPublication/30844hasSL2>
+	a drw-model:SLPublication ;
+	rdfs:label "Brokgauz/Efron. Bd. 26 (1899), 518." .
+
+<SLPublication/30844hasSL0>
+	a drw-model:SLPublication ;
+	rdfs:label "Baltisches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 292, 338-342." .
+
+<P/30844hasP1>
+	a drw-model:P ;
+	rdfs:label "Portraits in <b>SL</b> (Auswahl): Kim 2000, RAN, Schmuck 2009, Volkov/Kulikova 2003 b, Bildeinlage zw. S. 424-425, Wegbereiter, Wikipedia." .
+
+<Date/1832_1836>
+	a drw-model:Date ;
+	rdfs:label "1832-1836" .
+
+<SLPublication/30844hasSL4>
+	rdfs:label "Deutsches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 1012, 54-56; II 1053, 385-390; III 735, 346-349." ;
+	a drw-model:SLPublication .
+
+<MainName/30844>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30844var1> ;
+	rdfs:label "Reichert, Karl Bogislaus" ;
+	drw-model:hasNameVariation <NameVariation/30844var0> .
+
+<Date/1836>
+	rdfs:label "1836" ;
+	a drw-model:Date .
+
+<Education/30844hasEducation0>
+	rdfs:label "Besuch des Gymnasiums in Rastenburg" ;
+	a drw-model:Education ;
+	drw-model:began <Date/Vor_1831> .
+
+<SLPublication/30844hasSL7>
+	a drw-model:SLPublication ;
+	rdfs:label "Kim, Young-Ok: Karl Bogislaus Reichert (1811-1883). Sein Leben und seine Forschungen zur Anatomie und Entwicklungsgeschichte. Diss. Mainz 2000, 257 S.; darin S. 210-220: Schriftenverzeichnis Carl Bogislaus Reicherts; 234-236: Lebenslauf und Zeittafel." .
+
+<Education/30844hasEducation1>
+	drw-model:began <Date/1831_1832> ;
+	a drw-model:Education ;
+	rdfs:label "(WS) Beginn des Studiums der Medizin an der Universität Königsberg bei Karl Ernst von Baer (1792-1876)" .
+
+<SLPublication/30844hasSL20>
+	rdfs:label "Wegbereiter unserer naturwissenschaftlich-medizinischen Moderne (http://appserv5.ph-heidelberg.de/onlinelex/index.php?id=1071, 26.1.2012)." ;
+	a drw-model:SLPublication .
+
+<Date/1841>
+	a drw-model:Date ;
+	rdfs:label "1841" .
+
+<SLPublication/30844hasSL15>
+	rdfs:label "Schmuck, Thomas: Baltische Genesis. Die Grundlegung der Embryologie im 19. Jahrhundert. Aachen 2009 (Relationes 2), 224-229." ;
+	a drw-model:SLPublication .
+
+<Q/30844hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr.: 1919." .
+
+<SLPublication/30844hasSL10>
+	a drw-model:SLPublication ;
+	rdfs:label "Pagel, Julius: Reichert, Karl Bogislaus. In: Allgemeine Deutsche Biographie. Bd. 1-56. Leipzig 1875–1912,  Bd. 27 (1888), 679-681." .
+
+<SLPublication/30844hasSL16>
+	rdfs:label "VL People (http://vlp.mpiwg-berlin.mpg.de/people/data?id=per342, 26.1.2012)." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30844hasSL9>
+	a drw-model:SLPublication ;
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 1357-1359; auch in Deutsches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013) (<b>SL</b>)." .
+
+<Date/1831_1832>
+	a drw-model:Date ;
+	rdfs:label "1831-1832" .
+
+<ImportantPerson/30844>
+	drw-model:hasSL <SLPublication/30844hasSL6> ;
+	drw-model:hasSL <SLPublication/30844hasSL7> ;
+	drw-model:hasEducation <Education/30844hasEducation3> ;
+	drw-model:hasStationOfLife <StationOfLife/30844hasStationOfLife6> ;
+	drw-model:hasStationOfLife <StationOfLife/30844hasStationOfLife9> ;
+	drw-model:hasSL <SLPublication/30844hasSL14> ;
+	drw-model:hasSL <SLPublication/30844hasSL13> ;
+	drw-model:hasSL <SLPublication/30844hasSL16> ;
+	drw-model:hasSL <SLPublication/30844hasSL18> ;
+	drw-model:hasP <P/30844hasP1> ;
+	drw-model:hasMainName <MainName/30844> ;
+	drw-model:hasSL <SLPublication/30844hasSL15> ;
+	drw-model:motherIs <RelatedPerson/30844motherIs> ;
+	drw-model:hasSL <SLPublication/30844hasSL3> ;
+	drw-model:hasStationOfLife <StationOfLife/30844hasStationOfLife2> ;
+	drw-model:hasEducation <Education/30844hasEducation2> ;
+	drw-model:hasSL <SLPublication/30844hasSL5> ;
+	drw-model:hasStationOfLife <StationOfLife/30844hasStationOfLife0> ;
+	drw-model:hasSL <SLPublication/30844hasSL0> ;
+	drw-model:hasGPV <GPVPublication/30844hasGPV0> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/30844hasHounoursAndAwards> ;
+	drw-model:hasStationOfLife <StationOfLife/30844hasStationOfLife7> ;
+	drw-model:hasP <P/30844hasP2> ;
+	drw-model:hasSL <SLPublication/30844hasSL17> ;
+	drw-model:hasSL <SLPublication/30844hasSL4> ;
+	drw-model:hasSL <SLPublication/30844hasSL10> ;
+	drw-model:hasStationOfLife <StationOfLife/30844hasStationOfLife10> ;
+	drw-model:hasWL <WLStationOfLife/30844hasWL0> ;
+	drw-model:hasSL <SLPublication/30844hasSL19> ;
+	drw-model:hasEducation <Education/30844hasEducation1> ;
+	drw-model:hasStationOfLife <StationOfLife/30844hasStationOfLife3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30844hasGeneralLabor0> ;
+	drw-model:hasSL <SLPublication/30844hasSL1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30844wasMarriedTo> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SLPublication/30844hasSL21> ;
+	drw-model:hasSL <SLPublication/30844hasSL8> ;
+	drw-model:hasP <P/30844hasP3> ;
+	drw-model:hasSL <SLPublication/30844hasSL11> ;
+	drw-model:drwID "30844" ;
+	drw-model:hasEducation <Education/30844hasEducation4> ;
+	drw-model:hasP <P/30844hasP0> ;
+	drw-model:hasSL <SLPublication/30844hasSL20> ;
+	drw-model:hasDescendant <RelatedPerson/30844hasDescendant> ;
+	drw-model:hasW <WPublication/30844hasW0> ;
+	drw-model:hasStationOfLife <StationOfLife/30844hasStationOfLife4> ;
+	drw-model:hasSL <SLPublication/30844hasSL2> ;
+	drw-model:fatherIs <RelatedPerson/30844fatherIs> ;
+	drw-model:hasStationOfLife <StationOfLife/30844hasStationOfLife1> ;
+	rdfs:label "Reichert, Karl Bogislaus" ;
+	drw-model:hasStationOfLife <StationOfLife/30844hasStationOfLife11> ;
+	drw-model:hasQ <Q/30844hasQ0> ;
+	drw-model:hasStationOfLife <StationOfLife/30844hasStationOfLife8> ;
+	drw-model:hasSL <SLPublication/30844hasSL12> ;
+	drw-model:hasStationOfLife <StationOfLife/30844hasStationOfLife5> ;
+	drw-model:hasSLComment <SLComment/30844hasSLComment> ;
+	drw-model:hasEducation <Education/30844hasEducation0> ;
+	drw-model:hasSL <SLPublication/30844hasSL9> ;
+	drw-model:hasMembership <Membership/30844hasMembership> ;
+	drw-model:hasQ <Q/30844hasQ1> .
+
+<GPVPublication/30844hasGPV0>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:GPVPublication .
+
+<StationOfLife/30844hasStationOfLife0>
+	rdfs:label "Praktisches Jahr an der Charité in Berlin" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1836_1937> .
+
+<Date/Vor_1831>
+	rdfs:label "Vor 1831" ;
+	a drw-model:Date .
+
+<SLPublication/30844hasSL14>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 394, 55-60." ;
+	a drw-model:SLPublication .
+
+<Date/1858_1876>
+	a drw-model:Date ;
+	rdfs:label "1858-1876" .
+
+<StationOfLife/30844hasStationOfLife2>
+	rdfs:label "Compagnie-Chirurg im 1. Garde-Regiment in Potsdam" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1839_1840> .
+
+<SLPublication/30844hasSL11>
+	rdfs:label "Personenstammkarten (http://www.haduloha.de/fiches/fiche311.htm#f6228, 26.1.2012 und http://www.haduloha.de/fiches/fiche311.htm#f6232, 26.1.2012)." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30844hasStationOfLife7>
+	rdfs:label "o. Professor für Physiologie an der Universität Breslau" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1853_1858> .
+
+<WPublication/30844hasW0>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:WPublication .
+
+<SLComment/30844hasSLComment>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<StationOfLife/30844hasStationOfLife9>
+	drw-model:began <Date/1858_1883> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Direktor des Anatomisch-zootomischen Museums in Berlin" .
+
+<NameVariation/30844var0>
+	rdfs:label "Reichert, Karl/Carl Bogislaus/Bogislav/Bolislaw"@de ;
+	a drw-model:NameVariation .
+
+<Date/1843_1853>
+	rdfs:label "1843-1853" ;
+	a drw-model:Date .
+
+<P/30844hasP2>
+	rdfs:label "Portrait in: Anne Lõugas (Hg.): Deutschbaltische Porträtkunst in Estland 1750-1900. Tallinn, Helsinki 2003, 154." ;
+	a drw-model:P .
+
+<SLPublication/30844hasSL12>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SLPublication .
+
+<P/30844hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Pagel 1901 (<b>SL</b>)." .
+
+<StationOfLife/30844hasStationOfLife10>
+	drw-model:began <Date/1858_1876> ;
+	rdfs:label "Mitherausgeber von Archiv für Anatomie und Physiologie und wissenschaftliche Medicin" ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30844hasSL1>
+	rdfs:label "Br [Broesike, Gustav]: Karl Bogislaus Reichert †. Berliner klinische Wochenschrift 21 (1884), 45-46." ;
+	a drw-model:SLPublication .
+
+<RelatedPerson/30844wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Aline, geb. Reinecke (1816-1893)" .
+
+<SLPublication/30844hasSL5>
+	rdfs:label "Erik-Amburger-Datenbank. Ausländer im vorrevolutionären Russland (http://88.217.241.77/amburger/, 10.4.2012): Dokument-Id [91840/88704 (26.1.2012)]." ;
+	a drw-model:SLPublication .
+
+<Education/30844hasEducation3>
+	drw-model:began <Date/1836> ;
+	a drw-model:Education ;
+	rdfs:label "Dr. med. in Berlin" .
+
+<SLPublication/30844hasSL3>
+	a drw-model:SLPublication ;
+	rdfs:label "Deutsche Biographische Enzyklopädie. Hrsg. v. Walther Killy und Rudolf Vierhaus. Bd. 1-10. München u. a. 1995-1999,  Bd. 8 (1998), 203." .
+
+<SLPublication/30844hasSL13>
+	rdfs:label "Rossijskaja akademija nauk. Personal’nyj sostav. Kniga 1: 1724-1917. Moskva 1999; Kniga 2: 1918-1973. Moskva 1999 Kniga 1 (1999), 391." ;
+	a drw-model:SLPublication .
+
+<Date/1841_1843>
+	a drw-model:Date ;
+	rdfs:label "1841-1843" .
+
+<Date/1858_1883>
+	a drw-model:Date ;
+	rdfs:label "1858-1883" .
+
+<Date/1839_1840>
+	rdfs:label "1839-1840" ;
+	a drw-model:Date .
+
+<Date/1836_1937>
+	a drw-model:Date ;
+	rdfs:label "1836-1937" .
+
+<WLStationOfLife/30844hasWL0>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:WLStationOfLife .
+
+<SLPublication/30844hasSL6>
+	rdfs:label "F., W.: Karl Bogislaus Reichert ist todt. Wiener medicinische Wochenschrift 33 (1883), 1557-1559." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30844hasSL19>
+	rdfs:label "Waldeyer, [Heinrich Wilhelm]: Reichert, Karl Bogislaus. Hirsch, Gustav (Hg.): Biographisches Lexikon der hervorragenden Ärzte aller Zeiten und Völker. 2. Aufl. Bd. 2. Berlin, Wien 1930 Bd. 4, 752-753; auch in Deutsches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013) (<b>SL</b>)." ;
+	a drw-model:SLPublication .
+
+<Education/30844hasEducation4>
+	a drw-model:Education ;
+	drw-model:began <Date/1841> ;
+	rdfs:label "Habilitation in Berlin" .
+
+<StationOfLife/30844hasStationOfLife11>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<SLPublication/30844hasSL8>
+	a drw-model:SLPublication ;
+	rdfs:label "Kutja, S. A.: Jubilejnye daty v istorii morfologii v 2011 godu. Morfologija 5 (2011), 60." .
+
+<SLPublication/30844hasSL17>
+	a drw-model:SLPublication ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 375-376." .
+
+<Date/1853_1858>
+	a drw-model:Date ;
+	rdfs:label "1853-1858" .
+
+<Date/1837_1839>
+	a drw-model:Date ;
+	rdfs:label "1837-1839" .
+
+<HonoursAndAwards/30844hasHounoursAndAwards>
+	rdfs:label "Goldene Medaille für Kunst und Wissenschaft (Preußische Akademie der Wissenschaften)<br>„Geheimer Medizinalrat“<br>1848 „Kaiserlicher Rat“<br>1852 „Russischer Staatsrat“" ;
+	a drw-model:HonoursAndAwards .
+
+<P/30844hasP3>
+	a drw-model:P ;
+	rdfs:label "Georg Engelbach (1817-1897): Karl Bogislav Reichert. Lithographie. In: Porträtsammlung Berliner Hochschullehrer (http://www.sammlungen.hu-berlin.de/dokumente/12831/, 26.1.2012)." .
+
+<StationOfLife/30844hasStationOfLife1>
+	drw-model:began <Date/1837_1839> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Unterarzt im 1. Infanterie-Regiment in Königsberg" .
+
+<SLPublication/30844hasSL21>
+	a drw-model:SLPublication ;
+	rdfs:label "Wikipedia (http://de.wikipedia.org/wiki/Karl_Bogislaus_Reichert, 26.1.2012)." .
+
+<StationOfLife/30844hasStationOfLife5>
+	rdfs:label "o. Professor für Anatomie an der Universität Dorpat" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1843_1853> .
+
+<StationOfLife/30844hasStationOfLife3>
+	rdfs:label "Assistent und Prosektor in Berlin" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1840_1841> .
+
+<Date/1851_1853>
+	a drw-model:Date ;
+	rdfs:label "1851-1853" .
+
+<Q/30844hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Vita. In: Carolus Reichert: De embryonum arcubus sic dictis branchialibus. Diss. Berlin 1836, Anhang." .
+
+<RelatedPerson/30844hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "4 Töchter, darunter:
+Aline, verh. Heydemann#footnote3#" .
+

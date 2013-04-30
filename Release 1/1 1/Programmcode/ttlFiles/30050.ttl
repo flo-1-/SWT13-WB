@@ -1,0 +1,219 @@
+
+<Education/30050hasEducation2>
+	drw-model:began <Date/1863_1866> ;
+	a drw-model:Education ;
+	rdfs:label "Weiterbildung in Deutschland mit Stipendium des Ministeriums für Volksaufklärung:
+- bei H. von #internNameLink#30366#endNameNr#Helmholtz#/internNameLink# an der Universität Heidelberg
+- bei C. #internNameLink#30664#endNameNr#Ludwig#/internNameLink# an der Universität Leipzig" .
+
+<GPVPublication/30050hasGPV2>
+	rdfs:label "Deutschsprachige Publikationen 1867-1878, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<Education/30050hasEducation0>
+	a drw-model:Education ;
+	rdfs:label "Ausbildung an der Rabbinerschule in Žitomir" ;
+	drw-model:began <Date/Vor_1862> .
+
+<Q/30050hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Reči, proiznesennye v publičnom sobranii Obščestva remeslennogo i zemledel’českogo truda sredi ebree v Rossii 21-go dekabrja 1908 goda, posvjaščennom pamjati Nikolaja Ignat’eviča Baksta. Sankt-Peterburg 1909, 34 S." .
+
+<GPVPublication/30050hasGPV0>
+	rdfs:label "Publikationen 1864-1886, in: Singer, zit. n. WBIS JBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<SLPublication/30050hasSL2>
+	a drw-model:SLPublication ;
+	rdfs:label "Jüdisches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 114, 189-203; IS 15, 334-336." .
+
+<SLPublication/30050hasSL7>
+	rdfs:label "Česnakova [Im Original Druckfehler, es muss heißen: Česnokova], Sof’ja Aleksandrovna, Lindemann, Marianne: Russische Physiologen in Laboratorien von Carl Ludwig. Wissenschaftliche Zeitschrift der Karl-Marx-Universität Leipzig, Mathematisch-naturwissenschaftliche Reihe 19 (1970), 316." ;
+	a drw-model:SLPublication .
+
+<Date/1881_1887>
+	rdfs:label "1881-1887" ;
+	a drw-model:Date .
+
+<NameVariation/30050var1>
+	a drw-model:NameVariation ;
+	rdfs:label "Bakst, Noa"@de .
+
+<ImportantPerson/30050>
+	drw-model:hasStationOfLife <StationOfLife/30050hasStationOfLife1> ;
+	drw-model:hasStationOfLife <StationOfLife/30050hasStationOfLife2> ;
+	drw-model:hasSL <SLPublication/30050hasSL2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30050hasGeneralLabor2> ;
+	drw-model:hasEducation <Education/30050hasEducation2> ;
+	drw-model:hasSL <SLPublication/30050hasSL6> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30050hasGeneralLabor1> ;
+	drw-model:hasGPV <GPVPublication/30050hasGPV2> ;
+	drw-model:hasSL <SLPublication/30050hasSL1> ;
+	drw-model:fatherIs <RelatedPerson/30050fatherIs> ;
+	drw-model:hasP <P/30050hasP0> ;
+	rdfs:label "Bakst, Nikolaj Ignat'evič" ;
+	drw-model:hasStationOfLife <StationOfLife/30050hasStationOfLife4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30050hasGeneralLabor0> ;
+	drw-model:hasSL <SLPublication/30050hasSL5> ;
+	drw-model:drwID "30050" ;
+	drw-model:hasGPV <GPVPublication/30050hasGPV0> ;
+	drw-model:hasWL <WLStationOfLife/30050hasWL0> ;
+	drw-model:hasSL <SLPublication/30050hasSL4> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasMainName <MainName/30050> ;
+	drw-model:hasW <WPublication/30050hasW0> ;
+	drw-model:hasStationOfLife <StationOfLife/30050hasStationOfLife3> ;
+	drw-model:hasSL <SLPublication/30050hasSL0> ;
+	drw-model:hasEducation <Education/30050hasEducation0> ;
+	drw-model:hasSL <SLPublication/30050hasSL3> ;
+	drw-model:hasW <WPublication/30050hasW1> ;
+	drw-model:hasGPV <GPVPublication/30050hasGPV1> ;
+	drw-model:hasQ <Q/30050hasQ0> ;
+	drw-model:hasSL <SLPublication/30050hasSL7> ;
+	drw-model:hasEducation <Education/30050hasEducation1> ;
+	drw-model:hasStationOfLife <StationOfLife/30050hasStationOfLife0> .
+
+<P/30050hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Istorija ORT (<b>SL</b>)." .
+
+<NameVariation/30050var4>
+	rdfs:label "Baxt, Noah"@de ;
+	a drw-model:NameVariation .
+
+<Date/1867>
+	a drw-model:Date ;
+	rdfs:label "1867" .
+
+<SLPublication/30050hasSL5>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 149-150." ;
+	a drw-model:SLPublication .
+
+<GeneralLabor/30050hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologe" .
+
+<Date/1883_1888>
+	rdfs:label "1883-1888" ;
+	a drw-model:Date .
+
+<SLPublication/30050hasSL0>
+	a drw-model:SLPublication ;
+	rdfs:label "Dubnow, Simon: Buch des Lebens. Erinnerungen und Gedanken. Materialien zur Geschichte meiner Zeit. Bd. 1: 1860-1933. Hg. von Verena Dohrn, übersetzt von Vera Bischitzky. Bd. 1. Göttingen 2004, 192, 483-484." .
+
+<WLStationOfLife/30050hasWL0>
+	rdfs:label "Forschungsthemen: Einfluss von Nerven auf die Herzbewegung, Methoden zur Erfassung der Herzfrequenz" ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30050hasStationOfLife0>
+	rdfs:label "Privatdozent für Physiologie an der Physiko-mathematischenFakultät der Universität St. Petersburg" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1867> .
+
+<StationOfLife/30050hasStationOfLife4>
+	rdfs:label "Sachverständiger der Obersten Kommission zur Revision der geltenden Judengesetze in der Regierung" ;
+	drw-model:began <Date/1883_1888> ;
+	a drw-model:StationOfLife .
+
+<WPublication/30050hasW0>
+	rdfs:label "O skorosti peredači razdraženij po dvigatel’nym nervam čeloveka. Diss. pro venia legendi. Sankt-Peterburg 1867, 16 S." ;
+	a drw-model:WPublication .
+
+<StationOfLife/30050hasStationOfLife2>
+	a drw-model:StationOfLife ;
+	rdfs:label "Mitglied des Wissenschaftlichen Komitees des Ministeriums für Volksaufklärung" ;
+	drw-model:began <Date/1886> .
+
+<Date/1886>
+	rdfs:label "1886" ;
+	a drw-model:Date .
+
+<Date/Vor_1862>
+	a drw-model:Date ;
+	rdfs:label "Vor 1862" .
+
+<MainName/30050>
+	drw-model:hasNameVariation <NameVariation/30050var0> ;
+	drw-model:hasNameVariation <NameVariation/30050var1> ;
+	drw-model:hasNameVariation <NameVariation/30050var4> ;
+	a drw-model:MainName ;
+	rdfs:label "Bakst, Nikolaj Ignat'evič" ;
+	drw-model:hasNameVariation <NameVariation/30050var2> ;
+	drw-model:hasNameVariation <NameVariation/30050var3> .
+
+<Date/1880>
+	a drw-model:Date ;
+	rdfs:label "1880" .
+
+<Education/30050hasEducation1>
+	rdfs:label "Abschluss des Studiums der Naturwissenschaften an der Physiko-mathematischen Fakultät der Universität St. Petersburg" ;
+	drw-model:began <Date/1862> ;
+	a drw-model:Education .
+
+<GPVPublication/30050hasGPV1>
+	rdfs:label "Publikationen 1867-1890, in: S.-Peterburgskij universitet, zit. nach WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<GeneralLabor/30050hasGeneralLabor2>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Sozialpolitiker" .
+
+<SLPublication/30050hasSL3>
+	a drw-model:SLPublication ;
+	rdfs:label "Minerva. Jahrbuch der Universitäten der Welt. Hg. von Richard Kukula und Karl J. Trübner. Erster Jg. 1891-1892. Strassburg 1891, 213." .
+
+<SLPublication/30050hasSL6>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 33, 241-243; SU 33, 374." ;
+	a drw-model:SLPublication .
+
+<Date/1863_1866>
+	a drw-model:Date ;
+	rdfs:label "1863-1866" .
+
+<NameVariation/30050var2>
+	rdfs:label "Bakst, Nicolai Ignatiewitsch"@de ;
+	a drw-model:NameVariation .
+
+<NameVariation/30050var0>
+	rdfs:label "Бакст, Ноах Исаакович"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Bakst, Noach Isaakovič"@de .
+
+<SLPublication/30050hasSL4>
+	a drw-model:SLPublication ;
+	rdfs:label "Pfrepper, Regine, Pfrepper, Gerd: Wissensspuren. Reisen russischer Mediziner nach Westeuropa im 19. Jahrhundert. Aachen 2012 (Relationes 11)" .
+
+<NameVariation/30050var3>
+	a drw-model:NameVariation ;
+	rdfs:label "Bakst, Nikolaj Isaakowitsch"@de .
+
+<Date/1862>
+	a drw-model:Date ;
+	rdfs:label "1862" .
+
+<GeneralLabor/30050hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Publizist" .
+
+<WPublication/30050hasW1>
+	rdfs:label "Zapiski fiziologii, sostavlennye po lekcijam prof. N. Baksta, 1882/83 učebnogo g. Moskva 1883, 51 S." ;
+	a drw-model:WPublication .
+
+<StationOfLife/30050hasStationOfLife1>
+	rdfs:label "Vorlesungen zur Physiologie an den Höheren Medizinischen Kursen für Frauen" ;
+	drw-model:began <Date/1881_1887> ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30050hasSL1>
+	rdfs:label "Istorija ORT: http://ort.ru/history/ (28.10.2010)." ;
+	a drw-model:SLPublication .
+
+<RelatedPerson/30050fatherIs>
+	rdfs:label "Isaak (Ignatij) Moses († 1882), Hebräist, Lehrer an der Rabbinerschule zu Žitomir#footnote3#" ;
+	a drw-model:RelatedPerson .
+
+<StationOfLife/30050hasStationOfLife3>
+	drw-model:began <Date/1880> ;
+	rdfs:label "Mitbegründer der „Gesellschaft für handwerkliche und landwirtschaftliche Arbeit“ (#italic#Obščestvo remeslennogo i sel'skochozajstvennogo truda#/italic#, ORT) in St. Petersburg#footnote4#" ;
+	a drw-model:StationOfLife .
+

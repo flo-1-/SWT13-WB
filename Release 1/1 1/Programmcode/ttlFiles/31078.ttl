@@ -1,0 +1,306 @@
+
+<Date/1922_1930>
+	a drw-model:Date ;
+	rdfs:label "1922-1930" .
+
+<Date/1907_1912>
+	a drw-model:Date ;
+	rdfs:label "1907-1912" .
+
+<ImportantPerson/31078>
+	drw-model:hasW <WPublication/31078hasW2> ;
+	drw-model:hasSL <SLPublication/31078hasSL2> ;
+	drw-model:hasMainName <MainName/31078> ;
+	drw-model:hasWL <WLStationOfLife/31078hasWL2> ;
+	drw-model:hasStationOfLife <StationOfLife/31078hasStationOfLife4> ;
+	drw-model:hasStationOfLife <StationOfLife/31078hasStationOfLife6> ;
+	drw-model:hasWL <WLStationOfLife/31078hasWL3> ;
+	drw-model:hasW <WPublication/31078hasW0> ;
+	drw-model:hasSL <SLPublication/31078hasSL7> ;
+	drw-model:hasStationOfLife <StationOfLife/31078hasStationOfLife0> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/31078hasHounoursAndAwards> ;
+	drw-model:hasGPV <GPVPublication/31078hasGPV0> ;
+	drw-model:hasP <P/31078hasP2> ;
+	drw-model:hasP <P/31078hasP1> ;
+	drw-model:hasSL <SLPublication/31078hasSL3> ;
+	drw-model:hasStationOfLife <StationOfLife/31078hasStationOfLife5> ;
+	drw-model:hasStationOfLife <StationOfLife/31078hasStationOfLife8> ;
+	drw-model:hasStationOfLife <StationOfLife/31078hasStationOfLife7> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31078hasGeneralLabor0> ;
+	drw-model:hasWL <WLStationOfLife/31078hasWL4> ;
+	drw-model:hasEducation <Education/31078hasEducation2> ;
+	drw-model:hasStationOfLife <StationOfLife/31078hasStationOfLife1> ;
+	drw-model:hasSL <SLPublication/31078hasSL0> ;
+	drw-model:drwID "31078" ;
+	drw-model:hasEducation <Education/31078hasEducation1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <WPublication/31078hasW1> ;
+	drw-model:hasStationOfLife <StationOfLife/31078hasStationOfLife9> ;
+	drw-model:hasSL <SLPublication/31078hasSL8> ;
+	drw-model:hasSL <SLPublication/31078hasSL1> ;
+	drw-model:hasSL <SLPublication/31078hasSL4> ;
+	drw-model:hasStationOfLife <StationOfLife/31078hasStationOfLife3> ;
+	drw-model:hasMembership <Membership/31078hasMembership> ;
+	drw-model:hasEducation <Education/31078hasEducation3> ;
+	drw-model:hasSL <SLPublication/31078hasSL9> ;
+	drw-model:hasWL <WLStationOfLife/31078hasWL1> ;
+	drw-model:hasSL <SLPublication/31078hasSL5> ;
+	drw-model:hasEducation <Education/31078hasEducation0> ;
+	drw-model:hasStationOfLife <StationOfLife/31078hasStationOfLife2> ;
+	drw-model:hasW <WPublication/31078hasW3> ;
+	drw-model:hasSL <SLPublication/31078hasSL6> ;
+	rdfs:label "Voroncov, Daniil Semenovič" ;
+	drw-model:hasP <P/31078hasP0> ;
+	drw-model:hasWL <WLStationOfLife/31078hasWL0> ;
+	drw-model:fatherIs <RelatedPerson/31078fatherIs> .
+
+<NameVariation/31078var0>
+	a drw-model:NameVariation ;
+	rdfs:label "Voroncov, Danylo Semenovyč"@de .
+
+<WPublication/31078hasW0>
+	rdfs:label "Analiz ėlektrogrammy serdca ljaguški. Diss. Mag. Odessa 1917, 163 S." ;
+	a drw-model:WPublication .
+
+<SLPublication/31078hasSL9>
+	a drw-model:SLPublication ;
+	rdfs:label "[Zum 80. Geburtstag] Do 80-riččja z dnja naroždennja akademika AN URSR D. S. Voroncova. Fiziolohičnyj žurnal 12 (1966) 6, 703-708." .
+
+<Date/1914_1916>
+	a drw-model:Date ;
+	rdfs:label "1914-1916" .
+
+<StationOfLife/31078hasStationOfLife7>
+	drw-model:began <Date/1945_1947> ;
+	rdfs:label "Vorlesungen in Physiologie am Institut für Körperkultur in Kiev" ;
+	a drw-model:StationOfLife .
+
+<WLStationOfLife/31078hasWL0>
+	rdfs:label "Begründer der Schule der Neuro- und Elektrophysiologen an der Universität Kiev" ;
+	a drw-model:WLStationOfLife .
+
+<Date/1907>
+	rdfs:label "1907" ;
+	a drw-model:Date .
+
+<WPublication/31078hasW2>
+	rdfs:label "Obščaja ėlektrofiziologia. Moskva 1961, 488 S." ;
+	a drw-model:WPublication .
+
+<Education/31078hasEducation1>
+	drw-model:began <Date/1907_1912> ;
+	a drw-model:Education ;
+	rdfs:label "Studium an der naturwissenschaftlichen Abteilung der Physiko-mathematischen Fakultät der Universität St. Petersburg" .
+
+<Date/1956_1965>
+	a drw-model:Date ;
+	rdfs:label "1956-1965" .
+
+<WLStationOfLife/31078hasWL3>
+	rdfs:label "#italic#Fenomen Voroncova#/italic# [Woronzow Phänomen] (Wiederherstellung der unter dem Einfluss von monovalenten Kationen verlorenen Erregbarkeit der Nerven mittels Anode und der unter Verwendung von zweiwertigen Kationen hervorgerufenen Veränderung der Erregbarkeit mittels Kathode)" ;
+	a drw-model:WLStationOfLife .
+
+<SLPublication/31078hasSL3>
+	rdfs:label "Serkov, Filipp Nikolaevič: Daniil Semenovich Vorontsov (1886-1965). Neurophysiology 27 (1995) 3, 189-190." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/31078hasStationOfLife8>
+	drw-model:began <Date/1956_1965> ;
+	rdfs:label "Gründer und Leiter des Laboratoriums für Elektro-physiologie am Institut für Physiologie der Akademie der Wissenschaften der Ukrainischen SSR in Kiev" ;
+	a drw-model:StationOfLife .
+
+<SLPublication/31078hasSL4>
+	a drw-model:SLPublication ;
+	rdfs:label "Trifonjuk, R[uslan] O[leksiovič]: Akademik D. S. Voroncov (1886-1965) – osnovopoložnyk vitčyznjanoji elektrofiziologiji. Istoryčni zapysky. Zbirnyk naukovych prac 20 (2008), 1-7 (http://www.nbuv.gov.ua/portal/Soc_Gum/Istz/2008_20/tpifonjuk.pdf, 25.5.20111)." .
+
+<WLStationOfLife/31078hasWL2>
+	rdfs:label "Nach ihm ist benannt:" ;
+	a drw-model:WLStationOfLife .
+
+<WLStationOfLife/31078hasWL1>
+	rdfs:label "Forschungsgebiete: Physiologie des Nervensystems und Elektrophysiologie" ;
+	a drw-model:WLStationOfLife .
+
+<WLStationOfLife/31078hasWL4>
+	rdfs:label "Redaktionsmitglied von #italic#Fiziologičeskij žurnal SSSR imeni I. M. Sečenova#/italic#" ;
+	a drw-model:WLStationOfLife .
+
+<NameVariation/31078var3>
+	rdfs:label "Woronzow, S."@de ;
+	a drw-model:NameVariation .
+
+<StationOfLife/31078hasStationOfLife6>
+	rdfs:label "Vorlesungen in Physiologie an der Veterinärmedizinischen Fakultät des Landwirtschaftlichen Instituts in Bela Cer’kov" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1944_1947> .
+
+<GPVPublication/31078hasGPV0>
+	rdfs:label "Spisok rabot (137 Nrn.), in: Filipp Nikolaevič Serkov: Daniil Semenovič Voroncov. Kiev 1986, 119-126. [In Deutschland nicht zugänglich.]" ;
+	a drw-model:GPVPublication .
+
+<NameVariation/31078var1>
+	a drw-model:NameVariation ;
+	rdfs:label "Woronzow, D. S."@de .
+
+<P/31078hasP0>
+	a drw-model:P ;
+	rdfs:label "Foto (Abb.) aus: [Zefirov, Andrej L’vovič u. a.] (<b>SL</b>); auch in <b>SL</b>: [Nekrolog], [Zum 80. Geburtstag], Zadorožnyj 1987." .
+
+<WPublication/31078hasW1>
+	rdfs:label "Narysy z istoriji fiziolohiji na Ukrajini. Mit V. M. Nikityn und P[ilip] M[ikolajovyč] Sjerkov [F. N. Serkov]. Kijiv 1959, 253 S." ;
+	a drw-model:WPublication .
+
+<StationOfLife/31078hasStationOfLife4>
+	drw-model:began <Date/1935_1941> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Professor und Leiter des Lehrstuhls für Physiologie am Medizinischen Institut in Kiev" .
+
+<P/31078hasP2>
+	a drw-model:P ;
+	rdfs:label "Foto in: Trofimov/Fudel’-Osipova/Kostjuk 1956 (<b>SL</b>)." .
+
+<StationOfLife/31078hasStationOfLife0>
+	rdfs:label "Assistent am Lehrstuhl für Physiologie an den Höheren Kursen für Frauen (#italic#Bestuževskie kursy#/italic#) in St. Petersburg" ;
+	drw-model:began <Date/1914_1916> ;
+	a drw-model:StationOfLife .
+
+<Date/1912_1914>
+	a drw-model:Date ;
+	rdfs:label "1912-1914" .
+
+<StationOfLife/31078hasStationOfLife2>
+	rdfs:label "Professor, Gründer und Leiter des Lehrstuhls für Physiologie an der Universität Smolensk" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1922_1930> .
+
+<RelatedPerson/31078fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Semen, Bauer" .
+
+<SLPublication/31078hasSL6>
+	rdfs:label "Zadorožnyj, A. G.: K 100-letiju so dnja roždenija D. S. Voroncova. Fiziologičeskij žurnal SSSR imeni I. M. Sečenova 73 (1987) 4, 561-563." ;
+	a drw-model:SLPublication .
+
+<Date/1916_1921>
+	a drw-model:Date ;
+	rdfs:label "1916-1921" .
+
+<Membership/31078hasMembership>
+	a drw-model:Membership ;
+	rdfs:label "Akademija nauk Ukrainskoj SSR [Akademie der Wissenschaften der Ukrainischen SSR] (1939 und 1957), Ukrajins’koe tovarystvo fiziolohiv [Ukrainische Physiologen-Gesellschaft] (Vorsitzender)" .
+
+<Date/1918>
+	a drw-model:Date ;
+	rdfs:label "1918" .
+
+<SLPublication/31078hasSL7>
+	a drw-model:SLPublication ;
+	rdfs:label "[Nekrolog] Fiziologičeskij žurnal SSSR imeni I. M. Sečenova 52 (1966) 1, 118-119." .
+
+<WPublication/31078hasW3>
+	rdfs:label "Fizičeskij ėlektroton nervov i myšc. Mit Michail Fedorovič Šuba. Kiev 1966, 212 S." ;
+	a drw-model:WPublication .
+
+<Education/31078hasEducation0>
+	a drw-model:Education ;
+	rdfs:label "Abschluss des Gymnasiums in Mogilev" ;
+	drw-model:began <Date/1907> .
+
+<SLPublication/31078hasSL1>
+	a drw-model:SLPublication ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 59, 67, 74." .
+
+<SLPublication/31078hasSL0>
+	rdfs:label "Makarov, P. O.: Z žyttja D. S. Voroncova. Fiziolohičnyj žurnal 12 (1966) 6, 709-711." ;
+	a drw-model:SLPublication .
+
+<Date/1944_1956>
+	a drw-model:Date ;
+	rdfs:label "1944-1956" .
+
+<SLPublication/31078hasSL2>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 105, 341; SU 96, 211-215." ;
+	a drw-model:SLPublication .
+
+<Education/31078hasEducation2>
+	drw-model:began <Date/1912_1914> ;
+	a drw-model:Education ;
+	rdfs:label "Weiterbildung am Lehrstuhl für Physiologie an der Universität St. Petersburg bei Aleksandr Stanislavovič #internNameLink#30220#endNameNr#Dogel'#/internNameLink# (1852-1922) und N. E. #internNameLink#31083#endNameNr#Vvedenskij#/internNameLink#" .
+
+<HonoursAndAwards/31078hasHounoursAndAwards>
+	rdfs:label "1978 Gedenkband: #italic#Sovremennye problemy obščej fiziologii vozbudimych obrazovanij. Sbornik rabot, posvjaščennyj pamjati akademika AN USSR D. S. Voroncova.#/italic# Red. Platon Grigor’evič Kostjuk. Kiev 1978, 196 S.<br>1986 1. Allunionskonferenz der Neurowissenschaften anlässlich seines 100. Geburtstages am 2.-4. Dezember in Kiev<br>Seit 2001 D. S. Voroncov-Stipendium (O. O. Bogomolec-Institut für Physiologie der Nationalakademie der Wissenschaften der Ukraine)" ;
+	a drw-model:HonoursAndAwards .
+
+<Date/1945_1947>
+	a drw-model:Date ;
+	rdfs:label "1945-1947" .
+
+<Education/31078hasEducation3>
+	rdfs:label "Mag. zool., vergl. anat. u. physiol. an der Novorossijskij-Universität Odessa" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1918> .
+
+<GeneralLabor/31078hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Neuro- und Elektrophysiologie" .
+
+<StationOfLife/31078hasStationOfLife9>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<SLPublication/31078hasSL5>
+	rdfs:label "Trofimov, L. G., Fudel’-Osipova, S. I., Kostjuk, P. G.: Daniil Semenovič Voroncov. K semidesjatiletiju so dnja roždenija. Fiziologičeskij žurnal SSSR imeni I. M. Sečenova 42 (1956) 11, 1004-1005." ;
+	a drw-model:SLPublication .
+
+<Date/1930_1935>
+	a drw-model:Date ;
+	rdfs:label "1930-1935" .
+
+<MainName/31078>
+	drw-model:hasNameVariation <NameVariation/31078var3> ;
+	drw-model:hasNameVariation <NameVariation/31078var2> ;
+	a drw-model:MainName ;
+	rdfs:label "Voroncov, Daniil Semenovič" ;
+	drw-model:hasNameVariation <NameVariation/31078var1> ;
+	drw-model:hasNameVariation <NameVariation/31078var0> .
+
+<Date/1944_1947>
+	rdfs:label "1944-1947" ;
+	a drw-model:Date .
+
+<StationOfLife/31078hasStationOfLife3>
+	drw-model:began <Date/1930_1935> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Professor und Leiter des Lehrstuhls für Physiologie an der Physiko-mathematischen Fakultät der Universität und am Medizinischen Institut in Kazan’" .
+
+<P/31078hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto in: Serkov 1995 (<b>SL</b>)." .
+
+<SLPublication/31078hasSL8>
+	rdfs:label "[Zefirov, Andrej L’vovič u. a.:] Kazanskaja fiziologičeskaja škola na rubeže vekov. Kazanskij gosudarstvennyj universitet (1804-1917 gg.). Kafedra fiziologii fiziko-matematičeskogo fakul’teta (http://www.kcn.ru/tat_ru/science/fiziologi/kgu_fizmat.htm, 22.3.2011)." ;
+	a drw-model:SLPublication .
+
+<NameVariation/31078var2>
+	a drw-model:NameVariation ;
+	rdfs:label "Woronzow, D."@de .
+
+<StationOfLife/31078hasStationOfLife5>
+	rdfs:label "Professor und Leiter des Lehrstuhls für Physiologie an der Universität Kiev" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1944_1956> .
+
+<StationOfLife/31078hasStationOfLife1>
+	drw-model:began <Date/1916_1921> ;
+	rdfs:label "Assistent, Privatdozent und Professor an der Universität Odessa" ;
+	a drw-model:StationOfLife .
+
+<Date/1935_1941>
+	a drw-model:Date ;
+	rdfs:label "1935-1941" .
+

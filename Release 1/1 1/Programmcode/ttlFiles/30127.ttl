@@ -1,0 +1,448 @@
+
+<ImportantPerson/30127>
+	drw-model:hasGeneralLabor <GeneralLabor/30127hasGeneralLabor2> ;
+	drw-model:hasP <P/30127hasP1> ;
+	drw-model:hasSL <SLPublication/30127hasSL2> ;
+	drw-model:hasW <WPublication/30127hasW0> ;
+	drw-model:hasW <WPublication/30127hasW9> ;
+	drw-model:hasP <P/30127hasP4> ;
+	drw-model:drwID "30127" ;
+	drw-model:hasW <WPublication/30127hasW4> ;
+	drw-model:hasP <P/30127hasP0> ;
+	drw-model:hasStationOfLife <StationOfLife/30127hasStationOfLife3> ;
+	drw-model:hasStationOfLife <StationOfLife/30127hasStationOfLife1> ;
+	drw-model:hasStationOfLife <StationOfLife/30127hasStationOfLife10> ;
+	drw-model:hasStationOfLife <StationOfLife/30127hasStationOfLife12> ;
+	drw-model:hasSL <SLPublication/30127hasSL9> ;
+	rdfs:label "Boldyrev, Vasilij Nikolaevič" ;
+	drw-model:hasStationOfLife <StationOfLife/30127hasStationOfLife7> ;
+	drw-model:hasW <WPublication/30127hasW15> ;
+	drw-model:hasW <WPublication/30127hasW3> ;
+	drw-model:hasGPV <GPVPublication/30127hasGPV0> ;
+	drw-model:hasW <WPublication/30127hasW14> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/30127hasHounoursAndAwards> ;
+	drw-model:wasMarriedTo <RelatedPerson/30127wasMarriedTo> ;
+	drw-model:hasMembership <Membership/30127hasMembership> ;
+	drw-model:hasStationOfLife <StationOfLife/30127hasStationOfLife11> ;
+	drw-model:hasStationOfLife <StationOfLife/30127hasStationOfLife13> ;
+	drw-model:hasW <WPublication/30127hasW13> ;
+	drw-model:hasSL <SLPublication/30127hasSL7> ;
+	drw-model:hasW <WPublication/30127hasW2> ;
+	drw-model:hasW <WPublication/30127hasW6> ;
+	drw-model:hasEducation <Education/30127hasEducation0> ;
+	drw-model:hasStationOfLife <StationOfLife/30127hasStationOfLife5> ;
+	drw-model:hasW <WPublication/30127hasW5> ;
+	drw-model:hasW <WPublication/30127hasW8> ;
+	drw-model:hasSL <SLPublication/30127hasSL3> ;
+	drw-model:hasDescendant <RelatedPerson/30127hasDescendant> ;
+	drw-model:hasP <P/30127hasP3> ;
+	drw-model:hasStationOfLife <StationOfLife/30127hasStationOfLife8> ;
+	drw-model:hasStationOfLife <StationOfLife/30127hasStationOfLife4> ;
+	drw-model:hasSL <SLPublication/30127hasSL0> ;
+	drw-model:hasWL <WLStationOfLife/30127hasWL0> ;
+	drw-model:hasW <WPublication/30127hasW1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <Education/30127hasEducation3> ;
+	drw-model:hasSL <SLPublication/30127hasSL6> ;
+	drw-model:hasSL <SLPublication/30127hasSL8> ;
+	drw-model:hasEducation <Education/30127hasEducation4> ;
+	drw-model:hasSL <SLPublication/30127hasSL4> ;
+	drw-model:hasW <WPublication/30127hasW12> ;
+	drw-model:hasEducation <Education/30127hasEducation1> ;
+	drw-model:hasW <WPublication/30127hasW16> ;
+	drw-model:hasW <WPublication/30127hasW7> ;
+	drw-model:hasGPV <GPVPublication/30127hasGPV2> ;
+	drw-model:hasW <WPublication/30127hasW11> ;
+	drw-model:hasP <P/30127hasP2> ;
+	drw-model:hasMainName <MainName/30127> ;
+	drw-model:hasEducation <Education/30127hasEducation2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30127hasGeneralLabor0> ;
+	drw-model:hasStationOfLife <StationOfLife/30127hasStationOfLife2> ;
+	drw-model:hasStationOfLife <StationOfLife/30127hasStationOfLife0> ;
+	drw-model:hasSL <SLPublication/30127hasSL1> ;
+	drw-model:hasGPV <GPVPublication/30127hasGPV1> ;
+	drw-model:fatherIs <RelatedPerson/30127fatherIs> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30127hasGeneralLabor1> ;
+	drw-model:hasStationOfLife <StationOfLife/30127hasStationOfLife6> ;
+	drw-model:hasSL <SLPublication/30127hasSL5> ;
+	drw-model:hasStationOfLife <StationOfLife/30127hasStationOfLife9> ;
+	drw-model:hasW <WPublication/30127hasW10> .
+
+<WPublication/30127hasW7>
+	rdfs:label "Influence of roentgen rays upon gastric secretion. Mit J. T. Case. American Journal of Roentgenology 19 (1928), 61-70." ;
+	a drw-model:WPublication .
+
+<Date/1893>
+	a drw-model:Date ;
+	rdfs:label "1893" .
+
+<StationOfLife/30127hasStationOfLife0>
+	rdfs:label "Tätigkeit als Militärchirurg im Südkaukasus und Landarzt im Gouvernement Voronež" ;
+	drw-model:began <Date/1898_1901> ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30127hasSL8>
+	a drw-model:SLPublication ;
+	rdfs:label "Wingate, David L.: Backwards and Forwards with the Migrating Complex. Digestive Diseases and Sciences 26 (1981), 641-666 (insbesondere S. 642-649)." .
+
+<GPVPublication/30127hasGPV1>
+	rdfs:label "Publikationen 1909-1917, in: Kazanskij universitet 1986, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<Date/1901>
+	a drw-model:Date ;
+	rdfs:label "1901" .
+
+<StationOfLife/30127hasStationOfLife8>
+	drw-model:began <Date/1816_1817> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Aufenthalte in Frankreich und England als Spezialist für Gaskampfstoffe im Dienst des Roten Kreuzes" .
+
+<StationOfLife/30127hasStationOfLife11>
+	rdfs:label "Übersiedlung in die USA und Physiologe an der Western Reserve University in Cleveland/OH" ;
+	drw-model:began <Date/1922> ;
+	a drw-model:StationOfLife .
+
+<WPublication/30127hasW4>
+	rdfs:label "The periodical activity of the organism and its physiological and clinical significance. [Battle Creek/MI 1925], 32 S." ;
+	a drw-model:WPublication .
+
+<SLPublication/30127hasSL9>
+	rdfs:label "[Kurznekrolog] Journal of the American Medical Association 131 (1946), 623." ;
+	a drw-model:SLPublication .
+
+<MainName/30127>
+	drw-model:hasNameVariation <NameVariation/30127var3> ;
+	drw-model:hasNameVariation <NameVariation/30127var2> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30127var4> ;
+	drw-model:hasNameVariation <NameVariation/30127var1> ;
+	rdfs:label "Boldyrev, Vasilij Nikolaevič" ;
+	drw-model:hasNameVariation <NameVariation/30127var0> .
+
+<Date/1898_1901>
+	a drw-model:Date ;
+	rdfs:label "1898-1901" .
+
+<GeneralLabor/30127hasGeneralLabor2>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Gastroenterologe" .
+
+<StationOfLife/30127hasStationOfLife9>
+	rdfs:label "Emigration nach Japan" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1918> .
+
+<SLPublication/30127hasSL1>
+	a drw-model:SLPublication ;
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 50-52." .
+
+<RelatedPerson/30127fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Nikolaj, Kaufmann" .
+
+<P/30127hasP4>
+	a drw-model:P ;
+	rdfs:label "Foto: V. N. Boldyrev im Laboratorium, sitzend. In: Ivy (<b>SL</b>); Ausschnitt in: Volkov/Kulikova 2003 b (<b>SL</b>), Bildeinlage zw. S. 32 und 33." .
+
+<WPublication/30127hasW5>
+	rdfs:label "A study of the influence of high voltage roentgen irradiation of salivary secretion in dogs and its effect on the sensibility of the buccal mucosa. Mit J. T. Case. American Journal of Roentgenology 13 (1925), 130-139." ;
+	a drw-model:WPublication .
+
+<WPublication/30127hasW11>
+	rdfs:label "Factors influencing the passage of liquids from the stomach into the intestine. Mit Jean F. Stewart. American Journal of Physiology 102 (1932), 276-284." ;
+	a drw-model:WPublication .
+
+<StationOfLife/30127hasStationOfLife6>
+	rdfs:label "Professor für Anatomie und öffentliche Gesundheit am Kaiserlichen Lyzeum in Carskoe Selo" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1911_1912> .
+
+<WPublication/30127hasW16>
+	rdfs:label "The Physiological Mechanism of the Decrease of Acidity in Gastric Contents. Mit W. F. Martin. Acta Medica Scandinavica 95 (1938), 151-166." ;
+	a drw-model:WPublication .
+
+<Date/1912_1918#footnote10#>
+	a drw-model:Date ;
+	rdfs:label "1912-1918#footnote10#" .
+
+<Membership/30127hasMembership>
+	rdfs:label "Ehrenmitglied: Estonian Medical Society (ab 1921 Association), International Society of Medical Hydrology" ;
+	a drw-model:Membership .
+
+<StationOfLife/30127hasStationOfLife13>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<SLPublication/30127hasSL2>
+	rdfs:label "Kästner, Ingrid (Hg.): S. V. Aničkov: Am Rubikon zweier Epochen. Die Memoiren des russischen Pharmakologen Sergej Viktorovič Aničkov (1892-1981). Aachen 2006 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaft 13), 73 ff., 126, 149-152." ;
+	a drw-model:SLPublication .
+
+<Education/30127hasEducation4>
+	rdfs:label "Dr. med. an der MMA" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1904> .
+
+<StationOfLife/30127hasStationOfLife10>
+	rdfs:label "Dozent an den Universitäten Tokyo, Kyoto, Osaka" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1920_1921> .
+
+<Date/1918>
+	a drw-model:Date ;
+	rdfs:label "1918" .
+
+<Date/1911_1912>
+	a drw-model:Date ;
+	rdfs:label "1911-1912" .
+
+<NameVariation/30127var4>
+	a drw-model:NameVariation ;
+	rdfs:label "Boldireff, "@de .
+
+<GeneralLabor/30127hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologe" .
+
+<WPublication/30127hasW10>
+	rdfs:label "The harm of tobacco smoke. For smokers and non-smokers. Mit einem Vorwort von John Harvey Kellogg. 4. Aufl. Battle Creek/MI 1930, 45 S." ;
+	a drw-model:WPublication .
+
+<StationOfLife/30127hasStationOfLife7>
+	rdfs:label "Professor für Pharmakologie an der Medizinischen Fakultät der Universität Kazan’" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1912_1918#footnote10#> .
+
+<GPVPublication/30127hasGPV2>
+	rdfs:label "Publikationen in deutscher Sprache 1904-1938, in: Pfrepper 2009 und 2012 (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<StationOfLife/30127hasStationOfLife12>
+	rdfs:label "Direktor des Pavlov Physiological Institute of Battle Creek Sanitarium, Battle Creek/MI" ;
+	drw-model:began <Date/1923_1940> ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30127hasSL3>
+	a drw-model:SLPublication ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 155-158." .
+
+<WPublication/30127hasW2>
+	rdfs:label "Organismens periodiska verksamhet och Abderhaldens havandeskapsreaktion. Svenska läkaresällskapets förhandlingar (1918)." ;
+	a drw-model:WPublication .
+
+<Date/1922>
+	a drw-model:Date ;
+	rdfs:label "1922" .
+
+<Education/30127hasEducation2>
+	drw-model:began <Date/1893> ;
+	rdfs:label "Abschluss des Gymnasiums in Voronež" ;
+	a drw-model:Education .
+
+<Date/1920_1921>
+	a drw-model:Date ;
+	rdfs:label "1920-1921" .
+
+<NameVariation/30127var3>
+	rdfs:label "Boldyreff, Vasilii Nicholaevich#footnote2#"@de ;
+	a drw-model:NameVariation .
+
+<P/30127hasP2>
+	a drw-model:P ;
+	rdfs:label "Foto in: Šustov 1910" .
+
+<WPublication/30127hasW13>
+	rdfs:label "Diabetes mellitus and its treatment. Acta Medica Scandinavica 82 (1934), 533-557." ;
+	a drw-model:WPublication .
+
+<GeneralLabor/30127hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Pharmakologe" .
+
+<StationOfLife/30127hasStationOfLife4>
+	rdfs:label "Prosektor und 1907-1911 Privatdozent am Lehrstuhl für Physiologie der MMA" ;
+	drw-model:began <Date/1905_1907> ;
+	a drw-model:StationOfLife .
+
+<RelatedPerson/30127hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "#footnote5#
+Basil Boldyreff (Vasilij Vasil’evič) (1898-1974) (?)
+Ephraim Basil Boldyreff (Efraim Vasil’evič) (1900-1986), Physiologe#footnote6#
+Tatiana William Boldyreff (Tat’jana Vasil’evna Boldyreva) (1902-1984), Linguistin#footnote7#
+Alexander William Boldyreff (Aleksandr Vasil’evič) (1903-1978), Chemiker, Prof. für Mathematik, Prof. für Ingenieurtechnik#footnote8#
+John William Boldyreff (Ivan Vasil’evič) (1905-1971), Soziologe#footnote9#" .
+
+<Date/1905_1907>
+	a drw-model:Date ;
+	rdfs:label "1905-1907" .
+
+<P/30127hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto in: Kästner 2006 (<b>SL</b>), 73." .
+
+<Date/1890>
+	rdfs:label "1890" ;
+	a drw-model:Date .
+
+<SLPublication/30127hasSL4>
+	a drw-model:SLPublication ;
+	rdfs:label "Pfrepper, Regine: Wirksubstanzen. Deutsch-russische Beziehungen in der Pharmakologie des 19. Jahrhunderts. Aachen 2012 (Relationes 8), 118-123." .
+
+<WPublication/30127hasW3>
+	rdfs:label "Biography of Professor I. P. Pavlov, M.D., honorary director of the Institute of Experimental Medicine, Petrograd. The Bulletin of the Battle Creek Sanitarium and Hospital Clinic 19 (1923) Dez.-Nr., 16 S." ;
+	a drw-model:WPublication .
+
+<WLStationOfLife/30127hasWL0>
+	rdfs:label "1905 Entdeckung der periodischen motorischen Aktivität des Magens und des Dünndarms während der interdigestiven Pause, des sog. „migrierenden Motorkomplexes“ (MMC)" ;
+	a drw-model:WLStationOfLife .
+
+<SLPublication/30127hasSL0>
+	a drw-model:SLPublication ;
+	rdfs:label "Ivy, A[ndrew] C[onway]: Vasillii Nicholaevich Boldyreff (obituary). Gastroenterology 6 (1946), 613-614." .
+
+<Date/1906/07>
+	a drw-model:Date ;
+	rdfs:label "1906/07" .
+
+<Education/30127hasEducation3>
+	drw-model:began <Date/1893_1898> ;
+	a drw-model:Education ;
+	rdfs:label "Studium an der Militärmedizinischen Akademie (MMA) in St. Petersburg" .
+
+<NameVariation/30127var2>
+	rdfs:label "Boldyreff, William/Basil Nicholas"@de ;
+	a drw-model:NameVariation .
+
+<P/30127hasP3>
+	a drw-model:P ;
+	rdfs:label "Foto: V. N. Boldyrev bei der Demonstration eines Experiments zur Magensekretion beim Hund. In: Wingate (<b>SL</b>), 645." .
+
+<StationOfLife/30127hasStationOfLife5>
+	rdfs:label "jeweils in den Sommerferien Weiterbildung in Krakau, Paris und in Deutschland:
+- u. a. bei G. F. #internNameLink#30753#endNameNr#Nicolai#/internNameLink# an der Universität Berlin (keine Veröffentlichungen aus Deutschland)" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1906/07> .
+
+<Date/1904>
+	a drw-model:Date ;
+	rdfs:label "1904" .
+
+<Date/1816_1817>
+	a drw-model:Date ;
+	rdfs:label "1816-1817" .
+
+<WPublication/30127hasW12>
+	rdfs:label "The Acidity of the Gastric Juice and Contents of the Fasting Stomach. Acta Medica Scandinavica 82 (1934), 111-125." ;
+	a drw-model:WPublication .
+
+<WPublication/30127hasW8>
+	rdfs:label "P. Pavlov as a scientist. Bulletin of the Battle Creek Sanitarium and Hospital Clinic 24 (= Special issue in honor of I. P. Pavlov’s eightieth birthday) (1929), 212-229." ;
+	a drw-model:WPublication .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<Date/1893_1898>
+	a drw-model:Date ;
+	rdfs:label "1893-1898" .
+
+<GPVPublication/30127hasGPV0>
+	rdfs:label "Physiologische Arbeiten 1902-1940, in: Kvasov/Fedorova-Groth 1967 (<b>SL</b>), 51-52." ;
+	a drw-model:GPVPublication .
+
+<WPublication/30127hasW0>
+	rdfs:label "Periodičeskaja rabota piščevaritel’nogo apparata pri pustom želudke. Diss. Sankt-Peterburg 1904, 112 + 52 S." ;
+	a drw-model:WPublication .
+
+<SLPublication/30127hasSL5>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 60, 33-34, SU 57, 320-327." ;
+	a drw-model:SLPublication .
+
+<WPublication/30127hasW1>
+	rdfs:label "Programma po farmakologii. Kazan’ 1915, 11 S." ;
+	a drw-model:WPublication .
+
+<SLPublication/30127hasSL6>
+	rdfs:label "Vikipedija (http://ru.wikipedia.org/wiki/Болдырев,_Василий_Николаевич, 9.11.2010)." ;
+	a drw-model:SLPublication .
+
+<Education/30127hasEducation0>
+	drw-model:began <Date/vor_1890> ;
+	a drw-model:Education ;
+	rdfs:label "Besuch des Gymnasiums in Voronež" .
+
+<StationOfLife/30127hasStationOfLife2>
+	rdfs:label "Praktikant in der physiologischen Abteilung des Instituts für Experimentelle Medizin (IEM) in St. Petersburg bei I. P. #internNameLink#30785#endNameNr#Pavlov#/internNameLink#" ;
+	drw-model:began <Date/1901> ;
+	a drw-model:StationOfLife .
+
+<NameVariation/30127var1>
+	a drw-model:NameVariation ;
+	rdfs:label "Boldyreff, Wassili Nikolajewitsch#footnote1#"@de .
+
+<WPublication/30127hasW15>
+	rdfs:label "Gastric and Intestinal Mucus, its Properties and Physiological Importance. Acta Medica Scandinavica 89 (1936), 1-14." ;
+	a drw-model:WPublication .
+
+<HonoursAndAwards/30127hasHounoursAndAwards>
+	rdfs:label "1904#footnote11# Pokrovskij-Prämie (IEM)<br>1905#footnote12# I. P. Pavlov-Prämie (Gesellschaft russischer Ärzte zu St. Petersburg)<br>1911 Preis der Internationalen Hygiene-Ausstellung in Dresden" ;
+	a drw-model:HonoursAndAwards .
+
+<RelatedPerson/30127wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anna Boldyreva (Boldyreff) (* 1879)#footnote4#" .
+
+<WPublication/30127hasW9>
+	rdfs:label "So-called duodenal regurgitation. Bulletin of the Battle Creek Sanitarium and Hospital Clinic 24 (= Special issue in honor of I. P. Pavlov’s eightieth birthday) (1929), 379-393." ;
+	a drw-model:WPublication .
+
+<Date/1923_1940>
+	rdfs:label "1923-1940" ;
+	a drw-model:Date .
+
+<SLPublication/30127hasSL7>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 64-65." ;
+	a drw-model:SLPublication .
+
+<WPublication/30127hasW6>
+	rdfs:label "Methode zur Darstellung eines reinen, natürlichen fermentreichen Darmsaftes. Fermentforschung 9 (1927), 156-165." ;
+	a drw-model:WPublication .
+
+<Education/30127hasEducation1>
+	drw-model:began <Date/1890> ;
+	a drw-model:Education ;
+	rdfs:label "Unterbrechung des Gymnasiums und Freiwilliger in der Infanterie; danach Ausbildung in der Junker-Schule in Čugujiv, Gouv. Char’kov" .
+
+<StationOfLife/30127hasStationOfLife1>
+	rdfs:label "Tätigkeit in der Klinik für innere Medizin des Medizinischen Instituts für Frauen in St. Peterburg" ;
+	drw-model:began <Date/1901> ;
+	a drw-model:StationOfLife .
+
+<NameVariation/30127var0>
+	a drw-model:NameVariation ;
+	rdfs:label "Boldyrew, Wassili Nikolajewitsch"@de .
+
+<StationOfLife/30127hasStationOfLife3>
+	rdfs:label "Assistent bei #internNameLink#30785#endNameNr#Pavlov#/internNameLink# am IEM, zugleich am Lehrstuhl für Physiologie der MMA" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1902_1905> .
+
+<WPublication/30127hasW14>
+	rdfs:label "Dry natural digestive juices: Their properties and laboratory and clinical use. American Journal of Digestive Diseases 2 (1935) 1, 33-36." ;
+	a drw-model:WPublication .
+
+<Date/1902_1905>
+	a drw-model:Date ;
+	rdfs:label "1902-1905" .
+
+<Date/vor_1890>
+	a drw-model:Date ;
+	rdfs:label "vor 1890" .
+
+<P/30127hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Kvasov/Fedorova-Grot 1967 (<b>SL</b>), Bildeinlage zw. S. 64 und 65." .
+

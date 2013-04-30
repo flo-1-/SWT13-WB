@@ -1,0 +1,249 @@
+
+<Date/1850_1856>
+	a drw-model:Date ;
+	rdfs:label "1850-1856" .
+
+<SLPublication/30929hasSL1>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 245." ;
+	a drw-model:SLPublication .
+
+<Date/1865_1866>
+	a drw-model:Date ;
+	rdfs:label "1865-1866" .
+
+<WPublication/30929hasW5>
+	rdfs:label "[Übersetzung von: Brücke, Ernst von: Vorlesungen über Physiologie. 2. Aufl. Bd. 1, Kapitel: Die Respiration; Die Bewegungserscheinungen; Muskelbewegung; Bd. 2, Kapitel: Thomas Young’s Theorie; Mängel des dioptrischen Apparates. Wien 1875] Brjukke, Ėrnst: Učebnik fiziologii. T. 1, Otdel: Dychatel’nyja dviženija; Dviženija voobšče; Myšečnyja dviženija; T. 2, Otdel: Teorija T. Junga; Nedostatki dioptričeskago apparata. Sankt-Peterbrug 1876." ;
+	a drw-model:WPublication .
+
+<SLPublication/30929hasSL5>
+	a drw-model:SLPublication ;
+	rdfs:label "Česnakova [Im Original Druckfehler, es muss heißen: Česnokova], Sof’ja Aleksandrovna, Lindemann, Marianne: Russische Physiologen in Laboratorien von Carl Ludwig. Wissenschaftliche Zeitschrift der Karl-Marx-Universität Leipzig, Mathematisch-naturwissenschaftliche Reihe 19 (1970), 315-323." .
+
+<StationOfLife/30929hasStationOfLife3>
+	rdfs:label "Leiter des Physiologischen Laboratoriums der Universität Moskau" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1865_1866> .
+
+<WPublication/30929hasW0>
+	rdfs:label "De sedimentis cotii (Semiotičeskoe značenie močevych osadkov) [Studienabschlussarbeit, ausgezeichnet mit der goldenen Medaille der Universität]. Moskva 1860." ;
+	a drw-model:WPublication .
+
+<StationOfLife/30929hasStationOfLife6>
+	drw-model:began <Date/1870_1878> ;
+	rdfs:label "ao. Professor und Einrichtung eines neuen Physiologischen Laboratoriums#footnote7#" ;
+	a drw-model:StationOfLife .
+
+<Date/1861_1864>
+	a drw-model:Date ;
+	rdfs:label "1861-1864" .
+
+<Date/ab_1865>
+	a drw-model:Date ;
+	rdfs:label "ab 1865" .
+
+<RelatedPerson/30929fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Petr Vasil’evič (1806-nach 1879), Hofrat, Verwaltungsmitglied im Kuratorium des Moskauer Erziehungshauses#footnote1#" .
+
+<StationOfLife/30929hasStationOfLife4>
+	drw-model:began <Date/1865_Juni_1868#footnote4#_oder_1869#footnote5#> ;
+	rdfs:label "Weiterbildung in Deutschland:
+- bei C. #internNameLink#30664#endNameNr#Ludwig#/internNameLink##footnote6# und Karl Hugo #name#Huppert#/name# (1832-1904) an der Universität Leipzig
+- bei H. von #internNameLink#30366#endNameNr#Helmholtz#/internNameLink# und Robert Wilhelm #internNameLink#10029#endNameNr#Bunsen#/internNameLink# (1811-1899) an der Universität Heidelberg" ;
+	a drw-model:StationOfLife .
+
+<HonoursAndAwards/30929hasHounoursAndAwards>
+	rdfs:label "„Wirklicher Russischer Staatsrat“" ;
+	a drw-model:HonoursAndAwards .
+
+<Date/ohne_Datum>
+	rdfs:label "ohne Datum" ;
+	a drw-model:Date .
+
+<Education/30929hasEducation1>
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Moskau" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1856_1861> .
+
+<MainName/30929>
+	a drw-model:MainName ;
+	rdfs:label "Šeremetevskij, Fedor Petrovič" ;
+	drw-model:hasNameVariation <NameVariation/30929var0> ;
+	drw-model:hasNameVariation <NameVariation/30929var1> .
+
+<Membership/30929hasMembership>
+	rdfs:label "Moskovskoe psichologičeskoe obščestvo [Gesellschaft für Psychologie zu Moskau] (Gründungsmitglied), Imperatorskoe Obščestvo ljubitelej estestvoznanija, antropologii i ėtnografii [Kaiserliche Gesellschaft der Naturliebhaber, der Anthropologie und Ethnographie zu Moskau], Moskovskoe fiziko-medicinskoe obščestvo [Physiko-medizinische Gesellschaft zu Moskau], Moskovskoe obščestvo ispytatelej prirody [Gesellschaft der Naturforscher zu Moskau]" ;
+	a drw-model:Membership .
+
+<WPublication/30929hasW2>
+	rdfs:label "Publičnye lekcii ob ugadyvanii myslej. Moskva 1885." ;
+	a drw-model:WPublication .
+
+<NameVariation/30929var1>
+	a drw-model:NameVariation ;
+	rdfs:label "Scheremetjewski, Theodor"@de .
+
+<WLStationOfLife/30929hasWL0>
+	rdfs:label "Forschungsgebiet: Physiologische Prozesse und psychische Phänomene in den wissenschaftlichen Erkenntnissen" ;
+	a drw-model:WLStationOfLife .
+
+<GeneralLabor/30929hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<StationOfLife/30929hasStationOfLife5>
+	rdfs:label "Dozent für Physiologie an der Universität Moskau" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1869_1870> .
+
+<WPublication/30929hasW6>
+	rdfs:label "Außerdem Autor mehrerer kritischer Aufsätze und Rezensionen in der Zeitschrift #italic#Medicinskoe obozrenie#/italic#." ;
+	a drw-model:WPublication .
+
+<StationOfLife/30929hasStationOfLife0>
+	rdfs:label "Praktischer Arzt an verschiedenen Krankenhäusern in Moskau, u. a. an der Augenheilanstalt bei Gustav Ivanovič #name#Braun#/name# (1827-1897)#footnote3#" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1861_1864> .
+
+<Date/1869#footnote2#>
+	a drw-model:Date ;
+	rdfs:label "1869#footnote2#" .
+
+<WPublication/30929hasW1>
+	rdfs:label "Materialy k fiziologii processov okislenija krovi živogo organizma. Diss. Moskva 1869, 66 S." ;
+	a drw-model:WPublication .
+
+<WPublication/30929hasW4>
+	rdfs:label "Fon-Gel’mgol’c, kak fiziolog, i ego značenie dlja psichologii [Öffentlicher Vortrag]. Moskva 1890." ;
+	a drw-model:WPublication .
+
+<SLPublication/30929hasSL4>
+	a drw-model:SLPublication ;
+	rdfs:label "Volkov, Vladimir Akimovič, Kulikova, Marina Vladimirovna: Moskovskie professora XVIII - načala XX vekov. Estestvennye i techničeskie nauki. Moskva 2003, 274." .
+
+<Date/1856_1861>
+	rdfs:label "1856-1861" ;
+	a drw-model:Date .
+
+<StationOfLife/30929hasStationOfLife1>
+	a drw-model:StationOfLife ;
+	rdfs:label "Assistent von P. P. #internNameLink#30244#endNameNr#Ėjnbrodt#/internNameLink# am Lehrstuhl für Physiologie der Universität Moskau" ;
+	drw-model:began <Date/1864_1865> .
+
+<StationOfLife/30929hasStationOfLife7>
+	drw-model:began <Date/1878_1891> ;
+	rdfs:label "o. Professor für Physiologie an der Universität Moskau" ;
+	a drw-model:StationOfLife .
+
+<ImportantPerson/30929>
+	drw-model:hasW <WPublication/30929hasW1> ;
+	drw-model:hasStationOfLife <StationOfLife/30929hasStationOfLife4> ;
+	drw-model:hasSL <SLPublication/30929hasSL5> ;
+	drw-model:drwID "30929" ;
+	drw-model:hasStationOfLife <StationOfLife/30929hasStationOfLife1> ;
+	drw-model:hasW <WPublication/30929hasW4> ;
+	drw-model:hasStationOfLife <StationOfLife/30929hasStationOfLife8> ;
+	rdfs:label "Šeremetevskij, Fedor Petrovič" ;
+	drw-model:hasW <WPublication/30929hasW0> ;
+	drw-model:hasSL <SLPublication/30929hasSL2> ;
+	drw-model:hasStationOfLife <StationOfLife/30929hasStationOfLife6> ;
+	drw-model:hasStationOfLife <StationOfLife/30929hasStationOfLife5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30929hasGeneralLabor0> ;
+	drw-model:hasSL <SLPublication/30929hasSL0> ;
+	drw-model:hasStationOfLife <StationOfLife/30929hasStationOfLife2> ;
+	drw-model:hasSL <SLPublication/30929hasSL3> ;
+	drw-model:hasStationOfLife <StationOfLife/30929hasStationOfLife7> ;
+	drw-model:hasEducation <Education/30929hasEducation2> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <WPublication/30929hasW3> ;
+	drw-model:hasStationOfLife <StationOfLife/30929hasStationOfLife3> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/30929hasHounoursAndAwards> ;
+	drw-model:hasWL <WLStationOfLife/30929hasWL1> ;
+	drw-model:hasMainName <MainName/30929> ;
+	drw-model:hasMembership <Membership/30929hasMembership> ;
+	drw-model:hasEducation <Education/30929hasEducation1> ;
+	drw-model:hasW <WPublication/30929hasW6> ;
+	drw-model:hasW <WPublication/30929hasW2> ;
+	drw-model:hasStationOfLife <StationOfLife/30929hasStationOfLife0> ;
+	drw-model:hasWL <WLStationOfLife/30929hasWL0> ;
+	drw-model:fatherIs <RelatedPerson/30929fatherIs> ;
+	drw-model:hasSL <SLPublication/30929hasSL1> ;
+	drw-model:hasSL <SLPublication/30929hasSL4> ;
+	drw-model:hasStationOfLife <StationOfLife/30929hasStationOfLife9> ;
+	drw-model:hasEducation <Education/30929hasEducation0> ;
+	drw-model:hasW <WPublication/30929hasW5> .
+
+<Date/1865_Juni_1868#footnote4#_oder_1869#footnote5#>
+	a drw-model:Date ;
+	rdfs:label "1865-Juni 1868#footnote4# (oder 1869)#footnote5#" .
+
+<Date/1870_1878>
+	a drw-model:Date ;
+	rdfs:label "1870-1878" .
+
+<Date/1864_1865>
+	a drw-model:Date ;
+	rdfs:label "1864-1865" .
+
+<Education/30929hasEducation0>
+	drw-model:began <Date/1850_1856> ;
+	rdfs:label "Besuch des 2. und des 4. Gymnasiums in Moskau" ;
+	a drw-model:Education .
+
+<StationOfLife/30929hasStationOfLife9>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<StationOfLife/30929hasStationOfLife2>
+	drw-model:began <Date/ab_1865> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Vorlesungen zur Physiologie" .
+
+<Education/30929hasEducation2>
+	rdfs:label "Dr. med. an der Universität Moskau" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1869#footnote2#> .
+
+<WPublication/30929hasW3>
+	rdfs:label "Fiziologičeskie osnovy psichičeskich javlenij v predelach naučnogo poznanija. In: Reči i otčet Imperatorskogo Moskovskogo universiteta 12 janvarja 1890. Moskva 1890." ;
+	a drw-model:WPublication .
+
+<NameVariation/30929var0>
+	rdfs:label "Шереметьевский, Федор Петрович"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Šeremet'evskij, Fedor Petrovič"@de .
+
+<Date/1878_1891>
+	rdfs:label "1878-1891" ;
+	a drw-model:Date .
+
+<WLStationOfLife/30929hasWL1>
+	rdfs:label "Ab 1888 zusammen mit dem Gründer Lev Zacharovič #internNameLink#30732#endNameNr#Morochovec#/internNameLink# Redakteur der Reihe #italic#Trudy Fiziologičeskogo instituta Moskovskogo universiteta#/italic##footnote8#" ;
+	a drw-model:WLStationOfLife .
+
+<SLPublication/30929hasSL3>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 493." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30929hasStationOfLife8>
+	drw-model:began <Date/ohne_Datum> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Abgeordneter und Mitglied im Medizinalrat des Serpuchover Landtags (#italic#Serpuchovskoe zemstvo#/italic#)" .
+
+<SLPublication/30929hasSL0>
+	rdfs:label "Jazykov, Dmitrij Dmitrievič: Obzor žizni i trudov russkich pisatelej i pisatel’nic. Bd. 11. Sankt-Peterburg 1909 (Sbornik Otdelenija russkago jazyka i slovesnosti Imperatorskoj akademii nauk 86,3), 211-212." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30929hasSL2>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 507, 361-368." ;
+	a drw-model:SLPublication .
+
+<Date/1869_1870>
+	a drw-model:Date ;
+	rdfs:label "1869-1870" .
+

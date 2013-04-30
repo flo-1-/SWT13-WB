@@ -1,0 +1,285 @@
+
+<RelatedPerson/30205fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Jakov Petrovič, Uhrmachermeister, Fotograf#footnote6#" .
+
+<Date/1922>
+	a drw-model:Date ;
+	rdfs:label "1922" .
+
+<Date/1910>
+	a drw-model:Date ;
+	rdfs:label "1910" .
+
+<Date/1903>
+	a drw-model:Date ;
+	rdfs:label "1903" .
+
+<Date/1887>
+	rdfs:label "1887" ;
+	a drw-model:Date .
+
+<StationOfLife/30205hasStationOfLife0>
+	rdfs:label "Dozent für Zoophysiologie mit Rechten eines Professors an der Veterinäranstalt in Char’kov" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1879/80_1884> .
+
+<Date/1877>
+	a drw-model:Date ;
+	rdfs:label "1877" .
+
+<StationOfLife/30205hasStationOfLife4>
+	rdfs:label "Gründer des Laboratoriums für vergleichende Physiologie an der Physiko-mathematischen Fakultät der Universität Char’kov" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1884> .
+
+<Education/30205hasEducation5>
+	drw-model:began <Date/1877> ;
+	rdfs:label "Dr. med. an der Universität Char’kov" ;
+	a drw-model:Education .
+
+<StationOfLife/30205hasStationOfLife2>
+	drw-model:began <Date/1883_1886> ;
+	rdfs:label "ao. Professor am Lehrstuhl für Zoologie der Universität Char’kov" ;
+	a drw-model:StationOfLife .
+
+<StationOfLife/30205hasStationOfLife6>
+	rdfs:label "Forschungsaufenthalte in Laboratorien:
+- bei Ernst #name#Fleischl von Marxow#/name# (1846-1891) an der Universität Wien
+- bei Justus #name#Gaule#/name# (1849-1939) in Zürich in der Schweiz" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1887> .
+
+<Education/30205hasEducation3>
+	drw-model:began <Date/1870_1874> ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Char’kov" ;
+	a drw-model:Education .
+
+<Date/1884>
+	a drw-model:Date ;
+	rdfs:label "1884" .
+
+<NameVariation/30205var1>
+	a drw-model:NameVariation ;
+	rdfs:label "Danilewsky, Basil/Basile/Basilius"@de .
+
+<StationOfLife/30205hasStationOfLife11>
+	rdfs:label "Ordinarius für Physiologie an der Medizinischen Fakultät der Universität Char’kov und 1921-1926 am Medizinischen Institut Char’kov" ;
+	drw-model:began <Date/1917_1921> ;
+	a drw-model:StationOfLife .
+
+<Education/30205hasEducation0>
+	drw-model:began <Date/Vor_1868> ;
+	a drw-model:Education ;
+	rdfs:label "Besuch des 2. Gymnasiums in Char’kov" .
+
+<Date/1868_1870>
+	a drw-model:Date ;
+	rdfs:label "1868-1870" .
+
+<StationOfLife/30205hasStationOfLife14>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<StationOfLife/30205hasStationOfLife9>
+	rdfs:label "Forschungsaufenthalte in Laboratorien:
+- bei Siegmund von #name#Exner#/name# (1846-1926) in Wien
+- bei K. H. #internNameLink#30587#endNameNr#Kronecker#/internNameLink# in Bern in der Schweiz" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1903> .
+
+<Date/1893_1895_und_1901>
+	a drw-model:Date ;
+	rdfs:label "1893, 1895 und 1901" .
+
+<GeneralLabor/30205hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<Date/1878_1879>
+	a drw-model:Date ;
+	rdfs:label "1878-1879" .
+
+<StationOfLife/30205hasStationOfLife8>
+	drw-model:began <Date/1893_1895_und_1901> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Forschungsreisen nach Deutschland zu J. von #internNameLink#30584#endNameNr#Kries#/internNameLink#, Franz #name#Himstedt#/name# (1852-1933) und W. A. #internNameLink#30743#endNameNr#Nagel#/internNameLink# an die Universität Freiburg im Breisgau" .
+
+<RelatedPerson/30205hasSibling>
+	a drw-model:RelatedPerson ;
+	rdfs:label "#footnote7#
+Aleksandr Jakovlevič (1838-1923), Professor für Biochemie#footnote8#
+Konstantin Jakovlevič (Constantin Danilewsky) (* 1855), Arzt, Professor für Medizin, Flugkonstrukteur#footnote9#
+Michail Jakovlevič, Praktischer Arzt
+Antonina Jakovlevna Danilevskaja, verh. Aleksandrovič (* 1860)" .
+
+<Date/1882>
+	a drw-model:Date ;
+	rdfs:label "1882" .
+
+<StationOfLife/30205hasStationOfLife12>
+	drw-model:began <Date/1919> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Gründer und erster Direktor des Instituts für Organtherapie#footnote11# bei der Char’kover medizinischen Gesellschaft 1927Gründer der Endokrinologischen Institutsklinik und 1931-1939Leiter des wissenschaftlichen Forschungssektors#footnote12#" .
+
+<Date/1871_1876>
+	a drw-model:Date ;
+	rdfs:label "1871-1876" .
+
+<MainName/30205>
+	a drw-model:MainName ;
+	rdfs:label "Danilevskij, Vasilij Jakovlevič" ;
+	drw-model:hasNameVariation <NameVariation/30205var1> ;
+	drw-model:hasNameVariation <NameVariation/30205var0> ;
+	drw-model:hasNameVariation <NameVariation/30205var2> .
+
+<RelatedPerson/30205motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Elena Stepanovna Danilevskaja" .
+
+<ImportantPerson/30205>
+	drw-model:hasGeneralLabor <GeneralLabor/30205hasGeneralLabor1> ;
+	drw-model:hasStationOfLife <StationOfLife/30205hasStationOfLife9> ;
+	drw-model:hasStationOfLife <StationOfLife/30205hasStationOfLife10> ;
+	drw-model:hasStationOfLife <StationOfLife/30205hasStationOfLife5> ;
+	drw-model:hasStationOfLife <StationOfLife/30205hasStationOfLife3> ;
+	drw-model:fatherIs <RelatedPerson/30205fatherIs> ;
+	drw-model:hasEducation <Education/30205hasEducation2> ;
+	drw-model:hasStationOfLife <StationOfLife/30205hasStationOfLife13> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30205hasGeneralLabor0> ;
+	drw-model:hasStationOfLife <StationOfLife/30205hasStationOfLife8> ;
+	drw-model:hasStationOfLife <StationOfLife/30205hasStationOfLife14> ;
+	drw-model:hasEducation <Education/30205hasEducation0> ;
+	drw-model:motherIs <RelatedPerson/30205motherIs> ;
+	drw-model:hasStationOfLife <StationOfLife/30205hasStationOfLife1> ;
+	drw-model:hasEducation <Education/30205hasEducation3> ;
+	drw-model:hasStationOfLife <StationOfLife/30205hasStationOfLife12> ;
+	rdfs:label "Danilevskij, Vasilij Jakovlevič" ;
+	drw-model:drwID "30205" ;
+	drw-model:hasStationOfLife <StationOfLife/30205hasStationOfLife11> ;
+	drw-model:hasEducation <Education/30205hasEducation1> ;
+	drw-model:hasEducation <Education/30205hasEducation4> ;
+	drw-model:hasMainName <MainName/30205> ;
+	drw-model:hasStationOfLife <StationOfLife/30205hasStationOfLife2> ;
+	drw-model:hasStationOfLife <StationOfLife/30205hasStationOfLife0> ;
+	drw-model:hasStationOfLife <StationOfLife/30205hasStationOfLife7> ;
+	drw-model:hasStationOfLife <StationOfLife/30205hasStationOfLife6> ;
+	drw-model:hasEducation <Education/30205hasEducation5> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSibling <RelatedPerson/30205hasSibling> ;
+	drw-model:hasEducation <Education/30205hasEducation6> ;
+	drw-model:hasStationOfLife <StationOfLife/30205hasStationOfLife4> .
+
+<StationOfLife/30205hasStationOfLife1>
+	drw-model:began <Date/1882> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Dozent für vergleichende Physiologie der Tiere an der Physiko-mathematischen Fakultät der Universität Char’kov" .
+
+<Date/1886_1909>
+	a drw-model:Date ;
+	rdfs:label "1886-1909" .
+
+<Date/1889>
+	a drw-model:Date ;
+	rdfs:label "1889" .
+
+<Date/1868>
+	rdfs:label "1868" ;
+	a drw-model:Date .
+
+<Date/1870_1874>
+	a drw-model:Date ;
+	rdfs:label "1870-1874" .
+
+<Date/Vor_1868>
+	a drw-model:Date ;
+	rdfs:label "Vor 1868" .
+
+<StationOfLife/30205hasStationOfLife3>
+	rdfs:label "Forschungsreise in die Schweiz und nach Deutschland:
+- zu Carl August Christoph #name#Vogt#/name# (1817-1895) und Friedrich Wilhelm #name#Zahn#/name# (1845-1904) an die Universität Genf
+- zu Oswald #internNameLink#30908#endNameNr#Schmiedeberg#/internNameLink# (1838-1921) an die Universität Straßburg" ;
+	drw-model:began <Date/1883> ;
+	a drw-model:StationOfLife .
+
+<Date/1883_1886>
+	a drw-model:Date ;
+	rdfs:label "1883-1886" .
+
+<StationOfLife/30205hasStationOfLife7>
+	rdfs:label "Forschungsreise zu Jacques-Arsène #name#d’Arsonval#/name# (1851-1940) nach Paris und an die Zoologische Meeresstation nach Roscoff (Bretagne)" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1889> .
+
+<Education/30205hasEducation4>
+	rdfs:label "Weiterbildung im Physiologischen Laboratorium an der Medizinischen Fakultät der Universität Char’kov bei I. P. #internNameLink#30893#endNameNr#Ščelkov#/internNameLink#" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1871_1876> .
+
+<StationOfLife/30205hasStationOfLife5>
+	drw-model:began <Date/1886_1909> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Ordinarius für Physiologie des Menschen an der Medizinischen Fakultät der Universität Char’kov" .
+
+<Education/30205hasEducation2>
+	drw-model:began <Date/1868_1870> ;
+	a drw-model:Education ;
+	rdfs:label "Studium an der Mathematischen Fakultät der Universität Kazan’" .
+
+<Date/1917_1921>
+	a drw-model:Date ;
+	rdfs:label "1917-1921" .
+
+<Education/30205hasEducation1>
+	rdfs:label "Abschluss des 2. Gymnasiums in Kazan’" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1868> .
+
+<NameVariation/30205var0>
+	a drw-model:NameVariation ;
+	rdfs:label "Danylevs'kyj, Vasyl’ Jakovyč"@de .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<Date/1879/80_1884>
+	rdfs:label "1879/80-1884" ;
+	a drw-model:Date .
+
+<NameVariation/30205var2>
+	a drw-model:NameVariation ;
+	rdfs:label "Danilewski, Basil/Basile/Basilius"@de .
+
+<Date/1883>
+	a drw-model:Date ;
+	rdfs:label "1883" .
+
+<GeneralLabor/30205hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Histologe" .
+
+<Education/30205hasEducation6>
+	rdfs:label "Weiterbildung in Deutschland mit Stipendium des Ministeriums für Volksaufklärung:
+- bei A. #internNameLink#30266#endNameNr#Fick#/internNameLink# und bei Friedrich Wilhelm Georg #name#Kohlrausch#/name# (1840-1910) an der Universität Würzburg
+- bei I. #internNameLink#30865#endNameNr#Rosenthal#/internNameLink# an der Universität Erlangen
+- bei C. #internNameLink#30664#endNameNr#Ludwig#/internNameLink# an der Universität Leipzig#footnote10#
+- bei Friedrich Karl August #name#Stohmann#/name# (1832-1897) am Landwirtschaftlich-physiologischen Institut der Universität Leipzig" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1878_1879> .
+
+<Date/1919>
+	a drw-model:Date ;
+	rdfs:label "1919" .
+
+<StationOfLife/30205hasStationOfLife13>
+	rdfs:label "Gründer des Ukrainischen Arbeitsinstituts (heute Wissenschaftliches Forschungsinstitut für Arbeits-Hygiene und Berufskrankheiten) in Char’kov" ;
+	drw-model:began <Date/1922> ;
+	a drw-model:StationOfLife .
+
+<StationOfLife/30205hasStationOfLife10>
+	rdfs:label "Begründer des Medizinischen Instituts für Frauen in Char’kov, bis 1912 dessen Direktor und bis 1917 Dozent für Physiologie" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1910> .
+

@@ -1,0 +1,419 @@
+
+<RelatedPerson/31075fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann Wilhelm (1772-1856), Besitzer der Rittergüter Zschortau und Biesen bei Leipzig, Jurist und Senator in Leipzig" .
+
+<P/31075hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Altmeyer 1963 (<b>SL</b>), 30." .
+
+<Q/31075hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Nachlass 1836-1873 (4 Kästen, 5 Bände), in: Martin-Luther-Universität Halle-Wittenberg, Universitäts- und Landesbibliothek Sachsen-Anhalt: Signatur Yi 22. Vgl. Altmeyer 1963 (<b>SL</b>) und http://sundoc.bibliothek.uni-halle.de/nachlaesse/volkmann.htm (18.4.2011)." .
+
+<Date/1821_1826>
+	rdfs:label "1821-1826" ;
+	a drw-model:Date .
+
+<WLStationOfLife/31075hasWL2>
+	rdfs:label "1842 Nachweis (zus. mit #internNameLink#30091#endNameNr#Bidder#/internNameLink#) der Selbständigkeit des sympatischen Nervensystems" ;
+	a drw-model:WLStationOfLife .
+
+<NameVariation/31075var0>
+	a drw-model:NameVariation ;
+	rdfs:label "Фолькман, Альфред-Вильгельм"@ru ;
+	rdfs:label "Fol'kman, Al’fred-Vil’gel’m"@de .
+
+<RelatedPerson/31075hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "12 Kinder, darunter:#footnote6#
+Richard von Volkmann (Pseud.: Richard Leander) (1830-1889), Chirurg und Literat
+Edmund (1831-1893), Fabrikdirektor
+Anna, verh. Anschütz (1832-1865)
+Otto (1834-1897), Amtsgerichtsrat
+Felix (1835-1876)
+Wilhelm (1837-1896), Buch- und Musikalienhändler
+Fanny, verh. Heidenhain (1841-1864)#footnote7#" .
+
+<StationOfLife/31075hasStationOfLife4>
+	rdfs:label "Prorektor der Universität Dorpat" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1841> .
+
+<WPublication/31075hasW1>
+	rdfs:label "Anatomia animalium tabulis illustrata. Leipzig 1831-1832." ;
+	a drw-model:WPublication .
+
+<GPVPublication/31075hasGPV3>
+	rdfs:label "Bibliographie in: Altmeyer 1963 (<b>SL</b>), 125-156." ;
+	a drw-model:GPVPublication .
+
+<Membership/31075hasMembership>
+	rdfs:label "Königlich Sächsische Gesellschaft der Wissenschaften#footnote12# (1849), Bayerische Akademie der Wissenschaften (1860), Leopoldina (1874)" ;
+	a drw-model:Membership .
+
+<StationOfLife/31075hasStationOfLife0>
+	rdfs:label "Privatdozent für Anatomie und Physiologie an der Universität Leipzig" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1828_1834> .
+
+<Date/1828_1834>
+	a drw-model:Date ;
+	rdfs:label "1828-1834" .
+
+<WPublication/31075hasW2>
+	rdfs:label "Die Selbständigkeit des sympathischen Nervensystems durch anatomische Untersuchungen nachgewiesen. Mit F. H. → Bidder. Leipzig 1842, 88 S. (online unter http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10330667-8, 14.3.2011)." ;
+	a drw-model:WPublication .
+
+<Date/ab_1856>
+	a drw-model:Date ;
+	rdfs:label "ab 1856" .
+
+<SLPublication/31075hasSL6>
+	rdfs:label "Erik-Amburger-Datenbank. Ausländer im vorrevolutionären Russland (http://88.217.241.77/amburger/, 10.4.2012): Dokument-Id [91878/88742 (18.4.2011)]." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/31075hasStationOfLife6>
+	rdfs:label "Privatdozent für Physiologie (ohne amtliche Stellung) an der Universität Halle/Saale" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1843_1844> .
+
+<Date/1826>
+	a drw-model:Date ;
+	rdfs:label "1826" .
+
+<SLPublication/31075hasSL2>
+	a drw-model:SLPublication ;
+	rdfs:label "Baltisches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 396, 305-308." .
+
+<StationOfLife/31075hasStationOfLife2>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1837_1842> ;
+	rdfs:label "o. Professor für Physiologie, Pathologie und Semiotikan der Medizinischen Fakultät der Universität Dorpat" .
+
+<Education/31075hasEducation3>
+	drw-model:began <Date/1827/28> ;
+	rdfs:label "Weiterbildung in London und Paris" ;
+	a drw-model:Education .
+
+<WPublication/31075hasW0>
+	rdfs:label "Observationes biologicae de magnetismo animali et de ovorum animaliumque caloris quadam constantia eiusque explicatione. Diss. Leipzig 1826, 67 S." ;
+	a drw-model:WPublication .
+
+<P/31075hasP2>
+	rdfs:label "Portrait in: Rothschuh 1953, 111." ;
+	a drw-model:P .
+
+<Q/31075hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Universitätsarchiv Leipzig: Sammlungsgut, Fotosammlung seit 1857, Signatur N01777-59." .
+
+<SLPublication/31075hasSL9>
+	rdfs:label "Piper, Hans-Felix: Alfred Wilhelm Volkmann (1801-1877): als Sinnesphysiologe gerügt – gewürdigt – genannt. In: Mitteilungen der Julius-Hirschberg-Gesellschaft. Hg. v. Frank Krogmann. Bd. 6 (Würzburg 2004), 125-144." ;
+	a drw-model:SLPublication .
+
+<Education/31075hasEducation0>
+	drw-model:began <Date/1816_1821> ;
+	rdfs:label "Besuch der Fürstenschule St. Afra in Meißen/Sachsen" ;
+	a drw-model:Education .
+
+<Date/1841>
+	a drw-model:Date ;
+	rdfs:label "1841" .
+
+<Date/1839>
+	a drw-model:Date ;
+	rdfs:label "1839" .
+
+<WLStationOfLife/31075hasWL0>
+	rdfs:label "Mitbegründer (zus. mit F. H. #internNameLink#30091#endNameNr#Bidder#/internNameLink#) der Dorpater Physiologenschule" ;
+	a drw-model:WLStationOfLife .
+
+<SLPublication/31075hasSL4>
+	a drw-model:SLPublication ;
+	rdfs:label "CPH (Catalogus-professorum-halensis: http://www.catalogus-professorum-halensis.de/volkmannalfredwilhelm.html, 18.4.2011)." .
+
+<Date/1844_1876>
+	a drw-model:Date ;
+	rdfs:label "1844-1876" .
+
+<RelatedPerson/31075wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Adelheid, geb. Härtel (1808-1884)#footnote5#" .
+
+<P/31075hasP5>
+	rdfs:label "Portrait in: <b>SL</b> CPH und Wikipedia." ;
+	a drw-model:P .
+
+<GeneralLabor/31075hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie und Anatomie" .
+
+<SLPublication/31075hasSL12>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 461." ;
+	a drw-model:SLPublication .
+
+<SLPublication/31075hasSL10>
+	a drw-model:SLPublication ;
+	rdfs:label "Professorenkatalog der Universität Leipzig - Catalogus Professorum Lipsiensis. Hrsg. vom Lehrstuhl für Neuere und Neueste Geschichte, Historisches Seminar der Universität Leipzig (http://www.uni-leipzig.de/unigeschichte/professorenkatalog/impressum.html, 12.4.2012). (Professorenkatalog der Universität Leipzig/Catalogus professorum lipsiensis: http://www.uni-leipzig.de/unigeschichte/professorenkatalog/leipzig/Volkmann_1362, 18.4.2011)." .
+
+<WLStationOfLife/31075hasWL3>
+	rdfs:label "Entwickler des Tachistoskops (1859), des Makroskops (1863) u. a." ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/31075hasStationOfLife8>
+	rdfs:label "Rektor#footnote8# der Universität Halle/Saale" ;
+	drw-model:began <Date/1847/48> ;
+	a drw-model:StationOfLife .
+
+<Date/1816_1821>
+	rdfs:label "1816-1821" ;
+	a drw-model:Date .
+
+<StationOfLife/31075hasStationOfLife11>
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Halle (13 mal)" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/ab_1856> .
+
+<Date/1862/63>
+	a drw-model:Date ;
+	rdfs:label "1862/63" .
+
+<MainName/31075>
+	a drw-model:MainName ;
+	rdfs:label "Volkmann, Alfred Wilhelm#footnote1#" ;
+	drw-model:hasNameVariation <NameVariation/31075var0> .
+
+<P/31075hasP4>
+	rdfs:label "Portrait in: Volkov/Kulikova 2003 b (<b>SL</b>), Bildeinlage zw. S. 504-505." ;
+	a drw-model:P .
+
+<RelatedPerson/31075motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Friederike Tugendreich, geb. Zink (1774-1812)" .
+
+<P/31075hasP1>
+	rdfs:label "Porträt [sitzend, seitlich, um 1871], in: Universitätsarchiv Leipzig (vgl. <b>Q</b>); auch in: Professorenkatalog der Universität Leipzig - Catalogus Professorum Lipsiensis. Hrsg. vom Lehrstuhl für Neuere und Neueste Geschichte, Historisches Seminar der Universität Leipzig (http://www.uni-leipzig.de/unigeschichte/professorenkatalog/impressum.html, 12.4.2012). (<b>SL</b>)." ;
+	a drw-model:P .
+
+<WLStationOfLife/31075hasWL4>
+	rdfs:label "Nach ihm sind die Volkmann-Kanäle (Gefäßkanäle in den Knochen) benannt.#footnote11#" ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/31075hasStationOfLife12>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<StationOfLife/31075hasStationOfLife9>
+	drw-model:began <Date/1850/51> ;
+	rdfs:label "Rektor#footnote9# der Universität Halle/Saale" ;
+	a drw-model:StationOfLife .
+
+<Q/31075hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr. 2134 (Fragebogen [incl. Abschrift] zur Aufnahme in die Leopoldina [hier als Geburtsort Leipzig angegeben] mit summarischer Angabe von Schriften, Briefe von Volkmann [ohne Empfänger] vom 18.-20. und 25.-26.2.1874, vom 8.3.1875, Briefe an Volkmann [ohne Absender] vom 20. und 26.2.1874 und 17.2.1875, Fotokopie der Rede Volkmanns vom 12.7.1877, Biographie aus: Chronik der Königlichen vereinigten Friedrichs-Universität Halle-Wittenberg für das Jahr 1877, Halle 1875, 5-6, Portrait von 1874, Foto: Filmarchiv 11.18; außerdem in der Akte vorhanden: Briefe von Wilhelm Müller von 1874, Korrespondenz von Prof. Dr. Johannes Volkmann und Hilda Anschütz)." .
+
+<StationOfLife/31075hasStationOfLife5>
+	rdfs:label "Rektor der Universität Dorpat" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1841/42> .
+
+<GPVPublication/31075hasGPV2>
+	rdfs:label "Bibliographie in: Catalogue of scientific papers 6 (1872), 8 (1879), 11 (1896), 12 (1902), insg. 82 Nrn., zit. n. Poggendorff (<b>SL</b>), Bd. 7a, Suppl." ;
+	a drw-model:GPVPublication .
+
+<Date/1843_1844>
+	a drw-model:Date ;
+	rdfs:label "1843-1844" .
+
+<P/31075hasP7>
+	rdfs:label "Georg Friedrich Schlater (1804-1870): Alfred Wilhelm Volkmann (1800[!]-1877). Lithographie nach einer Zeichnung von Eduard Petrowitsch Hau (1807-1887) von 1837. Estnisches Kunstmuseum im Ritterhaus zu Tallinn: G 5197. Abb. mit Bildbeschreibung in: Anne Lõugas (Hg.): Deutschbaltische Porträtkunst in Estland 1750-1900. Tallinn, Helsinki 2003, 154." ;
+	a drw-model:P .
+
+<ImportantPerson/31075>
+	drw-model:hasSL <SLPublication/31075hasSL13> ;
+	drw-model:hasP <P/31075hasP0> ;
+	drw-model:hasDescendant <RelatedPerson/31075hasDescendant> ;
+	drw-model:hasStationOfLife <StationOfLife/31075hasStationOfLife1> ;
+	drw-model:drwID "31075" ;
+	drw-model:hasStationOfLife <StationOfLife/31075hasStationOfLife7> ;
+	drw-model:hasSL <SLPublication/31075hasSL6> ;
+	drw-model:hasP <P/31075hasP6> ;
+	drw-model:fatherIs <RelatedPerson/31075fatherIs> ;
+	drw-model:hasSL <SLPublication/31075hasSL1> ;
+	drw-model:hasWL <WLStationOfLife/31075hasWL1> ;
+	drw-model:hasEducation <Education/31075hasEducation2> ;
+	drw-model:hasSL <SLPublication/31075hasSL2> ;
+	drw-model:hasWL <WLStationOfLife/31075hasWL2> ;
+	drw-model:hasQ <Q/31075hasQ0> ;
+	drw-model:hasStationOfLife <StationOfLife/31075hasStationOfLife9> ;
+	drw-model:hasSL <SLPublication/31075hasSL12> ;
+	drw-model:hasStationOfLife <StationOfLife/31075hasStationOfLife11> ;
+	drw-model:hasSL <SLPublication/31075hasSL5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31075hasGeneralLabor0> ;
+	drw-model:wasMarriedTo <RelatedPerson/31075wasMarriedTo> ;
+	drw-model:hasSL <SLPublication/31075hasSL9> ;
+	drw-model:hasEducation <Education/31075hasEducation0> ;
+	drw-model:motherIs <RelatedPerson/31075motherIs> ;
+	drw-model:hasStationOfLife <StationOfLife/31075hasStationOfLife5> ;
+	drw-model:hasEducation <Education/31075hasEducation3> ;
+	drw-model:hasWL <WLStationOfLife/31075hasWL4> ;
+	drw-model:hasWL <WLStationOfLife/31075hasWL3> ;
+	drw-model:hasP <P/31075hasP2> ;
+	drw-model:hasStationOfLife <StationOfLife/31075hasStationOfLife8> ;
+	drw-model:hasQ <Q/31075hasQ2> ;
+	drw-model:hasStationOfLife <StationOfLife/31075hasStationOfLife3> ;
+	drw-model:hasStationOfLife <StationOfLife/31075hasStationOfLife10> ;
+	drw-model:hasP <P/31075hasP1> ;
+	drw-model:hasW <WPublication/31075hasW0> ;
+	drw-model:hasMembership <Membership/31075hasMembership> ;
+	drw-model:hasEducation <Education/31075hasEducation1> ;
+	drw-model:hasSL <SLPublication/31075hasSL8> ;
+	drw-model:hasP <P/31075hasP7> ;
+	drw-model:hasSL <SLPublication/31075hasSL4> ;
+	drw-model:hasMainName <MainName/31075> ;
+	drw-model:hasStationOfLife <StationOfLife/31075hasStationOfLife6> ;
+	drw-model:hasStationOfLife <StationOfLife/31075hasStationOfLife4> ;
+	drw-model:hasP <P/31075hasP4> ;
+	drw-model:hasSL <SLPublication/31075hasSL0> ;
+	drw-model:hasGPV <GPVPublication/31075hasGPV2> ;
+	drw-model:hasP <P/31075hasP3> ;
+	drw-model:hasSL <SLPublication/31075hasSL3> ;
+	drw-model:hasStationOfLife <StationOfLife/31075hasStationOfLife2> ;
+	drw-model:hasP <P/31075hasP5> ;
+	drw-model:hasSL <SLPublication/31075hasSL11> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/31075hasHounoursAndAwards> ;
+	rdfs:label "Volkmann, Alfred Wilhelm#footnote1#" ;
+	drw-model:hasW <WPublication/31075hasW2> ;
+	drw-model:hasSL <SLPublication/31075hasSL10> ;
+	drw-model:hasQ <Q/31075hasQ1> ;
+	drw-model:hasW <WPublication/31075hasW1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasGPV <GPVPublication/31075hasGPV3> ;
+	drw-model:hasWL <WLStationOfLife/31075hasWL0> ;
+	drw-model:hasGPV <GPVPublication/31075hasGPV1> ;
+	drw-model:hasSL <SLPublication/31075hasSL7> ;
+	drw-model:hasW <WPublication/31075hasW3> ;
+	drw-model:hasGPV <GPVPublication/31075hasGPV0> ;
+	drw-model:hasStationOfLife <StationOfLife/31075hasStationOfLife12> ;
+	drw-model:hasStationOfLife <StationOfLife/31075hasStationOfLife0> .
+
+<SLPublication/31075hasSL5>
+	a drw-model:SLPublication ;
+	rdfs:label "Deutsches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 1315, 352-355; II 1347, 248-250; III 951, 286-288." .
+
+<StationOfLife/31075hasStationOfLife7>
+	drw-model:began <Date/1844_1876> ;
+	rdfs:label "Professor für Physiologie, ab 1854/5 zugleich für Anatomie und ab 1872 nur für Anatomie, Medizinische Fakultät der Universität Halle/Saale" ;
+	a drw-model:StationOfLife .
+
+<SLPublication/31075hasSL7>
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 1788-1789." ;
+	a drw-model:SLPublication .
+
+<GPVPublication/31075hasGPV0>
+	rdfs:label "Publikationen 1836-1873, in: Poggendorff (<b>SL</b>) Bd. 2 u. 3." ;
+	a drw-model:GPVPublication .
+
+<WPublication/31075hasW3>
+	rdfs:label "Physiologische Untersuchungen im Gebiete der Optik. H. 1-2. Leipzig 1863-1864, 268 S." ;
+	a drw-model:WPublication .
+
+<StationOfLife/31075hasStationOfLife3>
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Dorpat" ;
+	drw-model:began <Date/1839> ;
+	a drw-model:StationOfLife .
+
+<Date/1847/48>
+	a drw-model:Date ;
+	rdfs:label "1847/48" .
+
+<P/31075hasP3>
+	rdfs:label "Portrait [mit Unterschrift] in: Altmeyer 1963 (<b>SL</b>), 2; Ausschnitt auch in: Piper 2004 (<b>SL</b>), 128." ;
+	a drw-model:P .
+
+<StationOfLife/31075hasStationOfLife1>
+	rdfs:label "ao. Professor für Zootomie an der Universität Leipzig" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1834_1837> .
+
+<Education/31075hasEducation2>
+	rdfs:label "Dr. med. an der Universität Leipzig" ;
+	drw-model:began <Date/1826> ;
+	a drw-model:Education .
+
+<SLPublication/31075hasSL0>
+	rdfs:label "Allgemeine Deutsche Biographie. Bd. 1-56. Leipzig 1875–1912,  Bd. 40 (1896), 236-237." ;
+	a drw-model:SLPublication .
+
+<Education/31075hasEducation1>
+	rdfs:label "Studium der Medizin an der Medizinischen Fakultät der Universität Leipzig" ;
+	drw-model:began <Date/1821_1826> ;
+	a drw-model:Education .
+
+<SLPublication/31075hasSL11>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 479, 152-155." ;
+	a drw-model:SLPublication .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<Date/1841/42>
+	a drw-model:Date ;
+	rdfs:label "1841/42" .
+
+<GPVPublication/31075hasGPV1>
+	rdfs:label "Deutschsprachige Publikationen aus dem Russischen Reich 1838-1846, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<P/31075hasP6>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Berühmte Hallenser (http://www.vhs.halle.de/vhs.asp?MenuID=22&amp;SubPage=18, 20.4.2011)." .
+
+<SLPublication/31075hasSL1>
+	rdfs:label "Altmeyer, Monika: Alfred Wilhelm Volkmann (1801-1877). Leben und Werk. Halle/Saale 1963, 165 Bl. [Maschinenschrift]; mit einer Ahnen- und Stammtafel von A. W. Volkmann im Anhang." ;
+	a drw-model:SLPublication .
+
+<Date/1850/51>
+	a drw-model:Date ;
+	rdfs:label "1850/51" .
+
+<SLPublication/31075hasSL3>
+	rdfs:label "Poggendorff - Biographisch-literarisches Handwörterbuch zur Geschichte der exacten Naturwissenschaften, enthaltend Nachweisungen über Lebensverhältnisse und Leistungen von Mathematikern, Astronomen, Physikern, Chemikern, Mineralogen, Geologen usw. aller Völker und Zeiten. Gesammelt von J. C. Poggendorff, Mitglied der Akademie der Wissenschaften zu Berlin / J. C. Poggendorff - Biographisch-literarisches Handwörterbuch der exakten Naturwissenschaften. Bd. 1-8. Leipzig, Berlin 1863-2004. Bd. 2 (1863), 1229-1230; Bd. 3 (1898), 1400; Bd. 7a Suppl. (1971), 741-742." ;
+	a drw-model:SLPublication .
+
+<HonoursAndAwards/31075hasHounoursAndAwards>
+	rdfs:label "„Geheimrat“<br>„Medizinalrat“<br>1875 Roter Adlerorden 2. Klasse" ;
+	a drw-model:HonoursAndAwards .
+
+<Date/1834_1837>
+	a drw-model:Date ;
+	rdfs:label "1834-1837" .
+
+<SLPublication/31075hasSL13>
+	a drw-model:SLPublication ;
+	rdfs:label "Wikipedia (http://de.wikipedia.org/wiki/Alfred_Wilhelm_Volkmann, 18.4.2011)." .
+
+<SLPublication/31075hasSL8>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 259-261 [Muss heißen: Alfred Wilhelm Volkmann, s. Anm. 1]." ;
+	a drw-model:SLPublication .
+
+<WLStationOfLife/31075hasWL1>
+	rdfs:label "Hauptforschungsgebiet: Anatomie und Physiologie des Gesichtssinnes (z. B. Beschreibung der gegensinnigen Verrollung der Senkrechtempfindung zwischen den Augen, der Irradiation in Grenzgebieten der Helligkeit; Messung der Geschwindigkeit von Augenbewegungen u. a.)" ;
+	a drw-model:WLStationOfLife .
+
+<Date/1827/28>
+	a drw-model:Date ;
+	rdfs:label "1827/28" .
+
+<StationOfLife/31075hasStationOfLife10>
+	drw-model:began <Date/1862/63> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Rektor#footnote10# der Universität Halle/Saale" .
+
+<Date/1837_1842>
+	rdfs:label "1837-1842" ;
+	a drw-model:Date .
+

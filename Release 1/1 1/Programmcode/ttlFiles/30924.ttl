@@ -1,0 +1,573 @@
+
+<SLPublication/30924hasSL0>
+	rdfs:label "Frieden, Nancy Mandelker: Russian Physicians in an Era of Reform and Revolution, 1856-1905. Princeton/NJ 1981; 53-75: The Great Reforms and New Roles for Physicians." ;
+	a drw-model:SLPublication .
+
+<MainName/30924>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30924var1> ;
+	rdfs:label "Sečenov, Ivan Michajlovič" ;
+	drw-model:hasNameVariation <NameVariation/30924var0> ;
+	drw-model:hasNameVariation <NameVariation/30924var2> .
+
+<Date/1856_1860>
+	a drw-model:Date ;
+	rdfs:label "1856-1860" .
+
+<NameVariation/30924var2>
+	a drw-model:NameVariation ;
+	rdfs:label "Setchenoff, Johann"@de .
+
+<StationOfLife/30924hasStationOfLife1>
+	drw-model:began <Date/1862_1863> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Weiterbildung bei Claude #name#Bernard#/name# (1813-1878) in Paris" .
+
+<SLPublication/30924hasSL8>
+	a drw-model:SLPublication ;
+	rdfs:label "Pfrepper, Regine, Pfrepper, Gerd: Wissensspuren. Reisen russischer Mediziner nach Westeuropa im 19. Jahrhundert. Aachen 2012 (Relationes 11)" .
+
+<GeneralLabor/30924hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<SLPublication/30924hasSL11>
+	a drw-model:SLPublication ;
+	rdfs:label "Professora MCA/VMA - Professora Voenno-medicinskoj (Mediko-chirurgičeskoj) akademii (1798-1998). Glavnyj red. Jurij Leonidovič Ševčenko. Sankt-Peterburg 1998, 57." .
+
+<WLStationOfLife/30924hasWL1>
+	rdfs:label "Begründer der russischen (Neuro-)Physiologenschule und der Schule der Elektrophysiologie" ;
+	a drw-model:WLStationOfLife .
+
+<P/30924hasP2>
+	a drw-model:P ;
+	rdfs:label "Portrait [mit Unterschrift] in: Popel’skij 1899 (<b>SL</b>), zw. S. 48-49." .
+
+<StationOfLife/30924hasStationOfLife8>
+	rdfs:label "Reise nach Deutschland:
+- zu #internNameLink#30664#endNameNr#Ludwig#/internNameLink# und zu Wilhelm #internNameLink#10154#endNameNr#Ostwald#/internNameLink# (1853-1932) an die Universität Leipzig
+- zu #internNameLink#30230#endNameNr#Du Bois-Reymond#/internNameLink# an die Universität Berlin" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1891> .
+
+<StationOfLife/30924hasStationOfLife10>
+	rdfs:label "an den weiterbildenden Arbeiterkursen#footnote6# in Moskau" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1903_1904> .
+
+<RelatedPerson/30924fatherIs>
+	rdfs:label "Michail Alekseevič (1767-1839), Adliger, Gutsbesitzer#footnote2#" ;
+	a drw-model:RelatedPerson .
+
+<SLPublication/30924hasSL18>
+	rdfs:label "Volkov, Vladimir Akimovič, Kulikova, Marina Vladimirovna: Moskovskie professora XVIII - načala XX vekov. Estestvennye i techničeskie nauki. Moskva 2003, 214-215." ;
+	a drw-model:SLPublication .
+
+<Q/30924hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Autobiographical notes by I. M. Sechenov [Aus dem Russischen von Kristan Hanes]. Hg. v. Donald B. Lindsley. Washington/DC 1965 (Russian monographs on brain and behaviour 2), 174 S." .
+
+<WPublication/30924hasW1>
+	rdfs:label "Refleksy golovnogo mozga. Medicinskij vestnik (1863) Nr. 47, 461-484, Nr. 48, 493-512; 2. Aufl. 1871, 179 S." ;
+	a drw-model:WPublication .
+
+<Education/30924hasEducation0>
+	drw-model:began <Date/#footnote5#> ;
+	rdfs:label "" ;
+	a drw-model:Education .
+
+<Date/1848_1850>
+	a drw-model:Date ;
+	rdfs:label "1848-1850" .
+
+<P/30924hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Artemov 1998 (<b>Q</b>), vordere Umschlagseite." .
+
+<WPublication/30924hasW0>
+	rdfs:label "Materialy dlja buduščej fiziologii op’janenija. Diss. Sankt-Peterburg 1860, 64 S." ;
+	a drw-model:WPublication .
+
+<ImportantPerson/30924>
+	drw-model:hasSL <SLPublication/30924hasSL14> ;
+	drw-model:hasP <P/30924hasP6> ;
+	drw-model:hasSL <SLPublication/30924hasSL13> ;
+	drw-model:hasEducation <Education/30924hasEducation2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30924hasGeneralLabor0> ;
+	drw-model:hasGPV <GPVPublication/30924hasGPV0> ;
+	drw-model:hasP <P/30924hasP0> ;
+	drw-model:hasP <P/30924hasP12> ;
+	drw-model:hasSL <SLPublication/30924hasSL2> ;
+	drw-model:hasStationOfLife <StationOfLife/30924hasStationOfLife7> ;
+	drw-model:hasGPV <GPVPublication/30924hasGPV1> ;
+	drw-model:hasGPV <GPVPublication/30924hasGPV5> ;
+	drw-model:hasSL <SLPublication/30924hasSL5> ;
+	drw-model:hasSL <SLPublication/30924hasSL9> ;
+	drw-model:drwID "30924" ;
+	drw-model:hasP <P/30924hasP13> ;
+	drw-model:hasEducation <Education/30924hasEducation4> ;
+	drw-model:hasSL <SLPublication/30924hasSL8> ;
+	drw-model:hasStationOfLife <StationOfLife/30924hasStationOfLife5> ;
+	drw-model:hasStationOfLife <StationOfLife/30924hasStationOfLife6> ;
+	drw-model:hasStationOfLife <StationOfLife/30924hasStationOfLife9> ;
+	drw-model:hasQ <Q/30924hasQ2> ;
+	drw-model:motherIs <RelatedPerson/30924motherIs> ;
+	drw-model:hasWL <WLStationOfLife/30924hasWL6> ;
+	drw-model:hasEducation <Education/30924hasEducation5> ;
+	drw-model:hasGPV <GPVPublication/30924hasGPV6> ;
+	rdfs:label "Sečenov, Ivan Michajlovič" ;
+	drw-model:hasP <P/30924hasP10> ;
+	drw-model:hasSL <SLPublication/30924hasSL11> ;
+	drw-model:hasWL <WLStationOfLife/30924hasWL7> ;
+	drw-model:hasSL <SLPublication/30924hasSL4> ;
+	drw-model:hasSL <SLPublication/30924hasSL15> ;
+	drw-model:hasStationOfLife <StationOfLife/30924hasStationOfLife2> ;
+	drw-model:hasGPV <GPVPublication/30924hasGPV7> ;
+	drw-model:hasSL <SLPublication/30924hasSL7> ;
+	drw-model:hasWL <WLStationOfLife/30924hasWL2> ;
+	drw-model:hasGPV <GPVPublication/30924hasGPV3> ;
+	drw-model:wasMarriedTo <RelatedPerson/30924wasMarriedTo> ;
+	drw-model:hasStationOfLife <StationOfLife/30924hasStationOfLife1> ;
+	drw-model:hasW <WPublication/30924hasW4> ;
+	drw-model:hasGPV <GPVPublication/30924hasGPV8> ;
+	drw-model:hasSL <SLPublication/30924hasSL22> ;
+	drw-model:hasP <P/30924hasP1> ;
+	drw-model:hasStationOfLife <StationOfLife/30924hasStationOfLife8> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasP <P/30924hasP3> ;
+	drw-model:hasP <P/30924hasP8> ;
+	drw-model:hasW <WPublication/30924hasW2> ;
+	drw-model:hasP <P/30924hasP15> ;
+	drw-model:hasQ <Q/30924hasQ1> ;
+	drw-model:hasStationOfLife <StationOfLife/30924hasStationOfLife4> ;
+	drw-model:hasStationOfLife <StationOfLife/30924hasStationOfLife11> ;
+	drw-model:hasHounoursAndAwardsComment <HounoursAndAwardsComment/30924hasHounoursAndAwardsComment> ;
+	drw-model:hasSL <SLPublication/30924hasSL10> ;
+	drw-model:hasMembership <Membership/30924hasMembership> ;
+	drw-model:hasEducation <Education/30924hasEducation1> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/30924hasHounoursAndAwards> ;
+	drw-model:hasW <WPublication/30924hasW0> ;
+	drw-model:hasSL <SLPublication/30924hasSL3> ;
+	drw-model:fatherIs <RelatedPerson/30924fatherIs> ;
+	drw-model:hasSL <SLPublication/30924hasSL20> ;
+	drw-model:hasQ <Q/30924hasQ0> ;
+	drw-model:hasP <P/30924hasP7> ;
+	drw-model:hasEducation <Education/30924hasEducation3> ;
+	drw-model:hasWL <WLStationOfLife/30924hasWL4> ;
+	drw-model:hasQ <Q/30924hasQ3> ;
+	drw-model:hasWL <WLStationOfLife/30924hasWL5> ;
+	drw-model:hasSL <SLPublication/30924hasSL1> ;
+	drw-model:hasSL <SLPublication/30924hasSL16> ;
+	drw-model:hasSL <SLPublication/30924hasSL0> ;
+	drw-model:hasP <P/30924hasP4> ;
+	drw-model:hasP <P/30924hasP5> ;
+	drw-model:hasStationOfLife <StationOfLife/30924hasStationOfLife0> ;
+	drw-model:hasGPV <GPVPublication/30924hasGPV2> ;
+	drw-model:hasStationOfLife <StationOfLife/30924hasStationOfLife10> ;
+	drw-model:hasMainName <MainName/30924> ;
+	drw-model:hasWL <WLStationOfLife/30924hasWL0> ;
+	drw-model:hasP <P/30924hasP11> ;
+	drw-model:hasWL <WLStationOfLife/30924hasWL1> ;
+	drw-model:hasSL <SLPublication/30924hasSL6> ;
+	drw-model:hasSL <SLPublication/30924hasSL18> ;
+	drw-model:hasP <P/30924hasP2> ;
+	drw-model:hasWL <WLStationOfLife/30924hasWL3> ;
+	drw-model:hasP <P/30924hasP14> ;
+	drw-model:hasSL <SLPublication/30924hasSL12> ;
+	drw-model:hasSL <SLPublication/30924hasSL17> ;
+	drw-model:hasSL <SLPublication/30924hasSL19> ;
+	drw-model:hasW <WPublication/30924hasW1> ;
+	drw-model:hasGPV <GPVPublication/30924hasGPV4> ;
+	drw-model:hasStationOfLife <StationOfLife/30924hasStationOfLife3> ;
+	drw-model:hasSL <SLPublication/30924hasSL21> ;
+	drw-model:hasP <P/30924hasP9> ;
+	drw-model:hasGPV <GPVPublication/30924hasGPV9> ;
+	drw-model:hasEducation <Education/30924hasEducation0> ;
+	drw-model:hasW <WPublication/30924hasW3> .
+
+<StationOfLife/30924hasStationOfLife0>
+	drw-model:began <Date/1860_1870> ;
+	rdfs:label "Professor für Physiologie (1860-1861 Adjunkt-Professor, 1861-1864 ao. und ab 1864 o. Professor), zugleich Junior-Ordinator am Militärlandhospital Nr. 2 an der MCA in St. Petersburg" ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30924hasSL16>
+	a drw-model:SLPublication ;
+	rdfs:label "Vasil’ev, Leonid L. (Hg.): Fiziologija i biochimija nervnoj sistemy i myšc. Posvjaščaetsja pjatidesjatiletiju so dnja smerti I. M. Sečenova. Leningrad 1957, 317 S.; darin u. a.: P. G. Terechov: O naučnych svjazjach I. M. Sečenova s S.-Peterburgskoj akademiej (2-25); E. B. Štjurmer: I. M. Sečenov kak osnovopoložnik fiziologičeskogo učenija o sdelach v nervnoj sisteme (25-37)." .
+
+<WLStationOfLife/30924hasWL5>
+	rdfs:label "Entdeckungen: z. B. 1862 des Phänomens der Hemmung im Zentralnervensystem, 1882 der Spontanschwankungen der Bio-Strömungen in der Medulla oblongata" ;
+	a drw-model:WLStationOfLife .
+
+<GPVPublication/30924hasGPV4>
+	rdfs:label "Trudy I. M. Sečenova, in: Artemov 1979 (<b>SL</b>), 35-74." ;
+	a drw-model:GPVPublication .
+
+<P/30924hasP14>
+	rdfs:label "Karikatur in: Frieden 1981 (<b>SL</b>), 58." ;
+	a drw-model:P .
+
+<StationOfLife/30924hasStationOfLife11>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<SLPublication/30924hasSL22>
+	a drw-model:SLPublication ;
+	rdfs:label "Šojfet, M. S.: Sto velikich vračej. Moskva 2004, 307-316." .
+
+<Date/1891_1901>
+	a drw-model:Date ;
+	rdfs:label "1891-1901" .
+
+<SLPublication/30924hasSL15>
+	a drw-model:SLPublication ;
+	rdfs:label "Topel, Renate: „Vater der russischen Physiologie“. Wissenschaft und Fortschritt 37 (1987) 265-267." .
+
+<SLPublication/30924hasSL19>
+	a drw-model:SLPublication ;
+	rdfs:label "Wikipedia: http://ru.wikipedia.org/wiki/Сеченов_Иван_Михайлович (24.3.2011); deutsch: http://de.wikipedia.org/wiki/Iwan_Michailowitsch_Setschenow (24.3.2011)" .
+
+<SLPublication/30924hasSL7>
+	rdfs:label "Orbeli , Leon Abgarovič: Otec russkoj fiziologii – Ivan Michajlovič Sečenov. Fiziologičeskij žurnal SSSR imeni I. M. Sečenova 42 (1956) 1, 9-18." ;
+	a drw-model:SLPublication .
+
+<Q/30924hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Ivan Michajlovič Sečenov: Autobiografičeskie zapiski. Moskva 1952, 290 S." .
+
+<P/30924hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Bildersammlung des Karl-Sudhoff-Instituts für Geschichte der Medizin und Naturwissenschaften (KSI) der Universität Leipzig, E 7171 und 7216." .
+
+<StationOfLife/30924hasStationOfLife7>
+	drw-model:began <Date/1891_1901> ;
+	rdfs:label "Professor für Physiologie an der Medizinischen Fakultät der Universität Moskau" ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30924hasSL17>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 403-404." ;
+	a drw-model:SLPublication .
+
+<WLStationOfLife/30924hasWL2>
+	rdfs:label "Gründer des ersten Physiologischen Laboratoriums bzw. Instituts an der MCA" ;
+	a drw-model:WLStationOfLife .
+
+<P/30924hasP15>
+	rdfs:label "Il’ja Efimovič Repin (1844-1930): Ivan Michajlovič Sečenov (1889). Öl auf Leinwand. Staatliche Tret’jakov-Galerie Moskau; Reproduktionen in: Bildersammlung des KSI der Universität Leipzig, E 7170, Selected physiological and psychological works 1962 (<b>GPV</b>), Artemov 1998 (<b>Q</b>), Sechenov 1965 (<b>SL</b>), Wikipedia (<b>SL</b>) u. a. sowie auf der Briefmarke von 1956." ;
+	a drw-model:P .
+
+<GPVPublication/30924hasGPV3>
+	rdfs:label "Spisok trudov I. M. Sečenova, napečatanych v izdanijach S.-Peterburgskoj akademii 1865-1887 (10 Nrn.), in: Vasil’ev 1957 (<b>SL</b>), 22-23." ;
+	a drw-model:GPVPublication .
+
+<SLPublication/30924hasSL21>
+	a drw-model:SLPublication ;
+	rdfs:label "Česnakova [Im Original Druckfehler, es muss heißen: Česnokova], Sof’ja Aleksandrovna, Lindemann, Marianne: Russische Physiologen in Laboratorien von Carl Ludwig. Wissenschaftliche Zeitschrift der Karl-Marx-Universität Leipzig, Mathematisch-naturwissenschaftliche Reihe 19 (1970), 315-323." .
+
+<Date/1903_1904>
+	a drw-model:Date ;
+	rdfs:label "1903-1904" .
+
+<Date/1860_1870>
+	a drw-model:Date ;
+	rdfs:label "1860-1870" .
+
+<SLPublication/30924hasSL6>
+	rdfs:label "Nagrady imeni I. M. Sečenova. Naša vlast’. Dela i lica (2009), Special’nyj vypusk (http://nashavlast.ru/article_description/107/1089.html, 25.3.2011)." ;
+	a drw-model:SLPublication .
+
+<Q/30924hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Koštojanc, Ch. (Red.): Autobiografičeskie zapiski Ivana Michajloviča Sečenova. Moskva 1945, 178 S." .
+
+<P/30924hasP9>
+	rdfs:label "Portraits in: Grigor’jan 2004 (<b>SL</b>), vordere Umschlagseite und Bildeinlage zw. S. 96-97." ;
+	a drw-model:P .
+
+<Date/1889_1891>
+	a drw-model:Date ;
+	rdfs:label "1889-1891" .
+
+<StationOfLife/30924hasStationOfLife6>
+	rdfs:label "Privatdozent am Lehrstuhl für Physiologie der Medizinischen Fakultät der Universität Moskau" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1889_1891> .
+
+<P/30924hasP7>
+	rdfs:label "Portrait in: Volkov/Kulikova 2003 a (<b>SL</b>); Ausschnitt in: <b>SL</b> Professora MCA/VMA und RAN" ;
+	a drw-model:P .
+
+<GPVPublication/30924hasGPV9>
+	rdfs:label "Deutsche und in deutschen Zeitschriften referierte russische Publikationen 1858-1905/6, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<WLStationOfLife/30924hasWL4>
+	rdfs:label "Autor von Werken z. B. über Reflexe des Großhirns (1863), Physiologie des Nervensystems (1866), Physiologie der Sinnesorgane (1867) und Physiologie der Nervenzentren (1891) (vgl. <b>W</b>), Elektrophysiologie, Psychophysiologie u. a." ;
+	a drw-model:WLStationOfLife .
+
+<Date/1870_1876>
+	a drw-model:Date ;
+	rdfs:label "1870-1876" .
+
+<Date/1860>
+	rdfs:label "1860" ;
+	a drw-model:Date .
+
+<GPVPublication/30924hasGPV2>
+	rdfs:label "Izbrannye proizvedenija. Red. Ch. S. Koštojanc. Tom 1: Fiziologija i psichologija. Moskva 1952, 771 S.; engl. Ausg.: Selected physiological and psychological works. Translated from the Russian by S. Belsky. Ed. by G. Gibbons. Moscow 1962, 607 S.; Tom 2: Fiziologija nervnoj sistemy. Moskva 1956, 942 S." ;
+	a drw-model:GPVPublication .
+
+<WLStationOfLife/30924hasWL3>
+	rdfs:label "Schöpfer der Reflextheorie der psychischen Tätigkeiten, Gründer der Lehre des Mechanismus des Zentralnervensystems, der Grundlagen der materialistischen Psychologie, der Lehre von den Blutgasen u. a." ;
+	a drw-model:WLStationOfLife .
+
+<RelatedPerson/30924motherIs>
+	rdfs:label "Anis’ja Egorovna (Grigor’evna) Sečenova, geb. Osipova (1796-1855)#footnote3#" ;
+	a drw-model:RelatedPerson .
+
+<Education/30924hasEducation5>
+	drw-model:began <Date/1860> ;
+	rdfs:label "Dr. med. an der Mediko-Chirurgischen Akademie (MCA) St. Petersburg" ;
+	a drw-model:Education .
+
+<SLPublication/30924hasSL20>
+	a drw-model:SLPublication ;
+	rdfs:label "Wußing, H.-L. u. a. (Hgg): Fachlexikon abc. Forscher und Erfinder. Thun, Frankfurt am Main 1992, 526-527." .
+
+<P/30924hasP12>
+	rdfs:label "Portrait in: BSĖ 1 und Voennaja Ėnciklopedija 2, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:P .
+
+<SLPublication/30924hasSL5>
+	a drw-model:SLPublication ;
+	rdfs:label "Knjaz’kin, Igor’ A., Mar’janovič, A. T.: I. M. Sečenov. Biografija, glavnye trudy. S kommentarijami Igor’a V. Knjaz’kina i A. T. Mar’janoviča. Sankt-Peterburg 2004, 812 S. (enthält u. a. Portraits mehrerer Physiologen und Mediziner)." .
+
+<RelatedPerson/30924wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Marija Aleksandrovna Bokova-Sečenova, geb. Obručeva (1839-1929), Augenärztin; Schriftstellerin#footnote4#" .
+
+<Date/1891>
+	rdfs:label "1891" ;
+	a drw-model:Date .
+
+<P/30924hasP8>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Volkov/Kulikova 2003 b (<b>SL</b>), Bildeinlage zw. S. 424-425." .
+
+<StationOfLife/30924hasStationOfLife5>
+	rdfs:label "Dozent an den Höheren Frauenkursen in St. Petersburg" ;
+	drw-model:began <Date/1876_1888> ;
+	a drw-model:StationOfLife .
+
+<Date/1843_1847>
+	a drw-model:Date ;
+	rdfs:label "1843-1847" .
+
+<Membership/30924hasMembership>
+	rdfs:label "Sankt-Peterburgskaja Imperatorskaja Akademija nauk [Kaiserliche Akademie der Wissenschaften St. Petersburg] (1869 Korrespondierendes Mitglied, 1904 Ehrenmitglied), Novorossijskoe obščestvo ispytatelej prirody [Gesellschaft der Naturforscher Novorossijsk] (1873-1876 Vizepräsident)" ;
+	a drw-model:Membership .
+
+<P/30924hasP6>
+	a drw-model:P ;
+	rdfs:label "Foto [zusammen mit Sergej Petrovič Botkin (1832-1889) und Venceslav Leopol’dovič Gruber (1814-1890)], in: Topel 1987 (<b>SL</b>), 267." .
+
+<GPVPublication/30924hasGPV8>
+	rdfs:label "Publikationen 1858-1903 (87 Nrn.), in: Schaternikoff 1905/06 (<b>SL</b>), 3-8." ;
+	a drw-model:GPVPublication .
+
+<Date/1867_1868>
+	rdfs:label "1867-1868" ;
+	a drw-model:Date .
+
+<SLPublication/30924hasSL14>
+	rdfs:label "Schaternikoff (→ Šaternikov), M.: Professor I. M. Setschenow († 2./15. November, 1905). Le Physiologiste Russe 4 (1905/06), 1-8." ;
+	a drw-model:SLPublication .
+
+<GPVPublication/30924hasGPV1>
+	rdfs:label "Izbrannye filosofskie i psichologičeskie proizvedenija. Red. V. M. Kaganov. Moskva 1947, 645 S." ;
+	a drw-model:GPVPublication .
+
+<HonoursAndAwards/30924hasHounoursAndAwards>
+	rdfs:label "1863        Demidov-Förderprämie (Akademie der Wissenschaften St. Petersburg)<br>1869        Ehrendoktor der Universität St. Petersburg<br>1870        „Staatsrat“<br>1876        Ehrenmitglied der Novorossijskij Universität Odessa<br>1896        „Verdienter Professor“ der Universität Moskau<br>1952        Denkmal mit Marmorbüste des Bildhauers Sergej Dmitrievič #name#Merkurov#/name# (1881-1952) im Zentrum von Sečenovo<br>1958        Denkmal mit Bronzebüste des Bildhauers Lev Efimovič #name#Kerbel’#/name# (1917-2003) vor dem Gebäude der Ersten Medizinischen Universität (heute Akademie, s. u.) in Moskau<br>1979        Marmorgedächtnistafel des Architekten Georgij Vladimirovič #name#Piontek#/name# (1928-2005) am Gebäude der Militärmedizinischen Akademie in St. Petersburg<br>ohne Datum        Gipsbüste [Künstler unbekannt] im Auditorium des Wissenschaftlichen Forschungsinstituts für normale Physiologie A. I. Anochin in Moskau<br>1944        #italic#Memorial’naja medal’ im. I. M. Sečenova#/italic#<br>1949        Briefmarke [zusammen mit Portraits von S. P. #internNameLink#30136#endNameNr#Botkin#/internNameLink# (1832-1889) und N. I. #internNameLink#30801#endNameNr#Pirogov#/internNameLink# (1810-1881)] anlässlich des 150. Jahrestages der MCA/MMA<br>1956        #italic#Premija im. I. M. Sečenova#/italic# (Akademie der Wissenschaften der UdSSR)<br>1956        Briefmarke (40 Kopeek), anlässlich des 50. Todestages<br>1957        Gedächtnisausgabe anlässlich des 50. Todestages (vgl. <b>SL</b>)<br>1992        #italic#Zolotaja medal’ im. I. M. Sečenova#/italic# (Rossijskaja Akademija nauk [RAN])<br>Die Erste Medizinische Universität bzw. Akademie Moskau trägt seinen Namen: ab 1955 #italic#Pervyj Moskovskij gosudarstvennyj medicinskij universitet im. I. M. Sečenova, seit 1990 Moskovskaja medicinskaja akademija im. I. M. Sečenova#/italic#<br>Nach ihm wurden weiter benannt:<br>#italic#Institut ėvoljucionnoj fiziologii i biochimii im. I. M. Sečenova RAN#/italic# in St. Petersbrug<br>#italic#Obščestvo rossijskich fiziologov im. I. M. Sečenova#/italic# (vgl. <b>SL</b> Pfrepper 2009, 86)<br>#italic#Russkij fiziologičeskij žurnal im. I. M. Sečenova#/italic# (vgl. <b>SL</b> Pfrepper 2009, 86, 88)<br>Straßen: #italic#Sečenovskij pereulok#/italic# (seit 1955) in Moskau, #italic#Ulica Sečenova#/italic# in Kiev, Čeboksary, Jalta, Kazan’, Nižnij Novgorod, Rostov na Donu u. a." ;
+	a drw-model:HonoursAndAwards .
+
+<Education/30924hasEducation4>
+	drw-model:began <Date/1856_1860> ;
+	a drw-model:Education ;
+	rdfs:label "Weiterbildung (auf eigene Kosten) in Deutschland und Österreich mit Reisen nach Italien und in die Schweiz:
+- bei J. P. #internNameLink#30739#endNameNr#Müller#/internNameLink#, E. H. #internNameLink#30230#endNameNr#Du Bois-Reymond#/internNameLink#, F. #internNameLink#30395#endNameNr#Hoppe-Seyler#/internNameLink#, Heinrich Gustav #name#Magnus#/name# (1802-1870), Heinrich #internNameLink#10186#endNameNr#Rose#/internNameLink# (1795-1864) und R. #internNameLink#31069#endNameNr#Virchow#/internNameLink# an der Universität Berlin
+- bei Otto #name#Funke#/name# (1828-1879) an der Universität Leipzig
+- bei C. #internNameLink#30664#endNameNr#Ludwig#/internNameLink# am Josephinum Wien
+- bei H. von #internNameLink#30366#endNameNr#Helmholtz#/internNameLink# und Robert Wilhelm #internNameLink#10029#endNameNr#Bunsen#/internNameLink# (1811-1899) an der Universität Heidelberg" .
+
+<P/30924hasP13>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Estestvoznanie, zit. n. WBIS RBA (<b>SL</b>)." .
+
+<HounoursAndAwardsComment/30924hasHounoursAndAwardsComment>
+	rdfs:label "(Auswahl)" ;
+	a drw-model:HounoursAndAwardsComment .
+
+<WLStationOfLife/30924hasWL0>
+	rdfs:label "„Vater der russischen Physiologie“" ;
+	a drw-model:WLStationOfLife .
+
+<SLPublication/30924hasSL4>
+	rdfs:label "Ivan Michajlovič Sečenov, 1829-1905. Bibliografičeskij ukazatel’. Sost. N. M. Artemov. Leningrad 1979, 125 S." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30924hasStationOfLife4>
+	rdfs:label "Professor für Physiologie an der Physiko-mathematischen Fakultät der Universität St. Petersburg" ;
+	drw-model:began <Date/1876_1888> ;
+	a drw-model:StationOfLife .
+
+<WPublication/30924hasW4>
+	rdfs:label "Fiziologija nervnych centrov. Sankt-Peterburg 1891, 229 S." ;
+	a drw-model:WPublication .
+
+<Date/1862_1863>
+	rdfs:label "1862-1863" ;
+	a drw-model:Date .
+
+<Date/#footnote5#>
+	a drw-model:Date ;
+	rdfs:label "#footnote5#" .
+
+<WLStationOfLife/30924hasWL6>
+	rdfs:label "Nach ihm ist benannt:" ;
+	a drw-model:WLStationOfLife .
+
+<P/30924hasP5>
+	a drw-model:P ;
+	rdfs:label "Foto in: Topel 1987 (<b>SL</b>), 265." .
+
+<GPVPublication/30924hasGPV7>
+	rdfs:label "Publikationen 1855-1886, in: Zmeev, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<Date/1901_1903>
+	a drw-model:Date ;
+	rdfs:label "1901-1903" .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<SLPublication/30924hasSL13>
+	a drw-model:SLPublication ;
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 425,111-132; SU 399, 219-247; RS 62, 290-305." .
+
+<GPVPublication/30924hasGPV0>
+	rdfs:label "Izbrannye trudy. Moskva 1935, 390 S.; engl.: Selected works. Moscow 1935, 489 S." ;
+	a drw-model:GPVPublication .
+
+<Education/30924hasEducation3>
+	drw-model:began <Date/1850_1856> ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Moskau" ;
+	a drw-model:Education .
+
+<P/30924hasP10>
+	rdfs:label "Portrait [mit Unterschrift] in: Knjaz’kin/Mar’janovič 2004 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<SLPublication/30924hasSL3>
+	rdfs:label "Institut fiziologii imeni I. P. Pavlova Rossijskaja akademija nauk. Personal’nyj sostav. Kniga 1: 1724-1917. Moskva 1999; Kniga 2: 1918-1973. Moskva 1999 (http://www.medline.ru/public/histm/medmono/100/23.phtml, 25.3.2011)." ;
+	a drw-model:SLPublication .
+
+<Date/1850_1856>
+	a drw-model:Date ;
+	rdfs:label "1850-1856" .
+
+<NameVariation/30924var0>
+	a drw-model:NameVariation ;
+	rdfs:label "Setchenow, Iwan Michailowitsch"@de .
+
+<StationOfLife/30924hasStationOfLife3>
+	rdfs:label "Professor für Physiologie an der Novorossijskij Universität Odessa" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1870_1876> .
+
+<Date/1876_1888>
+	rdfs:label "1876-1888" ;
+	a drw-model:Date .
+
+<GPVPublication/30924hasGPV6>
+	rdfs:label "Publikationen 1855-1886 (35 Nrn.), in: Bogdanov und Markevič 1890, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<P/30924hasP4>
+	rdfs:label "Portrait [im Laboratorium sitzend], in: K[senija] A[lekseevna] Rozova: S[ergej] P[etrovič] Botkin (1832-1889). Al’bom. Moskva 1951, 58 (Abb. vgl. vorderen Umschlag re.); auch in: Frieden 1981 (<b>SL</b>), 57." ;
+	a drw-model:P .
+
+<WLStationOfLife/30924hasWL7>
+	rdfs:label "Setschenow-Konstante [#italic#Pravilo Sečenova#/italic#] (Aussalzungskonstante)" ;
+	a drw-model:WLStationOfLife .
+
+<Education/30924hasEducation2>
+	drw-model:began <Date/1848_1850> ;
+	a drw-model:Education ;
+	rdfs:label "Dienst im Reserve-Pionier-Bataillon und Ausbilder in der Junkerschule Kiev" .
+
+<P/30924hasP11>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Šojfet 2004 (<b>SL</b>)." .
+
+<SLPublication/30924hasSL2>
+	rdfs:label "Hausmann, Guido: Universität und städtische Gesellschaft in Odessa, 1865-1917. Soziale und nationale Selbstorganisation an der Peripherie des Zarenreiches. Stuttgart 1998 (Quellen und Studien zur Geschichte des östlichen Europa 49), 597." ;
+	a drw-model:SLPublication .
+
+<WPublication/30924hasW3>
+	rdfs:label "Fiziologija organov čuvstv. Sankt-Peterburg 1867, 342 S." ;
+	a drw-model:WPublication .
+
+<SLPublication/30924hasSL1>
+	a drw-model:SLPublication ;
+	rdfs:label "Grigor’jan, Noravard Andreevna: Ivan Michajlovič Sečenov: 1829-1905. Moskva 2004, 362 S. (enthält u. a. Portraits mehrerer Physiologen und Mediziner)." .
+
+<NameVariation/30924var1>
+	rdfs:label "Setschenow, Iwan Michailowitsch"@de ;
+	a drw-model:NameVariation .
+
+<StationOfLife/30924hasStationOfLife2>
+	a drw-model:StationOfLife ;
+	rdfs:label "Weiterbildung bei Alexander #name#Rollett#/name# (1834-1903) an der Universität Graz" ;
+	drw-model:began <Date/1867_1868> .
+
+<SLPublication/30924hasSL10>
+	rdfs:label "Popel’skij, Lew: Istoričeskij očerk kafedry fiziologii v Imperatorskoj Voenno-medicinskoj akademii za 100 let (1798-1898). S.-Peterburg 1899, 48-66." ;
+	a drw-model:SLPublication .
+
+<P/30924hasP3>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Artemov 1979, vordere Umschlagseite; Ausschnitt und spiegelverkehrt in: Wikipedia (<b>SL</b>)." .
+
+<GPVPublication/30924hasGPV5>
+	rdfs:label "Psichologija povedenija. Izbrannye psichologičeskie trudy I. M. Sečenova. Red. M. G. Jaroševskij. Moskva, Voronež 2006, 364 S." ;
+	a drw-model:GPVPublication .
+
+<SLPublication/30924hasSL9>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 234-240." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30924hasSL12>
+	rdfs:label "Rossijskaja akademija nauk. Personal’nyj sostav. Kniga 1: 1724-1917. Moskva 1999; Kniga 2: 1918-1973. Moskva 1999 Kniga 1 (1999), 153." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30924hasStationOfLife9>
+	rdfs:label "Vorlesungen an den Höheren Kursen für Frauen sowie" ;
+	drw-model:began <Date/1901_1903> ;
+	a drw-model:StationOfLife .
+
+<Q/30924hasQ3>
+	a drw-model:Q ;
+	rdfs:label "Artemov, N. (Red.): Ivan Michajlovič Sečenov: Autobiografičeskie zapiski. 4. Aufl. Nižnij Novgorod 1998, 343 S. (enthält u. a. Portraits mehrerer Physiologen und Mediziner)." .
+
+<Education/30924hasEducation1>
+	drw-model:began <Date/1843_1847> ;
+	a drw-model:Education ;
+	rdfs:label "Besuch der Haupt-Ingenieurschule in St. Petersburg" .
+
+<WPublication/30924hasW2>
+	rdfs:label "Fiziologija nervnoj sistemy. Sankt-Peterburg 1866, 503 S." ;
+	a drw-model:WPublication .
+

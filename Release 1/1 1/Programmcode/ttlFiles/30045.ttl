@@ -1,0 +1,453 @@
+
+<StationOfLife/30045hasStationOfLife4>
+	rdfs:label "Adjunkt-Professor für Physiologie am Institut für Land- und Forstwirtschaft in Novo-Aleksandria#footnote10#" ;
+	drw-model:began <Date/1912_1914> ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30045hasSL10>
+	rdfs:label "Sinel’nikov, V.: Babkin, Boris Petrovič. In: Russkoe zarubež’e: zolotaja kniga ėmigracii. Pervaja tret’ XX veka. Ėnciklopedičeskij biografičeskiij slovar’. Moskva 1997 (http://www.ihst.ru/projects/emigrants/babkin.htm, 25.10.2010); auch in: Russkoe zarubež’e: zolotaja kniga ėmigracii. Pervaja tret’ XX veka. Ėnciklopedičeskij biografičeskiij slovar’. Moskva 1997, zit. n. Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013)" ;
+	a drw-model:SLPublication .
+
+<WLStationOfLife/30045hasWL5>
+	rdfs:label "#italic#Babkina proba#/italic# [Babkin-Probe] (Methode zur Untersuchung der Magensekretion durch eine gastroduodenale Doppelsonde, in der die Magensaftabsonderung am ersten Tag durch Insulin, am zweiten durch Histamin stimuliert wird).#footnote17#" ;
+	a drw-model:WLStationOfLife .
+
+<WLStationOfLife/30045hasWL1>
+	rdfs:label "Neue Erkenntnisse in der Hirnforschung (Mechanismus von Einfluss des Gehirns auf verschiedene Funktionen des Organismus)" ;
+	a drw-model:WLStationOfLife .
+
+<WPublication/30045hasW1>
+	rdfs:label "Sovremennye anglijskie fiziologičeskie laboratorii (Iz otčeta o zagraničnoj komandirovke). [Sankt-Peterburg 1916], 22 S." ;
+	a drw-model:WPublication .
+
+<StationOfLife/30045hasStationOfLife12>
+	rdfs:label "Leiter des Departments für Physiologie" ;
+	drw-model:began <Date/1940_1941/2> ;
+	a drw-model:StationOfLife .
+
+<GPVPublication/30045hasGPV1>
+	rdfs:label "Publikationen 1903-1950 und 1960, in: Kvasov/Fedorova-Grot 1967 (<b>SL</b>), 39-40." ;
+	a drw-model:GPVPublication .
+
+<RelatedPerson/30045fatherIs>
+	rdfs:label "Petr, Vermessungsingenieur#footnote3# oder
+Petr Ivanovič (1842-1900), Schriftsteller, Verleger, Journalist#footnote4# oder Armeeoffizier#footnote5#" ;
+	a drw-model:RelatedPerson .
+
+<RelatedPerson/30045wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Elena Ivanovna Babkina, geb. Solov’eva (1873-1939#footnote7#), Ärztin, Histologin#footnote8#" .
+
+<Date/1896_1898>
+	rdfs:label "1896-1898" ;
+	a drw-model:Date .
+
+<SLPublication/30045hasSL7>
+	a drw-model:SLPublication ;
+	rdfs:label "Obituary: Dr. Boris P. Babkin [Anonym]. Canadian Medical Association Journal 62 (1950), 621-622." .
+
+<WPublication/30045hasW0>
+	rdfs:label "Opyt sistematičeskogo izučenija složnonervnych (psichičeskich) javlenij u sobaki. Diss. Sankt-Peterburg 1904, 192 S." ;
+	a drw-model:WPublication .
+
+<Education/30045hasEducation4>
+	rdfs:label "Dr. med. an der MMA" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1904> .
+
+<StationOfLife/30045hasStationOfLife7>
+	drw-model:began <Date/1922> ;
+	rdfs:label "Emigration über Konstantinopel nach England" ;
+	a drw-model:StationOfLife .
+
+<ImportantPerson/30045>
+	drw-model:hasEducation <Education/30045hasEducation1> ;
+	drw-model:hasStationOfLife <StationOfLife/30045hasStationOfLife11> ;
+	drw-model:hasStationOfLife <StationOfLife/30045hasStationOfLife3> ;
+	drw-model:hasStationOfLife <StationOfLife/30045hasStationOfLife0> ;
+	drw-model:hasWL <WLStationOfLife/30045hasWL0> ;
+	drw-model:hasSL <SLPublication/30045hasSL6> ;
+	drw-model:hasW <WPublication/30045hasW6> ;
+	drw-model:hasSL <SLPublication/30045hasSL12> ;
+	drw-model:hasP <P/30045hasP2> ;
+	drw-model:hasSL <SLPublication/30045hasSL1> ;
+	drw-model:hasWL <WLStationOfLife/30045hasWL3> ;
+	drw-model:hasStationOfLife <StationOfLife/30045hasStationOfLife10> ;
+	drw-model:hasGPV <GPVPublication/30045hasGPV0> ;
+	drw-model:hasWL <WLStationOfLife/30045hasWL5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30045hasGeneralLabor0> ;
+	drw-model:hasSL <SLPublication/30045hasSL5> ;
+	drw-model:hasStationOfLife <StationOfLife/30045hasStationOfLife7> ;
+	drw-model:hasStationOfLife <StationOfLife/30045hasStationOfLife14> ;
+	drw-model:hasSL <SLPublication/30045hasSL13> ;
+	drw-model:hasSL <SLPublication/30045hasSL11> ;
+	drw-model:hasStationOfLife <StationOfLife/30045hasStationOfLife2> ;
+	drw-model:hasSL <SLPublication/30045hasSL7> ;
+	drw-model:wasMarriedTo <RelatedPerson/30045wasMarriedTo> ;
+	drw-model:hasStationOfLife <StationOfLife/30045hasStationOfLife9> ;
+	drw-model:hasGPV <GPVPublication/30045hasGPV1> ;
+	drw-model:hasSL <SLPublication/30045hasSL0> ;
+	drw-model:hasW <WPublication/30045hasW2> ;
+	drw-model:hasStationOfLife <StationOfLife/30045hasStationOfLife6> ;
+	drw-model:hasP <P/30045hasP1> ;
+	drw-model:hasDescendant <RelatedPerson/30045hasDescendant> ;
+	drw-model:hasQ <Q/30045hasQ0> ;
+	drw-model:hasEducation <Education/30045hasEducation2> ;
+	drw-model:hasMembership <Membership/30045hasMembership> ;
+	drw-model:hasWL <WLStationOfLife/30045hasWL6> ;
+	drw-model:hasWL <WLStationOfLife/30045hasWL1> ;
+	drw-model:hasStationOfLife <StationOfLife/30045hasStationOfLife13> ;
+	drw-model:hasEducation <Education/30045hasEducation4> ;
+	drw-model:hasW <WPublication/30045hasW7> ;
+	drw-model:hasSL <SLPublication/30045hasSL10> ;
+	drw-model:hasW <WPublication/30045hasW3> ;
+	drw-model:hasSL <SLPublication/30045hasSL3> ;
+	rdfs:label "Babkin, Boris Petrovič" ;
+	drw-model:hasStationOfLife <StationOfLife/30045hasStationOfLife5> ;
+	a drw-model:ImportantPerson ;
+	drw-model:fatherIs <RelatedPerson/30045fatherIs> ;
+	drw-model:hasP <P/30045hasP4> ;
+	drw-model:hasP <P/30045hasP3> ;
+	drw-model:hasSL <SLPublication/30045hasSL14> ;
+	drw-model:hasStationOfLife <StationOfLife/30045hasStationOfLife12> ;
+	drw-model:hasW <WPublication/30045hasW1> ;
+	drw-model:hasW <WPublication/30045hasW4> ;
+	drw-model:motherIs <RelatedPerson/30045motherIs> ;
+	drw-model:hasStationOfLife <StationOfLife/30045hasStationOfLife8> ;
+	drw-model:hasP <P/30045hasP0> ;
+	drw-model:hasW <WPublication/30045hasW0> ;
+	drw-model:hasSL <SLPublication/30045hasSL4> ;
+	drw-model:hasStationOfLife <StationOfLife/30045hasStationOfLife1> ;
+	drw-model:hasSL <SLPublication/30045hasSL8> ;
+	drw-model:hasMainName <MainName/30045> ;
+	drw-model:hasEducation <Education/30045hasEducation0> ;
+	drw-model:hasSL <SLPublication/30045hasSL9> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/30045hasHounoursAndAwards> ;
+	drw-model:hasGPV <GPVPublication/30045hasGPV2> ;
+	drw-model:hasWL <WLStationOfLife/30045hasWL4> ;
+	drw-model:hasStationOfLife <StationOfLife/30045hasStationOfLife4> ;
+	drw-model:hasW <WPublication/30045hasW5> ;
+	drw-model:hasEducation <Education/30045hasEducation3> ;
+	drw-model:drwID "30045" ;
+	drw-model:hasSL <SLPublication/30045hasSL2> ;
+	drw-model:hasWL <WLStationOfLife/30045hasWL2> .
+
+<SLPublication/30045hasSL11>
+	a drw-model:SLPublication ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 33-34." .
+
+<SLPublication/30045hasSL9>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): SU 30, 398, 401-411." ;
+	a drw-model:SLPublication .
+
+<Date/1898_1901>
+	a drw-model:Date ;
+	rdfs:label "1898-1901" .
+
+<StationOfLife/30045hasStationOfLife13>
+	rdfs:label "Research Fellow und Prof. emer. (posthum) an der Mc-Gill University in Montreal" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1942_1950> .
+
+<P/30045hasP2>
+	a drw-model:P ;
+	rdfs:label "Foto [B. P. Babkin im Laboratorium] in: de Burgh Daly/Komarov/Young 1952 (<b>SL</b>), 14." .
+
+<GPVPublication/30045hasGPV0>
+	rdfs:label "Publikationen 1901-1950, in: de Burgh Daly/Komarov/Young (<b>SL</b>), 19-23." ;
+	a drw-model:GPVPublication .
+
+<StationOfLife/30045hasStationOfLife14>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<SLPublication/30045hasSL6>
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 38-40." ;
+	a drw-model:SLPublication .
+
+<WLStationOfLife/30045hasWL6>
+	rdfs:label "Außerdem begeisterte sich B. für das Spielen auf Folkloreinstrumenten, veröffentlichte 1896 einen Artikel über die Entwicklung der Balalaika, 1898-1900 seine eigene Anleitung zum Spielen auf der Balalaika und komponierte auch Musik zu Gedichten von Aleksandr Sergeevič #name#Puškin#/name# (1799-1837) und Аfanasij Аfanas’evič #name#Fet#/name# (1820-1892) (vgl. <b>W</b>)." ;
+	a drw-model:WLStationOfLife .
+
+<SLPublication/30045hasSL12>
+	rdfs:label "Vserossijskoe genealogičeskoe drevo: Babkin (http://www.vgd.ru/B/babkin.htm, 26.10.2010)." ;
+	a drw-model:SLPublication .
+
+<Date/1915_1920#footnote11#/22#footnote12#>
+	rdfs:label "1915-1920#footnote11#/22#footnote12#" ;
+	a drw-model:Date .
+
+<SLPublication/30045hasSL8>
+	a drw-model:SLPublication ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 145-149." .
+
+<RelatedPerson/30045motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Marija (Jakovlevna) Babkina, geb. Fitzner (Fitcner)#footnote6#" .
+
+<NameVariation/30045var0>
+	a drw-model:NameVariation ;
+	rdfs:label "Babkin, Boris Peter"@de .
+
+<SLPublication/30045hasSL1>
+	rdfs:label "Beck, Ivan T.: The life, achievements and legacy of a great Canadian investigator: Professor Boris Petrovich Babkin (1877-1950). Canadian Journal of Gastroenterology 20 (2006), 579-588 (http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2659943/, 26.10.2010)." ;
+	a drw-model:SLPublication .
+
+<Date/1940_1941/2>
+	a drw-model:Date ;
+	rdfs:label "1940-1941/2" .
+
+<StationOfLife/30045hasStationOfLife6>
+	drw-model:began <Date/1915_1920#footnote11#/22#footnote12#> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Professor für Physiologie an der Medizinischen Fakultät der Novorossijskij Universität Odessa" .
+
+<P/30045hasP1>
+	rdfs:label "Gemälde [Künstler unbekannt]. Boris Petrovič Babkin (1940/41). Department of Physiology, McGill University, Montreal, Quebec; als Foto von Alvin Shrier in: Beck 2006 (<b>SL</b>), Figure 1." ;
+	a drw-model:P .
+
+<Membership/30045hasMembership>
+	rdfs:label "Obščestvo rossijskich fiziologov im. I. M. Sečenova [I. M. Sečenov-Gesellschaft russischer Physiologen] (Vorstandsmitglied), S.-Peterburgskoe biologičeskoe obščestvo [Biologische Gesellschaft in St. Petersburg], Odesskoe medicinskoe obščestvo [Medizinische Gesellschaft in Odessa], Royal Society of Canada (ab 1930, 1945-1946 Präsident der Biological Sciences Section), Leopoldina (1932), American Physiological Society, British Physiological Society, Canadian Physiological Society (1944-1945 Präsident), Nova Scotia Institute of Science, Medico-Chirurgical Society of Montreal" ;
+	a drw-model:Membership .
+
+<WPublication/30045hasW2>
+	rdfs:label "Pavlov. A biography. Chicago/IL 1949, 365 S. (Ausgewählte Seiten online bei Google books); Neudrucke: 1960, 1970, 1971, 1974; andere Ausgaben: London 1951, 364 S.; Pavlov. Una biografia. Roma 1974, 394 S." ;
+	a drw-model:WPublication .
+
+<SLPublication/30045hasSL13>
+	a drw-model:SLPublication ;
+	rdfs:label "Wikipedia (http://ru.wikipedia.org/wiki/Бабкин_Борис_Петрович, 26.10.2010 und http://en.wikipedia.org/wiki/Boris_Babkin, 26.10.2010)." .
+
+<StationOfLife/30045hasStationOfLife9>
+	a drw-model:StationOfLife ;
+	rdfs:label "in Emigration in Kanada:" ;
+	drw-model:began <Date/1924_1950> .
+
+<Q/30045hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr. 3856 (Vorschlag von Emil Abderhalden zur Aufnahme in die Leopoldina vom 17.3.1932, Babkins Dankschreiben zur Wahl vom 9.4.1932, Selbstbiographie in Englisch)." .
+
+<GPVPublication/30045hasGPV2>
+	rdfs:label "Publikationen 1906-1927 in deutscher Sprache, in: Pfrepper 2009 (<b>SL</b>), 146-149." ;
+	a drw-model:GPVPublication .
+
+<SLPublication/30045hasSL0>
+	rdfs:label "American Biographical Archive (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): II 22, 222-223." ;
+	a drw-model:SLPublication .
+
+<NameVariation/30045var1>
+	a drw-model:NameVariation ;
+	rdfs:label "Babkin, Boris Petrovich/Petrovitch"@de .
+
+<StationOfLife/30045hasStationOfLife1>
+	a drw-model:StationOfLife ;
+	rdfs:label "Praktikant und Assistent am Institut für Experimentelle Medizin (IEM) in St. Petersburg bei #internNameLink#30785#endNameNr#Pavlov#/internNameLink#" ;
+	drw-model:began <Date/1902_1912/13> .
+
+<WLStationOfLife/30045hasWL4>
+	rdfs:label "Babkin-Reflex [#italic#Babkina refleks#/italic#] (Durch Daumendruck des Untersuchers auf beide Handflächen eines Säuglings bewirktes Öffnen des Mundes).#footnote16#" ;
+	a drw-model:WLStationOfLife .
+
+<P/30045hasP0>
+	a drw-model:P ;
+	rdfs:label "Foto (Abb.) aus: Kvasov/Fedorova-Grot 1967 (<b>SL</b>), Bildeinlage zw. S. 22-33." .
+
+<Date/1922>
+	a drw-model:Date ;
+	rdfs:label "1922" .
+
+<Date/1907_1912>
+	a drw-model:Date ;
+	rdfs:label "1907-1912" .
+
+<Date/1942_1950>
+	a drw-model:Date ;
+	rdfs:label "1942-1950" .
+
+<Education/30045hasEducation1>
+	rdfs:label "Beginn des Studiums an der Naturwissenschaftlichen Fakultät der Universität St. Petersburg" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1895> .
+
+<SLPublication/30045hasSL14>
+	rdfs:label "de Burgh Daly, I., Komarov, S. A., Young, E. G.: Boris Petrovitch Babkin, 1877-1950. Obituary Notices of Fellows of the Royal Society 8 (1952), 13-23 (http://www.jstor.org/stable/768797, 26.10.2010)." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30045hasStationOfLife8>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/bis_1924> ;
+	rdfs:label "Tätigkeit bei #name#Starling#/name# (1866-1927) im Physiologischen Laboratorium des University College London" .
+
+<P/30045hasP3>
+	a drw-model:P ;
+	rdfs:label "Foto in: Kurskaja ėnciklopedija (<b>SL</b>)." .
+
+<SLPublication/30045hasSL3>
+	rdfs:label "Carlson, A[nton] J[ulius]: Boris Petrovitch Babkin [Nekrolog]. Journal of Neurophysiology 13 (1950), 389-390 (http://jn.physiology.org/cgi/reprint/13/5/389.pdf, 25.10.2010)." ;
+	a drw-model:SLPublication .
+
+<WPublication/30045hasW5>
+	rdfs:label "Al’bom p’es aranžirovannych i sočinennych special’no dlja odnoj i pjati balalaek. Po novoj noto-cifernoj metode. Sankt-Peterburg 1898, 20 S." ;
+	a drw-model:WPublication .
+
+<Date/1928_1942>
+	a drw-model:Date ;
+	rdfs:label "1928-1942" .
+
+<WLStationOfLife/30045hasWL2>
+	rdfs:label "Verfasser von ca. 200 wissenschaftlichen Publikationen (Auswahl vgl. <b>GPV</b>)" ;
+	a drw-model:WLStationOfLife .
+
+<WPublication/30045hasW3>
+	rdfs:label "Andere Veröffentlichungen:" ;
+	a drw-model:WPublication .
+
+<Date/1904>
+	a drw-model:Date ;
+	rdfs:label "1904" .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<StationOfLife/30045hasStationOfLife10>
+	drw-model:began <Date/1924_1928> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Professor an der Dalhousie University in Halifax, Nova Scotia" .
+
+<StationOfLife/30045hasStationOfLife3>
+	drw-model:began <Date/1907_1912> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Privatdozent für Physiologie an der MMA St. Petersburg" .
+
+<SLPublication/30045hasSL2>
+	a drw-model:SLPublication ;
+	rdfs:label "Canadian Biographical Archive (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): 384, 15." .
+
+<StationOfLife/30045hasStationOfLife0>
+	drw-model:began <Date/1901_1903> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Aspirant bei I. P. #internNameLink#30785#endNameNr#Pavlov#/internNameLink# an der MMA St. Petersburg" .
+
+<WPublication/30045hasW4>
+	rdfs:label "Balalajka. Očerki ee razvitija i usoveršentsvovanija. [Sankt-Peterburg 1896]." ;
+	a drw-model:WPublication .
+
+<MainName/30045>
+	a drw-model:MainName ;
+	rdfs:label "Babkin, Boris Petrovič" ;
+	drw-model:hasNameVariation <NameVariation/30045var0> ;
+	drw-model:hasNameVariation <NameVariation/30045var1> .
+
+<Date/1895>
+	a drw-model:Date ;
+	rdfs:label "1895" .
+
+<WLStationOfLife/30045hasWL3>
+	rdfs:label "Nach ihm ist benannt:" ;
+	a drw-model:WLStationOfLife .
+
+<Date/1924_1950>
+	a drw-model:Date ;
+	rdfs:label "1924-1950" .
+
+<Date/1901_1903>
+	a drw-model:Date ;
+	rdfs:label "1901-1903" .
+
+<Education/30045hasEducation3>
+	rdfs:label "Studium an der Militärmedizinischen Akademie (MMA)St. Petersburg" ;
+	drw-model:began <Date/1898_1901> ;
+	a drw-model:Education .
+
+<Date/bis_1924>
+	a drw-model:Date ;
+	rdfs:label "bis 1924" .
+
+<HonoursAndAwards/30045hasHounoursAndAwards>
+	rdfs:label "1925#footnote13# [nicht 1924#footnote14#] Hon. D.Sc., University College London<br>1943 Hon. LL.D. Dalhousie University<br>1943 [nicht 1946#footnote15#] Flavelle Medal (Royal Society of Canada)<br>1949 Julius Friedenwald Medal (American Gastroenterological Association)" ;
+	a drw-model:HonoursAndAwards .
+
+<SLPublication/30045hasSL5>
+	a drw-model:SLPublication ;
+	rdfs:label "Kurskaja ėnciklopedija: Babkin, Boris Petrovič (http://www.mke.su/, 26.10.2010)." .
+
+<StationOfLife/30045hasStationOfLife2>
+	rdfs:label "Weiterbildung in Deutschland und Italien:
+- von Januar bis März 1905 und Herbst 1906 bei Arthur #name#Rosenheim#/name# (1865-1942) und Richard Joseph #name#Meyer#/name# (1865-1939) an der Universität Berlin
+- Herbst 1905 und Winter 1906 bei Emil Hermann #internNameLink#10048#endNameNr#Fischer#/internNameLink# (1852-1919) und Emil #internNameLink#10002#endNameNr#Abderhalden#/internNameLink# (1877-1950) an der Universität Berlin
+- Frühjahr 1906 bei Anton Felix #name#Dohrn#/name# (1840-1909) in der Zoologischen Station Neapel
+- Sommer 1906 bei E. #internNameLink#30372#endNameNr#Hering#/internNameLink# und S. #internNameLink#30298#endNameNr#Garten#/internNameLink# an der Universität Leipzig" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1904_1906> .
+
+<WPublication/30045hasW7>
+	rdfs:label "Dva romansa dlja balalajki i domry s akkomp. fp. s nadpis. tekstom (1. A. S. Puškin: Čto v imeni tebe moem; 2. A. A. Fet: Ždu ja trevogoj ob’jat). Sankt-Peterburg 1900, 6 S." ;
+	a drw-model:WPublication .
+
+<Date/1912_1914>
+	a drw-model:Date ;
+	rdfs:label "1912-1914" .
+
+<StationOfLife/30045hasStationOfLife5>
+	rdfs:label "Aufenthalt bei Ernest Henry #name#Starling#/name# (1866-1927) im Physiologischen Laboratorium des University College London" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1914> .
+
+<WPublication/30045hasW6>
+	rdfs:label "Škola (samoučitel’) dlja balalajki. Sostavenno po novoj noto-cifernoj metode, s priloženiem p’es dlja odnoj i pjati balalaek. Sankt-Peterburg 1898, 24 S.; 2. Aufl.: Škola dlja balalajki. Po notnoj sisteme p’esy dlja 6 balalaek, četyrech domr, gudka i svirelej. Sankt-Peterburg 1900, 29 S." ;
+	a drw-model:WPublication .
+
+<Date/1914>
+	rdfs:label "1914" ;
+	a drw-model:Date .
+
+<WLStationOfLife/30045hasWL0>
+	rdfs:label "Bekannt für seine Forschungen über das Verdauungssystem des Menschen und der Tiere sowie über das Nervensystem" ;
+	a drw-model:WLStationOfLife .
+
+<Education/30045hasEducation2>
+	drw-model:began <Date/1896_1898> ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Char’kov" ;
+	a drw-model:Education .
+
+<Education/30045hasEducation0>
+	a drw-model:Education ;
+	rdfs:label "Abschluss des Ja.-Gurevič-Gymnasiums#footnote9# in St. Petersburg" ;
+	drw-model:began <Date/1895> .
+
+<GeneralLabor/30045hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<StationOfLife/30045hasStationOfLife11>
+	drw-model:began <Date/1928_1942> ;
+	rdfs:label "Professor für Physiologie an der McGill University in Montreal" ;
+	a drw-model:StationOfLife .
+
+<RelatedPerson/30045hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Tochter: [Name unbekannt], wurde 1917 Opfer politischer Repressalien
+Tochter: Ksenija (Xenia) Borisovna Babkina, verh. Kernan (1903-1944), Ballerina, Dichterin" .
+
+<Date/1904_1906>
+	a drw-model:Date ;
+	rdfs:label "1904-1906" .
+
+<SLPublication/30045hasSL4>
+	a drw-model:SLPublication ;
+	rdfs:label "Komarov, S. A., Friedman, M. H. F.: B. P. Babkin, 1877-1950. Gastroenterology 16 (1950), 511-514." .
+
+<P/30045hasP4>
+	rdfs:label "Portrait in: Volkov/Kulikova 2003 b (<b>SL</b>), Bildeinlage zw. S. 32 und 33." ;
+	a drw-model:P .
+
+<Date/1924_1928>
+	a drw-model:Date ;
+	rdfs:label "1924-1928" .
+
+<Date/1902_1912/13>
+	a drw-model:Date ;
+	rdfs:label "1902-1912/13" .
+

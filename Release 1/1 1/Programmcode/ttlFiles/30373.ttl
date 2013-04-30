@@ -1,0 +1,291 @@
+
+<SLPublication/30373hasSL6>
+	rdfs:label "Trincker, Dietrich: Hermann, Ludimar. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. Bd. 8 (1969), 662-664 (Onlinefassung unter: http://www.deutsche-biographie.de/pnd118896512.html, 24.11.2011)." ;
+	a drw-model:SLPublication .
+
+<GeneralLabor/30373hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<Membership/30373hasMembership>
+	a drw-model:Membership ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<Date/1865_1868>
+	a drw-model:Date ;
+	rdfs:label "1865-1868" .
+
+<NameVariation/30373var0>
+	a drw-model:NameVariation ;
+	rdfs:label "Герман, Лудимар/Людимар"@ru ;
+	rdfs:label "German, Ludimar/Ljudimar"@de .
+
+<RelatedPerson/30373motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Jeanette, geb. Freund (* 1806)" .
+
+<Date/1855_1860>
+	rdfs:label "1855-1860" ;
+	a drw-model:Date .
+
+<Date/1859>
+	a drw-model:Date ;
+	rdfs:label "1859" .
+
+<WPublication/30373hasW0>
+	rdfs:label "vgl. <b>SL</b>" ;
+	a drw-model:WPublication .
+
+<RelatedPerson/30373hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Franz (*1871)
+Hanna (* 1873)
+Gertrud (* 1878)
+Susanna (* 1881)" .
+
+<SLPublication/30373hasSL7>
+	rdfs:label "VL People (http://vlp.mpiwg-berlin.mpg.de/people/data?id=per305, 24.11.2011)." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30373hasStationOfLife6>
+	a drw-model:StationOfLife ;
+	rdfs:label "o. Professor in Königsberg" ;
+	drw-model:began <Date/1884_1913> .
+
+<Education/30373hasEducation0>
+	rdfs:label "Besuch der Aron-Horwitz-Knabenschule und" ;
+	drw-model:began <Date/1845_1849> ;
+	a drw-model:Education .
+
+<P/30373hasP1>
+	a drw-model:P ;
+	rdfs:label "Portraits in: Hermann 1915 (<b>Q</b>) und <b>SL</b> (Auswahl): Rothschuh 1953 [im Laboratorium], Schawalder 1990, VL People." .
+
+<Date/1849_1855>
+	rdfs:label "1849-1855" ;
+	a drw-model:Date .
+
+<Date/1902_1903>
+	a drw-model:Date ;
+	rdfs:label "1902-1903" .
+
+<Date/1865>
+	a drw-model:Date ;
+	rdfs:label "1865" .
+
+<Education/30373hasEducation2>
+	a drw-model:Education ;
+	drw-model:began <Date/1855_1860> ;
+	rdfs:label "Studium der Medizin und der Naturwissenschaften an der Universität Berlin" .
+
+<HonoursAndAwards/30373hasHounoursAndAwards>
+	rdfs:label "1894 Dr. jur. h. c. (University of Oxford)" ;
+	a drw-model:HonoursAndAwards .
+
+<StationOfLife/30373hasStationOfLife4>
+	drw-model:began <Date/1868_1884> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "o. Professor für Physiologie an der Universität Zürich" .
+
+<StationOfLife/30373hasStationOfLife0>
+	drw-model:began <Date/1860> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Freiwilligen-Militärdienst im Lazarett" .
+
+<SLPublication/30373hasSL3>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SLPublication .
+
+<HounoursAndAwardsComment/30373hasHounoursAndAwardsComment>
+	rdfs:label "(Auswahl)" ;
+	a drw-model:HounoursAndAwardsComment .
+
+<SLPublication/30373hasSL1>
+	a drw-model:SLPublication ;
+	rdfs:label "Frank, [O.]: Nekrolog. Jahrbuch der Königlich Bayerischen Akademie der Wissenschaften 1915. München 1915, 105-114." .
+
+<RelatedPerson/30373wasMarriedTo>
+	rdfs:label "Fanny, geb. Cohn (1848-1888)" ;
+	a drw-model:RelatedPerson .
+
+<Date/1884_1913>
+	a drw-model:Date ;
+	rdfs:label "1884-1913" .
+
+<GPVPublication/30373hasGPV0>
+	rdfs:label "vgl. <b>SL</b>" ;
+	a drw-model:GPVPublication .
+
+<GeneralLabor/30373hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<SLPublication/30373hasSL2>
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 724-726." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30373hasSL8>
+	rdfs:label "Wikipedia (http://de.wikipedia.org/wiki/Ludimar_Hermann, 24.11.2011)." ;
+	a drw-model:SLPublication .
+
+<Date/1878_1880>
+	a drw-model:Date ;
+	rdfs:label "1878-1880" .
+
+<NameVariation/30373var1>
+	rdfs:label "Germann, Ludimar/Ljudimar"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Германн, Лудимар/Людимар"@ru .
+
+<SLComment/30373hasSLComment>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<Q/30373hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Hermann 1915 – Ludimar Hermann: Erinnerungen. Hrsg. und mit einem Nachwort von Hanna Hermann. Berlin 1915, 156 S." .
+
+<RelatedPerson/30373fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Hermann Samuel H. (1810-1889), Rabbiner, Druckereibesitzer" .
+
+<Date/1860>
+	rdfs:label "1860" ;
+	a drw-model:Date .
+
+<Date/1868_1884>
+	a drw-model:Date ;
+	rdfs:label "1868-1884" .
+
+<Education/30373hasEducation4>
+	drw-model:began <Date/1865> ;
+	a drw-model:Education ;
+	rdfs:label "Habilitation für Physiologie in Berlin" .
+
+<Date/1845_1849>
+	a drw-model:Date ;
+	rdfs:label "1845-1849" .
+
+<Date/1863_1864>
+	rdfs:label "1863-1864" ;
+	a drw-model:Date .
+
+<SLPublication/30373hasSL5>
+	a drw-model:SLPublication ;
+	rdfs:label "Schawalder, Joachim Hans: Der Physiologe Ludimar Hermann (1838-1914). Berlin – Zürich – Königsberg. Zürich 1990 (Zürcher medizingeschichtliche Abhandlungen 210), 94 S." .
+
+<StationOfLife/30373hasStationOfLife7>
+	rdfs:label "Rektor der Universität Königsberg" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1902_1903> .
+
+<ImportantPerson/30373>
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/30373hasHounoursAndAwards> ;
+	drw-model:hasStationOfLife <StationOfLife/30373hasStationOfLife1> ;
+	drw-model:hasSL <SLPublication/30373hasSL1> ;
+	drw-model:hasEducation <Education/30373hasEducation1> ;
+	drw-model:hasStationOfLife <StationOfLife/30373hasStationOfLife8> ;
+	drw-model:hasEducation <Education/30373hasEducation4> ;
+	drw-model:hasStationOfLife <StationOfLife/30373hasStationOfLife3> ;
+	drw-model:wasMarriedTo <RelatedPerson/30373wasMarriedTo> ;
+	drw-model:hasStationOfLife <StationOfLife/30373hasStationOfLife5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30373hasGeneralLabor1> ;
+	rdfs:label "Hermann, Ludimar" ;
+	drw-model:hasSL <SLPublication/30373hasSL2> ;
+	drw-model:hasSL <SLPublication/30373hasSL4> ;
+	drw-model:hasSL <SLPublication/30373hasSL7> ;
+	drw-model:hasSLComment <SLComment/30373hasSLComment> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30373hasGeneralLabor0> ;
+	drw-model:hasQ <Q/30373hasQ0> ;
+	drw-model:fatherIs <RelatedPerson/30373fatherIs> ;
+	drw-model:hasSL <SLPublication/30373hasSL0> ;
+	drw-model:hasStationOfLife <StationOfLife/30373hasStationOfLife7> ;
+	drw-model:hasStationOfLife <StationOfLife/30373hasStationOfLife4> ;
+	drw-model:hasDescendant <RelatedPerson/30373hasDescendant> ;
+	drw-model:hasEducation <Education/30373hasEducation2> ;
+	drw-model:hasHounoursAndAwardsComment <HounoursAndAwardsComment/30373hasHounoursAndAwardsComment> ;
+	drw-model:hasGPV <GPVPublication/30373hasGPV0> ;
+	drw-model:hasSL <SLPublication/30373hasSL3> ;
+	drw-model:drwID "30373" ;
+	drw-model:hasW <WPublication/30373hasW0> ;
+	drw-model:motherIs <RelatedPerson/30373motherIs> ;
+	drw-model:hasP <P/30373hasP0> ;
+	drw-model:hasStationOfLife <StationOfLife/30373hasStationOfLife6> ;
+	drw-model:hasEducation <Education/30373hasEducation3> ;
+	drw-model:hasMembership <Membership/30373hasMembership> ;
+	drw-model:hasMainName <MainName/30373> ;
+	drw-model:hasStationOfLife <StationOfLife/30373hasStationOfLife0> ;
+	drw-model:hasStationOfLife <StationOfLife/30373hasStationOfLife2> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SLPublication/30373hasSL6> ;
+	drw-model:hasEducation <Education/30373hasEducation0> ;
+	drw-model:hasSL <SLPublication/30373hasSL8> ;
+	drw-model:hasP <P/30373hasP1> ;
+	drw-model:hasSL <SLPublication/30373hasSL5> ;
+	drw-model:hasWL <WLStationOfLife/30373hasWL0> .
+
+<Education/30373hasEducation1>
+	rdfs:label "des „Gymnasiums zum Grauen Kloster“ in Berlin" ;
+	drw-model:began <Date/1849_1855> ;
+	a drw-model:Education .
+
+<SLPublication/30373hasSL4>
+	rdfs:label "Rothschuh, Karl Eduard: Geschichte der Physiologie. Berlin, Göttingen, Heidelberg 1953, 135-137." ;
+	a drw-model:SLPublication .
+
+<Education/30373hasEducation3>
+	a drw-model:Education ;
+	rdfs:label "Promotion zum Dr. med. und 1860 Staatsexamen an der Universität Berlin" ;
+	drw-model:began <Date/1859> .
+
+<P/30373hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Pagel 1901 (<b>SL</b>); auch in: Wikipedia (<b>SL</b>)." .
+
+<StationOfLife/30373hasStationOfLife5>
+	rdfs:label "Rektor der Universität Zürich, davor zweimal Dekan der Medizinischen Fakultät" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1878_1880> .
+
+<Date/1860_1863>
+	a drw-model:Date ;
+	rdfs:label "1860-1863" .
+
+<StationOfLife/30373hasStationOfLife1>
+	drw-model:began <Date/1860_1863> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Praktischer Arzt in eigener Praxis in Berlin" .
+
+<WLStationOfLife/30373hasWL0>
+	rdfs:label "Nach ihm ist das Hermann-Gitter benannt. Weiteres vgl. <b>SL</b>" ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30373hasStationOfLife8>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<StationOfLife/30373hasStationOfLife3>
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1865_1868> ;
+	rdfs:label "Privatdozent in Berlin" .
+
+<StationOfLife/30373hasStationOfLife2>
+	drw-model:began <Date/1863_1864> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Assistenzarzt der Landwehr des 3. Armeekorps" .
+
+<MainName/30373>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30373var1> ;
+	rdfs:label "Hermann, Ludimar" ;
+	drw-model:hasNameVariation <NameVariation/30373var0> .
+
+<SLPublication/30373hasSL0>
+	a drw-model:SLPublication ;
+	rdfs:label "BSĖ. Bd. 6 (1971), 1062-1063." .
+

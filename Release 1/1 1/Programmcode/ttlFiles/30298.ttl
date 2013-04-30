@@ -1,0 +1,253 @@
+
+<ImportantPerson/30298>
+	drw-model:fatherIs <RelatedPerson/30298fatherIs> ;
+	drw-model:hasStationOfLife <StationOfLife/30298hasStationOfLife6> ;
+	drw-model:hasMainName <MainName/30298> ;
+	drw-model:hasQ <Q/30298hasQ0> ;
+	drw-model:hasSL <SLPublication/30298hasSL1> ;
+	drw-model:hasEducation <Education/30298hasEducation0> ;
+	drw-model:hasSL <SLPublication/30298hasSL3> ;
+	drw-model:motherIs <RelatedPerson/30298motherIs> ;
+	drw-model:hasStationOfLife <StationOfLife/30298hasStationOfLife5> ;
+	drw-model:hasSL <SLPublication/30298hasSL2> ;
+	drw-model:hasSL <SLPublication/30298hasSL4> ;
+	drw-model:hasEducation <Education/30298hasEducation2> ;
+	drw-model:hasEducation <Education/30298hasEducation1> ;
+	drw-model:hasStationOfLife <StationOfLife/30298hasStationOfLife1> ;
+	drw-model:hasSL <SLPublication/30298hasSL0> ;
+	drw-model:wasMarriedTo <RelatedPerson/30298wasMarriedTo> ;
+	drw-model:drwID "30298" ;
+	drw-model:hasSL <SLPublication/30298hasSL7> ;
+	drw-model:hasGPV <GPVPublication/30298hasGPV0> ;
+	drw-model:hasStationOfLife <StationOfLife/30298hasStationOfLife4> ;
+	drw-model:hasSLComment <SLComment/30298hasSLComment> ;
+	drw-model:hasP <P/30298hasP0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30298hasGeneralLabor0> ;
+	drw-model:hasStationOfLife <StationOfLife/30298hasStationOfLife0> ;
+	drw-model:hasMembership <Membership/30298hasMembership> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasWL <WLStationOfLife/30298hasWL0> ;
+	drw-model:hasW <WPublication/30298hasW0> ;
+	drw-model:hasDescendant <RelatedPerson/30298hasDescendant> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/30298hasHounoursAndAwards> ;
+	rdfs:label "Garten, Siegfried Ernst Heinrich" ;
+	drw-model:hasStationOfLife <StationOfLife/30298hasStationOfLife2> ;
+	drw-model:hasSL <SLPublication/30298hasSL6> ;
+	drw-model:hasEducation <Education/30298hasEducation4> ;
+	drw-model:hasSL <SLPublication/30298hasSL8> ;
+	drw-model:hasEducation <Education/30298hasEducation3> ;
+	drw-model:hasStationOfLife <StationOfLife/30298hasStationOfLife3> ;
+	drw-model:hasSL <SLPublication/30298hasSL5> ;
+	drw-model:hasHounoursAndAwardsComment <HounoursAndAwardsComment/30298hasHounoursAndAwardsComment> .
+
+<StationOfLife/30298hasStationOfLife5>
+	drw-model:began <Date/1918_1919> ;
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Leipzig" ;
+	a drw-model:StationOfLife .
+
+<Date/1897>
+	a drw-model:Date ;
+	rdfs:label "1897" .
+
+<Date/1908_1916>
+	a drw-model:Date ;
+	rdfs:label "1908-1916" .
+
+<StationOfLife/30298hasStationOfLife1>
+	rdfs:label "Privatdozent für Physiologie an der Universität Leipzig" ;
+	drw-model:began <Date/1899_1905> ;
+	a drw-model:StationOfLife .
+
+<WLStationOfLife/30298hasWL0>
+	rdfs:label "vgl. <b>SL</b>" ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/30298hasStationOfLife3>
+	drw-model:began <Date/1908_1916> ;
+	rdfs:label "o. Prof für Physiologie an der Universität Gießen" ;
+	a drw-model:StationOfLife .
+
+<Education/30298hasEducation1>
+	drw-model:began <Date/1890_1891> ;
+	a drw-model:Education ;
+	rdfs:label "Studium der Naturwissenschaften und Mathematik am Polytechnikum Braunschweig" .
+
+<RelatedPerson/30298motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Elisabeth, geb. Schmiedt" .
+
+<Education/30298hasEducation3>
+	drw-model:began <Date/1897> ;
+	a drw-model:Education ;
+	rdfs:label "Promotion zum Dr. med. an der Universität Leipzig" .
+
+<HounoursAndAwardsComment/30298hasHounoursAndAwardsComment>
+	rdfs:label "(Auswahl)" ;
+	a drw-model:HounoursAndAwardsComment .
+
+<Education/30298hasEducation2>
+	drw-model:began <Date/1891_1896> ;
+	a drw-model:Education ;
+	rdfs:label "Studium der Medizin an der Universität Leipzig" .
+
+<SLPublication/30298hasSL7>
+	a drw-model:SLPublication ;
+	rdfs:label "Thomas, Karl: Nachruf auf Siegfried Garten. Berichte der Sächsischen Akademie der Wissenschaften zu Leipzig, Mathematisch-naturwissenschaftliche Klasse 76 (1924), 159-169." .
+
+<SLPublication/30298hasSL5>
+	rdfs:label "Professorenkatalog der Universität Leipzig/Catalogus Professorum Lipsiensis: http://www.uni-leipzig.de/unigeschichte/professorenkatalog/leipzig/Garten_43, 21.11.2011." ;
+	a drw-model:SLPublication .
+
+<Date/1891_1896>
+	a drw-model:Date ;
+	rdfs:label "1891-1896" .
+
+<SLPublication/30298hasSL1>
+	rdfs:label "Deutsches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): II 428, 157-169; III 281, 92-94." ;
+	a drw-model:SLPublication .
+
+<Q/30298hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Universitätsarchiv Leipzig, Personalakten: Bestand: Karteikarten der Quaesturbehoerde zwischen 1889 und 1944/1945; Promotionen 1810-1969, Signatur: Med. Fak. Prom. Bd. 8 (1896-1898); Personalakten von Professoren und Dozenten bis zum Jahr 1990, Signatur: PA 1350." .
+
+<Date/1899_1905>
+	a drw-model:Date ;
+	rdfs:label "1899-1905" .
+
+<SLPublication/30298hasSL3>
+	a drw-model:SLPublication ;
+	rdfs:label "Frank, Otto: Siegfried Garten zum Gedächtnis. Zeitschrift für Biologie 81 (1924), 1-4." .
+
+<NameVariation/30298var0>
+	rdfs:label "Гартен, Зигфрид"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Garten, Zigfrid"@de .
+
+<GeneralLabor/30298hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<StationOfLife/30298hasStationOfLife2>
+	rdfs:label "ao. Professor für Physiologie an der Universität Gießen" ;
+	drw-model:began <Date/1905_1908> ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30298hasSL8>
+	rdfs:label "Trincker, Dietrich: Garten, Ernst Heinrich Siegfried. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. Bd. 6 (1964), 74-75 (Onlinefassung unter: http://www.deutsche-biographie.de/pnd119539284.html, 21.11.2011)." ;
+	a drw-model:SLPublication .
+
+<Membership/30298hasMembership>
+	rdfs:label "Mitglied der Sächsischen Akademie der Wissenschaften zu Leipzig. Weiteres vgl. <b>SL</b>" ;
+	a drw-model:Membership .
+
+<StationOfLife/30298hasStationOfLife4>
+	rdfs:label "o. Prof für Physiologie an der Medizinischen Fakultät der Universität Leipzig" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1916_1923> .
+
+<WPublication/30298hasW0>
+	rdfs:label "vgl. <b>SL</b>" ;
+	a drw-model:WPublication .
+
+<Date/1905_1908>
+	a drw-model:Date ;
+	rdfs:label "1905-1908" .
+
+<RelatedPerson/30298fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Alexander (1832-1881), Pfarrer" .
+
+<StationOfLife/30298hasStationOfLife0>
+	rdfs:label "Tätigkeit an der Zoologischen Station in Neapel" ;
+	drw-model:began <Date/1898_1899> ;
+	a drw-model:StationOfLife .
+
+<MainName/30298>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30298var0> ;
+	rdfs:label "Garten, Siegfried Ernst Heinrich" .
+
+<Date/1916_1923>
+	a drw-model:Date ;
+	rdfs:label "1916-1923" .
+
+<P/30298hasP0>
+	rdfs:label "Portrait (Abb. [Brustbild, um die 45 Jahre alt]), aus: Archiv der SAW; dass. auch in: Wiemers/Fischer 1996, 62, und ~ 2006, 66; spiegelverkehrt in: Universitätsarchiv Leipzig, Fotosammlung seit 1857, Signatur N01905, und Professorenkatalog der Universität Leipzig - Catalogus Professorum Lipsiensis. Hrsg. vom Lehrstuhl für Neuere und Neueste Geschichte, Historisches Seminar der Universität Leipzig (http://www.uni-leipzig.de/unigeschichte/professorenkatalog/impressum.html, 12.4.2012). (<b>SL</b>)." ;
+	a drw-model:P .
+
+<GPVPublication/30298hasGPV0>
+	rdfs:label "vgl. <b>SL</b>" ;
+	a drw-model:GPVPublication .
+
+<HonoursAndAwards/30298hasHounoursAndAwards>
+	rdfs:label "Siegfried-Garten-Preis (1934 verliehen [vermutlich einmalig] von der Universität Leipzig an Bernard #name#Katz#/name# [1911-2003])#footnote2#<br>Relief von #name#Kleinschmidt#/name#, bis zur Bombenzerstörung am 6. April 1945 im Gebäude des Physiologischen Instituts der Universität Leipzig" ;
+	a drw-model:HonoursAndAwards .
+
+<SLComment/30298hasSLComment>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<Date/1890_1891>
+	a drw-model:Date ;
+	rdfs:label "1890-1891" .
+
+<Education/30298hasEducation0>
+	rdfs:label "Besuch des Nikolai-Gymnasiums in Leipzig" ;
+	drw-model:began <Date/1882_1890> ;
+	a drw-model:Education .
+
+<Date/1882_1890>
+	a drw-model:Date ;
+	rdfs:label "1882-1890" .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<SLPublication/30298hasSL4>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SLPublication .
+
+<Date/1918_1919>
+	rdfs:label "1918-1919" ;
+	a drw-model:Date .
+
+<SLPublication/30298hasSL0>
+	rdfs:label "Poggendorff - Biographisch-literarisches Handwörterbuch zur Geschichte der exacten Naturwissenschaften, enthaltend Nachweisungen über Lebensverhältnisse und Leistungen von Mathematikern, Astronomen, Physikern, Chemikern, Mineralogen, Geologen usw. aller Völker und Zeiten. Gesammelt von J. C. Poggendorff, Mitglied der Akademie der Wissenschaften zu Berlin / J. C. Poggendorff - Biographisch-literarisches Handwörterbuch der exakten Naturwissenschaften. Bd. 1-8. Leipzig, Berlin 1863-2004. Bd. 5, 413; Bd. 6, 854; Bd. 7a, 164-165." ;
+	a drw-model:SLPublication .
+
+<Education/30298hasEducation4>
+	drw-model:began <Date/1899> ;
+	rdfs:label "Habilitation für Physiologie an der Universität Leipzig" ;
+	a drw-model:Education .
+
+<SLPublication/30298hasSL6>
+	rdfs:label "Sulze, Walter: Garten, Siegfried. In: Deutsches biographisches Jahrbuch 5.1923 (1930), 100-103." ;
+	a drw-model:SLPublication .
+
+<RelatedPerson/30298wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Clara Margarete Helene, geb. Birch-Hirschfeld (1881-1946)#footnote1#" .
+
+<Date/1899>
+	rdfs:label "1899" ;
+	a drw-model:Date .
+
+<SLPublication/30298hasSL2>
+	rdfs:label "Engelhardt, Dietrich von (Hg.): Biographische Enzyklopädie deutschsprachiger Mediziner. Bd. 1-2. München 2002, 208." ;
+	a drw-model:SLPublication .
+
+<RelatedPerson/30298hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sohn Viktor Alexander (1906-1974), Mathematiker, Oberstudienrat
+Sohn [Name unbekannt] († 1918 an der Spanischen Grippe)" .
+
+<Date/1898_1899>
+	a drw-model:Date ;
+	rdfs:label "1898-1899" .
+
+<StationOfLife/30298hasStationOfLife6>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+

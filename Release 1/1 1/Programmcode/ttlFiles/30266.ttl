@@ -1,0 +1,266 @@
+
+<ImportantPerson/30266>
+	drw-model:hasSL <SLPublication/30266hasSL6> ;
+	drw-model:hasSL <SLPublication/30266hasSL12> ;
+	drw-model:hasDescendant <RelatedPerson/30266hasDescendant> ;
+	drw-model:hasWL <WLStationOfLife/30266hasWL0> ;
+	rdfs:label "Fick, Adolf Eugen" ;
+	drw-model:hasSL <SLPublication/30266hasSL3> ;
+	drw-model:fatherIs <RelatedPerson/30266fatherIs> ;
+	drw-model:hasGPV <GPVPublication/30266hasGPV0> ;
+	drw-model:hasHounoursAndAwardsComment <HounoursAndAwardsComment/30266hasHounoursAndAwardsComment> ;
+	drw-model:hasStationOfLife <StationOfLife/30266hasStationOfLife3> ;
+	drw-model:hasSL <SLPublication/30266hasSL0> ;
+	drw-model:hasP <P/30266hasP2> ;
+	drw-model:hasSL <SLPublication/30266hasSL7> ;
+	drw-model:hasSL <SLPublication/30266hasSL10> ;
+	drw-model:hasW <WPublication/30266hasW0> ;
+	drw-model:motherIs <RelatedPerson/30266motherIs> ;
+	drw-model:hasSL <SLPublication/30266hasSL8> ;
+	drw-model:hasEducation <Education/30266hasEducation3> ;
+	drw-model:hasStationOfLife <StationOfLife/30266hasStationOfLife0> ;
+	drw-model:hasSL <SLPublication/30266hasSL9> ;
+	drw-model:hasSL <SLPublication/30266hasSL4> ;
+	drw-model:hasP <P/30266hasP0> ;
+	drw-model:hasMembership <Membership/30266hasMembership> ;
+	drw-model:hasStationOfLife <StationOfLife/30266hasStationOfLife4> ;
+	drw-model:hasEducation <Education/30266hasEducation2> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/30266hasHounoursAndAwards> ;
+	drw-model:drwID "30266" ;
+	drw-model:hasSL <SLPublication/30266hasSL11> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasMainName <MainName/30266> ;
+	drw-model:hasEducation <Education/30266hasEducation4> ;
+	drw-model:hasSL <SLPublication/30266hasSL5> ;
+	drw-model:wasMarriedTo <RelatedPerson/30266wasMarriedTo> ;
+	drw-model:hasStationOfLife <StationOfLife/30266hasStationOfLife1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30266hasGeneralLabor0> ;
+	drw-model:hasEducation <Education/30266hasEducation1> ;
+	drw-model:hasSL <SLPublication/30266hasSL1> ;
+	drw-model:hasStationOfLife <StationOfLife/30266hasStationOfLife5> ;
+	drw-model:hasSLComment <SLComment/30266hasSLComment> ;
+	drw-model:hasP <P/30266hasP1> ;
+	drw-model:hasSL <SLPublication/30266hasSL2> ;
+	drw-model:hasEducation <Education/30266hasEducation0> ;
+	drw-model:hasStationOfLife <StationOfLife/30266hasStationOfLife2> .
+
+<Date/1868_1899>
+	a drw-model:Date ;
+	rdfs:label "1868-1899" .
+
+<RelatedPerson/30266fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Friedrich (1783-1861), Bauingenieur, Oberbaurat" .
+
+<Date/1847>
+	a drw-model:Date ;
+	rdfs:label "1847" .
+
+<HonoursAndAwards/30266hasHounoursAndAwards>
+	rdfs:label "„Geheimer Rath“<br>Persönlicher Adelstitel<br>Dr. phil. hon. der Universität Leipzig<br>1893 Cothenius-Medaille (Deutsche Akademie der Naturforscher Leopoldina)<br>Festgabe: #italic#Beiträge zur Physiologie. Festschrift für Adolf Fick zum siebzigsten Geburtstage#/italic#. Braunschweig 1899, 166 S.<br>Seit 1929 Adolf-Fick-Preis mit der Adolf-Fick-Medaille (alle 5 Jahre, vergeben durch Physikalisch-Medizinische Gesellschaft Würzburg)" ;
+	a drw-model:HonoursAndAwards .
+
+<SLPublication/30266hasSL10>
+	rdfs:label "VL People (http://vlp.mpiwg-berlin.mpg.de/people/data?id=per69, 21.11.2011)." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30266hasSL0>
+	rdfs:label "BSĖ. Bd. 27 (1977), 383." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30266hasStationOfLife2>
+	drw-model:began <Date/1855_1862> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "ao. Professor für Physiologie und Anatomie an der Universität Zürich" .
+
+<SLPublication/30266hasSL7>
+	rdfs:label "Rothschuh, Karl Eduard: Geschichte der Physiologie. Berlin, Göttingen, Heidelberg 1953, 150-152." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30266hasStationOfLife4>
+	rdfs:label "o. Professor und Lehrstuhl für Physiologie an der Universität Würzburg" ;
+	drw-model:began <Date/1868_1899> ;
+	a drw-model:StationOfLife .
+
+<SLPublication/30266hasSL2>
+	rdfs:label "Poggendorff - Biographisch-literarisches Handwörterbuch zur Geschichte der exacten Naturwissenschaften, enthaltend Nachweisungen über Lebensverhältnisse und Leistungen von Mathematikern, Astronomen, Physikern, Chemikern, Mineralogen, Geologen usw. aller Völker und Zeiten. Gesammelt von J. C. Poggendorff, Mitglied der Akademie der Wissenschaften zu Berlin / J. C. Poggendorff - Biographisch-literarisches Handwörterbuch der exakten Naturwissenschaften. Bd. 1-8. Leipzig, Berlin 1863-2004. Bd. 1, 744-745; Bd. 3, 440; Bd. 4, 417." ;
+	a drw-model:SLPublication .
+
+<Date/1851>
+	a drw-model:Date ;
+	rdfs:label "1851" .
+
+<StationOfLife/30266hasStationOfLife0>
+	drw-model:began <Date/1951_1852> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Prosektor für Anatomie an der Universität Marburg" .
+
+<Date/1853>
+	a drw-model:Date ;
+	rdfs:label "1853" .
+
+<RelatedPerson/30266hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "4 Söhne, 2 Töchter, darunter:
+Friedrich Wilhelm (1863-1955), Jurist, Fabrikgeneraldirektor und Reichtagsabgeordneter
+Rudolf Armin (1866-1939), Professor der Anatomie
+Elisabeth, verh. Gudden" .
+
+<Education/30266hasEducation4>
+	drw-model:began <Date/1853> ;
+	a drw-model:Education ;
+	rdfs:label "Habilitation an der Universität Zürich" .
+
+<Date/1852_1856>
+	a drw-model:Date ;
+	rdfs:label "1852-1856" .
+
+<StationOfLife/30266hasStationOfLife3>
+	drw-model:began <Date/1862_1868> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "o. Professor für Physiologie an der Universität Zürich" .
+
+<Education/30266hasEducation0>
+	drw-model:began <Date/1847> ;
+	a drw-model:Education ;
+	rdfs:label "Abschluss des Gymnasiums in Kassel" .
+
+<SLComment/30266hasSLComment>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<Education/30266hasEducation2>
+	drw-model:began <Date/1848_1851> ;
+	a drw-model:Education ;
+	rdfs:label "Studium der Medizin an den Universitäten Marburg und Berlin" .
+
+<SLPublication/30266hasSL12>
+	a drw-model:SLPublication ;
+	rdfs:label "Wikipedia (http://de.wikipedia.org/wiki/Adolf_Fick, 21.11.2011)." .
+
+<RelatedPerson/30266motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Marianne, geb. von Sponsel" .
+
+<Date/1862_1868>
+	a drw-model:Date ;
+	rdfs:label "1862-1868" .
+
+<SLPublication/30266hasSL6>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SLPublication .
+
+<WPublication/30266hasW0>
+	rdfs:label "vgl. <b>SL</b>" ;
+	a drw-model:WPublication .
+
+<HounoursAndAwardsComment/30266hasHounoursAndAwardsComment>
+	rdfs:label "(Auswahl)" ;
+	a drw-model:HounoursAndAwardsComment .
+
+<SLPublication/30266hasSL11>
+	rdfs:label "Wegbereiter unserer naturwissenschaftlich-medizinischen Moderne (http://appserv5.ph-heidelberg.de/onlinelex/index.php?id=866, 21.11.2011)." ;
+	a drw-model:SLPublication .
+
+<SLPublication/30266hasSL8>
+	rdfs:label "Schenck, F.: Zum Andenken an A. Fick. Archiv für die gesammte Physiologie des Menschen und der Thiere 90 (1901), 313-361." ;
+	a drw-model:SLPublication .
+
+<NameVariation/30266var0>
+	a drw-model:NameVariation ;
+	rdfs:label "Фик, Адольф"@ru ;
+	rdfs:label "Fik, Adol’f"@de .
+
+<SLPublication/30266hasSL5>
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 498-499." ;
+	a drw-model:SLPublication .
+
+<Date/1951_1852>
+	a drw-model:Date ;
+	rdfs:label "1951-1852" .
+
+<SLPublication/30266hasSL4>
+	rdfs:label "Hirsch, Gustav (Hg.): Biographisches Lexikon der hervorragenden Ärzte aller Zeiten und Völker. 2. Aufl. Bd. 2. Berlin, Wien 1930 Bd. 2 (1930), 515-516." ;
+	a drw-model:SLPublication .
+
+<Membership/30266hasMembership>
+	a drw-model:Membership ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<Date/1848_1851>
+	a drw-model:Date ;
+	rdfs:label "1848-1851" .
+
+<Date/1855_1862>
+	a drw-model:Date ;
+	rdfs:label "1855-1862" .
+
+<SLPublication/30266hasSL3>
+	a drw-model:SLPublication ;
+	rdfs:label "Engelhardt, Dietrich von (Hg.): Biographische Enzyklopädie deutschsprachiger Mediziner. Bd. 1-2. München 2002, 171." .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<StationOfLife/30266hasStationOfLife1>
+	drw-model:began <Date/1852_1856> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Prosektor und Privatdozent an der Universität Zürich" .
+
+<SLPublication/30266hasSL1>
+	rdfs:label "Bezel, Rudolf: Der Physiologe Adolf Fick, 1829-1901. Seine Zürcher Jahre (1852-1868). Zürich 1979 (Zürcher medizingeschichtliche Abhandlungen 126), 85 S.; darin S. 66: Die Familie Fick." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/30266hasStationOfLife5>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<MainName/30266>
+	a drw-model:MainName ;
+	rdfs:label "Fick, Adolf Eugen" ;
+	drw-model:hasNameVariation <NameVariation/30266var0> .
+
+<RelatedPerson/30266wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Emilie, geb. von Colin (Coelln ?) (1840-1901)" .
+
+<P/30266hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Pagel 1901 (<b>SL</b>)." .
+
+<P/30266hasP1>
+	a drw-model:P ;
+	rdfs:label "Anton Klamroth (1860-1929): Adolf Fick (1897). Gemälde [Aufbewahrungsort unbekannt]. Reproduktion in: Wikipedia (<b>SL</b>)." .
+
+<Education/30266hasEducation1>
+	drw-model:began <Date/1847> ;
+	a drw-model:Education ;
+	rdfs:label "Beginn des Studiums der Mathematik an der Universität Marburg" .
+
+<P/30266hasP2>
+	a drw-model:P ;
+	rdfs:label "Portraits in: Beiträge zur Physiologie. Festschrift (vgl. <b>B</b>), Frontispiz; <b>SL</b> (Auswahl): Rothschuh 1953, VL People, Wegbereiter." .
+
+<SLPublication/30266hasSL9>
+	rdfs:label "Trincker, Dietrich: Fick, Adolf. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. Bd. 5 (1961), 127-128 (Onlinefassung unter: http://www.deutsche-biographie.de/pnd118800000.html, 21.11.2011)." ;
+	a drw-model:SLPublication .
+
+<WLStationOfLife/30266hasWL0>
+	rdfs:label "vgl. <b>SL</b>" ;
+	a drw-model:WLStationOfLife .
+
+<Education/30266hasEducation3>
+	rdfs:label "Promotion zum Dr. med. an der Universität Marburg" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1851> .
+
+<GeneralLabor/30266hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<GPVPublication/30266hasGPV0>
+	rdfs:label "vgl. <b>SL</b>" ;
+	a drw-model:GPVPublication .
+

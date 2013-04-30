@@ -1,0 +1,332 @@
+
+<SLPublication/31136hasSL2>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 266-267." ;
+	a drw-model:SLPublication .
+
+<Date/1897>
+	a drw-model:Date ;
+	rdfs:label "1897" .
+
+<StationOfLife/31136hasStationOfLife9>
+	rdfs:label "Mitglied der Kommission für die Gründung der Univesitäten in Saratov und Rostov am Don" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1907_1908> .
+
+<Date/1895_1897>
+	a drw-model:Date ;
+	rdfs:label "1895-1897" .
+
+<StationOfLife/31136hasStationOfLife12>
+	rdfs:label "" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/> .
+
+<WPublication/31136hasW0>
+	rdfs:label "O vlijanii vydychaemogo vozducha na životnyj organizm. Diss. Sankt-Peterburg 1897, 200 S." ;
+	a drw-model:WPublication .
+
+<Date/1877>
+	a drw-model:Date ;
+	rdfs:label "1877" .
+
+<StationOfLife/31136hasStationOfLife11>
+	drw-model:began <Date/während_des_I_Weltkrieges> ;
+	rdfs:label "Arzt in einem Krankenhaus des Französischen Roten Kreuzes" ;
+	a drw-model:StationOfLife .
+
+<ImportantPerson/31136>
+	rdfs:label "Žandr, Aleksandr Andreevič#footnote1#" ;
+	drw-model:hasStationOfLife <StationOfLife/31136hasStationOfLife1> ;
+	drw-model:hasEducation <Education/31136hasEducation2> ;
+	drw-model:hasSL <SLPublication/31136hasSL5> ;
+	drw-model:hasStationOfLife <StationOfLife/31136hasStationOfLife12> ;
+	drw-model:hasW <WPublication/31136hasW3> ;
+	drw-model:hasSL <SLPublication/31136hasSL1> ;
+	drw-model:motherIs <RelatedPerson/31136motherIs> ;
+	drw-model:hasMembership <Membership/31136hasMembership> ;
+	drw-model:hasStationOfLife <StationOfLife/31136hasStationOfLife6> ;
+	drw-model:hasEducation <Education/31136hasEducation3> ;
+	drw-model:hasMainName <MainName/31136> ;
+	drw-model:hasW <WPublication/31136hasW2> ;
+	drw-model:hasStationOfLife <StationOfLife/31136hasStationOfLife0> ;
+	drw-model:hasStationOfLife <StationOfLife/31136hasStationOfLife2> ;
+	drw-model:hasStationOfLife <StationOfLife/31136hasStationOfLife11> ;
+	drw-model:fatherIs <RelatedPerson/31136fatherIs> ;
+	drw-model:hasEducation <Education/31136hasEducation8> ;
+	drw-model:hasW <WPublication/31136hasW0> ;
+	drw-model:hasSL <SLPublication/31136hasSL4> ;
+	drw-model:hasEducation <Education/31136hasEducation0> ;
+	drw-model:hasEducation <Education/31136hasEducation7> ;
+	drw-model:hasSL <SLPublication/31136hasSL0> ;
+	drw-model:hasP <P/31136hasP0> ;
+	drw-model:hasStationOfLife <StationOfLife/31136hasStationOfLife10> ;
+	drw-model:hasW <WPublication/31136hasW1> ;
+	drw-model:hasEducation <Education/31136hasEducation1> ;
+	drw-model:hasGPV <GPVPublication/31136hasGPV0> ;
+	drw-model:hasStationOfLife <StationOfLife/31136hasStationOfLife8> ;
+	drw-model:drwID "31136" ;
+	drw-model:hasEducation <Education/31136hasEducation4> ;
+	drw-model:hasStationOfLife <StationOfLife/31136hasStationOfLife9> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <StationOfLife/31136hasStationOfLife3> ;
+	drw-model:hasStationOfLife <StationOfLife/31136hasStationOfLife5> ;
+	drw-model:hasEducation <Education/31136hasEducation6> ;
+	drw-model:hasHounoursAndAwards <HonoursAndAwards/31136hasHounoursAndAwards> ;
+	drw-model:hasSL <SLPublication/31136hasSL3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31136hasGeneralLabor0> ;
+	drw-model:hasEducation <Education/31136hasEducation5> ;
+	drw-model:hasWL <WLStationOfLife/31136hasWL1> ;
+	drw-model:hasSL <SLPublication/31136hasSL2> ;
+	drw-model:hasStationOfLife <StationOfLife/31136hasStationOfLife7> ;
+	drw-model:hasStationOfLife <StationOfLife/31136hasStationOfLife4> ;
+	drw-model:hasWL <WLStationOfLife/31136hasWL0> .
+
+<Date/1860_1861>
+	a drw-model:Date ;
+	rdfs:label "1860-1861" .
+
+<RelatedPerson/31136fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Andrej Andreevič (1789-1873), Senator, Übersetzer, Literaturkritiker und Dramaturg#footnote7#" .
+
+<WLStationOfLife/31136hasWL0>
+	rdfs:label "Forschungsthema: Einflussfaktoren auf physiologische Prozesse im tierischen Organismus" ;
+	a drw-model:WLStationOfLife .
+
+<Education/31136hasEducation4>
+	drw-model:began <Date/1882_1884> ;
+	rdfs:label "Weiterbildung (auf eigene Kosten) in der Schweiz:
+- ab 1883 Assistent am Physiologischen Institut der Universität Zürich bei L. #internNameLink#30373#endNameNr#Hermann#/internNameLink#" ;
+	a drw-model:Education .
+
+<Date/ab_1873/4>
+	rdfs:label "ab 1873/4" ;
+	a drw-model:Date .
+
+<Date/während_des_I_Weltkrieges>
+	a drw-model:Date ;
+	rdfs:label "während des I. Weltkrieges" .
+
+<Date/1915_1920>
+	a drw-model:Date ;
+	rdfs:label "1915-1920" .
+
+<NameVariation/31136var0>
+	a drw-model:NameVariation ;
+	rdfs:label "Gendre, Alexander von"@de .
+
+<StationOfLife/31136hasStationOfLife7>
+	drw-model:began <Date/1904_1905> ;
+	rdfs:label "im Russisch-japanischen Krieg Ordinator am Militärhospital" ;
+	a drw-model:StationOfLife .
+
+<Education/31136hasEducation1>
+	drw-model:began <Date/1873_1874> ;
+	rdfs:label "Ausbildung im Pagenkorps am Zarenhof" ;
+	a drw-model:Education .
+
+<Date/1904_1905>
+	a drw-model:Date ;
+	rdfs:label "1904-1905" .
+
+<Education/31136hasEducation3>
+	rdfs:label "Studium an der Physiko-mathematischen Fakultät der Universität St. Petersburg" ;
+	drw-model:began <Date/1879_1882> ;
+	a drw-model:Education .
+
+<SLPublication/31136hasSL3>
+	rdfs:label "Rešetova, N. A.: „…Sankciju zaprosit’ v včk…”. A. A. Žandr (1856-1920), Z[inovij] V[asil’evič] Gutnikov (1857-1920). Donskoj vremennik (1995) Nr. 5, 3 S. (http://www.donvrem.dspl.ru/years/years.aspx?year=1995, 1.12.2010)." ;
+	a drw-model:SLPublication .
+
+<StationOfLife/31136hasStationOfLife5>
+	rdfs:label "Laborant im Pharmakologischen Laboratorium der MMA St. Petersburg bei Stepan Dmitrievič #internNameLink#30567#endNameNr#Kostjurin#/internNameLink# (1853-1898)" ;
+	drw-model:began <Date/1895_1897> ;
+	a drw-model:StationOfLife .
+
+<Date/1891_1894>
+	a drw-model:Date ;
+	rdfs:label "1891-1894" .
+
+<StationOfLife/31136hasStationOfLife1>
+	drw-model:began <Date/1877_1878> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Teilnahme am Russisch-türkischen Krieg (Verwundung)" .
+
+<Date/ab_1897>
+	rdfs:label "ab 1897" ;
+	a drw-model:Date .
+
+<StationOfLife/31136hasStationOfLife3>
+	a drw-model:StationOfLife ;
+	rdfs:label "Laborant im Physiologischen Laboratorium der Universität St. Petersburg bei F. V. #internNameLink#30478#endNameNr#Ovsjannikov#/internNameLink#" ;
+	drw-model:began <Date/1887_1889> .
+
+<Date/1873_1874>
+	a drw-model:Date ;
+	rdfs:label "1873-1874" .
+
+<MainName/31136>
+	a drw-model:MainName ;
+	rdfs:label "Žandr, Aleksandr Andreevič#footnote1#" ;
+	drw-model:hasNameVariation <NameVariation/31136var0> .
+
+<HonoursAndAwards/31136hasHounoursAndAwards>
+	rdfs:label "St.-Annen-Orden 4. und 3. Klasse<br>St.-Stanislav-Orden 3. Klasse mit Schwertern und am Bande sowie 2. Klasse<br>Rumänisches Eisenkreuz<br>Gedenksilbermedaille" ;
+	a drw-model:HonoursAndAwards .
+
+<Date/1905_1915>
+	a drw-model:Date ;
+	rdfs:label "1905-1915" .
+
+<WPublication/31136hasW1>
+	rdfs:label "Pričina smerti živnych pri iskustvennoj zaderžke vydelitel’noj dejatel’nosti koži. Sankt-Peterburg 1889, 416 S." ;
+	a drw-model:WPublication .
+
+<P/31136hasP0>
+	rdfs:label "Ausschnitt aus einem Gruppenfoto von 1907 (Abb.) aus: http://dic.academic.ru/pictures/wiki/files/51/300px-foto_sgu1.jpg (1.12.2010)." ;
+	a drw-model:P .
+
+<Date/1884>
+	a drw-model:Date ;
+	rdfs:label "1884" .
+
+<Date/1887_1889>
+	rdfs:label "1887-1889" ;
+	a drw-model:Date .
+
+<GeneralLabor/31136hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<WPublication/31136hasW3>
+	rdfs:label "[Hg. der Übersetzung von: Traité pratique d’hydrologie médicale, par Paul Jardet, G. Nivière, Fernand. Lavergne, M. Doit-Lambron, L. Heulz, A. Boursier. Paris 1896] Praktičeskoe rukovodstvo po medicinskoj gidrologii, sostavlennoe Pol’ Žardė, Ž. Niv’er, F. Lavernė [i. dr.]. Sankt-Peterburg 1901, 362 S." ;
+	a drw-model:WPublication .
+
+<StationOfLife/31136hasStationOfLife8>
+	rdfs:label "Professor für Physiologie an der Universität Warschau#footnote10#" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/1905_1915> .
+
+<RelatedPerson/31136motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Praskov’ja Petrovna, geb. Poreckaja (1818-1906)#footnote8#, Schriftstellerin, Verlegerin#footnote9#" .
+
+<StationOfLife/31136hasStationOfLife10>
+	drw-model:began <Date/1915_1920> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Professor für Physiologie an der Universität in Rostov am Don (nach Evakuierung der Warschauer Universität)" .
+
+<Date/1886_1887>
+	a drw-model:Date ;
+	rdfs:label "1886-1887" .
+
+<Date/1890_1891>
+	a drw-model:Date ;
+	rdfs:label "1890-1891" .
+
+<Education/31136hasEducation5>
+	drw-model:began <Date/1886_1887> ;
+	a drw-model:Education ;
+	rdfs:label "Magisterexamen an der Universität St. Petersburg" .
+
+<Date/1877_1878>
+	a drw-model:Date ;
+	rdfs:label "1877-1878" .
+
+<Education/31136hasEducation8>
+	drw-model:began <Date/1897> ;
+	a drw-model:Education ;
+	rdfs:label "Dr. med. an der MMA St. Petersburg" .
+
+<SLPublication/31136hasSL0>
+	rdfs:label "Erik-Amburger-Datenbank. Ausländer im vorrevolutionären Russland (http://88.217.241.77/amburger/, 10.4.2012): Dokument-Id [53495/41429 (1.12.2010)]." ;
+	a drw-model:SLPublication .
+
+<Education/31136hasEducation7>
+	rdfs:label "Studium der Medizin an der MMA St. Petersburg" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1891_1894> .
+
+<Education/31136hasEducation6>
+	drw-model:began <Date/1889> ;
+	a drw-model:Education ;
+	rdfs:label "Dissertation zum Magister der Zoologie/Physiologie" .
+
+<Date/1889>
+	a drw-model:Date ;
+	rdfs:label "1889" .
+
+<Date/1907_1908>
+	a drw-model:Date ;
+	rdfs:label "1907-1908" .
+
+<Date/>
+	a drw-model:Date ;
+	rdfs:label "" .
+
+<StationOfLife/31136hasStationOfLife6>
+	a drw-model:StationOfLife ;
+	rdfs:label "Privatdozent für Physiologie an der MMA bei I. P. #internNameLink#30785#endNameNr#Pavlov#/internNameLink#" ;
+	drw-model:began <Date/ab_1897> .
+
+<WPublication/31136hasW2>
+	rdfs:label "[Übersetzung von: Handbuch der Physiologie. Bearb. von H. Aubert, C. Eckhard, Th. W. Engelmann, hg. von L. Hermann. Bd. 1. Leipzig 1879] Rukovodstvo k fiziologii. Obrabotannoe prof. G. Aubertom v Rostoke, prof. K. Ėkgardom v Gisene, prof. T. V. Ėngel’mannom v Utrechte, izdannoe d-rom L. Germannom, professorom fiziologii v Cjurichskom universitete. T. 1. [Sankt-Peterburg] 1889, 396 S." ;
+	a drw-model:WPublication .
+
+<Education/31136hasEducation0>
+	rdfs:label "Ausbildung im Pagenkorps am Zarenhof" ;
+	a drw-model:Education ;
+	drw-model:began <Date/1860_1861> .
+
+<Date/1879_1882>
+	a drw-model:Date ;
+	rdfs:label "1879-1882" .
+
+<GPVPublication/31136hasGPV0>
+	rdfs:label "Deutschsprachige und in deutschen Zeitschriften referierte russische Publikationen 1884-1905, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPVPublication .
+
+<Education/31136hasEducation2>
+	drw-model:began <Date/1877> ;
+	a drw-model:Education ;
+	rdfs:label "Abschluss des 6. klassischen Gymnasiums in St. Petersburg" .
+
+<StationOfLife/31136hasStationOfLife4>
+	drw-model:began <Date/1890_1891> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Dozent für Anatomie und Physiologie am Aleksandr-Kadettenkorps" .
+
+<Membership/31136hasMembership>
+	rdfs:label "Naučno-trudovoe obščestvo studentov medikov i mediček pri Donskom universitete [Wissenschaftliche Arbeitsgesellschaft der Medizinstundenten und -studentinnen an der Don-Universität] (1917 Ehrenvorsitzender)." ;
+	a drw-model:Membership .
+
+<StationOfLife/31136hasStationOfLife0>
+	rdfs:label "Kornett, später Leutnant in der Leibgarde des Ulanen-Regiments" ;
+	a drw-model:StationOfLife ;
+	drw-model:began <Date/ab_1873/4> .
+
+<SLPublication/31136hasSL5>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 179." ;
+	a drw-model:SLPublication .
+
+<WLStationOfLife/31136hasWL1>
+	rdfs:label "Mitredakteur von #italic#Russkij fiziologičeskij žurnal imeni I. M. Sečenova#/italic#" ;
+	a drw-model:WLStationOfLife .
+
+<StationOfLife/31136hasStationOfLife2>
+	drw-model:began <Date/1884> ;
+	a drw-model:StationOfLife ;
+	rdfs:label "Pensionierung vom Militärdienst" .
+
+<SLPublication/31136hasSL1>
+	rdfs:label "Frejman, O. R. fon: Paži za 183 goda (1711-1894). Biografii byvšich pažej, s portretami. Fridrichsgamn 1894, zit. n. Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 181, 122." ;
+	a drw-model:SLPublication .
+
+<Date/1882_1884>
+	a drw-model:Date ;
+	rdfs:label "1882-1884" .
+
+<SLPublication/31136hasSL4>
+	rdfs:label "Vikipedija (http://ru.wikipediasaur.org/wiki/жандр,_Александр_Андреевич, 1.12.2010)." ;
+	a drw-model:SLPublication .
+
