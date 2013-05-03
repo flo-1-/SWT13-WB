@@ -1,11 +1,11 @@
-
 @base <http://drw-model.saw-leipzig.de/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
+
 <> a owl:Ontology ;
    rdfs:label "DRW-Model" .
 
@@ -32,7 +32,7 @@
 <GeneralLabor>
 		a owl:Class ;
                 rdfs:label "General Labor"@en ;
-                rdfs:label "Hauptbeschäftigung"@de ;
+                rdfs:label "Hauptbeschaeftigung"@de ;
 		rdfs:comment "The General Labor of a Person." .
 
 <Comment>
@@ -298,9 +298,9 @@
 		
 <SecondaryLiterature>
 		a owl:Class ;
-		rdfs:subClassOf <> ;
+		rdfs:subClassOf <Source> ;
                 rdfs:label "Secondary Literature"@en ;
-                rdfs:label "Sekundärliteratur"@de ;
+                rdfs:label "Sekundaerliteratur"@de ;
 		rdfs:comment "A Secondary Source related to a Person." .
 
 <Link>
@@ -409,17 +409,17 @@
 <hasGeneralLabor>
 		a owl:ObjectProperty ;
                 rdfs:label "has General Labor"@en ;
-                rdfs:label "hat die Hauptbeschäftigung"@de ;
-                rdfs:domain <Person>
-                rdfs:range <GeneralLabor>
+                rdfs:label "hat die Hauptbeschaeftigung"@de ;
+                rdfs:domain <Person> ;
+                rdfs:range <GeneralLabor> ;
 		rdfs:comment "Property between a Person and her or his General Labor." .
 		
 <isGeneralLaborOf>
 		a owl:ObjectProperty ;
                 rdfs:label "is General Labor of"@en ;
-                rdfs:label "ist Hauptbeschäftigung von"@de ;
-                rdfs:domain <GeneralLabor>
-                rdfs:range <Person>
+                rdfs:label "ist Hauptbeschaeftigung von"@de ;
+                rdfs:domain <GeneralLabor> ;
+                rdfs:range <Person> ;
 		rdfs:comment "Property between a General Labor and the related Person." .
 
 <hasPoL>
@@ -442,42 +442,40 @@
 
 <hasStationOfLife>
 		a owl:ObjectProperty ;
-		owl:subPropertyOf <hasPol> ;
+		rdfs:subPropertyOf <hasPol> ;
 		owl:inverseOf <isStationOfLifeOf> ;
 		rdfs:label "has the Station Of Life"@en ;
 				rdfs:label "hat die Lebensstation"@de ;
 		rdfs:domain <Person> ;
-		rdfs:range <StationOfLife> ;
+		rdfs:range <B> ;
 		rdfs:comment "Property between a Person and one of her or his Stations Of Life." .
 		
-<isStationOfLifeOfOf>
+<isStationOfLifeOf>
 		a owl:ObjectProperty ;
-		owl:subPropertyOf <isPolOf> ;
+		rdfs:subPropertyOf <isPolOf> ;
 		owl:inverseOf <hasStationOfLife> ;
 		rdfs:label "is Station Of Life of"@en ;
 				rdfs:label "ist Lebensstation von"@de ;
-		rdfs:domain <StationOfLife> ;
+		rdfs:domain <B> ;
 		rdfs:range <Person> ;
 		rdfs:comment "Property between a Station Of Life and the related Person." .
 
 
 <hasEducation>
 		a owl:ObjectProperty ;
-		owl:subPropertyOf <hasPol> ;
 		owl:inverseOf <isEducationOf> ;
 		rdfs:label "has the Educational PoL"@en ;
 				rdfs:label "hat Ausbildungs PoL"@de ;
 		rdfs:domain <Person> ;
-		rdfs:range <Education> ;
+		rdfs:range <A> ;
 		rdfs:comment "Property between a Person and one part of her or his Education." .
 		
 <isEducationOf>
 		a owl:ObjectProperty ;
-		owl:subPropertyOf <isPolOf> ;
 		owl:inverseOf <hasEducation> ;
 		rdfs:label "is Educational PoL of"@en ;
 				rdfs:label "ist Ausbildungs PoL von"@de ;
-		rdfs:domain <Education> ;
+		rdfs:domain <A> ;
 		rdfs:range <Person> ;
 		rdfs:comment "Property between a part of Education and the related Person." .
 
@@ -684,7 +682,7 @@
 <isIncomplete>
 		a owl:DatatypeProperty ;
 		rdfs:label "is incomplete"@en ;
-                rdfs:label "ist unvollständig"@de ;
+                rdfs:label "ist unvollstaendig"@de ;
 		rdfs:domain <Thing> ;
 		rdfs:range <xsd:bool> ;
 		rdfs:comment "Property between a Thing and the information if it is an incomplete information." .
@@ -720,6 +718,36 @@
 		rdfs:domain <Person> ;
 		rdfs:range <xsd:string> ;
 		rdfs:comment "Property between a Person and her or his title." .
+
+<Elvis>
+		a <ImportantPerson> ;
+		rdfs:label "Elvis Presley"@de ;
+		<hasMainName> <Presley_Elvis> ;
+		<hasAlternativeName> <Pelvis_The> .
+		
+
+<Presley_Elvis>
+		a <MainName> ;
+		rdfs:label "Presley, Elvis"@de ;
+		<hasNameVariation> <Presley_Elviss> ;
+		<isMainNameOf> <Elvis> .
+
+<Presley_Elviss>
+		a <NameVariation> ;
+		rdfs:label "Presley, Elviss"@de ;
+		<isNameVariationOf> <Presley_Elvis> .
+
+<Pelvis_The>
+		a <AlternativeName> ;
+		rdfs:label "Pelvis, The"@de ;
+		<hasNameVariation> <Pelvis_Ze> ;
+		<isAlternativeNameOf> <Elvis> .
+
+<Pelvis_Ze>
+		a <NameVariation> ;
+		rdfs:label "Pelvis, Ze"@de ;
+		<isNameVariationOf> <Pelvis_The> .
+
 
 
 
