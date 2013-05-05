@@ -15,9 +15,13 @@
 class ResourceController extends OntoWiki_Controller_Base
 {
 	public function transliterateDeString($string){
-		//...
+		/*Transliterate german to cyrillic
+		arrays $de1 and $ru1 contain 2-tones cyrillic letters
+		they provide to avoid loosing that information by adding extra characters and not writing it as 2 letters
+		*/
 		$de1 = array ('ju', 'Ju', 'JU','ja','Ja', 'JA', 'ch','Ch', 'CH', 'šč','Šč','ŠČ');
 		$ru1 = array ('û', 'Û','Û','â','Â','Â','h','H','H','ŝ','Ŝ','Ŝ');
+		//a character from one array is replaced by the aquivalent one (at the same position) from the other array
 		$trans = str_replace($de1, $ru1, $string);
 	 	$de2 = array ('\'','´','A','B','C','D','F','G','H','I','J','K','L','M','N','O','P','R','S','T','U','V','Y','Z', 'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','r','s','t','u','v','y','z', 'Â','Ė','Û','â','ė','û','Č','č','Ŝ','ŝ','Š','š','Ž','ž','\ʺ');
 		$ru2 = array ('ъ','ь','А','Б','Ц','Д','Ф','Г','Х','И','Й','К','Л','М','Н','О', 'П','Р','С','Т', 'У','В','Ы', 'З', 'а' , 'б','ц', 'д', 'е','ф', 'г','х','и','й','к','л','м','н','о','п','р','с','т','у','в','ы','з','Я','Э', 'Ю','я', 'э','ю','Ч','ч', 'Щ', 'щ' ,'Ш', 'ш','Ж','ж','ъ');
@@ -26,9 +30,13 @@ class ResourceController extends OntoWiki_Controller_Base
 	}
 	
 	public function transliterateRuString($string){
-		//...
+		/*Transliterate cyrillic to german
+		arrays $de1 and $ru1 contain 2-tones cyrillic letters
+		they provide to avoid loosing that information by adding extra characters and not writing it as 2 letters
+		*/		
 		$de1 = array ('ju', 'Ju', 'JU','ja','Ja', 'JA', 'ch','Ch', 'CH', 'šč','Šč','ŠČ');
 		$ru1 = array ('û', 'Û','Û','â','Â','Â','h','H','H','ŝ','Ŝ','Ŝ');
+		//a character from one array is replaced by the aquivalent one (at the same position) from the other array
 		$trans = str_replace($ru1, $de1, $string);
 	 	$de2 = array ('\'','´','A','B','C','D','F','G','H','I','J','K','L','M','N','O','P','R','S','T','U','V','Y','Z', 'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','r','s','t','u','v','y','z', 'Â','Ė','Û','â','ė','û','Č','č','Ŝ','ŝ','Š','š','Ž','ž','\ʺ');
 		$ru2 = array ('ъ','ь','А','Б','Ц','Д','Ф','Г','Х','И','Й','К','Л','М','Н','О', 'П','Р','С','Т', 'У','В','Ы', 'З', 'а' , 'б','ц', 'д', 'е','ф', 'г','х','и','й','к','л','м','н','о','п','р','с','т','у','в','ы','з','Я','Э', 'Ю','я', 'э','ю','Ч','ч', 'Щ', 'щ' ,'Ш', 'ш','Ж','ж','ъ');
@@ -41,17 +49,23 @@ class ResourceController extends OntoWiki_Controller_Base
 		 $query = new Erfurt_Sparql_SimpleQuery(); 
 		 $query->setProloguePart('SELECT ?label ')->setWherePart('WHERE{ <'.$resource.'> <http://www.w3.org/2000/01/rdf-schema#label> ?label . '.
 		 'FILTER (langMatches(lang(?label), "de") || langMatches(lang(?label), "en") )'.
-		 '}');		
+		 '}');
+		 // it filters all the ressources that contain a language label 'en' or 'de' 
+		 
 		 $check = new Erfurt_Sparql_SimpleQuery();
 		 $check->setProloguePart('SELECT ?label ')->setWherePart('WHERE{ <'.$resource.'> <http://www.w3.org/2000/01/rdf-schema#label> ?label . '.
 		 'FILTER (langMatches(lang(?label), "dr"))'. 	
 		 '}');			
+		 //it filters all the ressources that contain the 'dr' label, so the transliterated ones
 		 
 		 $this->model = $this->_owApp->selectedModel;
 		 $queryResult = $this->model->sparqlQuery($query);
-		 $checkResult = $this->model->sparqlQuery($check);	
+		 $checkResult = $this->model->sparqlQuery($check);
+		
 		 if ((is_array($checkResult) || isset ($checkResult[0]) || is_array($checkResult[0]))) {
-			if (is_array($queryResult) || isset ($queryResult[0]) || is_array($queryResult[0])) {			
+		 //checking, if there's been already any transliteration	
+			if (is_array($queryResult) || isset ($queryResult[0]) || is_array($queryResult[0])) {
+			//checking, if there are any language labels of given ressources	
 				foreach($queryResult as $row){
 					$this->_owApp->selectedModel->addStatement(
 						$resource,
@@ -65,18 +79,22 @@ class ResourceController extends OntoWiki_Controller_Base
 		 $query->setProloguePart('SELECT ?label ')->setWherePart('WHERE{ <'.$resource.'> <http://www.w3.org/2000/01/rdf-schema#label> ?label .'.
 		 'FILTER (langMatches(lang(?label), "ru"))'.
 		 '}');		 					 		 
-		 
+		 // it filters all the ressources that contain a language label 'ru" 
+
 		 $check = new Erfurt_Sparql_SimpleQuery();
 		 $check->setProloguePart('SELECT ?label ')->setWherePart('WHERE{ <'.$resource.'> <http://www.w3.org/2000/01/rdf-schema#label> ?label . '.
 		 'FILTER (langMatches(lang(?label), "rd"))'. 	
 		 '}');
+		 //it filters all the ressources that contain the 'rd' label, so the transliterated ones
 		 
 		 $this->model = $this->_owApp->selectedModel;
 		 $queryResult = $this->model->sparqlQuery($query);
 		 $checkResult = $this->model->sparqlQuery($check);
 		 	
 		 if ((is_array($checkResult) || isset ($checkResult[0]) || is_array($checkResult[0]))) {
-			if (is_array($queryResult) || isset ($queryResult[0]) || is_array($queryResult[0])) {			
+		 //checking, if there's been already any transliteration	
+			if (is_array($queryResult) || isset ($queryResult[0]) || is_array($queryResult[0])) {
+			//checking, if there are any language labels of given ressources
 				foreach($queryResult as $row){
 					$this->_owApp->selectedModel->addStatement(
 						$resource,
