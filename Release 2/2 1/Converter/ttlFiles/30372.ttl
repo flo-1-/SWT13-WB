@@ -1,0 +1,379 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<A/30372hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Habilitierung an der Universität Leipzig" .
+
+<Date/30372DiedOn>
+	a drw-model:Date ;
+	rdfs:label "26.1.1918" .
+
+<W/30372hasW0>
+	a drw-model:W ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<A/30372hasEducation1>
+	a drw-model:A ;
+	drw-model:began <Year/1853> ;
+	rdfs:label "Studium der Medizin an der Universität Leipzig" .
+
+<Place/30372DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Leipzig" .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<P/30372hasP3>
+	a drw-model:P ;
+	rdfs:label "Portraits in <b>SL</b> (Auswahl): Fritzsche/Ebert/Heinke 2009, Hess 1918, Hofmann 1918, Orden Pour le Mérite (mit Unterschrift), Pagel 1901, Professorenkatalog der Universität Leipzig - Catalogus Professorum Lipsiensis. Hrsg. vom Lehrstuhl für Neuere und Neueste Geschichte, Historisches Seminar der Universität Leipzig (http://www.uni-leipzig.de/unigeschichte/professorenkatalog/impressum.html, 12.4.2012). (mit Unterschrift), RAN, Rothschuh 1953, VL People, Tschermak-Seysenegg 1934, Wegbereiter, Wikipedia." .
+
+<P/30372hasP1>
+	a drw-model:P ;
+	rdfs:label "Portraits in: Universitätsarchiv Leipzig: Fotosammlung seit 1857, Signatur: Ue00020-26 (Portrait mit Unterschrift [in Lehnstuhl sitzend, um die 75 Jahre alt]); Signatur: df001380 (s/w-Foto)." .
+
+<RelatedPerson/30372hasDescendant>
+	rdfs:label "Marie (* 1864)
+Heinrich Ewald (1866-1948), Professor für Pathophysiologe" ;
+	a drw-model:RelatedPerson .
+
+<GeneralLabor/30372hasGeneralLabor2>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hirnforscher" .
+
+<SL/30372hasSL20>
+	a drw-model:SL ;
+	rdfs:label "Tschermak-Seysenegg, A.: Zu Ewald Hering’s 100. Geburtstag. Münchener Medizinische Wochenschrift 81 (1934), 1231-1233." .
+
+<GeneralLabor/30372hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Arzt" .
+
+<RelatedPerson/30372fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ewald (1802-1862), Pfarrer, Privatlehrer, Schriftsteller" .
+
+<SL/30372hasSL18>
+	rdfs:label "Trincker, Dietrich: Hering, Karl Ewald Konstantin. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. 8 (1969), 617-619 (Onlinefassung unter: http://www.deutsche-biographie.de/pnd119220563.html, 23.11.2011)." ;
+	a drw-model:SL .
+
+<SL/30372hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Fritzsche, Bernd, Ebert, Dietrich, Heinke, Ellen: Ewald Hering (1834-1918). In: Gerald Wiemers (Hg.): Sächsische Lebensbilder. Bd. 6. Stuttgart 2009 (Quellen und Forschungen zur sächsischen Geschichte 33), 339-350." .
+
+<SL/30372hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Baumann, Christian: Der Physiologe Ewald Hering (1834-1918). Curriculum vitae. Frankfurt a. M., München u. a. 2002, 171 S." .
+
+<SL/30372hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Engelhardt, Dietrich von (Hg.): Biographische Enzyklopädie deutschsprachiger Mediziner. Bd. 1-2. München 2002, 271." .
+
+<Q/30372hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr. 3840." .
+
+<Year/1846>
+	rdfs:label "1846" ;
+	a drw-model:Year .
+
+<SL/30372hasSL11>
+	a drw-model:SL ;
+	rdfs:label "Hofmann 1918 – Hofmann, Franz B.: Ewald Hering †. Münchener Medizinische Wochenschrift 65 (1918), 539-542." .
+
+<Date/30372wasBornOn>
+	rdfs:label "5.8.1834" ;
+	a drw-model:Date .
+
+<ImportantPerson/30372>
+	drw-model:DiedOn <Date/30372DiedOn> ;
+	drw-model:hasQ <Q/30372hasQ1> ;
+	drw-model:hasSL <SL/30372hasSL10> ;
+	drw-model:hasStationOfLife <B/30372hasStationOfLife7> ;
+	drw-model:hasMG <MG/30372hasMG> ;
+	drw-model:hasSL <SL/30372hasSL20> ;
+	drw-model:hasSL <SL/30372hasSL22> ;
+	drw-model:hasSL <SL/30372hasSL18> ;
+	drw-model:hasP <P/30372hasP4> ;
+	drw-model:hasStationOfLife <B/30372hasStationOfLife5> ;
+	drw-model:hasP <P/30372hasP2> ;
+	drw-model:hasSL <SL/30372hasSL24> ;
+	drw-model:hasP <P/30372hasP1> ;
+	drw-model:hasWL <WL/30372hasWL0> ;
+	drw-model:hasSL <SL/30372hasSL1> ;
+	drw-model:hasStationOfLife <B/30372hasStationOfLife4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30372hasGeneralLabor0> ;
+	drw-model:hasStationOfLife <B/30372hasStationOfLife2> ;
+	drw-model:wasMarriedTo <RelatedPerson/30372wasMarriedTo> ;
+	drw-model:hasSL <SL/30372hasSL21> ;
+	drw-model:hasStationOfLife <B/30372hasStationOfLife0> ;
+	drw-model:hasSL <SL/30372hasSL12> ;
+	drw-model:hasSL <SL/30372hasSL7> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30372hasHonoursAndAwards> ;
+	drw-model:hasStationOfLife <B/30372hasStationOfLife6> ;
+	drw-model:hasComment <Comment/30372hasComment1> ;
+	drw-model:hasDescendant <RelatedPerson/30372hasDescendant> ;
+	drw-model:hasEducation <A/30372hasEducation1> ;
+	drw-model:motherIs <RelatedPerson/30372motherIs> ;
+	drw-model:hasSLComment <SLComment/30372hasSLComment> ;
+	drw-model:hasMainName <MainName/30372hasMainName> ;
+	drw-model:hasSL <SL/30372hasSL16> ;
+	drw-model:hasStationOfLife <B/30372hasStationOfLife1> ;
+	drw-model:fatherIs <RelatedPerson/30372fatherIs> ;
+	drw-model:hasSL <SL/30372hasSL17> ;
+	drw-model:hasSL <SL/30372hasSL0> ;
+	drw-model:hasSL <SL/30372hasSL4> ;
+	drw-model:hasSL <SL/30372hasSL13> ;
+	drw-model:hasEducation <A/30372hasEducation2> ;
+	drw-model:hasSL <SL/30372hasSL8> ;
+	drw-model:hasEducation <A/30372hasEducation0> ;
+	drw-model:hasSL <SL/30372hasSL6> ;
+	drw-model:hasSL <SL/30372hasSL3> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30372.jpg> ;
+	drw-model:hasSL <SL/30372hasSL15> ;
+	drw-model:hasSL <SL/30372hasSL11> ;
+	rdfs:label "Hering, Karl Ewald Konstantin (von)#footnote1#" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasP <P/30372hasP0> ;
+	drw-model:hasSL <SL/30372hasSL19> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30372hasGeneralLabor1> ;
+	drw-model:hasEducation <A/30372hasEducation3> ;
+	drw-model:hasSL <SL/30372hasSL9> ;
+	drw-model:hasW <W/30372hasW0> ;
+	drw-model:hasID "30372" ;
+	drw-model:hasSL <SL/30372hasSL14> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30372hasGeneralLabor2> ;
+	drw-model:DiedIn <Place/30372DiedIn> ;
+	drw-model:hasP <P/30372hasP3> ;
+	drw-model:hasSL <SL/30372hasSL2> ;
+	drw-model:wasBornOn <Date/30372wasBornOn> ;
+	drw-model:hasGPV <GPV/30372hasGPV0> ;
+	drw-model:wasBornIn <Place/30372wasBornIn> ;
+	drw-model:hasHonoursAndAwardsComment <HonoursAndAwardsComment/30372hasHonoursAndAwardsComment> ;
+	drw-model:hasSL <SL/30372hasSL23> ;
+	drw-model:hasSL <SL/30372hasSL25> ;
+	drw-model:hasSL <SL/30372hasSL5> ;
+	drw-model:hasQ <Q/30372hasQ0> ;
+	drw-model:hasStationOfLife <B/30372hasStationOfLife3> .
+
+<Comment/30372hasComment1>
+	a drw-model:Comment ;
+	rdfs:label "Vgl. Urkundensammlung der Österreichischen Akademie der Wissenschaften (http://www.oeaw.ac.at/biblio/Archiv/pdf/Urkundensammlung.pdf, 24.11.2011, Nr. 14) und Der Ophthalmologe 104 (2007) 2, 184." ;
+	drw-model:hasNumber 1 .
+
+<B/30372hasStationOfLife2>
+	rdfs:label "Privatdozent für Physiologie und Assistent am Physiologischen Institut der Universität Leipzig" ;
+	a drw-model:B .
+
+<Place/30372wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Alt-Gersdorf, Lausitz" .
+
+<B/30372hasStationOfLife6>
+	rdfs:label "o. Professor für Physiologie und Direktor des Physiologischen Instituts an der Universität Leipzig" ;
+	a drw-model:B ;
+	drw-model:began <Year/1895_1916[]> .
+
+<B/30372hasStationOfLife0>
+	a drw-model:B ;
+	rdfs:label "Niederlassung als praktischer Arzt in Leipzig" .
+
+<GPV/30372hasGPV0>
+	a drw-model:GPV ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<Year/1865>
+	rdfs:label "1865" ;
+	a drw-model:Year .
+
+<B/30372hasStationOfLife4>
+	rdfs:label "o. Professor für Physiologie an der Universität Prag" ;
+	a drw-model:B ;
+	drw-model:began <Year/1870> .
+
+<SL/30372hasSL21>
+	rdfs:label "VL People (http://vlp.mpiwg-berlin.mpg.de/people/data?id=per90, 23.11.2011)." ;
+	a drw-model:SL .
+
+<SL/30372hasSL10>
+	rdfs:label "Hlaváčková, Ludmila, Svobodný, Petr: Biographisches Lexikon der Deutschen Medizinischen Fakultät in Prag 1883-1945. Praha 1998, 90." ;
+	a drw-model:SL .
+
+<SL/30372hasSL23>
+	rdfs:label "Wikipedia (http://de.wikipedia.org/wiki/Ewald_Hering, 23.11.2011)." ;
+	a drw-model:SL .
+
+<SL/30372hasSL19>
+	rdfs:label "Tschermak, A. v.: Nachruf auf E. Hering. Medizinische Klinik 14 (1918), 329-331." ;
+	a drw-model:SL .
+
+<SL/30372hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Brücke, Ernst Theodor von: Hering, Ewald. In: Deutsches Biographisches Jahrbuch. Überleitungsband 2: 1917-1920. Stuttgart, Berlin, Leipzig 1928, 258-263." .
+
+<SL/30372hasSL8>
+	rdfs:label "Grigorjan, N. A.: Gering Ėval’d. In: BSĖ. Bd. 6 (1971), 357." ;
+	a drw-model:SL .
+
+<SL/30372hasSL15>
+	rdfs:label "Professorenkatalog der Universität Leipzig - Catalogus Professorum Lipsiensis. Hrsg. vom Lehrstuhl für Neuere und Neueste Geschichte, Historisches Seminar der Universität Leipzig (http://www.uni-leipzig.de/unigeschichte/professorenkatalog/impressum.html, 12.4.2012). (Professorenkatalog der Universität Leipzig/Catalogus Professorum Lipsiensis: http://www.uni-leipzig.de/unigeschichte/professorenkatalog/leipzig/Hering_839, 23.11.2011)." ;
+	a drw-model:SL .
+
+<A/30372hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Promotion zum Dr. med. an der Universität Leipzig" .
+
+<P/30372hasP2>
+	rdfs:label "Foto von Arthur Ranft, Leipzig [mit Unterschrift], in: Festband 1910 (vgl. <b>B</b>), Frontispiz." ;
+	a drw-model:P .
+
+<SL/30372hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Poggendorff - Biographisch-literarisches Handwörterbuch zur Geschichte der exacten Naturwissenschaften, enthaltend Nachweisungen über Lebensverhältnisse und Leistungen von Mathematikern, Astronomen, Physikern, Chemikern, Mineralogen, Geologen usw. aller Völker und Zeiten. Gesammelt von J. C. Poggendorff, Mitglied der Akademie der Wissenschaften zu Berlin / J. C. Poggendorff - Biographisch-literarisches Handwörterbuch der exakten Naturwissenschaften. Bd. 1-8. Leipzig, Berlin 1863-2004. Bd. 3, 618; Bd. 4, 622-623; Bd. 5, 524; Bd. 6, 1088." .
+
+<RelatedPerson/30372wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Maria Antonie, geb. Lincke (1838-1903)" .
+
+<P/30372hasP0>
+	rdfs:label "Portrait (Abb.) aus: Wiemers/Fischer 1996, 69; auch in: ~ 2006, 75." ;
+	a drw-model:P .
+
+<GeneralLabor/30372hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<Year/1853>
+	rdfs:label "1853" ;
+	a drw-model:Year .
+
+<Year/1895_1916[]>
+	rdfs:label "1895-1916[!]" ;
+	a drw-model:Year .
+
+<WL/30372hasWL0>
+	rdfs:label "Nach ihm ist der Hering-Breuer-Reflex (Lungendehnungsreflex) mitbenannt. Weiteres vgl. <b>SL</b>" ;
+	a drw-model:WL .
+
+<A/30372hasEducation0>
+	a drw-model:A ;
+	drw-model:began <Year/1846> ;
+	rdfs:label "Besuch des Gymnasiums in Zittau" .
+
+<Q/30372hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Universitätsarchiv Leipzig, Personalakten: Matrikel zwischen 1798 und 1822, Signatur: Rektor M 11 (SS 1822) ; Promotionen 1810-1969, Signatur: Med.Fak. <b>B</b> VI 6, Bl. 76r; Karteikarten der Quaesturbehoerde zwischen 1889 und 1944/1945; Personalakten von Professoren und Dozenten bis zum Jahr 1990, Signatur: PA 1391." .
+
+<SL/30372hasSL12>
+	a drw-model:SL ;
+	rdfs:label "Orden Pour le Mérite (http://www.orden-pourlemerite.de/mitglieder/karl-ewald-konstantin-hering?m=3&amp;u=5, 23.11.2011)." .
+
+<SL/30372hasSL9>
+	rdfs:label "Hess, C.: Nachruf auf Ewald Hering. Archiv für Augenheilkunde 83 (1918), 88-97." ;
+	a drw-model:SL .
+
+<MG/30372hasMG>
+	a drw-model:MG ;
+	rdfs:label "Mitglied der Sächsischen Akademie der Wissenschaften zu Leipzig, Mitglied der Kaiserlichen Akademie der Wissenschaften in St. Petersburg. Weiteres vgl. <b>SL</b>" .
+
+<RelatedPerson/30372motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Elisabeth Eulalia Susanne, geb. Tutenberg" .
+
+<SL/30372hasSL24>
+	a drw-model:SL ;
+	rdfs:label "[Anonym] Ewald Hering. Prager Medicinische Wochenschrift 20 (1895), 475-476." .
+
+<B/30372hasStationOfLife1>
+	a drw-model:B ;
+	drw-model:began <Year/1862> ;
+	rdfs:label "Assistent an der Medizinischen Poliklinik in Leipzig" .
+
+<SL/30372hasSL17>
+	rdfs:label "Rothschuh, Karl Eduard: Geschichte der Physiologie. Berlin, Göttingen, Heidelberg 1953, 188-190." ;
+	a drw-model:SL .
+
+<B/30372hasStationOfLife3>
+	drw-model:began <Year/1865> ;
+	rdfs:label "o. Professor an der Medizinisch-Chirurgischen Akademie Josephinum in Wien" ;
+	a drw-model:B .
+
+<HonoursAndAwards/30372hasHonoursAndAwards>
+	rdfs:label "1887 Ehrendoktor der Universität Göttingen<br>Ehrendoktor der Universität Prag<br>1893 „Hofrat“<br>Adelstitel [Jahr unbekannt]<br>1905 Büste (vgl. <b>P</b>)<br>1906 Graefe-Medaille (Deutsche Ophthalmologische Gesellschaft)<br>1910 Festband <i>„Zur Ehrung Ewald Hering’s“ anlässlich seines goldenen Doktorjubiläums</i>. Pflüger’s Archiv für die gesammte Physiologie des Menschen und der Tiere 136 (1910), 760 S.<br>1911 Orden Pour le Mérite für Wissenschaften und Künste" ;
+	a drw-model:HonoursAndAwards .
+
+<SLComment/30372hasSLComment>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<B/30372hasStationOfLife7>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<SL/30372hasSL13>
+	a drw-model:SL ;
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 723-724." .
+
+<NameVariation/30372_0>
+	rdfs:label "Геринг, Эвальд (фон)"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Gering, Ėval’d (fon)"@de .
+
+<SL/30372hasSL2>
+	rdfs:label "Brokgauz/Ėfron. Bd. 15 (1892), 475." ;
+	a drw-model:SL .
+
+<MainName/30372hasMainName>
+	a drw-model:MainName ;
+	drw-model:hasComment <Comment/30372hasComment1> ;
+	drw-model:hasNameVariation <NameVariation/30372_0> ;
+	rdfs:label "Hering, Karl Ewald Konstantin (von)[1]" .
+
+<SL/30372hasSL14>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SL .
+
+<SL/30372hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Garten, Siegfried: Nachruf auf Ewald Hering. Berichte der Königlich Sächsischen Gesellschaft der Wissenschaften zu Leipzig, Mathematisch-physische Klasse 70 (1918), 381-402." .
+
+<HonoursAndAwardsComment/30372hasHonoursAndAwardsComment>
+	rdfs:label "Ehrungen und Auszeichnungen (Auswahl):" ;
+	a drw-model:HonoursAndAwardsComment .
+
+<B/30372hasStationOfLife5>
+	a drw-model:B ;
+	rdfs:label "Erster Rektor der Deutschen Universität in Prag" .
+
+<SL/30372hasSL16>
+	a drw-model:SL ;
+	rdfs:label "Rossijskaja akademija nauk. Personal’nyj sostav. Kniga 1: 1724-1917. Moskva 1999; Kniga 2: 1918-1973. Moskva 1999 Kniga 1 (1999), 505." .
+
+<SL/30372hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Garten, Siegfried: Ewald Hering zum Gedächtnis. Pflüger’s Archiv für die gesammte Physiologie des Menschen und der Tiere 170 (1918), 501-522." .
+
+<SL/30372hasSL25>
+	a drw-model:SL ;
+	rdfs:label "Österreichisches biographisches Lexikon 1815-1950. Bearbeitet von Eva Obermayer-Marnach u. a. Bd. 1-12. Wien 1957-2005 Bd. 2 (1958), 283." .
+
+<SL/30372hasSL22>
+	rdfs:label "Wegbereiter unserer naturwissenschaftlich-medizinischen Moderne (http://appserv5.ph-heidelberg.de/onlinelex/index.php?id=635, 23.11.2011)." ;
+	a drw-model:SL .
+
+<P/30372hasP4>
+	rdfs:label "Carl Seffner (1861-1932): Ewald Hering. Gipsmodell für eine Bronzebüste ca. 1905. Carl-Ludwig-Institut für Physiologie der Universität Leipzig. Abb. in Baumann 2002 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<Year/1870>
+	rdfs:label "1870" ;
+	a drw-model:Year .
+
+<Year/1862>
+	rdfs:label "1862" ;
+	a drw-model:Year .
+

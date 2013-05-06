@@ -1,0 +1,368 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<B/31060hasStationOfLife2>
+	a drw-model:B ;
+	rdfs:label "Weiterbildung im Ausland mit Delegierung der Akademie der Wissenschaften St. Petersburg:
+- Besuch ausländischer Laboratorien, u. a. bei E. <span style='font-variant:small-caps;'>Du Bois-Reymond</span> an der Universität Berlin" .
+
+<Year/1890>
+	rdfs:label "1890" ;
+	a drw-model:Year .
+
+<A/31060hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Abschluss des 1. Gymnasiums in St. Petersburg" .
+
+<A/31060hasEducation3>
+	a drw-model:A ;
+	drw-model:began <Year/1870> ;
+	rdfs:label "Studium an der naturwissenschaftlichen Abteilung der Physiko-mathematischen Fakultät der Universität St. Petersburg bei F. V. <span style='font-variant:small-caps;'>Ovsjannikov</span> und I. F. <span style='font-variant:small-caps;'>Cion</span>" .
+
+<P/31060hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Istorija kafedry (<b>SL</b>)." .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<Year/1868>
+	rdfs:label "1868" ;
+	a drw-model:Year .
+
+<P/31060hasP2>
+	rdfs:label "Portrait in: Fominych 2004 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<Place/31060wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Kiev" .
+
+<SL/31060hasSL2>
+	rdfs:label "Kafedra normal’noj fiziologii Sibirskogo gosudarstvennogo medicinskogo universiteta 120 let (http://www.ssmu.ru/ofice/f2/norm/ubiley.shtml, 15.11.2010)." ;
+	a drw-model:SL .
+
+<RelatedPerson/31060hasDescendant>
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/31060hasComment2> ;
+	rdfs:label "Ekaterina Vladimirovna Velikaja (* 1877) und
+Anna Vladimirovna Velikaja (* 1878)[2]" .
+
+<ImportantPerson/31060>
+	drw-model:hasSL <SL/31060hasSL5> ;
+	drw-model:hasMG <MG/31060hasMG> ;
+	drw-model:hasConnectionTo <ImportantPerson/31212> ;
+	drw-model:hasDescendant <RelatedPerson/31060hasDescendant> ;
+	drw-model:hasStationOfLife <B/31060hasStationOfLife8> ;
+	drw-model:hasSL <SL/31060hasSL3> ;
+	drw-model:wasBornOn <Date/31060wasBornOn> ;
+	drw-model:hasComment <Comment/31060hasComment2> ;
+	drw-model:hasP <P/31060hasP0> ;
+	drw-model:wasMarriedTo <RelatedPerson/31060wasMarriedTo> ;
+	drw-model:hasStationOfLife <B/31060hasStationOfLife3> ;
+	drw-model:hasConnectionTo <ImportantPerson/30194> ;
+	drw-model:hasMainName <MainName/31060hasMainName> ;
+	drw-model:hasConnectionTo <ImportantPerson/30478> ;
+	drw-model:DiedOn <Date/31060DiedOn> ;
+	drw-model:hasP <P/31060hasP2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31060hasGeneralLabor1> ;
+	drw-model:hasStationOfLife <B/31060hasStationOfLife0> ;
+	drw-model:hasStationOfLife <B/31060hasStationOfLife10> ;
+	drw-model:hasSL <SL/31060hasSL7> ;
+	drw-model:hasStationOfLife <B/31060hasStationOfLife9> ;
+	drw-model:wasBornIn <Place/31060wasBornIn> ;
+	drw-model:hasEducation <A/31060hasEducation1> ;
+	drw-model:hasEducation <A/31060hasEducation4> ;
+	drw-model:hasID "31060" ;
+	drw-model:hasW <W/31060hasW2> ;
+	drw-model:hasStationOfLife <B/31060hasStationOfLife6> ;
+	drw-model:hasConnectionTo <ImportantPerson/30230> ;
+	drw-model:hasW <W/31060hasW1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/31060.jpg> ;
+	drw-model:hasStationOfLife <B/31060hasStationOfLife7> ;
+	drw-model:hasStationOfLife <B/31060hasStationOfLife1> ;
+	drw-model:hasEducation <A/31060hasEducation0> ;
+	drw-model:DiedIn <Place/31060DiedIn> ;
+	drw-model:hasGPV <GPV/31060hasGPV2> ;
+	drw-model:hasEducation <A/31060hasEducation5> ;
+	drw-model:hasComment <Comment/31060hasComment3> ;
+	drw-model:hasStationOfLife <B/31060hasStationOfLife5> ;
+	drw-model:hasEducation <A/31060hasEducation3> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasGPV <GPV/31060hasGPV1> ;
+	drw-model:hasP <P/31060hasP3> ;
+	drw-model:hasStationOfLife <B/31060hasStationOfLife2> ;
+	drw-model:hasSL <SL/31060hasSL1> ;
+	drw-model:hasSL <SL/31060hasSL4> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/31060hasHonoursAndAwards> ;
+	drw-model:fatherIs <RelatedPerson/31060fatherIs> ;
+	drw-model:hasP <P/31060hasP1> ;
+	drw-model:hasEducation <A/31060hasEducation2> ;
+	drw-model:hasSL <SL/31060hasSL2> ;
+	rdfs:label "Velikij, Vladimir Nikolaevič" ;
+	drw-model:hasGeneralLabor <GeneralLabor/31060hasGeneralLabor0> ;
+	drw-model:hasGPV <GPV/31060hasGPV3> ;
+	drw-model:hasW <W/31060hasW0> ;
+	drw-model:hasComment <Comment/31060hasComment1> ;
+	drw-model:hasSL <SL/31060hasSL6> ;
+	drw-model:hasSL <SL/31060hasSL0> ;
+	drw-model:hasWL <WL/31060hasWL0> ;
+	drw-model:hasStationOfLife <B/31060hasStationOfLife4> ;
+	drw-model:hasGPV <GPV/31060hasGPV0> .
+
+<B/31060hasStationOfLife0>
+	drw-model:began <Year/1874> ;
+	a drw-model:B ;
+	rdfs:label "Assistent am Lehrstuhl für Physiologie, Anatomie und Histologie der Universität St. Petersburg" .
+
+<GeneralLabor/31060hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologe" .
+
+<B/31060hasStationOfLife8>
+	rdfs:label "Privatdozent am Lehrstuhl für Physiologie der Universität Kiev" ;
+	a drw-model:B ;
+	drw-model:began <Year/1904> .
+
+<SL/31060hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 254-256." .
+
+<NameVariation/31060_1>
+	rdfs:label "Veliky, Vladimir"@de ;
+	a drw-model:NameVariation .
+
+<Year/1889>
+	rdfs:label "1889" ;
+	a drw-model:Year .
+
+<Year/1875>
+	rdfs:label "1875" ;
+	a drw-model:Year .
+
+<GeneralLabor/31060hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Zoologe" .
+
+<Year/1903>
+	rdfs:label "1903" ;
+	a drw-model:Year .
+
+<GPV/31060hasGPV2>
+	rdfs:label "Publikationen 1876-1892, in: S.-Peterburgskij universitet, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<B/31060hasStationOfLife10>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<RelatedPerson/31060fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Nikolaj, Kaufmann 3. Gilde in Berdičev" .
+
+<Comment/31060hasComment1>
+	a drw-model:Comment ;
+	rdfs:label "In Istorija kafedry (<b>SL</b>) fälschlicherweise 1915 angegeben." ;
+	drw-model:hasNumber 1 .
+
+<B/31060hasStationOfLife6>
+	rdfs:label "Rektor der Universität Tomsk" ;
+	a drw-model:B ;
+	drw-model:began <Year/1890> .
+
+<Comment/31060hasComment3>
+	a drw-model:Comment ;
+	rdfs:label "Erster Professor für Physiologie der Universität Tomsk" ;
+	drw-model:hasNumber 3 .
+
+<B/31060hasStationOfLife4>
+	drw-model:began <Year/1889> ;
+	rdfs:label "ao. Professor an der Medizinischen Fakultät der Universität Tomsk" ;
+	a drw-model:B .
+
+<A/31060hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Dr. zool. an der Universität St. Petersburg" .
+
+<ImportantPerson/30194>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/31060> ;
+	drw-model:hasID "30194" .
+
+<GPV/31060hasGPV0>
+	a drw-model:GPV ;
+	rdfs:label "Publikationen 1872-1887, in: Bogdanov, zit. n. WBIS RBA (<b>SL</b>)." .
+
+<Year/1863>
+	rdfs:label "1863" ;
+	a drw-model:Year .
+
+<Date/31060DiedOn>
+	a drw-model:Date ;
+	rdfs:label "nach Febr. 1917[1]" ;
+	drw-model:hasComment <Comment/31060hasComment1> .
+
+<Year/1904>
+	rdfs:label "1904" ;
+	a drw-model:Year .
+
+<SL/31060hasSL7>
+	a drw-model:SL ;
+	rdfs:label "[Kurzbiographie], in: Kuz’min, Michail Kuz’mič: Akademik F. V. Ovsjannikov (K istorii nervizma v Rossii). Moskva 1963, 120-124." .
+
+<ImportantPerson/30230>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/31060> ;
+	drw-model:hasID "30230" .
+
+<A/31060hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1868> ;
+	rdfs:label "Studium an der Juristischen Fakultät der Universität St. Petersburg" .
+
+<W/31060hasW0>
+	rdfs:label "Dopolnenie k innervacii limfatičeskich serdec. Magister-Diss. Sankt-Peterburg 1885." ;
+	a drw-model:W .
+
+<P/31060hasP1>
+	rdfs:label "Foto aus den 70-er Jahren des 19. Jahrhunderts, in: Kuz’min 1963 (<b>SL</b>), 121; auch in: <b>SL</b> Volkov/Kulikova 2003 b, und Tomskij universitet, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:P .
+
+<Year/1885>
+	rdfs:label "1885" ;
+	a drw-model:Year .
+
+<SL/31060hasSL5>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 89, 66-67; 534, 56; SU 82, 193-194; RS 10, 19-21." ;
+	a drw-model:SL .
+
+<B/31060hasStationOfLife1>
+	drw-model:began <Year/1875> ;
+	a drw-model:B ;
+	rdfs:label "Laborant am Lehrstuhl für Physiologie und vergleichende Anatomie der Akademie der Wissenschaften St. Petersburg" .
+
+<P/31060hasP3>
+	a drw-model:P ;
+	rdfs:label "Portrait [Gemälde] und Foto [V. N. Velikij bei der Vorlesung], in: Kafedra normal’noj fiziologii (<b>SL</b>)." .
+
+<B/31060hasStationOfLife5>
+	rdfs:label "o. Professor und Gründer des Lehrstuhls für Physiologie an der Medizinischen Fakultät der Universität Tomsk[3]" ;
+	drw-model:began <Year/1890> ;
+	a drw-model:B ;
+	drw-model:hasComment <Comment/31060hasComment3> .
+
+<A/31060hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Besuch des 1. Gymnasiums in Kiev" ;
+	drw-model:began <Year/1863> .
+
+<B/31060hasStationOfLife3>
+	a drw-model:B ;
+	rdfs:label "Privatdozent am Lehrstuhl für Zoologie, vergleichende Anatomie und Physiologie der Universität St. Petersburg" ;
+	drw-model:began <Year/1885> .
+
+<Place/31060DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Kiev" .
+
+<B/31060hasStationOfLife7>
+	drw-model:began <Year/1903> ;
+	rdfs:label "in Kiev: Tätigkeit in der Hauptverwaltung des Ministeriums für Volksaufklärung; zeitweise auch im Physiologischen Laboratorium der Universität Kiev bei S. I. <span style='font-variant:small-caps;'>Čir'ev</span>" ;
+	a drw-model:B .
+
+<SL/31060hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 71-72." .
+
+<RelatedPerson/31060wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ekaterina Vasil’evna Velikaja, geb. Voznesenskaja" .
+
+<W/31060hasW1>
+	a drw-model:W ;
+	rdfs:label "Dopolnenija k issledovanijam limfatičeskich serdec i sosudov u nekotorych predstavitelej amfibij. Diss. Sankt-Peterburg 1888, 47 S." .
+
+<Date/31060wasBornOn>
+	rdfs:label "7./19.8.1851" ;
+	a drw-model:Date .
+
+<SL/31060hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Fominych, Sergej Fedorovič (Hauptred.): Professora Medicinskogo fakul’teta Imperatorskogo (gosudarstvennogo) Tomskogo universiteta – Tomskogo medicinskogo instituta – Sibirskogo gosudarstvennogo medicinskogo universiteta 1878-2003. Biografičeskij slovar’. Bd. 1. Tomsk 2004, 117-119." .
+
+<SL/31060hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Istorija kafedry fiziologii čeloveka i životnych (http://www.bio.tsu.ru/physiol/history.html, 7.12.2010)." .
+
+<ImportantPerson/30478>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30478" ;
+	drw-model:hasConnectionTo <ImportantPerson/31060> .
+
+<MG/31060hasMG>
+	a drw-model:MG ;
+	rdfs:label "Obščestvo estestvoispytatelej S.-Petersburgskogo universiteta [Gesellschaft der Naturforscher der St. Petersburger Universität], Tomskoe obščestvo estestvoispytatelej i vračej [Tomsker Gesellschaft der Naturforscher und Ärzte] (1896-1903 Vorstandsvorsitzender), Kievskoe obščestvo estestvoispytatelej [Kiever Gesellschaft der Naturforscher]" .
+
+<W/31060hasW2>
+	rdfs:label "Kratkij kurs po fiziologii. Litografirovannye zapiski. Tomsk 1894." ;
+	a drw-model:W .
+
+<B/31060hasStationOfLife9>
+	rdfs:label "Gründer und Leiter des Lehrstuhls für Physiologie am Medizinischen Fraueninstitut in Kiev (vormals Medizinische Abteilung an den Höheren Kursen für Frauen)" ;
+	a drw-model:B .
+
+<Year/1874>
+	rdfs:label "1874" ;
+	a drw-model:Year .
+
+<ImportantPerson/31212>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/31060> ;
+	drw-model:hasID "31212" .
+
+<WL/31060hasWL0>
+	rdfs:label "Hauptforschungsthema: Untersuchungen zur Innervation der Lymphherzen, des Gefäßsystems, der Nieren, der Bauchspeicheldrüse und der Milz und ihre Wirkung auf den tierischen Organismus" ;
+	a drw-model:WL .
+
+<SL/31060hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 109." .
+
+<NameVariation/31060_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Weliky, Wladimir"@de .
+
+<A/31060hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Mag. zool. an der Universität St. Petersburg" .
+
+<MainName/31060hasMainName>
+	a drw-model:MainName ;
+	rdfs:label "Velikij, Vladimir Nikolaevič" ;
+	drw-model:hasNameVariation <NameVariation/31060_1> ;
+	drw-model:hasNameVariation <NameVariation/31060_0> .
+
+<Comment/31060hasComment2>
+	drw-model:hasNumber 2 ;
+	rdfs:label "Lebten beide noch 1941 in Kiev. Schriftliche Mitteilung des Professors der Universität Tomsk Sergej Fedorovič Fominych vom 10.12.2010." ;
+	a drw-model:Comment .
+
+<GPV/31060hasGPV3>
+	rdfs:label "Deutschsprachige und in deutschen Zeitschriften referierte russische Publikationen 1876-1898, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<GPV/31060hasGPV1>
+	rdfs:label "Publikationen 1874-1900, in: Kvasov/Fedorova-Grot (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<HonoursAndAwards/31060hasHonoursAndAwards>
+	rdfs:label "1899 „Wirklicher Russischer Staatsrat“<br>1887 St.-Annen-Orden 3. Klasse<br>1882 St.-Stanislav-Orden 3. Klasse und 1891 2. Klasse<br>1896 St.-Annen-Orden  2. Klasse<br>1903 St.-Vladimir-Orden 4. Klasse<br>Silberne Medaille zur Erinnerung an die Zarenherrschaft Aleksandr III.<br>1913 Gedenkmedaille „300 Jahre Romanov-Dynastie“" ;
+	a drw-model:HonoursAndAwards .
+
+<Year/1870>
+	rdfs:label "1870" ;
+	a drw-model:Year .
+

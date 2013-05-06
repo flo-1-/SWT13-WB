@@ -1,0 +1,562 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<OtherOffices/30091hasOtherOffices4>
+	a drw-model:OtherOffices ;
+	rdfs:label "" .
+
+<WL/30091hasWL0>
+	rdfs:label "Mitbegründer (zus. mit <span style='font-variant:small-caps;'>Volkmann</span>) der Dorpater Physiologenschule" ;
+	a drw-model:WL .
+
+<MainName/30091hasMainName>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30091_1> ;
+	drw-model:hasNameVariation <NameVariation/30091_0> ;
+	rdfs:label "Bidder, Georg Friedrich Karl Heinrich (von)" .
+
+<SL/30091hasSL12>
+	a drw-model:SL ;
+	rdfs:label "[Kurzbiographie ], in: Kuz’min, Michail Kuz’mič: Akademik F. V. Ovsjannikov (K istorii nervizma v Rossii). Moskva 1963, 9-12." .
+
+<ImportantPerson/30091>
+	drw-model:hasComment <Comment/30091hasComment2> ;
+	drw-model:hasSL <SL/30091hasSL6> ;
+	drw-model:hasW <W/30091hasW2> ;
+	drw-model:hasConnectionTo <ImportantPerson/30836> ;
+	drw-model:hasConnectionTo <ImportantPerson/30739> ;
+	drw-model:hasConnectionTo <ImportantPerson/30239> ;
+	drw-model:hasStationOfLife <B/30091hasStationOfLife1> ;
+	drw-model:hasEducation <A/30091hasEducation1> ;
+	drw-model:hasSL <SL/30091hasSL3> ;
+	drw-model:hasWL <WL/30091hasWL0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30091hasGeneralLabor1> ;
+	drw-model:hasStationOfLife <B/30091hasStationOfLife4> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30091hasHonoursAndAwards> ;
+	drw-model:hasConnectionTo <ImportantPerson/30047> ;
+	drw-model:hasQ <Q/30091hasQ1> ;
+	drw-model:hasP <P/30091hasP1> ;
+	drw-model:hasComment <Comment/30091hasComment5> ;
+	drw-model:hasComment <Comment/30091hasComment8> ;
+	drw-model:hasSL <SL/30091hasSL11> ;
+	drw-model:hasWL <WL/30091hasWL3> ;
+	drw-model:hasComment <Comment/30091hasComment11> ;
+	drw-model:hasStationOfLife <B/30091hasStationOfLife3> ;
+	drw-model:hasConnectionTo <ImportantPerson/31028> ;
+	drw-model:hasP <P/30091hasP0> ;
+	drw-model:hasDescendant <RelatedPerson/30091hasDescendant> ;
+	drw-model:hasEducation <A/30091hasEducation6> ;
+	drw-model:hasConnectionTo <ImportantPerson/31204> ;
+	drw-model:motherIs <RelatedPerson/30091motherIs> ;
+	drw-model:hasW <W/30091hasW0> ;
+	drw-model:hasComment <Comment/30091hasComment4> ;
+	drw-model:hasGPV <GPV/30091hasGPV1> ;
+	drw-model:hasWL <WL/30091hasWL5> ;
+	drw-model:hasStationOfLife <B/30091hasStationOfLife0> ;
+	drw-model:hasOtherOffices <OtherOffices/30091hasOtherOffices1> ;
+	drw-model:wasBornOn <Date/30091wasBornOn> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasQ <Q/30091hasQ2> ;
+	drw-model:hasSL <SL/30091hasSL12> ;
+	drw-model:hasEducation <A/30091hasEducation4> ;
+	drw-model:hasConnectionTo <ImportantPerson/31075> ;
+	drw-model:hasSL <SL/30091hasSL4> ;
+	drw-model:hasConnectionTo <ImportantPerson/31106> ;
+	drw-model:hasConnectionTo <ImportantPerson/30250> ;
+	drw-model:hasOtherOffices <OtherOffices/30091hasOtherOffices4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30091hasGeneralLabor0> ;
+	drw-model:hasEducation <A/30091hasEducation0> ;
+	drw-model:hasEducation <A/30091hasEducation2> ;
+	drw-model:hasWL <WL/30091hasWL1> ;
+	drw-model:hasConnectionTo <ImportantPerson/30844> ;
+	drw-model:hasQ <Q/30091hasQ0> ;
+	drw-model:hasConnectionTo <ImportantPerson/30107> ;
+	drw-model:hasID "30091" ;
+	drw-model:hasComment <Comment/30091hasComment7> ;
+	drw-model:hasSL <SL/30091hasSL1> ;
+	rdfs:label "Bidder, Georg Friedrich Karl Heinrich (von)" ;
+	drw-model:hasW <W/30091hasW1> ;
+	drw-model:hasMainName <MainName/30091hasMainName> ;
+	drw-model:hasComment <Comment/30091hasComment12> ;
+	drw-model:hasGPV <GPV/30091hasGPV0> ;
+	drw-model:fatherIs <RelatedPerson/30091fatherIs> ;
+	drw-model:hasSL <SL/30091hasSL8> ;
+	drw-model:hasSL <SL/30091hasSL5> ;
+	drw-model:hasP <P/30091hasP2> ;
+	drw-model:hasSL <SL/30091hasSL7> ;
+	drw-model:hasGPV <GPV/30091hasGPV2> ;
+	drw-model:hasComment <Comment/30091hasComment6> ;
+	drw-model:hasMG <MG/30091hasMG> ;
+	drw-model:DiedOn <Date/30091DiedOn> ;
+	drw-model:hasStationOfLife <B/30091hasStationOfLife5> ;
+	drw-model:hasComment <Comment/30091hasComment3> ;
+	drw-model:wasMarriedTo <RelatedPerson/30091wasMarriedTo> ;
+	drw-model:hasSL <SL/30091hasSL2> ;
+	drw-model:hasComment <Comment/30091hasComment10> ;
+	drw-model:hasSL <SL/30091hasSL9> ;
+	drw-model:hasOtherOffices <OtherOffices/30091hasOtherOffices0> ;
+	drw-model:hasConnectionTo <ImportantPerson/30173> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30091.png> ;
+	drw-model:DiedIn <Place/30091DiedIn> ;
+	drw-model:hasWL <WL/30091hasWL4> ;
+	drw-model:hasSL <SL/30091hasSL0> ;
+	drw-model:hasOtherOffices <OtherOffices/30091hasOtherOffices3> ;
+	drw-model:hasWL <WL/30091hasWL2> ;
+	drw-model:hasOtherOffices <OtherOffices/30091hasOtherOffices2> ;
+	drw-model:wasBornIn <Place/30091wasBornIn> ;
+	drw-model:hasSL <SL/30091hasSL10> ;
+	drw-model:hasComment <Comment/30091hasComment1> ;
+	drw-model:hasStationOfLife <B/30091hasStationOfLife2> ;
+	drw-model:hasEducation <A/30091hasEducation3> ;
+	drw-model:hasEducation <A/30091hasEducation5> ;
+	drw-model:hasComment <Comment/30091hasComment9> .
+
+<A/30091hasEducation6>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung in Deutschland mit Delegierung von derUniversität Dorpat:
+- bei Karl Friedrich <span style='font-variant:small-caps;'>Burdach</span> (1776-1847) und Karl Ernst von <span style='font-variant:small-caps;'>Baer</span> (1792-1876) an der Universität Königsberg
+- bei J. P. <span style='font-variant:small-caps;'>Müller</span>, Christian Gottfried <span style='font-variant:small-caps;'>Ehrenberg</span> (1795-1876), Friedrich Gustav Jakob <span style='font-variant:small-caps;'>Henle</span> (1809-1885), Friedrich <span style='font-variant:small-caps;'>Schlemm</span> (1795-1859), Theodor <span style='font-variant:small-caps;'>Schwann</span> (1810-1882), K. B. <span style='font-variant:small-caps;'>Reichert</span> u. a. an der Universität Berlin[9]
+- bei Carl Gustav <span style='font-variant:small-caps;'>Carus</span> (1789-1869) und Burkhard Wilhelm <span style='font-variant:small-caps;'>Seiler</span> (1779-1843) an der Medizinisch-chirurgischen Akademie in Dresden
+- bei Ernst Heinrich <span style='font-variant:small-caps;'>Weber</span> (1795-1878) und Eduard Friedrich <span style='font-variant:small-caps;'>Weber</span> (1806-1871) an der Universität Leipzig
+- bei Bernhard von <span style='font-variant:small-caps;'>Langenbeck</span> (1810-1887) und Johann Friedrich <span style='font-variant:small-caps;'>Blumenbach</span> (1752-1840) an der Universität Göttingen
+- bei Christian Heinrich <span style='font-variant:small-caps;'>Bünger</span> (1782-1842) an der Universität Marburg
+- bei August Franz Joseph <span style='font-variant:small-caps;'>Mayer</span> (1787-1865) und Moritz Ignaz <span style='font-variant:small-caps;'>Weber</span> (1795-1875) an der Universität Bonn
+- bei Friedrich <span style='font-variant:small-caps;'>Tiedemann</span> (1781-1861) und Theodor von <span style='font-variant:small-caps;'>Bischoff</span> (1807-1882) an der Universität Heidelberg
+- Besuch der Universität München und der Anatomischen Anstalt bei Martin <span style='font-variant:small-caps;'>Muenz</span> (1785-1848) an der Universität Würzburg" ;
+	drw-model:hasComment <Comment/30091hasComment9> ;
+	drw-model:began <Year/1834> .
+
+<Year/1828>
+	rdfs:label "1828" ;
+	a drw-model:Year .
+
+<ImportantPerson/31106>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30091> ;
+	drw-model:hasID "31106" .
+
+<Comment/30091hasComment2>
+	rdfs:label "Nicht Laudohn (<b>SL</b> ADB, Wikipedia, Pagel 1901 und Hirsch 1929, zit. n. WBIS BaBA) oder Tauerkaln, Kr. Friedrichstadt (Räder 1932, zit. n. <b>SL</b> WBIS BaBA) oder aus Kurland (Hasselblatt/Otto 1889, zit. n. <b>SL</b> WBIS BaBA). Vgl. Bidder 1959 (<b>Q</b>), 5-7 und 237 (Anm. 12): Ab 1808 war sein Vater Bewirtschafter des Gutes Treppenhof; die Familie bewohnte um 1814 ein Haus auf dem Gut Lubahn und siedelte noch 1814 nach Laudohn über." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 2 .
+
+<ImportantPerson/30844>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30091> ;
+	drw-model:hasID "30844" .
+
+<Year/1836>
+	rdfs:label "1836" ;
+	a drw-model:Year .
+
+<B/30091hasStationOfLife5>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<SL/30091hasSL9>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 52, 437." ;
+	a drw-model:SL .
+
+<A/30091hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch der Privatschule seines Onkels Karl Johann von <span style='font-variant:small-caps;'>Bidder</span> (1777-1824) in Riga" ;
+	drw-model:began <Year/1821> .
+
+<ImportantPerson/31028>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "31028" ;
+	drw-model:hasConnectionTo <ImportantPerson/30091> .
+
+<ImportantPerson/31075>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "31075" ;
+	drw-model:hasConnectionTo <ImportantPerson/30091> .
+
+<RelatedPerson/30091fatherIs>
+	drw-model:hasComment <Comment/30091hasComment5> ;
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ernst Christian, Gutsverwalter[5]" .
+
+<Comment/30091hasComment4>
+	rdfs:label "<b>SL</b> Engelhardt 1933, 151, Lenz 1970, Poelchau 1918 und Räder 1932, zit. n. WBIS BaBA" ;
+	drw-model:hasNumber 4 ;
+	a drw-model:Comment .
+
+<WL/30091hasWL1>
+	rdfs:label "Forschungsgebiete: Lehre vom vegetativen Nervensystem, der Verdauung, des Stoffwechsels, der Wärmeregulierung, der Erregbarkeit des Herzens" ;
+	a drw-model:WL .
+
+<Comment/30091hasComment3>
+	a drw-model:Comment ;
+	rdfs:label "<b>SL</b> Brennsohn 1922 und Levickij 1903, zit. n. WBIS BaBA, Volkov/Kulikova 2003 b" ;
+	drw-model:hasNumber 3 .
+
+<SL/30091hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine, Pfrepper, Gerd: Wissensspuren. Reisen russischer Mediziner nach Westeuropa im 19. Jahrhundert. Aachen 2012 (Relationes 11)" .
+
+<ImportantPerson/30107>
+	drw-model:hasConnectionTo <ImportantPerson/30091> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30107" .
+
+<GeneralLabor/30091hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Anatomie" .
+
+<MG/30091hasMG>
+	a drw-model:MG ;
+	rdfs:label "Ehrenmitglied: Sankt-Peterburgskaja Imperatorskaja Akademija nauk [Kaiserliche Akademie der Wissenschaften St. Petersburg] (1884, bereits ab 1857 Korrespondierendes Mitglied), Naturforscher-Gesellschaft in Dorpat (1890, als Mitglied ab 1877 Präsident), Verein Deutscher Ärzte in St. Petersburg, Verein praktischer Ärzte in Riga, Oberrheinische Gesellschaft für Naturkunde in Gießen (1883), Universitäten Dorpat, Kiev und ab 1860 Kazan’ u. a.
+Korrespondierendes Mitglied: Senckenbergische Gesellschaft in Frankfurt a. Main (1844), Naturforscher-Gesellschaft in Mainz (1849), Leopoldina (1856), Rheinische Naturforscher-Gesellschaft in Mainz, Gesellschaft der Wissenschaften in Göttingen, Royal Medical Society London u. a.[12]" ;
+	drw-model:hasComment <Comment/30091hasComment12> .
+
+<GPV/30091hasGPV1>
+	rdfs:label "Sämtliche Arbeiten in: Zapiski Imperatorskoj Akademii Nauk po Fiziko-matematičeskomu otdeleniju 26 (1909/1915), 285-292." ;
+	a drw-model:GPV .
+
+<WL/30091hasWL4>
+	drw-model:hasComment <Comment/30091hasComment11> ;
+	rdfs:label "Das Biddersche Organ oder das Bidder-Organ [<i>organ Biddera</i>] (Rudimentärer Eierstock bei den Männchen der Kröten) (vgl. <b>W</b> 1846), Bidder(-Remak)-Ganglion bzw. Bidder-Remak Haufen [<i>ganglij Biddera bzw. uzel Biddera</i>] (zwei Ganglienzellhaufen des Herzvagus im Vorhofseptum bei Säugern; beim Menschen den Aschoff-Tawara Knoten umgebend)[11]" ;
+	a drw-model:WL .
+
+<A/30091hasEducation0>
+	a drw-model:A ;
+	drw-model:began <Year/> ;
+	rdfs:label "" .
+
+<RelatedPerson/30091motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Amalie Jacobine, geb. Strohkirch" .
+
+<B/30091hasStationOfLife2>
+	rdfs:label "Professor für Physiologie, Pathologie und Semiotik (als Nachfolger von A. W. <span style='font-variant:small-caps;'>Volkmann</span>) an der Medizinischen Fakultät der Universität Dorpat" ;
+	a drw-model:B ;
+	drw-model:began <Year/1843> .
+
+<P/30091hasP0>
+	rdfs:label "Foto (Abb. [ohne weitere Angaben]), aus: Wikipedia; auch in: <b>SL</b> Bing 1973, Kuz’min 1963, Volkov/Kulikova 2003 b, WBIS BaBA (z. B. Eesti entsüklopeedia u. a.)." ;
+	a drw-model:P .
+
+<OtherOffices/30091hasOtherOffices2>
+	a drw-model:OtherOffices ;
+	rdfs:label "ab 1884 Präsident des Dorpater Hilfsvereins" .
+
+<Place/30091wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Gut Treppenhof [Trapene] in Livland[2]" ;
+	drw-model:hasComment <Comment/30091hasComment2> .
+
+<Date/30091wasBornOn>
+	rdfs:label "28.10./9.11. [nicht 9./21.2.][1]1810" ;
+	a drw-model:Date ;
+	drw-model:hasComment <Comment/30091hasComment1> .
+
+<Comment/30091hasComment5>
+	drw-model:hasNumber 5 ;
+	rdfs:label "In Kuz’min 1963 (<b>SL</b>) fälschlicherweise als Kreisarzt in Mitau bezeichnet. Es handelt sich um eine Verwechslung mit dessen Bruder, Heinrich Nikolaus Bidder (1783-1833), Dr. med., Chef der kurländischen Medizinalverwaltung; vgl. Bidder 1959 (<b>Q</b>), 238, Anm. 33." ;
+	a drw-model:Comment .
+
+<Year/1846>
+	rdfs:label "1846" ;
+	a drw-model:Year .
+
+<RelatedPerson/30091hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ernst (1839-1902), Professor der Geburtshilfe in St. Petersburg
+Anna Amalie, verh. Lezius (1841-1875)
+Alfred (1844-1905), Arzt in Halle, Mannheim und Berlin
+Paul Roderich (1850-1908), Pastor
+Marie, verh. Lezius[6]" ;
+	drw-model:hasComment <Comment/30091hasComment6> .
+
+<ImportantPerson/30739>
+	drw-model:hasID "30739" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30091> .
+
+<GeneralLabor/30091hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<GPV/30091hasGPV2>
+	rdfs:label "Deutschsprachige Publikationen 1836-1871, in: Pfrepper 2009 (<b>SL</b>), 151-154." ;
+	a drw-model:GPV .
+
+<Year/1843>
+	rdfs:label "1843" ;
+	a drw-model:Year .
+
+<RelatedPerson/30091wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Marie Johanna, geb. Rapp (1817-1857)" .
+
+<ImportantPerson/30239>
+	drw-model:hasConnectionTo <ImportantPerson/30091> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30239" .
+
+<Place/30091DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Dorpat" .
+
+<Comment/30091hasComment1>
+	rdfs:label "Dieses Datum in Chazanov (<b>SL</b>) basiert auf einer Verwechslung: II (Februar) statt 11 (November) sowie einer falschen Umrechnung zwischen dem julianischen und dem gregorianischem Kalender." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 1 .
+
+<A/30091hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Hauslehrer bei der Familie von <span style='font-variant:small-caps;'>Schoepping</span> auf dem Gut Bornsmünde und in Mitau" ;
+	drw-model:began <Year/1827> .
+
+<B/30091hasStationOfLife4>
+	drw-model:began <Year/1858> ;
+	rdfs:label "Rektor der Universität Dorpat" ;
+	a drw-model:B .
+
+<P/30091hasP1>
+	a drw-model:P ;
+	rdfs:label "Georg Friedrich Schlater (1804-1870): Georg Friedrich Karl Heinrich von Bidder (1810-1894). Lithographie nach einer Zeichnung von Eduard Petrowitsch Hau (1807-1887) von 1837. Estnisches Kunstmuseum im Ritterhaus zu Tallinn: G 3677. Abb. mit Bildbeschreibung in: Anne Lõugas (Hg.): Deutschbaltische Porträtkunst in Estland 1750-1900. Tallinn, Helsinki 2003, 150; Ausschnitt in: RAN (<b>SL</b>), 145." .
+
+<OtherOffices/30091hasOtherOffices3>
+	rdfs:label "ab 1884 Gründer der „Kleinkinder-Bewahranstalt“ in Dorpat" ;
+	a drw-model:OtherOffices .
+
+<SL/30091hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 151-154." .
+
+<Comment/30091hasComment6>
+	rdfs:label "Fertigte 1896 eine Abschrift des handschriftlichen Manuskriptes ihres Vaters an, welche 1959 ihr Sohn, Dr. med. Friedrich Lezius aus Göttingen, dem Göttinger Arbeitskreis zum Druck zur Verfügung stellte; vgl. Bidder 1959 (<b>Q</b>), Vorwort, S. IV." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 6 .
+
+<B/30091hasStationOfLife0>
+	rdfs:label "Prosektor an der Medizinischen Fakultät der Universität Dorpat" ;
+	a drw-model:B ;
+	drw-model:began <Year/1835> .
+
+<SL/30091hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Deutsches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 99, 28, 39-41; II 120, 287-290; III 77, 419-421, 424." .
+
+<OtherOffices/30091hasOtherOffices0>
+	a drw-model:OtherOffices ;
+	rdfs:label "ab 1884 Beratendes Mitglied des Medizinalrats des Innenministeriums" .
+
+<ImportantPerson/30250>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30091> ;
+	drw-model:hasID "30250" .
+
+<A/30091hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1824> ;
+	rdfs:label "Besuch des Gymnasium illustre in Mitau" .
+
+<SL/30091hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Bing, F. C.: Friedrich Bidder and Carl Schmidt. A biographical sketch. Journal of Nutrition 103 (1973), 637-648." .
+
+<WL/30091hasWL2>
+	rdfs:label "1842 Nachweis (zus. mit <span style='font-variant:small-caps;'>Volkmann</span>) der Selbständigkeit des sympatischen Nervensystems (vgl. <b>W</b>)" ;
+	a drw-model:WL .
+
+<SL/30091hasSL5>
+	rdfs:label "Engelhardt, Roderich von: Die deutsche Universität Dorpat in ihrer geistesgeschichtlichen Bedeutung. München 1933 (Schriften der Deutschen Akademie 13), 139-151." ;
+	a drw-model:SL .
+
+<Year/>
+	drw-model:hasComment <Comment/30091hasComment7> ;
+	rdfs:label "[7]" ;
+	a drw-model:Year .
+
+<B/30091hasStationOfLife1>
+	rdfs:label "ao. Professor, 1842 o. Professor für Anatomie an der Medizinischen Fakultät der Universität Dorpat" ;
+	a drw-model:B ;
+	drw-model:began <Year/1836> .
+
+<GPV/30091hasGPV0>
+	rdfs:label "Publikationen 1834-1871, in: Bidder 1959 (<b>Q</b>), 128-130; auch in: Levickij 1903, zit. n. WBIS BaBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<Comment/30091hasComment12>
+	rdfs:label "Ein vollständiges Verzeichnis der Mitgliedschaften bei Bidder 1959 (<b>Q</b>), 235." ;
+	drw-model:hasNumber 12 ;
+	a drw-model:Comment .
+
+<Year/1824>
+	rdfs:label "1824" ;
+	a drw-model:Year .
+
+<ImportantPerson/30173>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30091> ;
+	drw-model:hasID "30173" .
+
+<Comment/30091hasComment11>
+	rdfs:label "Roche Lexikon Medizin. 5. Aufl. München, Jena 2003, 215." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 11 .
+
+<Comment/30091hasComment8>
+	a drw-model:Comment ;
+	rdfs:label "Erdmanns Biobibliographie vgl. Kaden, H., Riha, O. (Hgg.): Studien zu Carl Julius Fritzsche (1808-1871) und Il’ja Il’ič Mečnikov (1845-1916). Quellenarbeit in der Wissenschaftsgeschichte. Aachen 2008 (Relationes 1), 6-8." ;
+	drw-model:hasNumber 8 .
+
+<OtherOffices/30091hasOtherOffices1>
+	a drw-model:OtherOffices ;
+	rdfs:label "ab 1884 Präsident des Kirchenrats der Evangelischen Universitätsgemeinde" .
+
+<Q/30091hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Friedrich Bidder: Vor hundert Jahren im Laboratorium Johannes Müllers. [Publiziert von Paul Morawitz]. Münchner Medizinische Wochenschrift 81 (1934), 60-64." .
+
+<WL/30091hasWL5>
+	rdfs:label "Unter seiner Leitung wurden 77 Dissertationen angefertigt." ;
+	a drw-model:WL .
+
+<W/30091hasW0>
+	a drw-model:W ;
+	rdfs:label "De graviditatis vi medicatrice. Diss. Dorpat 1834, 39 S. (online unter http://dspace.utlib.ee/dspace/bitstream/10062/155/1/bidder.pdf, 10.3.2011)." .
+
+<A/30091hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Universität Dorpat und Ernennung zumProsektor" .
+
+<SL/30091hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Chazanov, A. N.: Fridrich Ėrnestovič Bidder [Zum 70. Todestag]. Iz istorii mediciny 6 (1964), 294-303." .
+
+<NameVariation/30091_1>
+	rdfs:label "Bidder, Georg Fridrich Karl Genrich (fon)"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Биддер, Георг Фридрих Карл Генрих (фон)"@ru .
+
+<Comment/30091hasComment7>
+	rdfs:label "Die Jahresangaben in <b>A</b> und <b>B</b> entstammen den autobiographischen Aufzeichnungen von F. von Bidder in <b>Q</b>. Etwaige Abweichungen in <b>SL</b> wurden nicht berücksichtigt." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 7 .
+
+<P/30091hasP2>
+	a drw-model:P ;
+	rdfs:label "Foto [ohne weitere Angaben], in: [Bidder 1959] (<b>Q</b>) [unpaginierte Seite] und Engelhardt 1933 (<b>SL</b>), Bildeinlage." .
+
+<Q/30091hasQ1>
+	a drw-model:Q ;
+	rdfs:label "[Bidder 1959] Aus dem Leben eines Dorpater Universitätslehrers. Erinnerungen des Mediziners Prof. Dr. Friedrich v. Bidder, 1810-1894. Würzburg 1959 (Ostdeutsche Beiträge aus dem Göttinger Arbeitskreis 11), 250 S." .
+
+<SL/30091hasSL11>
+	a drw-model:SL ;
+	rdfs:label "Wikipedia (http://en.wikipedia.org/wiki/Friedrich_Bidder, 10.3.2011)" .
+
+<HonoursAndAwards/30091hasHonoursAndAwards>
+	rdfs:label "„Wirklicher Russischer Staatsrat“ und in den Adelsstand erhoben<br>1848 St.-Vladimir-Orden<br>1869 „Verdienter Professor“ der Universität Dorpat<br>1879 <i>Bėrovskaja premija</i> [K. E. von Baer-Prämie] und <i>Zolotaja medal’ Bėra</i> [Goldene K. E. von Baer-Medaille] der Kaiserlichen Akademie der Wissenschaften St. Petersburg<br>1884 Ernennung zum Ehrenmitglied der Kaiserlichen Akademie der Wissenschaften St. Petersburg (s. auch <b>M</b>) anlässlich des 50-jährigen Doktorjubiläums[10]" ;
+	drw-model:hasComment <Comment/30091hasComment10> ;
+	a drw-model:HonoursAndAwards .
+
+<Comment/30091hasComment10>
+	rdfs:label "Zu diesem Jubiläum widmeten ihm seine Söhne Ernst und Alfred (s. <b>N</b>) die Publikation <i>Gynäkologische Mittheilungen. Gratulationsschrift zur Feier des 50jährigen Doctorjubiläum von Friedrich Heinrich Bidder, Prof. emer. der Physiologie</i> … Berlin 1884, 65 S. (online unter: http://www.archive.org/stream/gynkologischem00bidd#page/n3/mode/2up, 10.3.2011)." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 10 .
+
+<B/30091hasStationOfLife3>
+	drw-model:began <Year/1846> ;
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Dorpat" ;
+	a drw-model:B .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<Comment/30091hasComment9>
+	a drw-model:Comment ;
+	rdfs:label "In Berlin besuchte er außerdem Vorlesungen der Philosophie bei Johann Eduard Erdmann (1805-1892) und lernte auch den Chemiker Heinrich Rose (1795-1864), den Mineralogen Gustav Rose (1798-1873) und den Physiker Johann Christian Poggendorff (1796-1877) kennen." ;
+	drw-model:hasNumber 9 .
+
+<Date/30091DiedOn>
+	a drw-model:Date ;
+	rdfs:label "10./22.8.[3] oder 15./27.8.[4]1894" ;
+	drw-model:hasComment <Comment/30091hasComment4> ;
+	drw-model:hasComment <Comment/30091hasComment3> .
+
+<W/30091hasW1>
+	rdfs:label "Die Selbständigkeit des sympathischen Nervensystems durch anatomische Untersuchungen nachgewiesen. Mit A. W. → Volkmann. Leipzig 1842, 88 S. (online unter http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10330667-8, 14.3.2011)." ;
+	a drw-model:W .
+
+<SL/30091hasSL0>
+	rdfs:label "Allgemeine Deutsche Biographie. Bd. 1-56. Leipzig 1875–1912,  Bd. 46 (1902), 538-540 (online unter: http://www.deutsche-biographie.de/sfz4380.html, 8.3.2011)." ;
+	a drw-model:SL .
+
+<A/30091hasEducation4>
+	a drw-model:A ;
+	drw-model:hasComment <Comment/30091hasComment8> ;
+	rdfs:label "Studium der Medizin an der Medizinischen Fakultät der Universität Dorpat bei Johann Friedrich von <span style='font-variant:small-caps;'>Erdmann</span> (1778-1846)[8] und Martin Heinrich <span style='font-variant:small-caps;'>Rathke</span> (1793-1860)" ;
+	drw-model:began <Year/1828> .
+
+<NameVariation/30091_0>
+	rdfs:label "Биддер, Фридрих Эрнстович (фон)"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Bidder, Fridrich Ėrnstovič (fon)"@de .
+
+<SL/30091hasSL10>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 53." ;
+	a drw-model:SL .
+
+<Year/1834>
+	rdfs:label "1834" ;
+	a drw-model:Year .
+
+<ImportantPerson/30047>
+	drw-model:hasID "30047" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30091> .
+
+<WL/30091hasWL3>
+	rdfs:label "Nach ihm sind benannt:" ;
+	a drw-model:WL .
+
+<Q/30091hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr.1751." .
+
+<SL/30091hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Baltisches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 31, 116-123." .
+
+<W/30091hasW2>
+	rdfs:label "Vergleichend-anatomische und histologische Untersuchungen über die männlichen Geschlechts- und Harnwerkzeuge der nackten Amphibien. Dorpat 1846, 74 S. (online unter http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10231135-6, 14.3.2011)." ;
+	a drw-model:W .
+
+<SL/30091hasSL8>
+	a drw-model:SL ;
+	rdfs:label "Rossijskaja akademija nauk. Personal’nyj sostav. Kniga 1: 1724-1917. Moskva 1999; Kniga 2: 1918-1973. Moskva 1999 Kniga 1 (1999), 145, 272." .
+
+<ImportantPerson/31204>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "31204" ;
+	drw-model:hasConnectionTo <ImportantPerson/30091> .
+
+<Year/1821>
+	rdfs:label "1821" ;
+	a drw-model:Year .
+
+<ImportantPerson/30836>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30091> ;
+	drw-model:hasID "30836" .
+
+<Year/1827>
+	rdfs:label "1827" ;
+	a drw-model:Year .
+
+<Year/1835>
+	rdfs:label "1835" ;
+	a drw-model:Year .
+
+<Year/1858>
+	rdfs:label "1858" ;
+	a drw-model:Year .
+

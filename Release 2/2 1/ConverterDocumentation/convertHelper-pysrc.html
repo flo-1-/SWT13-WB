@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>convertHelper</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://pcai042.informatik.uni-leipzig.de/~swp13-wb/">DRW Personendatenbank - TTLConverter and HTML Parser</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Module&nbsp;convertHelper
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="convertHelper-pysrc.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<h1 class="epydoc">Source Code for <a href="convertHelper-module.html">Module convertHelper</a></h1>
+<pre class="py-src">
+<a name="L1"></a><tt class="py-lineno">  1</tt>  <tt class="py-line"><tt class="py-comment">#!/usr/bin/python</tt> </tt>
+<a name="L2"></a><tt class="py-lineno">  2</tt>  <tt class="py-line"><tt class="py-comment"># -*- coding: UTF-8 -*-</tt> </tt>
+<a name="L3"></a><tt class="py-lineno">  3</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt class="py-name">codecs</tt> </tt>
+<a name="L4"></a><tt class="py-lineno">  4</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt class="py-name">sys</tt> </tt>
+<a name="L5"></a><tt class="py-lineno">  5</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt class="py-name">os</tt> </tt>
+<a name="L6"></a><tt class="py-lineno">  6</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt class="py-name">pickle</tt> </tt>
+<a name="L7"></a><tt class="py-lineno">  7</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt class="py-name">cgi</tt> <tt class="py-comment">#Fuer die HTML Entities</tt> </tt>
+<a name="L8"></a><tt class="py-lineno">  8</tt>  <tt class="py-line"> </tt>
+<a name="L9"></a><tt class="py-lineno">  9</tt>  <tt class="py-line"><tt class="py-comment"># Daten aus einer pickle Datei lesen</tt> </tt>
+<a name="openPickle"></a><div id="openPickle-def"><a name="L10"></a><tt class="py-lineno"> 10</tt> <a class="py-toggle" href="#" id="openPickle-toggle" onclick="return toggle('openPickle');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="convertHelper-module.html#openPickle">openPickle</a><tt class="py-op">(</tt><tt class="py-param">pfad</tt><tt class="py-op">,</tt> <tt class="py-param">dateiname</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="openPickle-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="openPickle-expanded"><a name="L11"></a><tt class="py-lineno"> 11</tt>  <tt class="py-line">        <tt class="py-docstring">"""</tt> </tt>
+<a name="L12"></a><tt class="py-lineno"> 12</tt>  <tt class="py-line"><tt class="py-docstring">        opens .pickle formated files</tt> </tt>
+<a name="L13"></a><tt class="py-lineno"> 13</tt>  <tt class="py-line"><tt class="py-docstring">        @param pfad: path of the file</tt> </tt>
+<a name="L14"></a><tt class="py-lineno"> 14</tt>  <tt class="py-line"><tt class="py-docstring">        @param dateiname: name of the file which should be opened</tt> </tt>
+<a name="L15"></a><tt class="py-lineno"> 15</tt>  <tt class="py-line"><tt class="py-docstring">        @return: data structure which was contained in .pickle file   </tt> </tt>
+<a name="L16"></a><tt class="py-lineno"> 16</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L17"></a><tt class="py-lineno"> 17</tt>  <tt class="py-line">        <tt class="py-name">datei</tt> <tt class="py-op">=</tt> <tt class="py-name">pfad</tt><tt class="py-op">+</tt><tt class="py-string">"/"</tt><tt class="py-op">+</tt><tt class="py-name">dateiname</tt> </tt>
+<a name="L18"></a><tt class="py-lineno"> 18</tt>  <tt class="py-line">        <tt class="py-name">newPickle</tt> <tt class="py-op">=</tt> <tt class="py-name">dict</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
+<a name="L19"></a><tt class="py-lineno"> 19</tt>  <tt class="py-line"><tt class="py-comment">#       print datei</tt> </tt>
+<a name="L20"></a><tt class="py-lineno"> 20</tt>  <tt class="py-line">        <tt class="py-keyword">try</tt><tt class="py-op">:</tt> </tt>
+<a name="L21"></a><tt class="py-lineno"> 21</tt>  <tt class="py-line">                <tt class="py-name">in_file</tt> <tt class="py-op">=</tt> <tt class="py-name">codecs</tt><tt class="py-op">.</tt><tt class="py-name">open</tt><tt class="py-op">(</tt><tt class="py-name">datei</tt><tt class="py-op">)</tt> </tt>
+<a name="L22"></a><tt class="py-lineno"> 22</tt>  <tt class="py-line">                <tt class="py-name">text</tt> <tt class="py-op">=</tt> <tt class="py-name">in_file</tt><tt class="py-op">.</tt><tt class="py-name">read</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
+<a name="L23"></a><tt class="py-lineno"> 23</tt>  <tt class="py-line"><tt class="py-comment">#               print(text)</tt> </tt>
+<a name="L24"></a><tt class="py-lineno"> 24</tt>  <tt class="py-line">                <tt class="py-name">newPickle</tt> <tt class="py-op">=</tt> <tt class="py-name">pickle</tt><tt class="py-op">.</tt><tt class="py-name">loads</tt><tt class="py-op">(</tt><tt class="py-name">text</tt><tt class="py-op">)</tt> </tt>
+<a name="L25"></a><tt class="py-lineno"> 25</tt>  <tt class="py-line">                <tt class="py-name">in_file</tt><tt class="py-op">.</tt><tt class="py-name">close</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
+<a name="L26"></a><tt class="py-lineno"> 26</tt>  <tt class="py-line">        <tt class="py-keyword">except</tt> <tt class="py-name">IOError</tt><tt class="py-op">:</tt> </tt>
+<a name="L27"></a><tt class="py-lineno"> 27</tt>  <tt class="py-line">                <tt class="py-keyword">print</tt><tt class="py-op">(</tt><tt class="py-string">"The file you want to open does not exist."</tt><tt class="py-op">)</tt> </tt>
+<a name="L28"></a><tt class="py-lineno"> 28</tt>  <tt class="py-line">                <tt class="py-keyword">print</tt> <tt class="py-name">IOError</tt> </tt>
+<a name="L29"></a><tt class="py-lineno"> 29</tt>  <tt class="py-line">                 </tt>
+<a name="L30"></a><tt class="py-lineno"> 30</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">newPickle</tt> </tt>
+</div><a name="L31"></a><tt class="py-lineno"> 31</tt>  <tt class="py-line"> </tt>
+<a name="save"></a><div id="save-def"><a name="L32"></a><tt class="py-lineno"> 32</tt> <a class="py-toggle" href="#" id="save-toggle" onclick="return toggle('save');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="convertHelper-module.html#save">save</a><tt class="py-op">(</tt><tt class="py-param">text</tt><tt class="py-op">,</tt> <tt class="py-param">pfad</tt><tt class="py-op">,</tt> <tt class="py-param">dateiname</tt><tt class="py-op">,</tt> <tt class="py-param">ending</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="save-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="save-expanded"><a name="L33"></a><tt class="py-lineno"> 33</tt>  <tt class="py-line">        <tt class="py-docstring">"""</tt> </tt>
+<a name="L34"></a><tt class="py-lineno"> 34</tt>  <tt class="py-line"><tt class="py-docstring">        method to save text as file</tt> </tt>
+<a name="L35"></a><tt class="py-lineno"> 35</tt>  <tt class="py-line"><tt class="py-docstring">        @param text: text to store</tt> </tt>
+<a name="L36"></a><tt class="py-lineno"> 36</tt>  <tt class="py-line"><tt class="py-docstring">        @param pfad: path where the file should be stored</tt> </tt>
+<a name="L37"></a><tt class="py-lineno"> 37</tt>  <tt class="py-line"><tt class="py-docstring">        @param ending:  ending of the file name e.g. ".txt"  </tt> </tt>
+<a name="L38"></a><tt class="py-lineno"> 38</tt>  <tt class="py-line"><tt class="py-docstring"> </tt> </tt>
+<a name="L39"></a><tt class="py-lineno"> 39</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L40"></a><tt class="py-lineno"> 40</tt>  <tt class="py-line">        <tt class="py-name">dateiname</tt> <tt class="py-op">=</tt> <tt class="py-name">dateiname</tt><tt class="py-op">.</tt><tt class="py-name">partition</tt><tt class="py-op">(</tt><tt class="py-string">"."</tt><tt class="py-op">)</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> <tt class="py-op">+</tt> <tt class="py-name">ending</tt> </tt>
+<a name="L41"></a><tt class="py-lineno"> 41</tt>  <tt class="py-line">        <tt class="py-name">datei</tt> <tt class="py-op">=</tt> <tt class="py-name">pfad</tt><tt class="py-op">+</tt><tt class="py-string">"/"</tt><tt class="py-op">+</tt><tt class="py-name">dateiname</tt> </tt>
+<a name="L42"></a><tt class="py-lineno"> 42</tt>  <tt class="py-line">        <tt class="py-keyword">try</tt><tt class="py-op">:</tt> </tt>
+<a name="L43"></a><tt class="py-lineno"> 43</tt>  <tt class="py-line">                <tt class="py-name">out_file</tt> <tt class="py-op">=</tt> <tt class="py-name">codecs</tt><tt class="py-op">.</tt><tt class="py-name">open</tt><tt class="py-op">(</tt><tt class="py-name">datei</tt><tt class="py-op">,</tt> <tt class="py-name">mode</tt><tt class="py-op">=</tt><tt class="py-string">"w"</tt><tt class="py-op">,</tt><tt class="py-name">encoding</tt><tt class="py-op">=</tt><tt class="py-string">'utf-8'</tt><tt class="py-op">)</tt> </tt>
+<a name="L44"></a><tt class="py-lineno"> 44</tt>  <tt class="py-line">                <tt class="py-name">out_file</tt><tt class="py-op">.</tt><tt class="py-name">write</tt><tt class="py-op">(</tt><tt class="py-name">text</tt><tt class="py-op">)</tt> </tt>
+<a name="L45"></a><tt class="py-lineno"> 45</tt>  <tt class="py-line">                <tt class="py-name">out_file</tt><tt class="py-op">.</tt><tt class="py-name">close</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
+<a name="L46"></a><tt class="py-lineno"> 46</tt>  <tt class="py-line">        <tt class="py-keyword">except</tt> <tt class="py-name">IOError</tt><tt class="py-op">:</tt> </tt>
+<a name="L47"></a><tt class="py-lineno"> 47</tt>  <tt class="py-line">                <tt class="py-keyword">print</tt><tt class="py-op">(</tt><tt class="py-string">"Could not store file."</tt><tt class="py-op">+</tt> <tt class="py-name">str</tt><tt class="py-op">(</tt><tt class="py-name">IOError</tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L48"></a><tt class="py-lineno"> 48</tt>  <tt class="py-line"> </tt>
+<a name="L49"></a><tt class="py-lineno"> 49</tt>  <tt class="py-line"> </tt>
+<a name="L50"></a><tt class="py-lineno"> 50</tt>  <tt class="py-line"> </tt>
+<a name="print_what_it_is"></a><div id="print_what_it_is-def"><a name="L51"></a><tt class="py-lineno"> 51</tt> <a class="py-toggle" href="#" id="print_what_it_is-toggle" onclick="return toggle('print_what_it_is');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="convertHelper-module.html#print_what_it_is">print_what_it_is</a><tt class="py-op">(</tt><tt class="py-param">structure</tt><tt class="py-op">,</tt> <tt class="py-param">printContent</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">,</tt> <tt class="py-param">level</tt><tt class="py-op">=</tt><tt class="py-number">0</tt> <tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="print_what_it_is-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="print_what_it_is-expanded"><a name="L52"></a><tt class="py-lineno"> 52</tt>  <tt class="py-line">        <tt class="py-docstring">"""</tt> </tt>
+<a name="L53"></a><tt class="py-lineno"> 53</tt>  <tt class="py-line"><tt class="py-docstring">        generic function to print structered Data with list(), str, unicode, dict(), </tt> </tt>
+<a name="L54"></a><tt class="py-lineno"> 54</tt>  <tt class="py-line"><tt class="py-docstring">        tuple() objects. </tt> </tt>
+<a name="L55"></a><tt class="py-lineno"> 55</tt>  <tt class="py-line"><tt class="py-docstring">        </tt> </tt>
+<a name="L56"></a><tt class="py-lineno"> 56</tt>  <tt class="py-line"><tt class="py-docstring">        @param structure: The object you want to print</tt> </tt>
+<a name="L57"></a><tt class="py-lineno"> 57</tt>  <tt class="py-line"><tt class="py-docstring">        @param printContent: Boolean indicates if the str and unicode objects should</tt> </tt>
+<a name="L58"></a><tt class="py-lineno"> 58</tt>  <tt class="py-line"><tt class="py-docstring">        be displayed (True) or not (False). In this case "unicode" and "string" will</tt> </tt>
+<a name="L59"></a><tt class="py-lineno"> 59</tt>  <tt class="py-line"><tt class="py-docstring">        be displayed instead.</tt> </tt>
+<a name="L60"></a><tt class="py-lineno"> 60</tt>  <tt class="py-line"><tt class="py-docstring">        @param level: Do not use. Only for recursive function of this method.</tt> </tt>
+<a name="L61"></a><tt class="py-lineno"> 61</tt>  <tt class="py-line"><tt class="py-docstring">        @return: str with json like structure of the object</tt> </tt>
+<a name="L62"></a><tt class="py-lineno"> 62</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L63"></a><tt class="py-lineno"> 63</tt>  <tt class="py-line">        <tt class="py-keyword">def</tt> <tt class="py-def-name">levelTabPrint</tt><tt class="py-op">(</tt><tt class="py-param">text</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L64"></a><tt class="py-lineno"> 64</tt>  <tt class="py-line">                <tt class="py-keyword">for</tt> <tt class="py-name">step</tt> <tt class="py-keyword">in</tt> <tt class="py-name">range</tt><tt class="py-op">(</tt><tt class="py-name">level</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L65"></a><tt class="py-lineno"> 65</tt>  <tt class="py-line">                        <tt class="py-name">text</tt> <tt class="py-op">+=</tt> <tt class="py-string">u' '</tt> </tt>
+<a name="L66"></a><tt class="py-lineno"> 66</tt>  <tt class="py-line">                <tt class="py-keyword">return</tt> <tt class="py-name">text</tt> </tt>
+</div><a name="L67"></a><tt class="py-lineno"> 67</tt>  <tt class="py-line">        <tt class="py-name">text</tt> <tt class="py-op">=</tt> <tt class="py-string">u''</tt> </tt>
+<a name="L68"></a><tt class="py-lineno"> 68</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-name">isinstance</tt><tt class="py-op">(</tt><tt class="py-name">structure</tt><tt class="py-op">,</tt><tt class="py-name">type</tt><tt class="py-op">(</tt><tt class="py-string">u''</tt><tt class="py-op">)</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L69"></a><tt class="py-lineno"> 69</tt>  <tt class="py-line">                <tt class="py-name">text</tt> <tt class="py-op">=</tt> <tt class="py-name">levelTabPrint</tt><tt class="py-op">(</tt><tt class="py-name">text</tt><tt class="py-op">)</tt> </tt>
+<a name="L70"></a><tt class="py-lineno"> 70</tt>  <tt class="py-line">                <tt class="py-keyword">if</tt> <tt class="py-name">printContent</tt><tt class="py-op">:</tt> </tt>
+<a name="L71"></a><tt class="py-lineno"> 71</tt>  <tt class="py-line">                        <tt class="py-name">text</tt> <tt class="py-op">+=</tt> <tt class="py-name">structure</tt> </tt>
+<a name="L72"></a><tt class="py-lineno"> 72</tt>  <tt class="py-line">                <tt class="py-keyword">else</tt><tt class="py-op">:</tt> </tt>
+<a name="L73"></a><tt class="py-lineno"> 73</tt>  <tt class="py-line">                        <tt class="py-name">text</tt> <tt class="py-op">+=</tt> <tt class="py-string">"&lt;unicode&gt;"</tt> </tt>
+<a name="L74"></a><tt class="py-lineno"> 74</tt>  <tt class="py-line"><tt class="py-comment">#               print(structure)</tt> </tt>
+<a name="L75"></a><tt class="py-lineno"> 75</tt>  <tt class="py-line">        <tt class="py-keyword">elif</tt> <tt class="py-name">isinstance</tt><tt class="py-op">(</tt><tt class="py-name">structure</tt><tt class="py-op">,</tt><tt class="py-name">type</tt><tt class="py-op">(</tt><tt class="py-string">""</tt><tt class="py-op">)</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L76"></a><tt class="py-lineno"> 76</tt>  <tt class="py-line">                <tt class="py-name">text</tt> <tt class="py-op">=</tt> <tt class="py-name">levelTabPrint</tt><tt class="py-op">(</tt><tt class="py-name">text</tt><tt class="py-op">)</tt> </tt>
+<a name="L77"></a><tt class="py-lineno"> 77</tt>  <tt class="py-line">                <tt class="py-keyword">if</tt> <tt class="py-name">printContent</tt><tt class="py-op">:</tt> </tt>
+<a name="L78"></a><tt class="py-lineno"> 78</tt>  <tt class="py-line">                        <tt class="py-name">text</tt> <tt class="py-op">+=</tt> <tt class="py-name">structure</tt> </tt>
+<a name="L79"></a><tt class="py-lineno"> 79</tt>  <tt class="py-line">                <tt class="py-keyword">else</tt><tt class="py-op">:</tt> </tt>
+<a name="L80"></a><tt class="py-lineno"> 80</tt>  <tt class="py-line">                        <tt class="py-name">text</tt> <tt class="py-op">+=</tt> <tt class="py-string">"&lt;string&gt;"</tt> </tt>
+<a name="L81"></a><tt class="py-lineno"> 81</tt>  <tt class="py-line"><tt class="py-comment">#               print(structure)</tt> </tt>
+<a name="L82"></a><tt class="py-lineno"> 82</tt>  <tt class="py-line">        <tt class="py-keyword">elif</tt> <tt class="py-name">isinstance</tt><tt class="py-op">(</tt><tt class="py-name">structure</tt><tt class="py-op">,</tt><tt class="py-name">type</tt><tt class="py-op">(</tt><tt class="py-op">[</tt><tt class="py-op">]</tt><tt class="py-op">)</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L83"></a><tt class="py-lineno"> 83</tt>  <tt class="py-line">                <tt class="py-name">text</tt> <tt class="py-op">=</tt> <tt class="py-name">levelTabPrint</tt><tt class="py-op">(</tt><tt class="py-name">text</tt><tt class="py-op">)</tt> </tt>
+<a name="L84"></a><tt class="py-lineno"> 84</tt>  <tt class="py-line">                <tt class="py-name">text</tt> <tt class="py-op">+=</tt> <tt class="py-string">u'[\n'</tt>  </tt>
+<a name="L85"></a><tt class="py-lineno"> 85</tt>  <tt class="py-line">                <tt class="py-keyword">for</tt> <tt class="py-name">entry</tt> <tt class="py-keyword">in</tt> <tt class="py-name">structure</tt><tt class="py-op">:</tt> </tt>
+<a name="L86"></a><tt class="py-lineno"> 86</tt>  <tt class="py-line">                        <tt class="py-name">text</tt> <tt class="py-op">+=</tt> <tt id="link-0" class="py-name" targets="Function convertHelper.print_what_it_is()=convertHelper-module.html#print_what_it_is"><a title="convertHelper.print_what_it_is" class="py-name" href="#" onclick="return doclink('link-0', 'print_what_it_is', 'link-0');">print_what_it_is</a></tt><tt class="py-op">(</tt><tt class="py-name">entry</tt><tt class="py-op">,</tt> <tt class="py-name">printContent</tt><tt class="py-op">,</tt> <tt class="py-name">level</tt><tt class="py-op">+</tt><tt class="py-number">1</tt><tt class="py-op">)</tt> </tt>
+<a name="L87"></a><tt class="py-lineno"> 87</tt>  <tt class="py-line">                <tt class="py-name">text</tt> <tt class="py-op">=</tt> <tt class="py-name">levelTabPrint</tt><tt class="py-op">(</tt><tt class="py-name">text</tt><tt class="py-op">)</tt> </tt>
+<a name="L88"></a><tt class="py-lineno"> 88</tt>  <tt class="py-line">                <tt class="py-name">text</tt> <tt class="py-op">+=</tt> <tt class="py-string">u']'</tt> </tt>
+<a name="L89"></a><tt class="py-lineno"> 89</tt>  <tt class="py-line">        <tt class="py-keyword">elif</tt> <tt class="py-name">isinstance</tt><tt class="py-op">(</tt><tt class="py-name">structure</tt><tt class="py-op">,</tt><tt class="py-name">type</tt><tt class="py-op">(</tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">)</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L90"></a><tt class="py-lineno"> 90</tt>  <tt class="py-line"><tt class="py-comment">#               for entry in structure:</tt> </tt>
+<a name="L91"></a><tt class="py-lineno"> 91</tt>  <tt class="py-line">                <tt class="py-name">text</tt> <tt class="py-op">=</tt> <tt class="py-name">levelTabPrint</tt><tt class="py-op">(</tt><tt class="py-name">text</tt><tt class="py-op">)</tt> </tt>
+<a name="L92"></a><tt class="py-lineno"> 92</tt>  <tt class="py-line">                <tt class="py-name">text</tt> <tt class="py-op">+=</tt> <tt class="py-string">u'("'</tt> <tt class="py-op">+</tt> <tt class="py-name">unicode</tt><tt class="py-op">(</tt><tt class="py-name">structure</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt><tt class="py-op">)</tt> <tt class="py-op">+</tt> <tt class="py-string">u'", &lt;inhalt&gt;)'</tt> </tt>
+<a name="L93"></a><tt class="py-lineno"> 93</tt>  <tt class="py-line">        <tt class="py-keyword">elif</tt> <tt class="py-name">isinstance</tt><tt class="py-op">(</tt><tt class="py-name">structure</tt><tt class="py-op">,</tt><tt class="py-name">type</tt><tt class="py-op">(</tt><tt class="py-op">{</tt><tt class="py-op">}</tt><tt class="py-op">)</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L94"></a><tt class="py-lineno"> 94</tt>  <tt class="py-line">                <tt class="py-name">text</tt> <tt class="py-op">+=</tt> <tt class="py-string">u'{\n'</tt> </tt>
+<a name="L95"></a><tt class="py-lineno"> 95</tt>  <tt class="py-line">                <tt class="py-name">level</tt> <tt class="py-op">+=</tt> <tt class="py-number">1</tt> </tt>
+<a name="L96"></a><tt class="py-lineno"> 96</tt>  <tt class="py-line"><tt class="py-comment">#               text = levelTabPrint(text)</tt> </tt>
+<a name="L97"></a><tt class="py-lineno"> 97</tt>  <tt class="py-line">                <tt class="py-keyword">for</tt> <tt class="py-name">entry</tt> <tt class="py-keyword">in</tt> <tt class="py-name">structure</tt><tt class="py-op">:</tt> </tt>
+<a name="L98"></a><tt class="py-lineno"> 98</tt>  <tt class="py-line">                        <tt class="py-name">text</tt> <tt class="py-op">=</tt> <tt class="py-name">levelTabPrint</tt><tt class="py-op">(</tt><tt class="py-name">text</tt><tt class="py-op">)</tt> </tt>
+<a name="L99"></a><tt class="py-lineno"> 99</tt>  <tt class="py-line">                        <tt class="py-name">text</tt> <tt class="py-op">+=</tt> <tt class="py-string">"'"</tt> <tt class="py-op">+</tt> <tt class="py-name">unicode</tt><tt class="py-op">(</tt><tt class="py-name">entry</tt><tt class="py-op">)</tt> <tt class="py-op">+</tt> <tt class="py-string">"'"</tt> <tt class="py-op">+</tt> <tt class="py-string">': \n'</tt> </tt>
+<a name="L100"></a><tt class="py-lineno">100</tt>  <tt class="py-line">                        <tt class="py-name">text</tt> <tt class="py-op">+=</tt> <tt id="link-1" class="py-name"><a title="convertHelper.print_what_it_is" class="py-name" href="#" onclick="return doclink('link-1', 'print_what_it_is', 'link-0');">print_what_it_is</a></tt><tt class="py-op">(</tt><tt class="py-name">structure</tt><tt class="py-op">[</tt><tt class="py-name">entry</tt><tt class="py-op">]</tt><tt class="py-op">,</tt> <tt class="py-name">printContent</tt><tt class="py-op">,</tt> <tt class="py-name">level</tt><tt class="py-op">+</tt><tt class="py-number">1</tt><tt class="py-op">)</tt> </tt>
+<a name="L101"></a><tt class="py-lineno">101</tt>  <tt class="py-line">                <tt class="py-name">level</tt> <tt class="py-op">-=</tt> <tt class="py-number">1</tt> </tt>
+<a name="L102"></a><tt class="py-lineno">102</tt>  <tt class="py-line"><tt class="py-comment">#               text = levelTabPrint(text)</tt> </tt>
+<a name="L103"></a><tt class="py-lineno">103</tt>  <tt class="py-line">                <tt class="py-name">text</tt> <tt class="py-op">+=</tt> <tt class="py-string">u'}'</tt> </tt>
+<a name="L104"></a><tt class="py-lineno">104</tt>  <tt class="py-line">        <tt class="py-keyword">else</tt><tt class="py-op">:</tt> </tt>
+<a name="L105"></a><tt class="py-lineno">105</tt>  <tt class="py-line">                <tt class="py-keyword">print</tt><tt class="py-op">(</tt><tt class="py-string">"ARRG: Type nicht erkannt: "</tt> <tt class="py-op">+</tt> <tt class="py-name">str</tt><tt class="py-op">(</tt><tt class="py-name">type</tt><tt class="py-op">(</tt><tt class="py-name">structure</tt><tt class="py-op">)</tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
+<a name="L106"></a><tt class="py-lineno">106</tt>  <tt class="py-line">        <tt class="py-name">text</tt> <tt class="py-op">+=</tt> <tt class="py-string">u'\n'</tt> </tt>
+<a name="L107"></a><tt class="py-lineno">107</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">text</tt> </tt>
+</div><a name="L108"></a><tt class="py-lineno">108</tt>  <tt class="py-line"> </tt>
+<a name="L109"></a><tt class="py-lineno">109</tt>  <tt class="py-line"> </tt>
+<a name="createASCIIString"></a><div id="createASCIIString-def"><a name="L110"></a><tt class="py-lineno">110</tt> <a class="py-toggle" href="#" id="createASCIIString-toggle" onclick="return toggle('createASCIIString');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="convertHelper-module.html#createASCIIString">createASCIIString</a><tt class="py-op">(</tt><tt class="py-param">text</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="createASCIIString-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="createASCIIString-expanded"><a name="L111"></a><tt class="py-lineno">111</tt>  <tt class="py-line">        <tt class="py-docstring">"""</tt> </tt>
+<a name="L112"></a><tt class="py-lineno">112</tt>  <tt class="py-line"><tt class="py-docstring">        Method to generate ASCII string out of unicode String.</tt> </tt>
+<a name="L113"></a><tt class="py-lineno">113</tt>  <tt class="py-line"><tt class="py-docstring">        You can be shure that there are only ASCII letters, all unknown not ASCII</tt> </tt>
+<a name="L114"></a><tt class="py-lineno">114</tt>  <tt class="py-line"><tt class="py-docstring">        letters will be deleted.</tt> </tt>
+<a name="L115"></a><tt class="py-lineno">115</tt>  <tt class="py-line"><tt class="py-docstring">        @param text: text which should be returned as ASCII</tt> </tt>
+<a name="L116"></a><tt class="py-lineno">116</tt>  <tt class="py-line"><tt class="py-docstring">        @return str with only ASCII letters inside. </tt> </tt>
+<a name="L117"></a><tt class="py-lineno">117</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L118"></a><tt class="py-lineno">118</tt>  <tt class="py-line">        <tt class="py-keyword">def</tt> <tt class="py-def-name">delSpecialChar</tt><tt class="py-op">(</tt><tt class="py-param">unicodeString</tt><tt class="py-op">,</tt> <tt class="py-param">htmlCode</tt><tt class="py-op">=</tt><tt class="py-name">True</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L119"></a><tt class="py-lineno">119</tt>  <tt class="py-line">                <tt class="py-docstring">"""     </tt> </tt>
+<a name="L120"></a><tt class="py-lineno">120</tt>  <tt class="py-line"><tt class="py-docstring">                Deletes all non Unicode Strings.</tt> </tt>
+<a name="L121"></a><tt class="py-lineno">121</tt>  <tt class="py-line"><tt class="py-docstring">                @param unicodeString: unicode string</tt> </tt>
+<a name="L122"></a><tt class="py-lineno">122</tt>  <tt class="py-line"><tt class="py-docstring">                @param htmlCode: If htmlCode=False " &lt;,&gt;,\", &amp;" will be deleted</tt> </tt>
+<a name="L123"></a><tt class="py-lineno">123</tt>  <tt class="py-line"><tt class="py-docstring">                @return str with only ascii inside </tt> </tt>
+<a name="L124"></a><tt class="py-lineno">124</tt>  <tt class="py-line"><tt class="py-docstring">                """</tt> </tt>
+<a name="L125"></a><tt class="py-lineno">125</tt>  <tt class="py-line">                <tt class="py-keyword">if</tt> <tt class="py-name">htmlCode</tt> <tt class="py-op">==</tt> <tt class="py-name">False</tt><tt class="py-op">:</tt> </tt>
+<a name="L126"></a><tt class="py-lineno">126</tt>  <tt class="py-line">                        <tt class="py-name">unicodeString</tt> <tt class="py-op">=</tt> <tt class="py-name">cgi</tt><tt class="py-op">.</tt><tt class="py-name">escape</tt><tt class="py-op">(</tt><tt class="py-name">unicodeString</tt><tt class="py-op">,</tt> <tt class="py-name">quote</tt><tt class="py-op">=</tt><tt class="py-name">True</tt><tt class="py-op">)</tt> </tt>
+<a name="L127"></a><tt class="py-lineno">127</tt>  <tt class="py-line">                <tt class="py-name">asciiString</tt> <tt class="py-op">=</tt> <tt class="py-name">unicodeString</tt><tt class="py-op">.</tt><tt class="py-name">encode</tt><tt class="py-op">(</tt><tt class="py-string">'ascii'</tt><tt class="py-op">,</tt> <tt class="py-string">'ignore'</tt><tt class="py-op">)</tt> </tt>
+<a name="L128"></a><tt class="py-lineno">128</tt>  <tt class="py-line">                <tt class="py-keyword">del</tt><tt class="py-op">(</tt><tt class="py-name">unicodeString</tt><tt class="py-op">)</tt> </tt>
+<a name="L129"></a><tt class="py-lineno">129</tt>  <tt class="py-line">                <tt class="py-keyword">return</tt> <tt class="py-name">asciiString</tt> </tt>
+</div><a name="L130"></a><tt class="py-lineno">130</tt>  <tt class="py-line">         </tt>
+<a name="L131"></a><tt class="py-lineno">131</tt>  <tt class="py-line">        <tt class="py-keyword">def</tt> <tt class="py-def-name">cleanTextForResName</tt><tt class="py-op">(</tt><tt class="py-param">text</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L132"></a><tt class="py-lineno">132</tt>  <tt class="py-line">                <tt class="py-docstring">"""</tt> </tt>
+<a name="L133"></a><tt class="py-lineno">133</tt>  <tt class="py-line"><tt class="py-docstring">                Replaces some forbidden signs: ".,:;()'! -"</tt> </tt>
+<a name="L134"></a><tt class="py-lineno">134</tt>  <tt class="py-line"><tt class="py-docstring">                @param text: text which should be cleaned</tt> </tt>
+<a name="L135"></a><tt class="py-lineno">135</tt>  <tt class="py-line"><tt class="py-docstring">                @return: str with cleaned text  </tt> </tt>
+<a name="L136"></a><tt class="py-lineno">136</tt>  <tt class="py-line"><tt class="py-docstring">                """</tt> </tt>
+<a name="L137"></a><tt class="py-lineno">137</tt>  <tt class="py-line">                <tt class="py-name">forbiddenTokens</tt> <tt class="py-op">=</tt> <tt class="py-string">".,:;()'!"</tt> <tt class="py-comment">#sollen geloescht werden</tt> </tt>
+<a name="L138"></a><tt class="py-lineno">138</tt>  <tt class="py-line">                <tt class="py-keyword">for</tt> <tt class="py-name">token</tt> <tt class="py-keyword">in</tt> <tt class="py-name">forbiddenTokens</tt><tt class="py-op">:</tt> </tt>
+<a name="L139"></a><tt class="py-lineno">139</tt>  <tt class="py-line">                        <tt class="py-name">text</tt> <tt class="py-op">=</tt> <tt class="py-name">text</tt><tt class="py-op">.</tt><tt class="py-name">replace</tt><tt class="py-op">(</tt><tt class="py-name">token</tt><tt class="py-op">,</tt> <tt class="py-string">""</tt><tt class="py-op">)</tt> </tt>
+<a name="L140"></a><tt class="py-lineno">140</tt>  <tt class="py-line">                <tt class="py-name">text</tt> <tt class="py-op">=</tt> <tt class="py-name">text</tt><tt class="py-op">.</tt><tt class="py-name">strip</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
+<a name="L141"></a><tt class="py-lineno">141</tt>  <tt class="py-line">                <tt class="py-name">text</tt> <tt class="py-op">=</tt> <tt class="py-name">text</tt><tt class="py-op">.</tt><tt class="py-name">replace</tt><tt class="py-op">(</tt><tt class="py-string">" "</tt><tt class="py-op">,</tt> <tt class="py-string">"_"</tt><tt class="py-op">)</tt> </tt>
+<a name="L142"></a><tt class="py-lineno">142</tt>  <tt class="py-line">                <tt class="py-name">text</tt> <tt class="py-op">=</tt> <tt class="py-name">text</tt><tt class="py-op">.</tt><tt class="py-name">replace</tt><tt class="py-op">(</tt><tt class="py-string">"-"</tt><tt class="py-op">,</tt> <tt class="py-string">"_"</tt><tt class="py-op">)</tt> </tt>
+<a name="L143"></a><tt class="py-lineno">143</tt>  <tt class="py-line">                <tt class="py-keyword">return</tt> <tt class="py-name">text</tt> </tt>
+</div><a name="L144"></a><tt class="py-lineno">144</tt>  <tt class="py-line">         </tt>
+<a name="L145"></a><tt class="py-lineno">145</tt>  <tt class="py-line">        <tt class="py-name">delSpecialChar</tt><tt class="py-op">(</tt><tt class="py-name">text</tt><tt class="py-op">,</tt> <tt class="py-name">htmlCode</tt><tt class="py-op">=</tt><tt class="py-name">True</tt><tt class="py-op">)</tt> </tt>
+<a name="L146"></a><tt class="py-lineno">146</tt>  <tt class="py-line">        <tt class="py-name">text</tt> <tt class="py-op">=</tt> <tt class="py-name">cleanTextForResName</tt><tt class="py-op">(</tt><tt class="py-name">text</tt><tt class="py-op">)</tt> </tt>
+<a name="L147"></a><tt class="py-lineno">147</tt>  <tt class="py-line">         </tt>
+<a name="L148"></a><tt class="py-lineno">148</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">text</tt> </tt>
+</div><a name="L149"></a><tt class="py-lineno">149</tt>  <tt class="py-line"> </tt>
+<a name="L150"></a><tt class="py-lineno">150</tt>  <tt class="py-line"> </tt>
+<a name="L151"></a><tt class="py-lineno">151</tt>  <tt class="py-line"> </tt>
+<a name="L152"></a><tt class="py-lineno">152</tt>  <tt class="py-line"> </tt>
+<a name="transLitGerRu"></a><div id="transLitGerRu-def"><a name="L153"></a><tt class="py-lineno">153</tt> <a class="py-toggle" href="#" id="transLitGerRu-toggle" onclick="return toggle('transLitGerRu');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="convertHelper-module.html#transLitGerRu">transLitGerRu</a><tt class="py-op">(</tt><tt class="py-param">string</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="transLitGerRu-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="transLitGerRu-expanded"><a name="L154"></a><tt class="py-lineno">154</tt>  <tt class="py-line">        <tt class="py-docstring">"""</tt> </tt>
+<a name="L155"></a><tt class="py-lineno">155</tt>  <tt class="py-line"><tt class="py-docstring">        Transliterates string from german transliteration to kyrillic letters.</tt> </tt>
+<a name="L156"></a><tt class="py-lineno">156</tt>  <tt class="py-line"><tt class="py-docstring">        @param string: unicode in german transliteration</tt> </tt>
+<a name="L157"></a><tt class="py-lineno">157</tt>  <tt class="py-line"><tt class="py-docstring">        @return: unicode in kyrillic letters </tt> </tt>
+<a name="L158"></a><tt class="py-lineno">158</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L159"></a><tt class="py-lineno">159</tt>  <tt class="py-line"><tt class="py-comment"># Die Buchstaben ju und ch (Ch, Ju) und sind zu lang. Deswegen wird erst  ch durch h und Ju durch &#219; ersetzt (Das entspricht der offiziellen Transkription) - Das gleiche gilt fuer &#353;&#269;, &#352;&#269;, &#352;&#268;, das wird erst in &#349; bzw. &#348; uebersetzt </tt> </tt>
+<a name="L160"></a><tt class="py-lineno">160</tt>  <tt class="py-line"><tt class="py-comment">#ACHTUNG Vielleicht noch probleme beim Haertezeichen</tt> </tt>
+<a name="L161"></a><tt class="py-lineno">161</tt>  <tt class="py-line">        <tt class="py-name">gerRu</tt> <tt class="py-op">=</tt> <tt class="py-op">{</tt><tt class="py-op">}</tt> </tt>
+<a name="L162"></a><tt class="py-lineno">162</tt>  <tt class="py-line">        <tt class="py-name">gerRu</tt><tt class="py-op">.</tt><tt class="py-name">update</tt><tt class="py-op">(</tt><tt class="py-op">{</tt><tt class="py-string">u"'"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1100;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"&#8217;"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1100;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"A"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1040;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"B"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1041;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"C"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1062;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"D"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1044;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"E"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1045;"</tt><tt class="py-op">}</tt><tt class="py-op">)</tt> </tt>
+<a name="L163"></a><tt class="py-lineno">163</tt>  <tt class="py-line">        <tt class="py-name">gerRu</tt><tt class="py-op">.</tt><tt class="py-name">update</tt><tt class="py-op">(</tt><tt class="py-op">{</tt><tt class="py-string">u"F"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1060;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"G"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1043;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"H"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1061;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"I"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1048;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"J"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1049;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"K"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1050;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"L"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1051;"</tt><tt class="py-op">}</tt><tt class="py-op">)</tt> </tt>
+<a name="L164"></a><tt class="py-lineno">164</tt>  <tt class="py-line">        <tt class="py-name">gerRu</tt><tt class="py-op">.</tt><tt class="py-name">update</tt><tt class="py-op">(</tt><tt class="py-op">{</tt><tt class="py-string">u"M"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1052;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"N"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1053;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"O"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1054;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"P"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1055;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"R"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1056;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"S"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1057;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"T"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1058;"</tt><tt class="py-op">}</tt><tt class="py-op">)</tt> </tt>
+<a name="L165"></a><tt class="py-lineno">165</tt>  <tt class="py-line">        <tt class="py-name">gerRu</tt><tt class="py-op">.</tt><tt class="py-name">update</tt><tt class="py-op">(</tt><tt class="py-op">{</tt><tt class="py-string">u"U"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1059;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"V"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1042;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"Y"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1067;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"Z"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1047;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"a"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1072;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"b"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1073;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"c"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1094;"</tt><tt class="py-op">}</tt><tt class="py-op">)</tt> </tt>
+<a name="L166"></a><tt class="py-lineno">166</tt>  <tt class="py-line">        <tt class="py-name">gerRu</tt><tt class="py-op">.</tt><tt class="py-name">update</tt><tt class="py-op">(</tt><tt class="py-op">{</tt><tt class="py-string">u"d"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1076;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"e"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1077;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"f"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1092;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"g"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1075;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"h"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1093;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"i"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1080;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"j"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1081;"</tt><tt class="py-op">}</tt><tt class="py-op">)</tt> </tt>
+<a name="L167"></a><tt class="py-lineno">167</tt>  <tt class="py-line">        <tt class="py-name">gerRu</tt><tt class="py-op">.</tt><tt class="py-name">update</tt><tt class="py-op">(</tt><tt class="py-op">{</tt><tt class="py-string">u"k"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1082;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"l"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1083;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"m"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1084;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"n"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1085;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"o"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1086;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"p"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1087;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"r"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1088;"</tt><tt class="py-op">}</tt><tt class="py-op">)</tt> </tt>
+<a name="L168"></a><tt class="py-lineno">168</tt>  <tt class="py-line">        <tt class="py-name">gerRu</tt><tt class="py-op">.</tt><tt class="py-name">update</tt><tt class="py-op">(</tt><tt class="py-op">{</tt><tt class="py-string">u"s"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1089;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"t"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1090;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"u"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1091;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"v"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1074;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"y"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1099;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"z"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1079;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"&#194;"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1071;"</tt><tt class="py-op">}</tt><tt class="py-op">)</tt> </tt>
+<a name="L169"></a><tt class="py-lineno">169</tt>  <tt class="py-line">        <tt class="py-name">gerRu</tt><tt class="py-op">.</tt><tt class="py-name">update</tt><tt class="py-op">(</tt><tt class="py-op">{</tt><tt class="py-string">u"&#278;"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1069;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"&#219;"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1070;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"&#226;"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1103;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"&#279;"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1101;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"&#251;"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1102;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"&#268;"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1063;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"&#269;"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1095;"</tt><tt class="py-op">}</tt><tt class="py-op">)</tt> </tt>
+<a name="L170"></a><tt class="py-lineno">170</tt>  <tt class="py-line">        <tt class="py-name">gerRu</tt><tt class="py-op">.</tt><tt class="py-name">update</tt><tt class="py-op">(</tt><tt class="py-op">{</tt><tt class="py-string">u"&#348;"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1065;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"&#349;"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1097;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"&#352;"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1064;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"&#353;"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1096;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"&#381;"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1046;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"&#382;"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1078;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"&#698;"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1098;"</tt><tt class="py-op">}</tt><tt class="py-op">)</tt> </tt>
+<a name="L171"></a><tt class="py-lineno">171</tt>  <tt class="py-line">        <tt class="py-name">gerRu</tt><tt class="py-op">.</tt><tt class="py-name">update</tt><tt class="py-op">(</tt><tt class="py-op">{</tt><tt class="py-string">u"&#1105;"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1105;"</tt><tt class="py-op">,</tt> <tt class="py-string">u"&#1025;"</tt><tt class="py-op">:</tt><tt class="py-string">u"&#1025;"</tt><tt class="py-op">}</tt><tt class="py-op">)</tt> </tt>
+<a name="L172"></a><tt class="py-lineno">172</tt>  <tt class="py-line">        <tt class="py-name">string</tt> <tt class="py-op">=</tt> <tt class="py-name">string</tt><tt class="py-op">.</tt><tt class="py-name">replace</tt><tt class="py-op">(</tt><tt class="py-string">u'ju'</tt><tt class="py-op">,</tt><tt class="py-string">u'&#251;'</tt><tt class="py-op">)</tt> </tt>
+<a name="L173"></a><tt class="py-lineno">173</tt>  <tt class="py-line">        <tt class="py-name">string</tt> <tt class="py-op">=</tt> <tt class="py-name">string</tt><tt class="py-op">.</tt><tt class="py-name">replace</tt><tt class="py-op">(</tt><tt class="py-string">u'Ju'</tt><tt class="py-op">,</tt><tt class="py-string">u'&#219;'</tt><tt class="py-op">)</tt> </tt>
+<a name="L174"></a><tt class="py-lineno">174</tt>  <tt class="py-line">        <tt class="py-name">string</tt> <tt class="py-op">=</tt> <tt class="py-name">string</tt><tt class="py-op">.</tt><tt class="py-name">replace</tt><tt class="py-op">(</tt><tt class="py-string">u'JU'</tt><tt class="py-op">,</tt><tt class="py-string">u'&#219;'</tt><tt class="py-op">)</tt> </tt>
+<a name="L175"></a><tt class="py-lineno">175</tt>  <tt class="py-line">        <tt class="py-name">string</tt> <tt class="py-op">=</tt> <tt class="py-name">string</tt><tt class="py-op">.</tt><tt class="py-name">replace</tt><tt class="py-op">(</tt><tt class="py-string">u'ja'</tt><tt class="py-op">,</tt><tt class="py-string">u'&#226;'</tt><tt class="py-op">)</tt> </tt>
+<a name="L176"></a><tt class="py-lineno">176</tt>  <tt class="py-line">        <tt class="py-name">string</tt> <tt class="py-op">=</tt> <tt class="py-name">string</tt><tt class="py-op">.</tt><tt class="py-name">replace</tt><tt class="py-op">(</tt><tt class="py-string">u'Ja'</tt><tt class="py-op">,</tt><tt class="py-string">u'&#194;'</tt><tt class="py-op">)</tt> </tt>
+<a name="L177"></a><tt class="py-lineno">177</tt>  <tt class="py-line">        <tt class="py-name">string</tt> <tt class="py-op">=</tt> <tt class="py-name">string</tt><tt class="py-op">.</tt><tt class="py-name">replace</tt><tt class="py-op">(</tt><tt class="py-string">u'JA'</tt><tt class="py-op">,</tt><tt class="py-string">u'&#194;'</tt><tt class="py-op">)</tt> </tt>
+<a name="L178"></a><tt class="py-lineno">178</tt>  <tt class="py-line">        <tt class="py-name">string</tt> <tt class="py-op">=</tt> <tt class="py-name">string</tt><tt class="py-op">.</tt><tt class="py-name">replace</tt><tt class="py-op">(</tt><tt class="py-string">u'ch'</tt><tt class="py-op">,</tt><tt class="py-string">u'h'</tt><tt class="py-op">)</tt> </tt>
+<a name="L179"></a><tt class="py-lineno">179</tt>  <tt class="py-line">        <tt class="py-name">string</tt> <tt class="py-op">=</tt> <tt class="py-name">string</tt><tt class="py-op">.</tt><tt class="py-name">replace</tt><tt class="py-op">(</tt><tt class="py-string">u'Ch'</tt><tt class="py-op">,</tt><tt class="py-string">u'H'</tt><tt class="py-op">)</tt> </tt>
+<a name="L180"></a><tt class="py-lineno">180</tt>  <tt class="py-line">        <tt class="py-name">string</tt> <tt class="py-op">=</tt> <tt class="py-name">string</tt><tt class="py-op">.</tt><tt class="py-name">replace</tt><tt class="py-op">(</tt><tt class="py-string">u'CH'</tt><tt class="py-op">,</tt><tt class="py-string">u'H'</tt><tt class="py-op">)</tt> </tt>
+<a name="L181"></a><tt class="py-lineno">181</tt>  <tt class="py-line">        <tt class="py-name">string</tt> <tt class="py-op">=</tt> <tt class="py-name">string</tt><tt class="py-op">.</tt><tt class="py-name">replace</tt><tt class="py-op">(</tt><tt class="py-string">u'&#353;&#269;'</tt><tt class="py-op">,</tt><tt class="py-string">u'&#349;'</tt><tt class="py-op">)</tt> </tt>
+<a name="L182"></a><tt class="py-lineno">182</tt>  <tt class="py-line">        <tt class="py-name">string</tt> <tt class="py-op">=</tt> <tt class="py-name">string</tt><tt class="py-op">.</tt><tt class="py-name">replace</tt><tt class="py-op">(</tt><tt class="py-string">u'&#352;&#269;'</tt><tt class="py-op">,</tt><tt class="py-string">u'&#348;'</tt><tt class="py-op">)</tt> </tt>
+<a name="L183"></a><tt class="py-lineno">183</tt>  <tt class="py-line">        <tt class="py-name">string</tt> <tt class="py-op">=</tt> <tt class="py-name">string</tt><tt class="py-op">.</tt><tt class="py-name">replace</tt><tt class="py-op">(</tt><tt class="py-string">u'&#352;&#268;'</tt><tt class="py-op">,</tt><tt class="py-string">u'&#348;'</tt><tt class="py-op">)</tt> </tt>
+<a name="L184"></a><tt class="py-lineno">184</tt>  <tt class="py-line">        <tt class="py-name">convertedString</tt> <tt class="py-op">=</tt> <tt class="py-string">u''</tt> </tt>
+<a name="L185"></a><tt class="py-lineno">185</tt>  <tt class="py-line">        <tt class="py-keyword">for</tt> <tt class="py-name">letter</tt> <tt class="py-keyword">in</tt> <tt class="py-name">string</tt><tt class="py-op">:</tt> </tt>
+<a name="L186"></a><tt class="py-lineno">186</tt>  <tt class="py-line">                <tt class="py-keyword">if</tt> <tt class="py-name">letter</tt> <tt class="py-keyword">in</tt> <tt class="py-name">gerRu</tt><tt class="py-op">:</tt> </tt>
+<a name="L187"></a><tt class="py-lineno">187</tt>  <tt class="py-line">                        <tt class="py-comment">#print('erkannt')</tt> </tt>
+<a name="L188"></a><tt class="py-lineno">188</tt>  <tt class="py-line">                        <tt class="py-name">convertedString</tt> <tt class="py-op">+=</tt> <tt class="py-name">gerRu</tt><tt class="py-op">[</tt><tt class="py-name">letter</tt><tt class="py-op">]</tt> </tt>
+<a name="L189"></a><tt class="py-lineno">189</tt>  <tt class="py-line">                <tt class="py-keyword">else</tt><tt class="py-op">:</tt> </tt>
+<a name="L190"></a><tt class="py-lineno">190</tt>  <tt class="py-line">                        <tt class="py-comment">#print('nicht erkannt')</tt> </tt>
+<a name="L191"></a><tt class="py-lineno">191</tt>  <tt class="py-line">                        <tt class="py-name">convertedString</tt> <tt class="py-op">+=</tt> <tt class="py-name">letter</tt> </tt>
+<a name="L192"></a><tt class="py-lineno">192</tt>  <tt class="py-line">                         </tt>
+<a name="L193"></a><tt class="py-lineno">193</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">convertedString</tt> </tt>
+</div><a name="L194"></a><tt class="py-lineno">194</tt>  <tt class="py-line"> </tt>
+<a name="L195"></a><tt class="py-lineno">195</tt>  <tt class="py-line"> </tt>
+<a name="L196"></a><tt class="py-lineno">196</tt>  <tt class="py-line">  </tt>
+<a name="getListOfPickles"></a><div id="getListOfPickles-def"><a name="L197"></a><tt class="py-lineno">197</tt> <a class="py-toggle" href="#" id="getListOfPickles-toggle" onclick="return toggle('getListOfPickles');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="convertHelper-module.html#getListOfPickles">getListOfPickles</a><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="getListOfPickles-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="getListOfPickles-expanded"><a name="L198"></a><tt class="py-lineno">198</tt>  <tt class="py-line">        <tt class="py-docstring">"""</tt> </tt>
+<a name="L199"></a><tt class="py-lineno">199</tt>  <tt class="py-line"><tt class="py-docstring">        Creates a List of Pickle File in a folder</tt> </tt>
+<a name="L200"></a><tt class="py-lineno">200</tt>  <tt class="py-line"><tt class="py-docstring">        @return: a list of the stored .pickle filenames</tt> </tt>
+<a name="L201"></a><tt class="py-lineno">201</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L202"></a><tt class="py-lineno">202</tt>  <tt class="py-line">        <tt class="py-name">pfadZuPickles</tt> <tt class="py-op">=</tt> <tt class="py-name">os</tt><tt class="py-op">.</tt><tt class="py-name">getcwd</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> <tt class="py-op">+</tt> <tt class="py-string">"/pickleFiles"</tt> </tt>
+<a name="L203"></a><tt class="py-lineno">203</tt>  <tt class="py-line">        <tt class="py-name">allFilesInPickleErgebnisse</tt> <tt class="py-op">=</tt> <tt class="py-name">os</tt><tt class="py-op">.</tt><tt class="py-name">listdir</tt><tt class="py-op">(</tt><tt class="py-name">pfadZuPickles</tt><tt class="py-op">)</tt> </tt>
+<a name="L204"></a><tt class="py-lineno">204</tt>  <tt class="py-line">        <tt class="py-name">allPickleFilesInList</tt> <tt class="py-op">=</tt> <tt class="py-op">[</tt><tt class="py-op">]</tt> </tt>
+<a name="L205"></a><tt class="py-lineno">205</tt>  <tt class="py-line">        <tt class="py-keyword">for</tt> <tt class="py-name">file</tt> <tt class="py-keyword">in</tt> <tt class="py-name">allFilesInPickleErgebnisse</tt><tt class="py-op">:</tt> </tt>
+<a name="L206"></a><tt class="py-lineno">206</tt>  <tt class="py-line">                <tt class="py-keyword">if</tt> <tt class="py-string">".pickle"</tt> <tt class="py-keyword">in</tt> <tt class="py-name">file</tt><tt class="py-op">:</tt> </tt>
+<a name="L207"></a><tt class="py-lineno">207</tt>  <tt class="py-line">                        <tt class="py-name">allPickleFilesInList</tt><tt class="py-op">.</tt><tt class="py-name">append</tt><tt class="py-op">(</tt><tt class="py-name">file</tt><tt class="py-op">)</tt> </tt>
+<a name="L208"></a><tt class="py-lineno">208</tt>  <tt class="py-line">        <tt class="py-comment">#Nach Name Sortieren</tt> </tt>
+<a name="L209"></a><tt class="py-lineno">209</tt>  <tt class="py-line">        <tt class="py-name">newFileList</tt> <tt class="py-op">=</tt> <tt class="py-op">[</tt><tt class="py-op">]</tt> </tt>
+<a name="L210"></a><tt class="py-lineno">210</tt>  <tt class="py-line">        <tt class="py-keyword">for</tt> <tt class="py-name">file</tt> <tt class="py-keyword">in</tt> <tt class="py-name">allPickleFilesInList</tt><tt class="py-op">:</tt> </tt>
+<a name="L211"></a><tt class="py-lineno">211</tt>  <tt class="py-line">                <tt class="py-name">person</tt> <tt class="py-op">=</tt> <tt id="link-2" class="py-name" targets="Function convertHelper.openPickle()=convertHelper-module.html#openPickle"><a title="convertHelper.openPickle" class="py-name" href="#" onclick="return doclink('link-2', 'openPickle', 'link-2');">openPickle</a></tt><tt class="py-op">(</tt><tt class="py-name">pfadZuPickles</tt><tt class="py-op">,</tt> <tt class="py-name">file</tt><tt class="py-op">)</tt> </tt>
+<a name="L212"></a><tt class="py-lineno">212</tt>  <tt class="py-line">                <tt class="py-name">name</tt> <tt class="py-op">=</tt> <tt class="py-name">unicode</tt><tt class="py-op">(</tt><tt class="py-name">person</tt><tt class="py-op">[</tt><tt class="py-string">"Name"</tt><tt class="py-op">]</tt><tt class="py-op">[</tt><tt class="py-string">"Nachname"</tt><tt class="py-op">]</tt><tt class="py-op">)</tt> </tt>
+<a name="L213"></a><tt class="py-lineno">213</tt>  <tt class="py-line">                <tt class="py-name">ident</tt> <tt class="py-op">=</tt> <tt class="py-name">unicode</tt><tt class="py-op">(</tt><tt class="py-name">person</tt><tt class="py-op">[</tt><tt class="py-string">"ID"</tt><tt class="py-op">]</tt><tt class="py-op">)</tt>  </tt>
+<a name="L214"></a><tt class="py-lineno">214</tt>  <tt class="py-line"><tt class="py-comment">#               print(name + ": " + ident)</tt> </tt>
+<a name="L215"></a><tt class="py-lineno">215</tt>  <tt class="py-line">                <tt class="py-name">newFileList</tt><tt class="py-op">.</tt><tt class="py-name">append</tt><tt class="py-op">(</tt><tt class="py-op">(</tt><tt class="py-name">name</tt><tt class="py-op">,</tt><tt class="py-name">ident</tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
+<a name="L216"></a><tt class="py-lineno">216</tt>  <tt class="py-line">        <tt class="py-name">newFileList</tt><tt class="py-op">.</tt><tt class="py-name">sort</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
+<a name="L217"></a><tt class="py-lineno">217</tt>  <tt class="py-line">        <tt class="py-keyword">for</tt> <tt class="py-name">numberOfName</tt> <tt class="py-keyword">in</tt> <tt class="py-name">range</tt><tt class="py-op">(</tt><tt class="py-name">len</tt><tt class="py-op">(</tt><tt class="py-name">newFileList</tt><tt class="py-op">)</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L218"></a><tt class="py-lineno">218</tt>  <tt class="py-line">                <tt class="py-name">newFileList</tt><tt class="py-op">[</tt><tt class="py-name">numberOfName</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">newFileList</tt><tt class="py-op">[</tt><tt class="py-name">numberOfName</tt><tt class="py-op">]</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> <tt class="py-op">+</tt> <tt class="py-string">u'.pickle'</tt> </tt>
+<a name="L219"></a><tt class="py-lineno">219</tt>  <tt class="py-line"><tt class="py-comment">#               print(newFileList[numberOfName])</tt> </tt>
+<a name="L220"></a><tt class="py-lineno">220</tt>  <tt class="py-line">         </tt>
+<a name="L221"></a><tt class="py-lineno">221</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">newFileList</tt> </tt>
+</div><a name="L222"></a><tt class="py-lineno">222</tt>  <tt class="py-line"> </tt>
+<a name="L223"></a><tt class="py-lineno">223</tt>  <tt class="py-line"> </tt>
+<a name="L224"></a><tt class="py-lineno">224</tt>  <tt class="py-line"> </tt>
+<a name="L225"></a><tt class="py-lineno">225</tt>  <tt class="py-line"> </tt>
+<a name="L226"></a><tt class="py-lineno">226</tt>  <tt class="py-line"><tt class="py-comment"># #TODO Ist aehnlich in curVitxmlToDict und soll da auch eigentlich hin</tt> </tt>
+<a name="L227"></a><tt class="py-lineno">227</tt>  <tt class="py-line"><tt class="py-comment"># #     hier nur weil ich zu faul bin alle Dicts nachzuberarbeiten. kommt aber noch!</tt> </tt>
+<a name="L228"></a><tt class="py-lineno">228</tt>  <tt class="py-line"><tt class="py-comment"># def getYearOfDate(dateText):</tt> </tt>
+<a name="L229"></a><tt class="py-lineno">229</tt>  <tt class="py-line"><tt class="py-comment">#       """</tt> </tt>
+<a name="L230"></a><tt class="py-lineno">230</tt>  <tt class="py-line"><tt class="py-comment">#               Sucht nach 4stelligen Jahreszahlen und stellt diese, wenn sie unter-</tt> </tt>
+<a name="L231"></a><tt class="py-lineno">231</tt>  <tt class="py-line"><tt class="py-comment">#               schiedlich sind hintereinander dar.</tt> </tt>
+<a name="L232"></a><tt class="py-lineno">232</tt>  <tt class="py-line"><tt class="py-comment">#               Nicht besonders sicher.</tt> </tt>
+<a name="L233"></a><tt class="py-lineno">233</tt>  <tt class="py-line"><tt class="py-comment">#               TODO Nachschauen, was fuer spyialfaelle es gibt: so wie: 1867/68</tt> </tt>
+<a name="L234"></a><tt class="py-lineno">234</tt>  <tt class="py-line"><tt class="py-comment">#               Das wird bisher noch nicht erfasst.</tt> </tt>
+<a name="L235"></a><tt class="py-lineno">235</tt>  <tt class="py-line"><tt class="py-comment">#               TODO oder:"1845(?)"</tt> </tt>
+<a name="L236"></a><tt class="py-lineno">236</tt>  <tt class="py-line"><tt class="py-comment">#       """</tt> </tt>
+<a name="L237"></a><tt class="py-lineno">237</tt>  <tt class="py-line"><tt class="py-comment">#       whereIntsAre = ""</tt> </tt>
+<a name="L238"></a><tt class="py-lineno">238</tt>  <tt class="py-line"><tt class="py-comment">#       yearsInText = u''</tt> </tt>
+<a name="L239"></a><tt class="py-lineno">239</tt>  <tt class="py-line"><tt class="py-comment">#       yearsList = []</tt> </tt>
+<a name="L240"></a><tt class="py-lineno">240</tt>  <tt class="py-line"><tt class="py-comment">#       </tt> </tt>
+<a name="L241"></a><tt class="py-lineno">241</tt>  <tt class="py-line"><tt class="py-comment">#       for letter in dateText:</tt> </tt>
+<a name="L242"></a><tt class="py-lineno">242</tt>  <tt class="py-line"><tt class="py-comment">#               if letter.isdecimal():</tt> </tt>
+<a name="L243"></a><tt class="py-lineno">243</tt>  <tt class="py-line"><tt class="py-comment">#                       whereIntsAre += u'1'</tt> </tt>
+<a name="L244"></a><tt class="py-lineno">244</tt>  <tt class="py-line"><tt class="py-comment">#               else:</tt> </tt>
+<a name="L245"></a><tt class="py-lineno">245</tt>  <tt class="py-line"><tt class="py-comment">#                       whereIntsAre += u'0'</tt> </tt>
+<a name="L246"></a><tt class="py-lineno">246</tt>  <tt class="py-line"><tt class="py-comment">#       howManyYears = whereIntsAre.count(u'1111')</tt> </tt>
+<a name="L247"></a><tt class="py-lineno">247</tt>  <tt class="py-line"><tt class="py-comment">#       for year in range(howManyYears):</tt> </tt>
+<a name="L248"></a><tt class="py-lineno">248</tt>  <tt class="py-line"><tt class="py-comment">#               lastYearPlace = whereIntsAre.rfind(u'1111')</tt> </tt>
+<a name="L249"></a><tt class="py-lineno">249</tt>  <tt class="py-line"><tt class="py-comment">#               newYear = dateText[lastYearPlace:lastYearPlace+4]</tt> </tt>
+<a name="L250"></a><tt class="py-lineno">250</tt>  <tt class="py-line"><tt class="py-comment">#               if newYear not in yearsList:</tt> </tt>
+<a name="L251"></a><tt class="py-lineno">251</tt>  <tt class="py-line"><tt class="py-comment">#                       yearsList.append(newYear)</tt> </tt>
+<a name="L252"></a><tt class="py-lineno">252</tt>  <tt class="py-line"><tt class="py-comment">#               whereIntsAre = whereIntsAre[:whereIntsAre.rfind(u'1111')]</tt> </tt>
+<a name="L253"></a><tt class="py-lineno">253</tt>  <tt class="py-line"><tt class="py-comment">#       yearsList.sort()</tt> </tt>
+<a name="L254"></a><tt class="py-lineno">254</tt>  <tt class="py-line"><tt class="py-comment">#       for year in range(len(yearsList)):</tt> </tt>
+<a name="L255"></a><tt class="py-lineno">255</tt>  <tt class="py-line"><tt class="py-comment">#               if year != 0:</tt> </tt>
+<a name="L256"></a><tt class="py-lineno">256</tt>  <tt class="py-line"><tt class="py-comment">#                       yearsInText += u'/'</tt> </tt>
+<a name="L257"></a><tt class="py-lineno">257</tt>  <tt class="py-line"><tt class="py-comment">#               yearsInText += yearsList[year]</tt> </tt>
+<a name="L258"></a><tt class="py-lineno">258</tt>  <tt class="py-line"><tt class="py-comment"># #     print(dateText)</tt> </tt>
+<a name="L259"></a><tt class="py-lineno">259</tt>  <tt class="py-line"><tt class="py-comment"># #     print(whereIntsAre)</tt> </tt>
+<a name="L260"></a><tt class="py-lineno">260</tt>  <tt class="py-line"><tt class="py-comment"># #     print(yearsInText)</tt> </tt>
+<a name="L261"></a><tt class="py-lineno">261</tt>  <tt class="py-line"><tt class="py-comment"># </tt> </tt>
+<a name="L262"></a><tt class="py-lineno">262</tt>  <tt class="py-line"><tt class="py-comment">#       return yearsInText</tt> </tt>
+<a name="L263"></a><tt class="py-lineno">263</tt>  <tt class="py-line"> </tt>
+<a name="L264"></a><tt class="py-lineno">264</tt>  <tt class="py-line"><tt class="py-comment">#       </tt> </tt>
+<a name="L265"></a><tt class="py-lineno">265</tt>  <tt class="py-line"><tt class="py-comment"># def convertToHTMLEntities(unicodeString, htmlCode=True):</tt> </tt>
+<a name="L266"></a><tt class="py-lineno">266</tt>  <tt class="py-line"><tt class="py-comment">#       """     Konvertiert einen unicode String in einen ASCII String mit HTML </tt> </tt>
+<a name="L267"></a><tt class="py-lineno">267</tt>  <tt class="py-line"><tt class="py-comment">#               Entitaeten</tt> </tt>
+<a name="L268"></a><tt class="py-lineno">268</tt>  <tt class="py-line"><tt class="py-comment">#               Wenn htmlCode=False angegeben wird, dann werden auch &lt;,&gt;,\", &amp; </tt> </tt>
+<a name="L269"></a><tt class="py-lineno">269</tt>  <tt class="py-line"><tt class="py-comment">#               uebertragen. Das funktioniert natuerlich nicht mit htmlCode.Der ist ja </tt> </tt>
+<a name="L270"></a><tt class="py-lineno">270</tt>  <tt class="py-line"><tt class="py-comment">#               dann nicht mehr lesbar"""</tt> </tt>
+<a name="L271"></a><tt class="py-lineno">271</tt>  <tt class="py-line"><tt class="py-comment">#       if htmlCode == False:</tt> </tt>
+<a name="L272"></a><tt class="py-lineno">272</tt>  <tt class="py-line"><tt class="py-comment">#               unicodeString = cgi.escape(unicodeString, quote=True)</tt> </tt>
+<a name="L273"></a><tt class="py-lineno">273</tt>  <tt class="py-line"><tt class="py-comment">#       asciiString = unicodeString.encode('ascii', 'xmlcharrefreplace')</tt> </tt>
+<a name="L274"></a><tt class="py-lineno">274</tt>  <tt class="py-line"><tt class="py-comment">#       del(unicodeString)</tt> </tt>
+<a name="L275"></a><tt class="py-lineno">275</tt>  <tt class="py-line"><tt class="py-comment">#       </tt> </tt>
+<a name="L276"></a><tt class="py-lineno">276</tt>  <tt class="py-line"><tt class="py-comment">#       return asciiString</tt> </tt>
+<a name="L277"></a><tt class="py-lineno">277</tt>  <tt class="py-line"> </tt><script type="text/javascript">
+<!--
+expandto(location.href);
+// -->
+</script>
+</pre>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://pcai042.informatik.uni-leipzig.de/~swp13-wb/">DRW Personendatenbank - TTLConverter and HTML Parser</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Mon May  6 19:08:06 2013
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

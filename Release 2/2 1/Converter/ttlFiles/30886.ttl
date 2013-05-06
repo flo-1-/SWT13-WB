@@ -1,0 +1,497 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<B/30886hasStationOfLife5>
+	a drw-model:B ;
+	rdfs:label "Arbeitsaufenthalt an der Universität Wien" .
+
+<GPV/30886hasGPV4>
+	rdfs:label "A. F. Samojlov. Izbrannye trudy. Moskva 1967, 307 S.; darin u. a. S. 29-30: Avtobiografija, S. 297-300: B. F. Verigo: Otzyv o naučnych trudach privat-docenta Imperatorskogo Moskovskogo universiteta doktora mediciny A. F. Samojlova; S. 301: I. P. Pavlov: Pamjati Aleksandra Filippoviča Samojlova." ;
+	a drw-model:GPV .
+
+<GeneralLabor/30886hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<Year/1884>
+	rdfs:label "1884" ;
+	a drw-model:Year .
+
+<Year/1896>
+	rdfs:label "1896" ;
+	a drw-model:Year .
+
+<W/30886hasW0>
+	rdfs:label "Ueber das Schicksal des Eisens im thierischen Organismus. Diss. Dorpat 1891, 38 S. (Titelblatt in Kalnin 1983 (<b>SL</b>), 111); 2. Ex.: St. Petersburg 1892, 35 S." ;
+	a drw-model:W .
+
+<P/30886hasP5>
+	a drw-model:P ;
+	rdfs:label "Foto in: Kalnin 1983 (<b>SL</b>), 106." .
+
+<Year/1875>
+	rdfs:label "1875" ;
+	a drw-model:Year .
+
+<SL/30886hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Rojtbak, A. I. (Hauptred.): Perepiska A. F. Samojlova i I. S. Beritašvili. Moskva 1986, 96 S." .
+
+<A/30886hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Studium an der naturwissenschaftlichen Abteilung der Physiko-mathematischen Fakultät der Novorossijskij Universität Odessa" ;
+	drw-model:began <Year/1884> .
+
+<ImportantPerson/30868>
+	drw-model:hasConnectionTo <ImportantPerson/30886> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30868" .
+
+<WL/30886hasWL5>
+	rdfs:label "1924 Bestimmung der chemischen Natur der Nervenimpulsübertragung an der Synapse" ;
+	a drw-model:WL .
+
+<RelatedPerson/30886hasDescendant>
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30886hasComment3> ;
+	rdfs:label "Aleksandr Aleksandrovič (* 1902) und Lev Aleksandrovič (1902-1988) [Zwillinge][3]" .
+
+<Year/1921_1922>
+	rdfs:label "1921, 1922" ;
+	a drw-model:Year .
+
+<AlternativeName/30886_0>
+	rdfs:label "Šmul'[1], Abram Fišelevič"@de ;
+	a drw-model:AlternativeName ;
+	rdfs:label "Шмуль#фоотноте1#, Абрам Фишелевич"@ru ;
+	drw-model:hasComment <Comment/30886hasComment1> .
+
+<WL/30886hasWL1>
+	rdfs:label "Forschungsgebiet: Physiologie der Muskeln, Nerven und Sinnesorgane" ;
+	a drw-model:WL .
+
+<W/30886hasW1>
+	rdfs:label "Ėlektrofiziologičeskij metod v učenii o refleksach. Uspechi sovremmenoj biologii 1 (1932) 5/6, 148-200." ;
+	a drw-model:W .
+
+<ImportantPerson/30886>
+	drw-model:hasComment <Comment/30886hasComment2> ;
+	drw-model:hasEducation <A/30886hasEducation3> ;
+	drw-model:hasSL <SL/30886hasSL0> ;
+	drw-model:hasStationOfLife <B/30886hasStationOfLife6> ;
+	drw-model:hasP <P/30886hasP3> ;
+	drw-model:DiedOn <Date/30886DiedOn> ;
+	drw-model:hasComment <Comment/30886hasComment3> ;
+	drw-model:hasWL <WL/30886hasWL5> ;
+	drw-model:hasP <P/30886hasP0> ;
+	drw-model:hasStationOfLife <B/30886hasStationOfLife5> ;
+	drw-model:hasP <P/30886hasP6> ;
+	drw-model:hasW <W/30886hasW1> ;
+	drw-model:hasW <W/30886hasW0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30886hasGeneralLabor0> ;
+	drw-model:hasWL <WL/30886hasWL4> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30886hasHonoursAndAwards> ;
+	drw-model:hasStationOfLife <B/30886hasStationOfLife12> ;
+	drw-model:hasGPV <GPV/30886hasGPV1> ;
+	drw-model:hasAlternativeName <AlternativeName/30886_1> ;
+	drw-model:hasGPV <GPV/30886hasGPV4> ;
+	drw-model:hasStationOfLife <B/30886hasStationOfLife1> ;
+	drw-model:hasSL <SL/30886hasSL10> ;
+	drw-model:wasMarriedTo <RelatedPerson/30886wasMarriedTo> ;
+	drw-model:DiedIn <Place/30886DiedIn> ;
+	drw-model:hasP <P/30886hasP5> ;
+	drw-model:hasID "30886" ;
+	drw-model:hasComment <Comment/30886hasComment4> ;
+	drw-model:hasStationOfLife <B/30886hasStationOfLife15> ;
+	drw-model:fatherIs <RelatedPerson/30886fatherIs> ;
+	drw-model:hasSL <SL/30886hasSL8> ;
+	drw-model:hasWL <WL/30886hasWL1> ;
+	drw-model:hasStationOfLife <B/30886hasStationOfLife4> ;
+	drw-model:hasAlternativeName <AlternativeName/30886_0> ;
+	drw-model:hasEducation <A/30886hasEducation4> ;
+	drw-model:hasConnectionTo <ImportantPerson/30868> ;
+	drw-model:hasGPV <GPV/30886hasGPV2> ;
+	drw-model:hasStationOfLife <B/30886hasStationOfLife11> ;
+	drw-model:hasConnectionTo <ImportantPerson/30373> ;
+	drw-model:hasSL <SL/30886hasSL2> ;
+	drw-model:hasStationOfLife <B/30886hasStationOfLife9> ;
+	drw-model:hasWL <WL/30886hasWL0> ;
+	drw-model:hasMG <MG/30886hasMG> ;
+	drw-model:hasSL <SL/30886hasSL6> ;
+	drw-model:hasConnectionTo <ImportantPerson/30584> ;
+	drw-model:hasP <P/30886hasP7> ;
+	drw-model:wasBornOn <Date/30886wasBornOn> ;
+	drw-model:hasSL <SL/30886hasSL1> ;
+	drw-model:hasStationOfLife <B/30886hasStationOfLife0> ;
+	drw-model:hasSL <SL/30886hasSL4> ;
+	drw-model:hasEducation <A/30886hasEducation0> ;
+	drw-model:hasP <P/30886hasP4> ;
+	drw-model:hasStationOfLife <B/30886hasStationOfLife10> ;
+	drw-model:hasStationOfLife <B/30886hasStationOfLife14> ;
+	drw-model:hasGPV <GPV/30886hasGPV5> ;
+	drw-model:hasStationOfLife <B/30886hasStationOfLife16> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasWL <WL/30886hasWL6> ;
+	drw-model:hasWL <WL/30886hasWL3> ;
+	drw-model:hasP <P/30886hasP2> ;
+	drw-model:hasMainName <MainName/30886hasMainName> ;
+	drw-model:hasConnectionTo <ImportantPerson/30924> ;
+	drw-model:hasSL <SL/30886hasSL9> ;
+	drw-model:hasStationOfLife <B/30886hasStationOfLife3> ;
+	drw-model:hasStationOfLife <B/30886hasStationOfLife8> ;
+	drw-model:hasEducation <A/30886hasEducation1> ;
+	drw-model:wasBornIn <Place/30886wasBornIn> ;
+	drw-model:hasDescendant <RelatedPerson/30886hasDescendant> ;
+	drw-model:hasConnectionTo <ImportantPerson/30743> ;
+	drw-model:hasGPV <GPV/30886hasGPV3> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30886.jpg> ;
+	drw-model:hasSL <SL/30886hasSL5> ;
+	drw-model:hasComment <Comment/30886hasComment1> ;
+	drw-model:hasEducation <A/30886hasEducation2> ;
+	drw-model:hasP <P/30886hasP1> ;
+	drw-model:hasSL <SL/30886hasSL7> ;
+	drw-model:hasGPV <GPV/30886hasGPV0> ;
+	drw-model:hasConnectionTo <ImportantPerson/30785> ;
+	rdfs:label "Samojlov, Aleksandr Filippovič" ;
+	drw-model:hasWL <WL/30886hasWL2> ;
+	drw-model:hasStationOfLife <B/30886hasStationOfLife2> ;
+	drw-model:hasStationOfLife <B/30886hasStationOfLife7> ;
+	drw-model:hasSL <SL/30886hasSL3> ;
+	drw-model:hasStationOfLife <B/30886hasStationOfLife13> .
+
+<P/30886hasP6>
+	a drw-model:P ;
+	rdfs:label "Fotos in: Grigorjan 1963 (<b>SL</b>): Brustbilder: Vordere Umschlagseite und Frontispiz [ohne nähere Angaben], als Student (S. 17), von 1901 (S. 24); Gruppenfotos: mit seiner Mutter (S. 15), mit Schülern und Kollegen 1926 (S. 43), in Utrecht 1927 (S. 51), mit Paul Dudley White (1886-1973) in Boston/MA 1922 (S. 53), mit I. P. → Pavlov u. a. in London 1928 (S. 55)." .
+
+<Year/1924>
+	rdfs:label "1924" ;
+	a drw-model:Year .
+
+<B/30886hasStationOfLife13>
+	rdfs:label "Gastprofessur (Vorlesungen in Physiologie): Massachusetts General Hospital, Boston/MA" ;
+	a drw-model:B .
+
+<SL/30886hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 416, 430-434; SU 389, 427-437; RS 61, 184-186." .
+
+<A/30886hasEducation0>
+	a drw-model:A ;
+	drw-model:began <Year/1875> ;
+	rdfs:label "Besuch des 3. Gymnasiums in Odessa (Ukraine)" .
+
+<WL/30886hasWL2>
+	rdfs:label "Begründer der Elektrophysiologie sowie der experimentellen und klinischen Elektrokardiographie in Russland" ;
+	a drw-model:WL .
+
+<P/30886hasP7>
+	a drw-model:P ;
+	rdfs:label "Fotos in: Rojtbak 1986 (<b>SL</b>): Brustbild (S. 35), Gruppenfoto: mit Rudolf Magnus (1873-1927) u. a. in Utrecht 1926 (S. 65)." .
+
+<Year/1886>
+	rdfs:label "1886" ;
+	a drw-model:Year .
+
+<B/30886hasStationOfLife7>
+	rdfs:label "Arbeitsaufenthalt bei W. <span style='font-variant:small-caps;'>Nagel</span> in der physikalischen Abteilung des Physiologischen Instituts der Universität Berlin" ;
+	a drw-model:B .
+
+<NameVariation/30886_1>
+	a drw-model:NameVariation ;
+	rdfs:label "Samojlow, Alexander"@de .
+
+<Date/30886wasBornOn>
+	a drw-model:Date ;
+	rdfs:label "26.3./7.4.1867" .
+
+<SL/30886hasSL4>
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 216-218." ;
+	a drw-model:SL .
+
+<B/30886hasStationOfLife14>
+	rdfs:label "Gastprofessur (Vorlesungen in Physiologie): University of Cambridge, England" ;
+	a drw-model:B .
+
+<A/30886hasEducation3>
+	a drw-model:A ;
+	drw-model:began <Year/1890> ;
+	rdfs:label "Laborant an der Medizinischen Fakultät der Universität Dorpat" .
+
+<WL/30886hasWL3>
+	rdfs:label "Gründer der ersten elektrokardiographischen Laboratorien in Kazan’ und Moskau" ;
+	a drw-model:WL .
+
+<Place/30886wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Odessa" .
+
+<B/30886hasStationOfLife4>
+	a drw-model:B ;
+	rdfs:label "Weiterbildung in Deutschland:
+- bei J. von <span style='font-variant:small-caps;'>Kries</span> an der Universität Freiburg/Br.
+- bei L. <span style='font-variant:small-caps;'>Hermann</span> an der Universität Königsberg" .
+
+<P/30886hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: [Zefirov, Andrej L’vovič u. a.] (<b>SL</b>)." .
+
+<B/30886hasStationOfLife6>
+	drw-model:began <Year/1903> ;
+	a drw-model:B ;
+	rdfs:label "Professor für Physiologie, vergleichende Anatomie und Zoologie an der Physiko-mathematischen Fakultät der Universität Kazan’" .
+
+<WL/30886hasWL0>
+	rdfs:label "Mitbegründer der Physiologenschule in Kazan’" ;
+	a drw-model:WL .
+
+<NameVariation/30886_0>
+	rdfs:label "Samojloff, Alexander"@de ;
+	a drw-model:NameVariation .
+
+<B/30886hasStationOfLife15>
+	rdfs:label "Außerdem Mitglied des Exekutivkomitees des Rätekongresses der Tatarischen SSR" ;
+	a drw-model:B .
+
+<ImportantPerson/30373>
+	drw-model:hasConnectionTo <ImportantPerson/30886> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30373" .
+
+<A/30886hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1886> ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Dorpat" .
+
+<Year/1894>
+	rdfs:label "1894" ;
+	a drw-model:Year .
+
+<ImportantPerson/30584>
+	drw-model:hasConnectionTo <ImportantPerson/30886> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30584" .
+
+<P/30886hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Volkov/Kulikova 2003 b (<b>SL</b>), Bildeinlage zw. S. 424-425." .
+
+<RelatedPerson/30886wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30886hasComment2> ;
+	rdfs:label "Anna Aleksandrovna Samojlova, geb. Bari (1876-1948)[2]" .
+
+<MG/30886hasMG>
+	a drw-model:MG ;
+	rdfs:label "Obščestvo rossijskich fiziologov im. I. M. Sečenova [I. M. Sečenov-Gesellschaft russischer Physiologen] (Vorstandsmitglied)" .
+
+<A/30886hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Medizinischen Fakultät der Universität Dorpat" .
+
+<GPV/30886hasGPV0>
+	rdfs:label "Publikationen 1892-1904 (20 Nrn.), in: Zagoskin 1904, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<ImportantPerson/30785>
+	drw-model:hasID "30785" ;
+	drw-model:hasConnectionTo <ImportantPerson/30886> ;
+	a drw-model:ImportantPerson .
+
+<Year/1903>
+	rdfs:label "1903" ;
+	a drw-model:Year .
+
+<B/30886hasStationOfLife9>
+	drw-model:began <Year/1924> ;
+	a drw-model:B ;
+	rdfs:label "Professor für Physiologie in der biologischen Abteilung der Universität Moskau (2 Vorlesungen jährlich)" .
+
+<SL/30886hasSL10>
+	a drw-model:SL ;
+	rdfs:label "[Zefirov, Andrej L’vovič u. a.:] Kazanskaja fiziologičeskaja škola na rubeže vekov. Kazanskij gosudarstvennyj universitet (1804-1917 gg.). Kafedra fiziologii fiziko-matematičeskogo fakul’teta (http://www.kcn.ru/tat_ru/science/fiziologi/kgu_fizmat.htm, 22.3.2011)" .
+
+<Year/1923>
+	rdfs:label "1923" ;
+	a drw-model:Year .
+
+<B/30886hasStationOfLife16>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<ImportantPerson/30743>
+	drw-model:hasConnectionTo <ImportantPerson/30886> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30743" .
+
+<SL/30886hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Kalnin, Viktor V.: A. F. Samojlov i Tartuskij universitet. Tartu Ülikooli ajaloo küsimusi 15 (1983), 105-115." .
+
+<B/30886hasStationOfLife1>
+	rdfs:label "Weiterbildung am Institut für Experimentelle Medizin in St. Petersburg im Labor von I. P. <span style='font-variant:small-caps;'>Pavlov</span>" ;
+	a drw-model:B ;
+	drw-model:began <Year/1893> .
+
+<HonoursAndAwards/30886hasHonoursAndAwards>
+	rdfs:label "1929 „Verdienter Wissenschaftler der UdSSR“ (anlässlich des 125-jährigen Gründungsjubiläums der Universität Kazan’)<br>1930 V. I. Lenin-Prämie (UdSSR)[4]<br>1931 Gedächtnisausgabe: Nr. 4/5 des Bandes 27 von <i>Kazanskij medicinskij žurnal</i> (vgl. <b>SL</b>)" ;
+	drw-model:hasComment <Comment/30886hasComment4> ;
+	a drw-model:HonoursAndAwards .
+
+<Year/1893>
+	rdfs:label "1893" ;
+	a drw-model:Year .
+
+<P/30886hasP2>
+	a drw-model:P ;
+	rdfs:label "Portrait in: BSĖ 1, zit. n. WBIS RBA (<b>SL</b>)." .
+
+<MainName/30886hasMainName>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30886_0> ;
+	drw-model:hasNameVariation <NameVariation/30886_1> ;
+	rdfs:label "Samojlov, Aleksandr Filippovič" .
+
+<GPV/30886hasGPV1>
+	a drw-model:GPV ;
+	rdfs:label "Publikationen 1892-1930, in: Kvasov/Fedorova-Grot 1967 (<b>SL</b>)." .
+
+<B/30886hasStationOfLife10>
+	drw-model:began <Year/1929> ;
+	a drw-model:B ;
+	rdfs:label "zugleich Professor am Lehrstuhl für Physiologie am Medizinischen Institut und Vorlesungen am Klinischen Institut (bzw. Institut für ärztliche Weiterbildung) der Universität Kazan’" .
+
+<ImportantPerson/30924>
+	drw-model:hasConnectionTo <ImportantPerson/30886> ;
+	drw-model:hasID "30924" ;
+	a drw-model:ImportantPerson .
+
+<Comment/30886hasComment1>
+	a drw-model:Comment ;
+	rdfs:label "(bis 1892) Zur Konversion zum orthodoxen Glauben vgl. Vasylyev 2007 (<b>SL</b>), 231." ;
+	drw-model:hasNumber 1 .
+
+<B/30886hasStationOfLife8>
+	rdfs:label "Arbeitsaufenthalt bei C. J. <span style='font-variant:small-caps;'>Rothberger</span> an der Universität Wien" ;
+	a drw-model:B .
+
+<Place/30886DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Moskau, Grabstätte: Friedhof Vvedenskoe" .
+
+<SL/30886hasSL3>
+	rdfs:label "Kazanskij medicinskij žurnal 27 (1931) Nr. 4/5; darin u. a.: I. P. Pavlov: Pamjati Aleksandra Filippoviča Samojlova (331-332); C. J. Rothberger (Wien): In memoriam A. Samojloff (332-333); D. S. Voroncov: Naučno-issledovatel’skaja dejatel’nost’ A. F. Samojlova (334-344); M. Kiselev: Raboty A. F. Samojlova i ego laboratorii v oblasti fiziologii central’noj nervnoj sistemy (344-351); N. V. Pučkov: Mechanicizm i idealizm v filosofskich rabotach prof. A. F. Samojlova (352-362)." ;
+	a drw-model:SL .
+
+<WL/30886hasWL6>
+	rdfs:label "1927 Nachweis des humoralen Charakters der zentralen Hemmung, zusammen mit seinem Schüler Michail Andreevič <span style='font-variant:small-caps;'>Kiselev</span> (1897-1937)" ;
+	a drw-model:WL .
+
+<B/30886hasStationOfLife0>
+	rdfs:label "Entsendung nach Tobol’sk als Arzt zur Bekämpfung der Cholera" ;
+	a drw-model:B .
+
+<Year/1890>
+	rdfs:label "1890" ;
+	a drw-model:Year .
+
+<RelatedPerson/30886fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Fišel’ Šmul’" .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<P/30886hasP3>
+	rdfs:label "Foto aus den 1890-er Jahren [sitzend, zusammen mit Nikolaj Ivanovič Käfer (1864-1944) und einer unbekannten Person], in: Vasylyev 2007 (<b>SL</b>), 232." ;
+	a drw-model:P .
+
+<Date/30886DiedOn>
+	rdfs:label "22.7.1930" ;
+	a drw-model:Date .
+
+<GPV/30886hasGPV2>
+	rdfs:label "Spisok rabot po fiziologii central’noj nervnoj sistemy 1925-1930 (14 Nrn.), in: Kazanskij medicinskij žurnal (<b>SL</b>), 352-353." ;
+	a drw-model:GPV .
+
+<B/30886hasStationOfLife11>
+	a drw-model:B ;
+	drw-model:began <Year/1923> ;
+	rdfs:label "zugleich Professor für Physiologie am Veterinärinstitut Moskau" .
+
+<GPV/30886hasGPV5>
+	rdfs:label "Deutschsprachige Publikationen 1898-1923, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<SL/30886hasSL8>
+	a drw-model:SL ;
+	rdfs:label "Vasylyev, Konstantin Konstantinovič: Der Mediziner Nikolaj Ivanovič Käfer – Sohn eines deutschen Kolonisten im Taurischen Gouvernement des Russischen Reichs. In: Regine Pfrepper (Hg.): Medizin-, Pharmazie- und Wissenschaftsgeschichte vom Mittelalter bis zur Gegenwart. Festschrift für Ingrid Kästner zum 65. Geburtstag. Aachen 2007 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaft 14), 225-244. (Darin ein Brief von Samojlov an Käfer vom 30.5.1924, S. 243-244)." .
+
+<Comment/30886hasComment2>
+	drw-model:hasNumber 2 ;
+	a drw-model:Comment ;
+	rdfs:label "Dozentin für Fremdsprachen an der Universität Moskau, Gründerin und 1898-1904 Fürsorgerin der Kommunalen Lehranstalt Kožuchovo in Moskau sowie Gründerin des Fröbelschen Kindergartens in Kazan’. Vgl. Rojtbak 1986 (<b>SL</b>), 94, M. Čusova: Zavod inženera Bari v Simonovoj slobode (http://rusk.ru/st.php?idar=800902, 22.3.2011), Leninskaja sloboda 19, Opasnost’ (http://community.livejournal.com/mkn_community/312013.htm, 22.3.2011) und Progulki po Kazani: ulica Mištari (http://www.tatcenter.ru/article/39989/, 22.3.2011)." .
+
+<SL/30886hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Aristov, V. V.: Aleksandr Filippovič Samojlov [Biographischer Artikel von 1983] (http://www.tatar.museum.ru/univer/samoylov.htm, 22.3.2011)." .
+
+<B/30886hasStationOfLife3>
+	rdfs:label "Privatdozent am Lehrstuhl für Physiologie der Medizinischen Fakultät der Universität Moskau" ;
+	drw-model:began <Year/1896> ;
+	a drw-model:B .
+
+<Year/1929>
+	rdfs:label "1929" ;
+	a drw-model:Year .
+
+<B/30886hasStationOfLife2>
+	rdfs:label "außeretatmäßiger Laborant am Lehrstuhl für Physiologie der Physikomathematischen Fakultät der Universität Moskau bei I. M. <span style='font-variant:small-caps;'>Sečenov</span>" ;
+	drw-model:began <Year/1894> ;
+	a drw-model:B .
+
+<GPV/30886hasGPV3>
+	rdfs:label "Koštojanc, Chačatur S. (Red.): Professor A. F. Samojlov. Izbrannye stat’i i reči. Moskva, Leningrad 1946, 312 S.; darin S. 308-313: Spisok trudov A. F. Samojlova (1892-1932, 110 Nrn.); auch in: Grigor’jan 1963 (<b>SL</b>), 196-201." ;
+	a drw-model:GPV .
+
+<P/30886hasP4>
+	rdfs:label "Foto in: <b>GPV</b> Koštojanc 1946 und Samojlov 1967, Frontispiz, <b>SL</b> Kazanskij medicinskij žurnal, vor S. 331, und BSĖ 2, zit. n. WBIS RBA" ;
+	a drw-model:P .
+
+<B/30886hasStationOfLife12>
+	drw-model:began <Year/1921_1922> ;
+	a drw-model:B ;
+	rdfs:label "Gastprofessur (Vorlesungen in Physiologie): Universität Leyden (Holland)" .
+
+<Comment/30886hasComment4>
+	drw-model:hasNumber 4 ;
+	a drw-model:Comment ;
+	rdfs:label "Vgl. http://ru.wikipedia.org/wiki/Лауреаты премии имени В. И. Ленина (23.3.2011)." .
+
+<Comment/30886hasComment3>
+	rdfs:label "Vgl. Leninskaja sloboda 19, Opasnost’ in Anm. 2; zu Lev Aleksandrovič." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 3 .
+
+<SL/30886hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 395-396." .
+
+<SL/30886hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Grigorjan, Noravard Andreevna: Aleksandr Filippovič Samojlov. Moskva 1963, 203 S. [Mit mehreren Portraits (vgl. <b>P</b>) und einem Schriftenverzeichnis (vgl. <b>GPV</b>)]." .
+
+<WL/30886hasWL4>
+	rdfs:label "Bestimmung des Temperatur-Koeffizienten für die Übertragung der Nervenimpulse von Nerv zu Muskel" ;
+	a drw-model:WL .
+
+<SL/30886hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 225-230." .
+
+<AlternativeName/30886_1>
+	a drw-model:AlternativeName ;
+	rdfs:label "Schmul, Abram"@de .
+

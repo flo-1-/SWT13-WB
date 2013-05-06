@@ -1,0 +1,331 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<WL/31146hasWL0>
+	rdfs:label "Trug zum Verständnis der bedingten und unbedingten Reflexe bei." ;
+	a drw-model:WL .
+
+<W/31146hasW2>
+	rdfs:label "Opyt fiziologičeskogo analiza nevrozov. In: Sbornik, posvjaščennyj 75-letiju akademika I. P. Pavlova. Leningrad 1924, 307-." ;
+	a drw-model:W .
+
+<GeneralLabor/31146hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<RelatedPerson/31146fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Pavel Aleksandrovič (1839/40-1912), Kommunalpolitiker, 1897-1905 Bürgermeister von Odessa, Herausgeber der Zeitschrift Odesskij vestnik" .
+
+<Place/31146wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Odessa" .
+
+<WL/31146hasWL1>
+	rdfs:label "Hauptforschungsthemen: Untersuchungen bedingter Reflexe auf Schall- und Tonreize z. B. an Katzen und großhirnlosen Hunden (wies die Möglichkeit der Bildung von Reflexen zweiter Ordnung bei Hunden nach), Untersuchungen des physiologischen Mechanismus einiger Neurosen, der Automatisierung menschlicher Bewegungen, Physiologie der Verdauung im Magen u. a." ;
+	a drw-model:WL .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<B/31146hasStationOfLife9>
+	drw-model:began <Year/1919> ;
+	rdfs:label "Gründer und Leiter des Lehrstuhls für normale Physiologie an der Tierärztlichen Hochschule in Petrograd/Leningrad," ;
+	a drw-model:B .
+
+<W/31146hasW7>
+	rdfs:label "Über die Abhängigkeit der negativen und positiven Schwankung des Nervenstromes vom Sauerstoff. (Aus dem physiologischen Institut der Universität Bonn). Zeitschrift für allgemeine Physiologie 15 (1913), 23-32." ;
+	a drw-model:W .
+
+<Place/31146DiedIn>
+	a drw-model:Place ;
+	rdfs:label "" .
+
+<MG/31146hasMG>
+	a drw-model:MG ;
+	rdfs:label "Russkoe sociologičeskoe obščestvo [Russische Soziologische Gesellschaft], Kružok izučenija massovogo i individual’nogo povedenija [Zirkel für die Erforschung des sozialen und individuellen Verhaltens des Menschen]" .
+
+<A/31146hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Besuch des Richelieu-Gymnasiums in Odessa" .
+
+<A/31146hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Dr. biol." .
+
+<ImportantPerson/30785>
+	drw-model:hasID "30785" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/31146> .
+
+<NameVariation/31146_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Zeliony, G. P."@de .
+
+<GPV/31146hasGPV1>
+	rdfs:label "Publikationen in deutscher Sprache 1909-1912 vgl. Kapitel 4: Bibliographie: Schüler von Ivan Petrovič Pavlov, in: Pfrepper 2009 (<b>SL</b>), 212, 213, 217, 218, 220, 223, 224." ;
+	a drw-model:GPV .
+
+<A/31146hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Studienaufenthalt bei Il’ja Il’ič <span style='font-variant:small-caps;'>Mečnikov</span> (1845-1916) am Institut Pasteur in Paris" .
+
+<Year/1903>
+	rdfs:label "1903" ;
+	a drw-model:Year .
+
+<SL/31146hasSL0>
+	a drw-model:SL ;
+	rdfs:label "I.-S., A.: G. P. Zelenyj (1878-1951). Žurnal vysšej nervnoj dejatel’nosti imeni I. P. Pavlova 1 (1951) 4, 640-641." .
+
+<W/31146hasW9>
+	rdfs:label "Grosshirnrinde und Assoziationsfunktion. Mit S. Poltyrew. (Aus dem physiologischen Laboratorium der Tierärztlichen Hochschule in Leningrad). Zeitschrift für Biologie 90 (N.F. 72) (1930), 157-160." ;
+	a drw-model:W .
+
+<B/31146hasStationOfLife5>
+	drw-model:began <Year/1908> ;
+	a drw-model:B ;
+	rdfs:label "Physiologe im physiologischen Laboratorium der Akademie der Wissenschaften in St. Petersburg/Petrograd/Leningrad" .
+
+<ImportantPerson/31146>
+	drw-model:hasStationOfLife <B/31146hasStationOfLife0> ;
+	drw-model:hasGPV <GPV/31146hasGPV1> ;
+	drw-model:hasID "31146" ;
+	drw-model:hasW <W/31146hasW2> ;
+	drw-model:hasEducation <A/31146hasEducation4> ;
+	drw-model:hasStationOfLife <B/31146hasStationOfLife3> ;
+	drw-model:hasStationOfLife <B/31146hasStationOfLife10> ;
+	drw-model:hasW <W/31146hasW7> ;
+	drw-model:hasEducation <A/31146hasEducation1> ;
+	drw-model:hasWL <WL/31146hasWL2> ;
+	drw-model:hasStationOfLife <B/31146hasStationOfLife7> ;
+	drw-model:hasGPV <GPV/31146hasGPV2> ;
+	drw-model:hasW <W/31146hasW8> ;
+	drw-model:hasW <W/31146hasW3> ;
+	drw-model:hasGPV <GPV/31146hasGPV3> ;
+	drw-model:wasBornOn <Date/31146wasBornOn> ;
+	drw-model:hasW <W/31146hasW4> ;
+	drw-model:hasEducation <A/31146hasEducation3> ;
+	drw-model:wasBornIn <Place/31146wasBornIn> ;
+	drw-model:hasStationOfLife <B/31146hasStationOfLife2> ;
+	drw-model:hasSL <SL/31146hasSL1> ;
+	drw-model:hasW <W/31146hasW9> ;
+	drw-model:hasGPV <GPV/31146hasGPV0> ;
+	drw-model:hasSL <SL/31146hasSL3> ;
+	drw-model:hasStationOfLife <B/31146hasStationOfLife6> ;
+	drw-model:hasWL <WL/31146hasWL1> ;
+	drw-model:hasStationOfLife <B/31146hasStationOfLife1> ;
+	drw-model:hasStationOfLife <B/31146hasStationOfLife8> ;
+	drw-model:hasMainName <MainName/31146hasMainName> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31146hasGeneralLabor0> ;
+	drw-model:hasSL <SL/31146hasSL4> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/31146hasSL0> ;
+	drw-model:hasSL <SL/31146hasSL5> ;
+	drw-model:DiedIn <Place/31146DiedIn> ;
+	drw-model:hasEducation <A/31146hasEducation2> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/31146.jpg> ;
+	rdfs:label "Zelenyj, Georgij Pavlovič" ;
+	drw-model:hasDescendant <RelatedPerson/31146hasDescendant> ;
+	drw-model:hasStationOfLife <B/31146hasStationOfLife5> ;
+	drw-model:hasW <W/31146hasW0> ;
+	drw-model:hasSL <SL/31146hasSL2> ;
+	drw-model:hasWL <WL/31146hasWL0> ;
+	drw-model:fatherIs <RelatedPerson/31146fatherIs> ;
+	drw-model:hasP <P/31146hasP0> ;
+	drw-model:hasConnectionTo <ImportantPerson/30807> ;
+	drw-model:hasStationOfLife <B/31146hasStationOfLife4> ;
+	drw-model:hasStationOfLife <B/31146hasStationOfLife9> ;
+	drw-model:hasW <W/31146hasW5> ;
+	drw-model:hasConnectionTo <ImportantPerson/30695> ;
+	drw-model:hasConnectionTo <ImportantPerson/30785> ;
+	drw-model:DiedOn <Date/31146DiedOn> ;
+	drw-model:hasMG <MG/31146hasMG> ;
+	drw-model:hasW <W/31146hasW6> ;
+	drw-model:hasW <W/31146hasW1> ;
+	drw-model:hasEducation <A/31146hasEducation0> .
+
+<WL/31146hasWL2>
+	rdfs:label "Vertrat die Position der psychophysischen Parallelität, führte den Begriff „Soziophysiologie“ ein." ;
+	a drw-model:WL .
+
+<GPV/31146hasGPV3>
+	rdfs:label "Wybrane prace (1905-1951), in: <b>SL</b> Wikipedia [polnisch]." ;
+	a drw-model:GPV .
+
+<SL/31146hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Wikipedia [englisch] (http://en.wikipedia.org/wiki/Georgii_Zeliony, 25.6.2012)." .
+
+<B/31146hasStationOfLife1>
+	drw-model:began <Year/1901> ;
+	a drw-model:B ;
+	rdfs:label "Tätigkeit in der Universitätsklinik und im pathologisch-anatomischen Kabinett an der Universität Kiev" .
+
+<ImportantPerson/30695>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30695" ;
+	drw-model:hasConnectionTo <ImportantPerson/31146> .
+
+<Year/1905>
+	rdfs:label "1905" ;
+	a drw-model:Year .
+
+<B/31146hasStationOfLife7>
+	drw-model:began <Year/1910> ;
+	rdfs:label "Privatdozent am Lehrstuhl für Physiologie an der Militär-medizinischen Akademie (MMA) in St. Peterburg/Petrograd" ;
+	a drw-model:B .
+
+<Year/Bis_1901>
+	rdfs:label "Bis 1901" ;
+	a drw-model:Year .
+
+<Year/1901>
+	rdfs:label "1901" ;
+	a drw-model:Year .
+
+<Year/1919>
+	rdfs:label "1919" ;
+	a drw-model:Year .
+
+<SL/31146hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 24 sowie innerhalb der Seiten 212-224 (vgl. <b>GPV</b>)." .
+
+<MainName/31146hasMainName>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/31146_0> ;
+	rdfs:label "Zelenyj, Georgij Pavlovič" .
+
+<B/31146hasStationOfLife4>
+	rdfs:label "Assistent und einer der ersten Schüler bei I. P. <span style='font-variant:small-caps;'>Pavlov</span> in der physiologischen Abteilung des IEM" ;
+	a drw-model:B ;
+	drw-model:began <Year/1905> .
+
+<GPV/31146hasGPV0>
+	rdfs:label "Publikationen 1906-1954, in: Kvasov/Fedorova-Grot 1967 (<b>SL</b>), 113." ;
+	a drw-model:GPV .
+
+<B/31146hasStationOfLife3>
+	drw-model:began <Year/1903> ;
+	rdfs:label "Weiterbildung an der Klinik für innere Medizin bei Sergej Vasil’evič <span style='font-variant:small-caps;'>Levašov</span> (1856-1919) an der Novorossijskij-Universität in Odessa, las Vorlesungen zu Infektionskrankheiten" ;
+	a drw-model:B .
+
+<GPV/31146hasGPV2>
+	rdfs:label "Works by Zeliony (1906-1951), in: <b>SL</b> Wikipedia [englisch]." ;
+	a drw-model:GPV .
+
+<W/31146hasW6>
+	rdfs:label "Über die zukünftige Soziophysiologie. Archiv für Rassen- und Gesellschafts-Biologie 9 (1912), 405-429." ;
+	a drw-model:W .
+
+<Date/31146wasBornOn>
+	a drw-model:Date ;
+	rdfs:label "1878" .
+
+<W/31146hasW3>
+	rdfs:label "O neposredstvennom vlijanii chimičeskoj fazy želudočnoj sekrecii na slizistuju oboločku dna i tela želudka. Kliničeskaja medicina (1941) Nr. 6, 101-." ;
+	a drw-model:W .
+
+<W/31146hasW4>
+	rdfs:label "Weitere Publikationen in deutscher Sprache:" ;
+	a drw-model:W .
+
+<ImportantPerson/30807>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30807" ;
+	drw-model:hasConnectionTo <ImportantPerson/31146> .
+
+<Year/1908>
+	rdfs:label "1908" ;
+	a drw-model:Year .
+
+<A/31146hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Kiev, u. a. bei Vladimir Valerianovič <span style='font-variant:small-caps;'>Podvysockij</span> (1857-1913)" ;
+	drw-model:began <Year/Bis_1901> .
+
+<B/31146hasStationOfLife8>
+	drw-model:began <Year/1912_1923_1925_1926> ;
+	rdfs:label "weitere Forschungsaufenthalte im Ausland:
+- in Deutschland – bei Max <span style='font-variant:small-caps;'>Verworn</span> (1863-1921) am Physiologischen Institut der Universität Bonn (s. <b>W</b>)
+- in Frankreich, Italien und Belgien" ;
+	a drw-model:B .
+
+<B/31146hasStationOfLife10>
+	drw-model:began <Year/1919> ;
+	a drw-model:B ;
+	rdfs:label "zeitweise Leiter des Physiologischen Laboratoriums am Geburtshilflich-Gynäkologischen Institut und in den 1920-er Jahren Vorlesungen in Physiologie am Maschinenbauinstitut" .
+
+<P/31146hasP0>
+	rdfs:label "Portrait (Abb.) aus: Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967. (<b>SL</b>), Bildeinlage zw. S. 128-129; auch in: I.-S. 1951 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<A/31146hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Dr. med. am Institut für experimentelle Medizin (IEM) in St. Petersburg" .
+
+<W/31146hasW0>
+	rdfs:label "Ob otricatel’noj chimiotaksii lejkocitov pri zaraženii krolikov virulentnoj kul’turoj kurinoj cholery. (Iz laboratorii prof. I. I. Mečnikova v Pariže). Mit Lazar Abramovič Zil’berberg. Russkij archiv patologii, kliničeskoj mediciny i bakteriologii (1901), 13 S." ;
+	a drw-model:W .
+
+<Year/1910>
+	rdfs:label "1910" ;
+	a drw-model:Year .
+
+<SL/31146hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 112-113; auch in Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): SU 180, 156-158." .
+
+<SL/31146hasSL3>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): SU 180, 156-159." ;
+	a drw-model:SL .
+
+<Year/1912_1923_1925_1926>
+	rdfs:label "1912, 1923, 1925, 1926" ;
+	a drw-model:Year .
+
+<Date/31146DiedOn>
+	rdfs:label "21.6.1951" ;
+	a drw-model:Date .
+
+<SL/31146hasSL5>
+	rdfs:label "Wikipedia [polnisch] (http://pl.wikipedia.org/wiki/Georgij_Zelenyj, 25.6.2012)." ;
+	a drw-model:SL .
+
+<W/31146hasW1>
+	rdfs:label "Materialy k voprosu reakcii sobaki na zvukovye razdražiteli. Diss. S.-Peterburg 1907, 125 S." ;
+	a drw-model:W .
+
+<W/31146hasW5>
+	rdfs:label "Pathologisch-histologische Veränderungen der quergestreiften Muskeln an der Injektionsstelle des Schlangengiftes (Aus dem Pathologisch-anatomischen Institut in Kiew). Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 179 (1905), 36-60." ;
+	a drw-model:W .
+
+<W/31146hasW8>
+	rdfs:label "Der Hund ohne Grosshirn. Mit S. S. Poltyrev. Abstracts of Communications to the 13th International Physiological Congress, Boston. American Journal of Physiology 90 (1929), 475-476." ;
+	a drw-model:W .
+
+<B/31146hasStationOfLife2>
+	rdfs:label "Weiterbildungsaufenthalt in Berlin (ohne Publikation in deutscher Sprache)" ;
+	a drw-model:B .
+
+<Year/1912>
+	rdfs:label "1912" ;
+	a drw-model:Year .
+
+<B/31146hasStationOfLife6>
+	drw-model:began <Year/1912> ;
+	a drw-model:B ;
+	rdfs:label "Physiologe im physiologischen Laboratorium der Akademie der Wissenschaften in St. Petersburg/Petrograd/Leningrad" .
+
+<B/31146hasStationOfLife0>
+	rdfs:label "Leiter eines Nahrungsmittelzentrums im Bezirk Elizavetgrad im Gouvernement Chrensk" ;
+	a drw-model:B .
+
+<RelatedPerson/31146hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "T. Georgievna Zelenaja" .
+

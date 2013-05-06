@@ -1,0 +1,376 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30614hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Vikipedija (http://ru.wikipedia.org/wiki/Ламанский,_Сергей_Иванович, 31.5.2011)." .
+
+<WRussianPublication/30614hasWRussianPublication9>
+	a drw-model:WRussianPublication ;
+	rdfs:label "Acetilen dlja osveščenija železnodorožnych stancij i poezdov. Železnodorožnoe delo (1897) Nr. 48, 5 S." .
+
+<Year/1884>
+	rdfs:label "1884" ;
+	a drw-model:Year .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<WTranslationsFromGerman/30614hasWTranslationsFromGerman0>
+	a drw-model:WTranslationsFromGerman ;
+	rdfs:label "[Kohlrausch, Friedrich: Leitfaden der praktischen Physik. Mit einem Anhange: Das elektrische und magnetische absolute Maass-System. 2. Aufl. Leipzig 1872, 219 S.] Kol’rauš, Fridrich: Rukovodstvo dlja praktičeskich zanjatij po fizike. S pribavleniem: Ėlektričeskaja i magnitnaja absoljutnaja izmeritel’naja sistema. Sankt-Peterburg 1875, 212 S." .
+
+<WGermanPublication/30614hasWGermanPublication3>
+	rdfs:label "Untersuchungen über Schmieröle. Dingler’s polytechnisches Journal 248 (1883), 29-35." ;
+	a drw-model:WGermanPublication .
+
+<Date/30614DiedOn>
+	a drw-model:Date ;
+	rdfs:label "1901" .
+
+<B/30614hasStationOfLife1>
+	drw-model:began <Year/1875> ;
+	rdfs:label "Dozent am Lehrstuhl für Physik an der Universität Warschau" ;
+	a drw-model:B .
+
+<WTranslationsFromGerman/30614hasWTranslationsFromGerman2>
+	a drw-model:WTranslationsFromGerman ;
+	rdfs:label "[Harnack, Erich: Die Hauptthatsachen der Chemie; für das Bedürfnis des Mediziners. Hamburg, Leipzig 1887, 106 S.] Garnak; Ėrich: Osnovnye fakty chimii dlja vračej i studentov ravno, kak posobie pri izučenii chimii. Sankt-Peterburg 1887, 84 S." .
+
+<RelatedPerson/30614fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ivan Ivanovič (1793/4–1879), Direktor der Kreditabteilung im Finanzministerium, Senator" .
+
+<B/30614hasStationOfLife5>
+	rdfs:label "Inspektor für Maß- und Gewichtswesen im Eichamt in St. Petersburg" ;
+	a drw-model:B ;
+	drw-model:began <Year/1893> .
+
+<B/30614hasStationOfLife3>
+	drw-model:began <Year/1881> ;
+	rdfs:label "Physiker am Physikalischen Zentralobservatorium in St. Petersburg" ;
+	a drw-model:B .
+
+<WGermanPublication/30614hasWGermanPublication0>
+	rdfs:label "Ueber die Folgen der Exstirpation des Plexus coeliacus und mesentericus. Zeitschrift für rationelle Medizin (3) 28 (1866) 1, 59-70." ;
+	a drw-model:WGermanPublication .
+
+<WL/30614hasWL0>
+	rdfs:label "Forschungsthemen: Wärmeverteilung im Sonnenspektrum, Fluoreszenz, Erforschung von Schmierölen, Leucht- und Wassergas, Gasbrenner u. a." ;
+	a drw-model:WL .
+
+<WRussianPublication/30614hasWRussianPublication4>
+	a drw-model:WRussianPublication ;
+	rdfs:label "Sigizmund Antonovič Vroblevskij [Nekrolog]. Žurnal Russkogo fiziko-chimičeskogo obščestva 20 (1888) 6, 1-6." .
+
+<WRussianPublication/30614hasWRussianPublication13>
+	a drw-model:WRussianPublication ;
+	rdfs:label "Acetilen. Vestnik obščestva technologov 1899, 56 S." .
+
+<Year/1875>
+	rdfs:label "1875" ;
+	a drw-model:Year .
+
+<GeneralLabor/30614hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologe" .
+
+<Year/1893>
+	rdfs:label "1893" ;
+	a drw-model:Year .
+
+<WRussianPublication/30614hasWRussianPublication11>
+	a drw-model:WRussianPublication ;
+	rdfs:label "Acetilen i ego primenenie k osveščeniju i drugim techničeskim celjam. Zapiski Imperatorskogo Russkogo techničeskogo obščestva 32 (1898) 3, 58 S." .
+
+<NameVariation/30614_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Lamansky, Sergei Iwanowitsch"@de .
+
+<Comment/30614hasComment1>
+	a drw-model:Comment ;
+	rdfs:label "Weitere Geschwister: Aleksandr und Nestor Ivanovič, Olimpiada, Glafira und Vera Ivanovna. Vgl. http://www.ostrov.ca/drevo//individual.php?pid=I732&amp;ged=family.ged&amp;tab=0 (31.5.2011) und http://vip-students.com/ref/ref-22948.html (31.5.2011)." ;
+	drw-model:hasNumber 1 .
+
+<GeneralLabor/30614hasGeneralLabor2>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Petrochemiker" .
+
+<RelatedPerson/30614hasSibling>
+	a drw-model:RelatedPerson ;
+	rdfs:label "[1]
+Jakov Ivanovič (1822-1872), Bergbauingenieur, Direktor des Technologischen Instituts
+Evgenij Ivanovič (1825/6-1902), Bankdirektor
+Vladimir Ivanovič (1833-1914), Professor für Slavistik, Historiker
+Konstantin Ivanovič (1839-1885), Richter
+Porfirij Ivanovič, Ministerialbeamter" ;
+	drw-model:hasComment <Comment/30614hasComment1> .
+
+<ImportantPerson/30366>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30366" ;
+	drw-model:hasConnectionTo <ImportantPerson/30614> .
+
+<GPV/30614hasGPV0>
+	a drw-model:GPV ;
+	rdfs:label "Publikationen in deutscher Sprache 1868-1880, in: Poggendorff (<b>SL</b>)." .
+
+<SL/30614hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 272, 269-272." .
+
+<A/30614hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Studium an der Universität in St. Petersburg[2]" ;
+	drw-model:began <Year/Bis_1862> ;
+	drw-model:hasComment <Comment/30614hasComment2> .
+
+<Year/Bis_1862>
+	rdfs:label "Bis 1862" ;
+	a drw-model:Year .
+
+<WRussianPublication/30614hasWRussianPublication2>
+	a drw-model:WRussianPublication ;
+	rdfs:label "Issledovanie smazočnych masl. Sankt-Peterburg 1884, 15 S." .
+
+<Comment/30614hasComment3>
+	a drw-model:Comment ;
+	rdfs:label "Verfasste dort die Publikation <i>Ueber das Stockes’sche Gesetz</i>, erschienen in Annalen der Physik 8 (1879)." ;
+	drw-model:hasNumber 3 .
+
+<WRussianPublication/30614hasWRussianPublication6>
+	a drw-model:WRussianPublication ;
+	rdfs:label "Dovzonskij gaz dlja techničeskich celej. Zapiski Imperatorskogo Russkogo techničeskogo obščestva 23 (1889) 11, 9 S." .
+
+<B/30614hasStationOfLife2>
+	drw-model:hasComment <Comment/30614hasComment3> ;
+	a drw-model:B ;
+	drw-model:began <Year/1879> ;
+	rdfs:label "Studienaufenthalt in Zürich[3] und bei Eleuthère <span style='font-variant:small-caps;'>Mascart</span> (1837-1908) am Collège de France in Paris" .
+
+<WRussianPublication/30614hasWRussianPublication0>
+	rdfs:label "O charaktere nervnago vozbuždenija, proizvodimago neprodolžitel’nymi gal’vaničeskimi tokami. Medicinskij vestnik 1868, Nr. 23-24." ;
+	a drw-model:WRussianPublication .
+
+<WGermanPublication/30614hasWGermanPublication2>
+	rdfs:label "Über das Wärmespectrum des Sonnen- und Kalklichtes. Monatsberichte der Königlich Preußischen Akademie der Wissenschaften zu Berlin 1871 (1872), 632-641." ;
+	a drw-model:WGermanPublication .
+
+<SL/30614hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Ivanovskij 1898 - Istorija Imperatorskoj voenno-medicinskoj (byvšej mediko-chirurgičeskoj) akademii za sto let 1798-1898. Glavnyj red. Ivanovskij. Sankt-Peterburg 1898, 638, 647." .
+
+<Year/1879>
+	rdfs:label "1879" ;
+	a drw-model:Year .
+
+<WRussianPublication/30614hasWRussianPublication8>
+	a drw-model:WRussianPublication ;
+	rdfs:label "Dannye o vyverke mer i vesov, sobrannye v nekotorych tamožennych učreždenijach i gorodskich upravach po zapadnoj granice Imperii. Vremennik Glavnoj palaty mer i vesov (1894) Nr. 1, 108-123." .
+
+<WTranslationsFromGerman/30614hasWTranslationsFromGerman1>
+	rdfs:label "[Bezold, Wilhelm v.: Die Farbenlehre im Hinblick auf Kunst und Kunstgewerbe. Braunschweig 1874, 296 S.] Becol’d, Vil’gel’m: Učenie o cvetach po otnošeniju k isskustvu i technike. Sankt-Peterburg 1878, 208 S." ;
+	a drw-model:WTranslationsFromGerman .
+
+<Year/1881>
+	rdfs:label "1881" ;
+	a drw-model:Year .
+
+<Place/30614DiedIn>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<A/30614hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung in Deutschland:
+- bei Rudolf <span style='font-variant:small-caps;'>Leuckart</span> (1822-1898) an der UniversitätGießen
+- bei Georg <span style='font-variant:small-caps;'>Meissner</span> (1829-1905) an der Universität Göttingen
+- bei R. <span style='font-variant:small-caps;'>Heidenhain</span> an der Universität Breslau
+- bei H. von <span style='font-variant:small-caps;'>Helmholtz</span> an der Universität Heidelberg" ;
+	drw-model:began <Year/1864> .
+
+<B/30614hasStationOfLife0>
+	rdfs:label "Dozent für Physik (Vorlesungen zur Elektrizität und Magnetismus) an der Mediko-Chirurgischen Akademie (MCA) in St. Petersburg" ;
+	drw-model:began <Year/1874> ;
+	a drw-model:B .
+
+<MG/30614hasMG>
+	a drw-model:MG ;
+	rdfs:label "Imperatorskoe Russkoe techničeskoe obščestvo [Kaiserliche Russische technische Gesellschaft] (?)" .
+
+<WRussianPublication/30614hasWRussianPublication10>
+	a drw-model:WRussianPublication ;
+	rdfs:label "Iz otčeta, predstavlennogo i. d. inspektora Glavnoj palaty mer i vesov S. I. Lamanskogo. Vremennik Glavnoj palaty mer i vesov (1897) Nr. 3, 119-124." .
+
+<B/30614hasStationOfLife4>
+	rdfs:label "Leitender Techniker der städtischen Kommission für Stadtbeleuchtung in St. Petersburg" ;
+	a drw-model:B ;
+	drw-model:began <Year/1884> .
+
+<ImportantPerson/30362>
+	drw-model:hasID "30362" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30614> .
+
+<A/30614hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1874_?> ;
+	rdfs:label "Dr. med. in St. Petersburg" .
+
+<WTranslationsFromGerman/30614hasWTranslationsFromGerman3>
+	rdfs:label "[Vater, Richard: Einführung in die Theorie und den Bau der neueren Wärmekraftmaschinen. Leipzig 1900, 144 S.] Vater, Richard: Teorija i ustrojstvo teplovych dvigatelej v obščedostupnom izloženii. Sankt-Peterburg 1901, 192 S." ;
+	a drw-model:WTranslationsFromGerman .
+
+<SL/30614hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 96." .
+
+<ImportantPerson/30614>
+	drw-model:hasWL <WL/30614hasWL0> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30614hasWRussianPublication10> ;
+	drw-model:wasBornOn <Date/30614wasBornOn> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30614hasWGermanPublication1> ;
+	drw-model:hasMG <MG/30614hasMG> ;
+	drw-model:hasStationOfLife <B/30614hasStationOfLife3> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30614hasWRussianPublication4> ;
+	drw-model:hasConnectionTo <ImportantPerson/30366> ;
+	drw-model:hasGPV <GPV/30614hasGPV0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30614hasGeneralLabor0> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30614hasWRussianPublication8> ;
+	drw-model:motherIs <RelatedPerson/30614motherIs> ;
+	drw-model:hasWTranslationsFromGerman <WTranslationsFromGerman/30614hasWTranslationsFromGerman3> ;
+	drw-model:hasStationOfLife <B/30614hasStationOfLife1> ;
+	drw-model:hasSibling <RelatedPerson/30614hasSibling> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30614hasWRussianPublication2> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30614hasWRussianPublication12> ;
+	drw-model:hasStationOfLife <B/30614hasStationOfLife4> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30614hasWRussianPublication7> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30614hasWGermanPublication2> ;
+	drw-model:hasWL <WL/30614hasWL1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30614hasWGermanPublication0> ;
+	drw-model:fatherIs <RelatedPerson/30614fatherIs> ;
+	drw-model:DiedOn <Date/30614DiedOn> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30614hasWRussianPublication9> ;
+	drw-model:hasID "30614" ;
+	drw-model:hasWGermanPublication <WGermanPublication/30614hasWGermanPublication3> ;
+	drw-model:hasStationOfLife <B/30614hasStationOfLife2> ;
+	drw-model:hasSL <SL/30614hasSL1> ;
+	drw-model:hasComment <Comment/30614hasComment1> ;
+	drw-model:DiedIn <Place/30614DiedIn> ;
+	drw-model:hasWL <WL/30614hasWL2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30614hasGeneralLabor2> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30614hasWRussianPublication6> ;
+	drw-model:hasWTranslationsFromGerman <WTranslationsFromGerman/30614hasWTranslationsFromGerman1> ;
+	drw-model:hasStationOfLife <B/30614hasStationOfLife5> ;
+	drw-model:hasComment <Comment/30614hasComment2> ;
+	drw-model:hasEducation <A/30614hasEducation2> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30614hasWRussianPublication3> ;
+	drw-model:hasMainName <MainName/30614hasMainName> ;
+	drw-model:hasWTranslationsFromGerman <WTranslationsFromGerman/30614hasWTranslationsFromGerman2> ;
+	drw-model:hasSL <SL/30614hasSL0> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasGeneralLabor <GeneralLabor/30614hasGeneralLabor1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30614hasWGermanPublication5> ;
+	drw-model:hasWTranslationsFromGerman <WTranslationsFromGerman/30614hasWTranslationsFromGerman0> ;
+	rdfs:label "Lamanskij, Sergej Ivanovič" ;
+	drw-model:hasSL <SL/30614hasSL3> ;
+	drw-model:hasEducation <A/30614hasEducation1> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30614hasWRussianPublication11> ;
+	drw-model:hasSL <SL/30614hasSL2> ;
+	drw-model:wasBornIn <Place/30614wasBornIn> ;
+	drw-model:hasConnectionTo <ImportantPerson/30362> ;
+	drw-model:hasComment <Comment/30614hasComment3> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30614hasWRussianPublication1> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30614hasWRussianPublication5> ;
+	drw-model:hasStationOfLife <B/30614hasStationOfLife0> ;
+	drw-model:hasEducation <A/30614hasEducation0> ;
+	drw-model:hasSL <SL/30614hasSL4> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30614hasWGermanPublication4> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30614hasWRussianPublication0> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30614hasWRussianPublication13> .
+
+<WRussianPublication/30614hasWRussianPublication12>
+	a drw-model:WRussianPublication ;
+	rdfs:label "Zamečanija na novyj proekt uzakonenij o torgovych merach i vesach. Sankt-Peterburg 1899, 50 S." .
+
+<Year/1874>
+	rdfs:label "1874" ;
+	a drw-model:Year .
+
+<RelatedPerson/30614motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Vera Jakovlevna Lamanskaja, geb. Malozemova" .
+
+<WRussianPublication/30614hasWRussianPublication7>
+	a drw-model:WRussianPublication ;
+	rdfs:label "O pričinach upadka gazovogo dela v Sankt-Peterburge. Zapiski Imperatorskogo Russkogo techničeskogo obščestva 26 (1892) 1, 22 S." .
+
+<Date/30614wasBornOn>
+	rdfs:label "5.7.1841" ;
+	a drw-model:Date .
+
+<Year/1864>
+	rdfs:label "1864" ;
+	a drw-model:Year .
+
+<MainName/30614hasMainName>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30614_0> ;
+	rdfs:label "Lamanskij, Sergej Ivanovič" .
+
+<WL/30614hasWL2>
+	rdfs:label "Übersetzung zahlreicher physikalischer Lehrbücher ins Russische (aus dem Deutschen vgl. <b>W</b>)" ;
+	a drw-model:WL .
+
+<GeneralLabor/30614hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiker" .
+
+<WL/30614hasWL1>
+	rdfs:label "1872 Nachweis von Frauenhofer’schen Linien im dunklen infrararoten Teil des Spektrums" ;
+	a drw-model:WL .
+
+<WGermanPublication/30614hasWGermanPublication4>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber die Abnahme der Leuchtkraft eines Naphtagases durch Beimischung von Luft und die Explosivität eines solchen Gemisches. Mit L[udwig] Jawein. Dingler’s polytechnisches Journal 267 (1888), 416-419." .
+
+<WRussianPublication/30614hasWRussianPublication5>
+	a drw-model:WRussianPublication ;
+	rdfs:label "Gazovye gorelki i lampy na Vystavke predmetov osveščenija i neftjanogo proizvodstva. Zapiski Imperatorskogo Russkogo techničeskogo obščestva 23 (1889) 1 und 3, 38 S." .
+
+<Comment/30614hasComment2>
+	drw-model:hasNumber 2 ;
+	a drw-model:Comment ;
+	rdfs:label "Oktober-Dezember 1861 Inhaftierung wegen der Teilnahme an den Studentenunruhen als Vertreter der Studenten." .
+
+<WGermanPublication/30614hasWGermanPublication1>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber die Grenzen der Empfindlichkeit des Auges für Spectralfarben. Archiv für Ophthalmologie 17 (1871) 1, 123-134." .
+
+<SL/30614hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Poggendorff - Biographisch-literarisches Handwörterbuch zur Geschichte der exacten Naturwissenschaften, enthaltend Nachweisungen über Lebensverhältnisse und Leistungen von Mathematikern, Astronomen, Physikern, Chemikern, Mineralogen, Geologen usw. aller Völker und Zeiten. Gesammelt von J. C. Poggendorff, Mitglied der Akademie der Wissenschaften zu Berlin / J. C. Poggendorff - Biographisch-literarisches Handwörterbuch der exakten Naturwissenschaften. Bd. 1-8. Leipzig, Berlin 1863-2004. Bd. 3, 767." .
+
+<Year/1874_?>
+	rdfs:label "1874 (?)" ;
+	a drw-model:Year .
+
+<WRussianPublication/30614hasWRussianPublication3>
+	a drw-model:WRussianPublication ;
+	rdfs:label "O neftjannom, kamennougol’nom i vodjanom gaze. Zapiski Imperatorskogo Russkogo techničeskogo obščestva 21 (1887), 65 S." .
+
+<Place/30614wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "" .
+
+<WRussianPublication/30614hasWRussianPublication1>
+	a drw-model:WRussianPublication ;
+	rdfs:label "Teplovoj spektr solnečnogo i izvestkovogo sveta. Sankt-Peterburg 1873, 28 S." .
+
+<WGermanPublication/30614hasWGermanPublication5>
+	rdfs:label "Vgl. auch http://drw.saw-leipzig.de/quellen/30614_1.jpg (5.3.2013) aus Poggendorff Bd. 3,767." ;
+	a drw-model:WGermanPublication .
+

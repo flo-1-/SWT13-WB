@@ -1,0 +1,420 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Comment/30290hasComment1>
+	a drw-model:Comment ;
+	drw-model:hasNumber 1 ;
+	rdfs:label "Als erste russische Schriftstellerin auf dem Gebiet der Ethnographie erforschte sie die Lebensweise der Fremdbevölkerung im Gouvernement Kazan’. Sie veröffentlichte u. a. zwei Artikel über den Aufenthalt Aleksandr Sergeevič Puškins (1799-1937) in Kazan’ 1833 und stand mit ihm auch im Briefwechsel. Die Briefe sind in Puškins <i>Gesammelten Werken</i>, Bd. 15, Moskva 1948, abgedruckt. Vgl. http://ru.wikipedia.org/wiki/Фукс,_Александра_Андреевна (11.10.2011) und http://www.ndrt.ru/Articles.php?id=340&amp;Articles.php?catid=5 (11.10.2011)." .
+
+<WL/30290hasWL4>
+	rdfs:label "Autor von Arbeiten zur Erforschung des Urals (Flora, Gebirge, Gewässer, Goldvorkommen), zur Hygiene sowie einiger ethnographischer Publikationen über die Gesundheit, Lebensweise, Sitten und Gebräuche der Bevölkerung von Kazan’" ;
+	a drw-model:WL .
+
+<GeneralLabor/30290hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Arzt" .
+
+<Year/1821>
+	rdfs:label "1821" ;
+	a drw-model:Year .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<GeneralLabor/30290hasGeneralLabor2>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Botanik" .
+
+<B/30290hasStationOfLife9>
+	drw-model:began <Year/1820> ;
+	a drw-model:B ;
+	rdfs:label "Dekan der medizinischen Abteilung an der Universität" .
+
+<B/30290hasStationOfLife10>
+	drw-model:began <Year/1820> ;
+	rdfs:label "Vorlesungen zur Anatomie, Physiologie und gerichtlichen Medizin, 1827-1828 auch in Zoologie" ;
+	a drw-model:B .
+
+<RelatedPerson/30290hasDescendant>
+	rdfs:label "Sof’ja Karlovna, verh. Brylkina († 1878)[2]
+Tat’jana (Adoptivtochter)" ;
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30290hasComment2> .
+
+<Year/1798>
+	rdfs:label "1798" ;
+	a drw-model:Year .
+
+<Q/30290hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Nacional’nyj archiv Respubliki Tatarstan: über 80 Dokumente zw. 1805-1846 aus der Zeit in Russland sowie seit 1996 Kopien von Urkunden bis 1800, überlassen vom Staatsarchiv Hessen" .
+
+<Year/1806>
+	rdfs:label "1806" ;
+	a drw-model:Year .
+
+<Date/30290DiedOn>
+	a drw-model:Date ;
+	rdfs:label "12./24.4.1846" .
+
+<B/30290hasStationOfLife3>
+	drw-model:hasComment <Comment/30290hasComment4> ;
+	a drw-model:B ;
+	rdfs:label "zum Arzt für die Gesandtschaftsreise des Grafen Jurij Aleksandrovič <span style='font-variant:small-caps;'>Golovkin</span> (1762-1846) nach China ernannt[4]" .
+
+<B/30290hasStationOfLife14>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<B/30290hasStationOfLife1>
+	rdfs:label "Übersiedlung nach Russland und kurzzeitig Regimentsarzt in St. Petersburg" ;
+	a drw-model:B .
+
+<P/30290hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Dic/Garzavina/Novickaja 2004 (<b>SL</b>) [Ausschnitt des Klischees, s. u.]." .
+
+<SL/30290hasSL8>
+	rdfs:label "Vikipedia (http://ru.wikipedia.org/wiki/Фукс,_Карл_Фёдорович, 10.10.2011)." ;
+	a drw-model:SL .
+
+<NameVariation/30290_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Фукс, Карл Федорович"@ru ;
+	rdfs:label "Fuks, Karl Fedorovič"@de .
+
+<Year/1820>
+	rdfs:label "1820" ;
+	a drw-model:Year .
+
+<SL/30290hasSL10>
+	rdfs:label "Škljar, Jurij: Karl Fuks – početnyj graždanin Kazani. Partner 1 (2007) (http://www.partner-inform.de/public_druck.php?ids=3044, 10.10.2011)." ;
+	a drw-model:SL .
+
+<SL/30290hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Dic, Viktor Georgievič, Garzavina, Alla Viktorovna, Novickaja, Irina A.: Nemeckie učenye - professora Kazanskogo universiteta. K 200-letiju Kazanskogo universiteta. Kazan’ 2004, 73-77." .
+
+<A/30290hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Anfangs häuslicher Unterricht vom Vater" .
+
+<Place/30290DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Kazan’, Grabstätte: Friedhof Arskoe" .
+
+<WL/30290hasWL2>
+	rdfs:label "Berühmter Stadt- und Armenarzt, Ethnograph, Historiker, Numismatiker" ;
+	a drw-model:WL .
+
+<B/30290hasStationOfLife0>
+	drw-model:began <Year/1798> ;
+	a drw-model:B ;
+	rdfs:label "Praktischer Arzt" .
+
+<A/30290hasEducation2>
+	a drw-model:A ;
+	drw-model:hasComment <Comment/30290hasComment3> ;
+	rdfs:label "Studium der Medizin an der Universität Göttingen[3]" ;
+	drw-model:began <Year/1795> .
+
+<P/30290hasP2>
+	a drw-model:P ;
+	rdfs:label "Lev Dmitrievič Krjukov (1783-1843): Karl Fedorovič Fuchs (1828). Aquarell. Nationalmuseum der Republik Tatarstan in Kazan’ (http://www.tatar.museum.ru/univer/col-fuks.htm, 10.10.2011); Staatliches Museum für Bildende Künste der Republik Tatarstan in Kazan’ (vgl. http://www.nasledie-rus.ru/red_port/pics/ex02-pictures.php?picture=bu23, 10.10.2011; hier fälschlicherweise Jahr 1820 angegeben); s/w-Reproduktion in: Škljar 2007 (<b>SL</b>)." .
+
+<B/30290hasStationOfLife4>
+	rdfs:label "Professor für Naturgeschichte und Botanik an der Universität Kazan’" ;
+	a drw-model:B ;
+	drw-model:began <Year/1805> .
+
+<Year/1818>
+	rdfs:label "1818" ;
+	a drw-model:Year .
+
+<SL/30290hasSL7>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 482, 1-27." ;
+	a drw-model:SL .
+
+<RelatedPerson/30290wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Aleksandra Andreevna, geb. Apechtina (1788 oder 1805-1853), Dichterin, Schriftstellerin[1]" ;
+	drw-model:hasComment <Comment/30290hasComment1> .
+
+<P/30290hasP3>
+	a drw-model:P ;
+	rdfs:label "Portrait [Künstler und Jahr unbekannt]. Staatliches Museum für Bildende Künste der Republik Tatarstan in Kazan’ (vgl. Russkij nemec Karl Fuks unter http://www.e-vid.ru/index-m-192-p-63-article-24548.htm, 13.10.2011)." .
+
+<SL/30290hasSL5>
+	rdfs:label "Nemcy Rossii. Ėnciklopedija. Die Deutschen Russlands. Enzyklopädie. Bd. 1. Hauptred. Vladislav Michajlovič Karev. Moskva 1999; Bd. 2. Red. Vladislav Michajlovič Karev. 2004, Bd. 3. Red. O. Kubickaja. Moskva 2006. Bd. 3, 690-691." ;
+	a drw-model:SL .
+
+<ImportantPerson/30290>
+	drw-model:hasStationOfLife <B/30290hasStationOfLife4> ;
+	drw-model:hasSL <SL/30290hasSL2> ;
+	drw-model:hasWL <WL/30290hasWL1> ;
+	drw-model:hasWL <WL/30290hasWL4> ;
+	drw-model:hasP <P/30290hasP3> ;
+	drw-model:hasMG <MG/30290hasMG> ;
+	drw-model:fatherIs <RelatedPerson/30290fatherIs> ;
+	drw-model:hasComment <Comment/30290hasComment5> ;
+	drw-model:hasSL <SL/30290hasSL3> ;
+	drw-model:hasStationOfLife <B/30290hasStationOfLife2> ;
+	drw-model:hasStationOfLife <B/30290hasStationOfLife13> ;
+	drw-model:hasW <W/30290hasW2> ;
+	drw-model:hasSL <SL/30290hasSL4> ;
+	drw-model:hasP <P/30290hasP0> ;
+	drw-model:wasBornOn <Date/30290wasBornOn> ;
+	drw-model:hasWL <WL/30290hasWL2> ;
+	drw-model:hasSL <SL/30290hasSL10> ;
+	drw-model:hasStationOfLife <B/30290hasStationOfLife5> ;
+	rdfs:label "Fuchs, Karl" ;
+	drw-model:hasEducation <A/30290hasEducation2> ;
+	drw-model:hasComment <Comment/30290hasComment1> ;
+	drw-model:hasSL <SL/30290hasSL6> ;
+	drw-model:hasStationOfLife <B/30290hasStationOfLife8> ;
+	drw-model:hasP <P/30290hasP1> ;
+	drw-model:hasComment <Comment/30290hasComment4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30290hasGeneralLabor0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30290hasGeneralLabor5> ;
+	drw-model:hasW <W/30290hasW0> ;
+	drw-model:hasWL <WL/30290hasWL0> ;
+	drw-model:wasMarriedTo <RelatedPerson/30290wasMarriedTo> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30290hasHonoursAndAwards> ;
+	drw-model:hasW <W/30290hasW1> ;
+	drw-model:hasSL <SL/30290hasSL5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30290hasGeneralLabor3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30290hasGeneralLabor4> ;
+	drw-model:hasEducation <A/30290hasEducation1> ;
+	drw-model:hasQ <Q/30290hasQ0> ;
+	drw-model:hasSL <SL/30290hasSL1> ;
+	drw-model:wasBornIn <Place/30290wasBornIn> ;
+	drw-model:hasEducation <A/30290hasEducation3> ;
+	drw-model:hasStationOfLife <B/30290hasStationOfLife11> ;
+	drw-model:hasWL <WL/30290hasWL3> ;
+	drw-model:hasDescendant <RelatedPerson/30290hasDescendant> ;
+	drw-model:hasStationOfLife <B/30290hasStationOfLife9> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <B/30290hasStationOfLife0> ;
+	drw-model:hasEducation <A/30290hasEducation0> ;
+	drw-model:DiedIn <Place/30290DiedIn> ;
+	drw-model:hasP <P/30290hasP2> ;
+	drw-model:hasMainName <MainName/30290hasMainName> ;
+	drw-model:hasGPV <GPV/30290hasGPV0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30290hasGeneralLabor2> ;
+	drw-model:DiedOn <Date/30290DiedOn> ;
+	drw-model:hasComment <Comment/30290hasComment3> ;
+	drw-model:hasComment <Comment/30290hasComment6> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30290.jpg> ;
+	drw-model:hasSL <SL/30290hasSL9> ;
+	drw-model:hasID "30290" ;
+	drw-model:hasStationOfLife <B/30290hasStationOfLife3> ;
+	drw-model:hasStationOfLife <B/30290hasStationOfLife6> ;
+	drw-model:hasStationOfLife <B/30290hasStationOfLife10> ;
+	drw-model:hasComment <Comment/30290hasComment2> ;
+	drw-model:hasSL <SL/30290hasSL0> ;
+	drw-model:motherIs <RelatedPerson/30290motherIs> ;
+	drw-model:hasStationOfLife <B/30290hasStationOfLife7> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30290hasGeneralLabor1> ;
+	drw-model:hasStationOfLife <B/30290hasStationOfLife1> ;
+	drw-model:hasStationOfLife <B/30290hasStationOfLife14> ;
+	drw-model:hasStationOfLife <B/30290hasStationOfLife12> ;
+	drw-model:hasSL <SL/30290hasSL7> ;
+	drw-model:hasSL <SL/30290hasSL8> .
+
+<Comment/30290hasComment5>
+	drw-model:hasNumber 5 ;
+	rdfs:label "Dietz [2006] (<b>SL</b>). In EAD (<b>SL</b>) fälschlicherweise Professor des Gymnasiums angegeben." ;
+	a drw-model:Comment .
+
+<B/30290hasStationOfLife6>
+	rdfs:label "Eröffnung der eigenen Arztpraxis in Kazan’" ;
+	a drw-model:B .
+
+<GeneralLabor/30290hasGeneralLabor4>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologie und gerichtliche Medizin" .
+
+<SL/30290hasSL3>
+	rdfs:label "Erik-Amburger-Datenbank. Ausländer im vorrevolutionären Russland (http://88.217.241.77/amburger/, 10.4.2012): Dokument-Id [53487/41421 (11.10.2011)]." ;
+	a drw-model:SL .
+
+<RelatedPerson/30290motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "[Name unbekannt], geb. Hoffmann" .
+
+<SL/30290hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Dietz, Victor: Karl Fuchs zur Erinnerung von den dankbaren Nachfahren [2006]. Online unter: http://www.ndrt.ru/fuks/topart.php?lang=de (11.10.2011)." .
+
+<Comment/30290hasComment6>
+	rdfs:label "Vom Bildhauer Aleksandr Kislov mit der dreisprachigen Inschrift [Deutsch, Russisch und Tatarisch]: „Hier lebte und wirkte von 1812-1846 Karl Fuchs, Verdienter Professor der Kasaner Universität, Ehrenbürger der Stadt Kasan.“ Text und Abbildung vgl. http://www.partner-inform.de/public_druck.php?ids=3044 (11.10.2011) und http://www.ksu.ru/fuks/page21.htm (11.10.2011)." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 6 .
+
+<P/30290hasP1>
+	rdfs:label "Gusev i Michajlov (Besitzer Nikolaj Jakovlevič Agafonov, 1842-1908): Portrait mit Unterschrift. Klischee. In: K. Fuks: Kratkaja istorija Kazani. Kazan’ 1905 [1817]; Vikipedia (<b>SL</b>)." ;
+	a drw-model:P .
+
+<WL/30290hasWL3>
+	rdfs:label "Verdienste bei der Cholera-Bekämpfung 1829-1831" ;
+	a drw-model:WL .
+
+<Comment/30290hasComment2>
+	drw-model:hasNumber 2 ;
+	rdfs:label "Ihre drei Kinder und die Enkelkinder von Karl Fuchs wurden 1896 in Carskoe Selo ausfindig gemacht: Anatolij Dmitrievič Brylkin, Evgenija Dmitrievna Košljakova, geb. Brylkina, und Zinaida Dmitrievna Brylkina." ;
+	a drw-model:Comment .
+
+<GeneralLabor/30290hasGeneralLabor3>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Anatomie" .
+
+<B/30290hasStationOfLife11>
+	drw-model:began <Year/1821> ;
+	a drw-model:B ;
+	rdfs:label "zugleich Leiter der Universitäts-Bibliothek" .
+
+<GeneralLabor/30290hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Naturgeschichte" .
+
+<B/30290hasStationOfLife13>
+	rdfs:label "in Nižnij Novgorod zur Bekämpfung der Tuberkulose" ;
+	a drw-model:B .
+
+<WL/30290hasWL1>
+	rdfs:label "Mitbegründer des klinischen Unterrichts an der Universität Kazan’" ;
+	a drw-model:WL .
+
+<WL/30290hasWL0>
+	rdfs:label "1806 Gründer des Botanischen Gartens in Kazan’" ;
+	a drw-model:WL .
+
+<B/30290hasStationOfLife12>
+	drw-model:began <Year/1823> ;
+	a drw-model:B ;
+	rdfs:label "Rektor der Universität Kazan’" .
+
+<SL/30290hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Karl Fuchs [zum Gedächtnis anlässlich seines 150. Todestages 1996]. Sechs biographische Artikel von 2006 in „Virtual’nyj muzej“ unter: http://www.ndrt.ru/fuks/ (11.10.2011)." .
+
+<B/30290hasStationOfLife8>
+	drw-model:began <Year/1819> ;
+	a drw-model:B ;
+	rdfs:label "Leiter der Universitätsklinik" .
+
+<Comment/30290hasComment3>
+	rdfs:label "Bei Volkov/Kulikova 2003 b (<b>SL</b>) irrtümliche Angabe: beendete 1797 die Universität Marburg." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 3 .
+
+<Year/1823>
+	rdfs:label "1823" ;
+	a drw-model:Year .
+
+<MainName/30290hasMainName>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30290_0> ;
+	rdfs:label "Fuchs, Karl" .
+
+<Place/30290wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Herborn" .
+
+<SL/30290hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 462-463." .
+
+<SL/30290hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Andreev, Andrej Jur’evič, Feofanov, A. M.: Inostrannye professora rossijskich universitetov (vtoraja polovina XVIII – pervaja tret’ XIX v.). Biografičeskij slovar’. Moskva 2011, 168-170." .
+
+<A/30290hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Universität Marburg/Lahn" .
+
+<W/30290hasW2>
+	a drw-model:W ;
+	rdfs:label "Kazanskie tatary v statističeskom i ėtnografičeskom otnošenijach. Kazan’ 1844." .
+
+<Year/1793>
+	rdfs:label "1793" ;
+	a drw-model:Year .
+
+<HonoursAndAwards/30290hasHonoursAndAwards>
+	rdfs:label "Ehrenbürger der Stadt Kazan’<br>1819 St.-Vladimir-Orden 4. Klasse<br>1824 St.-Annen-Orden 2. Klasse, 1826 Diamantschmuck zum Orden<br>1833 „Verdienter Professor“ der Universität Kazan’<br>1835 „Wirklicher Russischer Staatsrat“<br>1996 Karl-Fuchs-Denkmal in Kazan’ <br>1996 Gedenkmedaille, Künstlerin Galina V. <span style='font-variant:small-caps;'>Bogorodskaja</span> (*1949)<br>1996 Enthüllung der Gedenktafel am Fuchs-Wohnhaus[6]<br>Nach ihm sind benannt:<br>Fuchs-Garten (<i>Fuksovskij sadik</i>) in Kazan’<br>Seit 1993 Deutsche Karl-Fuchs-Gesellschaft in Kazan’ (<i>Kazanskoe Nemeckoe obščestvo Karla Fuksa</i>)" ;
+	drw-model:hasComment <Comment/30290hasComment6> ;
+	a drw-model:HonoursAndAwards .
+
+<W/30290hasW1>
+	rdfs:label "Zamečanija o cholere, svirepstvovavšej v Kazani v tečenie sentjabrja i oktjabrja 1830 goda. Kazanskij vestnik 31 (1831) 4, 218-255." ;
+	a drw-model:W .
+
+<A/30290hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Studium allgemeinbildender und teilweise medizinischer Fächer an der Hohen Schule (Academia Nassauensis) in Herborn" ;
+	drw-model:began <Year/1793> .
+
+<Year/1805>
+	rdfs:label "1805" ;
+	a drw-model:Year .
+
+<W/30290hasW0>
+	rdfs:label "Andreas Caesalpinvs de cvivs viri ingenio, doctrina, et virtvte pavca delibat ad capessendvm in arte medica doctoris axioma Carolvs Fvchs. Marburg 1798, 28 S." ;
+	a drw-model:W .
+
+<Date/30290wasBornOn>
+	a drw-model:Date ;
+	rdfs:label "18.9.1776" .
+
+<RelatedPerson/30290fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann Friedrich (1739-1832), Professor für Theologie und Rektor der Hohen Schule in Herborn" .
+
+<B/30290hasStationOfLife5>
+	rdfs:label "zugleich Arzt an der Universitätsklinik sowie Gymnasial-Arzt in Kazan’[5]" ;
+	drw-model:began <Year/1806> ;
+	a drw-model:B ;
+	drw-model:hasComment <Comment/30290hasComment5> .
+
+<Year/1795>
+	rdfs:label "1795" ;
+	a drw-model:Year .
+
+<SL/30290hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 53." .
+
+<GeneralLabor/30290hasGeneralLabor5>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ethnograph" .
+
+<B/30290hasStationOfLife7>
+	a drw-model:B ;
+	rdfs:label "Prof. am Lehrstuhl für Pathologie, Therapie und Klinik an der Universität Kazan’" ;
+	drw-model:began <Year/1818> .
+
+<MG/30290hasMG>
+	a drw-model:MG ;
+	rdfs:label "Moskovskoe obščestvo ispytatelej prirody [Gesellschaft der Naturforscher in Moskau] (1807), Mestnyj komitet Imperatorskogo čelovekoljubivago obščestva [Ortskomitee der Kaiserlichen Philanthropischen Gesellschaft], Kazan’ (1816 Gründungsmitglied)" .
+
+<GPV/30290hasGPV0>
+	rdfs:label "Publikationen 1798-1844 (26 Nrn.), in: Zagoskin 1904, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<Year/1819>
+	rdfs:label "1819" ;
+	a drw-model:Year .
+
+<B/30290hasStationOfLife2>
+	rdfs:label "Forschungsreise in den Ural und nach Ost-Sibirien" ;
+	a drw-model:B .
+
+<Comment/30290hasComment4>
+	rdfs:label "Fuchs trat die Reise mit dem Gesandtschaftsstab an, brach aber die Weiterfahrt 1805 in Kazan’ ab, als er von der unbesetzten Stelle am Lehrstuhl für Naturgeschichte an der dortigen Universität erfuhr und sich dafür bewarb. Vgl. <b>SL</b> Dietz [2006], Zagoskin 1904, zit. n. WBIS RBA, EAD (hier: „zur Gesandtschaft Golovkins, reist nicht“). Der Arzt der Gesandtschaft wurde Joseph von Rehmann (1779-1831). Vgl. Fischer 2010, 201." ;
+	drw-model:hasNumber 4 ;
+	a drw-model:Comment .
+

@@ -1,0 +1,394 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<MG/31101hasMG>
+	a drw-model:MG ;
+	rdfs:label "Moskovskoe fiziko-medicinskoe obščestvo [Physiko-medizinische Gesellschaft zu Moskau], Obščestvo russkich vračej [Gesellschaft russischer Ärzte], Imperatorskoe obščestvo ljubitelej estestvoznanija, antropologii i ėtnografii v Moskve [Kaiserliche Gesellschaft der Liebhaber der Naturwissenschaften, der Anthropologie und Ethnographie zu Moskau], Archangel’skoe, Černigorskoe, Kievskoe, Minskoe obščestvo vračej [Gesellschaft der Ärzte zu Archangel’sk, zu Černigov, zu Kiev, zu Minsk]" .
+
+<GeneralLabor/31101hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie und Anatomie" .
+
+<B/31101hasStationOfLife0>
+	rdfs:label "Ordinator am 2.[4] Militärlandhospital in St. Petersburg, zugleich Assistent in der Mandtschen[5] Mediko-chirurgischen Privat-Klinik für ältere Studierende und junge Ärzte" ;
+	drw-model:hasComment <Comment/31101hasComment4> ;
+	drw-model:began <Year/1841> ;
+	a drw-model:B ;
+	drw-model:hasComment <Comment/31101hasComment5> .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<ImportantPerson/31101>
+	drw-model:hasSL <SL/31101hasSL2> ;
+	drw-model:hasStationOfLife <B/31101hasStationOfLife5> ;
+	drw-model:hasSL <SL/31101hasSL8> ;
+	drw-model:fatherIs <RelatedPerson/31101fatherIs> ;
+	drw-model:hasComment <Comment/31101hasComment1> ;
+	drw-model:hasConnectionTo <ImportantPerson/30091> ;
+	drw-model:hasConnectionTo <ImportantPerson/30739> ;
+	drw-model:hasWL <WL/31101hasWL0> ;
+	drw-model:hasGPV <GPV/31101hasGPV1> ;
+	drw-model:hasStationOfLife <B/31101hasStationOfLife2> ;
+	drw-model:wasBornOn <Date/31101wasBornOn> ;
+	drw-model:hasWL <WL/31101hasWL1> ;
+	drw-model:hasConnectionTo <ImportantPerson/30801> ;
+	drw-model:hasSL <SL/31101hasSL3> ;
+	drw-model:hasEducation <A/31101hasEducation2> ;
+	rdfs:label "Walther, Alexander" ;
+	drw-model:hasSL <SL/31101hasSL9> ;
+	drw-model:hasW <W/31101hasW0> ;
+	drw-model:hasEducation <A/31101hasEducation1> ;
+	drw-model:hasComment <Comment/31101hasComment5> ;
+	drw-model:hasStationOfLife <B/31101hasStationOfLife7> ;
+	drw-model:hasWL <WL/31101hasWL2> ;
+	drw-model:wasBornIn <Place/31101wasBornIn> ;
+	drw-model:hasP <P/31101hasP0> ;
+	drw-model:hasComment <Comment/31101hasComment4> ;
+	drw-model:hasMG <MG/31101hasMG> ;
+	drw-model:hasStationOfLife <B/31101hasStationOfLife3> ;
+	drw-model:DiedOn <Date/31101DiedOn> ;
+	drw-model:hasEducation <A/31101hasEducation3> ;
+	drw-model:hasEducation <A/31101hasEducation0> ;
+	drw-model:hasW <W/31101hasW1> ;
+	drw-model:hasStationOfLife <B/31101hasStationOfLife4> ;
+	drw-model:hasSL <SL/31101hasSL7> ;
+	drw-model:hasDescendant <RelatedPerson/31101hasDescendant> ;
+	drw-model:hasStationOfLife <B/31101hasStationOfLife8> ;
+	drw-model:hasStationOfLife <B/31101hasStationOfLife6> ;
+	drw-model:hasID "31101" ;
+	drw-model:hasMainName <MainName/31101hasMainName> ;
+	drw-model:hasComment <Comment/31101hasComment3> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasWL <WL/31101hasWL3> ;
+	drw-model:wasMarriedTo <RelatedPerson/31101wasMarriedTo> ;
+	drw-model:hasSL <SL/31101hasSL4> ;
+	drw-model:hasSL <SL/31101hasSL0> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/31101hasHonoursAndAwards> ;
+	drw-model:hasSL <SL/31101hasSL1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/31101.png> ;
+	drw-model:hasEducation <A/31101hasEducation4> ;
+	drw-model:hasStationOfLife <B/31101hasStationOfLife0> ;
+	drw-model:hasGPV <GPV/31101hasGPV0> ;
+	drw-model:hasGPV <GPV/31101hasGPV2> ;
+	drw-model:hasConnectionTo <ImportantPerson/30844> ;
+	drw-model:hasW <W/31101hasW3> ;
+	drw-model:hasConnectionTo <ImportantPerson/31075> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31101hasGeneralLabor0> ;
+	drw-model:motherIs <RelatedPerson/31101motherIs> ;
+	drw-model:hasStationOfLife <B/31101hasStationOfLife1> ;
+	drw-model:hasSL <SL/31101hasSL10> ;
+	drw-model:hasComment <Comment/31101hasComment2> ;
+	drw-model:hasSL <SL/31101hasSL6> ;
+	drw-model:hasSL <SL/31101hasSL5> ;
+	drw-model:hasStationOfLife <B/31101hasStationOfLife10> ;
+	drw-model:DiedIn <Place/31101DiedIn> ;
+	drw-model:hasW <W/31101hasW2> ;
+	drw-model:hasStationOfLife <B/31101hasStationOfLife9> .
+
+<SL/31101hasSL7>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 80, 90-107; RS 9, 127-129." ;
+	a drw-model:SL .
+
+<Comment/31101hasComment2>
+	rdfs:label "EAD Dokument-Id [65177/62353 (28.2.2011)] und K. K. Vasil’ev: Nemcy v sisteme zdravoochranenija Odessy. Dosovetskij period. Visnyk SumDU. Serija Medycyna 2 (2009) 2, 13 (http://visnyk.sumdu.edu.ua/arhiv/2009/Med_2_2009_T2/09vkkodp.pdf, 28.2.2011)." ;
+	drw-model:hasNumber 2 ;
+	a drw-model:Comment .
+
+<Comment/31101hasComment4>
+	rdfs:label "Nicht „1.“, wie in <b>SL</b> WBIS BaBA angegeben. „2.“ vgl. <b>SL</b> Hirsch, 836, Volkov/Kulikova 2003 b, 101, und WBIS RBA: R 80, 90 und 99; dort war auch N. I. Pirogov Chefarzt der chirurgischen Abteilung." ;
+	drw-model:hasNumber 4 ;
+	a drw-model:Comment .
+
+<ImportantPerson/30739>
+	drw-model:hasID "30739" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/31101> .
+
+<RelatedPerson/31101hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Peter (Petr Aleksandrovič) (1856-1932), Arzt, Professor für Diagnostik an der Novorossijskij-Universität in Odessa[2]" ;
+	drw-model:hasComment <Comment/31101hasComment2> .
+
+<NameVariation/31101_0>
+	rdfs:label "Вальтер, Александр Петрович"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Val'ter, Aleksandr Petrovič"@de .
+
+<ImportantPerson/30091>
+	drw-model:hasConnectionTo <ImportantPerson/31101> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30091" .
+
+<SL/31101hasSL4>
+	rdfs:label "Nemcy Rossii. Ėnciklopedija. Die Deutschen Russlands. Enzyklopädie. Bd. 1. Hauptred. Vladislav Michajlovič Karev. Moskva 1999; Bd. 2. Red. Vladislav Michajlovič Karev. 2004, Bd. 3. Red. O. Kubickaja. Moskva 2006. Bd. 1, 312." ;
+	a drw-model:SL .
+
+<RelatedPerson/31101fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Peter Gottlieb, Kaufmann" .
+
+<A/31101hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der St. Vladimir-Universität Kiev" .
+
+<SL/31101hasSL5>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 252-254." ;
+	a drw-model:SL .
+
+<B/31101hasStationOfLife10>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<Date/31101DiedOn>
+	rdfs:label "22.9./4.10.1889" ;
+	a drw-model:Date .
+
+<W/31101hasW1>
+	rdfs:label "Kurs anatomii čelovečeskogo tela. Kiev 1852, 6 Bd." ;
+	a drw-model:W .
+
+<B/31101hasStationOfLife8>
+	rdfs:label "außeretatmäßiger Professor am Lehrstuhl für physiologische Anatomie und Mikrographie der Universität Kiev" ;
+	a drw-model:B ;
+	drw-model:began <Year/1869> .
+
+<Year/Bis_1832>
+	rdfs:label "Bis 1832" ;
+	a drw-model:Year .
+
+<SL/31101hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Erik-Amburger-Datenbank. Ausländer im vorrevolutionären Russland (http://88.217.241.77/amburger/, 10.4.2012) DokumentId [81460/80418 (28.2.2011)]." .
+
+<GPV/31101hasGPV1>
+	rdfs:label "Publikationen 1842-1872 (17 Nrn.), in: Bogdanov, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<A/31101hasEducation1>
+	a drw-model:A ;
+	drw-model:began <Year/1832> ;
+	rdfs:label "Abschluss des klassischen Gymnasiums in Reval" .
+
+<W/31101hasW3>
+	rdfs:label "Zapiska o položenii obščestvennogo prizrenija v gubernijach Carstva Pol’skogo v 1883 godu. Vestnik sudebnoj mediciny 2 (1887), 11 S." ;
+	a drw-model:W .
+
+<Year/1832>
+	rdfs:label "1832" ;
+	a drw-model:Year .
+
+<SL/31101hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Vikipedija [ukrain.] (http://uk.wikipedia.org/wiki/Вальтер Олександр Петрович, 25.7.2012)." .
+
+<Date/31101wasBornOn>
+	rdfs:label "28.12.1817/9.1.1818" ;
+	a drw-model:Date .
+
+<Year/1848>
+	rdfs:label "1848" ;
+	a drw-model:Year .
+
+<A/31101hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung in Deutschland und Österreich mit Stipendium des Ministeriums für Volksaufklärung:
+- bei J. P. <span style='font-variant:small-caps;'>Müller</span> und K. B. <span style='font-variant:small-caps;'>Reichert</span> an der Universität Berlin
+- bei Joseph <span style='font-variant:small-caps;'>Berres</span> (1796-1844), Josef Julius <span style='font-variant:small-caps;'>Czermak</span> (1799-1851), Josef <span style='font-variant:small-caps;'>Engel</span> (1816-1899), Carl von <span style='font-variant:small-caps;'>Patruban</span> (1816-1880) und Carl von <span style='font-variant:small-caps;'>Rokitansky</span> (1804-1878) an der Universität Wien" ;
+	drw-model:began <Year/1842> .
+
+<ImportantPerson/30844>
+	drw-model:hasConnectionTo <ImportantPerson/31101> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30844" .
+
+<B/31101hasStationOfLife4>
+	rdfs:label "Forschungsreise nach Deutschland, Frankreich und England (sechs Monate)" ;
+	a drw-model:B .
+
+<Year/1836>
+	rdfs:label "1836" ;
+	a drw-model:Year .
+
+<B/31101hasStationOfLife6>
+	a drw-model:B ;
+	rdfs:label "Forschungsreise ins Ausland (vier Monate)" .
+
+<P/31101hasP0>
+	rdfs:label "Portrait (Abb.) von 1845 aus: Vikipedija (<b>SL</b>); auch in: Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003. (<b>SL</b>), Bildeinlage zw. S. 176-177." ;
+	a drw-model:P .
+
+<SL/31101hasSL3>
+	rdfs:label "Marinža, Luk’jan: A. P. Val’ter. Otec kievskoj anatomičeskoj školy. Zdorov’ja Ukrajiny. Medyčna gazeta (2009) Nr. 10, 72 (http://health-ua.com/articles/3720.html, 30.11.2010)." ;
+	a drw-model:SL .
+
+<ImportantPerson/30801>
+	drw-model:hasConnectionTo <ImportantPerson/31101> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30801" .
+
+<B/31101hasStationOfLife2>
+	drw-model:began <Year/1845> ;
+	a drw-model:B ;
+	rdfs:label "ao. Professor, 1847-1867 o. Professor am Lehrstuhl für physiologische Anatomie und Mikrographie und" .
+
+<SL/31101hasSL8>
+	a drw-model:SL ;
+	rdfs:label "Vikipedija [russ.] (http://ru.wikipedia.org/wiki/Вальтер,_Александр_Петрович, 31.11.2010)." .
+
+<Year/1842>
+	rdfs:label "1842" ;
+	a drw-model:Year .
+
+<WL/31101hasWL2>
+	rdfs:label "Forschungsthemen: Das vegetative Nervensystem (bewies den regulierbaren Einfluss der sympathischen Nerven auf den Gefäßtonus), Prozesse der Wärmeerzeugung und der Thermoregulation des Körpers (z. B. Einfluss von Kälte und Wärme auf physiologische Prozesse)" ;
+	a drw-model:WL .
+
+<SL/31101hasSL2>
+	rdfs:label "Hirsch, Gustav (Hg.): Biographisches Lexikon der hervorragenden Ärzte aller Zeiten und Völker. 2. Aufl. Bd. 2. Berlin, Wien 1930 Bd. 2 (1934), 836-837." ;
+	a drw-model:SL .
+
+<RelatedPerson/31101wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "[Name unbekannt]" .
+
+<B/31101hasStationOfLife1>
+	rdfs:label "Adjunkt am Lehrstuhl für physiologische Anatomie und Mikrographie an der St. Vladimir-Universität Kiev" ;
+	a drw-model:B ;
+	drw-model:began <Year/1843> .
+
+<Comment/31101hasComment5>
+	drw-model:hasNumber 5 ;
+	a drw-model:Comment ;
+	rdfs:label "Martin Wilhelm von Mandt (1799-1858), Professor für Chirurgie und Kaiserlicher Leibmedikus in St. Petersburg. Vollständige Biobibliographie vgl. Fischer 2010, 153-156." .
+
+<Year/1869>
+	rdfs:label "1869" ;
+	a drw-model:Year .
+
+<Comment/31101hasComment3>
+	rdfs:label "Gottlieb Alexis Iversen (1784-1872), Privatgelehrter, Gründer und Vorsteher der Lehr- und Pensionsanstalt für Knaben in Reval." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 3 .
+
+<SL/31101hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Wirksubstanzen. Deutsch-russische Beziehungen in der Pharmakologie des 19. Jahrhunderts. Aachen 2012 (Relationes 8), 209-211." .
+
+<WL/31101hasWL0>
+	rdfs:label "Vater der Kiever Anatomen-Schule" ;
+	a drw-model:WL .
+
+<Place/31101DiedIn>
+	a drw-model:Place ;
+	drw-model:hasComment <Comment/31101hasComment1> ;
+	rdfs:label "Warschau, Grabstätte: Kiev, Friedhof Bajkovo[1]" .
+
+<RelatedPerson/31101motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Just., geb. Sam (* 1786) (Leibliche Mutter)
+Charlotte Amalie, geb. Rodde (Stiefmutter)" .
+
+<SL/31101hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Baltisches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 400, 156-157." .
+
+<ImportantPerson/31075>
+	drw-model:hasID "31075" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/31101> .
+
+<Comment/31101hasComment1>
+	rdfs:label "Abbildung vgl. Vikipedija [ukrain.] (<b>SL</b>)." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 1 .
+
+<W/31101hasW2>
+	rdfs:label "K voprosu o stroenii grudnoj plevy. Diss. [habil.] Sankt-Peterburg 1870, 26 S." ;
+	a drw-model:W .
+
+<B/31101hasStationOfLife9>
+	drw-model:began <Year/1874> ;
+	a drw-model:B ;
+	rdfs:label "Medizinischer Inspektor der Volkskrankenhäuser in Warschau" .
+
+<W/31101hasW0>
+	rdfs:label "De mechanismo implicationis pilorum in plica Polonica, disquisitiones microscopicae. Diss. Kiev 1845." ;
+	a drw-model:W .
+
+<SL/31101hasSL10>
+	a drw-model:SL ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 101-102." .
+
+<Year/1874>
+	rdfs:label "1874" ;
+	a drw-model:Year .
+
+<A/31101hasEducation0>
+	a drw-model:A ;
+	drw-model:hasComment <Comment/31101hasComment3> ;
+	drw-model:began <Year/Bis_1832> ;
+	rdfs:label "Besuch der Iversenschen[3] Privatlehranstalt in Reval" .
+
+<Place/31101wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Reval" .
+
+<GPV/31101hasGPV2>
+	rdfs:label "Publikationen 1842-1883 (40 Nrn.), in: Ikonnikov 1884, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<A/31101hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Dorpat bei F. H. <span style='font-variant:small-caps;'>Bidder</span>, A. W. <span style='font-variant:small-caps;'>Volkmann</span> und Nikolaj Ivanovič <span style='font-variant:small-caps;'>Pirogov</span> (1810-1881)" ;
+	drw-model:began <Year/1836> .
+
+<GPV/31101hasGPV0>
+	rdfs:label "Deutschsprachige Publikationen 1842-1868, in: Pfrepper 2009 und Pfrepper 2012 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<Year/1843>
+	rdfs:label "1843" ;
+	a drw-model:Year .
+
+<MainName/31101hasMainName>
+	a drw-model:MainName ;
+	rdfs:label "Walther, Alexander" ;
+	drw-model:hasNameVariation <NameVariation/31101_0> .
+
+<Year/1841>
+	rdfs:label "1841" ;
+	a drw-model:Year .
+
+<HonoursAndAwards/31101hasHonoursAndAwards>
+	rdfs:label "1874 „Wirklicher Russischer Staatsrat“<br>1855 St.-Stanislav-Orden 2. Klasse und 1859 mit Kaiserlicher Krone<br>Bronzemedaille „In Erinnerung an den Krim-Krieg 1853-1856“" ;
+	a drw-model:HonoursAndAwards .
+
+<B/31101hasStationOfLife7>
+	a drw-model:B ;
+	rdfs:label "Forschungsreise ins Ausland (Sommerferien)" .
+
+<WL/31101hasWL1>
+	rdfs:label "Autor der ersten medizinischen Dissertation an der Universität Kiev" ;
+	a drw-model:WL .
+
+<Year/1845>
+	rdfs:label "1845" ;
+	a drw-model:Year .
+
+<B/31101hasStationOfLife3>
+	rdfs:label "Gründer und erster Direktor des Anatomischen Theaters an der Universität Kiev" ;
+	a drw-model:B .
+
+<B/31101hasStationOfLife5>
+	rdfs:label "Leiter der Chirurgischen Abteilung am Stadthospital in Kiev" ;
+	a drw-model:B ;
+	drw-model:began <Year/1848> .
+
+<WL/31101hasWL3>
+	rdfs:label "1860-1881 Herausgeber der Zeitschrift <i>Sovremennaja medicina</i>" ;
+	a drw-model:WL .
+

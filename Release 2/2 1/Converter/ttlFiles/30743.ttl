@@ -1,0 +1,236 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<GeneralLabor/30743hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Sinnesphysiologie" .
+
+<RelatedPerson/30743fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Albrecht Eduard (1833-1895), Professor für Ophthalmologie" .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<A/30743hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Dr. rer. nat. in Tübingen" .
+
+<SL/30743hasSL5>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SL .
+
+<SL/30743hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Wikipedia (http://de.wikipedia.org/wiki/Willibald_Nagel_%28Physiologe%29, 4.1.2012)." .
+
+<MainName/30743hasMainName>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30743_0> ;
+	rdfs:label "Nagel, Wilibald A." ;
+	drw-model:hasNameVariation <NameVariation/30743_1> .
+
+<Year/1895>
+	rdfs:label "1895" ;
+	a drw-model:Year .
+
+<SL/30743hasSL2>
+	rdfs:label "Durig, [Albert]: Willibald Nagel †. Wiener klinische Wochenschrift 6 (1911), 217." ;
+	a drw-model:SL .
+
+<Date/30743DiedOn>
+	rdfs:label "13. oder 14.[1]11.1911" ;
+	a drw-model:Date ;
+	drw-model:hasComment <Comment/30743hasComment1> .
+
+<SL/30743hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Deutsche Biographische Enzyklopädie. Hrsg. v. Walther Killy und Rudolf Vierhaus. Bd. 1-10. München u. a. 1995-1999,  Bd. 7 (1998), 335." .
+
+<NameVariation/30743_1>
+	rdfs:label "Nagel', Vilibal’d A."@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Нагель, Вилибальд А."@ru .
+
+<ImportantPerson/30743>
+	drw-model:hasW <W/30743hasW0> ;
+	drw-model:hasStationOfLife <B/30743hasStationOfLife0> ;
+	drw-model:hasSL <SL/30743hasSL0> ;
+	drw-model:hasComment <Comment/30743hasComment2> ;
+	drw-model:hasComment <Comment/30743hasComment1> ;
+	drw-model:wasBornOn <Date/30743wasBornOn> ;
+	drw-model:hasSL <SL/30743hasSL2> ;
+	drw-model:hasSL <SL/30743hasSL7> ;
+	drw-model:hasGPV <GPV/30743hasGPV0> ;
+	drw-model:hasStationOfLife <B/30743hasStationOfLife2> ;
+	drw-model:hasEducation <A/30743hasEducation0> ;
+	drw-model:hasSL <SL/30743hasSL5> ;
+	drw-model:hasMainName <MainName/30743hasMainName> ;
+	drw-model:hasComment <Comment/30743hasComment3> ;
+	drw-model:hasSL <SL/30743hasSL8> ;
+	drw-model:hasEducation <A/30743hasEducation1> ;
+	drw-model:hasConnectionTo <ImportantPerson/30584> ;
+	rdfs:label "Nagel, Wilibald A." ;
+	drw-model:hasStationOfLife <B/30743hasStationOfLife1> ;
+	drw-model:hasSL <SL/30743hasSL1> ;
+	drw-model:hasID "30743" ;
+	drw-model:hasGeneralLabor <GeneralLabor/30743hasGeneralLabor0> ;
+	drw-model:hasWL <WL/30743hasWL0> ;
+	drw-model:wasMarriedTo <RelatedPerson/30743wasMarriedTo> ;
+	a drw-model:ImportantPerson ;
+	drw-model:wasBornIn <Place/30743wasBornIn> ;
+	drw-model:hasDescendant <RelatedPerson/30743hasDescendant> ;
+	drw-model:hasSL <SL/30743hasSL4> ;
+	drw-model:hasP <P/30743hasP0> ;
+	drw-model:hasEducation <A/30743hasEducation2> ;
+	drw-model:fatherIs <RelatedPerson/30743fatherIs> ;
+	drw-model:hasStationOfLife <B/30743hasStationOfLife3> ;
+	drw-model:DiedIn <Place/30743DiedIn> ;
+	drw-model:hasStationOfLife <B/30743hasStationOfLife4> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30743.png> ;
+	drw-model:hasMG <MG/30743hasMG> ;
+	drw-model:hasSL <SL/30743hasSL3> ;
+	drw-model:DiedOn <Date/30743DiedOn> ;
+	drw-model:hasEducation <A/30743hasEducation3> ;
+	drw-model:hasSL <SL/30743hasSL6> .
+
+<B/30743hasStationOfLife1>
+	rdfs:label "Assistent bei J. v. <span style='font-variant:small-caps;'>Kries</span> am Physiologischen Institut in Freiburg i. Br." ;
+	a drw-model:B .
+
+<MG/30743hasMG>
+	a drw-model:MG ;
+	rdfs:label "vgl.: <b>SL</b>" .
+
+<A/30743hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Habilitation an der Universität Freiburg i. Br." .
+
+<Date/30743wasBornOn>
+	rdfs:label "19.6.1870" ;
+	a drw-model:Date .
+
+<B/30743hasStationOfLife3>
+	drw-model:began <Year/1902> ;
+	rdfs:label "ao. Professor für Physiologie und Leiter der Abteilung für Sinnesphysiologie an der Friedrich-Wilhelms-Universität Berlin" ;
+	a drw-model:B .
+
+<Comment/30743hasComment2>
+	drw-model:hasNumber 2 ;
+	rdfs:label "Tochter von J. v. #internNameLink#30584#endNameNr#Kries#/internNameLink#." ;
+	a drw-model:Comment .
+
+<WL/30743hasWL0>
+	rdfs:label "Mitherausgeber der <i>Zeitschrift für Psychologie und Physiologie der Sinnesorgane</i>, ab 41 (1907) <i>Zeitschrift für Sinnesphysiologie</i>. Weiteres vgl.: <b>SL</b>" ;
+	a drw-model:WL .
+
+<B/30743hasStationOfLife4>
+	drw-model:began <Year/1908> ;
+	rdfs:label "o. Professor für Physiologie an der Universität Rostock" ;
+	a drw-model:B .
+
+<SL/30743hasSL8>
+	rdfs:label "[Nekrolog] Nagel, Wilibald. In: Biographisches Jahrbuch und deutscher Nekrolog. Bd. 16. Berlin 1914, 56." ;
+	a drw-model:SL .
+
+<Comment/30743hasComment1>
+	a drw-model:Comment ;
+	drw-model:hasNumber 1 ;
+	rdfs:label "So nur in Gerabek 1996 (<b>SL</b>) angegeben." .
+
+<Year/1893>
+	rdfs:label "1893" ;
+	a drw-model:Year .
+
+<GPV/30743hasGPV0>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:GPV .
+
+<B/30743hasStationOfLife2>
+	drw-model:began <Year/1895> ;
+	a drw-model:B ;
+	rdfs:label "Privatdozent für Physiologie in Freiburg i. Br." .
+
+<A/30743hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Studium der Naturwissenschaften und der Medizin an der Universität Tübingen" .
+
+<P/30743hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait: Foto (Abb.) von Fritz Blohm 1910 in Rostock. Aus: Wikipedia (<b>SL</b>)." .
+
+<SL/30743hasSL6>
+	rdfs:label "Trendelenburg Wilhelm: Willibald A. Nagel [Nekrolog]. Klinische Monatsblätter für Augenheilkunde 49 (1911), 387-390." ;
+	a drw-model:SL .
+
+<Year/1908>
+	rdfs:label "1908" ;
+	a drw-model:Year .
+
+<SL/30743hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Gerabek 1996 – Gerabek, Werner: Nagel, Willibald. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. Bd. 18 (1996), 712-713 (Onlinefassung unter http://www.deutsche-biographie.de/pnd116880309.html, 4.1.2012)." .
+
+<RelatedPerson/30743wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ellen, geb. von Kries (1882-1944)[2]" ;
+	drw-model:hasComment <Comment/30743hasComment2> .
+
+<Place/30743wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Tübingen" .
+
+<Place/30743DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Rostock, Grabstätte: Freiburg im Breisgau" .
+
+<NameVariation/30743_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Nagel, Wilibald/Willibald A." .
+
+<SL/30743hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Fischer, Isidor (Hg.): Biographisches Lexikon der hervorragenden Ärzte der letzten fünfzig Jahre. Bd. 2. Berlin 1933, 1099." .
+
+<Year/1902>
+	rdfs:label "1902" ;
+	a drw-model:Year .
+
+<SL/30743hasSL1>
+	rdfs:label "Deutsches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): III 654, 420-423." ;
+	a drw-model:SL .
+
+<ImportantPerson/30584>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30584" ;
+	drw-model:hasConnectionTo <ImportantPerson/30743> .
+
+<W/30743hasW0>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:W .
+
+<A/30743hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Dr. med. in Tübingen" .
+
+<Comment/30743hasComment3>
+	rdfs:label "Vgl. J. v. #internNameLink#30584#endNameNr#Kries#/internNameLink#: „Stammbaum Johannes von Kries“ (<b>Q</b>)." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 3 .
+
+<B/30743hasStationOfLife0>
+	rdfs:label "Assistent am Physiologischen Institut in Tübingen" ;
+	a drw-model:B ;
+	drw-model:began <Year/1893> .
+
+<RelatedPerson/30743hasDescendant>
+	drw-model:hasComment <Comment/30743hasComment3> ;
+	a drw-model:RelatedPerson ;
+	rdfs:label "[3]
+Gerhard Albrecht (1903-1998)
+Helmut (1905-1930)
+Günther Otto (1907-1989)" .
+

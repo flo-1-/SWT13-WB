@@ -1,0 +1,368 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<W/30972hasW5>
+	rdfs:label "Materialy dlja izučenija obrazovanija želči. Zapiski Novorossijskago obščestva estestvoispytatelej 7 (1880) 1, 1-50." ;
+	a drw-model:W .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<ImportantPerson/30664>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30972> ;
+	drw-model:hasID "30664" .
+
+<Comment/30972hasComment2>
+	drw-model:hasNumber 2 ;
+	a drw-model:Comment ;
+	rdfs:label "Die Angabe 1894 in Brokgauz i Efron, zit. n. WBIS RBA (<b>SL</b>), muss ein Druckfehler sein." .
+
+<W/30972hasW8>
+	rdfs:label "O nasil’stvennych dviženijach u čeloveka. Protokol zasedanija Obščestva Odesskich vračej (1886)." ;
+	a drw-model:W .
+
+<P/30972hasP2>
+	a drw-model:P ;
+	rdfs:label "Foto: Valentin Aleksandrovič Serov (1865-1911) und Dr. P. A. Spiro 1885 in Abramcevo (http://vserov.ru/photo/12.php, 28.3.2011)." .
+
+<Place/30972DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Odessa" .
+
+<W/30972hasW0>
+	rdfs:label "[6]" ;
+	a drw-model:W ;
+	drw-model:hasComment <Comment/30972hasComment6> .
+
+<W/30972hasW6>
+	rdfs:label "O nekotorych javlenijach tak nazyvaemogo životnogo magnetisma (gipnotizma). Zapiski Novorossijskago obščestva estestvoispytatelej 8 (1883) 4, I-III." ;
+	a drw-model:W .
+
+<RelatedPerson/30972hasDescendant>
+	drw-model:hasComment <Comment/30972hasComment5> ;
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sergej Petrovič (Pseud. S. P. Sergeev), Journalist, Dramaturg, Publizist[5]" .
+
+<ImportantPerson/30972>
+	drw-model:hasEducation <A/30972hasEducation1> ;
+	drw-model:hasW <W/30972hasW6> ;
+	drw-model:hasConnectionTo <ImportantPerson/30664> ;
+	drw-model:hasComment <Comment/30972hasComment4> ;
+	drw-model:DiedOn <Date/30972DiedOn> ;
+	drw-model:hasP <P/30972hasP3> ;
+	drw-model:hasEducation <A/30972hasEducation2> ;
+	drw-model:hasComment <Comment/30972hasComment7> ;
+	drw-model:hasConnectionTo <ImportantPerson/30587> ;
+	drw-model:hasStationOfLife <B/30972hasStationOfLife2> ;
+	drw-model:hasStationOfLife <B/30972hasStationOfLife7> ;
+	drw-model:hasP <P/30972hasP2> ;
+	drw-model:hasW <W/30972hasW2> ;
+	drw-model:hasStationOfLife <B/30972hasStationOfLife1> ;
+	drw-model:hasMG <MG/30972hasMG> ;
+	drw-model:hasSL <SL/30972hasSL0> ;
+	drw-model:hasStationOfLife <B/30972hasStationOfLife6> ;
+	drw-model:hasP <P/30972hasP1> ;
+	rdfs:label "Spiro, Petr Antonovič#footnote1#" ;
+	drw-model:hasConnectionTo <ImportantPerson/30570> ;
+	drw-model:hasComment <Comment/30972hasComment6> ;
+	drw-model:hasW <W/30972hasW5> ;
+	drw-model:hasComment <Comment/30972hasComment5> ;
+	drw-model:hasStationOfLife <B/30972hasStationOfLife5> ;
+	drw-model:hasW <W/30972hasW8> ;
+	drw-model:hasSL <SL/30972hasSL3> ;
+	drw-model:hasW <W/30972hasW9> ;
+	drw-model:motherIs <RelatedPerson/30972motherIs> ;
+	drw-model:hasConnectionTo <ImportantPerson/30085> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30972.jpg> ;
+	drw-model:hasDescendant <RelatedPerson/30972hasDescendant> ;
+	drw-model:hasGPV <GPV/30972hasGPV0> ;
+	drw-model:hasMainName <MainName/30972hasMainName> ;
+	drw-model:wasBornOn <Date/30972wasBornOn> ;
+	drw-model:hasComment <Comment/30972hasComment1> ;
+	drw-model:fatherIs <RelatedPerson/30972fatherIs> ;
+	drw-model:hasW <W/30972hasW7> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <A/30972hasEducation4> ;
+	drw-model:hasStationOfLife <B/30972hasStationOfLife4> ;
+	drw-model:hasEducation <A/30972hasEducation3> ;
+	drw-model:hasConnectionTo <ImportantPerson/30924> ;
+	drw-model:hasW <W/30972hasW4> ;
+	drw-model:hasW <W/30972hasW3> ;
+	drw-model:hasGPV <GPV/30972hasGPV1> ;
+	drw-model:hasComment <Comment/30972hasComment2> ;
+	drw-model:hasW <W/30972hasW0> ;
+	drw-model:hasStationOfLife <B/30972hasStationOfLife0> ;
+	drw-model:hasID "30972" ;
+	drw-model:hasSL <SL/30972hasSL1> ;
+	drw-model:hasWL <WL/30972hasWL1> ;
+	drw-model:hasComment <Comment/30972hasComment3> ;
+	drw-model:hasEducation <A/30972hasEducation0> ;
+	drw-model:wasBornIn <Place/30972wasBornIn> ;
+	drw-model:hasConnectionTo <ImportantPerson/30695> ;
+	drw-model:hasConnectionTo <ImportantPerson/30395> ;
+	drw-model:hasP <P/30972hasP0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30972hasGeneralLabor0> ;
+	drw-model:hasSL <SL/30972hasSL2> ;
+	drw-model:DiedIn <Place/30972DiedIn> ;
+	drw-model:hasWL <WL/30972hasWL0> ;
+	drw-model:hasW <W/30972hasW1> ;
+	drw-model:hasStationOfLife <B/30972hasStationOfLife3> .
+
+<W/30972hasW2>
+	a drw-model:W ;
+	rdfs:label "Fiziologo-topografičeskie issledovanija nad spinnym mozgom ljaguški. Voenno-medicinskij žurnal 110 (1870) III, 79 ff." .
+
+<Comment/30972hasComment7>
+	drw-model:hasNumber 7 ;
+	a drw-model:Comment ;
+	rdfs:label "Spiro war ein großer Kunstkenner und Musikliebhaber (konnte auch selbst gut singen). Er pflegte Freundschaften, z. B. durch jährliche Sommertreffen in der Künstlerkolonie Abramcevo nahe Moskau, mit dem Kunstmäzen Savva Ivanovič Mamontov (1841-1918) und zahlreichen russischen Künstlern, wie Il’ja Efimovič Repin (1844-1930), Valentin Aleksandrovič Serov (1865-1911) u. a. Repin porträtierte Spiro einige Male. Diese Zeichnung trägt in Repins Album von 1885 die Nr. 57. Vgl. Demčuk (<b>SL</b>) und Grabar’ (<b>P</b>), S. 57 und Anm. 52." .
+
+<B/30972hasStationOfLife0>
+	rdfs:label "Arzt am Militärhospital und Assistent im physiologischen Labor der MCA bei I. M. <span style='font-variant:small-caps;'>Sečenov</span>" ;
+	a drw-model:B ;
+	drw-model:began <Year/1870> .
+
+<B/30972hasStationOfLife5>
+	a drw-model:B ;
+	rdfs:label "außerplanmäßiger Dozent für Physiologie an der Novorossijskij Universität Odessa auf Vorschlag von Il’ja Il’jič <span style='font-variant:small-caps;'>Mečnikov</span> (1845-1916) und N. O. <span style='font-variant:small-caps;'>Bernštejn</span>" .
+
+<Year/1867>
+	rdfs:label "1867" ;
+	a drw-model:Year .
+
+<RelatedPerson/30972motherIs>
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30972hasComment4> ;
+	rdfs:label "Fanny, geb. Einbrodt (1815-1851)[4]" .
+
+<P/30972hasP3>
+	rdfs:label "Foto [Gruppenbild] von 1886, in: Grabar’, Igor’: Valentin Aleksandrovič Serov. Žizn’ i tvorčestvo 1865-1911. Moskva 1965, 27." ;
+	a drw-model:P .
+
+<RelatedPerson/30972fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anton (Osipovič) (1808-1888), Oberarzt im Arbeiterhospital in Moskau[3]" ;
+	drw-model:hasComment <Comment/30972hasComment3> .
+
+<WL/30972hasWL0>
+	rdfs:label "Forschungsgebiete: Topographie der Atmungszentren, Physiologie der Verdauung, Mentalsuggestion, Hypnose u. a." ;
+	a drw-model:WL .
+
+<SL/30972hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 240-241." .
+
+<ImportantPerson/30570>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30972> ;
+	drw-model:hasID "30570" .
+
+<B/30972hasStationOfLife7>
+	rdfs:label "Professor für Physiologie an der Novorossijskij Universität Odessa" ;
+	a drw-model:B ;
+	drw-model:began <Year/1885> .
+
+<W/30972hasW3>
+	rdfs:label "K voprosu ob innervacii dychatel’nych dviženij. Zapiski Imperatorskago Novorossijskago universiteta 15 (1874), 1-37." ;
+	a drw-model:W .
+
+<Place/30972wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Moskau" .
+
+<SL/30972hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Demčuk, V. I.: Fiziolog P. A. Spiro (1844-1893). Fiziologičeskij žurnal SSSR imeni I. M. Sečenova 50 (1964) 10, 1300-1301." .
+
+<P/30972hasP1>
+	drw-model:hasComment <Comment/30972hasComment7> ;
+	a drw-model:P ;
+	rdfs:label "Il’ja Efimovič Repin (1844-1930): Petr Antonovič Spiro. Zeichnung von 1885. In: Repin, Il’ja Efimovič. Ėskizy, grafika, nabroski, portrety. MCF 2000. CD-ROM (http://www.rulex.ru/rpg/portraits/25/25147.htm, 28.3.2011).[7]" .
+
+<ImportantPerson/30695>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30972> ;
+	drw-model:hasID "30695" .
+
+<A/30972hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Studium an der naturwissenschaftlichen Abteilung der Physiko-mathematischen Fakultät der Universität Moskau" ;
+	drw-model:began <Year/1863> .
+
+<MG/30972hasMG>
+	a drw-model:MG ;
+	rdfs:label "Novorossijskoe obščestvo estestvoispytatelej [Gesellschaft der Naturforscher in Novorossijsk] (1871)." .
+
+<ImportantPerson/30587>
+	drw-model:hasID "30587" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30972> .
+
+<ImportantPerson/30395>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30395" ;
+	drw-model:hasConnectionTo <ImportantPerson/30972> .
+
+<Comment/30972hasComment4>
+	drw-model:hasNumber 4 ;
+	a drw-model:Comment ;
+	rdfs:label "EAD: Dokument-Id [63644/62696 (28.3.2011)]." .
+
+<Year/1863>
+	rdfs:label "1863" ;
+	a drw-model:Year .
+
+<A/30972hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Magister der Physiologie an der Novorossijskij Universität Odessa" .
+
+<GPV/30972hasGPV1>
+	rdfs:label "Deutschsprachige Publikationen 1877-1880, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<Date/30972wasBornOn>
+	a drw-model:Date ;
+	rdfs:label "21.9./3.10.1844" .
+
+<Comment/30972hasComment1>
+	rdfs:label "Vermutlich getaufter Jude. Vgl. <b>SL</b> EAD: Konfession: jüdisch, Volkov/Kulikova 2003 b: Evangelisch-lutheranischen Glaubens." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 1 .
+
+<NameVariation/30972_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Spiro, Peter"@de .
+
+<ImportantPerson/30924>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30972> ;
+	drw-model:hasID "30924" .
+
+<Comment/30972hasComment3>
+	a drw-model:Comment ;
+	drw-model:hasNumber 3 ;
+	rdfs:label "EAD: Dokument-Id [63644/62696 (28.3.2011)]." .
+
+<SL/30972hasSL3>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 417-418." ;
+	a drw-model:SL .
+
+<W/30972hasW7>
+	rdfs:label "Po povodu raboty Š. Riše o tak naz. myslennom vnušenii (Suggestion mentale). Zapiski Novorossijskago obščestva estestvoispytatelej 10 (1885) 1, 7-10." ;
+	a drw-model:W .
+
+<ImportantPerson/30085>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30972> ;
+	drw-model:hasID "30085" .
+
+<SL/30972hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 439, 192-197; RS 65, 3-5." .
+
+<W/30972hasW1>
+	rdfs:label "Opyty nad izmeneniem razdražitel’nosti spinnogo mozga. Medicinskij žurnal (1868) Nr. 7, 307 ff." ;
+	a drw-model:W .
+
+<B/30972hasStationOfLife3>
+	rdfs:label "Privatdozent für Physiologie an der Novorossijskij Universität Odessa" ;
+	a drw-model:B .
+
+<B/30972hasStationOfLife1>
+	a drw-model:B ;
+	drw-model:began <Year/1871> ;
+	rdfs:label "Laborant bei <span style='font-variant:small-caps;'>Sečenov</span> im physiologischen Labor der Novorossijskij Universität Odessa" .
+
+<Comment/30972hasComment6>
+	a drw-model:Comment ;
+	rdfs:label "Mit Korrekturen und Ergänzungen zu Band-, Jahres- und Seitenzahlen der Angaben in Bogdanov, Markevič 1890 und RBS in <b>GPV</b>." ;
+	drw-model:hasNumber 6 .
+
+<MainName/30972hasMainName>
+	a drw-model:MainName ;
+	drw-model:hasComment <Comment/30972hasComment1> ;
+	drw-model:hasNameVariation <NameVariation/30972_0> ;
+	rdfs:label "Spiro, Petr Antonovič[1]" .
+
+<B/30972hasStationOfLife4>
+	drw-model:began <Year/1876> ;
+	rdfs:label "Weiterbildung in Deutschland (Delegierung):
+- bei F. <span style='font-variant:small-caps;'>Hoppe-Seyler</span> an der Universität Straßburg
+- bei C. <span style='font-variant:small-caps;'>Ludwig</span>, K. H. <span style='font-variant:small-caps;'>Kronecker</span> und Edmund <span style='font-variant:small-caps;'>Drechsel</span> (1843-1897) an der Universität Leipzig" ;
+	a drw-model:B .
+
+<B/30972hasStationOfLife2>
+	rdfs:label "Weiterbildung bei Alexander <span style='font-variant:small-caps;'>Rollet</span> (1834-1903) an der Karl-Franzens-Universität Graz" ;
+	a drw-model:B .
+
+<Date/30972DiedOn>
+	a drw-model:Date ;
+	drw-model:hasComment <Comment/30972hasComment2> ;
+	rdfs:label "15./27.11.1893[2]" .
+
+<B/30972hasStationOfLife6>
+	a drw-model:B ;
+	rdfs:label "Prosektor am Lehrstuhl für Zoologie an der Novorossijskij Universität Odessa auf Empfehlung von Aleksandr Onufrievič <span style='font-variant:small-caps;'>Kovalevskij</span> (1840-1901) u. a." .
+
+<WL/30972hasWL1>
+	rdfs:label "Autor von Arbeiten über Experimente zu Veränderungen am Rückenmark durch Reizung (1868), über die Innervation der Atembewegungen (1874), über Haut-Muskel-Reflexe (1875), zu Untersuchungen über die Gallenbildung (1880), über einige Erscheinungen des sog. „tierischen Magnetismus“ (Hypnotismus) (1883) u. a." ;
+	a drw-model:WL .
+
+<W/30972hasW9>
+	rdfs:label "Po povodu seansa otgadyvanija čužich myslej. Protokol zasedanija Obščestva Odesskich vračej (1886)." ;
+	a drw-model:W .
+
+<Year/1876>
+	rdfs:label "1876" ;
+	a drw-model:Year .
+
+<P/30972hasP0>
+	rdfs:label "Portrait (Abb.) aus: Volkov/Kulikova 2003 b (<b>SL</b>), Bildeinlage zw. S. 424-425." ;
+	a drw-model:P .
+
+<A/30972hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Studium der Medizin an der Mediko-Chirurgischen Akademie (MCA) St. Petersburg" ;
+	drw-model:began <Year/1867> .
+
+<W/30972hasW4>
+	rdfs:label "O kožno-myšečnych refleksach. Zapiski Imperatorskago Novorossijskago universiteta 18 (1876), 1-56." ;
+	a drw-model:W .
+
+<Year/1871>
+	rdfs:label "1871" ;
+	a drw-model:Year .
+
+<GeneralLabor/30972hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<A/30972hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Universität Char’kov (vermutlich ohne schriftliche Dissertation)" .
+
+<Year/1885>
+	rdfs:label "1885" ;
+	a drw-model:Year .
+
+<A/30972hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Abschluss des II. Gymnasiums in Moskau" .
+
+<GPV/30972hasGPV0>
+	rdfs:label "Publikationen 1868-1886 (9 Nrn.), in: Bogdanov, Markevič 1890 und RBS, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<Year/1870>
+	rdfs:label "1870" ;
+	a drw-model:Year .
+
+<Comment/30972hasComment5>
+	drw-model:hasNumber 5 ;
+	a drw-model:Comment ;
+	rdfs:label "Korrespondent der Zeitschrift <i>Russkoe slovo</i> und Autor der Publikation <i>Besedy s L. N. Tol’stym (1909 i 1910 gg.)</i>. Moskva 1911, 75 S. Vgl. WBIS RBA: RS 65, 6, und http://www.nbuv.gov.ua/portal/Soc_Gum/khud_kult/2009_6/PDF%5CHK-6_2009_p-567-604_Abramov.pdf (28.3.2011)." .
+

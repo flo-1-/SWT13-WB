@@ -1,0 +1,697 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<RelatedPerson/30205fatherIs>
+	drw-model:hasComment <Comment/30205hasComment6> ;
+	a drw-model:RelatedPerson ;
+	rdfs:label "Jakov Petrovič, Uhrmachermeister, Fotograf[6]" .
+
+<WL/30205hasWL3>
+	rdfs:label "Bestimmte 1874-1876 als einer der Ersten die Existenz elektrischer Ströme in der Großhirnrinde." ;
+	a drw-model:WL .
+
+<ImportantPerson/30266>
+	drw-model:hasID "30266" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30205> .
+
+<Year/1868>
+	rdfs:label "1868" ;
+	a drw-model:Year .
+
+<SL/30205hasSL15>
+	a drw-model:SL ;
+	rdfs:label "Šustov, A. S. (Hg.): Naši dejateli po medicine. Sankt-Peterburg 1910 (Illjustrirovannyj vestnik kul’tury, naučno-vospitatel’nago, techničeskago i torgovo-promyšlennago progressa Rossii 1) [Microfiche, ohne Seitenangaben]" .
+
+<P/30205hasP5>
+	rdfs:label "Portrait in: Tarapov, I. E. (Hauptred.): Char’kovskij gosudarstvennyj universitet 1805-1980. Istoričeskij očerk. Char’kov 1980, 27." ;
+	a drw-model:P .
+
+<W/30205hasW2>
+	a drw-model:W ;
+	rdfs:label "Die physiologischen Fernwirkungen der Elektricität. Untersuchungen. Leipzig 1902, 228 S." .
+
+<SL/30205hasSL11>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 160-161." ;
+	a drw-model:SL .
+
+<GPV/30205hasGPV4>
+	a drw-model:GPV ;
+	rdfs:label "Spisok rabot V. Ja. Danilevskogo 1872-1938, in: Finkel’štejn (<b>SL</b>)." .
+
+<NameVariation/30205_2>
+	a drw-model:NameVariation ;
+	rdfs:label "Danilewski, Basil/Basile/Basilius"@de .
+
+<SL/30205hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Kočenkov, A. F.: Vasilij Jakovlevič Danilevskij. Istorija žizni (http://www.tonnel.ru/?l=gzl&amp;uid=716, 15.12.2010)." .
+
+<OtherOffices/30205hasOtherOffices2>
+	a drw-model:OtherOffices ;
+	rdfs:label "Vorsitzender von Prüfungskommissionen an mehreren Universitäten        " .
+
+<WL/30205hasWL10>
+	rdfs:label "Autor von über 200 Publikationen" ;
+	a drw-model:WL .
+
+<MainName/30205hasMainName>
+	a drw-model:MainName ;
+	rdfs:label "Danilevskij, Vasilij Jakovlevič" ;
+	drw-model:hasNameVariation <NameVariation/30205_1> ;
+	drw-model:hasNameVariation <NameVariation/30205_0> ;
+	drw-model:hasNameVariation <NameVariation/30205_2> .
+
+<Year/1917>
+	rdfs:label "1917" ;
+	a drw-model:Year .
+
+<Q/30205hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr. 2731 (Empfehlungsschreiben vom 21.6.1888 und vom 7. und 19.7.1888 zur Aufnahme in die Leopoldina, Danilevskijs Dankschreiben zur Wahl an den Präsidenten der Leopoldina Prof. Dr. H. Knoblauch vom 6.10. und 28.11.1888, ausgefüllter Fragebogen „Biographische Mittheilungen“ vom 6.10.1888 mit Schriftenverzeichnis [vgl. <b>GPV</b>] u. a.)." .
+
+<B/30205hasStationOfLife10>
+	rdfs:label "Begründer des Medizinischen Instituts für Frauen in Char’kov, bis 1912 dessen Direktor und bis 1917 Dozent für Physiologie" ;
+	a drw-model:B .
+
+<WL/30205hasWL2>
+	rdfs:label "Fand in der Großhirnrinde Zentren, die die Funktion der inneren Organe regulieren." ;
+	a drw-model:WL .
+
+<A/30205hasEducation6>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung in Deutschland mit Stipendium des Ministeriums für Volksaufklärung:
+- bei A. <span style='font-variant:small-caps;'>Fick</span> und bei Friedrich Wilhelm Georg <span style='font-variant:small-caps;'>Kohlrausch</span> (1840-1910) an der Universität Würzburg
+- bei I. <span style='font-variant:small-caps;'>Rosenthal</span> an der Universität Erlangen
+- bei C. <span style='font-variant:small-caps;'>Ludwig</span> an der Universität Leipzig[10]
+- bei Friedrich Karl August <span style='font-variant:small-caps;'>Stohmann</span> (1832-1897) am Landwirtschaftlich-physiologischen Institut der Universität Leipzig" ;
+	drw-model:hasComment <Comment/30205hasComment10> ;
+	drw-model:began <Year/1878> .
+
+<Comment/30205hasComment15>
+	drw-model:hasNumber 15 ;
+	rdfs:label "Vgl. http://www.biolib.cz/en/taxon/id512873/ (7.3.2011). In Estestvoznanie, zit. n. WBIS RBA (<b>SL</b>), ist 1895 angegeben." ;
+	a drw-model:Comment .
+
+<GPV/30205hasGPV3>
+	rdfs:label "Učenye trudy prof. V. Ja. Danilevskago (1872-1904, 91 Nrn.), in: Skvorcov/Bagalej 1905/06 (<b>SL</b>), 48-51." ;
+	a drw-model:GPV .
+
+<WL/30205hasWL7>
+	rdfs:label "Untersuchte das energetische und thermische Gleichgewicht der Muskelkontraktion und der Nahrung." ;
+	a drw-model:WL .
+
+<SL/30205hasSL3>
+	rdfs:label "Finkel’štejn, Evgenij Aleksandrovič: Vasilij Jakovlevič Danilevskij. Leningrad 1955, 292 S. (online unter http://timiryazev.ru/biblioteka/danilevskiy.html, 20.12.2010)" ;
+	a drw-model:SL .
+
+<Comment/30205hasComment14>
+	a drw-model:Comment ;
+	drw-model:hasNumber 14 ;
+	rdfs:label "Vgl. Beleckaja (<b>SL</b>) und http://streets-kharkiv.info/ulitsa-danilevskogo (16.12.2010)." .
+
+<Comment/30205hasComment3>
+	rdfs:label "Kočenkov (<b>SL</b>)" ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 3 .
+
+<B/30205hasStationOfLife4>
+	rdfs:label "Gründer des Laboratoriums für vergleichende Physiologie an der Physiko-mathematischen Fakultät der Universität Char’kov" ;
+	a drw-model:B .
+
+<WL/30205hasWL11>
+	rdfs:label "Zusammen mit seinem Bruder Aleksandr Gründer und 1888-1891 Mitredakteur von <i>Fiziologičeskij sbornik</i>, ab 1921 Redakteur von <i>Vračebnoe delo</i>" ;
+	a drw-model:WL .
+
+<SL/30205hasSL12>
+	a drw-model:SL ;
+	rdfs:label "[Zur Biographie] Vasyl’ Jakovyč Danylevs’kyj. Biografična dovidka (http://ipep.medical.kh.ua/danilevsky.html, 15.12.2010)." .
+
+<B/30205hasStationOfLife13>
+	rdfs:label "Gründer des Ukrainischen Arbeitsinstituts (heute Wissenschaftliches Forschungsinstitut für Arbeits-Hygiene und Berufskrankheiten) in Char’kov" ;
+	a drw-model:B .
+
+<A/30205hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung im Physiologischen Laboratorium an der Medizinischen Fakultät der Universität Char’kov bei I. P. <span style='font-variant:small-caps;'>Ščelkov</span>" ;
+	drw-model:began <Year/1871> .
+
+<B/30205hasStationOfLife12>
+	rdfs:label "Gründer und erster Direktor des Instituts für Organtherapie[11] bei der Char’kover medizinischen Gesellschaft 1927Gründer der Endokrinologischen Institutsklinik und 1931-1939Leiter des wissenschaftlichen Forschungssektors[12]" ;
+	drw-model:hasComment <Comment/30205hasComment12> ;
+	a drw-model:B ;
+	drw-model:hasComment <Comment/30205hasComment11> .
+
+<Year/1878>
+	rdfs:label "1878" ;
+	a drw-model:Year .
+
+<RelatedPerson/30205motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Elena Stepanovna Danilevskaja" .
+
+<Year/1886>
+	rdfs:label "1886" ;
+	a drw-model:Year .
+
+<GPV/30205hasGPV2>
+	rdfs:label "Publikationen 1872-1890, in: Bogdanov, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<B/30205hasStationOfLife2>
+	drw-model:began <Year/1883> ;
+	rdfs:label "ao. Professor am Lehrstuhl für Zoologie der Universität Char’kov" ;
+	a drw-model:B .
+
+<Comment/30205hasComment9>
+	a drw-model:Comment ;
+	drw-model:hasNumber 9 ;
+	rdfs:label "Zametki k istorii Char’kovskoj fotografii (Anm. 6) und WBIS RBA: R 149, 1. Von ihm stammt u. a. die Publikation „Upravljaemyj letatel’nyj snarjad“. Char’kov 1900, 78 S.; in deutscher Übersetzung: „Ein lenkbarer Flugapparat“. Charkow 1900, 82 S., vorhanden in der Deutschen Nationalbibliothek Leipzig, Signatur: 1948 A 4660." .
+
+<OtherOffices/30205hasOtherOffices1>
+	a drw-model:OtherOffices ;
+	rdfs:label "Mitglied im Wissenschaftskomitee des Volkskommissariats für Aufklärung der Ukrainischen SSR" .
+
+<SL/30205hasSL2>
+	rdfs:label "Beleckaja, Ol’ga M.: Primer služenija narodu sem’i Danilevskich. Večernij Char’kov 16. Oktober 2006 (http://vecherniy.kharkov.ua/news/6693/, 15.12.2011)." ;
+	a drw-model:SL .
+
+<WL/30205hasWL1>
+	rdfs:label "Forschungsgebiete: Probleme der allgemeinen und vergleichenden Physiologie, Physiologie des Nervensystems, Elektrophysiologie, Endokrinologie und Protistologie" ;
+	a drw-model:WL .
+
+<B/30205hasStationOfLife5>
+	drw-model:began <Year/1886> ;
+	a drw-model:B ;
+	rdfs:label "Ordinarius für Physiologie des Menschen an der Medizinischen Fakultät der Universität Char’kov" .
+
+<Comment/30205hasComment2>
+	drw-model:hasNumber 2 ;
+	a drw-model:Comment ;
+	rdfs:label "<b>SL</b> Volkov/Kulikova 2003 b und BSĖ 2, zit. n. WBIS RBA" .
+
+<P/30205hasP4>
+	rdfs:label "Portrait in: Finkel’štejn 1955 (<b>SL</b>), vorderer Umschlag." ;
+	a drw-model:P .
+
+<W/30205hasW1>
+	rdfs:label "Issledovanija po fiziologii golovnogo mozga. Diss. Moskva 1876, 41 S." ;
+	a drw-model:W .
+
+<SL/30205hasSL13>
+	a drw-model:SL ;
+	rdfs:label "Česnakova [Im Original Druckfehler, es muss heißen: Česnokova], Sof’ja Aleksandrovna, Lindemann, Marianne: Russische Physiologen in Laboratorien von Carl Ludwig. Wissenschaftliche Zeitschrift der Karl-Marx-Universität Leipzig, Mathematisch-naturwissenschaftliche Reihe 19 (1970), 315-323." .
+
+<ImportantPerson/30587>
+	drw-model:hasID "30587" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30205> .
+
+<ImportantPerson/30865>
+	drw-model:hasID "30865" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30205> .
+
+<P/30205hasP7>
+	rdfs:label "Portrait [mit Unterschrift] in: Beleckaja 2007 (<b>GPV</b>), vorderer Umschlag, und [Zur Biographie] (<b>SL</b>)." ;
+	a drw-model:P .
+
+<A/30205hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Universität Char’kov" .
+
+<SL/30205hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Skvorcov, I. P., Bagalej, D. I. (Red.): Medicinskij fakul’tet Char’kovskago universiteta za pervych sto let ego suščestvovanija (1805-1905). Teil 3: Biografičeskij slovar’ professorov i prepodavatelej medicinskago fakul’teta. Char’kov 1905-1906, 41-51." .
+
+<Comment/30205hasComment12>
+	a drw-model:Comment ;
+	rdfs:label "Vgl. Finkel’štejn, [Zur Biographie] (<b>SL</b>) sowie http://www.rada.com.ua/rus/catalog/22570/ (15.12.2010)" ;
+	drw-model:hasNumber 12 .
+
+<Comment/30205hasComment8>
+	rdfs:label "WBIS RBA: R 148, 372-382; SU 138, 51-53; RS 22, 225." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 8 .
+
+<SL/30205hasSL1>
+	rdfs:label "Batrak, Artem: Pamjati V. Ja. Danilevskogo [Bericht über die wissenschaftliche Konferenz <i>Patogenetičeskie aspekty farmakoterapii ėndokrinnych zabolevanij</i> anläßlich Danilevskijs 150. Geburtstages am 6.-7.2.2002 in Char’kov ]. Provizor (2002) Nr. 4 (http://www.provisor.com.ua/archive/2002/N4/art_14.php, 15.12.2010)." ;
+	a drw-model:SL .
+
+<P/30205hasP8>
+	a drw-model:P ;
+	rdfs:label "Foto in: Beleckaja (<b>SL</b>)." .
+
+<B/30205hasStationOfLife3>
+	rdfs:label "Forschungsreise in die Schweiz und nach Deutschland:
+- zu Carl August Christoph <span style='font-variant:small-caps;'>Vogt</span> (1817-1895) und Friedrich Wilhelm <span style='font-variant:small-caps;'>Zahn</span> (1845-1904) an die Universität Genf
+- zu Oswald <span style='font-variant:small-caps;'>Schmiedeberg</span> (1838-1921) an die Universität Straßburg" ;
+	a drw-model:B .
+
+<WL/30205hasWL0>
+	rdfs:label "Gilt als Begründer der wissenschaftlichen Physiologie in der Ukraine." ;
+	a drw-model:WL .
+
+<P/30205hasP1>
+	rdfs:label "Portrait in: Batrak (<b>SL</b>)." ;
+	a drw-model:P .
+
+<Comment/30205hasComment4>
+	a drw-model:Comment ;
+	drw-model:hasNumber 4 ;
+	rdfs:label "<b>SL</b> [Zur Biographie] und BSĖ 2, zit. n. WBIS RBA" .
+
+<WL/30205hasWL9>
+	drw-model:hasComment <Comment/30205hasComment15> ;
+	rdfs:label "Entdecker einer Reihe von Blutparasiten, besonders bei Vögeln: <i>Trypanosoma avium Danilewsky</i> (1885)[15], <i>Haemoproteus danilewskyi Kruse</i> (1890), sowie 1880-1890 einer Vielzahl von Malaria-Parasiten" ;
+	a drw-model:WL .
+
+<P/30205hasP9>
+	rdfs:label "Ol’ga Viktorovna Erofeeva, Igor’ Morgunov: Vasilij Jakovlevič Danilevskij. Ölgemälde von 2006 (http://2in1-gallery.com.ua/index.php?option=com_phocagallery&amp;view=category&amp;id=2:Portrait&amp;Itemid=0, 20.12.2010)." ;
+	a drw-model:P .
+
+<Comment/30205hasComment1>
+	a drw-model:Comment ;
+	drw-model:hasNumber 1 ;
+	rdfs:label "Selbstbiographie (<b>Q</b>) und <b>SL</b> Finkel’štejn und [Zur Biographie]." .
+
+<SL/30205hasSL10>
+	rdfs:label "Vedjaev, F. P., Nikitin, V. N.: Vydajuščijsja sovetskij fiziolog (K 125-letiju so dnja roždenija akademika AN USSR V. Ja. Danilevskogo. Fiziologičeskij žurnal SSSR imeni I.M. Sečenova 63 (1977), 764-765." ;
+	a drw-model:SL .
+
+<P/30205hasP3>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Šustov 1910 (<b>SL</b>)." .
+
+<W/30205hasW0>
+	rdfs:label "Experimentelle Beiträge zur Physiologie des Gehirns. Archiv für die gesammte Physiologie des Menschen und der Thiere 11 (1875), 128-138." ;
+	a drw-model:W .
+
+<Year/1870>
+	rdfs:label "1870" ;
+	a drw-model:Year .
+
+<ImportantPerson/30584>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30584" ;
+	drw-model:hasConnectionTo <ImportantPerson/30205> .
+
+<B/30205hasStationOfLife14>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<SL/30205hasSL8>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 148, 390-402; SU 138, 55-59; RS 22, 227." ;
+	a drw-model:SL .
+
+<ImportantPerson/30664>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30205> ;
+	drw-model:hasID "30664" .
+
+<Comment/30205hasComment13>
+	rdfs:label "Pierre Gauja: Les fondations de l’Académie des Sciences (1881-1915). Hendaye 1917, 70." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 13 .
+
+<ImportantPerson/30893>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30205> ;
+	drw-model:hasID "30893" .
+
+<B/30205hasStationOfLife0>
+	rdfs:label "Dozent für Zoophysiologie mit Rechten eines Professors an der Veterinäranstalt in Char’kov" ;
+	drw-model:began <Year/1879/80_1884> ;
+	a drw-model:B .
+
+<SL/30205hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Abašnik, Vladimir A.: Deutsche Einflüsse auf Vasilij Jakovlevič Danilevskij (1852-1939). In: Ingrid Kästner, Regine Pfrepper (Hgg.): Deutsche im Zarenreich und Russen in Deutschland: Naturforscher, Gelehrte, Ärzte und Wissenschaftler im 18. und 19. Jahrhundert. Aachen 2005 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaft 12), 419-434." .
+
+<Year/1893_1895_und_1901>
+	rdfs:label "1893, 1895 und 1901" ;
+	a drw-model:Year .
+
+<Comment/30205hasComment7>
+	drw-model:hasNumber 7 ;
+	a drw-model:Comment ;
+	rdfs:label "Hatte insgesamt drei Brüder und drei Schwestern. Die Namen der anderen Schwestern sind nicht bekannt. Vgl. Finkel’štejn (<b>SL</b>) und Učebnik fotografa (http://kuznyetsova.com/articles/fotografy-petrozavodska/uchebnik-fotografa.html, 16.12.2010)." .
+
+<SL/30205hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine, Pfrepper, Gerd: Wissensspuren. Reisen russischer Mediziner nach Westeuropa im 19. Jahrhundert. Aachen 2012 (Relationes 11)" .
+
+<Place/30205DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Char’kov, Grabstätte: Kolumbarium auf dem Puschkin-Friedhof" .
+
+<A/30205hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1868> ;
+	rdfs:label "Studium an der Mathematischen Fakultät der Universität Kazan’" .
+
+<WL/30205hasWL8>
+	rdfs:label "Einer der Begründer der Theorie von pathogenen Protozoen in Blut und blutbildenden Organen bei Fischen, Vögeln und Menschen" ;
+	a drw-model:WL .
+
+<Year/1879/80_1884>
+	rdfs:label "1879/80-1884" ;
+	a drw-model:Year .
+
+<GPV/30205hasGPV1>
+	rdfs:label "Publikationen 1872-1888, in: Archiv der Leopoldina (<b>Q</b>)." ;
+	a drw-model:GPV .
+
+<ImportantPerson/30743>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30743" ;
+	drw-model:hasConnectionTo <ImportantPerson/30205> .
+
+<WL/30205hasWL5>
+	rdfs:label "Entwickelte Fragen über psychomotorische Zentren." ;
+	a drw-model:WL .
+
+<RelatedPerson/30205hasSibling>
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30205hasComment9> ;
+	drw-model:hasComment <Comment/30205hasComment7> ;
+	drw-model:hasComment <Comment/30205hasComment8> ;
+	rdfs:label "[7]
+Aleksandr Jakovlevič (1838-1923), Professor für Biochemie[8]
+Konstantin Jakovlevič (Constantin Danilewsky) (* 1855), Arzt, Professor für Medizin, Flugkonstrukteur[9]
+Michail Jakovlevič, Praktischer Arzt
+Antonina Jakovlevna Danilevskaja, verh. Aleksandrovič (* 1860)" .
+
+<ImportantPerson/30908>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30908" ;
+	drw-model:hasConnectionTo <ImportantPerson/30205> .
+
+<OtherOffices/30205hasOtherOffices0>
+	a drw-model:OtherOffices ;
+	rdfs:label "Mitglied im Wissenschaftsrat des Volkskommissariats für Gesundheitsschutz" .
+
+<WL/30205hasWL14>
+	rdfs:label "Gründer und Redakteur der Reihe <i>Acta endocrinologica ukrainica</i> 1 (1927?)-12 (1939)" ;
+	a drw-model:WL .
+
+<Year/1871>
+	rdfs:label "1871" ;
+	a drw-model:Year .
+
+<Place/30205wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Char’kov" .
+
+<SL/30205hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 173-180." .
+
+<Comment/30205hasComment10>
+	a drw-model:Comment ;
+	rdfs:label "Danilevskij war vom 24. April 1879 bis 24. April 1880 in Leipzig gemeldet und wohnte in der Menckestraße 67, vgl. Pfrepper 2009 (<b>SL</b>), Anm. 380." ;
+	drw-model:hasNumber 10 .
+
+<WL/30205hasWL6>
+	rdfs:label "Beschrieb die elektrische Stimulation verschiedener Nerven und das Phänomen der Summation der Vagus-Nerven." ;
+	a drw-model:WL .
+
+<B/30205hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "Dozent für vergleichende Physiologie der Tiere an der Physiko-mathematischen Fakultät der Universität Char’kov" .
+
+<Comment/30205hasComment6>
+	a drw-model:Comment ;
+	drw-model:hasNumber 6 ;
+	rdfs:label "Jüdischer Herkunft, kam Anfang 1850 aus Riga nach Char’kov, erwarb dort 1852/53 ein Fotoatelier und reiste als Fotograf durch Zentralrussland und Ukraine. Sein Begleiter und der Retuscheur seiner Fotografien, z. B. der Portraits von Offizieren im Krimkrieg 1853-1856, war der spätere russische Maler Ivan Nikolaevič Kramskoj (1837-1887). Vgl. Zametki k istorii Char’kovskoj fotografii (http://sfw.org.ua/index.php?newsid=1148872981, 16.12.2010)." .
+
+<MG/30205hasMG>
+	a drw-model:MG ;
+	rdfs:label "Leopoldina (1888), Societé de psychologie physiologique de Paris (1889), Psichologičeskoe obščestvo v Moskve [Psychologische Gesellschaft zu Moskau] (1889), Char’kivs’ke tovarystvo gramotnosti [Char’kover Gesellschaft für Alphabetisierung] (1891 Gründungsinitiator, 1902-1905 Verwaltungsleiter), Moskovskoe obščestvo ispytatelej prirody [Gesellschaft der Naturforscher zu Moskau] (1891), Voenno-medicinskaja akademia Sankt-Peterburg [Militärmedizinische Akademie St. Petersburg] (1898), Akademia nauk Ukrainskoj SSR [Akademie der Wissenschaften der Ukrainischen SSR] (1926), Gesellschaft für Morphologie und Physiologie der Universität Wien, Société de Pathologie exotique d’Institut Pasteur, Paris (1903), Royal Society of Tropical Medicine and Hygiene (1907), Obščestvo rossijskich fiziologov im. I. M. Sečenova [I. M. Sečenov-Gesellschaft russischer Physiologen] (Vorstandsmitglied)" .
+
+<GPV/30205hasGPV0>
+	rdfs:label "Publikationen 1872-1886, in: Zmeev, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<B/30205hasStationOfLife8>
+	rdfs:label "Forschungsreisen nach Deutschland zu J. von <span style='font-variant:small-caps;'>Kries</span>, Franz <span style='font-variant:small-caps;'>Himstedt</span> (1852-1933) und W. A. <span style='font-variant:small-caps;'>Nagel</span> an die Universität Freiburg im Breisgau" ;
+	drw-model:began <Year/1893_1895_und_1901> ;
+	a drw-model:B .
+
+<GeneralLabor/30205hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Histologe" .
+
+<A/30205hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Char’kov" ;
+	drw-model:began <Year/1870> .
+
+<Date/30205wasBornOn>
+	drw-model:hasComment <Comment/30205hasComment3> ;
+	a drw-model:Date ;
+	drw-model:hasComment <Comment/30205hasComment1> ;
+	drw-model:hasComment <Comment/30205hasComment2> ;
+	rdfs:label "1./14.[1] [nicht 13.[2] oder 14.[3]/25.] 1.1852" .
+
+<WL/30205hasWL15>
+	rdfs:label "Initiator der Einrichtung von öffentlichen, Fach- und Ortsbibliotheken in Char’kov und Umgebung" ;
+	a drw-model:WL .
+
+<HonoursAndAwards/30205hasHonoursAndAwards>
+	drw-model:hasComment <Comment/30205hasComment14> ;
+	drw-model:hasComment <Comment/30205hasComment13> ;
+	rdfs:label "„Staatsrat“<br>1889 Prix Montyon de médecine et chirurgie (Académie des Sciences de Paris)[13]<br>1891 Goldene Medaille (Gesellschaft der Naturforscher zu Moskau)<br>1894 <i>Bėrovskaja premija</i> [K. E. von Baer-Prämie] (Kaiserliche Akademie der Wissenschaften zu St. Petersburg)<br>1900 Adam-Chojnacky-Prämie (Universität Warschau)<br>1902 <i>Premija im. Jušenova</i> [Jušenov-Prämie] (Militärmedizinische Akademie St. Petersburg)<br>1907 Mary Kingsley Medal (Liverpool School of Tropical Medicine)<br>1911 Ehrenmedaille der Internationalen Hygiene-Ausstellung in Dresden<br>1908 „Verdienter Professor“ der Universität Char’kov<br>1926 „Verdienter Wissenschaftler“ der Ukrainischen SSR<br>Nach ihm ist benannt:<br><i>Institut problem ėndokrinnoj patologii im. V. Ja. Danilevskogo Akademii medicinskich nauk Ukrainy</i> [V. Ja. Danilevskij-Institut für Probleme der endokrinen Pathologie der Medizinischen Akademie der Ukraine] in Char’kov<br>Seit 1934 <i>Ulica Danilevskogo</i> in Char’kov[14]" ;
+	a drw-model:HonoursAndAwards .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<NameVariation/30205_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Danylevs'kyj, Vasyl’ Jakovyč (ukrain.)" .
+
+<Comment/30205hasComment11>
+	a drw-model:Comment ;
+	rdfs:label "Ab 1927, nach der Genehmigung des Statuts, reorganisiert und umbenannt in Ukrainisches Forschungsinstitut für Organtherapie, später Institut für Pharmakotherapie für endokrine Krankheiten, heute V. Ja. Danilevskij-Institut für Probleme der endokrinen Pathologie der Medizinischen Akademie der Ukraine." ;
+	drw-model:hasNumber 11 .
+
+<B/30205hasStationOfLife6>
+	rdfs:label "Forschungsaufenthalte in Laboratorien:
+- bei Ernst <span style='font-variant:small-caps;'>Fleischl von Marxow</span> (1846-1891) an der Universität Wien
+- bei Justus <span style='font-variant:small-caps;'>Gaule</span> (1849-1939) in Zürich in der Schweiz" ;
+	a drw-model:B .
+
+<Comment/30205hasComment5>
+	drw-model:hasNumber 5 ;
+	rdfs:label "Kočenkov (<b>SL</b>)." ;
+	a drw-model:Comment .
+
+<ImportantPerson/30205>
+	drw-model:hasEducation <A/30205hasEducation6> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30205hasGeneralLabor1> ;
+	drw-model:hasW <W/30205hasW2> ;
+	drw-model:hasComment <Comment/30205hasComment3> ;
+	drw-model:hasSL <SL/30205hasSL1> ;
+	drw-model:hasSL <SL/30205hasSL4> ;
+	drw-model:hasStationOfLife <B/30205hasStationOfLife11> ;
+	drw-model:hasComment <Comment/30205hasComment14> ;
+	drw-model:hasConnectionTo <ImportantPerson/30587> ;
+	drw-model:hasSL <SL/30205hasSL5> ;
+	drw-model:hasMG <MG/30205hasMG> ;
+	drw-model:hasP <P/30205hasP5> ;
+	drw-model:hasWL <WL/30205hasWL0> ;
+	drw-model:hasStationOfLife <B/30205hasStationOfLife0> ;
+	drw-model:hasSL <SL/30205hasSL15> ;
+	drw-model:hasSL <SL/30205hasSL2> ;
+	drw-model:hasWL <WL/30205hasWL11> ;
+	drw-model:hasSL <SL/30205hasSL14> ;
+	drw-model:hasConnectionTo <ImportantPerson/30584> ;
+	drw-model:hasOtherOffices <OtherOffices/30205hasOtherOffices2> ;
+	drw-model:hasStationOfLife <B/30205hasStationOfLife8> ;
+	drw-model:hasComment <Comment/30205hasComment8> ;
+	drw-model:hasStationOfLife <B/30205hasStationOfLife14> ;
+	drw-model:hasP <P/30205hasP3> ;
+	drw-model:hasStationOfLife <B/30205hasStationOfLife3> ;
+	drw-model:hasGPV <GPV/30205hasGPV2> ;
+	drw-model:hasSL <SL/30205hasSL0> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30205hasHonoursAndAwards> ;
+	drw-model:hasStationOfLife <B/30205hasStationOfLife2> ;
+	drw-model:wasBornOn <Date/30205wasBornOn> ;
+	drw-model:hasP <P/30205hasP9> ;
+	drw-model:hasWL <WL/30205hasWL4> ;
+	drw-model:hasP <P/30205hasP6> ;
+	drw-model:hasEducation <A/30205hasEducation5> ;
+	drw-model:hasGPV <GPV/30205hasGPV5> ;
+	drw-model:fatherIs <RelatedPerson/30205fatherIs> ;
+	drw-model:wasBornIn <Place/30205wasBornIn> ;
+	drw-model:hasConnectionTo <ImportantPerson/30908> ;
+	drw-model:hasStationOfLife <B/30205hasStationOfLife12> ;
+	drw-model:hasP <P/30205hasP1> ;
+	drw-model:hasGPV <GPV/30205hasGPV6> ;
+	drw-model:hasEducation <A/30205hasEducation0> ;
+	drw-model:hasComment <Comment/30205hasComment1> ;
+	drw-model:hasWL <WL/30205hasWL2> ;
+	drw-model:hasGPV <GPV/30205hasGPV3> ;
+	drw-model:hasW <W/30205hasW1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasWL <WL/30205hasWL10> ;
+	drw-model:hasWL <WL/30205hasWL13> ;
+	drw-model:hasConnectionTo <ImportantPerson/30743> ;
+	drw-model:hasWL <WL/30205hasWL3> ;
+	drw-model:hasSL <SL/30205hasSL13> ;
+	drw-model:hasWL <WL/30205hasWL8> ;
+	drw-model:hasEducation <A/30205hasEducation2> ;
+	drw-model:hasComment <Comment/30205hasComment4> ;
+	drw-model:hasWL <WL/30205hasWL9> ;
+	drw-model:hasP <P/30205hasP4> ;
+	drw-model:hasStationOfLife <B/30205hasStationOfLife6> ;
+	drw-model:hasComment <Comment/30205hasComment12> ;
+	drw-model:hasOtherOffices <OtherOffices/30205hasOtherOffices0> ;
+	drw-model:hasComment <Comment/30205hasComment11> ;
+	drw-model:hasP <P/30205hasP7> ;
+	drw-model:hasComment <Comment/30205hasComment6> ;
+	drw-model:hasEducation <A/30205hasEducation1> ;
+	drw-model:hasMainName <MainName/30205hasMainName> ;
+	drw-model:hasGPV <GPV/30205hasGPV4> ;
+	drw-model:hasGPV <GPV/30205hasGPV0> ;
+	drw-model:hasWL <WL/30205hasWL6> ;
+	drw-model:hasComment <Comment/30205hasComment5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30205hasGeneralLabor0> ;
+	drw-model:DiedIn <Place/30205DiedIn> ;
+	drw-model:hasID "30205" ;
+	drw-model:hasWL <WL/30205hasWL1> ;
+	drw-model:DiedOn <Date/30205DiedOn> ;
+	drw-model:hasConnectionTo <ImportantPerson/30865> ;
+	drw-model:hasWL <WL/30205hasWL5> ;
+	drw-model:hasWL <WL/30205hasWL7> ;
+	drw-model:hasP <P/30205hasP2> ;
+	drw-model:hasConnectionTo <ImportantPerson/30893> ;
+	drw-model:hasStationOfLife <B/30205hasStationOfLife5> ;
+	drw-model:hasSL <SL/30205hasSL9> ;
+	drw-model:hasSL <SL/30205hasSL12> ;
+	drw-model:hasComment <Comment/30205hasComment15> ;
+	drw-model:hasComment <Comment/30205hasComment13> ;
+	drw-model:hasW <W/30205hasW0> ;
+	drw-model:hasStationOfLife <B/30205hasStationOfLife10> ;
+	drw-model:hasW <W/30205hasW3> ;
+	drw-model:hasGPV <GPV/30205hasGPV1> ;
+	drw-model:hasP <P/30205hasP8> ;
+	drw-model:hasSL <SL/30205hasSL7> ;
+	drw-model:hasSL <SL/30205hasSL10> ;
+	drw-model:hasConnectionTo <ImportantPerson/30664> ;
+	drw-model:hasOtherOffices <OtherOffices/30205hasOtherOffices1> ;
+	drw-model:hasSibling <RelatedPerson/30205hasSibling> ;
+	drw-model:hasStationOfLife <B/30205hasStationOfLife7> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30205.jpg> ;
+	drw-model:hasP <P/30205hasP0> ;
+	drw-model:hasEducation <A/30205hasEducation4> ;
+	drw-model:hasStationOfLife <B/30205hasStationOfLife9> ;
+	drw-model:hasComment <Comment/30205hasComment2> ;
+	drw-model:motherIs <RelatedPerson/30205motherIs> ;
+	drw-model:hasSL <SL/30205hasSL8> ;
+	drw-model:hasWL <WL/30205hasWL14> ;
+	drw-model:hasComment <Comment/30205hasComment10> ;
+	drw-model:hasComment <Comment/30205hasComment9> ;
+	rdfs:label "Danilevskij, Vasilij Jakovlevič" ;
+	drw-model:hasStationOfLife <B/30205hasStationOfLife13> ;
+	drw-model:hasStationOfLife <B/30205hasStationOfLife4> ;
+	drw-model:hasConnectionTo <ImportantPerson/30266> ;
+	drw-model:hasWL <WL/30205hasWL12> ;
+	drw-model:hasEducation <A/30205hasEducation3> ;
+	drw-model:hasSL <SL/30205hasSL11> ;
+	drw-model:hasSL <SL/30205hasSL3> ;
+	drw-model:hasSL <SL/30205hasSL6> ;
+	drw-model:hasComment <Comment/30205hasComment7> ;
+	drw-model:hasWL <WL/30205hasWL15> ;
+	drw-model:hasStationOfLife <B/30205hasStationOfLife1> ;
+	drw-model:hasQ <Q/30205hasQ0> .
+
+<P/30205hasP2>
+	rdfs:label "Portrait in: Skvorcov/Bagalej 1905/06 (<b>SL</b>), Bildeinlage am Ende des Bandes." ;
+	a drw-model:P .
+
+<WL/30205hasWL12>
+	rdfs:label "Mitredakteur von <i>Russkij fiziologičeskij žurnal im. Sečenova, Zeitschrift für Hypnotismus</i> und ab 1896 von <i>Vestnik mediciny</i>" ;
+	a drw-model:WL .
+
+<GeneralLabor/30205hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<B/30205hasStationOfLife9>
+	a drw-model:B ;
+	rdfs:label "Forschungsaufenthalte in Laboratorien:
+- bei Siegmund von <span style='font-variant:small-caps;'>Exner</span> (1846-1926) in Wien
+- bei K. H. <span style='font-variant:small-caps;'>Kronecker</span> in Bern in der Schweiz" .
+
+<A/30205hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Besuch des 2. Gymnasiums in Char’kov" .
+
+<Year/1883>
+	rdfs:label "1883" ;
+	a drw-model:Year .
+
+<GPV/30205hasGPV6>
+	rdfs:label "Deutschsprachige und in deutschen Zeitschriften referierte russische Publikationen 1872-1935, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<P/30205hasP0>
+	a drw-model:P ;
+	rdfs:label "Foto (Abb.) aus: Kočenkov (<b>SL</b>)." .
+
+<SL/30205hasSL5>
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 375-376." ;
+	a drw-model:SL .
+
+<SL/30205hasSL14>
+	a drw-model:SL ;
+	rdfs:label "Šojfet, M. S.: Sto velikich vračej. Moskva 2004, 416-420." .
+
+<WL/30205hasWL4>
+	rdfs:label "Führte zum ersten Mal eine galvanometrische Untersuchung der elektrischen Aktivität in der Großhirnrinde durch und bewies die Verbindung dieser Tätigkeit mit der Hirnaktivität." ;
+	a drw-model:WL .
+
+<A/30205hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Abschluss des 2. Gymnasiums in Kazan’" .
+
+<P/30205hasP6>
+	rdfs:label "Portrait in: Volkov/Kulikova 2003 b (<b>SL</b>), Bildeinlage zw. S. 176-177." ;
+	a drw-model:P .
+
+<W/30205hasW3>
+	rdfs:label "Fiziologija čeloveka. Bd. 1-2, Teil 1-3. Moskva 1913-1915, S. 1-635, 637-1179 und 1181-1635; ukrain.: Fiziolohija ljudyny." ;
+	a drw-model:W .
+
+<NameVariation/30205_1>
+	a drw-model:NameVariation ;
+	rdfs:label "Danilewsky, Basil/Basile/Basilius"@de .
+
+<GPV/30205hasGPV5>
+	rdfs:label "Beleckaja, Ol’ga M. (Sost.): Primer služenija. Sbornik trudov V. Ja. Danilevskogo i materialov o ego dejatel’nosti. Char’kov 2007, 528 S." ;
+	a drw-model:GPV .
+
+<B/30205hasStationOfLife7>
+	rdfs:label "Forschungsreise zu Jacques-Arsène <span style='font-variant:small-caps;'>d’Arsonval</span> (1851-1940) nach Paris und an die Zoologische Meeresstation nach Roscoff (Bretagne)" ;
+	a drw-model:B .
+
+<Date/30205DiedOn>
+	a drw-model:Date ;
+	rdfs:label "25.[4] oder 27.[5]2.1939" ;
+	drw-model:hasComment <Comment/30205hasComment4> ;
+	drw-model:hasComment <Comment/30205hasComment5> .
+
+<WL/30205hasWL13>
+	rdfs:label "1906-1910 Editionsleiter von <i>Narodnaja ėnciklopedija naučnych i prikladnych znanij</i> (in 14 Bänden)" ;
+	a drw-model:WL .
+
+<B/30205hasStationOfLife11>
+	rdfs:label "Ordinarius für Physiologie an der Medizinischen Fakultät der Universität Char’kov und 1921-1926 am Medizinischen Institut Char’kov" ;
+	a drw-model:B ;
+	drw-model:began <Year/1917> .
+

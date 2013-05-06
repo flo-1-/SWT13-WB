@@ -1,0 +1,421 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30013hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Šustov, A. S. (Hg.): Naši dejateli po medicine. Sankt-Peterburg 1910 (Illjustrirovannyj vestnik kul’tury, naučno-vospitatel’nago, techničeskago i torgovo-promyšlennago progressa Rossii 1) [Microfiche, ohne Seitenangaben]" .
+
+<B/30013hasStationOfLife4>
+	rdfs:label "Privatdozent am Lehrstuhl für pathologische Anatomie an der MMA" ;
+	a drw-model:B .
+
+<Date/30013wasBornOn>
+	a drw-model:Date ;
+	rdfs:label "13./25.11.1850" .
+
+<WL/30013hasWL3>
+	rdfs:label "Arbeiten u. a. auch zur Ätiologie und Diagnose von Infektionskrankheiten (z. B. der Tuberkulose und der Grippe)" ;
+	a drw-model:WL .
+
+<Year/1878>
+	rdfs:label "1878" ;
+	a drw-model:Year .
+
+<Year/1884>
+	rdfs:label "1884" ;
+	a drw-model:Year .
+
+<W/30013hasW1>
+	a drw-model:W ;
+	rdfs:label "Ob innervacii otdelenija želči s nekotorymi ukazanijami na proischoždenie želtuchi. Diss. S.-Peterburg 1881, 172 S." .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<HonoursAndAwards/30013hasHonoursAndAwards>
+	rdfs:label "„Wirklicher Russischer Staatsrat“<br>1875 Goldmedaille für zusammen mit I. P. <span style='font-variant:small-caps;'>Pavlov</span> 1874 durchgeführte Untersuchungen zur Physiologie der Pankreasinnervation" ;
+	a drw-model:HonoursAndAwards .
+
+<GPV/30013hasGPV0>
+	rdfs:label "Publikationen zur Physiologie 1875-1887, in: Kvasov/Fedorova-Grot 1967 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<ImportantPerson/30664>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30013> ;
+	drw-model:hasID "30664" .
+
+<A/30013hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Besuch des Gymnasiums in Ufa" ;
+	drw-model:began <Year/Bis_1870> .
+
+<WL/30013hasWL7>
+	rdfs:label "Mitherausgeber von <i>Real’naja ėnciklopedija medicinskich nauk</i> (1892-1897) und Hauptredakteur der Zeitschriften <i>Sovremennaja medicina i gigiena</i> (1896-1910), <i>Terapevtičeskij vestnik</i> (1898-1903) und <i>Vračebnyj vestnik</i> (1903-1910)" ;
+	a drw-model:WL .
+
+<GermanPublicationComment/30013hasGermanPublicationComment>
+	a drw-model:GermanPublicationComment ;
+	rdfs:label "P" .
+
+<SL/30013hasSL2>
+	rdfs:label "Nekrologi: Afanas’ev, M. I. Istoričeskij vestnik (1910) Mai-Nr., 777-778." ;
+	a drw-model:SL .
+
+<WGermanPublication/30013hasWGermanPublication0>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Beiträge zur Physiologie des Pancreas. Mit I. P. Pavlov. Archiv für die gesammte Physiologie des Menschen un der Thiere 16 (1878), 173-189." .
+
+<WGermanPublication/30013hasWGermanPublication6>
+	rdfs:label "Aetiologie und klinische Bakteriologie des Keuchhustens. St. Petersburger medicinische Wochenschrift (1887) Nr. 39-42, 323-327, 331-333, 339-341, 347-350." ;
+	a drw-model:WGermanPublication .
+
+<SL/30013hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 30, 13-16; SU 27, 307-308." .
+
+<WL/30013hasWL2>
+	rdfs:label "Einführung der systematischen Lehre der Bakteriologie in Russland" ;
+	a drw-model:WL .
+
+<ImportantPerson/30785>
+	drw-model:hasID "30785" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30013> .
+
+<SL/30013hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Efremenko, A. A., Levtova, K. Z.: M. I. Afanas’ev, osnovatel’ Peterburgskoj mikrobiologičeskoj školy (K 50-letiju so dnja smerti). Žurnal mikrobiologii, ėpidemiologii i immunologii (1961) Nr. 11, 145-147." .
+
+<Place/30013wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Orenburg" .
+
+<Year/1885>
+	rdfs:label "1885" ;
+	a drw-model:Year .
+
+<Comment/30013hasComment1>
+	a drw-model:Comment ;
+	drw-model:hasNumber 1 ;
+	rdfs:label "Vgl. Elio Baldacci: Die Systematik der Actinomyceten. Mycopathologia 4 (1947/49), 60-84; Henri van Hoof: Dictionnaire des éponymes médicaux: français-anglais. Louvain-la-Neuve 1993, 36 (online unter: http://books.google.de/books?id=pnhTUaeHmy0C&amp;printsec=frontcover&amp;hl=de#v=onepage&amp;q&amp;f=false, 2.11.2011)." .
+
+<W/30013hasW0>
+	rdfs:label "Ob okonannii nervov. Kandidatskaja diss. Zapiski Imperatorskoj Akademii nauk. Priloženie 25 (1875) Nr. 8, 1 ff." ;
+	a drw-model:W .
+
+<NameVariation/30013_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Afanassieff, M."@de .
+
+<B/30013hasStationOfLife6>
+	rdfs:label "Professor am Nikolaj-Militärhospital und Konsultant an der Maksimilian-Heilanstalt in St. Petersburg" ;
+	a drw-model:B ;
+	drw-model:began <Year/1885> .
+
+<WGermanPublication/30013hasWGermanPublication2>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber Icterus und Hämoglobinurie, hervorgerufen durch Toluylendiamin und andere Blutkörperchen zerstörende Agentien. Zeitschrift für klinische Medizin 6 (1883), 281-331." .
+
+<Year/1877>
+	rdfs:label "1877" ;
+	a drw-model:Year .
+
+<ImportantPerson/30241>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30241" ;
+	drw-model:hasConnectionTo <ImportantPerson/30013> .
+
+<NameVariation/30013_2>
+	rdfs:label "Affanassiew, M."@de ;
+	a drw-model:NameVariation .
+
+<W/30013hasW6>
+	rdfs:label "Lekcii po kliničeskoj mikroskopii i bakteriologii, čitannye v Kliničeskom institute v. k. Eleny Pavlovny v 1885-1895 učebnych godach. Sovremennaja medicina i gigiena (1896) Nr. 1-5, 7-8, 12, 154 S." ;
+	a drw-model:W .
+
+<WGermanPublication/30013hasWGermanPublication1>
+	rdfs:label "Ueber anatomische Veränderungen der Leber während verschiedener Thätigkeitszustände (Aus dem physiologischen Institut zu Breslau). Archiv für die gesammte Physiologie des Menschen und der Thiere 30 (1883), 385-436." ;
+	a drw-model:WGermanPublication .
+
+<WL/30013hasWL5>
+	rdfs:label "Nach ihm ist benannt:" ;
+	a drw-model:WL .
+
+<W/30013hasW4>
+	a drw-model:W ;
+	rdfs:label "Po povodu aziatskoj cholery, ee predupreždenija i lečenija. Praktičeskaja medicina (1892) Nr. 7, 32 S." .
+
+<A/30013hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Studium der Medizin mit dem Abschluss „Arzt“ an der Mediko-Chirurgischen Akademie (MCA) in St. Petersburg, Vorlesungen in Physiologie bei K. N. <span style='font-variant:small-caps;'>Ustimovič</span>" ;
+	drw-model:began <Year/1874> .
+
+<B/30013hasStationOfLife3>
+	rdfs:label "Tätigkeit an der MMA und im Nikolaj-Militärhospital" ;
+	a drw-model:B ;
+	drw-model:began <Year/1884> .
+
+<SL/30013hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 31-32." .
+
+<GeneralLabor/30013hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Pathologe" .
+
+<WL/30013hasWL1>
+	rdfs:label "Entwicklung einer Reihe von Untersuchungsmethoden in der bakteriologischen Forschung" ;
+	a drw-model:WL .
+
+<B/30013hasStationOfLife0>
+	rdfs:label "Teilnahme an der Typhus-Bekämpfung in der Armee im Russisch-Türkischen Krieg" ;
+	drw-model:began <Year/1877> ;
+	a drw-model:B .
+
+<ImportantPerson/30550>
+	drw-model:hasID "30550" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30013> .
+
+<ImportantPerson/31069>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30013> ;
+	drw-model:hasID "31069" .
+
+<GeneralLabor/30013hasGeneralLabor2>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Bakteriologie" .
+
+<WGermanPublication/30013hasWGermanPublication3>
+	rdfs:label "Über die Hämoglobinämie und ihre Folgen (Discussion). Verhandlungen des Congresses für innere Medizin 2 (1883), 214-224." ;
+	a drw-model:WGermanPublication .
+
+<GeneralLabor/30013hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologe" .
+
+<RelatedPerson/30013fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ivan, Kasake, Wirtschaftsprüfer" .
+
+<B/30013hasStationOfLife5>
+	rdfs:label "Professor und 1889-1891 Direktor des „Klinischen Institutes der Großfürstin Elena Pavlovna zur Fortbildung praktischer Ärzte“ in St. Petersburg, 1891-1910 Leiter der Klinik für innere Medizin" ;
+	a drw-model:B ;
+	drw-model:began <Year/1885> .
+
+<Year/1874>
+	rdfs:label "1874" ;
+	a drw-model:Year .
+
+<WL/30013hasWL0>
+	rdfs:label "Gründer der St. Petersburger Mikrobiologen-Schule" ;
+	a drw-model:WL .
+
+<Year/1881>
+	rdfs:label "1881" ;
+	a drw-model:Year .
+
+<A/30013hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Studium der Naturwissenschaften an der Physikalisch-mathematischen Fakultät der Universität St. Petersburg, zugleich Studien zur Physiologie bei F. V. <span style='font-variant:small-caps;'>Ovsjannikov</span> und I. F. <span style='font-variant:small-caps;'>Cion</span>" ;
+	drw-model:began <Year/1870> .
+
+<B/30013hasStationOfLife2>
+	drw-model:began <Year/1881> ;
+	a drw-model:B ;
+	rdfs:label "Studienaufenthalte in Deutschland, u. a.:
+- bei R. <span style='font-variant:small-caps;'>Heidenhain</span> in Breslau
+- bei Julius <span style='font-variant:small-caps;'>Cohnheim</span> (1839-1884) und C. <span style='font-variant:small-caps;'>Ludwig</span> in Leipzig
+- bei R. <span style='font-variant:small-caps;'>Virchow</span> und R. <span style='font-variant:small-caps;'>Koch</span> in Berlin
+- bei Hugo Wilhelm von <span style='font-variant:small-caps;'>Ziemssen</span> (1829-1902) in München" .
+
+<ImportantPerson/31055>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "31055" ;
+	drw-model:hasConnectionTo <ImportantPerson/30013> .
+
+<ImportantPerson/30362>
+	drw-model:hasID "30362" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30013> .
+
+<SL/30013hasSL3>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 65, 204." ;
+	a drw-model:SL .
+
+<WL/30013hasWL6>
+	rdfs:label "<i>Bacterium Afanassiev</i> (franz. <i>bacille d’Afanassiev</i>, engl. <i>A.’s bacillus</i>)[1]" ;
+	drw-model:hasComment <Comment/30013hasComment1> ;
+	a drw-model:WL .
+
+<SL/30013hasSL1>
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 36-38." ;
+	a drw-model:SL .
+
+<ImportantPerson/30478>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30478" ;
+	drw-model:hasConnectionTo <ImportantPerson/30013> .
+
+<MainName/30013hasMainName>
+	drw-model:hasNameVariation <NameVariation/30013_0> ;
+	drw-model:hasNameVariation <NameVariation/30013_1> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30013_2> ;
+	rdfs:label "Afanas'ev, Michail Ivanovič" ;
+	drw-model:hasNameVariation <NameVariation/30013_3> .
+
+<Date/30013DiedOn>
+	a drw-model:Date ;
+	rdfs:label "4./17.4.1910" .
+
+<P/30013hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003. (<b>SL</b>), Bildeinlage zw. S. 32-33." .
+
+<NameVariation/30013_1>
+	a drw-model:NameVariation ;
+	rdfs:label "Afanassiew, M."@de .
+
+<ImportantPerson/31212>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30013> ;
+	drw-model:hasID "31212" .
+
+<Place/30013DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Murgab, Turkestan (während eines Kuraufenthaltes)" .
+
+<W/30013hasW2>
+	a drw-model:W ;
+	rdfs:label "Uspechi bakteriologii zaraznych boleznej za poslednie dva goda. Kalendar’ dlja vračej na 1888, 79 S." .
+
+<GPV/30013hasGPV1>
+	rdfs:label "Publikationen 1877-1886, in: Zmeev, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<NameVariation/30013_3>
+	a drw-model:NameVariation ;
+	rdfs:label "Afanassjew, M."@de .
+
+<WGermanPublication/30013hasWGermanPublication5>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber den dritten Formbestandtheil des Blutes im normalen und pathologischen Zustande und über die Beziehung desselben zur Regeneration des Blutes. Aus dem Klinischen Institut des Prof. v. Ziemssen in München. Deutsches Archiv für klinische Medizin 35 (1884), 217-225 = Arbeiten aus dem Medicinisch-Klinischen Institute der K. Ludwig-Maximilians-Universität zu München 1 (1884) 2. Hälfte, 556-592." .
+
+<ImportantPerson/30013>
+	drw-model:hasWGermanPublication <WGermanPublication/30013hasWGermanPublication5> ;
+	drw-model:hasConnectionTo <ImportantPerson/31212> ;
+	drw-model:hasWL <WL/30013hasWL2> ;
+	drw-model:hasStationOfLife <B/30013hasStationOfLife1> ;
+	drw-model:hasW <W/30013hasW5> ;
+	drw-model:hasConnectionTo <ImportantPerson/30664> ;
+	drw-model:hasGPV <GPV/30013hasGPV1> ;
+	drw-model:hasConnectionTo <ImportantPerson/30241> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30013hasGeneralLabor0> ;
+	drw-model:hasWL <WL/30013hasWL0> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30013hasWGermanPublication3> ;
+	drw-model:DiedIn <Place/30013DiedIn> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30013hasWGermanPublication2> ;
+	drw-model:hasW <W/30013hasW1> ;
+	drw-model:hasStationOfLife <B/30013hasStationOfLife4> ;
+	drw-model:wasBornIn <Place/30013wasBornIn> ;
+	drw-model:hasConnectionTo <ImportantPerson/30478> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30013.jpg> ;
+	drw-model:hasSL <SL/30013hasSL5> ;
+	drw-model:hasSL <SL/30013hasSL0> ;
+	drw-model:hasW <W/30013hasW2> ;
+	drw-model:hasConnectionTo <ImportantPerson/30550> ;
+	drw-model:hasEducation <A/30013hasEducation2> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30013hasWGermanPublication4> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30013hasWGermanPublication1> ;
+	drw-model:hasWL <WL/30013hasWL7> ;
+	drw-model:fatherIs <RelatedPerson/30013fatherIs> ;
+	drw-model:hasW <W/30013hasW7> ;
+	drw-model:hasID "30013" ;
+	drw-model:hasWL <WL/30013hasWL6> ;
+	drw-model:hasSL <SL/30013hasSL6> ;
+	drw-model:hasW <W/30013hasW3> ;
+	rdfs:label "Afanas'ev, Michail Ivanovič" ;
+	drw-model:hasEducation <A/30013hasEducation3> ;
+	drw-model:hasSL <SL/30013hasSL2> ;
+	drw-model:hasW <W/30013hasW6> ;
+	drw-model:hasW <W/30013hasW4> ;
+	drw-model:hasStationOfLife <B/30013hasStationOfLife0> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30013hasWGermanPublication0> ;
+	drw-model:hasWL <WL/30013hasWL5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30013hasGeneralLabor1> ;
+	drw-model:hasWL <WL/30013hasWL3> ;
+	drw-model:hasStationOfLife <B/30013hasStationOfLife3> ;
+	drw-model:wasBornOn <Date/30013wasBornOn> ;
+	drw-model:hasGermanPublicationComment <GermanPublicationComment/30013hasGermanPublicationComment> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <B/30013hasStationOfLife5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30013hasGeneralLabor2> ;
+	drw-model:hasConnectionTo <ImportantPerson/31069> ;
+	drw-model:hasStationOfLife <B/30013hasStationOfLife7> ;
+	drw-model:hasSL <SL/30013hasSL4> ;
+	drw-model:hasGPV <GPV/30013hasGPV0> ;
+	drw-model:hasP <P/30013hasP0> ;
+	drw-model:DiedOn <Date/30013DiedOn> ;
+	drw-model:hasEducation <A/30013hasEducation0> ;
+	drw-model:hasComment <Comment/30013hasComment1> ;
+	drw-model:hasConnectionTo <ImportantPerson/30362> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30013hasWGermanPublication6> ;
+	drw-model:hasSL <SL/30013hasSL3> ;
+	drw-model:hasWL <WL/30013hasWL4> ;
+	drw-model:hasWL <WL/30013hasWL1> ;
+	drw-model:hasMainName <MainName/30013hasMainName> ;
+	drw-model:hasW <W/30013hasW0> ;
+	drw-model:hasStationOfLife <B/30013hasStationOfLife2> ;
+	drw-model:hasConnectionTo <ImportantPerson/31055> ;
+	drw-model:hasConnectionTo <ImportantPerson/30785> ;
+	drw-model:hasStationOfLife <B/30013hasStationOfLife6> ;
+	drw-model:hasSL <SL/30013hasSL1> ;
+	drw-model:hasEducation <A/30013hasEducation1> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30013hasHonoursAndAwards> .
+
+<B/30013hasStationOfLife1>
+	rdfs:label "Assistent am Klinischen Militärhospital bei Ėduard Ėduardovič <span style='font-variant:small-caps;'>Ėjchval’d</span> (Vgl. <span style='font-variant:small-caps;'>Eichwald</span>) (1837-1889) und Ordinator in der Klinik für innere Medizin der MCA (ab 1881 Militärmedizinische Akademie, MMA) in St. Petersburg" ;
+	a drw-model:B ;
+	drw-model:began <Year/1878> .
+
+<W/30013hasW7>
+	rdfs:label "Diplokokkovaja infekcija (Krupoznoe vospalenie legkich i plevry, ėndoperikardit, meningit, peritonit, artrit, diplokokcemija i pr.); Patologija i terapija ee; V sžatom monografičeskom izloženii. Mit Petr Borisovič Baks. Sovremennaja medicina i gigiena (1907) Nr. 1-7, 128 S." ;
+	a drw-model:W .
+
+<A/30013hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Dissertation zum Dr. med. an der MMA" .
+
+<WGermanPublication/30013hasWGermanPublication4>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber die pathologisch-anatomischen Veränderungen in den Nieren und in der Leber bei einigen mit Hämoglobinurie oder Icterus verbundenen Vergiftungen (Aus dem pathologisch-anatomischen Institut von Prof. J. Cohnheim in Leipzig). Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 98 (1884), 460-500." .
+
+<WL/30013hasWL4>
+	rdfs:label "Soll 1886 als Erster bei einem an Aktinomykose erkrankten Menschen den Strahlenpilz kulturell nachgewiesen haben." ;
+	a drw-model:WL .
+
+<B/30013hasStationOfLife7>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<W/30013hasW5>
+	rdfs:label "[Übersetzung von: Riedel, Otto: Die Cholera. Entstehung, Wesen und Verhütung derselben. Berlin 1887, 98 S.] [Ridel’, Otto]: Aziatskaja cholera, ee proischoždenie, suščnost’, predupreždenie i lečenie. Praktičeskaja medicina (1892), Nr. 8, 138 S." ;
+	a drw-model:W .
+
+<Year/1870>
+	rdfs:label "1870" ;
+	a drw-model:Year .
+
+<Year/Bis_1870>
+	rdfs:label "Bis 1870" ;
+	a drw-model:Year .
+
+<W/30013hasW3>
+	rdfs:label "Aktinomikoz čeloveka i životnych; Balantidij ili paramecij tolstych kišek; Patologija i terapija otpravlenija bertoletovoj sol’ju. In: Real’naja ėnciklopedija medicinskich nauk. S.-Peterburg 1892, 28 S." ;
+	a drw-model:W .
+

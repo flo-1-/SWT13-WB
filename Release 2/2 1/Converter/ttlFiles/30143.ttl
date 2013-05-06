@@ -1,0 +1,227 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Year/1807>
+	rdfs:label "1807" ;
+	a drw-model:Year .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<Date/30143wasBornOn>
+	rdfs:label "25.6.1774" ;
+	a drw-model:Date .
+
+<Comment/30143hasComment4>
+	drw-model:hasNumber 4 ;
+	a drw-model:Comment ;
+	rdfs:label "Enkelin des Mathematikers Leonhard Euler (1707-1783). Vgl. EAD: Dokument-Id [55834/43926 (10.8.2011)] und Seite 3 in: Genealogische Liste der Nachkommenschaft von Leonhard Euler (http://www.euler.ch/stammbaum.pdf, 10.8.2011). Die Angabe des Geburtsjahres 1788 in EAD (<b>SL</b>) ist ein Druckfehler." .
+
+<SL/30143hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 8, 52-53." .
+
+<SL/30143hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 78." .
+
+<NameVariation/30143_1>
+	rdfs:label "Браун, Иоганн Батист"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Braun, Iogann Batist"@de .
+
+<B/30143hasStationOfLife3>
+	rdfs:label "Professor für Anatomie, Physiologie und gerichtliche Medizin, zeitweise auch für Chirurgie und Ophthalmologie an der Universität Kazan’, zugleich bis 1817 Prosektor" ;
+	a drw-model:B ;
+	drw-model:began <Year/1807> .
+
+<B/30143hasStationOfLife1>
+	a drw-model:B ;
+	drw-model:began <Year/1804> ;
+	rdfs:label "Adjunkt an der MCA in Wilna" .
+
+<Comment/30143hasComment2>
+	a drw-model:Comment ;
+	rdfs:label "Archiv der Universität Wien (<b>Q</b>) und EAD (<b>SL</b>)." ;
+	drw-model:hasNumber 2 .
+
+<B/30143hasStationOfLife4>
+	rdfs:label "erster gewählter Rektor der Universität Kazan’" ;
+	a drw-model:B ;
+	drw-model:began <Year/1813> .
+
+<B/30143hasStationOfLife2>
+	drw-model:hasComment <Comment/30143hasComment5> ;
+	rdfs:label "Prosektor am Hospital (?)[5]" ;
+	a drw-model:B ;
+	drw-model:began <Year/1807> .
+
+<B/30143hasStationOfLife6>
+	rdfs:label "Inspektor der Gymnasien in Kazan’" ;
+	a drw-model:B ;
+	drw-model:began <Year/1813> .
+
+<Place/30143wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Ortenburg bei Passau (?)[1] (Ortenberg ?)[2] [nicht 1777/78 in
+Österreich][3]" ;
+	drw-model:hasComment <Comment/30143hasComment2> ;
+	drw-model:hasComment <Comment/30143hasComment1> ;
+	drw-model:hasComment <Comment/30143hasComment3> .
+
+<Year/1804>
+	rdfs:label "1804" ;
+	a drw-model:Year .
+
+<Place/30143DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Kazan’" .
+
+<MainName/30143hasMainName>
+	a drw-model:MainName ;
+	rdfs:label "Braun, Johann Baptist" ;
+	drw-model:hasNameVariation <NameVariation/30143_1> ;
+	drw-model:hasNameVariation <NameVariation/30143_0> .
+
+<WL/30143hasWL0>
+	rdfs:label "Erwarb aus Moskau und Wien die ersten anatomischen und chirurgischen Instrumente für die Universität Kazan’ (werden bis heute im Museum des Lehrstuhls für Anatomie aufbewahrt)." ;
+	a drw-model:WL .
+
+<GeneralLabor/30143hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Anatomie" .
+
+<W/30143hasW0>
+	rdfs:label "Orationes et oda inter inaugurationis universitatis litterarum caesareae Casanensis solemnia. Die V Iulii anno MDCCCXIV dictae [1]. Kazan’ 1814, 10 + 23 + 12 S; Oratio quam inter inaugurationis Universitatis litterarum caesareae Casanensis solemnia Die v Iulii anno MDCCCXIV habuit huius universitatis rector Ioannes Braun medicinae et chirurgiae doctor, anatomiae, physiologiae et medicinae forensis professor [2], 10 S. [Konvolut der Reden des Rektors Johannes Braun bei der feierlichen (vollständigen) Eröffnung der Kaiserlichen Universität Kazan’]." ;
+	a drw-model:W .
+
+<P/30143hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Dic/Garzavina/Novickaja 2004 (<b>SL</b>)." .
+
+<MG/30143hasMG>
+	a drw-model:MG ;
+	rdfs:label "Medizinische Gesellschaft in Wilna (Gründungsmitglied)" .
+
+<Comment/30143hasComment5>
+	rdfs:label "Nur EAD (<b>SL</b>)." ;
+	drw-model:hasNumber 5 ;
+	a drw-model:Comment .
+
+<SL/30143hasSL2>
+	rdfs:label "Erik-Amburger-Datenbank. Ausländer im vorrevolutionären Russland (http://88.217.241.77/amburger/, 10.4.2012): Dokument-Id [53375/42064 und 1050155/1057214 (10.8.2011)]." ;
+	a drw-model:SL .
+
+<Comment/30143hasComment1>
+	a drw-model:Comment ;
+	drw-model:hasNumber 1 ;
+	rdfs:label "Die Angabe in EAD (<b>SL</b>) konnte vom Katholischen Pfarramt Ortenburg (Pfarrer Alois Graf) sowie von dem örtlichen Heimatkundler (Walter Fuchs) anhand der Unterlagen sowie der Dissertation von Eugen Willeitner: Geschichte des Medizinalwesens des Marktes Ortenburg, München 1953, nicht bestätigt werden (Schriftliche Mitteilung vom 11./13.8.2011)." .
+
+<Q/30143hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Archiv der Universität Wien, Protokollbuch der Mediziner-Promotionen, Signatur MED 9.5: Geburtsdaten: 25.06.1774, Ortenburg (Ortenberg?), mit Zusatz „in imperio“; Studienbeginn: Keine Angaben aufgrund der Unterbrechung der Matrikelführung; Promotion am 02.08.1802 zum Doktor der Medizin (Schriftliche Mitteilung vom 25.8.2011)." .
+
+<SL/30143hasSL4>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 65, 398-400." ;
+	a drw-model:SL .
+
+<Comment/30143hasComment3>
+	rdfs:label "Wie in <b>SL</b> Dic/Garzavina/Novickaja 2004, Volkov/Kulikova 2003 b und WBIS angegeben. Vgl. dazu <b>Q</b>." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 3 .
+
+<NameVariation/30143_0>
+	rdfs:label "Braun, Ivan Osipovič"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Браун, Иван Осипович"@ru .
+
+<ImportantPerson/30143>
+	drw-model:DiedIn <Place/30143DiedIn> ;
+	drw-model:hasMG <MG/30143hasMG> ;
+	drw-model:hasStationOfLife <B/30143hasStationOfLife1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30143wasMarriedTo> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30143.jpg> ;
+	drw-model:fatherIs <RelatedPerson/30143fatherIs> ;
+	drw-model:hasP <P/30143hasP0> ;
+	drw-model:hasQ <Q/30143hasQ0> ;
+	drw-model:hasStationOfLife <B/30143hasStationOfLife4> ;
+	drw-model:hasSL <SL/30143hasSL4> ;
+	drw-model:DiedOn <Date/30143DiedOn> ;
+	drw-model:hasComment <Comment/30143hasComment1> ;
+	drw-model:hasComment <Comment/30143hasComment4> ;
+	drw-model:hasW <W/30143hasW1> ;
+	drw-model:hasSL <SL/30143hasSL3> ;
+	drw-model:hasStationOfLife <B/30143hasStationOfLife0> ;
+	drw-model:hasW <W/30143hasW0> ;
+	drw-model:wasBornIn <Place/30143wasBornIn> ;
+	drw-model:hasSL <SL/30143hasSL0> ;
+	drw-model:hasEducation <A/30143hasEducation0> ;
+	drw-model:wasBornOn <Date/30143wasBornOn> ;
+	drw-model:hasMainName <MainName/30143hasMainName> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30143hasGeneralLabor0> ;
+	drw-model:hasID "30143" ;
+	drw-model:hasComment <Comment/30143hasComment3> ;
+	drw-model:hasStationOfLife <B/30143hasStationOfLife3> ;
+	drw-model:hasComment <Comment/30143hasComment5> ;
+	drw-model:hasSL <SL/30143hasSL2> ;
+	drw-model:hasComment <Comment/30143hasComment2> ;
+	rdfs:label "Braun, Johann Baptist" ;
+	drw-model:hasStationOfLife <B/30143hasStationOfLife2> ;
+	drw-model:hasSL <SL/30143hasSL1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30143hasGeneralLabor1> ;
+	drw-model:hasWL <WL/30143hasWL0> ;
+	drw-model:hasStationOfLife <B/30143hasStationOfLife6> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <B/30143hasStationOfLife5> ;
+	drw-model:hasSL <SL/30143hasSL5> .
+
+<B/30143hasStationOfLife0>
+	rdfs:label "Prosektor an der Mediko-Chirurgischen Akademie (MCA) in Wilna" ;
+	a drw-model:B .
+
+<B/30143hasStationOfLife5>
+	rdfs:label "zugleich Okulist in eigener Privatpraxis" ;
+	a drw-model:B ;
+	drw-model:began <Year/1807> .
+
+<SL/30143hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Andreev, Andrej Jur’evič, Feofanov, A. M.: Inostrannye professora rossijskich universitetov (vtoraja polovina XVIII – pervaja tret’ XIX v.). Biografičeskij slovar’. Moskva 2011, 37-38." .
+
+<Date/30143DiedOn>
+	a drw-model:Date ;
+	rdfs:label "8./20.1.1819" .
+
+<RelatedPerson/30143fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Joseph" .
+
+<RelatedPerson/30143wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30143hasComment4> ;
+	rdfs:label "1. Wilhelmine Franziska, geb. Langsdorff (1784-1809)
+2. Elisabeth, geb. von Euler (1780-1852)[4]" .
+
+<Year/1813>
+	a drw-model:Year ;
+	rdfs:label "1813" .
+
+<GeneralLabor/30143hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologie und gerichtliche Medizin" .
+
+<SL/30143hasSL1>
+	rdfs:label "Dic, Viktor Georgievič, Garzavina, Alla Viktorovna, Novickaja, Irina A.: Nemeckie učenye - professora Kazanskogo universiteta. K 200-letiju Kazanskogo universiteta. Kazan’ 2004, 21-25." ;
+	a drw-model:SL .
+
+<W/30143hasW1>
+	rdfs:label "Oratio de circulatione sanguinis ejusque organis. Rede. Kazan’ 1817." ;
+	a drw-model:W .
+
+<A/30143hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Dr. med. et chir. und Abschluss als „Okulist“ an der Universität Wien" .
+

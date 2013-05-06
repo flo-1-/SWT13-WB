@@ -1,0 +1,251 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<Year/1880>
+	rdfs:label "1880" ;
+	a drw-model:Year .
+
+<MG/30664hasMG>
+	a drw-model:MG ;
+	rdfs:label "Mitglied der Sächsischen Akademie der Wissenschaften zu Leipzig, Mitglied der Kaiserlichen Akademie der Wissenschaften in St. Petersburg. Weiteres vgl.: <b>SL</b>" .
+
+<ImportantPerson/30664>
+	drw-model:motherIs <RelatedPerson/30664motherIs> ;
+	drw-model:hasEducation <A/30664hasEducation3> ;
+	drw-model:hasStationOfLife <B/30664hasStationOfLife2> ;
+	drw-model:hasEducation <A/30664hasEducation0> ;
+	drw-model:hasHonoursAndAwardsComment <HonoursAndAwardsComment/30664hasHonoursAndAwardsComment> ;
+	drw-model:wasBornOn <Date/30664wasBornOn> ;
+	drw-model:hasID "30664" ;
+	drw-model:hasGPV <GPV/30664hasGPV0> ;
+	drw-model:wasBornIn <Place/30664wasBornIn> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30664hasGeneralLabor0> ;
+	drw-model:hasStationOfLife <B/30664hasStationOfLife6> ;
+	drw-model:hasQ <Q/30664hasQ0> ;
+	drw-model:hasEducation <A/30664hasEducation4> ;
+	drw-model:hasStationOfLife <B/30664hasStationOfLife1> ;
+	drw-model:hasStationOfLife <B/30664hasStationOfLife8> ;
+	drw-model:hasQ <Q/30664hasQ1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30664wasMarriedTo> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30664hasHonoursAndAwards> ;
+	drw-model:DiedIn <Place/30664DiedIn> ;
+	drw-model:hasW <W/30664hasW0> ;
+	drw-model:hasStationOfLife <B/30664hasStationOfLife5> ;
+	drw-model:fatherIs <RelatedPerson/30664fatherIs> ;
+	drw-model:hasStationOfLife <B/30664hasStationOfLife4> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <B/30664hasStationOfLife7> ;
+	drw-model:hasEducation <A/30664hasEducation1> ;
+	drw-model:hasQ <Q/30664hasQ2> ;
+	drw-model:hasStationOfLife <B/30664hasStationOfLife0> ;
+	drw-model:hasWL <WL/30664hasWL0> ;
+	drw-model:hasStationOfLife <B/30664hasStationOfLife3> ;
+	drw-model:hasMainName <MainName/30664hasMainName> ;
+	drw-model:hasEducation <A/30664hasEducation2> ;
+	drw-model:hasMG <MG/30664hasMG> ;
+	rdfs:label "Ludwig, Carl Friedrich Wilhelm" ;
+	drw-model:DiedOn <Date/30664DiedOn> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30664.jpg> ;
+	drw-model:hasDescendant <RelatedPerson/30664hasDescendant> .
+
+<B/30664hasStationOfLife1>
+	drw-model:began <Year/1846> ;
+	a drw-model:B ;
+	rdfs:label "ao. Prof für vergleichende Anatomie an der Universität Marburg" .
+
+<B/30664hasStationOfLife3>
+	drw-model:began <Year/1855> ;
+	a drw-model:B ;
+	rdfs:label "o. Professor für Physiologie und Zoologie an der Militärärztlichen Akademie Josephinum in Wien" .
+
+<B/30664hasStationOfLife7>
+	drw-model:began <Year/1880> ;
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Leipzig" ;
+	a drw-model:B .
+
+<Q/30664hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Universitätsarchiv Leipzig: Sammlungsgut, Fotosammlung seit 1857, Signatur N13229-38 (Carl-Ludwig-Bueste [Color-Foto])." .
+
+<RelatedPerson/30664hasDescendant>
+	rdfs:label "Anna Christina Henriette, verh. Dove (1851-1934)" ;
+	a drw-model:RelatedPerson .
+
+<Year/1846>
+	rdfs:label "1846" ;
+	a drw-model:Year .
+
+<B/30664hasStationOfLife4>
+	drw-model:began <Year/1865> ;
+	a drw-model:B ;
+	rdfs:label "o. Professor für Physiologie an der Medizinischen Fakultät, Gründer und Leiter der Physiologischen Anstalt an der Universität Leipzig" .
+
+<Year/1855>
+	rdfs:label "1855" ;
+	a drw-model:Year .
+
+<Date/30664DiedOn>
+	rdfs:label "23.4.1895" ;
+	a drw-model:Date .
+
+<Q/30664hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr. 2075." .
+
+<HonoursAndAwards/30664hasHonoursAndAwards>
+	rdfs:label "1876 Cothenius-Medaille (Leopoldina)<br>1874 Ehrenmitglied der Kaiserlichen Universität Moskau<br>1878 Maximilians-Orden für Wissenschaft und Kunst<br>1884 Copley Medal (Royal Society London)<br>1889 Orden Pour le Mérite für Wissenschaften und Künste<br>1890 Dr. phil. h. c. (Universität Leipzig)<br>1890 Ehrenbürger der Stadt Leipzig<br>Seit 1932 Carl-Ludwig-Ehrenmedaille (Deutsche Gesellschaft für Kardiologie)<br>Carl-Ludwig-Büste (vgl. <b>Q</b>)<br>Nach ihm ist das Carl-Ludwig-Institut für Physiologie der Universität Leipzig benannt<br>Festgabe: Beiträge zur Anatomie und Physiologie. Carl Ludwig zum 15. October 1874 gewidmet von seinen Schülern. Leipzig 1874, 232 + 76 S.<br>Festgabe: Beiträge zur Physiologie. Carl Ludwig zu seinem 70. Geburtstage. Gewidmet von seinen Schülern. Leipzig 1887, 330 S." ;
+	a drw-model:HonoursAndAwards .
+
+<Year/1865>
+	rdfs:label "1865" ;
+	a drw-model:Year .
+
+<Year/1836>
+	rdfs:label "1836" ;
+	a drw-model:Year .
+
+<Year/1834>
+	rdfs:label "1834" ;
+	a drw-model:Year .
+
+<Date/30664wasBornOn>
+	rdfs:label "29.12.1816" ;
+	a drw-model:Date .
+
+<NameVariation/30664_1>
+	rdfs:label "Ljudvig, Karl Fridrich Vil’gel’m"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Людвиг, Карл Фридрих Вильгельм"@ru .
+
+<A/30664hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Staatsexamen und Promotion zum Dr. med. an der Universität Marburg" ;
+	drw-model:began <Year/1839/40> .
+
+<RelatedPerson/30664wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Christiane Sophie, geb. Endemann (1827-1897)" .
+
+<W/30664hasW0>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:W .
+
+<A/30664hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Studium der Medizin an der Universität in Marburg" ;
+	drw-model:began <Year/1834> .
+
+<B/30664hasStationOfLife8>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<HonoursAndAwardsComment/30664hasHonoursAndAwardsComment>
+	rdfs:label "Ehrungen und Auszeichnungen (Auswahl):" ;
+	a drw-model:HonoursAndAwardsComment .
+
+<NameVariation/30664_0>
+	rdfs:label "Ludwig, Carl/Karl Friedrich Wilhelm" ;
+	a drw-model:NameVariation .
+
+<Year/1868>
+	rdfs:label "1868" ;
+	a drw-model:Year .
+
+<A/30664hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Habilitation für Physiologie in Marburg" .
+
+<WL/30664hasWL0>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:WL .
+
+<Q/30664hasQ1>
+	a drw-model:Q ;
+	rdfs:label "HVVUL – Historische Vorlesungsverzeichnisse der Universität Leipzig (http://histvv.uni-leipzig.de/dozenten/ludwig_c.html, 5.1.2012)." .
+
+<B/30664hasStationOfLife2>
+	drw-model:began <Year/1849> ;
+	a drw-model:B ;
+	rdfs:label "o. Professor für Anatomie und Physiologie an der Universität Zürich" .
+
+<B/30664hasStationOfLife6>
+	drw-model:began <Year/1874> ;
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Leipzig" ;
+	a drw-model:B .
+
+<B/30664hasStationOfLife0>
+	rdfs:label "Prosektor für Anatomie und Privatdozent an der Universität Marburg" ;
+	a drw-model:B ;
+	drw-model:began <Year/1841> .
+
+<MainName/30664hasMainName>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30664_0> ;
+	rdfs:label "Ludwig, Carl Friedrich Wilhelm" ;
+	drw-model:hasNameVariation <NameVariation/30664_1> .
+
+<Year/1874>
+	rdfs:label "1874" ;
+	a drw-model:Year .
+
+<Place/30664wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Witzenhausen, Kurhessen" .
+
+<GeneralLabor/30664hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<RelatedPerson/30664fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann Friedrich (1781-1843), Ritt- und Rentmeister" .
+
+<B/30664hasStationOfLife5>
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Leipzig" ;
+	drw-model:began <Year/1868> ;
+	a drw-model:B .
+
+<Year/1839/40>
+	rdfs:label "1839/40" ;
+	a drw-model:Year .
+
+<Year/1849>
+	rdfs:label "1849" ;
+	a drw-model:Year .
+
+<RelatedPerson/30664motherIs>
+	rdfs:label "Christiane, geb. Nagel († 1853)" ;
+	a drw-model:RelatedPerson .
+
+<A/30664hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Besuch des humanistischen Gymnasiums „Hohe Landesschule“ in Hanau" ;
+	drw-model:began <Year/1825> .
+
+<Year/1825>
+	rdfs:label "1825" ;
+	a drw-model:Year .
+
+<Year/1841>
+	rdfs:label "1841" ;
+	a drw-model:Year .
+
+<GPV/30664hasGPV0>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:GPV .
+
+<Place/30664DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Leipzig" .
+
+<A/30664hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Fortsetzung des Studiums an der Universität Erlangen und an der Chirurgenschule in Bamberg" ;
+	drw-model:began <Year/1836> .
+

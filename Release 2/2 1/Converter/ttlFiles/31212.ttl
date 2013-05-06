@@ -1,0 +1,519 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Year/1868>
+	rdfs:label "1868" ;
+	a drw-model:Year .
+
+<A/31212hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Abschluss des Gymnasiums in Černigov" .
+
+<Q/31212hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Humboldt-Universität Berlin, Universitätsarchiv (Schriftliche Mitteilung vom 3.3.2011): a) Matrikel der Universität Berlin: Nr. 46 des 53. Rektorats; b) Promotionsverfahren: HUB, UA, Med. Fak. Nr. 606." .
+
+<SL/31212hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Artemov, Nikolaj Michajlovič: Il’ja Faddeevič Cion. Kratkaja biografija, bibliografičeskij ukazatel’. Nižnij Novgorod 1996, 91 S." .
+
+<Comment/31212hasComment2>
+	drw-model:hasNumber 2 ;
+	rdfs:label "Eigene Angabe in Vita (vgl. <b>Q</b>). Deutsch auch Telschen, <b>russ.</b>: Tel’šjaj, litauisch: Telšai. In der Literatur finden sich unterschiedliche Angaben des Geburtsortes:
+                 - Nozdračev/Mar’janovič (<b>SL</b>): „Zu der Zeit und zum Ort der Geburt Cions gibt es fast so viele Versionen, wie es Legenden über die Herkunft von Christoph Columbus gibt: 1843 in Samara, im Jahre 1842 im Städtchen Tel’šaj im Gouvernement Kovno oder in der Stadt Panevežis. I. S. Turgenev, der Cion nicht sehr mochte, nannte ihn den gebürtigen Odessaer. Alle Autoren sind sich darüber einig, dass er in einer jüdischen Familie geboren wurde und sechs oder sieben Jahre älter als I. P. Pavlov war.“
+                 - Nach Dudakov (<b>SL</b>) soll er in Samara geboren sein, wo sein Vater in der Gerichtskammer diente; vgl. auch Kagan 1952, zit. n. WBIS JBA (<b>SL</b>)." ;
+	a drw-model:Comment .
+
+<Year/1875>
+	rdfs:label "1875" ;
+	a drw-model:Year .
+
+<SL/31212hasSL7>
+	rdfs:label "Nozdračev, A. D., Mar’janovič, A. T.: Il’ja Cion i Ivan Pavlov: učitel’ i učenik. Vestnik rossijskoj akademii nauk 69 (1999) 9, 813-823 (http://vivovoco.rsl.ru/VV/JOURNAL/VRossijskaja akademija nauk. Personal’nyj sostav. Kniga 1: 1724-1917. Moskva 1999; Kniga 2: 1918-1973. Moskva 1999/PAVSION.HTM, 29.11.2010)." ;
+	a drw-model:SL .
+
+<Q/31212hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Vita in der Dissertation an der Universität Berlin (vgl. <b>W</b>), 54-55." .
+
+<Year/1859>
+	rdfs:label "1859" ;
+	a drw-model:Year .
+
+<A/31212hasEducation8>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Mediko-Chirurgischen Akademie (MCA) St. Petersburg" .
+
+<NameVariation/31212_1>
+	rdfs:label "Цион, Елияш Файтелионович (фон)"@ru ;
+	rdfs:label "Cion, Elijaš Fajtelionovič (fon)"@de ;
+	a drw-model:NameVariation .
+
+<B/31212hasStationOfLife4>
+	rdfs:label "Entlassung aus der MCA St. Petersburg" ;
+	a drw-model:B .
+
+<ImportantPerson/30230>
+	drw-model:hasConnectionTo <ImportantPerson/31212> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30230" .
+
+<Year/1887>
+	rdfs:label "1887" ;
+	a drw-model:Year .
+
+<Year/1897>
+	rdfs:label "1897" ;
+	a drw-model:Year .
+
+<MainName/31212hasMainName>
+	drw-model:hasNameVariation <NameVariation/31212_4> ;
+	drw-model:hasNameVariation <NameVariation/31212_3> ;
+	rdfs:label "Cion, Il'ja Faddeevič (fon)" ;
+	drw-model:hasNameVariation <NameVariation/31212_0> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/31212_1> ;
+	drw-model:hasNameVariation <NameVariation/31212_2> .
+
+<B/31212hasStationOfLife12>
+	rdfs:label "experimentelle Arbeiten bei Justus <span style='font-variant:small-caps;'>Gaule</span> (1849-1939) in Zürich" ;
+	a drw-model:B .
+
+<A/31212hasEducation7>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Medizinischen Fakultät der Universität Berlin" .
+
+<SL/31212hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Deutsches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 215, 25-26." .
+
+<Comment/31212hasComment3>
+	a drw-model:Comment ;
+	rdfs:label "Studierte 1862-1864 an der Universität Berlin und promovierte mit der Dissertation „De diabete mellito ejusque nexu cum cerebri et nervorum affectionibus.“ Berlin 1864, 31 S. [Staatsbibliothek Berlin: 24 in: Ja 3268, und Universitätsbibliothek Leipzig: Spez.Path.2670]." ;
+	drw-model:hasNumber 3 .
+
+<W/31212hasW2>
+	rdfs:label "Principes d’électrothérapie. Paris 1873, 277 S.; <b>russ.</b>: Osnovy ėlektroterapii. Sankt-Peterburg 1874, 177 S." ;
+	a drw-model:W .
+
+<SL/31212hasSL8>
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 363-364, 1943" ;
+	a drw-model:SL .
+
+<GPV/31212hasGPV0>
+	rdfs:label "Raboty Ciona (1866-1873, 26 Nrn.), in: Popel’skij 1899 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<P/31212hasP5>
+	a drw-model:P ;
+	rdfs:label "Georg Engelbach (1817-1897): Elias von Cyon. Lithographie (Druck J. Hesse) [ohne Jahresangabe], mit Cyons Unterschrift. In: Gesammelte physiologische Arbeiten (<b>GPV</b>), Frontispiz." .
+
+<B/31212hasStationOfLife3>
+	a drw-model:B ;
+	rdfs:label "Beurlaubung, Abreise zu <span style='font-variant:small-caps;'>Bernard</span> nach Paris" .
+
+<NameVariation/31212_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Цион#фоотноте1#, Илья Фаддеич/Фаддеевич (фон)"@ru ;
+	drw-model:hasComment <Comment/31212hasComment1> ;
+	rdfs:label "Cion[1], Il’ja Faddeič/Faddeevič (fon)"@de .
+
+<SL/31212hasSL15>
+	rdfs:label "Šabunin, A. V.: Laureat Montionovskoj premii professor I. F. Cion (http://www.medline.ru/public/art/tom3/cion1.phtml, 29.11.2010)." ;
+	a drw-model:SL .
+
+<SL/31212hasSL14>
+	a drw-model:SL ;
+	rdfs:label "Česnakova [Im Original Druckfehler, es muss heißen: Česnokova], Sof’ja Aleksandrovna, Lindemann, Marianne: Russische Physiologen in Laboratorien von Carl Ludwig. Wissenschaftliche Zeitschrift der Karl-Marx-Universität Leipzig, Mathematisch-naturwissenschaftliche Reihe 19 (1970), 315-323." .
+
+<WL/31212hasWL0>
+	rdfs:label "Autor von ca. 120 wissenschaftlichen und populärwissenschaftlichen Publikationen, insbesondere zur Physiologie des Kreislaufs und des Nervensystems sowie zur Erforschung des Ohres als „Raumorgan“" ;
+	a drw-model:WL .
+
+<SL/31212hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Dudakov, Savelij: Genij i zlodejstvo (http://www.sunround.com/club/22/22_125_dudakov.htm, 29.11.2010)." .
+
+<Date/31212wasBornOn>
+	rdfs:label "13./25.3.1842" ;
+	a drw-model:Date .
+
+<A/31212hasEducation6>
+	a drw-model:A ;
+	rdfs:label "" .
+
+<SL/31212hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 158-165." .
+
+<W/31212hasW3>
+	rdfs:label "Recherches expérimentales sur les fonctions des canaux semi-circulaires et sur leur rôle dans la formation de la notion de l’espace. Diss. Paris 1878, 108 S." ;
+	a drw-model:W .
+
+<GPV/31212hasGPV1>
+	a drw-model:GPV ;
+	rdfs:label "Gesammelte physiologische Arbeiten von Dr. E. von Cyon. Berlin 1888, 344 S. (online unter http://www.archive.org/stream/gesammeltephysio00cyon#page/n3/mode/2up, 9.11.2010)." .
+
+<P/31212hasP2>
+	rdfs:label "Portrait [mit Unterschrift] in: Popel’skij 1899 (<b>SL</b>), vor S. 77." ;
+	a drw-model:P .
+
+<ImportantPerson/30587>
+	drw-model:hasID "30587" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/31212> .
+
+<B/31212hasStationOfLife2>
+	drw-model:began <Year/1872> ;
+	a drw-model:B ;
+	rdfs:label "o. Professor und Lehrstuhl für Physiologie an der MCA St. Petersburg" .
+
+<SL/31212hasSL16>
+	a drw-model:SL ;
+	rdfs:label "Ševelev, A. S.: Dve žizni Il’i Ciona. Priroda (1993) Nr. 9, 108-111." .
+
+<B/31212hasStationOfLife1>
+	rdfs:label "ao. Professor am Lehrstuhl für vergleichende Anatomie und Physiologie an der Physiko-mathematischen Fakultät der Universität St. Petersburg" ;
+	a drw-model:B ;
+	drw-model:began <Year/1870> .
+
+<A/31212hasEducation5>
+	a drw-model:A ;
+	rdfs:label "" .
+
+<B/31212hasStationOfLife10>
+	drw-model:began <Year/1897> ;
+	rdfs:label "experimentelle Arbeiten bei K. H. <span style='font-variant:small-caps;'>Kronecker</span> und Jules <span style='font-variant:small-caps;'>Berdez</span> (1858-1925) in Bern" ;
+	a drw-model:B .
+
+<WL/31212hasWL1>
+	rdfs:label "1866 zusammen mit <span style='font-variant:small-caps;'>Ludwig</span> Entdeckung des Nervus depressor (Publikation dazu vgl. Gesammelte physiologische Arbeiten [<b>GPV</b>], 38-54)" ;
+	a drw-model:WL .
+
+<SL/31212hasSL3>
+	rdfs:label "Günzel, Stephan: Das Ohr zum Raum – Elias von Cyon und die Physiologie des Innenohrs. Vortrag des Philosophie-Arbeitskreises MoMo Berlin vom 22.8.2004 (http://www.momo-berlin.de/Guenzel_Cyon.html, 2.3.2011)." ;
+	a drw-model:SL .
+
+<B/31212hasStationOfLife9>
+	a drw-model:B ;
+	rdfs:label "Privatlabor für Physiologie in Paris" .
+
+<Year/1866>
+	rdfs:label "1866" ;
+	a drw-model:Year .
+
+<ImportantPerson/31212>
+	drw-model:hasMainName <MainName/31212hasMainName> ;
+	drw-model:hasStationOfLife <B/31212hasStationOfLife11> ;
+	drw-model:hasEducation <A/31212hasEducation2> ;
+	drw-model:hasEducation <A/31212hasEducation0> ;
+	drw-model:hasW <W/31212hasW3> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/31212.jpg> ;
+	drw-model:hasConnectionTo <ImportantPerson/30587> ;
+	drw-model:hasConnectionTo <ImportantPerson/30478> ;
+	drw-model:hasW <W/31212hasW4> ;
+	drw-model:hasSL <SL/31212hasSL1> ;
+	drw-model:hasSL <SL/31212hasSL8> ;
+	drw-model:hasGPV <GPV/31212hasGPV3> ;
+	drw-model:hasSL <SL/31212hasSL12> ;
+	drw-model:hasStationOfLife <B/31212hasStationOfLife0> ;
+	drw-model:hasSL <SL/31212hasSL3> ;
+	drw-model:motherIs <RelatedPerson/31212motherIs> ;
+	drw-model:hasQ <Q/31212hasQ1> ;
+	rdfs:label "Cion, Il'ja Faddeevič (fon)" ;
+	drw-model:hasSL <SL/31212hasSL7> ;
+	drw-model:hasSL <SL/31212hasSL16> ;
+	drw-model:hasStationOfLife <B/31212hasStationOfLife3> ;
+	drw-model:hasP <P/31212hasP1> ;
+	drw-model:hasSL <SL/31212hasSL5> ;
+	drw-model:hasStationOfLife <B/31212hasStationOfLife6> ;
+	drw-model:hasSL <SL/31212hasSL9> ;
+	drw-model:hasComment <Comment/31212hasComment3> ;
+	drw-model:hasEducation <A/31212hasEducation5> ;
+	drw-model:hasEducation <A/31212hasEducation9> ;
+	drw-model:hasStationOfLife <B/31212hasStationOfLife1> ;
+	drw-model:hasSL <SL/31212hasSL0> ;
+	drw-model:wasBornIn <Place/31212wasBornIn> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/31212hasHonoursAndAwards> ;
+	drw-model:hasP <P/31212hasP5> ;
+	drw-model:hasConnectionTo <ImportantPerson/30230> ;
+	drw-model:hasComment <Comment/31212hasComment2> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <W/31212hasW0> ;
+	drw-model:hasSL <SL/31212hasSL2> ;
+	drw-model:hasSL <SL/31212hasSL10> ;
+	drw-model:hasComment <Comment/31212hasComment4> ;
+	drw-model:hasWL <WL/31212hasWL1> ;
+	drw-model:wasMarriedTo <RelatedPerson/31212wasMarriedTo> ;
+	drw-model:hasEducation <A/31212hasEducation1> ;
+	drw-model:hasEducation <A/31212hasEducation7> ;
+	drw-model:hasConnectionTo <ImportantPerson/30785> ;
+	drw-model:hasStationOfLife <B/31212hasStationOfLife2> ;
+	drw-model:hasP <P/31212hasP3> ;
+	drw-model:hasConnectionTo <ImportantPerson/31212> ;
+	drw-model:hasSL <SL/31212hasSL4> ;
+	drw-model:hasWL <WL/31212hasWL0> ;
+	drw-model:hasSibling <RelatedPerson/31212hasSibling> ;
+	drw-model:hasComment <Comment/31212hasComment1> ;
+	drw-model:hasStationOfLife <B/31212hasStationOfLife8> ;
+	drw-model:wasBornOn <Date/31212wasBornOn> ;
+	drw-model:hasSL <SL/31212hasSL13> ;
+	drw-model:hasEducation <A/31212hasEducation3> ;
+	drw-model:hasP <P/31212hasP2> ;
+	drw-model:hasGPV <GPV/31212hasGPV0> ;
+	drw-model:hasStationOfLife <B/31212hasStationOfLife13> ;
+	drw-model:hasQ <Q/31212hasQ0> ;
+	drw-model:hasSL <SL/31212hasSL14> ;
+	drw-model:hasStationOfLife <B/31212hasStationOfLife4> ;
+	drw-model:hasGPV <GPV/31212hasGPV2> ;
+	drw-model:hasSL <SL/31212hasSL11> ;
+	drw-model:hasEducation <A/31212hasEducation8> ;
+	drw-model:hasWL <WL/31212hasWL2> ;
+	drw-model:hasP <P/31212hasP0> ;
+	drw-model:hasW <W/31212hasW1> ;
+	drw-model:hasW <W/31212hasW2> ;
+	drw-model:hasEducation <A/31212hasEducation4> ;
+	drw-model:hasStationOfLife <B/31212hasStationOfLife10> ;
+	drw-model:hasID "31212" ;
+	drw-model:hasStationOfLife <B/31212hasStationOfLife5> ;
+	drw-model:hasConnectionTo <ImportantPerson/30664> ;
+	drw-model:hasStationOfLife <B/31212hasStationOfLife9> ;
+	drw-model:fatherIs <RelatedPerson/31212fatherIs> ;
+	drw-model:hasSL <SL/31212hasSL15> ;
+	drw-model:DiedIn <Place/31212DiedIn> ;
+	drw-model:DiedOn <Date/31212DiedOn> ;
+	drw-model:hasStationOfLife <B/31212hasStationOfLife12> ;
+	drw-model:hasStationOfLife <B/31212hasStationOfLife7> ;
+	drw-model:hasEducation <A/31212hasEducation6> ;
+	drw-model:hasGPV <GPV/31212hasGPV1> ;
+	drw-model:hasP <P/31212hasP4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31212hasGeneralLabor0> ;
+	drw-model:hasSL <SL/31212hasSL6> .
+
+<Comment/31212hasComment1>
+	a drw-model:Comment ;
+	rdfs:label "Getaufter Jude: zunächst lutherisch, später orthodox. Sein orthodoxer Pate wurde der Protoierej (Oberpriester) der russischen Hofkirche in Stuttgart Ioann Ioannovič Bazarov (1819-1895). Vgl. Dudakov (<b>SL</b>)." ;
+	drw-model:hasNumber 1 .
+
+<W/31212hasW0>
+	rdfs:label "De choreae indole, sede et nexu cum rheumatismo articulari peri- et endocarditide. Diss. Berlin 1864, 53 S. + 2 S. Vita (vgl. <b>Q</b>) [Staatsbibliothek Berlin: 23 in: Ja 3268, und Universitätsbibliothek Leipzig: Spez.Path.2856(K)]; als russische Diss. u. d. T.: Choreja i ee svjaz’ s revmatizmom sočlenenij, vospaleniem okoloserdija i vnutrennej oboločki sumki. Voenno-medicinskij žurnal 94 (1865) Nr. 9." ;
+	a drw-model:W .
+
+<SL/31212hasSL13>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 472-473." ;
+	a drw-model:SL .
+
+<P/31212hasP3>
+	rdfs:label "Portrait in: Kichigina 2009 (<b>SL</b>), 258; Ausschnitt in: Professora MCA/VMA (<b>SL</b>)." ;
+	a drw-model:P .
+
+<Year/1870>
+	rdfs:label "1870" ;
+	a drw-model:Year .
+
+<B/31212hasStationOfLife0>
+	rdfs:label "Laborant und Privatdozent für Physiologie an der naturwissenschaftlichen Abteilung der Physiko-mathematischen Fakultät der Universität St. Petersburg bei <span style='font-variant:small-caps;'>Ovsjannikov</span>" ;
+	drw-model:began <Year/1868> ;
+	a drw-model:B .
+
+<ImportantPerson/30664>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/31212> ;
+	drw-model:hasID "30664" .
+
+<WL/31212hasWL2>
+	rdfs:label "Erforschung des Nervus acceleratorius, der fettstoffbildenden Funktion der Leber, des vasomotorischen Reflexes, der Innervation des Peritoneums, der Reizleitungsgeschwindigkeit im Rückenmark u. a." ;
+	a drw-model:WL .
+
+<SL/31212hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Jüdisches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 189, 371; II 107, 276-281." .
+
+<Year/1890>
+	rdfs:label "1890" ;
+	a drw-model:Year .
+
+<A/31212hasEducation4>
+	a drw-model:A ;
+	rdfs:label "" .
+
+<B/31212hasStationOfLife8>
+	a drw-model:B ;
+	rdfs:label "Aberkennung der russischen Staatsbürgerschaft" .
+
+<ImportantPerson/30785>
+	drw-model:hasID "30785" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/31212> .
+
+<B/31212hasStationOfLife11>
+	drw-model:began <Year/1890> ;
+	a drw-model:B ;
+	rdfs:label "Finanzberater der Russischen Botschaft in Frankreich" .
+
+<SL/31212hasSL12>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 490, 240-246; SU 465, 238-241." ;
+	a drw-model:SL .
+
+<W/31212hasW1>
+	a drw-model:W ;
+	rdfs:label "Kurs fiziologii. Lekcii, čitannye v 1872-1873 učebnogo goda v Mediko-chirurgičeskoj akademii. Bd. 1-2. Sankt-Peterburg 1873-1874." .
+
+<P/31212hasP0>
+	rdfs:label "Portrait (Abb.) aus: Volkov/Kulikova 2003 b (<b>SL</b>)." ;
+	a drw-model:P .
+
+<A/31212hasEducation3>
+	a drw-model:A ;
+	drw-model:began <Year/1862> ;
+	rdfs:label "Fortsetzung des Studiums an der Friedrich-Wilhelms-Universität Berlin:" .
+
+<RelatedPerson/31212motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Flora, geb. Schweitzer" .
+
+<SL/31212hasSL5>
+	rdfs:label "Kichigina, Galina: The Imperial Laboratory: Experimental Physiology and Clinical Medicine in Post-Crimean Russia.Amsterdam, New York 2009, 257-283: A Few Steps Further: The Operation of the Physiological Laboratory under Cyon." ;
+	a drw-model:SL .
+
+<Comment/31212hasComment4>
+	a drw-model:Comment ;
+	drw-model:hasNumber 4 ;
+	rdfs:label "Die Angabe 1877 in <b>SL</b> Pagel 1901, zit. n. WBIS DBA, und Wininger 1925, zit. n. WBIS JBA, ist vermutlich ein Druckfehler." .
+
+<NameVariation/31212_4>
+	rdfs:label "Cyon, Elie de (franz.)" ;
+	a drw-model:NameVariation .
+
+<HonoursAndAwards/31212hasHonoursAndAwards>
+	drw-model:hasComment <Comment/31212hasComment4> ;
+	rdfs:label "1875[4] „Wirklicher Russischer Staatsrat“ und in den Adelsstand erhoben<br>1867 1. Montyon-Prämie, zusammen mit <span style='font-variant:small-caps;'>Ludwig</span> (Académie des Sciences Paris)<br>1870 Goldmedaille „für wissenschaftliche Arbeit und bedeutende Ergebnisse in der Nutzung der Elektrizität in der Medizin“ (Académie des Sciences Paris)<br>1909 Versilberte Bronzeplakette mit Relief <span style='font-variant:small-caps;'>Cion</span>s vom Künstler Jules-Clément <span style='font-variant:small-caps;'>Chaplain</span> (1839-1909)" ;
+	a drw-model:HonoursAndAwards .
+
+<P/31212hasP1>
+	rdfs:label "Portrait aus den 1890-er Jahren, in: Nozdračev/Mar’janovič 1999 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<GeneralLabor/31212hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie
+Lehrer von I. P. <span style='font-variant:small-caps;'>Pavlov</span>" .
+
+<SL/31212hasSL11>
+	a drw-model:SL ;
+	rdfs:label "Professora MCA/VMA - Professora Voenno-medicinskoj (Mediko-chirurgičeskoj) akademii (1798-1998). Glavnyj red. Jurij Leonidovič Ševčenko. Sankt-Peterburg 1998, 57." .
+
+<Place/31212wasBornIn>
+	a drw-model:Place ;
+	drw-model:hasComment <Comment/31212hasComment2> ;
+	rdfs:label "Telsch[2], Gouv. Kowno, heute in Litauen" .
+
+<B/31212hasStationOfLife7>
+	drw-model:began <Year/1887> ;
+	a drw-model:B ;
+	rdfs:label "Hauptvertreter des russischen Finanzministeriums in Frankreich" .
+
+<Year/1872>
+	rdfs:label "1872" ;
+	a drw-model:Year .
+
+<RelatedPerson/31212wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "1. [Name unbekannt], geb. Malkiėl’
+2. [Name unbekannt], geb. Nejman (Neumann)" .
+
+<A/31212hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1859> ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Kiev" .
+
+<B/31212hasStationOfLife13>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<Place/31212DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Paris" .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<GPV/31212hasGPV2>
+	rdfs:label "Spisok trudov I. F. Ciona, in: Artemov 1996 (<b>SL</b>), 60-73." ;
+	a drw-model:GPV .
+
+<RelatedPerson/31212hasSibling>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Moses (Mojsej Faddeevič) (* 1840), Arzt[3]" ;
+	drw-model:hasComment <Comment/31212hasComment3> .
+
+<NameVariation/31212_3>
+	rdfs:label "Cyon, Elias (von)"@de ;
+	a drw-model:NameVariation .
+
+<SL/31212hasSL10>
+	a drw-model:SL ;
+	rdfs:label "Popel’skij, Lew: Istoričeskij očerk kafedry fiziologii v Imperatorskoj Voenno-medicinskoj akademii za 100 let (1798-1898). S.-Peterburg 1899, 77-90." .
+
+<B/31212hasStationOfLife6>
+	rdfs:label "Dr. med. an der Medizinischen Fakultät der Universität Paris" ;
+	a drw-model:B .
+
+<Year/1862>
+	rdfs:label "1862" ;
+	a drw-model:Year .
+
+<A/31212hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Studium an der Mediko-Chirurgischen Akademie Warschau" .
+
+<P/31212hasP4>
+	a drw-model:P ;
+	rdfs:label "Foto mit Cyons Unterschrift, in: E. von Cyon: Das Ohrlabyrinth als Organ der mathematischen Sinne für Raum und Zeit. Berlin 1908, Frontispiz; auch in: Günzel (<b>SL</b>)." .
+
+<GPV/31212hasGPV3>
+	rdfs:label "Deutschsprachige Publikationen 1865-1912, in: Pfrepper 2009 (<b>SL</b>), 159-163." ;
+	a drw-model:GPV .
+
+<RelatedPerson/31212fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Pinchas, auch Taddeus (Faddej), Offizier, Beamter der Gerichtskammer in Samara (?)" .
+
+<ImportantPerson/30478>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30478" ;
+	drw-model:hasConnectionTo <ImportantPerson/31212> .
+
+<NameVariation/31212_2>
+	rdfs:label "Cion, Elias (von)"@de ;
+	a drw-model:NameVariation .
+
+<SL/31212hasSL6>
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 23-24." ;
+	a drw-model:SL .
+
+<B/31212hasStationOfLife5>
+	rdfs:label "in Emigration in Frankreich:" ;
+	drw-model:began <Year/1875> ;
+	a drw-model:B .
+
+<A/31212hasEducation9>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung in Deutschland, Österreich und Frankreich mit Stipendium des Ministeriums für Volksaufklärung:
+- bei C. <span style='font-variant:small-caps;'>Ludwig</span> an der Universität Leipzig
+- bei E. <span style='font-variant:small-caps;'>Du Bois-Reymond</span> an der Universität Berlin
+- bei Josef <span style='font-variant:small-caps;'>Stefan</span> (1835-1893) an der Universität Wien
+- bei Claude <span style='font-variant:small-caps;'>Bernard</span> (1813-1878) in Paris" ;
+	drw-model:began <Year/1866> .
+
+<Date/31212DiedOn>
+	a drw-model:Date ;
+	rdfs:label "23.10/5.11.1912" .
+
+<W/31212hasW4>
+	rdfs:label "Außerdem Verfasser der Vorworte in einigen Werken anderer Autoren, darunter in der russischen Übersetzung S. I.  Čir’evs von: Carl Gottfried Neumann: Die Haupt- und Brenn-Puncte eines Linsen-Systemes. Elementare Darstellung der durch Gauss begründete Theorie. Leipzig, 41 S.: Chod svetovych lučej čerez sistemu prelomljajuščich sredin. Analitičeskij metod Gaussa. Sankt-Peterburg 1873, 8 S." ;
+	a drw-model:W .
+

@@ -1,0 +1,406 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<P/31066hasP1>
+	rdfs:label "Portrait in: Aziaros (<b>SL</b>)." ;
+	a drw-model:P .
+
+<SL/31066hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Pavlovskij, E. N., Bol’, K. G.: Pamjati prof. K. R. Viktorova. Učenye zapiski Kazanskogo gosudarstvennogo veterinarnogo instituta im. N. Ė. Baumana 73 (1958), 239-243." .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<A/31066hasEducation9>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung bei Filippo <span style='font-variant:small-caps;'>Bottazzi</span> (1867-1942) in Neapel" .
+
+<ImportantPerson/30125>
+	drw-model:hasID "30125" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/31066> .
+
+<W/31066hasW2>
+	rdfs:label "Über den Einfluss des Alkohols auf hydrolysierende Enzyme. Mit Bernhard Schöndorff. Archiv für die gesammte Physiologie des Menschen und der Thiere 116 (1907) 10-12, 495-516; <b>russ.</b>: O vlijanii alkogolja na gidrolizirujuščie ėnzimy. Učenyja zapiski Kazanskago veterinarnago instituta 24 (1907), 23 S." ;
+	a drw-model:W .
+
+<WL/31066hasWL4>
+	rdfs:label "Verfasser von Lehrbüchern zur Physiologie der Haus- und Nutztiere" ;
+	a drw-model:WL .
+
+<W/31066hasW11>
+	a drw-model:W ;
+	rdfs:label "Außerdem 1910 zusammen mit F. Bottazzi drei Publikationen über kolloide Eigenschaften der Stärke, über elektrische Transporteigenschaften und Eigenschaften von löslichen Seifen in <i>Atti della reale accademia dei Lincei</i>" .
+
+<Comment/31066hasComment2>
+	drw-model:hasNumber 2 ;
+	a drw-model:Comment ;
+	rdfs:label "Vgl. Pavlovskij/Bol’ (<b>SL</b>), 243." .
+
+<WL/31066hasWL5>
+	rdfs:label "1933 Verfasser des ersten Lehrbuchs über Vögel in der Sowjetunion (vgl. Sonderkapitel in der Übersetzung in <b>W</b>)" ;
+	a drw-model:WL .
+
+<HonoursAndAwards/31066hasHonoursAndAwards>
+	rdfs:label "Lenin-Orden<br>1948 „Verdienter Wissenschaftler der RSFSR“" ;
+	a drw-model:HonoursAndAwards .
+
+<SL/31066hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 97." .
+
+<SL/31066hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 117-119." .
+
+<W/31066hasW8>
+	rdfs:label "Rukovodstvo k praktičeskim zanjatijam po fiziologii životnych. Učebnoe posobie dlja zootechničeskich institutov i fakul’tet. Мoskva 1953, 167 S." ;
+	a drw-model:W .
+
+<B/31066hasStationOfLife13>
+	rdfs:label "Professor an der Veterinärakademie und an der Landwirtschaftsakademie in Moskau" ;
+	drw-model:began <Year/1936> ;
+	a drw-model:B .
+
+<MainName/31066hasMainName>
+	a drw-model:MainName ;
+	rdfs:label "Viktorov, Konstantin Rafailovič" ;
+	drw-model:hasNameVariation <NameVariation/31066_0> .
+
+<B/31066hasStationOfLife14>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<Year/1919>
+	rdfs:label "1919" ;
+	a drw-model:Year .
+
+<Year/1903>
+	rdfs:label "1903" ;
+	a drw-model:Year .
+
+<A/31066hasEducation1>
+	a drw-model:A ;
+	drw-model:began <Year/1899> ;
+	rdfs:label "Studium am Veterinärinstitut Kazan’ (VIK)" .
+
+<WL/31066hasWL0>
+	rdfs:label "Gründer der Schule „Physiologie der Nutztiere“ in Kazan’" ;
+	a drw-model:WL .
+
+<Year/1899>
+	rdfs:label "1899" ;
+	a drw-model:Year .
+
+<Date/31066wasBornOn>
+	rdfs:label "5./17.9.1878" ;
+	a drw-model:Date .
+
+<W/31066hasW4>
+	a drw-model:W ;
+	rdfs:label "Die kühlende Wirkung der Luftsäcke bei Vögeln. Archiv für die gesammte Physiologie des Menschen und der Thiere 126 (1909) 5-8, 300-322." .
+
+<A/31066hasEducation7>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung bei Wilhelm <span style='font-variant:small-caps;'>Ellenberger</span> (1848-1929) und Arthur Carl <span style='font-variant:small-caps;'>Scheunert</span> (1879-1957) in Dresden" .
+
+<WL/31066hasWL2>
+	rdfs:label "Gründer der Veterinärfakultät an der Landwirtschaftsakademie in Omsk" ;
+	a drw-model:WL .
+
+<A/31066hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Mag. vet.-med. am VIK" .
+
+<B/31066hasStationOfLife7>
+	rdfs:label "Leiter des Lehrstuhls für Physiologie und physiologische Chemie und Leiter des Physiologischen Laboratoriums am VIK" ;
+	a drw-model:B ;
+	drw-model:began <Year/1920> .
+
+<W/31066hasW3>
+	rdfs:label "Ueber die erforderliche Zeitdauer der Gährung beim Nachweis des Traubenzuckers im Harn. Archiv für die gesammte Physiologie des Menschen und der Thiere 118 (1907) 11-12, 583-600; <b>russ.</b>: O neobchodimoj prodolžitel’nosti broženija pri konstatirovanii vinogradnogo sachara v moče. Učenyja zapiski Kazanskago veterinarnago instituta 24 (1907), 19 S." ;
+	a drw-model:W .
+
+<B/31066hasStationOfLife3>
+	rdfs:label "ao. Professor für physiologische Chemie am Lehrstuhl für Physiologie, zeitweise Leiter des Lehrstuhls für Pharmakologie am VIK" ;
+	a drw-model:B .
+
+<W/31066hasW7>
+	rdfs:label "Fiziologija domašnich životnych. Učebnik. Moskva 1939, 465 S.; …; 4. Aufl.: Moskva 1948." ;
+	a drw-model:W .
+
+<B/31066hasStationOfLife5>
+	a drw-model:B ;
+	rdfs:label "Gründer und 1919 Dekan der Veterinärfakultät an der Landwirtschaftsakademie in Omsk, erster Dekan der Fakultät, zuletzt Rektor der Akademie" .
+
+<Year/Bis_1899>
+	rdfs:label "Bis 1899" ;
+	a drw-model:Year .
+
+<Place/31066DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Moskau" .
+
+<B/31066hasStationOfLife1>
+	rdfs:label "Leiter des Lehrstuhls für Physiologie am VIK" ;
+	a drw-model:B .
+
+<W/31066hasW5>
+	rdfs:label "Ob izmenenijach žirovoj tkani ljaguški vo vremja zimnej spjački. Učenyja zapiski Kazanskago veterinarnago instituta 26 (1909), 7 S." ;
+	a drw-model:W .
+
+<Year/1907>
+	rdfs:label "1907" ;
+	a drw-model:Year .
+
+<Place/31066wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Samara" .
+
+<SL/31066hasSL4>
+	a drw-model:SL ;
+	rdfs:label "[Zefirov, Andrej L’vovič u. a.:] Kazanskaja fiziologičeskaja škola na rubeže vekov. Kazanskaja gosudarstvennaja akademija veterinarnoj mediciny. Kafedra fiziologii sel’skochozjajstvennych životnych (http://www.kcn.ru/tat_ru/science/fiziologi/kgavm_fiziol.htm, 7.6.2011)." .
+
+<W/31066hasW0>
+	rdfs:label "K morfologii muskul’nogo želudka ptic i gistologii ego myšcy. Učenyja zapiski Kazanskago veterinarnago instituta 21 (1904), 7 S." ;
+	a drw-model:W .
+
+<Year/1916>
+	rdfs:label "1916" ;
+	a drw-model:Year .
+
+<B/31066hasStationOfLife9>
+	a drw-model:B ;
+	rdfs:label "Leiter des Lehrstuhls für Anatomie und Physiologie der Nutztiere am Landwirtschaftsinstitut in Kazan’" ;
+	drw-model:began <Year/1920> .
+
+<ImportantPerson/30800>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30800" ;
+	drw-model:hasConnectionTo <ImportantPerson/31066> .
+
+<Comment/31066hasComment1>
+	a drw-model:Comment ;
+	drw-model:hasNumber 1 ;
+	rdfs:label "Auch Karl Bohl, deutscher Herkunft, Professor für pathologische Anatomie und Direktor des VIK. Vgl. EAD: Dokument-Id [53355/42044 (8.6.2011)]." .
+
+<W/31066hasW6>
+	rdfs:label "Kratkij kurs fiziologii domašnich životnych. Učenyja zapiski Kazanskago veterinarnago instituta 28 (1911), 73 S." ;
+	a drw-model:W .
+
+<W/31066hasW1>
+	rdfs:label "K voprosu ob amiloide pečeni i selezenki lošadi. Učenyja zapiski Kazanskago veterinarnago instituta 22 (1905), 147 S." ;
+	a drw-model:W .
+
+<B/31066hasStationOfLife6>
+	drw-model:began <Year/1919> ;
+	rdfs:label "Arzt in einem mobilen Krankenhaus der Roten Armee" ;
+	a drw-model:B .
+
+<SL/31066hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Aziaros – Istorija i kul’tura gorodov Aziatskoj kul’tury. Biobibliografičeskaja baza dannych: Nauka i obrazovanie. Prepodavateli i učenye (http://aziaros.narod.ru/nauka/uchenie/viktorov.html, 7.6.2011)." .
+
+<Date/31066DiedOn>
+	rdfs:label "19.4.1958" ;
+	a drw-model:Date .
+
+<W/31066hasW9>
+	a drw-model:W ;
+	rdfs:label "Fiziologija sel’skochozjajstvennych životnych. Moskva 1960, 485 S." .
+
+<Year/1913>
+	rdfs:label "1913" ;
+	a drw-model:Year .
+
+<NameVariation/31066_0>
+	rdfs:label "Victorow, Constantin"@de ;
+	a drw-model:NameVariation .
+
+<W/31066hasW10>
+	drw-model:hasComment <Comment/31066hasComment2> ;
+	rdfs:label "[Übersetzung von: Ellenberger, Wilhelm, Scheunert, Albert Carl (Hgg.): Lehrbuch der vergleichenden Physiologie der Haussäugetiere. Berlin 1910] Ėllenberger, V., Šejnert, A.: Rukovodstvo po sravitel’noj fiziologii domašnich životnych. Moskva 1933; darin Sonderkapitel: Fiziologija ptic. Učebnik.[2]" ;
+	a drw-model:W .
+
+<GeneralLabor/31066hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<P/31066hasP2>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003. (<b>SL</b>), Bildeinlage zw. S. 176-177." .
+
+<Year/1910>
+	rdfs:label "1910" ;
+	a drw-model:Year .
+
+<B/31066hasStationOfLife11>
+	rdfs:label "Konsultant für Physiologie an der Klinik für Hals-, Nasen- und Ohrenkrankheiten am Medizinischen Institut und am Institut für experimentelle Medizin Tatarstans in Kazan’" ;
+	a drw-model:B ;
+	drw-model:began <Year/1920> .
+
+<B/31066hasStationOfLife10>
+	drw-model:began <Year/1920> ;
+	a drw-model:B ;
+	rdfs:label "Organisator und Leiter der physiologischen Abteilung am Wissenschaftlichen Institut „K. G. Bol’“ bei der Organisation <i>Tatnarkomzem</i> in Kazan’" .
+
+<A/31066hasEducation6>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung bei Siegmund <span style='font-variant:small-caps;'>Exner-Erwarten</span> (1846-1926) an der Universität Wien" ;
+	drw-model:began <Year/1907> .
+
+<B/31066hasStationOfLife8>
+	drw-model:began <Year/1920> ;
+	a drw-model:B ;
+	rdfs:label "zugleich Leiter für Lehre und wissenschaftliche Arbeit in der Verwaltung des VIK sowie Mitglied verschiedener Institutskommissionen u. a." .
+
+<A/31066hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1903> ;
+	rdfs:label "Assistent am Lehrstuhl für pathologische Anatomie am VIK bei Karl Genrichovič <span style='font-variant:small-caps;'>Bol'</span>[1] (1871-1959)" ;
+	drw-model:hasComment <Comment/31066hasComment1> .
+
+<MG/31066hasMG>
+	a drw-model:MG ;
+	rdfs:label "Obščestvo veterinarnych vračej [Gesellschaft der Veterinärärzte], Obščestvo estestvoispytatelej pri Kazanskom universitete [Gesellschaft der Naturforscher an der Universität Kazan’] u. a." .
+
+<B/31066hasStationOfLife4>
+	a drw-model:B ;
+	drw-model:began <Year/1916> ;
+	rdfs:label "Militärtierarzt bei der Armee im I. Weltkrieg" .
+
+<Year/1920>
+	rdfs:label "1920" ;
+	a drw-model:Year .
+
+<RelatedPerson/31066fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Rafail, Buchhalter im Schatzamt von Samara" .
+
+<ImportantPerson/31066>
+	drw-model:hasEducation <A/31066hasEducation8> ;
+	drw-model:wasBornOn <Date/31066wasBornOn> ;
+	drw-model:hasW <W/31066hasW7> ;
+	drw-model:hasStationOfLife <B/31066hasStationOfLife12> ;
+	drw-model:hasEducation <A/31066hasEducation6> ;
+	drw-model:hasEducation <A/31066hasEducation4> ;
+	drw-model:hasWL <WL/31066hasWL2> ;
+	drw-model:hasStationOfLife <B/31066hasStationOfLife14> ;
+	drw-model:hasMG <MG/31066hasMG> ;
+	drw-model:hasStationOfLife <B/31066hasStationOfLife6> ;
+	drw-model:hasEducation <A/31066hasEducation2> ;
+	drw-model:hasComment <Comment/31066hasComment1> ;
+	drw-model:hasW <W/31066hasW9> ;
+	drw-model:hasW <W/31066hasW2> ;
+	drw-model:hasSL <SL/31066hasSL1> ;
+	drw-model:hasW <W/31066hasW6> ;
+	drw-model:hasEducation <A/31066hasEducation1> ;
+	drw-model:hasComment <Comment/31066hasComment2> ;
+	drw-model:hasStationOfLife <B/31066hasStationOfLife11> ;
+	drw-model:hasStationOfLife <B/31066hasStationOfLife3> ;
+	drw-model:hasW <W/31066hasW8> ;
+	drw-model:hasW <W/31066hasW1> ;
+	drw-model:hasStationOfLife <B/31066hasStationOfLife5> ;
+	drw-model:hasStationOfLife <B/31066hasStationOfLife0> ;
+	drw-model:hasSL <SL/31066hasSL3> ;
+	drw-model:hasWL <WL/31066hasWL3> ;
+	drw-model:hasW <W/31066hasW11> ;
+	drw-model:hasP <P/31066hasP0> ;
+	drw-model:hasSL <SL/31066hasSL2> ;
+	drw-model:hasStationOfLife <B/31066hasStationOfLife1> ;
+	drw-model:hasStationOfLife <B/31066hasStationOfLife10> ;
+	drw-model:hasStationOfLife <B/31066hasStationOfLife7> ;
+	drw-model:hasID "31066" ;
+	drw-model:hasConnectionTo <ImportantPerson/30800> ;
+	drw-model:hasP <P/31066hasP2> ;
+	drw-model:hasStationOfLife <B/31066hasStationOfLife2> ;
+	drw-model:hasStationOfLife <B/31066hasStationOfLife8> ;
+	drw-model:hasConnectionTo <ImportantPerson/30125> ;
+	drw-model:hasWL <WL/31066hasWL4> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/31066.jpg> ;
+	drw-model:hasW <W/31066hasW10> ;
+	drw-model:fatherIs <RelatedPerson/31066fatherIs> ;
+	drw-model:hasStationOfLife <B/31066hasStationOfLife4> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/31066hasHonoursAndAwards> ;
+	drw-model:hasStationOfLife <B/31066hasStationOfLife13> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/31066hasSL0> ;
+	drw-model:hasStationOfLife <B/31066hasStationOfLife9> ;
+	drw-model:hasMainName <MainName/31066hasMainName> ;
+	drw-model:hasEducation <A/31066hasEducation9> ;
+	rdfs:label "Viktorov, Konstantin Rafailovič" ;
+	drw-model:hasSL <SL/31066hasSL4> ;
+	drw-model:wasBornIn <Place/31066wasBornIn> ;
+	drw-model:DiedIn <Place/31066DiedIn> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31066hasGeneralLabor0> ;
+	drw-model:hasW <W/31066hasW5> ;
+	drw-model:DiedOn <Date/31066DiedOn> ;
+	drw-model:hasEducation <A/31066hasEducation0> ;
+	drw-model:hasWL <WL/31066hasWL0> ;
+	drw-model:hasWL <WL/31066hasWL5> ;
+	drw-model:hasW <W/31066hasW0> ;
+	drw-model:hasEducation <A/31066hasEducation7> ;
+	drw-model:hasEducation <A/31066hasEducation5> ;
+	drw-model:hasWL <WL/31066hasWL1> ;
+	drw-model:hasW <W/31066hasW3> ;
+	drw-model:hasW <W/31066hasW4> ;
+	drw-model:hasP <P/31066hasP1> ;
+	drw-model:hasEducation <A/31066hasEducation3> .
+
+<A/31066hasEducation0>
+	a drw-model:A ;
+	drw-model:began <Year/Bis_1899> ;
+	rdfs:label "Besuch des Priesterseminars in Samara" .
+
+<A/31066hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung bei E. <span style='font-variant:small-caps;'>Pflüger</span> an der Universität Bonn" .
+
+<B/31066hasStationOfLife2>
+	rdfs:label "außerplanmäßiger und 1916 planmäßiger Dozent am VIK" ;
+	drw-model:began <Year/1913> ;
+	a drw-model:B .
+
+<B/31066hasStationOfLife12>
+	drw-model:began <Year/1936> ;
+	a drw-model:B ;
+	rdfs:label "Professor am Lehrstuhl für Physiologie am Zooveterinärinstitut in Moskau" .
+
+<P/31066hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: [Zefirov, Andrej L’vovič u. a.] (<b>SL</b>)." .
+
+<Year/1906>
+	rdfs:label "1906" ;
+	a drw-model:Year .
+
+<A/31066hasEducation8>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung bei Otto <span style='font-variant:small-caps;'>Frank</span> (1865-1944) an der Universität München" .
+
+<WL/31066hasWL1>
+	rdfs:label "Gründer des Physiologischen Laboratoriums am VIK" ;
+	a drw-model:WL .
+
+<Year/1936>
+	rdfs:label "1936" ;
+	a drw-model:Year .
+
+<A/31066hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung in Deutschland, Österreich und Italien:" ;
+	drw-model:began <Year/1906> .
+
+<WL/31066hasWL3>
+	rdfs:label "Forschungsthemen: Physiologie der oberen Atemwege, Zytotoxine und ihre Anwendung in der Tierhaltung, Erforschung der Eigenschaften der Physiologie der Vögel u. a." ;
+	a drw-model:WL .
+
+<B/31066hasStationOfLife0>
+	rdfs:label "Privatdozent für Physiologie der Nutztiere am VIK" ;
+	drw-model:began <Year/1910> ;
+	a drw-model:B .
+

@@ -1,0 +1,389 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<MG/30769hasMG>
+	a drw-model:MG ;
+	rdfs:label "Leopoldina (1932), Deutsche Chemische Gesellschaft, Physiologische Gesellschaft zu Berlin" .
+
+<GeneralLabor/30769hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologe " .
+
+<RelatedPerson/30769fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Julius (1827-1909), Prediger an der jüdischen Reformgemeinde in Berlin" .
+
+<B/30769hasStationOfLife5>
+	a drw-model:B ;
+	rdfs:label "Leiter der Abteilung für Volksernährung in der Zentral-Einkaufs-Gesellschaft (ZEG) in Berlin" ;
+	drw-model:began <Year/1915> .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<B/30769hasStationOfLife9>
+	a drw-model:B ;
+	rdfs:label "Emigration in die Niederlande" .
+
+<RelatedPerson/30769motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Antonie, geb. Davidson, Lehrerin" .
+
+<SL/30769hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Marquardt, Peter: In memoriam Carl Oppenheimer. Pharmazie 2 (1947), 45." .
+
+<ImportantPerson/30769>
+	drw-model:hasStationOfLife <B/30769hasStationOfLife0> ;
+	drw-model:hasSL <SL/30769hasSL2> ;
+	drw-model:hasMG <MG/30769hasMG> ;
+	drw-model:hasSL <SL/30769hasSL8> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30769hasGeneralLabor1> ;
+	drw-model:hasStationOfLife <B/30769hasStationOfLife3> ;
+	drw-model:hasSL <SL/30769hasSL7> ;
+	drw-model:hasStationOfLife <B/30769hasStationOfLife10> ;
+	drw-model:wasBornOn <Date/30769wasBornOn> ;
+	drw-model:hasComment <Comment/30769hasComment6> ;
+	drw-model:DiedIn <Place/30769DiedIn> ;
+	drw-model:hasStationOfLife <B/30769hasStationOfLife7> ;
+	drw-model:hasW <W/30769hasW0> ;
+	drw-model:hasID "30769" ;
+	drw-model:hasWL <WL/30769hasWL4> ;
+	drw-model:motherIs <RelatedPerson/30769motherIs> ;
+	drw-model:wasBornIn <Place/30769wasBornIn> ;
+	drw-model:hasW <W/30769hasW5> ;
+	drw-model:hasSL <SL/30769hasSL5> ;
+	drw-model:hasQ <Q/30769hasQ0> ;
+	drw-model:hasStationOfLife <B/30769hasStationOfLife2> ;
+	rdfs:label "Oppenheimer, Carl Nathan" ;
+	drw-model:hasGPV <GPV/30769hasGPV0> ;
+	drw-model:hasSL <SL/30769hasSL6> ;
+	drw-model:hasW <W/30769hasW1> ;
+	drw-model:hasMainName <MainName/30769hasMainName> ;
+	drw-model:hasComment <Comment/30769hasComment1> ;
+	drw-model:hasWL <WL/30769hasWL3> ;
+	drw-model:hasEducation <A/30769hasEducation0> ;
+	drw-model:hasStationOfLife <B/30769hasStationOfLife6> ;
+	drw-model:hasSL <SL/30769hasSL9> ;
+	drw-model:hasWL <WL/30769hasWL5> ;
+	drw-model:hasGPV <GPV/30769hasGPV1> ;
+	drw-model:hasWL <WL/30769hasWL2> ;
+	drw-model:hasSL <SL/30769hasSL4> ;
+	drw-model:hasSL <SL/30769hasSL1> ;
+	drw-model:hasStationOfLife <B/30769hasStationOfLife1> ;
+	drw-model:hasStationOfLife <B/30769hasStationOfLife8> ;
+	drw-model:DiedOn <Date/30769DiedOn> ;
+	drw-model:hasComment <Comment/30769hasComment4> ;
+	drw-model:wasMarriedTo <RelatedPerson/30769wasMarriedTo> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <W/30769hasW3> ;
+	drw-model:hasWL <WL/30769hasWL1> ;
+	drw-model:hasComment <Comment/30769hasComment5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30769hasGeneralLabor0> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30769.jpg> ;
+	drw-model:hasDescendant <RelatedPerson/30769hasDescendant> ;
+	drw-model:hasEducation <A/30769hasEducation1> ;
+	drw-model:hasW <W/30769hasW4> ;
+	drw-model:hasP <P/30769hasP0> ;
+	drw-model:hasStationOfLife <B/30769hasStationOfLife5> ;
+	drw-model:hasSL <SL/30769hasSL10> ;
+	drw-model:hasSL <SL/30769hasSL0> ;
+	drw-model:fatherIs <RelatedPerson/30769fatherIs> ;
+	drw-model:hasStationOfLife <B/30769hasStationOfLife4> ;
+	drw-model:hasStationOfLife <B/30769hasStationOfLife9> ;
+	drw-model:hasComment <Comment/30769hasComment2> ;
+	drw-model:hasSL <SL/30769hasSL3> ;
+	drw-model:hasConnectionTo <ImportantPerson/30785> ;
+	drw-model:hasEducation <A/30769hasEducation2> ;
+	drw-model:hasSibling <RelatedPerson/30769hasSibling> ;
+	drw-model:hasW <W/30769hasW2> ;
+	drw-model:hasWL <WL/30769hasWL0> ;
+	drw-model:hasComment <Comment/30769hasComment3> .
+
+<A/30769hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Dr. phil. an der Universität Berlin" .
+
+<SL/30769hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Jüdisches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 511, 17-18, 27-28, 33-35; II 414, 177-182." .
+
+<W/30769hasW5>
+	rdfs:label "Die Fermente und ihre Wirkungen. Leipzig 1900, 349 S.; … 5. Aufl.: Nebst einem Sonderkapitel Physikalische Chemie und Kinetik von Richard Kuhn. Bd. 1-4. Leipzig 1924-1929; Suppl.-Bd. 1-2. Den Haag 1936-1939; Suppl.-Bibliographie: 1924-1938. Den Haag 1939; russ. [Bd. 1]: Oppengejmer, K., Kun, R.: Fermenty. Rukovodstvo po chimii, fizičeskoj chimii i biologii fermentov. Moskva, Leningrad 1932, 839 S." ;
+	a drw-model:W .
+
+<Place/30769wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Berlin" .
+
+<MainName/30769hasMainName>
+	a drw-model:MainName ;
+	rdfs:label "Oppenheimer, Carl Nathan" ;
+	drw-model:hasNameVariation <NameVariation/30769_0> ;
+	drw-model:hasNameVariation <NameVariation/30769_1> .
+
+<ImportantPerson/30785>
+	drw-model:hasID "30785" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30769> .
+
+<W/30769hasW1>
+	a drw-model:W ;
+	rdfs:label "Grundriß der organischen Chemie. Berlin 1895, 124 S.; 2. Aufl.: 1898, 116 S.; 3.-14. Aufl.: Leipzig 1904-1930; <b>russ.</b>: Osnovanija organičeskoj chimii. Sankt-Peterburg 1902, 159 S.; 2. Aufl.: 1910." .
+
+<WL/30769hasWL2>
+	rdfs:label "Verfasser mehrerer Lehrbücher, z. B. zur an- und organischen Chemie, und Herausgeber wichtiger biochemischer Werke, als „Meister des geschriebenen Wortes“ bezeichnet" ;
+	a drw-model:WL .
+
+<SL/30769hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Roman, W.: Prof. Carl Oppenheimer (Obituary). Nature [London] 150 (1942), 569-570." .
+
+<Year/1899>
+	rdfs:label "1899" ;
+	a drw-model:Year .
+
+<Date/30769DiedOn>
+	rdfs:label "24.12.1941[1]" ;
+	a drw-model:Date ;
+	drw-model:hasComment <Comment/30769hasComment1> .
+
+<WL/30769hasWL0>
+	rdfs:label "Forschungsthemen: Fermente (Enzyme), biochemische Energetik, Stoffwechselprozesse, Volksernährung u. a." ;
+	a drw-model:WL .
+
+<Comment/30769hasComment1>
+	a drw-model:Comment ;
+	rdfs:label "In Universal Jewish encyclopedia und Enciclopedia judaica castellana, zit. n. WBIS JBA (<b>SL</b>) ist 1942 angegeben." ;
+	drw-model:hasNumber 1 .
+
+<A/30769hasEducation0>
+	a drw-model:A ;
+	drw-model:hasComment <Comment/30769hasComment5> ;
+	rdfs:label "Studium der Chemie und der Medizin an den Universitäten Berlin und Freiburg i. Br.[5]" ;
+	drw-model:began <Year/1891> .
+
+<Q/30769hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr. 4112." .
+
+<Comment/30769hasComment3>
+	rdfs:label "Ehefrau des Leipziger Ägyptologen Georg Steindorff (1861-1951). Lebensdaten (Geburtsjahr aus dem „Tagebuch Steindorff“, Eintrag anlässlich ihres 70. Geburtstages 1936) aus dem Ägyptologischen Institut Leipzig, August 2011. Mitteilung: Frau Kerstin Seidel." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 3 .
+
+<SL/30769hasSL6>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 117, 118." ;
+	a drw-model:SL .
+
+<Comment/30769hasComment5>
+	drw-model:hasNumber 5 ;
+	a drw-model:Comment ;
+	rdfs:label "In <b>SL</b> Marquardt 1947 und [Nekrolog] ist als zweiter Studienort Erlangen angegeben; möglicherweise eine Verwechslung mit seiner Assistentenzeit 1899-1902." .
+
+<NameVariation/30769_1>
+	a drw-model:NameVariation ;
+	rdfs:label "Oppenchejmer, Karl"@de ;
+	rdfs:label "Оппенхеймер, Карл"@ru .
+
+<Place/30769DiedIn>
+	a drw-model:Place ;
+	drw-model:hasComment <Comment/30769hasComment2> ;
+	rdfs:label "Zeist [nicht Den Haag[2]] in den Niederlanden" .
+
+<B/30769hasStationOfLife1>
+	rdfs:label "Assistent am Physiologischen Institut an der Universität Erlangen" ;
+	drw-model:began <Year/1899> ;
+	a drw-model:B .
+
+<Year/1915>
+	rdfs:label "1915" ;
+	a drw-model:Year .
+
+<B/30769hasStationOfLife3>
+	a drw-model:B ;
+	rdfs:label "Forschungsaufenthalt bei I. P. <span style='font-variant:small-caps;'>Pavlov</span> in der physiologischen Abteilung des Instituts für Experimentelle Medizin (IEM) in St. Petersburg" .
+
+<Year/1917>
+	rdfs:label "1917" ;
+	a drw-model:Year .
+
+<Date/30769wasBornOn>
+	a drw-model:Date ;
+	rdfs:label "21.2.1874" .
+
+<B/30769hasStationOfLife7>
+	rdfs:label "Leiter der wissenschaftlichen Abteilung in der AG für chemische Produkte in Berlin" ;
+	a drw-model:B ;
+	drw-model:began <Year/1920> .
+
+<WL/30769hasWL4>
+	rdfs:label "1902-1922 Gründer und Herausgeber des Referateorgans <i>Biochemisches Centralblatt</i>, ab 1907 u. d. T. <i>Zentralblatt für die gesamte Biologie</i> und ab 1910 <i>Zentralblatt für Biochemie und Biophysik</i>" ;
+	a drw-model:WL .
+
+<W/30769hasW3>
+	rdfs:label "Chemische Technik für Aerzte. Ein Vademecum der klinischen Chemie für die Praxis. Berlin 1899, 72 S.; <b>russ.</b>: Chimičeskaja technika dlja vračej. Vademecum kliničeskoj chimii dlja praktika. Sankt-Peterburg 1900, 64 S.; auch u. d. T.: Kratkoe rukovodstvo k fiziologo-chimičeskomu analizu, primenitel’no k kliničeskim potrebnostjam. In: Praktičeskaja medicina (1900), Nr. 8." ;
+	a drw-model:W .
+
+<WL/30769hasWL3>
+	rdfs:label "Markt-Einführung von Perlenleim und Perlengelatine" ;
+	a drw-model:WL .
+
+<B/30769hasStationOfLife4>
+	rdfs:label "nichtbeamteter Titular-Professor für Biochemie an der LH Berlin" ;
+	drw-model:began <Year/1908> ;
+	a drw-model:B .
+
+<W/30769hasW0>
+	rdfs:label "Zur Kenntnis der Amidine und ihrer Kondensationsprodukte ... Diss. phil. Berlin 1894, 44 S." ;
+	a drw-model:W .
+
+<Year/1891>
+	rdfs:label "1891" ;
+	a drw-model:Year .
+
+<GPV/30769hasGPV1>
+	rdfs:label "Publikationen 1932-1941, in: Poggendorff Bd. 7a (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<P/30769hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: [Nekrolog] (<b>SL</b>), vor S. 1." .
+
+<Year/1908>
+	rdfs:label "1908" ;
+	a drw-model:Year .
+
+<SL/30769hasSL4>
+	rdfs:label "Lexikon der Naturwissenschaftler. Astronomen, Biologen, Chemiker, Geologen, Mediziner, Physiker. Heidelberg, Berlin 2000, 316." ;
+	a drw-model:SL .
+
+<A/30769hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Universität Berlin" .
+
+<B/30769hasStationOfLife8>
+	rdfs:label "Zwangsemeritierung an der LH Berlin" ;
+	a drw-model:B .
+
+<W/30769hasW4>
+	rdfs:label "Grundriß der anorganischen Chemie. 3. Aufl. Leipzig 1904, 163 S.; 4. Aufl. 1907; <b>russ.</b>: Načala neorganičeskoj chimii. Sankt-Peterburg 1908, 160 S." ;
+	a drw-model:W .
+
+<B/30769hasStationOfLife10>
+	rdfs:label "Leiter der landwirtschaftlichen Abteilung in einer Firma in Den Haag" ;
+	drw-model:began <Year/1938> ;
+	a drw-model:B .
+
+<SL/30769hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Deutsches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): III 679, 318-322." .
+
+<RelatedPerson/30769wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Hedwig, geb. Troplowitz (1882-1942)" .
+
+<W/30769hasW2>
+	rdfs:label "Zur Kenntnis der experimentellen Bleivergiftung. Diss. med. Berlin 1898, 30 S.[6]" ;
+	drw-model:hasComment <Comment/30769hasComment6> ;
+	a drw-model:W .
+
+<SL/30769hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Poggendorff - Biographisch-literarisches Handwörterbuch zur Geschichte der exacten Naturwissenschaften, enthaltend Nachweisungen über Lebensverhältnisse und Leistungen von Mathematikern, Astronomen, Physikern, Chemikern, Mineralogen, Geologen usw. aller Völker und Zeiten. Gesammelt von J. C. Poggendorff, Mitglied der Akademie der Wissenschaften zu Berlin / J. C. Poggendorff - Biographisch-literarisches Handwörterbuch der exakten Naturwissenschaften. Bd. 1-8. Leipzig, Berlin 1863-2004. Bd. 6, 1913-1914; Bd. 7a, 476." .
+
+<SL/30769hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Wöbke, Bernd: Oppenheimer, Carl Nathan. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. Bd. 19 (1998), 573-574 (Online unter http://www.deutsche-biographie.de/sfz73673.html, 11.8.2011)." .
+
+<NameVariation/30769_0>
+	rdfs:label "Оппенгеймер, Карл"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Oppengejmer, Karl"@de .
+
+<Comment/30769hasComment4>
+	rdfs:label "Wird namentlich erwähnt in Roman 1942 (<b>SL</b>) als einziger biographischer Quelle und in der Zeitung Aufbau vom 27. November 1942 auf S. 18: Gesucht wird: Prof. Dr. Carl Oppenheimer (fr. Berlin) und Sohn Ernst, von W. L. Speyer, c/o Allied Raw Materials Corp., 50 Broad Str., N.Y.C. Ist aber nicht zu verwechseln mit Sir Ernest Oppenheimer (1880-1957), dem Begründer des Diamantenkartells in Südafrika." ;
+	drw-model:hasNumber 4 ;
+	a drw-model:Comment .
+
+<B/30769hasStationOfLife6>
+	rdfs:label "Leiter der wissenschaftlichen Abteilung für Arzneimittelentwicklung der Firma G. A. Krause &amp; Co. AG, München" ;
+	a drw-model:B ;
+	drw-model:began <Year/1917> .
+
+<Comment/30769hasComment6>
+	rdfs:label "Der Verfasser der in Wikipedia (<b>SL</b>) angegebenen medizinischen Dissertation <i>Ueber die Wachsthums-Verhältnisse des Körpers und der Organe. Aus dem pathologischen Institut zu München (Inaugural-Dissertation).</i> München: Oldenbourg, 1888, ist eine andere Person: Karl Oppenheimer (1864-1926), approbierter Arzt aus Bruchsal. Vgl. Karlsruher Virtueller Katalog (KVK) und http://www.bruchsal.org/story/und-wer-war-bruchsaler-karl-oppenheimer (16.8.2011)." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 6 .
+
+<WL/30769hasWL1>
+	rdfs:label "Einer der Begründer der Biochemie als eines modernen Forschungszweiges" ;
+	a drw-model:WL .
+
+<SL/30769hasSL10>
+	rdfs:label "[Nekrolog] In memoriam Carl Oppenheimer. Enzymologia 12 (1946/1948), 1-2." ;
+	a drw-model:SL .
+
+<Year/1902>
+	rdfs:label "1902" ;
+	a drw-model:Year .
+
+<Comment/30769hasComment2>
+	drw-model:hasNumber 2 ;
+	a drw-model:Comment ;
+	rdfs:label "Vgl. Wöbke 1998 (<b>SL</b>), wo Den Haag als Todesort korrigiert ist. Oppenheimer soll ab 1940 in Zeist (Provinz Utrecht) gewohnt haben." .
+
+<SL/30769hasSL8>
+	rdfs:label "Vinogradov, Jurij Abramovič, Golikov, Jurij Pavlovič, Grekova, Tat’jana Ivanovna (Sostaviteli): I. P. Pavlov: Dostovernost’ i polnota biografii. Sankt-Peterburg 2005, 137." ;
+	a drw-model:SL .
+
+<SL/30769hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Deutsche Biographische Enzyklopädie. Hrsg. v. Walther Killy und Rudolf Vierhaus. Bd. 1-10. München u. a. 1995-1999,  Bd. 7 (1998), 499." .
+
+<Year/1920>
+	rdfs:label "1920" ;
+	a drw-model:Year .
+
+<GPV/30769hasGPV0>
+	rdfs:label "Publikationen 1894-1931, in: Poggendorff Bd. 6 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<RelatedPerson/30769hasSibling>
+	rdfs:label "Paula, verh. Dehmel (1862-1918), Dichterin, Schriftstellerin
+Franz (1864-1943), Arzt, Soziologe, Nationalökonom und Zionist
+Elise, verh. Steindorff (1866-1963)[3]" ;
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30769hasComment3> .
+
+<B/30769hasStationOfLife2>
+	drw-model:began <Year/1902> ;
+	rdfs:label "Assistent am Tierphysiologischen Institut der Landwirtschaftlichen Hochschule (LH) in Berlin bei Nathan <span style='font-variant:small-caps;'>Zuntz</span> (1847-1920)" ;
+	a drw-model:B .
+
+<WL/30769hasWL5>
+	rdfs:label "1936-1941 Gründer und Herausgeber von <i>Enzymologia</i>" ;
+	a drw-model:WL .
+
+<Year/1938>
+	rdfs:label "1938" ;
+	a drw-model:Year .
+
+<GeneralLabor/30769hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Biochemie" .
+
+<B/30769hasStationOfLife0>
+	rdfs:label "Arzt im Städtischen Krankenhaus im Ortsteil Moabit in Berlin" ;
+	a drw-model:B .
+
+<RelatedPerson/30769hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Chanan (Hans) (1905-1978), Professor für subtropischen Gartenbau in Israel
+Ern(e)st, Offizier in der Südafrikanischen Armee[4]
+1 Tochter [Name unbekannt]" ;
+	drw-model:hasComment <Comment/30769hasComment4> .
+

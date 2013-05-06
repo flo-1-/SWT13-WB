@@ -1,0 +1,339 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<B/30785hasStationOfLife1>
+	drw-model:began <Year/1884> ;
+	a drw-model:B ;
+	rdfs:label "Privatdozent am Lehrstuhl für Physiologie der MMA" .
+
+<Year/1890>
+	rdfs:label "1890" ;
+	a drw-model:Year .
+
+<Year/1884>
+	a drw-model:Year ;
+	rdfs:label "1884" .
+
+<B/30785hasStationOfLife4>
+	drw-model:began <Year/1891> ;
+	a drw-model:B ;
+	rdfs:label "Leiter des physiologischen Laboratoriums des Instituts für Experimentelle Medizin (IEM) St. Petersburg/Petrograd/Leningrad" .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<ImportantPerson/30664>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30785> ;
+	drw-model:hasID "30664" .
+
+<B/30785hasStationOfLife3>
+	drw-model:began <Year/1890> ;
+	a drw-model:B ;
+	rdfs:label "Leiter des Lehrstuhls für Pharmakologie an der MMA" .
+
+<Place/30785DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Leningrad, Grabstätte: Friedhof Volkovo, Literatorskie mostki" .
+
+<NameVariation/30785_1>
+	a drw-model:NameVariation ;
+	rdfs:label "Pawloff, I."@de .
+
+<Year/1925>
+	rdfs:label "1925" ;
+	a drw-model:Year .
+
+<MG/30785hasMG>
+	a drw-model:MG ;
+	drw-model:hasComment <Comment/30785hasComment3> ;
+	rdfs:label "(Ehren)Mitglied von 22 Akademien und von ca. 100 wissenschaftlichen Gesellschaften[3], darunter: Obščestvo estestvoispytatelej Mediko-chirurgičeskoj akademii [Gesellschaft der Naturforscher der MCA] (1877),Obščestvo russkich vračej [Gesellschaft russischer Ärzte] (ab 1907 Vorsitzender), Rossijskaja akademija nauk [Russische Akademie der Wissenschaften] (ab 1907), bzw. Akademija nauk SSSR [Akademie der Wissenschaften der UdSSR] (ab 1925), Leopoldina (1925, Ehrenmitglied 1935), Royal Society of London, The Physiological Society, London (Ehrenmitglied), Académie des sciences (Paris)" .
+
+<ImportantPerson/30785>
+	drw-model:hasConnectionTo <ImportantPerson/31212> ;
+	drw-model:hasConnectionTo <ImportantPerson/30136> ;
+	drw-model:hasEducation <A/30785hasEducation1> ;
+	drw-model:hasComment <Comment/30785hasComment1> ;
+	drw-model:hasConnectionTo <ImportantPerson/30664> ;
+	drw-model:hasEducation <A/30785hasEducation2> ;
+	drw-model:hasConnectionTo <ImportantPerson/30478> ;
+	drw-model:hasDescendant <RelatedPerson/30785hasDescendant> ;
+	drw-model:hasComment <Comment/30785hasComment2> ;
+	drw-model:wasBornIn <Place/30785wasBornIn> ;
+	drw-model:wasMarriedTo <RelatedPerson/30785wasMarriedTo> ;
+	drw-model:hasEducation <A/30785hasEducation6> ;
+	drw-model:hasConnectionTo <ImportantPerson/30013> ;
+	drw-model:hasWL <WL/30785hasWL0> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30785.jpg> ;
+	drw-model:hasStationOfLife <B/30785hasStationOfLife0> ;
+	drw-model:hasMG <MG/30785hasMG> ;
+	drw-model:hasStationOfLife <B/30785hasStationOfLife7> ;
+	drw-model:hasID "30785" ;
+	drw-model:hasWL <WL/30785hasWL3> ;
+	drw-model:hasWL <WL/30785hasWL5> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30785hasHonoursAndAwards> ;
+	drw-model:hasStationOfLife <B/30785hasStationOfLife4> ;
+	drw-model:hasStationOfLife <B/30785hasStationOfLife9> ;
+	drw-model:hasWL <WL/30785hasWL1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30785hasGeneralLabor0> ;
+	drw-model:hasWL <WL/30785hasWL4> ;
+	drw-model:hasHonoursAndAwardsComment <HonoursAndAwardsComment/30785hasHonoursAndAwardsComment> ;
+	a drw-model:ImportantPerson ;
+	drw-model:fatherIs <RelatedPerson/30785fatherIs> ;
+	drw-model:hasEducation <A/30785hasEducation3> ;
+	drw-model:motherIs <RelatedPerson/30785motherIs> ;
+	drw-model:hasStationOfLife <B/30785hasStationOfLife6> ;
+	drw-model:hasStationOfLife <B/30785hasStationOfLife5> ;
+	drw-model:hasEducation <A/30785hasEducation4> ;
+	drw-model:hasWL <WL/30785hasWL2> ;
+	drw-model:hasStationOfLife <B/30785hasStationOfLife1> ;
+	drw-model:hasMainName <MainName/30785hasMainName> ;
+	drw-model:hasStationOfLife <B/30785hasStationOfLife8> ;
+	drw-model:hasStationOfLife <B/30785hasStationOfLife2> ;
+	drw-model:hasEducation <A/30785hasEducation0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30785hasGeneralLabor1> ;
+	drw-model:wasBornOn <Date/30785wasBornOn> ;
+	drw-model:hasConnectionTo <ImportantPerson/31055> ;
+	rdfs:label "Pavlov, Ivan Petrovič" ;
+	drw-model:DiedOn <Date/30785DiedOn> ;
+	drw-model:hasConnectionTo <ImportantPerson/30362> ;
+	drw-model:hasEducation <A/30785hasEducation5> ;
+	drw-model:hasStationOfLife <B/30785hasStationOfLife3> ;
+	drw-model:DiedIn <Place/30785DiedIn> ;
+	drw-model:hasComment <Comment/30785hasComment3> .
+
+<HonoursAndAwardsComment/30785hasHonoursAndAwardsComment>
+	rdfs:label "Ehrungen und Auszeichnungen (Auswahl):" ;
+	a drw-model:HonoursAndAwardsComment .
+
+<GeneralLabor/30785hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Pharmakologie" .
+
+<B/30785hasStationOfLife6>
+	rdfs:label "Leiter des physiologischen Laboratoriums der Akademie der Wissenschaften St. Petersburg/Petrograd" ;
+	drw-model:began <Year/1907> ;
+	a drw-model:B .
+
+<Year/1895>
+	rdfs:label "1895" ;
+	a drw-model:Year .
+
+<Year/1875>
+	rdfs:label "1875" ;
+	a drw-model:Year .
+
+<MainName/30785hasMainName>
+	a drw-model:MainName ;
+	rdfs:label "Pavlov, Ivan Petrovič" ;
+	drw-model:hasNameVariation <NameVariation/30785_0> ;
+	drw-model:hasNameVariation <NameVariation/30785_1> .
+
+<B/30785hasStationOfLife9>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<Comment/30785hasComment2>
+	drw-model:hasNumber 2 ;
+	a drw-model:Comment ;
+	rdfs:label "Die Namen der zahlreichen Pavlov-Schüler sowie deren deutschsprachige und in deutschen Zeitschriften referierte Publikationen von 1894-1913 bei Pfrepper 2009 (<b>SL</b>), 210-225." .
+
+<RelatedPerson/30785motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Varvara Ivanovna Pavlova, geb. Uspenskaja (1826-1890)" .
+
+<Place/30785wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Rjazan’" .
+
+<WL/30785hasWL1>
+	rdfs:label "Schöpfer der materialistischen Theorie der höheren Nerventätigkeit" ;
+	a drw-model:WL .
+
+<A/30785hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Approbation als praktischer Arzt" .
+
+<Comment/30785hasComment1>
+	a drw-model:Comment ;
+	drw-model:hasNumber 1 ;
+	rdfs:label "Vgl. auch http://www.museum.infran.ru/win/museum/serafima.htm (12.4.2011)." .
+
+<A/30785hasEducation1>
+	a drw-model:A ;
+	drw-model:began <Year/1864> ;
+	rdfs:label "Besuch des Priesterseminars in Rjazan’" .
+
+<B/30785hasStationOfLife7>
+	drw-model:began <Year/1925> ;
+	rdfs:label "Leiter des Instituts für Physiologie der Akademie der Wissenschaften der UdSSR in Leningrad" ;
+	a drw-model:B .
+
+<HonoursAndAwards/30785hasHonoursAndAwards>
+	rdfs:label "1875        Goldmedaille für zusammen mit M. I. <span style='font-variant:small-caps;'>Afanas'ev</span> 1874 durchgeführte Untersuchungen zur Physiologie der Pankreasnerven<br>1903        Cothenius-Medaille der Leopoldina<br>1904        Nobelpreis für Physiologie oder Medizin (für seine Arbeiten über die Verdauungsdrüsen)<br>1912        Ehrendoktor der Universität Cambridge (England)<br>1915        Ordre de la Légion d’Honneur (France) und Copley Medal (Royal Society of London)<br>1916        Ehrendoktor der Universität Moskau<br>1949        Akademik Ivan Pavlov – Spielfilm über sein Leben und die wissenschaftliche Tätigkeit (Regie: Grigorij <span style='font-variant:small-caps;'>Rošal’</span>)<br>1949        Briefmarke (1 Rubel)<br>1969        Briefmarke (4 Kopeek)<br>1991        Briefmarke (15 Kopeek)<br>1999        Silberne Gedenkmünze (2 Rubel) der Russischen Bank anlässlich des 150. Geburtstages<br>Gedenktafel am Gebäude des Lehrstuhls für Physiologie der MMA<br><i>Muzej I. P. Pavlova</i> im Geburtshaus in Rjazan’<br>Denkmale (Auswahl):<br>1935        in Koltuši Bronzebüste des Bildhauers Innoketij Fedorovič <span style='font-variant:small-caps;'>Bespalov</span> (1877-1959) in der Büsten-Allee großer Wissenschaftler<br>1949        in Rjazan’ (Bronze auf Granit) des Bildhauers Matvej Genrichovič <span style='font-variant:small-caps;'>Manizer</span> (1891-1966) und des Architekten A. A. <span style='font-variant:small-caps;'>Dzeržkovič</span><br>1953        in Koltuši des Bildhauers Vsevolod Vsevolodovič <span style='font-variant:small-caps;'>Lišev</span> (1877-1960) <br>1954        in Moskau des Bildhauers <span style='font-variant:small-caps;'>Manizer</span> in der Allee der Wissenschaftler der Lomonossov-Universität<br>2004        in St. Petersburg am I. P. Pavlov-Institut für Physiologie des Bildhauers Anatolij Georgievič <span style='font-variant:small-caps;'>Dema</span> und des Architekten I. <span style='font-variant:small-caps;'>Bilibin</span><br>in Kiev auf dem Territorium des Zentralmilitärhospitals in den Städten Klin und Svetlogorsk und in Suchumi (Abchasien)<br>Nach ihm wurden u. a. benannt:<br><i>1-j Leningradskij medicinskij institut bzw. Sankt-Peterburgskij gosudarstvennyj medicinskij universitet imeni akademika Ivana Petroviča Pavlova</i><br><i>Institut fiziologii im. I. P. Pavlova</i> an der Russischen Akademie der Wissenschaften in St. Petersburg<br><i>Rjazanskij gosudarstvennyj medicinskij universitet imeni akademika I. P. Pavlova</i><br><i>Fiziologičeskoe obščestvo im. I. P. Pavlova</i><br><i>Gimnazija Nr. 2 imeni akademika Pavlova</i> in Rjazan’<br>Dorf <i>Pavlovo</i> (vgl. Koltuši ) im Kreis Vsevoložskoe, Region Leningrad<br>Straßen, z. B.: Ulica akademika Pavlova in Moskau, 2x in St. Petersburg, in Samara, <i>Ulica Pavlova</i> in Rjazan’ und Char’kov, <i>Pavlovi tänav</i> in Sillamäe (Estland), <i>Iwan-Pawlow-Straße</i> in Schmölln (Thüringen), <i>Pawlowstraße</i> in Rostock und Schwerin (Mecklenburg), <i>Prof.-Dr.-Pawlow-Straße</i> in Crimmitschau (Sachsen), <i>Ulica Iwana Pawłowa</i> in Wrocław (Polen), <i>Ulice I. P. Pavlova</i> in Prag, Olomouc, Karlovy Vary u. a. in Tschechien<br><i>Mondkrater Pavlov</i> (Koordinate: 28°48′S 142°30′E / 28.8°S 142.5°E)<br><i>Asteroid (1007) Pawlowia</i> (entdeckt am 5. Oktober 1923 von Vladimir Alexandrovič Albizki am Krim-Observatorium in Simejis)<br><i>Žurnal vysšej nervnoj dejatel’nosti im. I. P. Pavlova</i> (seit 1951)" ;
+	a drw-model:HonoursAndAwards .
+
+<B/30785hasStationOfLife5>
+	drw-model:began <Year/1895> ;
+	rdfs:label "Leiter des Lehrstuhls für Physiologie an der MMA St. Petersburg/Petrograd" ;
+	a drw-model:B .
+
+<Comment/30785hasComment3>
+	a drw-model:Comment ;
+	drw-model:hasNumber 3 ;
+	rdfs:label "Die vollständige Liste bei Grigor’jan 1999 (<b>SL</b>), 301-304." .
+
+<A/30785hasEducation3>
+	a drw-model:A ;
+	drw-model:began <Year/1875> ;
+	rdfs:label "Studium an der Mediko-Chirurgischen Akademie (MCA) St. Petersburg F. V. <span style='font-variant:small-caps;'>Ovsjannikov</span>, I. F. <span style='font-variant:small-caps;'>Cion</span> und K. N. <span style='font-variant:small-caps;'>Ustimovič</span>" .
+
+<WL/30785hasWL0>
+	rdfs:label "Begründer der größten modernen Physiologenschule[2]" ;
+	drw-model:hasComment <Comment/30785hasComment2> ;
+	a drw-model:WL .
+
+<B/30785hasStationOfLife0>
+	rdfs:label "Leiter des physiologischen Laboratoriums an der Medizinischen Klinik von Sergej Petrovič <span style='font-variant:small-caps;'>Botkin</span> (1832-1889)" ;
+	a drw-model:B ;
+	drw-model:began <Year/1879> .
+
+<ImportantPerson/31212>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30785> ;
+	drw-model:hasID "31212" .
+
+<Year/1879>
+	rdfs:label "1879" ;
+	a drw-model:Year .
+
+<WL/30785hasWL2>
+	rdfs:label "Schöpfer wichtiger Grundlagen für die Verhaltensforschung" ;
+	a drw-model:WL .
+
+<B/30785hasStationOfLife2>
+	a drw-model:B ;
+	drw-model:began <Year/1884> ;
+	rdfs:label "Weiterbildung in Deutschland:
+- bei <span style='font-variant:small-caps;'>Heidenhain</span> an der Universität Breslau
+- bei C. <span style='font-variant:small-caps;'>Ludwig</span> an der Universität Leipzig" .
+
+<ImportantPerson/30136>
+	drw-model:hasConnectionTo <ImportantPerson/30785> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30136" .
+
+<Year/1891>
+	rdfs:label "1891" ;
+	a drw-model:Year .
+
+<A/30785hasEducation6>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Militärmedizinischen Akademie (MMA) St. Petersburg" .
+
+<ImportantPerson/31055>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "31055" ;
+	drw-model:hasConnectionTo <ImportantPerson/30785> .
+
+<Date/30785wasBornOn>
+	a drw-model:Date ;
+	rdfs:label "14./26.9.1849" .
+
+<WL/30785hasWL5>
+	rdfs:label "Nach ihm ist außerdem <i>Simptom Pavlova</i> [Pawlow-Symptom] (Zeichen des katatonischen Stupors) benannt" ;
+	a drw-model:WL .
+
+<NameVariation/30785_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Pawlow, Iwan/Johann Petrowitsch"@de .
+
+<GeneralLabor/30785hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<ImportantPerson/30478>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30478" ;
+	drw-model:hasConnectionTo <ImportantPerson/30785> .
+
+<RelatedPerson/30785wasMarriedTo>
+	drw-model:hasComment <Comment/30785hasComment1> ;
+	a drw-model:RelatedPerson ;
+	rdfs:label "Serafima (Sara) Vasil’evna Pavlova, geb. Karčevska (1859-1947), Lehrerin[1]" .
+
+<RelatedPerson/30785fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Petr Dmitrievič (1823-1899), Lehrer für Griechisch und Latein und orthodoxer Geistlicher" .
+
+<Year/1860>
+	rdfs:label "1860" ;
+	a drw-model:Year .
+
+<ImportantPerson/30362>
+	drw-model:hasID "30362" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30785> .
+
+<Year/1864>
+	rdfs:label "1864" ;
+	a drw-model:Year .
+
+<Year/1907>
+	rdfs:label "1907" ;
+	a drw-model:Year .
+
+<B/30785hasStationOfLife8>
+	rdfs:label "Leiter der Biologischen Station des IEM (ab 1939 Institut für vergleichende Physiologie der höheren Nerventätigkeit, später I. P. Pavlov-Institut für Physiologie) in Koltuši (heute Ortsteil von <i>Pavlovo</i>, s. u.)" ;
+	drw-model:began <Year/1926> ;
+	a drw-model:B .
+
+<WL/30785hasWL3>
+	rdfs:label "Begründer behavioristischer Lerntheorien, z. B. der Theorie der klassischen Konditionierung" ;
+	a drw-model:WL .
+
+<RelatedPerson/30785hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Vladimir Ivanovič (1884-1954)
+Vera Ivanovna Pavlova (1890-1964)
+Viktor Ivanovič (1892-1919)
+Vsevolod Ivanovič (1893-1935)" .
+
+<ImportantPerson/30013>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30785> ;
+	drw-model:hasID "30013" .
+
+<A/30785hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Studium an der naturwissenschaftlichen Abteilung der Physiko-mathematischen Fakultät der Universität St. Petersburg" ;
+	drw-model:began <Year/1870> .
+
+<Year/1926>
+	rdfs:label "1926" ;
+	a drw-model:Year .
+
+<A/30785hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung in Deutschland: bei R. <span style='font-variant:small-caps;'>Heidenhain</span> an der Universität Breslau" .
+
+<WL/30785hasWL4>
+	rdfs:label "Entdecker des bedingten (konditionierten) Reflexes (Pawlow-Reflex [<i>refleks Pavlova</i>]) im Zentralnervensystem" ;
+	a drw-model:WL .
+
+<A/30785hasEducation0>
+	a drw-model:A ;
+	drw-model:began <Year/1860> ;
+	rdfs:label "Besuch der Kirchenschule in Rjazan’" .
+
+<Year/1870>
+	rdfs:label "1870" ;
+	a drw-model:Year .
+
+<Date/30785DiedOn>
+	a drw-model:Date ;
+	rdfs:label "27.2.1936" .
+

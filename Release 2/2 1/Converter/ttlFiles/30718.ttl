@@ -1,0 +1,388 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<ImportantPerson/30571>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30571" ;
+	drw-model:hasConnectionTo <ImportantPerson/30718> .
+
+<RelatedPerson/30718motherIs>
+	rdfs:label "Apollinarija Ivanovna Mislavskaja, geb. Kokšarova" ;
+	a drw-model:RelatedPerson .
+
+<WL/30718hasWL0>
+	rdfs:label "Mitbegründer der Physiologenschule in Kazan’" ;
+	a drw-model:WL .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<P/30718hasP0>
+	a drw-model:P ;
+	rdfs:label "Foto (Abb.) aus: [Zefirov, Andrej L’vovič u. a.:] (<b>SL</b>); auch in: Izvestnye Kazancy (<b>SL</b>)." .
+
+<B/30718hasStationOfLife5>
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Kazan’" ;
+	drw-model:began <Year/1907_1910_und_1915_1919> ;
+	a drw-model:B .
+
+<ImportantPerson/30664>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30718> ;
+	drw-model:hasID "30664" .
+
+<SL/30718hasSL10>
+	a drw-model:SL ;
+	rdfs:label "Česnakova [Im Original Druckfehler, es muss heißen: Česnokova], Sof’ja Aleksandrovna, Lindemann, Marianne: Russische Physiologen in Laboratorien von Carl Ludwig. Wissenschaftliche Zeitschrift der Karl-Marx-Universität Leipzig, Mathematisch-naturwissenschaftliche Reihe 19 (1970), 315-323." .
+
+<SL/30718hasSL1>
+	rdfs:label "Izvestnye Kazancy (http://www.kzn.ru/page2420.htm, 24.1.2011)." ;
+	a drw-model:SL .
+
+<B/30718hasStationOfLife3>
+	drw-model:began <Year/1891> ;
+	a drw-model:B ;
+	rdfs:label "ao. Professor für Physiologie an der Medizinischen Fakultät und Leiter des Physiologischen Instituts der Universität Kazan’" .
+
+<Year/1886_1891>
+	drw-model:hasComment <Comment/30718hasComment6> ;
+	rdfs:label "1886[6]-1891" ;
+	a drw-model:Year .
+
+<SL/30718hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Izvarina, E.: Mogučij um i redkostnaja ličnost’: k 150-letiju N. A. Mislavskogo (http://www.uran.ru/gazetanu/2004/06/nu14/wvmnu_p7_14_062004.htm, 20.1.2001)." .
+
+<P/30718hasP2>
+	rdfs:label "Portrait [ohne weitere Angaben] in: Volkov/Kulikova 2003 b (<b>SL</b>), Bildeinlage zw. S. 312-313." ;
+	a drw-model:P .
+
+<Year/1907_1910_und_1915_1919>
+	rdfs:label "1907-1910 und 1915-1919" ;
+	a drw-model:Year .
+
+<SL/30718hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 189-192." .
+
+<P/30718hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto in: http://profimages.ru/catalog/foto1212247/ (21.1.2011)." .
+
+<Date/30718DiedOn>
+	drw-model:hasComment <Comment/30718hasComment3> ;
+	a drw-model:Date ;
+	drw-model:hasComment <Comment/30718hasComment4> ;
+	drw-model:hasComment <Comment/30718hasComment5> ;
+	rdfs:label "25.[3] oder 28.12.1928[4] oder 25.12.1929[5]" .
+
+<B/30718hasStationOfLife1>
+	rdfs:label "Privatdozent für Physiologie an der Medizinischen Fakultät der Universität Kazan’" ;
+	a drw-model:B ;
+	drw-model:began <Year/1886_1891> .
+
+<Year/1867>
+	rdfs:label "1867" ;
+	a drw-model:Year .
+
+<Place/30718wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Turinskie Rudniki (Ural)" .
+
+<SL/30718hasSL11>
+	a drw-model:SL ;
+	rdfs:label "Ėnciklopedija Kazani (http://www.rukazan.ru/wiki/%D0%9C%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87, 21.1.2011)." .
+
+<GPV/30718hasGPV0>
+	a drw-model:GPV ;
+	rdfs:label "Publikationen 1876-1887 (Auswahl), in: Zmeev, zit. nach WBIS RBA (<b>SL</b>)." .
+
+<GPV/30718hasGPV2>
+	rdfs:label "Publikationen 1878-1903 (Auswahl, 32 Nrn.), in: Zagoskin 1904, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<SL/30718hasSL9>
+	a drw-model:SL ;
+	rdfs:label "[Zefirov, Andrej L’vovič u. a.:] Kazanskaja fiziologičeskaja škola na rubeže vekov. Kazanskij Imperatorskij universitet (1804-1917 gg.). Kafedra fiziologii medicinskogo fakul’teta (http://www.kcn.ru/tat_ru/science/fiziologi/fiz_medfak.htm, 2.2.2011)." .
+
+<P/30718hasP5>
+	a drw-model:P ;
+	rdfs:label "Portrait [Mislavskij zur Zeit des Dissertation-Abschlusses] in: N. A. Mislavskij. Izbrannye proizvedenija (vgl. <b>GPV</b>), Bildeinlage zw. S. 20 und 21." .
+
+<Date/30718wasBornOn>
+	a drw-model:Date ;
+	rdfs:label "17./29.[1](30.[2])4.1854" ;
+	drw-model:hasComment <Comment/30718hasComment1> ;
+	drw-model:hasComment <Comment/30718hasComment2> .
+
+<Comment/30718hasComment3>
+	a drw-model:Comment ;
+	rdfs:label "Izvarina (<b>SL</b>)." ;
+	drw-model:hasNumber 3 .
+
+<Year/1895>
+	rdfs:label "1895" ;
+	a drw-model:Year .
+
+<A/30718hasEducation0>
+	a drw-model:A ;
+	drw-model:began <Year/1867> ;
+	rdfs:label "Besuch des Gymnasiums in Ekaterinburg" .
+
+<Comment/30718hasComment1>
+	a drw-model:Comment ;
+	drw-model:hasNumber 1 ;
+	rdfs:label "<b>SL</b> Izvarina und Estestvoznanie, zit. n. WBIS RBA" .
+
+<W/30718hasW0>
+	rdfs:label "O dychatel’nom centre. Diss. Kazan’ 1885, 105 S." ;
+	a drw-model:W .
+
+<Year/1891>
+	rdfs:label "1891" ;
+	a drw-model:Year .
+
+<Place/30718DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Kazan’, Grabstätte: Friedhof Arskoe" .
+
+<MainName/30718hasMainName>
+	drw-model:hasNameVariation <NameVariation/30718_0> ;
+	drw-model:hasNameVariation <NameVariation/30718_1> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30718_2> ;
+	drw-model:hasNameVariation <NameVariation/30718_3> ;
+	rdfs:label "Mislavskij, Nikolaj Aleksandrovič" .
+
+<SL/30718hasSL6>
+	rdfs:label "Samojlov, Aleksandr Filippovič: N. A. Mislavskij (avtograf) [zum 70. Geburtstag]. In: A. F. Samojlov. Izbrannye trudy. Moskva 1967, 35-37." ;
+	a drw-model:SL .
+
+<WL/30718hasWL1>
+	rdfs:label "Forschungsgebiete: Physiologie der Muskeln und der inneren Organe, der Stoffwechsel-Prozesse in Organen und Drüsen, Physiologie des Herzens, der Blut- und Lymphzirkulation, Physiologie des Nervensystems: Gehirn-Funktion und ihre Wirkung auf verschiedene Organe, Funktionen der Nervenfasern und Nervenzellen" ;
+	a drw-model:WL .
+
+<Year/1871>
+	rdfs:label "1871" ;
+	a drw-model:Year .
+
+<NameVariation/30718_1>
+	a drw-model:NameVariation ;
+	rdfs:label "Misslawsky, N. A."@de .
+
+<P/30718hasP3>
+	a drw-model:P ;
+	rdfs:label "Portrait [ohne weitere Angaben] in: RAN (<b>SL</b>)." .
+
+<SL/30718hasSL8>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 312." ;
+	a drw-model:SL .
+
+<SL/30718hasSL5>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 314, 286-294; SU 307, 18-19." ;
+	a drw-model:SL .
+
+<Year/1886>
+	rdfs:label "1886" ;
+	a drw-model:Year .
+
+<ImportantPerson/30718>
+	drw-model:hasSL <SL/30718hasSL6> ;
+	drw-model:hasSL <SL/30718hasSL3> ;
+	drw-model:hasStationOfLife <B/30718hasStationOfLife2> ;
+	drw-model:fatherIs <RelatedPerson/30718fatherIs> ;
+	drw-model:hasConnectionTo <ImportantPerson/30571> ;
+	drw-model:hasW <W/30718hasW1> ;
+	drw-model:hasGPV <GPV/30718hasGPV0> ;
+	drw-model:hasConnectionTo <ImportantPerson/30664> ;
+	drw-model:hasSL <SL/30718hasSL9> ;
+	drw-model:hasSL <SL/30718hasSL5> ;
+	drw-model:hasID "30718" ;
+	drw-model:hasComment <Comment/30718hasComment4> ;
+	drw-model:hasGPV <GPV/30718hasGPV5> ;
+	drw-model:hasEducation <A/30718hasEducation1> ;
+	drw-model:hasSL <SL/30718hasSL11> ;
+	drw-model:hasWL <WL/30718hasWL2> ;
+	drw-model:hasDescendant <RelatedPerson/30718hasDescendant> ;
+	drw-model:hasMainName <MainName/30718hasMainName> ;
+	drw-model:hasComment <Comment/30718hasComment5> ;
+	drw-model:hasGPV <GPV/30718hasGPV4> ;
+	drw-model:hasComment <Comment/30718hasComment3> ;
+	drw-model:hasSL <SL/30718hasSL10> ;
+	drw-model:hasSL <SL/30718hasSL2> ;
+	drw-model:hasGPV <GPV/30718hasGPV1> ;
+	drw-model:hasEducation <A/30718hasEducation2> ;
+	drw-model:hasSL <SL/30718hasSL8> ;
+	drw-model:hasWL <WL/30718hasWL1> ;
+	drw-model:hasP <P/30718hasP0> ;
+	drw-model:hasMG <MG/30718hasMG> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30718.png> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30718hasHonoursAndAwards> ;
+	drw-model:wasMarriedTo <RelatedPerson/30718wasMarriedTo> ;
+	drw-model:hasGPV <GPV/30718hasGPV3> ;
+	drw-model:hasW <W/30718hasW0> ;
+	drw-model:hasComment <Comment/30718hasComment1> ;
+	drw-model:hasGPV <GPV/30718hasGPV2> ;
+	drw-model:hasP <P/30718hasP1> ;
+	drw-model:hasP <P/30718hasP3> ;
+	drw-model:hasStationOfLife <B/30718hasStationOfLife4> ;
+	drw-model:hasStationOfLife <B/30718hasStationOfLife1> ;
+	drw-model:hasEducation <A/30718hasEducation0> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasWL <WL/30718hasWL0> ;
+	drw-model:hasSL <SL/30718hasSL1> ;
+	drw-model:hasStationOfLife <B/30718hasStationOfLife0> ;
+	drw-model:hasStationOfLife <B/30718hasStationOfLife6> ;
+	drw-model:hasComment <Comment/30718hasComment6> ;
+	drw-model:wasBornIn <Place/30718wasBornIn> ;
+	drw-model:DiedOn <Date/30718DiedOn> ;
+	drw-model:motherIs <RelatedPerson/30718motherIs> ;
+	drw-model:hasSL <SL/30718hasSL7> ;
+	drw-model:hasStationOfLife <B/30718hasStationOfLife3> ;
+	drw-model:hasP <P/30718hasP5> ;
+	drw-model:hasP <P/30718hasP2> ;
+	drw-model:hasStationOfLife <B/30718hasStationOfLife5> ;
+	rdfs:label "Mislavskij, Nikolaj Aleksandrovič" ;
+	drw-model:hasP <P/30718hasP4> ;
+	drw-model:hasSL <SL/30718hasSL0> ;
+	drw-model:hasSL <SL/30718hasSL4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30718hasGeneralLabor0> ;
+	drw-model:wasBornOn <Date/30718wasBornOn> ;
+	drw-model:hasComment <Comment/30718hasComment2> ;
+	drw-model:DiedIn <Place/30718DiedIn> .
+
+<SL/30718hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Rossijskaja akademija nauk. Personal’nyj sostav. Kniga 1: 1724-1917. Moskva 1999; Kniga 2: 1918-1973. Moskva 1999 Kniga 2 (1999), 156." .
+
+<B/30718hasStationOfLife6>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<RelatedPerson/30718fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Aleksandr Andreevič (1828-1914), Praktischer Arzt, Chirurg" .
+
+<GPV/30718hasGPV4>
+	rdfs:label "N. A. Mislavskij. Izbrannye proizvedenija. Zusammengestellt und eingeleitet von A. V. Kibjakov. Moskva 1952, 21-258." ;
+	a drw-model:GPV .
+
+<B/30718hasStationOfLife2>
+	rdfs:label "Weiterbildung in Deutschland und Frankreich:
+- bei C. <span style='font-variant:small-caps;'>Ludwig</span> an der Universität Leipzig
+- bei Louis François Nestor <span style='font-variant:small-caps;'>Grehant</span> (1838-1910) in Paris" ;
+	drw-model:began <Year/1886> ;
+	a drw-model:B .
+
+<RelatedPerson/30718wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Zoja Nikolaevna Mislavskaja, geb. Čeruchina" .
+
+<Comment/30718hasComment5>
+	drw-model:hasNumber 5 ;
+	a drw-model:Comment ;
+	rdfs:label "Ėnciklopedija Kazani (<b>SL</b>)." .
+
+<HonoursAndAwards/30718hasHonoursAndAwards>
+	rdfs:label "1926  „Verdienter Wissenschaftler der RSFSR“<br>Seit 1929 <i>Ulica Mislavskogo</i> in Kazan’" ;
+	a drw-model:HonoursAndAwards .
+
+<B/30718hasStationOfLife0>
+	drw-model:began <Year/1876> ;
+	a drw-model:B ;
+	rdfs:label "außerplanmäßiger Assistent und ab 1885 Prosektor am Lehrstuhl für Physiologie der Medizinischen Fakultät der Universität Kazan’ bei N. O. <span style='font-variant:small-caps;'>Kovalevskij</span>" .
+
+<GeneralLabor/30718hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<GPV/30718hasGPV1>
+	rdfs:label "Publikationen 1878-1890 (Auswahl, 11+4 Nrn.), in: Bogdanov, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<A/30718hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Medizinischen Fakultät der Universität Kazan’" .
+
+<Comment/30718hasComment6>
+	rdfs:label "In Bogdanov, zit. n. WBIS RBA (<b>SL</b>): Privatdozent ab 1887." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 6 .
+
+<GPV/30718hasGPV3>
+	rdfs:label "Spisok rabot N. A. Mislavskogo i ego sotrudnikov. In: A. V. Kibjakov, K. V. Lebedev: N. A. Mislavskij, 1854-1929. Moskva 1951, 70-77." ;
+	a drw-model:GPV .
+
+<P/30718hasP4>
+	rdfs:label "Portrait [ohne weitere Angaben] in: N. A. Mislavskij. Izbrannye proizvedenija (vgl. <b>GPV</b>), Bildeinlage zw. S. 2 und 3." ;
+	a drw-model:P .
+
+<RelatedPerson/30718hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Aleksandr Nikolaevič (1880-1958), Histologe
+Inna Nikolaevna Mislavskaja, verh. Ado
+Enkel: Andrej Dmitrievič Ado (1909-1997), Pathophysiologe, Immunologe" .
+
+<Comment/30718hasComment2>
+	drw-model:hasNumber 2 ;
+	a drw-model:Comment ;
+	rdfs:label "<b>SL</b> Kibjakov und Izvestnye Kazancy." .
+
+<GPV/30718hasGPV5>
+	a drw-model:GPV ;
+	rdfs:label "Deutschsprachige und in deutschen Zeitschriften referierte russische Publikationen 1885-1910, in: Pfrepper 2009 (<b>SL</b>)." .
+
+<Year/1876>
+	rdfs:label "1876" ;
+	a drw-model:Year .
+
+<NameVariation/30718_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Mislawsky, N. A."@de .
+
+<SL/30718hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Kibjakov, A. V.: N. A. Mislavskij (Kratkij očerk žizni i naučnoj dejatel’nosti). In: N. A. Mislavskij. Izbrannye proizvedenija (vgl. <b>GPV</b>), 3-19." .
+
+<MG/30718hasMG>
+	a drw-model:MG ;
+	rdfs:label "International Commission for the Control of Graphic Research Methods (1898), Association de l’Institut Marey, Paris (1900), Société de Biologie, Paris (1910), Obščestvo vračej v Kazani [Ärzte-Gesellschaft von Kazan’], Obščestvo ispytatelej prirody pri Imperatorskom Kazan’skom universitete [Gesellschaft der Naturforscher an der Kaiserlichen Universität Kazan’], Kazanskoe obščestvo nevropatologov i psichiatrov pri Kazanskom universitete [Gesellschaft der Neuropathologen und der Psychiater der Universität Kazan’], Ural’skoe medicinskoe obščestvo [Medizinische Gesellschaft im Ural], Ural’skoe obščestvo ljubitelej estestvoznanija v Ekaterinburge [Gesellschaft der Liebhaber der Naturwissenschaften im Ural, Ekaterinburg], Akademija nauk SSSR [Akademie der Wissenschaften der UdSSR] (1927)" .
+
+<A/30718hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Kazan’" ;
+	drw-model:began <Year/1871> .
+
+<W/30718hasW1>
+	rdfs:label "Zur Frage der Leitungsgeschwindigkeit im sympathischen Nervensystem. Mit G. A. Schtscherbakoff (C. [nicht G.] A. Ščerbakov; vgl. Spisok rabot im <b>GPV</b>). Pflüger’s Archiv für die gesamte Physiologie des Menschen und der Tiere 210 (1925), 618-619." ;
+	a drw-model:W .
+
+<WL/30718hasWL2>
+	rdfs:label "Beschrieb als Erster die Lokalisation des bulbären Atemzentrums." ;
+	a drw-model:WL .
+
+<NameVariation/30718_3>
+	a drw-model:NameVariation ;
+	rdfs:label "Mislawskij, N. A."@de .
+
+<NameVariation/30718_2>
+	a drw-model:NameVariation ;
+	rdfs:label "Mislawski, N. A."@de .
+
+<SL/30718hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Sorkin, Jurij Ė.: Vračebnaja dinastija Mislavskich XIX-XX vv. Ekaterinburg 1995, 143 S." .
+
+<Comment/30718hasComment4>
+	drw-model:hasNumber 4 ;
+	a drw-model:Comment ;
+	rdfs:label "Estestvoznanie, zit. n. WBIS RBA (<b>SL</b>)." .
+
+<B/30718hasStationOfLife4>
+	drw-model:began <Year/1895> ;
+	a drw-model:B ;
+	rdfs:label "Ordinarius für Physiologie an der Medizinischen Fakultät der Universität Kazan’" .
+

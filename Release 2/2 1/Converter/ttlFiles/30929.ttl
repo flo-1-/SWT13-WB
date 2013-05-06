@@ -1,0 +1,185 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<ImportantPerson/30664>
+	drw-model:hasConnectionTo <ImportantPerson/30929> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30664" .
+
+<Date/30929DiedOn>
+	a drw-model:Date ;
+	rdfs:label "11./23.8.1891" .
+
+<ImportantPerson/30244>
+	drw-model:hasID "30244" ;
+	drw-model:hasConnectionTo <ImportantPerson/30929> ;
+	a drw-model:ImportantPerson .
+
+<MainName/30929hasMainName>
+	a drw-model:MainName ;
+	rdfs:label "Šeremetevskij, Fedor Petrovič" ;
+	drw-model:hasNameVariation <NameVariation/30929_0> ;
+	drw-model:hasNameVariation <NameVariation/30929_1> .
+
+<RelatedPerson/30929fatherIs>
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30929hasComment1> ;
+	rdfs:label "Petr Vasil’evič (1806-nach 1879), Hofrat, Verwaltungsmitglied im Kuratorium des Moskauer Erziehungshauses[1]" .
+
+<B/30929hasStationOfLife4>
+	rdfs:label "Weiterbildung in Deutschland:
+- bei C. <span style='font-variant:small-caps;'>Ludwig</span>[6] und Karl Hugo <span style='font-variant:small-caps;'>Huppert</span> (1832-1904) an der Universität Leipzig
+- bei H. von <span style='font-variant:small-caps;'>Helmholtz</span> und Robert Wilhelm <span style='font-variant:small-caps;'>Bunsen</span> (1811-1899) an der Universität Heidelberg" ;
+	a drw-model:B ;
+	drw-model:hasComment <Comment/30929hasComment6> .
+
+<B/30929hasStationOfLife1>
+	drw-model:began <Year/1864> ;
+	rdfs:label "Assistent von P. P. <span style='font-variant:small-caps;'>Ėjnbrodt</span> am Lehrstuhl für Physiologie der Universität Moskau" ;
+	a drw-model:B .
+
+<Comment/30929hasComment3>
+	a drw-model:Comment ;
+	drw-model:hasNumber 3 ;
+	rdfs:label "Ab 1862 ao. Professor für Ophtalmologie an der Medizinischen Fakultät der Universität Moskau und ab 1864 Oberarzt an der Augenheilanstalt." .
+
+<A/30929hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Moskau" ;
+	drw-model:began <Year/1856> .
+
+<ImportantPerson/30366>
+	drw-model:hasConnectionTo <ImportantPerson/30929> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30366" .
+
+<B/30929hasStationOfLife3>
+	drw-model:began <Year/1865> ;
+	rdfs:label "Leiter des Physiologischen Laboratoriums der Universität Moskau" ;
+	a drw-model:B .
+
+<Year/1865>
+	rdfs:label "1865" ;
+	a drw-model:Year .
+
+<Date/30929wasBornOn>
+	a drw-model:Date ;
+	rdfs:label "18./30.1.1840" .
+
+<Place/30929wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Moskau" .
+
+<NameVariation/30929_0>
+	rdfs:label "Шереметьевский, Федор Петрович"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Šeremet'evskij, Fedor Petrovič"@de .
+
+<GeneralLabor/30929hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<Year/1861>
+	rdfs:label "1861" ;
+	a drw-model:Year .
+
+<ImportantPerson/10029>
+	drw-model:hasConnectionTo <ImportantPerson/30929> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "10029" .
+
+<Year/1869>
+	rdfs:label "1869[2]" ;
+	drw-model:hasComment <Comment/30929hasComment2> ;
+	a drw-model:Year .
+
+<ImportantPerson/30929>
+	drw-model:hasComment <Comment/30929hasComment1> ;
+	drw-model:hasConnectionTo <ImportantPerson/30664> ;
+	drw-model:hasMainName <MainName/30929hasMainName> ;
+	drw-model:hasConnectionTo <ImportantPerson/30366> ;
+	drw-model:hasConnectionTo <ImportantPerson/10029> ;
+	drw-model:hasStationOfLife <B/30929hasStationOfLife3> ;
+	drw-model:wasBornOn <Date/30929wasBornOn> ;
+	drw-model:hasStationOfLife <B/30929hasStationOfLife2> ;
+	drw-model:DiedIn <Place/30929DiedIn> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30929hasGeneralLabor0> ;
+	drw-model:hasStationOfLife <B/30929hasStationOfLife1> ;
+	drw-model:hasID "30929" ;
+	drw-model:hasComment <Comment/30929hasComment6> ;
+	drw-model:DiedOn <Date/30929DiedOn> ;
+	drw-model:hasConnectionTo <ImportantPerson/30244> ;
+	drw-model:hasEducation <A/30929hasEducation0> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <B/30929hasStationOfLife0> ;
+	rdfs:label "Šeremetevskij, Fedor Petrovič" ;
+	drw-model:hasComment <Comment/30929hasComment2> ;
+	drw-model:hasEducation <A/30929hasEducation1> ;
+	drw-model:wasBornIn <Place/30929wasBornIn> ;
+	drw-model:hasComment <Comment/30929hasComment3> ;
+	drw-model:hasStationOfLife <B/30929hasStationOfLife4> ;
+	drw-model:hasEducation <A/30929hasEducation2> ;
+	drw-model:fatherIs <RelatedPerson/30929fatherIs> .
+
+<Comment/30929hasComment1>
+	a drw-model:Comment ;
+	rdfs:label "Vgl. Rejtblat, A. I.: Kak Puškin vyšel v genii. Istoriko-sociologičeskie očerki o knižnoj kul’ture Puškinskoj ėpochi. Čast’ 1: http://www.fedy-diary.ru/?page_id=6545 (2.11.2010)." ;
+	drw-model:hasNumber 1 .
+
+<B/30929hasStationOfLife0>
+	drw-model:began <Year/1861> ;
+	a drw-model:B ;
+	drw-model:hasComment <Comment/30929hasComment3> ;
+	rdfs:label "Praktischer Arzt an verschiedenen Krankenhäusern in Moskau, u. a. an der Augenheilanstalt bei Gustav Ivanovič <span style='font-variant:small-caps;'>Braun</span> (1827-1897)[3]" .
+
+<A/30929hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Universität Moskau" ;
+	drw-model:began <Year/1869> .
+
+<Comment/30929hasComment2>
+	a drw-model:Comment ;
+	rdfs:label "In <b>SL</b> Zmeev, zit. n. WBIS RBA, 30. Nov. 1868 angegeben." ;
+	drw-model:hasNumber 2 .
+
+<Year/1864>
+	rdfs:label "1864" ;
+	a drw-model:Year .
+
+<B/30929hasStationOfLife2>
+	drw-model:began <Year/1865> ;
+	a drw-model:B ;
+	rdfs:label "Vorlesungen zur Physiologie" .
+
+<A/30929hasEducation0>
+	a drw-model:A ;
+	drw-model:began <Year/1850> ;
+	rdfs:label "Besuch des 2. und des 4. Gymnasiums in Moskau" .
+
+<Comment/30929hasComment6>
+	rdfs:label "Die Publikation bei Ludwig in <b>SL</b> Pfrepper 2009, 245 (<b>A 1</b>)." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 6 .
+
+<Year/1850>
+	rdfs:label "1850" ;
+	a drw-model:Year .
+
+<NameVariation/30929_1>
+	a drw-model:NameVariation ;
+	rdfs:label "Scheremetjewski, Theodor"@de .
+
+<Place/30929DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Kulakovo, Kreis Serpuchov, Gouvernement Moskau, Grabstätte: Moskau, Friedhof Vagan’kovo, Flurstück 10" .
+
+<Year/1856>
+	rdfs:label "1856" ;
+	a drw-model:Year .
+

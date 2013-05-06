@@ -1,0 +1,281 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/31057hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 32, 83, 86, 87." .
+
+<B/31057hasStationOfLife1>
+	a drw-model:B ;
+	drw-model:began <Year/1879> ;
+	rdfs:label "Tätigkeit am Lehrstuhl für Physiologie an der MMA bei I. R. <span style='font-variant:small-caps;'>Tarchanov</span>" .
+
+<Year/1890>
+	rdfs:label "1890" ;
+	a drw-model:Year .
+
+<Year/1892>
+	rdfs:label "1892" ;
+	a drw-model:Year .
+
+<SL/31057hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 105-106." .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<Place/31057DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Petrograd[1]" ;
+	drw-model:hasComment <Comment/31057hasComment1> .
+
+<P/31057hasP1>
+	rdfs:label "Portrait in: Šustov 1910 (<b>SL</b>); Ausschnitte in: <b>SL</b> Kvasov/Fedorova-Grot 1967, zw. S. 64-65, Medicinskij institut, zit. n. WBIS RBA, und Volkov/Kulikova 2003 b, zw. S. 176-177." ;
+	a drw-model:P .
+
+<W/31057hasW4>
+	rdfs:label "Konspekt lekcij po fiziologii. S.-Peterburg [1914], 8 S." ;
+	a drw-model:W .
+
+<ImportantPerson/30785>
+	drw-model:hasID "30785" ;
+	drw-model:hasConnectionTo <ImportantPerson/31057> ;
+	a drw-model:ImportantPerson .
+
+<Year/1876>
+	rdfs:label "1876" ;
+	a drw-model:Year .
+
+<ImportantPerson/30479>
+	drw-model:hasConnectionTo <ImportantPerson/31057> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30479" .
+
+<SL/31057hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 82, 175-177; SU 77, 145-146." .
+
+<GPV/31057hasGPV0>
+	rdfs:label "Publikationen 1883-1906, in: <b>SL</b> Šustov 1910 und Kvasov/Fedorova-Grot 1967" ;
+	a drw-model:GPV .
+
+<A/31057hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Besuch des Gymnasiums in Tiflis" ;
+	drw-model:began <Year/Bis_1871> .
+
+<W/31057hasW2>
+	rdfs:label "O professore Tarchanove (Tarchnišvili). Trudy Obščestva russkich vračej v S.-Peterburge (1908) Nr. 5; auch in: M[ichail] G[eorgievič] Saakašvili: Ivan Ramazovič Tarchnišvili (Tarchanov) (Iz istorii sodružestva dejatelej kul’tury i nauki). Tbilisi 1963, 94-102." ;
+	a drw-model:W .
+
+<B/31057hasStationOfLife0>
+	drw-model:began <Year/1876> ;
+	a drw-model:B ;
+	rdfs:label "Arzt im berittenen Artillerie-Regiment im Russisch-Türkischen Krieg" .
+
+<W/31057hasW0>
+	rdfs:label "Gal’vaničeskie javlenija v kože ljaguški. Diss. S.-Peterburg 1892, 208 S." ;
+	a drw-model:W .
+
+<A/31057hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Doktorexamen an der MMA" .
+
+<Year/1895>
+	rdfs:label "1895" ;
+	a drw-model:Year .
+
+<P/31057hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Kvasov/Fedorova-Grot 1967 (<b>SL</b>) (s. u.)." .
+
+<MainName/31057hasMainName>
+	a drw-model:MainName ;
+	rdfs:label "Vartanov, Vartan Ivanovič" ;
+	drw-model:hasNameVariation <NameVariation/31057_0> .
+
+<B/31057hasStationOfLife2>
+	rdfs:label "Prosektor am Lehrstuhl für Physiologie an der MMA" ;
+	a drw-model:B ;
+	drw-model:began <Year/1890> .
+
+<B/31057hasStationOfLife7>
+	a drw-model:B ;
+	rdfs:label "zugleich Dozent am Psycho-Neurologischen und Pädagogischen Institut sowie an militärischen Lehranstalten" ;
+	drw-model:began <Year/1904> .
+
+<WL/31057hasWL1>
+	rdfs:label "Gründer des physiologischen Laboratoriums am MIF" ;
+	a drw-model:WL .
+
+<B/31057hasStationOfLife5>
+	rdfs:label "Dozent für Physiologie am St. Petersburger Medizinischen Institut für Frauen (MIF)" ;
+	a drw-model:B ;
+	drw-model:began <Year/1898> .
+
+<B/31057hasStationOfLife3>
+	rdfs:label "Studienaufenthalt im Laboratorium von L. <span style='font-variant:small-caps;'>Hermann</span> in Königsberg" ;
+	a drw-model:B ;
+	drw-model:began <Year/1892> .
+
+<Year/Bis_1871>
+	rdfs:label "Bis 1871" ;
+	a drw-model:Year .
+
+<Year/1871>
+	rdfs:label "1871" ;
+	a drw-model:Year .
+
+<Year/1904>
+	rdfs:label "1904" ;
+	a drw-model:Year .
+
+<Comment/31057hasComment1>
+	a drw-model:Comment ;
+	rdfs:label "Von Banditen in der Nähe seines Hauses ermordet." ;
+	drw-model:hasNumber 1 .
+
+<GeneralLabor/31057hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<Year/1879>
+	rdfs:label "1879" ;
+	a drw-model:Year .
+
+<ImportantPerson/31057>
+	drw-model:hasW <W/31057hasW3> ;
+	drw-model:hasEducation <A/31057hasEducation0> ;
+	drw-model:hasStationOfLife <B/31057hasStationOfLife4> ;
+	drw-model:hasStationOfLife <B/31057hasStationOfLife8> ;
+	drw-model:hasMainName <MainName/31057hasMainName> ;
+	drw-model:fatherIs <RelatedPerson/31057fatherIs> ;
+	drw-model:hasW <W/31057hasW4> ;
+	drw-model:hasW <W/31057hasW2> ;
+	drw-model:hasSL <SL/31057hasSL2> ;
+	drw-model:hasConnectionTo <ImportantPerson/30373> ;
+	drw-model:hasID "31057" ;
+	drw-model:hasP <P/31057hasP1> ;
+	drw-model:hasStationOfLife <B/31057hasStationOfLife0> ;
+	drw-model:hasGPV <GPV/31057hasGPV0> ;
+	drw-model:hasMG <MG/31057hasMG> ;
+	drw-model:DiedOn <Date/31057DiedOn> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31057hasGeneralLabor0> ;
+	drw-model:hasStationOfLife <B/31057hasStationOfLife1> ;
+	drw-model:hasComment <Comment/31057hasComment1> ;
+	drw-model:hasW <W/31057hasW1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/31057.jpg> ;
+	drw-model:hasConnectionTo <ImportantPerson/30479> ;
+	drw-model:DiedIn <Place/31057DiedIn> ;
+	drw-model:hasSL <SL/31057hasSL3> ;
+	drw-model:hasStationOfLife <B/31057hasStationOfLife5> ;
+	drw-model:hasSL <SL/31057hasSL0> ;
+	drw-model:hasEducation <A/31057hasEducation3> ;
+	drw-model:hasStationOfLife <B/31057hasStationOfLife6> ;
+	drw-model:hasWL <WL/31057hasWL0> ;
+	a drw-model:ImportantPerson ;
+	rdfs:label "Vartanov, Vartan Ivanovič" ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/31057hasHonoursAndAwards> ;
+	drw-model:hasStationOfLife <B/31057hasStationOfLife2> ;
+	drw-model:hasWL <WL/31057hasWL1> ;
+	drw-model:hasEducation <A/31057hasEducation2> ;
+	drw-model:wasBornOn <Date/31057wasBornOn> ;
+	drw-model:hasSL <SL/31057hasSL4> ;
+	drw-model:hasEducation <A/31057hasEducation1> ;
+	drw-model:hasSL <SL/31057hasSL1> ;
+	drw-model:hasStationOfLife <B/31057hasStationOfLife7> ;
+	drw-model:hasWL <WL/31057hasWL2> ;
+	drw-model:wasBornIn <Place/31057wasBornIn> ;
+	drw-model:hasConnectionTo <ImportantPerson/30785> ;
+	drw-model:hasP <P/31057hasP0> ;
+	drw-model:hasW <W/31057hasW0> ;
+	drw-model:hasStationOfLife <B/31057hasStationOfLife3> .
+
+<HonoursAndAwards/31057hasHonoursAndAwards>
+	rdfs:label "Inhaber des Ehrentitels „Staatsrat“" ;
+	a drw-model:HonoursAndAwards .
+
+<Place/31057wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Tiflis" .
+
+<SL/31057hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Šustov, A. S. (Hg.): Naši dejateli po medicine. Sankt-Peterburg 1910 (Illjustrirovannyj vestnik kul’tury, naučno-vospitatel’nago, techničeskago i torgovo-promyšlennago progressa Rossii 1) [Microfiche, ohne Seitenangaben]" .
+
+<RelatedPerson/31057fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ivan" .
+
+<MG/31057hasMG>
+	a drw-model:MG ;
+	rdfs:label "Obščestvo Rossijskich fiziologov imeni I. M. Sečenova [I. M. Sečenov-Gesellschaft russischer Physiologen] (Mitgründer)" .
+
+<B/31057hasStationOfLife8>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<SL/31057hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 63-64; auch in: Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013)" .
+
+<W/31057hasW3>
+	rdfs:label "Dokladnaja zapiska professorov V. I. Vartanova i A. S. Ginzberga po voprosu o posledovatel’nosti prepodavanija otdel’nych predmetov na Medicinskom fakul’tete Psicho-nevrologičeskogo instituta i o sootnošenii meždu prepodavaniem obščich disciplin na Medicinskom i Osnovnom (obščeobrazovatel’nom) fakul’tetach. [S.-Peterburg 1913], 27 S." ;
+	a drw-model:W .
+
+<ImportantPerson/30373>
+	drw-model:hasConnectionTo <ImportantPerson/31057> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30373" .
+
+<A/31057hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Studium an der Mediko-Chirurgischen Akademie (MCA) in St. Petersburg (ab 1881 Militärmedizinische Akademie, MMA)" ;
+	drw-model:began <Year/1871> .
+
+<W/31057hasW1>
+	a drw-model:W ;
+	rdfs:label "In: Hermann, L[udimar]: Beiträge zur Lehre von den Haut- und Secretionsströmen: Nach Versuchen des Herrn Dr. Wartan v. Wartanoff aus St. Petersburg (Sommer 1893) und der Herren cand. med. Kurt Schmarsow (Winter 1893-1894) und cand. med. Paul Junius (Frühjahr 1894). Archiv für die gesammte Physiologie des Menschen und der Thiere 58 (1894), 242-254." .
+
+<Date/31057wasBornOn>
+	a drw-model:Date ;
+	rdfs:label "12./24.1.1853" .
+
+<A/31057hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Dissertation zum Dr. med. an der MMA" .
+
+<B/31057hasStationOfLife4>
+	rdfs:label "Prosektor und Assistent von I. P. <span style='font-variant:small-caps;'>Pavlov</span> an der MMA" ;
+	drw-model:began <Year/1895> ;
+	a drw-model:B .
+
+<B/31057hasStationOfLife6>
+	rdfs:label "o. Professor für Physiologie am MIF" ;
+	a drw-model:B ;
+	drw-model:began <Year/1904> .
+
+<NameVariation/31057_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Wartanoff, Wartan v."@de .
+
+<WL/31057hasWL0>
+	rdfs:label "Autor von Arbeiten zu Untersuchungen über die Wirkung der Depressorfasern im <i>Nervus vagus</i>, über die galvanischen Erscheinungen in der Haut, über die Wirkung der elektrischen Entladungen auf niedere Organismen u. a." ;
+	a drw-model:WL .
+
+<Date/31057DiedOn>
+	a drw-model:Date ;
+	rdfs:label "20.1.1919" .
+
+<Year/1898>
+	rdfs:label "1898" ;
+	a drw-model:Year .
+
+<WL/31057hasWL2>
+	rdfs:label "Mitgründer der Zeitschrift <i>Russkij foziologičeskij žurnal imeni I. M. Sečenova</i>" ;
+	a drw-model:WL .
+

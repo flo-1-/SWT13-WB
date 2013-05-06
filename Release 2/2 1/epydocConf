@@ -1,0 +1,27 @@
+[epydoc] # Epydoc section marker (required by ConfigParser)
+
+# Information about the project.
+name: DRW Personendatenbank - TTLConverter and HTML Parser
+url: http://pcai042.informatik.uni-leipzig.de/~swp13-wb/
+
+# The list of modules to document.  Modules can be named using
+# dotted names, module filenames, or package directory names.
+# This option may be repeated.
+modules: Converter/TTLConverter.py, Converter/TTLClasses.py, Converter/convertHelper.py
+
+# Write html output to the directory "apidocs"
+output: html
+target: ConverterDocumentation/
+
+modules: htmlParser/personDictionaryParser.py, htmlParser/dictHelper.py
+
+# Write html output to the directory "apidocs"
+output: html
+target: htmlParserDocumentation/
+
+
+
+# Include all automatically generated graphs.  These graphs are
+# generated using Graphviz dot.
+graph: all
+dotpath: /usr/local/bin/dot

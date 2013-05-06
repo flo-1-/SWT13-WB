@@ -1,0 +1,385 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<GeneralLabor/31127hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologe" .
+
+<B/31127hasStationOfLife0>
+	drw-model:began <Year/1856> ;
+	a drw-model:B ;
+	rdfs:label "Assistent bei Karl Ewald <span style='font-variant:small-caps;'>Hasse</span> (1810-1902) in Heidelberg und ein Forschungssemester bei J. P. <span style='font-variant:small-caps;'>Müller</span> in Berlin" .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<ImportantPerson/30366>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30366" ;
+	drw-model:hasConnectionTo <ImportantPerson/31127> .
+
+<A/31127hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Promotion zum Dr. med. in Heidelberg" .
+
+<SL/31127hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Eschler, Erhard: Wilhelm Wundt (1832-1920). In: Max Steinmetz (Hg.): Bedeutende Gelehrte in Leipzig. Bd. 1. Leipzig 1965, 79-84." .
+
+<HonoursAndAwardsComment/31127hasHonoursAndAwardsComment>
+	rdfs:label "Ehrungen und Auszeichnungen (Auswahl):" ;
+	a drw-model:HonoursAndAwardsComment .
+
+<Place/31127wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Neckarau bei Mannheim" .
+
+<RelatedPerson/31127hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Eleonore (1876-1957)
+Lilie (1880-1884)
+Max (1879-1963), Philosoph" .
+
+<Year/1864>
+	rdfs:label "1864" ;
+	a drw-model:Year .
+
+<SL/31127hasSL16>
+	a drw-model:SL ;
+	rdfs:label "Streck, Bernhard: Wilhelm Maximilian Wundt. In: Christian F. Feest (Hg.): Hauptwerke der Ethnologie. Stuttgart 2001, 524-531." .
+
+<RelatedPerson/31127fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Maximilian (1787-1846), Pfarrer" .
+
+<SL/31127hasSL20>
+	a drw-model:SL ;
+	rdfs:label "Wontorra, H. Maximilian, Kästner, Ingrid, Schröger, Erich (Hgg.): Wilhelm Wundts Briefwechsel (2011) (Demoversion unter http://www.uni-leipzig.de/~wundtbriefe/, 10.1.2012)." .
+
+<SL/31127hasSL10>
+	a drw-model:SL ;
+	rdfs:label "Meischner, Wolfram, Eschler, Erhard: Wilhelm Wundt. Leipzig, Jena, Berlin 1979, 116 S." .
+
+<SL/31127hasSL18>
+	rdfs:label "Wikipedia (http://de.wikipedia.org/wiki/Wilhelm_Wundt, 10.1.2012)." ;
+	a drw-model:SL .
+
+<Date/31127DiedOn>
+	a drw-model:Date ;
+	rdfs:label "31.8.1920" .
+
+<B/31127hasStationOfLife8>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<SL/31127hasSL12>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3)" ;
+	a drw-model:SL .
+
+<SL/31127hasSL17>
+	rdfs:label "Wegbereiter unserer naturwissenschaftlich-medizinischen Moderne (http://appserv5.ph-heidelberg.de/onlinelex/index.php?id=1177, 10.1.2012)." ;
+	a drw-model:SL .
+
+<Year/1889>
+	rdfs:label "1889" ;
+	a drw-model:Year .
+
+<Year/1875>
+	rdfs:label "1875" ;
+	a drw-model:Year .
+
+<SL/31127hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Araujo, Saulo de Freitas: Wilhelm Wundt als Assistent von Hermann v. Helmholtz an der Medizinischen Fakultät der Universität Heidelberg: Berichtigende Bemerkungen. In: Regine Pfrepper (Hg.): Medizin-, Pharmazie- und Wissenschaftsgeschichte vom Mittelalter bis zur Gegenwart. Festschrift für Ingrid Kästner zum 65. Geburtstag. Aachen 2007, 185-192." .
+
+<SL/31127hasSL22>
+	rdfs:label "Šojfet, M. S.: Sto velikich vračej. Moskva 2004, 334-337." ;
+	a drw-model:SL .
+
+<NameVariation/31127_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Wundt, Wilhelm Maximilian/Max"@de .
+
+<Q/31127hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Autobiographie: Erlebtes und Erkanntes, Stuttgart, Leipzig 1920, 399 S. (online unter http://www.zeno.org/Naturwissenschaften/M/Wundt,+Wilhelm, 11.1.2012)." .
+
+<Date/31127wasBornOn>
+	rdfs:label "16.8.1832" ;
+	a drw-model:Date .
+
+<ImportantPerson/30739>
+	drw-model:hasID "30739" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/31127> .
+
+<B/31127hasStationOfLife4>
+	drw-model:began <Year/1874> ;
+	a drw-model:B ;
+	rdfs:label "o. Professor für induktive Philosophie an der Universität Zürich" .
+
+<B/31127hasStationOfLife6>
+	rdfs:label "Gründer des ersten Instituts für Experimentelle Psychologie in Leipzig" ;
+	a drw-model:B .
+
+<P/31127hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Wiemers/Fischer 1996, 123; ~ 2006, 135." .
+
+<A/31127hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1852> ;
+	rdfs:label "Studium der Medizin an den Universitäten Tübingen und Heidelberg" .
+
+<HonoursAndAwards/31127hasHonoursAndAwards>
+	rdfs:label "1902 Ehrenbürger der Stadt Leipzig<br>1907 Ehrenbürger der Stadt Mannheim<br>1913 Ehrenmitglied der Kaiserlichen Universität Moskau<br>Seit 1952 Wilhelm-Wundt-Medaille (Deutsche Gesellschaft für Psychologie)<br>Seit 1979 Wilhelm-Wundt-Gesellschaft<br>Namensgeber für den Asteroiden (635) Vundtia" ;
+	a drw-model:HonoursAndAwards .
+
+<SL/31127hasSL14>
+	a drw-model:SL ;
+	rdfs:label "Rossijskaja akademija nauk. Personal’nyj sostav. Kniga 1: 1724-1917. Moskva 1999; Kniga 2: 1918-1973. Moskva 1999 Kniga 1 (1999), 500." .
+
+<A/31127hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Besuch des Großherzoglich-Badischen Gymnasiums in Heidelberg" .
+
+<GeneralLabor/31127hasGeneralLabor2>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Philosoph" .
+
+<RelatedPerson/31127wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sophie, geb. Mau (1844-1912)" .
+
+<B/31127hasStationOfLife1>
+	rdfs:label "Privatdozent für Physiologie in Heidelberg" ;
+	a drw-model:B ;
+	drw-model:began <Year/1857> .
+
+<SL/31127hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Araujo, Saulo de Freitas: Auf der Suche nach einem neuen Begriff von wissenschaftlicher Psychologie. Vladimir M. Bechterevs (1857-1927) Auseinandersetzung mit der Psychologie Wilhelm Wundts (1832-1920). In: Riha, Ortrun, Fischer Marta (Hgg.): „Naturwissenschaft als Kommunikationsraum“. Internationale Tagung, Leipzig 29.9.-1.10.2010. Aachen 2011 (Relationes 6), 233-244." .
+
+<GeneralLabor/31127hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Psychologe" .
+
+<Year/1874>
+	rdfs:label "1874" ;
+	a drw-model:Year .
+
+<SL/31127hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Araujo, Saulo de Freitas: O projeto de uma psicologia científica em Wilhelm Wundt. Uma nova interpretação. Juiz de Fora 2010, 244 S." .
+
+<B/31127hasStationOfLife7>
+	drw-model:began <Year/1889> ;
+	a drw-model:B ;
+	rdfs:label "Rektor der Universität Leipzig" .
+
+<SLComment/31127hasSLComment>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<RelatedPerson/31127motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Marie Frederike, geb. Arnold (1797-1868)" .
+
+<A/31127hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Habilitation in Heidelberg" .
+
+<SL/31127hasSL11>
+	a drw-model:SL ;
+	rdfs:label "Orden Pour le Mérite (http://www.orden-pourlemerite.de/mitglieder/wilhelm-maximilian-wundt, 10.1.2012)." .
+
+<B/31127hasStationOfLife2>
+	drw-model:began <Year/1858> ;
+	rdfs:label "Assistent am Physiologischen Institut in Heidelberg bei H. von <span style='font-variant:small-caps;'>Helmholtz</span>" ;
+	a drw-model:B .
+
+<SL/31127hasSL8>
+	a drw-model:SL ;
+	rdfs:label "Guthke, Jürgen: Wilhelm Wundt. Der Gründer des ersten Psychologischen Instituts der Welt. In: Die großen Leipziger: 26 Annäherungen. Frankfurt a. M. 1996, 284-302." .
+
+<SL/31127hasSL6>
+	rdfs:label "Gundlach, Horst: Wundt, Wilhelm (Maximilian). In: Deutsche Biographische Enzyklopädie. Hrsg. v. Walther Killy und Rudolf Vierhaus. Bd. 1-10. München u. a. 1995-1999,  Bd. 10 (1999), 598-599." ;
+	a drw-model:SL .
+
+<SL/31127hasSL13>
+	a drw-model:SL ;
+	rdfs:label "Professorenkatalog der Universität Leipzig - Catalogus Professorum Lipsiensis. Hrsg. vom Lehrstuhl für Neuere und Neueste Geschichte, Historisches Seminar der Universität Leipzig (http://www.uni-leipzig.de/unigeschichte/professorenkatalog/impressum.html, 12.4.2012). (http://www.uni-leipzig.de/unigeschichte/professorenkatalog/leipzig/, 10.1.2012)." .
+
+<ImportantPerson/31127>
+	drw-model:hasSL <SL/31127hasSL2> ;
+	drw-model:hasStationOfLife <B/31127hasStationOfLife5> ;
+	drw-model:hasMG <MG/31127hasMG> ;
+	drw-model:fatherIs <RelatedPerson/31127fatherIs> ;
+	drw-model:hasEducation <A/31127hasEducation2> ;
+	drw-model:hasSL <SL/31127hasSL15> ;
+	drw-model:hasSL <SL/31127hasSL20> ;
+	drw-model:hasSL <SL/31127hasSL12> ;
+	drw-model:hasConnectionTo <ImportantPerson/30739> ;
+	drw-model:hasP <P/31127hasP1> ;
+	drw-model:wasBornIn <Place/31127wasBornIn> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/31127hasHonoursAndAwards> ;
+	drw-model:hasEducation <A/31127hasEducation1> ;
+	drw-model:hasSL <SL/31127hasSL1> ;
+	drw-model:hasP <P/31127hasP0> ;
+	drw-model:hasStationOfLife <B/31127hasStationOfLife2> ;
+	drw-model:hasStationOfLife <B/31127hasStationOfLife6> ;
+	drw-model:wasBornOn <Date/31127wasBornOn> ;
+	drw-model:hasSL <SL/31127hasSL0> ;
+	drw-model:hasSLComment <SLComment/31127hasSLComment> ;
+	drw-model:hasSL <SL/31127hasSL13> ;
+	drw-model:hasSL <SL/31127hasSL3> ;
+	drw-model:hasEducation <A/31127hasEducation5> ;
+	drw-model:hasSL <SL/31127hasSL22> ;
+	drw-model:hasSL <SL/31127hasSL8> ;
+	drw-model:hasQ <Q/31127hasQ1> ;
+	drw-model:hasSL <SL/31127hasSL21> ;
+	drw-model:hasStationOfLife <B/31127hasStationOfLife7> ;
+	drw-model:hasSL <SL/31127hasSL18> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/31127.jpg> ;
+	drw-model:hasQ <Q/31127hasQ0> ;
+	drw-model:hasHonoursAndAwardsComment <HonoursAndAwardsComment/31127hasHonoursAndAwardsComment> ;
+	drw-model:hasSL <SL/31127hasSL10> ;
+	drw-model:hasEducation <A/31127hasEducation4> ;
+	drw-model:hasSL <SL/31127hasSL9> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31127hasGeneralLabor2> ;
+	drw-model:DiedOn <Date/31127DiedOn> ;
+	drw-model:hasSL <SL/31127hasSL19> ;
+	drw-model:hasConnectionTo <ImportantPerson/30366> ;
+	drw-model:hasStationOfLife <B/31127hasStationOfLife4> ;
+	drw-model:hasSL <SL/31127hasSL7> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31127hasGeneralLabor1> ;
+	drw-model:hasDescendant <RelatedPerson/31127hasDescendant> ;
+	drw-model:hasStationOfLife <B/31127hasStationOfLife8> ;
+	drw-model:hasMainName <MainName/31127hasMainName> ;
+	drw-model:hasSL <SL/31127hasSL11> ;
+	drw-model:DiedIn <Place/31127DiedIn> ;
+	drw-model:motherIs <RelatedPerson/31127motherIs> ;
+	drw-model:hasSL <SL/31127hasSL4> ;
+	rdfs:label "Wundt, Wilhelm Maximilian" ;
+	drw-model:hasSL <SL/31127hasSL14> ;
+	drw-model:wasMarriedTo <RelatedPerson/31127wasMarriedTo> ;
+	drw-model:hasEducation <A/31127hasEducation0> ;
+	drw-model:hasWL <WL/31127hasWL0> ;
+	drw-model:hasGPV <GPV/31127hasGPV0> ;
+	drw-model:hasSL <SL/31127hasSL6> ;
+	drw-model:hasStationOfLife <B/31127hasStationOfLife0> ;
+	drw-model:hasW <W/31127hasW0> ;
+	drw-model:hasStationOfLife <B/31127hasStationOfLife3> ;
+	drw-model:hasSL <SL/31127hasSL16> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31127hasGeneralLabor0> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <B/31127hasStationOfLife1> ;
+	drw-model:hasEducation <A/31127hasEducation3> ;
+	drw-model:hasSL <SL/31127hasSL5> ;
+	drw-model:hasID "31127" ;
+	drw-model:hasSL <SL/31127hasSL17> .
+
+<SL/31127hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Eckart, Wolfgang U.: Wundt, Wilhelm Maximilian. In: Eckart, Wolfgang U., Gradmann, Christoph: Ärzte Lexikon. Von der Antike bis zur Gegenwart. 3. Aufl. Heidelberg u. a. 2006, 351-352." .
+
+<Year/1852>
+	rdfs:label "1852" ;
+	a drw-model:Year .
+
+<B/31127hasStationOfLife3>
+	drw-model:began <Year/1864> ;
+	a drw-model:B ;
+	rdfs:label "ao. Professor für Anthropologie und Medizinische Psychologie in Heidelberg" .
+
+<SL/31127hasSL15>
+	rdfs:label "Steinberg, Holger (Hg.): Der Briefwechsel zwischen Wilhelm Wundt und Emil Kraepelin. Zeugnis einer jahrzehntelangen Freundschaft. Bern u. a. 2002, 191 S." ;
+	a drw-model:SL .
+
+<SL/31127hasSL21>
+	a drw-model:SL ;
+	rdfs:label "Wundt, Eleonore (Hg.): Wilhelm Wundts Werk. Ein Verzeichnis seiner sämtlichen Schriften. München 1927 (Abhandlungen der sächsischen staatlichen Forschungsinstitute 28), 78 S." .
+
+<SL/31127hasSL19>
+	rdfs:label "Wilhelm Wundt. Zum 175. Geburtstag am 16. August 2007. In: Universität Leipzig. Jubiläen 2007. Personen, Ereignisse [Broschüre]. Leipzig 2007, 65-69 (PDF unter http://www.archiv.uni-leipzig.de/wp-content/uploads/2011/02/2007.pdf, 11.1.2012)." ;
+	a drw-model:SL .
+
+<GPV/31127hasGPV0>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:GPV .
+
+<Place/31127DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Großbothen bei Leipzig" .
+
+<W/31127hasW0>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:W .
+
+<NameVariation/31127_1>
+	rdfs:label "Vundt, Vil’gel’m Maks"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Вундт, Вильгельм Макс"@ru .
+
+<MG/31127hasMG>
+	a drw-model:MG ;
+	rdfs:label "Mitglied der Sächsischen Akademie der Wissenschaften zu Leipzig, Mitglied der Kaiserlichen Akademie der Wissenschaften in St. Petersburg. Weiteres vgl.: <b>SL</b>" .
+
+<Q/31127hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Universitätsarchiv Leipzig: 1) Personalakten von Professoren und Dozenten bis zum Jahr 1990, Signatur PA 1080; 2) Personalakten, Bestand Ehrenpromotionen seit 1805; 3) Sachakten, Bestand Philosophische Fakultaet (1409-1980), Signatur Phil.Fak. G 09/002; 4) Bestand Fotosammlung seit 1857, s/w-, col- und Braunstufen-Fotos: mehrere Signaturen); 5) Sammlungsgut, Bestand Plakate seit 1878: Signatur 0198: Gemaelde Wilhelm Wundt von Heinz Wagner; Signatur 2146: Ausstellung „Wilhelm Wundt, 1832-1920“: Galerie im Hoersaalbau (Foerderverein Wundt-Stiftung e.V. und Universtitaet Leipzig) 24.02.-23.03.1996; 6) Sammlungsgut, Bestand Urkunden seit 1377, Signatur 0153; 7) Bestand Dienstbibliothek des Universitaetsarchivs Leipzig, Signaturen: 0562, 3490 (Der Briefwechsel zwischen Wilhelm Wundt und Emil Kraepelin, vgl. dazu auch <b>SL</b> Steinberg [Hg.] 2002), Signaturen: 5698, 8504 (<b>SL</b> Araujo 2010)." .
+
+<B/31127hasStationOfLife5>
+	drw-model:began <Year/1875> ;
+	rdfs:label "o. Professor für Philosophie an der Universität Leipzig" ;
+	a drw-model:B .
+
+<A/31127hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Beginn des Studiums der Naturwissenschaften und der Philosophie in Tübingen" .
+
+<P/31127hasP1>
+	rdfs:label "Portraits in <b>SL</b> (Auswahl): Eschler 1965, Fahrenberg 2011, Meischner/Eschler 1979, Orden Pour le Mérite, Professorenkatalog der Universität Leipzig - Catalogus Professorum Lipsiensis. Hrsg. vom Lehrstuhl für Neuere und Neueste Geschichte, Historisches Seminar der Universität Leipzig (http://www.uni-leipzig.de/unigeschichte/professorenkatalog/impressum.html, 12.4.2012)., RAN, Steinberg (Hg.) 2002, Šojfet 2004, Wegbereiter, Wikipedia, Wontorra/Kästner/Schröger (Hgg.) 2011." ;
+	a drw-model:P .
+
+<WL/31127hasWL0>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:WL .
+
+<MainName/31127hasMainName>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/31127_1> ;
+	drw-model:hasNameVariation <NameVariation/31127_0> ;
+	rdfs:label "Wundt, Wilhelm Maximilian" .
+
+<Year/1857>
+	rdfs:label "1857" ;
+	a drw-model:Year .
+
+<SL/31127hasSL5>
+	rdfs:label "Fahrenberg, Jochen: Wilhelm Wundt – Pionier der Psychologie und Außenseiter? Leitgedanken der Wissenschaftskonzeption und deren Rezeptionsgeschichte (2011) (Online unter http://www.jochen-fahrenberg.de/uploads/media/Wilhelm_Wundt___Pionier_der_Psychologie_und_Aussenseiter.pdf, 10.1.2012)." ;
+	a drw-model:SL .
+
+<Year/1858>
+	rdfs:label "1858" ;
+	a drw-model:Year .
+
+<SL/31127hasSL9>
+	rdfs:label "Lamberti, Georg, Wilhelm Maximilian Wundt (1832-1920). Leben, Werk und Persönlichkeit in Bildern und Texten. In Gedenken an den 75jährigen Todestag von Wilhelm Wundt, Bonn 1995, 175 S." ;
+	a drw-model:SL .
+
+<A/31127hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Medizinisches Staatsexamen in Karlsruhe" .
+
+<Year/1856>
+	rdfs:label "1856" ;
+	a drw-model:Year .
+
+<SL/31127hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Gundlach, Horst: Wundt, Wilhelm (Maximilian). In: Engelhardt, Dietrich von (Hg.): Biographische Enzyklopädie deutschsprachiger Mediziner. Bd. 1-2. München 2002, 693-694." .
+

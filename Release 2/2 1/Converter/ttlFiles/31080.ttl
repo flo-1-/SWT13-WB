@@ -1,0 +1,257 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Year/1886>
+	rdfs:label "1886" ;
+	a drw-model:Year .
+
+<A/31080hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Studium an der Mediko-Chirurgischen Akademie (MCA) St. Petersburg" ;
+	drw-model:began <Year/1863> .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<ImportantPerson/30664>
+	drw-model:hasConnectionTo <ImportantPerson/31080> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30664" .
+
+<Date/31080wasBornOn>
+	a drw-model:Date ;
+	rdfs:label "1./13.2.1842" .
+
+<A/31080hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung in Deutschland mit Stipendium des Ministeriums für Volksaufklärung:
+- bei C. <span style='font-variant:small-caps;'>Ludwig</span>, Adolph Wilhelm Hermann <span style='font-variant:small-caps;'>Kolbe</span> (1818-1884), Johann Karl Friedrich <span style='font-variant:small-caps;'>Zöllner</span> (1834-1882), Franz Adolf <span style='font-variant:small-caps;'>Hofmann</span> (1843-1920) an der Universität Leipzig
+- bei F. <span style='font-variant:small-caps;'>Hoppe-Seyler</span> an der Universität Straßburg" ;
+	drw-model:began <Year/1872> .
+
+<MG/31080hasMG>
+	a drw-model:MG ;
+	rdfs:label "Obščestvo nevropatologov i psichiatrov [Gesellschaft der Neuropathologen und Phychiater] (1892 Gründungsmitglied, 1899 Ehrenmitglied), Obščestvo vračej goroda Kazani [Ärztegesellschaft der Stadt Kazan’] (Ehrenmitglied)" .
+
+<SL/31080hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Gambaroglu, K., Ljatifov, D. Ch.: Konstantin Vasil’evič Vorošilov – vidnyj russkij fiziolog XIX veka. K 125-letiju so dnja roždenija. Fiziologičeskij žurnal SSSR im. I. M. Sečenova 53 (1967) 12, 1497-1499." .
+
+<P/31080hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Al’manach dejatelej, zit. n. WBIS RBA (<b>SL</b>)." .
+
+<B/31080hasStationOfLife3>
+	drw-model:began <Year/1886> ;
+	rdfs:label "Dekan der Physiko-mathematischen Fakultät der Universität Kazan’" ;
+	a drw-model:B .
+
+<B/31080hasStationOfLife5>
+	rdfs:label "Außerdem Funktionen in zahlreichen Universitätskommissionen (z. B. für Bildung, Bau und Recht)" ;
+	a drw-model:B .
+
+<Year/1889>
+	rdfs:label "1889" ;
+	a drw-model:Year .
+
+<Year/1875>
+	rdfs:label "1875" ;
+	a drw-model:Year .
+
+<SL/31080hasSL5>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 106, 199-204." ;
+	a drw-model:SL .
+
+<GeneralLabor/31080hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<B/31080hasStationOfLife0>
+	drw-model:began <Year/1868> ;
+	a drw-model:B ;
+	rdfs:label "Junior-Ordinator am Klinischen Krankenhaus der MCA" .
+
+<Place/31080wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Roždestveno, Region Mologsk, Gouvernement Jaroslavl’" .
+
+<ImportantPerson/31080>
+	drw-model:hasStationOfLife <B/31080hasStationOfLife0> ;
+	drw-model:hasConnectionTo <ImportantPerson/30136> ;
+	drw-model:hasConnectionTo <ImportantPerson/30664> ;
+	drw-model:hasMG <MG/31080hasMG> ;
+	drw-model:hasID "31080" ;
+	drw-model:hasStationOfLife <B/31080hasStationOfLife1> ;
+	drw-model:hasSL <SL/31080hasSL2> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/31080.jpg> ;
+	drw-model:hasGPV <GPV/31080hasGPV0> ;
+	drw-model:hasSL <SL/31080hasSL5> ;
+	drw-model:hasSL <SL/31080hasSL0> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/31080hasHonoursAndAwards> ;
+	drw-model:DiedOn <Date/31080DiedOn> ;
+	drw-model:hasStationOfLife <B/31080hasStationOfLife5> ;
+	rdfs:label "Vorošilov, Konstantin Vasil'evič" ;
+	drw-model:hasEducation <A/31080hasEducation3> ;
+	drw-model:hasStationOfLife <B/31080hasStationOfLife6> ;
+	drw-model:hasWL <WL/31080hasWL0> ;
+	drw-model:hasW <W/31080hasW1> ;
+	drw-model:hasSL <SL/31080hasSL6> ;
+	drw-model:hasStationOfLife <B/31080hasStationOfLife2> ;
+	drw-model:hasMainName <MainName/31080hasMainName> ;
+	drw-model:hasEducation <A/31080hasEducation2> ;
+	drw-model:hasP <P/31080hasP1> ;
+	drw-model:hasW <W/31080hasW0> ;
+	drw-model:hasSL <SL/31080hasSL4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31080hasGeneralLabor0> ;
+	drw-model:hasEducation <A/31080hasEducation1> ;
+	drw-model:hasSL <SL/31080hasSL3> ;
+	a drw-model:ImportantPerson ;
+	drw-model:wasBornIn <Place/31080wasBornIn> ;
+	drw-model:hasConnectionTo <ImportantPerson/30924> ;
+	drw-model:hasStationOfLife <B/31080hasStationOfLife3> ;
+	drw-model:DiedIn <Place/31080DiedIn> ;
+	drw-model:hasP <P/31080hasP0> ;
+	drw-model:hasEducation <A/31080hasEducation0> ;
+	drw-model:hasStationOfLife <B/31080hasStationOfLife4> ;
+	drw-model:hasSL <SL/31080hasSL7> ;
+	drw-model:hasConnectionTo <ImportantPerson/10099> ;
+	drw-model:fatherIs <RelatedPerson/31080fatherIs> ;
+	drw-model:hasConnectionTo <ImportantPerson/30395> ;
+	drw-model:wasBornOn <Date/31080wasBornOn> ;
+	drw-model:hasSL <SL/31080hasSL1> .
+
+<SL/31080hasSL7>
+	a drw-model:SL ;
+	rdfs:label "[Zefirov, Andrej L’vovič u. a.:] Kazanskaja fiziologičeskaja škola na rubeže vekov. Kazanskij Imperatorskij universitet (1804-1917 gg.). Kafedra fiziologii estestvennogo otdelenija fiziko-matematičeskogo fakul’teta (http://www.kcn.ru/tat_ru/science/fiziologi/fiz_fizmat.htm, 2.2.2011)." .
+
+<NameVariation/31080_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Woroschiloff, Konstantin W."@de .
+
+<RelatedPerson/31080fatherIs>
+	rdfs:label "Vasilij, Küster" ;
+	a drw-model:RelatedPerson .
+
+<HonoursAndAwards/31080hasHonoursAndAwards>
+	rdfs:label "1868 Goldmedaille und <i>Premija Buša</i> (MCA)<br>„Wirklicher Russischer Staatsrat“<br>St.-Vladimir-Orden<br>Danilo-Orden (Montenegro)" ;
+	a drw-model:HonoursAndAwards .
+
+<ImportantPerson/10099>
+	drw-model:hasConnectionTo <ImportantPerson/31080> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "10099" .
+
+<ImportantPerson/30395>
+	drw-model:hasConnectionTo <ImportantPerson/31080> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30395" .
+
+<Year/1863>
+	rdfs:label "1863" ;
+	a drw-model:Year .
+
+<A/31080hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Abschluss des Priesterseminars und Examen am Gymnasium in Jaroslavl’" .
+
+<B/31080hasStationOfLife1>
+	drw-model:began <Year/1875> ;
+	a drw-model:B ;
+	rdfs:label "Privatdozent für Physiologie an der MCA St. Petersburg" .
+
+<Year/1868>
+	rdfs:label "1868" ;
+	a drw-model:Year .
+
+<ImportantPerson/30136>
+	drw-model:hasConnectionTo <ImportantPerson/31080> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30136" .
+
+<SL/31080hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Dimitrieva, Alevtina, Šarangina, Natalja, Malokova, Kadrija: Kazanskij universitet v biografijach rektorov. Gasyrlar avazy – Ėcho vekov. Naučno-dokumental’nyj žurnal (2003) Nr. 1/2 (http://www.archive.gov.tatarstan.ru/magazine/go/anonymous/main/?path=mg:/numbers/2003_1_2/03/03_1/, 11.4.2011)." .
+
+<A/31080hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Dr. med an der MCA St Petersburg bei I. M. <span style='font-variant:small-caps;'>Sečenov</span> und Sergej Petrovič <span style='font-variant:small-caps;'>Botkin</span> (1832-1889)" .
+
+<W/31080hasW0>
+	rdfs:label "Issledovanija o pitatel’nych svojstvach mjasa i gorocha. Diss. Sankt-Peterburg 1871, 89 S.; auch in: Archiv kliniki vnutrennich boleznej prof. S. P. Botkina 6 (1871), 1-86." ;
+	a drw-model:W .
+
+<SL/31080hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Eldašev, Anatolij Michajlovič: Nekropol’ Spaso-Preobraženskogo monastyrja (http://real-kremlin.ru/nekropol#fn39, 11.4.2011)." .
+
+<B/31080hasStationOfLife4>
+	drw-model:began <Year/1889> ;
+	a drw-model:B ;
+	rdfs:label "Rektor der Universität Kazan’" .
+
+<B/31080hasStationOfLife6>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<SL/31080hasSL3>
+	rdfs:label "Istoričeskij vestnik 79 (1900) 872 [Nekrolog]." ;
+	a drw-model:SL .
+
+<WL/31080hasWL0>
+	rdfs:label "Hauptforschungsthemen: Rolle der Erregungsleitung im Rückenmark und Bedeutung der Seifen für den Stoffwechsel" ;
+	a drw-model:WL .
+
+<B/31080hasStationOfLife2>
+	drw-model:began <Year/1876> ;
+	rdfs:label "Professor (1876 ao., 1885 o. Prof.) für Physiologie an der Physiko-mathematischen Fakultät der Universität Kazan’" ;
+	a drw-model:B .
+
+<P/31080hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: [Zefirov u. a.] (<b>SL</b>)." .
+
+<ImportantPerson/30924>
+	drw-model:hasID "30924" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/31080> .
+
+<SL/31080hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 261-262." .
+
+<MainName/31080hasMainName>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/31080_0> ;
+	rdfs:label "Vorošilov, Konstantin Vasil'evič" .
+
+<SL/31080hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 127." .
+
+<Place/31080DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Kazan’, Grabstätte: Klosterfriedhof „Spaso-Preobraženskij“" .
+
+<GPV/31080hasGPV0>
+	rdfs:label "Deutschsprachige und in deutschen Zeitschriften referierte russische Publikationen 1873-1879, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<Year/1876>
+	rdfs:label "1876" ;
+	a drw-model:Year .
+
+<W/31080hasW1>
+	rdfs:label "Četyre soobščenija: a) Sud’ba myl’, vvodimych v želudočno-kišečnyj kanal, b) O soderžanii glikogena v različnych organach, c) K voprosu o čuvstvujuščich i dvigatel’nych putjach v šejnoj časti spinnago mozga, d) O meste i sposobe prikreplenija myšečnych volokon, sostavljajuščich serdce. Protokoly Kazanskogo Obščestva estestvoispytatelej 55 (1877-1878)." ;
+	a drw-model:W .
+
+<Year/1872>
+	rdfs:label "1872" ;
+	a drw-model:Year .
+
+<Date/31080DiedOn>
+	a drw-model:Date ;
+	rdfs:label "3./15.12.1899" .
+

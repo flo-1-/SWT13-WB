@@ -1,0 +1,398 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30331hasSL5>
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 288." ;
+	a drw-model:SL .
+
+<B/30331hasStationOfLife9>
+	drw-model:began <Year/1921> ;
+	a drw-model:B ;
+	rdfs:label "o. Professor und Direktor des Pathologischen Instituts an der Universität Greifswald" .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<ImportantPerson/30331>
+	drw-model:hasSL <SL/30331hasSL8> ;
+	drw-model:hasStationOfLife <B/30331hasStationOfLife6> ;
+	drw-model:hasEducation <A/30331hasEducation3> ;
+	drw-model:hasSL <SL/30331hasSL2> ;
+	drw-model:hasEducation <A/30331hasEducation6> ;
+	drw-model:hasStationOfLife <B/30331hasStationOfLife12> ;
+	drw-model:DiedOn <Date/30331DiedOn> ;
+	drw-model:hasComment <Comment/30331hasComment5> ;
+	drw-model:wasMarriedTo <RelatedPerson/30331wasMarriedTo> ;
+	drw-model:hasSL <SL/30331hasSL4> ;
+	drw-model:hasWL <WL/30331hasWL1> ;
+	drw-model:motherIs <RelatedPerson/30331motherIs> ;
+	drw-model:hasStationOfLife <B/30331hasStationOfLife8> ;
+	drw-model:hasStationOfLife <B/30331hasStationOfLife3> ;
+	drw-model:hasEducation <A/30331hasEducation2> ;
+	drw-model:hasSL <SL/30331hasSL9> ;
+	drw-model:hasComment <Comment/30331hasComment4> ;
+	drw-model:hasStationOfLife <B/30331hasStationOfLife2> ;
+	drw-model:hasSL <SL/30331hasSL6> ;
+	drw-model:hasStationOfLife <B/30331hasStationOfLife4> ;
+	drw-model:hasEducation <A/30331hasEducation1> ;
+	drw-model:hasSL <SL/30331hasSL3> ;
+	drw-model:hasStationOfLife <B/30331hasStationOfLife7> ;
+	drw-model:wasBornIn <Place/30331wasBornIn> ;
+	drw-model:hasStationOfLife <B/30331hasStationOfLife5> ;
+	drw-model:hasDescendant <RelatedPerson/30331hasDescendant> ;
+	drw-model:hasStationOfLife <B/30331hasStationOfLife0> ;
+	drw-model:hasComment <Comment/30331hasComment3> ;
+	drw-model:hasStationOfLife <B/30331hasStationOfLife9> ;
+	drw-model:hasStationOfLife <B/30331hasStationOfLife10> ;
+	drw-model:hasW <W/30331hasW1> ;
+	drw-model:hasP <P/30331hasP0> ;
+	drw-model:hasEducation <A/30331hasEducation4> ;
+	drw-model:fatherIs <RelatedPerson/30331fatherIs> ;
+	drw-model:hasMainName <MainName/30331hasMainName> ;
+	drw-model:hasEducation <A/30331hasEducation0> ;
+	drw-model:hasID "30331" ;
+	drw-model:hasW <W/30331hasW4> ;
+	drw-model:hasP <P/30331hasP1> ;
+	drw-model:hasSL <SL/30331hasSL7> ;
+	drw-model:wasBornOn <Date/30331wasBornOn> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <W/30331hasW0> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30331hasHonoursAndAwards> ;
+	drw-model:hasEducation <A/30331hasEducation5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30331hasGeneralLabor0> ;
+	drw-model:hasWL <WL/30331hasWL0> ;
+	drw-model:hasComment <Comment/30331hasComment2> ;
+	drw-model:hasSL <SL/30331hasSL5> ;
+	drw-model:hasSL <SL/30331hasSL1> ;
+	drw-model:hasW <W/30331hasW3> ;
+	rdfs:label "Groß, Walter" ;
+	drw-model:hasGPV <GPV/30331hasGPV0> ;
+	drw-model:hasStationOfLife <B/30331hasStationOfLife11> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30331.jpg> ;
+	drw-model:hasStationOfLife <B/30331hasStationOfLife1> ;
+	drw-model:hasComment <Comment/30331hasComment1> ;
+	drw-model:hasConnectionTo <ImportantPerson/30785> ;
+	drw-model:hasW <W/30331hasW2> ;
+	drw-model:hasQ <Q/30331hasQ0> ;
+	drw-model:hasSL <SL/30331hasSL0> ;
+	drw-model:DiedIn <Place/30331DiedIn> .
+
+<SL/30331hasSL7>
+	rdfs:label "Vieten, Bernward: Medizinstudenten in Münster. Universität, Studentenschaft und Medizin 1905 bis 1945. Köln 1982, 255-262." ;
+	a drw-model:SL .
+
+<NameVariation/30331_0>
+	rdfs:label "Gross, Val’ter"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Гросс, Вальтер"@ru .
+
+<A/30331hasEducation6>
+	a drw-model:A ;
+	rdfs:label "Habilitation für Pathologie in Heidelberg" .
+
+<Place/30331wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Waldkirch (Baden)" .
+
+<Comment/30331hasComment2>
+	drw-model:hasNumber 2 ;
+	rdfs:label "NDB (<b>SL</b>)." ;
+	a drw-model:Comment .
+
+<Year/1921>
+	rdfs:label "1921" ;
+	a drw-model:Year .
+
+<Comment/30331hasComment4>
+	drw-model:hasNumber 4 ;
+	a drw-model:Comment ;
+	rdfs:label "Bei Fischer 1932, zit. n. WBIS DBA (<b>SL</b>), fälschlicherweise Promotion angegeben." .
+
+<A/30331hasEducation4>
+	a drw-model:A ;
+	drw-model:hasComment <Comment/30331hasComment4> ;
+	rdfs:label "Staatsexamen[4] an der Universität Heidelberg" .
+
+<ImportantPerson/30785>
+	drw-model:hasID "30785" ;
+	drw-model:hasConnectionTo <ImportantPerson/30331> ;
+	a drw-model:ImportantPerson .
+
+<Q/30331hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Universitätsarchiv der Westfälischen Wilhelms-Universität Münster: Akte Walter Groß, Bestand 5 Nr 72 [Bestand 10 Nr. 2289 seit Juni 2010 vermisst] Schriftliche Mitteilung vom 28.7.2011)." .
+
+<Year/1903>
+	rdfs:label "1903" ;
+	a drw-model:Year .
+
+<RelatedPerson/30331fatherIs>
+	rdfs:label "Ferdinand (* 1848), Fabrikdirektor in Kollnau" ;
+	a drw-model:RelatedPerson .
+
+<SL/30331hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Domagk [, Gerhard]: Walter Gross †. Deutsche medizinische Wochenschrift 59 (1933), 1683-1684." .
+
+<A/30331hasEducation1>
+	a drw-model:A ;
+	drw-model:began <Year/1896> ;
+	rdfs:label "Studium der Medizin in Lausanne (1 Semester), in Berlin (4 Semester) und in Heidelberg (7 Semester)" .
+
+<P/30331hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Lehrer der Heilkunde. In: Münchener medizinische Wochenschrift 80 (1933) Jubiläums-Beilage 1933, 81." .
+
+<B/30331hasStationOfLife3>
+	drw-model:began <Year/1906> ;
+	a drw-model:B ;
+	rdfs:label "Assistent in der II. Medizinischen Klinik der Universität München bei Friedrich von <span style='font-variant:small-caps;'>Müller</span> (1858-1941)" .
+
+<SL/30331hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Voswinckel, Peter (Hg.): Biographisches Lexikon der hervorragenden Ärzte der letzten fünfzig Jahre von Isidor Fischer †. Bände III-IV: Nachträge und Ergänzungen. 3. Bd. Hildesheim, Zürich, New York 2002, 549." .
+
+<A/30331hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Promotion zum Dr. med. in Heidelberg" .
+
+<B/30331hasStationOfLife7>
+	drw-model:began <Year/1914> ;
+	a drw-model:B ;
+	rdfs:label "im I. Weltkrieg Stabs- und Bataillonsarzt, ab 1917 Armeepathologe der I. Armee" .
+
+<B/30331hasStationOfLife1>
+	drw-model:began <Year/1903> ;
+	a drw-model:B ;
+	rdfs:label "Militärdienst als einjährig-freiwilliger Arzt" .
+
+<A/30331hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Studienaufenthalt bei I. P. <span style='font-variant:small-caps;'>Pavlov</span> in der physiologischen Abteilung des Instituts für Experimentelle Medizin (IEM) in St. Petersburg" .
+
+<SL/30331hasSL1>
+	rdfs:label "Deutsches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): II 483, 429-431; III 323, 21-23." ;
+	a drw-model:SL .
+
+<B/30331hasStationOfLife5>
+	rdfs:label "Privatdozent für gerichtliche Medizin an der Universität Heidelberg" ;
+	drw-model:began <Year/1912> ;
+	a drw-model:B .
+
+<Year/1914>
+	rdfs:label "1914" ;
+	a drw-model:Year .
+
+<Year/1917>
+	rdfs:label "1917" ;
+	a drw-model:Year .
+
+<Year/1905>
+	rdfs:label "1905" ;
+	a drw-model:Year .
+
+<Year/1896>
+	rdfs:label "1896" ;
+	a drw-model:Year .
+
+<W/30331hasW4>
+	rdfs:label "Pathologische Anatomie der Typhus- und Paratyphusbazillenausscheider. Jena 1931 (Studien über die Pathologie und Therapie der Typhus- und Paratyphusbazillenausscheider 3), 30 S." ;
+	a drw-model:W .
+
+<W/30331hasW2>
+	rdfs:label "K fiziologii pepsinovych želez. Trudy Obščestva russkich vračej (1906), Febr[5]." ;
+	a drw-model:W ;
+	drw-model:hasComment <Comment/30331hasComment5> .
+
+<MainName/30331hasMainName>
+	a drw-model:MainName ;
+	rdfs:label "Groß, Walter" ;
+	drw-model:hasNameVariation <NameVariation/30331_1> ;
+	drw-model:hasNameVariation <NameVariation/30331_0> .
+
+<SL/30331hasSL4>
+	rdfs:label "Klinge, F.: Walter Groß, 12.I.1878 – 14.IX.1933. Verhandlungen der Deutschen Pathologischen Gesellschaft 27 (1934), 349-351." ;
+	a drw-model:SL .
+
+<SL/30331hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Gruber, Georg B.: Groß, Walter. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. 7 (1966), 145-146 (Onlinefassung: http://www.deutsche-biographie.de/pnd136140971.html, 6.7.2011)." .
+
+<W/30331hasW1>
+	rdfs:label "Beitrag zur Kenntnis der Sekretionsbedingungen des Magens nach Versuchen am Hund. Archiv für Verdauungskrankheiten 12 (1906), 507-516; russ. Titel: Vklad v predstavlenija ob uslovijach sekrecii želudka po rezul’tatam issledovanij na sobake." ;
+	a drw-model:W .
+
+<GeneralLabor/30331hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Pathologie" .
+
+<Year/1918_Sept_Dez>
+	rdfs:label "1918 (Sept.-Dez.)" ;
+	a drw-model:Year .
+
+<SL/30331hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 113-114." .
+
+<Comment/30331hasComment5>
+	drw-model:hasNumber 5 ;
+	a drw-model:Comment ;
+	rdfs:label "Vortrag „Zur Physiologie der Pepsindrüsen“, gehalten in der Versammlung der Gesellschaft russischer Ärzte St. Petersburg am 23.2.1906. Vgl. Pfrepper 2009 (<b>SL</b>) und I. P. Pavlov: Polnoe sobranie sočinenij. T. 6. Moskva, Leningrad 1952, 249: Vystuplenie v prenijach po dokladu V. Grossa „K fiziologii pepsinovych želez“." .
+
+<WL/30331hasWL0>
+	rdfs:label "Gründer des Pathologischen Instituts an der Universität Münster" ;
+	a drw-model:WL .
+
+<Place/30331DiedIn>
+	a drw-model:Place ;
+	drw-model:hasComment <Comment/30331hasComment3> ;
+	rdfs:label "Münster (Westfalen)[3]" .
+
+<B/30331hasStationOfLife0>
+	a drw-model:B ;
+	rdfs:label "Assistent in der Kinderklinik der Universität Heidelberg bei Oswald <span style='font-variant:small-caps;'>Vierordt</span> (1856-1906)" .
+
+<NameVariation/30331_1>
+	rdfs:label "Groß, Walter/Walther" ;
+	a drw-model:NameVariation .
+
+<B/30331hasStationOfLife11>
+	rdfs:label "Dekan der Medizinischen Fakultät an der UniversitätMünster" ;
+	drw-model:began <Year/1926> ;
+	a drw-model:B .
+
+<Comment/30331hasComment3>
+	a drw-model:Comment ;
+	rdfs:label "Freitod aufgrund einer nationalsozialistischen Verleumdungskampagne an der Universität Münster. Ausführlich dazu in Vieten 1982 (<b>SL</b>)." ;
+	drw-model:hasNumber 3 .
+
+<Year/1908>
+	rdfs:label "1908" ;
+	a drw-model:Year .
+
+<B/30331hasStationOfLife12>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<B/30331hasStationOfLife10>
+	drw-model:began <Year/1924> ;
+	rdfs:label "o. Professor und Direktor des Pathologischen Institutsan der Universität Münster" ;
+	a drw-model:B .
+
+<Year/Bis_1896>
+	rdfs:label "Bis 1896" ;
+	a drw-model:Year .
+
+<SL/30331hasSL0>
+	rdfs:label "Deutsche Biographische Enzyklopädie. Hrsg. v. Walther Killy und Rudolf Vierhaus. Bd. 1-10. München u. a. 1995-1999, . Bd. 4. München u. a. 1996, 193." ;
+	a drw-model:SL .
+
+<P/30331hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait aus: Voswinckel (Hg.) 2002 (<b>SL</b>), Bildeinlage zw. S. 390-391 (Abb. 38)." .
+
+<B/30331hasStationOfLife8>
+	drw-model:began <Year/1918_Sept_Dez> ;
+	a drw-model:B ;
+	rdfs:label "Vorlesungen in allgemeiner Pathologie und pathologischer Anatomie an der Universität Dorpat" .
+
+<Comment/30331hasComment1>
+	a drw-model:Comment ;
+	rdfs:label "Klinge 1934, Pfrepper 2009 und Vieten 1982 (<b>SL</b>); Universitätsarchiv (<b>Q</b>).
+ Cornelia Wegeler: „…wir sagen ab der internationalen Gelehrtenrepublik“. Wien, Köln, Weimar 1996, 204." ;
+	drw-model:hasNumber 1 .
+
+<Year/1924>
+	rdfs:label "1924" ;
+	a drw-model:Year .
+
+<Date/30331wasBornOn>
+	rdfs:label "12.1.1878" ;
+	a drw-model:Date .
+
+<A/30331hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Besuch der Gymnasien in Freiburg i. Br. und Augsburg" ;
+	drw-model:began <Year/Bis_1896> .
+
+<B/30331hasStationOfLife2>
+	rdfs:label "erneut Studienaufenthalt bei <span style='font-variant:small-caps;'>Pavlov</span> in St. Petersburg" ;
+	a drw-model:B ;
+	drw-model:began <Year/1905> .
+
+<Year/1902>
+	rdfs:label "1902" ;
+	a drw-model:Year .
+
+<B/30331hasStationOfLife6>
+	a drw-model:B ;
+	rdfs:label "ao. Professor an der Universität Heidelberg" ;
+	drw-model:began <Year/1917> .
+
+<RelatedPerson/30331wasMarriedTo>
+	rdfs:label "Margarethe, geb. Schmitzdorf(f) (1882-1965), Ärztin" ;
+	a drw-model:RelatedPerson .
+
+<SL/30331hasSL8>
+	rdfs:label "Vinogradov, Jurij Abramovič, Golikov, Jurij Pavlovič, Grekova, Tat’jana Ivanovna (Sostaviteli): I. P. Pavlov: Dostovernost’ i polnota biografii. Sankt-Peterburg 2005, 135." ;
+	a drw-model:SL .
+
+<A/30331hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1902> ;
+	rdfs:label "Assistent am Pathologischen Institut der Universität Heidelberg bei Julius <span style='font-variant:small-caps;'>Arnold</span> (1835-1915)" .
+
+<HonoursAndAwards/30331hasHonoursAndAwards>
+	rdfs:label "1906 Pavlov-Preis (Gesellschaft russischer Ärzte St. Petersburg)<br>Eisernes Kreuz 2. Klasse<br>Bayerischer Militär-Verdienst-Orden 4. Klasse" ;
+	a drw-model:HonoursAndAwards .
+
+<Date/30331DiedOn>
+	a drw-model:Date ;
+	drw-model:hasComment <Comment/30331hasComment1> ;
+	drw-model:hasComment <Comment/30331hasComment2> ;
+	rdfs:label "14.9.(Sept.)[1][nicht 11.(Nov.)[2]]1933" .
+
+<RelatedPerson/30331motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Bertha, geb. Doll (* 1855)" .
+
+<Year/1926>
+	rdfs:label "1926" ;
+	a drw-model:Year .
+
+<Year/1906>
+	rdfs:label "1906" ;
+	a drw-model:Year .
+
+<W/30331hasW3>
+	rdfs:label "Experimentelle Untersuchungen über den Zusammenhang zwischen histologischen Veränderungen und Funktionsstörungen der Nieren. Habil.-Schr. Univ. Heidelberg. Freiburg i. B. 1911, 50 S. = Beiträge zur pathologischen Anatomie und zur allgemeinen Pathologie 51 (1911) H. 3." ;
+	a drw-model:W .
+
+<B/30331hasStationOfLife4>
+	rdfs:label "Assistent am Pathologischen Institut der Universität Heidelberg bei Paul <span style='font-variant:small-caps;'>Ernst</span> (1859-1937)" ;
+	drw-model:began <Year/1908> ;
+	a drw-model:B .
+
+<WL/30331hasWL1>
+	rdfs:label "Forschungsthemen: Pathologie, Physiologie und Histologie der Niere und Leber, pathologische Anatomie des Zentralnervensystems, mikroskopische Färbetechnik" ;
+	a drw-model:WL .
+
+<W/30331hasW0>
+	rdfs:label "Ein Fall von Agenesie der linken Lunge. Diss. Univ. Heidelberg. Jena 1905, 17 S." ;
+	a drw-model:W .
+
+<Year/1912>
+	rdfs:label "1912" ;
+	a drw-model:Year .
+
+<RelatedPerson/30331hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "2 Söhne [Namen unbekannt]" .
+
+<GPV/30331hasGPV0>
+	rdfs:label "Verzeichnis der Arbeiten von W. Groß (1904-1930, 22 Nrn.), in: Klinge 1934 (<b>SL</b>)." ;
+	a drw-model:GPV .
+

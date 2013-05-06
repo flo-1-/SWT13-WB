@@ -1,0 +1,425 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<WL/31078hasWL3>
+	rdfs:label "<i>Fenomen Voroncova</i> [Woronzow Phänomen] (Wiederherstellung der unter dem Einfluss von monovalenten Kationen verlorenen Erregbarkeit der Nerven mittels Anode und der unter Verwendung von zweiwertigen Kationen hervorgerufenen Veränderung der Erregbarkeit mittels Kathode)" ;
+	a drw-model:WL .
+
+<SL/31078hasSL9>
+	a drw-model:SL ;
+	rdfs:label "[Zum 80. Geburtstag] Do 80-riččja z dnja naroždennja akademika AN URSR D. S. Voroncova. Fiziolohičnyj žurnal 12 (1966) 6, 703-708." .
+
+<WGermanPublication/31078hasWGermanPublication10>
+	rdfs:label "Der Einfluß der Ermüdung auf die absolute Refraktärphase des Nerven. Pflüger’s Archiv für die gesamte Physiologie des Menschen und der Tiere 235 (1935) 1, 96-102." ;
+	a drw-model:WGermanPublication .
+
+<ImportantPerson/31078>
+	drw-model:hasStationOfLife <B/31078hasStationOfLife4> ;
+	drw-model:hasWGermanPublication <WGermanPublication/31078hasWGermanPublication8> ;
+	drw-model:hasSL <SL/31078hasSL5> ;
+	drw-model:hasMG <MG/31078hasMG> ;
+	drw-model:hasWL <WL/31078hasWL3> ;
+	drw-model:hasWGermanPublication <WGermanPublication/31078hasWGermanPublication9> ;
+	drw-model:hasStationOfLife <B/31078hasStationOfLife0> ;
+	drw-model:hasComment <Comment/31078hasComment4> ;
+	drw-model:DiedOn <Date/31078DiedOn> ;
+	drw-model:hasWGermanPublication <WGermanPublication/31078hasWGermanPublication1> ;
+	drw-model:hasEducation <A/31078hasEducation1> ;
+	drw-model:wasBornIn <Place/31078wasBornIn> ;
+	drw-model:hasComment <Comment/31078hasComment3> ;
+	drw-model:hasSL <SL/31078hasSL4> ;
+	drw-model:hasStationOfLife <B/31078hasStationOfLife7> ;
+	drw-model:DiedIn <Place/31078DiedIn> ;
+	drw-model:hasSL <SL/31078hasSL3> ;
+	drw-model:hasWGermanPublication <WGermanPublication/31078hasWGermanPublication0> ;
+	drw-model:hasEducation <A/31078hasEducation2> ;
+	drw-model:hasW <W/31078hasW2> ;
+	drw-model:hasSL <SL/31078hasSL2> ;
+	drw-model:hasWGermanPublication <WGermanPublication/31078hasWGermanPublication3> ;
+	drw-model:hasWL <WL/31078hasWL2> ;
+	drw-model:hasSL <SL/31078hasSL1> ;
+	drw-model:hasGPV <GPV/31078hasGPV0> ;
+	drw-model:hasComment <Comment/31078hasComment5> ;
+	drw-model:hasStationOfLife <B/31078hasStationOfLife9> ;
+	drw-model:hasSL <SL/31078hasSL8> ;
+	drw-model:hasEducation <A/31078hasEducation3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31078hasGeneralLabor0> ;
+	drw-model:hasWL <WL/31078hasWL0> ;
+	drw-model:hasWL <WL/31078hasWL4> ;
+	drw-model:hasWGermanPublication <WGermanPublication/31078hasWGermanPublication2> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/31078.jpg> ;
+	drw-model:hasWGermanPublication <WGermanPublication/31078hasWGermanPublication10> ;
+	drw-model:hasComment <Comment/31078hasComment6> ;
+	drw-model:wasBornOn <Date/31078wasBornOn> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/31078hasHonoursAndAwards> ;
+	drw-model:hasComment <Comment/31078hasComment1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/31078hasWGermanPublication6> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasWL <WL/31078hasWL1> ;
+	drw-model:hasMainName <MainName/31078hasMainName> ;
+	drw-model:hasWGermanPublication <WGermanPublication/31078hasWGermanPublication5> ;
+	drw-model:hasP <P/31078hasP2> ;
+	drw-model:hasSL <SL/31078hasSL9> ;
+	drw-model:hasW <W/31078hasW3> ;
+	drw-model:hasStationOfLife <B/31078hasStationOfLife5> ;
+	drw-model:fatherIs <RelatedPerson/31078fatherIs> ;
+	drw-model:hasSL <SL/31078hasSL6> ;
+	drw-model:hasComment <Comment/31078hasComment2> ;
+	drw-model:hasW <W/31078hasW0> ;
+	drw-model:hasStationOfLife <B/31078hasStationOfLife1> ;
+	drw-model:hasSL <SL/31078hasSL0> ;
+	drw-model:hasWGermanPublication <WGermanPublication/31078hasWGermanPublication4> ;
+	drw-model:hasStationOfLife <B/31078hasStationOfLife6> ;
+	drw-model:hasConnectionTo <ImportantPerson/30220> ;
+	drw-model:hasSL <SL/31078hasSL7> ;
+	drw-model:hasP <P/31078hasP1> ;
+	drw-model:hasStationOfLife <B/31078hasStationOfLife3> ;
+	drw-model:hasW <W/31078hasW1> ;
+	drw-model:hasConnectionTo <ImportantPerson/31083> ;
+	rdfs:label "Voroncov, Daniil Semenovič" ;
+	drw-model:hasStationOfLife <B/31078hasStationOfLife8> ;
+	drw-model:hasEducation <A/31078hasEducation0> ;
+	drw-model:hasID "31078" ;
+	drw-model:hasP <P/31078hasP0> ;
+	drw-model:hasStationOfLife <B/31078hasStationOfLife2> ;
+	drw-model:hasWGermanPublication <WGermanPublication/31078hasWGermanPublication7> .
+
+<B/31078hasStationOfLife4>
+	a drw-model:B ;
+	rdfs:label "Professor und Leiter des Lehrstuhls für Physiologie am Medizinischen Institut in Kiev" ;
+	drw-model:began <Year/1935> .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<B/31078hasStationOfLife0>
+	drw-model:began <Year/1914> ;
+	rdfs:label "Assistent am Lehrstuhl für Physiologie an den Höheren Kursen für Frauen (<i>Bestuževskie kursy</i>) in St. Petersburg" ;
+	a drw-model:B .
+
+<NameVariation/31078_2>
+	a drw-model:NameVariation ;
+	rdfs:label "Woronzow, D."@de .
+
+<B/31078hasStationOfLife6>
+	rdfs:label "Vorlesungen in Physiologie an der Veterinärmedizinischen Fakultät des Landwirtschaftlichen Instituts in Bela Cer’kov" ;
+	drw-model:began <Year/1944> ;
+	a drw-model:B .
+
+<Comment/31078hasComment2>
+	drw-model:hasNumber 2 ;
+	rdfs:label "<b>SL</b> BSĖ 2, zit. n. WBIS RBA, Makarov 1966, Zadorožnyj 1987 und Trifonjuk 2008." ;
+	a drw-model:Comment .
+
+<WGermanPublication/31078hasWGermanPublication3>
+	rdfs:label "Über die positive Nachschwankung des Nervenstroms. Ibid. 206 (1924) 1, 1-19." ;
+	a drw-model:WGermanPublication .
+
+<B/31078hasStationOfLife2>
+	rdfs:label "Professor, Gründer und Leiter des Lehrstuhls für Physiologie an der Universität Smolensk" ;
+	a drw-model:B ;
+	drw-model:began <Year/1922> .
+
+<RelatedPerson/31078fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Semen, Bauer" .
+
+<W/31078hasW0>
+	rdfs:label "Analiz ėlektrogrammy serdca ljaguški. Diss. Mag. Odessa 1917, 163 S." ;
+	a drw-model:W .
+
+<MG/31078hasMG>
+	a drw-model:MG ;
+	rdfs:label "Akademija nauk Ukrainskoj SSR [Akademie der Wissenschaften der Ukrainischen SSR] (1939 und 1957), Ukrajins’koe tovarystvo fiziolohiv [Ukrainische Physiologen-Gesellschaft] (Vorsitzender)" .
+
+<W/31078hasW2>
+	a drw-model:W ;
+	rdfs:label "Obščaja ėlektrofiziologia. Moskva 1961, 488 S." .
+
+<WL/31078hasWL1>
+	rdfs:label "Forschungsgebiete: Physiologie des Nervensystems und Elektrophysiologie" ;
+	a drw-model:WL .
+
+<B/31078hasStationOfLife9>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<Year/1944>
+	rdfs:label "1944" ;
+	a drw-model:Year .
+
+<Year/1956>
+	rdfs:label "1956" ;
+	a drw-model:Year .
+
+<Place/31078wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Gehöft Rogožna nahe Propojsk, Gouvernement Mogilev, Weißrussland" .
+
+<SL/31078hasSL6>
+	rdfs:label "Zadorožnyj, A. G.: K 100-letiju so dnja roždenija D. S. Voroncova. Fiziologičeskij žurnal SSSR imeni I. M. Sečenova 73 (1987) 4, 561-563." ;
+	a drw-model:SL .
+
+<Place/31078DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Kiev" .
+
+<SL/31078hasSL8>
+	rdfs:label "[Zefirov, Andrej L’vovič u. a.:] Kazanskaja fiziologičeskaja škola na rubeže vekov. Kazanskij gosudarstvennyj universitet (1804-1917 gg.). Kafedra fiziologii fiziko-matematičeskogo fakul’teta (http://www.kcn.ru/tat_ru/science/fiziologi/kgu_fizmat.htm, 22.3.2011)." ;
+	a drw-model:SL .
+
+<Year/1935>
+	rdfs:label "1935" ;
+	a drw-model:Year .
+
+<P/31078hasP0>
+	a drw-model:P ;
+	rdfs:label "Foto (Abb.) aus: [Zefirov, Andrej L’vovič u. a.] (<b>SL</b>); auch in <b>SL</b>: [Nekrolog], [Zum 80. Geburtstag], Zadorožnyj 1987." .
+
+<WL/31078hasWL4>
+	rdfs:label "Redaktionsmitglied von <i>Fiziologičeskij žurnal SSSR imeni I. M. Sečenova</i>" ;
+	a drw-model:WL .
+
+<A/31078hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Mag. zool., vergl. anat. u. physiol. an der Novorossijskij-Universität Odessa" .
+
+<SL/31078hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 59, 67, 74." .
+
+<SL/31078hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Makarov, P. O.: Z žyttja D. S. Voroncova. Fiziolohičnyj žurnal 12 (1966) 6, 709-711." .
+
+<NameVariation/31078_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Voroncov, Danylo Semenovyč (ukrain.)" .
+
+<Comment/31078hasComment4>
+	a drw-model:Comment ;
+	drw-model:hasNumber 4 ;
+	rdfs:label "<b>SL</b> Trofimov/Fudel’-Osipova/Kostjuk 1956 und Makarov 1966." .
+
+<Comment/31078hasComment6>
+	a drw-model:Comment ;
+	drw-model:hasNumber 6 ;
+	rdfs:label "BSĖ 2, zit. n. WBIS RBA (<b>SL</b>)." .
+
+<WGermanPublication/31078hasWGermanPublication5>
+	rdfs:label "Über die Einwirkung des konstanten Stromes auf den alterierten Nerven. III. Einwirkung des konstanten Stromes auf den mit Alkali-, Säure-, Zinkchlorid-, Eisenchlorid-, und Aluminiumchloridlösungen behandelten Nerven. Pflüger’s Archiv für die gesamte Physiologie des Menschen und der Tiere 210 (1925) 1, 672-688." ;
+	a drw-model:WGermanPublication .
+
+<A/31078hasEducation1>
+	a drw-model:A ;
+	drw-model:began <Year/1907> ;
+	rdfs:label "Studium an der naturwissenschaftlichen Abteilung der Physiko-mathematischen Fakultät der Universität St. Petersburg" .
+
+<A/31078hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1912> ;
+	rdfs:label "Weiterbildung am Lehrstuhl für Physiologie an der Universität St. Petersburg bei Aleksandr Stanislavovič <span style='font-variant:small-caps;'>Dogel'</span> (1852-1922) und N. E. <span style='font-variant:small-caps;'>Vvedenskij</span>" .
+
+<Date/31078wasBornOn>
+	rdfs:label "11./23.[1] oder 12./24.[2] oder 26.[3]12.1886" ;
+	a drw-model:Date ;
+	drw-model:hasComment <Comment/31078hasComment2> ;
+	drw-model:hasComment <Comment/31078hasComment1> ;
+	drw-model:hasComment <Comment/31078hasComment3> .
+
+<SL/31078hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Trifonjuk, R[uslan] O[leksiovič]: Akademik D. S. Voroncov (1886-1965) – osnovopoložnyk vitčyznjanoji elektrofiziologiji. Istoryčni zapysky. Zbirnyk naukovych prac 20 (2008), 1-7 (http://www.nbuv.gov.ua/portal/Soc_Gum/Istz/2008_20/tpifonjuk.pdf, 25.5.20111)." .
+
+<B/31078hasStationOfLife7>
+	drw-model:began <Year/1945> ;
+	rdfs:label "Vorlesungen in Physiologie am Institut für Körperkultur in Kiev" ;
+	a drw-model:B .
+
+<Comment/31078hasComment1>
+	a drw-model:Comment ;
+	drw-model:hasNumber 1 ;
+	rdfs:label "Estestvoznanie, zit. n. WBIS RBA (<b>SL</b>)." .
+
+<B/31078hasStationOfLife5>
+	rdfs:label "Professor und Leiter des Lehrstuhls für Physiologie an der Universität Kiev" ;
+	drw-model:began <Year/1944> ;
+	a drw-model:B .
+
+<P/31078hasP2>
+	a drw-model:P ;
+	rdfs:label "Foto in: Trofimov/Fudel’-Osipova/Kostjuk 1956 (<b>SL</b>)." .
+
+<WGermanPublication/31078hasWGermanPublication7>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Beobachtungen über das Refraktärstadium des Nerven. 1. [Mitteilung]. Das Refraktärstadium des cocainisierten Nerven. Pflüger’s Archiv für die gesamte Physiologie des Menschen und der Tiere 218 (1928) 1, 148-168; ~ II. Veränderungen des Refraktärstadiums bei der Einwirkung von ein- und zweiwertigen Kationen auf den Nerven. Ibid., 716-735; ~ III. Mitteilung Einwirkung des einzelnen Kat- oder Anelektrotonus des Induktionsstroms auf das Refraktärstadium des normalen Nerven. Ibid. 221 (1929) 1, 775-786; ~ IV. Mitteilung. Beobachtungen mittels des konstanten Stromes. Ibid. 222 (1929) 1, 159-174; ~ V. Mitteilung. Beobachtungen über die Aktionsströme des Nerven und Muskels bei Reizung des Nerven mit dem konstanten Strom. Mit N. A. Judenitsch. Ibid. 224 (1930) 1, 80-99; ~ VI. Mitteilung. Aktionsströme des Muskels und Nerven bei unipolaren Einwirkungen des Induktionsstroms auf die Nervenerregung. Mit N. Judenitsch. Ibid. 224 (1930) 1, 490-510." .
+
+<B/31078hasStationOfLife1>
+	rdfs:label "Assistent, Privatdozent und Professor an der Universität Odessa" ;
+	a drw-model:B ;
+	drw-model:began <Year/1916> .
+
+<Comment/31078hasComment3>
+	a drw-model:Comment ;
+	rdfs:label "[Zum 80. Geburtstag] (<b>SL</b>)." ;
+	drw-model:hasNumber 3 .
+
+<NameVariation/31078_3>
+	rdfs:label "Woronzow, S."@de ;
+	a drw-model:NameVariation .
+
+<Year/1945>
+	rdfs:label "1945" ;
+	a drw-model:Year .
+
+<WGermanPublication/31078hasWGermanPublication9>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Über die Erregungsleitung im narkotisierten Nerven. Pflüger’s Archiv für die gesamte Physiologie des Menschen und der Tiere 227 (1931) 1, 132-159." .
+
+<Year/1930>
+	rdfs:label "1930" ;
+	a drw-model:Year .
+
+<P/31078hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto in: Serkov 1995 (<b>SL</b>)." .
+
+<WGermanPublication/31078hasWGermanPublication6>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Über die Einwirkung des konstanten Stroms auf den alterierten Nerven. IV: Reizende Wirkung der Schließung und der Öffnung des konstanten Stroms auf den mit ein- und zweiwertigen Kationen behandelten Nerven. Pflüger’s Archiv für die gesamte Physiologie des Menschen und der Tiere 216 (1927) 1, 32-64." .
+
+<B/31078hasStationOfLife3>
+	drw-model:began <Year/1930> ;
+	a drw-model:B ;
+	rdfs:label "Professor und Leiter des Lehrstuhls für Physiologie an der Physiko-mathematischen Fakultät der Universität und am Medizinischen Institut in Kazan’" .
+
+<W/31078hasW1>
+	rdfs:label "Narysy z istoriji fiziolohiji na Ukrajini. Mit V. M. Nikityn und P[ilip] M[ikolajovyč] Sjerkov [F. N. Serkov]. Kijiv 1959, 253 S." ;
+	a drw-model:W .
+
+<ImportantPerson/30220>
+	drw-model:hasConnectionTo <ImportantPerson/31078> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30220" .
+
+<SL/31078hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 105, 341; SU 96, 211-215." .
+
+<WL/31078hasWL0>
+	rdfs:label "Begründer der Schule der Neuro- und Elektrophysiologen an der Universität Kiev" ;
+	a drw-model:WL .
+
+<W/31078hasW3>
+	rdfs:label "Fizičeskij ėlektroton nervov i myšc. Mit Michail Fedorovič Šuba. Kiev 1966, 212 S." ;
+	a drw-model:W .
+
+<SL/31078hasSL5>
+	rdfs:label "Trofimov, L. G., Fudel’-Osipova, S. I., Kostjuk, P. G.: Daniil Semenovič Voroncov. K semidesjatiletiju so dnja roždenija. Fiziologičeskij žurnal SSSR imeni I. M. Sečenova 42 (1956) 11, 1004-1005." ;
+	a drw-model:SL .
+
+<ImportantPerson/31083>
+	drw-model:hasConnectionTo <ImportantPerson/31078> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "31083" .
+
+<GeneralLabor/31078hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Neuro- und Elektrophysiologie" .
+
+<B/31078hasStationOfLife8>
+	drw-model:began <Year/1956> ;
+	rdfs:label "Gründer und Leiter des Laboratoriums für Elektro-physiologie am Institut für Physiologie der Akademie der Wissenschaften der Ukrainischen SSR in Kiev" ;
+	a drw-model:B .
+
+<SL/31078hasSL7>
+	a drw-model:SL ;
+	rdfs:label "[Nekrolog] Fiziologičeskij žurnal SSSR imeni I. M. Sečenova 52 (1966) 1, 118-119." .
+
+<Date/31078DiedOn>
+	drw-model:hasComment <Comment/31078hasComment5> ;
+	a drw-model:Date ;
+	drw-model:hasComment <Comment/31078hasComment4> ;
+	rdfs:label "12.6.[4] oder 12.[5] oder 21.[6]7.1965" ;
+	drw-model:hasComment <Comment/31078hasComment6> .
+
+<WGermanPublication/31078hasWGermanPublication0>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Veränderungen der T-Zacke im V. E. G. (Ventrikelelektrogramm) in Abhängigkeit von der Lage der ableitenden Elektroden am Herzen. (Vorläufige Mitteilung). Zentralblatt für Physiologie 28 (1914) 6, 305-308." .
+
+<Year/1907>
+	rdfs:label "1907" ;
+	a drw-model:Year .
+
+<WGermanPublication/31078hasWGermanPublication1>
+	rdfs:label "Formveränderungen des V.-E.-G.s in Abhängigkeit von der Lage der ableitenden Elektroden am Herzen. Pflüger’s Archiv für die gesamte Physiologie des Menschen und der Tiere 160 (1914) 11/12, 581-605." ;
+	a drw-model:WGermanPublication .
+
+<WL/31078hasWL2>
+	rdfs:label "Nach ihm ist benannt:" ;
+	a drw-model:WL .
+
+<Year/1922>
+	rdfs:label "1922" ;
+	a drw-model:Year .
+
+<WGermanPublication/31078hasWGermanPublication2>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Über die Einwirkung des konstanten Stromes auf den mit Wasser, Zuckerlösung, Alkali- und Erdalkalichloridlösungen behandelten Nerven. Pflüger’s Archiv für die gesamte Physiologie des Menschen und der Tiere 203 (1924) 1, 300-318." .
+
+<WGermanPublication/31078hasWGermanPublication8>
+	rdfs:label "Zur Analyse der A. Fickschen „Lücken“. Mit N. Judenitsch und P. Makaroff. Pflüger’s Archiv für die gesamte Physiologie des Menschen und der Tiere 226 (1931) 1, 113-137." ;
+	a drw-model:WGermanPublication .
+
+<HonoursAndAwards/31078hasHonoursAndAwards>
+	rdfs:label "1978 Gedenkband: <i>Sovremennye problemy obščej fiziologii vozbudimych obrazovanij. Sbornik rabot, posvjaščennyj pamjati akademika AN USSR D. S. Voroncova.</i> Red. Platon Grigor’evič Kostjuk. Kiev 1978, 196 S.<br>1986 1. Allunionskonferenz der Neurowissenschaften anlässlich seines 100. Geburtstages am 2.-4. Dezember in Kiev<br>Seit 2001 D. S. Voroncov-Stipendium (O. O. Bogomolec-Institut für Physiologie der Nationalakademie der Wissenschaften der Ukraine)" ;
+	a drw-model:HonoursAndAwards .
+
+<WGermanPublication/31078hasWGermanPublication4>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Wie schnell stellt der konstante Strom die Leitungsfähigkeit des mit einigen Salzen behandelten Nerven wieder her? Pflüger’s Archiv für die gesamte Physiologie des Menschen und der Tiere 207 (1925) 1, 279-286." .
+
+<NameVariation/31078_1>
+	a drw-model:NameVariation ;
+	rdfs:label "Woronzow, D. S."@de .
+
+<Year/1916>
+	rdfs:label "1916" ;
+	a drw-model:Year .
+
+<GPV/31078hasGPV0>
+	rdfs:label "Spisok rabot (137 Nrn.), in: Filipp Nikolaevič Serkov: Daniil Semenovič Voroncov. Kiev 1986, 119-126. [In Deutschland nicht zugänglich.]" ;
+	a drw-model:GPV .
+
+<SL/31078hasSL3>
+	rdfs:label "Serkov, Filipp Nikolaevič: Daniil Semenovich Vorontsov (1886-1965). Neurophysiology 27 (1995) 3, 189-190." ;
+	a drw-model:SL .
+
+<Year/1912>
+	rdfs:label "1912" ;
+	a drw-model:Year .
+
+<Comment/31078hasComment5>
+	drw-model:hasNumber 5 ;
+	a drw-model:Comment ;
+	rdfs:label "<b>SL</b> [Nekrolog] und Trifonjuk 2008." .
+
+<Year/1914>
+	rdfs:label "1914" ;
+	a drw-model:Year .
+
+<MainName/31078hasMainName>
+	drw-model:hasNameVariation <NameVariation/31078_3> ;
+	drw-model:hasNameVariation <NameVariation/31078_0> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/31078_1> ;
+	rdfs:label "Voroncov, Daniil Semenovič" ;
+	drw-model:hasNameVariation <NameVariation/31078_2> .
+
+<A/31078hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Abschluss des Gymnasiums in Mogilev" .
+

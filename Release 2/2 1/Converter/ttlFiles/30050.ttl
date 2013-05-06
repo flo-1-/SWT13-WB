@@ -1,0 +1,283 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<GPV/30050hasGPV0>
+	rdfs:label "Publikationen 1864-1886, in: Singer, zit. n. WBIS JBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<SL/30050hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Minerva. Jahrbuch der Universitäten der Welt. Hg. von Richard Kukula und Karl J. Trübner. Erster Jg. 1891-1892. Strassburg 1891, 213." .
+
+<NameVariation/30050_1>
+	a drw-model:NameVariation ;
+	rdfs:label "Bakst, Noa"@de .
+
+<SL/30050hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Jüdisches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 114, 189-203; IS 15, 334-336." .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<GPV/30050hasGPV2>
+	rdfs:label "Deutschsprachige Publikationen 1867-1878, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<ImportantPerson/30664>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30050> ;
+	drw-model:hasID "30664" .
+
+<SL/30050hasSL7>
+	rdfs:label "Česnakova [Im Original Druckfehler, es muss heißen: Česnokova], Sof’ja Aleksandrovna, Lindemann, Marianne: Russische Physiologen in Laboratorien von Carl Ludwig. Wissenschaftliche Zeitschrift der Karl-Marx-Universität Leipzig, Mathematisch-naturwissenschaftliche Reihe 19 (1970), 316." ;
+	a drw-model:SL .
+
+<Q/30050hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Reči, proiznesennye v publičnom sobranii Obščestva remeslennogo i zemledel’českogo truda sredi ebree v Rossii 21-go dekabrja 1908 goda, posvjaščennom pamjati Nikolaja Ignat’eviča Baksta. Sankt-Peterburg 1909, 34 S." .
+
+<WTranslations/30050hasWTranslations0>
+	a drw-model:WTranslations ;
+	rdfs:label "[Oesterlen, Friedrich von: Der Mensch und seine physische Erhaltung. Leipzig 1859] Ėsterlen, Fridrich: Čelovek i sochranenie ego zdorovja. Sankt-Peterburg 1863, Teil 1." .
+
+<WTranslations/30050hasWTranslations2>
+	rdfs:label "[Odling, William: A manual of chemistry, descriptive and theoretical. London] Životnaja chimija. Sankt-Peterburg 1867, 149 S." ;
+	a drw-model:WTranslations .
+
+<NameVariation/30050_3>
+	a drw-model:NameVariation ;
+	rdfs:label "Bakst, Nikolaj Isaakowitsch"@de .
+
+<ImportantPerson/30050>
+	drw-model:hasSL <SL/30050hasSL5> ;
+	drw-model:hasConnectionTo <ImportantPerson/30664> ;
+	drw-model:hasSL <SL/30050hasSL2> ;
+	drw-model:hasConnectionTo <ImportantPerson/30366> ;
+	drw-model:hasW <W/30050hasW0> ;
+	drw-model:hasID "30050" ;
+	drw-model:hasGeneralLabor <GeneralLabor/30050hasGeneralLabor2> ;
+	drw-model:hasStationOfLife <B/30050hasStationOfLife2> ;
+	drw-model:hasEducation <A/30050hasEducation0> ;
+	drw-model:hasWL <WL/30050hasWL0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30050hasGeneralLabor1> ;
+	drw-model:hasWTranslations <WTranslations/30050hasWTranslations3> ;
+	drw-model:hasMainName <MainName/30050hasMainName> ;
+	drw-model:hasGPV <GPV/30050hasGPV1> ;
+	drw-model:fatherIs <RelatedPerson/30050fatherIs> ;
+	drw-model:hasStationOfLife <B/30050hasStationOfLife4> ;
+	drw-model:wasBornOn <Date/30050wasBornOn> ;
+	rdfs:label "Bakst, Nikolaj Ignat'evič" ;
+	drw-model:hasSL <SL/30050hasSL3> ;
+	drw-model:hasSL <SL/30050hasSL6> ;
+	drw-model:hasWTranslations <WTranslations/30050hasWTranslations2> ;
+	drw-model:hasStationOfLife <B/30050hasStationOfLife3> ;
+	drw-model:hasComment <Comment/30050hasComment3> ;
+	drw-model:hasSL <SL/30050hasSL0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30050hasGeneralLabor0> ;
+	drw-model:hasSL <SL/30050hasSL7> ;
+	drw-model:hasEducation <A/30050hasEducation2> ;
+	drw-model:hasP <P/30050hasP0> ;
+	drw-model:hasW <W/30050hasW1> ;
+	drw-model:wasBornIn <Place/30050wasBornIn> ;
+	drw-model:hasEducation <A/30050hasEducation1> ;
+	a drw-model:ImportantPerson ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30050.jpg> ;
+	drw-model:hasGPV <GPV/30050hasGPV0> ;
+	drw-model:hasStationOfLife <B/30050hasStationOfLife0> ;
+	drw-model:hasComment <Comment/30050hasComment4> ;
+	drw-model:hasComment <Comment/30050hasComment2> ;
+	drw-model:hasSL <SL/30050hasSL1> ;
+	drw-model:hasSL <SL/30050hasSL4> ;
+	drw-model:hasWTranslations <WTranslations/30050hasWTranslations0> ;
+	drw-model:hasWTranslations <WTranslations/30050hasWTranslations1> ;
+	drw-model:DiedIn <Place/30050DiedIn> ;
+	drw-model:DiedOn <Date/30050DiedOn> ;
+	drw-model:hasQ <Q/30050hasQ0> ;
+	drw-model:hasComment <Comment/30050hasComment1> ;
+	drw-model:hasGPV <GPV/30050hasGPV2> ;
+	drw-model:hasStationOfLife <B/30050hasStationOfLife1> .
+
+<P/30050hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Istorija ORT (<b>SL</b>)." .
+
+<GeneralLabor/30050hasGeneralLabor2>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Sozialpolitiker" .
+
+<Place/30050DiedIn>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<GeneralLabor/30050hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologe" .
+
+<Comment/30050hasComment1>
+	a drw-model:Comment ;
+	drw-model:hasNumber 1 ;
+	rdfs:label "Nur Wininger 1925, zit. n. WBIS JBA (<b>SL</b>)." .
+
+<Comment/30050hasComment3>
+	rdfs:label "WBIS JBA: I 114,160-161." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 3 .
+
+<ImportantPerson/30366>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30366" ;
+	drw-model:hasConnectionTo <ImportantPerson/30050> .
+
+<B/30050hasStationOfLife3>
+	rdfs:label "Mitbegründer der „Gesellschaft für handwerkliche und landwirtschaftliche Arbeit“ (<i>Obščestvo remeslennogo i sel'skochozajstvennogo truda</i>, ORT) in St. Petersburg[4]" ;
+	a drw-model:B ;
+	drw-model:hasComment <Comment/30050hasComment4> .
+
+<A/30050hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Abschluss des Studiums der Naturwissenschaften an der Physiko-mathematischen Fakultät der Universität St. Petersburg" .
+
+<WL/30050hasWL0>
+	rdfs:label "Forschungsthemen: Einfluss von Nerven auf die Herzbewegung, Methoden zur Erfassung der Herzfrequenz" ;
+	a drw-model:WL .
+
+<B/30050hasStationOfLife1>
+	rdfs:label "Vorlesungen zur Physiologie an den Höheren Medizinischen Kursen für Frauen" ;
+	drw-model:began <Year/1881> ;
+	a drw-model:B .
+
+<Year/1881>
+	rdfs:label "1881" ;
+	a drw-model:Year .
+
+<Year/1863>
+	rdfs:label "1863" ;
+	a drw-model:Year .
+
+<SL/30050hasSL5>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 149-150." ;
+	a drw-model:SL .
+
+<Date/30050wasBornOn>
+	rdfs:label "1842/1843 oder 1845[1] Mir" ;
+	a drw-model:Date ;
+	drw-model:hasComment <Comment/30050hasComment1> .
+
+<NameVariation/30050_0>
+	rdfs:label "Бакст, Ноах Исаакович"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Bakst, Noach Isaakovič"@de .
+
+<GPV/30050hasGPV1>
+	rdfs:label "Publikationen 1867-1890, in: S.-Peterburgskij universitet, zit. nach WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<SL/30050hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine, Pfrepper, Gerd: Wissensspuren. Reisen russischer Mediziner nach Westeuropa im 19. Jahrhundert. Aachen 2012 (Relationes 11)" .
+
+<NameVariation/30050_4>
+	rdfs:label "Baxt, Noah"@de ;
+	a drw-model:NameVariation .
+
+<Year/1883>
+	rdfs:label "1883" ;
+	a drw-model:Year .
+
+<SL/30050hasSL6>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 33, 241-243; SU 33, 374." ;
+	a drw-model:SL .
+
+<Date/30050DiedOn>
+	drw-model:hasComment <Comment/30050hasComment2> ;
+	rdfs:label "17.12.1904[2]" ;
+	a drw-model:Date .
+
+<A/30050hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung in Deutschland mit Stipendium des Ministeriums für Volksaufklärung:
+- bei H. von <span style='font-variant:small-caps;'>Helmholtz</span> an der Universität Heidelberg
+- bei C. <span style='font-variant:small-caps;'>Ludwig</span> an der Universität Leipzig" ;
+	drw-model:began <Year/1863> .
+
+<SL/30050hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Dubnow, Simon: Buch des Lebens. Erinnerungen und Gedanken. Materialien zur Geschichte meiner Zeit. Bd. 1: 1860-1933. Hg. von Verena Dohrn, übersetzt von Vera Bischitzky. Bd. 1. Göttingen 2004, 192, 483-484." .
+
+<MainName/30050hasMainName>
+	drw-model:hasNameVariation <NameVariation/30050_0> ;
+	drw-model:hasNameVariation <NameVariation/30050_4> ;
+	drw-model:hasNameVariation <NameVariation/30050_3> ;
+	a drw-model:MainName ;
+	rdfs:label "Bakst, Nikolaj Ignat'evič" ;
+	drw-model:hasNameVariation <NameVariation/30050_2> ;
+	drw-model:hasNameVariation <NameVariation/30050_1> .
+
+<NameVariation/30050_2>
+	rdfs:label "Bakst, Nicolai Ignatiewitsch"@de ;
+	a drw-model:NameVariation .
+
+<WTranslations/30050hasWTranslations1>
+	a drw-model:WTranslations ;
+	rdfs:label "[Schleiden, Matthias Jacob: Das Alter des Menschengeschlechts, die Entstehung der Arten und die Stellung des Menschen in der Natur. Drei Vorträge für gebildete Laien. Leipzig 1863] Šlejden, Mattias Jakob: Drevnost’ čelovečeskogo roda, proischoždenie vidov i položenie čeloveka v prirode. Tri publičnye lekcii. Sankt-Peterburg 1863, 77 S.; 2. Aufl.: S pribavleniem lekcii akademika Karla Maksimoviča Bėra „O drevnejšich obitateljach Evropy”. Sankt-Peterburg 1865, 104 S." .
+
+<W/30050hasW0>
+	rdfs:label "O skorosti peredači razdraženij po dvigatel’nym nervam čeloveka. Diss. pro venia legendi. Sankt-Peterburg 1867, 16 S." ;
+	a drw-model:W .
+
+<GeneralLabor/30050hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Publizist" .
+
+<B/30050hasStationOfLife2>
+	a drw-model:B ;
+	rdfs:label "Mitglied des Wissenschaftlichen Komitees des Ministeriums für Volksaufklärung" .
+
+<Place/30050wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Gouvernement Minsk" .
+
+<W/30050hasW1>
+	rdfs:label "Zapiski fiziologii, sostavlennye po lekcijam prof. N. Baksta, 1882/83 učebnogo g. Moskva 1883, 51 S." ;
+	a drw-model:W .
+
+<Comment/30050hasComment2>
+	drw-model:hasNumber 2 ;
+	rdfs:label "In Wininger 1925, zit. n. WBIS JBA (<b>SL</b>), 17.12.1903 angegeben; vgl. dagegen Necrology: August 13, 1904, to August 20, 1905, in: American Jewish Year Book, Bd. 7 (1905-1906), 217: Died 1904, December 17: Isaac Noah Baxt, physiologist, at St. Petersburg, Russia, aged 61." ;
+	a drw-model:Comment .
+
+<WTranslations/30050hasWTranslations3>
+	a drw-model:WTranslations ;
+	rdfs:label "Außerdem Übersetzer (unter Pseudonym) der Schriften von Franz Delitzsch und A. Müller zur Verteidigung des Talmud sowie Autor zahlreicher Artikel zur Judenfrage." .
+
+<B/30050hasStationOfLife4>
+	rdfs:label "Sachverständiger der Obersten Kommission zur Revision der geltenden Judengesetze in der Regierung" ;
+	a drw-model:B ;
+	drw-model:began <Year/1883> .
+
+<RelatedPerson/30050fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Isaak (Ignatij) Moses († 1882), Hebräist, Lehrer an der Rabbinerschule zu Žitomir[3]" ;
+	drw-model:hasComment <Comment/30050hasComment3> .
+
+<Comment/30050hasComment4>
+	rdfs:label "Vorkämpfer für die Rechte der Juden im Zarenreich" ;
+	drw-model:hasNumber 4 ;
+	a drw-model:Comment .
+
+<SL/30050hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Istorija ORT: http://ort.ru/history/ (28.10.2010)." .
+
+<B/30050hasStationOfLife0>
+	rdfs:label "Privatdozent für Physiologie an der Physiko-mathematischenFakultät der Universität St. Petersburg" ;
+	a drw-model:B .
+
+<A/30050hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Ausbildung an der Rabbinerschule in Žitomir" .
+

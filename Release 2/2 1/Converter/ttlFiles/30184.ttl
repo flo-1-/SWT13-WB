@@ -1,0 +1,311 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30184hasSL15>
+	a drw-model:SL ;
+	rdfs:label "Ziegenspeck, Hermann: Brücke, Ernst Wilhelm Ritter von. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. Bd. 2. Berlin 1955, 655." .
+
+<P/30184hasP0>
+	rdfs:label "Portrait (Abb.) aus: Bildersammlung des Karl-Sudhoff-Instituts für Geschichte der Medizin und Naturwissenschaften der Universität Leipzig, E 7484." ;
+	a drw-model:P .
+
+<Comment/30184hasComment1>
+	a drw-model:Comment ;
+	rdfs:label "ab 1873" ;
+	drw-model:hasNumber 1 .
+
+<MG/30184hasMG>
+	a drw-model:MG ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<B/30184hasStationOfLife2>
+	drw-model:began <Year/1846> ;
+	rdfs:label "Lehrer für Anatomie an der Akademie der bildenden Künste in Berlin" ;
+	a drw-model:B .
+
+<ImportantPerson/30184>
+	drw-model:hasSL <SL/30184hasSL11> ;
+	drw-model:hasSL <SL/30184hasSL4> ;
+	drw-model:hasStationOfLife <B/30184hasStationOfLife5> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30184.jpg> ;
+	drw-model:hasMainName <MainName/30184hasMainName> ;
+	drw-model:hasConnectionTo <ImportantPerson/30739> ;
+	drw-model:hasSL <SL/30184hasSL7> ;
+	drw-model:wasMarriedTo <RelatedPerson/30184wasMarriedTo> ;
+	drw-model:hasP <P/30184hasP1> ;
+	drw-model:hasSL <SL/30184hasSL6> ;
+	drw-model:hasSL <SL/30184hasSL17> ;
+	drw-model:hasSL <SL/30184hasSL8> ;
+	drw-model:hasSL <SL/30184hasSL16> ;
+	drw-model:hasSL <SL/30184hasSL5> ;
+	drw-model:hasSL <SL/30184hasSL0> ;
+	drw-model:DiedIn <Place/30184DiedIn> ;
+	drw-model:hasSL <SL/30184hasSL12> ;
+	drw-model:wasBornOn <Date/30184wasBornOn> ;
+	drw-model:hasWL <WL/30184hasWL0> ;
+	drw-model:hasStationOfLife <B/30184hasStationOfLife0> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30184hasHonoursAndAwards> ;
+	drw-model:hasEducation <A/30184hasEducation2> ;
+	drw-model:hasComment <Comment/30184hasComment1> ;
+	drw-model:hasSL <SL/30184hasSL9> ;
+	drw-model:hasSL <SL/30184hasSL13> ;
+	drw-model:hasP <P/30184hasP0> ;
+	drw-model:hasSL <SL/30184hasSL1> ;
+	drw-model:hasStationOfLife <B/30184hasStationOfLife3> ;
+	drw-model:hasStationOfLife <B/30184hasStationOfLife6> ;
+	drw-model:hasGPV <GPV/30184hasGPV0> ;
+	drw-model:hasEducation <A/30184hasEducation1> ;
+	drw-model:hasQ <Q/30184hasQ0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30184hasGeneralLabor0> ;
+	drw-model:hasSL <SL/30184hasSL2> ;
+	drw-model:motherIs <RelatedPerson/30184motherIs> ;
+	drw-model:wasBornIn <Place/30184wasBornIn> ;
+	drw-model:hasSL <SL/30184hasSL14> ;
+	drw-model:hasStationOfLife <B/30184hasStationOfLife1> ;
+	drw-model:hasHonoursAndAwardsComment <HonoursAndAwardsComment/30184hasHonoursAndAwardsComment> ;
+	drw-model:hasSLComment <SLComment/30184hasSLComment> ;
+	drw-model:hasStationOfLife <B/30184hasStationOfLife4> ;
+	rdfs:label "Brücke, Ernst Wilhelm" ;
+	drw-model:hasEducation <A/30184hasEducation0> ;
+	drw-model:hasID "30184" ;
+	drw-model:fatherIs <RelatedPerson/30184fatherIs> ;
+	drw-model:hasW <W/30184hasW0> ;
+	drw-model:hasDescendant <RelatedPerson/30184hasDescendant> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/30184hasSL15> ;
+	drw-model:hasStationOfLife <B/30184hasStationOfLife2> ;
+	drw-model:hasMG <MG/30184hasMG> ;
+	drw-model:hasSL <SL/30184hasSL3> ;
+	drw-model:hasSL <SL/30184hasSL10> ;
+	drw-model:DiedOn <Date/30184DiedOn> .
+
+<B/30184hasStationOfLife0>
+	rdfs:label "Assistent bei <span style='font-variant:small-caps;'>Müller</span> in Berlin" ;
+	drw-model:began <Year/1842> ;
+	a drw-model:B .
+
+<B/30184hasStationOfLife4>
+	rdfs:label "Professor für Physiologie an der Universität Wien" ;
+	a drw-model:B ;
+	drw-model:began <Year/1849> .
+
+<Year/1838>
+	rdfs:label "1838" ;
+	a drw-model:Year .
+
+<SL/30184hasSL14>
+	a drw-model:SL ;
+	rdfs:label "Zarubežnye vrači. In: Doktor 24 (http://doctor24.com.ua/404521798/, 17.11.2011)." .
+
+<Year/1848>
+	rdfs:label "1848" ;
+	a drw-model:Year .
+
+<RelatedPerson/30184wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Dorette, geb. Brünslow († 1893)" .
+
+<NameVariation/30184_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Brücke, Ernst Wilhelm Ritter von[1]" ;
+	drw-model:hasComment <Comment/30184hasComment1> .
+
+<SL/30184hasSL17>
+	a drw-model:SL ;
+	rdfs:label "Šojfet, M. S.: Sto velikich vračej. Moskva 2004, 258-262." .
+
+<A/30184hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Promotion zum Dr. med. et chir. bei J. P. <span style='font-variant:small-caps;'>Müller</span> in Berlin" .
+
+<SLComment/30184hasSLComment>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<B/30184hasStationOfLife6>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<Year/1846>
+	rdfs:label "1846" ;
+	a drw-model:Year .
+
+<RelatedPerson/30184motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Christine, geb. Müller († 1822)" .
+
+<SL/30184hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Rothschuh, Karl Eduard: Geschichte der Physiologie. Berlin, Göttingen, Heidelberg 1953, 139-141." .
+
+<Place/30184wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Berlin" .
+
+<ImportantPerson/30739>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30184> ;
+	drw-model:hasID "30739" .
+
+<RelatedPerson/30184hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sohn Hans (1849-1872), Arzt
+Sohn Theodor Hermann Matthias, Jurist, Oberlandgerichtsrat in Wien
+Enkel Ernst Theodor (1880-1941), Professor für Physiologie" .
+
+<SL/30184hasSL16>
+	a drw-model:SL ;
+	rdfs:label "Österreichisches biographisches Lexikon 1815-1950. Bearbeitet von Eva Obermayer-Marnach u. a. Bd. 1-12. Wien 1957-2005 Bd. 1 (1954), 119." .
+
+<SL/30184hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Orden Pour le Mérite (http://www.orden-pourlemerite.de/mitglieder/ernst-wilhelm-ritter-von-bruecke?m=3&amp;u=3, 17.11.2011)." .
+
+<W/30184hasW0>
+	a drw-model:W ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<SL/30184hasSL12>
+	a drw-model:SL ;
+	rdfs:label "Wegbereiter unserer naturwissenschaftlich-medizinischen Moderne (http://appserv5.ph-heidelberg.de/onlinelex/index.php?id=839, 17.11.2011)." .
+
+<SL/30184hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Lesky, Erna: Brücke, Ernst Wilhelm von. In: Dictionary of scientific biography. Ed. in chief Charles Coulston Gillispie. Vol. 1-18. New York u. a. 1970-1990,  Bd. 2. New York 1970, 530-532." .
+
+<Place/30184DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Wien" .
+
+<Year/1842>
+	rdfs:label "1842" ;
+	a drw-model:Year .
+
+<HonoursAndAwardsComment/30184hasHonoursAndAwardsComment>
+	rdfs:label "Ehrungen und Auszeichnungen (Auswahl):" ;
+	a drw-model:HonoursAndAwardsComment .
+
+<SL/30184hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Encyclopædia Britannica (http://www.britannica.com/EBchecked/topic/81981/Ernst-Wilhelm-von-Brucke, 17.11.2011)." .
+
+<GPV/30184hasGPV0>
+	a drw-model:GPV ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<P/30184hasP1>
+	rdfs:label "Portraits in <b>SL</b> (Auswahl): Gradmann 2006, Encyclopædia Britannica, Mecenseffy 1967 (vor S. 33), Orden Pour le Mérite, Pagel 1901, Rothschuh 1953, VL People, Vse o velikich ljudjach istorii, Wegbereiter, Wikipedia, Zarubežnye vrači." ;
+	a drw-model:P .
+
+<Q/30184hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr. 1631." .
+
+<SL/30184hasSL8>
+	a drw-model:SL ;
+	rdfs:label "Roth, Friedrich: Brücke, Ernst Wilhelm Ritter von. In: Allgemeine Deutsche Biographie. Bd. 1-56. Leipzig 1875–1912,  Bd. 47. Leipzig 1903, 273-275." .
+
+<SL/30184hasSL7>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SL .
+
+<SL/30184hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, Sp. 258-262." .
+
+<B/30184hasStationOfLife1>
+	drw-model:began <Year/1844> ;
+	a drw-model:B ;
+	rdfs:label "Privatdozent in Berlin" .
+
+<RelatedPerson/30184fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann Gottfried (1796-1873), Historien- und Genremaler" .
+
+<B/30184hasStationOfLife5>
+	rdfs:label "Rektor der Universität Wien" ;
+	a drw-model:B .
+
+<HonoursAndAwards/30184hasHonoursAndAwards>
+	rdfs:label "1865 Ehrenmitglied der Kaiserlichen Universität Moskau<br>1873 Erhebung in den erblichen Adelsstand<br>„K.K. Hofrat“<br>1878 Orden <i>Pour le Mérite für Wissenschaften und Künste</i><br>Denkmal vom Bildhauer Otto <span style='font-variant:small-caps;'>König</span> (1838-1920) im Arkadenhof der Universität Wien" ;
+	a drw-model:HonoursAndAwards .
+
+<B/30184hasStationOfLife3>
+	a drw-model:B ;
+	drw-model:began <Year/1848> ;
+	rdfs:label "Professor für Physiologie an der Universität Königsberg" .
+
+<A/30184hasEducation0>
+	a drw-model:A ;
+	drw-model:began <Year/1838> ;
+	rdfs:label "Studium an den Universitäten Berlin und Heidelberg" .
+
+<SL/30184hasSL13>
+	a drw-model:SL ;
+	rdfs:label "Wikipedia (http://de.wikipedia.org/wiki/Ernst_Wilhelm_von_Br%C3%BCcke, 17.11.2011)." .
+
+<SL/30184hasSL10>
+	a drw-model:SL ;
+	rdfs:label "VL People (http://vlp.mpiwg-berlin.mpg.de/people/data?id=per58, 17.11.2011)." .
+
+<NameVariation/30184_1>
+	a drw-model:NameVariation ;
+	rdfs:label "Brjukke, Ėrnst Vil’gel’m Ritter fon"@de ;
+	rdfs:label "Брюкке, Эрнст Вильгельм Риттер фон"@ru .
+
+<Year/1844>
+	rdfs:label "1844" ;
+	a drw-model:Year .
+
+<A/30184hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Habilitation in Berlin" .
+
+<Date/30184DiedOn>
+	rdfs:label "7.1.1892" ;
+	a drw-model:Date .
+
+<GeneralLabor/30184hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<SL/30184hasSL11>
+	rdfs:label "Vse o velikich ljudjach istorii (http://www.sonkol.ru/main/242.html, 17.11.2011)." ;
+	a drw-model:SL .
+
+<Date/30184wasBornOn>
+	a drw-model:Date ;
+	rdfs:label "6.6.1819" .
+
+<Year/1849>
+	rdfs:label "1849" ;
+	a drw-model:Year .
+
+<WL/30184hasWL0>
+	rdfs:label "vgl. <b>SL</b>" ;
+	a drw-model:WL .
+
+<SL/30184hasSL4>
+	rdfs:label "Mecenseffy, Grete: Evangelische Lehrer an der Universität Wien. Graz u. a. 1967, 33-38." ;
+	a drw-model:SL .
+
+<SL/30184hasSL2>
+	rdfs:label "Gradmann, Christoph: Brücke, Ernst Wilhelm von. In: Eckart, Wolfgang U., Gradmann, Christoph: Ärzte Lexikon. Von der Antike bis zur Gegenwart. 3. Aufl. Heidelberg u. a. 2006, 67-68." ;
+	a drw-model:SL .
+
+<MainName/30184hasMainName>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30184_1> ;
+	drw-model:hasNameVariation <NameVariation/30184_0> ;
+	rdfs:label "Brücke, Ernst Wilhelm" .
+
+<SL/30184hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Eckart, Wolfgang U.: Brücke, Ernst Wilhelm Ritter von. In: Engelhardt, Dietrich von (Hg.): Biographische Enzyklopädie deutschsprachiger Mediziner. Bd. 1-2. München 2002, Bd. 1, 84." .
+

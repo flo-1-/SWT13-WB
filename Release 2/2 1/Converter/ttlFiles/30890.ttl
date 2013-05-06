@@ -1,0 +1,463 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<HonoursAndAwards/30890hasHonoursAndAwards>
+	rdfs:label "1935[4] oder 1936[5]        „Verdienter Wissenschaftler der UdSSR“" ;
+	drw-model:hasComment <Comment/30890hasComment4> ;
+	drw-model:hasComment <Comment/30890hasComment5> ;
+	a drw-model:HonoursAndAwards .
+
+<Year/1896>
+	rdfs:label "1896" ;
+	a drw-model:Year .
+
+<Comment/30890hasComment4>
+	drw-model:hasNumber 4 ;
+	a drw-model:Comment ;
+	rdfs:label "Volkov/Kulikova 2003 a, b, und http://slovo.yaxy.ru/big_dic_all/26/1.htm (6.5.2011)." .
+
+<A/30890hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Abschluss des 2. Gymnasiums in Moskau" .
+
+<W/30890hasW0>
+	rdfs:label "Novyj sposob opredelenija na čeloveke količestv vydychaemogo vozducha i soderžaščejsja v onom uglekisloty. Diss. In: Trudy fiziologičeskogo instituta Moskovskogo universiteta 5 (1899) 4, 1-25." ;
+	a drw-model:W .
+
+<Place/30890wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Moskau" .
+
+<Comment/30890hasComment6>
+	rdfs:label "Medicinskij slovar’ (http://enc-dic.com/medicine/SHaternikova-Kamera-32540.html, 6.5.2011)." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 6 .
+
+<P/30890hasP4>
+	a drw-model:P ;
+	rdfs:label "Foto in: Šaternikov/Gorelova 1982 (<b>SL</b>), vordere Umschlagseite." .
+
+<Year/1917>
+	rdfs:label "1917" ;
+	a drw-model:Year .
+
+<SL/30890hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Strašun, Il’ja D. (Hauptred.): 175 let Moskovskogo Gosudarstvennogo Medicinskogo Instituta. Moskva, Leningrad 1940, 436 S., 113." .
+
+<B/30890hasStationOfLife9>
+	rdfs:label "Gründer und erster Direktor des Instituts für Physiologie der Ernährung in Moskau" ;
+	a drw-model:B ;
+	drw-model:began <Year/1920> .
+
+<WL/30890hasWL4>
+	rdfs:label "1911 Gründer und Redaktuer von <i>Ežegodnik russkoj medicinskoj pečati</i>" ;
+	a drw-model:WL .
+
+<Date/30890wasBornOn>
+	a drw-model:Date ;
+	rdfs:label "9./21.10.1870" .
+
+<Year/1908>
+	rdfs:label "1908" ;
+	a drw-model:Year .
+
+<A/30890hasEducation1>
+	a drw-model:A ;
+	drw-model:began <Year/1891> ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Moskau bei I. M. <span style='font-variant:small-caps;'>Sečenov</span> und L. Z. <span style='font-variant:small-caps;'>Morochovec</span>" .
+
+<ImportantPerson/30890>
+	drw-model:hasSL <SL/30890hasSL8> ;
+	drw-model:hasWL <WL/30890hasWL2> ;
+	drw-model:wasBornIn <Place/30890wasBornIn> ;
+	drw-model:hasW <W/30890hasW1> ;
+	drw-model:hasStationOfLife <B/30890hasStationOfLife2> ;
+	drw-model:hasQ <Q/30890hasQ0> ;
+	drw-model:hasSL <SL/30890hasSL2> ;
+	drw-model:hasStationOfLife <B/30890hasStationOfLife0> ;
+	drw-model:hasComment <Comment/30890hasComment2> ;
+	drw-model:hasComment <Comment/30890hasComment7> ;
+	drw-model:hasStationOfLife <B/30890hasStationOfLife10> ;
+	drw-model:hasP <P/30890hasP2> ;
+	drw-model:hasEducation <A/30890hasEducation3> ;
+	drw-model:hasW <W/30890hasW0> ;
+	drw-model:hasStationOfLife <B/30890hasStationOfLife1> ;
+	drw-model:hasStationOfLife <B/30890hasStationOfLife7> ;
+	drw-model:hasSL <SL/30890hasSL3> ;
+	drw-model:hasP <P/30890hasP5> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30890.jpg> ;
+	drw-model:hasWL <WL/30890hasWL3> ;
+	drw-model:hasGPV <GPV/30890hasGPV1> ;
+	drw-model:fatherIs <RelatedPerson/30890fatherIs> ;
+	drw-model:hasWL <WL/30890hasWL4> ;
+	drw-model:hasSL <SL/30890hasSL6> ;
+	drw-model:hasComment <Comment/30890hasComment1> ;
+	drw-model:hasStationOfLife <B/30890hasStationOfLife3> ;
+	drw-model:hasEducation <A/30890hasEducation4> ;
+	drw-model:hasEducation <A/30890hasEducation2> ;
+	drw-model:hasGPV <GPV/30890hasGPV0> ;
+	drw-model:hasConnectionTo <ImportantPerson/20028> ;
+	rdfs:label "Šaternikov, Michail Nikolaevič" ;
+	drw-model:hasOtherOffices <OtherOffices/30890hasOtherOffices1> ;
+	drw-model:wasBornOn <Date/30890wasBornOn> ;
+	drw-model:hasConnectionTo <ImportantPerson/30732> ;
+	drw-model:hasStationOfLife <B/30890hasStationOfLife8> ;
+	drw-model:hasEducation <A/30890hasEducation1> ;
+	drw-model:hasW <W/30890hasW2> ;
+	drw-model:hasMainName <MainName/30890hasMainName> ;
+	drw-model:hasOtherOffices <OtherOffices/30890hasOtherOffices0> ;
+	drw-model:hasConnectionTo <ImportantPerson/30584> ;
+	drw-model:hasStationOfLife <B/30890hasStationOfLife9> ;
+	drw-model:hasEducation <A/30890hasEducation5> ;
+	drw-model:hasStationOfLife <B/30890hasStationOfLife4> ;
+	drw-model:hasSL <SL/30890hasSL7> ;
+	drw-model:DiedIn <Place/30890DiedIn> ;
+	drw-model:hasWL <WL/30890hasWL0> ;
+	drw-model:hasOtherOffices <OtherOffices/30890hasOtherOffices2> ;
+	drw-model:hasComment <Comment/30890hasComment6> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <A/30890hasEducation0> ;
+	drw-model:hasP <P/30890hasP1> ;
+	drw-model:hasSL <SL/30890hasSL4> ;
+	drw-model:hasConnectionTo <ImportantPerson/30924> ;
+	drw-model:hasComment <Comment/30890hasComment4> ;
+	drw-model:hasComment <Comment/30890hasComment5> ;
+	drw-model:hasP <P/30890hasP7> ;
+	drw-model:hasSL <SL/30890hasSL1> ;
+	drw-model:DiedOn <Date/30890DiedOn> ;
+	drw-model:hasP <P/30890hasP3> ;
+	drw-model:hasSL <SL/30890hasSL0> ;
+	drw-model:hasConnectionTo <ImportantPerson/30743> ;
+	drw-model:hasConnectionTo <ImportantPerson/10154> ;
+	drw-model:hasWL <WL/30890hasWL1> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30890hasHonoursAndAwards> ;
+	drw-model:hasP <P/30890hasP6> ;
+	drw-model:hasID "30890" ;
+	drw-model:hasComment <Comment/30890hasComment3> ;
+	drw-model:hasStationOfLife <B/30890hasStationOfLife5> ;
+	drw-model:hasOtherOffices <OtherOffices/30890hasOtherOffices3> ;
+	drw-model:hasP <P/30890hasP4> ;
+	drw-model:hasP <P/30890hasP0> ;
+	drw-model:hasSL <SL/30890hasSL5> ;
+	drw-model:hasMG <MG/30890hasMG> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30890hasGeneralLabor0> ;
+	drw-model:hasStationOfLife <B/30890hasStationOfLife6> .
+
+<Place/30890DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Moskau" .
+
+<Comment/30890hasComment5>
+	rdfs:label "Šapiro 1939 (<b>SL</b>)." ;
+	drw-model:hasNumber 5 ;
+	a drw-model:Comment .
+
+<B/30890hasStationOfLife6>
+	drw-model:began <Year/1909> ;
+	a drw-model:B ;
+	rdfs:label "zugleich Dozent an der „Sonntagsuniversität“ (ab 1909 „Städtische Volksuniversität“ A. L. Šanjavskij) in Moskau" .
+
+<WL/30890hasWL3>
+	drw-model:hasComment <Comment/30890hasComment6> ;
+	rdfs:label "<i>Šaternikova kamera</i> [Respirationsapparat nach Schaternikoff für Gaswechselversuche][6]" ;
+	a drw-model:WL .
+
+<P/30890hasP3>
+	rdfs:label "Foto als Student 1893 in: Šaternikov/Gorelova 1982 (<b>SL</b>), 9." ;
+	a drw-model:P .
+
+<SL/30890hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Smirnov, G. D., Ščepkin, N. G.: Pamjati Michaila Nikolaeviča Šaternikova (K 100-letiju so dnja roždenija). Fiziologičeskij žurnal SSSR imeni I. M. Sečenova 56 (1970) 10, 1506-1508." .
+
+<Year/1900>
+	rdfs:label "1900" ;
+	a drw-model:Year .
+
+<Year/1920>
+	rdfs:label "1920" ;
+	a drw-model:Year .
+
+<MainName/30890hasMainName>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30890_1> ;
+	drw-model:hasNameVariation <NameVariation/30890_0> ;
+	rdfs:label "Šaternikov, Michail Nikolaevič" .
+
+<Year/1909>
+	rdfs:label "1909" ;
+	a drw-model:Year .
+
+<RelatedPerson/30890fatherIs>
+	rdfs:label "Nikolaj Evgen’evič, Stadtverwaltungsbeamter" ;
+	a drw-model:RelatedPerson .
+
+<B/30890hasStationOfLife7>
+	rdfs:label "Professor und Leiter des Lehrstuhls für Physiologie an der Universität Moskau (ab 1930 l. Moskauer Medizinisches Institut)" ;
+	a drw-model:B ;
+	drw-model:began <Year/1917> .
+
+<WL/30890hasWL2>
+	rdfs:label "Nach ihm ist benannt:" ;
+	a drw-model:WL .
+
+<SL/30890hasSL1>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 502, 392; SU 480, 32." ;
+	a drw-model:SL .
+
+<P/30890hasP2>
+	a drw-model:P ;
+	rdfs:label "Foto in: Strašun 1940 (<b>SL</b>)." .
+
+<Q/30890hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr. 3788 (Briefe Šaternikovs an Emil Abderhalden vom 1.3. und 7.4.1928, Empfehlungsschreiben zur Aufnahme in die Leopoldina, unterzeichnet am 21.6., 19. und 20.8.1928, Dankschreiben zur Wahl vom 7.9. und 20.12.1928, Maschinenabschrift des Nekrologs von Šapiro 1939 [s. <b>SL</b>] mit deutscher Übersetzung)." .
+
+<SL/30890hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 243-245." .
+
+<B/30890hasStationOfLife4>
+	a drw-model:B ;
+	rdfs:label "Prorektor und Rektor der 2. Moskauer Staatsuniversität" .
+
+<SL/30890hasSL8>
+	a drw-model:SL ;
+	drw-model:hasComment <Comment/30890hasComment7> ;
+	rdfs:label "Šaternikov, Valerij Andreevič[7], Gorelova, Larisa E.: Michail Nikolaevič Šaternikov, 1870-1939. Moskva 1982, 144 S." .
+
+<WL/30890hasWL1>
+	rdfs:label "Hauptforschungsthemen: Physiologie der Sinnesorgane, des Stoffwechsels, der Ernährung u. a." ;
+	a drw-model:WL .
+
+<WL/30890hasWL0>
+	rdfs:label "Gründer der Ernährungswissenschaft und der Lehre von den Vitaminen in Russland" ;
+	a drw-model:WL .
+
+<P/30890hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto in: [Nekrolog] (<b>SL</b>), 3." .
+
+<ImportantPerson/30584>
+	drw-model:hasConnectionTo <ImportantPerson/30890> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30584" .
+
+<A/30890hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung in Deutschland (auf eigene Kosten):
+- bei Wilhelm <span style='font-variant:small-caps;'>Ostwald</span> (1853-1932) an der Universität Leipzig (Sommerkurs in physikalischer Chemie)" .
+
+<P/30890hasP7>
+	a drw-model:P ;
+	rdfs:label "Gruppenfotos [mit Kollegen oder Studenten] in: Šaternikov/Gorelova 1982 (<b>SL</b>), 16, 26, 28, 29, 31, 74, 80." .
+
+<SL/30890hasSL7>
+	rdfs:label "Šapiro, Ja.: Michail Nikolaevič Šaternikov [Nekrolog]. Sovetskaja medicina (1939) Nr. 20, 4 S." ;
+	a drw-model:SL .
+
+<OtherOffices/30890hasOtherOffices3>
+	a drw-model:OtherOffices ;
+	rdfs:label "" .
+
+<ImportantPerson/30732>
+	drw-model:hasConnectionTo <ImportantPerson/30890> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30732" .
+
+<Year/1903>
+	rdfs:label "1903" ;
+	a drw-model:Year .
+
+<ImportantPerson/10154>
+	drw-model:hasConnectionTo <ImportantPerson/30890> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "10154" .
+
+<B/30890hasStationOfLife1>
+	drw-model:began <Year/1902> ;
+	drw-model:hasComment <Comment/30890hasComment1> ;
+	a drw-model:B ;
+	rdfs:label "zugleich populärwissenschaftliche Vorlesungen[1] und" .
+
+<Comment/30890hasComment2>
+	drw-model:hasNumber 2 ;
+	a drw-model:Comment ;
+	rdfs:label "Kostenlose Abendkurse, sog. Prečistenskie kursy dlja rabočich, gegründet 1897 und benannt nach der Straße Prečistenka, wo sie gehalten wurden. Vgl. auch → Sečenov." .
+
+<B/30890hasStationOfLife5>
+	drw-model:began <Year/1908> ;
+	rdfs:label "zugleich Dozent und außerplanmäßiger Professor (ab 1912)am Gewerbeinstitut in Moskau" ;
+	a drw-model:B .
+
+<ImportantPerson/30743>
+	drw-model:hasConnectionTo <ImportantPerson/30890> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30743" .
+
+<P/30890hasP0>
+	a drw-model:P ;
+	rdfs:label "Foto (Abb.) aus: Volkov/Kulikova 2003 b, Bildeinlage zw. S. 504-505." .
+
+<SL/30890hasSL6>
+	rdfs:label "[Nekrolog] Voprosy pitanija 8 (1939) Nr. 5, 3-4." ;
+	a drw-model:SL .
+
+<P/30890hasP6>
+	a drw-model:P ;
+	rdfs:label "Foto in: Rossijskaja portretnaja galerija (http://all-photo.ru/portret/shaternikov/index.ru.html, 31.3.2011)." .
+
+<OtherOffices/30890hasOtherOffices2>
+	rdfs:label "Mitglied des Wissenschaftlichen Komitees im Kommissariat für Volksgesundheit" ;
+	a drw-model:OtherOffices .
+
+<GeneralLabor/30890hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<A/30890hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung in Deutschland:
+- am Königlich-Sächsischen Polytechnikum Dresden (Praktikum in organischer Chemie und Gasanalyse)
+- an der Universität Gießen (Physikpraktikum)
+- bei T. W. <span style='font-variant:small-caps;'>Engelmann</span>, Richard Joseph <span style='font-variant:small-caps;'>Meyer</span> (1865-1939) und W. <span style='font-variant:small-caps;'>Nagel</span> an der Universität Berlin
+- bei J. von <span style='font-variant:small-caps;'>Kries</span> an der Universität Freiburg i. Br.
+- bei Carl von <span style='font-variant:small-caps;'>Voit</span> (1831-1908) an der Universität München
+- außerdem in Bonn, Marburg und Leipzig" ;
+	drw-model:began <Year/1900> .
+
+<ImportantPerson/30924>
+	drw-model:hasConnectionTo <ImportantPerson/30890> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30924" .
+
+<B/30890hasStationOfLife2>
+	drw-model:began <Year/1903> ;
+	rdfs:label "Lektor an den weiterbildenden Arbeiterkursen[2] in Moskau" ;
+	drw-model:hasComment <Comment/30890hasComment2> ;
+	a drw-model:B .
+
+<Year/1902>
+	rdfs:label "1902" ;
+	a drw-model:Year .
+
+<Comment/30890hasComment3>
+	rdfs:label "Bei Pfrepper 2009 (<b>SL</b>) irrtümlich 2. Moskauer Medizinisches Institut angegeben." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 3 .
+
+<GPV/30890hasGPV1>
+	rdfs:label "Deutschsprachige Publikationen 1895-1906, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<Year/1904>
+	rdfs:label "1904" ;
+	a drw-model:Year .
+
+<Comment/30890hasComment1>
+	a drw-model:Comment ;
+	rdfs:label "Gehalten im Städtischen Auditorium in der Puškin-Straße." ;
+	drw-model:hasNumber 1 .
+
+<SL/30890hasSL5>
+	rdfs:label "Volkov, Vladimir Akimovič, Kulikova, Marina Vladimirovna: Moskovskie professora XVIII - načala XX vekov. Estestvennye i techničeskie nauki. Moskva 2003, 270-271." ;
+	a drw-model:SL .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<B/30890hasStationOfLife10>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<GPV/30890hasGPV0>
+	a drw-model:GPV ;
+	rdfs:label "Trudy M. N. Šaternikova 1896-1927 (55 Nrn.), in: Šaternikov/Gorelova 1982 (<b>SL</b>), 141-143." .
+
+<P/30890hasP5>
+	a drw-model:P ;
+	rdfs:label "Foto in: NII pitanija RAMN (http://www.ion.ru/index.php/2008-12-16-10-17-21, 31.3.2011)." .
+
+<NameVariation/30890_0>
+	rdfs:label "Schaternikoff, Michael"@de ;
+	a drw-model:NameVariation .
+
+<OtherOffices/30890hasOtherOffices1>
+	a drw-model:OtherOffices ;
+	rdfs:label "ab 1918 Mitglied und ab 1927 Präsidiumsmitglied des Medizinalrats" .
+
+<ImportantPerson/20028>
+	drw-model:hasConnectionTo <ImportantPerson/30890> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "20028" .
+
+<W/30890hasW2>
+	a drw-model:W ;
+	rdfs:label "[Redakteur der Übersetzung von: Rudolf Rosemann: L. Landois’s Lehrbuch der Physiologie des Menschen mit besonderer Berücksichtigung der praktischen Medizin. Bd. 1-2. 12. Aufl. Berlin u. a. 1909] Rudol’f Rozemann, Leonard Landua: Učebnik fiziologii čeloveka. Fiziologija rastitel’nych processov, dviženija i čuvstvovanija. Moskva 1913, 1018 S." .
+
+<A/30890hasEducation2>
+	a drw-model:A ;
+	rdfs:label "außerplanmäßiger Assistent bei <span style='font-variant:small-caps;'>Sečenov</span>" ;
+	drw-model:began <Year/1896> .
+
+<B/30890hasStationOfLife3>
+	drw-model:hasComment <Comment/30890hasComment3> ;
+	rdfs:label "Professor für Physiologie an den Höheren Kursen für Frauen (ab 1918 2. Moskauer Staatsuniversität)[3]" ;
+	a drw-model:B ;
+	drw-model:began <Year/1904> .
+
+<Date/30890DiedOn>
+	a drw-model:Date ;
+	rdfs:label "1.9.1939" .
+
+<SL/30890hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 489." .
+
+<MG/30890hasMG>
+	a drw-model:MG ;
+	rdfs:label "Obščestvo rossijskich fiziologov im. I. M. Sečenova [I. M. Sečenov-Gesellschaft russischer Physiologen] (Vorstandsmitglied), Moskovskoe fiziologičeskoe obščestvo [Physiologische Gesellschaft in Moskau] (Vorsitzender), Imperatorskoe obščestvo ljubitelej estestvoznanija, antropologii i ėtnografii v Moskve [Kaiserliche Gesellschaft der Liebhaber der Naturwissenschaften, der Anthropologie und Ethnographie zu Moskau] (ab 1905, ca. 1920-1930 Vorsitzender der Sektion Physiologie), Moskovskoe obščestvo ispytatelej prirody [Gesellschaft der Naturforscher in Moskau] (1911), Obščestvo Moskovskogo naučnogo instituta [Gesellschaft des Moskauer Wissenschaftsinstituts], Pedagogičeskoe obščestvo pri Moskovskom universitete [Pädagogische Gesellschaft an der Moskauer Universität], Leopoldina (1928) u. a." .
+
+<OtherOffices/30890hasOtherOffices0>
+	a drw-model:OtherOffices ;
+	rdfs:label "1912-1916 Sekretär des wissenschaftlichen Komitees des Moskauer Wissenschaftsinstituts" .
+
+<Year/1891>
+	rdfs:label "1891" ;
+	a drw-model:Year .
+
+<B/30890hasStationOfLife8>
+	drw-model:began <Year/1918> ;
+	rdfs:label "Leiter des Laboratoriums für Ernährungsphysiologie am Wissenschaftlich-technischen Institut für Ernährung in Moskau" ;
+	a drw-model:B .
+
+<NameVariation/30890_1>
+	a drw-model:NameVariation ;
+	rdfs:label "Schaternikow, Michael"@de .
+
+<Year/1918>
+	rdfs:label "1918" ;
+	a drw-model:Year .
+
+<W/30890hasW1>
+	rdfs:label "Demonstracija novoj kamery s sootvetstvujuščimi prisposoblenijami dlja izučenija gazovoogo obmena u čeloveka. Vračebnaja gazeta (1812) Nr. 13, 533." ;
+	a drw-model:W .
+
+<A/30890hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Medizinischen Fakultät der Universität Moskau" .
+
+<Comment/30890hasComment7>
+	rdfs:label "Direktor des Instituts für Physiologie der Ernährung in Moskau. Ein Verwandschafts-verhältnis zu M. N. Šaternikov geht aus der Literatur nicht hervor." ;
+	drw-model:hasNumber 7 ;
+	a drw-model:Comment .
+
+<B/30890hasStationOfLife0>
+	drw-model:began <Year/1903> ;
+	a drw-model:B ;
+	rdfs:label "Privatdozent (ab Jan.) und Laborant (ab Okt.) am Lehrstuhl für Physiologie der Medizinischen Fakultät der Universität Moskau" .
+

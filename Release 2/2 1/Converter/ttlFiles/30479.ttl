@@ -1,0 +1,491 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<GeneralLabor/30479hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<P/30479hasP9>
+	a drw-model:P ;
+	rdfs:label "Foto von 1908 [I. R. Tarchanov mit Ehefrau]. In <b>SL</b> Nadareišvili/Nadareišvili und Saakašvili 1963, 70." .
+
+<W/30479hasW2>
+	rdfs:label "Ob fiziologičeskom dejstvii rentgenovskich lučej na central’nuju nervnuju sistemu. Bol’ničnaja gazeta Botkina 7 (1896), 14 S." ;
+	a drw-model:W .
+
+<SL/30479hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 452, 264-272; SU 426, 373." .
+
+<P/30479hasP1>
+	rdfs:label "Foto in: Professora MCA/VMA (<b>SL</b>)." ;
+	a drw-model:P .
+
+<ImportantPerson/30479>
+	drw-model:hasEducation <A/30479hasEducation9> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30479hasHonoursAndAwards> ;
+	drw-model:hasComment <Comment/30479hasComment1> ;
+	drw-model:hasP <P/30479hasP4> ;
+	drw-model:hasStationOfLife <B/30479hasStationOfLife3> ;
+	drw-model:hasP <P/30479hasP7> ;
+	drw-model:hasConnectionTo <ImportantPerson/31096> ;
+	drw-model:hasEducation <A/30479hasEducation7> ;
+	drw-model:hasEducation <A/30479hasEducation5> ;
+	drw-model:hasWL <WL/30479hasWL4> ;
+	drw-model:hasP <P/30479hasP0> ;
+	drw-model:hasEducation <A/30479hasEducation3> ;
+	drw-model:hasConnectionTo <ImportantPerson/30478> ;
+	drw-model:hasSL <SL/30479hasSL0> ;
+	drw-model:wasMarriedTo <RelatedPerson/30479wasMarriedTo> ;
+	drw-model:hasID "30479" ;
+	drw-model:hasSL <SL/30479hasSL4> ;
+	drw-model:hasSL <SL/30479hasSL1> ;
+	drw-model:hasWL <WL/30479hasWL3> ;
+	drw-model:hasEducation <A/30479hasEducation0> ;
+	drw-model:hasP <P/30479hasP6> ;
+	drw-model:hasSL <SL/30479hasSL9> ;
+	drw-model:hasSL <SL/30479hasSL7> ;
+	drw-model:hasStationOfLife <B/30479hasStationOfLife2> ;
+	rdfs:label "Tarchanov, Ivan Romanovič Knjaz'" ;
+	drw-model:hasWL <WL/30479hasWL2> ;
+	drw-model:hasQ <Q/30479hasQ0> ;
+	drw-model:hasGPV <GPV/30479hasGPV2> ;
+	drw-model:wasBornOn <Date/30479wasBornOn> ;
+	drw-model:fatherIs <RelatedPerson/30479fatherIs> ;
+	drw-model:hasW <W/30479hasW2> ;
+	drw-model:hasWL <WL/30479hasWL0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30479hasGeneralLabor0> ;
+	drw-model:hasSL <SL/30479hasSL6> ;
+	drw-model:hasSL <SL/30479hasSL8> ;
+	drw-model:hasP <P/30479hasP5> ;
+	drw-model:hasComment <Comment/30479hasComment2> ;
+	drw-model:hasStationOfLife <B/30479hasStationOfLife1> ;
+	drw-model:DiedOn <Date/30479DiedOn> ;
+	drw-model:hasWL <WL/30479hasWL1> ;
+	drw-model:hasP <P/30479hasP9> ;
+	drw-model:hasW <W/30479hasW0> ;
+	drw-model:hasGPV <GPV/30479hasGPV1> ;
+	drw-model:hasW <W/30479hasW3> ;
+	drw-model:hasSL <SL/30479hasSL3> ;
+	drw-model:DiedIn <Place/30479DiedIn> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasComment <Comment/30479hasComment4> ;
+	drw-model:hasP <P/30479hasP8> ;
+	drw-model:motherIs <RelatedPerson/30479motherIs> ;
+	drw-model:hasStationOfLife <B/30479hasStationOfLife0> ;
+	drw-model:hasStationOfLife <B/30479hasStationOfLife5> ;
+	drw-model:hasP <P/30479hasP2> ;
+	drw-model:hasW <W/30479hasW4> ;
+	drw-model:hasComment <Comment/30479hasComment5> ;
+	drw-model:hasP <P/30479hasP3> ;
+	drw-model:hasComment <Comment/30479hasComment3> ;
+	drw-model:hasP <P/30479hasP10> ;
+	drw-model:hasP <P/30479hasP1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30479.jpg> ;
+	drw-model:hasStationOfLife <B/30479hasStationOfLife4> ;
+	drw-model:hasConnectionTo <ImportantPerson/30318> ;
+	drw-model:hasEducation <A/30479hasEducation1> ;
+	drw-model:wasBornIn <Place/30479wasBornIn> ;
+	drw-model:hasGPV <GPV/30479hasGPV0> ;
+	drw-model:hasMG <MG/30479hasMG> ;
+	drw-model:hasSL <SL/30479hasSL2> ;
+	drw-model:hasW <W/30479hasW1> ;
+	drw-model:hasEducation <A/30479hasEducation6> ;
+	drw-model:hasW <W/30479hasW5> ;
+	drw-model:hasEducation <A/30479hasEducation4> ;
+	drw-model:hasMainName <MainName/30479hasMainName> ;
+	drw-model:hasConnectionTo <ImportantPerson/30395> ;
+	drw-model:hasSL <SL/30479hasSL5> ;
+	drw-model:hasEducation <A/30479hasEducation8> ;
+	drw-model:hasW <W/30479hasW6> ;
+	drw-model:hasGPV <GPV/30479hasGPV3> ;
+	drw-model:hasEducation <A/30479hasEducation2> .
+
+<ImportantPerson/31096>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "31096" ;
+	drw-model:hasConnectionTo <ImportantPerson/30479> .
+
+<B/30479hasStationOfLife4>
+	drw-model:began <Year/1895> ;
+	rdfs:label "Privatdozent für Biologie und allgemeine Physiologie an der Universität St. Petersburg" ;
+	a drw-model:B .
+
+<Comment/30479hasComment2>
+	rdfs:label "Ort in den Karpaten nahe Kraków. Tarchanov soll dort auf der Datscha seiner Schwiegereltern, der Familie Antokol’, während des Sommerurlaubs gestorben sein; vgl. <b>SL</b> Šojfet 2004 und Leopoldina. Bei Volkov/Kulikova 2003 b (<b>SL</b>) als Sterbeort „Peterburg“ angegeben." ;
+	drw-model:hasNumber 2 ;
+	a drw-model:Comment .
+
+<WL/30479hasWL0>
+	rdfs:label "Forschungsgebiete: Funktion des zentralen Nervensystems (darunter die Phänomene Schlaf, Hypnose, Fragen der Sekretion), Einwirkungen der äußeren Einflüsse auf den Körper, Elektrophysiologie, Altersphysiologie, Probleme der sozialen Hygiene u. a." ;
+	a drw-model:WL .
+
+<RelatedPerson/30479motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Nina Tarchanova, geb. Šarojeva (war armenischer Abstammung, † 1847 [?])" .
+
+<Year/1861>
+	rdfs:label "1861" ;
+	a drw-model:Year .
+
+<A/30479hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Besuch des 2. klassischen Gymnasiums in St. Petersburg" ;
+	drw-model:began <Year/1861> .
+
+<Date/30479DiedOn>
+	a drw-model:Date ;
+	rdfs:label "24.8./6.9.1908" .
+
+<SL/30479hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Saakašvili, M[ichail] G[eorgievič]. Ivan Ramazovič Tarchnišvili (Tarchanov) (Iz istorii sodružestva dejatelej kul’tury i nauki). Tbilisi 1963, 120 S.; darin u. a.: <i>V. I. Vartanov</i>: O professore Tarchanove (Tarchnišvili), S. 94-102; <i>N. O. Cybul’skij</i>: O I. R. Tarchanove (Tarchnišvili), S. 107-113." .
+
+<B/30479hasStationOfLife2>
+	rdfs:label "zugleich Vorlesungen in Physiologie an der Veterinärmedizinischen Fakultät der MCA/MMA" ;
+	a drw-model:B ;
+	drw-model:began <Year/1878> .
+
+<P/30479hasP6>
+	a drw-model:P ;
+	rdfs:label "Portrait von 1904 [I. R. Tarchanov sitzend]. In: <b>SL</b> Nadareišvili/Nadareišvili und Gruziny Sankt-Peterburga." .
+
+<Year/1860>
+	rdfs:label "1860" ;
+	a drw-model:Year .
+
+<A/30479hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Besuch eines Privatpensionats in St. Petersburg" ;
+	drw-model:began <Year/1860> .
+
+<WL/30479hasWL1>
+	rdfs:label "1889 Beschreibung der galvanischen Hautreaktion = Tarchanoff-Effekt (Elektrodermale Aktivität, Endosomatische Messung des Hautwiderstandes durch bioelektrische Vorgänge der Haut)[5]" ;
+	drw-model:hasComment <Comment/30479hasComment5> ;
+	a drw-model:WL .
+
+<Year/1876>
+	rdfs:label "1876" ;
+	a drw-model:Year .
+
+<Year/1857>
+	rdfs:label "1857" ;
+	a drw-model:Year .
+
+<NameVariation/30479_3>
+	rdfs:label "Tarchanoff, Johannes Fürst von"@de ;
+	a drw-model:NameVariation .
+
+<SL/30479hasSL8>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 432-433." ;
+	a drw-model:SL .
+
+<Year/1878>
+	rdfs:label "1878" ;
+	a drw-model:Year .
+
+<SL/30479hasSL0>
+	rdfs:label "Gruziny Sankt-Peterburga (http://www.piterge.ru/figures/ivan_tarkhanov.htm, 4.4.2011)." ;
+	a drw-model:SL .
+
+<Place/30479DiedIn>
+	a drw-model:Place ;
+	drw-model:hasComment <Comment/30479hasComment3> ;
+	rdfs:label "Krzeszowice, Polen[2], Grabstätte: St. Petersburg, Aleksandro-
+Nevskaja Lavra, Friedhof der Künstler Tichvinskoe, Ende des Südwegs[3]" ;
+	drw-model:hasComment <Comment/30479hasComment2> .
+
+<W/30479hasW0>
+	rdfs:label "O vlijanii teploty na čuvstvujuščie nervy, spinnoj i golovnoj mozg neobeskrovlennych i obeskrovlennych ljagušek. Diss. Sankt-Peterburg 1871, 44 S." ;
+	a drw-model:W .
+
+<B/30479hasStationOfLife1>
+	drw-model:began <Year/1876> ;
+	a drw-model:B ;
+	rdfs:label "Professor – ab 1876 ao. Professor, ab 1877 Leiter des Lehrstuhls für Physiologie und ab 1878 Ordinarius an der MCA/MMA St. Petersburg" .
+
+<Comment/30479hasComment3>
+	rdfs:label "Die Grabstätte Tarchanovs schuf seine Ehefrau (vgl. <b>E</b>), sie wurde nach ihrem Tod ebenfalls dort begraben. Abbildung siehe unter http://lavraspb.ru/ru/nekropol/view/item/id/4772/catid/3 (4.4.2011) und in Nadareišvili/Nadareišvili (<b>SL</b>)." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 3 .
+
+<P/30479hasP7>
+	rdfs:label "Il’ja Efimovič Repin: Ivan Ramazovič Tarchan-Mouravi (1905). [Aufbewahrungsort unbekannt]. In: Nadareišvili/Nadareišvili (<b>SL</b>)." ;
+	a drw-model:P .
+
+<WL/30479hasWL2>
+	rdfs:label "1896 Entdeckung des Einflusses der Röntgenstrahlen auf das zentrale Nervensystem (in Versuchen an Fröschen)" ;
+	a drw-model:WL .
+
+<B/30479hasStationOfLife3>
+	rdfs:label "Wissenschaftlicher Sekretär an der MMA" ;
+	a drw-model:B ;
+	drw-model:began <Year/1893> .
+
+<A/30479hasEducation2>
+	a drw-model:A ;
+	rdfs:label "erneut häuslicher Privatunterricht" ;
+	drw-model:began <Year/1857> .
+
+<NameVariation/30479_2>
+	rdfs:label "Тархнишвили, Иван Романович/Рамазович Князь"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Tarchnišvili, Ivan Romanovič/Ramazovič Knjaz’"@de .
+
+<SL/30479hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Leopoldina 44 (1908) 10, 89 [Todesanzeige], 96 [Kurznekrolog]." .
+
+<A/30479hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Kindheit und häuslicher Privatunterricht nahe der Stadt Nucha im Kaukasus" .
+
+<W/30479hasW1>
+	a drw-model:W ;
+	rdfs:label "Kurs fiziologii, sostavlennyj po lekcijam professora Tarchanova. Sankt-Peterburg 1879, 295 S." .
+
+<P/30479hasP4>
+	rdfs:label "Il’ja Efimovič Repin: Ivan Ramazovič Tarchan-Mouravi (1892). Öl auf Leinwand. Russisches Staatsmuseum St. Petersburg; auch in: <b>SL</b> Nadareišvili/Nadareišvili [hier 1888 angegeben], Saakašvili 1963, Frontispiz, und Gruziny Sankt-Peterburga." ;
+	a drw-model:P .
+
+<WL/30479hasWL3>
+	rdfs:label "1892-1894 Redakteur der dreibändigen Übersetzung von: Handwörterbuch der gesamten Medizin. Hrsg. von Albert Villaret. Bd. 1-2. Stuttgart 1888 und 1891: <i>Ėnciklopedičeskij medicinskij slovar’. T. 1-3. Sankt-Peterbug</i>" ;
+	a drw-model:WL .
+
+<A/30479hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Kurzer Besuch des Gymnasiums in Tiflis" .
+
+<NameVariation/30479_1>
+	rdfs:label "Тархан-Моурави, Иван Романович/Рамазович Князь"@ru ;
+	rdfs:label "Tarchan-Mouravi, Ivan Romanovič/Ramazovič Knjaz’"@de ;
+	a drw-model:NameVariation .
+
+<Comment/30479hasComment1>
+	a drw-model:Comment ;
+	rdfs:label "Urenkel des georgischen Nationalhelden Georgij Saakadze – Didi Mouravi [Der große Herrscher] (1570-1629), der für besondere Verdienste um seine Heimat den Fürstentitel und die Befreiung von den staatlichen Steuern („tarchanstvo“) erhielt. Daher kommt der Doppelnachname, erhalten geblieben im einzigen überlebenden direkten Nachkommen von Georgij Saakadze, dem Sohn Siauš." ;
+	drw-model:hasNumber 1 .
+
+<A/30479hasEducation9>
+	a drw-model:A ;
+	drw-model:began <Year/1873> ;
+	rdfs:label "Weiterbildung in Deutschland und Frankreich:
+- bei F. <span style='font-variant:small-caps;'>Goltz</span>, F. <span style='font-variant:small-caps;'>Hoppe-Seyler</span>, Friedrich Daniel von <span style='font-variant:small-caps;'>Recklinghausen</span> (1833-1910) und Wilhelm von <span style='font-variant:small-caps;'>Waldeyer-Hartz</span> (1836-1921) an der Universität Straßburg sowie in Berlin
+- bei Claude <span style='font-variant:small-caps;'>Bernard</span> (1813-1878), Louis Antoine <span style='font-variant:small-caps;'>Ranvier</span> (1835-1922), Jean Martin <span style='font-variant:small-caps;'>Charcot</span> (1825-1893) und Etienne Jules <span style='font-variant:small-caps;'>Marey</span> (1830-1904) am Collège de France in Paris
+- Besuch weiterer physiologischer Laboratorien in Europa: in Wien, London, Oxford, Brüssel, Genf, Zürich und Turin" .
+
+<GPV/30479hasGPV2>
+	rdfs:label "Izbrannye sočinenija. Tbilisi 1961, 394 S." ;
+	a drw-model:GPV .
+
+<SL/30479hasSL9>
+	rdfs:label "Šojfet, M. S.: Sto velikich vračej. Moskva 2004, 389-397." ;
+	a drw-model:SL .
+
+<SL/30479hasSL2>
+	rdfs:label "Nadareišvili, K. Š, Nadareišvili, D. K.: Ivan Ramazovič Tarchan-Mouravi (Tarchnišvili, Tarchanov) – pervyj issledovatel’ v oblasti radiobiologii i radiacionnoj ėkologii (http://www.radiobiology.org.ge/PUBLICATIONS/ENG/Tarkhanov/Tarkhan_RU.htm, 4.4.2011)." ;
+	a drw-model:SL .
+
+<A/30479hasEducation8>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der MCA St. Petersburg" .
+
+<W/30479hasW6>
+	rdfs:label "Novyj vek. Sankt-Peterburg 1906, 32 S." ;
+	a drw-model:W .
+
+<RelatedPerson/30479wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30479hasComment4> ;
+	rdfs:label "Elena Pavlovna Tarchanova-Antokol’skaja (1862-1930)[4], Bildhauerin" .
+
+<WL/30479hasWL4>
+	rdfs:label "1905-1908 Mitredakteur der Zeitschrift <i>Žurnal medicinskoj chimii i organoterapii</i>" ;
+	a drw-model:WL .
+
+<B/30479hasStationOfLife0>
+	a drw-model:B ;
+	rdfs:label "Privatdozent am Lehrstuhl für Physiologie der MCA St. Petersburg" .
+
+<P/30479hasP5>
+	rdfs:label "Portrait [mit Unterschrift] in: Popel’skij 1899 (<b>SL</b>), vor S. 103." ;
+	a drw-model:P .
+
+<Year/1895>
+	rdfs:label "1895" ;
+	a drw-model:Year .
+
+<NameVariation/30479_0>
+	drw-model:hasComment <Comment/30479hasComment1> ;
+	a drw-model:NameVariation ;
+	rdfs:label "Тархан-Моуравов#фоотноте1#, Иван Романович/Рамазович Князь"@ru ;
+	rdfs:label "Tarchan-Mouravov[1], Ivan Romanovič/Ramazovič Knjaz’"@de .
+
+<GPV/30479hasGPV3>
+	rdfs:label "Deutschsprachige Publikationen 1874-1905, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<Year/1893>
+	rdfs:label "1893" ;
+	a drw-model:Year .
+
+<P/30479hasP10>
+	a drw-model:P ;
+	rdfs:label "Gruppenfoto: I. R. Tarchanov im Laboratorium. In: Šojfet 2004 (<b>SL</b>), 390." .
+
+<NameVariation/30479_4>
+	rdfs:label "Tarchanow, Johannes Fürst von"@de ;
+	a drw-model:NameVariation .
+
+<HonoursAndAwards/30479hasHonoursAndAwards>
+	rdfs:label "1891  Ernennung zum Mitglied der MMA<br>1897  „Wirklicher Russischer Staatsrat“<br>1900  Ordre de la Légion d’Honneur [3. Klasse] (Frankreich)<br><i>Premija im. I. R. Tarchnišvili</i>, vergeben alle zwei Jahre für die beste Arbeit in Physiologie (Grusinische SSR)<br>Denkmal vor dem Gebäude der Staatlichen Medizinischen Universität in Tiflis. Abbildung in: Nadareišvili/Nadareišvili (<b>SL</b>)." ;
+	a drw-model:HonoursAndAwards .
+
+<SL/30479hasSL3>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 247-250." ;
+	a drw-model:SL .
+
+<ImportantPerson/30395>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30395" ;
+	drw-model:hasConnectionTo <ImportantPerson/30479> .
+
+<A/30479hasEducation7>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung am Lehrstuhl für Physiologie der MCA St. Petersburg" ;
+	drw-model:began <Year/1870> .
+
+<Year/1864>
+	rdfs:label "1864" ;
+	a drw-model:Year .
+
+<NameVariation/30479_5>
+	rdfs:label "Tarchan-Mourawoff, Johannes Fürst von"@de ;
+	a drw-model:NameVariation .
+
+<P/30479hasP2>
+	a drw-model:P ;
+	rdfs:label "Foto von ca. 1888 [I. R. Tarchanov am Schreibtisch sitzend]. In <b>SL</b> Nadareišvili/Nadareišvili und Saakašvili 1963, 39." .
+
+<RelatedPerson/30479fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ramaz (Roman) Dmitrievič Tarchan-Mouravi († 1871), Generalmajor der Russischen Armee, Militärischer Befehlshaber der Stadt Nucha" .
+
+<GPV/30479hasGPV0>
+	rdfs:label "Publikationen [größtenteils ohne Jahresangabe] (43+8 Nrn.), in: Bogdanov, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<W/30479hasW4>
+	rdfs:label "Vnušenie, gipnitizm i čtenie myslej. Sankt-Peterburg 1905, 132 S." ;
+	a drw-model:W .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<SL/30479hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Popel’skij, Lew: Istoričeskij očerk kafedry fiziologii v Imperatorskoj Voenno-medicinskoj akademii za 100 let (1798-1898). S.-Peterburg 1899, 103-134." .
+
+<Year/1873>
+	rdfs:label "1873" ;
+	a drw-model:Year .
+
+<A/30479hasEducation6>
+	a drw-model:A ;
+	drw-model:began <Year/1864> ;
+	rdfs:label "Studium der Medizin an der Mediko-Chirurgischen Akademie (MCA) St. Petersburg bei I. M. → Sečenov" .
+
+<P/30479hasP3>
+	rdfs:label "Foto in: Saakašvili 1963 (<b>SL</b>), 11." ;
+	a drw-model:P .
+
+<ImportantPerson/30318>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30479> ;
+	drw-model:hasID "30318" .
+
+<GPV/30479hasGPV1>
+	rdfs:label "Učenya raboty Tarchanova 1870-1885 (38 Nrn.), in: Popel’skij 1899 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<Year/1863>
+	rdfs:label "1863" ;
+	a drw-model:Year .
+
+<Comment/30479hasComment4>
+	rdfs:label "Angabe auf dem Grabstein (?). Vgl. Beschreibung dazu auf Seite http://lavraspb.ru/ru/nekropol/view/item/id/4772/catid/3 (4.4.2011). Andere Quellen im Internet geben 1868-1932 an." ;
+	drw-model:hasNumber 4 ;
+	a drw-model:Comment .
+
+<Q/30479hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr. 2736 (Dankschreiben Tarchanovs an die Leopoldina vom 9.[21.]10.1888 zur Wahl, Brief vom 26.5.1889 und ausgefüllter Fragebogen „Biographische Mittheilungen“ mit Schriftenverzeichnis [vgl. <b>GPV</b>], Brief des Präsidenten der Leopoldina an Tarchanov vom 8.8.1889)." .
+
+<W/30479hasW5>
+	a drw-model:W ;
+	rdfs:label "Rationelle Organotherapie. Mit Berücksichtigung der Urosemiologie. Mit Alexander von Poehl und Petr B. Wachs. [Übersetzung aus dem Russischen]. St. Petersburg 1905, VIII, 242, XXIII S." .
+
+<MG/30479hasMG>
+	a drw-model:MG ;
+	rdfs:label "Peterburgskoe obščestvo estestvoispytatelej [Gesellschaft der Naturforscher in St. Petersburg], Obščestvo russkich vračej [Gesellschaft russischer Ärzte], Techničeskoe obščestvo [Technische Gesellschaft], Leopoldina (1888), Société de Biologie Paris u. a." .
+
+<P/30479hasP8>
+	rdfs:label "Portrait von 1906 [Künstler und Aufbewahrungsort unbekannt]. In: <b>SL</b> Nadareišvili/Nadareišvili und Gruziny Sankt-Peterburga." ;
+	a drw-model:P .
+
+<P/30479hasP0>
+	rdfs:label "Foto (Abb.) aus: Volkov/Kulikova 2003 b (<b>SL</b>), Bildeinlage zw. S. 424-425." ;
+	a drw-model:P .
+
+<SL/30479hasSL5>
+	rdfs:label "Professora MCA/VMA - Professora Voenno-medicinskoj (Mediko-chirurgičeskoj) akademii (1798-1998). Glavnyj red. Jurij Leonidovič Ševčenko. Sankt-Peterburg 1998, 58." ;
+	a drw-model:SL .
+
+<ImportantPerson/30478>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30478" ;
+	drw-model:hasConnectionTo <ImportantPerson/30479> .
+
+<Date/30479wasBornOn>
+	a drw-model:Date ;
+	rdfs:label "15./27.6.1846" .
+
+<MainName/30479hasMainName>
+	drw-model:hasNameVariation <NameVariation/30479_5> ;
+	drw-model:hasNameVariation <NameVariation/30479_2> ;
+	rdfs:label "Tarchanov, Ivan Romanovič Knjaz'" ;
+	drw-model:hasNameVariation <NameVariation/30479_3> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30479_0> ;
+	drw-model:hasNameVariation <NameVariation/30479_4> ;
+	drw-model:hasNameVariation <NameVariation/30479_1> .
+
+<B/30479hasStationOfLife5>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<Year/1870>
+	rdfs:label "1870" ;
+	a drw-model:Year .
+
+<Place/30479wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Tiflis" .
+
+<W/30479hasW3>
+	rdfs:label "Duch i telo. Sankt-Peterburg 1904, 176 S.; 2. Aufl. Moskva 2010, 175 S." ;
+	a drw-model:W .
+
+<Comment/30479hasComment5>
+	drw-model:hasNumber 5 ;
+	a drw-model:Comment ;
+	rdfs:label "Lexikon der Psychologie (http://www.wissenschaft-online.de/abo/lexikon/psycho/15297, 4.4.2011)." .
+
+<A/30479hasEducation5>
+	a drw-model:A ;
+	drw-model:began <Year/1863> ;
+	rdfs:label "Studium an der naturwissenschaftlichen Abteilung der Physiko-mathematischen Fakultät der Universität St. Petersburg bei F. V. <span style='font-variant:small-caps;'>Ovsjannikov</span>" .
+

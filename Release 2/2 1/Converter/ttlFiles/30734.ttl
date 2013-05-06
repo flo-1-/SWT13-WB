@@ -1,0 +1,250 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<B/30734hasStationOfLife3>
+	rdfs:label "Wissenschaftlicher Sekretär der MCAM" ;
+	a drw-model:B ;
+	drw-model:began <Year/1812> .
+
+<Place/30734DiedIn>
+	a drw-model:Place ;
+	rdfs:label "nahe Smolensk" .
+
+<A/30734hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung in medizinisch-physiologischen Wissenschaften an der Universität Moskau" .
+
+<B/30734hasStationOfLife7>
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Moskau" ;
+	drw-model:began <Year/1816> ;
+	a drw-model:B .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<ImportantPerson/30734>
+	drw-model:hasEducation <A/30734hasEducation2> ;
+	rdfs:label "Muchin, Efrem Osipovič (Kavaler)" ;
+	drw-model:hasGeneralLabor <GeneralLabor/30734hasGeneralLabor1> ;
+	drw-model:DiedOn <Date/30734DiedOn> ;
+	drw-model:hasDescendant <RelatedPerson/30734hasDescendant> ;
+	drw-model:hasMainName <MainName/30734hasMainName> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife2> ;
+	drw-model:fatherIs <RelatedPerson/30734fatherIs> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife1> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife8> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife5> ;
+	drw-model:DiedIn <Place/30734DiedIn> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife7> ;
+	drw-model:hasComment <Comment/30734hasComment1> ;
+	drw-model:hasComment <Comment/30734hasComment4> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife6> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife0> ;
+	drw-model:hasEducation <A/30734hasEducation3> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife4> ;
+	drw-model:hasComment <Comment/30734hasComment2> ;
+	drw-model:hasID "30734" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <A/30734hasEducation4> ;
+	drw-model:hasEducation <A/30734hasEducation6> ;
+	drw-model:hasComment <Comment/30734hasComment3> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife3> ;
+	drw-model:hasEducation <A/30734hasEducation0> ;
+	drw-model:wasBornIn <Place/30734wasBornIn> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30734hasGeneralLabor0> ;
+	drw-model:wasBornOn <Date/30734wasBornOn> ;
+	drw-model:hasEducation <A/30734hasEducation5> ;
+	drw-model:hasEducation <A/30734hasEducation7> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30734.jpg> ;
+	drw-model:hasEducation <A/30734hasEducation1> ;
+	drw-model:hasEducation <A/30734hasEducation8> .
+
+<A/30734hasEducation3>
+	a drw-model:A ;
+	drw-model:began <Year/1789> ;
+	rdfs:label "Unterarzt und Prosektor der anatomischen Abteilung am Militärhospital in Elizavetgrad" .
+
+<RelatedPerson/30734fatherIs>
+	rdfs:label "Osip, Adliger" ;
+	a drw-model:RelatedPerson .
+
+<Year/1816>
+	rdfs:label "1816" ;
+	a drw-model:Year .
+
+<Year/1800>
+	rdfs:label "1800" ;
+	a drw-model:Year .
+
+<Comment/30734hasComment2>
+	drw-model:hasNumber 2 ;
+	a drw-model:Comment ;
+	rdfs:label "WBIS RBA (<b>SL</b>): R 320, 408; RS 44, 311-314." .
+
+<Year/1802>
+	rdfs:label "1802" ;
+	a drw-model:Year .
+
+<Comment/30734hasComment4>
+	rdfs:label "Die Dissertation wurde 1804 in Göttingen gedruckt (vgl. <b>W</b>). Über die Vergabe des Doktordiploms der Universität Göttingen gibt es im Universitätsarchiv in den Promotionskarteien der Medizinischen Fakultät jedoch keinerlei Unterlagen (Schriftliche Mitteilung vom 16.6.2011)." ;
+	drw-model:hasNumber 4 ;
+	a drw-model:Comment .
+
+<A/30734hasEducation7>
+	a drw-model:A ;
+	rdfs:label "Dissertation zum Dr. med. am Medizinalkontor in Moskau" .
+
+<B/30734hasStationOfLife1>
+	drw-model:began <Year/1800> ;
+	rdfs:label "Professor für Anatomie und Physiologie an der Mediko-Chirurgischen Akademie Moskau (MCAM)" ;
+	a drw-model:B .
+
+<B/30734hasStationOfLife0>
+	rdfs:label "Chefarzt am Öffentlichen Golicyn-Krankenhaus in Moskau" ;
+	drw-model:began <Year/1800> ;
+	a drw-model:B .
+
+<Year/1812>
+	rdfs:label "1812" ;
+	a drw-model:Year .
+
+<A/30734hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Studium an der Mediko-Chirurgischen Schule (MCSE) des Militärhospitals in Elizavetgrad, Abschluß „Arzt“" ;
+	drw-model:began <Year/1787> .
+
+<NameVariation/30734_1>
+	rdfs:label "Muchin, Ephremus de [Ritter]"@de ;
+	a drw-model:NameVariation .
+
+<GeneralLabor/30734hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologie und Gerichtsmedizin" .
+
+<A/30734hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1787_1789> ;
+	rdfs:label "Krankenpfleger im Hauptquartier des Generalfeldmarschalls Grigorij Aleksandrovič <span style='font-variant:small-caps;'>Potemkin</span> (1739-1791) während des Türkenkriegs" .
+
+<B/30734hasStationOfLife4>
+	drw-model:began <Year/1802> ;
+	rdfs:label "zugleich Dozent an der Slawisch-Griechisch-Lateinischen Akademie und an der Geistlichen Akademie in Moskau" ;
+	a drw-model:B .
+
+<A/30734hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Besuch des Kollegiums in Char’kov[3]" ;
+	drw-model:began <Year/1781> ;
+	drw-model:hasComment <Comment/30734hasComment3> .
+
+<A/30734hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Dozent für Anatomie und Verbandslehre an der MCSE, zugleich Operateur am Militärhospital" ;
+	drw-model:began <Year/1791> .
+
+<Date/30734wasBornOn>
+	a drw-model:Date ;
+	drw-model:hasComment <Comment/30734hasComment1> ;
+	rdfs:label "28.[1]1./8.2.1766" .
+
+<MainName/30734hasMainName>
+	a drw-model:MainName ;
+	rdfs:label "Muchin, Efrem Osipovič (Kavaler)" ;
+	drw-model:hasNameVariation <NameVariation/30734_0> ;
+	drw-model:hasNameVariation <NameVariation/30734_1> .
+
+<Comment/30734hasComment1>
+	a drw-model:Comment ;
+	rdfs:label "In Estestvoznanie, zit. n. WBIS RBA (<b>SL</b>), ist 26. angegeben. Vermutlich Druckfehler." ;
+	drw-model:hasNumber 1 .
+
+<B/30734hasStationOfLife2>
+	drw-model:began <Year/1809> ;
+	rdfs:label "Professor für Anatomie und Physiologie an der Mediko-Chirurgischen Akademie Moskau (MCAM)" ;
+	a drw-model:B .
+
+<Date/30734DiedOn>
+	a drw-model:Date ;
+	rdfs:label "Januar 1850" .
+
+<Comment/30734hasComment3>
+	a drw-model:Comment ;
+	rdfs:label "Volkov/Kulikova 2003 a, b (<b>SL</b>). Quellen in WBIS RBA (<b>SL</b>) geben als Zeitraum auf dem Kollegium 1786-1787 (8 Monate) an." ;
+	drw-model:hasNumber 3 .
+
+<A/30734hasEducation8>
+	a drw-model:A ;
+	rdfs:label "Doktordiplom der Universität Göttingen (?)[4]" ;
+	drw-model:hasComment <Comment/30734hasComment4> .
+
+<Year/1789>
+	rdfs:label "1789" ;
+	a drw-model:Year .
+
+<B/30734hasStationOfLife5>
+	rdfs:label "Oberarzt am Erziehungshaus und Chefarzt der Krankenabteilung an der Handelsschule in Moskau" ;
+	a drw-model:B ;
+	drw-model:began <Year/1813> .
+
+<Year/1809>
+	rdfs:label "1809" ;
+	a drw-model:Year .
+
+<A/30734hasEducation6>
+	a drw-model:A ;
+	rdfs:label "Adjunkt-Professor für Pathologie und Therapie und Prosektor (1796) an der Mediko-Chirurgischen Schule (MCSM) und am Militärhospital Moskau" ;
+	drw-model:began <Year/1795> .
+
+<B/30734hasStationOfLife8>
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Moskau" ;
+	a drw-model:B .
+
+<Place/30734wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Rittergut bei Čuguev, Gouv. Belgorod (später: Char’kov)" .
+
+<Year/1787_1789>
+	rdfs:label "1787, 1789" ;
+	a drw-model:Year .
+
+<Year/1813>
+	a drw-model:Year ;
+	rdfs:label "1813" .
+
+<B/30734hasStationOfLife6>
+	a drw-model:B ;
+	drw-model:began <Year/1813> ;
+	rdfs:label "o. Professor am Lehrstuhl für Anatomie, Physiologie und Gerichtsmedizin an der Universität Moskau" .
+
+<RelatedPerson/30734hasDescendant>
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30734hasComment2> ;
+	rdfs:label "Aleksandr Efremovič (1805-1861), Stabskapitän, Schriftsteller[2]" .
+
+<Year/1795>
+	rdfs:label "1795" ;
+	a drw-model:Year .
+
+<NameVariation/30734_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Muchin, Efrem [Ritter]"@de .
+
+<Year/1791>
+	rdfs:label "1791" ;
+	a drw-model:Year .
+
+<Year/1787>
+	rdfs:label "1787" ;
+	a drw-model:Year .
+
+<Year/1781>
+	rdfs:label "1781" ;
+	a drw-model:Year .
+
+<GeneralLabor/30734hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Anatomie" .
+

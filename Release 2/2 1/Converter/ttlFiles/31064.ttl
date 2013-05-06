@@ -1,0 +1,452 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<B/31064hasStationOfLife8>
+	rdfs:label "Einrichtung eines Forschungslaboratoriums und Fotokabinetts in Vlasovo bei Moskau, Forschungen in Elektrophysiologie" ;
+	a drw-model:B .
+
+<OtherOffices/31064hasOtherOffices0>
+	rdfs:label "Abgeordneter der 2. und der 1. Staatsduma" ;
+	a drw-model:OtherOffices .
+
+<Place/31064DiedIn>
+	a drw-model:Place ;
+	drw-model:hasComment <Comment/31064hasComment1> ;
+	rdfs:label "Perm’[1], Grabstätte: Friedhof Archierskoe" .
+
+<Year/1890>
+	rdfs:label "1890" ;
+	a drw-model:Year .
+
+<ImportantPerson/30800>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30800" ;
+	drw-model:hasConnectionTo <ImportantPerson/31064> .
+
+<Year/1892>
+	rdfs:label "1892" ;
+	a drw-model:Year .
+
+<Year/1915>
+	rdfs:label "1915" ;
+	a drw-model:Year .
+
+<SL/31064hasSL2>
+	rdfs:label "Hausmann, Guido: Universität und städtische Gesellschaft in Odessa, 1865-1917. Soziale und nationale Selbstorganisation an der Peripherie des Zarenreiches. Stuttgart 1998 (Quellen und Studien zur Geschichte des östlichen Europa 49), 617-618." ;
+	a drw-model:SL .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<P/31064hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: http://enc.permkultura.ru/showObject.do?object=1804745284 (10.4.2011)." .
+
+<B/31064hasStationOfLife12>
+	rdfs:label "Direktor des Biologischen Wissenschaftlichen Forschungsinstitutes in Perm’" ;
+	a drw-model:B ;
+	drw-model:began <Year/1922> .
+
+<Year/1886>
+	rdfs:label "1886" ;
+	a drw-model:Year .
+
+<W/31064hasW2>
+	rdfs:label "Osnovy obščej biologii. Bd. 1-2. Odessa 1912-1913." ;
+	a drw-model:W .
+
+<GPV/31064hasGPV0>
+	a drw-model:GPV ;
+	rdfs:label "Spisok osnovnych trudov (1883-1923, 34 Nrn.), in: Chodorov 1951 (<b>SL</b>), 68-69." .
+
+<Year/1922>
+	rdfs:label "1922" ;
+	a drw-model:Year .
+
+<Date/31064DiedOn>
+	rdfs:label "13.6.1925" ;
+	a drw-model:Date .
+
+<NameVariation/31064_0>
+	rdfs:label "Verigo, Bronislav-Valentij Fortunatovič"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Вериго, Бронислав-Валентий Фортунатович"@ru .
+
+<MainName/31064hasMainName>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/31064_1> ;
+	rdfs:label "Verigo, Bronislav Fortunatovič" ;
+	drw-model:hasNameVariation <NameVariation/31064_0> ;
+	drw-model:hasNameVariation <NameVariation/31064_2> .
+
+<B/31064hasStationOfLife10>
+	rdfs:label "Professor für Physiologie und Gründer des Physiologischen Laboratoriums an der Universität Perm’" ;
+	a drw-model:B ;
+	drw-model:began <Year/1917> .
+
+<ImportantPerson/30785>
+	drw-model:hasID "30785" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/31064> .
+
+<SL/31064hasSL6>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 113-114" ;
+	a drw-model:SL .
+
+<ImportantPerson/30479>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30479" ;
+	drw-model:hasConnectionTo <ImportantPerson/31064> .
+
+<NameVariation/31064_2>
+	a drw-model:NameVariation ;
+	rdfs:label "Werigo, Bronislaw"@de .
+
+<WL/31064hasWL3>
+	rdfs:label "<i>Katodičeskaja depressija Werigo</i> [Depressive Kathodenwirkung nach Werigo]" ;
+	a drw-model:WL .
+
+<A/31064hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Abschluss des Gymnasiums in Vitebsk (Weißrussland)" .
+
+<Year/1882>
+	rdfs:label "1882" ;
+	a drw-model:Year .
+
+<B/31064hasStationOfLife6>
+	a drw-model:B ;
+	rdfs:label "Auslandsaufenthalt (sieben Monate)" .
+
+<B/31064hasStationOfLife4>
+	rdfs:label "Privatdozent für Physiologie an der MMA" ;
+	a drw-model:B ;
+	drw-model:began <Year/1892> .
+
+<A/31064hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1883> ;
+	rdfs:label "Studium der Medizin an der Militärmedizinischen Akademie (MMA) St. Petersburg bei N. E. <span style='font-variant:small-caps;'>Vvedenskij</span>, I. R. <span style='font-variant:small-caps;'>Tarchanov</span>, Nikolaj Pavlovič <span style='font-variant:small-caps;'>Kravkov</span> (1865-1924) und I. P. <span style='font-variant:small-caps;'>Pavlov</span>" .
+
+<B/31064hasStationOfLife3>
+	a drw-model:B ;
+	rdfs:label "Weiterbildung in Deutschland, Schweiz und Frankreich (Delegierung):- bei Ernst Leopold <span style='font-variant:small-caps;'>Salkowski</span> (1844-1923) an der Universität Berlin- bei E. <span style='font-variant:small-caps;'>Pflüger</span> an der Universität Bonn- bei Marcel <span style='font-variant:small-caps;'>Nencki</span> (1847-1901) an der Universität Bern- bei Il’ja I’jič <span style='font-variant:small-caps;'>Mečnikov</span> (1845-1916) am Institut Pasteur in Paris" ;
+	drw-model:began <Year/1890> .
+
+<Year/1877>
+	rdfs:label "1877" ;
+	a drw-model:Year .
+
+<SL/31064hasSL4>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 257-259." ;
+	a drw-model:SL .
+
+<RelatedPerson/31064fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Fortunat, Lehrer für Altkirchenslawisch am Gymnasium in Dünaburg" .
+
+<Comment/31064hasComment4>
+	rdfs:label "In Gambaroglu 1960 (<b>SL</b>) als Zeitraum 1889-1895 angegeben." ;
+	drw-model:hasNumber 4 ;
+	a drw-model:Comment .
+
+<ImportantPerson/10030>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "10030" ;
+	drw-model:hasConnectionTo <ImportantPerson/31064> .
+
+<RelatedPerson/31064wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anna Stepanovna" .
+
+<ImportantPerson/30579>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30579" ;
+	drw-model:hasConnectionTo <ImportantPerson/31064> .
+
+<ImportantPerson/30695>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30695" ;
+	drw-model:hasConnectionTo <ImportantPerson/31064> .
+
+<Year/1917>
+	rdfs:label "1917" ;
+	a drw-model:Year .
+
+<B/31064hasStationOfLife2>
+	rdfs:label "Prosektor am Lehrstuhl für Physiologie an der MMA" ;
+	drw-model:began <Year/1889_1890> ;
+	a drw-model:B .
+
+<Year/1883>
+	rdfs:label "1883" ;
+	a drw-model:Year .
+
+<GPV/31064hasGPV1>
+	rdfs:label "Deutschsprachige und in deutschen Zeitschriften referierte russische Publikationen 1891-1912, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<Comment/31064hasComment2>
+	rdfs:label "Wikipedia: http://ru.wikipedia.org/wiki/Вериго,_Магдалина_Брониславовна (8.4.2011)." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 2 .
+
+<B/31064hasStationOfLife11>
+	rdfs:label "Dekan der Medizinischen Fakultät an der Universität Perm’" ;
+	a drw-model:B ;
+	drw-model:began <Year/1920> .
+
+<WL/31064hasWL0>
+	rdfs:label "Forschungsthemen: Untersuchungen des Gasaustausches und der Erregbarkeit des Nervengewebes, Arbeiten zur Elektrophysiologie, Neurophysiologie und Immunität sowie zum Stoffwechsel" ;
+	a drw-model:WL .
+
+<OtherOffices/31064hasOtherOffices1>
+	rdfs:label "Tätigkeit in verschiedenen Kommissionen des Biologischen Instituts, z. B. Vorsitzender der Kommission für Qualifizierung der Studierenden" ;
+	a drw-model:OtherOffices .
+
+<B/31064hasStationOfLife9>
+	a drw-model:B ;
+	rdfs:label "Forschungstätigkeit am Staatlichen Naturwissenschaftlichen Institut „P. F. Lesgaft“, zugleich (Privat)Dozent am Psycho-Neurologischen Institut von Vladimir Michajlovič <span style='font-variant:small-caps;'>Bechterev</span> (1857-1927) und an der MMA in Petrograd" ;
+	drw-model:began <Year/1915> .
+
+<ImportantPerson/30059>
+	drw-model:hasID "30059" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/31064> .
+
+<P/31064hasP2>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Osoveckij 1991, zit. n. WBIS RBA (<b>SL</b>)." .
+
+<ImportantPerson/10015>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "10015" ;
+	drw-model:hasConnectionTo <ImportantPerson/31064> .
+
+<WL/31064hasWL1>
+	rdfs:label "Nach ihm ist benannt:" ;
+	a drw-model:WL .
+
+<ImportantPerson/10151>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "10151" ;
+	drw-model:hasConnectionTo <ImportantPerson/31064> .
+
+<WL/31064hasWL2>
+	rdfs:label "seit 1898 <i>Verigo-ėffekt</i> (auch <i>Verigo-Bora ėffekt</i>) [Werigo(-Bohr)-Effekt] (Wirkung von O2 auf die CO2-Bindungsfähigkeit des Blutes)[6]," ;
+	drw-model:hasComment <Comment/31064hasComment6> ;
+	a drw-model:WL .
+
+<SL/31064hasSL1>
+	rdfs:label "Gambaroglu 1960 – Gambaroglu, K.: Vidnyj russkij fiziolog B. F. Verigo (K 100-letiju so dnja roždenija). Fiziologičeskij žurnal SSSR 46 (1960) 11, 1422-1423." ;
+	a drw-model:SL .
+
+<SL/31064hasSL0>
+	rdfs:label "Chodorov, B. I.: Vydajuščijsja russkij fiziolog B. F. Verigo (1860-1925). Žurnal obščej biologii 12 (1951) 1, 55-69." ;
+	a drw-model:SL .
+
+<B/31064hasStationOfLife13>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<A/31064hasEducation1>
+	a drw-model:A ;
+	drw-model:began <Year/1877> ;
+	rdfs:label "Studium an der naturwissenschaftlichen Abteilung der Physiko-mathematischen Fakultät der Universität St. Petersburg bei Nikolaj Nikolaevič <span style='font-variant:small-caps;'>Beketov</span> (1826-1911), Aleksandr Michajlovič <span style='font-variant:small-caps;'>Butlerov</span> (1828-1886), Vasilij Vasil’evič <span style='font-variant:small-caps;'>Dokučaev</span> (1846-1903), Dmitrij Ivanovič <span style='font-variant:small-caps;'>Mendeleev</span> (1834-1907) und I. M. <span style='font-variant:small-caps;'>Sečenov</span>" .
+
+<NameVariation/31064_1>
+	rdfs:label "Verigo, Bronislav Valent Fortunatovič"@de ;
+	rdfs:label "Вериго, Бронислав Валент Фортунатович"@ru ;
+	a drw-model:NameVariation .
+
+<Comment/31064hasComment6>
+	rdfs:label "Vgl. auch http://mirslovarei.com/content_bigmedslov/verigo-jeffekt-73401.html (11.5.2011)." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 6 .
+
+<Year/1889_1890>
+	drw-model:hasComment <Comment/31064hasComment4> ;
+	rdfs:label "1889-1890[4]" ;
+	a drw-model:Year .
+
+<Date/31064wasBornOn>
+	a drw-model:Date ;
+	rdfs:label "14./26.2.1860" .
+
+<W/31064hasW1>
+	rdfs:label "Osnovy fiziologii čeloveka i vysšich životnych. Bd. 1-2. Sankt-Peterburg 1905-1909; Neuausg.: Odessa 1911." ;
+	a drw-model:W .
+
+<GeneralLabor/31064hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<ImportantPerson/31083>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "31083" ;
+	drw-model:hasConnectionTo <ImportantPerson/31064> .
+
+<ImportantPerson/30924>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30924" ;
+	drw-model:hasConnectionTo <ImportantPerson/31064> .
+
+<ImportantPerson/31064>
+	rdfs:label "Verigo, Bronislav Fortunatovič" ;
+	drw-model:hasWL <WL/31064hasWL1> ;
+	drw-model:hasSL <SL/31064hasSL0> ;
+	drw-model:hasMG <MG/31064hasMG> ;
+	drw-model:DiedIn <Place/31064DiedIn> ;
+	drw-model:hasEducation <A/31064hasEducation2> ;
+	drw-model:hasStationOfLife <B/31064hasStationOfLife8> ;
+	drw-model:hasWL <WL/31064hasWL0> ;
+	drw-model:hasComment <Comment/31064hasComment3> ;
+	drw-model:hasSL <SL/31064hasSL4> ;
+	drw-model:hasComment <Comment/31064hasComment1> ;
+	drw-model:hasSL <SL/31064hasSL1> ;
+	drw-model:hasP <P/31064hasP1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31064hasGeneralLabor0> ;
+	drw-model:hasStationOfLife <B/31064hasStationOfLife13> ;
+	drw-model:hasComment <Comment/31064hasComment4> ;
+	drw-model:hasSL <SL/31064hasSL2> ;
+	drw-model:hasEducation <A/31064hasEducation1> ;
+	drw-model:hasStationOfLife <B/31064hasStationOfLife11> ;
+	drw-model:hasMainName <MainName/31064hasMainName> ;
+	drw-model:hasP <P/31064hasP0> ;
+	drw-model:hasP <P/31064hasP2> ;
+	drw-model:wasMarriedTo <RelatedPerson/31064wasMarriedTo> ;
+	drw-model:hasWL <WL/31064hasWL3> ;
+	drw-model:hasStationOfLife <B/31064hasStationOfLife7> ;
+	drw-model:hasStationOfLife <B/31064hasStationOfLife9> ;
+	drw-model:hasComment <Comment/31064hasComment2> ;
+	drw-model:hasGPV <GPV/31064hasGPV0> ;
+	drw-model:hasStationOfLife <B/31064hasStationOfLife0> ;
+	drw-model:hasDescendant <RelatedPerson/31064hasDescendant> ;
+	drw-model:hasW <W/31064hasW2> ;
+	drw-model:hasConnectionTo <ImportantPerson/30479> ;
+	drw-model:wasBornOn <Date/31064wasBornOn> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/31064.png> ;
+	drw-model:hasConnectionTo <ImportantPerson/10015> ;
+	drw-model:hasW <W/31064hasW1> ;
+	drw-model:hasComment <Comment/31064hasComment6> ;
+	drw-model:hasOtherOffices <OtherOffices/31064hasOtherOffices1> ;
+	drw-model:hasSL <SL/31064hasSL3> ;
+	drw-model:hasConnectionTo <ImportantPerson/30800> ;
+	drw-model:hasSL <SL/31064hasSL5> ;
+	drw-model:hasConnectionTo <ImportantPerson/10030> ;
+	drw-model:hasStationOfLife <B/31064hasStationOfLife6> ;
+	drw-model:wasBornIn <Place/31064wasBornIn> ;
+	drw-model:hasConnectionTo <ImportantPerson/30579> ;
+	drw-model:hasConnectionTo <ImportantPerson/30059> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <B/31064hasStationOfLife2> ;
+	drw-model:fatherIs <RelatedPerson/31064fatherIs> ;
+	drw-model:hasW <W/31064hasW0> ;
+	drw-model:hasConnectionTo <ImportantPerson/30924> ;
+	drw-model:hasStationOfLife <B/31064hasStationOfLife3> ;
+	drw-model:hasOtherOffices <OtherOffices/31064hasOtherOffices0> ;
+	drw-model:hasStationOfLife <B/31064hasStationOfLife5> ;
+	drw-model:hasConnectionTo <ImportantPerson/10151> ;
+	drw-model:hasWL <WL/31064hasWL2> ;
+	drw-model:hasStationOfLife <B/31064hasStationOfLife12> ;
+	drw-model:hasStationOfLife <B/31064hasStationOfLife1> ;
+	drw-model:DiedOn <Date/31064DiedOn> ;
+	drw-model:hasStationOfLife <B/31064hasStationOfLife4> ;
+	drw-model:hasGPV <GPV/31064hasGPV1> ;
+	drw-model:hasConnectionTo <ImportantPerson/30695> ;
+	drw-model:hasID "31064" ;
+	drw-model:hasConnectionTo <ImportantPerson/30785> ;
+	drw-model:hasEducation <A/31064hasEducation0> ;
+	drw-model:hasConnectionTo <ImportantPerson/31083> ;
+	drw-model:hasEducation <A/31064hasEducation3> ;
+	drw-model:hasConnectionTo <ImportantPerson/10141> ;
+	drw-model:hasStationOfLife <B/31064hasStationOfLife10> ;
+	drw-model:hasComment <Comment/31064hasComment5> ;
+	drw-model:hasSL <SL/31064hasSL6> .
+
+<SL/31064hasSL3>
+	rdfs:label "Pamjati Bronislava Fortunatoviča Verigo [Nekrolog]. Russkij fiziologičeskij žurnal imeni I. M. Sečenova 9 (1926) 1, 3-4." ;
+	a drw-model:SL .
+
+<B/31064hasStationOfLife5>
+	drw-model:began <Year/1894> ;
+	rdfs:label "Professor (1894 ao und 1897[5] o. Prof.) für Physiologie an der Novorossijskij Universität Odessa" ;
+	a drw-model:B ;
+	drw-model:hasComment <Comment/31064hasComment5> .
+
+<RelatedPerson/31064hasDescendant>
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/31064hasComment3> ;
+	drw-model:hasComment <Comment/31064hasComment2> ;
+	rdfs:label "Magdalina Bronislavovna, verh. Vlastova, in 2. Ehe verh. Čudnovskaja (1891-1994), Malerin, Grafikerin[2]
+Aleksandr Bronislavovič (1893-1953), Geophysiker, Professor am Radiuminstitut Leningrad[3]" .
+
+<B/31064hasStationOfLife1>
+	rdfs:label "Arzt in Weiterbildung am Klinischen Krankenhaus der MMA" ;
+	drw-model:began <Year/1886> ;
+	a drw-model:B .
+
+<Comment/31064hasComment5>
+	drw-model:hasNumber 5 ;
+	a drw-model:Comment ;
+	rdfs:label "In Volkov/Kulikova 2003 b (<b>SL</b>) fälschlicherweise 1901 angegeben." .
+
+<B/31064hasStationOfLife7>
+	a drw-model:B ;
+	rdfs:label "Aktive Teilnahme in der Universitätskommission im Kampf gegen die Judenpogrome, danach Verfolgung" .
+
+<Year/1920>
+	rdfs:label "1920" ;
+	a drw-model:Year .
+
+<Comment/31064hasComment1>
+	a drw-model:Comment ;
+	drw-model:hasNumber 1 ;
+	rdfs:label "In Chodorov 1951 (<b>SL</b>), 68, ahistorisch Molotov, die Bezeichnung von Perm’ 1940-1957, angegeben." .
+
+<B/31064hasStationOfLife0>
+	drw-model:began <Year/1882> ;
+	a drw-model:B ;
+	rdfs:label "Assistent von <span style='font-variant:small-caps;'>Sečenov</span> an den Höheren Kursen für Frauen (Bestuževskie kursy)" .
+
+<Place/31064wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Užvalda, Bez. Dünaburg, Gouv. Vitebsk" .
+
+<W/31064hasW0>
+	a drw-model:W ;
+	rdfs:label "K voprosu o dejstvii na nerv gal’vaničeskogo toka preryvistogo i nepreryvnogo. Diss. Sankt-Peterburg 1888, 338 S." .
+
+<MG/31064hasMG>
+	a drw-model:MG ;
+	rdfs:label "Мedicinskoe obščestvo pri Novorossijskom universitete [Medizinische Gesellschaft an der Novorossijskij Universität] (Vorsitzender), Obščestvo odesskich vračej [Gesellschaft der Ärzte in Odessa] (Vorsitzender) u. a." .
+
+<ImportantPerson/10141>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "10141" ;
+	drw-model:hasConnectionTo <ImportantPerson/31064> .
+
+<Year/1894>
+	rdfs:label "1894" ;
+	a drw-model:Year .
+
+<P/31064hasP1>
+	rdfs:label "Portrait in: Volkov/Kulikova 2003 b (<b>SL</b>), Bildeinlage zw. S. 176-177." ;
+	a drw-model:P .
+
+<A/31064hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der MMA St. Petersburg" .
+
+<SL/31064hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 93, 40-42; 109, 31; SU 84, 31-35." .
+
+<Comment/31064hasComment3>
+	a drw-model:Comment ;
+	rdfs:label "WBIS RBA &amp; BASU: SU 84, 27-29 und http://space-memorial.narod.ru/astronomers/verigo.html (30.11.2010)" ;
+	drw-model:hasNumber 3 .
+

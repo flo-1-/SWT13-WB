@@ -1,0 +1,323 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<WL/31038hasWL0>
+	rdfs:label "Nach ihm sind u. a. benannt:" ;
+	a drw-model:WL .
+
+<Date/31038DiedOn>
+	rdfs:label "11.4.1876" ;
+	a drw-model:Date .
+
+<HonoursAndAwardsComment/31038hasHonoursAndAwardsComment>
+	rdfs:label "Ehrungen und Auszeichnungen (Auswahl):" ;
+	a drw-model:HonoursAndAwardsComment .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<HonoursAndAwards/31038hasHonoursAndAwards>
+	rdfs:label "1866 „Geheimer Medizinalrat“<br>1875 Ehrendoktorwürde der Universität Leiden<br>1895 Bronzebüste des Bildhauers Martin Wolff im Garten der Charité (1940 aufgrund jüdischer Abstammung entfernt)<br>Dr. Traubestraße in Racibórz" ;
+	a drw-model:HonoursAndAwards .
+
+<P/31038hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Pagel 1901 (<b>SL</b>)." .
+
+<GeneralLabor/31038hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Pathophysiologe" .
+
+<ImportantPerson/31038>
+	drw-model:hasStationOfLife <B/31038hasStationOfLife7> ;
+	drw-model:fatherIs <RelatedPerson/31038fatherIs> ;
+	drw-model:hasEducation <A/31038hasEducation2> ;
+	drw-model:hasSL <SL/31038hasSL5> ;
+	drw-model:hasConnectionTo <ImportantPerson/30739> ;
+	drw-model:hasStationOfLife <B/31038hasStationOfLife6> ;
+	drw-model:hasComment <Comment/31038hasComment1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31038hasGeneralLabor0> ;
+	drw-model:hasP <P/31038hasP3> ;
+	drw-model:hasSL <SL/31038hasSL6> ;
+	drw-model:hasSL <SL/31038hasSL3> ;
+	drw-model:hasWL <WL/31038hasWL1> ;
+	drw-model:hasEducation <A/31038hasEducation0> ;
+	drw-model:hasEducation <A/31038hasEducation1> ;
+	drw-model:motherIs <RelatedPerson/31038motherIs> ;
+	drw-model:hasStationOfLife <B/31038hasStationOfLife2> ;
+	drw-model:hasHonoursAndAwardsComment <HonoursAndAwardsComment/31038hasHonoursAndAwardsComment> ;
+	rdfs:label "Traube, Ludwig" ;
+	drw-model:hasStationOfLife <B/31038hasStationOfLife1> ;
+	drw-model:hasMainName <MainName/31038hasMainName> ;
+	drw-model:hasP <P/31038hasP0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31038hasGeneralLabor1> ;
+	drw-model:hasSL <SL/31038hasSL8> ;
+	drw-model:hasID "31038" ;
+	drw-model:hasStationOfLife <B/31038hasStationOfLife5> ;
+	drw-model:DiedOn <Date/31038DiedOn> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/31038hasHonoursAndAwards> ;
+	drw-model:hasDescendant <RelatedPerson/31038hasDescendant> ;
+	drw-model:hasSL <SL/31038hasSL4> ;
+	drw-model:hasSL <SL/31038hasSL1> ;
+	drw-model:DiedIn <Place/31038DiedIn> ;
+	drw-model:hasSLComment <SLComment/31038hasSLComment> ;
+	drw-model:hasMG <MG/31038hasMG> ;
+	drw-model:hasP <P/31038hasP1> ;
+	drw-model:hasWL <WL/31038hasWL0> ;
+	drw-model:hasStationOfLife <B/31038hasStationOfLife0> ;
+	drw-model:hasSL <SL/31038hasSL2> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/31038.png> ;
+	drw-model:hasW <W/31038hasW0> ;
+	drw-model:hasP <P/31038hasP2> ;
+	drw-model:wasBornOn <Date/31038wasBornOn> ;
+	drw-model:hasEducation <A/31038hasEducation4> ;
+	drw-model:hasStationOfLife <B/31038hasStationOfLife4> ;
+	drw-model:hasGPV <GPV/31038hasGPV0> ;
+	drw-model:hasSL <SL/31038hasSL0> ;
+	drw-model:hasStationOfLife <B/31038hasStationOfLife3> ;
+	drw-model:wasBornIn <Place/31038wasBornIn> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <A/31038hasEducation3> ;
+	drw-model:hasSL <SL/31038hasSL7> ;
+	drw-model:hasEducation <A/31038hasEducation5> ;
+	drw-model:wasMarriedTo <RelatedPerson/31038wasMarriedTo> ;
+	drw-model:hasSibling <RelatedPerson/31038hasSibling> .
+
+<A/31038hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Abschluss des Gymnasiums in Ratibor" .
+
+<SL/31038hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Freund, Wilhelm Alexander: Gedächtniß-Rede auf Ludwig Traube, gehalten in der Sitzung der medizinischen Section der schlesischen Gesellschaft für vaterländische Cultur und Wissenschaft zu Breslau am 28. April. Breslau 1876, 28 S." .
+
+<B/31038hasStationOfLife0>
+	rdfs:label "Assistent eines Armenarztes in Berlin" ;
+	a drw-model:B ;
+	drw-model:began <Year/1841> .
+
+<Place/31038wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Ratibor, Oberschlesien" .
+
+<A/31038hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1837_> ;
+	rdfs:label "Fortsetzung des Studiums in Berlin, u. a. bei J. P. <span style='font-variant:small-caps;'>Müller</span>" .
+
+<B/31038hasStationOfLife4>
+	drw-model:began <Year/1853> ;
+	a drw-model:B ;
+	rdfs:label "Chefarzt der Inneren Abteilung des Krankenhauses der jüdischen Gemeinde und Lehrtätigkeit an den militärärztlichen Bildungsanstalten in Berlin" .
+
+<B/31038hasStationOfLife2>
+	rdfs:label "erster Zivilassistent von Johann Lukas <span style='font-variant:small-caps;'>Schönlein</span> (1793-1865) an der Charité in Berlin" ;
+	a drw-model:B ;
+	drw-model:began <Year/1849> .
+
+<A/31038hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Studienaufenthalt bei Josef von <span style='font-variant:small-caps;'>Škoda</span> (1805-1881) und Carl von <span style='font-variant:small-caps;'>Rokitansky</span> (1804-1878) in Wien" ;
+	drw-model:began <Year/1840> .
+
+<W/31038hasW0>
+	a drw-model:W ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<NameVariation/31038_0>
+	rdfs:label "Traube, Ludwig/Louis"@de ;
+	a drw-model:NameVariation .
+
+<B/31038hasStationOfLife7>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<SL/31038hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Brüning, Marianne: Ludwig (Louis) Traube – Arzt und Hochschullehrer. Begründer der experimentellen Pathologie. Berlin 2008 (Jüdische Miniaturen 71), 80 S." .
+
+<RelatedPerson/31038hasSibling>
+	rdfs:label "Moritz (1826-1894), Biochemiker, Universalgelehrter" ;
+	a drw-model:RelatedPerson .
+
+<Year/1848>
+	rdfs:label "1848" ;
+	a drw-model:Year .
+
+<ImportantPerson/30739>
+	drw-model:hasID "30739" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/31038> .
+
+<WL/31038hasWL1>
+	drw-model:hasComment <Comment/31038hasComment1> ;
+	rdfs:label "Traubescher Doppelton und Traubescher Raum[1]. Weiteres vgl. <b>SL</b>" ;
+	a drw-model:WL .
+
+<MG/31038hasMG>
+	a drw-model:MG ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<Year/1840>
+	rdfs:label "1840" ;
+	a drw-model:Year .
+
+<SLComment/31038hasSLComment>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<GPV/31038hasGPV0>
+	a drw-model:GPV ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<RelatedPerson/31038motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Eveline, geb. Heymann (1794-1858)" .
+
+<Place/31038DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Berlin, Grabstätte: Jüdischer Friedhof, Schönhauser Allee" .
+
+<Year/1857>
+	rdfs:label "1857" ;
+	a drw-model:Year .
+
+<RelatedPerson/31038fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Wilhelm (1788-1864), Weinkaufmann" .
+
+<A/31038hasEducation1>
+	a drw-model:A ;
+	drw-model:began <Year/1835> ;
+	rdfs:label "Studium der Medizin in Breslau" .
+
+<RelatedPerson/31038wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Cora, geb. Marckwald (1830-1876)" .
+
+<A/31038hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Promotion zum Dr. med. in Berlin" .
+
+<RelatedPerson/31038hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Catharina (Käthe), verh. Fraentzel (1851-1923)
+Margarete, verh. Boll, in 2. Ehe verh. Mengarini (1856-1912)
+Fanny, verh. Litten (1859-1904)
+Ludwig (1861-1907), Philologe und Paläograph" .
+
+<Date/31038wasBornOn>
+	a drw-model:Date ;
+	rdfs:label "12.1.1818" .
+
+<Year/1853>
+	rdfs:label "1853" ;
+	a drw-model:Year .
+
+<P/31038hasP1>
+	rdfs:label "Portraits in <b>SL</b> (Auswahl): Brüning 2008, Vikipedija, Wegbereiter, Wikipedia." ;
+	a drw-model:P .
+
+<B/31038hasStationOfLife3>
+	drw-model:began <Year/1853> ;
+	a drw-model:B ;
+	rdfs:label "leitender Arzt der Abteilung für Lungenkranke an der Charité, später Leiter der propädeutischen Klinik" .
+
+<B/31038hasStationOfLife1>
+	a drw-model:B ;
+	drw-model:began <Year/1848> ;
+	rdfs:label "Privatdozent in Berlin" .
+
+<B/31038hasStationOfLife5>
+	rdfs:label "ao. Professor und (ab 1862) o. Professor am Friedrich-Wilhelms-Institut in Berlin" ;
+	a drw-model:B ;
+	drw-model:began <Year/1857> .
+
+<SL/31038hasSL7>
+	rdfs:label "Wegbereiter unserer naturwissenschaftlich-medizinischen Moderne (http://appserv5.ph-heidelberg.de/onlinelex/index.php?id=1145, 10.1.2012)." ;
+	a drw-model:SL .
+
+<A/31038hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Habilitation in Berlin" .
+
+<Comment/31038hasComment1>
+	a drw-model:Comment ;
+	rdfs:label "Vgl. Roche Lexikon Medizin. 5. Aufl. München, Jena 2003, 1851." ;
+	drw-model:hasNumber 1 .
+
+<NameVariation/31038_1>
+	rdfs:label "Traube, Ljudvig"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Траубе, Людвиг"@ru .
+
+<SL/31038hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Vikipedija (http://ru.wikipedia.org/wiki/Траубе,_Людвиг, 16.1.2012)." .
+
+<SL/31038hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Pagel, Julius: Ludwig Traube. In: Allgemeine Deutsche Biographie. Bd. 1-56. Leipzig 1875–1912,  Bd. 38 (1894), 504-507 (Online unter http://www.deutsche-biographie.de/pnd12248567X.html?anchor=adb, 16.1.2012)." .
+
+<SL/31038hasSL0>
+	rdfs:label "Brokgauz/Efron. Bd. 33 (1901), 730." ;
+	a drw-model:SL .
+
+<MainName/31038hasMainName>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/31038_0> ;
+	rdfs:label "Traube, Ludwig" ;
+	drw-model:hasNameVariation <NameVariation/31038_1> .
+
+<Year/1849>
+	rdfs:label "1849" ;
+	a drw-model:Year .
+
+<GeneralLabor/31038hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Arzt" .
+
+<Year/1837_>
+	rdfs:label "1837-" ;
+	a drw-model:Year .
+
+<P/31038hasP3>
+	a drw-model:P ;
+	rdfs:label "Kopfportrait unter 48 Pionieren der Kardiologie auf dem Wandgemälde von Diego Riviera aus dem Jahr 1943 im Institut für Kardiologie in Mexiko City." .
+
+<P/31038hasP2>
+	rdfs:label "Georg Engelbach (1817-1897): Traube (Brustbild). Porträtsammlung Berliner Hochschullehrer (http://www.sammlungen.hu-berlin.de/dokumente/13362/, 16.1.2012)." ;
+	a drw-model:P .
+
+<B/31038hasStationOfLife6>
+	rdfs:label "o. Professor an der Universität Berlin" ;
+	a drw-model:B ;
+	drw-model:began <Year/1872> .
+
+<Year/1841>
+	rdfs:label "1841" ;
+	a drw-model:Year .
+
+<Year/1835>
+	rdfs:label "1835" ;
+	a drw-model:Year .
+
+<SL/31038hasSL3>
+	rdfs:label "Leyden, Ernst: <anchor id="buy_anchor"/>Gedächtniss-Rede auf Ludwig Traube, gehalten in der Aula der Universität am 10. December 1876 bei der von der Berliner medicinischen Gesellschaft veranstalteten Gedächtnissfeier. Berlin 1876, 36 S." ;
+	a drw-model:SL .
+
+<Year/1872>
+	rdfs:label "1872" ;
+	a drw-model:Year .
+
+<SL/31038hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 1721-1724." .
+
+<SL/31038hasSL8>
+	a drw-model:SL ;
+	rdfs:label "Wikipedia (http://de.wikipedia.org/wiki/Ludwig_Traube_(Arzt), 16.1.2012)." .
+

@@ -1,0 +1,545 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30478hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Terechov, Pavel Grigor’evič: Materialy k biografii akademika F. V. Ovsjannikova (1827-1906). Fiziologičeskij žurnal SSSR im. I. M. Sečenova 42 (1956) 12, 1078-1080." .
+
+<GeneralLabor/30478hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<ImportantPerson/30091>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30091" ;
+	drw-model:hasConnectionTo <ImportantPerson/30478> .
+
+<Date/30478wasBornOn>
+	drw-model:hasComment <Comment/30478hasComment1> ;
+	a drw-model:Date ;
+	rdfs:label "3.6.[1] oder 14./26.[2]6.1827" ;
+	drw-model:hasComment <Comment/30478hasComment2> .
+
+<SL/30478hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Kuz’min, Michail Kuz’mič: Akademik F. V. Ovsjannikov (K istorii nervizma v Rossii). Moskva 1963, 220 S." .
+
+<SL/30478hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Raikov, Boris Evgen’evič: Karl Ernst von Baer 1792-1876. Sein Leben und Werk. Leipzig 1968 (Acta historica Leopoldina 5), 248, 290-296, 300, 308-309." .
+
+<B/30478hasStationOfLife5>
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Kazan’" ;
+	a drw-model:B .
+
+<WL/30478hasWL0>
+	rdfs:label "Einer der Begründer der vergleichenden Neurohistologie und Neurophysiologie in Russland" ;
+	a drw-model:WL .
+
+<ImportantPerson/30844>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30844" ;
+	drw-model:hasConnectionTo <ImportantPerson/30478> .
+
+<P/30478hasP0>
+	rdfs:label "Foto (Abb.) aus den 90-er Jahren des 19. Jahrhunderts, aus: http://www.bio.pu.ru/faculty/departments/cytology/ovsyannikov.jpg (25.1.2011); dass. spiegelverkehrt auch in: Kuz’min 1963 (<b>SL</b>), 26." ;
+	a drw-model:P .
+
+<SL/30478hasSL10>
+	a drw-model:SL ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 331-332." .
+
+<ImportantPerson/30194>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30194" ;
+	drw-model:hasConnectionTo <ImportantPerson/30478> .
+
+<ImportantPerson/31069>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "31069" ;
+	drw-model:hasConnectionTo <ImportantPerson/30478> .
+
+<ImportantPerson/30230>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30230" ;
+	drw-model:hasConnectionTo <ImportantPerson/30478> .
+
+<Place/30478DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Zapol’e im Kreis Luga, Gouv. St. Petersburg" .
+
+<SL/30478hasSL8>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 337, 336-361; SU 332, 59-63." ;
+	a drw-model:SL .
+
+<SL/30478hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Kuz’min 1955 – Kuz’min, Michail Kuz’mič: Filipp Vasil’evič Ovsjannikov (1827-1906). In: F. V. Ovsjannikov. Izbrannye proizvedenija (<b>GPV</b>), 5-26" .
+
+<Comment/30478hasComment3>
+	a drw-model:Comment ;
+	drw-model:hasNumber 3 ;
+	rdfs:label "In <b>SL</b> Materialy akademii und Estestvoznanie, zit. n. WBIS RBA, 26.5. angegeben." .
+
+<B/30478hasStationOfLife6>
+	drw-model:began <Year/1864> ;
+	a drw-model:B ;
+	rdfs:label "Professor für Anatomie des Menschen und Physiologie der Tiere an der Physiko-mathematischen Fakultät der Universität St. Petersburg" .
+
+<Year/1860>
+	rdfs:label "1860" ;
+	a drw-model:Year .
+
+<WL/30478hasWL3>
+	rdfs:label "1871 Entdeckung des vasomotorischen Zentrums in der Medulla oblongata" ;
+	a drw-model:WL .
+
+<RelatedPerson/30478fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Vasilij, Kaufmann" .
+
+<W/30478hasW3>
+	rdfs:label "Nekrolog: K. Ljudvig. Izvestija Imperatorskoj akademii nauk (5) 3 (1895), V-VI." ;
+	a drw-model:W .
+
+<SL/30478hasSL11>
+	a drw-model:SL ;
+	rdfs:label "[Zefirov, Andrej L’vovič u. a.:] Kazanskaja fiziologičeskaja škola na rubeže vekov. Kazanskij Imperatorskij universitet (1804-1917 gg.). Kafedra fiziologii medicinskogo fakul’teta (http://www.kcn.ru/tat_ru/science/fiziologi/fiz_medfak.htm, 2.2.2011)." .
+
+<P/30478hasP3>
+	rdfs:label "Portrait in: Volkov/Kulikova 2003 b (<b>SL</b>), Bildeinlage zw. S. 368-369." ;
+	a drw-model:P .
+
+<ImportantPerson/30496>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30478> ;
+	drw-model:hasID "30496" .
+
+<ImportantPerson/30184>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30478> ;
+	drw-model:hasID "30184" .
+
+<Year/1886>
+	rdfs:label "1886" ;
+	a drw-model:Year .
+
+<SL/30478hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine, Pfrepper, Gerd: Wissensspuren. Reisen russischer Mediziner nach Westeuropa im 19. Jahrhundert. Aachen 2012 (Relationes 11)" .
+
+<B/30478hasStationOfLife13>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<Comment/30478hasComment2>
+	rdfs:label "<b>SL</b> Kuz’min 1963, 8, Professora MCA/VMA und Volkov/Kulikova 2003 b" ;
+	drw-model:hasNumber 2 ;
+	a drw-model:Comment .
+
+<GeneralLabor/30478hasGeneralLabor3>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Histologe" .
+
+<WL/30478hasWL2>
+	rdfs:label "Mitbegründer der medizinischen Kurse für Frauen in Russland" ;
+	a drw-model:WL .
+
+<B/30478hasStationOfLife7>
+	rdfs:label "Gründer und bis 1905 Leiter des physiologischen Laboratoriums der Akademie der Wissenschaften zu St. Petersburg" ;
+	a drw-model:B .
+
+<SL/30478hasSL12>
+	a drw-model:SL ;
+	rdfs:label "Česnakova [Im Original Druckfehler, es muss heißen: Česnokova], Sof’ja Aleksandrovna, Lindemann, Marianne: Russische Physiologen in Laboratorien von Carl Ludwig. Wissenschaftliche Zeitschrift der Karl-Marx-Universität Leipzig, Mathematisch-naturwissenschaftliche Reihe 19 (1970), 315-323." .
+
+<ImportantPerson/30553>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30553" ;
+	drw-model:hasConnectionTo <ImportantPerson/30478> .
+
+<W/30478hasW2>
+	rdfs:label "Ėmbriologija i gistologija životnych. Lekcii prof. S.-Peterburgskogo universiteta Ovsjannikova 1880/81 g. S.-Peterburg 1881, 125 S." ;
+	a drw-model:W .
+
+<P/30478hasP2>
+	rdfs:label "Portrait vom Anfang des 20. Jahrhunderts. Ölbild [Künstler unbekannt]. St. Petersburg. In: Kuz’min 1963 (<b>SL</b>), 37." ;
+	a drw-model:P .
+
+<B/30478hasStationOfLife8>
+	rdfs:label "Gründer des Physiologischen Kabinetts an der Universität St. Petersburg" ;
+	a drw-model:B .
+
+<Comment/30478hasComment5>
+	drw-model:hasNumber 5 ;
+	rdfs:label "In <b>SL</b> Bogdanov und Materialy akademii, zit. n. WBIS RBA, und Professora MCA/VMA ist fälschlicherweise 1856 angegeben." ;
+	a drw-model:Comment .
+
+<B/30478hasStationOfLife12>
+	drw-model:began <Year/1886> ;
+	a drw-model:B ;
+	rdfs:label "Mitglied des Medizinalrats des Ministeriums des Innern" .
+
+<WL/30478hasWL5>
+	rdfs:label "1879 Beschreibung der Fünf-Schichten-Struktur der menschlichen Hirnrinde" ;
+	a drw-model:WL .
+
+<GeneralLabor/30478hasGeneralLabor2>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Zoologe" .
+
+<B/30478hasStationOfLife0>
+	a drw-model:B ;
+	rdfs:label "Arzt im Militärhospital und Hospital des Zarenhofes in St. Petersburg" ;
+	drw-model:began <Year/1854> .
+
+<Year/1849>
+	rdfs:label "1849" ;
+	a drw-model:Year .
+
+<HonoursAndAwards/30478hasHonoursAndAwards>
+	drw-model:hasComment <Comment/30478hasComment6> ;
+	drw-model:hasComment <Comment/30478hasComment7> ;
+	rdfs:label "1874                „Wirklicher Russischer Staatsrat“<br>1882                Ehrenprofessor der Universität St. Petersburg<br>1896                Ehrenmitglied der Universität Kazan’[6]<br>1858                (zus. mit N. M. <span style='font-variant:small-caps;'>Jakubovič</span>) Prix Montyon de physiologie<br>(Académie des Sciences de Paris) (?)[7]<br>Goldmedaille der Kaiserlichen freien ökonomischen Gesellschaft zu St. Petersburg<br>Medaille 1. Klasse der Société (impériale) zoologique d’acclimatation Paris<br>1862                Silbermedaille der Fischerei-Sektion auf der Great London Exposition<br>1880                Silbermedaille auf der Internationalen Fischerei-Ausstellung in Berlin" ;
+	a drw-model:HonoursAndAwards .
+
+<Year/1854>
+	rdfs:label "1854" ;
+	a drw-model:Year .
+
+<P/30478hasP5>
+	a drw-model:P ;
+	rdfs:label "Portrait in: [Zefirov u. a.] (<b>SL</b>)." .
+
+<B/30478hasStationOfLife9>
+	drw-model:began <Year/1865_1870_1871_1873_1874> ;
+	a drw-model:B ;
+	rdfs:label "weitere Auslandsreisen:
+- zu <span style='font-variant:small-caps;'>Ludwig</span> an die Universität Leipzig
+- zu Anton Felix <span style='font-variant:small-caps;'>Dohrn</span> (1840-1909) an die Zoologische Station Neapel" .
+
+<A/30478hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Abschluss der deutschen Peter-Paul-Schule in St. Petersburg" .
+
+<Date/30478DiedOn>
+	a drw-model:Date ;
+	drw-model:hasComment <Comment/30478hasComment3> ;
+	rdfs:label "29.[3]5./11.6.1906" .
+
+<ImportantPerson/30664>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30478> ;
+	drw-model:hasID "30664" .
+
+<Comment/30478hasComment4>
+	rdfs:label "U. a. begleitete er vom 15. November bis 1. Dezember 1856 Karl Ernst von Baer (1792-1876) von Astrachan’ nach Čornyj Rynok. Vgl. Raikov (<b>SL</b>), 248." ;
+	drw-model:hasNumber 4 ;
+	a drw-model:Comment .
+
+<B/30478hasStationOfLife11>
+	drw-model:began <Year/1886> ;
+	rdfs:label "Leiter des Anatomisch-histologischen Kabinetts der Universität St. Petersburg" ;
+	a drw-model:B .
+
+<WL/30478hasWL4>
+	rdfs:label "1873 (zusammen mit S. I. <span style='font-variant:small-caps;'>Čir'ev</span>) Bestimmung der physiologischen Wechselwirkungen von Sympathikus und Parasympathikus auf die Aktivität von Organen und Geweben" ;
+	a drw-model:WL .
+
+<B/30478hasStationOfLife1>
+	drw-model:hasComment <Comment/30478hasComment4> ;
+	rdfs:label "vom Ministerium des Innern nach Saratov und Astrachan’ zu Untersuchungen der Fischerei und des Fischgiftes in der Wolga und im Kaspischen Meer gesandt[4]" ;
+	a drw-model:B .
+
+<SL/30478hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 19-21." .
+
+<MG/30478hasMG>
+	a drw-model:MG ;
+	rdfs:label "Imperatorskaja akademija nauk S.-Peterburg [Kaiserliche Akademie der Wissenschaften zu St. Petersburg] (1862 Adjunkt, 1863 ao. und 1864 o. Mitglied), Gesellschaft deutscher Aerzte in Paris (ab 1862, zeitweise Vize-Präsident), Peterburgskoe obščestvo estestvoispytatelej [Gesellschaft der Naturforscher St. Petersburg] (26 Jahre Vorsitzender der Abteilung Zoologie), Bal’neologičeskoe obščestvo v Odesse [Balneologische Gesellschaft zu Odessa], Ėntomologičeskoe obščestvo [Entomologische Gesellschaft], Imperatorskoe obščestvo ljubitelej estestvoznanija, antropologii i ėtnografii v Moskve [Kaiserliche Gesellschaft der Liebhaber der Naturwissenschaften, der Anthropologie und Ethnographie zu Moskau], Imperatorskoe vol’no-ėkonomičeskoe obščestvo [Kaiserliche freie ökonomische Gesellschaft zu St. Petersburg], Obščestvo ochranenija narodnago zdravija [Gesellschaft zur Wahrung der Volksgesundheit], Obščestvo russkich vračej [Gesellschaft russischer Ärzte], Obščestvo rybolovstva i rybovodstva [Gesellschaft für Fischerei und Fischzucht], Petrovskoe obščestvo issledovatelej Astrachan’skogo kraja [Gesellschaft der Forscher von Astrachan’ „Petr I.“], Société d’Hygiène Paris u. a." .
+
+<GPV/30478hasGPV1>
+	rdfs:label "Trudy F. V. Ovsjannikova 1854-1906, Perevody …, Osnovnye raboty […] pod rukovodstvom F. V. Ovsjannikova, in: Kuz’min 1963 (<b>SL</b>), 202-212." ;
+	a drw-model:GPV .
+
+<P/30478hasP4>
+	a drw-model:P ;
+	rdfs:label "Portrait in: RAN (<b>SL</b>)." .
+
+<Comment/30478hasComment7>
+	drw-model:hasNumber 7 ;
+	rdfs:label "Diese Angabe in Professora MCA/VMA (<b>SL</b>) ist vermutlich nicht korrekt. In den Biographien zu Nikolaj Martynovič Jakubovič (1817-1879) wird Ovsjannikov als Preisträger nicht genannt." ;
+	a drw-model:Comment .
+
+<A/30478hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Beginn des Studiums der Kameralistik an der Universität Dorpat" .
+
+<Year/1858_1863>
+	rdfs:label "1858[5]-1863" ;
+	drw-model:hasComment <Comment/30478hasComment5> ;
+	a drw-model:Year .
+
+<B/30478hasStationOfLife10>
+	drw-model:began <Year/1874> ;
+	rdfs:label "Leiter des Lehrstuhls für Physiologie an der Mediko-chirurgischen Akademie (MCA) St. Petersburg" ;
+	a drw-model:B .
+
+<SL/30478hasSL7>
+	rdfs:label "Rossijskaja akademija nauk. Personal’nyj sostav. Kniga 1: 1724-1917. Moskva 1999; Kniga 2: 1918-1973. Moskva 1999 Kniga 1 (1999), 66." ;
+	a drw-model:SL .
+
+<ImportantPerson/31106>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "31106" ;
+	drw-model:hasConnectionTo <ImportantPerson/30478> .
+
+<Year/1864>
+	rdfs:label "1864" ;
+	a drw-model:Year .
+
+<SL/30478hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Professora MCA/VMA - Professora Voenno-medicinskoj (Mediko-chirurgičeskoj) akademii (1798-1998). Glavnyj red. Jurij Leonidovič Ševčenko. Sankt-Peterburg 1998, 57-58." .
+
+<NameVariation/30478_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Owsjannikow, Philipp Vasiljevich"@de .
+
+<Q/30478hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Otčet o putešestvii za granicu v 1860-61 godu. Učenyja zapiski Imperatorskago Kazanskago Universiteta po Otdeleniju Fiziko-Matematičeskich i Medicinskich Nauk (1862), 11-22." .
+
+<B/30478hasStationOfLife2>
+	drw-model:began <Year/1858_1863> ;
+	a drw-model:B ;
+	rdfs:label "Professor für Physiologie und allgemeine Pathologie an der Medizinischen Fakultät der Universität Kazan’" .
+
+<WL/30478hasWL7>
+	rdfs:label "Herausgeber der Zeitschrift <i>Vestnik estestvoznanija</i> (1890-1893)" ;
+	a drw-model:WL .
+
+<GPV/30478hasGPV0>
+	rdfs:label "F. V. Ovsjannikov. Izbrannye proizvedenija. Moskva 1955, 399 S.; darin ein separates Schriftenverzeichnis: Trudy F. V. Ovsjannikova 1854-1906, S. 359-367." ;
+	a drw-model:GPV .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<W/30478hasW1>
+	rdfs:label "Anatomija i fiziologija. Lekcii, čitannye na Vysšich ženskich kursach v 1880/81 g. S.-Peterburg 1881, 125 S." ;
+	a drw-model:W .
+
+<A/30478hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Dorpat bei F. H. von <span style='font-variant:small-caps;'>Bidder</span>" ;
+	drw-model:began <Year/1849> .
+
+<ImportantPerson/31038>
+	drw-model:hasID "31038" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30478> .
+
+<Comment/30478hasComment6>
+	a drw-model:Comment ;
+	drw-model:hasNumber 6 ;
+	rdfs:label "Vgl. Spisok početnych členov Imperatorskogo Kazanskogo universiteta 1866-1914 gg. (http://www.ksu.ru/structur/prof_1866.htm, 25.1.2011)." .
+
+<GeneralLabor/30478hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Arzt" .
+
+<ImportantPerson/30096>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30096" ;
+	drw-model:hasConnectionTo <ImportantPerson/30478> .
+
+<SL/30478hasSL4>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 198-203." ;
+	a drw-model:SL .
+
+<NameVariation/30478_1>
+	rdfs:label "Ofsiannikof, Philipp Vasiljevich"@de ;
+	a drw-model:NameVariation .
+
+<B/30478hasStationOfLife3>
+	rdfs:label "Gründer des Physiologischen Kabinetts an der Universität Kazan’" ;
+	a drw-model:B .
+
+<GPV/30478hasGPV3>
+	a drw-model:GPV ;
+	rdfs:label "Deutschsprachige Publikationen 1856-1904, in: Pfrepper 2009 (<b>SL</b>)." .
+
+<WL/30478hasWL6>
+	rdfs:label "Co-Autor des ersten Lehrbuchs für Histologie in Russland (1887-1888)" ;
+	a drw-model:WL .
+
+<Year/1865_1870_1871_1873_1874>
+	rdfs:label "1865, 1870-1871, 1873-1874" ;
+	a drw-model:Year .
+
+<A/30478hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Universität Dorpat" .
+
+<ImportantPerson/31089>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "31089" ;
+	drw-model:hasConnectionTo <ImportantPerson/30478> .
+
+<MainName/30478hasMainName>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30478_1> ;
+	rdfs:label "Ovsjannikov, Filipp Vasil'evič" ;
+	drw-model:hasNameVariation <NameVariation/30478_0> .
+
+<ImportantPerson/30800>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30800" ;
+	drw-model:hasConnectionTo <ImportantPerson/30478> .
+
+<W/30478hasW0>
+	rdfs:label "Disquisitiones imprimis microscopicae de medullae spinalis textura imprimis in piscibus factitatae. Diss. Dorpat 1854, 51 S. (Volltext unter http://dspace.utlib.ee/dspace/bitstream/10062/2303/1/owsjannikow.pdf, 26.1.2011)." ;
+	a drw-model:W .
+
+<Comment/30478hasComment1>
+	a drw-model:Comment ;
+	rdfs:label "Zagoskin 1904, zit. n. WBIS RBA (<b>SL</b>)." ;
+	drw-model:hasNumber 1 .
+
+<ImportantPerson/30478>
+	drw-model:hasComment <Comment/30478hasComment4> ;
+	drw-model:hasEducation <A/30478hasEducation3> ;
+	drw-model:hasID "30478" ;
+	drw-model:hasGPV <GPV/30478hasGPV1> ;
+	drw-model:hasW <W/30478hasW3> ;
+	drw-model:hasP <P/30478hasP2> ;
+	drw-model:hasP <P/30478hasP3> ;
+	drw-model:hasStationOfLife <B/30478hasStationOfLife3> ;
+	drw-model:hasQ <Q/30478hasQ0> ;
+	drw-model:hasWL <WL/30478hasWL4> ;
+	drw-model:hasSL <SL/30478hasSL8> ;
+	drw-model:hasStationOfLife <B/30478hasStationOfLife6> ;
+	drw-model:DiedOn <Date/30478DiedOn> ;
+	drw-model:hasConnectionTo <ImportantPerson/30496> ;
+	drw-model:hasConnectionTo <ImportantPerson/30553> ;
+	drw-model:hasStationOfLife <B/30478hasStationOfLife8> ;
+	drw-model:hasP <P/30478hasP4> ;
+	drw-model:hasComment <Comment/30478hasComment1> ;
+	drw-model:hasComment <Comment/30478hasComment5> ;
+	drw-model:hasEducation <A/30478hasEducation1> ;
+	drw-model:hasMG <MG/30478hasMG> ;
+	drw-model:hasSL <SL/30478hasSL3> ;
+	drw-model:hasStationOfLife <B/30478hasStationOfLife4> ;
+	drw-model:hasWL <WL/30478hasWL0> ;
+	drw-model:hasConnectionTo <ImportantPerson/31038> ;
+	drw-model:hasStationOfLife <B/30478hasStationOfLife2> ;
+	drw-model:hasGPV <GPV/30478hasGPV0> ;
+	drw-model:hasW <W/30478hasW2> ;
+	drw-model:hasSL <SL/30478hasSL5> ;
+	drw-model:hasW <W/30478hasW1> ;
+	drw-model:hasP <P/30478hasP0> ;
+	drw-model:hasComment <Comment/30478hasComment3> ;
+	rdfs:label "Ovsjannikov, Filipp Vasil'evič" ;
+	drw-model:DiedIn <Place/30478DiedIn> ;
+	drw-model:hasConnectionTo <ImportantPerson/30230> ;
+	drw-model:hasSL <SL/30478hasSL12> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/30478hasSL9> ;
+	drw-model:hasSL <SL/30478hasSL7> ;
+	drw-model:hasSL <SL/30478hasSL2> ;
+	drw-model:hasSL <SL/30478hasSL4> ;
+	drw-model:wasBornOn <Date/30478wasBornOn> ;
+	drw-model:hasStationOfLife <B/30478hasStationOfLife12> ;
+	drw-model:hasMainName <MainName/30478hasMainName> ;
+	drw-model:hasSL <SL/30478hasSL0> ;
+	drw-model:hasStationOfLife <B/30478hasStationOfLife9> ;
+	drw-model:hasConnectionTo <ImportantPerson/31106> ;
+	drw-model:hasGPV <GPV/30478hasGPV2> ;
+	drw-model:hasStationOfLife <B/30478hasStationOfLife0> ;
+	drw-model:hasConnectionTo <ImportantPerson/30091> ;
+	drw-model:fatherIs <RelatedPerson/30478fatherIs> ;
+	drw-model:hasComment <Comment/30478hasComment7> ;
+	drw-model:hasStationOfLife <B/30478hasStationOfLife5> ;
+	drw-model:hasSL <SL/30478hasSL11> ;
+	drw-model:hasSL <SL/30478hasSL6> ;
+	drw-model:hasW <W/30478hasW0> ;
+	drw-model:hasWL <WL/30478hasWL5> ;
+	drw-model:hasGPV <GPV/30478hasGPV3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30478hasGeneralLabor1> ;
+	drw-model:hasConnectionTo <ImportantPerson/31069> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30478hasGeneralLabor0> ;
+	drw-model:hasConnectionTo <ImportantPerson/30096> ;
+	drw-model:wasBornIn <Place/30478wasBornIn> ;
+	drw-model:hasStationOfLife <B/30478hasStationOfLife11> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30478hasGeneralLabor3> ;
+	drw-model:hasSL <SL/30478hasSL10> ;
+	drw-model:hasEducation <A/30478hasEducation0> ;
+	drw-model:hasP <P/30478hasP5> ;
+	drw-model:hasStationOfLife <B/30478hasStationOfLife13> ;
+	drw-model:hasWL <WL/30478hasWL6> ;
+	drw-model:hasConnectionTo <ImportantPerson/30664> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30478hasGeneralLabor2> ;
+	drw-model:hasWL <WL/30478hasWL7> ;
+	drw-model:hasSL <SL/30478hasSL1> ;
+	drw-model:hasConnectionTo <ImportantPerson/30194> ;
+	drw-model:hasComment <Comment/30478hasComment6> ;
+	drw-model:hasWL <WL/30478hasWL1> ;
+	drw-model:hasConnectionTo <ImportantPerson/30184> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30478hasHonoursAndAwards> ;
+	drw-model:hasStationOfLife <B/30478hasStationOfLife1> ;
+	drw-model:hasEducation <A/30478hasEducation2> ;
+	drw-model:hasStationOfLife <B/30478hasStationOfLife10> ;
+	drw-model:hasConnectionTo <ImportantPerson/30800> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30478.jpg> ;
+	drw-model:hasP <P/30478hasP1> ;
+	drw-model:hasWL <WL/30478hasWL2> ;
+	drw-model:hasConnectionTo <ImportantPerson/30844> ;
+	drw-model:hasWL <WL/30478hasWL3> ;
+	drw-model:hasConnectionTo <ImportantPerson/31089> ;
+	drw-model:hasStationOfLife <B/30478hasStationOfLife7> ;
+	drw-model:hasComment <Comment/30478hasComment2> .
+
+<Year/1874>
+	rdfs:label "1874" ;
+	a drw-model:Year .
+
+<Place/30478wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<B/30478hasStationOfLife4>
+	rdfs:label "Forschungsaufenthalt in Deutschland, Österreich und Frankreich im Auftrag der Universität Kazan’:
+- bei Hermann Friedrich <span style='font-variant:small-caps;'>Stannius</span> (1808-1883) und Carl   <span style='font-variant:small-caps;'>Bergmann</span> (1814-1865) an der Universität Rostock
+- bei E. <span style='font-variant:small-caps;'>Du Bois-Reymond</span>, K. B. <span style='font-variant:small-caps;'>Reichert</span>, L. <span style='font-variant:small-caps;'>Traube</span>,   R. <span style='font-variant:small-caps;'>Virchow</span>, Albrecht von <span style='font-variant:small-caps;'>Graefe</span> (1828-1870), Richard   <span style='font-variant:small-caps;'>Liebreich</span> (1830-1917), Friedrich Theodor von <span style='font-variant:small-caps;'>Frerichs</span>   (1819-1885) und Robert <span style='font-variant:small-caps;'>Remak</span> (1815-1865) an der Universität   Berlin
+- bei Eduard Friedrich Wilhelm <span style='font-variant:small-caps;'>Weber</span> (1806-1871), Ernst   Heinrich <span style='font-variant:small-caps;'>Weber</span> (1795-1878) und Carl Ernst <span style='font-variant:small-caps;'>Bock</span> (1809-1874)   an der Universität Leipzig
+- bei Hermann <span style='font-variant:small-caps;'>Welcker</span> (1822-1897) an der Universität Halle
+- bei Rudolf <span style='font-variant:small-caps;'>Wagner</span> (1805-1864), Jacob <span style='font-variant:small-caps;'>Henle</span> (1809-1885),   Georg <span style='font-variant:small-caps;'>Meissner</span> (1809-1905) und Wilhelm <span style='font-variant:small-caps;'>Krause</span> (1833-1910)   an der Universität Göttingen
+- bei Rudolf <span style='font-variant:small-caps;'>Leuckart</span> (1822-1898) und Conrad <span style='font-variant:small-caps;'>Eckhard</span>   (1822-1905) an der Universität Gießen
+- bei Friedrich <span style='font-variant:small-caps;'>Arnold</span> (1803-1890) an der Universität Heidelberg
+- bei E. F. W. <span style='font-variant:small-caps;'>Pflüger</span> (1829-1910) und Max Johann Sigismund <span style='font-variant:small-caps;'>Schultze</span> (1825-1874) an der Universität Bonn
+- bei Alexander <span style='font-variant:small-caps;'>Ecker</span> (1816-1887) und Otto <span style='font-variant:small-caps;'>Funke</span> (1828-1879) an der Universität Freiburg
+- bei Heinrich <span style='font-variant:small-caps;'>Müller</span> (1820-1864) und Rudolf Albert von   <span style='font-variant:small-caps;'>Koelliker</span> (1817-1905) an der Universität Würzburg
+- bei Theodor von <span style='font-variant:small-caps;'>Bischoff</span> (1807-1882) und Carl von <span style='font-variant:small-caps;'>Voit</span> (1831-1908) an der Universität München
+- bei E. W. von <span style='font-variant:small-caps;'>Brücke</span> an der Universität Wien und bei C.   <span style='font-variant:small-caps;'>Ludwig</span> an der Militärärztlichen Akademie Josephinum Wien
+- bei Jan Evangelista <span style='font-variant:small-caps;'>Purkyně</span> [Johann Evangelist <span style='font-variant:small-caps;'>Purkinje</span>] (1787-1869) an der Universität Prag
+- bei Claude <span style='font-variant:small-caps;'>Bernard</span> (1813-1878) u. a. am College de France in Paris" ;
+	drw-model:began <Year/1860> ;
+	a drw-model:B .
+
+<WL/30478hasWL1>
+	rdfs:label "Gründer der Physiologischen Schule in Kazan’" ;
+	a drw-model:WL .
+
+<P/30478hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait vom Ende des 19. Jahrhunderts. Ölbild [Künstler und Aufbewahrungsort unbekannt], in: F. V. Ovsjannikov. Izbrannye proizvedenija (<b>GPV</b>), Frontispiz." .
+
+<GPV/30478hasGPV2>
+	rdfs:label "Publikationsverzeichnisse in: Zmeev, Bogdanov und S.-Peterburgskij universitet, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+

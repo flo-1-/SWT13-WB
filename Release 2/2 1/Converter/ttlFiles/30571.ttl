@@ -1,0 +1,399 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<P/30571hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto aus den 70-er Jahren des 19. Jahrhunderts, in: Kuz’min 1963 (<b>SL</b>), 116." .
+
+<ImportantPerson/10045>
+	drw-model:hasID "10045" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30571> .
+
+<SL/30571hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 235-236." .
+
+<Year/1878>
+	rdfs:label "1878" ;
+	a drw-model:Year .
+
+<P/30571hasP3>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Volkov/Kulikova 2003 b (<b>SL</b>), Bildeinlage zw. S. 312-313." .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<Year/1880>
+	rdfs:label "1880" ;
+	a drw-model:Year .
+
+<Place/30571wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Kazan’" .
+
+<ImportantPerson/30664>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30571> ;
+	drw-model:hasID "30664" .
+
+<HonoursAndAwards/30571hasHonoursAndAwards>
+	rdfs:label "„Wirklicher Russischer Staatsrat“<br>1889 Ehrenmitglied der Universität Moskau" ;
+	a drw-model:HonoursAndAwards .
+
+<SL/30571hasSL6>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 239, 426-446; SU 230, 294." ;
+	a drw-model:SL .
+
+<SL/30571hasSL9>
+	a drw-model:SL ;
+	rdfs:label "[Zefirov, Andrej L’vovič u. a.:] Kazanskaja fiziologičeskaja škola na rubeže vekov. Kazanskij Imperatorskij universitet (1804-1917 gg.). (http://www.kcn.ru/tat_ru/science/fiziologi/fiz_medfak.htm, 2.2.2011)." .
+
+<B/30571hasStationOfLife5>
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Kazan’" ;
+	a drw-model:B ;
+	drw-model:began <Year/1878> .
+
+<Date/30571DiedOn>
+	a drw-model:Date ;
+	rdfs:label "5./17.9.1891" .
+
+<ImportantPerson/10029>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "10029" ;
+	drw-model:hasConnectionTo <ImportantPerson/30571> .
+
+<NameVariation/30571_1>
+	a drw-model:NameVariation ;
+	rdfs:label "Kowalewsky, Nicolaus/Nikolaus Theodor von"@de .
+
+<Place/30571DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Kazan’" .
+
+<Comment/30571hasComment1>
+	rdfs:label "WBIS RBA: R 239, 448-459; SU 230, 297-298; RS 30, 12." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 1 .
+
+<SL/30571hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine, Pfrepper, Gerd: Wissensspuren. Reisen russischer Mediziner nach Westeuropa im 19. Jahrhundert. Aachen 2012 (Relationes 11)" .
+
+<RelatedPerson/30571wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "E. M. Kovalevskaja" .
+
+<B/30571hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "Arbeitsaufenthalt bei <span style='font-variant:small-caps;'>Ludwig</span> an der Universität Leipzig (Veröffentlichung dazu vgl. <b>GPV</b> Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 300 S. [A 2])" .
+
+<B/30571hasStationOfLife2>
+	drw-model:began <Year/1868> ;
+	a drw-model:B ;
+	rdfs:label "Ordinarius für Physiologie an der Medizinischen Fakultät der Universität Kazan’" .
+
+<WL/30571hasWL0>
+	rdfs:label "Mitbegründer der Physiologenschule in Kazan’" ;
+	a drw-model:WL .
+
+<Comment/30571hasComment3>
+	rdfs:label "WBIS PAB: I 250, 286-290; II 175, 402-404. Jüngerer Bruder; erhielt für sein Bild „Erster Tag der Völkerschlacht bei Leipzig 1813“ die Große goldene Medaille der Russischen Akademie der Künste." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 3 .
+
+<B/30571hasStationOfLife7>
+	a drw-model:B ;
+	rdfs:label "Begründer des Physiologischen Instituts der Universität Kazan’" .
+
+<B/30571hasStationOfLife8>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<A/30571hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Medizinischen Fakultät der Universität Kazan’" .
+
+<ImportantPerson/10099>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "10099" ;
+	drw-model:hasConnectionTo <ImportantPerson/30571> .
+
+<W/30571hasW2>
+	rdfs:label "[Hg.] Raboty iz fiziologičeskoj laboratorii Imperatorskogo Kazanskogo universiteta. Bd. 1-2. Kazan’ 1869-1873." ;
+	a drw-model:W .
+
+<MG/30571hasMG>
+	a drw-model:MG ;
+	rdfs:label "Obščestvo estestvoispytatelej Kazanskogo universiteta [Gesellschaft der Naturforscher der Universität Kazan’] (1876-1879 Präsident, 1879-1891 Vizepräsident), Imperatorskoe Kavkazskoe medicinskoe obščestvo [Kaiserliche Kaukasische medizinische Gesellschaft], Imperatorskoe obščestvo ljubitelej estestvoznanija, antropologii i ėtnografii v Moskve [Kaiserliche Gesellschaft der Liebhaber der Naturwissenschaften, der Anthropologie und Ethnographie zu Moskau], Kazanskoe obščestvo vračej [Ärzte-Gesellschaft Kazan’], Obščestvo russkich vračej [Gesellschaft russischer Ärzte], Ural’skoe obščestvo ljubitelej estestvoznanija [Gesellschaft der Liebhaber der Naturwissenschaften des Urals], Deutsche anatomische Gesellschaft, Medizinische Gesellschaft zu Warschau, Société d’Ethnographie Paris" .
+
+<SL/30571hasSL0>
+	rdfs:label "Deutsches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): DBA I 698, 234." ;
+	a drw-model:SL .
+
+<Year/1862>
+	rdfs:label "1862" ;
+	a drw-model:Year .
+
+<GPV/30571hasGPV3>
+	rdfs:label "Deutschsprachige und in deutschen Zeitschriften referierte russische Publikationen 1860-1890, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<A/30571hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Kazan’" ;
+	drw-model:began <Year/1857> .
+
+<GPV/30571hasGPV1>
+	rdfs:label "Publikationen 1860-1890 (Auswahl, 3 Verzeichnisse), in: Bogdanov, Zmeev und Zagoskin 1904, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<SL/30571hasSL5>
+	rdfs:label "Početnye členy, doktora i professora Moskovskogo universiteta: 1804-1994 gg. Biografičeskij slovar’. Moskva 1996, 111-112." ;
+	a drw-model:SL .
+
+<Year/1857>
+	rdfs:label "1857" ;
+	a drw-model:Year .
+
+<GPV/30571hasGPV2>
+	rdfs:label "Spisok rabot N. O. Kovalevskogo 1860-1890, in: Grigorjan (<b>SL</b>), 155-158." ;
+	a drw-model:GPV .
+
+<SL/30571hasSL10>
+	a drw-model:SL ;
+	rdfs:label "Česnakova [Im Original Druckfehler, es muss heißen: Česnokova], Sof’ja Aleksandrovna, Lindemann, Marianne: Russische Physiologen in Laboratorien von Carl Ludwig. Wissenschaftliche Zeitschrift der Karl-Marx-Universität Leipzig, Mathematisch-naturwissenschaftliche Reihe 19 (1970), 315-323." .
+
+<ImportantPerson/30184>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30571> ;
+	drw-model:hasID "30184" .
+
+<P/30571hasP2>
+	rdfs:label "Foto aus den 90-er Jahren des 19. Jahrhunderts [A. O. Kovalevskij im Laboratorium], in: Kuz’min 1963 (<b>SL</b>), 24." ;
+	a drw-model:P .
+
+<SL/30571hasSL1>
+	rdfs:label "Doviner, David Grigor’evič: Vydajuščijsja otečestvennyj fiziolog N. O. Kovalevskij (K 60-letiju so dnja smerti). Fiziologičeskij žurnal SSSR im. I. M. Sečenova 37 (1951) 6, 748-751." ;
+	a drw-model:SL .
+
+<MainName/30571hasMainName>
+	a drw-model:MainName ;
+	rdfs:label "Kovalevskij, Nikolaj Osipovič" ;
+	drw-model:hasNameVariation <NameVariation/30571_1> ;
+	drw-model:hasNameVariation <NameVariation/30571_0> .
+
+<B/30571hasStationOfLife3>
+	rdfs:label "Dozent in der naturwissenschaftlichen Abteilung an der Physiko-mathematischen Fakultät der Universität Kazan’" ;
+	a drw-model:B .
+
+<Year/1868>
+	rdfs:label "1868" ;
+	a drw-model:Year .
+
+<Year/1875>
+	rdfs:label "1875" ;
+	a drw-model:Year .
+
+<W/30571hasW0>
+	rdfs:label "Materialy k izučeniju legočnogo dychanija. Diss. Izvestija i učenyja zapiski Imperatorskago Kazanskago Universiteta 32 (1865), 105-135." ;
+	a drw-model:W .
+
+<RelatedPerson/30571hasSibling>
+	rdfs:label "Pavel Osipovič (1843-1903), Russischer Genre- und Schlachtenmaler[3]" ;
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30571hasComment3> .
+
+<B/30571hasStationOfLife6>
+	drw-model:began <Year/1880> ;
+	a drw-model:B ;
+	rdfs:label "Rektor der Universität Kazan’" .
+
+<Q/30571hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Izvlečenija iz otčetov lic, otpravlennych za granicu dlja prigotovlenija k professorskomu zvaniju. 1) Doktoranta N. Kovalevskago (Za pervye tri mesjaca prebyvanija za granicej). Žurnal Ministerstva narodnogo prosveščenija 118 (1863) II, 21-30; ~ 13) Doktoranta N. Kovalevskago (Za vtoruju polovinu zimnjago semestra 1862/63 goda). Ibid., 119 (1863) II, 71-77; ~ 1) Doktora N. Kovalevskago (Za letnij semestr 1863 goda). Ibid., 120 (1863) II, 547-551." .
+
+<B/30571hasStationOfLife4>
+	drw-model:began <Year/1875> ;
+	rdfs:label "Dozent und Gründer der Fakultät für Zoophysiologie und des Histologischen Kabinetts am Veterinärinstitut Kazan’" ;
+	a drw-model:B .
+
+<SL/30571hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 181-184." .
+
+<W/30571hasW1>
+	rdfs:label "Kurs fiziologii v dvuch tomach. Kazan’ 1879, 798 S." ;
+	a drw-model:W .
+
+<B/30571hasStationOfLife0>
+	rdfs:label "Habilitation und ao. Professor für Physiologie an der Medizinischen Fakultät der Universität Kazan’" ;
+	a drw-model:B .
+
+<NameVariation/30571_0>
+	rdfs:label "Kovalevskij, Nikolaj Osipovič/Iosifovič"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Ковалевский, Николай Осипович/Иосифович"@ru .
+
+<WL/30571hasWL1>
+	rdfs:label "Forschungsthemen: Physiologie des Kreislaufsystems und der Atmung, Physiologie und Morphologie des Nervensystems, Psychophysiologie und Blutchemie" ;
+	a drw-model:WL .
+
+<WL/30571hasWL3>
+	rdfs:label "Entwicklung des Gasanalysators" ;
+	a drw-model:WL .
+
+<Year/1852>
+	rdfs:label "1852" ;
+	a drw-model:Year .
+
+<Date/30571wasBornOn>
+	a drw-model:Date ;
+	rdfs:label "8./20.5.1840" .
+
+<Year/1860>
+	rdfs:label "1860" ;
+	a drw-model:Year .
+
+<SL/30571hasSL2>
+	rdfs:label "Grigorjan, Noravard Andreevna: Nikolaj Osipovič Kovalevskij (1840-1891). Moskva 1978, 159 S." ;
+	a drw-model:SL .
+
+<P/30571hasP4>
+	a drw-model:P ;
+	rdfs:label "Portrait in: [Zefirov, Andrej L’vovič u. a.] (<b>SL</b>)." .
+
+<Comment/30571hasComment2>
+	rdfs:label "WBIS PAB: II 175, 402." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 2 .
+
+<P/30571hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: RBS Setevaja versija (http://www.rulex.ru/01110036.htm, 1.2.2011); auch in: Brokgauz i Efron, zit. n. WBIS RBA (<b>SL</b>)." .
+
+<ImportantPerson/30571>
+	drw-model:hasStationOfLife <B/30571hasStationOfLife8> ;
+	drw-model:hasID "30571" ;
+	drw-model:DiedOn <Date/30571DiedOn> ;
+	drw-model:hasGPV <GPV/30571hasGPV1> ;
+	drw-model:hasConnectionTo <ImportantPerson/30664> ;
+	drw-model:hasSL <SL/30571hasSL6> ;
+	drw-model:hasSL <SL/30571hasSL0> ;
+	drw-model:hasComment <Comment/30571hasComment2> ;
+	drw-model:hasSibling <RelatedPerson/30571hasSibling> ;
+	drw-model:hasP <P/30571hasP0> ;
+	drw-model:hasComment <Comment/30571hasComment3> ;
+	drw-model:hasEducation <A/30571hasEducation2> ;
+	drw-model:hasW <W/30571hasW1> ;
+	drw-model:hasGPV <GPV/30571hasGPV0> ;
+	drw-model:hasQ <Q/30571hasQ0> ;
+	drw-model:hasStationOfLife <B/30571hasStationOfLife7> ;
+	drw-model:fatherIs <RelatedPerson/30571fatherIs> ;
+	drw-model:hasW <W/30571hasW0> ;
+	drw-model:hasConnectionTo <ImportantPerson/30184> ;
+	drw-model:hasSL <SL/30571hasSL4> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30571hasHonoursAndAwards> ;
+	drw-model:hasStationOfLife <B/30571hasStationOfLife4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30571hasGeneralLabor0> ;
+	drw-model:hasEducation <A/30571hasEducation1> ;
+	drw-model:hasSL <SL/30571hasSL1> ;
+	drw-model:hasSL <SL/30571hasSL10> ;
+	drw-model:hasWL <WL/30571hasWL1> ;
+	drw-model:wasBornIn <Place/30571wasBornIn> ;
+	drw-model:hasMainName <MainName/30571hasMainName> ;
+	drw-model:hasEducation <A/30571hasEducation4> ;
+	drw-model:hasP <P/30571hasP3> ;
+	drw-model:hasP <P/30571hasP1> ;
+	drw-model:hasP <P/30571hasP4> ;
+	drw-model:hasEducation <A/30571hasEducation0> ;
+	drw-model:DiedIn <Place/30571DiedIn> ;
+	rdfs:label "Kovalevskij, Nikolaj Osipovič" ;
+	drw-model:hasComment <Comment/30571hasComment1> ;
+	drw-model:hasSL <SL/30571hasSL5> ;
+	drw-model:hasGPV <GPV/30571hasGPV3> ;
+	drw-model:hasConnectionTo <ImportantPerson/30799> ;
+	drw-model:hasConnectionTo <ImportantPerson/10029> ;
+	drw-model:hasEducation <A/30571hasEducation3> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasWL <WL/30571hasWL0> ;
+	drw-model:hasStationOfLife <B/30571hasStationOfLife3> ;
+	drw-model:hasStationOfLife <B/30571hasStationOfLife0> ;
+	drw-model:hasW <W/30571hasW2> ;
+	drw-model:hasStationOfLife <B/30571hasStationOfLife1> ;
+	drw-model:hasSL <SL/30571hasSL7> ;
+	drw-model:hasSL <SL/30571hasSL3> ;
+	drw-model:hasStationOfLife <B/30571hasStationOfLife5> ;
+	drw-model:hasMG <MG/30571hasMG> ;
+	drw-model:hasStationOfLife <B/30571hasStationOfLife6> ;
+	drw-model:hasGPV <GPV/30571hasGPV2> ;
+	drw-model:hasWL <WL/30571hasWL2> ;
+	drw-model:motherIs <RelatedPerson/30571motherIs> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30571.jpg> ;
+	drw-model:hasConnectionTo <ImportantPerson/10099> ;
+	drw-model:wasBornOn <Date/30571wasBornOn> ;
+	drw-model:hasStationOfLife <B/30571hasStationOfLife2> ;
+	drw-model:hasP <P/30571hasP2> ;
+	drw-model:hasSL <SL/30571hasSL9> ;
+	drw-model:hasConnectionTo <ImportantPerson/10045> ;
+	drw-model:hasWL <WL/30571hasWL3> ;
+	drw-model:hasSL <SL/30571hasSL2> ;
+	drw-model:wasMarriedTo <RelatedPerson/30571wasMarriedTo> ;
+	drw-model:hasSL <SL/30571hasSL8> .
+
+<SL/30571hasSL8>
+	a drw-model:SL ;
+	rdfs:label "[Kurzbiographie], in: Kuz’min, Michail Kuz’mič: Akademik F. V. Ovsjannikov (K istorii nervizma v Rossii). Moskva 1963, 115-120." .
+
+<GeneralLabor/30571hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<ImportantPerson/30799>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30799" ;
+	drw-model:hasConnectionTo <ImportantPerson/30571> .
+
+<A/30571hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung in Österreich und Deutschland mit Stipendium des Ministeriums für Volksaufklärung:
+- bei E. W. von <span style='font-variant:small-caps;'>Brücke</span>, Salomon <span style='font-variant:small-caps;'>Stricker</span> (1834-1898) und Assistent Alexander <span style='font-variant:small-caps;'>Rollett</span> (1834-1903) an der Universität Wien
+- bei C. <span style='font-variant:small-caps;'>Ludwig</span> an der Militärärztlichen Akademie Josephinum Wien
+- bei Hermann <span style='font-variant:small-caps;'>Kolbe</span> (1818-1884) an der Universität Marburg
+- in den chemischen Laboratorien bei Robert Wilhelm <span style='font-variant:small-caps;'>Bunsen</span> (1811-1899) und Emil <span style='font-variant:small-caps;'>Erlenmeyer</span> (1825-1909) an der Universität Heidelberg
+- bei Carl von <span style='font-variant:small-caps;'>Voit</span> (1831-1908) und Max von <span style='font-variant:small-caps;'>Pettenkofer</span> (1818-1901) zur Besichtigung des Respirations-Apparates an der Universität München
+- außerdem Vorlesungen in Mathematik bei Simon <span style='font-variant:small-caps;'>Spitzer</span> (1826-1887) und in medizinischer Physik bei Ernst <span style='font-variant:small-caps;'>Mach</span> (1838-1916) in Wien" ;
+	drw-model:began <Year/1862> .
+
+<RelatedPerson/30571fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Osip Michajlovič (1800/01-1878), Orientalist, Mongolist, Tibetologe, Rektor der Universität Kazan’, Professor an der Universität Warschau[1]" ;
+	drw-model:hasComment <Comment/30571hasComment1> .
+
+<RelatedPerson/30571motherIs>
+	rdfs:label "Anna Andreevna Kovalevskaja, geb. Sokolovna[2]" ;
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30571hasComment2> .
+
+<A/30571hasEducation0>
+	a drw-model:A ;
+	drw-model:began <Year/1852> ;
+	rdfs:label "Besuch des 2. Gymnasiums in Kazan’" .
+
+<WL/30571hasWL2>
+	rdfs:label "Untersuchungen zur Histologie der Milz und der Lymphdrüsen, zur Herausbildung der Hirngyri" ;
+	a drw-model:WL .
+
+<A/30571hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1860> ;
+	rdfs:label "Studienaufenthalte in physiologischen und histologischen Laboratorien von 15 Universitätsstädten Europas" .
+
+<GPV/30571hasGPV0>
+	rdfs:label "Trudy professora N. O. Kovalevskogo (1860-1890). Kazan’ 1895." ;
+	a drw-model:GPV .
+

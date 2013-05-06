@@ -1,0 +1,394 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30085hasSL3>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 150-151." ;
+	a drw-model:SL .
+
+<OtherOffices/30085hasOtherOffices0>
+	a drw-model:OtherOffices ;
+	rdfs:label "Abgeordneter der Städtischen Duma in Odessa" .
+
+<Place/30085DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Odessa" .
+
+<Year/1868>
+	rdfs:label "1868" ;
+	a drw-model:Year .
+
+<Comment/30085hasComment9>
+	a drw-model:Comment ;
+	rdfs:label "Vom russischen Wort „popečitel’“, angegeben in RBS (<b>SL</b>). Auf seine Empfehlung hin wurden in der Schule allgemeinbildende Fächer eingeführt." ;
+	drw-model:hasNumber 9 .
+
+<B/30085hasStationOfLife6>
+	rdfs:label "Weiterbildung in Deutschland:
+- bei C. <span style='font-variant:small-caps;'>Ludwig</span> an der Physiologischen Anstalt der Universität Leipzig" ;
+	drw-model:began <Year/1868> ;
+	a drw-model:B .
+
+<B/30085hasStationOfLife7>
+	rdfs:label "Dozent für Anatomie an der Physiko-mathematischen Fakultät der Novorossijskij Universität Odessa" ;
+	a drw-model:B ;
+	drw-model:began <Year/1871> .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<Date/30085DiedOn>
+	rdfs:label "26.1./9.2.1891" ;
+	a drw-model:Date .
+
+<W/30085hasW0>
+	a drw-model:W ;
+	rdfs:label "Rassuždenie ob otpravlenijach legočno-želudočnogo nerva. Diss. Moskva 1860, 76 S." .
+
+<ImportantPerson/30664>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30664" ;
+	drw-model:hasConnectionTo <ImportantPerson/30085> .
+
+<Year/Bis_1849>
+	rdfs:label "Bis 1849" ;
+	a drw-model:Year .
+
+<Date/30085wasBornOn>
+	rdfs:label "1836 oder 1838[1]" ;
+	a drw-model:Date ;
+	drw-model:hasComment <Comment/30085hasComment1> .
+
+<SL/30085hasSL7>
+	rdfs:label "Vasil’ev, Ju. K.: Istorija organizacii Obščestva Odesskich vračej i ee dejatel’nost’ v 50-60-ch godach XIX. st. Visnyk SumDU Nr. 8 (92) 2006 (http://visnyk.sumdu.edu.ua/arhiv/2006/8(92)/03%20Vasilyev%20p14-23.pdf, 1.11.2010)." ;
+	a drw-model:SL .
+
+<MG/30085hasMG>
+	a drw-model:MG ;
+	rdfs:label "Obščestvo Odesskich vračej [Gesellschaft der Ärzte zu Odessa] (1870-1873, 1876-1882 und 1883-1885 (Vize)Präsident)" .
+
+<GPV/30085hasGPV0>
+	rdfs:label "Publikationenauswahl 1858-1870, in: <b>SL</b> RBS, 754, und Markevič 1890, zit. n. WBIS RBA[12]." ;
+	drw-model:hasComment <Comment/30085hasComment12> ;
+	a drw-model:GPV .
+
+<NameVariation/30085_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Bernštejn, Natan/Nikolaj Ossipovič/Iosifovič"@de ;
+	rdfs:label "Бернштейн, Натан/Николай Оссипович/Иосифович"@ru .
+
+<OtherOffices/30085hasOtherOffices2>
+	a drw-model:OtherOffices ;
+	drw-model:hasComment <Comment/30085hasComment10> ;
+	rdfs:label "Direktor [eher Kurator][9] der Odessaer Talmud-Tora-Schule[10]" ;
+	drw-model:hasComment <Comment/30085hasComment9> .
+
+<Comment/30085hasComment3>
+	rdfs:label "Vgl. http://www.loebtree.com/egerso.html (1.11.2010)." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 3 .
+
+<Comment/30085hasComment1>
+	a drw-model:Comment ;
+	rdfs:label "Nur Hausmann (<b>SL</b>)." ;
+	drw-model:hasNumber 1 .
+
+<SL/30085hasSL5>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 50, 136-141; RS 5, 440-443." ;
+	a drw-model:SL .
+
+<B/30085hasStationOfLife8>
+	drw-model:began <Year/1877> ;
+	rdfs:label "Leiter der Krankenstation des Roten Kreuzes im Russisch-Türkischen Krieg" ;
+	a drw-model:B .
+
+<A/30085hasEducation0>
+	a drw-model:A ;
+	drw-model:hasComment <Comment/30085hasComment7> ;
+	rdfs:label "Erster Unterricht von der Mutter in Brody und vom Großvater Solomon (Šlomo) <span style='font-variant:small-caps;'>Eger</span> <span style='font-variant:small-caps;'>(Eiger, Ejger)</span> (1785-1852)[7] in Posen (Poznań)" ;
+	drw-model:began <Year/Bis_1849> .
+
+<SL/30085hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Hausmann, Guido: Universität und städtische Gesellschaft in Odessa, 1865-1917. Soziale und nationale Selbstorganisation an der Peripherie des Zarenreiches. Stuttgart 1998 (Quellen und Studien zur Geschichte des östlichen Europa 49), 582." .
+
+<Year/1853>
+	rdfs:label "1853" ;
+	a drw-model:Year .
+
+<Comment/30085hasComment4>
+	drw-model:hasNumber 4 ;
+	a drw-model:Comment ;
+	rdfs:label "Vgl. http://ru.wikipedia.org/wiki/Александр_Николаевич_Бернштейн (1.11.2010)." .
+
+<Comment/30085hasComment2>
+	rdfs:label "Vgl. http://www.loebtree.com/egerso.html (1.11.2010)." ;
+	drw-model:hasNumber 2 ;
+	a drw-model:Comment .
+
+<A/30085hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Moskau" ;
+	drw-model:began <Year/1853> .
+
+<Year/1877>
+	rdfs:label "1877" ;
+	a drw-model:Year .
+
+<Comment/30085hasComment6>
+	a drw-model:Comment ;
+	rdfs:label "Vgl. http://ru.wikipedia.org/wiki/Николай_Александрович_Бернштейн (1.11.2010) und http://de.wikipedia.org/wiki/Nikolai_Alexandrowitsch_Bernstein (1.1.2010)." ;
+	drw-model:hasNumber 6 .
+
+<GeneralLabor/30085hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<Comment/30085hasComment12>
+	drw-model:hasNumber 12 ;
+	rdfs:label "Die Angabe 1880 bei der Publikation Nr. 7 ist ein Druckfehler; es muss heißen: 1870, vgl. Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:Comment .
+
+<B/30085hasStationOfLife2>
+	rdfs:label "zugleich außeretatmäßiger Ordinator am Städtischen Krankenhaus" ;
+	a drw-model:B ;
+	drw-model:began <Year/1861> .
+
+<Year/1865>
+	rdfs:label "1865" ;
+	a drw-model:Year .
+
+<MainName/30085hasMainName>
+	a drw-model:MainName ;
+	rdfs:label "Bernštejn, Natan Ossipovič" ;
+	drw-model:hasNameVariation <NameVariation/30085_0> .
+
+<B/30085hasStationOfLife0>
+	drw-model:began <Year/1858> ;
+	a drw-model:B ;
+	rdfs:label "Arzt im Kreis Čigirin, Gouvernement Kiev" .
+
+<WL/30085hasWL0>
+	rdfs:label "Autor einiger medizinischen Kasuistiken sowie eines zweiteiligen Handbuchs „Leitfäden zur speziellen Physiologie“ (vgl. <b>W</b>)" ;
+	a drw-model:WL .
+
+<Year/1881>
+	rdfs:label "1881" ;
+	a drw-model:Year .
+
+<B/30085hasStationOfLife4>
+	drw-model:began <Year/1865> ;
+	rdfs:label "Dozent für Anatomie und Physiologie an der Physiko-mathematischen Fakultät der Novorossijskij Universität Odessa" ;
+	a drw-model:B .
+
+<RelatedPerson/30085fatherIs>
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30085hasComment2> ;
+	rdfs:label "Jacob Jehoschua (Yehoshua) Ossip (Iosif)[2]" .
+
+<Year/1861>
+	rdfs:label "1861" ;
+	drw-model:hasComment <Comment/30085hasComment8> ;
+	rdfs:label "1861[8]" ;
+	a drw-model:Year .
+
+<Comment/30085hasComment10>
+	a drw-model:Comment ;
+	rdfs:label "<i>Odesskoe evrejskoe učilišče „Talmud-Tora“</i>, gegründet 1826. Vgl. Istorija evrejskogo obrazovanija v Odesse: http://english.migdal.ru/odessa/567/ (2.11.2010)." ;
+	drw-model:hasNumber 10 .
+
+<Year/1871>
+	rdfs:label "1871" ;
+	a drw-model:Year .
+
+<ImportantPerson/30230>
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30230" ;
+	drw-model:hasConnectionTo <ImportantPerson/30085> .
+
+<OtherOffices/30085hasOtherOffices1>
+	rdfs:label "Ehrenamtlicher Richter" ;
+	a drw-model:OtherOffices .
+
+<GPV/30085hasGPV1>
+	rdfs:label "2 Publikationen in deutscher Sprache 1869-1870, in: Pfrepper 2009, 151." ;
+	a drw-model:GPV .
+
+<SL/30085hasSL0>
+	a drw-model:SL ;
+	rdfs:label "Evrejskaja ėnciklopedija. Bd. 4. Sankt-Peterburg 1907, 316-317; auch in <b>SL</b> Polskie Archiwum Biograficzne (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 18, 116-118." .
+
+<Comment/30085hasComment8>
+	rdfs:label "Die Dissertation wurde bereits 1860 gedruckt; vgl. <b>W</b>." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 8 .
+
+<W/30085hasW1>
+	rdfs:label "Rukovodstvo k častnoj fiziologii. Vyp. 1-2. Odessa 1868, 312 S." ;
+	a drw-model:W .
+
+<B/30085hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "Arzt in eigener Privatpraxis" ;
+	drw-model:began <Year/1861> .
+
+<RelatedPerson/30085motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Edel, geb. Eger (Eiger, Ejger)[3]" ;
+	drw-model:hasComment <Comment/30085hasComment3> .
+
+<B/30085hasStationOfLife10>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<B/30085hasStationOfLife9>
+	rdfs:label "Genesungsaufenthalte in Wiesbaden, Nizza und in Italien" ;
+	drw-model:began <Year/1881> ;
+	a drw-model:B .
+
+<A/30085hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch des 2. Gymnasiums in Odessa" ;
+	drw-model:began <Year/1849> .
+
+<P/30085hasP0>
+	rdfs:label "Portrait (Abb.) aus: Evrejskaja ėnciklopedija (<b>SL</b>), 317." ;
+	a drw-model:P .
+
+<SL/30085hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Polskie Archiwum Biograficzne (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 18, 116-120." .
+
+<SL/30085hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Jüdisches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): I 139, 294-303; IS 20, 251-252; II 61, 97-99." .
+
+<Comment/30085hasComment5>
+	drw-model:hasNumber 5 ;
+	a drw-model:Comment ;
+	rdfs:label "Vgl. http://ru.wikipedia.org/wiki/Сергей_Натанович_Бернштейн (1.11.2010) und http://de.wikipedia.org/wiki/Sergei_Natanowitsch_Bernstein (1.11.2010)." .
+
+<ImportantPerson/30085>
+	drw-model:hasStationOfLife <B/30085hasStationOfLife3> ;
+	drw-model:hasGPV <GPV/30085hasGPV0> ;
+	drw-model:hasComment <Comment/30085hasComment5> ;
+	drw-model:hasConnectionTo <ImportantPerson/30664> ;
+	drw-model:motherIs <RelatedPerson/30085motherIs> ;
+	drw-model:hasStationOfLife <B/30085hasStationOfLife0> ;
+	drw-model:DiedIn <Place/30085DiedIn> ;
+	rdfs:label "Bernštejn, Natan Ossipovič" ;
+	drw-model:hasStationOfLife <B/30085hasStationOfLife9> ;
+	drw-model:hasW <W/30085hasW0> ;
+	drw-model:hasComment <Comment/30085hasComment11> ;
+	drw-model:hasDescendant <RelatedPerson/30085hasDescendant> ;
+	drw-model:hasSL <SL/30085hasSL3> ;
+	drw-model:hasComment <Comment/30085hasComment9> ;
+	drw-model:hasStationOfLife <B/30085hasStationOfLife4> ;
+	drw-model:hasSL <SL/30085hasSL5> ;
+	drw-model:hasSL <SL/30085hasSL0> ;
+	drw-model:hasStationOfLife <B/30085hasStationOfLife1> ;
+	drw-model:hasComment <Comment/30085hasComment3> ;
+	drw-model:hasEducation <A/30085hasEducation3> ;
+	drw-model:hasComment <Comment/30085hasComment10> ;
+	drw-model:hasComment <Comment/30085hasComment4> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30085.jpg> ;
+	drw-model:fatherIs <RelatedPerson/30085fatherIs> ;
+	drw-model:hasStationOfLife <B/30085hasStationOfLife8> ;
+	drw-model:DiedOn <Date/30085DiedOn> ;
+	drw-model:hasP <P/30085hasP0> ;
+	drw-model:hasConnectionTo <ImportantPerson/30230> ;
+	drw-model:hasStationOfLife <B/30085hasStationOfLife5> ;
+	drw-model:hasMG <MG/30085hasMG> ;
+	drw-model:hasEducation <A/30085hasEducation0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30085hasGeneralLabor1> ;
+	drw-model:hasSL <SL/30085hasSL1> ;
+	drw-model:hasComment <Comment/30085hasComment7> ;
+	drw-model:hasStationOfLife <B/30085hasStationOfLife2> ;
+	drw-model:hasWL <WL/30085hasWL0> ;
+	drw-model:hasSL <SL/30085hasSL7> ;
+	drw-model:hasSL <SL/30085hasSL2> ;
+	drw-model:wasBornIn <Place/30085wasBornIn> ;
+	drw-model:hasComment <Comment/30085hasComment6> ;
+	drw-model:hasID "30085" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <B/30085hasStationOfLife6> ;
+	drw-model:hasMainName <MainName/30085hasMainName> ;
+	drw-model:hasComment <Comment/30085hasComment8> ;
+	drw-model:hasOtherOffices <OtherOffices/30085hasOtherOffices0> ;
+	drw-model:hasEducation <A/30085hasEducation2> ;
+	drw-model:wasBornOn <Date/30085wasBornOn> ;
+	drw-model:hasComment <Comment/30085hasComment12> ;
+	drw-model:hasOtherOffices <OtherOffices/30085hasOtherOffices2> ;
+	drw-model:hasSL <SL/30085hasSL6> ;
+	drw-model:hasEducation <A/30085hasEducation1> ;
+	drw-model:hasWL <WL/30085hasWL1> ;
+	drw-model:hasComment <Comment/30085hasComment1> ;
+	drw-model:hasStationOfLife <B/30085hasStationOfLife7> ;
+	drw-model:hasGPV <GPV/30085hasGPV1> ;
+	drw-model:hasComment <Comment/30085hasComment2> ;
+	drw-model:hasStationOfLife <B/30085hasStationOfLife10> ;
+	drw-model:hasOtherOffices <OtherOffices/30085hasOtherOffices1> ;
+	drw-model:hasSL <SL/30085hasSL4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30085hasGeneralLabor0> ;
+	drw-model:hasW <W/30085hasW1> .
+
+<RelatedPerson/30085hasDescendant>
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30085hasComment4> ;
+	rdfs:label "Aleksandr Nikolaevič (Natanovič) (1870-1922), Russischer Psychiater[4]
+Sergej Natanovič (1880-1968), Russischer Mathematiker[5]
+Enkel: Nikolaj Aleksandrovič (1896-1966), Russischer Psychophysiologe[6]" ;
+	drw-model:hasComment <Comment/30085hasComment6> ;
+	drw-model:hasComment <Comment/30085hasComment5> .
+
+<SL/30085hasSL6>
+	rdfs:label "Russkij biografičeskij slovar’. Izdan pod nabljudeniem Aleksandra Aleksandroviča Polovcova. Tom 1-[22]. Sankt-Peterburg 1896-1918 Bd. 2, 753-754; auch in: Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 50, 137-139." ;
+	a drw-model:SL .
+
+<Year/1849>
+	rdfs:label "1849" ;
+	a drw-model:Year .
+
+<Comment/30085hasComment7>
+	drw-model:hasNumber 7 ;
+	a drw-model:Comment ;
+	rdfs:label "Oberrabbiner der Provinz Posen, Sohn des jüdischen Gelehrten und Talmudlehrers Akiva Eger (ursprünglich Akiva Güns) (1761-1837)." .
+
+<Place/30085wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Brody, Galizien" .
+
+<GeneralLabor/30085hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Dozent für Anatomie und Physiologie" .
+
+<WL/30085hasWL1>
+	drw-model:hasComment <Comment/30085hasComment11> ;
+	rdfs:label "1861-1862        Mitredakteur der jüdischen Zeitschrift „Sion“[11]" ;
+	a drw-model:WL .
+
+<Year/1858>
+	rdfs:label "1858" ;
+	a drw-model:Year .
+
+<A/30085hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Universität Moskau" ;
+	drw-model:began <Year/1861> .
+
+<B/30085hasStationOfLife5>
+	a drw-model:B ;
+	rdfs:label "Weiterbildung in Deutschland:
+- bei E. H. <span style='font-variant:small-caps;'>Du Bois-Reymond</span> am Physiologischen Laboratorium der Universität Berlin" .
+
+<B/30085hasStationOfLife3>
+	rdfs:label "Lektor für Anatomie des Menschen am Richelieu-Gymnasium in Odessa" ;
+	a drw-model:B .
+
+<Comment/30085hasComment11>
+	a drw-model:Comment ;
+	rdfs:label "In <b>SL</b> auch „Zion“, kyrillisch „Сион“ – Zeitschrift zur Förderung der Ideen der Haskala (der jüdischen Aufklärung) und für den Kampf gegen den Antisemitismus in der russischen Presse. Vgl. Evrejskaja Odessa: http://www.odessitclub.org/reading_room/odessits/chronicle.htm (2.11.2010)." ;
+	drw-model:hasNumber 11 .
+

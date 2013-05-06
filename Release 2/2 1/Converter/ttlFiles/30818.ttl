@@ -1,0 +1,209 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<A/30818hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Abschluss des Gouvernement-Gymnasiums in Irkutsk" .
+
+<RelatedPerson/30818fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Nikolaj, Lehrer für Literatur am Gymnasium Irkutsk" .
+
+<Comment/30818hasComment1>
+	a drw-model:Comment ;
+	drw-model:hasNumber 1 ;
+	rdfs:label "Taufpatin von Vsevolod Vasil’evič Zav’jalov (1895-1965), dem Sohn des Biochemikers Vasilij Vasil’evič Zav’jalov (1873-1930). Biobibliographie zum Vater vgl. Pfrepper 2011, 225-226." .
+
+<ImportantPerson/30230>
+	drw-model:hasConnectionTo <ImportantPerson/30818> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30230" .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<B/30818hasStationOfLife3>
+	rdfs:label "Studienaufenthalte in Deutschland: bei E. <span style='font-variant:small-caps;'>Du Bois-Reymond</span>, A. <span style='font-variant:small-caps;'>Kossel</span> und Arthur <span style='font-variant:small-caps;'>König</span> (1856-1901) in Berlin (ohne Publikationen in deutscher Sprache)" ;
+	a drw-model:B .
+
+<Year/1886>
+	rdfs:label "1886" ;
+	a drw-model:Year .
+
+<B/30818hasStationOfLife4>
+	drw-model:began <Year/1894> ;
+	a drw-model:B ;
+	rdfs:label "ao. Professor für Physiologie und physiologische Chemie an der Universität Jur’ev, zugleich Sekretär der Medizinischen Fakultät" .
+
+<RelatedPerson/30818wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30818hasComment1> ;
+	rdfs:label "Anna Nikolaevna Popova[1]" .
+
+<B/30818hasStationOfLife1>
+	drw-model:began <Year/1886> ;
+	a drw-model:B ;
+	rdfs:label "zugleich Prosektor am Lehrstuhl für Physiologie an der Universität Moskau" .
+
+<SL/30818hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 376, 37; RS 57, 395." .
+
+<ImportantPerson/30565>
+	drw-model:hasID "30565" ;
+	drw-model:hasConnectionTo <ImportantPerson/30818> ;
+	a drw-model:ImportantPerson .
+
+<GPV/30818hasGPV0>
+	rdfs:label "Publikationen 1887-1894 (6 Titel), in: Brokgauz i Efron, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<SL/30818hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Vikipedija (http://ru.wikipedia.org/wiki/Попов,_Василий_Николаевич, 2.11.2011)." .
+
+<W/30818hasW2>
+	rdfs:label "Fiziologičeskaja laboratorija Moskovskogo universiteta. Istoričeskaja zametka. In: Sbornik statej po fiziologii, posvjaščennyj professoru L’vu Zacharoviču Morochovcu. Moskva 1893." ;
+	a drw-model:W .
+
+<SL/30818hasSL6>
+	rdfs:label "[Nekrolog] V. N. Popov, professor Jur’evskogo universiteta (1862-1895). Medicina (1895) Nr. 40, 1-6." ;
+	a drw-model:SL .
+
+<Place/30818DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Jur’ev" .
+
+<W/30818hasW0>
+	a drw-model:W ;
+	rdfs:label "K voprosu ob otdelenii limfy. Diss. Мoskva 1893, 80 S." .
+
+<SL/30818hasSL0>
+	rdfs:label "Kurčinskij, [Vasilij Palladievič] Professor: Popov, V. N. In: Biografičeskij slovar’ professorov i prepodavatelej Imperatorskago Jur’evskago, byvšago Derptskago Universiteta: za sto let ego suščestvovanija (1802-1902). Red. Grigorij Vasil’evič Levickij. Bd. 2. Jur’ev 1903, 310-311." ;
+	a drw-model:SL .
+
+<GeneralLabor/30818hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie und physiologische Chemie" .
+
+<NameVariation/30818_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Popow, W."@de .
+
+<A/30818hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Universität Moskau" .
+
+<A/30818hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Moskau mit dem Abschluss „Arzt“ und der Bezeichnung „Bezirksarzt“" ;
+	drw-model:began <Year/1881> .
+
+<Year/1893>
+	rdfs:label "1893" ;
+	a drw-model:Year .
+
+<SL/30818hasSL8>
+	rdfs:label "[Todesanzeige] Moskovskie vedomosti (1895) Nr. 295." ;
+	a drw-model:SL .
+
+<B/30818hasStationOfLife2>
+	rdfs:label "Privatdozent und Leiter des physiologischen Laboratoriums an der Universität Moskau" ;
+	a drw-model:B ;
+	drw-model:began <Year/1893> .
+
+<Year/1881>
+	rdfs:label "1881" ;
+	a drw-model:Year .
+
+<SL/30818hasSL2>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 43, 50." ;
+	a drw-model:SL .
+
+<B/30818hasStationOfLife0>
+	drw-model:began <Year/1886> ;
+	rdfs:label "Assistent am Lehrstuhl für Physiologie an der Land- und Forstwirtschaftsakademie Petrovskoe-Razumovskoe bei Moskau" ;
+	a drw-model:B .
+
+<SL/30818hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 358." .
+
+<Date/30818DiedOn>
+	rdfs:label "19./31.10.1895" ;
+	a drw-model:Date .
+
+<SL/30818hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Maurer, Trude: Hochschullehrer im Zarenreich. Ein Beitrag zur russischen Sozial- und Bildungsgeschichte. Köln, Weimar, Wien 1998 (Beiträge zur Geschichte Osteuropas 27), 901." .
+
+<MainName/30818hasMainName>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30818_0> ;
+	rdfs:label "Popov, Vasilij Nikolaevič" .
+
+<GPV/30818hasGPV1>
+	rdfs:label "Spisok pečatnych trudov V. N. Popova, in: [Nekrolog] (<b>SL</b>), 2-3." ;
+	a drw-model:GPV .
+
+<ImportantPerson/30818>
+	drw-model:hasEducation <A/30818hasEducation2> ;
+	drw-model:hasGPV <GPV/30818hasGPV0> ;
+	drw-model:fatherIs <RelatedPerson/30818fatherIs> ;
+	drw-model:hasSL <SL/30818hasSL6> ;
+	drw-model:hasStationOfLife <B/30818hasStationOfLife3> ;
+	drw-model:hasEducation <A/30818hasEducation1> ;
+	drw-model:hasW <W/30818hasW2> ;
+	drw-model:hasSL <SL/30818hasSL3> ;
+	drw-model:wasBornIn <Place/30818wasBornIn> ;
+	drw-model:hasStationOfLife <B/30818hasStationOfLife4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30818hasGeneralLabor0> ;
+	drw-model:DiedIn <Place/30818DiedIn> ;
+	drw-model:hasMainName <MainName/30818hasMainName> ;
+	drw-model:hasEducation <A/30818hasEducation0> ;
+	drw-model:hasSL <SL/30818hasSL7> ;
+	drw-model:hasGPV <GPV/30818hasGPV1> ;
+	rdfs:label "Popov, Vasilij Nikolaevič" ;
+	drw-model:hasSL <SL/30818hasSL4> ;
+	drw-model:hasConnectionTo <ImportantPerson/30230> ;
+	drw-model:hasSL <SL/30818hasSL1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30818wasMarriedTo> ;
+	drw-model:hasID "30818" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <W/30818hasW1> ;
+	drw-model:wasBornOn <Date/30818wasBornOn> ;
+	drw-model:hasSL <SL/30818hasSL5> ;
+	drw-model:hasSL <SL/30818hasSL0> ;
+	drw-model:hasSL <SL/30818hasSL8> ;
+	drw-model:hasStationOfLife <B/30818hasStationOfLife2> ;
+	drw-model:hasW <W/30818hasW0> ;
+	drw-model:hasSL <SL/30818hasSL2> ;
+	drw-model:hasStationOfLife <B/30818hasStationOfLife0> ;
+	drw-model:hasConnectionTo <ImportantPerson/30565> ;
+	drw-model:hasComment <Comment/30818hasComment1> ;
+	drw-model:hasStationOfLife <B/30818hasStationOfLife1> ;
+	drw-model:DiedOn <Date/30818DiedOn> .
+
+<W/30818hasW1>
+	rdfs:label "Vitellin. Trudy fiziologičeskoj laboratorii Moskovskogo universiteta 1 (1887)." ;
+	a drw-model:W .
+
+<Date/30818wasBornOn>
+	a drw-model:Date ;
+	rdfs:label "29.12.1862/10.1.1863" .
+
+<Place/30818wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Irkutsk" .
+
+<Year/1894>
+	rdfs:label "1894" ;
+	a drw-model:Year .
+
+<SL/30818hasSL7>
+	rdfs:label "[Todesanzeige] Leopoldina 31 (1895), 224." ;
+	a drw-model:SL .
+

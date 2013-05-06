@@ -1,0 +1,359 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30362hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Bernstein, J.: Rudolph Heidenhain. Naturwissenschaftliche Rundschau 12 (1897), 606-607." .
+
+<SL/30362hasSL13>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SL .
+
+<A/30362hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1851> ;
+	rdfs:label "Studium der Medizin in Königsberg, 1852 Wechsel an die Universität Halle – Vorlesungen bei Heinrich Wilhelm <span style='font-variant:small-caps;'>Heintz</span> (1817-1880), A. W. <span style='font-variant:small-caps;'>Volkmann</span> und Peter David <span style='font-variant:small-caps;'>Krukenberg</span> (1787-1865), und 1854 an die Universität Berlin zu J. P. <span style='font-variant:small-caps;'>Müller</span> und E. <span style='font-variant:small-caps;'>Du Bois-Reymond</span>" .
+
+<SL/30362hasSL3>
+	rdfs:label "Broghammer, Herbert: Experimentelle Physiologie und mikroskopische Anatomie in der Nachromantik. Rudolf Peter Heinrich Heidenhain (1834-1897): „An independant worker and thinker“. Aachen 2000, 199 S.; darin S. 187: Genealogie der Heidenhains und Volkmanns; S. 190: Titelblatt der Dissertation; S. 192-193: Kopie der in Latein verfassten Vita zur Dissertation, S. 199: Kopie der Sterbeurkunde." ;
+	a drw-model:SL .
+
+<A/30362hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Habilitation in Halle" .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<A/30362hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Ärztliches Examen in Berlin" .
+
+<HonoursAndAwards/30362hasHonoursAndAwards>
+	rdfs:label "1882 Geheimer Medizinalrat<br>1884 Cothenius-Medaille (Leopoldina)<br>Baly-Medaille (Royal College of Physicians, London)<br>Roter Adler-Orden 2. Klasse mit Eichenlaub" ;
+	a drw-model:HonoursAndAwards .
+
+<SL/30362hasSL15>
+	rdfs:label "Rothschuh, Karl Eduard: Heidenhain, Rudolf. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. Bd. 8 (1969), 247-248 (Onlinefassung unter: http://www.deutsche-biographie.de/pnd116604948.html, 22.11.2011)." ;
+	a drw-model:SL .
+
+<SL/30362hasSL5>
+	rdfs:label "Grützner, P.: Zum Andenken an Rudolf Heidenhain. Archiv für die gesammte Physiologie des Menschen und der Thiere 72 (1898), 221-265." ;
+	a drw-model:SL .
+
+<SL/30362hasSL6>
+	rdfs:label "Grützner, Paul von: Heidenhain, Rudolf. In: Allgemeine Deutsche Biographie. Bd. 1-56. Leipzig 1875–1912,  Bd. 50 (1905), 122-127 (Onlinefassung unter: http://de.wikisource.org/w/index.php?title=ADB:Heidenhain,_Rudolf&amp;oldid=1684866, 22.11.2011)." ;
+	a drw-model:SL .
+
+<B/30362hasStationOfLife0>
+	drw-model:began <Year/1856> ;
+	a drw-model:B ;
+	rdfs:label "Assistent bei Karl Julius <span style='font-variant:small-caps;'>Vogel</span> (1814-1880) und bei <span style='font-variant:small-caps;'>Volkmann</span>" .
+
+<A/30362hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Abschluss des Gymnasiums in Marienwerder" .
+
+<SL/30362hasSL14>
+	a drw-model:SL ;
+	rdfs:label "Rothschuh, Karl Eduard: Geschichte der Physiologie. Berlin, Göttingen, Heidelberg 1953, 137-139." .
+
+<Comment/30362hasComment1>
+	a drw-model:Comment ;
+	drw-model:hasNumber 1 ;
+	rdfs:label "Tochter von A. W. → Volkmann." .
+
+<HonoursAndAwardsComment/30362hasHonoursAndAwardsComment>
+	rdfs:label "Ehrungen und Auszeichnungen (Auswahl):" ;
+	a drw-model:HonoursAndAwardsComment .
+
+<SL/30362hasSL17>
+	a drw-model:SL ;
+	rdfs:label "VL People (http://vlp.mpiwg-berlin.mpg.de/people/data?id=per86, 22.11.2011)." .
+
+<GPV/30362hasGPV0>
+	a drw-model:GPV ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<Year/1851>
+	rdfs:label "1851" ;
+	a drw-model:Year .
+
+<NameVariation/30362_0>
+	rdfs:label "Гейденгайн, Рудольф Петер Генрих"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Gejdengajn, Rudol’f Peter Genrich"@de .
+
+<SL/30362hasSL19>
+	rdfs:label "Wegbereiter unserer naturwissenschaftlich-medizinischen Moderne (http://appserv5.ph-heidelberg.de/onlinelex/index.php?id=961, 22.11.2011)." ;
+	a drw-model:SL .
+
+<Date/30362DiedOn>
+	rdfs:label "13.10.1897" ;
+	a drw-model:Date .
+
+<ImportantPerson/30739>
+	drw-model:hasID "30739" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30362> .
+
+<B/30362hasStationOfLife3>
+	drw-model:began <Year/1872> ;
+	a drw-model:B ;
+	rdfs:label "Rektor der Universität Breslau" .
+
+<Year/1859>
+	rdfs:label "1859" ;
+	a drw-model:Year .
+
+<SL/30362hasSL11>
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 704-705." ;
+	a drw-model:SL .
+
+<RelatedPerson/30362hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "1.
+Sechs Söhne, darunter:
+Arthur, Bibliothekar
+Lothar (1860-1940), Chirurg
+Martin (1864-1949), Histologe
+2.
+Drei Töchter [Namen unbekannt]" .
+
+<B/30362hasStationOfLife1>
+	drw-model:began <Year/1857> ;
+	a drw-model:B ;
+	rdfs:label "Privatdozent in Halle" .
+
+<SL/30362hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Memorial’nyj muzej – kvartira I. P. Pavlova (http://www.museum.infran.ru/win/pavlov/heidenhain.htm, 22.11.2011)." .
+
+<RelatedPerson/30362motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Maria, geb. Brandt" .
+
+<Year/1857>
+	rdfs:label "1857" ;
+	a drw-model:Year .
+
+<P/30362hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Pagel 1901 (<b>SL</b>)." .
+
+<SLComment/30362hasSLComment>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<ImportantPerson/30230>
+	drw-model:hasConnectionTo <ImportantPerson/30362> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30230" .
+
+<SL/30362hasSL2>
+	rdfs:label "Poggendorff - Biographisch-literarisches Handwörterbuch zur Geschichte der exacten Naturwissenschaften, enthaltend Nachweisungen über Lebensverhältnisse und Leistungen von Mathematikern, Astronomen, Physikern, Chemikern, Mineralogen, Geologen usw. aller Völker und Zeiten. Gesammelt von J. C. Poggendorff, Mitglied der Akademie der Wissenschaften zu Berlin / J. C. Poggendorff - Biographisch-literarisches Handwörterbuch der exakten Naturwissenschaften. Bd. 1-8. Leipzig, Berlin 1863-2004. Bd. 3, 604-605; Bd. 4, 605." ;
+	a drw-model:SL .
+
+<A/30362hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Promotion zum Dr. med. in Berlin" .
+
+<Q/30362hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr.: 2111." .
+
+<SL/30362hasSL8>
+	rdfs:label "Kruta, Vladislav. Heidenhain, Rudolf Peter Heinrich. In: Dictionary of scientific biography. Ed. in chief Charles Coulston Gillispie. Vol. 1-18. New York u. a. 1970-1990,  Bd. 6. New York 1972, 224-227." ;
+	a drw-model:SL .
+
+<MG/30362hasMG>
+	a drw-model:MG ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<P/30362hasP2>
+	rdfs:label "Portrait (stehend) vgl. Digitale Bibliothek der Universität Wrocław (http://www.bibliotekacyfrowa.pl/dlibra/docmetadata?id=37661&amp;from=publication, 22.11.2011)." ;
+	a drw-model:P .
+
+<ImportantPerson/31075>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30362> ;
+	drw-model:hasID "31075" .
+
+<SL/30362hasSL21>
+	a drw-model:SL ;
+	rdfs:label "Česnokova, Sof’ja Aleksandrovna: Rudol’f Gejdengajn, 1834-1897. Moskva 1978, 144 S." .
+
+<SL/30362hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Brokgauz/Efron. Bd. 8 (1892), 245." .
+
+<SL/30362hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Hirsch, Gustav (Hg.): Biographisches Lexikon der hervorragenden Ärzte aller Zeiten und Völker. 2. Aufl. Bd. 2. Berlin, Wien 1930 Bd. 3 (1931), 122-123." .
+
+<B/30362hasStationOfLife5>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<Place/30362DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Breslau, Grabstätte: Rothkretscham, Alter Bernhardinfriedhof" .
+
+<A/30362hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Beginn des Studiums der Naturwissenschaften an der Universität Königsberg (WS)" .
+
+<SL/30362hasSL0>
+	a drw-model:SL ;
+	rdfs:label "BSĖ. Bd. 6 (1971), 182." .
+
+<W/30362hasW0>
+	a drw-model:W ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<SL/30362hasSL12>
+	rdfs:label "Pavlov, Ivan Petrovič: Pamjati R. Gejdengajna. In: I. P. Pavlov. Polnoe sobranie trudov. Bd. 6. Moskva, Leningrad 1952, 96-108." ;
+	a drw-model:SL .
+
+<RelatedPerson/30362wasMarriedTo>
+	rdfs:label "1. Fanny, geb. Volkmann[1] (1841-1864)
+2. Mathilde, geb. Kohli" ;
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30362hasComment1> .
+
+<MainName/30362hasMainName>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30362_1> ;
+	drw-model:hasNameVariation <NameVariation/30362_0> ;
+	rdfs:label "Heidenhain, Rudolf Peter Heinrich" .
+
+<ImportantPerson/30362>
+	drw-model:hasEducation <A/30362hasEducation5> ;
+	drw-model:wasMarriedTo <RelatedPerson/30362wasMarriedTo> ;
+	drw-model:hasStationOfLife <B/30362hasStationOfLife4> ;
+	drw-model:hasSL <SL/30362hasSL20> ;
+	drw-model:wasBornOn <Date/30362wasBornOn> ;
+	drw-model:hasConnectionTo <ImportantPerson/30739> ;
+	drw-model:hasP <P/30362hasP1> ;
+	drw-model:DiedOn <Date/30362DiedOn> ;
+	drw-model:hasSL <SL/30362hasSL3> ;
+	drw-model:hasSL <SL/30362hasSL16> ;
+	drw-model:hasStationOfLife <B/30362hasStationOfLife2> ;
+	drw-model:hasSL <SL/30362hasSL19> ;
+	drw-model:hasSLComment <SLComment/30362hasSLComment> ;
+	drw-model:hasSL <SL/30362hasSL17> ;
+	drw-model:hasSL <SL/30362hasSL7> ;
+	drw-model:hasSL <SL/30362hasSL2> ;
+	drw-model:hasP <P/30362hasP2> ;
+	drw-model:hasW <W/30362hasW0> ;
+	drw-model:hasQ <Q/30362hasQ0> ;
+	drw-model:hasSL <SL/30362hasSL11> ;
+	drw-model:hasComment <Comment/30362hasComment1> ;
+	drw-model:fatherIs <RelatedPerson/30362fatherIs> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30362.png> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30362hasHonoursAndAwards> ;
+	drw-model:hasStationOfLife <B/30362hasStationOfLife5> ;
+	drw-model:hasWL <WL/30362hasWL0> ;
+	drw-model:hasStationOfLife <B/30362hasStationOfLife3> ;
+	drw-model:hasConnectionTo <ImportantPerson/30230> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30362hasGeneralLabor0> ;
+	drw-model:hasSL <SL/30362hasSL14> ;
+	drw-model:hasSL <SL/30362hasSL15> ;
+	drw-model:hasMainName <MainName/30362hasMainName> ;
+	drw-model:hasHonoursAndAwardsComment <HonoursAndAwardsComment/30362hasHonoursAndAwardsComment> ;
+	drw-model:hasSL <SL/30362hasSL9> ;
+	drw-model:hasEducation <A/30362hasEducation4> ;
+	drw-model:hasSL <SL/30362hasSL13> ;
+	drw-model:hasSL <SL/30362hasSL5> ;
+	drw-model:hasSL <SL/30362hasSL0> ;
+	rdfs:label "Heidenhain, Rudolf Peter Heinrich" ;
+	drw-model:hasGPV <GPV/30362hasGPV0> ;
+	drw-model:hasStationOfLife <B/30362hasStationOfLife0> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <A/30362hasEducation3> ;
+	drw-model:hasEducation <A/30362hasEducation1> ;
+	drw-model:wasBornIn <Place/30362wasBornIn> ;
+	drw-model:hasDescendant <RelatedPerson/30362hasDescendant> ;
+	drw-model:hasSL <SL/30362hasSL12> ;
+	drw-model:hasP <P/30362hasP0> ;
+	drw-model:hasSL <SL/30362hasSL10> ;
+	drw-model:hasMG <MG/30362hasMG> ;
+	drw-model:hasConnectionTo <ImportantPerson/31075> ;
+	drw-model:hasEducation <A/30362hasEducation2> ;
+	drw-model:hasSL <SL/30362hasSL4> ;
+	drw-model:hasEducation <A/30362hasEducation0> ;
+	drw-model:hasSL <SL/30362hasSL1> ;
+	drw-model:hasID "30362" ;
+	drw-model:hasSL <SL/30362hasSL8> ;
+	drw-model:DiedIn <Place/30362DiedIn> ;
+	drw-model:motherIs <RelatedPerson/30362motherIs> ;
+	drw-model:hasSL <SL/30362hasSL21> ;
+	drw-model:hasSL <SL/30362hasSL6> ;
+	drw-model:hasStationOfLife <B/30362hasStationOfLife1> ;
+	drw-model:hasSL <SL/30362hasSL18> .
+
+<Place/30362wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Marienwerder (Westpreußen)" .
+
+<NameVariation/30362_1>
+	rdfs:label "Chejdenchajn, Rudol’f Peter Genrich"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Хейденхайн, Рудольф Петер Генрих"@ru .
+
+<SL/30362hasSL16>
+	rdfs:label "Schenck, F.: Rudolf Heidenhain. Münchener Medicinische Wochenschrift 44 (1897), 1448-1449." ;
+	a drw-model:SL .
+
+<B/30362hasStationOfLife2>
+	drw-model:began <Year/1859> ;
+	a drw-model:B ;
+	rdfs:label "o. Professor für Physiologie und Histologie und Direktor des Physiologischen Instituts an der Universität Breslau" .
+
+<SL/30362hasSL18>
+	a drw-model:SL ;
+	rdfs:label "Voit, Carl: Nekrolog auf Rudolf Heidenhain. Sitzungsberichte der mathematisch-physikalischen Classe der k. b. Akademie der Wissenschaften zu München 28 (1898), 460-70." .
+
+<Year/1856>
+	rdfs:label "1856" ;
+	a drw-model:Year .
+
+<P/30362hasP1>
+	a drw-model:P ;
+	rdfs:label "Portraits in <b>SL</b> (Auswahl): Broghammer 2000 (Vorderer Umschlag), Grützner 1898, Memorial’nyj muzej, Rothschuh 1953, VL People, Wegbereiter." .
+
+<SL/30362hasSL10>
+	rdfs:label "Obituary: Rudolf Heidenhain. British Medical Journal (1897) Nr. 1921 (October 23), 1215-1216." ;
+	a drw-model:SL .
+
+<GeneralLabor/30362hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie und Histologie" .
+
+<RelatedPerson/30362fatherIs>
+	rdfs:label "Heinrich Jacob (1808-1868), Arzt, Sanitätsrat" ;
+	a drw-model:RelatedPerson .
+
+<SL/30362hasSL20>
+	a drw-model:SL ;
+	rdfs:label "Wikipedia (http://de.wikipedia.org/wiki/Rudolf_Heidenhain, 22.11.2011)." .
+
+<Year/1872>
+	rdfs:label "1872" ;
+	a drw-model:Year .
+
+<Date/30362wasBornOn>
+	a drw-model:Date ;
+	rdfs:label "29.1.1834" .
+
+<B/30362hasStationOfLife4>
+	rdfs:label "Sechsmal Dekan der Medizinischen Fakultät der Universität Breslau" ;
+	a drw-model:B .
+
+<WL/30362hasWL0>
+	rdfs:label "vgl. <b>SL</b>" ;
+	a drw-model:WL .
+

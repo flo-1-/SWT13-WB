@@ -1,0 +1,345 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<RelatedPerson/30599wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Helene Amalie Charlotte, geb. Blum (* 1846)" .
+
+<Place/30599wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Hamburg" .
+
+<P/30599hasP1>
+	a drw-model:P ;
+	rdfs:label "Portraits in <b>SL</b> (Auswahl): Leber 1903, Pagel 1901, Rothschuh 1953, VL People, Wegbereiter." .
+
+<SL/30599hasSL5>
+	rdfs:label "Müller, Franz: Nekrolog. Deutsche medizinische Wochenschrift 26 (1900), 440-441." ;
+	a drw-model:SL .
+
+<B/30599hasStationOfLife1>
+	rdfs:label "Kurze Tätigkeit bei Carl Gotthelf <span style='font-variant:small-caps;'>Lehmann</span> (1812-1863) an der Universität Jena" ;
+	a drw-model:B .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<ImportantPerson/30184>
+	drw-model:hasConnectionTo <ImportantPerson/30599> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30184" .
+
+<ImportantPerson/30664>
+	drw-model:hasConnectionTo <ImportantPerson/30599> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30664" .
+
+<Date/30599wasBornOn>
+	rdfs:label "28.3.1837" ;
+	a drw-model:Date .
+
+<SL/30599hasSL10>
+	a drw-model:SL ;
+	rdfs:label "Schultz, Paul: Nekrolog. Berliner Klinische Wochenschrift 37 (1900), 606-608." .
+
+<SL/30599hasSL13>
+	a drw-model:SL ;
+	rdfs:label "Voit, Carl: Nekrolog. Zeitschrift für Biologie N.F. 22 (1900), I-VIII." .
+
+<SL/30599hasSL15>
+	rdfs:label "Wegbereiter unserer naturwissenschaftlich-medizinischen Moderne (http://appserv5.ph-heidelberg.de/onlinelex/index.php?id=1002, 4.1.2012)." ;
+	a drw-model:SL .
+
+<SL/30599hasSL14>
+	rdfs:label "Walter, Heinz: Kühne, Wilhelm. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. 13 (1982), 202-203 (Onlinefassung unter http://www.deutsche-biographie.de/pnd118567616.html, 4.1.2012)." ;
+	a drw-model:SL .
+
+<NameVariation/30599_1>
+	rdfs:label "Kjune, Vil’gel’m"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Кюне, Вильгельм"@ru .
+
+<SL/30599hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Leber, Theodor: Willy Kühne. Gedächtnisrede. Heidelberg 1901." .
+
+<SLComment/30599hasSLComment>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<P/30599hasP0>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb. [Ausschnitt]) aus: Bildersammlung des Karl-Sudhoff-Instituts für Geschichte der Medizin und Naturwissenschaften der Universität Leipzig, E 1186." .
+
+<MG/30599hasMG>
+	a drw-model:MG ;
+	rdfs:label "vgl.: <b>SL</b>" .
+
+<WL/30599hasWL0>
+	rdfs:label "Schöpfer des Kunstworts „Enzym“" ;
+	a drw-model:WL .
+
+<B/30599hasStationOfLife4>
+	a drw-model:B ;
+	drw-model:began <Year/1861> ;
+	rdfs:label "Assistent in der chemischen Abteilung des Pathologischen Instituts bei R. <span style='font-variant:small-caps;'>Virchow</span> in Berlin" .
+
+<Year/1859>
+	rdfs:label "1859" ;
+	a drw-model:Year .
+
+<SL/30599hasSL1>
+	rdfs:label "Kreidel, Alois: Nekrolog. Wiener klinische Wochenschrift 13 (1900), 648-950." ;
+	a drw-model:SL .
+
+<A/30599hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Besuch des Gymnasiums in Lüneburg" .
+
+<B/30599hasStationOfLife7>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<ImportantPerson/30599>
+	drw-model:fatherIs <RelatedPerson/30599fatherIs> ;
+	drw-model:hasStationOfLife <B/30599hasStationOfLife4> ;
+	rdfs:label "Kühne, Wilhelm Friedrich" ;
+	drw-model:hasDescendant <RelatedPerson/30599hasDescendant> ;
+	drw-model:hasP <P/30599hasP0> ;
+	drw-model:hasSL <SL/30599hasSL15> ;
+	drw-model:hasEducation <A/30599hasEducation2> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30599hasHonoursAndAwards> ;
+	drw-model:hasSL <SL/30599hasSL10> ;
+	drw-model:wasMarriedTo <RelatedPerson/30599wasMarriedTo> ;
+	drw-model:hasSL <SL/30599hasSL3> ;
+	drw-model:hasSL <SL/30599hasSL8> ;
+	drw-model:hasEducation <A/30599hasEducation1> ;
+	drw-model:DiedOn <Date/30599DiedOn> ;
+	drw-model:hasSL <SL/30599hasSL5> ;
+	drw-model:hasStationOfLife <B/30599hasStationOfLife0> ;
+	drw-model:hasConnectionTo <ImportantPerson/30184> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30599hasGeneralLabor0> ;
+	drw-model:hasStationOfLife <B/30599hasStationOfLife1> ;
+	drw-model:hasMainName <MainName/30599hasMainName> ;
+	drw-model:hasSLComment <SLComment/30599hasSLComment> ;
+	drw-model:hasMG <MG/30599hasMG> ;
+	drw-model:hasEducation <A/30599hasEducation0> ;
+	drw-model:hasConnectionTo <ImportantPerson/30230> ;
+	drw-model:hasConnectionTo <ImportantPerson/30664> ;
+	drw-model:hasSL <SL/30599hasSL13> ;
+	drw-model:hasWL <WL/30599hasWL0> ;
+	drw-model:hasSL <SL/30599hasSL11> ;
+	drw-model:hasStationOfLife <B/30599hasStationOfLife5> ;
+	drw-model:hasSL <SL/30599hasSL1> ;
+	drw-model:hasHonoursAndAwardsComment <HonoursAndAwardsComment/30599hasHonoursAndAwardsComment> ;
+	drw-model:hasWL <WL/30599hasWL1> ;
+	drw-model:hasSL <SL/30599hasSL16> ;
+	drw-model:hasStationOfLife <B/30599hasStationOfLife6> ;
+	drw-model:hasSL <SL/30599hasSL6> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/30599hasSL0> ;
+	drw-model:hasSL <SL/30599hasSL12> ;
+	drw-model:hasConnectionTo <ImportantPerson/31069> ;
+	drw-model:hasSL <SL/30599hasSL14> ;
+	drw-model:hasStationOfLife <B/30599hasStationOfLife2> ;
+	drw-model:motherIs <RelatedPerson/30599motherIs> ;
+	drw-model:hasID "30599" ;
+	drw-model:hasP <P/30599hasP1> ;
+	drw-model:wasBornIn <Place/30599wasBornIn> ;
+	drw-model:hasConnectionTo <ImportantPerson/10258> ;
+	drw-model:hasSL <SL/30599hasSL7> ;
+	drw-model:hasConnectionTo <ImportantPerson/31089> ;
+	drw-model:DiedIn <Place/30599DiedIn> ;
+	drw-model:hasW <W/30599hasW0> ;
+	drw-model:hasStationOfLife <B/30599hasStationOfLife7> ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/30599.jpg> ;
+	drw-model:hasGPV <GPV/30599hasGPV0> ;
+	drw-model:hasSL <SL/30599hasSL2> ;
+	drw-model:hasConnectionTo <ImportantPerson/30395> ;
+	drw-model:wasBornOn <Date/30599wasBornOn> ;
+	drw-model:hasStationOfLife <B/30599hasStationOfLife3> ;
+	drw-model:hasSL <SL/30599hasSL9> ;
+	drw-model:hasSL <SL/30599hasSL4> .
+
+<ImportantPerson/30395>
+	drw-model:hasConnectionTo <ImportantPerson/30599> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30395" .
+
+<A/30599hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Promotion zum Dr. phil. in Göttingen" .
+
+<B/30599hasStationOfLife5>
+	drw-model:began <Year/1868> ;
+	a drw-model:B ;
+	rdfs:label "o. Prof. für Physiologie an der Universität in Amsterdam" .
+
+<Year/1871>
+	rdfs:label "1871" ;
+	a drw-model:Year .
+
+<ImportantPerson/31069>
+	drw-model:hasConnectionTo <ImportantPerson/30599> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "31069" .
+
+<ImportantPerson/30230>
+	drw-model:hasConnectionTo <ImportantPerson/30599> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30230" .
+
+<SL/30599hasSL7>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SL .
+
+<GeneralLabor/30599hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<B/30599hasStationOfLife0>
+	rdfs:label "Assistent bei Rudolf <span style='font-variant:small-caps;'>Wagner</span> (1805-1864) in Göttingen" ;
+	a drw-model:B ;
+	drw-model:began <Year/1856> .
+
+<WL/30599hasWL1>
+	rdfs:label "Weiteres vgl.: <b>SL</b>" ;
+	a drw-model:WL .
+
+<Year/1868>
+	rdfs:label "1868" ;
+	a drw-model:Year .
+
+<GPV/30599hasGPV0>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:GPV .
+
+<HonoursAndAwards/30599hasHonoursAndAwards>
+	rdfs:label "1862 Dr. med. h. c. an der Universität Jena<br>1871 „Hofrat“<br>1873 „Geheimer Rat“<br>Festgabe: Jubelband zu Ehren von Wilhelm Kühne. Redigiert von Hugo Kronecker. München, Leipzig 1896 (Zeitschrift für Biologie N.F. 16 = 34), 603 S." ;
+	a drw-model:HonoursAndAwards .
+
+<RelatedPerson/30599motherIs>
+	rdfs:label "Susette Amalie, geb. Feige (1806-1888)" ;
+	a drw-model:RelatedPerson .
+
+<RelatedPerson/30599hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Susette Elisabeth Helene, verh. Gottlieb (1873-1944)" .
+
+<SL/30599hasSL12>
+	rdfs:label "VL People (http://vlp.mpiwg-berlin.mpg.de/people/data?id=per103, 4.1.2012)." ;
+	a drw-model:SL .
+
+<MainName/30599hasMainName>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30599_1> ;
+	drw-model:hasNameVariation <NameVariation/30599_0> ;
+	rdfs:label "Kühne, Wilhelm Friedrich" .
+
+<SL/30599hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Leber 1903 – Leber, Theodor: Willy Kühne. In: Heidelberger Professoren aus dem 19. Jahrhundert. Bd. 2. Heidelberg 1903, 207-220." .
+
+<SL/30599hasSL0>
+	rdfs:label "Hoffmeister, F.: Willy Kühne [Nekrolog]. Berichte der deutschen chemischen Gesellschaft 33 (1901), 3875-3880." ;
+	a drw-model:SL .
+
+<NameVariation/30599_0>
+	rdfs:label "Kühne, Wilhelm/Willy Friedrich" ;
+	a drw-model:NameVariation .
+
+<HonoursAndAwardsComment/30599hasHonoursAndAwardsComment>
+	rdfs:label "Ehrungen und Auszeichnungen (Auswahl):" ;
+	a drw-model:HonoursAndAwardsComment .
+
+<SL/30599hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 922-923." .
+
+<SL/30599hasSL16>
+	a drw-model:SL ;
+	rdfs:label "[Todesanzeige] Ew. Hochwohlgeboren machen wir die betrübende Anzeige, dass Herr Geheimerat Professor Dr. Willy Kühne gestern Abend verschieden ist... Die Bestattung findet am Mittwoch, den 13. Juni, vormittags 10 Uhr ... statt... Heidelberg, den 11. Juni 1900, 1 Bl." .
+
+<SL/30599hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Schalck, Adolf: Das Leben und Wirken des Heidelberger Physiologen Willy Kühne. Düsseldorf 1940, 76 S." .
+
+<B/30599hasStationOfLife3>
+	rdfs:label "Studienaufenthalte im Ausland, darunter:
+- 1859-1860 in Paris und London
+- 1860-1861 in Wien bei E. <span style='font-variant:small-caps;'>Brücke</span> und C. <span style='font-variant:small-caps;'>Ludwig</span>" ;
+	drw-model:began <Year/1859> ;
+	a drw-model:B .
+
+<ImportantPerson/10258>
+	drw-model:hasID "10258" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/30599> .
+
+<SL/30599hasSL2>
+	rdfs:label "Kronecker, Hugo: Ein eigenartiger deutscher Naturforscher. Zum Andenken an Willy Kühne. Deutsche Revue 32 (1907), 99-112." ;
+	a drw-model:SL .
+
+<Place/30599DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Heidelberg" .
+
+<SL/30599hasSL11>
+	a drw-model:SL ;
+	rdfs:label "Uexküll, J. v.: Nekrolog. Münchener medizinische Wochenschrift 47 (1900), 937-939." .
+
+<W/30599hasW0>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:W .
+
+<SL/30599hasSL8>
+	a drw-model:SL ;
+	rdfs:label "Rothschuh, Karl Eduard: Geschichte der Physiologie. Berlin, Göttingen, Heidelberg 1953, 143-145." .
+
+<Year/1861>
+	rdfs:label "1861" ;
+	a drw-model:Year .
+
+<ImportantPerson/31089>
+	drw-model:hasConnectionTo <ImportantPerson/30599> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "31089" .
+
+<B/30599hasStationOfLife6>
+	rdfs:label "o. Professor für Physiologie an der Universität Heidelberg" ;
+	a drw-model:B ;
+	drw-model:began <Year/1871> .
+
+<A/30599hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Studium der Chemie, Anatomie und Physiologie an der Universität Göttingen bei Friedrich <span style='font-variant:small-caps;'>Wöhler</span> (1800-1882), Jakob <span style='font-variant:small-caps;'>Henle</span> (1809-1885) und Rudolf <span style='font-variant:small-caps;'>Wagner</span> (1805-1864)" ;
+	drw-model:began <Year/1854> .
+
+<Year/1858>
+	rdfs:label "1858" ;
+	a drw-model:Year .
+
+<B/30599hasStationOfLife2>
+	drw-model:began <Year/1858> ;
+	rdfs:label "Assistent in der chemischen Abteilung des PhysiologischenInstituts in Berlin bei E. <span style='font-variant:small-caps;'>Hoppe-Seyler</span> und E. <span style='font-variant:small-caps;'>Du Bois-Reymond</span>" ;
+	a drw-model:B .
+
+<RelatedPerson/30599fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Julius Ferdinand (1799-1871), Schiffahrtsdirektor" .
+
+<Year/1854>
+	rdfs:label "1854" ;
+	a drw-model:Year .
+
+<Date/30599DiedOn>
+	a drw-model:Date ;
+	rdfs:label "10.6.1900" .
+
+<Year/1856>
+	rdfs:label "1856" ;
+	a drw-model:Year .
+

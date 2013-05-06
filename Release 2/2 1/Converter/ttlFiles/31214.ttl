@@ -1,0 +1,505 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<B/31214hasStationOfLife10>
+	rdfs:label "Zwangsemeritierung" ;
+	a drw-model:B .
+
+<MG/31214hasMG>
+	a drw-model:MG ;
+	rdfs:label "Deutsche Physiologische Gesellschaft (1914 Vorsitzender)" .
+
+<W/31214hasW1>
+	rdfs:label "Ueber die Resorption im Dünndarm und der Bauchhöhle. Habil.-Schr. Univ. Heidelberg. München 1898, 42 S." ;
+	a drw-model:W .
+
+<Comment/31214hasComment3>
+	rdfs:label "Im Handbuch der Emigration, zit. n. WBIS DBA (Kestner) (<b>SL</b>), fälschlicherweise Leipzig angegeben." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 3 .
+
+<B/31214hasStationOfLife5>
+	drw-model:began <Year/1904_1909> ;
+	rdfs:label "Gasprofessor in New York und Boston/MA" ;
+	a drw-model:B .
+
+<A/31214hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Fortsetzung des Studiums an der Universität Heidelberg" ;
+	drw-model:began <Year/1892> .
+
+<B/31214hasStationOfLife2>
+	rdfs:label "Privatdozent für physiologische Chemie an der Universität Heidelberg" ;
+	a drw-model:B ;
+	drw-model:began <Year/1898> .
+
+<GPV/31214hasGPV0>
+	rdfs:label "Publikationen 1900-1930, in: Poggendorff Bd. 6 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<B/31214hasStationOfLife18>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<Year/1904_1909>
+	rdfs:label "1904, 1909" ;
+	a drw-model:Year .
+
+<Comment/31214hasComment5>
+	drw-model:hasNumber 5 ;
+	a drw-model:Comment ;
+	rdfs:label "„Herrn Professor Otto Kestner dem treuen Förderer der Umweltforschung zum 60. Geburtstage gewidmet.“ (Vor dem Titelblatt)." .
+
+<SL/31214hasSL10>
+	a drw-model:SL ;
+	rdfs:label "Vinogradov, Jurij Abramovič, Golikov, Jurij Pavlovič, Grekova, Tat’jana Ivanovna (Sostaviteli): I. P. Pavlov: Dostovernost’ i polnota biografii. Sankt-Peterburg 2005, 135-136." .
+
+<B/31214hasStationOfLife8>
+	rdfs:label "im I. Weltkrieg Feldarzt in Kriegs- und Seuchenlazaretten in Belgien und Rumänien, zuletzt Gutachter für Flugtauglichkeit" ;
+	drw-model:began <Year/1914> ;
+	a drw-model:B .
+
+<P/31214hasP0>
+	rdfs:label "Portrait (Abb.) aus: Lehrer der Heilkunde und ihre Wirkungsstätten. Hamburgische Universität. Münchener Medizinischen Wochenschrift 80 (1933) Jubiläums-Beilage 1933, 46." ;
+	a drw-model:P .
+
+<WL/31214hasWL1>
+	rdfs:label "1901 Entdeckung und Beschreibung der Enzyme Trypsin und Erepsin (vgl. dazu Publikation in <b>W</b>)" ;
+	a drw-model:WL .
+
+<B/31214hasStationOfLife11>
+	drw-model:began <Year/1935> ;
+	a drw-model:B ;
+	rdfs:label "Tätigkeit am Rowett Research Institute Bucksburn nahe Aberdeen in Schottland und im Royal Sea Bathing Hospital in Magate in Kent, England" .
+
+<Date/31214wasBornOn>
+	a drw-model:Date ;
+	rdfs:label "30.5.1873" .
+
+<Year/1897>
+	rdfs:label "1897" ;
+	a drw-model:Year .
+
+<W/31214hasW2>
+	rdfs:label "Trypsin und Erepsin. Hoppe-Seyler’s Zeitschrift für physiologische Chemie 36 (1902) 1, 13-19." ;
+	a drw-model:W .
+
+<Q/31214hasQ0>
+	a drw-model:Q ;
+	rdfs:label "Universität Leipzig, Universitätsarchiv: Personalakten der Quästurbehörde zwischen 1889 und 1944/194, Formular 1: Karten-Nr.: 3865.372.336; Formular 2: Karten-Nr.: 4353.412.411." .
+
+<SL/31214hasSL5>
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 289." ;
+	a drw-model:SL .
+
+<B/31214hasStationOfLife4>
+	drw-model:began <Year/1903> ;
+	a drw-model:B ;
+	rdfs:label "ao. Professor an der Universität Heidelberg" .
+
+<A/31214hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Habilitation an der Universität Heidelberg" .
+
+<B/31214hasStationOfLife16>
+	rdfs:label "Tätigkeit in verschiedenen Institutionen in England, darunter im Downing College und an der School of Agriculture in Cambridge" ;
+	a drw-model:B ;
+	drw-model:began <Year/1940> .
+
+<GPV/31214hasGPV1>
+	rdfs:label "Publikationen 1931-1938, in: Poggendorff Bd. 7a (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<P/31214hasP2>
+	rdfs:label "Portrait in: Nicolaysen 2008 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<SL/31214hasSL4>
+	rdfs:label "Jüdisches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013) (Kestner): I 392, 9-10; II 291, 235-238." ;
+	a drw-model:SL .
+
+<P/31214hasP1>
+	rdfs:label "Portrait in: Matthews 1978 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<WL/31214hasWL2>
+	rdfs:label "Einrichtung einer Klima-Station in Wyk auf Föhr, zusammen mit Carl <span style='font-variant:small-caps;'>Haeberlin</span> (1870-1954)" ;
+	a drw-model:WL .
+
+<B/31214hasStationOfLife12>
+	drw-model:hasComment <Comment/31214hasComment4> ;
+	rdfs:label "Teilnahme am 15. Internationalen Physiologenkongress vom 9.-17. August in Leningrad und Moskau (letzte Begegnung mit <span style='font-variant:small-caps;'>Pavlov</span>)[4]" ;
+	a drw-model:B .
+
+<B/31214hasStationOfLife7>
+	drw-model:began <Year/1913> ;
+	rdfs:label "ao. Professor und Leiter der physiologischen Abteilung des Krankenhauses Eppendorf an der Universität Hamburg" ;
+	a drw-model:B .
+
+<Year/zw_1908_1913>
+	rdfs:label "zw. 1908-1913" ;
+	a drw-model:Year .
+
+<A/31214hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Universität Heidelberg" .
+
+<GPV/31214hasGPV2>
+	rdfs:label "Publikationen 1901-1912 (Volltexte online unter: http://vlpneu.mpiwg-berlin.mpg.de/library/browse.html?sort=author&amp;display=short&amp;skip=2326; ~ =2351, 11.7.2011)." ;
+	a drw-model:GPV .
+
+<SL/31214hasSL12>
+	rdfs:label "Wikipedia (http://de.wikipedia.org/wiki/Otto_Kestner, 11.7.2011)." ;
+	a drw-model:SL .
+
+<SL/31214hasSL0>
+	rdfs:label "Poggendorff - Biographisch-literarisches Handwörterbuch zur Geschichte der exacten Naturwissenschaften, enthaltend Nachweisungen über Lebensverhältnisse und Leistungen von Mathematikern, Astronomen, Physikern, Chemikern, Mineralogen, Geologen usw. aller Völker und Zeiten. Gesammelt von J. C. Poggendorff, Mitglied der Akademie der Wissenschaften zu Berlin / J. C. Poggendorff - Biographisch-literarisches Handwörterbuch der exakten Naturwissenschaften. Bd. 1-8. Leipzig, Berlin 1863-2004. Bd. 6, 1309-1310; Bd. 7a, 733." ;
+	a drw-model:SL .
+
+<Year/Bis_1891>
+	rdfs:label "Bis 1891" ;
+	a drw-model:Year .
+
+<Year/Mai_1949>
+	rdfs:label "Mai 1949" ;
+	a drw-model:Year .
+
+<Year/1939>
+	rdfs:label "1939" ;
+	a drw-model:Year .
+
+<Year/1940>
+	rdfs:label "1940" ;
+	a drw-model:Year .
+
+<NameVariation/31214_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Kongejm, O."@de ;
+	rdfs:label "Конгейм, О."@ru .
+
+<SL/31214hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Jüdisches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013) (Cohnheim): I 185, 123." .
+
+<B/31214hasStationOfLife13>
+	rdfs:label "im Exil in Großbritannien:" ;
+	drw-model:began <Year/1939> ;
+	a drw-model:B .
+
+<SL/31214hasSL9>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 114-115." ;
+	a drw-model:SL .
+
+<B/31214hasStationOfLife6>
+	rdfs:label "mehrfach Aufenthalt in der Zoologischen Station Neapel, u. a. bei Anton Felix <span style='font-variant:small-caps;'>Dohrn</span> (1840-1909)" ;
+	a drw-model:B ;
+	drw-model:began <Year/zw_1908_1913> .
+
+<P/31214hasP3>
+	a drw-model:P ;
+	rdfs:label "Portrait in: http://www.felicitaskukuck.de/bio.htm# (8.7.2011)." .
+
+<RelatedPerson/31214motherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Fanny Martha Theresa Cohnheim, geb. Lewald (1852-nach 1900)" .
+
+<W/31214hasW3>
+	rdfs:label "Die Ernährung des Menschen. Nahrungsbedarf, Erfordernisse der Nahrung, Nahrungsmittel, Kostberechnung. Mit Hugo Wilhelm Knipping. Berlin 1924, 136 S.; <b>russ.</b>: Pitanie čeloveka. Potrebnost’ čeloveka v pišče, svojstva pišči i pitatel’nye veščestva, ocenka svojstv piščevych produktov. Moskva, Leningrad 1928, 184 S." ;
+	a drw-model:W .
+
+<AlsoImportantInfo/31214hasAlsoImportantInfo0>
+	a drw-model:AlsoImportantInfo ;
+	rdfs:label "Mitgliedschaft und Tätigkeit in einigen politischen Parteien und Organisationen, darunter in der linksliberalen Deutschen Demokratischen Partei (DDP) (1919) und der Schutzorganisation für Republik und Demokratie im Reichsbanner Schwarz-Rot-Gold (1924-1929)" .
+
+<Year/1914>
+	rdfs:label "1914" ;
+	a drw-model:Year .
+
+<WL/31214hasWL0>
+	rdfs:label "Forschungsthemen: Ernährung, Gastroenterologie, Endokrinologie, menschlicher und tierischer Stoffwechsel (Untersuchungen des Stoffwechsels der früheren Ontogenese), Immunologie, vergleichende Physiologie, Meerestierphysiologie, Klimatologie u. a." ;
+	a drw-model:WL .
+
+<Year/1892>
+	rdfs:label "1892" ;
+	a drw-model:Year .
+
+<ImportantPerson/31214>
+	drw-model:hasSL <SL/31214hasSL6> ;
+	drw-model:motherIs <RelatedPerson/31214motherIs> ;
+	rdfs:label "Cohnheim, Otto Heinrich" ;
+	<http://xmlns.com/foaf/0.1/img> <http://localhost/~wolfo/portraits/31214.jpg> ;
+	drw-model:hasEducation <A/31214hasEducation0> ;
+	drw-model:hasEducation <A/31214hasEducation2> ;
+	drw-model:hasWL <WL/31214hasWL1> ;
+	drw-model:hasStationOfLife <B/31214hasStationOfLife14> ;
+	drw-model:hasAlsoImportantInfo <AlsoImportantInfo/31214hasAlsoImportantInfo0> ;
+	drw-model:hasStationOfLife <B/31214hasStationOfLife4> ;
+	drw-model:hasDescendant <RelatedPerson/31214hasDescendant> ;
+	drw-model:hasW <W/31214hasW1> ;
+	drw-model:hasComment <Comment/31214hasComment5> ;
+	drw-model:hasGPV <GPV/31214hasGPV2> ;
+	drw-model:hasStationOfLife <B/31214hasStationOfLife11> ;
+	drw-model:hasStationOfLife <B/31214hasStationOfLife12> ;
+	drw-model:hasGPV <GPV/31214hasGPV0> ;
+	drw-model:hasSL <SL/31214hasSL11> ;
+	drw-model:hasStationOfLife <B/31214hasStationOfLife0> ;
+	drw-model:hasQ <Q/31214hasQ0> ;
+	drw-model:hasEducation <A/31214hasEducation1> ;
+	drw-model:hasP <P/31214hasP2> ;
+	drw-model:hasW <W/31214hasW3> ;
+	drw-model:hasWL <WL/31214hasWL0> ;
+	drw-model:DiedOn <Date/31214DiedOn> ;
+	drw-model:hasStationOfLife <B/31214hasStationOfLife7> ;
+	drw-model:hasID "31214" ;
+	drw-model:hasW <W/31214hasW2> ;
+	drw-model:fatherIs <RelatedPerson/31214fatherIs> ;
+	drw-model:hasP <P/31214hasP0> ;
+	drw-model:hasStationOfLife <B/31214hasStationOfLife15> ;
+	drw-model:hasStationOfLife <B/31214hasStationOfLife10> ;
+	drw-model:hasSL <SL/31214hasSL3> ;
+	drw-model:hasConnectionTo <ImportantPerson/30599> ;
+	drw-model:hasSL <SL/31214hasSL10> ;
+	drw-model:hasW <W/31214hasW5> ;
+	drw-model:hasP <P/31214hasP1> ;
+	drw-model:hasComment <Comment/31214hasComment1> ;
+	drw-model:hasConnectionTo <ImportantPerson/30785> ;
+	drw-model:hasP <P/31214hasP3> ;
+	drw-model:hasSL <SL/31214hasSL2> ;
+	drw-model:hasStationOfLife <B/31214hasStationOfLife9> ;
+	drw-model:hasAlternativeName <AlternativeName/31214_0> ;
+	drw-model:hasStationOfLife <B/31214hasStationOfLife3> ;
+	drw-model:DiedIn <Place/31214DiedIn> ;
+	drw-model:hasW <W/31214hasW4> ;
+	drw-model:hasSL <SL/31214hasSL4> ;
+	drw-model:hasSL <SL/31214hasSL1> ;
+	drw-model:hasMG <MG/31214hasMG> ;
+	drw-model:hasStationOfLife <B/31214hasStationOfLife6> ;
+	drw-model:hasStationOfLife <B/31214hasStationOfLife2> ;
+	drw-model:hasComment <Comment/31214hasComment2> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/31214hasSL9> ;
+	drw-model:hasMainName <MainName/31214hasMainName> ;
+	drw-model:hasSL <SL/31214hasSL7> ;
+	drw-model:hasComment <Comment/31214hasComment3> ;
+	drw-model:hasEducation <A/31214hasEducation4> ;
+	drw-model:hasWL <WL/31214hasWL2> ;
+	drw-model:hasStationOfLife <B/31214hasStationOfLife17> ;
+	drw-model:hasGeneralLabor <GeneralLabor/31214hasGeneralLabor0> ;
+	drw-model:hasSL <SL/31214hasSL12> ;
+	drw-model:wasBornOn <Date/31214wasBornOn> ;
+	drw-model:hasW <W/31214hasW0> ;
+	drw-model:hasStationOfLife <B/31214hasStationOfLife8> ;
+	drw-model:hasGPV <GPV/31214hasGPV1> ;
+	drw-model:hasStationOfLife <B/31214hasStationOfLife18> ;
+	drw-model:wasBornIn <Place/31214wasBornIn> ;
+	drw-model:hasStationOfLife <B/31214hasStationOfLife13> ;
+	drw-model:hasSL <SL/31214hasSL5> ;
+	drw-model:hasStationOfLife <B/31214hasStationOfLife5> ;
+	drw-model:hasSL <SL/31214hasSL0> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/31214hasHonoursAndAwards> ;
+	drw-model:hasEducation <A/31214hasEducation3> ;
+	drw-model:hasComment <Comment/31214hasComment4> ;
+	drw-model:hasEducation <A/31214hasEducation5> ;
+	drw-model:hasConnectionTo <ImportantPerson/30565> ;
+	drw-model:hasSL <SL/31214hasSL8> ;
+	drw-model:hasStationOfLife <B/31214hasStationOfLife1> ;
+	drw-model:wasMarriedTo <RelatedPerson/31214wasMarriedTo> ;
+	drw-model:hasStationOfLife <B/31214hasStationOfLife16> .
+
+<B/31214hasStationOfLife1>
+	rdfs:label "Assistent am Physiologischen Institut an der Universität Heidelberg bei W. <span style='font-variant:small-caps;'>Kühne</span> und A. <span style='font-variant:small-caps;'>Kossel</span>" ;
+	drw-model:began <Year/1897> ;
+	a drw-model:B .
+
+<ImportantPerson/30785>
+	drw-model:hasID "30785" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/31214> .
+
+<Year/1903>
+	rdfs:label "1903" ;
+	a drw-model:Year .
+
+<SL/31214hasSL2>
+	rdfs:label "Deutsches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013) (Kestner): II 699, 140-144." ;
+	a drw-model:SL .
+
+<Comment/31214hasComment1>
+	a drw-model:Comment ;
+	drw-model:hasNumber 1 ;
+	rdfs:label "Ab 1916 (Vgl. Felicitas Kukuck: Autobiographie in Form eines Tagebuchs ab 17. April 1989 (http://www.felicitaskukuck.de/Autobiographie_FKukuck.pdf, 8.7.2011), 2.) nicht 1917 (So nur in Nicolaysen 2008 (<b>SL</b>) angegeben.)" .
+
+<RelatedPerson/31214hasDescendant>
+	a drw-model:RelatedPerson ;
+	rdfs:label "[2]
+Elisabeth Cohnheim/Kestner, verh. Typke (1907-1989), Erzieherin, Gymnastiklehrerin
+Gertrud Cohnheim (1909-1913)
+Anna Maria Dora Felicitas Cohnheim/Kestner, verh. Kukuck (1914-2001), Flötistin, Komponistin, Kompositions- und Musiklehrerin
+Friedrich (Fritz) Kestner (1916-2007), Wasserbauingenieur
+Adelheid (Heidi) Kestner, verh. Giesbrecht (1919-1973), Säuglingsschwester, Kindergärtnerin" ;
+	drw-model:hasComment <Comment/31214hasComment2> .
+
+<W/31214hasW4>
+	rdfs:label "Climato-Physiological Investigations at the Seashore. British medical journal (1937) Nr.1 (13. März), 555-557." ;
+	a drw-model:W .
+
+<SL/31214hasSL8>
+	rdfs:label "Nicolaysen, Rainer: Kestner (bis 1917 Cohnheim), Otto Heinrich. In: Hamburgische Biografie. Personenlexikon. Hg. von Franklin Kopitsch und Dirk Brietzke. 2. Aufl. Bd. 4. Göttingen 2008, 190-192." ;
+	a drw-model:SL .
+
+<ImportantPerson/30599>
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/31214> ;
+	drw-model:hasID "30599" .
+
+<B/31214hasStationOfLife14>
+	drw-model:began <Year/1939> ;
+	rdfs:label "Beschäftigung mit klimatologischen Problemen in Magate" ;
+	a drw-model:B .
+
+<A/31214hasEducation1>
+	a drw-model:A ;
+	drw-model:began <Year/1891> ;
+	rdfs:label "Studium der Medizin an der Universität Leipzig" .
+
+<Year/1893>
+	rdfs:label "1893" ;
+	a drw-model:Year .
+
+<GeneralLabor/31214hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<Year/1913>
+	rdfs:label "1913" ;
+	a drw-model:Year .
+
+<B/31214hasStationOfLife0>
+	drw-model:hasComment <Comment/31214hasComment3> ;
+	a drw-model:B ;
+	rdfs:label "Assistent an der Neurologischen Klinik der Universität Heidelberg[3] bei Wilhelm Heinrich <span style='font-variant:small-caps;'>Erb</span> (1840-1921)" .
+
+<SL/31214hasSL1>
+	rdfs:label "Deutsches Biographisches Archiv (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013) (Conheim): II 232, 184." ;
+	a drw-model:SL .
+
+<Comment/31214hasComment2>
+	drw-model:hasNumber 2 ;
+	a drw-model:Comment ;
+	rdfs:label "Vgl. Margret Johannsen: Kukuck, Felicitas. In: Lexikon verfolgter Musiker und Musikerinnen der NS-Zeit. Hgg. Claudia Maurer Zenck und Peter Petersen unter Mitarbeit von Sophie Fetthauer. Universität Hamburg, seit 2005 (http://www.lexm.uni-hamburg.de..., 8.7.2011)." .
+
+<B/31214hasStationOfLife9>
+	rdfs:label "o. Professor und Direktor des Physiologischen Instituts an der Universität Hamburg" ;
+	a drw-model:B ;
+	drw-model:began <Year/1919> .
+
+<W/31214hasW5>
+	rdfs:label "Some Operative Factors of Seaside Climate. British medical journal (1940) Nr. 1 (3. Febr.), 169-170." ;
+	a drw-model:W .
+
+<MainName/31214hasMainName>
+	a drw-model:MainName ;
+	rdfs:label "Cohnheim, Otto Heinrich" ;
+	drw-model:hasNameVariation <NameVariation/31214_0> .
+
+<B/31214hasStationOfLife15>
+	rdfs:label "Internierung auf der Isle of Man" ;
+	a drw-model:B .
+
+<A/31214hasEducation0>
+	a drw-model:A ;
+	drw-model:began <Year/Bis_1891> ;
+	rdfs:label "Besuch der Thomasschule (Schola Thomana) in Leipzig" .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<RelatedPerson/31214wasMarriedTo>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Eva Marie Mathilde Cohnheim/Kestner, geb. Barth (1882-1973), Sängerin" .
+
+<Place/31214wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "Breslau" .
+
+<ImportantPerson/30565>
+	drw-model:hasID "30565" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasConnectionTo <ImportantPerson/31214> .
+
+<SL/31214hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Matthews, D. M.: Otto Cohnheim – the forgotten physiologist. British medical journal (1978) Nr. 2, 618-619." .
+
+<Year/1919>
+	rdfs:label "1919" ;
+	a drw-model:Year .
+
+<Year/1935>
+	rdfs:label "1935" ;
+	a drw-model:Year .
+
+<RelatedPerson/31214fatherIs>
+	rdfs:label "Julius Friedrich Cohnheim (1839-1884), Arzt, Professor für Allgemeine Pathologie und Pathologische Anatomie" ;
+	a drw-model:RelatedPerson .
+
+<AlternativeName/31214_0>
+	drw-model:hasComment <Comment/31214hasComment1> ;
+	a drw-model:AlternativeName ;
+	rdfs:label "Kestner[1], Otto Heinrich" .
+
+<Place/31214DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Hamburg" .
+
+<B/31214hasStationOfLife17>
+	rdfs:label "Remigration nach Deutschland und Emeritierung rückwirkend zum 1.5.1945" ;
+	drw-model:began <Year/Mai_1949> ;
+	a drw-model:B .
+
+<A/31214hasEducation3>
+	a drw-model:A ;
+	drw-model:began <Year/1893> ;
+	rdfs:label "Abschluss des Studiums an der Universität Leipzig" .
+
+<W/31214hasW0>
+	rdfs:label "Ueber das Salzsäure-Bindungsvermögen der Albumosen und Peptone. Diss. Univ. Heidelberg. München 1896, 35 S." ;
+	a drw-model:W .
+
+<Year/1891>
+	rdfs:label "1891" ;
+	a drw-model:Year .
+
+<Date/31214DiedOn>
+	a drw-model:Date ;
+	rdfs:label "21.2.1953" .
+
+<SL/31214hasSL7>
+	rdfs:label "Morgenstern, Hans: Jüdisches biographisches Lexikon. Eine Sammlung von bedeutenden Persönlichkeiten jüdischer Herkunft ab 1800. Wien, Berlin, Münster 2009, 418." ;
+	a drw-model:SL .
+
+<B/31214hasStationOfLife3>
+	rdfs:label "Studienaufenthalt bei I. P. <span style='font-variant:small-caps;'>Pavlov</span> in der physiologischen Abteilung des Instituts für Experimentelle Medizin (IEM) in St. Petersburg" ;
+	a drw-model:B .
+
+<HonoursAndAwards/31214hasHonoursAndAwards>
+	rdfs:label "Eisernes Kreuz 2. Klasse<br>Widmung:[5] Jakob von Uexküll, Georg Kriszat: <i>Streifzüge durch die Umwelten von Tieren und Menschen.</i> Berlin 1934, 101 S." ;
+	drw-model:hasComment <Comment/31214hasComment5> ;
+	a drw-model:HonoursAndAwards .
+
+<Comment/31214hasComment4>
+	drw-model:hasNumber 4 ;
+	a drw-model:Comment ;
+	rdfs:label "Die Angaben „Im Anschluss an den Internationalen Kongress für Physiologie in Moskau (1906) einige Zeit Assistent bei Ivan Petrovič Pavlov“ oder „1906 in Moskau“ in <b>SL</b> Walter 1977, Wikipedia, WBIS DBA (Kestner) II 699, 144 (Handbuch der Emigration) und WBIS JBA II 291, 238 (Walk 1988) beruhen vermutlich auf einer Verwechslung. Ein Internationaler Physiologenkongress (IPK) fand weder 1906 noch zu diesem Zeitpunkt in Moskau statt. Cohnheim/Kestner besuchte in Moskau und Leningrad den 15. IPK 1935. Ein Aufenthalt bei Pavlov oder in Moskau im Jahr 1906 konnte nicht nachgewiesen werden." .
+
+<SL/31214hasSL11>
+	a drw-model:SL ;
+	rdfs:label "Walter, Heinz: Kestner (bis ca. 1916 Cohnheim), Otto. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. Bd. 11 (1977), 555-556." .
+
+<Year/1898>
+	rdfs:label "1898" ;
+	a drw-model:Year .
+

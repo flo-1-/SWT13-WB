@@ -1,0 +1,280 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<A/30339hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der MCA" .
+
+<A/30339hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Arzt-Examen an der MCA" .
+
+<>
+	rdfs:label "DRW-Catalog" ;
+	a owl:Ontolgy .
+
+<SL/30339hasSL2>
+	rdfs:label "Makarov, Vjačeslav Aleksandrovič: Il’ja Egorovič Gruzinov (K 200-letiju so dnja roždenija). Fiziologičeskij žurnal SSSR imeni I. M. Sečenova 67 (1981) 6, 951-955." ;
+	a drw-model:SL .
+
+<RelatedPerson/30339hasSibling>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Aleksej Egorovič" .
+
+<SL/30339hasSL10>
+	a drw-model:SL ;
+	rdfs:label "Volkov, Vladimir Akimovič, Kulikova, Marina Vladimirovna: Moskovskie professora XVIII - načala XX vekov. Estestvennye i techničeskie nauki. Moskva 2003, 71." .
+
+<ImportantPerson/30339>
+	drw-model:hasWL <WL/30339hasWL1> ;
+	drw-model:hasMainName <MainName/30339hasMainName> ;
+	drw-model:hasStationOfLife <B/30339hasStationOfLife5> ;
+	drw-model:hasEducation <A/30339hasEducation4> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30339hasHonoursAndAwards> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30339hasGeneralLabor1> ;
+	drw-model:hasSL <SL/30339hasSL10> ;
+	drw-model:hasEducation <A/30339hasEducation3> ;
+	drw-model:hasEducation <A/30339hasEducation1> ;
+	drw-model:hasSL <SL/30339hasSL3> ;
+	drw-model:hasWL <WL/30339hasWL2> ;
+	drw-model:fatherIs <RelatedPerson/30339fatherIs> ;
+	drw-model:hasComment <Comment/30339hasComment1> ;
+	drw-model:hasW <W/30339hasW2> ;
+	drw-model:hasComment <Comment/30339hasComment3> ;
+	drw-model:hasSL <SL/30339hasSL5> ;
+	drw-model:wasBornIn <Place/30339wasBornIn> ;
+	drw-model:wasBornOn <Date/30339wasBornOn> ;
+	drw-model:hasSL <SL/30339hasSL8> ;
+	drw-model:hasEducation <A/30339hasEducation2> ;
+	drw-model:hasEducation <A/30339hasEducation0> ;
+	drw-model:hasGeneralLabor <GeneralLabor/30339hasGeneralLabor0> ;
+	drw-model:DiedIn <Place/30339DiedIn> ;
+	drw-model:hasGPV <GPV/30339hasGPV0> ;
+	drw-model:hasEducation <A/30339hasEducation5> ;
+	drw-model:hasComment <Comment/30339hasComment2> ;
+	drw-model:hasSL <SL/30339hasSL1> ;
+	drw-model:hasStationOfLife <B/30339hasStationOfLife3> ;
+	drw-model:hasMG <MG/30339hasMG> ;
+	rdfs:label "Gruzinov, Il'ja Egorovič" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/30339hasSL0> ;
+	drw-model:hasID "30339" ;
+	drw-model:hasStationOfLife <B/30339hasStationOfLife0> ;
+	drw-model:hasW <W/30339hasW1> ;
+	drw-model:hasSL <SL/30339hasSL6> ;
+	drw-model:DiedOn <Date/30339DiedOn> ;
+	drw-model:hasStationOfLife <B/30339hasStationOfLife2> ;
+	drw-model:hasSL <SL/30339hasSL7> ;
+	drw-model:hasSL <SL/30339hasSL2> ;
+	drw-model:hasSibling <RelatedPerson/30339hasSibling> ;
+	drw-model:hasWL <WL/30339hasWL0> ;
+	drw-model:hasStationOfLife <B/30339hasStationOfLife1> ;
+	drw-model:hasStationOfLife <B/30339hasStationOfLife4> ;
+	drw-model:hasW <W/30339hasW0> ;
+	drw-model:hasSL <SL/30339hasSL9> ;
+	drw-model:hasSL <SL/30339hasSL4> .
+
+<SL/30339hasSL3>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 34." ;
+	a drw-model:SL .
+
+<GeneralLabor/30339hasGeneralLabor0>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Anatomie" .
+
+<Comment/30339hasComment2>
+	drw-model:hasNumber 2 ;
+	a drw-model:Comment ;
+	rdfs:label "Genaue Aufenthaltsorte in Deutschland und Publikationen in deutscher Sprache sind nicht nachweisbar. In England besuchte er u. a. Vorlesungen in Anatomie bei James Wilson (1765-1821) in Edinburgh. Aufgrund seiner guten Englischkenntnisse verfasste er 1812 Teil 1 von  und 1 Heft von <i>Anglijskij slovar’</i>." .
+
+<A/30339hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Studium der Medizin an der Universität Moskau" ;
+	drw-model:began <Year/1797_1801> .
+
+<SL/30339hasSL4>
+	rdfs:label "Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (http://db.saur.de/WBIS/basicSearch.jsf, 16.1.2013): R 142, 257-263." ;
+	a drw-model:SL .
+
+<Place/30339DiedIn>
+	a drw-model:Place ;
+	rdfs:label "Boruny, Gouvernement Wilna" .
+
+<WL/30339hasWL2>
+	rdfs:label "Führte das Prinzip der Anschauung und der Demonstration in die Lehre ein, vor allem an selbst angefertigten Präparaten (ein besonderes Exemplar war das Präparat des menschlichen Auges) und erweiterte damit wesentlich die Sammlung des Anatomischen Museums an der Universität Moskau." ;
+	a drw-model:WL .
+
+<Comment/30339hasComment1>
+	a drw-model:Comment ;
+	drw-model:hasNumber 1 ;
+	rdfs:label "In Volkov/Kulikova 2003 a, b (<b>SL</b>) Mai 1798 angegeben." .
+
+<RelatedPerson/30339fatherIs>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Egor, Dorfgeistlicher" .
+
+<Date/30339wasBornOn>
+	rdfs:label "1781" ;
+	a drw-model:Date .
+
+<SL/30339hasSL0>
+	rdfs:label "Callisen, Adolph Carl Peter: Medicinisches Schriftsteller-Lexicon der jetzt lebenden Ärzte, Wundärzte, Geburtshelfer, Apotheker und Naturforscher aller gebildeten Völker. Bd. 1. Copenhagen 1831, 478-479." ;
+	a drw-model:SL .
+
+<Year/1812>
+	rdfs:label "1812" ;
+	a drw-model:Year .
+
+<GPV/30339hasGPV0>
+	rdfs:label "Publikationen 1804-1812, in: Gennadi 1876 (<b>SL</b>) und Zmeev, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<NameVariation/30339_1>
+	rdfs:label "Grusinow, Elias"@de ;
+	a drw-model:NameVariation .
+
+<MainName/30339hasMainName>
+	a drw-model:MainName ;
+	rdfs:label "Gruzinov, Il'ja Egorovič" ;
+	drw-model:hasNameVariation <NameVariation/30339_1> ;
+	drw-model:hasNameVariation <NameVariation/30339_0> .
+
+<B/30339hasStationOfLife0>
+	rdfs:label "Adjunkt für Anatomie und Physiologie an der Universität Moskau" ;
+	a drw-model:B .
+
+<A/30339hasEducation0>
+	a drw-model:A ;
+	rdfs:label "Besuch der Geistlichen Akademie in Moskau (Ausbildung in Sprachen und Naturwissenschaften)" .
+
+<WL/30339hasWL0>
+	rdfs:label "Führte während der Borodino-Schlacht 1812 anatomische Untersuchungen an den Leichen toter Soldaten durch und stellte die These auf," ;
+	a drw-model:WL .
+
+<SL/30339hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Strašun, Il’ja D. (Hauptred.): 175 let Moskovskogo Gosudarstvennogo Medicinskogo Instituta. Moskva, Leningrad 1940, 436 S., 65-66." .
+
+<A/30339hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1801> ;
+	rdfs:label "Fortsetzung des Studiums an der Mediko-Chirurgischen Akadmie (MCA) in St. Petersburg" .
+
+<B/30339hasStationOfLife1>
+	rdfs:label "Weiterbildungsaufenthalte an Universitäten und in Hospitälern in Deutschland, England und Frankreich[2]" ;
+	drw-model:hasComment <Comment/30339hasComment2> ;
+	a drw-model:B ;
+	drw-model:began <Year/1805> .
+
+<SL/30339hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Gennadi, Grigorij N.: Spravočnyj slovar’ o russkich pisateljach i učenych umeršich v XVIII i XIX stoletijach i spisok russkich knig 1725 po 1825 g. Bd. 1. Berlin 1876, 267." .
+
+<B/30339hasStationOfLife5>
+	rdfs:label "" ;
+	a drw-model:B .
+
+<W/30339hasW2>
+	rdfs:label "Slovo o novootkrytom meste proischoždenija golosa v čeloveke i drugich životnych. Moskva 1812, 27 S." ;
+	a drw-model:W .
+
+<A/30339hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Einreichung der Dissertation" .
+
+<SL/30339hasSL9>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 153." ;
+	a drw-model:SL .
+
+<Year/1801>
+	rdfs:label "1801" ;
+	a drw-model:Year .
+
+<Year/1811>
+	rdfs:label "1811" ;
+	a drw-model:Year .
+
+<B/30339hasStationOfLife4>
+	rdfs:label "Freiwilliger Korps-Arzt während der Belagerung Moskaus und in der Schlacht bei Borodino" ;
+	a drw-model:B ;
+	drw-model:began <Year/1812> .
+
+<Comment/30339hasComment3>
+	rdfs:label "Vgl. W. Ansichten und Widerlegungen dazu vgl. u. a. im Kapitel Physiologie in Allgemeine medizinische Annalen des neunzehnten Jahrhunderts, Altenburg, Leipzig 1817, 744-760: „Zusammenstellung der Ansichten von Liscovius, Grusinov und Burdach über die Entstehung der Stimme.“ Zu Gruzinov siehe S. 750-754." ;
+	a drw-model:Comment ;
+	drw-model:hasNumber 3 .
+
+<GeneralLabor/30339hasGeneralLabor1>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologie und gerichtliche Medizin" .
+
+<Year/1797_1801>
+	rdfs:label "1797[1]-1801" ;
+	drw-model:hasComment <Comment/30339hasComment1> ;
+	a drw-model:Year .
+
+<SL/30339hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Sadčikov, A. P.: Členy Moskovskogo obščestva ispytatelej prirody – učastniki Borodinskogo sraženija. EXRUS.eu Nr. 83, 46-47 (http://afonin-59-bio.narod.ru/moipbryansk/moip11080703.htm, 7.11.2011)." .
+
+<W/30339hasW1>
+	rdfs:label "Opisanie Londonskich gospitalej (Zapiski o putešestvii). Mediko-fizičeskij žurnal 1 (1808/9), 194-." ;
+	a drw-model:W .
+
+<WL/30339hasWL1>
+	drw-model:hasComment <Comment/30339hasComment3> ;
+	rdfs:label "dass die menschliche Stimme am unteren Ende der Luftröhre (Trachea) mittels der hinteren Membrane gebildet wird.[3]" ;
+	a drw-model:WL .
+
+<HonoursAndAwards/30339hasHonoursAndAwards>
+	rdfs:label "Inhaber des Ehrentitels „Hofrat“" ;
+	a drw-model:HonoursAndAwards .
+
+<MG/30339hasMG>
+	a drw-model:MG ;
+	rdfs:label "Moskovskoe obščestvo ispytatelej prirody [Gesellschaft der Naturforscher zu Moskau]" .
+
+<B/30339hasStationOfLife2>
+	rdfs:label "Adjunkt für Anatomie an der Universität Moskau" ;
+	drw-model:began <Year/1809> ;
+	a drw-model:B .
+
+<SL/30339hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Sn[egirev], Iv[an]: Vospominanie o professore Gruzinove. Otečestvennyja zapiski 10 (1822), 60-75." .
+
+<Year/1805>
+	rdfs:label "1805" ;
+	a drw-model:Year .
+
+<SL/30339hasSL8>
+	a drw-model:SL ;
+	rdfs:label "Vikipedija (http://ru.wikipedia.org/wiki/Грузинов,_Илья_Егорович, 7.11.2011)." .
+
+<NameVariation/30339_0>
+	a drw-model:NameVariation ;
+	rdfs:label "Grusinov, Elias"@de .
+
+<Place/30339wasBornIn>
+	a drw-model:Place ;
+	rdfs:label "" .
+
+<Year/1809>
+	rdfs:label "1809" ;
+	a drw-model:Year .
+
+<B/30339hasStationOfLife3>
+	rdfs:label "o. Professor und Leiter des Lehrstuhls für Anatomie, Physiologie und gerichtliche Medizin an der Universität Moskau" ;
+	drw-model:began <Year/1811> ;
+	a drw-model:B .
+
+<W/30339hasW0>
+	rdfs:label "De galvanismo ejusque usu in praxi medica. Diss. Petropoli [St. Petersburg] 1804, 120 S." ;
+	a drw-model:W .
+
+<Date/30339DiedOn>
+	rdfs:label "20.1./1.2.1813" ;
+	a drw-model:Date .
+
