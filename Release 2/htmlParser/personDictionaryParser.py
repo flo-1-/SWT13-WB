@@ -423,7 +423,7 @@ class DataFormater():
 				dictKey = content.strip()
 				wDict['W'][dictKey] = []
 				isHeadline = False
-				count += 1
+				count = 1
 			else:
 				if (not (w[index][0] == u'\u2022') and isHeadline == False):
 					wDict['W'].pop(dictKey, None)
