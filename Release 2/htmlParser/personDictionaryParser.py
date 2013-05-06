@@ -419,18 +419,16 @@ class DataFormater():
 		count = 0
 		for index, content in enumerate(w):
 			if (not (w[index][0] == u'\u2022') and isHeadline == True):
-				count = 0
 				dictKey = content.strip()
 				wDict['W'][dictKey] = []
 				isHeadline = False
-				count = 1
 			else:
 				if (not (w[index][0] == u'\u2022') and isHeadline == False):
+					count += 1
 					wDict['W'].pop(dictKey, None)
 					dictKey += '#footnote' + str(count) + '#'
 					wDict['W'][dictKey] = []
 					footDict['footnotes'][count] = content.strip()
-					count += 1
 				else:
 					if (w[index][0] == u'\u2022' and count == 0):
 						general.append(content.replace(u'\u2022 ', '').strip())
