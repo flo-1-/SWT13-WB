@@ -6,6 +6,7 @@ from dictHelper import saveCurDict #save Dictionary as .pickle
 from dictHelper import openPickle #open pickle file
 from HTMLParser import HTMLParser #parse html
 from urllib import urlopen #open url
+from pprint import pprint
 
 import os #path operations
 import re #for split
@@ -408,6 +409,7 @@ class DataFormater():
 		'''
 		dictKey = ''
 		isHeadline = True
+		headLineFound = False
 		general = []
 		wDict = {'W': {}}
 		footDict = {'footnotes': {}}
@@ -420,13 +422,13 @@ class DataFormater():
 			stripContent = content.strip()
 			if (not (stripContent[0] == u'\u2022') and len(w)== 1):
 				general.append(content.strip())
-			elif (not (stripContent[0] == u'\u2022') and isHeadline == False):
+			if (not (stripContent[0] == u'\u2022') and isHeadline == False):
 				count += 1
 				wDict['W'].pop(dictKey, None)
 				dictKey += '#footnote' + str(count) + '#'
 				wDict['W'][dictKey] = []
 				footDict['footnotes'][count] = content.strip().replace('*)', '')
-			elif (not (stripContent[0] == u'\u2022') and isHeadline == True):
+			if (not (stripContent[0] == u'\u2022') and isHeadline == True):
 				if (index == len(w) - 1):
 					wDict = {'W': {'letzteZeile': content.strip()}}
 				elif (u'Sumpfgasgährung' in content):
@@ -436,10 +438,12 @@ class DataFormater():
 				else:
 					dictKey = content.strip().replace('*)', '')
 					wDict['W'][dictKey] = []
-			elif (stripContent[0] == u'\u2022' and count == 0):
+					isHeadline = False
+					headLineFound = True
+			if (stripContent[0] == u'\u2022' and count == 0):
 				general.append(content.replace(u'\u2022 ', '').strip())
 				isHeadline = True
-			elif (stripContent[0] == u'\u2022' and count > 0):
+			if (stripContent[0] == u'\u2022' and headLineFound == True):
 				wDict['W'][dictKey].append(content.replace(u'\u2022 ', '').strip())
 				isHeadline = True
 		
@@ -447,7 +451,6 @@ class DataFormater():
 			wDict['W']['general'] = general
 		if (footDict['footnotes']):
 			self.personDict.update(footDict)
-			print(footDict)
 		
 		self.personDict.update(wDict)
 		
