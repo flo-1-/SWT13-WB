@@ -1,0 +1,15 @@
+enabled    = false
+name       = "Imprint"
+caching    = true
+priority   = 40
+contexts[] = "main.sidewindows"
+description = "A little Searchbox."
+author      = "Yves"
+authorUrl   = "http://pcai042.informatik.uni-leipzig.de/~swp13-wb/"
+languages ="languages"
+templates = "templates"
+
+[private]
+
+; which model should be selected by default
+modelUri = "http://drw-catalog.saw-leipzig.de/"
