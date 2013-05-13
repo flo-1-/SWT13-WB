@@ -422,13 +422,13 @@ class DataFormater():
 			stripContent = content.strip()
 			if (not (stripContent[0] == u'\u2022') and len(w)== 1):
 				general.append(content.strip())
-			if (not (stripContent[0] == u'\u2022') and isHeadline == False):
+			elif (not (stripContent[0] == u'\u2022') and isHeadline == False):
 				count += 1
 				wDict['W'].pop(dictKey, None)
 				dictKey += '#footnote' + str(count) + '#'
 				wDict['W'][dictKey] = []
 				footDict['footnotes'][count] = content.strip().replace('*)', '')
-			if (not (stripContent[0] == u'\u2022') and isHeadline == True):
+			elif (not (stripContent[0] == u'\u2022') and isHeadline == True):
 				if (index == len(w) - 1):
 					wDict = {'W': {'letzteZeile': content.strip()}}
 				elif (u'Sumpfgasgährung' in content):
@@ -472,8 +472,8 @@ class makePickleFromData():
 		Opens a list of all websites for parsing.
 		Starts parsing and formating of the data.
 		'''
-		htmlList = openPickle(os.getcwd(), 'listOfAllHTMLSites.pickle')
-		#htmlList = openPickle(os.getcwd(), 'listOfAllHTMLSitesLocal.pickle') #if html sites are in local folder './html
+		#htmlList = openPickle(os.getcwd(), 'listOfAllHTMLSites.pickle') #use the sites on the web
+		htmlList = openPickle(os.getcwd(), 'listOfAllHTMLSitesLocal.pickle') #if html sites are in local folder './html
 		
 		numberOfPages = len(htmlList)
 		
