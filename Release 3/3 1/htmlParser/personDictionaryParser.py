@@ -71,8 +71,8 @@ class PersonDataParser(HTMLParser):
 				if (name == 'src'):
 					try:
 						testValue = int(value[0]) #exclude pfeil.jpg
-						self.text += '.:._.:.portraitURL.:._.:.' + value
-						self.foundParagraphs.append('portraitURL')
+						self.text += '.:._.:.PortraitURL.:._.:.' + value
+						self.foundParagraphs.append('PortraitURL')
 					except:
 						pass
 						
@@ -222,12 +222,16 @@ class DataFormater():
 			self.formatNameVariation()
 		if ('Name russisch' in self.personDict):
 			self.formatNameRus()
+		#if ('N' in self.personDict):
+		#	self.formatParagraph('N')
 		if ('P' in self.personDict):
 			self.formatParagraph('P')
 		if ('Q' in self.personDict):
 			self.formatParagraph('Q')
 		if ('SL' in self.personDict):
 			self.formatParagraph('SL')
+		if ('GPV' in self.personDict):
+			self.formatParagraph('GPV')
 		if ('W' in self.personDict):
 			self.formatW()
 	
@@ -472,8 +476,8 @@ class makePickleFromData():
 		Opens a list of all websites for parsing.
 		Starts parsing and formating of the data.
 		'''
-		htmlList = openPickle(os.getcwd(), 'listOfAllHTMLSites.pickle') #use the sites on the web
-		#htmlList = openPickle(os.getcwd(), 'listOfAllHTMLSitesLocal.pickle') #if html sites are in local folder './html
+		#htmlList = openPickle(os.getcwd(), 'listOfAllHTMLSites.pickle') #use the sites on the web
+		htmlList = openPickle(os.getcwd(), 'listOfAllHTMLSitesLocal.pickle') #if html sites are in local folder './html
 		
 		numberOfPages = len(htmlList)
 		
