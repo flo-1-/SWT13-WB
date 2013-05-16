@@ -487,7 +487,6 @@ class DataFormater():
 		headLineFound = False
 		general = []
 		qDict = {'Q': {}}
-		footDict = {'footnotes': {}}
 		
 		q = self.personDict['Q'].strip().split('\n')
 		q = [item for item in q if item.strip() != '']
@@ -557,8 +556,8 @@ class makePickleFromData():
 		Opens a list of all websites for parsing.
 		Starts parsing and formating of the data.
 		'''
-		htmlList = openPickle(os.getcwd(), 'listOfAllHTMLSites.pickle') #use the sites on the web
-		#htmlList = openPickle(os.getcwd(), 'listOfAllHTMLSitesLocal.pickle') #if html sites are in local folder './html
+		#htmlList = openPickle(os.getcwd(), 'listOfAllHTMLSites.pickle') #use the sites on the web
+		htmlList = openPickle(os.getcwd(), 'listOfAllHTMLSitesLocal.pickle') #if html sites are in local folder './html
 		
 		numberOfPages = len(htmlList)
 		
