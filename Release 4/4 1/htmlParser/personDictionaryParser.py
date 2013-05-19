@@ -4,6 +4,7 @@
 from dictHelper import convertHTMLChars #convert html code into unicode
 from dictHelper import saveCurDict #save Dictionary as .pickle
 from dictHelper import openPickle #open pickle file
+from dictHelper import saveImage #download portrait pictures
 from HTMLParser import HTMLParser #parse html
 from urllib import urlopen #open url
 from pprint import pprint #for testing
@@ -549,15 +550,20 @@ class DataFormater():
 class makePickleFromData():
 	'''
 	Starts the parsing of the data, starts formating of the data and saves
-	everything to different pickle files.
+	everything to different pickle files. Has also an optional portrait download.
+	@param local False: get data from the web, True: get data from local folder ./html
+	@param imageDownload False: don'T download portrait, True: download portrait
+	to folder ./portraits
 	'''	
-	def getData(self):
+	def getData(self, local = False, imageDownload = False):
 		'''
 		Opens a list of all websites for parsing.
 		Starts parsing and formating of the data.
 		'''
-		#htmlList = openPickle(os.getcwd(), 'listOfAllHTMLSites.pickle') #use the sites on the web
-		htmlList = openPickle(os.getcwd(), 'listOfAllHTMLSitesLocal.pickle') #if html sites are in local folder './html
+		if (local == False):
+			htmlList = openPickle(os.getcwd(), 'listOfAllHTMLSites.pickle') #use the sites on the web
+		else:
+			htmlList = openPickle(os.getcwd(), 'listOfAllHTMLSitesLocal.pickle') #if html sites are in local folder './html
 		
 		numberOfPages = len(htmlList)
 		
@@ -584,6 +590,9 @@ class makePickleFromData():
 			
 			saveCurDict(dataDict, (os.getcwd() + '/pickle'), fileName) #saves the data
 			
+			if ('PortraitURL' in dataDict and imageDownload == True):
+				saveImage('http://drw.saw-leipzig.de/' + dataDict['PortraitURL'])
+			
 			print(fileName + ' (' + str(count) + '/' + str(numberOfPages) + ')')
 			count += 1
 		
@@ -593,7 +602,7 @@ def main():
 	Main Method.
 	'''
 	makePickle = makePickleFromData()
-	makePickle.getData()
+	makePickle.getData(False, False) #first boolean value False: use sites on the web, True: use local sites, second boolean value False: no portrait download, True download the portraits
 
 if __name__ == "__main__":
 	main()
