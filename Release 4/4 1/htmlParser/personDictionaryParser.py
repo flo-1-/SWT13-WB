@@ -4,7 +4,6 @@
 from dictHelper import convertHTMLChars #convert html code into unicode
 from dictHelper import saveCurDict #save Dictionary as .pickle
 from dictHelper import openPickle #open pickle file
-from dictHelper import saveImage #download portrait pictures
 from HTMLParser import HTMLParser #parse html
 from urllib import urlopen #open url
 from pprint import pprint #for testing
@@ -22,7 +21,7 @@ class PersonDataParser(HTMLParser):
 		Constructor, sets a list of all Paragraphs an some helper variables
 		'''
 		HTMLParser.__init__(self)
-		self.paragraphs = ['V', 'M', 'E', 'A', 'B', 'WL', 'W', 'SL', 'P', 'GPV', 'Q', 'G', 'N']
+		self.paragraphs = ['V', 'M', 'E', 'A', 'B', 'WL', 'W', 'SL', 'P', 'GPV', 'Q']
 		self.foundParagraphs = []
 		self.t100gFound = False
 		self.t100sFound = False
@@ -30,7 +29,6 @@ class PersonDataParser(HTMLParser):
 		self.h3EndFound = False
 		self.nameLinkFound = False
 		self.isParagraph = False
-		self.sourceFound = False
 		self.getData = False
 		self.text = ''
 		
@@ -39,13 +37,13 @@ class PersonDataParser(HTMLParser):
 		Handles the starttags, causes actions, if specific starttags were found.
 		Can start the collection of data.
 		'''
-		if (tag == 'td' and self.isParagraph == True): #every interesting data is between <td> and </td>
+		if (tag == 'td' and self.isParagraph == True):
 			self.getData = True
 			self.isParagraph = False
 			
 		if (tag == 'td'):
 			for attr, value in attrs:
-				if (attr == 'class'): #search for classes which contain data or after them is interesting data
+				if (attr == 'class'):
 					if (value == 't5s'):
 						self.isParagraph = True
 					if (value == 't100g'):
@@ -58,48 +56,47 @@ class PersonDataParser(HTMLParser):
 					if (value == 't100n'):
 						self.t100nFound = True
 		
-		if (tag == 'h3' and self.t100gFound == True): #the data for the name contains <h3> tag, so if <h3> tag is present, its the name
+		if (tag == 'h3' and self.t100gFound == True):
 			self.text += '.:._.:.Name.:._.:.'
 			self.foundParagraphs.append('Name')
 			self.getData = True
 		
-		if (self.t100gFound == True and self.h3EndFound == True and self.sourceFound == False): #the source is also after the class t100g, so if an </h3> was found before, it's the source
+		if (self.t100gFound == True and self.h3EndFound == True):
 			self.foundParagraphs.append('Quelle')
 			self.text += '.:._.:.Quelle.:._.:.'
-			self.sourceFound = True
 			self.getData = True
 		
-		if (tag == 'img'): #looking for the portrait image, if there is one
+		if (tag == 'img'):
 			for name, value in attrs:
 				if (name == 'src'):
 					try:
 						testValue = int(value[0]) #exclude pfeil.jpg
-						self.text += '.:._.:.PortraitURL.:._.:.' + value
-						self.foundParagraphs.append('PortraitURL')
+						self.text += '.:._.:.Portrait.:._.:.http://drw.saw-leipzig.de/' + value
+						self.foundParagraphs.append('Portrait')
 					except:
 						pass
 						
-				if (name == 'title' and value != u'zurück'): #find portrait text (exclude u'zurück', because it'S the back button
+				if (name == 'title' and value != u'zurück'):
 					self.text += '.:._.:.Portraittext.:._.:.' + value
 					self.foundParagraphs.append('Portraittext')
 		
 		if (tag == 'a'):
 			for attr, value in attrs:
 				if (attr == 'href'):
-					if(not('personendatenbank' in value)): #exclude link to the main page
-						if (re.match("\d{5}\.html", value)): #if pattern matches 5 digits and .html (ex. 12345.html) it's a name link
-							self.text += '#internNameLink#' + value.replace('.html', '') + '#endNameNr#'
+					if(not('personendatenbank' in value)):
+						if (re.match("\d{5}\.html", value)):
+							self.text += '#internNameLink#' + value.replace('.html', '') + '#EndNameNr#'
 							self.nameLinkFound = True
 						else:
-							self.text += value + ' ' #no name link, a link to an online resource
+							self.text += value + ' '
 							
 						self.getData = True
 						
 		if (self.getData == True and self.isParagraph == False):
-			if (tag == 'i'): #bring back removed <i>
+			if (tag == 'i'):
 				self.text += '<i>'
 				
-			if (tag == 'b'): #bring back removed <b>
+			if (tag == 'b'):
 				self.text += '<b>'
 	
 	def handle_data(self, data):
@@ -107,15 +104,15 @@ class PersonDataParser(HTMLParser):
 		Handles the data, causes actions, if specific data were found or adds data
 		to the datacollection.
 		'''
-		if (self.getData == True and self.isParagraph == False): #add current data if true
+		if (self.getData == True and self.isParagraph == False):
 			self.text += data
 		
-		if (self.getData == False and self.isParagraph == True): #add MG instead of M, if M, A or B found before (because there are 2 M)
+		if (self.getData == False and self.isParagraph == True):
 			if (data == 'M' and ('M' in self.foundParagraphs or ('A' in self.foundParagraphs or 'B' in self.foundParagraphs))):
 						self.foundParagraphs.append('MG')
 						self.text += '.:._.:.MG.:._.:.'
 						self.getData = True
-			else: #adds the paragraph description to the data (ex. A or B or WL or ...)
+			else:
 				if (data in self.paragraphs):
 					self.foundParagraphs.append(data)
 					self.paragraph = data
@@ -125,55 +122,59 @@ class PersonDataParser(HTMLParser):
 					self.isParagraph = False
 		
 		if (self.getData == False and self.t100nFound == True):
-			if (data[0] == '*'): #adds birth dates
+			if (data[0] == '*'):
 				self.foundParagraphs.append('Geburtsdaten')
 				self.text += '.:._.:.Geburtsdaten.:._.:.'
-				self.text += data.strip()
-				self.t100nFound = False
-			elif (data[0] == u'\u2020'): #adds death dates
-				self.foundParagraphs.append('Sterbedaten')
-				self.text += '.:._.:.Sterbedaten.:._.:.'
-				self.text += data.strip()
-				self.t100nFound = False
-			elif ('Namensvariationen' in data): #adds namevariations
-				self.foundParagraphs.append('Namensvariationen')
-				self.text += '.:._.:.Namensvariationen.:._.:.'
-				self.text += data.replace('Namensvariationen:', '').strip()
+				self.text += data
 				self.t100nFound = False
 			else:
-				data = data.strip().replace(u'\xa0', '')
-				if (data != ''): # adds professions
-					self.foundParagraphs.append('Berufe')
-					self.text += '.:._.:.Berufe.:._.:.'
-					self.text += data.strip()
+				if (data[0] == u'\u2020'):
+					self.foundParagraphs.append('Sterbedaten')
+					self.text += '.:._.:.Sterbedaten.:._.:.'
+					self.text += data
 					self.t100nFound = False
+				else:
+					if ('Namensvariationen' in data):
+						self.foundParagraphs.append('Namensvariationen')
+						self.text += '.:._.:.Namensvariationen.:._.:.'
+						self.text += data.replace('Namensvariationen:', '').strip()
+						self.t100nFound = False
+					else:
+						self.foundParagraphs.append('Berufe')
+						self.text += '.:._.:.Berufe.:._.:.'
+						self.text += data.strip()
+						self.t100nFound = False
+		
+		if (self.getData == True and self.nameLinkFound == True):
+			self.text += data
 
 	def handle_endtag(self, tag):
 		'''
 		Handles the endtags, causes actions if specific endtags were found.
 		Can stop the collection of data.
 		'''
-		if (tag == 'td' and self.isParagraph == False): #if </td> was found end adding data
+		if (tag == 'td' and self.isParagraph == False):
 			self.getData = False
 			self.t100gFound = False
 			
-		if (tag == 'h3' and self.getData == True): #if </h3> was found
+		if (tag == 'h3' and self.getData == True):
 			self.getData = False
 			self.h3EndFound = True
 		
-		if (tag == 'td' and self.t100sFound == True): #</td> was found and class=t100s before
+		if (tag == 'td' and self.t100sFound == True):
 			self.getData = False
 			self.t100sFound = False
 		
-		if (tag == 'a' and self.nameLinkFound == True): #if namelink was found set end of the namelink text
+		if (tag == 'a' and self.nameLinkFound == True):
 			self.text += '#/internNameLink#'
+			self.getData = False
 			self.nameLinkFound = False
 		
 		if (self.getData == True and self.isParagraph == False):
-			if (tag == 'i'): #bring back removed </i>
+			if (tag == 'i'):
 				self.text += '</i>'
 				
-			if (tag == 'b'): #bring back removed </b>
+			if (tag == 'b'):
 				self.text += '</b>'
 
 	def getText(self):
@@ -203,15 +204,15 @@ class DataFormater():
 		Builds the dictionary from the collected data, starts all Methods for
 		formating each paragraph.
 		'''
-		textList = self.text.strip().split('.:._.:.') #split the text at .:._.:.
-		textList = [item for item in textList if item.strip() != ''] #remove '' from the list
+		textList = self.text.split('.:._.:.')
+		if ('' in textList):
+			textList.remove('')
 		
 		count = 0
-		while (count < len(textList)): #builds the unformated dictionary: {paragraph1: text1, paragraph2: text2, ...}
+		while (count < len(textList)):
 			self.personDict.update({textList[count]: textList[count + 1]})
 			count += 2
 		
-		#start all Methods for formating the paragraphs
 		self.addID()
 		if ('Name' in self.personDict):
 			self.formatName()
@@ -225,20 +226,12 @@ class DataFormater():
 			self.formatNameVariation()
 		if ('Name russisch' in self.personDict):
 			self.formatNameRus()
-		if ('N' in self.personDict):
-			self.formatN()
-		if ('MG' in self.personDict):
-			self.formatParagraph('MG')
-		if ('WL' in self.personDict):
-			self.formatParagraph('WL')
 		if ('P' in self.personDict):
 			self.formatParagraph('P')
+		if ('Q' in self.personDict):
+			self.formatParagraph('Q')
 		if ('SL' in self.personDict):
 			self.formatParagraph('SL')
-		if ('GPV' in self.personDict):
-			self.formatParagraph('GPV')
-		if ('Q' in self.personDict):
-			self.formatQ()
 		if ('W' in self.personDict):
 			self.formatW()
 	
@@ -254,18 +247,18 @@ class DataFormater():
 		'''
 		Formats and adds the Name to the dictionary.
 		The shape is like:
-		{'Name': {'Vornamen': vorName, 'Nachname': nachName}
+		{'Name': {'Vorname': vorName, 'Nachname': nachName}
 		'''
-		name = self.personDict['Name'].split(',') #split at ',' beacause its lastname, firstnames
+		name = self.personDict['Name'].split(',')
 		name[1] = name[1].strip()
 		
 		if (' ' in name[0]):
-			splittedName = re.split('( )', name[0]) #if firstname contains more then one name, split at ' ', including the ' '
+			splittedName = re.split('( )', name[0])
 		
 			name[0] = ''
 		
 			for index, content in enumerate(splittedName):
-				if (not (' ' in content)): #formts the lastname to lowercase after the first letter
+				if (not (' ' in content)):
 					splittedName[index] = splittedName[index][0] + splittedName[index][1:].lower()
 					name[0] += splittedName[index]
 				else:
@@ -277,7 +270,7 @@ class DataFormater():
 			
 		
 		nameDict = {'Name': {'Nachname': name[0]}}
-		nameDict['Name']['Vornamen'] = name[1]
+		nameDict['Name']['Vorname'] = name[1]
 		
 		self.personDict.update(nameDict)
 	
@@ -286,16 +279,17 @@ class DataFormater():
 		Formats and adds the russian Name to the dictionary.
 		The shape is like:
 		{'Name russisch': {'name': name, 'countryCode': countryCode}
+		
 		countryCode can be 'de' or 'ru'
 		'''
-		nameRus = self.personDict['Name russisch'].split('/') #split at '/'
+		nameRus = self.personDict['Name russisch'].split('/')
 		nrDict = {'Name russisch': []}
 		
 		for index, content in enumerate(nameRus):
 			if (re.search(u'[\u0400-\u04ff]', nameRus[index])):
-				countryCode = 'ru' #if russian letters in the data
+				countryCode = 'ru'
 			else:
-				countryCode = 'de' #if no russian letters in the data
+				countryCode = 'de'
 			
 			nrDict['Name russisch'].append({'name': nameRus[index].strip(), 'countryCode': countryCode})
 		
@@ -306,16 +300,17 @@ class DataFormater():
 		Formats and adds the namevariations to the dictionary:
 		The shape is like:
 		{'Namensvariationen': {'name': name, 'countryCode': countryCode}
+		
 		countryCode can be 'de' or 'ru'
 		'''
-		nameVariation = self.personDict['Namensvariationen'].split(',') #split at ','
+		nameVariation = self.personDict['Namensvariationen'].split(',')
 		nvDict = {'Namensvariationen': []}
 		
 		for index, content in enumerate(nameVariation):
 			if (re.search(u'[\u0400-\u04ff]', nameVariation[index])):
-				countryCode = 'ru' #if russian letters in the data
+				countryCode = 'ru'
 			else:
-				countryCode = 'de' #if no russian letters in the data
+				countryCode = 'de'
 			
 			nvDict['Namensvariationen'].append({'name': nameVariation[index].strip(), 'countyCode': countryCode})
 			
@@ -328,19 +323,19 @@ class DataFormater():
 		{'Geburtsdaten': {'Geburtsdatum': datum, 'Geburtsort': geburtsort}
 		'''
 		born = self.personDict['Geburtsdaten']
-		born = born.replace('*', '').strip().split(',') #split at ',', removes the '*'
+		born = born.replace('*', '').strip().split(',')
 		
 		for index, content in enumerate(born):
 			born[index] = born[index].strip()
 		
-		bornDict = {'Geburtsdaten': {'Datum': born[0]}}
-		if (len(born) == 2): #if only two elements in the list
-			bornDict['Geburtsdaten']['Ort'] = born[1]
-		if (len(born) > 2): #if more then two elements in the list, put the elements after the first two elements into the second element
+		bornDict = {'Geburtsdaten': {'Geburtsdatum': born[0]}}
+		if (len(born) == 2):
+			bornDict['Geburtsdaten']['Geburtsort'] = born[1]
+		if (len(born) > 2):
 			for index, content in enumerate(born):
-				if (index > 1):
+				if (index > 2):
 					born[1] += ', ' + born[index]
-			bornDict['Geburtsdaten']['Ort'] = born[1]
+			bornDict['Geburtsdaten']['Geburtsort'] = born[1]
 		
 		self.personDict.update(bornDict)
 		
@@ -353,25 +348,25 @@ class DataFormater():
 		death = self.personDict['Sterbedaten']
 		deathDict = {'Sterbedaten': {}}
 		
-		if (u'Grabstätte:' in death): #if the cemetery is in the data
-			death = death.split(u'Grabstätte:') #split at u'Grabstätte'
+		if (u'Grabstätte:' in death):
+			death = death.split(u'Grabstätte:')
 			cemetery = death[1].strip()
 			deathDict['Sterbedaten']['Grabstätte'] = cemetery
 			death = death[0].split(',')
-		else: #if no cemetery is in the data
+		else:
 			death = death.split(',')
 			
 		dayOfDeath = death[0].replace(u'\u2020', '').strip()
-		deathDict['Sterbedaten']['Datum'] = dayOfDeath
-		if (len(death) == 2): #if only two elements in the list
+		deathDict['Sterbedaten']['Sterbedatum'] = dayOfDeath
+		if (len(death) == 2):
 			placeOfDeath = death[1].strip()
-			deathDict['Sterbedaten']['Ort'] = placeOfDeath
-		if (len(death) > 2): #if more then two elements in the list, put the elements after the first two elements into the second element
+			deathDict['Sterbedaten']['Sterbesort'] = placeOfDeath
+		if (len(death) > 2):
 			placeOfDeath = death[1].strip()
 			for index, content in enumerate(death):
-				if (index > 1):
+				if (index >= 2):
 					death[1] += ', ' + death[index]
-			deathDict['Sterbedaten']['Ort'] = placeOfDeath
+			deathDict['Sterbedaten']['Sterbesort'] = placeOfDeath
 		
 		self.personDict.update(deathDict)
 		
@@ -382,7 +377,7 @@ class DataFormater():
 		{'Berufe': [beruf1, beruf2, beruf3]}
 		'''
 		professions = self.personDict['Berufe'].split(',')
-		for index, data in enumerate(professions): #make a list of all professions
+		for index, data in enumerate(professions):
 			professions[index] = professions[index].strip()
 		
 		proDict = {'Berufe': professions}
@@ -394,27 +389,11 @@ class DataFormater():
 		Formats paragraphs with dots at the beginning.
 		Removes the dots and puts in a shape like:
 		{'A': [line1, line 2, line3]}
-		or to:
-		{'A' [text]}
-		if no dots were found.
-		SL and GPV get a special format:
-		{'SL': {'general': [line1, line2, line3]}
+		where 'A' can be replaced by the other paragraphs.
 		@param paragraph: paragraph to format
 		'''
-		paragraphTest = self.personDict[paragraph].strip()
-		
-		if (paragraphTest[0] == u'\u2022'): #paragraph with dots
-			splitParagraph = self.personDict[paragraph].split('\n')
-			splitParagraph = [item.strip().replace(u'\u2022 ', '') for item in splitParagraph if item.strip() != '']
-		else: #paragraph without dots
-			splitParagraph = []
-			splitParagraph.append(paragraphTest)
-		
-		if (paragraph == 'SL' or paragraph == 'GPV'):
-			pDict = {paragraph: {'general': splitParagraph}}
-		else:	
-			pDict = {paragraph: splitParagraph}
-			
+		a = self.personDict[paragraph].replace(u'\u2022 ', '').split('\n')
+		pDict = {paragraph: a}
 		self.personDict.update(pDict)
 	
 	def formatW(self):
@@ -429,43 +408,34 @@ class DataFormater():
 		'''
 		dictKey = ''
 		isHeadline = True
-		headLineFound = False
 		general = []
 		wDict = {'W': {}}
 		footDict = {'footnotes': {}}
-		
 		w = self.personDict['W'].strip().split('\n')
-		w = [item for item in w if item.strip() != '']
+		for index, content in enumerate(w):
+			if ('' in w):
+				w.remove('')
 		
 		count = 0
 		for index, content in enumerate(w):
-			stripContent = content.strip()
-			if (not (stripContent[0] == u'\u2022') and len(w) == 1): #first letter isnt u'u2020' (unicode for •), W has only one line
-				general.append(content.strip())
-			elif (not (stripContent[0] == u'\u2022') and isHeadline == False): #first letter isnt u'u2020', footnote found
-				count += 1
-				wDict['W'].pop(dictKey, None)
-				dictKey += '#footnote' + str(count) + '#'
+			if (not (w[index][0] == u'\u2022') and isHeadline == True):
+				dictKey = content.strip()
 				wDict['W'][dictKey] = []
-				footDict['footnotes'][count] = content.strip().replace('*)', '') #create dictionary with footnotes
-			elif (not (stripContent[0] == u'\u2022') and isHeadline == True): #Headline found
-				if (index == len(w) - 1):
-					wDict = {'W': {'letzteZeile': content.strip()}}
-				elif (u'Sumpfgasgährung' in content): #exception to correct wrong assignment
-					wDict['W'][dictKey].append(content.strip())
-				elif ('Autor des Vorwortes' in content or 'darunter: Die' in content or 'Diverse Publikationen in:' in content): #exception to correct wrong assignment
-					general.append(content.strip())
-				else:
-					dictKey = content.strip().replace('*)', '')
+				isHeadline = False
+			else:
+				if (not (w[index][0] == u'\u2022') and isHeadline == False):
+					count += 1
+					wDict['W'].pop(dictKey, None)
+					dictKey += '#footnote' + str(count) + '#'
 					wDict['W'][dictKey] = []
-					isHeadline = False
-					headLineFound = True
-			if (stripContent[0] == u'\u2022' and count == 0): #first letter is u'u2020' (unicode for •), no headline found
-				general.append(content.replace(u'\u2022 ', '').strip()) #no headline -> line to general
-				isHeadline = True
-			if (stripContent[0] == u'\u2022' and headLineFound == True): #first letter is u'u2020' (unicode for •), headline found
-				wDict['W'][dictKey].append(content.replace(u'\u2022 ', '').strip()) #headline -> line to headlineDict
-				isHeadline = True
+					footDict['footnotes'][count] = content.strip()
+				else:
+					if (w[index][0] == u'\u2022' and count == 0):
+						general.append(content.replace(u'\u2022 ', '').strip())
+						isHeadline = True
+					if (w[index][0] == u'\u2022' and count > 0):
+						wDict['W'][dictKey].append(content.replace(u'\u2022 ', '').strip())
+						isHeadline = True
 		
 		if (general):
 			wDict['W']['general'] = general
@@ -473,71 +443,6 @@ class DataFormater():
 			self.personDict.update(footDict)
 		
 		self.personDict.update(wDict)
-	
-	def formatQ(self):
-		'''
-		Formats the 'Q' paragraph. This paragraph can contain headlines and
-		which must be threated differently then the other paragraphs.
-		It also removes the dots of line with those.
-		It creates two dictionarys, wich look like:
-		{'Q': {'general': [line, line, line], headline: [line, line, line]}
-		'general' is only present if it is in the data.
-		'''
-		dictKey = ''
-		isHeadline = True
-		headLineFound = False
-		general = []
-		qDict = {'Q': {}}
-		
-		q = self.personDict['Q'].strip().split('\n')
-		q = [item for item in q if item.strip() != '']
-		
-		for index, content in enumerate(q):
-			stripContent = content.strip()
-			if (not (stripContent[0] == u'\u2022') and len(q) == 1): #first letter isnt u'u2020' (unicode for •), W has only one line
-				general.append(content.strip())
-			elif (not (stripContent[0] == u'\u2022') and isHeadline == True): #Headline found
-					dictKey = content.strip()
-					qDict['Q'][dictKey] = []
-					isHeadline = False
-					headLineFound = True
-			if (stripContent[0] == u'\u2022' and headLineFound == False): #first letter is u'u2020' (unicode for •), no headline found
-				general.append(content.replace(u'\u2022 ', '').strip()) #no headline -> line to general
-				isHeadline = True
-			if (stripContent[0] == u'\u2022' and headLineFound == True): #first letter is u'u2020' (unicode for •), headline found
-				qDict['Q'][dictKey].append(content.replace(u'\u2022 ', '').strip()) #headline -> line to headlineDict
-				isHeadline = True
-		
-		if (general):
-			qDict['Q']['general'] = general
-		
-		self.personDict.update(qDict)
-		
-	def formatN(self):
-		'''
-		Formats the N paragraph with or without dots at the beginning.
-		Removes the dots if it contains them and puts in a shape like:
-		{'N': [line1, line 2, line3]}
-		or to
-		{'A' [text]}
-		if no dots or \n were found.
-		'''
-		paragraphTest = self.personDict['N'].strip()
-		
-		if (paragraphTest[0] == u'\u2022'): #N with dots
-			splitParagraph = self.personDict['N'].split('\n')
-			splitParagraph = [item.strip().replace(u'\u2022 ', '') for item in splitParagraph if item.strip() != '']
-		else: #N without dots
-			if ('\n' in paragraphTest): #if N contains \n -> N contains more than one person -> list wuth more than one element
-				splitParagraph = self.personDict['N'].split('\n')
-				splitParagraph = [item.strip() for item in splitParagraph if item.strip() != '']
-			else: #no \n in N -list with one element
-				splitParagraph = []
-				splitParagraph.append(paragraphTest)
-				
-		pDict = {'N': splitParagraph}
-			
-		self.personDict.update(pDict)
 		
 	def getPersonDict(self):
 		'''
@@ -550,20 +455,14 @@ class DataFormater():
 class makePickleFromData():
 	'''
 	Starts the parsing of the data, starts formating of the data and saves
-	everything to different pickle files. Has also an optional portrait download.
-	@param local False: get data from the web, True: get data from local folder ./html
-	@param imageDownload False: don'T download portrait, True: download portrait
-	to folder ./portraits
+	everything to different pickle files.
 	'''	
-	def getData(self, local = False, imageDownload = False):
+	def getData(self):
 		'''
 		Opens a list of all websites for parsing.
 		Starts parsing and formating of the data.
 		'''
-		if (local == False):
-			htmlList = openPickle(os.getcwd(), 'listOfAllHTMLSites.pickle') #use the sites on the web
-		else:
-			htmlList = openPickle(os.getcwd(), 'listOfAllHTMLSitesLocal.pickle') #if html sites are in local folder './html
+		htmlList = openPickle(os.getcwd(), 'listOfAllHTMLSites.pickle')
 		
 		numberOfPages = len(htmlList)
 		
@@ -575,23 +474,20 @@ class makePickleFromData():
 				print(e)
 			
 			fileName = content[content.rfind('/') + 1:]
-			fileName = fileName.replace('.html', '').strip()
+			fileName.replace('.html', '').strip()
 			
-			dataParser = PersonDataParser() #creates the parser
-			dataParser.feed(convertHTMLChars(page.read())) #feeds the parser
+			dataParser = PersonDataParser()
+			dataParser.feed(convertHTMLChars(page.read()))
 			dataParser.close()
 			
-			data = dataParser.getText() #gets the parsed data
+			data = dataParser.getText()
 			
-			dataFormater = DataFormater(data, fileName) #formats the data
-			dataFormater.makeDict() #makes the dict
+			dataFormater = DataFormater(data, fileName)
+			dataFormater.makeDict()
 			
-			dataDict = dataFormater.getPersonDict() #gets the data
+			dataDict = dataFormater.getPersonDict()
 			
-			saveCurDict(dataDict, (os.getcwd() + '/pickle'), fileName) #saves the data
-			
-			if ('PortraitURL' in dataDict and imageDownload == True):
-				saveImage('http://drw.saw-leipzig.de/' + dataDict['PortraitURL'])
+			saveCurDict(dataDict, (os.getcwd() + '/pickle'), fileName)
 			
 			print(fileName + ' (' + str(count) + '/' + str(numberOfPages) + ')')
 			count += 1
@@ -602,7 +498,7 @@ def main():
 	Main Method.
 	'''
 	makePickle = makePickleFromData()
-	makePickle.getData(False, False) #first boolean value False: use sites on the web, True: use local sites, second boolean value False: no portrait download, True download the portraits
+	makePickle.getData()
 
 if __name__ == "__main__":
 	main()

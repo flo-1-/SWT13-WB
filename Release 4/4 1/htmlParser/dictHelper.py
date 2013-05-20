@@ -1,8 +1,6 @@
 #!/usr/bin/python
 # coding: utf8
 
-from urllib import urlopen
-
 import codecs
 import os
 import re
@@ -56,36 +54,14 @@ def saveCurDict(curDict, path, fileName):
 		out_file.close()
 	except IOError:
 		print("File not Found. " + str(IOError))
-		
-def saveImage(url):
-	'''
-	Downloads the portraits and saves them to the path ./portraits.
-	@param url the url where the portrait is located
-	'''
-	try:
-		data = (urlopen(url)).read()
-	except:
-		print("Error opening image url.")
-	
-	fileName = (url.split('/')).pop()
-	
-	if (not (os.path.isdir(os.getcwd() + "/portraits"))):
-		os.mkdir(os.getcwd() + "/portraits")
-	
-	try:
-		savefile = open(os.getcwd() + "/portraits/" + fileName, 'wb')
-		savefile.write(data)
-		savefile.close()
-	except IOError:
-		print("Error creating file. " + str(IOError))
 
 def convertHTMLChars(text):
 	"""
 	Converts an text with htmlEntities to utf-8
-	@param text text to convert
 	@return an utf 8 String
-	@exception raises Exception, if an HTMLEntity is not converted because its
-	not in the EntityList, you have to append it manual.
+	@exception raises Exception, if an HTMLEntity is not converted because
+	its not in the EntityList 
+	You have to append it manual, please.
 	"""
 	text = text.decode('unicode-escape') # Umwandlung von string in unicode
 	pattern = '&#\d{2,4};' #Patten fuer Re \d sind nur Zahlen {2,4} Anzahl der Zahlen (2 bis 4)
