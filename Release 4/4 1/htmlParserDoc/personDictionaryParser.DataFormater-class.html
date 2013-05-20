@@ -172,9 +172,7 @@
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
           <td><span class="summary-sig"><a href="personDictionaryParser.DataFormater-class.html#formatNameVariation" class="summary-sig-name">formatNameVariation</a>(<span class="summary-sig-arg">self</span>)</span><br />
-      Formats and adds the namevariations to the dictionary:
-The shape is like:
-{'Namensvariationen': {'name': name, 'countryCode': countryCode}</td>
+      Formats and adds the namevariations to the dictionary:...</td>
           <td align="right" valign="top">
             <span class="codelink"><a href="personDictionaryParser-pysrc.html#DataFormater.formatNameVariation">source&nbsp;code</a></span>
             
@@ -276,6 +274,40 @@ The shape is like:
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
+          <td><span class="summary-sig"><a href="personDictionaryParser.DataFormater-class.html#formatQ" class="summary-sig-name">formatQ</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Formats the 'Q' paragraph.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="personDictionaryParser-pysrc.html#DataFormater.formatQ">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="personDictionaryParser.DataFormater-class.html#formatN" class="summary-sig-name">formatN</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Formats the N paragraph with or without dots at the beginning.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="personDictionaryParser-pysrc.html#DataFormater.formatN">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
           <td><span class="summary-sig"><a name="getPersonDict"></a><span class="summary-sig-name">getPersonDict</span>(<span class="summary-sig-arg">self</span>)</span><br />
       Method that returns the complete dictionary:</td>
           <td align="right" valign="top">
@@ -352,7 +384,7 @@ The shape is like:
 
 Formats and adds the Name to the dictionary.
 The shape is like:
-{'Name': {'Vorname': vorName, 'Nachname': nachName}
+{'Name': {'Vornamen': vorName, 'Nachname': nachName}
 
 </pre>
   <dl class="fields">
@@ -378,7 +410,6 @@ The shape is like:
 Formats and adds the russian Name to the dictionary.
 The shape is like:
 {'Name russisch': {'name': name, 'countryCode': countryCode}
-
 countryCode can be 'de' or 'ru'
 
 </pre>
@@ -405,7 +436,6 @@ countryCode can be 'de' or 'ru'
 Formats and adds the namevariations to the dictionary:
 The shape is like:
 {'Namensvariationen': {'name': name, 'countryCode': countryCode}
-
 countryCode can be 'de' or 'ru'
 
 </pre>
@@ -498,14 +528,20 @@ The form is like:
     </td>
   </tr></table>
   
-  <p>Formats paragraphs with dots at the beginning. Removes the dots and 
-  puts in a shape like: {'A': [line1, line 2, line3]} where 'A' can be 
-  replaced by the other paragraphs.</p>
+  <pre class="literalblock">
+
+Formats paragraphs with dots at the beginning.
+Removes the dots and puts in a shape like:
+{'A': [line1, line 2, line3]}
+or to:
+{'A' [text]}
+if no dots were found.
+SL and GPV get a special format:
+{'SL': {'general': [line1, line2, line3]}
+@param paragraph: paragraph to format
+
+</pre>
   <dl class="fields">
-    <dt>Parameters:</dt>
-    <dd><ul class="nomargin-top">
-        <li><strong class="pname"><code>paragraph</code></strong> - paragraph to format</li>
-    </ul></dd>
   </dl>
 </td></tr></table>
 </div>
@@ -532,6 +568,64 @@ It creates two dictionarys, wich look like:
 {'W': {'general': [line, line, line], headline: [line, line, line]}
 {footnodes: {1: footnote, 2: footnote}}
 'general' and 'footnote' are only present if they are in the data.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="formatQ"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">formatQ</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="personDictionaryParser-pysrc.html#DataFormater.formatQ">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+
+Formats the 'Q' paragraph. This paragraph can contain headlines and
+which must be threated differently then the other paragraphs.
+It also removes the dots of line with those.
+It creates two dictionarys, wich look like:
+{'Q': {'general': [line, line, line], headline: [line, line, line]}
+'general' is only present if it is in the data.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="formatN"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">formatN</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="personDictionaryParser-pysrc.html#DataFormater.formatN">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+
+               Formats the N paragraph with or without dots at the beginning.
+               Removes the dots if it contains them and puts in a shape like:
+               {'N': [line1, line 2, line3]}
+               or to
+               {'A' [text]}
+               if no dots or 
+were found.
+               
 
 </pre>
   <dl class="fields">
@@ -567,7 +661,7 @@ It creates two dictionarys, wich look like:
 <table border="0" cellpadding="0" cellspacing="0" width="100%%">
   <tr>
     <td align="left" class="footer">
-    Generated by Epydoc 3.0.1 on Mon May 20 22:51:55 2013
+    Generated by Epydoc 3.0.1 on Mon May 20 23:07:32 2013
     </td>
     <td align="right" class="footer">
       <a target="mainFrame" href="http://epydoc.sourceforge.net"
