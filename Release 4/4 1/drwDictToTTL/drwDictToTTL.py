@@ -11,13 +11,11 @@ from drwHelper import printWhatItIs
 #Das ist der Kopf der zu erstellenden .ttl Datei
 ttlHeader = """
 @base <http://drw-catalog.saw-leipzig.de/> .
-@prefix dct: <http://purl.org/dc/terms/> .
 @prefix drw-model: <http://drw-model.saw-leipzig.de/> .
 @prefix drw-catalog: <http://drw-catalog.saw-leipzig.de/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 <> a owl:Ontology ;
    rdfs:label "DRW-Katalog" ;
    owl:imports <http://drw-model.saw-leipzig.de/> .
@@ -77,78 +75,53 @@ def prepTTLForPerson(personDict):
 	ttlText = ""
 	if personDict["sterbeortRes"] != "":
 		ttlText += """
-<http://drw-catalog.saw-leipzig.de/Ort/%(sterbeortRes)s> 
+<Place/%(sterbeortRes)s> 
 		a drw-model:place;
-		drw-model:deathPlaceOf drw-catalog:Person/%(nameRes)s ;
+		drw-model:deathPlaceOf <Person/%(nameRes)s> ;
 		rdfs:label "%(sterbeort)s" .
 		"""%personDict
 	if personDict["sterbejahrRes"] != "":
 		ttlText += """
-<http://drw-catalog.saw-leipzig.de/Jahr/%(sterbejahrRes)s> 
+<Year/%(sterbejahrRes)s> 
 		a drw-model:year;
-		drw-model:yearOfDeathOf drw-catalog:Person/%(nameRes)s ;
+		drw-model:yearOfDeathOf <Person/%(nameRes)s> ;
 		rdfs:label "%(sterbejahr)s" .
 		"""%personDict
 	if personDict["geburtsortRes"] != "":
 		ttlText += """
-<http://drw-catalog.saw-leipzig.de/Ort/%(geburtsortRes)s> 
+<Place/%(geburtsortRes)s> 
 		a drw-model:place;
-		drw-model:birthPlaceOf drw-catalog:Person/%(nameRes)s ;
+		drw-model:birthPlaceOf <Person/%(nameRes)s> ; 
 		rdfs:label "%(geburtsort)s" .
 		"""%personDict
 	if personDict["geburtsjahrRes"] != "":
 		ttlText += """
-<http://drw-catalog.saw-leipzig.de/Jahr/%(geburtsjahrRes)s> 
+<Year/%(geburtsjahrRes)s> 
 		a drw-model:year;
-		drw-model:yearOfBirthOf drw-catalog:Person/%(nameRes)s ;
+		drw-model:yearOfBirthOf <Person/%(nameRes)s> ;
 		rdfs:label "%(geburtsjahr)s" .
 		"""%personDict
 	ttlText += """
-<http://drw-catalog.saw-leipzig.de/Person/%(nameRes)s> 
+<Person/%(nameRes)s> 
 	a drw-model:person ;
     drw-model:labor "%(beruf)s" ;
     drw-model:lastName "%(name)s";
 	drw-model:firstName "%(vornamen)s" ;
 	rdfs:label "%(name)s, %(vornamen)s" ;"""%personDict
 	if personDict["sterbejahrRes"] != "":
-		ttlText += u'\n\tdrw-model:yearOfDeathIs drw-catalog:Jahr/'
+		ttlText += u'\n\tdrw-model:yearOfDeathIs drw-catalog:Year/'
 		ttlText += personDict["sterbejahrRes"] + ' ;'
 	if personDict["sterbeortRes"] != "":
-		ttlText += u'\n\tdrw-model:deathPlaceIs drw-catalog:Ort/'
+		ttlText += u'\n\tdrw-model:deathPlaceIs drw-catalog:Place/'
 		ttlText += personDict["sterbeortRes"] +u' ;'
 	if personDict["geburtsjahrRes"] != "":
-		ttlText += u'\n\tdrw-model:yearOfBirthIs drw-catalog:Jahr/'
+		ttlText += u'\n\tdrw-model:yearOfBirthIs drw-catalog:Year/'
 		ttlText += personDict["geburtsjahrRes"] + u' ;'
 	if personDict["geburtsortRes"] != "":
-		ttlText += u'\n\tdrw-model:birthPlaceIs drw-catalog:Ort/'
+		ttlText += u'\n\tdrw-model:birthPlaceIs drw-catalog:Place/'
 		ttlText += personDict["geburtsortRes"] + ' ;'
 	ttlText = ttlText[:-1]
 	ttlText += u'.'
-#	if personDict["sterbeortRes"] != "":
-#		ttlText += """
-#		
-#<http://drw-catalog.saw-leipzig.de/Ort/%(sterbeortRes)s> 
-#		a drw-model:place;
-#		drw-model:deathPlaceOf drw-catalog:Person/%(nameRes)s .
-#		"""%personDict
-#	if personDict["sterbejahrRes"] != "":
-#		ttlText += """
-#<http://drw-catalog.saw-leipzig.de/Jahr/%(sterbejahrRes)s> 
-#		a drw-model:year;
-#		drw-model:yearOfDeathOf drw-catalog:Person/%(nameRes)s .
-#		"""%personDict
-#	if personDict["geburtsortRes"] != "":
-#		ttlText += """
-#<http://drw-catalog.saw-leipzig.de/Ort/%(geburtsortRes)s> 
-#		a drw-model:place;
-#		drw-model:birtPlaceOf drw-catalog:Person/%(nameRes)s .
-#		"""%personDict
-#	if personDict["geburtsjahrRes"] != "":
-#		ttlText += """
-#<http://drw-catalog.saw-leipzig.de/Jahr/%(geburtsjahrRes)s> 
-#		a drw-model:year;
-#		drw-model:yearOfBirthOf drw-catalog:Person/%(nameRes)s.
-#		"""%personDict
 
 	return ttlText
 
@@ -207,8 +180,6 @@ def delSpecialChar(unicodeString, htmlCode=True):
     
     return asciiString
 				
-	
-
 
 if __name__ == "__main__":
 	main(sys.argv[1:])
