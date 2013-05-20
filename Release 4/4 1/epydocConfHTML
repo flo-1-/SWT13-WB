@@ -12,7 +12,7 @@ url: http://pcai042.informatik.uni-leipzig.de/~swp13-wb/
 #output: html
 #target: ConverterDoc/
 
-modules: htmlParser/personDictionaryParser.py, htmlParser/dictHelper.py, htmlParser/downloadHTML.py, htmlParser/showPickle
+modules: htmlParser/personDictionaryParser.py, htmlParser/dictHelper.py, htmlParser/downloadHTML.py, htmlParser/showPickle.py
 
 #Write html output to the directory "apidocs"
 output: html

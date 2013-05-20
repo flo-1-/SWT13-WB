@@ -1,0 +1,34 @@
+<?php
+	// if tab clicked, show plugin-Informations
+	if (isset($this->tabClick))	
+	{
+		echo "<br><p>Dieses Plugin stellt für den Content Editor die Funktion zur Verfügung <br>";
+		echo "ein Model in ein neues zu konvertieren. Dabei werden aus einem bestehenden Model<br>";
+		echo "Relationen gefiltert, die nicht übernommen werden sollen und evtl. Rückrelationen, <br>";
+		echo "die noch nicht eingefügt sind, erstellt. <br>";
+		echo "Danach wird das Ergebnis als neues Model angelegt oder ein bestehendes überschrieben. </p>";
+		
+		echo "<br><p>Einstellungen am Plugin können Sie hier vornehmen:</p>";		
+		// link to configure plugin		
+		echo '<a href="'.$this->urlBase.'exconf/conf/?name=publishdata" >PublishData-Config</a>';
+	}
+
+	// if publish-button clicked, show statistics
+	if (array_key_exists('message',$this))
+	{
+		echo '<div style="float:center;  width:50%;text-align:left; padding:20px; margin:25px">
+			<h2>Statistik: </h2>
+			<table>';
+			foreach($this->message as $title => $stat)
+			{
+				echo '<tr>'.
+						'<td><b>' . $title . ': </b></td>'.
+						'<td >' . $stat . ' </td>'.
+						'</tr>';
+			}
+			echo '</table>';
+			
+			//echo '<a href="'.$this->urlBase.'publishdata/dopublish" >Reload Page</a>';
+			// show link to new export-model
+			echo '<a href="'.$this->urlBase.'model/info/?m='.$this->targetModel.'" >Show Export-Model</a>';			
+	}

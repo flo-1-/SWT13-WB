@@ -1,0 +1,20 @@
+<!-- show button to publish data -->
+<form action="<?php echo $this->actionUrl?>" method="post" name="publishFrom">	
+	<!-- only publish data if button is pressed and not the tab -->
+	<input type="hidden" name="doPublish" value="doPublish">	
+	<!--  publish data and show notice -->
+	<input class="button submit" type="submit" value="Publish" onclick="showNotice();" >	
+	<!-- load image, only show on button-click -->
+	<img src="<?php echo $this->urlBase.'extensions/publishdata/spinner.gif'; ?>" width=0 height=0 name="spinnerImg" >
+	<p id='publishMessage' ></p>
+</form>
+
+<script>
+	var showNotice = function(){	
+		 // display image	 
+		 this.publishFrom.spinnerImg.width = 16;		 
+		 this.publishFrom.spinnerImg.height = 16;
+		 // show notice
+		 document.getElementById('publishMessage').innerHTML = 'Verarbeitung läuft.';	 
+	}
+</script>

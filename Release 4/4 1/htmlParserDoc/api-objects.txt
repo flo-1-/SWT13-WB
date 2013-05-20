@@ -16,6 +16,10 @@ personDictionaryParser.__package__	personDictionaryParser-module.html#__package_
 personDictionaryParser.saveCurDict	dictHelper-module.html#saveCurDict
 personDictionaryParser.main	personDictionaryParser-module.html#main
 personDictionaryParser.saveImage	dictHelper-module.html#saveImage
+showPickle	showPickle-module.html
+showPickle.openPickle	dictHelper-module.html#openPickle
+showPickle.__package__	showPickle-module.html#__package__
+showPickle.main	showPickle-module.html#main
 downloadHTML.HTMLDownloader	downloadHTML.HTMLDownloader-class.html
 downloadHTML.HTMLDownloader.download	downloadHTML.HTMLDownloader-class.html#download
 personDictionaryParser.DataFormater	personDictionaryParser.DataFormater-class.html
@@ -41,3 +45,5 @@ personDictionaryParser.PersonDataParser.handle_endtag	personDictionaryParser.Per
 personDictionaryParser.PersonDataParser.handle_data	personDictionaryParser.PersonDataParser-class.html#handle_data
 personDictionaryParser.makePickleFromData	personDictionaryParser.makePickleFromData-class.html
 personDictionaryParser.makePickleFromData.getData	personDictionaryParser.makePickleFromData-class.html#getData
+showPickle.TestPickle	showPickle.TestPickle-class.html
+showPickle.TestPickle.showPickle	showPickle.TestPickle-class.html#showPickle
