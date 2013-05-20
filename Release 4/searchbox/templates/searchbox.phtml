@@ -1,0 +1,131 @@
+<?php /* view for the searchbox -> enter search string */?>
+<form  method="post" name="searchform">
+	<table id="PropertyBox" style="width: 80%"> 
+		<tbody>
+		<tr>
+			<td>	
+				<?php 
+					echo'<select name="prop" id="selectbox" onchange="change()">'; //Build DropDown Menu with Classes
+					$queryResult = $this->classes;
+					foreach($queryResult as $item){
+			        $class = $item["label"];
+			        $object = $item["object"];
+			        echo'<option value='.$object.'>'.$class.'</option>';
+					} 
+					echo'</select>';
+				?>
+			</td>
+		</tr>
+		<tr>
+			<td> 
+				<input class="input.text" name="edit" style="width: 80%" > <!--Input Textfield for User search instructions-->
+			</td>
+		</tr>
+	</tbody>
+	</table>
+	<div id="addtable">
+	</div>
+</form>
+
+	<table>
+	<tr>
+		<td>
+			<input type="image" src="http://pcai042.informatik.uni-leipzig.de/~swp13-wb/OntoWiki/extensions/searchbox/icon-add.png" alt="<?php echo $this->extendTable?>" onclick="extendTable();"> <!--buttons for extend and cancel tables-->
+			<input type="image" src="http://pcai042.informatik.uni-leipzig.de/~swp13-wb/OntoWiki/extensions/searchbox/icon-cancel.png" onclick="cancelTable();">
+		</td>
+		<td>
+			<form  method="post" name="search" action="<?php echo $this->actionUrl?>">
+			<input class="input.text" type="hidden" name="propertyString" id="propertyString" value=""> <!--Controller use getParam for get value string-->
+			<input class="button submit" type="submit" value="<?php echo  $this->startSearch?>" onclick="mergeString()" align="right"> <!--start action-->
+			</form>
+		</td>
+	</tr>
+	</table>						
+	
+
+<script>
+	var jsArray = <?php echo json_encode($this->props); ?>; //script to encode PHP Arrayinto workable javascript array
+</script> 
+
+<script> //JavaScript for merge string from dropdown and edits, catch failures and set new string into invisible textfield.
+	function mergeString(){
+		
+		var listDrop = document.getElementsByName('prop');
+		var listEdit = document.getElementsByName('edit');
+		var result = '';
+
+		for(var i=0; i<listDrop.length; i++){ //get all values from Dropbox and edits and put them into the hidden textfield
+			result += listDrop[i].value+","+listEdit[i].value+";";
+		}
+		
+		var propertyString = document.getElementById('propertyString');
+		propertyString.value = result;
+	}
+</script>
+
+<script>
+	function extendTable(){ //function for extend Table
+		var something = false;
+		var newTable = document.createElement('table'); //creates new needed Elements for new Table
+		newTable.setAttribute("name","newTable");
+		newTable.setAttribute("id","newTable");
+		newTable.setAttribute("style","width: 80%");
+		var newTr = document.createElement('tr');
+		var newTd = document.createElement('td');
+		
+		var selectedValue = document.getElementById('selectbox').options[document.getElementById('selectbox').selectedIndex].value; //create new selectBox
+		var newSelect = document.createElement('select');
+		newSelect.setAttribute("name","prop");
+		newSelect.setAttribute("id","propose");
+		
+		for(var i=0; i<jsArray.length;i++){ //Creates option for Selectbox
+			var ArrayStr = jsArray[i].toString();
+			var ArrayNew = ArrayStr.split(",");
+			if(ArrayNew[1]==selectedValue){
+				var option = document.createElement("option");
+				option.setAttribute("value", ArrayNew[0]);
+				option.innerHTML=ArrayNew[0];
+				newSelect.appendChild(option);
+				something = true; 
+			}	
+		}
+		
+		if(something==true){ //just if propertys are found table will extend
+			newTd.appendChild(newSelect);
+			newTr.appendChild(newTd);
+			newTable.appendChild(newTr);
+		
+			var newTr2 = document.createElement('tr');
+			var newTd2 = document.createElement('td');
+			var newTextfield = document.createElement('input');
+			newTextfield.setAttribute("name","edit");
+			newTextfield.setAttribute("style","width: 90%");
+			newTd2.appendChild(newTextfield);
+			newTr2.appendChild(newTd2);
+			newTable.appendChild(newTr2);
+			document.getElementById('addtable').appendChild(newTable); //add all Elements
+		}
+	}
+</script>
+
+<script>
+ function cancelTable(){
+	document.getElementById('addtable').removeChild(document.getElementById('newTable')); //delete the last element
+}
+</script>
+
+<script>
+ function change(){
+	 document.getElementById('addtable').removeChild(document.getElementById('newTable')); //delete all alements if dropbox changed
+	 document.getElementById('addtable').removeChild(document.getElementById('newTable'));
+	 document.getElementById('addtable').removeChild(document.getElementById('newTable'));
+	 document.getElementById('addtable').removeChild(document.getElementById('newTable'));
+	 document.getElementById('addtable').removeChild(document.getElementById('newTable'));
+	 document.getElementById('addtable').removeChild(document.getElementById('newTable'));
+	 document.getElementById('addtable').removeChild(document.getElementById('newTable'));
+	 document.getElementById('addtable').removeChild(document.getElementById('newTable'));
+	 document.getElementById('addtable').removeChild(document.getElementById('newTable'));
+	 document.getElementById('addtable').removeChild(document.getElementById('newTable'));
+}
+</script>
+

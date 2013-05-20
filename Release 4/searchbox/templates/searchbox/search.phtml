@@ -1,0 +1,32 @@
+<?php 
+/* view for the 'search-result'-tab */
+?>
+<?php if (isset($this->queryResult)): ?>
+        <table class="separated-vertical">
+		<!-- table head-->
+			<tr>
+				<th style="width: 1em">#</th>
+				<!-- resourceUri, Name, yearOfBirth, ... -->
+				<?php foreach ($this->tableHeader as $headerField){
+					echo '<th>'.$headerField.'</th>';
+				} 
+				$index = 0;?>
+			</tr>
+			<?php foreach ($this->queryResult as $row){ //creats a table with searched data
+				echo "<tr>";
+				echo "<td>";
+				echo $index++;
+				echo "</td>";
+				foreach ($this->tableHeader as $column){
+					echo "<td>";
+					echo $row[$column];
+					echo "</td>";
+				}	
+				echo "</tr>";
+				} ?>
+		</table>
+			 
+<?php else:
+		echo '<p>'.$this->noSearchItem.'</p>';	 
+	  endif;?>
+</fieldset>
