@@ -246,35 +246,35 @@
 		
 <Date>
 		a owl:Class ;
-		rdfs:subClassOf <DateInformation> ;
+		rdfs:subClassOf <dateInformation> ;
                 rdfs:label "Date"@en ;
                 rdfs:label "Datum"@de ;
 		rdfs:comment "A specific Date in time." .
 
 <Day>
 		a owl:Class ;
-		rdfs:subClassOf <DateInformation> ;
+		rdfs:subClassOf <dateInformation> ;
 		rdfs:label "Day"@en ;
                 rdfs:label "Tag"@de ;
 		rdfs:comment "A Day, part of a Date." .
 
 <Month>
 		a owl:Class ;
-		rdfs:subClassOf <DateInformation> ;
+		rdfs:subClassOf <dateInformation> ;
 		rdfs:label "Month"@en ;
                 rdfs:label "Monat"@de ;
 		rdfs:comment "A Month, part of a Date." .
 
 <Year>
 		a owl:Class ;
-		rdfs:subClassOf <DateInformation> ;
+		rdfs:subClassOf <dateInformation> ;
 		rdfs:label "Year"@en ;
                 rdfs:label "Jahr"@de ;
 		rdfs:comment "A Year, part of a Date." .
 
 <YearJulian>
 		a owl:Class ;
-		rdfs:subClassOf <DateInformation> ;
+		rdfs:subClassOf <dateInformation> ;
 		rdfs:label "Julian year"@en ;
         rdfs:label "Julianisches Jahr"@de ;
 		rdfs:comment "A Year of the julian Calender." .
@@ -484,9 +484,9 @@
 
 <hasComment>
 		a owl:ObjectProperty ;
-		<hasOrder> "100" ;
-		rdfs:label "has Comments"@en ;
-                rdfs:label "Kommentare"@de ;
+		<hasOrder> "50" ;
+		rdfs:label "has Comment"@en ;
+                rdfs:label "hat den Kommentar"@de ;
 		rdfs:domain <Thing> ;
 		rdfs:range <Comment> ;
 		rdfs:comment "Property between a Thing and a Comment related to it." .
