@@ -1,0 +1,143 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<RelatedPerson/30204motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anna Katharina, geb. Henning (1743-1830)" .
+
+<ImportantPerson/30204>
+	drw-model:hasSL <SL/30204hasSL4> ;
+	drw-model:hasEducation <A/30204hasEducation1> ;
+	drw-model:hasSL <SL/30204hasSL3> ;
+	drw-model:diedOn <Date/2_6_1838> ;
+	drw-model:hasSibling <RelatedPerson/30204hasSibling1> ;
+	rdfs:label "Dahler, Karl Friedrich (von)" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasMainName <MainName/30204hasMainName1> ;
+	drw-model:hasSL <SL/30204hasSL2> ;
+	drw-model:hasSL <SL/30204hasSL1> ;
+	drw-model:motherIs <RelatedPerson/30204motherIs1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasMG <MG/30204hasMG1> ;
+	drw-model:fatherIs <RelatedPerson/30204fatherIs1> ;
+	drw-model:hasID "30204" ;
+	drw-model:wasBornOn <Date/5_11_1768> ;
+	drw-model:hasSL <SL/30204hasSL6> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Kaiserlicher_Leibmedikus> ;
+	drw-model:hasSL <SL/30204hasSL5> ;
+	drw-model:hasStationOfLife <B/30204hasStationOfLife1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30204wasMarriedTo1> .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<GeneralLabor/Kaiserlicher_Leibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Kaiserlicher Leibmedikus" .
+
+<SL/30204hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Nachapetov 2003, 216." .
+
+<NameVariation/30204hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "ДAЛЛEР" .
+
+<SL/30204hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Peterburgskij nekropol'. Bd. 2 (1912), 6." .
+
+<MG/30204hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Moskovskoe fiziko-medicinskoe obščestvo [Physiko-medizinische Gesellschaft zu Moskau] (ab 1817), Mediko-filantropičeskij komitet [Mediko-philanthropisches Komitee]." .
+
+<NameVariation/30204hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "DALLER" .
+
+<RelatedPerson/30204hasSibling1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Geschwister-Genealogie" .
+
+<NameVariation/30204hasNameVariation5>
+	rdfs:label "Christoforovič" ;
+	a drw-model:NameVariation .
+
+<Date/2_6_1838>
+	a drw-model:Date ;
+	rdfs:label "2.6.1838" .
+
+<SL/30204hasSL2>
+	rdfs:label "Kurzeintrag zur Biographie. Online Ressource Online Ressource (2.4.2012)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://dic.academic.ru/dic.nsf/enc_biography/17740" .
+
+<A/30204hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1782-1785 Apothekerlehre in einer staatlichen Apotheke, ab 1785 Studium an der Mediko-chirurgischen Lehranstalt in St. Petersburg, 1791 Arzt-Examen, 1816 Dr. med. et chir." .
+
+<RelatedPerson/30204wasMarriedTo1>
+	rdfs:label "1. Emilie Juliane (Ėmilija Julijana), geb. Schumacher (1788-1828)<br>2. Charlotte (Šarlotta), geb. Schaffransky (1794-1881)<br>" ;
+	a drw-model:RelatedPerson .
+
+<B/30204hasStationOfLife1>
+	rdfs:label "1788 Unterarzt der Flotte im Russisch-türkischen Krieg, zunächst auf dem Schiff \"Izjaslav\", danach zum Revaler Hafen abkommandiert, ab 1790 im Marinehospital in Kronštadt tätig, später Dienst auf dem Schiff \"Evgenij\", 1797 zum Stabsarzt ernannt, ab 1798 in der Leibgarde des Artilleriebataillons, 1805 Teilnahme an der Schlacht bei Austerlitz, 1807 im Lager bei Vitebsk eingesetzt, 1808 zum Kriegsministerium beordert, 1812-1814 Teilnahme am Krieg und an Auslandsmärschen der Russischen Armee, wegen fürsorglicher Behandlung der Verwundeten zum Oberarzt (oder Stabsarzt) der Artilleriebrigade des Gardekorps ernannt, ab 1821 (oder 1827) Stabsarzt und Leiter der Korpsärzte im Grenadier- und 3. Reservekavalleriekorps, der Truppenoberärzte und des gesamten medizinischen Teils der Militäransiedlungen, ab 1822 Leibmedikus am Hofe des Zaren ALEKSANDR I. (1777-1825).
+Inhaber hoher russischer Ehrentitel und Auszeichnungen: \"Kollegienassessor\" (1800), \"Hofrat\" (1808), \"Kollegienrat\" (1812), \"Staatsrat\" (1816), \"Wirklicher Russischer Staatsrat\" (1821), St.-Vladimir-Orden 4. Klasse (1809) und 3. Klasse (1822), St.-Annen-Orden 2. Klasse (1813), Preußischer Roter-Adler-Orden (1813), Schwedischer Wasa-Orden 2. Klasse (1814).
+" ;
+	a drw-model:B .
+
+<RelatedPerson/30204fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Christoph Philipp (1725-1785), Waffenschmied und Kaufmann" .
+
+<MainName/30204hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30204hasNameVariation4> ;
+	rdfs:label "Dahler, Karl Friedrich (von)" ;
+	drw-model:hasNameVariation <NameVariation/30204hasNameVariation3> ;
+	drw-model:hasNameVariation <NameVariation/30204hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30204hasNameVariation6> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30204hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30204hasNameVariation5> .
+
+<NameVariation/30204hasNameVariation2>
+	rdfs:label "DOLER" ;
+	a drw-model:NameVariation .
+
+<Date/5_11_1768>
+	a drw-model:Date ;
+	rdfs:label "5.11.1768" .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<NameVariation/30204hasNameVariation4>
+	rdfs:label "ДOЛEР" ;
+	a drw-model:NameVariation .
+
+<SL/30204hasSL1>
+	rdfs:label "EAD: Dokument-Id [59501/46864 und 1064064 (27.7.2010)]." ;
+	a drw-model:SL .
+
+<NameVariation/30204hasNameVariation6>
+	a drw-model:NameVariation ;
+	rdfs:label "Xристoфoрoвич" .
+
+<SL/30204hasSL3>
+	<http://xmlns.com/foaf/0.1/homepage> "http://hronos.km.ru/libris/lib_a/arak_lvov.html" ;
+	rdfs:label "L'vov, A. F.: Zapiski. In: Aleksej Andreevič Arakčeev: Sviditel'stva sovremennikov. Moskva 2000. Online Ressource Online Ressource (7.3.2012)." ;
+	a drw-model:SL .
+
+<SL/30204hasSL5>
+	rdfs:label "Nemcy Rossii. Bd. 1 (1999), 659-660." ;
+	a drw-model:SL .
+

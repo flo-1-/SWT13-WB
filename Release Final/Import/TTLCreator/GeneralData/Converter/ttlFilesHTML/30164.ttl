@@ -1,0 +1,127 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Date/20_oder_19_6_or_2_7_1801>
+	a drw-model:Date ;
+	rdfs:label "20. oder 19.6./2.7.1801" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<GeneralLabor/Hofmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hofmedikus" .
+
+<Place/Wolmar>
+	a drw-model:Place ;
+	rdfs:label "Wolmar" .
+
+<MainName/30164hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30164hasNameVariation3> ;
+	rdfs:label "Buesch, Agathon" ;
+	drw-model:hasNameVariation <NameVariation/30164hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30164hasNameVariation2> .
+
+<ImportantPerson/30164>
+	drw-model:wasMarriedTo <RelatedPerson/30164wasMarriedTo1> ;
+	drw-model:hasSL <SL/30164hasSL2> ;
+	drw-model:hasID "30164" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Arzt> ;
+	drw-model:hasMainName <MainName/30164hasMainName1> ;
+	drw-model:hasDescendant <RelatedPerson/30164hasDescendant1> ;
+	drw-model:hasW <W/30164hasW1> ;
+	drw-model:hasStationOfLife <B/30164hasStationOfLife1> ;
+	drw-model:motherIs <RelatedPerson/30164motherIs1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Hofmedikus> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Direktor_einer_Kinderbewahrans> ;
+	drw-model:hasWInformation <WInformation/30164hasWInformation1> ;
+	drw-model:fatherIs <RelatedPerson/30164fatherIs1> ;
+	drw-model:hasEducation <A/30164hasEducation1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/30164hasSL1> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasMG <MG/30164hasMG1> ;
+	drw-model:diedOn <Date/7_8_or_19_8_1873> ;
+	drw-model:wasBornOn <Date/20_oder_19_6_or_2_7_1801> ;
+	rdfs:label "Buesch, Agathon" ;
+	drw-model:wasBornIn <Place/Wolmar> .
+
+<RelatedPerson/30164wasMarriedTo1>
+	rdfs:label "Luise Charlotte, geb. Gerdau (1812?-1889?)" ;
+	a drw-model:RelatedPerson .
+
+<GeneralLabor/Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Arzt" .
+
+<SL/30164hasSL2>
+	rdfs:label "WBIS DBA: I 162, 200-201; BaBA: I 48, 110-111." ;
+	a drw-model:SL .
+
+<A/30164hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch der Goetschelschen Pestalozzi-Anstalt in Riga, danach der Assmusschen, Hachfeldschen und Dittlerschen Anstalt in Dorpat, 1815-1819 des Gymnasiums in Dorpat, 1819-1824 Studium der Medizin an der Universität Dorpat, 1825-1826 Studien in Berlin, Göttingen und Paris, 1826 Dr. med. in Dorpat." .
+
+<Date/7_8_or_19_8_1873>
+	a drw-model:Date ;
+	rdfs:label "7.8./19.8.1873" .
+
+<MG/30164hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Deutscher ärztlicher Verein in St. Petersburg (ab 1843)." .
+
+<NameVariation/30164hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "БЮШ" .
+
+<B/30164hasStationOfLife1>
+	rdfs:label "Ab 1827 Assistent an verschiedenen Hospitälern in St. Petersburg, 1845-1852 Hofmedikus, 1852-1862 Hofarzt des VI. Hof-Medizinalbezirkes, danach Direktor der Musterkinderbewahranstalt in St. Petersburg.
+Inhaber der russischen Ehrentitel \"Staatsrat\" (1842) und \"Wirklicher Russischer Staatsrat\" (1860)." ;
+	a drw-model:B .
+
+<NameVariation/30164hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "BÜSCH" .
+
+<RelatedPerson/30164motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anna, geb. Johannson, oder Anna Christina, geb. Joha(n)nsen († 1859)" .
+
+<GeneralLabor/Direktor_einer_Kinderbewahrans>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Direktor einer Kinderbewahranstalt" .
+
+<RelatedPerson/30164fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Georg Matthias, Konsistoriumssekretär" .
+
+<WInformation/30164hasWInformation1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/dspace/bitstream/10062/1486/1/buesch.pdf" ;
+	rdfs:label "De glandula thyreoidea strumosa in genere et de eius specie lymphatica. Diss. Dorpat 1826, 40 S. Online Ressource Volltext (1.3.2012)." ;
+	a drw-model:WInformation .
+
+<RelatedPerson/30164hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Karl (Carl) Ferdinand (Agafonovič) (1835-1895), Kollegienassessor<br>Julius (Agafonovič) (* 1838), Akzisebeamter" .
+
+<SL/30164hasSL1>
+	rdfs:label "EAD: Dokument-Id [1282/1379 und 1043729 (26.7.20109]." ;
+	a drw-model:SL .
+
+<W/30164hasW1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/dspace/bitstream/10062/1486/1/buesch.pdf" ;
+	rdfs:label "De glandula thyreoidea strumosa in genere et de eius specie lymphatica. Diss. Dorpat 1826, 40 S. Online Ressource Volltext (1.3.2012)." ;
+	a drw-model:W .
+
+<NameVariation/30164hasNameVariation2>
+	rdfs:label "BJUŠ" ;
+	a drw-model:NameVariation .
+

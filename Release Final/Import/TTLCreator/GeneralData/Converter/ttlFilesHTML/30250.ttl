@@ -1,0 +1,169 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<B/30250hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "1804-1808 ao. Professor für Naturwissenschaften, 1808-1810 Professor für Pathologie und Therapie der Universität Wittenberg; 1802-1803 Studien zur Anwendung des Galvanismus in der Medizin an der Irrenanstalt Wien; 1810-1817/18 Professor für Pathologie, Therapie und Klinik und 1814 Dekan der Medizinischen Fakultät der Universität Kazan'; gleichzeitig auch Schulvisitator der Gouvernements Saratov, Simbirsk, Astrachan', Perm' und Tobol'sk; 1817/18-1823 Professor für Therapie und Klinik der Universität Dorpat; 1823-1827 Leibarzt des Königs Friedrich August I. von Sachsen in Dresden; 1827-1840 in Dorpat Professor für Arzneimittellehre, Diätetik, Geschichte der Medizin und medizinischer Literatur, mehrmals Dekan der Medizinischen Fakultät, 1830-1838 Leiter des Professoren-Instituts, 1840 emeritiert; 1842 Rückkehr nach Deutschland.
+Inhaber hoher russischer Auszeichnungen (u.a. 1840 Titel \"Wirklicher Russischer Staatsrat\").
+" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30250hasW1>
+	rdfs:label "Utrum aqua per electricitatem columnae a cel. Volta inventae in elementa sua dissolvatur? Dissertatio physico-chemica. Wittenberg 1802." ;
+	a drw-model:W .
+
+<A/30250hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1791-1795 Besuch der Lateinschule in Wittenberg, 1795 Studium der Theologie und 1795-1800 der Medizin, 1800 Examen pro candidatura med., 1802 Dr.med., 1804 Dr. med. habil., Universität Wittenberg." .
+
+<WL/30250hasWL1>
+	rdfs:label "Gründer der pharmakologischen Sammlung an der Universität Dorpat; Reisen nach Astrachan', in das Wolga- und das Kamagebiet und Nordsibirien. Die Ergebnisse sind in einem mehrbändigen medizinisch-topographischen Werk erschienen; Außerdem 40 wissenschaftliche Veröffentlichungen, beispielsweise über die Klumpfüße bei Neugeborenen, über Wechselfieber und zu seinem Spezialgebiet, der Polarisationslehre." ;
+	a drw-model:WL .
+
+<SL/30250hasSL2>
+	a drw-model:SL ;
+	rdfs:label "DBA, BaBA, RBA." .
+
+<ImportantPerson/30250>
+	drw-model:diedIn <Place/Wiesbaden> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_spezielle_Therapi> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Medizinhistoriker> ;
+	drw-model:hasP <P/30250hasP2> ;
+	drw-model:hasWL <WL/30250hasWL1> ;
+	drw-model:hasW <W/30250hasW3> ;
+	drw-model:hasDescendant <RelatedPerson/30250hasDescendant1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30250wasMarriedTo1> ;
+	drw-model:hasEducation <A/30250hasEducation1> ;
+	drw-model:wasBornOn <Date/18_7_1778> ;
+	drw-model:fatherIs <RelatedPerson/30250fatherIs1> ;
+	drw-model:hasW <W/30250hasW2> ;
+	drw-model:hasP <P/30250hasP3> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30250.jpg> ;
+	drw-model:wasBornIn <Place/Wittenberg> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasGPV <GPV/30250hasGPV1> ;
+	drw-model:hasW <W/30250hasW4> ;
+	drw-model:hasMainName <MainName/30250hasMainName1> ;
+	drw-model:hasSL <SL/30250hasSL1> ;
+	drw-model:motherIs <RelatedPerson/30250motherIs1> ;
+	drw-model:hasSL <SL/30250hasSL2> ;
+	drw-model:hasW <W/30250hasW1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Mediziner> ;
+	drw-model:diedOn <Date/28_1_1846> ;
+	rdfs:label "Erdmann, Johann Friedrich (von)" ;
+	drw-model:hasStationOfLife <B/30250hasStationOfLife1> ;
+	drw-model:hasW <W/30250hasW5> ;
+	drw-model:hasMG <MG/30250hasMG1> ;
+	drw-model:hasP <P/30250hasP1> ;
+	drw-model:hasID "30250" .
+
+<MainName/30250hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Erdmann, Johann Friedrich (von)" ;
+	drw-model:hasNameVariation <NameVariation/30250hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30250hasNameVariation2> .
+
+<SL/30250hasSL1>
+	rdfs:label "Günther, Bettina: Ein deutscher Arzt im Russischen Reich: Johann Friedrich Erdmann (1778-1846). Diss. Leipzig 2004." ;
+	a drw-model:SL .
+
+<RelatedPerson/30250hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sohn: Karl Michael Theodor Friedrich (1816-1887), Arzt<br>" .
+
+<W/30250hasW2>
+	rdfs:label "Elementa organonomiae ex notione motus derivata. Wittenberg 1808." ;
+	a drw-model:W .
+
+<Place/Wiesbaden>
+	a drw-model:Place ;
+	rdfs:label "Wiesbaden" .
+
+<RelatedPerson/30250motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Christiana Eleonore, geb. Clausnitzer" .
+
+<P/30250hasP1>
+	rdfs:label "Lithographie von Georg Friedrich Schlater (1804-1870). Quelle: Fotosammlung Herbert Normann - Bibliotheca Universitatis Tartuensis, Abteilung für Manuskripte und Raritäten, Bestand 78, Fo 15:70." ;
+	a drw-model:P .
+
+<RelatedPerson/30250fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann Christoph (1733-1812), Archidiakonus und Magister" .
+
+<P/30250hasP3>
+	a drw-model:P ;
+	rdfs:label "Bildnis im Internet-Katalog der Stadt Kasan. Online Ressource Online Ressource (15.5.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://kazan.ws/culture/pic_cul/972.jpg" .
+
+<NameVariation/30250hasNameVariation2>
+	rdfs:label "Иоганн Фридрих" ;
+	a drw-model:NameVariation .
+
+<Date/18_7_1778>
+	a drw-model:Date ;
+	rdfs:label "18.7.1778" .
+
+<MG/30250hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Moskovskoe obščestvo estestvoispytatelej [Societät der Naturforscher zu Moskau], S. Peterburgskoe farmacevtičeskoe obščestvo [Pharmazeutische Gesellschaft zu St. Petersburg], Moskovskoe fisiko-medicinskoe obščestvo [Physikalisch-medizinische Gesellschaft zu Moskau], Medizinisch-physikalische Gesellschaft zu Erlangen, Ökonomische Gesellschaft zu Abo und Leipzig, Gesellschaft für Natur- und Heilkunde zu Dresden, Ärztlicher Verein zu Hamburg, Naturforschende Gesellschaft zu Halle und Medizinisch-chirurgische Gesellschaft zu Berlin." .
+
+<Date/28_1_1846>
+	a drw-model:Date ;
+	rdfs:label "28.1.1846" .
+
+<GeneralLabor/Professor_fr_spezielle_Therapi>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für spezielle Therapie und Pathologie" .
+
+<GeneralLabor/Medizinhistoriker>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Medizinhistoriker" .
+
+<W/30250hasW5>
+	rdfs:label "Aus der aerztlichen Praxis: Beobachtungen und Ansichten. Halle 1847." ;
+	a drw-model:W .
+
+<W/30250hasW4>
+	rdfs:label "Beiträge zur Kenntniß des Innern von Russland. Riga, Dorpat bzw. Leipzig 1822-1826." ;
+	a drw-model:W .
+
+<P/30250hasP2>
+	a drw-model:P ;
+	rdfs:label "Lithographie von Carl August Senff (1770-1838), Dorpat 1823. Quelle E-Katalog ESTER Tartugem, Bibliot. Carol Morgenstern No 36. Online Ressource Online Ressource (15.5.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.utlib.ee/ekollekt/bskunst/senff/011.htm" .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<Place/Wittenberg>
+	a drw-model:Place ;
+	rdfs:label "Wittenberg" .
+
+<RelatedPerson/30250wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Friederika Anna Dorothea, geb. von Kalm (* 1787)" .
+
+<GPV/30250hasGPV1>
+	rdfs:label "Brennsohn, Isidorus: Die Aerzte Livlands von den ältesten Zeiten bis zur Gegenwart. Ein biographisches Lexikon nebst einer historischen Einleitung über das Medizinalwesen Livlands. Riga 1905 (Biographien baltischer Aerzte 2)." ;
+	a drw-model:GPV .
+
+<GeneralLabor/Mediziner>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Mediziner" .
+
+<NameVariation/30250hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Iogann Fridrich" .
+
+<W/30250hasW3>
+	rdfs:label "De hydropis natura et curatione, Bd. 1-4: Wittenberg 1808; Bd. 5: 1809; Bd. 6 bis 10: 1810." ;
+	a drw-model:W .
+

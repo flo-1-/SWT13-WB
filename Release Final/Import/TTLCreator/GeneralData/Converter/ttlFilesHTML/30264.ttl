@@ -1,0 +1,235 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<ImportantPerson/30264>
+	drw-model:hasWGermanPublication <WGermanPublication/30264hasWGermanPublication3> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30264hasWGermanPublication4> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30264hasWGermanPublication1> ;
+	drw-model:hasEducation <A/30264hasEducation1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30264hasWGermanPublication2> ;
+	drw-model:hasP <P/30264hasP1> ;
+	rdfs:label "Fenomenov, Nikolaj Nikolaevič" ;
+	drw-model:hasSL <SL/30264hasSL1> ;
+	drw-model:hasW <W/30264hasW8> ;
+	drw-model:hasID "30264" ;
+	drw-model:hasSL <SL/30264hasSL8> ;
+	drw-model:hasW <W/30264hasW4> ;
+	drw-model:hasSL <SL/30264hasSL3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasSL <SL/30264hasSL5> ;
+	drw-model:hasW <W/30264hasW1> ;
+	drw-model:hasW <W/30264hasW7> ;
+	drw-model:hasP <P/30264hasP2> ;
+	drw-model:wasBornIn <Place/Livny_Gouvernement_Orlov> ;
+	drw-model:hasW <W/30264hasW2> ;
+	drw-model:wasBornOn <Date/21_3_1855> ;
+	drw-model:hasSL <SL/30264hasSL2> ;
+	drw-model:hasSL <SL/30264hasSL4> ;
+	drw-model:hasMainName <MainName/30264hasMainName1> ;
+	drw-model:hasW <W/30264hasW6> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30264hasWGermanPublication6> ;
+	drw-model:hasSL <SL/30264hasSL7> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <B/30264hasStationOfLife1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Ehrenleibgeburtshelfer> ;
+	drw-model:hasGPV <GPV/30264hasGPV1> ;
+	drw-model:hasMG <MG/30264hasMG1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30264hasWGermanPublication5> ;
+	drw-model:fatherIs <RelatedPerson/30264fatherIs1> ;
+	drw-model:hasWL <WL/30264hasWL2> ;
+	drw-model:hasGPV <GPV/30264hasGPV2> ;
+	drw-model:hasW <W/30264hasW5> ;
+	drw-model:hasW <W/30264hasW3> ;
+	drw-model:hasSL <SL/30264hasSL6> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30264.jpg> ;
+	drw-model:diedOn <Date/1918> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Gynkologe> ;
+	drw-model:hasWL <WL/30264hasWL1> .
+
+<SL/30264hasSL6>
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA: R 472, 359-372." .
+
+<SL/30264hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Pridvornyj kalendar': na 1910 god. S.-Peterburg [o J.], 295; ~ 1911, 307; ~ 1913, 323; ~ 1914, 406-407." .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<WGermanPublication/30264hasWGermanPublication2>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Beitrag zur Casuistik der durch die Frucht bedingten Geburtshindernisse. Archiv für Gynäkologie 17 (1881), 133-139." .
+
+<WGermanPublication/30264hasWGermanPublication1>
+	rdfs:label "Zur Pathologie der Plazenta. Archiv für Gynäkologie 15 (1880), 343-360." ;
+	a drw-model:WGermanPublication .
+
+<SL/30264hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Biografičeskij slovar' professorov 1-ogo Leningradskogo, byvšego Ženskogo, medicinskogo instituta im. akad. I. P. Pavlova za 50 let, 1897-1947. Leningrad 1947; zit. nach WBIS R 472, 371-372." .
+
+<W/30264hasW8>
+	rdfs:label "Zur Technik der intraperitonealen Operationen am Uterus. Centralblatt für Gynäkologie 22 (1898), 606-617." ;
+	a drw-model:W .
+
+<MainName/30264hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30264hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30264hasNameVariation3> ;
+	a drw-model:MainName ;
+	rdfs:label "Fenomenov, Nikolaj Nikolaevič" ;
+	drw-model:hasNameVariation <NameVariation/30264hasNameVariation4> ;
+	drw-model:hasNameVariation <NameVariation/30264hasNameVariation1> .
+
+<NameVariation/30264hasNameVariation1>
+	rdfs:label "FENOMENOW" ;
+	a drw-model:NameVariation .
+
+<SL/30264hasSL7>
+	rdfs:label "Zagoskin, Nikolaj P.: Sto let. Biografičeskij slovar' professorov i prepodavatelej Imperatorskago Kazanskago universiteta (1804-1904). Kazan' 1904; zit. nach WBIS RBA: R 472, 362-364." ;
+	a drw-model:SL .
+
+<GPV/30264hasGPV2>
+	rdfs:label "• Publikationen 1880-1904, in: WBIS RBA: R 472, 362-364 (Zagoskin, <b>SL</b>)." ;
+	a drw-model:GPV .
+
+<WGermanPublication/30264hasWGermanPublication5>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Zur Frage der Embryotomie. Über die Durchschneidung des Schlüsselbeins (Cleidotomia). Centralblatt für Gynäkologie 19 (1895), 585-590." .
+
+<NameVariation/30264hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "PHÄNOMENOFF" .
+
+<W/30264hasW1>
+	rdfs:label "K učeniju o kifotičeskom taze i razryve simfiz vo vremja rodov. Diss. Sankt-Peterburg 1880, 104 S." ;
+	a drw-model:W .
+
+<WGermanPublication/30264hasWGermanPublication3>
+	rdfs:label "Zur Lehre von dem kyphotischen Becken und der Ruptur der Beckensymphysen während der Geburt. Zeitschrift für Geburtshilfe und Gynäkologie 7 (1882), 254-304." ;
+	a drw-model:WGermanPublication .
+
+<RelatedPerson/30264fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Nikolaj, Protopresbyter" .
+
+<SL/30264hasSL8>
+	rdfs:label "Zmeev; zit. nach WBIS RBA: R 472, 359-360." ;
+	a drw-model:SL .
+
+<WL/30264hasWL2>
+	rdfs:label "Führte neue Operationsmethoden und Asepsis in die geburtshilfliche Praxis in Russland ein und modifizierte eine Reihe medizinischer Instrumente, die auch nach ihm benannt sind, darunter <i>perforator Fenomenova</i> = Instrument zur Perforation des Fötuskopfes zur Extraktion bei gebärunmöglicher Lage, <i>Fenomenova nožnicy</i> [Fenomenov-Schere] = Instrument zur Dekapitation des Fötus (sog. <i>Fenomenova dekapitacija</i>)." ;
+	a drw-model:WL .
+
+<B/30264hasStationOfLife1>
+	rdfs:label "Bereits während des Studiums in der Klinik für innere Medizin bei Sergej Petrovič <span style='font-variant:small-caps;'>BOTKIN</span> und in der Geburts- und gynäkologischen Klinik bei Martyn Isaevič GORVIC (1837-1883) [Eigentl. Martin Horwitz, baltischer Jude] tätig sowie im Russisch-türkischen Krieg als Feldscher eingesetzt, 1878-1879 Arzt in Militärhospitälern in St. Stefano bei Istanbul, Sevastopol' und Dünaburg, ab 1879 Arzt in Weiterbildung und ab 1882 Privatdozent an der Geburts- und gynäkologischen Klinik in St. Petersburg, vorübergehend Arzt im 40. Reserve-Battaillon in Kovel', 1884-1885 Studienaufenthalte an bedeutenden gynäkologischen Kliniken im Ausland, in Deutschland z.B. an der Frauenklinik der Charité bei Karl SCHROEDER (1838-1887) und an der Privatklinik von August Eduard MARTIN (1847-1933) in Berlin, an der Frauenklinik bei Robert OLSHAUSEN (1835-1915) in Halle, an der Universitätsfrauenklinik bei Heinrich FRITSCH (1844-1915) in Breslau und bei Alfred HEGAR (1830-1914) in Freiburg, 1885-1892 ao. Prof. und 1892-1899 o. Prof. für Geburtshilfe und Frauenkrankheiten an der Universität Kazan', zugleich Leiter des Gebärhauses in Kazan', 1899-1918 Direktor der Entbindungsanstalt, 1899-1905 Prof., Organisator der Propädeutischen Klinik, 1901-1905 Lehrstuhl für Gynäkologie und Leiter der Fakultätsklinik am Medizinischen Institut für Frauen in St. Petersburg, zugleich 1899-1903 Dozent am \"Klinischen Institut der Großfürstin Elena Pavlovna\" in St. Petersburg, 1902 zum Ehrenleibgeburtshelfer am Hofe des Zaren NIKOLAJ II. (1868-1918) ernannt, 1904-1914 Medizinalinspektor der \"Institutionen der Zarin Marija\", außerdem ab 1900 Mitglied des Medizinalrats des Ministeriums des Innern.
+   Wurde mit dem Titel \"Verdienter Professor\" (1904), dem St.-Annen-Orden 1. Klasse, dem St.-Stanislav-Orden 1. Klasse und dem St.-Vladimir-Orden 2. (3.?) Klasse u.a. Auszeichnungen geehrt." ;
+	drw-model:hasNameLink <ImportantPerson/30136> ;
+	a drw-model:B .
+
+<W/30264hasW7>
+	rdfs:label "Zur Frage der Embryotomie. Über die Durchschneidung des Schlüsselbeins (Cleidotomia). Centralblatt für Gynäkologie 19 (1895), 585-590." ;
+	a drw-model:W .
+
+<MG/30264hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Imperatorskaja Voenno-medicinskaja akademija [Kaiserliche Militärmedizinische Akademie] St. Petersburg (ab 1898), Obščestvo vračej pri Imperatorskom Kazanskom universitete [Gesellschaft der Ärzte an der Kaiserlichen Universität Kazan'] und Akušersko-ginekologičeskie obšestvo v Moskve, Kieve, Peterburge [Geburtshilflich-gynäkologische Gesellschaft in Moskau, Kiev und St. Petersburg] (Ehrenmitglied ab 1899) u.a." .
+
+<P/30264hasP2>
+	a drw-model:P ;
+	rdfs:label "Foto in: WBIS RBA: R 472, 371 (Biografičeskij slovar', <b>SL</b>)." .
+
+<W/30264hasW5>
+	rdfs:label "Zur Lehre von dem kyphotischen Becken und der Ruptur der Beckensymphysen während der Geburt. Zeitschrift für Geburtshilfe und Gynäkologie 7 (1882), 254-304." ;
+	a drw-model:W .
+
+<W/30264hasW3>
+	rdfs:label "Zur Pathologie der Plazenta. Archiv für Gynäkologie 15 (1880), 343-360." ;
+	a drw-model:W .
+
+<SL/30264hasSL5>
+	rdfs:label "Šustov, A. S. (Hg.): Naši dejateli po medicine. S.-Peterburg 1910 (Illjustrirovannyj vestnik kul'tury, naučno-vospitatel'nago, techničeskago i torgovo-promyšlennago progressa Rossii 1)." ;
+	a drw-model:SL .
+
+<ImportantPerson/30136>
+	a drw-model:ImportantPerson .
+
+<Date/1918>
+	a drw-model:Date ;
+	rdfs:label "1918" .
+
+<NameVariation/30264hasNameVariation4>
+	a drw-model:NameVariation ;
+	rdfs:label "Nicolai" .
+
+<SL/30264hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Cvelev, Jurij Vladimirovič: Professor Nikolaj Nikolaevič Fenomenov (K 150-letiju so dnja roždenija). Žurnal akušerstva i ženskich boleznej 54 (2005), 100-106." .
+
+<GPV/30264hasGPV1>
+	rdfs:label "• Publikationen 1877-1887, in: WBIS RBA: R 472, 359-360 (Zmeev, <b>SL</b>)." ;
+	a drw-model:GPV .
+
+<WGermanPublication/30264hasWGermanPublication6>
+	rdfs:label "Zur Technik der intraperitonealen Operationen am Uterus. Centralblatt für Gynäkologie 22 (1898), 606-617." ;
+	a drw-model:WGermanPublication .
+
+<SL/30264hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Afanas'ev, Nikolaj Ivanovič: Sovremenniki. Al'bom biografij. Bd. 2. [Sankt-Peterburg] 1910; zit. nach WBIS RBA: R 472, 365-370." .
+
+<W/30264hasW4>
+	rdfs:label "Beitrag zur Casuistik der durch die Frucht bedingten Geburtshindernisse. Archiv für Gynäkologie 17 (1881), 133-139." ;
+	a drw-model:W .
+
+<WGermanPublication/30264hasWGermanPublication4>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Zur Technik der Perforationsverfahren. Centralblatt für Gynäkologie 10 (1886), 466-469." .
+
+<Place/Livny_Gouvernement_Orlov>
+	a drw-model:Place ;
+	rdfs:label "Livny, Gouvernement Orlov" .
+
+<NameVariation/30264hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "PHÄNOMENOW" .
+
+<P/30264hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto aus: WBIS RBA: R 472, 366 (Afanas'ev, <b>SL</b>). Abgedruckt in: Fischer 2010, 93." .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<W/30264hasW2>
+	rdfs:label "Operativnoe akušerstvo. 1.-3. Aufl. Kazan' 1892-1897; 4.-6. Aufl. Sankt-Peterburg 1902-1910." ;
+	a drw-model:W .
+
+<GeneralLabor/Ehrenleibgeburtshelfer>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ehrenleibgeburtshelfer" .
+
+<Date/21_3_1855>
+	a drw-model:Date ;
+	rdfs:label "21.3.1855" .
+
+<W/30264hasW6>
+	a drw-model:W ;
+	rdfs:label "Zur Technik der Perforationsverfahren. Centralblatt für Gynäkologie 10 (1886), 466-469." .
+
+<GeneralLabor/Gynkologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Gynäkologe" .
+
+<WL/30264hasWL1>
+	rdfs:label "Reorganisation der Geburtshilflich-gynäkologischen Klinik der Universität Kazan' und des Gebärhauses in Kazan', 1901 Gründer der Fakultätsklinik am Medizinischen Fraueninstitut." ;
+	a drw-model:WL .
+
+<A/30264hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch der Geistlichen Lehranstalt in Livny und des Priesterseminars in Orlov, danach Beginn des Studiums am Historisch-philosophischen Institut in St. Petersburg, anschließend an der Physikalisch-mathematischen Fakultät der Universität, zuletzt bis 1878 Studium der Medizin an der Mediko-Chirurgischen Akademie (MCA) in St. Petersburg und 1880 Dr. med." .
+

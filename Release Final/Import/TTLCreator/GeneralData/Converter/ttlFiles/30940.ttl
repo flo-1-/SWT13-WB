@@ -1,0 +1,397 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<NameVariation/30940hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "Schkljarewski, Alexis von"@de .
+
+<W/30940hasW3>
+	rdfs:label "Zapiski po medicinskoj fizike. H. 1. Kiev 1884." ;
+	a drw-model:W .
+
+<WGermanPublication/30940hasWGermanPublication3>
+	rdfs:label "Ein neuer heizbarer Objecttisch. Archiv für mikroskopische Anatomie 4 (1868), 342-344." ;
+	a drw-model:WGermanPublication .
+
+<Year/1878>
+	rdfs:label "1878" ;
+	a drw-model:Year .
+
+<W/30940hasW2>
+	rdfs:label "Ob otličitel’nych svojstvach mužskago i ženskago tipov v priloženii k voprosu v vysšem obrazovanii ženščin. Kiev 1874, 47 S.; deutsch: Die Unterscheidungs-Merkmale der männlichen und weiblichen Typen mit Bezug auf die Frage der höheren Frauenbildung. Übersetzt von Cäcilie Neudecker-Bortniker, nebst einem Anhang: Ein Wort zur Zeit. Würzburg 1898, 41 S." ;
+	a drw-model:W .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<GPV/30940hasGPV1>
+	rdfs:label "Publikationen 1861-1882, in: Zmeev, Lev Fedorovič: Russkie vrači pisateli. Tom 1-5. Sankt-Peterburg 1886-1889, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<Year/1880>
+	rdfs:label "1880" ;
+	a drw-model:Year .
+
+<WL/30940hasWL2>
+	rdfs:label "Verfasser einer bedeutenden Arbeit über die Rolle der Leukozyten bei der Entzündung (vgl. Pflügers Archiv 1868)" ;
+	a drw-model:WL .
+
+<NameVariation/30940hasNameVariation1>
+	rdfs:label "Schklarewsky, Alexis von"@de ;
+	a drw-model:NameVariation .
+
+<Comment/30940_2>
+	rdfs:label "In Maurer 1998 (<b>SL</b>), 317, ist irrtümlich „Odessaer Extraordinarius Škljarevskij“ angegeben." ;
+	a drw-model:Comment .
+
+<W/30940hasW1>
+	rdfs:label "O prochoždenii belych krovjanych šarikov skvoz’ kolloidnye pereponki. Diss. Sankt-Peterburg 1869, 63 S." ;
+	a drw-model:W .
+
+<Year/1869>
+	rdfs:label "1869" ;
+	a drw-model:Year .
+
+<B/30940hasStationOfLife1>
+	drw-model:hasComment <Comment/30940_1> ;
+	rdfs:label "Privatdozent für experimentelle[1] Pathologie an der MCA" ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1869> .
+
+<GeneralLabor/Professor_fr_medizinische_Phys>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für medizinische Physik und Pathologie" .
+
+<W/30940hasW5>
+	rdfs:label "O lečenii argillinami, ili složnymi glinami. Protokoly zasedanij Obščestva kievskich vračej za 1889/1890 g. 1890, 59 S." ;
+	a drw-model:W .
+
+<B/30940hasStationOfLife5>
+	drw-model:ended <Year/1878> ;
+	rdfs:label "Sekretär der Medizinischen Fakultät" ;
+	drw-model:began <Year/1875> ;
+	a drw-model:B .
+
+<B/30940hasStationOfLife3>
+	drw-model:hasComment <Comment/30940_2> ;
+	drw-model:ended <Year/1877> ;
+	a drw-model:B ;
+	drw-model:began <Year/1870> ;
+	rdfs:label "ao. Professor am Lehrstuhl für medizinische Physik an der Universität Kiev[2]" .
+
+<HonoursAndAwards/30940hasHonoursAndAwards1>
+	rdfs:label "„Staatsrat“<br>1874 St.-Stanislav-Orden 2. Klasse<br>1881 St.-Annen-Orden 2. Klasse" ;
+	a drw-model:HonoursAndAwards .
+
+<W/30940hasW9>
+	rdfs:label "Außerdem mehrere psychophysiologische Bild- und Skulpturanalysen, z. B. Ivan Nikolaevič Kramskoj (1837-1887): Christus in der Wüste (1873), Michelangelo: Das Jüngste Gericht: Christus mit Maria (1901), und Boris Vasil’evič Eduards (1860-1924) Marmorgruppe „Tröstung“, Portraitbüste „Šurka“ und Skulptur „Angenehmes Geschenk“ (1899)." ;
+	a drw-model:W .
+
+<WGermanPublication/30940hasWGermanPublication7>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Kleinhirn und Bogengänge der Vögel. Anatomisch-physiologische Untersuchungen. Vorläufige Mittheilung. Nachrichten von der Königlichen Gesellschaft der Wissenschaften und der Georg-Augusts-Universität zu Göttingen (1872) 15, 301-309; <b>russ.</b>: Mozžeček i polukružnye kanaly ptic. Žurnal dlja normal’noj i patologičeskoj gistologii, farmakologii i kliničeskoj mediciny (1872) Nr. 5, 305-315." .
+
+<Year/1875>
+	rdfs:label "1875" ;
+	a drw-model:Year .
+
+<Year/1873>
+	rdfs:label "1873" ;
+	a drw-model:Year .
+
+<GPV/30940hasGPV2>
+	rdfs:label "Publikationen 1867-1882 (17 Nrn.), in: Ikonnikov, V. S.: Biografičeskij slovar’ professorov i prepodavatelej Imperatorskago universiteta sv. Vladimira (1834-1884). Kiev 1884, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<B/30940hasStationOfLife6>
+	drw-model:began <Year/1877> ;
+	rdfs:label "o. Professor am Lehrstuhl für medizinische Physik an der Universität Kiev" ;
+	a drw-model:B .
+
+<Comment/30940_3>
+	rdfs:label "Mit Ergänzungen und Korrekturen der Angaben in <b>GPV</b> zu Titeln, Zeitschriften, Band-, Jahres- und Seitenzahlen." ;
+	a drw-model:Comment .
+
+<Year/1877>
+	rdfs:label "1877" ;
+	a drw-model:Year .
+
+<W/30940hasW4>
+	rdfs:label "Čachotka i d-r Koch. Kiev 1890, 45 S." ;
+	a drw-model:W .
+
+<B/30940hasStationOfLife8>
+	drw-model:ended <Year/1880> ;
+	rdfs:label "Vorlesungen in Hygiene an den Höheren Kursen für Frauen in Kiev" ;
+	a drw-model:B ;
+	drw-model:began <Year/1878> .
+
+<ImportantPerson/30366>
+	a drw-model:ImportantPerson .
+
+<Year/1848>
+	rdfs:label "1848" ;
+	a drw-model:Year .
+
+<A/30940hasEducation3>
+	a drw-model:A ;
+	drw-model:ended <Year/1866> ;
+	drw-model:began <Year/1862> ;
+	rdfs:label "Arzt in Weiterbildung in pathologischer Anatomie und Physiologie an der Universität Moskau" .
+
+<WGermanPublication/30940hasWGermanPublication2>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ein heizbarer Objekttisch. Wiener medizinische Wochenschrift 17 (1867) Nr. 98, 1553-1555." .
+
+<WGermanPublication/30940hasWGermanPublication4>
+	rdfs:label "Ueber das Blut und die Suspensionsflüssigkeiten. [Pflügers] Archiv für die gesammte Physiologie des Menschen und der Thiere 1 (1868) 1, 603-644." ;
+	a drw-model:WGermanPublication .
+
+<A/30940hasEducation5>
+	a drw-model:A ;
+	drw-model:inYear <Year/1869> ;
+	rdfs:label "Dr. med. an der Mediko-Chirurgischen Akademie (MCA) in St. Petersburg" .
+
+<SL/30940hasSL3>
+	rdfs:label "Maurer, Trude: Hochschullehrer im Zarenreich. Ein Beitrag zur russischen Sozial- und Bildungsgeschichte. Köln, Weimar, Wien 1998 (Beiträge zur Geschichte Osteuropas 27), 317, 318, 319, 361, 906." ;
+	a drw-model:SL .
+
+<A/30940hasEducation1>
+	a drw-model:A ;
+	drw-model:ended <Year/1856> ;
+	rdfs:label "Besuch des Adligenpensionats am Gymnasium in Černigov" ;
+	drw-model:began <Year/1848> .
+
+<B/30940hasStationOfLife9>
+	drw-model:inYear <Year/1872> ;
+	drw-model:inYear <Year/1877> ;
+	drw-model:inYear <Year/1870> ;
+	a drw-model:B ;
+	rdfs:label "Öffentliche Vorlesungen in Kiev" .
+
+<Place/Krasnopole_Bez_Krolevec_Gouver>
+	a drw-model:Place ;
+	rdfs:label "Krasnopol’e, Bez. Krolevec, Gouvernement Černigov" .
+
+<Date/22_3_1839>
+	a drw-model:Date ;
+	rdfs:label "22.3.1839" .
+
+<NameVariation/30940hasNameVariation2>
+	rdfs:label "Schklarewski, Alexis von"@de ;
+	a drw-model:NameVariation .
+
+<WGermanPublication/30940hasWGermanPublication8>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber die Anordnung der Herzganglien bei Säugethieren und Vögeln. Nachrichten von der Königlichen Gesellschaft der Wissenschaften und der Georg-August-Universität zu Göttingen (1872) 21, 426-428." .
+
+<Comment/30940_1>
+	rdfs:label "Die Angabe „für allgemeine“ (<i>obščej</i>) P. in Ivanovskij (<b>SL</b>), 647, ist der Oberbegriff für die Teilung in zwei Richtungen: 1. systematische und 2. experimentelle P." ;
+	a drw-model:Comment .
+
+<W/30940hasW6>
+	rdfs:label "Period razočarovanija [Ob otkrytii d-ra Kocha]. Kievljanin (1891) Nr. 46 u. 48, 15 S." ;
+	a drw-model:W .
+
+<WGermanPublication/30940hasWGermanPublication1>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Beiträge zur Histogenese des Blutes. Vorläufige Mittheilung. Centralblatt für die medicinischen Wissenschaften 5 (1867), 865-869." .
+
+<WGermanPublication/30940hasWGermanPublication6>
+	rdfs:label "Prof. Koloman Balogh und die „Auswanderung“. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 46 (1869) 1, 116-123." ;
+	a drw-model:WGermanPublication .
+
+<B/30940hasStationOfLife2>
+	drw-model:ended <Year/1870> ;
+	a drw-model:B ;
+	rdfs:label "Dozent für medizinische Physik an der St.-Vladimir-Universität Kiev" ;
+	drw-model:began <Year/1869> .
+
+<NameVariation/30940hasNameVariation4>
+	rdfs:label "Schkljaerewsky, Alexei Sergejewitsch"@de ;
+	a drw-model:NameVariation .
+
+<B/30940hasStationOfLife4>
+	rdfs:label "Sekretär der Medizinischen Fakultät" ;
+	drw-model:ended <Year/1873> ;
+	a drw-model:B ;
+	drw-model:began <Year/1870> .
+
+<Year/1870>
+	rdfs:label "1870" ;
+	a drw-model:Year .
+
+<GermanPublicationComment/30940hasGermanPublicationComment1>
+	a drw-model:GermanPublicationComment ;
+	rdfs:label "Publikationen in deutscher Sprache:" ;
+	drw-model:hasComment <Comment/30940_3> .
+
+<SL/30940hasSL2>
+	rdfs:label "Ivanovskij 1898 - Istorija Imperatorskoj voenno-medicinskoj (byvšej mediko-chirurgičeskoj) akademii za sto let 1798-1898. Glavnyj red. Ivanovskij. Sankt-Peterburg 1898, 586, 618-619, 647." ;
+	a drw-model:SL .
+
+<WL/30940hasWL1>
+	rdfs:label "Wichtige Versuchsergebnisse über die Verteilung der Blutkörperchen im Blutstrom (1867/68)" ;
+	a drw-model:WL .
+
+<B/30940hasStationOfLife7>
+	rdfs:label "zugleich im Amt des Universitätsrichters" ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1878> .
+
+<Year/1866>
+	rdfs:label "1866" ;
+	a drw-model:Year .
+
+<W/30940hasW8>
+	rdfs:label "O lečenii zemljankoj. Kievljanin Nr. 150-151 (1904), 48 S." ;
+	a drw-model:W .
+
+<MG/30940hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Obščestvo kievskich vračej [Gesellschaft Kiever Ärzte] (?)" .
+
+<SL/30940hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 32, 96." .
+
+<SL/30940hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Hirsch, Gustav (Hg.): Biographisches Lexikon der hervorragenden Ärzte aller Zeiten und Völker. 2. Aufl. Bd. 2. Berlin, Wien 1930 Bd. 5 (1934), 79." .
+
+<ImportantPerson/30940>
+	drw-model:hasWGermanPublication <WGermanPublication/30940hasWGermanPublication1> ;
+	drw-model:hasW <W/30940hasW2> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30940hasWGermanPublication7> ;
+	drw-model:hasStationOfLife <B/30940hasStationOfLife6> ;
+	drw-model:hasSL <SL/30940hasSL5> ;
+	drw-model:hasW <W/30940hasW1> ;
+	drw-model:hasW <W/30940hasW6> ;
+	drw-model:hasStationOfLife <B/30940hasStationOfLife7> ;
+	drw-model:hasSL <SL/30940hasSL6> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_medizinische_Phys> ;
+	drw-model:hasStationOfLife <B/30940hasStationOfLife10> ;
+	drw-model:hasSL <SL/30940hasSL3> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30940hasWGermanPublication6> ;
+	drw-model:hasEducation <A/30940hasEducation2> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30940hasWGermanPublication4> ;
+	drw-model:hasMG <MG/30940hasMG1> ;
+	drw-model:hasID "30940" ;
+	drw-model:hasSL <SL/30940hasSL4> ;
+	drw-model:hasStationOfLife <B/30940hasStationOfLife3> ;
+	drw-model:wasBornIn <Place/Krasnopole_Bez_Krolevec_Gouver> ;
+	rdfs:label "Škljarevskij, Aleksej Sergeevič" ;
+	drw-model:fatherIs <RelatedPerson/30940fatherIs1> ;
+	drw-model:hasW <W/30940hasW4> ;
+	drw-model:hasEducation <A/30940hasEducation1> ;
+	drw-model:hasSL <SL/30940hasSL2> ;
+	drw-model:hasWL <WL/30940hasWL1> ;
+	drw-model:hasStationOfLife <B/30940hasStationOfLife4> ;
+	drw-model:hasEducation <A/30940hasEducation4> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30940hasWGermanPublication2> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30940hasWGermanPublication5> ;
+	drw-model:hasGermanPublicationComment <GermanPublicationComment/30940hasGermanPublicationComment1> ;
+	drw-model:hasW <W/30940hasW9> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Physiologe> ;
+	drw-model:hasComment <Comment/30940_3> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30940hasWGermanPublication3> ;
+	drw-model:hasComment <Comment/30940_1> ;
+	drw-model:hasStationOfLife <B/30940hasStationOfLife1> ;
+	drw-model:hasEducation <A/30940hasEducation3> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <A/30940hasEducation5> ;
+	drw-model:hasStationOfLife <B/30940hasStationOfLife8> ;
+	drw-model:hasW <W/30940hasW3> ;
+	drw-model:hasW <W/30940hasW8> ;
+	drw-model:hasMainName <MainName/30940hasMainName1> ;
+	drw-model:hasStationOfLife <B/30940hasStationOfLife5> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30940hasHonoursAndAwards1> ;
+	drw-model:hasComment <Comment/30940_2> ;
+	drw-model:hasStationOfLife <B/30940hasStationOfLife2> ;
+	drw-model:hasW <W/30940hasW5> ;
+	drw-model:hasGPV <GPV/30940hasGPV2> ;
+	drw-model:hasWL <WL/30940hasWL2> ;
+	drw-model:hasSL <SL/30940hasSL1> ;
+	drw-model:wasBornOn <Date/22_3_1839> ;
+	drw-model:hasW <W/30940hasW7> ;
+	drw-model:diedIn <Place/Kiev> ;
+	drw-model:hasGPV <GPV/30940hasGPV1> ;
+	drw-model:hasStationOfLife <B/30940hasStationOfLife9> ;
+	drw-model:diedOn <Date/22_6_1906> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30940hasWGermanPublication8> .
+
+<B/30940hasStationOfLife10>
+	a drw-model:B .
+
+<SL/30940hasSL5>
+	rdfs:label "WBIS RBA: Russisches Biographisches Archiv (Online Ressource, 16.1.2013): R 510, 151-157." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" .
+
+<GeneralLabor/Physiologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologe" .
+
+<MainName/30940hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30940hasNameVariation2> ;
+	rdfs:label "Škljarevskij, Aleksej Sergeevič" ;
+	drw-model:hasNameVariation <NameVariation/30940hasNameVariation3> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30940hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30940hasNameVariation4> .
+
+<Place/Kiev>
+	a drw-model:Place ;
+	rdfs:label "Kiev" .
+
+<A/30940hasEducation4>
+	a drw-model:A ;
+	drw-model:began <Year/1866> ;
+	rdfs:label "Weiterbildung in Deutschland und Österreich:
+- bei Friedrich Daniel von <span style='font-variant:small-caps;'>Recklinghausen</span> (1833-1910) und Albert von <span style='font-variant:small-caps;'>Bezold</span> (1836-1868) an der Universität Würzburg
+- bei H. v. <span style='font-variant:small-caps;'>Helmholtz</span> an der Universität Heidelberg
+- an der Universität Wien" ;
+	drw-model:ended <Year/1869> ;
+	drw-model:hasNameLink <ImportantPerson/30366> .
+
+<A/30940hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Studium der Medizin an der Universität Moskau" ;
+	drw-model:ended <Year/1862> ;
+	drw-model:began <Year/1856> .
+
+<WGermanPublication/30940hasWGermanPublication5>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Zur Extravasation der weissen Blutkörperchen. [Pflügers] Archiv für die gesammte Physiologie des Menschen und der Thiere 1 (1868) 1, 657-686." .
+
+<Date/22_6_1906>
+	rdfs:label "22.6.1906" ;
+	a drw-model:Date .
+
+<RelatedPerson/30940fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sergej, Adliger" .
+
+<W/30940hasW7>
+	rdfs:label "Značenie proizvedenij izobrazitel’nogo tvorčestva dlja vrača. Voprosy nervno-psichologičeskoj mediciny 3 (1898), 6 S." ;
+	a drw-model:W .
+
+<Year/1872>
+	rdfs:label "1872" ;
+	a drw-model:Year .
+
+<Year/1856>
+	rdfs:label "1856" ;
+	a drw-model:Year .
+
+<Year/1862>
+	a drw-model:Year ;
+	rdfs:label "1862" .
+
+<SL/30940hasSL6>
+	a drw-model:SL ;
+	rdfs:label "[Nekrolog.] St. Petersburger medizinische Wochenschrift 31=N.F. 23 (1906), 298." .
+

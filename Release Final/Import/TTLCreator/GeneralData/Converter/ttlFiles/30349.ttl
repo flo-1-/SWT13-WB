@@ -1,0 +1,561 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<AlsoImportantInfo/30349hasAlsoImportantInfo2>
+	a drw-model:AlsoImportantInfo .
+
+<Year/1884>
+	a drw-model:Year ;
+	rdfs:label "1884" .
+
+<B/30349hasStationOfLife5>
+	rdfs:label "zur Bekämpfung der Cholera in Russland in Astrachan’ eingesetzt" ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1892> .
+
+<B/30349hasStationOfLife14>
+	drw-model:inYear <Year/1910> ;
+	a drw-model:B ;
+	rdfs:label "Schlafkrankheitsstudien in Ostafrika" .
+
+<Year/1892>
+	rdfs:label "1892" ;
+	a drw-model:Year .
+
+<SL/30349hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Neuner, Stefanie, Hützen, André: Im Kampf gegen die Cholera. Der jüdische Arzt Martin Hahn (1865-1934) als Forschungsreisender in Russland. Hrsg. v. Juliane C. Wilmanns (†), Dietrich von Engelhardt, Gerrit Hohendorf. Münster u. a. 2012 (Münchener Beiträge zur Geschichte und Ethik der Medizin 1), 260 S." .
+
+<ImportantPerson/31069>
+	a drw-model:ImportantPerson .
+
+<P/30349hasP6>
+	a drw-model:P ;
+	rdfs:label "Max Oppenheimer (1885-1954): Martin Hahn (um 1926). Öl auf Leinwand. Im Besitz von Prof. Dr. med. Helmut Hahn, Berlin; Reproduktionen (Fotos) in: <b>SL</b> Schulz 1985 und Weindling 1985, jeweils im Frontispiz." .
+
+<SL/30349hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Heymann, Bruno: Martin Hahn †. Die medizinische Welt 8 (1934), 1713." .
+
+<B/30349hasStationOfLife4>
+	drw-model:hasNameLink <ImportantPerson/30785> ;
+	drw-model:began <Year/1891> ;
+	a drw-model:B ;
+	rdfs:label "Forschungsaufenthalt in der physiologisch-chemischen Abteilung des Instituts für experimentelle Medizin (IEM) in St. Petersburg bei I. P. <span style='font-variant:small-caps;'>Pavlov</span>" ;
+	drw-model:ended <Year/1893> .
+
+<WL/30349hasWL4>
+	rdfs:label "1908 Entwicklung des sog. „Hahnschen Aspirators“ (Abb. 7 in <b>SL</b> Schulz 1985, 48)." ;
+	a drw-model:WL .
+
+<Year/1908>
+	rdfs:label "1908" ;
+	a drw-model:Year .
+
+<A/30349hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch des Königlichen Wilhelms-Gymnasiums in Berlin" ;
+	drw-model:ended <Year/1884> .
+
+<Comment/30349_4>
+	rdfs:label "Ehefrau des Neurologen Ernst Julius Remak (1849-1911) und Mutter des Mathematikers und Nationalökonomen Robert Remak (1888-1942). Vgl. Online Ressource (26.7.2011), und Neuner/Hützen 2012 (<b>SL</b>), 36." ;
+	<http://xmlns.com/foaf/0.1/homepage> <http://www.deutsche-biographie.de/sfz105259.html> ;
+	a drw-model:Comment .
+
+<B/30349hasStationOfLife15>
+	drw-model:began <Year/1911> ;
+	drw-model:ended <Year/1912> ;
+	a drw-model:B ;
+	rdfs:label "o. Professor und Direktor des Hygienischen Instituts an der Universität Königsberg" .
+
+<SL/30349hasSL7>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 110-111, 205." ;
+	a drw-model:SL .
+
+<ImportantPerson/30349>
+	drw-model:hasSL <SL/30349hasSL5> ;
+	drw-model:hasEducation <A/30349hasEducation2> ;
+	drw-model:hasSL <SL/30349hasSL9> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Hygiene> ;
+	drw-model:hasMG <MG/30349hasMG1> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife10> ;
+	drw-model:hasQ <Q/30349hasQ2> ;
+	drw-model:hasGPV <GPV/30349hasGPV1> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife2> ;
+	drw-model:hasP <P/30349hasP3> ;
+	drw-model:hasP <P/30349hasP4> ;
+	drw-model:wasBornOn <Date/17_4_1865> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife14> ;
+	drw-model:hasSL <SL/30349hasSL11> ;
+	drw-model:hasQ <Q/30349hasQ1> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife19> ;
+	drw-model:hasComment <Comment/30349_2> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife1> ;
+	drw-model:hasP <P/30349hasP2> ;
+	drw-model:fatherIs <RelatedPerson/30349fatherIs1> ;
+	drw-model:hasGPV <GPV/30349hasGPV2> ;
+	drw-model:hasAlsoImportantInfo <AlsoImportantInfo/30349hasAlsoImportantInfo2> ;
+	drw-model:hasAlsoImportantInfo <AlsoImportantInfo/30349hasAlsoImportantInfo1> ;
+	drw-model:hasSL <SL/30349hasSL4> ;
+	drw-model:hasSL <SL/30349hasSL3> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife8> ;
+	drw-model:hasEducation <A/30349hasEducation3> ;
+	drw-model:hasWL <WL/30349hasWL1> ;
+	drw-model:wasBornIn <Place/Berlin> ;
+	drw-model:hasSL <SL/30349hasSL10> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife17> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife18> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife7> ;
+	drw-model:hasW <W/30349hasW2> ;
+	drw-model:hasComment <Comment/30349_1> ;
+	drw-model:hasP <P/30349hasP1> ;
+	drw-model:diedOn <Date/4_11_19342> ;
+	drw-model:hasComment <Comment/30349_4> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30349hasHonoursAndAwards1> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife12> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife13> ;
+	drw-model:motherIs <RelatedPerson/30349motherIs1> ;
+	drw-model:hasComment <Comment/30349_5> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife4> ;
+	drw-model:hasWL <WL/30349hasWL3> ;
+	drw-model:hasEducation <A/30349hasEducation4> ;
+	drw-model:hasGPV <GPV/30349hasGPV3> ;
+	drw-model:hasSL <SL/30349hasSL12> ;
+	rdfs:label "Hahn, Martin John" ;
+	drw-model:hasSL <SL/30349hasSL2> ;
+	drw-model:hasSL <SL/30349hasSL7> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife3> ;
+	drw-model:hasMainName <MainName/30349hasMainName1> ;
+	drw-model:hasEducation <A/30349hasEducation1> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife20> ;
+	drw-model:hasID "30349" ;
+	drw-model:hasWL <WL/30349hasWL4> ;
+	drw-model:hasSL <SL/30349hasSL1> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife16> ;
+	drw-model:hasWL <WL/30349hasWL5> ;
+	drw-model:diedIn <Place/Berlin_Grabsttte_Friedhof_Wann> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30349.jpg> ;
+	drw-model:hasP <P/30349hasP6> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <W/30349hasW1> ;
+	drw-model:hasWL <WL/30349hasWL2> ;
+	drw-model:hasP <P/30349hasP5> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife21> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife11> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Mikrobiologe> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife6> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife9> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife5> ;
+	drw-model:hasSL <SL/30349hasSL6> ;
+	drw-model:hasComment <Comment/30349_3> ;
+	drw-model:hasSL <SL/30349hasSL8> ;
+	drw-model:hasSibling <RelatedPerson/30349hasSibling1> ;
+	drw-model:hasW <W/30349hasW3> ;
+	drw-model:hasStationOfLife <B/30349hasStationOfLife15> .
+
+<P/30349hasP1>
+	rdfs:label "Portrait (Abb.) aus: Lehrer der Heilkunde und ihre Wirkungsstätten. Friedrich-Wilhelms-Universität Berlin. Münchener Medizinischen Wochenschrift 80 (1933) Jubiläums-Beilage 1933, 2." ;
+	a drw-model:P .
+
+<SL/30349hasSL11>
+	a drw-model:SL ;
+	rdfs:label "Weindling, Paul: From bacteriology to social hygiene: The papers of Martin Hahn (1865-1934). Oxford 1985 (Research publications of the Wellcome Unit for the History of Medicine, Oxford 5), 22 S." .
+
+<W/30349hasW1>
+	rdfs:label "Zur Aetiologie und Pathogenese der Arteriosclerose. Diss. München 1889, 28 S." ;
+	a drw-model:W .
+
+<A/30349hasEducation2>
+	a drw-model:A ;
+	drw-model:ended <Year/1889> ;
+	rdfs:label "Studium der Medizin in Heidelberg, München (1886 Physikum), Berlin und Freiburg i. Br." ;
+	drw-model:began <Year/1884> .
+
+<Year/1909>
+	rdfs:label "1909" ;
+	a drw-model:Year .
+
+<Comment/30349_5>
+	<http://xmlns.com/foaf/0.1/homepage> <http://de.wikipedia.org/wiki/Kurt_Hensel> ;
+	a drw-model:Comment ;
+	rdfs:label "Ehefrau des Mathematikers Kurt Hensel (1861-1941), nicht des Neurologen Ernst Julius Remak (1849-1941) wie in Wikipedia (<b>SL</b>) angegeben. Vgl. Kurt Hensel unter Online Ressource (12.7.2011), und Neuner/Hützen 2012 (<b>SL</b>), 37." .
+
+<GeneralLabor/Professor_fr_Hygiene>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Hygiene" .
+
+<P/30349hasP4>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Hahn/Gaida/Hulverscheidt 2010 (<b>SL</b>), 25, und Wikipedia (<b>SL</b>)." .
+
+<P/30349hasP2>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Heymann 1934 (<b>SL</b>)." .
+
+<SL/30349hasSL4>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	rdfs:label "WBIS JBA: Jüdisches Biographisches Archiv (Online Ressource, 16.1.2013): II 210, 420-422." .
+
+<Place/Berlin>
+	a drw-model:Place ;
+	rdfs:label "Berlin" .
+
+<P/30349hasP5>
+	rdfs:label "Portraits in: Neuner/Hützen 2012 (<b>SL</b>): In jungen Jahren (S. 40), auf einem Gruppenfoto von 1920 (S. 104), in seiner Berliner Zeit (S. 117)." ;
+	a drw-model:P .
+
+<RelatedPerson/30349fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Albert (1824-1898), Großindustrieller, Inhaber der Firma „Hahn’sche Werke“ (Röhrenwalzwerke und Kunstwollhandel) in Berlin, mit einer Niederlassung in Moskau" .
+
+<Year/1901>
+	rdfs:label "1901" ;
+	a drw-model:Year .
+
+<SL/30349hasSL10>
+	a drw-model:SL ;
+	rdfs:label "Voswinckel, Peter (Hg.): Biographisches Lexikon der hervorragenden Ärzte der letzten fünfzig Jahre von Isidor Fischer †. Bände III-IV: Nachträge und Ergänzungen. 3. Bd. Hildesheim, Zürich, New York 2002, 576." .
+
+<B/30349hasStationOfLife17>
+	rdfs:label "weitere Reise nach Russland" ;
+	drw-model:inYear <Year/1913> ;
+	a drw-model:B .
+
+<GPV/30349hasGPV1>
+	rdfs:label "Auswahlbibliographie – Martin Hahn (1902-1933, 70 Nrn.), in: Schulz 1985 (<b>SL</b>), 111-115." ;
+	a drw-model:GPV .
+
+<Q/30349hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Nachlass (Notizbücher, Wissenschaftliche Briefe, Familienbriefe, Material über Forschung in Russland, Manuskripte und Vorträge, Verschiedenes, u. a. 3 Fotos, Schriftenverzeichnis), in: Wellcome Unit for the History of Medicine, Oxford." .
+
+<W/30349hasW2>
+	rdfs:label "Ėkkovskij svišč ven nižnej poloj i vorotnoj i ego posledstvija dlja organizma. I. Čast’ fiziologičeskaja (Vasilij Nikolaevič Massen, I. P. Pavlov); II. Čast’ chimičeskaja (M. Gan, M. V. Nenckij). Archiv biologičeskich nauk 1 (1892) 4, 400-446, 466 ff.; auch in: Russkij vrač (1904) Nr. 38, 1298 ff.; deutsch: Die Eck’sche Fistel zwischen der unteren Hohlvene und der Pfortader und ihre Folgen für den Organismus. I. Physiologischer Theil von O.[!] Massen und J. Pawlow; II. Chemischer Theil von M. Hahn und M. Nencki. Archiv für experimentelle Pathologie und Pharmakologie 32 (1893), 161-185, 185-201." ;
+	a drw-model:W .
+
+<B/30349hasStationOfLife6>
+	drw-model:began <Year/1893> ;
+	drw-model:ended <Year/1894> ;
+	a drw-model:B ;
+	rdfs:label "Assistent am Pathologischen Institut der Universität Halle" .
+
+<Comment/30349_2>
+	rdfs:label "In allen Nachschlagewerken in WBIS JBA (<b>SL</b>) ist fälschlicherweise als Todesjahr 1943 (Zahlendreher) angegeben." ;
+	a drw-model:Comment .
+
+<P/30349hasP3>
+	a drw-model:P ;
+	rdfs:label "Portraits in: Schulz 1985 (<b>SL</b>): Jugendfoto, S. 23; Foto aus der Berliner Zeit 1922-1933, S. 79." .
+
+<B/30349hasStationOfLife16>
+	drw-model:ended <Year/1922> ;
+	rdfs:label "o. Professor an der Universität Freiburg i. Br." ;
+	drw-model:began <Year/1912> ;
+	a drw-model:B .
+
+<Year/1922>
+	rdfs:label "1922" ;
+	a drw-model:Year .
+
+<WL/30349hasWL5>
+	rdfs:label "Mitherausgeber der <i>Zeitschrift für Hygiene und Infektionskrankheiten, medizinische Mikrobiologie, Immunologie und Virologie</i>" ;
+	a drw-model:WL .
+
+<Year/1894>
+	rdfs:label "1894" ;
+	a drw-model:Year .
+
+<Date/17_4_1865>
+	a drw-model:Date ;
+	rdfs:label "17.4.1865" .
+
+<Year/1914>
+	rdfs:label "1914" ;
+	a drw-model:Year .
+
+<A/30349hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Promotion zum Dr. med. an der Universität München bei Wilhelm von <span style='font-variant:small-caps;'>Ziemssen</span> (1829-1902)" ;
+	drw-model:inYear <Year/1889> .
+
+<B/30349hasStationOfLife1>
+	drw-model:ended <Year/1890> ;
+	drw-model:began <Year/1889> ;
+	a drw-model:B ;
+	drw-model:hasNameLink <ImportantPerson/30550> ;
+	rdfs:label "Assistent am Hygiene-Institut der Universität Berlin bei R. <span style='font-variant:small-caps;'>Koch</span>" .
+
+<MainName/30349hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30349hasNameVariation1> ;
+	rdfs:label "Hahn, Martin John" ;
+	drw-model:hasNameVariation <NameVariation/30349hasNameVariation2> ;
+	drw-model:hasComment <Comment/30349_1> .
+
+<Q/30349hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Archivalien in: Staatsarchiv Hamburg, Universität Hamburg, Bayerisches Hauptstaatsarchiv München, Staatsarchiv München, Universität München, Zentrales Staatsarchiv Dienstelle Merseburg." .
+
+<W/30349hasW3>
+	rdfs:label "Ueber die Beziehungen der Leucocyten zur bactericiden Wirkung des Blutes. Habil.-Schr. München 1895, 42 S." ;
+	a drw-model:W .
+
+<Comment/30349_3>
+	rdfs:label "Abbildung vgl. Wikipedia (<b>SL</b>)." ;
+	a drw-model:Comment .
+
+<B/30349hasStationOfLife10>
+	rdfs:label "Forschungsreise nach Indien (Peststudien in Bombay)" ;
+	drw-model:inYear <Year/1901> ;
+	drw-model:inYear <Year/1909> ;
+	a drw-model:B .
+
+<ImportantPerson/30785>
+	a drw-model:ImportantPerson .
+
+<B/30349hasStationOfLife9>
+	drw-model:ended <Year/1911> ;
+	drw-model:began <Year/1901> ;
+	a drw-model:B ;
+	rdfs:label "ao. Professor an der Universität München" .
+
+<GPV/30349hasGPV2>
+	rdfs:label "Bibliography of Publications of Martin Hahn, 1889-1933, in: Weindling 1985 (<b>SL</b>), 9-20." ;
+	a drw-model:GPV .
+
+<Year/1933>
+	rdfs:label "1933" ;
+	a drw-model:Year .
+
+<Year/1903>
+	rdfs:label "1903" ;
+	a drw-model:Year .
+
+<Year/1889>
+	rdfs:label "1889" ;
+	a drw-model:Year .
+
+<SL/30349hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Hahn, Judith, Gaida, Ulrike, Hulverscheidt, Marion: 125 Jahre Hygiene-Institute an Berliner Universitäten. Eine Festschrift. Berlin 2010, 25-27 (Online Ressource)." ;
+	drw-model:hasDate "13.7.2011" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://hygiene.charite.de/fileadmin/user_upload/microsites/m_cc05/hygiene/Brosch_Hygiene_VS.pdf" .
+
+<WL/30349hasWL2>
+	rdfs:label "1903 Nachweis der Zymase (Gärungsferment, insb. in der Hefe)" ;
+	a drw-model:WL .
+
+<Year/1895>
+	rdfs:label "1895" ;
+	a drw-model:Year .
+
+<Year/1913>
+	rdfs:label "1913" ;
+	a drw-model:Year .
+
+<ImportantPerson/30550>
+	a drw-model:ImportantPerson .
+
+<Year/1893>
+	a drw-model:Year ;
+	rdfs:label "1893" .
+
+<B/30349hasStationOfLife11>
+	a drw-model:B ;
+	drw-model:began <Year/1905> ;
+	rdfs:label "Honorar-Professor an der Technischen Hochschule München" .
+
+<GPV/30349hasGPV3>
+	rdfs:label "Schriftenverzeichnis Martin Hahn von Paul Weindling in: Neuner/Hützen 2012 (<b>SL</b>), 236-248." ;
+	a drw-model:GPV .
+
+<SL/30349hasSL12>
+	<http://xmlns.com/foaf/0.1/homepage> "http://de.wikipedia.org/wiki/Martin_Hahn_(Mikrobiologe)" ;
+	a drw-model:SL ;
+	drw-model:hasDate "12.7.2011" ;
+	rdfs:label "Wikipedia (Online Ressource)." .
+
+<B/30349hasStationOfLife8>
+	drw-model:began <Year/1895> ;
+	drw-model:ended <Year/1901> ;
+	a drw-model:B ;
+	rdfs:label "Privatdozent an der Universität München" .
+
+<MG/30349hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Berliner Medizinische Gesellschaft, Deutsche Gesellschaft für Volkshygiene" .
+
+<Date/4_11_19342>
+	a drw-model:Date ;
+	drw-model:hasComment <Comment/30349_2> ;
+	rdfs:label "4.11.1934[2]" .
+
+<WL/30349hasWL3>
+	rdfs:label "1904 Hahnsches Sterilisationsverfahren für Nahtmaterial" ;
+	a drw-model:WL .
+
+<SL/30349hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 81." .
+
+<B/30349hasStationOfLife18>
+	rdfs:label "im I. Weltkrieg Korps- und Armeehygieniker an verschiedenen Fronten, u. a. 1918 in Odessa" ;
+	drw-model:began <Year/1914> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1918> .
+
+<ImportantPerson/30799>
+	a drw-model:ImportantPerson .
+
+<Place/Berlin_Grabsttte_Friedhof_Wann>
+	a drw-model:Place ;
+	drw-model:hasComment <Comment/30349_3> ;
+	rdfs:label "Berlin, Grabstätte: Friedhof Wannsee II (Ehrengrab)" .
+
+<Year/1904>
+	rdfs:label "1904" ;
+	a drw-model:Year .
+
+<HonoursAndAwards/30349hasHonoursAndAwards1>
+	rdfs:label "Eisernes Kreuz 1. und 2. Klasse (für Einsatz im I. Weltkrieg)<br>1924 Geheimer Hofrat" ;
+	a drw-model:HonoursAndAwards .
+
+<RelatedPerson/30349hasSibling1>
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30349_5> ;
+	rdfs:label "Oscar (1860-1907), Großindustrieller<br>Georg (1864-1953), Jurist, Großindustrieller<br>Martha, verh. Remak[4] (1857-1932)<br>Gertrud, verh. Hensel[5] (1866-1954)<br>Johannes (Hans), Geheimer Regierungsrat<br>Fanny" ;
+	drw-model:hasComment <Comment/30349_4> .
+
+<Year/1912>
+	rdfs:label "1912" ;
+	a drw-model:Year .
+
+<Comment/30349_1>
+	a drw-model:Comment ;
+	rdfs:label "Jüdischer Abstammung, um 1884 Konvertierung zum Protestantismus." .
+
+<B/30349hasStationOfLife3>
+	drw-model:hasNameLink <ImportantPerson/10151> ;
+	drw-model:began <Year/1891> ;
+	a drw-model:B ;
+	rdfs:label "Assistent am Physiologischen-chemischen Institut an der Universität Bern bei Marcel <span style='font-variant:small-caps;'>Nencki</span> (1847-1901)" .
+
+<Year/1890>
+	rdfs:label "1890" ;
+	a drw-model:Year .
+
+<SL/30349hasSL8>
+	rdfs:label "Schulz, Elke: Leben und Werk des Hygienikers Martin Hahn (1865-1934). Diss. Erfurt 1985, 156 S." ;
+	a drw-model:SL .
+
+<B/30349hasStationOfLife7>
+	drw-model:ended <Year/1895> ;
+	rdfs:label "Assistent am Hygiene-Institut der Universität München bei Max Josef von <span style='font-variant:small-caps;'>Pettenkofer</span> (1818-1901), Hans <span style='font-variant:small-caps;'>Buchner</span> (1850-1902) und Max von <span style='font-variant:small-caps;'>Gruber</span> (1853-1927)" ;
+	drw-model:began <Year/1894> ;
+	a drw-model:B ;
+	drw-model:hasNameLink <ImportantPerson/30799> .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<B/30349hasStationOfLife12>
+	drw-model:inYear <Year/1903> ;
+	rdfs:label "Reisen zu Seuchenbekämpfung und Cholerastudien nach Süd-Russland (Wolgagebiet und Kaspisches Meer), Russisch-Mittelasien (Ural) und nach St. Petersburg (Obuchov-Krankenhaus)" ;
+	drw-model:inYear <Year/1908> ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1904> .
+
+<A/30349hasEducation4>
+	a drw-model:A ;
+	drw-model:inYear <Year/1895> ;
+	rdfs:label "Habilitation in Hygiene an der Universität München" .
+
+<Year/1911>
+	rdfs:label "1911" ;
+	a drw-model:Year .
+
+<B/30349hasStationOfLife21>
+	a drw-model:B .
+
+<B/30349hasStationOfLife19>
+	rdfs:label "o. Professor und Direktor des Hygiene-Instituts in Berlin" ;
+	drw-model:ended <Year/1933> ;
+	a drw-model:B ;
+	drw-model:began <Year/1922> .
+
+<Year/1905>
+	a drw-model:Year ;
+	rdfs:label "1905" .
+
+<NameVariation/30349hasNameVariation1>
+	rdfs:label "Ган, Мартын Альбертович"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Gan, Martyn Al’bertovič"@de .
+
+<SL/30349hasSL9>
+	rdfs:label "Schütz [Franz]: Martin Hahn †. Deutsche medizinische Wochenschrift 61 (1935), 69-70." ;
+	a drw-model:SL .
+
+<ImportantPerson/10151>
+	a drw-model:ImportantPerson .
+
+<Year/1891>
+	rdfs:label "1891" ;
+	a drw-model:Year .
+
+<B/30349hasStationOfLife2>
+	drw-model:hasNameLink <ImportantPerson/31069> ;
+	drw-model:began <Year/1890> ;
+	drw-model:ended <Year/1891> ;
+	a drw-model:B ;
+	rdfs:label "Assistent an der Universität Berlin, zunächst in der bakteriologischen Abteilung, danach in der chemischen Abteilung des Pathologischen Instituts bei Ernst Leopold <span style='font-variant:small-caps;'>Salkowski</span> (1844-1923) und am Institut für Pathologische Anatomie bei R. <span style='font-variant:small-caps;'>Virchow</span>" .
+
+<Year/1918>
+	rdfs:label "1918" ;
+	a drw-model:Year .
+
+<B/30349hasStationOfLife13>
+	drw-model:hasNameLink <ImportantPerson/30785> ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1905> ;
+	rdfs:label "erneut bei <span style='font-variant:small-caps;'>Pavlov</span> am IEM in St. Petersburg" .
+
+<AlsoImportantInfo/30349hasAlsoImportantInfo1>
+	a drw-model:AlsoImportantInfo ;
+	rdfs:label "Tätigkeit in verschiedenen Kommissionen, darunter Mitglied des Senats der Kaiser-Wilhelm-Akademie, Mitglied des Reichsgesundheitsrates und des Gesundheitsrates Preußens, 1892 ärztlicher Beirat in der staatlichen Cholerakommission im Oderstromgebiet und 1930/1931 Gutachter für den Calmette-Prozess am 12. Oktober 1931 in Lübeck" .
+
+<Year/1910>
+	rdfs:label "1910" ;
+	a drw-model:Year .
+
+<WL/30349hasWL1>
+	rdfs:label "Hauptforschungsgebiete: Bakteriologie, Immunologie, Toxikologie, Gewerbe- und Sozialhygiene" ;
+	a drw-model:WL .
+
+<RelatedPerson/30349motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Therese, geb. Rosenthal (1832-1912)" .
+
+<NameVariation/30349hasNameVariation2>
+	rdfs:label "Gan, Martin Al’bert"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Ган, Мартин Альберт"@ru .
+
+<GeneralLabor/Mikrobiologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Mikrobiologe" .
+
+<B/30349hasStationOfLife20>
+	rdfs:label "Enthebung von allen Ämtern und vorzeitige Emeritierung" ;
+	drw-model:inYear <Year/1933> ;
+	a drw-model:B .
+
+<SL/30349hasSL1>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	rdfs:label "WBIS DBA: Deutsches Biographisches Archiv (Online Ressource, 16.1.2013): II 512, 270-272." .
+

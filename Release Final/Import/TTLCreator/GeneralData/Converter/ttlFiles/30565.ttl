@@ -1,0 +1,595 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<B/30565hasStationOfLife6>
+	drw-model:began <Year/1895> ;
+	drw-model:ended <Year/1901> ;
+	a drw-model:B ;
+	rdfs:label "o. Professor für Physiologie und 1901 Direktor des Physiologischen Instituts an der Universität Marburg" .
+
+<RelatedPerson/30565fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Albrecht (1827-1919), Bankdirektor, Schiffsreeder, preußischer Konsul" .
+
+<Year/1896>
+	rdfs:label "1896" ;
+	a drw-model:Year .
+
+<Year/1927>
+	rdfs:label "1927" ;
+	a drw-model:Year .
+
+<SL/30565hasSL22>
+	a drw-model:SL ;
+	rdfs:label "Rossijskaja akademija nauk. Personal’nyj sostav. Kniga 1: 1724-1917. Moskva 1999; Kniga 2: 1918-1973. Moskva 1999 Kniga 2 (1999), 363." .
+
+<SL/30565hasSL4>
+	rdfs:label "Catalogus professorum Academiae Marburgensis. Die akademischen Lehrer der Philipps-Universität in Marburg. Bd. 1. Marburg 1927 (Veröffentlichungen der Historischen Kommission für Hessen und Waldeck 15), 245-246." ;
+	a drw-model:SL .
+
+<Year/1875>
+	rdfs:label "1875" ;
+	a drw-model:Year .
+
+<SL/30565hasSL11>
+	rdfs:label "Felix, Kurt: Albrecht Kossel. Leben und Werk. Die Naturwissenschaften 42 (1955), 473-478." ;
+	a drw-model:SL .
+
+<A/30565hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Ärztliche Approbation in Schwerin" ;
+	drw-model:inYear <Year/1877> .
+
+<Year/1917>
+	rdfs:label "1917" ;
+	a drw-model:Year .
+
+<B/30565hasStationOfLife14>
+	rdfs:label "Emeritierung an der Universität Heidelberg" ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1923> .
+
+<Year/1887>
+	rdfs:label "1887" ;
+	a drw-model:Year .
+
+<Date/5_7_1927>
+	a drw-model:Date ;
+	rdfs:label "5.7.1927" .
+
+<Year/1897>
+	rdfs:label "1897" ;
+	a drw-model:Year .
+
+<Q/30565hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr. 2658." .
+
+<B/30565hasStationOfLife9>
+	drw-model:ended <Year/1906> ;
+	a drw-model:B ;
+	drw-model:began <Year/1905> ;
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Heidelberg" .
+
+<Year/1908>
+	rdfs:label "1908" ;
+	a drw-model:Year .
+
+<SL/30565hasSL23>
+	a drw-model:SL ;
+	rdfs:label "Rothschuh, Karl Eduard: Geschichte der Physiologie. Berlin, Göttingen, Heidelberg 1953, 177." .
+
+<SL/30565hasSL5>
+	rdfs:label "Deutsche Biographische Enzyklopädie. Hrsg. v. Walther Killy und Rudolf Vierhaus. Bd. 1-10. München u. a. 1995-1999,  Bd. 6 (1997), 52." ;
+	a drw-model:SL .
+
+<Year/1924>
+	rdfs:label "1924" ;
+	a drw-model:Year .
+
+<RelatedPerson/30565wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Luise, geb. Holtzmann (1864-1913)" .
+
+<SL/30565hasSL10>
+	rdfs:label "Engelhardt, Dietrich von (Hg.): Biographische Enzyklopädie deutschsprachiger Mediziner. Bd. 1-2. München 2002, 339-340, und ~ 2003, 488-489." ;
+	a drw-model:SL .
+
+<B/30565hasStationOfLife13>
+	drw-model:began <Year/1917> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1918> ;
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Heidelberg" .
+
+<P/30565hasP2>
+	rdfs:label "Portraits in <b>SL</b> (Auswahl): Drüll 1986, Pfrepper/Pfrepper/Volkov 2012, RAN, Rothschuh 1953, Wikipedia." ;
+	a drw-model:P .
+
+<Year/1876>
+	rdfs:label "1876" ;
+	a drw-model:Year .
+
+<B/30565hasStationOfLife1>
+	drw-model:began <Year/1880> ;
+	drw-model:ended <Year/1881> ;
+	a drw-model:B ;
+	rdfs:label "Militärdienst" .
+
+<A/30565hasEducation4>
+	a drw-model:A ;
+	drw-model:began <Year/1876> ;
+	drw-model:ended <Year/1877> ;
+	rdfs:label "Studium an der Universität Rostock" .
+
+<Year/1920>
+	rdfs:label "1920" ;
+	a drw-model:Year .
+
+<Year/1878>
+	rdfs:label "1878" ;
+	a drw-model:Year .
+
+<A/30565hasEducation7>
+	a drw-model:A ;
+	drw-model:inYear <Year/1881> ;
+	rdfs:label "Habilitation für physiologische Chemie an der Universität Straßburg" .
+
+<SL/30565hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Poggendorff - Biographisch-literarisches Handwörterbuch zur Geschichte der exacten Naturwissenschaften, enthaltend Nachweisungen über Lebensverhältnisse und Leistungen von Mathematikern, Astronomen, Physikern, Chemikern, Mineralogen, Geologen usw. aller Völker und Zeiten. Gesammelt von J. C. Poggendorff, Mitglied der Akademie der Wissenschaften zu Berlin / J. C. Poggendorff - Biographisch-literarisches Handwörterbuch der exakten Naturwissenschaften. Bd. 1-8. Leipzig, Berlin 1863-2004. Bd. 4, 795; Bd. 5, 672; Bd. 6, 1386-1387; Bd. 7a, 884." .
+
+<B/30565hasStationOfLife8>
+	rdfs:label "o. Professor für Physiologie und Direktor des Physiologischen Instituts an der Universität Heidelberg" ;
+	drw-model:began <Year/1901> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1923> .
+
+<Year/1909>
+	rdfs:label "1909" ;
+	a drw-model:Year .
+
+<SL/30565hasSL24>
+	a drw-model:SL ;
+	rdfs:label "Unsöld, Albrecht: Walther Kossel zum hundertsten Geburtstag. Christiana Albertina. Forschungen und Berichte aus der Christian-Albrechts-Universität zu Kiel N.F. 27 (1988), 71-73." .
+
+<B/30565hasStationOfLife16>
+	rdfs:label "Gründer und Leiter des Instituts für Eiweißforschung in Heidelberg" ;
+	drw-model:began <Year/1924> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1927> .
+
+<SL/30565hasSL13>
+	rdfs:label "Kaudewitz, Fritz: Albrecht Kossel, 1853-1927. In: Rudolf Erckmann (Hg.): Via triumphalis. Nobelpreisträger im Kampf gegen den Tod. München u.a. 1954, 100-114." ;
+	a drw-model:SL .
+
+<Year/1877>
+	rdfs:label "1877" ;
+	a drw-model:Year .
+
+<SL/30565hasSL18>
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 903." ;
+	a drw-model:SL .
+
+<Year/1901>
+	rdfs:label "1901" ;
+	a drw-model:Year .
+
+<WL/30565hasWL4>
+	rdfs:label "Entdeckung des Histidins" ;
+	a drw-model:WL .
+
+<Year/1881>
+	rdfs:label "1881" ;
+	a drw-model:Year .
+
+<SL/30565hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Brock, Josef: Kossel, Albrecht Karl Ludwig Martin Leonhard. In: Sabine Pettke (Hg.): Biographisches Lexikon für Mecklenburg. Bd. 2. Rostock 1999 (Veröffentlichungen der Historischen Kommission für Mecklenburg, Reihe A), 151-152." .
+
+<A/30565hasEducation6>
+	a drw-model:A ;
+	rdfs:label "Promotion zum Dr. med. an der Universität Rostock" ;
+	drw-model:inYear <Year/1878> .
+
+<B/30565hasStationOfLife17>
+	a drw-model:B .
+
+<SL/30565hasSL14>
+	a drw-model:SL ;
+	rdfs:label "Kipnis, Alexander: Kossel, Albrecht (1853-1927), Biochemiker (Online Ressource)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.kipnis.de/index.php?option=com_content&amp;task=view&amp;id=141&amp;Itemid=26" ;
+	drw-model:hasDate "29.8.2011" .
+
+<GPV/30565hasGPV1>
+	rdfs:label "Publikationen 1904-1929, in: Poggendorff Bd. 5 und 6." ;
+	a drw-model:GPV .
+
+<SL/30565hasSL25>
+	rdfs:label "Vinogradov, Jurij Abramovič, Golikov, Jurij Pavlovič, Grekova, Tat’jana Ivanovna (Sostaviteli): I. P. Pavlov: Dostovernost’ i polnota biografii. Sankt-Peterburg 2005, 137." ;
+	a drw-model:SL .
+
+<Place/Rostock>
+	a drw-model:Place ;
+	rdfs:label "Rostock" .
+
+<B/30565hasStationOfLife3>
+	rdfs:label "Privatdozent an der Universität Straßburg" ;
+	drw-model:ended <Year/1883> ;
+	drw-model:began <Year/1881> ;
+	a drw-model:B .
+
+<RelatedPerson/30565motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Clara (Klara), geb. Jeppe (1830-1911)" .
+
+<WL/30565hasWL5>
+	rdfs:label "21 (1895/96) - 22 (1896) Mitherausgeber, ab 23 (1897) Herausgeber von <i>Hoppe-Seylers Zeitschrift für Physiologische Chemie</i>" ;
+	a drw-model:WL .
+
+<SL/30565hasSL12>
+	rdfs:label "Felix, [Kurt]: Albrecht Kossel †. Klinische Wochenschrift 6 (1927), 1878-1879." ;
+	a drw-model:SL .
+
+<ImportantPerson/10009>
+	a drw-model:ImportantPerson .
+
+<B/30565hasStationOfLife10>
+	drw-model:hasNameLink <ImportantPerson/30785> ;
+	rdfs:label "Forschungsaufenthalt bei I. P. <span style='font-variant:small-caps;'>Pavlov</span> am Institut für Experimentelle Medizin (IEM) in St. Petersburg" ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1905> .
+
+<Year/1880>
+	rdfs:label "1880" ;
+	a drw-model:Year .
+
+<W/30565hasW1>
+	rdfs:label "Über die chemischen Wirkungen der Diffusion. Diss. an der Universität Rostock. Straßburg 1878, 19 S.; Reprint: Zürich, Białogard 1998." ;
+	a drw-model:W .
+
+<SL/30565hasSL8>
+	a drw-model:SL ;
+	rdfs:label "Eckart, Wolfgang U.: Kossel Albrecht. In: Eckart, Wolfgang U., Gradmann, Christoph: Ärzte Lexikon. Von der Antike bis zur Gegenwart. 3. Aufl. Heidelberg u. a. 2006, 196-197." .
+
+<Year/1923>
+	a drw-model:Year ;
+	rdfs:label "1923" .
+
+<SL/30565hasSL26>
+	rdfs:label "Walter, Heinz: Kossel, Albrecht. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. Bd. 12 (1980), 615-616 (Onlinefassung unter Online Ressource)." ;
+	drw-model:hasDate "25.8.2011" ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/pnd116343338.html" .
+
+<ImportantPerson/30785>
+	a drw-model:ImportantPerson .
+
+<Place/Heidelberg>
+	a drw-model:Place ;
+	rdfs:label "Heidelberg" .
+
+<WL/30565hasWL2>
+	rdfs:label "Erforschung der Nukleinsäuren und des Zellkerns, Untersuchung der Eiweißkörper" ;
+	a drw-model:WL .
+
+<SLComment/30565hasSLComment1>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<Year/1895>
+	rdfs:label "1895" ;
+	a drw-model:Year .
+
+<A/30565hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Abschluss des Gymnasiums zu Rostock" ;
+	drw-model:inYear <Year/1872> .
+
+<ImportantPerson/30395>
+	a drw-model:ImportantPerson .
+
+<B/30565hasStationOfLife2>
+	drw-model:began <Year/1877> ;
+	drw-model:ended <Year/1881> ;
+	rdfs:label "Assistent bei <span style='font-variant:small-caps;'>Hoppe-Seyler</span> an der Universität Straßburg" ;
+	a drw-model:B ;
+	drw-model:hasNameLink <ImportantPerson/30395> .
+
+<A/30565hasEducation8>
+	a drw-model:A ;
+	drw-model:inYear <Year/1883> ;
+	rdfs:label "Habilitation für Anatomie und Physiologie an der Universität Berlin" .
+
+<MainName/30565hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30565hasNameVariation1> ;
+	rdfs:label "Kossel, Albrecht Ludwig Karl Martin Leonhard" .
+
+<B/30565hasStationOfLife11>
+	drw-model:ended <Year/1909> ;
+	drw-model:began <Year/1908> ;
+	a drw-model:B ;
+	rdfs:label "Prorektor der Universität Heidelberg" .
+
+<SL/30565hasSL1>
+	rdfs:label "Adomßent, Siegmar: Pionier der Zellforschung. Albrecht Kossel – ein Nobelpreisträger aus Rostock. Mecklenburg-Magazin (2003) Nr. 38, 22." ;
+	a drw-model:SL .
+
+<GeneralLabor/Hygieniker>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hygieniker" .
+
+<W/30565hasW2>
+	rdfs:label "Untersuchungen über die Nucleïne und ihre Spaltungsprodukte. Habil.-Schr. Straßburg 1881, 19 S." ;
+	a drw-model:W .
+
+<SL/30565hasSL15>
+	rdfs:label "Krause, Antje: Kossel, Albrecht. In: 100 bedeutende Mecklenburger und Vorpommern. Teil 1: Die Mecklenburger. Schwerin 1999, 83-84." ;
+	a drw-model:SL .
+
+<NameVariation/30565hasNameVariation1>
+	rdfs:label "Коссель, Альбрехт"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Kossel', Al’brecht"@de .
+
+<WL/30565hasWL3>
+	rdfs:label "Bestimmung der fünf Basen der Nukleïnsäuren (Adenin, Thymin, Guanin, Cytosin und Uracil)" ;
+	a drw-model:WL .
+
+<B/30565hasStationOfLife5>
+	rdfs:label "ao. Professor an der Medizinischen Fakultät der Universität Berlin" ;
+	drw-model:ended <Year/1895> ;
+	a drw-model:B ;
+	drw-model:began <Year/1887> .
+
+<Year/1872>
+	rdfs:label "1872" ;
+	a drw-model:Year .
+
+<SL/30565hasSL6>
+	rdfs:label "WBIS DBA: Deutsches Biographisches Archiv (Online Ressource, 16.1.2013):I 696, 451; II 747, 155-162; III 510, 131-142." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" .
+
+<B/30565hasStationOfLife12>
+	drw-model:inYear <Year/1911> ;
+	rdfs:label "Vortragsreise an der John Hopkins University in Baltimore (USA)" ;
+	a drw-model:B .
+
+<SL/30565hasSL28>
+	<http://xmlns.com/foaf/0.1/homepage> "http://de.wikipedia.org/wiki/Albrecht_Kossel" ;
+	a drw-model:SL ;
+	drw-model:hasDate "29.8.2011" ;
+	rdfs:label "Wikipedia (Online Ressource)." .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<HonoursAndAwardsComment/30565hasHonoursAndAwardsComment1>
+	rdfs:label "Ehrungen und Auszeichnungen (Auswahl):" ;
+	a drw-model:HonoursAndAwardsComment .
+
+<ImportantPerson/30565>
+	drw-model:hasSL <SL/30565hasSL18> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30565hasHonoursAndAwards1> ;
+	drw-model:hasDescendant <RelatedPerson/30565hasDescendant1> ;
+	drw-model:hasEducation <A/30565hasEducation1> ;
+	drw-model:hasStationOfLife <B/30565hasStationOfLife3> ;
+	drw-model:hasSL <SL/30565hasSL12> ;
+	drw-model:hasSL <SL/30565hasSL27> ;
+	drw-model:hasSL <SL/30565hasSL20> ;
+	drw-model:hasHonoursAndAwardsComment <HonoursAndAwardsComment/30565hasHonoursAndAwardsComment1> ;
+	drw-model:wasBornIn <Place/Rostock> ;
+	drw-model:hasEducation <A/30565hasEducation2> ;
+	drw-model:hasW <W/30565hasW1> ;
+	drw-model:hasSL <SL/30565hasSL11> ;
+	drw-model:hasGPV <GPV/30565hasGPV1> ;
+	drw-model:hasSL <SL/30565hasSL2> ;
+	drw-model:hasStationOfLife <B/30565hasStationOfLife8> ;
+	drw-model:motherIs <RelatedPerson/30565motherIs1> ;
+	drw-model:hasStationOfLife <B/30565hasStationOfLife15> ;
+	drw-model:hasMainName <MainName/30565hasMainName1> ;
+	drw-model:hasSL <SL/30565hasSL10> ;
+	drw-model:hasWL <WL/30565hasWL2> ;
+	drw-model:hasWL <WL/30565hasWL1> ;
+	drw-model:hasStationOfLife <B/30565hasStationOfLife17> ;
+	drw-model:hasSL <SL/30565hasSL21> ;
+	drw-model:hasStationOfLife <B/30565hasStationOfLife7> ;
+	drw-model:hasEducation <A/30565hasEducation6> ;
+	drw-model:hasW <W/30565hasW2> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30565.jpg> ;
+	drw-model:hasStationOfLife <B/30565hasStationOfLife6> ;
+	drw-model:fatherIs <RelatedPerson/30565fatherIs1> ;
+	drw-model:hasWL <WL/30565hasWL4> ;
+	drw-model:hasSL <SL/30565hasSL1> ;
+	drw-model:hasSL <SL/30565hasSL6> ;
+	drw-model:hasSL <SL/30565hasSL3> ;
+	drw-model:hasSL <SL/30565hasSL14> ;
+	drw-model:hasP <P/30565hasP2> ;
+	drw-model:hasID "30565" ;
+	drw-model:hasSL <SL/30565hasSL22> ;
+	drw-model:hasStationOfLife <B/30565hasStationOfLife10> ;
+	drw-model:hasSL <SL/30565hasSL15> ;
+	drw-model:hasEducation <A/30565hasEducation7> ;
+	drw-model:hasSL <SL/30565hasSL16> ;
+	drw-model:hasSL <SL/30565hasSL8> ;
+	drw-model:hasStationOfLife <B/30565hasStationOfLife13> ;
+	drw-model:hasWL <WL/30565hasWL3> ;
+	drw-model:hasStationOfLife <B/30565hasStationOfLife2> ;
+	drw-model:hasWL <WL/30565hasWL5> ;
+	drw-model:hasStationOfLife <B/30565hasStationOfLife14> ;
+	drw-model:hasEducation <A/30565hasEducation8> ;
+	drw-model:hasSL <SL/30565hasSL19> ;
+	drw-model:hasStationOfLife <B/30565hasStationOfLife1> ;
+	drw-model:diedIn <Place/Heidelberg> ;
+	drw-model:hasSL <SL/30565hasSL17> ;
+	drw-model:hasStationOfLife <B/30565hasStationOfLife16> ;
+	drw-model:hasSL <SL/30565hasSL4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Physiologie> ;
+	drw-model:hasStationOfLife <B/30565hasStationOfLife11> ;
+	drw-model:diedOn <Date/5_7_1927> ;
+	drw-model:wasBornOn <Date/16_9_1853> ;
+	drw-model:hasEducation <A/30565hasEducation3> ;
+	drw-model:hasStationOfLife <B/30565hasStationOfLife5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Hygieniker> ;
+	drw-model:hasSL <SL/30565hasSL9> ;
+	drw-model:hasSLComment <SLComment/30565hasSLComment1> ;
+	drw-model:hasSL <SL/30565hasSL23> ;
+	rdfs:label "Kossel, Albrecht Ludwig Karl Martin Leonhard" ;
+	drw-model:hasEducation <A/30565hasEducation4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Biochemiker> ;
+	drw-model:hasP <P/30565hasP1> ;
+	drw-model:hasSL <SL/30565hasSL7> ;
+	drw-model:hasQ <Q/30565hasQ1> ;
+	drw-model:hasSL <SL/30565hasSL24> ;
+	drw-model:hasMG <MG/30565hasMG1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <W/30565hasW3> ;
+	drw-model:hasSL <SL/30565hasSL13> ;
+	drw-model:hasStationOfLife <B/30565hasStationOfLife12> ;
+	drw-model:hasStationOfLife <B/30565hasStationOfLife9> ;
+	drw-model:wasMarriedTo <RelatedPerson/30565wasMarriedTo1> ;
+	drw-model:hasSL <SL/30565hasSL28> ;
+	drw-model:hasEducation <A/30565hasEducation5> ;
+	drw-model:hasSL <SL/30565hasSL5> ;
+	drw-model:hasStationOfLife <B/30565hasStationOfLife4> ;
+	drw-model:hasSL <SL/30565hasSL25> ;
+	drw-model:hasSL <SL/30565hasSL26> .
+
+<SL/30565hasSL20>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 115, 119, 133." .
+
+<MG/30565hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Leopoldina (1887), Académie des Sciences, Paris (1902), Kungliga Vetenskapsakademien, Stockholm [Königlich Schwedische Akademie der Wissenschaften] (1902), Kungliga Vetenskaps-Societeten i Uppsala [Königliche Gesellschaft der Wissenschaften in Uppsala] (1902), Reale Accademia delle Scienze di Torino (1903), Heidelberger Akademie der Wissenschaften (1909), Kongelige Danske Videnskabernes Selskab [Königlich Dänische Akademie der Wissenschaften] (1909), Akademie der Wissenschaften zu Göttingen (1918), National Academy of Sciences, Washington (1919), Akademija nauk SSSR [Akademie der Wissenschaften der UdSSR] (Ehrenmitglied 1926)" .
+
+<Year/1911>
+	rdfs:label "1911" ;
+	a drw-model:Year .
+
+<SL/30565hasSL27>
+	rdfs:label "Wegbereiter unserer naturwissenschaftlich-medizinischen Moderne (Online Ressource)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://appserv5.ph-heidelberg.de/onlinelex/index.php?id=661" ;
+	drw-model:hasDate "29.8.2011" .
+
+<SL/30565hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Edlbacher, Siegfried: Albrecht Kossel zum Gedächtnis. Zeitschrift für physiologische Chemie 177 (1928), 1-14." .
+
+<ImportantPerson/30318>
+	a drw-model:ImportantPerson .
+
+<SL/30565hasSL17>
+	rdfs:label "Manke, Matthias: Erinnerung an Albrecht Kossel aus Anlass des 100. Jahrestages seiner Auszeichnung mit dem Nobelpreis für Medizin und Psychologie. Beiträge zur Geschichte der Stadt Rostock 31 ( 2011), 57-113." ;
+	a drw-model:SL .
+
+<Year/1905>
+	a drw-model:Year ;
+	rdfs:label "1905" .
+
+<Year/1883>
+	rdfs:label "1883" ;
+	a drw-model:Year .
+
+<B/30565hasStationOfLife4>
+	drw-model:began <Year/1883> ;
+	rdfs:label "Privatdozent und Vorsteher der chemischen Abteilung am Physiologischen Institut der Universität Berlin" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1887> .
+
+<B/30565hasStationOfLife15>
+	drw-model:ended <Year/1927> ;
+	a drw-model:B ;
+	rdfs:label "Sekretar der Mathematisch-naturwissenschaftlichen Klasse der Heidelberger Akademie der Wissenschaften" ;
+	drw-model:began <Year/1920> .
+
+<A/30565hasEducation3>
+	a drw-model:A ;
+	drw-model:ended <Year/1875> ;
+	drw-model:began <Year/1874> ;
+	rdfs:label "Studium an der Universität Rostock" .
+
+<SL/30565hasSL7>
+	rdfs:label "Drüll, Dagmar: Heidelberger Gelehrtenlexikon 1803-1932. Heidelberg 1986, 147." ;
+	a drw-model:SL .
+
+<A/30565hasEducation2>
+	drw-model:hasNameLink <ImportantPerson/10009> ;
+	drw-model:began <Year/1872> ;
+	rdfs:label "Studium der Medizin sowie der Naturwissenschaften an der Universität Straßburg bei dem Biochemiker F. <span style='font-variant:small-caps;'>Hoppe-Seyler</span>, dem Botaniker Anton de <span style='font-variant:small-caps;'>Bary</span> (1831-1888), dem Anatom Wilhelm <span style='font-variant:small-caps;'>Waldeyer</span> (1836-1921), dem Physiologen F. L. <span style='font-variant:small-caps;'>Goltz</span>, dem Pathologen Friedrich Daniel von <span style='font-variant:small-caps;'>Recklinghausen</span> (1833-1910), dem Chemiker Adolf von <span style='font-variant:small-caps;'>Baeyer</span> (1835-1917) und dem Physiker August <span style='font-variant:small-caps;'>Kundt</span> (1839-1894)" ;
+	drw-model:ended <Year/1874> ;
+	drw-model:hasNameLink <ImportantPerson/30318> ;
+	a drw-model:A ;
+	drw-model:began <Year/1875> ;
+	drw-model:ended <Year/1876> ;
+	drw-model:hasNameLink <ImportantPerson/30395> .
+
+<B/30565hasStationOfLife7>
+	drw-model:ended <Year/1897> ;
+	drw-model:began <Year/1896> ;
+	a drw-model:B ;
+	rdfs:label "Dekan der Medizinischen Fakultät an der Universität Marburg" .
+
+<HonoursAndAwards/30565hasHonoursAndAwards1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://home.comcast.net/~tm01001/Stamps/Sweden_NP_09.htm" ;
+	drw-model:hasDate "29.8.2011" ;
+	rdfs:label "1907 „Geheimer Hofrat“<br>1910 Nobelpreis für Physiologie oder Medizin<br>1914 „Geheimrat”<br>Dr. h. c.: University of Cambridge (1904), Universität Greifswald (1906), University of Dublin (1908), Universität Genf (1909), University of Saint Andrews/Schottland (1912) u. a.<br>1970 Briefmarke (Schweden, 70 Öre) anlässlich des 60-jährigen Jubiläums der Nobel-Preis-Verleihung an Albrecht Kossel (Abbildung vgl. <br>Nach ihm sind benannt:<br>Albrecht-Kossel-Institut für Neuroregeneration an der Universität Rostock<br>Albrecht Kossel-Hörsaal an der Charité Berlin<br>Albrecht-Kossel-Platz in Rostock, Albrecht-Kossel-Straße in Heidelberg, Kosselgasse in Wien-Döbling (seit 1933)Online Ressource)." ;
+	a drw-model:HonoursAndAwards .
+
+<Date/16_9_1853>
+	a drw-model:Date ;
+	rdfs:label "16.9.1853" .
+
+<Year/1918>
+	rdfs:label "1918" ;
+	a drw-model:Year .
+
+<RelatedPerson/30565hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Walther (1888-1956), Physiker<br>Gertrud (1893-1967)" .
+
+<SL/30565hasSL21>
+	rdfs:label "Pötsch, Winfried R., Fischer, Annelore, Müller, Wolfgang: Lexikon bedeutender Chemiker. Leipzig 1988, 248-249." ;
+	a drw-model:SL .
+
+<GeneralLabor/Biochemiker>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Biochemiker" .
+
+<SL/30565hasSL19>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine, Pfrepper, Gerd, Volkov, Vladimir Akimovič †: Albrecht Kossel (1853-1927) – die russischen Wissenschaftsbeziehungen des Nobelpreisträgers für Physiologie oder Medizin 1910. In: Kiefer, Jürgen (Hg.): Heilkunde und Heilmittel. Zum Erwerb und Transfer von medizinisch-pharmazeutischem Wissen in Europa. Aachen 2012 (Europäische Wissenschaftsbeziehungen 5), 17 S." .
+
+<Year/1874>
+	rdfs:label "1874" ;
+	a drw-model:Year .
+
+<GeneralLabor/Professor_fr_Physiologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<WL/30565hasWL1>
+	rdfs:label "Einer der Begründer der Bio-, Zell- und Eiweißchemie" ;
+	a drw-model:WL .
+
+<P/30565hasP1>
+	rdfs:label "Portrait (Abb.) aus: Münchener medizinische Wochenschrift 57 (1910) Beilage Galerie hervorragender Ärzte und Naturforscher, Blatt 278." ;
+	a drw-model:P .
+
+<W/30565hasW3>
+	a drw-model:W ;
+	rdfs:label "Behrens, Wilhelm Julius, Kossel, A., Schiefferdecker, Paul: Die Gewebe des menschlichen Körpers und ihre mikroskopische Untersuchung. 1. Bd. Das Mikroskop und die Methoden der mikroskopischen Untersuchung. Braunschweig 1889, 315 S.; 2. Bd.: Schiefferdecker, P., Kossel, A.: Gewebelehre mit besonderer Berücksichtigung des menschlichen Körpers: erste Abtheilung. Braunschweig 1891, 420 S.; <b>russ.</b>: Šifferdekker, Paul’, Kossel’, Al’brecht: Rukovodstvo normal’noj gistologii: Obščaja čast’. Moskva 1894, 358 S." .
+
+<SL/30565hasSL16>
+	rdfs:label "Kuna, Edwin: Hanseat erhielt 1910 den Nobelpreis. Albrecht Kossel jun. machte sich als Mediziner einen Namen. Norddeutsche neueste Nachrichten. Landeszeitung für Mecklenburg und Vorpommern 4. November 2011, 18." ;
+	a drw-model:SL .
+
+<Year/1906>
+	rdfs:label "1906" ;
+	a drw-model:Year .
+

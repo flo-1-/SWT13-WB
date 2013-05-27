@@ -1,0 +1,482 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<B/31069hasStationOfLife2>
+	rdfs:label "Compagnie-Chirurg und Assistenzarzt des Pathologen Carl <span style='font-variant:small-caps;'>Froriep</span> (1804-1861) an der Berliner Charité" ;
+	drw-model:began <Year/1844> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1846> .
+
+<SL/31069hasSL23>
+	rdfs:label "Sacharov, G. P.: Rudol’f Virchov i russkaja medicina. Moskva 1922." ;
+	a drw-model:SL .
+
+<MG/31069hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Mitglied der Kaiserlichen Akademie der Wissenschaften in St. Petersburg, Ehrenmitglied des Vereins St. Petersburger Ärzte. Weiteres vgl.: <b>SL</b>" .
+
+<Year/1859>
+	rdfs:label "1859" ;
+	a drw-model:Year .
+
+<Year/1844>
+	rdfs:label "1844" ;
+	a drw-model:Year .
+
+<SL/31069hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Andree, Christian: Rudolf Virchow. Vielseitigkeit, Genialität und Menschlichkeit. Ein Lesebuch. Hildesheim u. a. 2009, 311 S." .
+
+<Place/Schivelbein_Pommern>
+	a drw-model:Place ;
+	rdfs:label "Schivelbein, Pommern" .
+
+<ImportantPerson/31069>
+	drw-model:hasStationOfLife <B/31069hasStationOfLife12> ;
+	drw-model:hasSL <SL/31069hasSL27> ;
+	drw-model:hasSL <SL/31069hasSL19> ;
+	drw-model:hasSL <SL/31069hasSL4> ;
+	drw-model:hasStationOfLife <B/31069hasStationOfLife4> ;
+	drw-model:hasStationOfLife <B/31069hasStationOfLife1> ;
+	drw-model:hasGPV <GPV/31069hasGPV1> ;
+	drw-model:hasSL <SL/31069hasSL21> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Arzt> ;
+	drw-model:hasSL <SL/31069hasSL7> ;
+	drw-model:hasSL <SL/31069hasSL10> ;
+	drw-model:hasSL <SL/31069hasSL24> ;
+	drw-model:hasStationOfLife <B/31069hasStationOfLife6> ;
+	drw-model:hasDescendant <RelatedPerson/31069hasDescendant1> ;
+	drw-model:hasSL <SL/31069hasSL18> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Politiker> ;
+	drw-model:hasStationOfLife <B/31069hasStationOfLife3> ;
+	drw-model:hasStationOfLife <B/31069hasStationOfLife11> ;
+	rdfs:label "Virchow, Rudolf Ludwig Karl" ;
+	drw-model:hasSL <SL/31069hasSL16> ;
+	drw-model:hasSL <SL/31069hasSL17> ;
+	drw-model:hasWL <WL/31069hasWL2> ;
+	drw-model:hasHonoursAndAwardsComment <HonoursAndAwardsComment/31069hasHonoursAndAwardsComment1> ;
+	drw-model:hasEducation <A/31069hasEducation5> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/31069hasHonoursAndAwards1> ;
+	drw-model:diedOn <Date/5_9_1902> ;
+	drw-model:hasSL <SL/31069hasSL25> ;
+	drw-model:hasStationOfLife <B/31069hasStationOfLife8> ;
+	drw-model:wasBornOn <Date/13_10_1821> ;
+	drw-model:hasSL <SL/31069hasSL29> ;
+	drw-model:hasMG <MG/31069hasMG1> ;
+	drw-model:hasEducation <A/31069hasEducation2> ;
+	drw-model:wasBornIn <Place/Schivelbein_Pommern> ;
+	drw-model:motherIs <RelatedPerson/31069motherIs1> ;
+	drw-model:hasSL <SL/31069hasSL14> ;
+	drw-model:hasSL <SL/31069hasSL9> ;
+	drw-model:hasStationOfLife <B/31069hasStationOfLife10> ;
+	drw-model:fatherIs <RelatedPerson/31069fatherIs1> ;
+	drw-model:hasMainName <MainName/31069hasMainName1> ;
+	drw-model:hasSL <SL/31069hasSL1> ;
+	drw-model:hasStationOfLife <B/31069hasStationOfLife2> ;
+	drw-model:hasSL <SL/31069hasSL6> ;
+	drw-model:hasSL <SL/31069hasSL15> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Pathologie> ;
+	drw-model:hasEducation <A/31069hasEducation3> ;
+	drw-model:hasSL <SL/31069hasSL22> ;
+	drw-model:hasEducation <A/31069hasEducation1> ;
+	drw-model:wasMarriedTo <RelatedPerson/31069wasMarriedTo1> ;
+	drw-model:hasSL <SL/31069hasSL13> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/31069.png> ;
+	drw-model:hasStationOfLife <B/31069hasStationOfLife9> ;
+	drw-model:hasStationOfLife <B/31069hasStationOfLife5> ;
+	drw-model:hasP <P/31069hasP3> ;
+	drw-model:hasSL <SL/31069hasSL3> ;
+	drw-model:hasSL <SL/31069hasSL8> ;
+	drw-model:hasID "31069" ;
+	drw-model:hasP <P/31069hasP4> ;
+	drw-model:hasEducation <A/31069hasEducation4> ;
+	drw-model:hasSL <SL/31069hasSL23> ;
+	drw-model:hasSL <SL/31069hasSL5> ;
+	drw-model:hasSL <SL/31069hasSL12> ;
+	drw-model:hasSL <SL/31069hasSL31> ;
+	drw-model:hasSL <SL/31069hasSL26> ;
+	drw-model:hasSL <SL/31069hasSL32> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasP <P/31069hasP5> ;
+	drw-model:hasWL <WL/31069hasWL1> ;
+	drw-model:hasSL <SL/31069hasSL2> ;
+	drw-model:hasSL <SL/31069hasSL28> ;
+	drw-model:hasP <P/31069hasP2> ;
+	drw-model:hasStationOfLife <B/31069hasStationOfLife7> ;
+	drw-model:diedIn <Place/Berlin_Grabsttte_Alter_St_Matt> ;
+	drw-model:hasP <P/31069hasP1> ;
+	drw-model:hasSL <SL/31069hasSL20> ;
+	drw-model:hasQ <Q/31069hasQ1> ;
+	drw-model:hasW <W/31069hasW1> ;
+	drw-model:hasSL <SL/31069hasSL11> ;
+	drw-model:hasSL <SL/31069hasSL30> ;
+	drw-model:hasSLComment <SLComment/31069hasSLComment1> .
+
+<B/31069hasStationOfLife9>
+	drw-model:began <Year/1859> ;
+	drw-model:ended <Year/1902> ;
+	rdfs:label "Mitglied der Berliner Stadtverordnetenversammlung" ;
+	a drw-model:B .
+
+<SL/31069hasSL20>
+	a drw-model:SL ;
+	rdfs:label "Posner, Carl: Rudolf Virchow. Wien 1921 (Meister der Heilkunde 1), 91 S." .
+
+<B/31069hasStationOfLife6>
+	drw-model:ended <Year/1902> ;
+	drw-model:began <Year/1856> ;
+	a drw-model:B ;
+	rdfs:label "o. Professor für Pathologie an der Universität Berlin und erneut Prosektor an der Charité" .
+
+<B/31069hasStationOfLife1>
+	drw-model:ended <Year/1844> ;
+	drw-model:began <Year/1843> ;
+	a drw-model:B ;
+	rdfs:label "Assistent an der Militärärztlichen Akademie in Berlin" .
+
+<HonoursAndAwards/31069hasHonoursAndAwards1>
+	rdfs:label "1868 Ehrenmitglied der Kaiserlichen Universität Moskau<br>Marmorbüste [Künstler und Jahr unbekannt] im Institut für Geschichte der Medizin (bis 2010 in der Klingsorstraße) in Berlin<br>1882 Marmorbüste von Bernhard <span style='font-variant:small-caps;'>Afinger</span> (1813-1882) im Dekanat des Langenbeck-Virchow-Hauses in Berlin, davon Kopien in Bronze: Nr. 1 vor dem Pathologischen Institut der Charité, Nr. 2 im Hörsaal des Langenbeck-Virchow-Hauses<br>1910 Rudolf-Virchow-Denkmal von Fritz <span style='font-variant:small-caps;'>Klimsch</span> (1870-1960) vor der Charité<br>Büste von Marcus <span style='font-variant:small-caps;'>Golter</span> (* 1966) an der Fassade am Langenbeck-Virchow-Haus<br>1952 Briefmarke der Deutschen Post (15 Pfennig)<br>Rudolf-Virchow-Medaille (Deutsche Gesellschaft für Pathologie)<br>Seit 2000 Rudolf-Virchow-Förderpreis (Gesellschaft für Anthropologie, Ethnologie und Urgeschichte in Berlin)<br>Nach ihm sind z. B. benannt:<br>Rudolf-Virchow-Krankenhaus, ab 1987 Universitätsklinikum Rudolf Virchow, heute Charité Campus Virchow-Klinikum<br>Rudolf-Virchow-Zentrum (DFG-Forschungszentrum für Experimentelle Biomedizin) an der Universität Würzburg<br>Straßen, z. B.: Rudolf-Virchow-Straße in Berlin, in Koblenz, in Marl, in Stralsund, in Teltow" ;
+	a drw-model:HonoursAndAwards .
+
+<Year/1847>
+	rdfs:label "1847" ;
+	a drw-model:Year .
+
+<RelatedPerson/31069fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Carl, Landwirt und Stadtkämmerer" .
+
+<GeneralLabor/Politiker>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Politiker" .
+
+<SL/31069hasSL14>
+	a drw-model:SL ;
+	rdfs:label "Kapustin, M.: Virchov. In: Brokgauz/Efron. Bd. 6 (1892), 525; Ergänzung: 525-526." .
+
+<SL/31069hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Andree, Christian: Virchows Weg von Berlin nach Würzburg. Eine heuristische Studie zu den Archivalien der Jahre 1848 bis 1856. Würzburg 2002 [b], 301 S." .
+
+<P/31069hasP4>
+	a drw-model:P ;
+	rdfs:label "Hanns Fechner (1860-1930): Rudolf Virchow (1891). Portrait (vgl. <b>SL</b> Wikipedia)." .
+
+<Year/1856>
+	rdfs:label "1856" ;
+	a drw-model:Year .
+
+<B/31069hasStationOfLife8>
+	a drw-model:B ;
+	rdfs:label "Rektor der Friedrich-Wilhelms-Universität Berlin" ;
+	drw-model:inYear <Year/1892> .
+
+<P/31069hasP2>
+	rdfs:label "Portraits in <b>SL</b> (Auswahl): Andree 2002 [a], Andree 2009, Coghlan/Bignold 2008, Posner 1921, RAN, Schipperges 1994, Šojfet 2004, Vikipedija, Wegbereiter, Wikipedia." ;
+	a drw-model:P .
+
+<Q/31069hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr. 1647." .
+
+<SL/31069hasSL21>
+	a drw-model:SL ;
+	rdfs:label "Rauchfus, Karl Andreevič: Rudol’f Virchov. Žizn’ i naučnye trudy. Medicina (1891), 10 S." .
+
+<Year/1846>
+	rdfs:label "1846" ;
+	a drw-model:Year .
+
+<SL/31069hasSL28>
+	rdfs:label "Wegbereiter unserer naturwissenschaftlich-medizinischen Moderne (Online Ressource)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://appserv5.ph-heidelberg.de/onlinelex/index.php?id=1155" ;
+	drw-model:hasDate "11.1.2012" .
+
+<GeneralLabor/Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Arzt" .
+
+<SL/31069hasSL32>
+	rdfs:label "Šojfet, M. S.: Sto velikich vračej. Moskva 2004, 281-287." ;
+	a drw-model:SL .
+
+<SL/31069hasSL13>
+	rdfs:label "Goschler, Constantin: Rudolf Virchow, Mediziner – Anthropologe – Politiker. Köln, Weimar, Wien 2002, 556 S." ;
+	a drw-model:SL .
+
+<A/31069hasEducation5>
+	a drw-model:A ;
+	drw-model:inYear <Year/1847> ;
+	rdfs:label "Habilitation in Berlin" .
+
+<SL/31069hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Aschoff, Ludwig: Rudolf Virchow. Wissenschaft und Weltgeltung. Hamburg [1940], 94 S." .
+
+<P/31069hasP5>
+	rdfs:label "Hans Otto Julius Schadow (1862-1924): Rudolf Virchow (1896). Öl auf Leinwand (vgl. <b>SL</b> Wikipedia)." ;
+	a drw-model:P .
+
+<GPV/31069hasGPV1>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:GPV .
+
+<P/31069hasP3>
+	rdfs:label "Hugo Vogel (1855-1934): Rudolf Virchow (1861). Portrait (vgl. <b>SL</b> Wikipedia)." ;
+	a drw-model:P .
+
+<B/31069hasStationOfLife7>
+	drw-model:ended <Year/1902> ;
+	rdfs:label "Errichtung des Pathologischen Institutes an der Charité" ;
+	a drw-model:B ;
+	drw-model:began <Year/1856> .
+
+<Year/1839>
+	rdfs:label "1839" ;
+	a drw-model:Year .
+
+<SL/31069hasSL26>
+	a drw-model:SL ;
+	rdfs:label "Vasold, Manfred: Rudolf Virchow. Der große Arzt und Politiker. Stuttgart 1988, 424 S." .
+
+<SL/31069hasSL8>
+	rdfs:label "Bauer, Arnold: Rudolf Virchow – der politische Arzt. Berlin 1982, 131 S." ;
+	a drw-model:SL .
+
+<SL/31069hasSL19>
+	a drw-model:SL ;
+	rdfs:label "Popov, Lev Vasil’evič: Pamjati Rudol’fa Virchova. Reč, skazannaja v Obščestve russkich vračej v S.-Peterburge, v zasedanii, posvjaščennom pamjati R. Virchova, 26 sentjabrja 1902. Bol’ničnaja gazeta Botkina (1902), 22 S." .
+
+<Date/13_10_1821>
+	a drw-model:Date ;
+	rdfs:label "13.10.1821" .
+
+<SL/31069hasSL30>
+	rdfs:label "Winter, Kurt: Rudolf Virchow. Leipzig 1976 (Biographien hervorragender Naturwissenschaftler, Techniker und Mediziner 24), 99 S." ;
+	a drw-model:SL .
+
+<Year/1902>
+	rdfs:label "1902" ;
+	a drw-model:Year .
+
+<SL/31069hasSL12>
+	a drw-model:SL ;
+	rdfs:label "Coghlan, Brian L. D., Bignold, Leon P.: Virchow’s eulogies. Rudolf Virchow in tribute to his fellow scientists. Basel, Boston, Berlin 2008, 318 S." .
+
+<Year/1849>
+	rdfs:label "1849" ;
+	a drw-model:Year .
+
+<Place/Berlin_Grabsttte_Alter_St_Matt>
+	a drw-model:Place ;
+	rdfs:label "Berlin, Grabstätte: Alter St.-Matthäus-Kirchhof in Berlin-Schöneberg" .
+
+<B/31069hasStationOfLife12>
+	a drw-model:B .
+
+<SL/31069hasSL29>
+	<http://xmlns.com/foaf/0.1/homepage> "http://de.wikipedia.org/wiki/Rudolf_Virchow" ;
+	a drw-model:SL ;
+	drw-model:hasDate "11.1.2012" ;
+	rdfs:label "Wikipedia (Online Ressource)." .
+
+<Year/1892>
+	rdfs:label "1892" ;
+	a drw-model:Year .
+
+<RelatedPerson/31069hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Carl (1851-1912)<br>Hans (1852-1940), Arzt, Professor<br>Adele, verh. Henning<br>Ernst (1858-1942), Hofgärtner<br>Marie, verh. Rabl (1866-1952)<br>Hanna" .
+
+<SL/31069hasSL27>
+	<http://xmlns.com/foaf/0.1/homepage> "http://ru.wikipedia.org/wiki/Вирхов,_Рудольф" ;
+	drw-model:hasDate "12.1.2012" ;
+	a drw-model:SL ;
+	rdfs:label "Vikipedija (Online Ressource)." .
+
+<Date/5_9_1902>
+	rdfs:label "5.9.1902" ;
+	a drw-model:Date .
+
+<SL/31069hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Becher, W. (Bearb.), Schwalbe, J. (Hg.): Virchow-Bibliographie, 1843-1901. Berlin 1901, 183 S." .
+
+<SL/31069hasSL18>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3)" ;
+	a drw-model:SL .
+
+<A/31069hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Promotion zum Dr. med. in Berlin" ;
+	drw-model:inYear <Year/1843> .
+
+<SL/31069hasSL11>
+	a drw-model:SL ;
+	rdfs:label "Botkin, Sergej Petrovič: Reč’, proiznesennaja v Obščestve russkich vračej v S.-Peterburge po slučaju jubileja prof. R. Virchova. Eženedel’naja kliničeskaja gazeta (1881) Nr. 31." .
+
+<HonoursAndAwardsComment/31069hasHonoursAndAwardsComment1>
+	rdfs:label "Ehrungen und Auszeichnungen (Auswahl):" ;
+	a drw-model:HonoursAndAwardsComment .
+
+<SL/31069hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Ackerknecht, Erwin Heinz: Rudolf Virchow: Doctor, Statesman, Anthropologist. Madison/WI 1953, 304 S.; deutsche Ausgabe übersetzt von J. Wieries: Rudolf Virchow: Arzt, Politiker, Anthropologe. Stuttgart 1957, 245 S." .
+
+<WL/31069hasWL1>
+	rdfs:label "Begründer der Zellularpathologie" ;
+	a drw-model:WL .
+
+<A/31069hasEducation4>
+	a drw-model:A ;
+	drw-model:inYear <Year/1844> ;
+	rdfs:label "Medizinisches Staatsexamen in Berlin" .
+
+<B/31069hasStationOfLife5>
+	drw-model:ended <Year/1856> ;
+	rdfs:label "o. Professor für pathologische Anatomie am ersten deutschen Lehrstuhl für Pathologie an der Universität Würzburg" ;
+	a drw-model:B ;
+	drw-model:began <Year/1849> .
+
+<SL/31069hasSL2>
+	rdfs:label "Andree, Christian (Hg.): Rudolf Virchow – Sämtliche Werke. Mehrbändige Ausgabe. Bern u. a. 1992-2010." ;
+	a drw-model:SL .
+
+<SL/31069hasSL17>
+	drw-model:hasDate "12.1.2012" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://health-ua.com/articles/3306.html" ;
+	a drw-model:SL ;
+	rdfs:label "Marinža, Luk’jan: Reformator mediciny Rudol’f Virchov. Zdorov’ja Ukrajiny. Medyčna gazeta (2009) Nr. 1-2, 66 (Online Ressource)." .
+
+<SL/31069hasSL10>
+	a drw-model:SL ;
+	rdfs:label "Bertenson, Iosif Vasil’evič: Rudol’f Virchov. Iz reči, proiznesennoj v S.-Peterburgskom medicinskom obščestve 5 nojabrja sego goda. Medicina (1891), 6 S." .
+
+<A/31069hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Studium am Medicinisch-chirurgischen Friedrich-Wilhelm-Institut in Berlin" ;
+	drw-model:began <Year/1839> ;
+	drw-model:ended <Year/1843> .
+
+<RelatedPerson/31069wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ferdinande Amalie Rosalie (Rose), geb. Mayer (1832-1913)" .
+
+<Year/1843>
+	rdfs:label "1843" ;
+	a drw-model:Year .
+
+<WL/31069hasWL2>
+	rdfs:label "Weiteres vgl.: <b>SL</b>" ;
+	a drw-model:WL .
+
+<B/31069hasStationOfLife10>
+	drw-model:began <Year/1862> ;
+	drw-model:ended <Year/1902> ;
+	a drw-model:B ;
+	rdfs:label "Mitglied des Preußischen Abgeordnetenhauses" .
+
+<W/31069hasW1>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:W .
+
+<B/31069hasStationOfLife11>
+	drw-model:began <Year/1847> ;
+	drw-model:ended <Year/1902> ;
+	a drw-model:B ;
+	rdfs:label "Mitherausgeber des <i>Archivs für pathologische Anatomie und Physiologie und für klinische Medicin</i> (ab 1902 <i>Virchows Archiv</i>)" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<SL/31069hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Andree, Christian: Rudolf Virchow als Prähistoriker. Bd. 1: Virchow als Begründer der neueren deutschen Ur- und Frühgeschichtswissenschaft. Köln, Wien 1976, 267 S.; Bd. 2: Briefe Virchows und seiner Zeitgenossen. Köln, Wien 1976, 541 S.; Bd. 3: Register mit Kommentaren. Köln 1986, 125 S." .
+
+<SL/31069hasSL31>
+	a drw-model:SL ;
+	rdfs:label "Wirth, Ingo (Hg.): Virchowiana: Materialien und Dokumente. Neue Beiträge zur Virchow-Forschung. Festschrift zum 70. Geburtstag von Christian Andree. Mit einem Anhang „Editionen in der Wissenschaftsgeschichte“. Hildesheim u. a. 2010 (Sämtliche Werke 1,5), 632 S." .
+
+<SL/31069hasSL16>
+	a drw-model:SL ;
+	rdfs:label "Malis, Germanovič Julij: Rudol’f Virchov. Ego žizn’, naučnaja i obščestvennaja dejatel’nost’. S.-Peterburg 1899." .
+
+<B/31069hasStationOfLife4>
+	drw-model:inYear <Year/1849> ;
+	a drw-model:B ;
+	rdfs:label "wegen Teilnahme an den Barrikadenkämpfen in Berlin als Prosektor suspendiert" .
+
+<RelatedPerson/31069motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johanna, geb. Hesse" .
+
+<GeneralLabor/Professor_fr_Pathologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Pathologie" .
+
+<SL/31069hasSL24>
+	rdfs:label "Schipperges, Heinrich: Rudolf Virchow. Reinbek bei Hamburg 1994 (Rowohlts Monographien 501), 153 S." ;
+	a drw-model:SL .
+
+<P/31069hasP1>
+	rdfs:label "Portrait (Abb.) aus: VL People (<b>SL</b>)." ;
+	a drw-model:P .
+
+<Year/1834>
+	rdfs:label "1834" ;
+	a drw-model:Year .
+
+<A/31069hasEducation1>
+	a drw-model:A ;
+	drw-model:ended <Year/1839> ;
+	rdfs:label "Besuch des Gymnasiums in Köslin" ;
+	drw-model:began <Year/1834> .
+
+<NameVariation/31069hasNameVariation1>
+	rdfs:label "Вирхов, Рудольф Людвиг Карл"@ru ;
+	rdfs:label "Virchov, Rudol’f Ljudvig Karl"@de ;
+	a drw-model:NameVariation .
+
+<MainName/31069hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Virchow, Rudolf Ludwig Karl" ;
+	drw-model:hasNameVariation <NameVariation/31069hasNameVariation1> .
+
+<B/31069hasStationOfLife3>
+	drw-model:began <Year/1846> ;
+	drw-model:ended <Year/1849> ;
+	a drw-model:B ;
+	rdfs:label "Prosektor an der Charité" .
+
+<SL/31069hasSL15>
+	drw-model:hasDate "12.1.2012" ;
+	rdfs:label "Klejn, Lev: Rudol’f Virchov i vzaimovlijanie nauk. Troickij variant [Online-Zeitschrift] (2010) Nr. 61, 10 (Online Ressource)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://trv-science.ru/2010/08/31/rudolf-virxov-i-vzaimovliyanie-nauk/" .
+
+<SL/31069hasSL22>
+	rdfs:label "Rossijskaja akademija nauk. Personal’nyj sostav. Kniga 1: 1724-1917. Moskva 1999; Kniga 2: 1918-1973. Moskva 1999 Kniga 1 (1999), 451." ;
+	a drw-model:SL .
+
+<SL/31069hasSL25>
+	drw-model:hasDate "12.1.2012" ;
+	rdfs:label "VL People (Online Ressource)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://vlp.mpiwg-berlin.mpg.de/people/data?id=per149" ;
+	a drw-model:SL .
+
+<Year/1862>
+	rdfs:label "1862" ;
+	a drw-model:Year .
+
+<SLComment/31069hasSLComment1>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<SL/31069hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Andree, Christian: Rudolf Virchow. Leben und Ethos eines großen Arztes. München 2002 [a], 304 S." .
+

@@ -1,0 +1,371 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<W/30466hasW21>
+	rdfs:label "Krasnosel'skij lager' v sanitarnom otnošenii. Sankt-Peterburg 1910, 67 S." ;
+	a drw-model:W .
+
+<SL/30466hasSL5>
+	rdfs:label "Šustov, A. S. (Hg.): Naši dejateli po medicine. S.-Peterburg 1910 (Illjustrirovannyj vestnik kul'tury, naučno-vospitatel'nago, techničeskago i torgovo-promyšlennago progressa Rossii 1)." ;
+	a drw-model:SL .
+
+<WGermanPublication/30466hasWGermanPublication4>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ein Fall von primärer Trepanation mit günstigem Erfolge bei einem Schädelbruch mit Hirnverletzung. St. Petersburger medicinische Wochenschrift 7 (1882), 53-56." .
+
+<W/30466hasW22>
+	rdfs:label "Sanitarija v vojskovych častjach v mirnoe vremja. Sankt-Peterburg 1911, 48 S." ;
+	a drw-model:W .
+
+<WGermanPublication/30466hasWGermanPublication8>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Zur Frage über die Erblichkeit der Schwindsucht. St. Petersburger medicinische Wochenschrift N.F. 18 [= 26] (1901), 375-380." .
+
+<WRussianPublication/30466hasWRussianPublication7>
+	a drw-model:WRussianPublication ;
+	rdfs:label "O nasledstvennosti čachotki s biologičeskoj točki zrenija. Praktičeskij vrač (1907) Nr. 1-3, 24 S." .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<WRussianPublication/30466hasWRussianPublication9>
+	a drw-model:WRussianPublication ;
+	rdfs:label "K voprosu o sanitarnych manevrach v Rossii. Sankt-Peterburg 1908, 64 S." .
+
+<W/30466hasW14>
+	rdfs:label "Domašnie sanatorii dlja čachotočnych i novejšij vzgljad na biologičeskie svojstva paločki Koch'a. Vrač (1899) Nr. 8, 39 S." ;
+	a drw-model:W .
+
+<NameVariation/30466hasNameVariation2>
+	rdfs:label "Zimon" ;
+	a drw-model:NameVariation .
+
+<SL/30466hasSL1>
+	rdfs:label "EAD: Dokument-Id [81119/79406 und 1076765 (12.8.2010)]." ;
+	a drw-model:SL .
+
+<WGermanPublication/30466hasWGermanPublication2>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber die diuretische Wirkung der Blatta orientalis bei Nephritis scarlatinosa. St. Petersburger medicinische Wochenschrift 2 (1877), 293-296." .
+
+<MG/30466hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Verein St. Petersburger Ärzte (ab 1875), Obščestvo po sochraneniju narodnogo zdorovija [Gesellschaft zur Wahrung der Volksgesundheit], Mediko-filantropičeskij komitet [Mediko-philanthropisches Komitee], Internationale Vereinigung zur Bekämpfung der Tuberkulose (ab 1902)." .
+
+<Date/2_or_13_7_1928>
+	rdfs:label "2./13.7.1928" ;
+	a drw-model:Date .
+
+<WRussianPublication/30466hasWRussianPublication1>
+	a drw-model:WRussianPublication ;
+	rdfs:label "Dobrudža v sanitarnom otnošenii. Voenno-medicinskij žurnal Teil 134 (1879), 18 S." .
+
+<MainName/30466hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30466hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30466hasNameVariation4> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30466hasNameVariation3> ;
+	drw-model:hasNameVariation <NameVariation/30466hasNameVariation2> ;
+	rdfs:label "Unterberger, Simon Thomas Friedrich (von)" .
+
+<NameVariation/30466hasNameVariation4>
+	a drw-model:NameVariation ;
+	rdfs:label "Cимoн Toмac Фридриx" .
+
+<WRussianPublication/30466hasWRussianPublication3>
+	a drw-model:WRussianPublication ;
+	rdfs:label "Domašnie sanatorii dlja čachotočnych. Prostoj i deševyj sposob lečenija slabogrudych. Terapevtičeskij vestnik (1898) Nr. 24/25, 32 S." .
+
+<WGermanPublication/30466hasWGermanPublication6>
+	rdfs:label "Ueber die Nothwendigkeit der Einrichtungen von Haus-Sanatorien für Tuberkulöse in den Militärhospitälern. Deutsche militärärztliche Zeitschrift 27 (1898), 14-27." ;
+	a drw-model:WGermanPublication .
+
+<WRussianPublication/30466hasWRussianPublication5>
+	a drw-model:WRussianPublication ;
+	rdfs:label "Bugorčatka i zdravnicy (sanatorii). Vrač (1899) Nr. 51, 16 S." .
+
+<W/30466hasW18>
+	rdfs:label "Domašnie sanatorii v bor'be s čachotkoj. Sankt-Peterburg 1908, 88 S." ;
+	a drw-model:W .
+
+<Place/Tartu>
+	a drw-model:Place ;
+	rdfs:label "Tartu" .
+
+<W/30466hasW5>
+	rdfs:label "Lungentuberculose und ihre Behandlung speciell in Haus-Sanatorien. St. Petersburger medicinische Wochenschrift N. F. 13 [= 21] (1896), 49-78." ;
+	a drw-model:W .
+
+<ImportantPerson/30385>
+	a drw-model:ImportantPerson .
+
+<W/30466hasW3>
+	rdfs:label "Der Neuber-Lister'sche Dauerverband auf dem Verbandplatze. St. Petersburger medicinische Wochenschrift 5 (1880), 367-370." ;
+	a drw-model:W .
+
+<SL/30466hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Mitglieder-Liste im Bericht über den XIV. Internationalen Kongress für Hygiene und Demographie. Berlin, 23.-29. September 1907. Bd. 1. Berlin 1908, 147." .
+
+<W/30466hasW1>
+	rdfs:label "Ueber die Wirkung der arsenigen Säure auf die Organe des Blutkreislaufes und auf den Darmtractus. Diss. Dorpat 1873, 63 S." ;
+	a drw-model:W .
+
+<W/30466hasW19>
+	rdfs:label "K voprosu o sanitarnych manevrach v Rossii. Sankt-Peterburg 1908, 64 S." ;
+	a drw-model:W .
+
+<Place/Simbirsk>
+	a drw-model:Place ;
+	rdfs:label "Simbirsk" .
+
+<W/30466hasW9>
+	rdfs:label "Über die Disposition zur Tuberkulose und deren Bekämpfung durch Sanatorien. Zeitschrift für Tuberkulose und Heilstättenwesen 2 (1901), 32-43." ;
+	a drw-model:W .
+
+<WRussianPublication/30466hasWRussianPublication11>
+	a drw-model:WRussianPublication ;
+	rdfs:label "Krasnosel'skij lager' v sanitarnom otnošenii. Sankt-Peterburg 1910, 67 S." .
+
+<W/30466hasW17>
+	rdfs:label "O nasledstvennosti čachotki s biologičeskoj točki zrenija. Praktičeskij vrač (1907) Nr. 1-3, 24 S." ;
+	a drw-model:W .
+
+<W/30466hasW7>
+	rdfs:label "Die Tuberculosefrage zur Zeit des Congresses in Berlin vom 24.-27. Mai 1899. St. Petersburger medicinische Wochenschrift N.F. 16 [= 24] (1899), 269-276." ;
+	a drw-model:W .
+
+<W/30466hasW11>
+	rdfs:label "Dobrudža v sanitarnom otnošenii. Voenno-medicinskij žurnal Teil 134 (1879), 18 S." ;
+	a drw-model:W .
+
+<WRussianPublication/30466hasWRussianPublication12>
+	a drw-model:WRussianPublication ;
+	rdfs:label "Sanitarija v vojskovych častjach v mirnoe vremja. Sankt-Peterburg 1911, 48 S." .
+
+<WGermanPublication/30466hasWGermanPublication5>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Lungentuberculose und ihre Behandlung speciell in Haus-Sanatorien. St. Petersburger medicinische Wochenschrift N. F. 13 [= 21] (1896), 49-78." .
+
+<WRussianPublication/30466hasWRussianPublication4>
+	a drw-model:WRussianPublication ;
+	rdfs:label "Domašnie sanatorii dlja čachotočnych i novejšij vzgljad na biologičeskie svojstva paločki Koch'a. Vrač (1899) Nr. 8, 39 S." .
+
+<WRussianPublication/30466hasWRussianPublication6>
+	a drw-model:WRussianPublication ;
+	rdfs:label "Tifoznaja ėpidemija v nojabre mesjace 1901 v Carskom Sele. Bol'ničnaja gazeta Botkina 13 (1902), 10 S." .
+
+<NameVariation/30466hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Simon Tomas Fridrich" .
+
+<WGermanPublication/30466hasWGermanPublication10>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Vererbung in der Schwindsuchtsfrage. Transactions of the 6th International Congress on Tuberculosis, Washington, September 28 to October 5, 1908. Bd. 1,1. Philadelphia/PA 1908, 129-141; engl. Zusammenfassung: Heredity in Consumption, S. 141." .
+
+<WGermanPublication/30466hasWGermanPublication3>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Der Neuber-Lister'sche Dauerverband auf dem Verbandplatze. St. Petersburger medicinische Wochenschrift 5 (1880), 367-370." .
+
+<SL/30466hasSL2>
+	a drw-model:SL ;
+	rdfs:label "[Kurzmitteilung anlässlich des 80. Geburtstages]. Klinische Wochenschrift 7 (1928), 384. Hier fälschlicherweise Goldmedaille 1912 in New York angegeben; vgl. dagegen (<b>B</b>)." .
+
+<W/30466hasW15>
+	rdfs:label "Bugorčatka i zdravnicy (sanatorii). Vrač (1899) Nr. 51, 16 S." ;
+	a drw-model:W .
+
+<WRussianPublication/30466hasWRussianPublication10>
+	a drw-model:WRussianPublication ;
+	rdfs:label "Rol' nasledstvennosti v voprose o čachotke. Soobščeno na protivobugorčatkovom s-ezde v Washington'e v 1908 g. Russkij vrač (1909) Nr. 12-13, 16 S." .
+
+<WGermanPublication/30466hasWGermanPublication1>
+	rdfs:label "Ueber die Wirkung der arsenigen Säure auf die Organe des Blutkreislaufes und auf den Darmtractus. Diss. Dorpat 1873, 63 S." ;
+	a drw-model:WGermanPublication .
+
+<WRussianPublication/30466hasWRussianPublication8>
+	a drw-model:WRussianPublication ;
+	rdfs:label "Domašnie sanatorii v bor'be s čachotkoj. Sankt-Peterburg 1908, 88 S." .
+
+<NameVariation/30466hasNameVariation3>
+	rdfs:label "Зимoн" ;
+	a drw-model:NameVariation .
+
+<W/30466hasW12>
+	rdfs:label "K lečeniju veneričeskich bol'nych. Vračebnye vedomosti (1882), 21 S." ;
+	a drw-model:W .
+
+<WGermanPublication/30466hasWGermanPublication9>
+	rdfs:label "Über die Disposition zur Tuberkulose und deren Bekämpfung durch Sanatorien. Zeitschrift für Tuberkulose und Heilstättenwesen 2 (1901), 32-43." ;
+	a drw-model:WGermanPublication .
+
+<W/30466hasW20>
+	rdfs:label "Rol' nasledstvennosti v voprose o čachotke. Soobščeno na protivobugorčatkovom s-ezde v Washington'e v 1908 g. Russkij vrač (1909) Nr. 12-13, 16 S." ;
+	a drw-model:W .
+
+<WRussianPublication/30466hasWRussianPublication2>
+	a drw-model:WRussianPublication ;
+	rdfs:label "K lečeniju veneričeskich bol'nych. Vračebnye vedomosti (1882), 21 S." .
+
+<P/30466hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait aus: Šustov (<b>SL</b>). Abgedruckt in: Fischer 2010, 266." .
+
+<WGermanPublication/30466hasWGermanPublication7>
+	rdfs:label "Die Tuberculosefrage zur Zeit des Congresses in Berlin vom 24.-27. Mai 1899. St. Petersburger medicinische Wochenschrift N.F. 16 [= 24] (1899), 269-276." ;
+	a drw-model:WGermanPublication .
+
+<SL/30466hasSL6>
+	a drw-model:SL ;
+	rdfs:label "WBIS BaBA: I 380, 360-363; RBA: R 468, 30." .
+
+<WL/30466hasWL1>
+	rdfs:label "Verdienste auf dem Gebiet der Prävention und Behandlung von Tuberkulose, plädierte u.a. für die Einrichtung von eigenen Haussanatorien in Krankenhäusern." ;
+	a drw-model:WL .
+
+<A/30466hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch der Blumbergschen*) Elementarschule und 1858-1867 des Gymnasiums in Dorpat, 1868-1873 Studium der Medizin und 1873 Dr. med. an der Universität Dorpat.
+*) Gustav Carl Eduard Blumberg (1834-1892), Leiter der III. Elementarschule in Dorpat" .
+
+<B/30466hasStationOfLife1>
+	rdfs:label "1873-1874 Studienaufenthalte im Ausland, darunter an Kliniken in München, in Berlin und insbesondere in Wien, 1874-1876 Assistenzarzt am Nikolaj-Kinderhospital in Sankt Petersburg, 1876 auf den Kriegsschauplatz nach Montenegro delegiert, 1877 Reservechirurg während des Russisch-türkischen Krieges in Dobrudža u.a., 1878-1879 Assistenzarzt im 146. Caricynskij-Infanterieregiment und 1879-1784 im Izmajlovskij-Leibgarde-Regiment, 1884-1894 Oberarzt des Leibgarde-Grenadier-Regiments zu Pferde in Peterhof, 1894-1903 Oberarzt am Militärhospital in Carskoe Selo und zeitweise Mitglied im dortigen Ortskomitee des Russischen Roten Kreuzes, 1903-1912/1913 Chefarzt des Gardekorps in St. Petersburg, 1903-1917 \"Ehrenleibmedikus\" am Hofe des Zaren NIKOLAJ II. (1868-1918), lebte 1918-1921 in Finnland, ab 1921 in Tartu.
+        Erhielt 1881 den Ehrentitel \"Kollegienrat\", danach \"Staatsrat\", 1901 \"Wirklicher Russischer Staatsrat\", später \"Geheimrat\", den St.-Stanislav-Orden 1. Klasse, den St.-Vladimir-Orden (2.?), 3. und 4. Klasse (mit Schwertern), den St.-Annen-Orden 1. (2.?) und 3. Klasse (mit Schwertern), 1908 Goldmedaille auf dem Internationalen Tuberkulose-Kongress in Washington, 1913 Gedenkmedaille \"300 Jahre Romanov-Dynastie\" sowie weitere Auszeichnungen." ;
+	a drw-model:B .
+
+<W/30466hasW13>
+	rdfs:label "Domašnie sanatorii dlja čachotočnych. Prostoj i deševyj sposob lečenija slabogrudych. Terapevtičeskij vestnik (1898) Nr. 24/25, 32 S." ;
+	a drw-model:W .
+
+<W/30466hasW2>
+	a drw-model:W ;
+	rdfs:label "Ueber die diuretische Wirkung der Blatta orientalis bei Nephritis scarlatinosa. St. Petersburger medicinische Wochenschrift 2 (1877), 293-296." .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<GeneralLabor/Ehrenleibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ehrenleibmedikus" .
+
+<SL/30466hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Pridvornyj kalendar': na 1910 god. S.-Peterburg [o. J.], 288-289; ~ 1911, 299-300; ~ 1913, 315; ~ 1914, 395." .
+
+<RelatedPerson/30466wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	drw-model:hasNameLink <ImportantPerson/30385> ;
+	rdfs:label "Marie (Marija Gustavovna), geb. von Hirsch (1863-1905), Tochter des Leibarztes Gustav von <span style='font-variant:small-caps;'>Hirsch</span>" .
+
+<W/30466hasW10>
+	rdfs:label "Vererbung in der Schwindsuchtsfrage. Transactions of the 6th International Congress on Tuberculosis, Washington, September 28 to October 5, 1908. Bd. 1,1. Philadelphia/PA 1908, 129-141; engl. Zusammenfassung: Heredity in Consumption, S. 141." ;
+	a drw-model:W .
+
+<ImportantPerson/30466>
+	drw-model:hasW <W/30466hasW10> ;
+	drw-model:hasW <W/30466hasW7> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30466hasWRussianPublication11> ;
+	drw-model:hasSL <SL/30466hasSL1> ;
+	drw-model:hasSL <SL/30466hasSL2> ;
+	drw-model:hasW <W/30466hasW8> ;
+	drw-model:hasW <W/30466hasW3> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30466hasWGermanPublication10> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30466hasWGermanPublication4> ;
+	drw-model:diedOn <Date/2_or_13_7_1928> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30466hasWRussianPublication9> ;
+	drw-model:wasBornIn <Place/Simbirsk> ;
+	drw-model:fatherIs <RelatedPerson/30466fatherIs1> ;
+	drw-model:hasP <P/30466hasP1> ;
+	drw-model:hasW <W/30466hasW20> ;
+	drw-model:hasW <W/30466hasW13> ;
+	drw-model:hasSL <SL/30466hasSL6> ;
+	drw-model:hasSL <SL/30466hasSL3> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30466hasWRussianPublication4> ;
+	drw-model:hasW <W/30466hasW17> ;
+	drw-model:wasBornOn <Date/15_2_1848> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasID "30466" ;
+	drw-model:hasWGermanPublication <WGermanPublication/30466hasWGermanPublication3> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30466hasWRussianPublication1> ;
+	drw-model:hasW <W/30466hasW15> ;
+	drw-model:hasW <W/30466hasW19> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30466.jpg> ;
+	drw-model:hasSL <SL/30466hasSL5> ;
+	drw-model:hasStationOfLife <B/30466hasStationOfLife1> ;
+	drw-model:hasEducation <A/30466hasEducation1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30466hasWGermanPublication9> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30466hasWGermanPublication2> ;
+	drw-model:hasW <W/30466hasW12> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30466hasWRussianPublication10> ;
+	drw-model:hasW <W/30466hasW6> ;
+	drw-model:hasW <W/30466hasW14> ;
+	drw-model:wasMarriedTo <RelatedPerson/30466wasMarriedTo1> ;
+	drw-model:hasW <W/30466hasW16> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30466hasWRussianPublication8> ;
+	drw-model:hasW <W/30466hasW2> ;
+	drw-model:hasW <W/30466hasW4> ;
+	drw-model:diedIn <Place/Tartu> ;
+	drw-model:hasWL <WL/30466hasWL1> ;
+	drw-model:hasMainName <MainName/30466hasMainName1> ;
+	drw-model:motherIs <RelatedPerson/30466motherIs1> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30466hasWRussianPublication5> ;
+	drw-model:hasW <W/30466hasW18> ;
+	drw-model:hasW <W/30466hasW9> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30466hasWRussianPublication3> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30466hasWGermanPublication8> ;
+	drw-model:hasW <W/30466hasW22> ;
+	rdfs:label "Unterberger, Simon Thomas Friedrich (von)" ;
+	drw-model:hasW <W/30466hasW11> ;
+	drw-model:hasW <W/30466hasW5> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30466hasWRussianPublication2> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30466hasWGermanPublication1> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30466hasWRussianPublication6> ;
+	drw-model:hasDescendant <RelatedPerson/30466hasDescendant1> ;
+	drw-model:hasW <W/30466hasW1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasWRussianPublication <WRussianPublication/30466hasWRussianPublication12> ;
+	drw-model:hasWRussianPublication <WRussianPublication/30466hasWRussianPublication7> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30466hasWGermanPublication7> ;
+	drw-model:hasSL <SL/30466hasSL4> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30466hasWGermanPublication5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Ehrenleibmedikus> ;
+	drw-model:hasW <W/30466hasW21> ;
+	drw-model:hasMG <MG/30466hasMG1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30466hasWGermanPublication6> .
+
+<W/30466hasW16>
+	rdfs:label "Tifoznaja ėpidemija v nojabre mesjace 1901 v Carskom Sele. Bol'ničnaja gazeta Botkina 13 (1902), 10 S." ;
+	a drw-model:W .
+
+<W/30466hasW8>
+	rdfs:label "Zur Frage über die Erblichkeit der Schwindsucht. St. Petersburger medicinische Wochenschrift N.F. 18 [= 26] (1901), 375-380." ;
+	a drw-model:W .
+
+<RelatedPerson/30466fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Heinrich Friedrich Simon (1810-1884), Veterinärmediziner" .
+
+<RelatedPerson/30466motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Marie, geb. Rudolph († 1900)" .
+
+<W/30466hasW6>
+	rdfs:label "Ueber die Nothwendigkeit der Einrichtungen von Haus-Sanatorien für Tuberkulöse in den Militärhospitälern. Deutsche militärärztliche Zeitschrift 27 (1898), 14-27." ;
+	a drw-model:W .
+
+<RelatedPerson/30466hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Elisabeth (Elizaveta Semenovna), verh. Hauck (* 1890)" .
+
+<Date/15_2_1848>
+	a drw-model:Date ;
+	rdfs:label "15.2.1848" .
+
+<W/30466hasW4>
+	rdfs:label "Ein Fall von primärer Trepanation mit günstigem Erfolge bei einem Schädelbruch mit Hirnverletzung. St. Petersburger medicinische Wochenschrift 7 (1882), 53-56." ;
+	a drw-model:W .
+

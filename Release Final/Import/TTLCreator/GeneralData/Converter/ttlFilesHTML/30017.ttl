@@ -1,0 +1,91 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<GeneralLabor/Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Arzt" .
+
+<Place/Dnamnde>
+	a drw-model:Place ;
+	rdfs:label "Dünamünde" .
+
+<MG/30017hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Verein St. Petersburger Ärzte (ab 1867, Ehrenmitglied 1887), Deutscher ärztlicher Verein in St. Petersburg (ab 1883/4?)." .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Date/12_or_24_6_1887>
+	a drw-model:Date ;
+	rdfs:label "12./24.6.1887" .
+
+<ImportantPerson/30017>
+	drw-model:hasSL <SL/30017hasSL1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Arzt> ;
+	drw-model:motherIs <RelatedPerson/30017motherIs1> ;
+	drw-model:hasW <W/30017hasW1> ;
+	drw-model:hasID "30017" ;
+	drw-model:hasEducation <A/30017hasEducation1> ;
+	drw-model:fatherIs <RelatedPerson/30017fatherIs1> ;
+	drw-model:diedIn <Place/Riga> ;
+	drw-model:diedOn <Date/12_or_24_6_1887> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasMG <MG/30017hasMG1> ;
+	drw-model:wasBornIn <Place/Dnamnde> ;
+	drw-model:wasBornOn <Date/3_or_15_5_1837> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Grofrstlicher_Leibarzt> ;
+	rdfs:label "Albanus, Karl August von" ;
+	drw-model:hasStationOfLife <B/30017hasStationOfLife1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30017wasMarriedTo1> ;
+	drw-model:hasMainName <MainName/30017hasMainName1> .
+
+<B/30017hasStationOfLife1>
+	rdfs:label "1862 zunächst Arzt im Obuchov-Krankenhaus in St. Petersburg, später im Hospital des St. Petersburger Stadt-Gefängnisses, 1871-1886 Leibmedikus des Großfürsten MICHAIL NIKOLAEVIČ (1832-1909) in Tiflis und in St. Petersburg, ab 1880 \"Ehrenleibmedikus\" am Zarenhof, lebte zuletzt im Ruhestand in Riga. Inhaber hoher russischer Ehrentitel, darunter \"Geheimrat\", 1887 \"Wirklicher Russischer Staatsrat\"." ;
+	a drw-model:B .
+
+<MainName/30017hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Albanus, Karl August von" .
+
+<SL/30017hasSL1>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [117/122 (20.7.2010)]. WBIS RBA: R 13, 301; 7, 201." .
+
+<RelatedPerson/30017motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Helene, geb. Dahl" .
+
+<GeneralLabor/Grofrstlicher_Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Großfürstlicher Leibarzt" .
+
+<W/30017hasW1>
+	rdfs:label "Experimentelle Untersuchungen über die Beziehung des Halsstranges des Sympathicus zur Temperatur des Kaninchenohres. Diss. Dorpat 1860, 64 S. Online Ressource Volltext (28.2.2012).Zwölf Fälle von Tuberculose des Bauchfelles. St. Petersburger medicinische Zeitschrift 17 (1870), 313-353." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/dspace/handle/10062/7023" ;
+	a drw-model:W .
+
+<RelatedPerson/30017fatherIs1>
+	rdfs:label "Adolph (1798-1856), Pastor in Dünamünde, Begründer einer Knabenerziehungsanstalt" ;
+	a drw-model:RelatedPerson .
+
+<Date/3_or_15_5_1837>
+	a drw-model:Date ;
+	rdfs:label "3./15.5.1837" .
+
+<RelatedPerson/30017wasMarriedTo1>
+	rdfs:label "Helene Karoline Luise, geb. Brückner (1836?-1871)" ;
+	a drw-model:RelatedPerson .
+
+<A/30017hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch der Schulanstalten in Engelhardshof und Birkenruh in Livland, 1855-1860 Studium der Zoologie und der Medizin und 1860 Dr. med. an der Universität Dorpat, 1860-1862 Studienaufenthalte in Berlin, Prag und Wien.
+" .
+
+<Place/Riga>
+	a drw-model:Place ;
+	rdfs:label "Riga" .
+

@@ -1,0 +1,150 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<B/30227hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "1776-1783 Praktischer Arzt in Schwarzenbach an der Saale bei Hof, 1783 oder 1784 Auswanderung nach Russland und dort als Arzt zugelassen, zunächst bei der Armee angestellt, danach Hausarzt bei der Familie DEMIDOV in Moskau, ab 1799 Hofarzt, 1799-1803 Stadtphysikus in St. Petersburg, 1803-1810 im Auftrag der Universität Dorpat als \"Korrespondent\" in Deutschland mit Aufenthalten in Coburg, Heidelberg, Leipzig und Mannheim, 1810-1812 Stadtphysikus in Moskau, danach im Landesinneren als Lazarettarzt angestellt, lebte zuletzt als praktischer Arzt in Narva.
+Inhaber des russischen Ehrentitels \"Kollegienrat\" (ab 1799), des Adelstitels sowie des Gold- und Rosenkreuzerordens." .
+
+<W/30227hasW2>
+	rdfs:label "[Anonym, wird aber Doppelmaier zugeschrieben, vgl. auch Briefe an Jean Paul, Kommentare] Abhandlung und Bemerkungen über die vom Herrn Generalchirurgus Theden in Berlin bekannt gemachte Spiesglastinktur von einem Schüler aus der Gesellschaft wahrer und ächter Naturforscher. Amsterdam 1783, 45 S." ;
+	a drw-model:W .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<Date/11_11_1753>
+	a drw-model:Date ;
+	rdfs:label "11.11.1753" .
+
+<RelatedPerson/30227wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Karoline Sophie, geb. von Schlammersdorf, verw. von Schirnding (1750?-1823)" .
+
+<Place/Narva>
+	a drw-model:Place ;
+	rdfs:label "Narva" .
+
+<ImportantPerson/30227>
+	drw-model:hasQ <Q/30227hasQ3> ;
+	drw-model:motherIs <RelatedPerson/30227motherIs1> ;
+	drw-model:fatherIs <RelatedPerson/30227fatherIs1> ;
+	drw-model:hasSL <SL/30227hasSL4> ;
+	drw-model:hasStationOfLife <B/30227hasStationOfLife1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30227wasMarriedTo1> ;
+	drw-model:hasQ <Q/30227hasQ2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:wasBornOn <Date/11_11_1753> ;
+	drw-model:hasW <W/30227hasW1> ;
+	drw-model:wasBornIn <Place/Hof> ;
+	drw-model:hasMG <MG/30227hasMG1> ;
+	drw-model:hasSL <SL/30227hasSL2> ;
+	drw-model:hasMainName <MainName/30227hasMainName1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Hofarzt> ;
+	drw-model:diedOn <Date/28_3_1826> ;
+	drw-model:hasEducation <A/30227hasEducation1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <W/30227hasW3> ;
+	drw-model:hasSL <SL/30227hasSL3> ;
+	drw-model:diedIn <Place/Narva> ;
+	drw-model:hasQ <Q/30227hasQ4> ;
+	drw-model:hasQ <Q/30227hasQ1> ;
+	drw-model:hasSL <SL/30227hasSL1> ;
+	drw-model:hasW <W/30227hasW2> ;
+	rdfs:label "Doppelmaier, Johann Georg Gottfried (von)" ;
+	drw-model:hasID "30227" .
+
+<Q/30227hasQ4>
+	a drw-model:Q ;
+	rdfs:label "Brief an Jean Paul. Schwarzenbach, nach dem 4. und vor dem 14. April 1783." .
+
+<GeneralLabor/Hofarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hofarzt" .
+
+<Q/30227hasQ2>
+	a drw-model:Q ;
+	rdfs:label "- Geburtseintrag 1753/151: \"Johann Georg Gottfriedt, Dit. Herrn Johann Siegmundt Doppelmayer Die Mutter Frau Catharina Dorothea, eine gebohrene Herdegin, Liebes Söhnl. Ist gebohren Sonntag den 11. November, getauft Dienstag den 12.[?] dito.\"" .
+
+<SL/30227hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Paulus, Jörg: Der Enthusiast und sein Schatten. Literarische Schwärmer- und Philisterkritik. Berlin, New York 1998, 151-152." .
+
+<NameVariation/30227hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "DOPPELMEIER" .
+
+<A/30227hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1764-1771 Besuch des Gymnasiums in Hof, 1771-1776 Studium der Medizin an der Universität Jena (?) und an der Universität Erlangen, zeitweise praktische Übungen in Wien, 1776 Dr. med. in Erlangen." .
+
+<NameVariation/30227hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "DOPPELMAIR" .
+
+<SL/30227hasSL4>
+	rdfs:label "WBIS DBA: I 248, 254; I 248, 279-280, 282-284; II 286, 54; BaBA: II 53, 40." ;
+	a drw-model:SL .
+
+<RelatedPerson/30227motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Catharina Dorothea, geb. Herdeg" .
+
+<MainName/30227hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30227hasNameVariation3> ;
+	rdfs:label "Doppelmaier, Johann Georg Gottfried (von)" ;
+	drw-model:hasNameVariation <NameVariation/30227hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30227hasNameVariation2> .
+
+<W/30227hasW3>
+	rdfs:label "Außerdem Herausgeber einer Sammlung russischer Volkslieder von 1803 und 1814." ;
+	a drw-model:W .
+
+<W/30227hasW1>
+	rdfs:label "De difficili in observationes anatomicas epicrisi. Commentatio 5. Diss. Erlangen 1776, 38 S." ;
+	a drw-model:W .
+
+<SL/30227hasSL1>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [62415/61975 (27.7.2010)]." .
+
+<SL/30227hasSL2>
+	rdfs:label "Frick, Karl R. H.: Die Erleuchteten. Gnostisch-theosophische und alchemistisch-rosenkreuzerische Geheimgesellschaften bis zum Ende des 18. Jahrhunderts. Wiesbaden 2003, 338." ;
+	a drw-model:SL .
+
+<Q/30227hasQ3>
+	a drw-model:Q ;
+	rdfs:label "- Heiratseintrag der Eltern: \" D 1744/142 Dit. Herr Johann Sigmund DoppelMayer Bürger und StadtApothecker allhier, sato: Dit. Herrn Johann Gabriel DoppelMayers, der römisch kayserlichen Academie Not. Caesarius .-. in gleichem der Kayserlichen Russischen, wie auch Der Königl. Englischen, und Königlich Preußischen Societeten, der Wissenschafften Mitglied und Professoris Matheseos, in Nürnberg ehel. Einiger Sohn, Mitt Jungfer Catharina Dorothea Herdegin, H. Georg Friederich Herdegen, gewesenen Kauf und Handelsmann in Culmbach hinterlassener ehel. Ältester Tochter ledigen Stands Werden Auf gnädigst ergangnen Hochfürstlichen Befehl Einmahl Vor alle mahl Proclamiert und werden in Bayreuth den 3. December Copuliert Wird Ihnen hier dreymahl zusammen geschlagen entrichten alle Jahre Steuher in H. Johann Adam Trögers Freytags Predigers Wöchnerei.\"" .
+
+<Q/30227hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Gesamtkirchenverwaltung Hof:" .
+
+<MG/30227hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Deutsche Gesellschaft zu Erlangen (1773)." .
+
+<Date/28_3_1826>
+	a drw-model:Date ;
+	rdfs:label "28.3.1826" .
+
+<RelatedPerson/30227fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann Siegmund, Stadtapotheker" .
+
+<NameVariation/30227hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "DOPPELMAYR" .
+
+<Place/Hof>
+	a drw-model:Place ;
+	rdfs:label "Hof" .
+

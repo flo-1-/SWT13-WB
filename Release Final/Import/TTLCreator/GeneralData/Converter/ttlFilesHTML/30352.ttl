@@ -1,0 +1,112 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<RelatedPerson/30352motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Luise Charlotte Elisabeth, geb. Klipping (1736-1821)" .
+
+<RelatedPerson/30352wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Nancy, geb. Collman (1774-1848)" .
+
+<MG/30352hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Mediko-chirurgičeskaja akademija [Mediko-chirurgische Akademie (MCA)], Deutscher ärztlicher Verein (1819 Mitgründer), Deutsche Akademie der Naturforscher Leopoldina (1829)." .
+
+<ImportantPerson/30352>
+	drw-model:hasW <W/30352hasW1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Hof_und_Leibarzt> ;
+	drw-model:motherIs <RelatedPerson/30352motherIs1> ;
+	rdfs:label "Harder, David Johann (von)" ;
+	drw-model:fatherIs <RelatedPerson/30352fatherIs1> ;
+	drw-model:wasBornOn <Date/2_6_or_13_6_1769> ;
+	drw-model:hasSL <SL/30352hasSL3> ;
+	drw-model:hasDescendant <RelatedPerson/30352hasDescendant1> ;
+	drw-model:hasStationOfLife <B/30352hasStationOfLife1> ;
+	drw-model:hasMG <MG/30352hasMG1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30352wasMarriedTo1> ;
+	drw-model:diedOn <Date/24_7_or_5_8_1833> ;
+	drw-model:wasBornIn <Place/St_Petersburg> ;
+	drw-model:hasID "30352" ;
+	drw-model:hasSL <SL/30352hasSL2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Chirurg> ;
+	drw-model:hasEducation <A/30352hasEducation1> ;
+	drw-model:hasSL <SL/30352hasSL1> ;
+	drw-model:hasW <W/30352hasW2> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasMainName <MainName/30352hasMainName1> ;
+	drw-model:hasGPV <GPV/30352hasGPV1> .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Date/2_6_or_13_6_1769>
+	a drw-model:Date ;
+	rdfs:label "2.6./13.6.1769" .
+
+<SL/30352hasSL2>
+	a drw-model:SL ;
+	rdfs:label "RBS. Bd. 4. Moskva 1914, 230-231; auch in WBIS RBA: R 115, 406-407." .
+
+<GPV/30352hasGPV1>
+	rdfs:label "Publikationen 1821-1835, in: RBS (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<B/30352hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "1793-1796 Chirurg in der Baltischen Flotte, mit der Flotte in England, 1797-1817 praktischer Arzt in Reval, ab 1817 in St. Petersburg, zunächst Hofarzt, später Leibarzt des Zaren ALEKSANDR I. (1777-1825), außerdem Mitglied des Medizinalrats des Ministeriums des Innern und des Komitees der St. Petersburger Augenheilanstalt.
+Inhaber der Ehrentitel \"Kollegienrat\" und \"Wirklicher Russischer Staatsrat\" sowie des St.-Annen-Ordens 2. Klasse (1828)." .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<RelatedPerson/30352fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "David Johann (1730-1805)" .
+
+<RelatedPerson/30352hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann (John) David (Davidovič) (1797-1871), Holländischer Generalkonsul<br>Ludwig (Lewis) (Davidovič) (1799-1860), Kaufmann<br>Nancy Charlotte (Davidovna), verh. Scholz, in 2. Ehe verh. Heiler (1802-1887)<br>William Charles (Davidovič) (1807/8-1845), Gutsbesitzer<br>Elisabeth (Betsy) Marie (Maria Davidovna), verh. Kaul (1809-1856)" .
+
+<SL/30352hasSL3>
+	a drw-model:SL ;
+	rdfs:label "WBIS DBA: I 472, 436-439; II 523, 253; BaBA: I 116, 137-140; RBA: R 115, 405-408." .
+
+<SL/30352hasSL1>
+	rdfs:label "EAD: Dokument-Id [68708/67520 (29.7.2010)]." ;
+	a drw-model:SL .
+
+<A/30352hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Ab 1784 Studium an der Mediko-chirurgischen Lehranstalt in St. Petersburg, ein Jahr Fortbildung in England, 1803 Dr. med. an der Universität Dorpat." .
+
+<W/30352hasW1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/dspace/bitstream/10062/2292/2/harder.pdf" ;
+	rdfs:label "De variolis vaccinis. Diss. Dorpat 1803, 20 S. Online Ressource Volltext (7.3.2012)." ;
+	a drw-model:W .
+
+<GeneralLabor/Chirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Chirurg" .
+
+<Date/24_7_or_5_8_1833>
+	a drw-model:Date ;
+	rdfs:label "24.7./5.8.1833" .
+
+<GeneralLabor/Hof_und_Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hof- und Leibarzt" .
+
+<MainName/30352hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Harder, David Johann (von)" .
+
+<W/30352hasW2>
+	rdfs:label "Autor mehrerer vermischter Abhandlungen in deutscher Sprache, z.B. über Pseudokrupp und Vakzination (vgl. <b>GPV</b>)." ;
+	a drw-model:W .
+

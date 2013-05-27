@@ -1,0 +1,211 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<MG/30474hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Deutsche Gesellschaft für Chirurgie, Russkoe chirurgičeskoe obščestvo Pirogova [Russische chirurgische Pirogov-Gesellschaft], Obščestvo russkich vračej v pamjat' N. I. Pirogova [Gesellschaft russischer Ärzte im Gedenken an N. I. Pirogov], Deutsche Akademie der Naturforscher Leopoldina (1925)." .
+
+<SL/30474hasSL3>
+	rdfs:label "Nuštaev, I. A.: Verner Germanovič Cege fon Mantejfel'. K 150-letiju so dnja roždenija. Chirurgija (2008) Nr. 4, 70-71. Online Ressource Online Ressource (5.4.2012)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.mediasphera.ru/journals/pirogov/detail/421/6230/" .
+
+<Place/Tallinn>
+	a drw-model:Place ;
+	rdfs:label "Tallinn" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<SL/30474hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Genealogisches Handbuch der baltischen Ritterschaften. Teil 2,1: Estland, Bd. 1. Bearb. von O. M. von Stackelberg. Görlitz 1930, 629 und 631." .
+
+<B/30474hasStationOfLife1>
+	rdfs:label "1886-1889 Assistent an der Chirurgischen Klinik der Universität Dorpat bei Eduard Georg von WAHL (1833-1890), 1889 Privatdozent, 1889-1899 Dozent, 1899-1905 ao. Professor für chirurgische \"Hospitalklinik\" und theoretische Chirurgie, 1905-1918 o. Professor und Dir. der Chirurgischen Klinik, 1918 Dekan der Medizinischen Fakultät an der Universität Dorpat/(ab 1893) Jur'ev, zugleich ab 1891 Gründer und Leiter der chirurgischen Abteilung am Stadthospital, später auch Leiter der Chirurgischen und gynäkologischen Privatklinik von Dr. J. FAURE (1851-1909), 1904-1905 Bevollmächtigter der fliegenden (mobilen) \"Sanitätskolonne der Zarin Marija Fëdorovna\" beim Roten Kreuz, Konsultantchirurg und Leiter einer medizinischen Abteilung der Russischen Rot-Kreuz-Gesellschaft in der Mandschurischen Armee, danach bis 1917 \"Ehrenleibchirurg\" des Zaren NIKOLAJ II. (1868-1918), 1914-1916 Sanitätschef und 1916-1917 Generalkonsultant des Roten Kreuzes an der russischen Nordwest-Front, außerdem zeitweilig Arzt im Baltenregiment, 1918 Generalkonsultant für Chirurgie und Generaloberarzt der Estnischen Armee.
+        Inhaber des Ehrentitels \"Wirklicher Russischer Staatsrat\", des St.-Vladimir-Ordens 4. Klasse mit Schwertern, des St. Stanislav-Ordens 2. Klasse und des St.-Annen-Ordens 3. Klasse, sowie der Gedenkmedaille \"300 Jahre Romanov-Dynastie\" (1913)." ;
+	a drw-model:B .
+
+<RelatedPerson/30474hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Elisabeth (Else) (Vernerovna), verh. de Vries (* 1891)" .
+
+<GeneralLabor/Ehrenleibchirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ehrenleibchirurg" .
+
+<RelatedPerson/30474fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Hermann Gustav (1826-1899), Richter" .
+
+<P/30474hasP6>
+	rdfs:label "Foto von Werner Zoege von Manteuffel auf Sonderbriefmarke der Estnischen Post anlässlich seines 150. Geburtstages 2007. Online Ressource Online Ressource (12.3.2012). Abgedruckt in: Fischer 2010, 287." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.hot.ee/jaanusjars/manteuffel.JPG" ;
+	a drw-model:P .
+
+<W/30474hasW3>
+	rdfs:label "Die Behandlung der Gefässverletzungen im Kriege 1905/06. Archiv für klinische Chirurgie 81 (1906) 1, 306-332." ;
+	a drw-model:W .
+
+<NameVariation/30474hasNameVariation2>
+	rdfs:label "Maкcимилиaн Фридриx Вeрнeр" ;
+	a drw-model:NameVariation .
+
+<WL/30474hasWL3>
+	rdfs:label "        Autor von ca. 70 wissenschaftlichen Arbeiten, darunter in deutscher Sprache in den Zeitschriften <i>St.-Petersburger medizinische Wochenschrift, Deutsche Zeitschrift für Chirurgie, Langenbecks Archiv, Münchener medizinische Wochenschrift, Centralblatt für Chirurgie</i> (vgl. <b>GPV</b>)." ;
+	a drw-model:WL .
+
+<P/30474hasP2>
+	rdfs:label "Foto in: Vestnik chirurgii imeni I. J. Grekova 97 (1966) 10, zw. S. [2] und 3." ;
+	a drw-model:P .
+
+<RelatedPerson/30474motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Bertha Henriette Wilhelmine, geb. von Parrot (1825-1878)" .
+
+<SL/30474hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Wainer, L.: Werner Zoege von Manteuffel. Zentralblatt für Chirurgie 105 (1980), 1389-1391." .
+
+<GPV/30474hasGPV1>
+	rdfs:label "• Publikationen 1886-1902, in: Brennsohn, Isidorus: Die Aerzte Livlands von den ältesten Zeiten bis zur Gegenwart. Ein biographisches Lexikon nebst einer historischen Einleitung über das Medizinalwesen Livlands. Riga 1905, 441-442; auch in: WBIS BaBA: I 419, 165-167, 168." ;
+	a drw-model:GPV .
+
+<P/30474hasP4>
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://ihm.nlm.nih.gov/luna/servlet/view/search?q=B026743" ;
+	rdfs:label "Images from the History of Medicine (NLM), Online Ressource Online Ressource (5.4.2012)." .
+
+<W/30474hasW1>
+	rdfs:label "Experimentelle Studien über Geräusche bei Gefässverletzungen. Diss. Dorpat 1886, 54 S." ;
+	a drw-model:W .
+
+<SL/30474hasSL2>
+	rdfs:label "[Kurzbiographie]. Vestnik chirurgii imeni I. J. Grekova 97 (1966) 10, [2]." ;
+	a drw-model:SL .
+
+<A/30474hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Nach dem anfänglichen häuslichen Unterricht 1867-1878 Besuch der Domschule in Reval, 1878-1885 Studium der Medizin und 1886 Dr. med. an der Universität Dorpat." .
+
+<WL/30474hasWL1>
+	rdfs:label "Entwickelte in den 90-er Jahren des 19. Jahrhunderts Methoden der chirurgischen Behandlung schwerer Gefäßverletzungen, führte z.B. 1895 die erste Arteriennaht bei einem arteriovenösem Aneurysma durch und 1899 die Resektion eines Teils der Vena cava inferior bei einem metastasierten Nierentumor durch, entfernte 1903 erstmals erfolgreich eine Revolverkugel aus dem Herzen, führte als Erster in Russland die partielle Strumektomie bei der ausgeprägten Basedow-Krankheit durch, klassifizierte die Pathogenese des Strangulations- und obstruktiven Ileus und führte 1897 als Erster in der Welt das Tragen der Gummihandschuhe bei Operationen ein usw." ;
+	a drw-model:WL .
+
+<ImportantPerson/30474>
+	drw-model:hasP <P/30474hasP2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Ehrenleibchirurg> ;
+	drw-model:hasGPV <GPV/30474hasGPV2> ;
+	drw-model:hasSL <SL/30474hasSL2> ;
+	drw-model:hasSL <SL/30474hasSL4> ;
+	drw-model:diedIn <Place/Tallinn> ;
+	drw-model:hasWL <WL/30474hasWL2> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30474.jpg> ;
+	drw-model:hasStationOfLife <B/30474hasStationOfLife1> ;
+	drw-model:wasBornIn <Place/Rittergut_Meyris_im_Kirchspiel> ;
+	drw-model:hasWL <WL/30474hasWL3> ;
+	drw-model:hasP <P/30474hasP1> ;
+	drw-model:diedOn <Date/14_3_1926> ;
+	drw-model:hasMainName <MainName/30474hasMainName1> ;
+	drw-model:motherIs <RelatedPerson/30474motherIs1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30474wasMarriedTo1> ;
+	drw-model:hasMG <MG/30474hasMG1> ;
+	drw-model:hasSL <SL/30474hasSL5> ;
+	drw-model:fatherIs <RelatedPerson/30474fatherIs1> ;
+	drw-model:hasGPV <GPV/30474hasGPV1> ;
+	drw-model:hasW <W/30474hasW2> ;
+	drw-model:hasDescendant <RelatedPerson/30474hasDescendant1> ;
+	drw-model:hasW <W/30474hasW1> ;
+	drw-model:hasP <P/30474hasP6> ;
+	drw-model:hasP <P/30474hasP4> ;
+	drw-model:hasSL <SL/30474hasSL1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Chirurgie> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30474" ;
+	drw-model:hasWL <WL/30474hasWL1> ;
+	drw-model:hasW <W/30474hasW4> ;
+	drw-model:hasEducation <A/30474hasEducation1> ;
+	drw-model:hasP <P/30474hasP5> ;
+	drw-model:hasW <W/30474hasW3> ;
+	drw-model:wasBornOn <Date/1_7_1857> ;
+	drw-model:hasP <P/30474hasP3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Gynkologe> ;
+	drw-model:hasSL <SL/30474hasSL3> ;
+	drw-model:hasSL <SL/30474hasSL6> ;
+	rdfs:label "Zoege von Manteuffel, Werner Maximilian Friedrich" .
+
+<MainName/30474hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30474hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30474hasNameVariation2> ;
+	rdfs:label "Zoege von Manteuffel, Werner Maximilian Friedrich" .
+
+<SL/30474hasSL6>
+	rdfs:label "WBIS DBA: II 852,176; II 1451, 451-452; BaBA: I 419, 163-174; II 307, 187-197." ;
+	a drw-model:SL .
+
+<Place/Rittergut_Meyris_im_Kirchspiel>
+	a drw-model:Place ;
+	rdfs:label "Rittergut Meyris im Kirchspiel St. Simonis" .
+
+<Date/1_7_1857>
+	rdfs:label "1.7.1857" ;
+	a drw-model:Date .
+
+<P/30474hasP1>
+	rdfs:label "Foto um 1910. Historisches Museum der Universität Tartu: ÜAMF 297:30. Abgedruckt in: Fischer 2010, 284. Online Ressource Online Ressource, Tartu Library (5.4.2012)." ;
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/dspace/bitstream/10062/14309/2/uamf297_30.jpg" .
+
+<W/30474hasW2>
+	rdfs:label "Gummihandschuhe in der chirurgischen Praxis. Zentralblatt für Chirurgie 24 (1897) 20, 553-556." ;
+	a drw-model:W .
+
+<P/30474hasP3>
+	a drw-model:P ;
+	rdfs:label "Foto in: Wainer (<b>SL</b>), 1389." .
+
+<WL/30474hasWL2>
+	rdfs:label "Mitherausgeber der <i>St.-Petersburger medizinischen Wochenschrift</i> und Mitredakteur des <i>Chirurgičeskij archiv Vel'jaminova</i>." ;
+	a drw-model:WL .
+
+<W/30474hasW4>
+	rdfs:label "Das Sanitätswesen im estnischen Freiheitskrieg. Berlin [1922], 8 S." ;
+	a drw-model:W .
+
+<NameVariation/30474hasNameVariation1>
+	rdfs:label "Maksimilian Fridrich Verner" ;
+	a drw-model:NameVariation .
+
+<GPV/30474hasGPV2>
+	rdfs:label "• Publikationen 1886-1902, ein Verzeichnis der von ihm betreuten Dissertationen und Publikationen seiner Schüler, in: Levickij, Grigorij Vasil'evič: Biografičeskij slovar' professorov i prepodavatelej imperatorskago Jur'evskago byvšego Derptskago universiteta za sto let jego suščestvovanija (1802-1902). Bd. 2. Jur'ev 1903; zit. nach WBIS BaBA: BaBA: I 419, 165-166." ;
+	a drw-model:GPV .
+
+<GeneralLabor/Professor_fr_Chirurgie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Chirurgie" .
+
+<RelatedPerson/30474wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anna (Anita), geb. de Vries" .
+
+<SL/30474hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Pridvornyj kalendar': na 1910 god. S.-Peterburg [o. J.], 294; ~ 1911, 306; ~ 1913, 322; ~ 1914, 405." .
+
+<GeneralLabor/Gynkologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Gynäkologe" .
+
+<P/30474hasP5>
+	rdfs:label "Foto von Werner Zoege von Manteuffel auf Sonderpostkarte der Estnischen Post anlässlich seines 150. Geburtstages 2007. Online Ressource Online Ressource (12.3.2012). Abgedruckt in: Fischer 2010, 287." ;
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.post.ee/failid/2007_07_06ety.jpg" .
+
+<Date/14_3_1926>
+	rdfs:label "14.3.1926" ;
+	a drw-model:Date .
+

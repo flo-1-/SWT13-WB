@@ -1,0 +1,255 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<MG/30412hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Mediko-chirurgičeskaja akademija [Mediko-chirurgische Akademie] (Ehrenmitglied), Deutscher ärztlicher Verein in St. Petersburg (ab 1825), Estländische literarische Gesellschaft in Reval, Gelehrte Estnische Gesellschaft zu Dorpat, Académie des Sciences (France), Vizepräsident der Livländischen Gemeinnützigen und Ökonomischen Sozietät, Vorsitzender der Gesellschaft für Geschichte und Altertumskunde der Ostseeprovinzen in Riga, Administrator der Robert Heimbürger Stiftung der Kaiserlichen Universität zu Dorpat." .
+
+<SL/30412hasSL4>
+	rdfs:label "Farber, V. B.: K. K. Zejdlic kak klinicist. Kliničeskaja medicina Bd. 36, Jg. 39 (1958) 1, 154-158." ;
+	a drw-model:SL .
+
+<ImportantPerson/30412>
+	drw-model:fatherIs <RelatedPerson/30412fatherIs1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	drw-model:hasGPV <GPV/30412hasGPV1> ;
+	drw-model:hasStationOfLife <B/30412hasStationOfLife1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30412wasMarriedTo1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30412.jpg> ;
+	drw-model:wasBornIn <Place/Reval> ;
+	drw-model:hasSL <SL/30412hasSL1> ;
+	drw-model:diedIn <Place/Dorpat> ;
+	drw-model:hasSL <SL/30412hasSL7> ;
+	drw-model:hasSL <SL/30412hasSL2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasSL <SL/30412hasSL8> ;
+	drw-model:hasEducation <A/30412hasEducation1> ;
+	drw-model:hasP <P/30412hasP1> ;
+	drw-model:hasMainName <MainName/30412hasMainName1> ;
+	drw-model:hasWL <WL/30412hasWL1> ;
+	drw-model:hasWL <WL/30412hasWL4> ;
+	drw-model:hasP <P/30412hasP4> ;
+	drw-model:hasSL <SL/30412hasSL5> ;
+	drw-model:hasW <W/30412hasW3> ;
+	drw-model:hasID "30412" ;
+	drw-model:hasSL <SL/30412hasSL3> ;
+	drw-model:hasW <W/30412hasW2> ;
+	drw-model:hasSL <SL/30412hasSL10> ;
+	rdfs:label "Seidlitz, Carl Johann von" ;
+	drw-model:hasQ <Q/30412hasQ1> ;
+	drw-model:hasDescendant <RelatedPerson/30412hasDescendant1> ;
+	drw-model:hasSL <SL/30412hasSL9> ;
+	drw-model:hasSL <SL/30412hasSL4> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <W/30412hasW1> ;
+	drw-model:hasWL <WL/30412hasWL5> ;
+	drw-model:wasBornOn <Date/6_or_17_3_1798> ;
+	drw-model:hasW <W/30412hasW4> ;
+	drw-model:hasP <P/30412hasP2> ;
+	drw-model:hasP <P/30412hasP5> ;
+	drw-model:hasWL <WL/30412hasWL2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_innere_Medizin> ;
+	drw-model:motherIs <RelatedPerson/30412motherIs1> ;
+	drw-model:diedOn <Date/7_or_19_2_oder_6_or_18_12_1885> ;
+	drw-model:hasP <P/30412hasP3> ;
+	drw-model:hasWL <WL/30412hasWL3> ;
+	drw-model:hasMG <MG/30412hasMG1> ;
+	drw-model:hasSL <SL/30412hasSL6> .
+
+<SL/30412hasSL2>
+	a drw-model:SL ;
+	rdfs:label "EAD [1]: Dokument-Id [78721/77482 und 1075605 (10.8.2010)]." .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30412hasW2>
+	rdfs:label "Medicinische Geschichte des Russisch-türkischen Feldzugs in den Jahren 1828 und 1829. Hg. v. Friedrich Alexander Simon. Hamburg 1854, 292 S." ;
+	a drw-model:W .
+
+<WL/30412hasWL4>
+	rdfs:label "Verfasser von 17 wissenschaftlichen Arbeiten auf dem Gebiet der Infektionskrankheiten und Kriegsseuchen (vgl. <b>GPV</b>)." ;
+	a drw-model:WL .
+
+<SL/30412hasSL8>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.nasledie-rus.ru/podshivka/6914.php" ;
+	a drw-model:SL ;
+	rdfs:label "Vuič, Lada: Neizvestnye stranicy biografii druga V. A. Žukovskog, avtora pervogo žizneopisanija poėta: Spb. 1883: \"Vernyj drug živym i mertvym\" doktor Zejdlic. Naše nasledie (2004) Nr. 69. Online Ressource Online Ressource (12.3.2012)." .
+
+<WL/30412hasWL2>
+	rdfs:label "Betreuer des schriftlichen Nachlasses des russischen Dichters Vasilij Andreevič ŽUKOVSKIJ (1783-1852).*)" ;
+	a drw-model:WL .
+
+<W/30412hasW4>
+	rdfs:label "[Hg.] Briefe auf einer Reise in Deutschland: in den Jahren 1821 und 1822. Geschrieben von Constantin Emanuel von Weltzien (1798-1824). Dorpat 1874, 120 S." ;
+	a drw-model:W .
+
+<Q/30412hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Rossijskij gosudarstvennyj archiv literatury i isskustva, Moskva [Russisches Staatliches Archiv für Literatur und Kunst]: РГАЛИ Ф. 209 (Rukopisy K. K. Zejdlica 1822-1870)." .
+
+<ImportantPerson/30469>
+	a drw-model:ImportantPerson .
+
+<SL/30412hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Nemcy Rossii. Bd. 1 (1999), 795." .
+
+<Place/Dorpat>
+	a drw-model:Place ;
+	rdfs:label "Dorpat" .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<NameVariation/30412hasNameVariation2>
+	rdfs:label "Karl" ;
+	a drw-model:NameVariation .
+
+<Date/7_or_19_2_oder_6_or_18_12_1885>
+	a drw-model:Date ;
+	rdfs:label "7./19.2. oder 6./18.12.1885" .
+
+<P/30412hasP2>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.nasledie-rus.ru/img/690000/691402.jpg" ;
+	a drw-model:P ;
+	rdfs:label "Aleksandra Andreevna Voejkova (1797-1829): Carl Johann von Seidlitz. Bleistiftzeichnung aus den 1820-er Jahren. Aus: Vuič (<b>SL</b>). Abgedruckt in: Fischer 2010, 230. Online Ressource Online Ressource (5.4.2012)." .
+
+<NameVariation/30412hasNameVariation4>
+	a drw-model:NameVariation ;
+	rdfs:label "Иoгaнн" .
+
+<RelatedPerson/30412fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Carl Johann (geb. in Königslutter), Koch in Reval" .
+
+<MainName/30412hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30412hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30412hasNameVariation2> ;
+	rdfs:label "Seidlitz, Carl Johann von" ;
+	drw-model:hasNameVariation <NameVariation/30412hasNameVariation3> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30412hasNameVariation4> .
+
+<P/30412hasP1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.nasledie-rus.ru/img/690000/691415.jpg" ;
+	a drw-model:P ;
+	rdfs:label "Foto aus den 1880-er Jahren. Aus: Vuič (<b>SL</b>); auch in: WBIS RBA: R 193, 237 (<b>SL</b>). Abgedruckt in: Fischer 2010, 227. Online Ressource Online Ressource (5.4.2012)." .
+
+<GeneralLabor/Professor_fr_innere_Medizin>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für innere Medizin" .
+
+<A/30412hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch der Kreisschule und 1810-1815 des Gouvernement-Gymnasiums in Reval, 1815-1820 Studium der Medizin und 1821 Dr. med. an der Universität Dorpat." .
+
+<GPV/30412hasGPV1>
+	rdfs:label "Publikationen 1821-1872, in: RBS, zit. nach WBIS RBA: R 193, im Text verteilt auf S. 228-234." ;
+	a drw-model:GPV .
+
+<B/30412hasStationOfLife1>
+	rdfs:label "Ab 1821 im russischen Militärdienst, 1822-1825 Arzt am Marinehospital in St. Petersburg, 1823 zur Cholerabekämpfung in Astrachan', 1825-1828 Studienaufenthalte in Krankenhäusern in Paris, Montpellier, Genf und Pisa, an der Charité in Berlin und im Allgemeinen Krankenhaus in Wien, 1828-1829 Oberarzt des Hauptquartiers des 2. Armeekorps und des Pesthospitals in Adrianopel, 1829-1830 Gesandtschaftsarzt in Konstantinopel, 1830-1836/37 Chefarzt am Marine-Hospital in St. Petersburg, 1835 Leibarzt der Großfürstin ELENA PAVLOVNA, geb. FRIEDERIKE CHARLOTTE MARIE Prinzessin VON WÜRTTEMBERG (1806-1873) während ihrer Reise nach Berlin, 1836 (oder ab 1830) Medizinalinspektor des St. Petersburger Hafens, war zeitweise auch Mitglied des Medizinalrats des Ministeriums des Innern, 1836-1846 (oder 1837-1847) Professor für innere Medizin und Lehrstuhl für Therapie an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg, 1846 (oder 1864) pensioniert, lebte ab 1847 in Livland, teils in Dorpat und auf seinem Landgut in Meyershof.
+        Inhaber der Goldmedaille der Medizinischen Fakultät der Universität Dorpat (1818) sowie der Ehrentitel \"Wirklicher Russischer Staatsrat\" und \"Dr. med. h. c.\" der Universitäten Paris und Kopenhagen." ;
+	a drw-model:B .
+
+<SL/30412hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Raikov, Boris Evgen'evič: Karl Ernst von Baer 1792-1876. Sein Leben und Werk. Leipzig 1968 (Acta historica Leopoldina 5), 348-350: [Kurzbiographie]." .
+
+<RelatedPerson/30412motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Luise Helene, geb. Kalk" .
+
+<W/30412hasW1>
+	rdfs:label "Praecipuis oculorum morbis inter Esthonos obviis. Dissertation. Dorpat 1821, 73 S. Online Ressource Volltext (12.3.2012)" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/dspace/bitstream/10062/7359/1/seidlitz_praecipuis.pdf" ;
+	a drw-model:W .
+
+<SL/30412hasSL3>
+	a drw-model:SL ;
+	rdfs:label "EAD [2]: Dokument-Id [1072484 (10.8.2010)]." .
+
+<W/30412hasW3>
+	rdfs:label "Bericht über die Ergebnisse des therapeutisch-klinischen Unterrichts an der Mediko-chirurgischen Akademie zu St. Petersburg 1839-1840. St. Petersburg 1841, 244 S." ;
+	a drw-model:W .
+
+<SL/30412hasSL1>
+	a drw-model:SL ;
+	rdfs:label "ADB. Bd. 33 (1891), 645" .
+
+<Date/6_or_17_3_1798>
+	a drw-model:Date ;
+	rdfs:label "6./17.3.1798" .
+
+<WL/30412hasWL5>
+	rdfs:label "1874-1882 Redaktions-Leiter der Publikation General-Nivellement von Livland. Lfg. 1-4. Dorpat 1877-1883." ;
+	a drw-model:WL .
+
+<SL/30412hasSL9>
+	rdfs:label "WBIS DBA: I 1172, 160-164; II 1213, 250; BaBA: I 330, 95-102; RBA: R 193, 227-240; SU 179,420; RS 26, 46-48." ;
+	a drw-model:SL .
+
+<WL/30412hasWL3>
+	rdfs:label "*) Očerka razvitija poėtičeskoj dejatel'nosti V. A. Žukovskogo. Žurnal Ministerstva narodnogo prosveščenija (1869) Nr. 4-6; deutsche Ausgabe: Wasily Andrejewitsch Joukoffsky. Ein russisches Dichterleben. Mitau 1870, 240 S.; russische Neuausgabe: Žizn' i poėzija V. A. Žukovskago. 1783-1852. Po neizdannym istočnikam i ličnym vospominanijam K. K. Zejdlica. Sankt-Peterburg 1883, 259 S. Online Ressource Volltext (19.6.2009)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.archive.org/stream/zhiznipoeziavaz00seidgoog#page/n6/mode/1up" ;
+	a drw-model:WL .
+
+<RelatedPerson/30412hasDescendant1>
+	rdfs:label "Marie (Karlovna), verh. von Oettingen (1832-1903)<br>Carl Johann Maria (Karlovič) (1838-1897), Leutnant<br>Georg Karl Maria (Karlovič) (1840-1917), Zoologe<br>Oskar Alex. Carl Maria (Karlovič) (1847-1916)" ;
+	a drw-model:RelatedPerson .
+
+<SL/30412hasSL7>
+	rdfs:label "Professora MCA/VMA, 117." ;
+	a drw-model:SL .
+
+<WL/30412hasWL1>
+	rdfs:label "Reformierte den medizinischen Unterricht an der MCA (rationelle Unterrichtsmethoden, klare Gliederung der Unterrichtsfächer u.a.), 1836 Gründer des ersten Ambulatoriums an der Klinik für innere Medizin, später auch des Kliniklaboratoriums, Gründer der Propädeutischen Klinik, erste Anwendung mikroskopischer Untersuchungen, der Differentialdiagnostik und physikalischer Untersuchungsmethoden (Perkussion, Palpation, Auskultation) in Russland, bewies 1840 als Erster in Russland die Möglichkeit der Anwendung des künstlichen Pneumothorax bei Lungentuberkulose." ;
+	a drw-model:WL .
+
+<SL/30412hasSL10>
+	rdfs:label "Galina Kichigina: Physical Methods and Pathologico-Anatomical Diagnosis in Early Nineteenth-Century Clinical Medicine. Karl Johann von Seidlitz (1798-1885) at the St. Petersburg Medico-Surgical Academy, 1836-1846. In: Ortrun Riha und Marta Fischer (Hgg:): \"Naturwissenschaft als Kommunikationsraum\". Internationale Tagung, Leipzig 29.9.-1.10.2010. Aachen 2011 (Relationes 6), 189-201." ;
+	a drw-model:SL .
+
+<ImportantPerson/30445>
+	a drw-model:ImportantPerson .
+
+<RelatedPerson/30412wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	drw-model:hasNameLink <ImportantPerson/30469> ;
+	rdfs:label "1. Marie (Ivanovna), geb. Weltzien (1808-1833), Tochter von Johann Christian <span style='font-variant:small-caps;'>Weltzien</span><br>2. Justine Charlotte (Egorovna), geb. von Rauch (1816-1896), Tochter von Georg Adolph Dietrich von <span style='font-variant:small-caps;'>Rauch</span>" ;
+	drw-model:hasNameLink <ImportantPerson/30445> .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<P/30412hasP3>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.nasledie-rus.ru/img/690000/691412.jpg" ;
+	rdfs:label "Julie Wilhelmine Hagen-Schwarz (1824-1902): Carl Johann von Seidlitz (1882). Stich. In: Farber (<b>SL</b>), 155, und Vuič. Online Ressource Online Ressource (5.4.2012)." ;
+	a drw-model:P .
+
+<Place/Reval>
+	a drw-model:Place ;
+	rdfs:label "Reval" .
+
+<NameVariation/30412hasNameVariation1>
+	rdfs:label "SEIDLITZ-MEYERSHOF" ;
+	a drw-model:NameVariation .
+
+<NameVariation/30412hasNameVariation3>
+	rdfs:label "Iogann" ;
+	a drw-model:NameVariation .
+
+<P/30412hasP5>
+	rdfs:label "Foto in: Kichigina 2011, 192 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<P/30412hasP4>
+	rdfs:label "Foto in: Professora MCA/VMA (<b>SL</b>)." ;
+	a drw-model:P .
+

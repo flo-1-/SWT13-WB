@@ -1,0 +1,327 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<RelatedPerson/30865fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "[Name unbekannt], Arzt" .
+
+<ImportantPerson/30230>
+	a drw-model:ImportantPerson .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<GPV/30865hasGPV1>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:GPV .
+
+<SL/30865hasSL2>
+	rdfs:label "Poggendorff - Biographisch-literarisches Handwörterbuch zur Geschichte der exacten Naturwissenschaften, enthaltend Nachweisungen über Lebensverhältnisse und Leistungen von Mathematikern, Astronomen, Physikern, Chemikern, Mineralogen, Geologen usw. aller Völker und Zeiten. Gesammelt von J. C. Poggendorff, Mitglied der Akademie der Wissenschaften zu Berlin / J. C. Poggendorff - Biographisch-literarisches Handwörterbuch der exakten Naturwissenschaften. Bd. 1-8. Leipzig, Berlin 1863-2004. Bd. 3, 1144; Bd. 4, 1272; Bd. 5, 1067; Bd. 6, 2221; auch in WBIS DBA." ;
+	a drw-model:SL .
+
+<P/30865hasP3>
+	rdfs:label "Clara Ewald (1859-1949): Isidor Rosenthal (1908). Öl auf Leinwand. Foto von Amelie Starlinger in: Ritter 2008 (<b>SL</b>), vorderer Umschlag und Frontispiz." ;
+	a drw-model:P .
+
+<SL/30865hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Brokgauz/Efron. Bd. 27 (1899), 12." .
+
+<A/30865hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Habilitation in Berlin" ;
+	drw-model:inYear <Year/1862> .
+
+<HonoursAndAwards/30865hasHonoursAndAwards1>
+	rdfs:label "1906 Ehrenbürger der Stadt Erlangen<br>1908 „Königlicher Geheimer Hofrat“<br>1909 Ehrendoktor der Philosophischen Fakultät an der Universität Erlangen<br>1909 Kommandeurskreuz des Königlichen Ordens der Krone von Italien<br>1913 „Königlicher Geheimer Rat“<br>Festschrift J. Rosenthal zur Vollendung seines siebzigsten Lebensjahres gewidmet. In zwei Teilen. Leipzig 1906, 407 und 286 S." ;
+	a drw-model:HonoursAndAwards .
+
+<SL/30865hasSL11>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3)" ;
+	a drw-model:SL .
+
+<Year/1867>
+	rdfs:label "1867" ;
+	a drw-model:Year .
+
+<P/30865hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Pagel 1901 (<b>SL</b>)." .
+
+<Year/1855>
+	rdfs:label "1855" ;
+	a drw-model:Year .
+
+<Place/Erlangen>
+	a drw-model:Place ;
+	rdfs:label "Erlangen" .
+
+<B/30865hasStationOfLife3>
+	rdfs:label "ao. Professor der Universität Berlin" ;
+	drw-model:began <Year/1867> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1872> .
+
+<Year/1877>
+	rdfs:label "1877" ;
+	a drw-model:Year .
+
+<SL/30865hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Höber, Rudolf: Isidor Rosenthal †. Münchener medizinische Wochenschrift 62 (1915), 293-295." .
+
+<B/30865hasStationOfLife7>
+	a drw-model:B .
+
+<B/30865hasStationOfLife1>
+	drw-model:began <Year/1859> ;
+	drw-model:hasNameLink <ImportantPerson/30230> ;
+	drw-model:ended <Year/1867> ;
+	a drw-model:B ;
+	rdfs:label "Assistent am Institut für Physiologie bei E. H. <span style='font-variant:small-caps;'>Du Bois-Reymond</span> und Privatdozent an der Universität Berlin" .
+
+<RelatedPerson/30865hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Werner Heinrich Eduard Samuel (* 1870)" .
+
+<Year/1859>
+	rdfs:label "1859" ;
+	a drw-model:Year .
+
+<B/30865hasStationOfLife5>
+	rdfs:label "Direktor der Physikalisch-Medizinischen Sozietät Erlangen" ;
+	drw-model:ended <Year/1908> ;
+	drw-model:ended <Year/1881> ;
+	a drw-model:B ;
+	drw-model:began <Year/1877> ;
+	drw-model:began <Year/1907> .
+
+<SL/30865hasSL15>
+	<http://xmlns.com/foaf/0.1/homepage> "http://ru.wikipedia.org/wiki/Розенталь,_Изидор" ;
+	drw-model:hasDate "16.1.2012" ;
+	a drw-model:SL ;
+	rdfs:label "Vikipedija (Online Ressource)." .
+
+<Year/1913>
+	rdfs:label "1913" ;
+	a drw-model:Year .
+
+<Date/16_7_1836>
+	a drw-model:Date ;
+	rdfs:label "16.7.1836" .
+
+<Year/1907>
+	rdfs:label "1907" ;
+	a drw-model:Year .
+
+<MG/30865hasMG1>
+	a drw-model:MG ;
+	rdfs:label "vgl.: <b>SL</b>" .
+
+<ImportantPerson/30865>
+	drw-model:hasSL <SL/30865hasSL17> ;
+	drw-model:hasEducation <A/30865hasEducation1> ;
+	drw-model:hasDescendant <RelatedPerson/30865hasDescendant1> ;
+	drw-model:hasStationOfLife <B/30865hasStationOfLife4> ;
+	drw-model:hasSL <SL/30865hasSL7> ;
+	drw-model:hasSL <SL/30865hasSL2> ;
+	drw-model:hasP <P/30865hasP1> ;
+	drw-model:hasSL <SL/30865hasSL14> ;
+	drw-model:wasBornOn <Date/16_7_1836> ;
+	drw-model:hasStationOfLife <B/30865hasStationOfLife5> ;
+	drw-model:hasSL <SL/30865hasSL4> ;
+	drw-model:hasStationOfLife <B/30865hasStationOfLife3> ;
+	drw-model:wasMarriedTo <RelatedPerson/30865wasMarriedTo1> ;
+	drw-model:hasID "30865" ;
+	drw-model:hasStationOfLife <B/30865hasStationOfLife7> ;
+	drw-model:diedOn <Date/2_1_1915> ;
+	drw-model:hasSL <SL/30865hasSL15> ;
+	drw-model:hasMG <MG/30865hasMG1> ;
+	drw-model:hasWL <WL/30865hasWL1> ;
+	drw-model:hasSL <SL/30865hasSL9> ;
+	drw-model:hasStationOfLife <B/30865hasStationOfLife6> ;
+	drw-model:hasSL <SL/30865hasSL3> ;
+	drw-model:hasSL <SL/30865hasSL8> ;
+	drw-model:hasSL <SL/30865hasSL10> ;
+	drw-model:hasMainName <MainName/30865hasMainName1> ;
+	drw-model:hasSL <SL/30865hasSL5> ;
+	drw-model:hasEducation <A/30865hasEducation3> ;
+	drw-model:hasSL <SL/30865hasSL12> ;
+	drw-model:hasSL <SL/30865hasSL11> ;
+	drw-model:hasHonoursAndAwardsComment <HonoursAndAwardsComment/30865hasHonoursAndAwardsComment1> ;
+	drw-model:fatherIs <RelatedPerson/30865fatherIs1> ;
+	drw-model:hasP <P/30865hasP4> ;
+	drw-model:hasP <P/30865hasP3> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <A/30865hasEducation2> ;
+	drw-model:hasGPV <GPV/30865hasGPV1> ;
+	drw-model:hasSL <SL/30865hasSL13> ;
+	drw-model:wasBornIn <Place/Labischin_bei_Bromberg_Provinz> ;
+	drw-model:hasSL <SL/30865hasSL1> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30865hasHonoursAndAwards1> ;
+	drw-model:hasSL <SL/30865hasSL16> ;
+	rdfs:label "Rosenthal, Julius Isidor" ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30865.png> ;
+	drw-model:hasSL <SL/30865hasSL6> ;
+	drw-model:hasStationOfLife <B/30865hasStationOfLife1> ;
+	drw-model:hasW <W/30865hasW1> ;
+	drw-model:diedIn <Place/Erlangen> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Physiologie> ;
+	drw-model:hasStationOfLife <B/30865hasStationOfLife2> ;
+	drw-model:hasP <P/30865hasP2> .
+
+<HonoursAndAwardsComment/30865hasHonoursAndAwardsComment1>
+	rdfs:label "Ehrungen und Auszeichnungen (Auswahl):" ;
+	a drw-model:HonoursAndAwardsComment .
+
+<SL/30865hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Ewald, J. R.: Zum Andenken an Isidor Rosenthal. Berliner klinische Wochenschrift 52 (1915), 278-279." .
+
+<Year/1881>
+	rdfs:label "1881" ;
+	a drw-model:Year .
+
+<SL/30865hasSL4>
+	rdfs:label "Deutsche Biographische Enzyklopädie. Hrsg. v. Walther Killy und Rudolf Vierhaus. Bd. 1-10. München u. a. 1995-1999,  Bd. 8 (1998), 400." ;
+	a drw-model:SL .
+
+<P/30865hasP2>
+	rdfs:label "Portrait in <b>SL</b> AZJ (15. August)." ;
+	a drw-model:P .
+
+<SL/30865hasSL10>
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 1426-1427." ;
+	a drw-model:SL .
+
+<Year/1908>
+	rdfs:label "1908" ;
+	a drw-model:Year .
+
+<A/30865hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Promotion in Berlin" ;
+	drw-model:inYear <Year/1859> .
+
+<P/30865hasP4>
+	rdfs:label "Heliogravüre einer Fotografie. Porträtsammlung Berliner Hochschullehrer (Online Ressource)." ;
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.sammlungen.hu-berlin.de/dokumente/12848/" ;
+	drw-model:hasDate "16.1.2012" .
+
+<Place/Labischin_bei_Bromberg_Provinz>
+	a drw-model:Place ;
+	rdfs:label "Labischin bei Bromberg, Provinz Posen (heute in Polen)" .
+
+<SL/30865hasSL8>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	rdfs:label "WBIS JBA: Jüdisches Biographisches Archiv (Online Ressource, 16.1.2013): I 47, 54-55; 552, 336-345; IS 97, 71-72; II 461, 357-358." .
+
+<W/30865hasW1>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:W .
+
+<Year/1866>
+	rdfs:label "1866" ;
+	a drw-model:Year .
+
+<GeneralLabor/Professor_fr_Physiologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<B/30865hasStationOfLife2>
+	drw-model:inYear <Year/1864> ;
+	drw-model:inYear <Year/1866> ;
+	a drw-model:B ;
+	rdfs:label "Kriegsteilnahmen als Assistenz- und Korpsarzt" .
+
+<Date/2_1_1915>
+	a drw-model:Date ;
+	rdfs:label "2.1.1915" .
+
+<Year/1864>
+	rdfs:label "1864" ;
+	a drw-model:Year .
+
+<SL/30865hasSL17>
+	a drw-model:SL ;
+	rdfs:label "Wittern, Renate: Rosenthal, Isidor. In: C. Friedrich, B. von Haller, A. Jakob (Hgg.): Erlanger Stadtlexikon. Nürnberg 2002, 595-596." .
+
+<NameVariation/30865hasNameVariation1>
+	rdfs:label "Розенталь, Исидор/Изидор"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Rozental', Isidor/Izidor"@de .
+
+<SL/30865hasSL13>
+	rdfs:label "Rosenthal, Carl: Zum 70. Geburtstag I. Rosenthals. Münchener medizinische Wochenschrift 53 (1906), 1361-1362." ;
+	a drw-model:SL .
+
+<A/30865hasEducation1>
+	a drw-model:A ;
+	drw-model:began <Year/1855> ;
+	rdfs:label "Studium der Medizin und der Naturwissenschaften an der Universität Berlin" ;
+	drw-model:ended <Year/1859> .
+
+<MainName/30865hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30865hasNameVariation1> ;
+	rdfs:label "Rosenthal, Julius Isidor" .
+
+<WL/30865hasWL1>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:WL .
+
+<B/30865hasStationOfLife6>
+	rdfs:label "Mitbegründer und -herausgeber der Zeitschrift <i>Biologisches Centralblatt</i>" ;
+	drw-model:inYear <Year/1881> ;
+	a drw-model:B .
+
+<SL/30865hasSL1>
+	a drw-model:SL ;
+	rdfs:label "AZJ – Allgemeine Zeitung des Judentums vom 8. und 15. August 1913." .
+
+<SL/30865hasSL12>
+	a drw-model:SL ;
+	rdfs:label "Ritter 2008 – Ritter, Marco: Isidor Rosenthal (1836-1915). Forscher – Arzt – Politiker. Ein bedeutender Physiologe zwischen Emanzipation und Antisemitismus im 19. Jahrhundert. Erlangen, Jena 2008 (Sitzungsberichte der Physikalisch-Medizinischen Sozietät zu Erlangen N.F. 11,1), 333 S." .
+
+<SL/30865hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Loewy, A. J.: J. Rosenthal †. Deutsche medicinische Wochenschrift 41 (1915), 111." .
+
+<B/30865hasStationOfLife4>
+	drw-model:ended <Year/1913> ;
+	drw-model:began <Year/1872> ;
+	a drw-model:B ;
+	rdfs:label "o. Professor für Physiologie und Gesundheitspflege und Direktor des Physiologischen Instituts an der Universität Erlangen" .
+
+<SL/30865hasSL14>
+	a drw-model:SL ;
+	rdfs:label "Schultz, Oscar: Isidor Rosenthal. Münchener medizinische Wochenschrift 44 (1897), 508-509." .
+
+<Year/1872>
+	rdfs:label "1872" ;
+	a drw-model:Year .
+
+<SL/30865hasSL5>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	rdfs:label "WBIS DBA: Deutsches Biographisches Archiv (Online Ressource, 16.1.2013): I 1056, 45-46; II 1097, 43-54; III 763, 106-111." .
+
+<RelatedPerson/30865wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anna Jaenette Amalie, geb. Höber (* 1841)" .
+
+<Year/1862>
+	rdfs:label "1862" ;
+	a drw-model:Year .
+
+<SL/30865hasSL16>
+	drw-model:hasDate "16.1.2012" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://de.wikipedia.org/wiki/Isidor_Rosenthal" ;
+	a drw-model:SL ;
+	rdfs:label "Wikipedia (Online Ressource)." .
+

@@ -1,0 +1,117 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<W/30471hasW1>
+	rdfs:label "Specimen inaugurale medicum sistens bigam observationum de morbis nervorum. Dissertation. Dorpat 1814, 24 S. Online Ressource Volltext (12.3.2012)." ;
+	a drw-model:W ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/dspace/bitstream/10062/3247/1/volkenau278.pdf" .
+
+<Date/19_9_or_1_10_1854>
+	rdfs:label "19.9./1.10.1854" ;
+	a drw-model:Date .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<B/30471hasStationOfLife1>
+	rdfs:label "Ab Herbst 1810 im russischen Dienst als Arzt, später Divisionsstabschirurg bei Moskau und Operateur im Militärhospital in Riga, danach Arzt beim Ingenieur-Departement, ab 1836 bei der Haupt-Ingenieurschule in St. Petersburg, zuletzt Arzt im Palais des Zaren NIKOLAJ I. (1796-1855).
+Inhaber hoher russischer Ehrentitel und Auszeichnungen: 1825 \"Hofrat\", 1835 \"Staatsrat\", \"Wirklicher Russischer Staatsrat\", 1841 Adelsdiplom, Ritter des St.-Vladimir-Ordens 4. Klasse und des St.-Annen-Ordens 3. Klasse." ;
+	a drw-model:B .
+
+<GeneralLabor/Hofarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hofarzt" .
+
+<NameVariation/30471hasNameVariation2>
+	rdfs:label "WOLCKENAU" ;
+	a drw-model:NameVariation .
+
+<RelatedPerson/30471wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Marija Vasil'evna, geb. Šišmareva († 1868)" .
+
+<WInformation/30471hasWInformation1>
+	rdfs:label "Specimen inaugurale medicum sistens bigam observationum de morbis nervorum. Dissertation. Dorpat 1814, 24 S. Online Ressource Volltext (12.3.2012)." ;
+	a drw-model:WInformation ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/dspace/bitstream/10062/3247/1/volkenau278.pdf" .
+
+<SL/30471hasSL2>
+	a drw-model:SL ;
+	rdfs:label "WBIS DBA: I 1392, 266; 1431, 373-374; RBA: R 104, 67." .
+
+<RelatedPerson/30471fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Wilhelm, Hof-Fourier" .
+
+<RelatedPerson/30471motherIs1>
+	rdfs:label "Franziska, geb. Huter" ;
+	a drw-model:RelatedPerson .
+
+<Date/23_10_1786_Wallerstein>
+	rdfs:label "23.10.1786 Wallerstein" ;
+	a drw-model:Date .
+
+<A/30471hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1810 Studium der Chirurgie an der Universität Würzburg, 1811-1812(oder 1813) Studium und 1814 Dr. med. an der Universität Dorpat." .
+
+<SL/30471hasSL1>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [64470/63312 (15.8.2010)]." .
+
+<MainName/30471hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30471hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30471hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30471hasNameVariation3> ;
+	rdfs:label "Wolkenau, Johann Peter Paul (von)" .
+
+<Q/30471hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Katholisches Pfarramt Wallerstein: Kirchenbuch 1786, Geburtseintrag: 23.10.1786 Joannes Petrus Paulus Wolkenau (Schriftliche Mitteilung vom 10.6.2009)." .
+
+<NameVariation/30471hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "VOLKENAU" .
+
+<ImportantPerson/30471>
+	drw-model:hasW <W/30471hasW1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30471wasMarriedTo1> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasSL <SL/30471hasSL2> ;
+	drw-model:hasQ <Q/30471hasQ1> ;
+	rdfs:label "Wolkenau, Johann Peter Paul (von)" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Hofarzt> ;
+	drw-model:wasBornOn <Date/23_10_1786_Wallerstein> ;
+	drw-model:hasEducation <A/30471hasEducation1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Chirurg> ;
+	a drw-model:ImportantPerson ;
+	drw-model:wasBornIn <Place/Frstentum_Oettingen_Wallerstei> ;
+	drw-model:motherIs <RelatedPerson/30471motherIs1> ;
+	drw-model:hasWInformation <WInformation/30471hasWInformation1> ;
+	drw-model:hasMainName <MainName/30471hasMainName1> ;
+	drw-model:hasStationOfLife <B/30471hasStationOfLife1> ;
+	drw-model:fatherIs <RelatedPerson/30471fatherIs1> ;
+	drw-model:hasID "30471" ;
+	drw-model:diedOn <Date/19_9_or_1_10_1854> ;
+	drw-model:hasSL <SL/30471hasSL1> .
+
+<NameVariation/30471hasNameVariation3>
+	rdfs:label "Johannes" ;
+	a drw-model:NameVariation .
+
+<Place/Frstentum_Oettingen_Wallerstei>
+	a drw-model:Place ;
+	rdfs:label "Fürstentum Oettingen-Wallerstein" .
+
+<GeneralLabor/Chirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Chirurg" .
+

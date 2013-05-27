@@ -1,0 +1,122 @@
+(dp0
+VA
+p1
+VBis 1824 Besuch des Gouvernementgymnasiums in St. Petersburg, 1824-1826 Volontär an der St. Petersburger Medizinisch-chirurgischen Akademie mit dem Abschluss "Kandidat der Pharmazie 1. Klasse", 1826-1828 Studium der Pharmazie in Dorpat mit dem Abschluss "Provisor 2. Klasse", 1837 Einreichen der Unterlagen für das externe Examen und 1839 Abschlussdiplom "Apotheker 1. Klasse" an der Universität Kazan'
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u041e\u0421\u0421\u0415, \u041a\u0430\u0440\u043b \u0418\u0432\u0430\u043d\u043e\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VOSSE, Karl Ivanovi\u010d
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+V1829 (Juni-Dezember) Assistent des Tischvorsitzenden an der Medizinisch-Chirurgischen Akademie in St. Petersburg, wahrscheinlich im Januar 1830 Übersiedlung nach Astrachan' und Gründung eigener Apotheke, ab 1836 Leiter der Anstaltsapotheke des Astrachaner Amtes für allgemeine Fürsorge, ab 1837 Direktor und ab 1845 Sekretär des Astrachaner Komitees der Gesellschaft für Gefängnisfürsorge, ab 1849 Direktor des Alexandrinischen Waisenhauses\u000a Inhaber hoher russischer Ehrentitel und zahlreicher Auszeichnungen, darunter 1839 "Titularrat mit Anciennität", 1855 "Kollegienrat mit Anciennität", 1850 St. Annen-Orden 3. Klasse, 1859 St.-Stanislaus-Orden 3. und 1863 2. Klasse, 1865 St.-Vladimir-Orden 4. Klasse\u000a Weitere Ehrungen und Würdigungen: "Apteka imeni K. I. Osse", ul. Kirova 22, Astrachan'; 1993 Gründung des Karl-I.-Osse-Vereins in Euskirchen
+p14
+sVE
+p15
+V Adelaide (gen. Adele) Ulrike, geb. von Rehbinder (1815-1865)
+p16
+sVName
+p17
+(dp18
+S'Vornamen'
+p19
+VKarl
+p20
+sS'Nachname'
+p21
+VOsse
+p22
+ssVQuelle
+p23
+V<i>http://drw.saw-leipzig.de/20087.html</i> (2. Mai 2012).
+p24
+sVNamensvariationen
+p25
+(lp26
+(dp27
+g6
+VIwanowitsch
+p28
+sS'countyCode'
+p29
+g12
+sasVM
+p30
+V Regina, geb. Uhle 
+p31
+sVN
+p32
+VKarl (1838-1904) Oberst, Reitlehrer im Leibgarderegiment\u000a Ernst Peter Bernhard (1846-1903), Verwaltungsjurist in Astrachan', später Unternehmer in Reval (heute Tallin, Estland)\u000a Otto (1848-1874), Apotheker in Dorpat\u000a Peter (1851-1925), Mathematiklehrer, Schuldirektor in Dorpat und St. Petersburg, später in Basel in der Schweiz lebend\u000a Töchter: Wilhelmine (1835-18449), Dorothea (Darja) (1836-1916), Regina (1843-1923), Emma (1845-1920)\u000a Enkel: Karl Gottfried (1874-1918), Leiter der großväterlichen Apotheke in Astrachan'
+p33
+sVWL
+p34
+VSalzanalyse und Salzgewinnung aus dem Kleinen Korduan-See sowie Herstellung von Astrachaner Abführsalz
+p35
+sVP
+p36
+(lp37
+VFoto in: Bauer 2003, 6, 65.
+p38
+asVGeburtsdaten
+p39
+(dp40
+S'Ort'
+p41
+VLeipzig
+p42
+sS'Datum'
+p43
+V6.10.1804
+p44
+ssVSterbedaten
+p45
+(dp46
+g41
+VAstrachan'
+p47
+sg43
+V10.4.1874
+p48
+ssVV
+p49
+VJohann Christian (\u2020 vor 1812), Bronzemeister
+p50
+sVID
+p51
+V20087
+p52
+sVSL
+p53
+(dp54
+S'general'
+p55
+(lp56
+VErik-Amburger-Datenbank [EAD]: Dokument-Id [65481/63959].
+p57
+aVBauer, Wolf: Karl I. Osse. Ein deutscher Apotheker im zaristischen Russland. Stuttgart 2003, 135 S.
+p58
+assVBerufe
+p59
+(lp60
+VApotheker
+p61
+aVApothekenleiter
+p62
+aVWaisenhausdirektor
+p63
+as.

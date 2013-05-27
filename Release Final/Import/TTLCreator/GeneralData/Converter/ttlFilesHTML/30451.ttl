@@ -1,0 +1,199 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<NameVariation/30451hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Вилим" .
+
+<RelatedPerson/30451hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Michael (Michail Vil'gel'movič) (1799-1874), Professor für Geburtshilfe<br>        Theodor (Fëdor Vil'gel'movič) (1801-1847), Arzt<br>        Alexander (Aleksandr Vil'gel'movič) (1804-1849), Bibliothekar und Archivar<br>        Wilhelm (Vil'gel' Vil'gel'movič) (1811-1864), Stabsarzt<br>        Nikolai (Nikolaj Vil'gel'movič) (1814-1886), Bezirksaufseher und Abteilungsleiter im Findelhaus" .
+
+<WL/30451hasWL2>
+	rdfs:label "1806 Begründer des Hebammeninstituts am Findelhaus in Moskau und 1808 des Hebammeninstituts und des Gebärhauses für Arme an der Universität Moskau, Mitgründer der Physikalisch-Medizinischen Gesellschaft zu Moskau." ;
+	a drw-model:WL .
+
+<GeneralLabor/Kaiserlicher_Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Kaiserlicher Leibarzt" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<MG/30451hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Medicinskaja kollegija [Medizinalkollegium] (1802 Ehrenmitglied), Moskovskoe Fizičesko-medicinskoe obščestvo [Physikalisch-medizinische Gesellschaft zu Moskau] (1810-1822 Präses), S.-Peterburgskaja Mediko-chirurgičeskaja Akademija [Mediko-chirurgische Akademie in St. Petersburg] (1810 Ehrenmitglied), S.-Peterburgskaja Akademija nauk [St.-Petersburger Akademie der Wissenschaften] (1814 Ehrenmitglied), Physikalisch-medizinische Gesellschaft zu Erlangen, Gesellschaft für Natur- und Heilkunde zu Bonn, Königliche Gesellschaft der Wissenschaften zu Göttingen, Deutsche Akademie der Naturforscher Leopoldina (1814) u.a." .
+
+<W/30451hasW3>
+	rdfs:label "Rukovodstvo k povival'nomu iskusstvu, osnovannoe na novejšich opytach, dlja publičnych lekcij, prepodavaemych v Povival'nom Institute pri Imperatorskom Moskovskom Vospitatel'nom Dome učreždennom. Moskva 1801, 314 S." ;
+	a drw-model:W .
+
+<ImportantPerson/30451>
+	drw-model:hasGeneralLabor <GeneralLabor/Hebammenlehrer> ;
+	drw-model:hasQ <Q/30451hasQ1> ;
+	drw-model:hasSL <SL/30451hasSL4> ;
+	drw-model:hasSL <SL/30451hasSL1> ;
+	drw-model:wasBornOn <Date/28_11_or_9_12_1767_oder_1763> ;
+	drw-model:diedIn <Place/Moskau> ;
+	drw-model:hasWL <WL/30451hasWL1> ;
+	drw-model:wasBornIn <Place/Moskau> ;
+	drw-model:hasStationOfLife <B/30451hasStationOfLife1> ;
+	drw-model:hasEducation <A/30451hasEducation1> ;
+	rdfs:label "Richter, Wilhelm Michael (von)" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Kaiserlicher_Leibarzt> ;
+	drw-model:hasSL <SL/30451hasSL7> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30451.jpg> ;
+	drw-model:hasMG <MG/30451hasMG1> ;
+	drw-model:hasW <W/30451hasW2> ;
+	drw-model:hasP <P/30451hasP2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Geburtshilfe> ;
+	drw-model:hasMainName <MainName/30451hasMainName1> ;
+	drw-model:motherIs <RelatedPerson/30451motherIs1> ;
+	drw-model:hasW <W/30451hasW4> ;
+	drw-model:hasW <W/30451hasW3> ;
+	drw-model:hasP <P/30451hasP1> ;
+	drw-model:hasDescendant <RelatedPerson/30451hasDescendant1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30451" ;
+	drw-model:hasSL <SL/30451hasSL3> ;
+	drw-model:hasQ <Q/30451hasQ2> ;
+	drw-model:fatherIs <RelatedPerson/30451fatherIs1> ;
+	drw-model:hasWL <WL/30451hasWL2> ;
+	drw-model:hasSL <SL/30451hasSL5> ;
+	drw-model:hasW <W/30451hasW5> ;
+	drw-model:hasGPV <GPV/30451hasGPV1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Direktor_einer_Entbindungsanst> ;
+	drw-model:diedOn <Date/27_6_oder_27_7_or_8_8_1822_ode> ;
+	drw-model:hasW <W/30451hasW1> ;
+	drw-model:hasSL <SL/30451hasSL2> ;
+	drw-model:hasSL <SL/30451hasSL6> ;
+	drw-model:wasMarriedTo <RelatedPerson/30451wasMarriedTo1> .
+
+<Q/30451hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Rossijskaja nacional'naja biblioteka [Russische Nationalbibliothek], St. Petersburg: РНБ Ф. 641, 15 ед. хр., сер. VII в. - 1830." .
+
+<RelatedPerson/30451wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johanna Amalie, geb. Kerestury (1773-1846)" .
+
+<W/30451hasW5>
+	rdfs:label "Geschichte der Medicin in Rußland. Bd. 1-3. Moskau 1813, 1815, 1817; russ.: Istorija mediciny v Rossii. Bd. 1-3. Moskva 1814-1820." ;
+	a drw-model:W .
+
+<RelatedPerson/30451motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Gertruda Katarina, geb. Schmidt (1734-1799)" .
+
+<SL/30451hasSL6>
+	rdfs:label "Volkov/Kulikova 2003 a, 200-201." ;
+	a drw-model:SL .
+
+<RelatedPerson/30451fatherIs1>
+	rdfs:label "Michael (1720-1800), Pastor" ;
+	a drw-model:RelatedPerson .
+
+<P/30451hasP2>
+	a drw-model:P ;
+	rdfs:label "Portrait, Online Ressource Online Ressource (4.4.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.ipme.nw.ru/mirrors/PRAN/www/photo/41/4151.jpg" .
+
+<W/30451hasW1>
+	rdfs:label "Circa bilis naturam, inprimis ejus principium salinum experimenta. Diss. Erlangen 1788, 37 S." ;
+	a drw-model:W .
+
+<SL/30451hasSL2>
+	rdfs:label "EAD: Dokument-Id [53734/41668 und 1080820 (9.8.2010)]." ;
+	a drw-model:SL .
+
+<Place/Moskau>
+	a drw-model:Place ;
+	rdfs:label "Moskau" .
+
+<B/30451hasStationOfLife1>
+	rdfs:label "1786-1788 Studienaufenthalte an Universitäten in Deutschland, Frankreich, England und Holland, hörte 1788 Vorlesungen in Erlangen, Göttingen und Berlin, arbeitete auch in Entbindungsanstalten an den Universitäten Göttingen und Berlin als Geburtshelfer, 1790 Rückkehr nach Russland und Anerkennung des Titels Dr. med. durch das Medizinalkollegium, 1790-1795 ao. Professor für Geburtshilfe, 1795-1819 o. Professor für Geburtshilfe und Chirurgie, 1807, 1808 und 1812 Dekan der Medizinischen Fakultät, 1818 Ehrenprofessor und 1819 Leiter der Spezialklinik für Geburtshilfe am Medizinischen Institut der Universität Moskau, zugleich 1782-1800 Arzt im Krankenhaus bei der Adligen-Pension der Moskauer Universität, 1795-1806 Hebammenlehrer und Hauptgeburtshelfer der Stadt und 1801-1807 Direktor der neu errichteten Entbindungsanstalt am Findelhaus in Moskau, zugleich Arzt in eigener Privatpraxis, 1818 Leib-Geburtshelfer der Großfürstin ALEKSANDRA FЁDOROVNA, geb. CHARLOTTE VON PREUSSEN (1798-1860), und Leibarzt der Zarin MARIJA FЁDOROVNA, geb. SOPHIE DOROTHEE VON WÜRTTEMBERG (1759-1828).
+        Inhaber hoher russischer Ehrentitel und Auszeichnungen, darunter 1797 \"Hofrat\", 1800 \"Kollegienrat\", 1804 \"Staatsrat\", 1810 \"Wirklicher Russischer Staatsrat\", 1811 Adelsdiplom, des St.-Annen-Ordens 2. Klasse und des Roten Adlerordens von Preußen.
+        Als Annerkennung für Bd. 1 seines Werkes \"Geschichte der Medicin in Russland\" (vgl. <b>W</b>) wurde er 1814 in den Medizinalrat des Innenministeriums aufgenommen." ;
+	a drw-model:B .
+
+<SL/30451hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Nemcy Rossii. Bd. 3 (2006), 308-309." .
+
+<A/30451hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1779-1782 Besuch des Gymnasiums in Reval, 1783-1786 Studium der Medizin an der Universität Moskau, 1788 Dr. med. an der Universität Erlangen." .
+
+<Date/28_11_or_9_12_1767_oder_1763>
+	rdfs:label "28.11./9.12.1767 oder 1763" ;
+	a drw-model:Date .
+
+<W/30451hasW2>
+	rdfs:label "O vračebnych posobijach, služaščich k priraščeniju maloplodstva v obščestve. Moskva 1797, 31 S." ;
+	a drw-model:W .
+
+<NameVariation/30451hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Vilim" .
+
+<GeneralLabor/Direktor_einer_Entbindungsanst>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Direktor einer Entbindungsanstalt" .
+
+<Q/30451hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Central'nyj istoričeskij archiv Moskvy [Historisches Zentralarchiv Moskau]: ЦИАМ Ф. 418, oп. 81, д. 469 und oп. 119, д.197." .
+
+<W/30451hasW4>
+	rdfs:label "Synopsis praxis medico-obstetritiae, quam per hos viginti annos Mosquae exercuit. Moskva 1810, 424 S." ;
+	a drw-model:W .
+
+<MainName/30451hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30451hasNameVariation1> ;
+	rdfs:label "Richter, Wilhelm Michael (von)" ;
+	drw-model:hasNameVariation <NameVariation/30451hasNameVariation2> .
+
+<WL/30451hasWL1>
+	rdfs:label "Plädierte für eine allgemeine Impfung gegen Pocken in Russland (1797), Autor mehrerer Lehrbücher zur Geburtshilfe, Verfasser der ersten deutschsprachigen Publikation zur Geschichte der Medizin in Russland." ;
+	a drw-model:WL .
+
+<SL/30451hasSL7>
+	rdfs:label "WBIS DBA: I 1034, 125; RBA: R 398, 95-116." ;
+	a drw-model:SL .
+
+<P/30451hasP1>
+	a drw-model:P ;
+	rdfs:label "I. Gering: Wilhelm Michael Richter. Lithographie, nach einem Gemälde von Wagner (ohne weitere Angaben). Aus: Volkov/Kulikova 2003 a (<b>SL</b>). Abgedruckt in: Fischer 2010, 213." .
+
+<GPV/30451hasGPV1>
+	rdfs:label "Publikationen 1788-1824, in: Biografičeskij slovar' professorov i prepodavatelej Imperatorskago Moskovskago universiteta za istekajuščee stoletie. Moskva 1855; zit. nach WBIS RBA: R 398, 104-106." ;
+	a drw-model:GPV .
+
+<GeneralLabor/Hebammenlehrer>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hebammenlehrer" .
+
+<SL/30451hasSL1>
+	a drw-model:SL ;
+	rdfs:label "ADB. Bd. 28 (1889), 499-501." .
+
+<SL/30451hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Gennadi. Bd. 3 (1876), 255-256." .
+
+<Date/27_6_oder_27_7_or_8_8_1822_ode>
+	a drw-model:Date ;
+	rdfs:label "27.6. oder 27.7./8.8.1822 oder 1821" .
+
+<GeneralLabor/Professor_fr_Geburtshilfe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Geburtshilfe" .
+
+<SL/30451hasSL5>
+	rdfs:label "Petrov, Fëdor Aleksandrovič: Nemeckie professora v Moskovskom universitete [1755-1900]. Moskva 1997, 125-128." ;
+	a drw-model:SL .
+

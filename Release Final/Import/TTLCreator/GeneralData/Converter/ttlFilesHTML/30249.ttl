@@ -1,0 +1,142 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<MG/30249hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee] (ab 1845), St. Peterburgskoe obščestvo russkich vračej [St. Petersburger Gesellschaft russischer Ärzte] (12 Jahre Vorsitzender), Mediko-chirurgičeskaja akademija [Mediko-chirurgische Akademie] St. Petersburg, Moskovskoe fiziko-medicinskoe obščestvo [Moskauer Physikalisch-medizinische Gesellschaft], Varšavskoe medicinskoe obščestvo [Warschauer medizinische Gesellschaft], Kavkazskij učenyj komitet [Kaukasisches Gelehrtenkomitee], (Reale) Accademia Medico-Chirurgica di Napoli, Accademia dei Lincei di Roma, Accademia di Scienze e Lettere di Palermo, Gesellschaft der Ärzte in Wien." .
+
+<B/30249hasStationOfLife1>
+	rdfs:label "1814-1817 Lehrer für französische Sprache, Poetik und Mathematik am Priesterseminar in Kursk, 1821-1824 Arzt und 1824-1828 Stabsarzt im Pavlovskij-Leibgarde-Regiment, 1828 Arzt und ab 1829 Oberarzt im Preobraženskij-Leibgarde-Regiment, zugleich Chefarzt des Artillerie-Hospitals, außerdem 1827 Begleiter des Zaren NIKOLAJ I. (1796-1855) auf seiner Reise durch Russland, 1828-1829 im Russisch-türkischen Krieg sowie 1830 während der Choleraepidemie in Warschau und Moskau, während des polnischen Aufstandes 1831 Oberarzt in der Paskevič-Garde-Kavallerie, ab Dezember 1831 Leibchirurg, 1837 Begleiter des Thronfolgers ALEKSANDR Nikolaevič (1818-1881) auf der Russlandreise und 1838-1839 als dessen Leibarzt auf Europareisen (als Angehöriger der Kaiserlichen Suite mit zahlreichen ausländischen Orden und Mitgliedschaften ausgezeichnet), ab 1855 auch Leibarzt am Zarenhof, ab 1849 Chefarzt der militärmedizinischen Lehranstalten, ab 1857 Direktor des Militärmedizinischen Departements, ab 1862 Hauptmedizinalinspektor im Hauptstab der Armee, außerdem Mitglied des Medizinalrats des Ministeriums des Innern, im September 1862 Erkrankung während der Manöver auf dem Chodynskij-Feld, danach im Ausland von berühmten Ärzten behandelt, z.B. von Friedrich Theodor von FRERICHS (1819-1885), Direktor der II. Medizinischen Klinik der Charité in Berlin, und in verschiedenen Kurorten, darunter in Nizza, zuletzt Aufenthalt in einer Privatpension in Paris, wo er auch starb.
+Inhaber der Ehrentitel \"Wirklicher Russischer Staatsrat\" und \"Geheimrat\" (1855), des St.-Annen-Ordens 1. Klasse mit der Kaiserkrone, des St.-Vladimir-Ordens 4. Klasse, einiger russischer Militärorden und -medaillen sowie zahlreicher ausländischer Orden, darunter des Ordens Philipps des Großmütigen von Hessen-Darmstadt 2. Klasse, des Königlich Preußischen Roter Adler-Ordens 2. Klasse, des Österreichisch-Kaiserlichen Ordens der Eisernen Krone und des Leopold-Ordens, des Ordens der Württembergischen Krone 2. Klasse, des Großherzoglichen Badischen Ordens vom Zähringer Löwen 2. Klasse, des Weimarer Falken-Ordens 3. Klasse, des Sächsischen Zivilverdienstordens 3. Klasse.
+Posthume Ehrung: 1866-1917 Enochin-Stipendium an der MCA." ;
+	a drw-model:B .
+
+<GeneralLabor/Kaiserlicher_Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Kaiserlicher Leibarzt" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30249hasW2>
+	rdfs:label "Autor einiger Artikel, insbesondere in Protokoly zasedanij Obščestva russkich vračej" ;
+	a drw-model:W .
+
+<SL/30249hasSL2>
+	rdfs:label "Nachapetov 2003, 71-98." ;
+	a drw-model:SL .
+
+<WL/30249hasWL1>
+	rdfs:label "Brachte viele nützliche Veränderungen in die russische Medizinerausbildung ein, darunter Befürwortung einer höheren Qualifikation von Militärärzten, die Entsendung der Militärärzte zur Weiterbildung an die Akademie- und Universitätskliniken und ins Ausland, die Bestückung der Krankenhausbibliotheken mit wichtiger medizinischer Literatur und der Ausbildungsstätten mit Lernhilfen; spielte eine bedeutende Rolle bei der Umstrukturierung des Militärmedizinischen Departements; aufgrund seiner Bemühungen wurden die Gehälter der Militärärzte bedeutend verbessert." ;
+	a drw-model:WL .
+
+<Place/Zimovejka_im_Kreis_Koroa_Gouve>
+	a drw-model:Place ;
+	rdfs:label "Zimovejka im Kreis Koroča, Gouvernement Kursk" .
+
+<SL/30249hasSL4>
+	rdfs:label "SĖS - Spravočnyj ėnciklopedičeskij slovar'. Red. von A. Starčevskij. Bd. 4. S.-Peterburg 1855, 429-430." ;
+	a drw-model:SL .
+
+<NameVariation/30249hasNameVariation1>
+	rdfs:label "JENOCHIN" ;
+	a drw-model:NameVariation .
+
+<P/30249hasP1>
+	a drw-model:P ;
+	rdfs:label "Boris Aleksandrovič Nachapetov: I. V. Enochin. Zeichnung. Aus: Nachapetov 2003, 115. Abgedruckt in: Fischer 2010, 82." .
+
+<W/30249hasW1>
+	rdfs:label "Tractatus de medulla spinalis. Diss. Moskva 1836, 87 S." ;
+	a drw-model:W .
+
+<SL/30249hasSL5>
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA: R 178, 93-95." .
+
+<WL/30249hasWL2>
+	rdfs:label "        Erweiterte das <i>Voenno-medicinskij žurnal</i> von dreimonatlicher auf monatliche Ausgabe, Gründer der <i>Protokoly zasedanij Obščestva russkich vračej</i>." ;
+	a drw-model:WL .
+
+<ImportantPerson/30249>
+	drw-model:hasW <W/30249hasW2> ;
+	drw-model:hasSL <SL/30249hasSL1> ;
+	drw-model:hasSL <SL/30249hasSL4> ;
+	drw-model:hasSL <SL/30249hasSL5> ;
+	drw-model:wasBornIn <Place/Zimovejka_im_Kreis_Koroa_Gouve> ;
+	drw-model:hasEducation <A/30249hasEducation1> ;
+	drw-model:hasID "30249" ;
+	drw-model:hasWL <WL/30249hasWL2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Kaiserlicher_Leibarzt> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasWL <WL/30249hasWL1> ;
+	drw-model:hasSL <SL/30249hasSL6> ;
+	drw-model:hasP <P/30249hasP1> ;
+	drw-model:hasSL <SL/30249hasSL2> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30249.jpg> ;
+	drw-model:wasBornOn <Date/24_6_1791> ;
+	drw-model:diedIn <Place/Paris> ;
+	drw-model:wasMarriedTo <RelatedPerson/30249wasMarriedTo1> ;
+	drw-model:hasW <W/30249hasW1> ;
+	drw-model:diedOn <Date/12_7_1863> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasMainName <MainName/30249hasMainName1> ;
+	drw-model:hasSL <SL/30249hasSL3> ;
+	drw-model:hasStationOfLife <B/30249hasStationOfLife1> ;
+	drw-model:hasMG <MG/30249hasMG1> ;
+	drw-model:fatherIs <RelatedPerson/30249fatherIs1> ;
+	rdfs:label "Enochin, Ivan Vasil'evič" .
+
+<A/30249hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Nach dem häuslichen Privatunterricht Ausbildung am Priesterseminar in Kursk, 1809-1814 Studium an der Kiever Mogila-Akademie, 1817 bis 1821 Studium (auf Staatskosten) mit dem Abschluss \"Arzt 1. Klasse\", 1835(?) \"Mediko-Chirurg\" und 1836 Dr. med. et chir. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg." .
+
+<RelatedPerson/30249fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Vasilij, Geistlicher in Zimovejka" .
+
+<RelatedPerson/30249wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Marija Vikent'evna Enochina, geb. Ėngler (1824-1884)" .
+
+<Place/Paris>
+	a drw-model:Place ;
+	rdfs:label "Paris" .
+
+<SL/30249hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Nachapetov 2005, 200-233." .
+
+<SL/30249hasSL6>
+	rdfs:label "Vgl. Andreas von Rosen: Aus den Memoiren eines russischen Dekabristen. Beiträge zur Geschichte des St. Petersburger Militäraufstandes vom 14. (26.) December 1825 und seiner Theilnehmer. Leipzig 1869, 269." ;
+	a drw-model:SL .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<MainName/30249hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30249hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30249hasNameVariation1> ;
+	rdfs:label "Enochin, Ivan Vasil'evič" .
+
+<NameVariation/30249hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "I. V." .
+
+<Date/12_7_1863>
+	a drw-model:Date ;
+	rdfs:label "12.7.1863" .
+
+<Date/24_6_1791>
+	rdfs:label "24.6.1791" ;
+	a drw-model:Date .
+
+<SL/30249hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Kladbišča Peterburga, 390, Nr. 76." .
+

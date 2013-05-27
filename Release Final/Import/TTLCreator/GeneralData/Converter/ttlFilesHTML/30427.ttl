@@ -1,0 +1,167 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<WL/30427hasWL1>
+	rdfs:label "Von ihm stammt die Erstbeschreibung von <i>Rehmannia chinensis Libosch</i>. [heute <i>R. glutinosa</i>], einer bedeutenden chinesischen Heilpflanze (Vgl. Joseph <span style='font-variant:small-caps;'>Rehmann</span>), Abgedruckt in: Fischer 2010, 141." ;
+	drw-model:hasNameLink <ImportantPerson/30447> ;
+	a drw-model:WL .
+
+<NameVariation/30427hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "LIBOSCHÜTZ" .
+
+<Date/1783>
+	a drw-model:Date ;
+	rdfs:label "1783" .
+
+<GeneralLabor/Kaiserlicher_Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Kaiserlicher Leibarzt" .
+
+<NameVariation/30427hasNameVariation5>
+	a drw-model:NameVariation ;
+	rdfs:label "Józef" .
+
+<Place/Wilna_getaufter_Jude>
+	a drw-model:Place ;
+	rdfs:label "Wilna (getaufter Jude)" .
+
+<NameVariation/30427hasNameVariation7>
+	rdfs:label "Иocиф" ;
+	a drw-model:NameVariation .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<SL/30427hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Poggendorff. Bd. 1 (1863), 1450 und 1582." .
+
+<SL/30427hasSL5>
+	rdfs:label "WBIS DBA: I 761, 45-47; BaBA: I 204, 252; RBA: R 284, 37-41; PAB: I 300, 356-359; II 207, 79." ;
+	a drw-model:SL .
+
+<ImportantPerson/30427>
+	drw-model:hasGPV <GPV/30427hasGPV1> ;
+	drw-model:diedIn <Place/Karlsruhe_in_Baden_oder_Wien_o> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Kaiserlicher_Leibarzt> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Botaniker> ;
+	drw-model:hasID "30427" ;
+	drw-model:hasSL <SL/30427hasSL1> ;
+	drw-model:hasSL <SL/30427hasSL4> ;
+	drw-model:wasBornIn <Place/Wilna_getaufter_Jude> ;
+	drw-model:hasEducation <A/30427hasEducation1> ;
+	drw-model:diedOn <Date/5_1_1824> ;
+	drw-model:hasSL <SL/30427hasSL2> ;
+	drw-model:fatherIs <RelatedPerson/30427fatherIs1> ;
+	drw-model:hasStationOfLife <B/30427hasStationOfLife1> ;
+	drw-model:hasW <W/30427hasW3> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/30427hasSL5> ;
+	drw-model:wasBornOn <Date/1783> ;
+	drw-model:hasSL <SL/30427hasSL3> ;
+	drw-model:hasMG <MG/30427hasMG1> ;
+	drw-model:hasW <W/30427hasW2> ;
+	drw-model:hasWL <WL/30427hasWL1> ;
+	drw-model:hasW <W/30427hasW1> ;
+	drw-model:hasMainName <MainName/30427hasMainName1> ;
+	rdfs:label "Liboschitz, Joseph" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30427hasW3>
+	a drw-model:W ;
+	rdfs:label "Friedrich Tiedemann, Michael Oppel, Joseph Liboschütz (Hgg.): Naturgeschichte der Amphibien. 3 Hefte. Heidelberg 1817; Tafeln: München 1817." .
+
+<Date/5_1_1824>
+	a drw-model:Date ;
+	rdfs:label "5.1.1824" .
+
+<Place/Karlsruhe_in_Baden_oder_Wien_o>
+	a drw-model:Place ;
+	rdfs:label "Karlsruhe in Baden (oder Wien oder Wilna oder 1832 in St. Petersburg)" .
+
+<GeneralLabor/Botaniker>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Botaniker" .
+
+<A/30427hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1798-1805 (oder 1808) Studium an der Universität Wilna, 1806 Mag. und 1806 (nicht 1809) Dr. med. et chir. an der Universität Dorpat." .
+
+<NameVariation/30427hasNameVariation6>
+	a drw-model:NameVariation ;
+	rdfs:label "Iosif" .
+
+<MainName/30427hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30427hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30427hasNameVariation4> ;
+	drw-model:hasNameVariation <NameVariation/30427hasNameVariation5> ;
+	drw-model:hasNameVariation <NameVariation/30427hasNameVariation2> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30427hasNameVariation3> ;
+	drw-model:hasNameVariation <NameVariation/30427hasNameVariation6> ;
+	drw-model:hasNameVariation <NameVariation/30427hasNameVariation7> ;
+	rdfs:label "Liboschitz, Joseph" .
+
+<W/30427hasW1>
+	rdfs:label "De morbis primi paris nervorum. Diss. Dorpat 1806, 51 S." ;
+	a drw-model:W .
+
+<NameVariation/30427hasNameVariation4>
+	a drw-model:NameVariation ;
+	rdfs:label "ЛИБOШИЧ" .
+
+<MG/30427hasMG1>
+	a drw-model:MG ;
+	rdfs:label "S.-Peterburgskoe mineralogičeskoe obščestvo [St. Petersburger Mineralogische Gesellschaft], Učenyj komitet Filantropičeskogo obščestva [Gelehrtenkomitee der Philanthropischen Gesellschaft] (Korrespondent); Mitbegründer der Gesellschaft der Ärzte zu Wilna (?)." .
+
+<SL/30427hasSL4>
+	rdfs:label "RBS. Bd. [9] (1914), 420; vgl. auch WBIS RBA: R 284, 38-39." ;
+	a drw-model:SL .
+
+<SL/30427hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Bielinski, Josef: Stan nauk lekarskich za czasów Akademii medyko-chirurgicznej Wilenskiej bibliograficznie prezdstawiony. Warszawa 1888, 133." .
+
+<ImportantPerson/30465>
+	a drw-model:ImportantPerson .
+
+<SL/30427hasSL2>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [60982/59076 (4.8.2010)]." .
+
+<NameVariation/30427hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "LIBOŠIČ" .
+
+<GPV/30427hasGPV1>
+	rdfs:label "Publikationen 1805-1818, in: RBS (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<ImportantPerson/30447>
+	a drw-model:ImportantPerson .
+
+<RelatedPerson/30427fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Jacob (Jakob) (1736-1827 [oder * 1741, nicht † 1824]), Praktischer Arzt, Generalstabsarzt der litauischen Armee" .
+
+<W/30427hasW2>
+	rdfs:label "Flore des environs de St.-Pétersbourg et de Moscou. Mit Carl Bernhard <span style='font-variant:small-caps;'>Trinius</span>. St.-Petersbourg 1811, 121 S." ;
+	a drw-model:W ;
+	drw-model:hasNameLink <ImportantPerson/30465> .
+
+<NameVariation/30427hasNameVariation2>
+	rdfs:label "LIBOSZYC" ;
+	a drw-model:NameVariation .
+
+<B/30427hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "Anfangs praktischer Arzt zunächst in Wilna, danach in St. Petersburg, ab 1812 Hofarzt, ab 1822 Leibarzt des Zaren ALEKSANDR I. (1777-1825), Gründer eines Kinderkrankenhauses für Arme in St. Petersburg." .
+

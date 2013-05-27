@@ -1,0 +1,163 @@
+(dp0
+VA
+p1
+VAb 1751 [ ! ] Studium der Philosophie, danach bis 1762 Studium der Medizin und Dr. med an der Universität Straßburg.
+p2
+sVQ
+p3
+(lp4
+VLandeskirchenarchiv Schwerin (schriftliche Mitteilung vom 31.3.2009):
+p5
+aVAuszug aus dem Begräbnisregister von Ludwigslust 1808: "Herr Johann v. Boeckler wailand Russisch Kaiserlicher wirklicher Etatsrath und Leibmedicus, 71 Jahre", gest. 17.03.1808, begr. 23.03.1808.
+p6
+aVAuszug aus dem Begräbnisregister von Ludwigslust 1824: "gest. 27.07.1824, begr. 31.07.1824, die Frau Etats Räthin Sophie Christiane von Boecler, geborene von Taeubner, nachgelassene Wittwe des, 1808 März 17 allhierverstorbenen Russisch Kaiserl. Etats-Rathes und Leibarztes bei der hochselige Großfürstin Helene Paulowne, Johann von Böcler, in Dresden ist die Verstorbene geboren, wo ihr Vater anfänglich im Dienst des Königs August des 3 ten, hernach in Warschau gewesen ist., 88 Jahre und 7 Monate".
+p7
+asVName russisch
+p8
+(lp9
+(dp10
+S'name'
+p11
+V\u0411EK\u041bE\u0420
+p12
+sS'countryCode'
+p13
+S'ru'
+p14
+sa(dp15
+g11
+VBEKLER (fon)
+p16
+sg13
+S'de'
+p17
+sasVB
+p18
+VAb 1763 Prof. hon. an der Universität Straßburg, 1766 mit Johann Friedrich von HERRENSCHWAND (1715-1798). Reise nach Polen, 1769-1798 Leibarzt des Königs von Polen STANIS\u0141AW II. AUGUST Poniatowski (1732-1798), 1798-1799 Leibarzt des späteren Zaren von Russland ALEKSANDR I. (1777-1825), 1799-1803 Leibarzt der Großfürstin von Russland und Erbprinzessin von Mecklenburg-Schwerin ELENA PAVLOVNA (1784-1803) in Ludwigslust.\u000aInhaber der Ehrentitel "Hofrat" (1768), "Staatsrat", "Russisch Kaiserlicher wirklicher Etatsrat" (1799), "Geheimrat", des Adelstitels (ab 1775) sowie des Ordens der Gold- und Rosenkreuzer (Freimaurer).
+p19
+sVE
+p20
+VSophie Christiane, geb. von Taeubner (1736-1824)
+p21
+sVName
+p22
+(dp23
+S'Vornamen'
+p24
+VJohann (von)
+p25
+sS'Nachname'
+p26
+VBoecler
+p27
+ssVQuelle
+p28
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 35-26.</i>
+p29
+sVNamensvariationen
+p30
+(lp31
+(dp32
+g11
+VBÖCLER
+p33
+sS'countyCode'
+p34
+g17
+sa(dp35
+g11
+VBECKLER
+p36
+sg34
+g17
+sa(dp37
+g11
+VBOECKLER Johannes
+p38
+sg34
+g17
+sa(dp39
+g11
+VJean
+p40
+sg34
+g17
+sa(dp41
+g11
+VJan
+p42
+sg34
+g17
+sasVM
+p43
+VCatherine Salomé, geb. Mappus (1714-1743)
+p44
+sVID
+p45
+V30110
+p46
+sVWL
+p47
+VBoecler führte nach Aussage des Militärchirurgen Franz Leopold LAFONTAINE (1756-1812) die Pockenimpfung in Warschau ein.
+p48
+sVGeburtsdaten
+p49
+(dp50
+S'Ort'
+p51
+VStraßburg
+p52
+sS'Datum'
+p53
+V25. oder 23. 11.1737
+p54
+ssVSterbedaten
+p55
+(dp56
+g51
+VLudwigslust
+p57
+sg53
+V17.3. [nicht 5.]1808
+p58
+ssVW
+p59
+(dp60
+S'general'
+p61
+(lp62
+VHistoria et analysis fontis Rippolsaviensis. Diss. Straßburg 1762, 35 S.
+p63
+aVDe acidulis Petrinis. Diss. Straßburg 1762, 24 S.
+p64
+aVCatalogus Bibliothecae quoad maximam partem Physico-Medicae, quam in proprios usus collegit Jo. De Boecler. Hamburg 1806; 2. Aufl.: Catalogue de la bibliothèque de feu M. de Boecler. Strasbourg 1809.
+p65
+assVV
+p66
+VJohann Philipp (Jean Philippe) (1710-1759), Arzt, Prof. für Chemie, Botanik und Medizin
+p67
+sVSL
+p68
+(dp69
+g61
+(lp70
+VEAD: Dokument-Id [7877/7624 und 62386/61946 (22.7.2010)]
+p71
+aVBrokgauz/ Efron. Bd. 5 (1891), 354.
+p72
+aVLe Minor, Jean-Marie: Les Boecler, une dynastie de médecins et universitaires strasbourgeois (XVIIe - XVIIIe s.). Bulletin du Cercle généalogique d'Alsace 61 (1983) 4, 168-170.
+p73
+aVNouveau dictionnaire de biographie alsacienne. Bd. 4: Bl à Bo. Straßbourg 1984, 276-277.
+p74
+aVPolski s\u0142ownik biograficzny. Bd. 2. Kraków 1936, 184.
+p75
+aVWBIS DBA: I 115, 366-367; II 143, 439.
+p76
+assVBerufe
+p77
+(lp78
+VProf. hon. für Medizin
+p79
+aVLeibarzt
+p80
+as.

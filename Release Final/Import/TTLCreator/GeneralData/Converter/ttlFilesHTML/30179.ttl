@@ -1,0 +1,128 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Q/30179hasQ2>
+	a drw-model:Q ;
+	rdfs:label "[Todesanzeige.] St. Petersburger medicinische Wochenschrift 4 (1879), 130." .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<B/30179hasStationOfLife1>
+	rdfs:label "Kam als junger Arzt nach Kurland, ging später nach St. Petersburg, wurde Ordinator am Maksimilian- oder [Deutschen] Alexander-Hospital (?), ab 1870 \"Ehrenleibchirurg\" am Hofe des Zaren ALEKSANDR II. (1818-1881) und zugleich bis 1879 Leibarzt des Großfürsten KONSTANTIN NIKOLAEVIČ (1827-1892).
+Inhaber des Ehrentitels \"Wirklicher Russischer Staatsrat\".
+Vermachte zusammen mit seinem Neffen Ernst Leberecht BÜTTIG Mittel für den Bau des 1884 errichteten Schulhauses in Nickern. Nach ihm ist auch die Büttigstraße in seinem Geburtsort, heute ein Dresdner Stadtteil, benannt." ;
+	a drw-model:B .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<SL/30179hasSL1>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [1289/1386 (23.7.2010)]." .
+
+<P/30179hasP2>
+	rdfs:label "Online Ressource Online Ressource (4.4.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutschefotothek.de/obj70252766.html" ;
+	a drw-model:P .
+
+<W/30179hasW2>
+	rdfs:label "Factische Berichtigungen gegen Herrn Dr. Wreden's Antikritik. St. Petersburger medicinische Zeitschrift 9 (1865), 308-317." ;
+	a drw-model:W .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<NameVariation/30179hasNameVariation1>
+	rdfs:label "BJUTTIG" ;
+	a drw-model:NameVariation .
+
+<SL/30179hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Peterburgskij nekropol'. Bd. 1 (1912), 359." .
+
+<Date/3_or_15_2_1809>
+	rdfs:label "3./15.2.1809" ;
+	a drw-model:Date .
+
+<NameVariation/30179hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "Vil'gel'm Avgust" .
+
+<MG/30179hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Deutscher ärztlicher Verein in St. Petersburg (1864)." .
+
+<MainName/30179hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30179hasNameVariation4> ;
+	rdfs:label "Büttig, Wilhelm August (von)" ;
+	drw-model:hasNameVariation <NameVariation/30179hasNameVariation1> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30179hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30179hasNameVariation3> .
+
+<W/30179hasW1>
+	rdfs:label "De phlebitide puerperarum uterina ac femorali. Diss. Leipzig 1836, 28 S. (Titelblatt abgebildet in: Fischer 2010, 62 [Exemplar der Universitätsbibliothek Leipzig, Signatur: Gbh. 945-a(K)])." ;
+	a drw-model:W .
+
+<Q/30179hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Universitätsarchiv Leipzig, Matrikel zwischen 1825 und 1889, Signatur 1: Rektor B 53." .
+
+<NameVariation/30179hasNameVariation2>
+	rdfs:label "БЮТТИГ" ;
+	a drw-model:NameVariation .
+
+<NameVariation/30179hasNameVariation4>
+	rdfs:label "Вильгeльм Aвгуcт" ;
+	a drw-model:NameVariation .
+
+<A/30179hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Schulbesuch in Lockwitz bei Dresden, 1833-1836 Studium der Medizin und 1836 Dr. med. an der Universität Leipzig [nicht in Russland]." .
+
+<P/30179hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto von Bernd Walther und Hans Reinecke (1977): Dr. med. von Büttig (19. Jahrhundert, Künstler unbekannt). Öl auf Leinwand. Städtische Galerie Dresden 1933/25. Quelle: Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden (SLUB), Abt. Deutsche Fotothek, df_hauptkatalog_0188866. Abgedruckt in: Fischer 2010, 61." .
+
+<Date/14_or_26_4_oder_2_4_1879>
+	a drw-model:Date ;
+	rdfs:label "14./26.4. oder 2.4. 1879" .
+
+<Place/Nickern_bei_Dresden>
+	a drw-model:Place ;
+	rdfs:label "Nickern bei Dresden" .
+
+<ImportantPerson/30179>
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30179.jpg> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	drw-model:hasID "30179" ;
+	drw-model:hasStationOfLife <B/30179hasStationOfLife1> ;
+	drw-model:hasSL <SL/30179hasSL1> ;
+	drw-model:wasBornIn <Place/Nickern_bei_Dresden> ;
+	drw-model:hasW <W/30179hasW2> ;
+	drw-model:hasQ <Q/30179hasQ1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:hasEducation <A/30179hasEducation1> ;
+	drw-model:wasBornOn <Date/3_or_15_2_1809> ;
+	drw-model:hasW <W/30179hasW1> ;
+	drw-model:hasQ <Q/30179hasQ2> ;
+	drw-model:hasP <P/30179hasP1> ;
+	drw-model:diedOn <Date/14_or_26_4_oder_2_4_1879> ;
+	drw-model:hasSL <SL/30179hasSL2> ;
+	a drw-model:ImportantPerson ;
+	rdfs:label "Büttig, Wilhelm August (von)" ;
+	drw-model:hasMG <MG/30179hasMG1> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasMainName <MainName/30179hasMainName1> ;
+	drw-model:hasP <P/30179hasP2> .
+

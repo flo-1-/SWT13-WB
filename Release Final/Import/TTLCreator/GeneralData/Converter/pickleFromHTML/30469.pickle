@@ -1,0 +1,164 @@
+(dp0
+VA
+p1
+VStudium der Medizin 1785-1786 in Jena und 1787-1788 in Berlin [nicht in Leipzig], 1788-1789 und 1789 Dr. med. in Göttingen, danach wissenschaftliche Aufenthalte an Kliniken in Berlin, London und Paris, 1790 als Arzt in Russland zugelassen.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u0412E\u041b\u042c\u0426\u042b\u041d, \u0418\u0432a\u043d \u042e\u0440\u044ce\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VVEL'CYN, Ivan Jur'evi\u010d (fon)
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+V1790-1792 Assistenzarzt am Haupt-Militärlandhospital und Professor für Pathologie und Therapie am Mediko-chirurgischen Kalinkin-Institut in St. Petersburg, 1792-1795 Gouvernementsarzt in Jaroslavl', ab 1795 Hofarzt und 1798 sowie 1802-1809 Leibmedikus des Großfürsten KONSTANTIN PAVLOVI\u010c (1779-1831) auf dessen Heereszügen, ab 1804 Mitglied des Medizinalrats des Ministeriums des Innern, 1807 Gründer von Militärkrankenhäusern in den Gouvernements Grodno, Wilna, Minsk und Kurland, 1810-1825(oder bis 1821) Oberarzt des Pagenkorps in St. Petersburg, ab 1819 zugleich Leibarzt des Zaren ALEKSANDR I. (1777-1825), lebte ab 1825 im Ruhestand auf seinem Landgut Somel in Livland.\u000a        Inhaber folgender russischer Ehrentitel und Auszeichnungen: 1797 "Kollegienrat", 1799 "Staatsrat", "Wirklicher Russischer Staatsrat", 1807 St.-Annen-Orden 2. Klasse mit Brillanten.
+p14
+sVE
+p15
+VHelena Elisabeth, geb. Baronesse Freedericksz, verw. von Pirch (*1771)
+p16
+sVName
+p17
+(dp18
+S'Vornamen'
+p19
+VJohann Christian (von)
+p20
+sS'Nachname'
+p21
+VWeltzien
+p22
+ssVQuelle
+p23
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 272-273.</i>
+p24
+sVNamensvariationen
+p25
+(lp26
+(dp27
+g6
+VWELZIN
+p28
+sS'countyCode'
+p29
+g12
+sa(dp30
+g6
+VVEL'CIN
+p31
+sg29
+g12
+sa(dp32
+g6
+V\u0412E\u041b\u042c\u0426\u0418\u041d
+p33
+sg29
+g9
+sa(dp34
+g6
+VVasil'evi\u010d
+p35
+sg29
+g12
+sa(dp36
+g6
+V\u0412ac\u0438\u043b\u044ce\u0432\u0438\u0447
+p37
+sg29
+g9
+sasVM
+p38
+VAnna Margaretha, geb. Klein
+p39
+sVMG
+p40
+VMediko-filantropi\u010deskij komitet [Mediko-philanthropisches Komitee] (Mitbegründer und 1802 Präsident), Mediko-chirurgi\u010deskaja akademija [Mediko-chirurgische Akademie (MCA)] in St. Petersburg (ab 1819).
+p41
+sVN
+p42
+VConstantin Emanuel (Ivanovi\u010d) (1798-1821[oder 1824]), Arzt\u000a        Marie (Ivanovna), verh. von Seidlitz (1808-1833), Erste Ehefrau von Carl Johann von #internNameLink#30412#endNameNr#Seidlitz#/internNameLink#.
+p43
+sVWL
+p44
+VGilt als einer der Begründer der öffentlichen Gesundheitsfürsorge im Russischen Reich (vgl. <b>W</b> 1795).
+p45
+sVGeburtsdaten
+p46
+(dp47
+S'Ort'
+p48
+VRiga
+p49
+sS'Datum'
+p50
+V14.2.1767
+p51
+ssVSterbedaten
+p52
+(dp53
+g48
+VLandgut Somel bei Torma (oder St. Petersburg)
+p54
+sg50
+V25.3. oder 26.11.1829
+p55
+ssVW
+p56
+(dp57
+S'general'
+p58
+(lp59
+VDe affectuum animi usu medico. Dissertation. Göttingen 1789, 44 S. http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=PPN654600406&IDDOC=761848 Volltext (5.4.2012). Titelblatt des Exemplars der Universitätsbibliothek Leipzig [Signatur: Allg.Path.1914] abgedruckt in: Fischer 2010, 273.
+p60
+aVRede, welche im kaiserl. Medicinisch-chirurgischen Institute bey der feierlichen Eröffnung ihres (sic) neuen Wohngebäudes gehalten worden. St. Petersburg 1791, 14 S.
+p61
+aVNa\u010dertanie vra\u010debnogo blagoustrojstva, ili o sredstvach, zavisja\u0161\u010dich ot pravitel'stva k sochraneniju narodnogo zdorov'ja. Sankt-Peterburg 1795, 239 S.
+p62
+aVOsnovy sanitarno-policejskogo nadzora. Sankt-Peterburg 1800.
+p63
+assVV
+p64
+VJürgen Christian, Gerber, Fabrikant
+p65
+sVID
+p66
+V30469
+p67
+sVSL
+p68
+(dp69
+g58
+(lp70
+VAgranovskij, M. Z.: Ivan Vel'cin kak gigienist. Gigiena i sanitarija 33 (1968), 62-64.
+p71
+aVEAD: Dokument-Id [81729/79675 (15.8.2010)].
+p72
+aVHeine, Maximilian: Die bekanntesten Aerzte Russlands unter der Regierung der Kaiserin Catharina II. Medizinische Zeitung Russlands 12 (1855), 294.
+p73
+aVNemcy Rossii. Bd. 1 (1999), 342-343.
+p74
+aVWBIS DBA: I 1350, 60-61; II 1387, 298; BaBA: I 402, 424-426; RBA: R 89, 416-419.
+p75
+assVBerufe
+p76
+(lp77
+VProfessor für Pathologie und Therapie
+p78
+aVHygieniker
+p79
+aVKaiserlicher Leibarzt
+p80
+as.

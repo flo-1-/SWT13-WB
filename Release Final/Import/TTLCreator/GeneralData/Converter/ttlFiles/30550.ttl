@@ -1,0 +1,408 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<RelatedPerson/30550motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Mathilde Juliette Henriette, geb. Bi(e)wend (1818-1871)" .
+
+<SL/30550hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Drigalski, Wilhelm von: Im Wirkungsfelde Robert Kochs. Hamburg 1948, 523 S." .
+
+<SL/30550hasSL12>
+	a drw-model:SL ;
+	rdfs:label "Ignatius, Arthur: Robert Koch: Leben und Forschung. Stuttgart 1965 (Kosmos-Bibliothek 248), 88 S." .
+
+<Year/1890>
+	rdfs:label "1890" ;
+	a drw-model:Year .
+
+<SL/30550hasSL6>
+	rdfs:label "Genschorek, Wolfgang: Robert Koch: Leben, Werk, Zeit. Leipzig 1975, 247 S.; 2. Aufl. Leipzig 1976, 245 S.; 3. Aufl. Leipzig 1979, 208 S.; ab 4. Aufl. u. d. T.: Robert Koch: Selbstloser Kampf gegen Seuchen und Infektionskrankheiten. Leipzig 1981, 224 S.; … 7. Aufl. Leipzig 1985, 208 S." ;
+	a drw-model:SL .
+
+<Place/Baden_Baden_Grabsttte_Berlin_W>
+	a drw-model:Place ;
+	rdfs:label "Baden-Baden, Grabstätte: Berlin, Westflügel des Robert-Koch-Instituts" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<SL/30550hasSL25>
+	rdfs:label "Wegbereiter unserer naturwissenschaftlich-medizinischen Moderne (Online Ressource)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://appserv5.ph-heidelberg.de/onlinelex/index.php?id=1313" ;
+	a drw-model:SL ;
+	drw-model:hasDate "22.12.2011" .
+
+<Year/1880>
+	rdfs:label "1880" ;
+	a drw-model:Year .
+
+<SL/30550hasSL8>
+	rdfs:label "Gradmann, Christoph: Krankheit im Labor. Robert Koch und die Medizinische Bakteriologie. Göttingen 2005, 376 S.; 2. Aufl.: Göttingern 2010, 376 S.; engl.: Laboratory disease. Robert Koch’s medical bacteriology. (Translated by Elborg Forster). Baltimore/MD 2009, 318 S." ;
+	a drw-model:SL .
+
+<SL/30550hasSL16>
+	a drw-model:SL ;
+	rdfs:label "Miethke, Helmuth, Hertwig, Hugo: Der „Bazillenvater“ Koch. Berlin 1958, 157 S." .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<SL/30550hasSL23>
+	a drw-model:SL ;
+	rdfs:label "Vasold, Manfred: Robert Koch, der Entdecker von Krankheitserregern. Heidelberg, 2002, 105 S." .
+
+<WL/30550hasWL1>
+	rdfs:label "Entdecker des Tuberkulose-Erregers" ;
+	a drw-model:WL .
+
+<RelatedPerson/30550wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "1. Emmy Adolfine, geb. Fraatz (1847-1913)<br>2. Hedwig, geb. Freiberg (1872-1945)" .
+
+<B/30550hasStationOfLife2>
+	drw-model:ended <Year/1871> ;
+	drw-model:began <Year/1870> ;
+	a drw-model:B ;
+	rdfs:label "Freiwilliger Feldlazarettarzt im Deutsch-Französischen Krieg" .
+
+<B/30550hasStationOfLife6>
+	drw-model:ended <Year/1890> ;
+	a drw-model:B ;
+	rdfs:label "o. Professor für Hygiene an der Universität Berlin" ;
+	drw-model:began <Year/1885> .
+
+<WL/30550hasWL2>
+	rdfs:label "Weiteres vgl. <b>SL</b>" ;
+	a drw-model:WL .
+
+<SL/30550hasSL24>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://ru.wikipedia.org/wiki/Кох,_Роберт" ;
+	drw-model:hasDate "22.12.2011" ;
+	rdfs:label "Vikipedija (Online Ressource)." .
+
+<GeneralLabor/Professor_fr_Hygiene>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Hygiene" .
+
+<A/30550hasEducation2>
+	a drw-model:A ;
+	drw-model:ended <Year/1866> ;
+	rdfs:label "Studium der Medizin in Göttingen mit Staatsexamen und Promotion" ;
+	drw-model:began <Year/1862> .
+
+<Date/27_5_1910>
+	a drw-model:Date ;
+	rdfs:label "27.5.1910" .
+
+<SL/30550hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Gradmann, Christoph: Koch, (Heinrich Hermann) Robert. In: Engelhardt, Dietrich von (Hg.): Biographische Enzyklopädie deutschsprachiger Mediziner. Bd. 1-2. München 2002, 336-337." .
+
+<SL/30550hasSL18>
+	a drw-model:SL ;
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 876-878." .
+
+<Year/1867>
+	rdfs:label "1867" ;
+	a drw-model:Year .
+
+<SL/30550hasSL20>
+	a drw-model:SL ;
+	rdfs:label "Robert Koch zum 150. Geburtstag, 1843-1993. Clausthal-Zellerfeld 1993, 79 S." .
+
+<MG/30550hasMG1>
+	a drw-model:MG ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<P/30550hasP2>
+	a drw-model:P ;
+	rdfs:label "Portraits in <b>SL</b> (Auswahl): Hoffmann/Laitko/Müller-Wille (Hgg.) 2007, Schlich 2006, Šojfet 2004, Vikipedija, Wegbereiter, Wikipedia." .
+
+<Place/Clausthal_Harz>
+	a drw-model:Place ;
+	rdfs:label "Clausthal (Harz)" .
+
+<SL/30550hasSL26>
+	a drw-model:SL ;
+	drw-model:hasDate "22.12.2011" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://de.wikipedia.org/wiki/Robert_Koch" ;
+	rdfs:label "Wikipedia (Online Ressource)." .
+
+<W/30550hasW1>
+	a drw-model:W ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<SL/30550hasSL19>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 110, 111." .
+
+<Date/11_12_1843>
+	a drw-model:Date ;
+	rdfs:label "11.12.1843" .
+
+<SL/30550hasSL10>
+	rdfs:label "Grüntzig, Johannes W., Mehlhorn, Heinz: Robert Koch. Seuchenjäger und Nobelpreisträger. Heidelberg, 2010, 1087 S." ;
+	a drw-model:SL .
+
+<Year/1906>
+	rdfs:label "1906" ;
+	a drw-model:Year .
+
+<SL/30550hasSL14>
+	a drw-model:SL ;
+	rdfs:label "Kruif, Paul de: Mikrobenjäger. Zürich, Leipzig 1927; darin S. 100-135: Robert Koch. Der Bekämpfer des Todes." .
+
+<SL/30550hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Brock, Thomas D.: Robert Koch: a life in medicine and bacteriology. Berlin, Heidelberg, New York u. a. 1988, 364 S." .
+
+<Year/1883>
+	rdfs:label "1883" ;
+	a drw-model:Year .
+
+<Year/1897>
+	rdfs:label "1897" ;
+	a drw-model:Year .
+
+<ImportantPerson/30550>
+	drw-model:hasWL <WL/30550hasWL2> ;
+	drw-model:hasSL <SL/30550hasSL17> ;
+	drw-model:hasSL <SL/30550hasSL10> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Hygiene> ;
+	drw-model:hasSL <SL/30550hasSL26> ;
+	drw-model:hasStationOfLife <B/30550hasStationOfLife2> ;
+	drw-model:hasStationOfLife <B/30550hasStationOfLife7> ;
+	drw-model:hasSL <SL/30550hasSL18> ;
+	drw-model:hasID "30550" ;
+	drw-model:diedIn <Place/Baden_Baden_Grabsttte_Berlin_W> ;
+	drw-model:hasSL <SL/30550hasSL8> ;
+	drw-model:hasEducation <A/30550hasEducation2> ;
+	drw-model:hasStationOfLife <B/30550hasStationOfLife6> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30550.png> ;
+	drw-model:hasSL <SL/30550hasSL11> ;
+	drw-model:hasSL <SL/30550hasSL2> ;
+	drw-model:hasSL <SL/30550hasSL7> ;
+	drw-model:hasSL <SL/30550hasSL27> ;
+	drw-model:hasStationOfLife <B/30550hasStationOfLife5> ;
+	drw-model:hasSL <SL/30550hasSL1> ;
+	drw-model:hasEducation <A/30550hasEducation1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:hasSL <SL/30550hasSL25> ;
+	drw-model:hasStationOfLife <B/30550hasStationOfLife3> ;
+	drw-model:wasBornIn <Place/Clausthal_Harz> ;
+	drw-model:hasMainName <MainName/30550hasMainName1> ;
+	rdfs:label "Koch, Heinrich Hermann Robert" ;
+	drw-model:hasSL <SL/30550hasSL20> ;
+	drw-model:hasSL <SL/30550hasSL12> ;
+	drw-model:hasWL <WL/30550hasWL1> ;
+	drw-model:hasSL <SL/30550hasSL13> ;
+	drw-model:hasSL <SL/30550hasSL6> ;
+	drw-model:hasP <P/30550hasP1> ;
+	drw-model:hasStationOfLife <B/30550hasStationOfLife4> ;
+	drw-model:hasSL <SL/30550hasSL5> ;
+	drw-model:hasStationOfLife <B/30550hasStationOfLife9> ;
+	drw-model:hasSL <SL/30550hasSL21> ;
+	drw-model:hasHonoursAndAwardsComment <HonoursAndAwardsComment/30550hasHonoursAndAwardsComment1> ;
+	drw-model:motherIs <RelatedPerson/30550motherIs1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/30550hasSL15> ;
+	drw-model:fatherIs <RelatedPerson/30550fatherIs1> ;
+	drw-model:hasSL <SL/30550hasSL16> ;
+	drw-model:diedOn <Date/27_5_1910> ;
+	drw-model:hasSL <SL/30550hasSL24> ;
+	drw-model:wasBornOn <Date/11_12_1843> ;
+	drw-model:hasSL <SL/30550hasSL22> ;
+	drw-model:hasSLComment <SLComment/30550hasSLComment1> ;
+	drw-model:hasW <W/30550hasW1> ;
+	drw-model:hasSL <SL/30550hasSL14> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30550hasHonoursAndAwards1> ;
+	drw-model:hasDescendant <RelatedPerson/30550hasDescendant1> ;
+	drw-model:hasSL <SL/30550hasSL4> ;
+	drw-model:hasSL <SL/30550hasSL9> ;
+	drw-model:hasStationOfLife <B/30550hasStationOfLife8> ;
+	drw-model:hasGPV <GPV/30550hasGPV1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Mikrobiologe> ;
+	drw-model:hasStationOfLife <B/30550hasStationOfLife1> ;
+	drw-model:hasSL <SL/30550hasSL19> ;
+	drw-model:hasMG <MG/30550hasMG1> ;
+	drw-model:hasSL <SL/30550hasSL3> ;
+	drw-model:hasSL <SL/30550hasSL23> ;
+	drw-model:hasP <P/30550hasP2> ;
+	drw-model:wasMarriedTo <RelatedPerson/30550wasMarriedTo1> .
+
+<Year/1904>
+	rdfs:label "1904" ;
+	a drw-model:Year .
+
+<SL/30550hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Grüntzig, Johannes W., Mehlhorn, Heinz: Expeditionen ins Reich der Seuchen. Medizinische Himmelsfahrtskommandos der deutschen Kaiser- und Kolonialzeit. München, Heidelberg 2005, 379 S." .
+
+<NameVariation/30550hasNameVariation1>
+	rdfs:label "Koch, Genrich German Robert"@de ;
+	rdfs:label "Кох, Генрих Герман Роберт"@ru ;
+	a drw-model:NameVariation .
+
+<A/30550hasEducation1>
+	a drw-model:A ;
+	drw-model:began <Year/1850> ;
+	rdfs:label "Besuch des humanistischen Gymnasiums in Clausthal" ;
+	drw-model:ended <Year/1862> .
+
+<Year/1885>
+	rdfs:label "1885" ;
+	a drw-model:Year .
+
+<P/30550hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Pagel 1901 (<b>SL</b>)." .
+
+<Year/1891>
+	rdfs:label "1891" ;
+	a drw-model:Year .
+
+<B/30550hasStationOfLife3>
+	drw-model:ended <Year/1880> ;
+	rdfs:label "Kreisarzt in Wollstein (Provinz Posen, heute Wolsztyn)" ;
+	a drw-model:B ;
+	drw-model:began <Year/1872> .
+
+<B/30550hasStationOfLife8>
+	drw-model:began <Year/1897> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1906> ;
+	rdfs:label "Forschungsreisen in die Tropen zur Untersuchung von Infektionskrankheiten" .
+
+<B/30550hasStationOfLife1>
+	rdfs:label "Praktischer Arzt in Hamburg, in Langenhagen bei Hannover, in Niemegk bei Potsdam und in Rakwitz (Provinz Posen)" ;
+	drw-model:began <Year/1867> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1871> .
+
+<RelatedPerson/30550fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Hermann (1814-1877), Grubensteiger und Bergamtsleiter" .
+
+<B/30550hasStationOfLife5>
+	rdfs:label "Leiter der Cholera-Forschungsexpedition nach Indien" ;
+	drw-model:inYear <Year/1883> ;
+	a drw-model:B .
+
+<RelatedPerson/30550hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "1. Gertrud Louise Mathilde, verh. Pfuhl (* 1868)" .
+
+<SL/30550hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Brokgauz/Efron. Bd. 16 (1895), 458-459." .
+
+<HonoursAndAwards/30550hasHonoursAndAwards1>
+	rdfs:label "1881 „Kaiserlicher Geheimer Regierungsrat“<br>1905 Nobelpreis für Medizin<br>Büste vor dem Wohnhaus in Clausthal<br>Statue von 1916 des Bildhauers Louis <span style='font-variant:small-caps;'>Tuaillon</span> (1862-1919) vor der Berliner Charité<br>Denkmal auf dem Robert-Koch-Platz in Berlin<br>Robert-Koch-Stiftung mit Auszeichnungen: Robert-Koch-Preis (seit 1960) und Robert Koch Medaille in Gold (seit 1974)<br>Briefmarken und Münzen, darunter Briefmarke (144 Cent) „100 Jahre Nobelpreis – Robert Koch“ (Deutschland 2005)<br>Nach ihm sind z. B. das Robert Koch-Institut in Berlin, die Robert-Koch-Klinik in Leipzig und die Robert-Koch-Straße in Berlin, Bonn, Freiburg i. Br., Göttingen, Hamburg, Köln, Leipzig u. a. benannt." ;
+	a drw-model:HonoursAndAwards .
+
+<HonoursAndAwardsComment/30550hasHonoursAndAwardsComment1>
+	rdfs:label "Ehrungen und Auszeichnungen (Auswahl):" ;
+	a drw-model:HonoursAndAwardsComment .
+
+<SL/30550hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Dochman, Aleksandr Michajlovič: Otkrytie Kocha. Kazan’ 1890, 40 S." .
+
+<MainName/30550hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Koch, Heinrich Hermann Robert" ;
+	drw-model:hasNameVariation <NameVariation/30550hasNameVariation1> .
+
+<B/30550hasStationOfLife7>
+	drw-model:ended <Year/1904> ;
+	rdfs:label "Direktor des Instituts für Infektionskrankheiten in Berlin" ;
+	drw-model:began <Year/1891> ;
+	a drw-model:B .
+
+<SL/30550hasSL5>
+	a drw-model:SL ;
+	drw-model:hasDate "22.12.2011" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.dhm.de/lemo/html/biografien/KochRobert/index.html" ;
+	rdfs:label "Eckelmann, Susanne: Tabellarischer Lebenslauf von Robert Koch. In: LeMO (Online Ressource)." .
+
+<SL/30550hasSL21>
+	rdfs:label "Rusch, Barbara: Robert Koch. Vom Landarzt zum Pionier der modernen Medizin. München, 2010, 140 S." ;
+	a drw-model:SL .
+
+<Year/1866>
+	rdfs:label "1866" ;
+	a drw-model:Year .
+
+<GPV/30550hasGPV1>
+	a drw-model:GPV ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<SL/30550hasSL22>
+	a drw-model:SL ;
+	rdfs:label "Schlich, Thomas: Koch, Robert. In: Eckart, Wolfgang U., Gradmann, Christoph: Ärzte Lexikon. Von der Antike bis zur Gegenwart. 3. Aufl. Heidelberg u. a. 2006, 193-195." .
+
+<SL/30550hasSL27>
+	rdfs:label "Šojfet, M. S.: Sto velikich vračej. Moskva 2004, 381-385." ;
+	a drw-model:SL .
+
+<SLComment/30550hasSLComment1>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<SL/30550hasSL11>
+	rdfs:label "Hoffmann, Dieter, Laitko, Hubert, Müller-Wille, Staffan (Hgg.): Lexikon der bedeutenden Naturwissenschaftler. Unter Mitarb. von Ilse Jahn. Sonderausgabe. Bd. 1-3. München 2007 Bd. 3 (2007), 326-329." ;
+	a drw-model:SL .
+
+<GeneralLabor/Mikrobiologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Mikrobiologe" .
+
+<Year/1850>
+	rdfs:label "1850" ;
+	a drw-model:Year .
+
+<SL/30550hasSL17>
+	a drw-model:SL ;
+	rdfs:label "Möllers, Bernhard: Robert Koch – Persönlichkeit und Lebenswerk 1843-1910. Hannover 1950, 756 S." .
+
+<B/30550hasStationOfLife4>
+	rdfs:label "Beamter am Kaiserlichen Gesundheitsamt in Berlin" ;
+	drw-model:inYear <Year/1880> ;
+	a drw-model:B .
+
+<B/30550hasStationOfLife9>
+	a drw-model:B .
+
+<Year/1871>
+	a drw-model:Year ;
+	rdfs:label "1871" .
+
+<SL/30550hasSL15>
+	rdfs:label "Kümmel, Werner Friedrich: Koch, Robert. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. 12 (1979), 251-255 (Onlinefassung unter Online Ressource)." ;
+	a drw-model:SL ;
+	drw-model:hasDate "22.12.2011" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/pnd118564064.html" .
+
+<SL/30550hasSL13>
+	rdfs:label "Kathe, Johannes: Robert Koch und sein Werk. Gedenkvortrag in der Plenarsitzung der Deutschen Akademie der Wissenschaften zu Berlin am 28. 4. 1960. Berlin 1961, 60 S." ;
+	a drw-model:SL .
+
+<Year/1872>
+	rdfs:label "1872" ;
+	a drw-model:Year .
+
+<Year/1870>
+	rdfs:label "1870" ;
+	a drw-model:Year .
+
+<Year/1862>
+	a drw-model:Year ;
+	rdfs:label "1862" .
+

@@ -1,0 +1,129 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<Place/Rmershag_in_Franken>
+	a drw-model:Place ;
+	rdfs:label "Römershag in Franken" .
+
+<RelatedPerson/30467wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Maria (Sophie?) (Karlovna), geb. Amburger (1776-1855)" .
+
+<GeneralLabor/Hofarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hofarzt" .
+
+<ImportantPerson/30467>
+	drw-model:motherIs <RelatedPerson/30467motherIs1> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:wasBornIn <Place/Rmershag_in_Franken> ;
+	drw-model:diedOn <Date/7_or_19_6_1810> ;
+	drw-model:hasMainName <MainName/30467hasMainName1> ;
+	drw-model:wasBornOn <Date/6_3_1756> ;
+	drw-model:hasDescendant <RelatedPerson/30467hasDescendant1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Hofarzt> ;
+	drw-model:fatherIs <RelatedPerson/30467fatherIs1> ;
+	drw-model:hasEducation <A/30467hasEducation1> ;
+	rdfs:label "Weikard, Georg Nikolaus" ;
+	drw-model:hasSL <SL/30467hasSL1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/30467hasSL2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibmedikus> ;
+	drw-model:wasMarriedTo <RelatedPerson/30467wasMarriedTo1> ;
+	drw-model:hasID "30467" ;
+	drw-model:hasSibling <RelatedPerson/30467hasSibling1> ;
+	drw-model:hasStationOfLife <B/30467hasStationOfLife1> ;
+	drw-model:hasMG <MG/30467hasMG1> .
+
+<NameVariation/30467hasNameVariation5>
+	a drw-model:NameVariation ;
+	rdfs:label "BEЙKAPДT" .
+
+<NameVariation/30467hasNameVariation1>
+	rdfs:label "WEIKART" ;
+	a drw-model:NameVariation .
+
+<B/30467hasStationOfLife1>
+	rdfs:label "Ab 1777 Weiterbildung und danach bis 1782 praktischer Arzt in Paris, 1782 Arzt des Grafen Andrej Petrovič ŠUVALOV (1744-1789) und dessen Ehefrau während ihrer Reise von Paris nach St. Petersburg, danach ihr Hausarzt in St. Petersburg, ab 1784 Hofarzt, März bis Mai 1800 behandelnder Arzt des erkrankten Generals Aleksandr Vasil'evič SUVOROV (1729-1800) in Kobrin, ab 1809 Leibmedikus am Hofe des Zaren ALEKSANDR I. (1777-1825).
+Inhaber der russischen Ehrentitel \"Kollegienrat\" (1797) und \"Staatsrat\" (1799)." ;
+	a drw-model:B .
+
+<NameVariation/30467hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "VEJKARDT" .
+
+<RelatedPerson/30467motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sabina Franziska, geb. Kluberdanz (1719-1758)" .
+
+<MG/30467hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Anglijskij klub [Englischer Club in St. Petersburg] (1787-1806)." .
+
+<SL/30467hasSL2>
+	rdfs:label "EAD: Dokument-Id [62602/62162 und 1037255 (13.8.2010)]." ;
+	a drw-model:SL .
+
+<MainName/30467hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30467hasNameVariation1> ;
+	rdfs:label "Weikard, Georg Nikolaus" ;
+	drw-model:hasNameVariation <NameVariation/30467hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30467hasNameVariation3> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30467hasNameVariation4> ;
+	drw-model:hasNameVariation <NameVariation/30467hasNameVariation5> .
+
+<RelatedPerson/30467hasSibling1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Adam Melchior Weikard (1742-1803), Hof- und Leibarzt, Philosoph<br>        Anna Sidonia, verh. Merz, Mutter von Johann(es) Jakob Balthasar <span style='font-variant:small-caps;'>Merz</span>" ;
+	drw-model:hasNameLink <ImportantPerson/30434> .
+
+<GeneralLabor/Leibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibmedikus" .
+
+<Date/7_or_19_6_1810>
+	a drw-model:Date ;
+	rdfs:label "7./19.6.1810" .
+
+<NameVariation/30467hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "WEICHARD" .
+
+<Date/6_3_1756>
+	a drw-model:Date ;
+	rdfs:label "6.3.1756" .
+
+<RelatedPerson/30467fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann Nikolaus (1719-1796), Gastwirt" .
+
+<NameVariation/30467hasNameVariation4>
+	rdfs:label "BEЙKAPД" ;
+	a drw-model:NameVariation .
+
+<RelatedPerson/30467hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sophie (Egorovna), verh. Poggenpohl (1798-1879)<br>        Georg Karl (Egor Egorovič) (1800-1865?), Stabskapitän, zuletzt Zollbeamter<br>        Alexander (Egorovič) (1804-1855), Chef des Dienstkommandos im Außenministerium" .
+
+<ImportantPerson/30434>
+	a drw-model:ImportantPerson .
+
+<A/30467hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch des Gymnasiums in Fulda, ab 1770 Studium der Medizin und 1776 Dr. med. (vermutlich ohne schriftliche Dissertation) an der Bischöflichen Universität Fulda, 1782 Zulassung zur ärztlichen Praxis in Russland." .
+
+<SL/30467hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Amburger, Erik: Deutsche in Staat, Wirtschaft und Gesellschaft Russlands. Die Familie Amburger in St. Petersburg 1770-1920. Wiesbaden 1986, 69-76, 198, 269." .
+

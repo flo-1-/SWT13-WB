@@ -1,0 +1,537 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Q/10233hasQ5>
+	a drw-model:Q ;
+	rdfs:label "Archiv der Deutschen Akademie der Naturforscher Leopoldina, Halle:" .
+
+<SL/10233hasSL8>
+	rdfs:label "Marquardt, G.: Achtzigster Jahres-Bericht der Schlesischen Gesellschaft für vaterländische Kultur. Enthält den Generalbericht über die Arbeiten und Veränderungen der Gesellschaft im Jahre 1902. Breslau 1903, [Nekrologe] 16-19 mit Schriftenverzeichnis. 10233-Marquardt.pdf Online Ressource." ;
+	a drw-model:SL .
+
+<B/10233hasStationOfLife1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://dic.academic.ru/dic.nsf/biograf2/8185" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/sfz17659.html" ;
+	rdfs:label "1847-1849 unternahm TRAUTSCHOLD geologische Studienreisen durch Italien, Deutschland und Russland. Zeitweise war er als Hauslehrer im Hause eines Gutsbesitzers im Gouvernement Kostroma, Fëdor Nikolaevič LUGININ (1804-1884), den er in Deutschland kennengelernt hatte, tätig. TRAUTSCHOLDs Zögling, Vladimir Fëdorovič Online Ressource LUGININ (1834-1911), studierte 1862-1867 Chemie in Heidelberg und in Paris und wurde danach a.o. Professor für Chemie und Physik an der Universität Moskau.
+1849-1857 war TRAUTSCHOLD Leiter einer privaten Bildungsanstalt in Preußen. 1857 begab er sich auf eine geologische Studienreise durch Russland und fasste dort den Entschluss, in Russland zu bleiben. Er war zunächst als Hauslehrer im Hause von (General ?) ACHLESTYŠEV tätig; 1863 wurde er Lektor für deutsche Sprache an der Physikalisch-Mathematischen und an der Medizinischen Fakultät der Universität Moskau. 1868 erhielt er eine Dozentenstelle an der 1865 gegründeten Land- und Forstwirtschaftsakademie in Petrovsko-Razumovskoe bei Moskau [Петровская земледельческая и лесная академия]. Nach seiner Promotion in Dorpat wurde er 1871 ordentlicher Professor für Mineralogie und Geologie an der o.g. Akademie, diese Stelle hatte er bis 1888 inne. Seine Kollegen und Freunde in Russland waren die Chemiker Pavel Antonovič <span style='font-variant:small-caps;'>IL'ENKOV</span> an der Land- und Forstwirtschaftsakademie in Petrovsko-Razumovskoe und Nikolaj Ėrastovič <span style='font-variant:small-caps;'>LJASKOVSKIJ</span> an der Moskauer Universität; die beiden waren in Berlin Schüler von Heinrich <span style='font-variant:small-caps;'>ROSE</span>, Eilhardt <span style='font-variant:small-caps;'>MITSCHERLICH</span> und in Gießen von Justus <span style='font-variant:small-caps;'>LIEBIG</span>.
+TRAUTSCHOLD war ein aktives Mitglied der Kaiserlichen Gesellschaft der Naturforscher zu Moskau [Императорское Московскоe обществo испытателей природы = Société Impériale des Naturalistes de Moscou], 1872-1886 war er Sekretär der Gesellschaft sowie zeitlang Konservator der geologischen und mineralogischen Sammlungen.
+Im Jahre 1884 wurde TRAUTSCHOLD in die Kaiserliche Leopoldinisch-Carolinische deutsche Akademie der Naturforscher von deren Präsidenten Hermann Online Ressource KNOBLAUCH (1820-1895) und Karl Georg Freiherr Online Ressource von FRITSCH (1838-1906) sowie vom Vorstand der Fachsektion für Mineralogie und Geologie zum Auswärtigen Mitglied vorgeschlagen und einstimmig gewählt (Archiv der Deutschen Akademie der Naturforscher Leopoldina, Halle, Sign. 28/21/02, Bl. 27r, Bl. 28r, Bl. 116v, Nr. 28). Sein Diplom über die Wahl trägt das Datum 12.08.1884.
+Nach seiner Emeritierung im Jahre 1888 verließ TRAUTSCHOLD Russland, lebte bis 1894 in Breslau, dann in Freiberg und ab 1897 in Karlsruhe, wo er verstarb.
+" ;
+	drw-model:hasNameLink <ImportantPerson/10126> ;
+	a drw-model:B ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/sfz43266.html" ;
+	drw-model:hasNameLink <ImportantPerson/10148> ;
+	drw-model:hasNameLink <ImportantPerson/10186> ;
+	drw-model:hasNameLink <ImportantPerson/10129> ;
+	drw-model:hasNameLink <ImportantPerson/10078> .
+
+<SL/10233hasSL11>
+	rdfs:label "Schwarz, Holm-Dietmar: Trautschold, Hermann von. In: Hein, Wolfgang-Hagen; Schwarz, Holm-Dietmar (Hgg.): Deutsche Apotheker-Biographie. Bd. 2. Stuttgart 1978, 687-688." ;
+	a drw-model:SL .
+
+<Q/10233hasQ13>
+	a drw-model:Q ;
+	rdfs:label "Briefe von Trautschold an seinen Nachfolger an der Land- und Forstwirtschaftsakademie, Aleksej Petrovič Pavlov (1854-1929). St. Petersburg, Архив Российской Академии наук [Archiv der Russländischen Akademie der Wissenschaften], фонд 48, опись 2, дело 107, 109." .
+
+<W/10233hasW3>
+	rdfs:label "Der Moskauer Jura, verglichen mit dem Westeuropäischen. Zeitschrift der Deutschen geologischen Gesellschaft 13 (1861), 361-452. Online Ressource Online Ressource (21.8.2012)." ;
+	a drw-model:W ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://books.google.de/books/about/Zeitschrift_der_Deutschen_Geologischen_G.html?hl=de&id=Shk-AAAAcAAJ" .
+
+<W/10233hasW7>
+	rdfs:label "Геологическая карта и описание Московской губернии 1868 - 1872 годов. - Geologičeskaja karta i opisanie Moskovskoj gubernii 1868-1872 godov." ;
+	a drw-model:W .
+
+<ImportantPerson/10233>
+	drw-model:hasSL <SL/10233hasSL16> ;
+	drw-model:hasWL <WL/10233hasWL1> ;
+	drw-model:hasW <W/10233hasW14> ;
+	drw-model:hasMG <MG/10233hasMG1> ;
+	drw-model:hasP <P/10233hasP2> ;
+	drw-model:hasSibling <RelatedPerson/10233hasSibling1> ;
+	drw-model:hasW <W/10233hasW9> ;
+	drw-model:hasP <P/10233hasP3> ;
+	drw-model:hasW <W/10233hasW6> ;
+	drw-model:hasSL <SL/10233hasSL3> ;
+	drw-model:hasW <W/10233hasW3> ;
+	drw-model:hasQ <Q/10233hasQ10> ;
+	drw-model:wasBornIn <Place/Berlin> ;
+	drw-model:hasSL <SL/10233hasSL10> ;
+	drw-model:hasGPV <GPV/10233hasGPV3> ;
+	drw-model:hasGPV <GPV/10233hasGPV4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Palontologe> ;
+	drw-model:hasQ <Q/10233hasQ8> ;
+	drw-model:wasBornOn <Date/17_9_1817> ;
+	drw-model:fatherIs <RelatedPerson/10233fatherIs1> ;
+	drw-model:hasQ <Q/10233hasQ3> ;
+	drw-model:hasSL <SL/10233hasSL7> ;
+	drw-model:hasSL <SL/10233hasSL9> ;
+	drw-model:hasQ <Q/10233hasQ11> ;
+	drw-model:hasSL <SL/10233hasSL12> ;
+	drw-model:hasQ <Q/10233hasQ9> ;
+	drw-model:hasWL <WL/10233hasWL4> ;
+	drw-model:hasQ <Q/10233hasQ13> ;
+	drw-model:hasMainName <MainName/10233hasMainName1> ;
+	drw-model:hasSL <SL/10233hasSL5> ;
+	drw-model:hasGPV <GPV/10233hasGPV2> ;
+	drw-model:hasQ <Q/10233hasQ5> ;
+	drw-model:hasWL <WL/10233hasWL3> ;
+	drw-model:hasW <W/10233hasW16> ;
+	drw-model:hasW <W/10233hasW15> ;
+	drw-model:hasW <W/10233hasW12> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Pharmazeut> ;
+	drw-model:hasEducation <A/10233hasEducation1> ;
+	drw-model:hasW <W/10233hasW7> ;
+	drw-model:hasW <W/10233hasW4> ;
+	drw-model:hasW <W/10233hasW13> ;
+	drw-model:hasW <W/10233hasW18> ;
+	drw-model:hasP <P/10233hasP1> ;
+	drw-model:hasW <W/10233hasW1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "10233" ;
+	drw-model:hasSL <SL/10233hasSL1> ;
+	drw-model:hasW <W/10233hasW10> ;
+	drw-model:hasW <W/10233hasW20> ;
+	drw-model:wasMarriedTo <RelatedPerson/10233wasMarriedTo1> ;
+	drw-model:hasSL <SL/10233hasSL6> ;
+	drw-model:hasSL <SL/10233hasSL8> ;
+	drw-model:hasQ <Q/10233hasQ1> ;
+	drw-model:diedIn <Place/Karlsruhe_Sterbebuch_1902> ;
+	drw-model:hasP <P/10233hasP5> ;
+	drw-model:hasSL <SL/10233hasSL4> ;
+	drw-model:hasQ <Q/10233hasQ6> ;
+	drw-model:hasW <W/10233hasW19> ;
+	drw-model:hasSL <SL/10233hasSL15> ;
+	drw-model:hasQ <Q/10233hasQ2> ;
+	drw-model:hasP <P/10233hasP4> ;
+	drw-model:hasW <W/10233hasW17> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Geologe> ;
+	drw-model:hasW <W/10233hasW5> ;
+	drw-model:hasQ <Q/10233hasQ12> ;
+	drw-model:hasW <W/10233hasW2> ;
+	drw-model:hasQ <Q/10233hasQ7> ;
+	drw-model:hasSL <SL/10233hasSL17> ;
+	drw-model:hasQ <Q/10233hasQ4> ;
+	drw-model:hasW <W/10233hasW8> ;
+	drw-model:hasGPV <GPV/10233hasGPV6> ;
+	drw-model:hasP <P/10233hasP6> ;
+	drw-model:diedOn <Date/22_10_1902> ;
+	drw-model:hasSL <SL/10233hasSL11> ;
+	drw-model:hasQ <Q/10233hasQ14> ;
+	drw-model:hasStationOfLife <B/10233hasStationOfLife1> ;
+	drw-model:motherIs <RelatedPerson/10233motherIs1> ;
+	drw-model:hasSL <SL/10233hasSL13> ;
+	drw-model:hasWL <WL/10233hasWL2> ;
+	drw-model:hasSL <SL/10233hasSL14> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/10233.jpg> ;
+	drw-model:hasGPV <GPV/10233hasGPV5> ;
+	drw-model:hasGPV <GPV/10233hasGPV1> ;
+	drw-model:hasW <W/10233hasW11> ;
+	rdfs:label "Trautschold, Hermann (von)" ;
+	drw-model:hasSL <SL/10233hasSL2> .
+
+<Date/22_10_1902>
+	a drw-model:Date ;
+	rdfs:label "22.10.1902" .
+
+<MainName/10233hasMainName1>
+	drw-model:hasNameVariation <NameVariation/10233hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/10233hasNameVariation5> ;
+	drw-model:hasNameVariation <NameVariation/10233hasNameVariation4> ;
+	drw-model:hasNameVariation <NameVariation/10233hasNameVariation3> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/10233hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/10233hasNameVariation7> ;
+	drw-model:hasNameVariation <NameVariation/10233hasNameVariation6> ;
+	rdfs:label "Trautschold, Hermann (von)" ;
+	drw-model:hasNameVariation <NameVariation/10233hasNameVariation9> ;
+	drw-model:hasNameVariation <NameVariation/10233hasNameVariation8> .
+
+<NameVariation/10233hasNameVariation8>
+	a drw-model:NameVariation ;
+	rdfs:label "German Adol'fovič" .
+
+<SL/10233hasSL10>
+	rdfs:label "Oissar, Edgar: Tartu Ülikoolis kaitstud väitekirjad 1802-1918. Bibliograafia. Tartu 1973, Nr. 283." ;
+	a drw-model:SL .
+
+<SL/10233hasSL9>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://geb.uni-giessen.de/geb/volltexte/2006/3594/pdf/Koessler-1970-Promotionen.pdf" ;
+	rdfs:label "Kössler, Franz: Verzeichnis der Doktorpromotionen an der Universität Giessen von 1801-1884. Gießen 1970. Online Ressource Online Ressource (10.10.2012)." .
+
+<Q/10233hasQ6>
+	a drw-model:Q ;
+	rdfs:label "- Wahlakte (Sign. 28/21/02);" .
+
+<NameVariation/10233hasNameVariation1>
+	rdfs:label "TRAUTSHOLD" ;
+	a drw-model:NameVariation .
+
+<P/10233hasP1>
+	rdfs:label "Photoportrait o.D. Abgedruckt in: <b>SL</b> Bogdanov 1889, Tab. 16, Bl. 32 sowie in: <b>SL</b> Mitta/Starodubceva 2002, 3. Online Ressource Online Ressource (21.8.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://rogov.zwz.ru/Mitta,Starodubceva,2002_Trautshold.pdf" ;
+	a drw-model:P .
+
+<Q/10233hasQ12>
+	a drw-model:Q ;
+	rdfs:label "3 Briefe von Justus von Liebig an Trautschold, 1862-1870 (München), je 2 Bl. Archiv des Deutschen Museums von Meisterwerken der Naturwissenschaft und Technik, München, Urkunden- und Handschriftensammlung, Sign. 1939/52 (siehe Online Ressource Kalliope)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://kalliope.staatsbibliothek-berlin.de" .
+
+<SL/10233hasSL15>
+	<http://xmlns.com/foaf/0.1/homepage> "http://paleostratmuseum.ru/Trautshold.html" ;
+	a drw-model:SL ;
+	rdfs:label "Траутшольд Герман Адольфович (1817-1902). Lexikonbeitrag auf der Homepage des Museums für Paläontologie und Stratigraphie [Палеонтолого-стратиграфический музей] der Universität St. Petersburg. Online Ressource Online Ressource (21.8.2012)." .
+
+<W/10233hasW4>
+	rdfs:label "(a) Rede zur Saekularfeier der Geburt Alexander's von Humboldt gehalten den 2/14 September 1869. Bulletin de la Société impériale des naturalistes de Moscou 42, 1 (1869), 200-209. Sonderdruck: Moskau 1869." ;
+	a drw-model:W .
+
+<WL/10233hasWL2>
+	rdfs:label "TRAUTSCHOLD verfasste ein dreibändiges Lehrbuch in russischer Sprache \"Die Grundlagen der Geologie\" (<b>W</b> Trautschold 1872, 1875, 1877), in dem er als erster die bahnbrechenden paläontologischen Studien von Vladimir Onufrievič <span style='font-variant:small-caps;'>KOVALEVSKIJ</span> (1842-1883) erwähnte." ;
+	drw-model:hasNameLink <ImportantPerson/31154> ;
+	a drw-model:WL .
+
+<SL/10233hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Петунников, А.: Памяти Траутшольда. Некролог. Русские ведомости Nr. 305 (1902). - Petunnikov, A.: Pamjati Trautšol'da. Nekrolog. Russkie vedomosti. Nr. 305 (1902) (möglicherweise Nr. 320)." .
+
+<NameVariation/10233hasNameVariation9>
+	rdfs:label "Adolfowitsch" ;
+	a drw-model:NameVariation .
+
+<W/10233hasW15>
+	a drw-model:W ;
+	rdfs:label "Ueber den wechselnden Horizont des Erdoceans. Moskau 1882. Sonderdruck." .
+
+<SL/10233hasSL1>
+	rdfs:label "WBIS [Trautschold] Deutsches Biographisches Archiv (DBA) sowie [Trautšol'd] Russisches Biographisches Archiv & Biographisches Archiv der Sowjetunion (RBA & BASU)." ;
+	a drw-model:SL .
+
+<W/10233hasW13>
+	a drw-model:W ;
+	rdfs:label "Ueber Fischzähne des Moskauer Jura. Bulletin de la Société Impériale des Naturalistes de Moscou 55 (1880), 193-197," .
+
+<Q/10233hasQ7>
+	a drw-model:Q ;
+	rdfs:label "- Matrikeleintrag (Sign. Tom VI 2465)." .
+
+<GeneralLabor/Geologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Geologe" .
+
+<GeneralLabor/Pharmazeut>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Pharmazeut" .
+
+<Q/10233hasQ11>
+	a drw-model:Q ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://kalliope.staatsbibliothek-berlin.de" ;
+	rdfs:label "Postkarte von Trautschold an Franz von Hauer, 1889 (Breslau). Universitätsbibliothek Freiburg, Breisgau, Sign. Archiv. d. Geol. Vereinigung Nr. 11248 (siehe Online Ressource Kalliope)." .
+
+<ImportantPerson/10148>
+	a drw-model:ImportantPerson .
+
+<W/10233hasW5>
+	rdfs:label "(b) Гумбольдт, как человек и естествоиспытатель. - Gumbol'dt, kak čelovek i estestvoispytatel'. Bulletin de la Société impériale des naturalistes de Moscou 42, 3 (1869), 6-14." ;
+	a drw-model:W .
+
+<WL/10233hasWL3>
+	rdfs:label "TRAUTSCHOLDs Name steht auch im Zusammenhang mit Alexander von HUMBOLDT (1769-1859). Er gehörte zu denjenigen in Russland wirkenden Gelehrten, die das Leben und Werk des großen Forschungsreisenden gebührend gewürdigt haben (siehe <b>W</b> Trautschold 1859 und 1869a, b)." ;
+	a drw-model:WL .
+
+<Place/Berlin>
+	a drw-model:Place ;
+	rdfs:label "Berlin" .
+
+<SL/10233hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Павлов, А. П.: Памяти Г. А Траутшольда. Приложения к протоколам заседаний Императорскаго московскаго общества испытателей природы за 1902 г. - Pavlov, A. P.: Pamjati G. A. Trautšol'da. Priloženija k protokolam zasedanij Imperatorskago moskovskago obščestva ispytatelej prirody za 1902 g. Bulletin de la Société Impériale des Naturalistes de Moscou, Nouvelle Série, 16 (1903), 32-37." .
+
+<W/10233hasW14>
+	rdfs:label "Zur Frage über das Sinken der Meeresoberfläche. Moskau 1880. Sonderdruck." ;
+	a drw-model:W .
+
+<W/10233hasW6>
+	rdfs:label "(c) Ueber säculare Hebungen und Senkungen der Erdoberflache. Eine zur Erlangung des Grades eines Magisters der Mineralogie mit Genehmigung Einer Hochverordneten Physiko-Mathematischen Facultät der Kaiserlichen Universität Dorpat verfasste und zur öffentlichen Verthedigung bestimmt Abhandlung. Dorpat 1869, Magisterarbeit. Online Ressource Online Ressource (21.8.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/dspace/bitstream/handle/10062/4572/trautscholduebersakulare.pdf" ;
+	a drw-model:W .
+
+<NameVariation/10233hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "TRAUTŠOL'D" .
+
+<ImportantPerson/10129>
+	a drw-model:ImportantPerson .
+
+<MG/10233hasMG1>
+	a drw-model:MG ;
+	rdfs:label "• Société Impériale des Naturalistes de Moscou = Императорское Московскоe обществo испытателей природы [Kaiserliche Gesellschaft der Naturforscher in Moskau]: ordentliches Mitglied (1858), Ehrenmitglied (1888).
+• Kaiserliche Leopoldinisch-Carolinische deutsche Akademie der Naturforscher: Mitglied (12.8.1884, Sektion Geologie und Paläontologie, Matrikelnummer 2465).
+• Schlesische Gesellschaft für vaterländische Kultur in Breslau: Mitglied (1888), Ehrenmitglied (1894).
+• Belgische Geologische Gesellschaft: Ehrenmitglied.
+• Уральскоe обществo любителей естествознания в Екатеринбурге [Uralische Naturforscher-Gesellschaft in Ekaterinburg]: Ehrenmitglied.
+" .
+
+<W/10233hasW12>
+	a drw-model:W ;
+	rdfs:label "Über Methode und Theorien in der Geologie. Moskau 1878. Sonderdruck." .
+
+<RelatedPerson/10233motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Maria Charlotte Wilhelmine, geb. Müller
+" .
+
+<SL/10233hasSL12>
+	a drw-model:SL ;
+	rdfs:label "Zaitseva, Elena A.: Die Fortsetzung der Traditionen der Liebigschen Schule in Russland. In: Kästner, I.; Pfrepper, R. (Hgg.): Medizin und Pharmazie im 18. und 19. Jahrhundert. Beiträge zur Geschichte der Wissenschaftsbeziehungen zwischen Deutschland und dem Russischen Reich. Aachen 2000, 117-128. (Deutsch-russische Beziehungen in Medizin und Naturwissenschaft; 2)." .
+
+<Q/10233hasQ10>
+	a drw-model:Q ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://kalliope.staatsbibliothek-berlin.de" ;
+	rdfs:label "Brief von Trautschold an Justus von Liebig, 22.01.1866 (Moskau). Bayerische Staatsbibliothek, München, Liebigiana II B (siehe Online Ressource Kalliope)." .
+
+<ImportantPerson/10078>
+	a drw-model:ImportantPerson .
+
+<GPV/10233hasGPV1>
+	a drw-model:GPV ;
+	rdfs:label "• Liste der Publikationen (96 Titel) in: <b>SL</b> Bogdanov 1889." .
+
+<SL/10233hasSL7>
+	rdfs:label "Криштафович, Н.: Г. А. Траутшольд. Некрологъ. - H. A. Trautschold. Necrolog. Ежегодникъ по геологiи и минералогiи Россiи. Издаваемый подъ редакцiей Н. Криштафовича, 6 (1903), вып. 2-3, 71-79. [Krištafovič, N.: G. A. Trautšol'd. Nekrolog. Ežegodnik po geologii i mineralogii Rossii. Izdavaemyj pod redakciej Krištafoviča, 6 (1903), vyp. 2-3, 71-79.] - Annuaire géologique et minéralogique de la Russie. Rédigé par N. Krischtafowitsch; 6 (1903), livr. 2-3, 71-79. Trautschold-Annuaire-1902.pdf Online Ressource." ;
+	a drw-model:SL .
+
+<ImportantPerson/10126>
+	a drw-model:ImportantPerson .
+
+<P/10233hasP2>
+	rdfs:label "Photoportrait o.D, Photoatelier in Moskau. Abgedruckt in: <b>SL</b> Krištafovič 1903, 72. 10233-Trautschold.pdf Online Ressource." ;
+	a drw-model:P .
+
+<NameVariation/10233hasNameVariation3>
+	rdfs:label "Gustav Heinrich Ludwig Hermann (Taufname)" ;
+	a drw-model:NameVariation .
+
+<P/10233hasP4>
+	rdfs:label "Photoportrait o.D. Abgedruckt in: <b>SL</b> Starodubceva/Mitta 2002, 78. Online Ressource Online Ressource (21.8.2012)." ;
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://rogov.zwz.ru/Starodubceva,Mitta,2002BulMOIP_Trd.pdf" .
+
+<Date/17_9_1817>
+	a drw-model:Date ;
+	rdfs:label "17.9.1817" .
+
+<W/10233hasW11>
+	rdfs:label "Die Kalkbrüche von Mjatschkowa. Eine Monographie des oberen Bergkalks. Nouveaux Mémoires de la Société Impériale des Naturalistes de Moscou 13 (1876) livr. 4, 275-324 mit 4 Tafeln; (1876) livr. 5, 326-374 mit 7 Tafeln; 14 (1879), livr. 1, 1-82 mit 7 Tafeln." ;
+	a drw-model:W .
+
+<NameVariation/10233hasNameVariation4>
+	a drw-model:NameVariation ;
+	rdfs:label "Hermann Adolf" .
+
+<Q/10233hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Evangelisches Landeskirchliches Archiv in Berlin (ELAB):" .
+
+<Q/10233hasQ8>
+	a drw-model:Q ;
+	rdfs:label "Stadtarchiv & Historische Museen Karlsruhe: Sterbebuch 1902, Nr. 1505 (Sterbebuch 1900, Nr. 1734, Rosalie von Trautschold)." .
+
+<GPV/10233hasGPV2>
+	rdfs:label "• Publikationsliste (166 Titel) in: <b>SL</b> Krištafovič 1903, 74-79. Vgl. 10233-GPV-Kristafovic.pdf Online Ressource." ;
+	a drw-model:GPV .
+
+<RelatedPerson/10233wasMarriedTo1>
+	rdfs:label "Rosalie, geb. Weiß (Rozalija Karlovna) (* ?, Treuenbrietzen im Regierungsbezirk Potsdam; † 7.12.1900, Karlsruhe; im Alter von 85 Jahren) [Sterbebuch 1900, Nr. 1734, Stadtarchiv & Historische Museen Karlsruhe, Mitteilung von Frau Angelika Herkert vom 5.2.2013], wahrscheinlich war sie zeitweise Gouvernante in Russland" ;
+	a drw-model:RelatedPerson .
+
+<SL/10233hasSL4>
+	rdfs:label "Богданов, А. П. (Ред.): Герман Адольфович Траутшольд. Материалы для истории научной и прикладной деятельности в России по зоологии и соприкасающимся с нею отраслям знаний. Том 1-4. Москва 1888-1892. - Bogdanov, A. P. (Red.): German Adol'fovič Trautšol'd. Materialy dlja istorii naučnoj i prikladnoj dejatel'nosti v Rossii po zoologii i soprikasajuščimsja s neju otrasljam znanij. Tom 1-4. Moskva 1888-1892. Kopie in: WBIS (RBA & BASU)." ;
+	a drw-model:SL .
+
+<ImportantPerson/10186>
+	a drw-model:ImportantPerson .
+
+<W/10233hasW20>
+	rdfs:label "Diverse Veröffentlichungen in: <i>Bulletin de la Société Impériale des Naturalistes de Moscou</i> (1857-1883, 1888, 1892, 1895, 1899), <i>Zeitschrift der Deutschen geologischen Gesellschaft</i> (1860-65, 1872, 1874, 1879), <i>Neues Jahrbuch für Mineralogie, Geognosie, Geologie und Petrefaktenkunde</i> (1874, 1877, 1883, 1885-1889)." ;
+	a drw-model:W .
+
+<P/10233hasP3>
+	<http://xmlns.com/foaf/0.1/homepage> "http://paleostratmuseum.ru/images/img4143390.jpg" ;
+	a drw-model:P ;
+	rdfs:label "Photoportrait o.D. In: Museum für Paläontologie und Stratigraphie am Lehrstuhl für dynamische und historische Geologie der Universität St. Petersburg [Палеонтолого-стратиграфический музей кафедры динамической и исторической геологии Санкт-Петербургского государственного университета]. Online Ressource Online Ressource (21.8.2012)." .
+
+<WL/10233hasWL1>
+	rdfs:label "TRAUTSCHOLDs Forschungen zur Paläontologie der Jura- und Kreideformation Zentralrusslands gelten als grundlegend; dies gilt insbesondere für das Gouvernement Moskau und das Wolga-Gebiet. Er lieferte als einer der ersten paläontologischen Beweise für die Richtigkeit der Darwinschen Evolutionstheorie. Von seinen Reisen durch Europa und insbesondere durch Russland brachte TRAUTSCHOLD umfangreiches Material mit. Seine geologischen und paläontologischen Sammlungen wurden hoch geschätzt; später gelangten die Objekte teils nach Straßburg, teils nach Lissabon; sie sind leider nicht mehr erhalten. In Russland sind nur einige wenige Originale und Kopien erhalten geblieben (<b>SL</b> Mitta/ Starodubceva 2002)." ;
+	a drw-model:WL .
+
+<P/10233hasP5>
+	rdfs:label "Photoportrait o.D. St. Petersburg, Архив Российской Академии наук [Archiv der Russländischen Akademie der Wissenschaften], фонд P. VII, опись 1, дело 3430." ;
+	a drw-model:P .
+
+<W/10233hasW10>
+	rdfs:label "Fischreste aus dem Devonischen des Gouvernements Tula. Moscou, 1874, 264-275." ;
+	a drw-model:W .
+
+<NameVariation/10233hasNameVariation5>
+	rdfs:label "Hermann Adolfovich" ;
+	a drw-model:NameVariation .
+
+<SL/10233hasSL14>
+	rdfs:label "Митта, В. В.; Стародубцева, И. А.: Герман Траутшольд и его вклад в изучение среднерусской юры. VM-Novitates. Новости из Геологического музея им. В. И. Вернадского РАН, Nr. 10. (2002), 1-35. - Mitta, V. V.; Starodubceva, I. A.: German Trautšol'd i ego vklad v izučenie srednerusskoj jury. VM-Novitates. Novosti iz Geologičeskogo muzeja im. V. I. Vernadskogo RAN, Nr. 10. (2002), 1-35. Online Ressource Online Ressource (21.8.2012)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://rogov.zwz.ru/Mitta,Starodubceva,2002_Trautshold.pdf" .
+
+<RelatedPerson/10233fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Adolph Christoph Ludwig Trautschold, Bürger und Kaufmann (Bierbrauer)
+" .
+
+<GPV/10233hasGPV4>
+	rdfs:label "• Catalogue of Scientific Papers: <b>6</b> (1872), 24 (20 Titel); <b>8</b> (1879), 1108-1109 (26 Titel); <b>11</b> (1896), 634-635 (39 Titel): <b>12</b> (1902), 739 (3 Titel); <b>19</b> (1925), 190-191 (33 Titel)." ;
+	a drw-model:GPV .
+
+<GPV/10233hasGPV3>
+	rdfs:label "• Liste der wichtigen Arbeiten in: <b>SL</b> Marquardt 1903, 19. Vgl. 10233-GPV-Marquardt.pdf Online Ressource." ;
+	a drw-model:GPV .
+
+<Q/10233hasQ9>
+	a drw-model:Q ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://kalliope.staatsbibliothek-berlin.de" ;
+	rdfs:label "Brief von Trautschold an Karl Ernst von Baer, 20.02.1873 (Moskau). Universitätsbibliothek Gießen, Nachlass Baer (siehe Online Ressource Kalliope)." .
+
+<W/10233hasW19>
+	rdfs:label "Zur Frage über die Entwicklung des Erdoceans. Moskau 1893. Sonderdruck." ;
+	a drw-model:W .
+
+<P/10233hasP6>
+	a drw-model:P ;
+	rdfs:label "Photoportrait o.D. Halle, Archiv der Deutschen Akademie der Naturforscher Leopoldina (Sign. 02-06-64-69)." .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<SL/10233hasSL17>
+	rdfs:label "Волков, В. А.; Куликова, М. В.: Российская профессура XVIII - начало XX в. Биологические и медико-биологические науки. Биографический словарь. Санкт-Петербург 2003, 443-444. - Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar'. Sankt-Peterburg 2003, 443-444." ;
+	a drw-model:SL .
+
+<W/10233hasW9>
+	rdfs:label "Основы геологии. 3 Части (Геогения и геоморфия; Палеонтология; Стратиграфия). С.-Петербург 1872, 1875, 1877. - Osnovy geologii. 3 Časti (Geogenija i geomorfija; Paleontologija; Stratigrafija). S.-Peterburg 1872, 1875, 1877." ;
+	a drw-model:W .
+
+<W/10233hasW17>
+	rdfs:label "Über die neuesten Arbeiten der nordamerikanischen Staatsgeologen. Moskau 1884. Sonderdruck." ;
+	a drw-model:W .
+
+<NameVariation/10233hasNameVariation6>
+	a drw-model:NameVariation ;
+	rdfs:label "Herrmann" .
+
+<W/10233hasW1>
+	rdfs:label "Ein Gedenkblatt für Alexander von Humboldt. Bulletin de la Société impériale des naturalistes de Moscou 32, 1 (1859), 291-301. Sonderdruck: Moskau 1859." ;
+	a drw-model:W .
+
+<GPV/10233hasGPV5>
+	rdfs:label "• <b>SL</b> Poggendorff, Vgl. 10233-GPV-Poggendorff.pdf Online Ressource." ;
+	a drw-model:GPV .
+
+<A/10233hasEducation1>
+	drw-model:hasNameLink <ImportantPerson/10129> ;
+	drw-model:hasNameLink <ImportantPerson/10078> ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.bbl-digital.de/eintrag/Lemberg-Johann-Theodor-1842-1902/" ;
+	drw-model:hasNameLink <ImportantPerson/10126> ;
+	drw-model:hasNameLink <ImportantPerson/10186> ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/sfz51682.html" ;
+	a drw-model:A ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/sfz23694.html" ;
+	drw-model:hasNameLink <ImportantPerson/10148> ;
+	rdfs:label "Besuch einer Elementarschule in Spandau und eines Gymnasiums in Berlin, sechs Jahre lang Lehrling in einer Apotheke in Charlottenburg, danach bis 1844 Studium der Naturwissenschaften an den Universitäten Berlin. TRAUTSCHOLDs wichtige Lehrer dort waren Heinrich <span style='font-variant:small-caps;'>ROSE</span> (1795-1864), Eilhard <span style='font-variant:small-caps;'>MITSCHERLICH</span> (1794-1863), Heinrich Friedrich Online Ressource LINK (1767-1851) und Karl Sigismund Online Ressource KUNTH (1788-1850). 1844-1845 unternahm TRAUTSCHOLD eine botanische Reise durch Spanien, anschließend studierte er Mineralogie und Kristallographie an der Universität Gießen, wo er zugleich Assistent im Laboratorium von Justus <span style='font-variant:small-caps;'>LIEBIG</span> (1803-1873) war. Seine Promotion zum Dr. phil. an der Universität Gießen erfolgte am 20.5.1847 (<b>SL</b> Kössler 1970, 112). Er lieferte dazu jedoch keine schriftliche Arbeit, was damals durchaus üblich war. Seine Promotionsakte ist Kriegsverlust (Auskunft von Lutz Trautmann, Universitätsarchiv Gießen, 1.11.2012).
+TRAUTSCHOLDs Zeit in Gießen fiel mit den folgenden Ereignissen zusammen: <span style='font-variant:small-caps;'>LIEBIG</span> wurde in Anerkennung seiner hohen Verdienste für die Wissenschaft in den Freiherrnstand des Großherzogtums Hessen (29.12.1845) erhoben. Gerade waren <span style='font-variant:small-caps;'>LIEBIGs</span> \"Chemischen Briefe\" in Buchform erschienen (1844). <span style='font-variant:small-caps;'>LIEBIG</span> war auch auf dem neuen Forschungsfeld, der Agrikulturchemie, tätig (\"Der neu erfundene Patent-Dünger\" 1846). Das war die Zeit, in der im <span style='font-variant:small-caps;'>LIEBIGs</span> Laboratorium in Gießen auch Chemiker aus Russland arbeiteten: Alexej Ivanovič .html CHODNEV (1818-1883), Alexej Ivanovič .html POLUNIN (1829-1888), Nikolaj Ėrastovič <span style='font-variant:small-caps;'>LJASKOVSKIJ</span> (1816-1871), und Pavel Antonovič <span style='font-variant:small-caps;'>IL'ENKOV</span> (1821-1877) (siehe <b>SL</b> Zaitseva 2000).
+Um später einen in Russland anerkannten Hochschulabschluss zu erwerben, reichte TRAUTSCHOLD an der Universität Dorpat 1869 eine Magisterarbeit \"Ueber säculare Hebungen und Senkungen der Erdoberflache\" ein (<b>W</b> Trautschold 1869c). Seine Opponenten waren: Cand. chem. Johann Theodor Online Ressource LEMBERG (1842-1902), Prof. Dr. Carl Ernst .html SCHMIDT (1822-1894) und Prof. Dr. Constantin Online Ressource GREWINGK (1819-1887). Mit der Doktorarbeit \"Der Klin'sche Sandstein\"(<b>W</b> Trautschold 1871) promovierte er 1871 an der Universität Dorpat.
+" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/sfz47075.html" .
+
+<W/10233hasW18>
+	rdfs:label "Die Reste permischer Reptilien des paläontologischen Kabinets der Universität Kasan. Moscou 1884, 38 S. mit 8 Tafeln." ;
+	a drw-model:W .
+
+<SL/10233hasSL2>
+	a drw-model:SL ;
+	rdfs:label "EAD - Erik-Amburger-Datenbank. Online Ressource Online Ressource (21.8.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://88.217.241.77/amburger/index.php?id=41048" .
+
+<ImportantPerson/31154>
+	a drw-model:ImportantPerson .
+
+<GeneralLabor/Palontologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Paläontologe" .
+
+<Place/Karlsruhe_Sterbebuch_1902>
+	a drw-model:Place ;
+	rdfs:label "Karlsruhe [Sterbebuch 1902" .
+
+<SL/10233hasSL13>
+	rdfs:label "Стародубцева, И. А.; Митта, В. В.: Герман Адольфович Траутшольд (к 185-летию со дня рождения). Бюллетень Московского обшества испытателей природы, Отделение геологии, 77 (2002), вып. 6, 78-86. - Starodubceva, I. A.; Mitta, V. V.: German Adol'fovič Trautšol'd (k 185-letiju so dnja roždenija). Bjulleten' Moskovskogo obščestva ispytatelej prirody, Otdelenie geologii, 77 (2002), vyp. 6, 78-86. Online Ressource Online Ressource (21.8.2012)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://rogov.zwz.ru/Starodubceva,Mitta,2002BulMOIP_Trd.pdf" .
+
+<W/10233hasW8>
+	<http://xmlns.com/foaf/0.1/homepage> "http://books.google.de/books?id=O-YnAQAAIAAJ&printsec=frontcover&dq=Der+Klin%27sche+Sandstein&hl=de&sa=X&ei=spaWT8_ED4rNtAbqhommDg&ved=0CDoQ6AEwAA#v=onepage&q&f=false" ;
+	rdfs:label "Der Klin'sche Sandstein: eine zur Erlangung des Doctorgrades verfasste und mit Bewilligung einer Hochverord. physiko-mathem. Fac. d. Kais. Univ. zu Dorpat zur off. Vertheidigung bestimmte Abhandlung. Dorpat 1871. (Deckblatt russ.: Moskva 1870). Online Ressource Online Ressource (21.8.2012)." ;
+	a drw-model:W .
+
+<Q/10233hasQ2>
+	a drw-model:Q ;
+	rdfs:label "- Geburtseintrag bei Ev. Kirchengemeinde St. Marien in Berlin (Kirchenbuch Nr. 5712, Pag. 46);" .
+
+<Q/10233hasQ4>
+	a drw-model:Q ;
+	rdfs:label "- Namen der Taufzeugen: 1. Herr Gustav Trautschold, Geh. exp. Regierungs-Direction zu Frankfurt a. d. Oder; 2. Herr Ludwig John, Geh. Secretär; 3. Herr Heinrich Mann, Conditor; 4. Mons. Heinrich Müller, Chirurgischer Instrumentenmacher; 5. Frau Müller, geb. Perloff; 6. Frau Charlotte Peschke, geb. Müller; 7. Dem. Charlotte Deutsch; 8. Demoiselle Emilie John, zu Spandau, ebenda;" .
+
+<NameVariation/10233hasNameVariation7>
+	rdfs:label "German Adol'fovich" ;
+	a drw-model:NameVariation .
+
+<SL/10233hasSL16>
+	a drw-model:SL ;
+	rdfs:label "Стародубцева, И. А.: Траутшольд Герман Адольфович. ЕНИП - Электронная библиотека \"Научное наследие России\". - Starodubceva, I. A.: German Adol'fovič Trautšol'd. ENIP - Ėlektronnaja biblioteka \"Naučnoe nasledie Rossii\". Online Ressource Online Ressource (21.8.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://nasledie.enip.ras.ru/ras/view/person/history.html?id=42080568" .
+
+<W/10233hasW16>
+	rdfs:label "Zur Frage über die periodische Bewegung des Erdoceans. Moskau 1883. Sonderdruck." ;
+	a drw-model:W .
+
+<Q/10233hasQ14>
+	a drw-model:Q ;
+	rdfs:label "Diverse Briefe u.a. an V. O. Kovalevskij. St. Petersburg, Архив Российской Академии наук [Archiv der Russländischen Akademie der Wissenschaften], фонд 50, опись 2, дело 246." .
+
+<GPV/10233hasGPV6>
+	rdfs:label "• <b>SL</b> Mitta/Starodubceva 2002, 33 (13 russische Titel), 34-35 (46 deutsche und französische Titel)." ;
+	a drw-model:GPV .
+
+<W/10233hasW2>
+	rdfs:label "mit Auerbach, J.: Ueber die Kohlen von Central-Russland. Moskau, 1860." ;
+	a drw-model:W .
+
+<RelatedPerson/10233hasSibling1>
+	a drw-model:RelatedPerson ;
+	drw-model:hasNameLink <ImportantPerson/10126> ;
+	rdfs:label "Bruder Carl Friedrich Wilhelm Trautschold (1815-1877), Porträt- und Landschaftsmaler, 1843-1846 Zeichenlehrer an der Universität Gießen, schuf eine Zeichnung des Liebigs Laboratoriums in Gießen (1842) sowie Bildnisse von Justus <span style='font-variant:small-caps;'>Liebig</span> (dankenswerte Auskunft von Bert Buchholz, Evangelisches Landeskirchliches Archiv in Berlin, 15.11.2012). In der Personalakte von Wilhelm Trautschold im Universitätsarchiv Gießen (UAG, Allg. 1235) sind keine Hinweise auf die Verwandtschaft vorhanden (Auskunft von Lutz Trautmann, Universitätsarchiv Gießen, 10.10.2012)<br>" .
+
+<SL/10233hasSL3>
+	a drw-model:SL ;
+	rdfs:label "J. C. Poggendorff - Biographisch-literarisches Handwörterbuch der exakten Naturwissenschaften, II Sp. 1126; III 1363-1364; IV 1521; Suppl. VIIa 694." .
+
+<WL/10233hasWL4>
+	a drw-model:WL .
+
+<Q/10233hasQ3>
+	a drw-model:Q ;
+	rdfs:label "- Taufe am 5.10.1817, ebenda;" .
+

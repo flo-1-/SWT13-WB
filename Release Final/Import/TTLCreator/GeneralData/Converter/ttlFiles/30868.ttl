@@ -1,0 +1,404 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30868hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Engelhardt, Dietrich von (Hg.): Biographische Enzyklopädie deutschsprachiger Mediziner. Bd. 1-2. München 2002, 513." .
+
+<GeneralLabor/Professor_fr_allgemeine_und_ex>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für allgemeine und experimentelle Pathologie" .
+
+<SL/30868hasSL12>
+	<http://xmlns.com/foaf/0.1/homepage> "http://ub.meduniwien.ac.at/blog/?p=1199" ;
+	a drw-model:SL ;
+	drw-model:hasDate "17.8.2011" ;
+	rdfs:label "VAN SWIETEN blog. Informationen der Universitätsbibliothek der MedUni Wien (Online Ressource)." .
+
+<Comment/30868_2>
+	rdfs:label "Umgekommen, zusammen mit seiner Frau, im Luftschutzkeller des Wohnhauses Philipphof bei einem der letzten Bombenangriffe auf Wien am 12. [nicht am 13.] März 1945. Auf dem leeren Platz, der aus Respekt vor den dort verschütteten Opfern nicht bebaut wurde, steht das „Mahnmal gegen Krieg und Faschismus“ von Alfred Hrdlicka (1928-2009). Vgl. In Czeike 1995 (<b>SL</b>) ist als Grabstätte Hietzinger Friedhof angegeben [vermutlich Ehrengrab]. (Online Ressource)." ;
+	<http://xmlns.com/foaf/0.1/homepage> <http://de.wikipedia.org/wiki/Mahnmal_gegen_Krieg_und_Faschismus> ;
+	a drw-model:Comment ;
+	drw-model:hasDate "18.8.2011" .
+
+<W/30868hasW10>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.springerlink.com/content/?k=Rothberger" ;
+	rdfs:label "Weiterhin Alleinverfasser und Mitverfasser zahlreicher Publikationen in deutschen und ausländischen Zeitschriften, insbesondere in <i>Pflüger’s Archiv für die gesamte Physiologie des Menschen und der Tiere, Naunyn-Schmiedebergs Archiv für Pharmakologie, Zeitschrift für experimentelle Pathologie und Therapie, Journal of molecular medicine und Research in experimental medicine</i> (Volltexte von 72 Beiträgen unter Online Ressource)." ;
+	drw-model:hasDate "18.8.2011" ;
+	a drw-model:W .
+
+<A/30868hasEducation2>
+	a drw-model:A ;
+	drw-model:inYear <Year/1897> ;
+	rdfs:label "Dr. med. in Wien" .
+
+<SL/30868hasSL6>
+	rdfs:label "Handbuch österreichischer Autorinnen und Autoren jüdischer Herkunft 18. bis 20. Jahrhundert. Bd. 2. München 2002, 1155." ;
+	a drw-model:SL .
+
+<B/30868hasStationOfLife10>
+	rdfs:label "auf eigenen Wunsch und mit Erlaubnis des Ministeriums unentgeltlicher Honorarprofessor am IAEP" ;
+	drw-model:ended <Year/1938> ;
+	drw-model:began <Year/1936> ;
+	a drw-model:B .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Comment/30868_4>
+	rdfs:label "Nicht bis 1941, wie in <b>SL</b> ÖBL 1957, DBE, Engelhardt 2002, Handbuch 2002 und Mentzel angegeben. Vgl. Gschiel/Nimeth/Weidinger 2010 (<b>SL</b>), 167." ;
+	a drw-model:Comment .
+
+<W/30868hasW8>
+	rdfs:label "Beiträge zur normalen und pathologischen Physiologie der spezifischen Herzmuskulatur. Cardiologia 1 (1937) 374, 234-250." ;
+	a drw-model:W .
+
+<B/30868hasStationOfLife11>
+	rdfs:label "Verhaftung aufgrund der NS-„Rassengesetze“, Untersagung der Lehrtätigkeit und über Intervention des Medizin-Dekans Eduard <span style='font-variant:small-caps;'>Pernkopf</span> (1888-1955) wieder frei" ;
+	drw-model:inYear <Year/1938> ;
+	a drw-model:B .
+
+<WL/30868hasWL3>
+	rdfs:label "Pionier der Elektrokardiographie" ;
+	a drw-model:WL .
+
+<B/30868hasStationOfLife7>
+	drw-model:began <Year/1912> ;
+	rdfs:label "ao. Professor für allgemeine und experimentelle Pathologie am IAEP" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1936> .
+
+<RelatedPerson/30868fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Jakob (1825-1899), Schneider, Besitzer des Textilwarenhauses Rothberger in Wien und Hoflieferant" .
+
+<B/30868hasStationOfLife5>
+	drw-model:inYear <Year/1902> ;
+	drw-model:hasNameLink <ImportantPerson/30785> ;
+	rdfs:label "Forschungsaufenthalt bei I. P. <span style='font-variant:small-caps;'>Pavlov</span> am Institut für Experimentelle Medizin (IEM) in St. Petersburg" ;
+	a drw-model:B .
+
+<WL/30868hasWL5>
+	rdfs:label "Nach ihm ist benannt:" ;
+	a drw-model:WL .
+
+<B/30868hasStationOfLife1>
+	rdfs:label "Tätigkeit im Bakteriologischen Laboratorium des k.k. Militär-Sanitäts-Comités in Wien" ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1898> .
+
+<ImportantPerson/30785>
+	a drw-model:ImportantPerson .
+
+<SL/30868hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Deutsche Biographische Enzyklopädie. Hrsg. v. Walther Killy und Rudolf Vierhaus. Bd. 1-10. München u. a. 1995-1999,  Bd. 8 (1998), 417." .
+
+<Date/14_110_1871>
+	a drw-model:Date ;
+	drw-model:hasComment <Comment/30868_1> ;
+	rdfs:label "14.[1]10.1871" .
+
+<Date/12_03_1945>
+	rdfs:label "12.03.1945" ;
+	a drw-model:Date .
+
+<Year/1899>
+	rdfs:label "1899" ;
+	a drw-model:Year .
+
+<RelatedPerson/30868hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Bertha, verh. Gutmann (* 1928)[3]" ;
+	drw-model:hasComment <Comment/30868_3> .
+
+<Year/1938>
+	rdfs:label "1938" ;
+	drw-model:hasComment <Comment/30868_4> ;
+	a drw-model:Year .
+
+<B/30868hasStationOfLife8>
+	drw-model:began <Year/1924> ;
+	drw-model:ended <Year/1936> ;
+	a drw-model:B ;
+	rdfs:label "stellvertretender Vorstand des IAEP der Universität Wien" .
+
+<W/30868hasW3>
+	rdfs:label "Zur Analyse des Elektrokardiogramms. Mit H. Eppinger. Wiener klinische Wochenschrift 22 (1909), 1091-1098." ;
+	a drw-model:W .
+
+<SL/30868hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Heuer, Renate: Bibliographia Judaica: Verzeichnis jüdischer Autoren deutscher Sprache. Bd. 2. München u. a. 1984, 231; Bd. 4 (1996), 60." .
+
+<SL/30868hasSL10>
+	rdfs:label "Mühlberger, Kurt: Dokumentation „Vertriebene Intelligenz 1938“. Der Verlust geistiger und menschlicher Potenz an der Universität Wien von 1938-1945. Wien 1990, 30." ;
+	a drw-model:SL .
+
+<NameVariation/30868hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Rothberger, Carl/Karl Julius" .
+
+<W/30868hasW1>
+	rdfs:label "Differentialdiagnostische Untersuchungen mit gefärbten Nährböden. Centralblatt für Bakteriologie, Parasitenkunde und Infektionskrankheiten, 1. Abt. 24 (1898), 513-518." ;
+	a drw-model:W .
+
+<ImportantPerson/30868>
+	drw-model:hasSL <SL/30868hasSL6> ;
+	drw-model:hasW <W/30868hasW5> ;
+	drw-model:hasW <W/30868hasW4> ;
+	drw-model:hasSL <SL/30868hasSL10> ;
+	drw-model:hasQ <Q/30868hasQ1> ;
+	drw-model:hasW <W/30868hasW10> ;
+	drw-model:hasComment <Comment/30868_2> ;
+	drw-model:hasW <W/30868hasW1> ;
+	drw-model:hasStationOfLife <B/30868hasStationOfLife4> ;
+	drw-model:hasSL <SL/30868hasSL8> ;
+	drw-model:hasWL <WL/30868hasWL1> ;
+	drw-model:hasComment <Comment/30868_4> ;
+	drw-model:hasStationOfLife <B/30868hasStationOfLife11> ;
+	drw-model:hasW <W/30868hasW6> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_allgemeine_und_ex> ;
+	drw-model:hasSL <SL/30868hasSL2> ;
+	drw-model:hasSL <SL/30868hasSL7> ;
+	drw-model:hasSL <SL/30868hasSL1> ;
+	drw-model:hasSL <SL/30868hasSL9> ;
+	drw-model:hasWL <WL/30868hasWL5> ;
+	drw-model:motherIs <RelatedPerson/30868motherIs1> ;
+	drw-model:hasStationOfLife <B/30868hasStationOfLife7> ;
+	drw-model:hasID "30868" ;
+	drw-model:hasStationOfLife <B/30868hasStationOfLife10> ;
+	drw-model:hasW <W/30868hasW8> ;
+	rdfs:label "Rothberger, Carl Julius" ;
+	drw-model:hasWL <WL/30868hasWL6> ;
+	drw-model:hasWL <WL/30868hasWL3> ;
+	drw-model:hasSL <SL/30868hasSL12> ;
+	drw-model:fatherIs <RelatedPerson/30868fatherIs1> ;
+	drw-model:diedOn <Date/12_03_1945> ;
+	drw-model:hasStationOfLife <B/30868hasStationOfLife9> ;
+	drw-model:hasEducation <A/30868hasEducation1> ;
+	drw-model:hasStationOfLife <B/30868hasStationOfLife3> ;
+	drw-model:hasStationOfLife <B/30868hasStationOfLife6> ;
+	drw-model:hasW <W/30868hasW9> ;
+	drw-model:hasSL <SL/30868hasSL5> ;
+	drw-model:hasEducation <A/30868hasEducation2> ;
+	drw-model:hasStationOfLife <B/30868hasStationOfLife2> ;
+	drw-model:hasP <P/30868hasP1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <W/30868hasW2> ;
+	drw-model:hasSL <SL/30868hasSL3> ;
+	drw-model:hasWL <WL/30868hasWL2> ;
+	drw-model:hasStationOfLife <B/30868hasStationOfLife8> ;
+	drw-model:wasMarriedTo <RelatedPerson/30868wasMarriedTo1> ;
+	drw-model:hasMainName <MainName/30868hasMainName1> ;
+	drw-model:diedIn <Place/Wien> ;
+	drw-model:hasSL <SL/30868hasSL11> ;
+	drw-model:hasEducation <A/30868hasEducation3> ;
+	drw-model:hasW <W/30868hasW7> ;
+	drw-model:hasComment <Comment/30868_1> ;
+	drw-model:hasComment <Comment/30868_3> ;
+	drw-model:wasBornIn <Place/Wien> ;
+	drw-model:hasW <W/30868hasW3> ;
+	drw-model:hasStationOfLife <B/30868hasStationOfLife5> ;
+	drw-model:hasSL <SL/30868hasSL4> ;
+	drw-model:wasBornOn <Date/14_110_1871> ;
+	drw-model:hasDescendant <RelatedPerson/30868hasDescendant1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30868.jpg> ;
+	drw-model:hasStationOfLife <B/30868hasStationOfLife1> ;
+	drw-model:hasWL <WL/30868hasWL4> .
+
+<Year/1901>
+	rdfs:label "1901" ;
+	a drw-model:Year .
+
+<W/30868hasW5>
+	rdfs:label "Handbuch der allgemeinen Pathologie, Diagnostik und Therapie der Herz- und Gefäßerkrankungen. Hrsg. von Nikolaus v. Jagić. Bd. 2, Teil 1: Physiologie des Kreislaufes. Leipzig, Wien 1913, 225 S." ;
+	a drw-model:W .
+
+<W/30868hasW7>
+	rdfs:label "Normale und pathologische Physiologie der Rhythmik und Koordination des Herzens. Ergebnisse der Physiologie 32 (1931), 472-820." ;
+	a drw-model:W .
+
+<Comment/30868_3>
+	a drw-model:Comment ;
+	rdfs:label "Die heute in den USA lebende Tochter erhielt von der Medizinischen Universität Wien am 30.9.2010 im Zuge der Restitution die bei Mentzel (<b>SL</b>) erwähnten 39 enteigneten Bücher ihres Vaters zurück." .
+
+<A/30868hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Habilitierung für allgemeine und experimentelle Pathologie in Wien" ;
+	drw-model:inYear <Year/1904> .
+
+<SL/30868hasSL11>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 117." .
+
+<Year/1905>
+	a drw-model:Year ;
+	rdfs:label "1905" .
+
+<B/30868hasStationOfLife2>
+	rdfs:label "Hospitant im Bakteriologischen Laboratorium der Krankenanstalt Rudolfstiftung unter Richard <span style='font-variant:small-caps;'>Paltauf</span> (1858-1924) und an der I. Medizinischen Universitätsklinik unter Hermann <span style='font-variant:small-caps;'>Nothnagel</span> (1841-1905)" ;
+	drw-model:ended <Year/1899> ;
+	a drw-model:B ;
+	drw-model:began <Year/1898> .
+
+<Year/1891>
+	rdfs:label "1891" ;
+	a drw-model:Year .
+
+<Year/1897>
+	rdfs:label "1897" ;
+	a drw-model:Year .
+
+<SL/30868hasSL9>
+	<http://xmlns.com/foaf/0.1/homepage> "http://ub.meduniwien.ac.at/content/PDF_text/restitutionsdossier_rothberger_carl%20julius_mentzel.pdf" ;
+	drw-model:hasDate "17.8.2011" ;
+	a drw-model:SL ;
+	rdfs:label "Mentzel, Walter: Bücher von Carl Julius Rothberger. Restitutionsdossier (Online Ressource)." .
+
+<A/30868hasEducation1>
+	a drw-model:A ;
+	drw-model:ended <Year/1897> ;
+	drw-model:began <Year/1891> ;
+	rdfs:label "Studium der Medizin an der Universität Wien" .
+
+<SL/30868hasSL8>
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	a drw-model:SL ;
+	rdfs:label "WBIS JBA: Jüdisches Biographisches Archiv (Online Ressource, 16.1.2013): I 554, 230-232; II 465, 203-205." .
+
+<W/30868hasW9>
+	rdfs:label "[Übersetzung von: James Mackenzie: Diseases of the heart. 3. Aufl. London 1913, 502 S.] Lehrbuch der Herzkrankheiten. 2. deutsche Aufl. Berlin, 1923, 551 S." ;
+	a drw-model:W .
+
+<WL/30868hasWL2>
+	rdfs:label "Arbeiten u. a. zu bakteriologischen, pharmakologischen und tierexperimentellen Fragen" ;
+	a drw-model:WL .
+
+<SL/30868hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Czeike, Felix: Historisches Lexikon Wien in 5 Bänden. Bd. 4. Wien 1995, 704." .
+
+<Year/1936>
+	rdfs:label "1936" ;
+	a drw-model:Year .
+
+<Place/Wien>
+	a drw-model:Place ;
+	drw-model:hasComment <Comment/30868_2> ;
+	rdfs:label "Wien" .
+
+<B/30868hasStationOfLife4>
+	drw-model:began <Year/1901> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1905> ;
+	rdfs:label "unbesoldeter Assistent am IAEP" .
+
+<WL/30868hasWL4>
+	rdfs:label "1909 Nachweis des Flimmerns der Herzvorhöfe als Ursache unregelmäßiger Herztätigkeit" ;
+	a drw-model:WL .
+
+<SL/30868hasSL3>
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	a drw-model:SL ;
+	rdfs:label "WBIS DBA: Deutsches Biographisches Archiv (Online Ressource, 16.1.2013): II 1100, 347-352; III 766, 127-129." .
+
+<Comment/30868_1>
+	rdfs:label "Bei Wininger 1931, zit. n. WBIS DBA (<b>SL</b>), 11. angegeben; vermutlich Druckfehler." ;
+	a drw-model:Comment .
+
+<B/30868hasStationOfLife6>
+	drw-model:ended <Year/1912> ;
+	a drw-model:B ;
+	drw-model:began <Year/1905> ;
+	rdfs:label "Privatdozent am IAEP" .
+
+<WL/30868hasWL6>
+	rdfs:label "Rothberger-Scheffler-Agar (zum Nachweis der Neutralrotreduktion von Salmonellen)" ;
+	a drw-model:WL .
+
+<Year/1924>
+	rdfs:label "1924" ;
+	a drw-model:Year .
+
+<SL/30868hasSL5>
+	rdfs:label "Gschiel, Christina, Nimeth, Ulrike, Weidinger, Leonhard (Hgg.): Schneidern und sammeln. Die Wiener Familie Rothberger. Wien 2010 (Schriftenreihe der Kommission für Provenienzforschung 2), 333 S.; insb. S. 157-165: Löscher, Monika: Carl Julius Rothberger; S. 294-295: Stammbaum der Familie Rothberger in Wien." ;
+	a drw-model:SL .
+
+<B/30868hasStationOfLife3>
+	drw-model:ended <Year/1901> ;
+	drw-model:began <Year/1899> ;
+	a drw-model:B ;
+	rdfs:label "Demonstrator am Institut für allgemeine und experimentelle Pathologie (IAEP) der Universität Wien bei Philipp <span style='font-variant:small-caps;'>Knoll</span> (1841-1900)" .
+
+<Year/1902>
+	rdfs:label "1902" ;
+	a drw-model:Year .
+
+<W/30868hasW2>
+	rdfs:label "Ueber die entgiftende Funktion der Leber (Probevorlesung am 15. Juli 1905). Wien, Leipzig 1905, 15 S. = Wiener klinische Wochenschrift 18 (1905) 31, 817-822." ;
+	a drw-model:W .
+
+<WL/30868hasWL1>
+	rdfs:label "Forschungsgebiet: Pathologische Physiologie, bes. der Kreislauforgane" ;
+	a drw-model:WL .
+
+<B/30868hasStationOfLife9>
+	rdfs:label "frühzeitige Pensionierung (aus angeblichen Sparzwängen)" ;
+	drw-model:inYear <Year/1936> ;
+	a drw-model:B .
+
+<P/30868hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb. [Ausschnitt aus dem Foto mit Unterschrift]) aus: Universitätsarchiv Wien, Fotoarchiv (vgl. Q b) (Wiedergabe mit freundlicher Genehmigung)." .
+
+<Year/1904>
+	rdfs:label "1904" ;
+	a drw-model:Year .
+
+<NameVariation/30868hasNameVariation2>
+	rdfs:label "Rotberger, K."@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Ротбергер, К."@ru .
+
+<RelatedPerson/30868wasMarriedTo1>
+	rdfs:label "Leopoldine, geb. Wolfrath (1892-1945)" ;
+	a drw-model:RelatedPerson .
+
+<W/30868hasW4>
+	rdfs:label "Ueber den Pulsus irregularis perpetuus. Mit Heinrich Winterberg. Wiener klinische Wochenschrift 22 (1909) 51, 1792-1795." ;
+	a drw-model:W .
+
+<MainName/30868hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Rothberger, Carl Julius" ;
+	drw-model:hasNameVariation <NameVariation/30868hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30868hasNameVariation2> .
+
+<Year/1912>
+	rdfs:label "1912" ;
+	a drw-model:Year .
+
+<Year/1898>
+	rdfs:label "1898" ;
+	a drw-model:Year .
+
+<RelatedPerson/30868motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Rosalia, geb. Welisch (1829-1914)" .
+
+<W/30868hasW6>
+	a drw-model:W ;
+	rdfs:label "Handbuch der normalen und pathologischen Physiologie, mit Berücksichtigung der experimentellen Pharmakologie. Hg. von Albrecht Bethe u. a. Bd. 7: Blutzirkulation. 1. Teil: Herz: Allgemeine Physiologie des Herzens. Berlin 1926, 523-662; 2. Teil: Blutgefäße, Kreislauf: Die Pharmakologie der Gefäße und des Kreislaufes. Mit Rudolf Rigler. Berlin 1927, 998-1070." .
+
+<Q/30868hasQ1>
+	a drw-model:Q ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://ub.meduniwien.ac.at/blog/?p=1199" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://scopeq.cc.univie.ac.at/query/detail.aspx?ID=37506" ;
+	drw-model:hasDate "17.8.2011" ;
+	rdfs:label "Archiv der Universität Wien: Rothberger, Julius:
+- a) Handschriftensammlung der medizinischen Universität Wien: Personalakten, Signatur: 3.180/I+II; Begleitbrief, Signatur:1.268; Wissenschaftliche Arbeiten (Inhaltsangabe und Wertung), Signatur: HS 3.674/1-2 (vgl. - b) Fotoarchiv „Universitätsgeschichte“: Foto mit eigenhändiger Unterschrift, Signatur 106.I.1312 (Online Ressource, 17.8.2011); Foto des Professorenkollegiums, Signatur: 135.444; Dokument, Signatur: Senat S 304.1065.Online Ressource)." .
+

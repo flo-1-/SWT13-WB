@@ -1,0 +1,277 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<NameVariation/31154hasNameVariation3>
+	rdfs:label "KOWALEWSKY" ;
+	a drw-model:NameVariation .
+
+<RelatedPerson/31154wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sof'ja Vasil'evna Kovalevskaja, geb. Korvin-Krukovskaja (1850-1891), Mathematikerin, Promotion 1874 an der Universität Göttingen, Heirat 15./27.9.1868" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<NameVariation/31154hasNameVariation1>
+	rdfs:label "KOWALEWSKIJ" ;
+	a drw-model:NameVariation .
+
+<GPV/31154hasGPV2>
+	rdfs:label "   • Kovalevskij, V. O.: Sobranie naučnych trudov, Tom 1, 1950 (<b>W</b>)." ;
+	a drw-model:GPV .
+
+<Q/31154hasQ3>
+	a drw-model:Q ;
+	rdfs:label "Заметка о моëм магистерском экзамене Д-ра геологии Йенскаго университета Владимира Ковалевскаго. Киев 1874. - Zametka o moëm magisterskom ėkzamene D-ra geologii Jenskago universiteta Vladimira Kovalevskago. Kiev 1874." .
+
+<Date/16_or_28_4_1883>
+	rdfs:label "16./28.4.1883" ;
+	a drw-model:Date .
+
+<NameVariation/31154hasNameVariation5>
+	a drw-model:NameVariation ;
+	rdfs:label "KOVALEVSKY" .
+
+<Date/2_or_14_8_1842>
+	a drw-model:Date ;
+	rdfs:label "2./14.8.1842" .
+
+<NameVariation/31154hasNameVariation7>
+	a drw-model:NameVariation ;
+	rdfs:label "Woldemar" .
+
+<RelatedPerson/31154hasSibling1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Bruder: Aleksandr Onufrievič <span style='font-variant:small-caps;'>Kovalevskij</span> (1840-1901), Embryologe, Histologe" ;
+	drw-model:hasNameLink <ImportantPerson/30570> .
+
+<SL/31154hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Guntau, M. (Hrsg.): Biographien bedeutender Geowissenschaftler der Sowjetunion. Berlin 1979 (Schriftenreihe für Geologische Wissenschaften 14)." .
+
+<Place/Dorf_ustjanka_Uezd_Dnaburg_heu>
+	a drw-model:Place ;
+	rdfs:label "Dorf Šustjanka, Uezd Dünaburg (heute Daugavpils), Gouvernement Vitebsk" .
+
+<ImportantPerson/31154>
+	drw-model:hasW <W/31154hasW3> ;
+	drw-model:hasSL <SL/31154hasSL3> ;
+	drw-model:hasP <P/31154hasP2> ;
+	drw-model:hasP <P/31154hasP1> ;
+	drw-model:diedIn <Place/Moskau> ;
+	drw-model:hasMainName <MainName/31154hasMainName1> ;
+	drw-model:motherIs <RelatedPerson/31154motherIs1> ;
+	drw-model:hasQ <Q/31154hasQ2> ;
+	drw-model:hasW <W/31154hasW9> ;
+	drw-model:hasSL <SL/31154hasSL4> ;
+	drw-model:fatherIs <RelatedPerson/31154fatherIs1> ;
+	drw-model:hasGPV <GPV/31154hasGPV3> ;
+	drw-model:diedOn <Date/16_or_28_4_1883> ;
+	drw-model:hasStationOfLife <B/31154hasStationOfLife1> ;
+	drw-model:hasSL <SL/31154hasSL2> ;
+	drw-model:hasWL <WL/31154hasWL1> ;
+	drw-model:hasW <W/31154hasW8> ;
+	drw-model:hasDescendant <RelatedPerson/31154hasDescendant1> ;
+	drw-model:hasID "31154" ;
+	drw-model:hasSibling <RelatedPerson/31154hasSibling1> ;
+	drw-model:hasGPV <GPV/31154hasGPV2> ;
+	drw-model:hasSL <SL/31154hasSL6> ;
+	drw-model:hasSL <SL/31154hasSL5> ;
+	drw-model:hasW <W/31154hasW5> ;
+	drw-model:hasW <W/31154hasW7> ;
+	drw-model:wasBornIn <Place/Dorf_ustjanka_Uezd_Dnaburg_heu> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Palontologe> ;
+	drw-model:hasQ <Q/31154hasQ1> ;
+	drw-model:hasW <W/31154hasW2> ;
+	drw-model:wasMarriedTo <RelatedPerson/31154wasMarriedTo1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <W/31154hasW1> ;
+	drw-model:hasW <W/31154hasW6> ;
+	drw-model:hasSL <SL/31154hasSL1> ;
+	drw-model:hasGPV <GPV/31154hasGPV1> ;
+	drw-model:hasSL <SL/31154hasSL7> ;
+	drw-model:wasBornOn <Date/2_or_14_8_1842> ;
+	drw-model:hasEducation <A/31154hasEducation1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/31154.jpg> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Zoologe> ;
+	drw-model:hasP <P/31154hasP3> ;
+	drw-model:hasW <W/31154hasW4> ;
+	drw-model:hasQ <Q/31154hasQ3> ;
+	rdfs:label "Kovalevskij, Vladimir Onufrievič" .
+
+<W/31154hasW6>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.archive.org/stream/palaeontographic22cass#page/414/mode/2up" ;
+	a drw-model:W ;
+	rdfs:label "Osteologie des Genus Entelodon Aym. Palaeontographica 22,7 (1876), 415-450, Taf. XXV-XXVII. Online Ressource Online Ressource (1.8.2012)." .
+
+<NameVariation/31154hasNameVariation8>
+	rdfs:label "Wladimir Onufrievich" ;
+	a drw-model:NameVariation .
+
+<GeneralLabor/Palontologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Paläontologe" .
+
+<W/31154hasW8>
+	rdfs:label "Ковалевский В. О.: Собрание научных трудов. Том 1-3. Москва, Ленинград 1950-1960. - Kovalevskij, V. O.: Sobranie naučnych trudov. Tom 1-3. Moskva, Leningrad 1950-1960." ;
+	a drw-model:W .
+
+<ImportantPerson/30570>
+	a drw-model:ImportantPerson .
+
+<Place/Moskau>
+	a drw-model:Place ;
+	rdfs:label "Moskau" .
+
+<WL/31154hasWL1>
+	rdfs:label "Vladimir KOVALEVSKIJ war Vertreter des Darwinismus und gilt als einer der Begründer der evolutionären Paläontologie; besondere Anerkennung fanden seine Arbeiten über die Entwicklungsgeschichte der Huftiere." ;
+	a drw-model:WL .
+
+<P/31154hasP1>
+	rdfs:label "Photoportrait um 1881 in: Очерки истории русской культуры второй половины 19 века. Москва 1976, 79. - Očerki istorii russkoj kul'tury vtoroj poloviny 19 veka. Moskva 1976, 79. Online Ressource Online Ressource (1.8.2012)." ;
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.rulex.ru/rpg/WebPict/fullpic/0069-013.jpg" .
+
+<W/31154hasW2>
+	rdfs:label "On the Osteology of the Hyopotamidae. Philosophical Transactions 163 (1873), 19-94. Online Ressource Online Ressource (2.8.2012)." ;
+	a drw-model:W ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://intl-rstl.royalsocietypublishing.org/content/163/19.full.pdf" .
+
+<P/31154hasP3>
+	a drw-model:P ;
+	rdfs:label "Diverse Photographien in: Gajsinovič 1988 (<b>Q</b>)." .
+
+<W/31154hasW4>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.archive.org/stream/palaeontographic22cass#page/210/mode/2up" ;
+	rdfs:label "Monographie der Gattung Anthracotherium Cuv. und Versuch einer natürlichen Classification der fossilen Hufthiere. Fortsetzung. Palaeontographica 22,4 (1874), 211-290, Taf. X-XII. Online Ressource Online Ressource (1.8.2012)." ;
+	a drw-model:W .
+
+<SL/31154hasSL4>
+	rdfs:label "Давиташвили, Л. Ш.: В. О. Ковалевский. Москва, Ленинград 1946. - Davitašvili, L. Š: V. O. Kovalevskij. Moskva, Leningrad 1946." ;
+	a drw-model:SL .
+
+<RelatedPerson/31154hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sof'ja Vladimirovna Kovalevskaja (1875-1952), Ärztin in Moskau<br>   " .
+
+<NameVariation/31154hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "KOWALEVSKY" .
+
+<SL/31154hasSL5>
+	rdfs:label "Biographie von V. O. Kovalevskij in: Ковалевский В. О.: Собрание научных трудов. Том 1. Москва, Ленинград 1950, 9-153. - Kovalevskij, V. O.: Sobranie naučnych trudov. Tom 1. Moskva, Leningrad 1950, 9-153." ;
+	a drw-model:SL .
+
+<SL/31154hasSL2>
+	rdfs:label "Kovalevsky, Vladimir Onufrievich. Complete Dictionary of Scientific Biography 2008. Encyclopedia.com. Online Ressource Online Ressource (2.8.2012)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.encyclopedia.com/doc/1G2-2830902378.html" .
+
+<NameVariation/31154hasNameVariation6>
+	a drw-model:NameVariation ;
+	rdfs:label "KAVALEUSKI" .
+
+<RelatedPerson/31154fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Onufrij Osipovič Kovalevskij, Gutsbesitzer polnischer Abstammung, erblicher Adel († vor 1861)" .
+
+<NameVariation/31154hasNameVariation4>
+	a drw-model:NameVariation ;
+	rdfs:label "KAVALEUSKI" .
+
+<SL/31154hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Борисяк, А. А.: В. О. Ковалевский. Его жизнь и научные труды. Ленинград 1928. - Borisjak, A. A.: V. O. Kovalevskij. Ego žizn' i naučnye trudy. Leningrad 1928." .
+
+<SL/31154hasSL1>
+	rdfs:label "WBIS [Kovalevskij] Russisches Biographisches Archiv & Biographisches Archiv der Sowjetunion (RBA & BASU), [Kowalewskij] Polskie Archiwum Biograficzne (PAB)." ;
+	a drw-model:SL .
+
+<GeneralLabor/Zoologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Zoologe" .
+
+<SL/31154hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Резник, С. Е.: Владимир Ковалевский. Трагедия нигилиста. Москва 1978. - Reznik, S. E.: Vladimir Kovalevskij. Tragedija nigilista. Moskva 1978." .
+
+<B/31154hasStationOfLife1>
+	rdfs:label "Von 1861 bis 1862 am Heroldie-Departement des Dirigirenden Senats in St. Petersburg tätig, später am Ministerium für Volksaufklärung, 1873 Kustos des Zoologischen Kabinetts an der Universität St. Petersburg, 1880 Dozent für Geologie und ab 1881 Professor für Geologie am Lehrstuhl für Geologie an der Universität Moskau.
+   " ;
+	a drw-model:B .
+
+<P/31154hasP2>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.litmir.net/br/?b=31129&p=83" ;
+	a drw-model:P ;
+	rdfs:label "Photographie von 1881 in: Reznik 1978, 83 (<b>SL</b>). Online Ressource Online Ressource (1.8.2012)." .
+
+<W/31154hasW7>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.archive.org/stream/palaeontographic24cass#page/n243/mode/2up" ;
+	a drw-model:W ;
+	rdfs:label "Osteologie des Gelocus Aymardi. Palaeontographica 23,5 (1877), 145-162, Taf. XXI-XXII. Online Ressource Online Ressource (1.8.2012)." .
+
+<RelatedPerson/31154motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Polina Petrovna (?-?)" .
+
+<NameVariation/31154hasNameVariation9>
+	a drw-model:NameVariation ;
+	rdfs:label "Uladzimir Anufrievic" .
+
+<A/31154hasEducation1>
+	a drw-model:A ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/sfz61050.html" ;
+	rdfs:label "KOVALEVSKIJ besuchte von ca. 1851 bis 1852 eine der besten Privatschulen in St. Petersburg, wo er vor allem Fremdsprachen (Deutsch, Französisch, Englisch) lernte; von 1854 bis 1861 studierte er an der Kaiserlichen Juristischen Lehranstalt (Imperatorskoe Učilišče pravovedenija) in St. Petersburg. Von 1861 bis 1867/68 lebte er im Ausland (Heidelberg, Paris, Nizza, London). Nach der Eheschließung mit Sof'ja Korvin-Krukovskaja (zunächts eine Scheinehe) ging er ins Ausland und beschäftigte sich mit der Paläontologie, dabei untersuchte er in Paris, London, Berlin, München, Wien, Turin sowie an anderen Orten paläontologische Sammlungen. 1872 promovierte er an der Universität Jena; bei seiner Doktorprüfung am 11.3.1872 sollte Ernst Online Ressource HAECKEL (1834-1919) anwesend sein (<b>SL</b> Guntau 1979). Bis 1874 lebte er in Deutschland, vorwiegend in Berlin. 1875 erhielt er den Grad eines Magisters der Geognosie und der Mineralogie an der Universität St. Petersburg.
+" .
+
+<MainName/31154hasMainName1>
+	drw-model:hasNameVariation <NameVariation/31154hasNameVariation5> ;
+	drw-model:hasNameVariation <NameVariation/31154hasNameVariation8> ;
+	drw-model:hasNameVariation <NameVariation/31154hasNameVariation9> ;
+	drw-model:hasNameVariation <NameVariation/31154hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/31154hasNameVariation3> ;
+	drw-model:hasNameVariation <NameVariation/31154hasNameVariation6> ;
+	drw-model:hasNameVariation <NameVariation/31154hasNameVariation7> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/31154hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/31154hasNameVariation4> ;
+	rdfs:label "Kovalevskij, Vladimir Onufrievič" .
+
+<Q/31154hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Гайсинович, А. Е. (Ред.): А. О. и В. О. Ковалевские. Переписка 1867-1873 гг. Москва 1988. - Gajsinovič, A. E. (Red.): A. O. i V. O. Kovalevskie. Perepiska 1867-1873 gg. Moskva 1988." .
+
+<W/31154hasW1>
+	rdfs:label "Sur l'Anchitherium aurelianense Cuv. et sur l'histoire paléontologique des chevaux. Mémoires de l'Académie Impériale des Sciences de Saint-Pétersbourg (7. Ser.) 20,5 (1873), 1-73, mit 3 Tafeln." ;
+	a drw-model:W .
+
+<W/31154hasW9>
+	rdfs:label "Gould, Stephen Jay (Ed.): The complete works of Vladimir Kovalevsky. New York 1980." ;
+	a drw-model:W .
+
+<GPV/31154hasGPV3>
+	rdfs:label "• Gould 1980 (<b>W</b>)." ;
+	a drw-model:GPV .
+
+<Q/31154hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Письма А. О. Ковалевского к И. И. Мечникову (1866-1900). Ленинград 1955. - Pis'ma A. O. Kovalevskogo k I. I. Mečnikovu. Leningrad 1955, 311 S. Online Ressource Online Ressource (25.7.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.ranar.spb.ru/rus/books1/id/64/" .
+
+<GPV/31154hasGPV1>
+	rdfs:label "• Borisjak 1928 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<W/31154hasW3>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.archive.org/stream/palaeontographic22cass#page/n139/mode/2up" ;
+	rdfs:label "Monographie der Gattung Anthracotherium Cuv. und Versuch einer natürlichen Classification der fossilen Hufthiere. Palaeontographica 22,3 (1873), 131-210, Taf. VII-IX. Online Ressource Online Ressource (1.8.2012)." ;
+	a drw-model:W .
+
+<W/31154hasW5>
+	rdfs:label "Monographie der Gattung Anthracotherium Cuv. und Versuch einer natürlichen Classification der fossilen Hufthiere. Fortsetzung. Palaeontographica 22,5 (1875), 291-346, Taf. XIII-XVII. Online Ressource Online Ressource (1.8.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.archive.org/stream/palaeontographic22cass#page/n307/mode/2up" ;
+	a drw-model:W .
+

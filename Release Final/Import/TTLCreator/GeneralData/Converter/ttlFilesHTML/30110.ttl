@@ -1,0 +1,165 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30110hasSL1>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [7877/7624 und 62386/61946 (22.7.2010)]" .
+
+<NameVariation/30110hasNameVariation4>
+	a drw-model:NameVariation ;
+	rdfs:label "Jean" .
+
+<Q/30110hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Landeskirchenarchiv Schwerin (schriftliche Mitteilung vom 31.3.2009):" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<SL/30110hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Le Minor, Jean-Marie: Les Boecler, une dynastie de médecins et universitaires strasbourgeois (XVIIe - XVIIIe s.). Bulletin du Cercle généalogique d'Alsace 61 (1983) 4, 168-170." .
+
+<Q/30110hasQ3>
+	a drw-model:Q ;
+	rdfs:label "Auszug aus dem Begräbnisregister von Ludwigslust 1824: \"gest. 27.07.1824, begr. 31.07.1824, die Frau Etats Räthin Sophie Christiane von Boecler, geborene von Taeubner, nachgelassene Wittwe des, 1808 März 17 allhierverstorbenen Russisch Kaiserl. Etats-Rathes und Leibarztes bei der hochselige Großfürstin Helene Paulowne, Johann von Böcler, in Dresden ist die Verstorbene geboren, wo ihr Vater anfänglich im Dienst des Königs August des 3 ten, hernach in Warschau gewesen ist., 88 Jahre und 7 Monate\"." .
+
+<NameVariation/30110hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "BECKLER" .
+
+<SL/30110hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Polski słownik biograficzny. Bd. 2. Kraków 1936, 184." .
+
+<A/30110hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Ab 1751 [ ! ] Studium der Philosophie, danach bis 1762 Studium der Medizin und Dr. med an der Universität Straßburg." .
+
+<Place/Ludwigslust>
+	a drw-model:Place ;
+	rdfs:label "Ludwigslust" .
+
+<RelatedPerson/30110wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sophie Christiane, geb. von Taeubner (1736-1824)" .
+
+<WL/30110hasWL1>
+	rdfs:label "Boecler führte nach Aussage des Militärchirurgen Franz Leopold LAFONTAINE (1756-1812) die Pockenimpfung in Warschau ein." ;
+	a drw-model:WL .
+
+<W/30110hasW2>
+	rdfs:label "De acidulis Petrinis. Diss. Straßburg 1762, 24 S." ;
+	a drw-model:W .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<ImportantPerson/30110>
+	drw-model:hasQ <Q/30110hasQ1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	drw-model:hasSL <SL/30110hasSL2> ;
+	drw-model:fatherIs <RelatedPerson/30110fatherIs1> ;
+	rdfs:label "Boecler, Johann (von)" ;
+	drw-model:hasSL <SL/30110hasSL1> ;
+	drw-model:hasEducation <A/30110hasEducation1> ;
+	drw-model:hasMainName <MainName/30110hasMainName1> ;
+	drw-model:wasBornIn <Place/Straburg> ;
+	drw-model:hasID "30110" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Prof_hon_fr_Medizin> ;
+	drw-model:hasStationOfLife <B/30110hasStationOfLife1> ;
+	drw-model:hasSL <SL/30110hasSL4> ;
+	drw-model:hasW <W/30110hasW3> ;
+	drw-model:hasSL <SL/30110hasSL5> ;
+	drw-model:wasBornOn <Date/25_oder_23_11_1737> ;
+	drw-model:hasQ <Q/30110hasQ2> ;
+	drw-model:diedIn <Place/Ludwigslust> ;
+	a drw-model:ImportantPerson ;
+	drw-model:diedOn <Date/17_3_nicht_5_1808> ;
+	drw-model:hasQ <Q/30110hasQ3> ;
+	drw-model:wasMarriedTo <RelatedPerson/30110wasMarriedTo1> ;
+	drw-model:hasW <W/30110hasW1> ;
+	drw-model:hasSL <SL/30110hasSL3> ;
+	drw-model:hasWL <WL/30110hasWL1> ;
+	drw-model:hasSL <SL/30110hasSL6> ;
+	drw-model:hasW <W/30110hasW2> ;
+	drw-model:motherIs <RelatedPerson/30110motherIs1> .
+
+<Place/Straburg>
+	a drw-model:Place ;
+	rdfs:label "Straßburg" .
+
+<SL/30110hasSL2>
+	rdfs:label "Brokgauz/ Efron. Bd. 5 (1891), 354." ;
+	a drw-model:SL .
+
+<NameVariation/30110hasNameVariation3>
+	rdfs:label "BOECKLER Johannes" ;
+	a drw-model:NameVariation .
+
+<Date/25_oder_23_11_1737>
+	a drw-model:Date ;
+	rdfs:label "25. oder 23. 11.1737" .
+
+<MainName/30110hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30110hasNameVariation5> ;
+	drw-model:hasNameVariation <NameVariation/30110hasNameVariation4> ;
+	drw-model:hasNameVariation <NameVariation/30110hasNameVariation1> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30110hasNameVariation3> ;
+	drw-model:hasNameVariation <NameVariation/30110hasNameVariation2> ;
+	rdfs:label "Boecler, Johann (von)" .
+
+<NameVariation/30110hasNameVariation5>
+	a drw-model:NameVariation ;
+	rdfs:label "Jan" .
+
+<Q/30110hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Auszug aus dem Begräbnisregister von Ludwigslust 1808: \"Herr Johann v. Boeckler wailand Russisch Kaiserlicher wirklicher Etatsrath und Leibmedicus, 71 Jahre\", gest. 17.03.1808, begr. 23.03.1808." .
+
+<NameVariation/30110hasNameVariation1>
+	rdfs:label "BÖCLER" ;
+	a drw-model:NameVariation .
+
+<Date/17_3_nicht_5_1808>
+	a drw-model:Date ;
+	rdfs:label "17.3. [nicht 5.]1808" .
+
+<B/30110hasStationOfLife1>
+	rdfs:label "Ab 1763 Prof. hon. an der Universität Straßburg, 1766 mit Johann Friedrich von HERRENSCHWAND (1715-1798). Reise nach Polen, 1769-1798 Leibarzt des Königs von Polen STANISŁAW II. AUGUST Poniatowski (1732-1798), 1798-1799 Leibarzt des späteren Zaren von Russland ALEKSANDR I. (1777-1825), 1799-1803 Leibarzt der Großfürstin von Russland und Erbprinzessin von Mecklenburg-Schwerin ELENA PAVLOVNA (1784-1803) in Ludwigslust.
+Inhaber der Ehrentitel \"Hofrat\" (1768), \"Staatsrat\", \"Russisch Kaiserlicher wirklicher Etatsrat\" (1799), \"Geheimrat\", des Adelstitels (ab 1775) sowie des Ordens der Gold- und Rosenkreuzer (Freimaurer)." ;
+	a drw-model:B .
+
+<RelatedPerson/30110motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Catherine Salomé, geb. Mappus (1714-1743)" .
+
+<W/30110hasW1>
+	a drw-model:W ;
+	rdfs:label "Historia et analysis fontis Rippolsaviensis. Diss. Straßburg 1762, 35 S." .
+
+<GeneralLabor/Prof_hon_fr_Medizin>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Prof. hon. für Medizin" .
+
+<RelatedPerson/30110fatherIs1>
+	rdfs:label "Johann Philipp (Jean Philippe) (1710-1759), Arzt, Prof. für Chemie, Botanik und Medizin" ;
+	a drw-model:RelatedPerson .
+
+<W/30110hasW3>
+	rdfs:label "Catalogus Bibliothecae quoad maximam partem Physico-Medicae, quam in proprios usus collegit Jo. De Boecler. Hamburg 1806; 2. Aufl.: Catalogue de la bibliothèque de feu M. de Boecler. Strasbourg 1809." ;
+	a drw-model:W .
+
+<SL/30110hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Nouveau dictionnaire de biographie alsacienne. Bd. 4: Bl à Bo. Straßbourg 1984, 276-277." .
+
+<SL/30110hasSL6>
+	a drw-model:SL ;
+	rdfs:label "WBIS DBA: I 115, 366-367; II 143, 439." .
+

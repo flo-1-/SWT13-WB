@@ -1,0 +1,121 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<ImportantPerson/30054>
+	drw-model:wasMarriedTo <RelatedPerson/30054wasMarriedTo1> ;
+	drw-model:hasDescendant <RelatedPerson/30054hasDescendant1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Chirurg_der_Flotte> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:wasBornOn <Date/24_12_1769_oder_1770> ;
+	drw-model:hasSL <SL/30054hasSL1> ;
+	drw-model:diedOn <Date/11_or_23_10_1839> ;
+	drw-model:hasSL <SL/30054hasSL3> ;
+	drw-model:hasSL <SL/30054hasSL2> ;
+	drw-model:hasID "30054" ;
+	drw-model:fatherIs <RelatedPerson/30054fatherIs1> ;
+	a drw-model:ImportantPerson ;
+	rdfs:label "Bartholomäi, Friedrich (von)" ;
+	drw-model:hasStationOfLife <B/30054hasStationOfLife1> ;
+	drw-model:wasBornIn <Place/Sondheim_?_Frstentum_Eisenach_> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Hofchirurg> ;
+	drw-model:hasMainName <MainName/30054hasMainName1> ;
+	drw-model:hasW <W/30054hasW2> ;
+	drw-model:hasW <W/30054hasW1> .
+
+<NameVariation/30054hasNameVariation3>
+	rdfs:label "Fedor" ;
+	a drw-model:NameVariation .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<NameVariation/30054hasNameVariation5>
+	a drw-model:NameVariation ;
+	rdfs:label "Фeдор" .
+
+<Date/11_or_23_10_1839>
+	a drw-model:Date ;
+	rdfs:label "11./23.10.1839" .
+
+<RelatedPerson/30054fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann" .
+
+<SL/30054hasSL2>
+	rdfs:label "EAD: Dokument-Id [7952/7699, 58122/45058 und 1051990 (20.7.2010)]." ;
+	a drw-model:SL .
+
+<RelatedPerson/30054hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Maria (Marija Fëdorovna) (1810-1833)" .
+
+<Date/24_12_1769_oder_1770>
+	a drw-model:Date ;
+	rdfs:label "24.12.1769 oder 1770" .
+
+<Place/Sondheim_?_Frstentum_Eisenach_>
+	a drw-model:Place ;
+	rdfs:label "Sondheim (?), Fürstentum Eisenach (im Herzogtum Sachsen-Coburg-Saalfeld)" .
+
+<SL/30054hasSL3>
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA: R 37, 275." .
+
+<W/30054hasW1>
+	a drw-model:W ;
+	rdfs:label "O polevoj službe pešago soldata. Sanktpeterburg 1821, 40 S." .
+
+<NameVariation/30054hasNameVariation4>
+	a drw-model:NameVariation ;
+	rdfs:label "Фридриx" .
+
+<NameVariation/30054hasNameVariation2>
+	rdfs:label "Fridrich" ;
+	a drw-model:NameVariation .
+
+<GeneralLabor/Hofchirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hofchirurg" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<SL/30054hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Böhm 2003, 436." .
+
+<MainName/30054hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30054hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30054hasNameVariation3> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30054hasNameVariation1> ;
+	rdfs:label "Bartholomäi, Friedrich (von)" ;
+	drw-model:hasNameVariation <NameVariation/30054hasNameVariation4> ;
+	drw-model:hasNameVariation <NameVariation/30054hasNameVariation5> .
+
+<NameVariation/30054hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "BARTOLOMEY" .
+
+<RelatedPerson/30054wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "1. Marie, geb. Severin († 1804)2. Sophia (Sof'ja Michajlovna) (1786-1867)" .
+
+<GeneralLabor/Chirurg_der_Flotte>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Chirurg der Flotte" .
+
+<W/30054hasW2>
+	rdfs:label "[Übersetzung, zusammen mit Aleksandr Ivanovič Bartolomej, von: Bretschneider, Karl Gottlieb: Der vierjährige Krieg der Verbündeten mit Napoleon Bonaparte 1812-1815, Annaberg 1816]: Bretšnejder, Karl Gotlib: Četyrechletnjaja vojna sojuznych deržav protiv Napoleona Bonaparte. Sanktpeterburg 1820-1821." ;
+	a drw-model:W .
+
+<B/30054hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "Kam unter der Zarin EKATERINA II. (1729-1796) nach Russland, wurde Chirurg der Flotte und vom Zaren PAVEL I. (1754-1801) zum Hof nach St. Petersburg beordert, 1822 zum Hofchirurgen ernannt.
+Inhaber hoher russischer Ehrentitel und Auszeichnungen: 1799 \"Kollegienassessor\", \"Kollegienrat\", \"Staatsrat\", 1803 \"Hofrat\", 1808 St.-Vladimir-Orden 4. Klasse, 1826 Adelstitel mit Wappendiplom.
+" .
+

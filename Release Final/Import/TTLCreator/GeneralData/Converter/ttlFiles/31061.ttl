@@ -1,0 +1,495 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<A/31061hasEducation8>
+	a drw-model:A ;
+	rdfs:label "Ordinator im Infanterie-Hospital der MCA" ;
+	drw-model:began <Year/1807> .
+
+<Place/St_Petersburg_Grabsttte_Friedh>
+	a drw-model:Place ;
+	drw-model:hasComment <Comment/31061_4> ;
+	rdfs:label "St. Petersburg, Grabstätte: Friedhof Bol’šeochtinskoe" ;
+	drw-model:hasComment <Comment/31061_3> .
+
+<Date/15_2_or_27_3_1847>
+	a drw-model:Date ;
+	rdfs:label "15.[2]/27.3.1847" ;
+	drw-model:hasComment <Comment/31061_2> .
+
+<WL/31061hasWL2>
+	drw-model:hasNameLink <ImportantPerson/30406> ;
+	rdfs:label "Übersetzung von insgesamt neun Werken aus dem Deutschen ins Russische der Autoren Johann Daniel <span style='font-variant:small-caps;'>Metzger</span> (1739-1805), Christian Gottlieb <span style='font-variant:small-caps;'>Selle</span> (1748-1800), Christoph Wilhelm <span style='font-variant:small-caps;'>Hufeland</span> (1762-1836), Lorenz <span style='font-variant:small-caps;'>Oken</span> (1779-1851), Karl Alexander Ferdinand <span style='font-variant:small-caps;'>Kluge</span> (1782-1844), Georg <span style='font-variant:small-caps;'>Prochaska</span> (1749-1820), Philipp Carl <span style='font-variant:small-caps;'>Hartmann</span> (1773-1830), Joseph <span style='font-variant:small-caps;'>Goluchowski</span> (1797-1858) und Dietrich Georg <span style='font-variant:small-caps;'>Kieser</span> (1779-1862)[9]" ;
+	drw-model:hasComment <Comment/31061_9> ;
+	a drw-model:WL .
+
+<GPV/31061hasGPV1>
+	rdfs:label "Publikationen 1799-1832, in: Zmeev, Lev Fedorovič: Russkie vrači pisateli. Tom 1-5. Sankt-Peterburg 1886-1889, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<SL/31061hasSL7>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	rdfs:label "WBIS RBA & BASU: Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (Online Ressource, 16.1.2013): R 89, 252-291; SU 82, 278-282; RS 10, 30-31." .
+
+<Comment/31061_5>
+	a drw-model:Comment ;
+	rdfs:label "Deutscher Herkunft und Cousine des Architekten Konstantin Andreevič Ton [Thon] (1794-1881). Zu T(h)on vgl. EAD Dokument-Id [47909/35503 (28.10.2011)] und Nemcy Rossii Bd. 3, 555-557." .
+
+<GeneralLabor/Professor_fr_Physiologie_und_P>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie und Pathologie" .
+
+<B/31061hasStationOfLife2>
+	rdfs:label "Adjunkt- und ao. Professor am Lehrstuhl für Physiologie, Pathologie und Hygiene an der MCA" ;
+	drw-model:ended <Year/1808> ;
+	a drw-model:B ;
+	drw-model:began <Year/1805> .
+
+<NameVariation/31061hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Vellanski, Daniel"@de .
+
+<A/31061hasEducation7>
+	a drw-model:A ;
+	rdfs:label "Einreichung der Dissertation an der MCA" ;
+	drw-model:inYear <Year/1805> .
+
+<B/31061hasStationOfLife9>
+	rdfs:label "zum Bibliothekar der MCA bestimmt" ;
+	a drw-model:B ;
+	drw-model:began <Year/1818> .
+
+<Year/1817>
+	drw-model:hasComment <Comment/31061_8> ;
+	rdfs:label "1817" ;
+	a drw-model:Year .
+
+<Year/1789>
+	rdfs:label "1789" ;
+	a drw-model:Year .
+
+<Year/1807>
+	rdfs:label "1807" ;
+	a drw-model:Year .
+
+<NameVariation/31061hasNameVariation3>
+	rdfs:label "Wellansky, Daniel"@de ;
+	a drw-model:NameVariation .
+
+<SL/31061hasSL8>
+	a drw-model:SL ;
+	rdfs:label "Sokolov, V.: Vellanskij, Daniil Michajlovič. In: Russkij biografičeskij slovar’. Izdan pod nabljudeniem Aleksandra Aleksandroviča Polovcova. Tom 1-[22]. Sankt-Peterburg 1896-1918, zit. n. WBIS RBA (<b>SL</b>)." .
+
+<W/31061hasW1>
+	rdfs:label "Proljuzija k medicine kak osnovatel’noj nauke. S.-Peterburg 1805. Deutsch von Larisa Shumeiko und Thomas Bach (Prolusion zur Medizin als Grundwissenschaft) in: Bach (Hg.) 2005 (<b>SL</b>), 83-143." ;
+	a drw-model:W .
+
+<B/31061hasStationOfLife1>
+	drw-model:inYear <Year/1802> ;
+	rdfs:label "Repetitor für Pathologie und Therapie an der MCA bei Ivan Andreevič <span style='font-variant:small-caps;'>Smelovskij</span> (1762-1808)" ;
+	drw-model:hasNameLink <ImportantPerson/30947> ;
+	a drw-model:B .
+
+<Year/1837>
+	rdfs:label "1837" ;
+	a drw-model:Year .
+
+<Comment/31061_6>
+	rdfs:label "Näheres zu den Aufenthalten in Jena und Würzburg vgl. <b>SL</b> Shumeiko in Bach (Hg.) 2005, 7-8, und Bielfeldt 2008, 34-36. Berlin, Wien und Paris nur in Volkov/Kulikova 2003 b genannt." ;
+	a drw-model:Comment .
+
+<A/31061hasEducation6>
+	a drw-model:A ;
+	drw-model:began <Year/1802> ;
+	drw-model:hasComment <Comment/31061_6> ;
+	rdfs:label "Studienaufenthalte in Berlin, Jena und Würzburg (1802-1803 Vorlesungen bei Friedrich Wilhelm Joseph von <span style='font-variant:small-caps;'>Schelling</span> [1775-1854]), in Wien und in Paris[6]" ;
+	drw-model:ended <Year/1805> .
+
+<B/31061hasStationOfLife8>
+	drw-model:began <Year/1814> ;
+	a drw-model:B ;
+	rdfs:label "o. Professor am Lehrstuhl für Anatomie und Physiologie" .
+
+<Year/1806>
+	rdfs:label "1806" ;
+	a drw-model:Year .
+
+<B/31061hasStationOfLife14>
+	a drw-model:B .
+
+<SL/31061hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Bach, Thomas (Hg.): Schelling in Russland. Die frühen naturphilosophischen Schriften von Daniil Michajlovič Vellanskij (1774-1847) Marburg 2005, 344 S.; darin Teil I: Shumejko, Larisa: Daniil Michajlovič Vellanskij – Leben und Werk (S. 3-81); Teil II: Schriften von Daniil Michajlovič Vellanskij (S. 83-312; vgl. auch <b>W</b>); Teil III: [a] Briefe (S. 313-324); [b] Schriften und Übersetzungen (vgl. auch <b>GPV</b>)." .
+
+<ImportantPerson/30406>
+	a drw-model:ImportantPerson .
+
+<Year/1814>
+	rdfs:label "1814" ;
+	a drw-model:Year .
+
+<ImportantPerson/31061>
+	drw-model:hasSL <SL/31061hasSL4> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/31061hasHonoursAndAwards1> ;
+	drw-model:hasGPV <GPV/31061hasGPV1> ;
+	drw-model:hasMainName <MainName/31061hasMainName1> ;
+	drw-model:hasEducation <A/31061hasEducation6> ;
+	drw-model:hasEducation <A/31061hasEducation4> ;
+	drw-model:hasSL <SL/31061hasSL2> ;
+	drw-model:wasBornOn <Date/11_or_22_12_1774> ;
+	drw-model:hasComment <Comment/31061_2> ;
+	drw-model:hasSL <SL/31061hasSL7> ;
+	drw-model:hasStationOfLife <B/31061hasStationOfLife1> ;
+	drw-model:hasEducation <A/31061hasEducation1> ;
+	drw-model:hasSL <SL/31061hasSL6> ;
+	drw-model:hasW <W/31061hasW2> ;
+	drw-model:hasComment <Comment/31061_3> ;
+	drw-model:wasBornIn <Place/Borzno_Gouv_ernigov> ;
+	drw-model:hasEducation <A/31061hasEducation7> ;
+	drw-model:hasWL <WL/31061hasWL1> ;
+	drw-model:hasStationOfLife <B/31061hasStationOfLife6> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Physiologie_und_P> ;
+	drw-model:fatherIs <RelatedPerson/31061fatherIs1> ;
+	drw-model:hasSL <SL/31061hasSL11> ;
+	drw-model:hasStationOfLife <B/31061hasStationOfLife2> ;
+	drw-model:hasStationOfLife <B/31061hasStationOfLife4> ;
+	drw-model:hasWL <WL/31061hasWL2> ;
+	drw-model:diedOn <Date/15_2_or_27_3_1847> ;
+	drw-model:hasSL <SL/31061hasSL10> ;
+	drw-model:wasMarriedTo <RelatedPerson/31061wasMarriedTo1> ;
+	drw-model:hasDescendant <RelatedPerson/31061hasDescendant1> ;
+	drw-model:hasSL <SL/31061hasSL1> ;
+	drw-model:hasStationOfLife <B/31061hasStationOfLife12> ;
+	drw-model:hasStationOfLife <B/31061hasStationOfLife9> ;
+	drw-model:hasComment <Comment/31061_1> ;
+	drw-model:hasSL <SL/31061hasSL9> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Naturphilosoph> ;
+	rdfs:label "Vellanskij, Danilo Michajlovič" ;
+	drw-model:hasID "31061" ;
+	drw-model:hasComment <Comment/31061_7> ;
+	drw-model:hasComment <Comment/31061_8> ;
+	drw-model:hasComment <Comment/31061_5> ;
+	drw-model:hasGPV <GPV/31061hasGPV3> ;
+	drw-model:hasStationOfLife <B/31061hasStationOfLife5> ;
+	drw-model:hasSL <SL/31061hasSL12> ;
+	drw-model:hasP <P/31061hasP1> ;
+	drw-model:hasStationOfLife <B/31061hasStationOfLife14> ;
+	drw-model:hasAlternativeName <AlternativeName/31061hasAlternativeName1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <B/31061hasStationOfLife13> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/31061.jpg> ;
+	drw-model:hasSL <SL/31061hasSL8> ;
+	drw-model:diedIn <Place/St_Petersburg_Grabsttte_Friedh> ;
+	drw-model:hasEducation <A/31061hasEducation2> ;
+	drw-model:hasSL <SL/31061hasSL5> ;
+	drw-model:hasComment <Comment/31061_9> ;
+	drw-model:hasStationOfLife <B/31061hasStationOfLife8> ;
+	drw-model:hasW <W/31061hasW1> ;
+	drw-model:hasEducation <A/31061hasEducation8> ;
+	drw-model:hasSL <SL/31061hasSL3> ;
+	drw-model:hasStationOfLife <B/31061hasStationOfLife3> ;
+	drw-model:hasComment <Comment/31061_6> ;
+	drw-model:hasComment <Comment/31061_4> ;
+	drw-model:hasW <W/31061hasW3> ;
+	drw-model:hasGPV <GPV/31061hasGPV2> ;
+	drw-model:hasEducation <A/31061hasEducation5> ;
+	drw-model:hasP <P/31061hasP3> ;
+	drw-model:hasEducation <A/31061hasEducation3> ;
+	drw-model:hasStationOfLife <B/31061hasStationOfLife10> ;
+	drw-model:hasStationOfLife <B/31061hasStationOfLife11> ;
+	drw-model:hasP <P/31061hasP2> ;
+	drw-model:hasEducation <A/31061hasEducation9> ;
+	drw-model:hasStationOfLife <B/31061hasStationOfLife7> .
+
+<SL/31061hasSL9>
+	rdfs:label "Vergasov, Fatech: Kavunnik-Vellanskij Danilo Michajlovič (Online Ressource)." ;
+	a drw-model:SL ;
+	drw-model:hasDate "17.10.2011" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.pseudology.org/Eneida/Kavunnik_Vellanski.htm" .
+
+<Comment/31061_7>
+	rdfs:label "Johann Heinrich <span style='font-variant:small-caps;'>Rudolf</span>, geboren und Studium in Jena, ab 1782 in Russland, Professor für Botanik, Geburtshilfe, Pathologie und Gerichtsmedizin an der MCA." ;
+	a drw-model:Comment .
+
+<A/31061hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Titel „Arzt“ an der MCA" ;
+	drw-model:inYear <Year/1802> .
+
+<Year/1801>
+	rdfs:label "1801" ;
+	a drw-model:Year .
+
+<SL/31061hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Bielfeldt, Sigrun: Selbst oder Natur. Schellings Anfang in Russland. München 2008 (Arbeiten und Texte zur Slawistik 83), 459 S.; darin S. 13-31: Einleitung: Ein russischer Schelling; S. 33-60: Schellings russischer Schüler: Vellanskij auf dem Weg von Jena nach Würzburg." .
+
+<Place/Borzno_Gouv_ernigov>
+	a drw-model:Place ;
+	rdfs:label "Borzno, Gouv. Černigov" .
+
+<SL/31061hasSL12>
+	rdfs:label "Šojfet, M. S.: Sto velikich vračej. Moskva 2004, 192-197." ;
+	a drw-model:SL .
+
+<B/31061hasStationOfLife7>
+	rdfs:label "Adjunkt-Professor an den Lehrstühlen für Pathologie und Therapie, für Botanik und Pharmakologie sowie für Anatomie und Physiologie" ;
+	drw-model:ended <Year/1814> ;
+	a drw-model:B ;
+	drw-model:began <Year/1810> .
+
+<NameVariation/31061hasNameVariation1>
+	rdfs:label "Велланский, Данило/Даниил Михайлович"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Vellanskij, Danilo/Daniil Michajlovič"@de .
+
+<B/31061hasStationOfLife6>
+	rdfs:label "Adjunkt-Professor am Lehrstuhl für Anatomie und Physiologie bei Petr Andreevič <span style='font-variant:small-caps;'>Zagorskij</span> (1764-1846)" ;
+	drw-model:began <Year/1809> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1810> .
+
+<Comment/31061_8>
+	rdfs:label "In <b>SL</b> Vergasov Jahr 1818, in Sokolov und Volkov/Kulikova 2003 b Jahr 1819 angegeben. Nach der Trennung der Physiologie von der Anatomie im Jahr 1817 wurde ein neuer Lehrstuhl errichtet, den Vellanskij übernahm und bis 1837 leitete. 1819 wurde Vellanskij nach den gesetzlichen Dienstjahren zum ordentlichen Mitglied der MCA ernannt. Vgl. <b>SL</b> Popel’skij 1899 und Bach 2005." ;
+	a drw-model:Comment .
+
+<Year/1809>
+	rdfs:label "1809" ;
+	a drw-model:Year .
+
+<Year/1831>
+	rdfs:label "1831" ;
+	a drw-model:Year .
+
+<B/31061hasStationOfLife12>
+	rdfs:label "„Verdienter Professor“ der MCA" ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1834> .
+
+<Year/1800>
+	rdfs:label "1800" ;
+	a drw-model:Year .
+
+<SL/31061hasSL3>
+	rdfs:label "Ivanovskij 1898 - Istorija Imperatorskoj voenno-medicinskoj (byvšej mediko-chirurgičeskoj) akademii za sto let 1798-1898. Glavnyj red. Ivanovskij. Sankt-Peterburg 1898, 97-98, 100, 130, 138, 150-151, 169, 176, 179-180, 182." ;
+	a drw-model:SL .
+
+<A/31061hasEducation4>
+	a drw-model:A ;
+	rdfs:label "„Kandidat der Chirurgie“ und Praktikum im Infanterie-Hospital der MCA" ;
+	drw-model:inYear <Year/1801> .
+
+<RelatedPerson/31061hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ekaterina Danilovna Vellanskaja<br>Anna Danilovna Vellanskaja" .
+
+<Comment/31061_1>
+	a drw-model:Comment ;
+	rdfs:label "Die Namensänderung in Vellanskij (nach dem französischen Wort <i>vaillant</i>) soll nach <b>SL</b> Bielfeldt 2008, Vergasov (hier im Jahr 1790), Vikipedija und Zmeev, Lev Fedorovič: Russkie vrači pisateli. Tom 1-5. Sankt-Peterburg 1886-1889 während der Ausbildung an der Geistlichen Akademie in Kiev erfolgt sein, nach Shumeiko in Bach (Hg.) 2005 noch in Borzno, vor dem Weggang an die Geistliche Akademie." .
+
+<P/31061hasP2>
+	rdfs:label "Bachman, V.: Daniil Michajlovič Vellanskij (1830). Lithographie nach einer Zeichnung von M. Terebenev. In: <b>SL</b> Adarjukov, V. Ja.; Obol’janinov, N. A.: Slovar’ russkich litografirovannych portretov. Tom 1. Moskva 1916, zit. n. WBIS RBA, Bach (Hg.) 2005, 81, und Popel’skij 1899, vor S. 15." ;
+	a drw-model:P .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Comment/31061_9>
+	rdfs:label "Bibliographische Angaben zu Titeln, Erscheinungsjahren und -orten unter „Übersetzungen“ in Bach (Hg.) 2005 (<b>SL</b>) (vgl. <b>GPV</b>)." ;
+	a drw-model:Comment .
+
+<Year/1808>
+	rdfs:label "1808" ;
+	a drw-model:Year .
+
+<Year/1796>
+	rdfs:label "1796" ;
+	a drw-model:Year .
+
+<SL/31061hasSL11>
+	a drw-model:SL ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 110." .
+
+<GPV/31061hasGPV2>
+	rdfs:label "Učenye trudy Vellanskogo (1799-1864, 23 Nrn.), in: Popel’skij 1899 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<SL/31061hasSL4>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SL .
+
+<Date/11_or_22_12_1774>
+	a drw-model:Date ;
+	rdfs:label "11./22.12.1774" .
+
+<W/31061hasW2>
+	rdfs:label "De reformatione theoriae medicinae et physicae auspicio philosophiae naturalibus inuente [!]. Diss. S.-Peterburg 1807. Deutsch von Siegrfied Kratzsch (Physikalisch-medizinische Dissertation über die Verbesserung der medizinischen und physikalischen Theorie), mit Abbildung des Titelblattes, in: Bach (Hg.) 2005 (<b>SL</b>), 144-302." ;
+	a drw-model:W .
+
+<Year/1799>
+	rdfs:label "1799" ;
+	a drw-model:Year .
+
+<MainName/31061hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/31061hasNameVariation3> ;
+	drw-model:hasNameVariation <NameVariation/31061hasNameVariation2> ;
+	rdfs:label "Vellanskij, Danilo Michajlovič" ;
+	drw-model:hasNameVariation <NameVariation/31061hasNameVariation1> .
+
+<A/31061hasEducation3>
+	a drw-model:A ;
+	drw-model:ended <Year/1800> ;
+	drw-model:began <Year/1799> ;
+	rdfs:label "„Unterarzt“ im Kačalov-Musketier-Regiment" .
+
+<HonoursAndAwards/31061hasHonoursAndAwards1>
+	rdfs:label "„Kollegienrat“<br>1829 „Staatsrat“<br>1831 Brillantring von Zar <span style='font-variant:small-caps;'>Nikolaj</span> I. (1796-1855)<br>1833 „Wirklicher Russischer Staatsrat“<br>1837 Ehrenmitglied der MCA<br>St.-Annen-Orden<br>St.-Vladimir-Orden 4. Klasse" ;
+	a drw-model:HonoursAndAwards .
+
+<B/31061hasStationOfLife5>
+	drw-model:ended <Year/1809> ;
+	drw-model:began <Year/1808> ;
+	rdfs:label "Adjunkt-Professor am Lehrstuhl für Botanik und Pharmakologie bei Iogann-Genrich <span style='font-variant:small-caps;'>Rudol’f</span>[7] (1754-1809) an der MCA" ;
+	a drw-model:B ;
+	drw-model:hasComment <Comment/31061_7> .
+
+<Comment/31061_2>
+	a drw-model:Comment ;
+	rdfs:label "In Šojfet 2004 (<b>SL</b>) 11. angegeben." .
+
+<P/31061hasP3>
+	a drw-model:P ;
+	rdfs:label "Portrait [vermutlich als Student, Autor und Quelle unbekannt] in: Vergasov (<b>SL</b>)." .
+
+<SL/31061hasSL10>
+	<http://xmlns.com/foaf/0.1/homepage> "http://ru.wikipedia.org/wiki/Велланский,_Данило_Михайлович" ;
+	a drw-model:SL ;
+	drw-model:hasDate "17.10.2011" ;
+	rdfs:label "Vikipedija (Online Ressource)." .
+
+<B/31061hasStationOfLife10>
+	rdfs:label "Leiter des Lehrstuhls für Physiologie und Pathologie an der MCA" ;
+	drw-model:began <Year/1817> ;
+	drw-model:ended <Year/1837> ;
+	a drw-model:B .
+
+<SL/31061hasSL5>
+	rdfs:label "Popel’skij, Lev: Istoričeskij očerk kafedry fiziologii v Imperatorskoj Voenno-medicinskoj akademii za 100 let (1798-1898). S.-Peterburg 1899, 21-27." ;
+	a drw-model:SL .
+
+<GPV/31061hasGPV3>
+	rdfs:label "Schriften (1805-1836) und Übersetzungen (1799-1900[1822], 9 Nrn.) Vellanskijs, in: Bach (Hg.) 2005 (<b>SL</b>), 325-328." ;
+	a drw-model:GPV .
+
+<GeneralLabor/Naturphilosoph>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Naturphilosoph" .
+
+<W/31061hasW3>
+	rdfs:label "Schema des Universums, wissenschaftlich dargestellt [Abhandlung in deutscher Sprache]. [St. Petersburg] 1841. Abgedruckt in: Bach (Hg.) 2005 (<b>SL</b>), 307-309." ;
+	a drw-model:W .
+
+<RelatedPerson/31061wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/31061_5> ;
+	rdfs:label "Anna Nikolaevna Vellanskaja, geb. Ton [Thon] († 1848)[5]" .
+
+<Year/1802>
+	rdfs:label "1802" ;
+	a drw-model:Year .
+
+<A/31061hasEducation2>
+	a drw-model:A ;
+	drw-model:ended <Year/1799> ;
+	drw-model:began <Year/1796> ;
+	rdfs:label "Student der Medizin am Infanterie-Hospital der Mediko-Chirurgischen Lehranstalt (ab 1798 Mediko-Chirurgische Akademie / MCA) in St. Petersburg" .
+
+<B/31061hasStationOfLife13>
+	rdfs:label "als Inspektor für Choleraprophylaxe im St. Petersburger Stadtteil Vyborg eingesetzt" ;
+	drw-model:inYear <Year/1831> ;
+	a drw-model:B .
+
+<Comment/31061_3>
+	rdfs:label "<b>SL</b> Sokolov, Vergasov und Volkov/Kulikova 2003. In Vikipedija (<b>SL</b>) fälschlicherweise Moskau angegeben." ;
+	a drw-model:Comment .
+
+<Year/1810>
+	rdfs:label "1810" ;
+	a drw-model:Year .
+
+<B/31061hasStationOfLife4>
+	rdfs:label "Ordinator am Infanterie-Hospital und Entsendung zu einer Epidemie-Untersuchung nach Pskov" ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1807> .
+
+<Year/1818>
+	rdfs:label "1818" ;
+	a drw-model:Year .
+
+<Year/1834>
+	rdfs:label "1834" ;
+	a drw-model:Year .
+
+<SL/31061hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Professora MCA/VMA - Professora Voenno-medicinskoj (Mediko-chirurgičeskoj) akademii (1798-1998). Glavnyj red. Jurij Leonidovič Ševčenko. Sankt-Peterburg 1998, 56." .
+
+<WL/31061hasWL1>
+	rdfs:label "Erster Verkünder und Verfechter der Lehre Friedrich Wilhelm Joseph <span style='font-variant:small-caps;'>Schelling</span>s im zaristischen Russland (Bezeichnung als „russischer Schellingianer“), plädierte für eine Neukonzipierung der Medizin auf naturphilosophischer Grundlage" ;
+	a drw-model:WL .
+
+<AlternativeName/31061hasAlternativeName1>
+	rdfs:label "Кавунник, Данило/Даниил Михайлович"@ru ;
+	a drw-model:AlternativeName ;
+	rdfs:label "Kavunnik, Danilo/Daniil Michajlovič"@de ;
+	drw-model:hasComment <Comment/31061_1> .
+
+<A/31061hasEducation9>
+	a drw-model:A ;
+	drw-model:inYear <Year/1808> ;
+	rdfs:label "Promotion zum Dr. med. et chir. an der MCA" .
+
+<B/31061hasStationOfLife11>
+	rdfs:label "Mitglied der MCA" ;
+	drw-model:inYear <Year/1819> ;
+	a drw-model:B .
+
+<A/31061hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch der Geistlichen Akademie in Kiev" ;
+	drw-model:ended <Year/1796> ;
+	drw-model:began <Year/1789> .
+
+<ImportantPerson/30947>
+	a drw-model:ImportantPerson .
+
+<Comment/31061_4>
+	a drw-model:Comment ;
+	rdfs:label "Vgl. Istoričeskie kladbišča Peterburga. Spravočnik-putevoditel’. Sost. Aleksandr V. Kobak, Jurij M. Pirjutko. Sankt-Peterburg 1993, 411." .
+
+<B/31061hasStationOfLife3>
+	drw-model:began <Year/1806> ;
+	a drw-model:B ;
+	rdfs:label "zugleich Dozent für deutsche Sprache" .
+
+<Year/1805>
+	rdfs:label "1805" ;
+	a drw-model:Year .
+
+<RelatedPerson/31061fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Michail Kavunnik, Gerber" .
+
+<P/31061hasP1>
+	rdfs:label "Portrait (Abb. [Auschnitt aus der Lithographie von Bachmann, s. u.]) aus: Volkov/Kulikova 2003 b (<b>SL</b>), Bildeinlage zw. S. 176-177; auch in: Professora MCA/VMA (<b>SL</b>)." ;
+	a drw-model:P .
+
+<Year/1819>
+	rdfs:label "1819" ;
+	a drw-model:Year .
+

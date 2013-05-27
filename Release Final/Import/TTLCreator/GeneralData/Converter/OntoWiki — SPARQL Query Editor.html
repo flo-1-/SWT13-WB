@@ -1,0 +1,655 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head xmlns:update="http://ns.aksw.org/update/">
+    <title>OntoWiki — SPARQL Query Editor</title>    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="OntoWiki — Collaborative Knowledge Engineering" />    <link href="http://localhost/~wolfo/OntoWikiFPA/extensions/datagathering/css/jquery.autocomplete.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://localhost/~wolfo/OntoWikiFPA/extensions/navigation/navigation.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://localhost/~wolfo/OntoWikiFPA/extensions/queries/resources/codemirror/lib/codemirror.css" media="screen" rel="stylesheet" type="text/css" />    
+                            <link about="" rel="update:defaultGraph" href="http://drw-catalog.saw-leipzig.de/"/>
+                            <link about="http://drw-catalog.saw-leipzig.de/" rel="update:updateEndpoint" href="http://localhost/~wolfo/OntoWikiFPA/index.php/update/"/>
+        <link about="http://drw-catalog.saw-leipzig.de/" rel="update:queryEndpoint" href="http://localhost/~wolfo/OntoWikiFPA/index.php/sparql/"/>
+    
+    
+    <link rel="shortcut icon" type="image/x-icon" href="http://localhost/~wolfo/OntoWikiFPA/favicon.png" />
+    
+            <script type="text/javascript">
+            
+            var urlBase = "http://localhost/~wolfo/OntoWikiFPA/index.php/";
+            var themeUrlBase = "http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/";
+            var _OWSESSION = "ONTOWIKI";
+            var RDFAUTHOR_BASE = "http://localhost/~wolfo/OntoWikiFPA/libraries/RDFauthor/";
+            var RDFAUTHOR_VIEW_MODE = "inline";
+            var RDFAUTHOR_DEBUG = 1;
+            var selectedGraph = {
+                URI: "http://drw-catalog.saw-leipzig.de/",
+                title: "DRW-Catalog",
+                editable: true
+            };
+            var RDFAUTHOR_DEFAULT_GRAPH = "http://drw-catalog.saw-leipzig.de/";
+
+            var selectedResource = {
+                URI: "http://drw-catalog.saw-leipzig.de/",
+                title: "DRW-Catalog",
+                graphURI: "http://drw-catalog.saw-leipzig.de/"
+            };
+            var RDFAUTHOR_DEFAULT_SUBJECT = "http://drw-catalog.saw-leipzig.de/";
+        </script>
+    
+            
+    <!-- ontowiki stylesheets -->
+        <link rel="stylesheet" href="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/styles/default.css" type="text/css" media="screen" />
+    <!-- link rel="stylesheet" href="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/styles/legacy.css" type="text/css" media="screen" / -->
+    <link rel="stylesheet" href="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/styles/clickmenu.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/styles/jquery-ui.css" type="text/css" media="screen" />
+    
+    <!-- additional ontowiki stylesheets -->
+    
+        <!-- developer styles, e.g. for deprecated and legacy gui elements -->
+    <link rel="stylesheet" href="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/styles/default.dev.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/styles/deprecated.dev.css" type="text/css" media="screen" />
+    <!-- link rel="stylesheet" href="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/styles/legacy.dev.css" type="text/css" media="screen" / -->
+        
+    <!-- IE conditional stylesheets -->
+    <!--[if IE 7]><link rel="stylesheet" media="screen" href="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/styles/default.ie7.css" /><![endif]-->
+    
+    <!-- dynamic styles -->
+    </head>
+
+<body class="javascript-off" xmlns:update="http://ns.aksw.org/update/">
+    <script type="text/javascript">
+    //<![CDATA[
+$(document).ready(function() { navigationEvent('init'); } );
+    //]]>
+</script>
+<script type="text/javascript">
+    //<![CDATA[
+/* from modules/navigation/ */
+var navigationConfig = {"type":"http:\/\/usefulinc.com\/ns\/doap#Project","privateNamespace":"https:\/\/github.com\/AKSW\/navigation\/raw\/master\/doap.n3#","release":"https:\/\/github.com\/AKSW\/navigation\/raw\/master\/doap.n3#v1-0","defaults":{"config":"classes","limit":"10","checkTypes":true,"showMenu":true},"sorting":{"label":{"title":"By Label","type":"http:\/\/www.w3.org\/2000\/01\/rdf-schema#label"}},"config":{"classes":{"title":"Classes","cache":false,"titleMode":"titleHelper","checkVisibility":false,"hierarchyTypes":["http:\/\/www.w3.org\/2002\/07\/owl#Class","http:\/\/www.w3.org\/2000\/01\/rdf-schema#Class"],"hierarchyRelations":{"in":["http:\/\/www.w3.org\/2000\/01\/rdf-schema#subClassOf"]},"instanceRelation":{"out":["http:\/\/www.w3.org\/1999\/02\/22-rdf-syntax-ns#type"]},"list":{"config":"{|filter|:[{|rdfsclass|:|%resource%|,|mode|:|rdfsclass|}]}"},"hiddenNS":["http:\/\/www.w3.org\/1999\/02\/22-rdf-syntax-ns#","http:\/\/www.w3.org\/2000\/01\/rdf-schema#","http:\/\/www.w3.org\/2002\/07\/owl#"],"hiddenRelation":["http:\/\/ns.ontowiki.net\/SysOnt\/hidden"],"showImplicitElements":true,"showEmptyElements":true,"showCounts":false,"checkSub":true,"hideDefaultHierarchy":false},"properties":{"title":"Properties","titleMode":"titleHelper","hierarchyTypes":["http:\/\/www.w3.org\/1999\/02\/22-rdf-syntax-ns#Property","http:\/\/www.w3.org\/2002\/07\/owl#DatatypeProperty","http:\/\/www.w3.org\/2002\/07\/owl#ObjectProperty","http:\/\/www.w3.org\/2002\/07\/owl#AnnotationProperty"],"hierarchyRelations":{"in":["http:\/\/www.w3.org\/2000\/01\/rdf-schema#subPropertyOf"]},"instanceRelation":{"out":["http:\/\/www.w3.org\/2000\/01\/rdf-schema#subPropertyOf"]},"list":{"config":"{|shownProperties|:[{|uri|:|%resource%|,|label|:|Label 1|,|action|:|add|,|inverse|:false}],|filter|:[{|property|:|%resource%|,|filter|:|bound|}]}"},"showImplicitElements":false,"showEmptyElements":true,"showCounts":false,"hideDefaultHierarchy":false,"checkSub":true},"spatial":{"title":"Spatial","hierarchyTypes":["http:\/\/ns.aksw.org\/spatialHierarchy\/SpatialArea","http:\/\/ns.aksw.org\/spatialHierarchy\/Planet","http:\/\/ns.aksw.org\/spatialHierarchy\/Continent","http:\/\/ns.aksw.org\/spatialHierarchy\/Country","http:\/\/ns.aksw.org\/spatialHierarchy\/Province","http:\/\/ns.aksw.org\/spatialHierarchy\/District","http:\/\/ns.aksw.org\/spatialHierarchy\/City"],"hierarchyRelations":{"in":["http:\/\/ns.aksw.org\/spatialHierarchy\/isLocatedIn"]},"instanceRelation":{"out":["http:\/\/ns.aksw.org\/addressFeatures\/physical\/country","http:\/\/ns.aksw.org\/addressFeatures\/physical\/city"]},"titleMode":"titleHelper"},"faun":{"title":"Faunistics","hierarchyTypes":["http:\/\/purl.org\/net\/faunistics#Family","http:\/\/purl.org\/net\/faunistics#Genus","http:\/\/purl.org\/net\/faunistics#Species","http:\/\/purl.org\/net\/faunistics#Order","http:\/\/purl.org\/net\/faunistics#SubOrder"],"hierarchyRelations":{"in":["http:\/\/purl.org\/net\/faunistics#subTaxonOf"]},"instanceRelation":{"out":["http:\/\/purl.org\/net\/faunistics#identifiesAs"]},"titleMode":"titleHelper","checkSub":true},"skos":{"title":"SKOS","hierarchyTypes":["http:\/\/www.w3.org\/2004\/02\/skos\/core#Concept","http:\/\/www.w3.org\/2004\/02\/skos\/core#ConceptScheme"],"hierarchyRelations":{"in":["http:\/\/www.w3.org\/2004\/02\/skos\/core#broader","http:\/\/www.w3.org\/2004\/02\/skos\/core#inScheme"],"out":["http:\/\/www.w3.org\/2004\/02\/skos\/core#narrower"]},"checkSub":true,"titleMode":"titleHelper","showCounts":false},"org":{"title":"Groups","hierarchyTypes":["http:\/\/xmlns.com\/foaf\/0.1\/Group","http:\/\/xmlns.com\/foaf\/0.1\/Organization"],"hierarchyRelations":{"out":["http:\/\/ns.ontowiki.net\/SysOnt\/subGroup"]},"instanceRelation":{"in":["http:\/\/xmlns.com\/foaf\/0.1\/member"],"out":["http:\/\/xmlns.com\/foaf\/0.1\/member_of"]},"titleMode":"titleHelper","showCounts":true},"go":{"title":"Gene Ontology","hierarchyTypes":["http:\/\/www.geneontology.org\/dtds\/go.dtd#term"],"hierarchyRelations":{"in":["http:\/\/www.geneontology.org\/dtds\/go.dtd#is_a"]},"list":{"query":"SELECT DISTINCT ?resourceUri WHERE { ?resourceUri <http:\/\/www.geneontology.org\/GO.format.gaf-2_0.shtml#go_id> <%resource%> }"},"titleMode":"titleHelper","showCounts":false,"checkSub":true,"hideDefaultHierarchy":false},"checklist":{"title":"Checklist","titleMode":"titleHelper","hierarchyTypes":["http:\/\/www.mindswap.org\/2003\/owl\/geo\/geoFeatures.owl#Country"],"hierarchyRelations":{"in":["http:\/\/www.mindswap.org\/2003\/owl\/geo\/geoFeatures.owl#within"]},"list":{"shownProperties":"{|uri|:|http:\/\/purl.org\/net\/faunistics#citationSuffix|,|label|:|citation suffix|,|action|:|add|,|inverse|:false}","query":"SELECT DISTINCT ?resourceUri ?famUri WHERE {     ?recUri <http:\/\/purl.org\/net\/faunistics#recordedAtLocation> ?resourceLocation     OPTIONAL{         ?resourceLocation <http:\/\/www.mindswap.org\/2003\/owl\/geo\/geoFeatures.owl#within> ?l1.         OPTIONAL{             ?l1 <http:\/\/www.mindswap.org\/2003\/owl\/geo\/geoFeatures.owl#within> ?l2.             OPTIONAL{                 ?l2 <http:\/\/www.mindswap.org\/2003\/owl\/geo\/geoFeatures.owl#within> ?l3.             }         }     }     ?recUri <http:\/\/purl.org\/net\/faunistics#identifiesAs> ?resourceUri .     ?resourceUri <http:\/\/purl.org\/net\/faunistics#subTaxonOf> ?genUri .     ?genUri <http:\/\/purl.org\/net\/faunistics#subTaxonOf> ?famUri .     FILTER ( sameTerm(?resourceLocation, <%resource%>) ||     sameTerm(?l1, <%resource%>) ||     sameTerm(?l2, <%resource%>) ||     sameTerm(?l3, <%resource%>)) }"},"checkSub":true,"rootName":"Caucasus Spiders","rootURI":"http:\/\/db.caucasus-spiders.info\/Area\/152"}}};
+    //]]>
+</script>    
+    <div class="section-mainwindows ">
+        <div class="window tabbed">
+                        <h1 class="title">SPARQL Query Editor</h1>
+            <div class="slidehelper">
+                                    <ol class="tabs">
+                    <li id="listquery" class="inactive">
+                <a href="http://localhost/~wolfo/OntoWikiFPA/index.php/queries/listquery/position/0/active/active">Saved Queries</a>
+            </li>
+                    <li id="queryeditor" class="active">
+                <a href="http://localhost/~wolfo/OntoWikiFPA/index.php/queries/editor/position/1/active">Query Editor</a>
+            </li>
+            </ol>
+                
+                                    <div class="content has-innerwindows">
+                                                    <form action="http://localhost/~wolfo/OntoWikiFPA/index.php/queries/editor" 
+                                  method="post" 
+                                  name="sparqlquery" 
+                                   
+                                   
+                                  >
+                                                                                  
+                                                    <div class="messagebox"><div class="toolbar"><a class="button submit"   ><img src="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/images/icon-go2.png"/><span>&nbsp;Submit Query</span></a><a class="button reset"   ><img src="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/images/icon-reset.png"/><span>&nbsp;Reset Form</span></a></div></div>
+                        
+                        <div class="innercontent">                                
+                                                            
+                            <input id="editortype" type="hidden" value="queryeditor" />
+<p class="messagebox info">Predefined namespaces:
+    <a href="http://purl.org/dc/terms/" 
+       title="http://purl.org/dc/terms/">dct</a>,     <a href="http://drw-model.saw-leipzig.de/" 
+       title="http://drw-model.saw-leipzig.de/">drw-model</a>,     <a href="http://xmlns.com/foaf/0.1/" 
+       title="http://xmlns.com/foaf/0.1/">foaf</a>,     <a href="http://" 
+       title="http://">ns0</a>,     <a href="http://www.w3.org/2002/07/owl#" 
+       title="http://www.w3.org/2002/07/owl#">owl</a>,     <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+       title="http://www.w3.org/1999/02/22-rdf-syntax-ns#">rdf</a>,     <a href="http://www.w3.org/2000/01/rdf-schema#" 
+       title="http://www.w3.org/2000/01/rdf-schema#">rdfs</a>,     <a href="http://www.w3.org/2004/02/skos/core#" 
+       title="http://www.w3.org/2004/02/skos/core#">skos</a></p>
+<p class="messagebox info" id="resourceuri-hint">
+    You have to specify a projection variable called “?resourceUri” if you want to use the default list</p>
+<fieldset>
+    <div style="border: 1px solid black">
+    <textarea id="inputfield" class="width99 code-input" name="query">PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX ns0: <http://>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX drw-model: <http://drw-model.saw-leipzig.de/>
+PREFIX dct: <http://purl.org/dc/terms/>
+SELECT *
+WHERE {
+  		{?subj ?prop ?obj
+        FILTER regex(?subj,'log.saw', 'i')}
+ # 		UNION
+  #		{?subj ?prop ?obj
+   #     FILTER regex(?obj,'saw', 'i')}
+      }
+LIMIT 20</textarea>
+    </div>
+
+    <p class="messagebox info">
+        Query execution took 99 ms.    </p>
+    <fieldset>
+                    <table class="separated-vertical ">
+        
+            <tr>
+                            <th>subj</th>
+                            <th>prop</th>
+                            <th>obj</th>
+                    </tr>
+        
+                <tr>
+                                        <td                   id="r0-c0">http://drw-catalog.saw-leipzig.de/A/30838hasEducation1</td>
+                                            <td                   id="r0-c1">http://www.w3.org/2000/01/rdf-schema#label</td>
+                                            <td                   id="r0-c2">
+1850-1854 Besuch der Lateinschule in Neustadt an der Haardt, 1854-1859 Gymnasium in Speyer. Studium der Jura und dann der Medizin an der Universität München. Seine wichtigen Lehrer dort waren Theodor Ludwig Wilhelm Online Ressource BISCHOFF (1807-1882), Nicolaus Online Ressource RÜDINGER (1832-1896) und Julius Online Ressource KOLLMANN (1834-1918). Promotion in München 1865 mit der Arbeit &quot;Vater'sche Körper der Bänder- und Periostnerven und ihre Beziehung zum sogenannten Muskelsinne&quot; (&lt;b&gt;W&lt;/b&gt; Rauber 1865).</td>
+                                    </tr>
+                    <tr>
+                                        <td                   id="r1-c0">http://drw-catalog.saw-leipzig.de/ImportantPerson/30836</td>
+                                            <td                   id="r1-c1">http://drw-model.saw-leipzig.de/hasMG</td>
+                                            <td                   id="r1-c2">
+Mitglied der &lt;i&gt;Kaiserlich-Leopoldinisch-Carolinischen Deutschen Akademie der Naturforscher&lt;/i&gt; (1825), Korrespondierendes Mitglied der Kaiserlichen Akademie der Wissenschaften zu St. Petersburg (12.12.1832), Korrespondierendes Mitglied der Preußischen Akademie der Wissenschaften (1834), Auswärtiges Mitglied der Bayerischen Akademie der Wissenschaften, Mathematisch-physikalische Klasse (1858).</td>
+                                    </tr>
+                    <tr>
+                                        <td                   id="r2-c0">http://drw-catalog.saw-leipzig.de/ImportantPerson/30570</td>
+                                            <td                   id="r2-c1">http://drw-model.saw-leipzig.de/hasMG</td>
+                                            <td                   id="r2-c2">
+• Kaiserliche Akademie der Wissenschaften zu St. Petersburg: Korrespondierendes Mitglied für biologische Wissenschaften (3.12.1883), Ordentliches Mitglied (24.3.1890, Zoologie).
+• Académie Royale des sciences, des lettres et des beaux-arts de Belgique: Korrespondierendes Mitglied (vor 1884).
+• Harvard College: Korrespondierendes Mitglied (vor 1884).
+• Cambridge Philosophical Society: Honorary Member (vor 1884).
+• Royal Society of London: Foreign Member (1886).
+• Socio dell'Accademia delle Scienze di Torino: Socio Corrispondente (1886).
+• Societa dei Naturalisti de Modena: Ehrenmitglied (1886).
+• Universität Kazan': Ehrenmitglied (1888).
+• Académie des Sciences: Correspondant pour la section d'anatomie et zoologie (17.6.1895).
+</td>
+                                    </tr>
+                    <tr>
+                                        <td                   id="r3-c0">http://drw-catalog.saw-leipzig.de/ImportantPerson/10014</td>
+                                            <td                   id="r3-c1">http://drw-model.saw-leipzig.de/hasMG</td>
+                                            <td                   id="r3-c2">
+• Russische Landwirtschaftliche Akademie Gorygoretz: Korrespondent (1862);
+• Königliche Gesellschaft der Wissenschaften zu Göttingen: Assessor (7.11.1864), Korrespondierendes Mitglied, Physikalische Klasse (28.10.1880);
+• Kaiserliche Akademie der Wissenschaften zu St. Petersburg: Korrespondierendes Mitglied (1883), Ordentliches Mitglied (13.12.1886);
+• Preußische Akademie der Wissenschaften zu Berlin: Korrespondierendes Mitglied (15.11.1888);
+• Königliche Gustav Adolf Akademie zu Uppsala: Korrespondierendes Mitglied (1899);
+• Société Chimique de Paris: Mitglied (1859);
+• Russische Technische Gesellschaft: Mitglied (1866), Ehrenmitglied (1888);
+• Russische Chemische Gesellschaft: Mitglied (1868);
+• Deutsche Chemische Gesellschaft: Auswärtiges Mitglied (1871), Ehrenmitglied (14.12.1894);
+• Chemical Society of London: Mitglied (1883).
+
+</td>
+                                    </tr>
+                    <tr>
+                                        <td                   id="r4-c0">http://drw-catalog.saw-leipzig.de/ImportantPerson/10014</td>
+                                            <td                   id="r4-c1">http://drw-model.saw-leipzig.de/hasWL</td>
+                                            <td                   id="r4-c2"></td>
+                                    </tr>
+                    <tr>
+                                        <td                   id="r5-c0">http://drw-catalog.saw-leipzig.de/ImportantPerson/30844</td>
+                                            <td                   id="r5-c1">http://drw-model.saw-leipzig.de/hasWL</td>
+                                            <td                   id="r5-c2"></td>
+                                    </tr>
+                    <tr>
+                                        <td                   id="r6-c0">http://drw-catalog.saw-leipzig.de/ImportantPerson/30779</td>
+                                            <td                   id="r6-c1">http://drw-model.saw-leipzig.de/hasWL</td>
+                                            <td                   id="r6-c2"></td>
+                                    </tr>
+                    <tr>
+                                        <td                   id="r7-c0">http://drw-catalog.saw-leipzig.de/ImportantPerson/30173</td>
+                                            <td                   id="r7-c1">http://drw-model.saw-leipzig.de/hasWL</td>
+                                            <td                   id="r7-c2"></td>
+                                    </tr>
+                    <tr>
+                                        <td                   id="r8-c0">http://drw-catalog.saw-leipzig.de/NameVariation/30071hasNameVariation8</td>
+                                            <td                   id="r8-c1">http://www.w3.org/2000/01/rdf-schema#label</td>
+                                            <td                   id="r8-c2"></td>
+                                    </tr>
+                    <tr>
+                                        <td                   id="r9-c0">http://drw-catalog.saw-leipzig.de/ImportantPerson/30836</td>
+                                            <td                   id="r9-c1">http://drw-model.saw-leipzig.de/hasWL</td>
+                                            <td                   id="r9-c2"></td>
+                                    </tr>
+                    <tr>
+                                        <td                   id="r10-c0">http://drw-catalog.saw-leipzig.de/ImportantPerson/10233</td>
+                                            <td                   id="r10-c1">http://drw-model.saw-leipzig.de/hasWL</td>
+                                            <td                   id="r10-c2"></td>
+                                    </tr>
+                    <tr>
+                                        <td                   id="r11-c0">http://drw-catalog.saw-leipzig.de/ImportantPerson/30695</td>
+                                            <td                   id="r11-c1">http://drw-model.saw-leipzig.de/hasWL</td>
+                                            <td                   id="r11-c2"></td>
+                                    </tr>
+                    <tr>
+                                        <td                   id="r12-c0">http://drw-catalog.saw-leipzig.de/ImportantPerson/10052</td>
+                                            <td                   id="r12-c1">http://drw-model.saw-leipzig.de/hasWL</td>
+                                            <td                   id="r12-c2"></td>
+                                    </tr>
+                    <tr>
+                                        <td                   id="r13-c0">http://drw-catalog.saw-leipzig.de/ImportantPerson/30071</td>
+                                            <td                   id="r13-c1">http://drw-model.saw-leipzig.de/diedIn</td>
+                                            <td                   id="r13-c2"></td>
+                                    </tr>
+                    <tr>
+                                        <td                   id="r14-c0">http://drw-catalog.saw-leipzig.de/ImportantPerson/30570</td>
+                                            <td                   id="r14-c1">http://drw-model.saw-leipzig.de/hasWL</td>
+                                            <td                   id="r14-c2"></td>
+                                    </tr>
+                    <tr>
+                                        <td                   id="r15-c0">http://drw-catalog.saw-leipzig.de/ImportantPerson/30838</td>
+                                            <td                   id="r15-c1">http://drw-model.saw-leipzig.de/hasWL</td>
+                                            <td                   id="r15-c2"></td>
+                                    </tr>
+                    <tr>
+                                        <td                   id="r16-c0">http://drw-catalog.saw-leipzig.de/ImportantPerson/30047</td>
+                                            <td                   id="r16-c1">http://drw-model.saw-leipzig.de/hasWL</td>
+                                            <td                   id="r16-c2"></td>
+                                    </tr>
+                    <tr>
+                                        <td                   id="r17-c0">http://drw-catalog.saw-leipzig.de/ImportantPerson/30047</td>
+                                            <td                   id="r17-c1">http://drw-model.saw-leipzig.de/diedIn</td>
+                                            <td                   id="r17-c2"></td>
+                                    </tr>
+                    <tr>
+                                        <td                   id="r18-c0">http://drw-catalog.saw-leipzig.de/ImportantPerson/30926</td>
+                                            <td                   id="r18-c1">http://drw-model.saw-leipzig.de/hasWL</td>
+                                            <td                   id="r18-c2"></td>
+                                    </tr>
+                    <tr>
+                                        <td                   id="r19-c0">http://drw-catalog.saw-leipzig.de/ImportantPerson/30123</td>
+                                            <td                   id="r19-c1">http://drw-model.saw-leipzig.de/hasWL</td>
+                                            <td                   id="r19-c2"></td>
+                                    </tr>
+            </table>
+            </fieldset>
+</fieldset>
+
+<script type="text/javascript">
+// make sure jQuery is included
+if (typeof jQuery != 'undefined') {
+    function insertModelUri() {
+        editor.setCode(editor.getCode() + '<http://drw-catalog.saw-leipzig.de/>');
+    }
+
+    function insertResourceUri() {
+        editor.setCode(editor.getCode()  + '<http://drw-catalog.saw-leipzig.de/>');
+    }
+}
+</script>
+                        </div><!-- .innercontent -->
+
+                        <div class="innerwindows">
+                            <div class="window " id="sparqloptions">
+    
+            <h1 class="title">Output Format</h1>
+        
+    <div class="slidehelper">
+                                    
+            
+                                    <div class="content">
+                                        <div>
+    <input type="radio" class="radio" name="result_format" id="result_format_plain" value="plain"
+             checked="checked"        />
+    <label for="result_format_plain" class="checkboxradio">Inline List</label>
+    <br class="clearall" />
+    <input type="radio" class="radio" name="result_format" id="result_list" value="list"
+        />
+    <label for="result_list" class="checkboxradio">Default List</label>
+    <br class="clearall">
+    <hr>
+    <input type="radio" class="radio" name="result_format" id="result_format_xml" value="xml"
+        />
+    <label for="result_format_xml" class="checkboxradio"><a href="http://www.w3.org/TR/rdf-sparql-XMLres/">XML</a></label>
+    <br class="clearall">
+    <input type="radio" class="radio" name="result_format" id="result_format_json" value="json"
+        />
+    <label for="result_format_json" class="checkboxradio"><a href="http://www.w3.org/TR/rdf-sparql-json-res/">JSON</a></label>
+    <br class="clearall">
+    <input type="checkbox" class="checkbox" name="result_outputfile" id="result_outputfile" value="true"
+        />
+    <label for="result_outputfile" class="checkboxradio">Get as file</label>
+</div>
+<script type="text/javascript">
+    var result_format_hint = function(){
+        if ($('input[name=result_format]:checked').val() == 'list') {
+            $('#resourceuri-hint').show();
+        } else {
+            $('#resourceuri-hint').hide();
+        }
+    }
+    $(document).ready(result_format_hint);
+    $('input[name=result_format]').change(result_format_hint);
+</script>
+                </div><!-- .window .content -->
+                        
+                
+            
+    </div><!-- .slidehelper -->
+    
+</div><!-- .window -->
+<div class="window " id="queryeditorfromsetter">
+    
+            <h1 class="title">Query Source</h1>
+        
+    <div class="slidehelper">
+                                    
+            
+                                    <div class="content">
+                                        <div>
+    <p class="messagebox info">Which Model do you want to query?</p>
+    <input type="radio" class="radio" name="target" id="target_this" value="this"
+	    	         checked="checked"	    	/>
+	<label for="target_this" class="checkboxradio">this model</label>
+	<br class="clearall" />
+	<input type="radio" class="radio" name="target" id="target_all" value="all"
+		/>
+	<label for="target_all" class="checkboxradio">all models</label>
+	<br class="clearall">
+</div>
+                </div><!-- .window .content -->
+                        
+                
+            
+    </div><!-- .slidehelper -->
+    
+</div><!-- .window -->
+<div class="window " id="savequery">
+    
+            <h1 class="title">Save Query</h1>
+        
+    <div class="slidehelper">
+                                    
+            
+                                    <div class="content">
+                                        <p class="messagebox info">If you think your query can be useful for others, please share it.</p>
+<p>
+    <input type="text" class="text width98 inner-label"  id="qname" value="name of query" maxlength="20" />
+    </p><p>
+    <input id="hidden_query" type="hidden"  value=""/>
+    <input id="hidden_json" type="hidden" value=""/>
+    <input id="savequerysharecheckbox" type="checkbox"> share with others
+</p>
+<a id = 'savequerybutton' class="button submit"><span>Save Query</span></a>                </div><!-- .window .content -->
+                        
+                
+            
+    </div><!-- .slidehelper -->
+    
+</div><!-- .window -->
+                        </div><!-- .innerwindows -->
+
+                                                    </form>
+                                            </div><!-- .content .has-innerwindows -->
+                                
+                                    <ul class="menu">
+                                    <li>Insert            <ul>
+                                                            <li><a href="javascript:insertModelUri()">Current Model URI</a></li>
+                                                                                <li><a href="javascript:insertResourceUri()">Current Resource URI</a></li>
+                                                </ul>
+        </li>
+                <li>Help            <ul>
+                                                            <li><a href="http://www.w3.org/TR/rdf-sparql-query/">Specification</a></li>
+                                                                                <li><a href="http://www.dajobe.org/2005/04-sparql/">Reference Card</a></li>
+                                                                                <li><a href="http://platon.escet.urjc.es/%7Eaxel/sparqltutorial/">Tutorial</a></li>
+                                                </ul>
+        </li>
+                        </ul>
+                                
+                            </div><!-- .slidehelper -->
+        </div><!-- .window -->
+    </div><!-- .section-mainwindows -->
+
+    <div class="section-sidewindows">
+        <div class="window " id="application">
+    
+            <h1 class="title">OntoWiki (Admin)</h1>
+        
+    <div class="slidehelper">
+                                    
+            
+                                    <div class="content">
+                                        
+<form method="GET" action="http://localhost/~wolfo/OntoWikiFPA/index.php/application/search/">
+		<p class="width98">
+		<label class="display-block" for="searchtext-input">Search for Resources</label>
+		<input class="text width99 inner-label" type="text" id="searchtext-input" name="searchtext-input" value="" />
+	</p>
+		<p>
+		<!--label class="display-block">
+		    			<input class="checkbox" type="checkbox" name="allModels" id="allModels" />
+			Search all Knowledge Bases		</label-->
+				<!--a class="button submit">Submit</a-->
+	</p>
+</form>
+                </div><!-- .window .content -->
+                        
+                    <ul class="menu">
+                                        <li>User            <ul>
+                                                            <li><a href="http://localhost/~wolfo/OntoWikiFPA/index.php/application/register">Register New User</a></li>
+                                                                                <li><a href="http://localhost/~wolfo/OntoWikiFPA/index.php/application/preferences">Preferences</a></li>
+                                                                                <li><a href="http://localhost/~wolfo/OntoWikiFPA/index.php/application/logout">Logout</a></li>
+                                                </ul>
+        </li>
+                                <li>Extras            <ul>
+                                                            <li><a href="http://localhost/~wolfo/OntoWikiFPA/index.php/index/news">News</a></li>
+                                                                                <li><a href="http://localhost/~wolfo/OntoWikiFPA/index.php/queries/editor/?query=PREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX+owl%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%0D%0APREFIX+ns0%3A+%3Chttp%3A%2F%2F%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0D%0APREFIX+drw-model%3A+%3Chttp%3A%2F%2Fdrw-model.saw-leipzig.de%2F%3E%0D%0APREFIX+dct%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0ASELECT+%2A%0D%0AWHERE+%7B%0D%0A++%09%09%7B%3Fsubj+%3Fprop+%3Fobj%0D%0A++++++++FILTER+regex%28%3Fsubj%2C%5C%27log.saw%5C%27%2C+%5C%27i%5C%27%29%7D%0D%0A+%23+%09%09UNION%0D%0A++%23%09%09%7B%3Fsubj+%3Fprop+%3Fobj%0D%0A+++%23+++++FILTER+regex%28%3Fobj%2C%5C%27saw%5C%27%2C+%5C%27i%5C%27%29%7D%0D%0A++++++%7D%0D%0ALIMIT+20&result_format=plain&target=this">Queries</a></li>
+                                                                                <li><a href="http://localhost/~wolfo/OntoWikiFPA/index.php/exconf/list">Configure Extensions</a></li>
+                                                                                            <li>Select Language            <ul>
+                                                            <li><a href="/~wolfo/OntoWikiFPA/index.php/queries/editor?lang=en">english (en)</a></li>
+                                                                                <li><a href="/~wolfo/OntoWikiFPA/index.php/queries/editor?lang=de">deutsch (de)</a></li>
+                                                                                <li><a href="/~wolfo/OntoWikiFPA/index.php/queries/editor?lang=zh">汉语 (zh)</a></li>
+                                                </ul>
+        </li>
+                                                    </ul>
+        </li>
+                                <li>Help            <ul>
+                                                            <li><a href="http://ontowiki.net/Projects/OntoWiki/Help">Documentation</a></li>
+                                                                                <li><a href="http://code.google.com/p/ontowiki/issues/entry">Bug Report</a></li>
+                                                                                <li><a href="http://ontowiki.net/Projects/OntoWiki/ChangeLog#0.9.7">Version Info</a></li>
+                                                                                <li><a href="http://localhost/~wolfo/OntoWikiFPA/index.php/application/about">About</a></li>
+                                                </ul>
+        </li>
+                                <li>Debug            <ul>
+                                                            <li><a href="http://localhost/~wolfo/OntoWikiFPA/index.php/debug/clearmodulecache">Clear Module Cache</a></li>
+                                                                                <li><a href="http://localhost/~wolfo/OntoWikiFPA/index.php/debug/cleartranslationcache">Clear Translation Cache</a></li>
+                                                                                <li><a href="http://localhost/~wolfo/OntoWikiFPA/index.php/debug/clearquerycache">Clear Object & Query Cache</a></li>
+                                                                                <li><a href="http://localhost/~wolfo/OntoWikiFPA/index.php/debug/destroysession">Reset Session</a></li>
+                                                </ul>
+        </li>
+                    </ul>
+                
+            
+    </div><!-- .slidehelper -->
+    
+</div><!-- .window -->
+<div class="window has-contextmenus-block" id="modellist">
+    
+            <h1 class="title">Knowledge Bases</h1>
+        
+    <div class="slidehelper">
+                                    
+            
+                                    <div class="content">
+                                            <ol class="bullets-none separated has-contextmenus-block">
+    	    		<li>
+    			<a class="Model " href="http://localhost/~wolfo/OntoWikiFPA/index.php/model/select/?m=http%3A%2F%2Flocalhost%2FOntoWiki%2FConfig%2F" about="http://localhost/OntoWiki/Config/">
+    				OntoWiki System Configuration    			</a>
+    		</li>
+    	    		<li>
+    			<a class="Model " href="http://localhost/~wolfo/OntoWikiFPA/index.php/model/select/?m=http%3A%2F%2Faksw.org%2F" about="http://aksw.org/">
+    				aksw.org    			</a>
+    		</li>
+    	    		<li>
+    			<a class="Model " href="http://localhost/~wolfo/OntoWikiFPA/index.php/model/select/?m=http%3A%2F%2Fdrw.saw-leipzig.de" about="http://drw.saw-leipzig.de">
+    				ns0:drw.saw-leipzig.de    			</a>
+    		</li>
+    	    		<li>
+    			<a class="Model selected" href="http://localhost/~wolfo/OntoWikiFPA/index.php/model/select/?m=http%3A%2F%2Fdrw-catalog.saw-leipzig.de%2F" about="http://drw-catalog.saw-leipzig.de/">
+    				DRW-Catalog    			</a>
+    		</li>
+    	    		<li>
+    			<a class="Model " href="http://localhost/~wolfo/OntoWikiFPA/index.php/model/select/?m=http%3A%2F%2Fdrw-model.saw-leipzig.de%2F" about="http://drw-model.saw-leipzig.de/">
+    				DRW-Model    			</a>
+    		</li>
+    	    </ol>
+                </div><!-- .window .content -->
+                        
+                    <ul class="menu">
+                                        <li>Edit            <ul>
+                                                            <li><a href="http://localhost/~wolfo/OntoWikiFPA/index.php/model/create">Create Knowledge Base</a></li>
+                                                </ul>
+        </li>
+                                <li>View            <ul>
+                                                            <li>
+                                                            <a
+                                                                                            class="modellist_hidden_button show"                                >
+                                Show Hidden Knowledge Bases                            </a>
+                        </li>
+                                                </ul>
+        </li>
+                    </ul>
+                
+            
+    </div><!-- .slidehelper -->
+    
+</div><!-- .window -->
+<div class="window " id="navigation">
+    
+            <h1 class="title">Navigation</h1>
+        
+    <div class="slidehelper">
+                                    
+            
+                                    <div class="content">
+                                        <form class="width98">
+    <label
+        class="display-block onlyAural"
+        for="navigation-input">Search in Navigation</label>
+    <input
+        id="navigation-input"
+        class="text width99 inner-label"
+        type="text"
+        value=""
+        name="navigation-input"/>
+</form>
+<div id="navigation-content" class="width99 init-me-please">
+</div>
+                </div><!-- .window .content -->
+                        
+                    <ul class="menu">
+                                        <li>Edit            <ul>
+                                                            <li><a href="javascript:navigationAddElement()">Add Resource here</a></li>
+                                                </ul>
+        </li>
+                                <li>View            <ul>
+                                                                        <li>Number of Elements            <ul>
+                                                            <li><a href="javascript:navigationEvent('setLimit', 10)">10</a></li>
+                                                                                <li><a href="javascript:navigationEvent('setLimit', 20)">20</a></li>
+                                                                                <li><a href="javascript:navigationEvent('setLimit', 30)">30</a></li>
+                                                </ul>
+        </li>
+                                                                                                <li>Toggle Elements            <ul>
+                                                            <li><a href="javascript:navigationEvent('toggleHidden')">Hidden Elements</a></li>
+                                                                                <li><a href="javascript:navigationEvent('toggleEmpty')">Empty Elements</a></li>
+                                                                                <li><a href="javascript:navigationEvent('toggleImplicit')">Implicit Elements</a></li>
+                                                </ul>
+        </li>
+                                                                                    <li><a href="javascript:navigationEvent('reset')">Reset Navigation</a></li>
+                                                </ul>
+        </li>
+                                <li>Sort            <ul>
+                                                            <li><a href="javascript:navigationEvent('setSort', 'http://www.w3.org/2000/01/rdf-schema#label')">By Label</a></li>
+                                                </ul>
+        </li>
+                                <li>Type            <ul>
+                                                            <li><a href="javascript:navigationEvent('setType', 'classes')">Classes</a></li>
+                                                                                <li><a href="javascript:navigationEvent('setType', 'properties')">Properties</a></li>
+                                                </ul>
+        </li>
+                    </ul>
+                
+            
+    </div><!-- .slidehelper -->
+    
+</div><!-- .window -->
+<div class="window " id="publishdata">
+    
+            <h1 class="title">Publish</h1>
+        
+    <div class="slidehelper">
+                                    
+            
+                                    <div class="content">
+                                        <form action="http://localhost/~wolfo/OntoWikiFPA/index.php/publishdata/test" method="post">	
+	<p></p>
+	<!-- submit form, reload page and call searchAction-->
+	<input class="button submit" type="submit" value="Publish">	
+</form>
+                </div><!-- .window .content -->
+                        
+                
+            
+    </div><!-- .slidehelper -->
+    
+</div><!-- .window -->
+    </div><!-- .section-sidewindows -->
+    <!-- Rendered in 1110 ms using 9 SPARQL queries. -->
+    <!-- scripts -->
+        <script type="text/javascript" src="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/scripts/libraries/jquery.js"></script>
+    <script type="text/javascript" src="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/scripts/libraries/jquery-ui.js"></script>
+
+    <!-- included js libraries -->
+    <script type="text/javascript" src="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/scripts/libraries/jquery.json.js"></script>
+    <script type="text/javascript" src="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/scripts/libraries/jquery.livequery.js"></script>
+    <script type="text/javascript" src="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/scripts/libraries/jquery.clickmenu.js"></script>
+    <script type="text/javascript" src="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/scripts/libraries/jquery.simplemodal.js"></script>
+    <script type="text/javascript" src="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/scripts/libraries/jquery.tablesorter.js"></script>
+    <script type="text/javascript" src="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/scripts/libraries/jquery.rdfquery.rdfa-1.0.js"></script>
+
+    <!-- RDFa widgets -->
+    <!--script type="text/javascript" id="RDFauthorScript" src="http://localhost/~wolfo/OntoWikiFPA/libraries/RDFauthor/src/rdfauthor.js"></script-->
+
+    <!-- ontowiki js -->
+    <script type="text/javascript" src="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/scripts/main.js"></script>
+    <script type="text/javascript" src="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/scripts/support.js"></script>
+    <script type="text/javascript" src="http://localhost/~wolfo/OntoWikiFPA/extensions/themes/silverblue/scripts/jquery.ontowiki.js"></script>
+        
+    <!-- dynamic js -->
+    <script type="text/javascript" src="http://localhost/~wolfo/OntoWikiFPA/extensions/datagathering/scripts/jquery.autocomplete.js"></script>
+<script type="text/javascript" src="http://localhost/~wolfo/OntoWikiFPA/extensions/datagathering/datagathering.js"></script>
+<script type="text/javascript" src="http://localhost/~wolfo/OntoWikiFPA/extensions/queries/resources/savepartial.js"></script>
+<script type="text/javascript" src="http://localhost/~wolfo/OntoWikiFPA/extensions/modellist/modellist.js"></script>
+<script type="text/javascript" src="http://localhost/~wolfo/OntoWikiFPA/extensions/navigation/navigation.js"></script>
+<script type="text/javascript" src="http://localhost/~wolfo/OntoWikiFPA/extensions/queries/resources/codemirror/lib/codemirror.js"></script>
+<script type="text/javascript" src="http://localhost/~wolfo/OntoWikiFPA/extensions/queries/resources/codemirror/addon/edit/matchbrackets.js"></script>
+<script type="text/javascript" src="http://localhost/~wolfo/OntoWikiFPA/extensions/queries/resources/codemirror/mode/sparql/sparql.js"></script>
+<script type="text/javascript">
+    //<![CDATA[
+var editor;
+            $(document).ready(
+                function(){
+                    var editor = CodeMirror.fromTextArea(
+                        document.getElementById("inputfield"),
+                        {
+                            mode: "application/x-sparql-query",
+                            tabMode: "indent",
+                            matchBrackets: true,
+                        }
+                    );
+                }
+            );    //]]>
+</script>
+    <script type="text/javascript">
+        // get body element
+        var body = document.body;
+        var bodyClass = body.className;
+        // set javascript = on
+        bodyClass = bodyClass.replace(/javascript-off/g, "javascript-on");
+        // set application in processing state
+        bodyClass = bodyClass + " is-processing";
+        // process changes
+        body.setAttribute("class", bodyClass, 0);
+    </script>
+
+</body>
+</html>

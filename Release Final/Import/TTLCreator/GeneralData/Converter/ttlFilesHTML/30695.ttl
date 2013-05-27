@@ -1,0 +1,392 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<WL/30695hasWL2>
+	a drw-model:WL .
+
+<W/30695hasW4>
+	rdfs:label "Studien über die Natur des Menschen. Eine optimistische Philosophie. 2. Aufl. Leipzig 1910." ;
+	a drw-model:W .
+
+<SL/30695hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Wiktor Aleksejewitsch Frolow: Ilja Iljitsch Metschnikow. Leipzig 1984." .
+
+<Q/30695hasQ2>
+	a drw-model:Q ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.ranar.spb.ru/rus/books1/id/64/" ;
+	rdfs:label "Pis'ma A. O. Kovalevskogo k I. I. Mečnikovu. Leningrad 1955, 311 S. Online Ressource Online Ressource (25.7.2012)." .
+
+<NameVariation/30695hasNameVariation1>
+	rdfs:label "METSCHNIKOFF" ;
+	a drw-model:NameVariation .
+
+<B/30695hasStationOfLife1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://szgmu.ru/rus/s/15/muzey.html" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://szgmu.ru/rus/m/18/istoriya_sankt-peterburgskoy_gosudarstwennoy_meditsins.html" ;
+	drw-model:hasNameLink <ImportantPerson/30047> ;
+	drw-model:hasNameLink <ImportantPerson/30240> ;
+	drw-model:hasNameLink <ImportantPerson/31069> ;
+	drw-model:hasNameLink <ImportantPerson/30570> ;
+	drw-model:hasNameLink <ImportantPerson/30924> ;
+	a drw-model:B ;
+	drw-model:hasNameLink <ImportantPerson/30550> ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://szgmu.ru/rus/s/1/istoriya_szgmu_im._i.i.mechnikowa.html" ;
+	rdfs:label "MEČNIKOV verbrachte sein Leben überwiegend in Russland und Frankreich, aber auch in Deutschland und Italien. Reisen führten ihn durch den Großteil Europas und in den Maghreb.
+Mit <span style='font-variant:small-caps;'>KOVALEVSKIJ</span>, mit dem MEČNIKOV zwar eng, aber nicht ganz spannungsfrei befreundet war, kehrte er 1867 nach St. Petersburg zurück, um zu promovieren und gemeinsam den Karl-Ernst-von-Baer-Preis entgegenzunehmen. <span style='font-variant:small-caps;'>KOVALEVSKIJ</span> und MEČNIKOV bekamen den Preis, der am 1. November 1867 verliehen wurde, für die konsequente Anwendung der Keimblattlehre <span style='font-variant:small-caps;'>BAERs</span> auf die Embryologie der Wirbellosen (<b>SL</b> Raikov 1968, 112).
+Mit nur 22 Jahren wurde MEČNIKOV Dozent an der im Mai 1865 eröffneten Universität in Odessa. Die Hafenstadt, wichtiger Ausfuhrort des russischen Getreides, war die viertgrößte Stadt des Russischen Reiches und zugleich die am schnellsten wachsende. Vor allem in Odessa sollte MEČNIKOV die formenden Anfangsjahre seiner wissenschaftlichen Karriere verbringen. Zuvor kehrte er aber 1868 nach St. Petersburg zurück, wo er Privatdozent wurde. Hier heiratete er 1869 Ljudmila Vasil'evna FEDOROVIČ. Die Braut war tuberkulosekrank, sie musste zur Hochzeit auf einem Stuhl in die Kirche getragen werden. Im April 1873 starb Ludmila auf Madeira, wohin das Ehepaar gekommen war, um den Fortgang der Krankheit aufzuhalten. MEČNIKOV unternahm daraufhin einen Selbstmordversuch mit Morphium (<b>SL</b> Tauber/Chernyak 1991, 8).
+Die Arbeitsbedingungen in St. Petersburg waren schlechter, als MEČNIKOV erwartet hatte. Eine Berufung nach Odessa 1872 nahm er daher dankbar an. Mittlerweile hatte der noch nicht Dreißigjährige 25 wissenschaftliche Arbeiten - auf Russisch oder Deutsch - veröffentlicht, die meisten über vergleichende Embryologie. Er bewegte sich in Odessa im Freundeskreis des bedeutenden russischen Mediziners Ivan Michailovič <span style='font-variant:small-caps;'>SEČENOV</span> den \"Vater der russischen Physiologie\". <span style='font-variant:small-caps;'>SEČENOV</span> lehrte von 1871 bis 1876 an der Universität Odessa. Gemeinsam mit ihm betrieb MEČNIKOV Universitätspolitik und versuchte oft erfolgreich, Einfluss auf die Besetzung von wissenschaftlichen Stellen zu nehmen (<b>SL</b> Hausmann 1998, 285-287).
+MEČNIKOV galt als guter Lehrer und spannender Vortragender: \"In Erinnerungen an Mečnikov wird immer wieder die Lebhaftigkeit und Klarheit hervorgehoben, mit der er seinen Gegenstand vorstellte und die Studenten in einem Maße einbezog, das für sie ungewöhnlich war.\" Bald sammelten sich um ihn zahlreiche Studenten, Schüler und Freunde, eine Gruppe junger Wissenschaftler, die u.a. heftig für die Evolutionstheorie eintrat, sich als \"fortschrittlich\" und \"materialistisch\" verstand und gegen die ältere Wissenschaftler-Generation polemisierte (<b>SL</b> Hausmann 1998, 288-289, 35).
+Von einer Expedition in die südrussische Kalmückensteppe zurückgekehrt, lernte MEČNIKOV in Odessa seine zweite Frau, die 17-jährige Ol'ga Nikolaevna BELOKOPYTOVA, kennen. Das Paar heiratete im Februar 1875, die Ehe blieb kinderlos. MEČNIKOVs wissenschaftlich fruchtbare Zeit als Professor für Zoologie und vergleichende Anatomie in Odessa dauerte von 1872 bis 1882. 1880 erkrankte Ol'ga schwer an Typhus. MEČNIKOV unternahm einen zweiten Selbstmordversuch, diesmal, indem er sich mit Spirochaeten (später nach seinem Schüler, dem Bakteriologen Amédée BORREL (1867-1936) als <i>Borrelia</i> benannt) selbst infizierte. Er überlebte nach schwerer Erkrankung.
+Nach der Ermordung von Zar ALEKSANDR II. (reg. 1855-1881) im März 1881 durch die Terrorgruppe Narodnaja volja (\"Volkswille\") wurde das politische Klima in Russland rauer. Durch eine Erbschaft finanziell unabhängiger, ging MEČNIKOV 1882 nach Messina, um erneut die vergleichende Embryologie mariner Evertebraten zu studieren. Hier entdeckte er im Winter 1882/83 (vgl. <b>SL</b> Zalkind 1959, 8 bzw. Brieger 1974, 333) bei einer Seesternlarve, die er mit einem Dorn durchbohrt hatte, die Phagozytose in ihrer immunologischen Bedeutung, nicht nur \"das große Ereignis meines wissenschaftlichen Lebens\", sondern auch ein biographischer Wendepunkt, durch den er, wie er selbst schrieb, \"zum Pathologen geworden\" war.
+Der hohe Stellenwert, den die Entdeckung hatte, bestand nicht nur im Nachweis, dass Phagozyten eindringende Mikroorganismen angreifen und verdauen können, sondern dass hier erstmals die Frage nach den Mechanismen der Immunität überhaupt, nach der aktiven Antwort eines \"immunologischen Selbst\" gestellt wurde (<b>SL</b> Tauber/Chernyak 1991, 18-19). Der \"Kampf ums Dasein\" ließ sich damit auch auf zellulärer Ebene sichtbar machen. Von Rudolf <span style='font-variant:small-caps;'>VIRCHOW</span> und dem deutschbaltischen Embryologen Nicolaus KLEINENBERG (1842-1897) - beide hielten sich im Sommer 1883 ebenfalls in Messina auf - wurde die Entdeckung mit großem Interesse aufgenommen, von anderen aber bestritten bzw. in ihrer Bedeutung nicht erkannt. Ein jahrelanger Streit zwischen Anhängern der zellulären und der humoralen Immunabwehr war die Folge.
+Auf dem Weg von Italien nach Odessa traf MEČNIKOV im Herbst 1883 in Wien den deutschen Zoologen Carl CLAUS (1835-1899). Von CLAUS, den MEČNIKOV um Hilfe bei der Wortfindung bat, stammte der Ausdruck <i>Phagozyt</i> anstelle des ursprünglich von MEČNIKOV verwendeten Wortes <i>Fresszelle</i>. Bald standen in der entstehenden Wissenschaft der Immunologie die Vertreter der zellulären Immunabwehr auf Basis der Phagozytose den Vertretern einer humoralen Abwehr gegenüber. Die Entdeckung der Phagozytose hatte auch Konsequenzen für MEČNIKOVs Weltanschauung. Mit seiner \"Entdeckung der Phagocytosereaktion\", so Ol'ga MEČNIKOVA, \"legte er die erste Bresche in seine bisherige pessimistische Philosophie über die menschliche Natur.\"
+MEČNIKOV forschte, von privaten Reisen nach Spanien und Marokko abgesehen, von 1882 bis 1886 regelmäßig in Messina. Er arbeitete bereits ab 1883 zeitweilig wieder in Odessa, um dann für den Zeitraum von 1886 bis 1887 an das erst 1886 gegründete Bakteriologische Institut in Odessa zurückzukehren. Hier in Odessa, nicht in Moskau oder St. Petersburg, im Kreis um MEČNIKOV begann der \"Siegeszug\" der Bakteriologie in Russland (<b>SL</b> Hausmann 1998, 351). Zu seinen Schülern gehörte hier u.a. Jakov Jul'evič (Iudovič) BARDACH (1857?-1929?), der nach dem Weggang MEČNIKOVs nach Paris sein Nachfolger in Odessa wurde. Intrigen, institutionelle Schwierigkeiten und Probleme bei experimentellen Massenimpfungen verleideten MEČNIKOV das wissenschaftliche Arbeiten bald und ließen ihn schließlich kündigen.
+MEČNIKOV musste sich erneut nach einer wissenschaftlichen Stelle umsehen. 1887 besuchte er den Hygienekongress in Wien. Zum ersten Mal nahmen nun auch Bakteriologen an einem Hygienekongress teil. In den 80er Jahren des 19. Jahrhunderts war es zur Formierung einer neuen Disziplin gekommen, der medizinischen Bakteriologie. Besonders die Jahre 1883 bis 1885 waren dabei, ausgelöst durch die Ausbrüche der Cholera erst in Ägypten (1883), dann in Frankreich (1884), von heftigen wissenschaftlichen Auseinandersetzungen zwischen deutschen, französischen und britischen Wissenschaftlern um die Ursachen der Cholera geprägt; 1884 gelang <span style='font-variant:small-caps;'>KOCH</span> der Nachweis, dass die Krankheit vom Bakterium <i>Vibrio cholerae</i> (bzw. seinem Enterotoxin) verursacht wurde.
+1888 emigrierte MEČNIKOV nach Frankreich, nachdem er sich in Deutschland, u.a. in Wiesbaden und München, vergeblich um eine Stelle umgesehen und in Berlin auch <span style='font-variant:small-caps;'>KOCH</span> besucht hatte. Louis PASTEUR (1822-1895) hatte ihn herzlich aufgenommen und ihm am 1887 gegründeten Institut Pasteur in Paris einen Arbeitsplatz zur Verfügung gestellt. MEČNIKOV arbeitete am Institut Pasteur als \"Chef de Service\" von 1888 bis 1904, als \"Sous-directeur scientifique\" von 1904 bis 1916. Um ihn bildete sich ein Kreis von Medizinern, zu dem neben anderen auch mehrere Russen, z.B. Alexandre BESREDKA (1870-1940) und Lev Aleksandrovič TARASEVIČ (1868-1927) gehörten. BESREDKA hat später MEČNIKOV in seinem Buch <i>Histoire d'une idée: l'oeuvre de E. Metchnikoff, embryogénie, inflammation, immunité, sénescence, pathologie, philosophie</i> ein Denkmal gesetzt. TARASEVIČ, wie MEČNIKOv aus einer Gutsbesitzerfamilie stammend, wurde im Moskau der 20er Jahre zu einem der bekanntesten sowjetischen Hygieniker (<b>SL</b> Hausmann 1998, 294).
+MEČNIKOVs unstetes Leben in den Jahren 1862 bis 1888, als er fast jährlich seine Aufenthaltsorte in Deutschland, Italien und dem Zarenreich wechselte, und seine Etablierung in Frankreich sind nicht nur Ausdruck seines Charakters. Sie spiegeln vielmehr die erst zögernde und dann immer engere außenpolitische Neuorientierung des Russischen Reiches an Frankreich gegen Ende des 19. Jahrhunderts wider. Die Abkehr Russlands vom traditionellen Bündnispartner Preußen bzw. dem Deutschen Reich, wie sie in der Nichtverlängerung des deutsch-russischen Rückversicherungsvertrages 1890, der französisch-russischen Militärkonvention von 1892 und dem Zweiverband 1894 zum Ausdruck kam, sowie das politische Bündnis mit Frankreich, das durch verstärkte wirtschaftliche und wissenschaftliche Zusammenarbeit ergänzt wurde, schlagen sich so auch in MEČNIKOVs Biographie nieder.
+Émile ROUX (1853-1933), Freund und Kollege am Institut Pasteur, spielte in seiner Rede zum 70. Geburtstag MEČNIKOVs deutlich auf diese Verknüpfung von individueller und politischer Geschichte an (<b>SL</b> Frolow 1984, 199).
+In der Zeit nach 1888, in seiner Pariser Zeit, schrieb MEČNIKOV seine bedeutenden Arbeiten zur Immunologie. 1892 erschienen die <i>Leçons sur la pathologie comparée de l'inflammation</i>, die bald auch übersetzt wurden. 1901 erschien seine große Arbeit über Immunität, <i>L'immunité dans les maladies infectieuses</i>, die in mehrere Sprachen übersetzt wurde. Zugleich hielt er zahlreiche, z.T. populärwissenschaftliche Vorträge zu immunologischen, aber auch anderen Themen, z.B. zu Diätetik, Altern und Lebensverlängerung, und kam dazu auch nach Deutschland. Zugleich trat er auf wissenschaftlichen Kongressen wortgewaltig für seine Phagozytosetheorie und die zelluläre Immunität ein, so am internationalen Hygienekongress 1891 in London und 1894 in Budapest. Émile ROUX verglich ihn in diesem Zusammenhang mit einem \"Dämon der Wissenschaft\", der \"mit brennendem Gesicht, funkelnden Augen und wirren Haaren\" seinen \"Feinden\" widersprochen habe (<b>SL</b> Frolow 1984, 183-184).
+1903 gelang es MEČNIKOV gemeinsam mit ROUX, Syphilis auf Schimpansen zu übertragen. Seine Forschungen zur Syphilis, zu denen auch eine von ihm entwickelte Syphilissalbe gehörte, fanden in der Öffentlichkeit sowie in der Fachwelt große Aufmerksamkeit. Dieses Interesse verwundert nicht, wenn man bedenkt, dass im Jahr 1900 16% der Einwohner von Paris mit Syphilis infiziert waren (<b>SL</b> Krause 1996, 308). Vergleicht man die Erwähnungen MEČNIKOVs in der medizinischen Fachpresse, z.B. in den Jahrgängen 1896 bis 1916 der <i>Wiener Medizinischen Wochenschrift</i>, so stehen die Syphilis-Forschungen an erster Stelle, in numerischem und zeitlichem Abstand gefolgt von den Arbeiten zur Dickdarmflora und zum Altern.
+1906 wurde MEČNIKOV mit der Copley-Medaille der britischen Royal Society ausgezeichnet, 1908 erhielt er gemeinsam mit <span style='font-variant:small-caps;'>EHRLICH</span> den Nobelpreis für Medizin, und zwar, so die Begründung des Nobelpreiskomitees, für \"ihre Arbeiten zur Immunologie\" (Online Ressource The Nobel Prize in Physiology or Medicine 1908). Im Mai 1909 traf er in Jasnaja Poljana mit Lev Nikolaevič TOLSTOJ (1828-1910) zusammen (siehe Darstellung \"Mečnikov und Tolstoj\" in: Schmuck 2008, 151-154, 30695-Tolstoj.pdf Text online).
+1910 organisierte MEČNIKOV eine Expedition nach Russland zum Studium der Cholera in Moskau, sowie der Pest und Tuberkulose in der südrussischen Kalmückensteppe. Begleitet wurde er von Pariser Mitarbeitern, u.a. von Étienne BURNET (1873-1960) und Alexandre SALIMBENI (1867-1942). In Moskau traf man mit TARASEVIČ zusammen. Die Reise war zugleich MEČNIKOVs letzter Besuch in seinem Geburtsland.
+In den letzten Jahren seines Lebens versuchte MEČNIKOV seine medizinischen Ergebnisse für seine Weltanschauung fruchtbar zu machen. Zentrale Themen waren dabei Altern und Tod.
+Bereits 1898 hatten sich die MEČNIKOVs in Sèvres, einem Vorort von Paris, angesiedelt, anfangs nur für den Sommer, später für immer. Ab 1913 litt MEČNIKOV an kardiovaskulären Beschwerden. Zu Beginn des Ersten Weltkrieges kam der wissenschaftliche Betrieb am Institut Pasteur zum Erliegen, die Versuchstiere, selbst die Schimpansen, wurden getötet. Der Krieg, so gab Ol'ga MEČNIKOVa zu verstehen, stellte MEČNIKOVs Optimismus auf eine harte Probe und beschleunigte seinen Hingang (<b>SL</b> Tauber/Chernyak 1991, 12). MEČNIKOV starb, erst 71 Jahre alt, am 2./15. Juli 1916 in Paris. Seine Asche kam, wie er es gewünscht hatte, in einer Urne an das Institut Pasteur.
+1926 wurde MEČNIKOV zu Ehren in Moskau das Mečnikov-Museum eröffnet. 1945 wurde die Universität in Odessa in Staatliche Il'ja-Il'ič-Mečnikov-Universität umbenannt. 1945 ehrten die Sowjetunion, 1966 Frankreich und 1968 Schweden MEČNIKOV mit Briefmarken. In Sèvres ist seine Wohnstraße nach ihm benannt. Mehrere Medaillen und eine ukrainische Sondermünze tragen seinen Namen. 1995 wurde die Staatliche Medizinische Akademie (Sankt-Peterburgskaja Gosudarstvennaja Medicinskaja Akademija, Online Ressource СПбГМА = SPbGMA) in St. Petersburg nach MEČNIKOV benannt, ab 2011 heißt sie Severo-Zapadnyj gosudarstvennyj medicinskij universitet imeni I. I. MEČNIKOVa, Online Ressource СЗГМУ = SZGMU. Siehe auch das Museum der SZGMU = Online Ressource Музей СЗГМУ им.И.И.Мечникова (30.5.2012). Auf der erdabgewandten Seite des Mondes heißt ein Krater nach ihm." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.nobelprize.org/nobel_prizes/medicine/laureates/1908/" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<NameVariation/30695hasNameVariation5>
+	rdfs:label "MECZNIKOV" ;
+	a drw-model:NameVariation .
+
+<P/30695hasP12>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.ranar.spb.ru/rus/books1/id/67/" ;
+	rdfs:label "Photoportrait aus dem Jahre 1912. Archiv der Russländischen Akademie der Wissenschaften. - Архив Российской Академии наук, фонд 584, опись 2, дело 303. Abgedruckt in: <b>Q</b> Knjazev/Rajkov 1960, zwischen 32/33. Online Ressource Online Ressource (1.8.2012)." ;
+	a drw-model:P .
+
+<NameVariation/30695hasNameVariation3>
+	rdfs:label "METSCHNIKOW" ;
+	a drw-model:NameVariation .
+
+<ImportantPerson/30893>
+	a drw-model:ImportantPerson .
+
+<SL/30695hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Heinz Zeiss: Elias Metschnikow - Leben und Werk. Übersetzt und bearbeitet nach der von Frau Olga Metschnikowa geschriebenen Biographie, dem Quellenmaterial des Moskauer Metschnikow-Museums und eigenen Nachforschungen. Jena 1932." .
+
+<NameVariation/30695hasNameVariation7>
+	rdfs:label "Ilja Iljitsch" ;
+	a drw-model:NameVariation .
+
+<SL/30695hasSL2>
+	rdfs:label "Auswahl:" ;
+	a drw-model:SL .
+
+<P/30695hasP1>
+	a drw-model:P ;
+	rdfs:label "Mečnikov im Jahr der Nobelpreisverleihung 1908 (<b>SL</b> Schmuck 2008, 93, auch in: <b>SL</b> Frolow 1984)." .
+
+<GeneralLabor/Bakteriologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Bakteriologe" .
+
+<WL/30695hasWL1>
+	rdfs:label "MEČNIKOVs Forscherleben  lässt sich in drei Phasen einteilen. Die erste, die <i>vergleichende embryologische Phase</i>, reicht von den späten 60er Jahren des 19. Jahrhunderts bis zur Entdeckung der Phagozytose. Die zweite ist die <i>immunologische Phase</i>; in ihr kam es zur Begründung der Immunologie als eigenständiger medizinischer Disziplin. Die dritte oder <i>bakteriologisch-diätetische Phase</i> begann in den 90er Jahren und endete mit seinem Tod 1916. In dieser Zeit versuchte MEČNIKOV, aufbauend auf seinen immunologischen und bakteriologischen Arbeiten, seine medizinischen und naturwissenschaftlichen Forschungen nicht nur auszubauen, sondern sie auch für die Allgemeinheit nutzbar zu machen. Dazu gehören seine gerontologischen, bakteriologischen und diätetischen Arbeiten, aber auch seine populärphilosophischen Schriften, die nicht nur in Europa, sondern auch in den USA rezipiert wurden." ;
+	a drw-model:WL .
+
+<SL/30695hasSL16>
+	rdfs:label "Alfred I. Tauber: Metchnikoff and the origins of immunology: from metaphor to theory. New York 1991." ;
+	a drw-model:SL .
+
+<GPV/30695hasGPV2>
+	rdfs:label "• [Nachschlagewerk] Musej pamjati I. I. Mečnikova. Moskva, Leningrad 1930. Siehe auch in: Archiv der Russländischen Akademie der Wissenschaften (АРАН), Ф. 584, îп. 2., д. 221, л. 35-38." ;
+	a drw-model:GPV .
+
+<SL/30695hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Alfred I. Tauber, Leon Chernyak: Metchnikoff and the Origins of Immunology. From Metaphor to Theory. New York, Oxford 1991." .
+
+<SL/30695hasSL10>
+	rdfs:label "Guido Hausmann: Universität und städtische Gesellschaft in Odessa, 1865-1917. Stuttgart 1998." ;
+	a drw-model:SL .
+
+<Q/30695hasQ3>
+	a drw-model:Q ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.ranar.spb.ru/rus/books1/id/67/" ;
+	rdfs:label "Князев, Г. А.; Райков, Б. Е. (Pед.); Куванова, Л. К.; Бастракова, М.С. (Сост.): Рукописные материалы И.И. Мечникова в Архиве Академии Наук СССР: научное описание, тексты. Москва, Ленинград 1960 (Труды Архива Академии Наук СССР; Вып. 18). - Knjazev, G. A.; Rajkov, B. E. (Red.); Kuvanova, L. K.; Bastrakova, M. S. (Sost.): Rukopisnye materialy I. I. Mečnikova v Archive Akademii Nauk SSSR: naučnoe opisanie, teksty. Moskva, Leningrad 1960 (Trudy Archiva Akademii Nauk SSSR, vyp. 18). Online Ressource Online Ressource (1.8.2012)." .
+
+<ImportantPerson/30570>
+	a drw-model:ImportantPerson .
+
+<ImportantPerson/30695>
+	drw-model:hasEducation <A/30695hasEducation1> ;
+	drw-model:hasSL <SL/30695hasSL4> ;
+	drw-model:hasSL <SL/30695hasSL1> ;
+	rdfs:label "Mečnikov, Il'ja Il'ič" ;
+	drw-model:diedOn <Date/2_or_15_Juli_1916_in_Paris> ;
+	drw-model:hasSL <SL/30695hasSL16> ;
+	drw-model:hasP <P/30695hasP3> ;
+	drw-model:hasP <P/30695hasP9> ;
+	drw-model:hasQ <Q/30695hasQ1> ;
+	drw-model:wasBornOn <Date/3_or_15_Mai_1845_auf_dem_Gutsh> ;
+	drw-model:hasGPV <GPV/30695hasGPV1> ;
+	drw-model:hasQ <Q/30695hasQ2> ;
+	drw-model:hasSL <SL/30695hasSL13> ;
+	drw-model:hasSL <SL/30695hasSL15> ;
+	drw-model:hasP <P/30695hasP5> ;
+	drw-model:hasMG <MG/30695hasMG1> ;
+	drw-model:hasSL <SL/30695hasSL8> ;
+	drw-model:hasSL <SL/30695hasSL12> ;
+	drw-model:hasSL <SL/30695hasSL3> ;
+	drw-model:hasP <P/30695hasP2> ;
+	drw-model:hasP <P/30695hasP7> ;
+	drw-model:hasP <P/30695hasP1> ;
+	drw-model:hasSL <SL/30695hasSL14> ;
+	drw-model:hasW <W/30695hasW3> ;
+	drw-model:hasP <P/30695hasP4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Bakteriologe> ;
+	drw-model:hasQ <Q/30695hasQ3> ;
+	drw-model:hasSL <SL/30695hasSL5> ;
+	drw-model:hasSL <SL/30695hasSL11> ;
+	drw-model:hasGPV <GPV/30695hasGPV2> ;
+	drw-model:hasP <P/30695hasP8> ;
+	drw-model:hasSL <SL/30695hasSL7> ;
+	a drw-model:ImportantPerson ;
+	drw-model:fatherIs <RelatedPerson/30695fatherIs1> ;
+	drw-model:hasSL <SL/30695hasSL2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Immunologe> ;
+	drw-model:hasP <P/30695hasP6> ;
+	drw-model:hasID "30695" ;
+	drw-model:hasP <P/30695hasP11> ;
+	drw-model:hasW <W/30695hasW4> ;
+	drw-model:motherIs <RelatedPerson/30695motherIs1> ;
+	drw-model:hasSL <SL/30695hasSL10> ;
+	drw-model:hasSibling <RelatedPerson/30695hasSibling1> ;
+	drw-model:hasWL <WL/30695hasWL2> ;
+	drw-model:hasStationOfLife <B/30695hasStationOfLife1> ;
+	drw-model:hasP <P/30695hasP12> ;
+	drw-model:wasMarriedTo <RelatedPerson/30695wasMarriedTo1> ;
+	drw-model:hasMainName <MainName/30695hasMainName1> ;
+	drw-model:hasW <W/30695hasW1> ;
+	drw-model:hasSL <SL/30695hasSL9> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30695.jpg> ;
+	drw-model:hasSL <SL/30695hasSL6> ;
+	drw-model:hasW <W/30695hasW2> ;
+	drw-model:hasWL <WL/30695hasWL1> ;
+	drw-model:hasP <P/30695hasP10> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Embryologe> ;
+	drw-model:hasP <P/30695hasP13> .
+
+<MainName/30695hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30695hasNameVariation6> ;
+	drw-model:hasNameVariation <NameVariation/30695hasNameVariation1> ;
+	rdfs:label "Mečnikov, Il'ja Il'ič" ;
+	drw-model:hasNameVariation <NameVariation/30695hasNameVariation5> ;
+	drw-model:hasNameVariation <NameVariation/30695hasNameVariation4> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30695hasNameVariation8> ;
+	drw-model:hasNameVariation <NameVariation/30695hasNameVariation3> ;
+	drw-model:hasNameVariation <NameVariation/30695hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30695hasNameVariation7> .
+
+<Date/2_or_15_Juli_1916_in_Paris>
+	a drw-model:Date ;
+	rdfs:label "2./15. Juli 1916 in Paris" .
+
+<SL/30695hasSL14>
+	rdfs:label "Klaus Beneke: Ilja Ilitsch Metschnikow (03./15.05.1845 bei Charkow - 02./15.07.1916 Paris) - Begründer der Theorie der zellulären Immunität. Online Ressource Online Ressource (22.5.2012)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.uni-kiel.de/anorg/lagaly/group/klausSchiver/metschnikow.pdf" .
+
+<Date/3_or_15_Mai_1845_auf_dem_Gutsh>
+	rdfs:label "3./15. Mai 1845 auf dem Gutshof Panasovka in der Nähe des Dorfes Ivanovka bei Char'kov" ;
+	a drw-model:Date .
+
+<ImportantPerson/30550>
+	a drw-model:ImportantPerson .
+
+<ImportantPerson/31069>
+	a drw-model:ImportantPerson .
+
+<ImportantPerson/30047>
+	a drw-model:ImportantPerson .
+
+<P/30695hasP4>
+	a drw-model:P ;
+	rdfs:label "Mečnikov am Institut Pasteur, um 1906 (<b>SL</b> Schmuck 2008, 109, auch in: <b>SL</b> Tauber/Chernyak 1991)." .
+
+<A/30695hasEducation1>
+	a drw-model:A ;
+	drw-model:hasNameLink <ImportantPerson/30893> ;
+	drw-model:hasNameLink <ImportantPerson/30570> ;
+	drw-model:hasNameLink <ImportantPerson/30550> ;
+	rdfs:label "MEČNIKOV  verbrachte seine Kindheit auf dem Gutshof Panasovka. In dieser engen Welt, die wirtschaftlich auf Leibeigenschaft beruhte, zeigte er früh wissenschaftliche Interessen, einen schwierigen Charakter und genoss eine ihn verwöhnende Erziehung; aus dieser Welt sollte er sich durch Reisen und Wissenschaften befreien. MEČNIKOV studierte in Russland und Deutschland.
+Von 1856 bis 1862 besuchte MEČNIKOV ein Gymnasium in Char'kov. Die Gymnasialzeit wurde erfolgreich 1862 mit der Verleihung der Goldenen Medaille abgeschlossen. Aus dieser Zeit stammen auch die ersten wissenschaftlichen Veröffentlichungen. Bereits als Gymnasiast interessierte sich MEČNIKOV für Naturwissenschaften, besonders für Botanik, und lernte Deutsch, um die Schriften der materialistischen Philosophen Carl VOGT (1817-1895), Ludwig FEUERBACH (1804-1872), Ludwig BÜCHNER (1824-1899) und des niederländischen Arztes Jakob MOLESCHOTT (1822-1893) im Original lesen zu können. Auch Johann Gottlieb FICHTE (1762-1814) soll er gelesen haben. Es scheint, dass diese Philosophen - von FICHTE und FEUERBACH abgesehen -, noch mehr aber ihr Stil und ihre Naturwissenschaften, Darwinismus, Atheismus und Materialismus verbindende Argumentation prägend für MEČNIKOVs Weltanschauung wurden.
+Die erste Reise nach Deutschland im Jahr 1862 wurde für den 17-jährigen MEČNIKOV ein Misserfolg. Er wollte in Würzburg bei dem Schweizer Anatomen und Histologen Rudolf Albert von KOELLIKER (1817-1905), der seit 1847 in Würzburg lehrte, studieren, kam aber sechs Wochen zu früh und damit in der Ferienzeit an und kehrte ungeduldig und enttäuscht nach Russland zurück. Dass MEČNIKOV von russischen Studenten wegen seiner jüdischen Herkunft abgelehnt worden wäre, ist von dem US-amerikanischer Mikrobiologen Paul DE KRUIF (1890-1971) ohne Beleg behauptet worden. Ein Ergebnis hatte die Deutschlandreise dennoch: Möglicherweise in Leipzig erwarb MEČNIKOV die deutsche Ausgabe von Charles DARWINs \"On the Origin of Species\", ein Buch, das er mit 18 Jahren las und das für ihn zur Grundlage gerade seines medizinischen Denkens werden sollte. MEČNIKOV las vermutlich die erste deutsche Übersetzung der englischen Ausgabe vom November 1859 von Heinrich Georg Bronn (1800-1862), \"Über die Entstehung der Arten\" (Stuttgart 1860).
+Von 1862 bis 1864 studierte MEČNIKOV an der Universität Char'kov Naturwissenschaften, u.a. bei dem Physiologen Ivan Petrovič <span style='font-variant:small-caps;'>ŠČELKOV</span>. 1864 reiste MEČNIKOV zum Studium der marinen Fauna nach Helgoland, das damals noch britisch war, und studierte anschließend in Gießen (vgl. Glaser/Henze 2005, 70). Er immatrikulierte sich an der Universität Gießen am 23.11.1864 und studierte bis zum Sommersemester 1865. In Gießen las er Fritz MÜLLERs (1821-1897) wegweisendes Buch \"Für Darwin\" (Leipzig 1864). Das Buch zeigte, dass Belege für Verwandtschaft durch vergleichende embryologische Studien erbracht werden konnten, und beeinflusste MEČNIKOVs Anschauungen stark. Allgemein lässt sich festhalten, dass MEČNIKOVs großes Interesse an Deutschland in der deutschen Wissenschaftskultur begründet war, durch die er mit den modernen naturwissenschaftlichen Konzeptionen, allen voran mit Evolutions- und Selektionstheorie, aber auch mit \"Zellularpathologie\" und Bakteriologie sich vertraut machen konnte.
+In Gießen kam es, nach einer Reise in die Schweiz zu seinem Bruder Lev Il'ič MEČNIKOV zu einem Konflikt mit dem bedeutenden Zoologen und Parasitologen Rudolf LEUCKART (1822-1898), der die von MEČNIKOV für sich reklamierte Entdeckung des Generationswechsels bei Nematoden (Fadenwürmern) als seine eigene veröffentlicht hatte. In Gießen entdeckte MEČNIKOV auch die intrazelluläre Verdauung, und zwar bei einer Landplanarie (<i>Geodesmus bilineatus</i>), einen Vorgang, der später noch Bedeutung für seine Weltanschauung haben sollte, denn sie führte letztendlich zur Entdeckung der Phagozytose.
+1866, nach einem Besuch in Neapel bei Aleksandr Onufrievič <span style='font-variant:small-caps;'>KOVALEVSKIJ</span>, setzte MEČNIKOV in Göttingen bei Jakob HENLE (1809-1885) und in München bei Karl Theodor Ernst von SIEBOLD (1804-1885) seine anatomischen und vergleichenden embryologischen Studien fort. HENLE, bei dem ab 1863 auch Robert <span style='font-variant:small-caps;'>KOCH</span> Medizin studiert hatte, gehörte zu den wenigen, die in der ersten Hälfte des 19. Jahrhunderts die Anschauung vertreten hatten, dass Krankheiten durch pathogene Mikroorganismen verursacht würden. Zwischen HENLE und MEČNIKOV bestehen einige lebensgeschichtliche Parallelen. Beide waren jüdischer Herkunft; auch HENLE veröffentlichte, wie später MEČNIKOV, populäre Arbeiten, die er als Vorträge gehalten und dann überarbeitet hatte (vgl. Henle: Anthropologische Vorträge. 2 Bde. Braunschweig 1876/1880), und auch er heiratete ein junges, als mäßig gebildet geltendes Mädchen, das er dann \"erziehen\" ließ. Auch MEČNIKOV suchte eine solche Gefährtin, wollte aber die \"Erziehung\" selbst in die Hand nehmen. Zu den deutschen Lehrern MEČNIKOVs in Göttingen 1865 gehörte außerdem der Zoologe Wilhelm Moritz KEFERSTEIN (1833-1870), dem MEČNIKOV 1866 - gemeinsam mit LEUCKART und HENLE - in seinen auf deutsch geschriebenen Embryologischen Studien seinen Dank aussprach (<b>SL</b> Mečnikov 1866, VI)." .
+
+<ImportantPerson/30924>
+	a drw-model:ImportantPerson .
+
+<P/30695hasP2>
+	a drw-model:P ;
+	rdfs:label "Mečnikov 1875, im Alter von 30 Jahren (<b>SL</b> Schmuck 2008, 102, auch in: <b>SL</b> Tauber/Chernyak)." .
+
+<W/30695hasW2>
+	rdfs:label "Ueber die Beziehung der Phagocyten zu Milzbrandbacillen. Virchows Archiv 97 (1884) 3, 502-526." ;
+	a drw-model:W .
+
+<NameVariation/30695hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "METCHNIKOFF" .
+
+<Q/30695hasQ1>
+	a drw-model:Q ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://isaran.ru/?q=ru/fund&ida=1&guid=BCE5BD35-55D4-C647-387C-074970A58D46" ;
+	rdfs:label "Archiv der Russländischen Akademie der Wissenschaften, Moskau: MEČNIKOV-Fond 584. Online Ressource Online Ressource (30.5.2012)." .
+
+<P/30695hasP8>
+	rdfs:label "Die letzte Aufnahme von Mečnikov (<b>SL</b> Schmuck 2008, 160, auch in: <b>SL</b> Frolow 1984)." ;
+	a drw-model:P .
+
+<NameVariation/30695hasNameVariation6>
+	a drw-model:NameVariation ;
+	rdfs:label "MECHNIKOV" .
+
+<SL/30695hasSL5>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.encyclopedia.com/topic/Elie_Metchnikoff.aspx" ;
+	a drw-model:SL ;
+	rdfs:label "Gert H. Brieger: Metchnikoff, Elie. In: Dictionary of Scientific Biography. Bd. 9. New York 1974, 331-335. Online Ressource Online Ressource (25.7.2012)." .
+
+<W/30695hasW3>
+	rdfs:label "Beiträge zu einer optimistischen Weltauffassung. München 1908." ;
+	a drw-model:W .
+
+<NameVariation/30695hasNameVariation4>
+	rdfs:label "METCHNIKOV" ;
+	a drw-model:NameVariation .
+
+<SL/30695hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Ol'ga Nikolaevna Mečnikova: Vie d'Élie Metschnikow 1845-1916. Paris 1920; Žizn' Il'i Il'iča Mečnikova. Moskva 2007." .
+
+<W/30695hasW1>
+	a drw-model:W ;
+	rdfs:label "Embryologische Studien an Insecten. Leipzig 1866. Abdruck aus: Zeitschrift für wissenschaftliche Zoologie (16) 1866." .
+
+<NameVariation/30695hasNameVariation8>
+	a drw-model:NameVariation ;
+	rdfs:label "Elie" .
+
+<GeneralLabor/Embryologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Embryologe" .
+
+<P/30695hasP6>
+	rdfs:label "Portraits in den Archiven der Russländischen Akademie der Wissenschaften Online Ressource Online Ressource (30.5.2012)." ;
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://isaran.ru/?q=ru/person&guid=DE7628DB-A096-19B2-4A56-27BE48D36776" .
+
+<SL/30695hasSL1>
+	rdfs:label "Verzeichnis der ausgewerteten Literatur in: 30695.pdf Schmuck 2008, 166-170." ;
+	a drw-model:SL .
+
+<P/30695hasP10>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.ranar.spb.ru/rus/books1/id/64/" ;
+	a drw-model:P ;
+	rdfs:label "Photoportrait aus den 1880er Jahren. (<b>Q</b> Pis'ma A. O. Kovalevskogo k I. I. Mečnikovu 1955, zwischen 112/113). Online Ressource Online Ressource (25.7.2012)." .
+
+<RelatedPerson/30695fatherIs1>
+	rdfs:label "Il'ja Ivanovič Mečnikov (1810-1878), Gardeoffizier in St. Petersburg" ;
+	a drw-model:RelatedPerson .
+
+<P/30695hasP7>
+	<http://xmlns.com/foaf/0.1/homepage> "http://appserv5.ph-heidelberg.de/onlinelex/index.php?id=1030" ;
+	a drw-model:P ;
+	rdfs:label "Portrait in der Portraitsammlung des Anatomen Robert Wiedersheim (1848-1923), Universität Heidelberg. Online Ressource Online Ressource (25.7.2012)." .
+
+<RelatedPerson/30695wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "1. 1869 Ljudmila Vasil'evna Fedorovič († 1873)<br>2. Ol'ga Nikolaevna Belopopytova (1858-1944), Heirat im Februar 1875" .
+
+<SL/30695hasSL8>
+	rdfs:label "Richard M. Krause: Metchnikoff and Syphilis Research during a Decade of Discovery, 1900-1910. ASM News 62 (1996) 6, 307-310." ;
+	a drw-model:SL .
+
+<RelatedPerson/30695hasSibling1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ivan (1836-1881)<br>Lev Il'ič Mečnikov (1838-1888), Soziologe, Publizist und Geograph<br>Ekaterina<br>Nikolaj (*1843)<br>" .
+
+<GPV/30695hasGPV1>
+	rdfs:label "• WBIS RBA & BASU: R 311, 283-308; SU 303, 11-36; RS 40, 87-110." ;
+	a drw-model:GPV .
+
+<SL/30695hasSL12>
+	a drw-model:SL ;
+	rdfs:label "Thomas Schmuck: Il'ja Il'ič Mečnikov - Denkwege zwischen Philosophie und Medizin. In: Kaden, Heiner; Riha, Ortrun (Hgg.): Studien zu Carl Julius Fritzsche (1808-1871) und Il'ja Il'ič Mečnikov (1845-1916). Quellenarbeit in der Wissenschaftsgeschichte. Aachen 2008 (Relationes 1), 91-165." .
+
+<SL/30695hasSL6>
+	rdfs:label "Debra Jan Bibel: Centennial of the Rise of Cellular Immunology: Metchnikoff's Discovery at Messina. ASM News 48 (1982) 12, 558-560." ;
+	a drw-model:SL .
+
+<ImportantPerson/30240>
+	a drw-model:ImportantPerson .
+
+<SL/30695hasSL13>
+	rdfs:label "Weitere Angaben:" ;
+	a drw-model:SL .
+
+<P/30695hasP9>
+	rdfs:label "Photoportrait aus den 1870er Jahren (<b>Q</b> Pis'ma A. O. Kovalevskogo k I. I. Mečnikovu 1955, zwischen 80/81). Online Ressource Online Ressource (25.7.2012)." ;
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.ranar.spb.ru/rus/books1/id/64/" .
+
+<P/30695hasP3>
+	rdfs:label "Mečnikov am Frontispiz der englischen Ausgabe der <i>Etudes</i> 1903 (<b>SL</b> Schmuck 2008, 106, auch in: <b>SL</b> Tauber/Chernyak 1991)." ;
+	a drw-model:P .
+
+<GeneralLabor/Immunologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Immunologe" .
+
+<SL/30695hasSL11>
+	rdfs:label "Alfred I. Tauber: Metchnikoff and the phagocytosis theory. Nature Reviews (Molecular Cell Biology) 4 (2003), 897-901." ;
+	a drw-model:SL .
+
+<P/30695hasP11>
+	rdfs:label "Photoportrait aus dem Jahre 1908. Archiv der Russländischen Akademie der Wissenschaften. - Архив Российской Академии наук, фонд 584, опись 2, дело 280. Abgedruckt in: <b>Q</b> Knjazev/Rajkov 1960, zwischen 4/5. Online Ressource Online Ressource (1.8.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.ranar.spb.ru/rus/books1/id/67/" ;
+	a drw-model:P .
+
+<RelatedPerson/30695motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ėmilija L'vovna, Tochter von Lev Nikolaevič Nevachovič (1776-1831), der als Iechuda Lejb (Löb) Ben Noach zum Christentum konvertierte und in Russland als erster jüdischer Schriftsteller gilt
+" .
+
+<P/30695hasP13>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.ranar.spb.ru/rus/books1/id/67/" ;
+	a drw-model:P ;
+	rdfs:label "Photoportrait im Laboratorium aus dem Jahre 1914. Archiv der Russländischen Akademie der Wissenschaften. - Архив Российской Академии наук, фонд 584, опись 2, дело 306. Abgedruckt in: <b>Q</b> Knjazev/Rajkov 1960, zwischen 48/49. Online Ressource Online Ressource (1.8.2012)." .
+
+<P/30695hasP5>
+	a drw-model:P ;
+	rdfs:label "Tolstoj und Mečnikov am 30. Mai 1909 in Jasnaja Poljana (<b>SL</b> Schmuck 2008, 153, auch in: <b>SL</b> Tauber/Chernyak 1991)." .
+
+<SL/30695hasSL15>
+	rdfs:label "Kurzbiographie von Ilja (Elias) Metschnikow. Biographisches Lexikon zur Portraitsammlung des Anatomen Robert Wiedersheim (1848-1923), Universität Heidelberg. Online Ressource Online Ressource (25.7.2012)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://appserv5.ph-heidelberg.de/onlinelex/index.php?id=1030" .
+
+<MG/30695hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Korespondierenses Mitglied (1883) und Ehrenmitglied der <i> Kaiserlichen Akademie der Wissenschaften zu St. Petersburg</i> (1902), Ehrenmitglied der <i>Société de pathologie exotique</i> (1908)." .
+

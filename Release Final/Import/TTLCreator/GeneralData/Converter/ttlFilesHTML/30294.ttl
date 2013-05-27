@@ -1,0 +1,150 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<ImportantPerson/30282>
+	a drw-model:ImportantPerson .
+
+<WL/30294hasWL1>
+	rdfs:label "1806-1808 Mitarbeit an den Statuten der Mediko-chirurgischen Akademie (MCA), wofür er 1809 mit dem St.-Vladimir-Orden (s. o.) ausgezeichnet wurde, Autor und Redakteur zahlreicher Gesetze für die Umgestaltung der Gesundheitswesens in Russland." ;
+	a drw-model:WL .
+
+<RelatedPerson/30294fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Fedor, Geistlicher" .
+
+<W/30294hasW2>
+	rdfs:label "O gniloj nervnoj gorjačke. S.-Peterburg 1813, 82 S." ;
+	a drw-model:W .
+
+<B/30294hasStationOfLife1>
+	drw-model:hasNameLink <ImportantPerson/30282> ;
+	rdfs:label "1800 Repetent und 1801 Arzt im St. Petersburger Militärlandhospital, 1802-1805 Studienaufenthalt im Ausland, u.a. bei Johann Peter <span style='font-variant:small-caps;'>FRANK</span> in Wien, 1805-1806 Adjunkt-Professor, 1807 ao. Professor, 1808 Adjunkt am Lehrstuhl für Pathologie und Therapie an der MCA und ab 1810 Leiter der Klinik für innere Medizin, 1811-1831 wissenschaftlicher Sekretär des Medizinalwesens im Polizeiministerium, 1812-1819 Inspektor des St. Petersburger Physikats, zugleich Arzt in der Adligen-Pension der Universität St. Petersburg, 1813-1814 Abteilungsleiter im Artilleriehospital, ab 1819 Leibarzt des Zaren ALEKSANDR I. (1777-1825), ab 1833 \"Ehrenleibmedikus\", 1825-1826 und 1831-1842 Zivilgeneralstabsarzt, 1837-1842 Direktor des Medizinaldepartements im Innenministerium.
+        Ihm wurden hohe Ehrentitel und Auszeichnungen zuteil, darunter: \"Staatsrat\" (1818), \"Wirklicher Russischer Staatsrat\" (1828), \"Geheimrat\", St.-Vladimir-Orden 4. Klasse (1809) und 2. Klasse (1850), St.-Stanislav-Orden 1. Klasse (1830), St.-Annen-Orden 1. Klasse (1834) und 1. Klasse mit Krone (1836)." ;
+	a drw-model:B .
+
+<NameVariation/30294hasNameVariation2>
+	rdfs:label "Fedotovič" ;
+	a drw-model:NameVariation .
+
+<W/30294hasW4>
+	rdfs:label "Mediko-chirurgičeskie zamečanija o čume. S.-Peterburg 1830." ;
+	a drw-model:W .
+
+<Place/St_Petersburg_?>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg (?)" .
+
+<SL/30294hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Zmeev. Bd. 1 (1886), 61-62; auch in WBIS RBA: R 112, 231-233." .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<NameVariation/30294hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "GAJEWSKY" .
+
+<SL/30294hasSL3>
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA: R 112, 229-245." .
+
+<ImportantPerson/30294>
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	drw-model:hasSL <SL/30294hasSL2> ;
+	drw-model:hasW <W/30294hasW2> ;
+	drw-model:hasSL <SL/30294hasSL1> ;
+	drw-model:hasW <W/30294hasW1> ;
+	drw-model:hasEducation <A/30294hasEducation1> ;
+	drw-model:hasGPV <GPV/30294hasGPV1> ;
+	drw-model:wasBornOn <Date/14_9_1778> ;
+	drw-model:diedIn <Place/St_Petersburg_?> ;
+	drw-model:diedOn <Date/2_9_1862> ;
+	drw-model:hasSL <SL/30294hasSL3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Generalstabsarzt> ;
+	drw-model:hasW <W/30294hasW4> ;
+	drw-model:hasStationOfLife <B/30294hasStationOfLife1> ;
+	drw-model:hasSL <SL/30294hasSL4> ;
+	drw-model:hasW <W/30294hasW3> ;
+	drw-model:hasMG <MG/30294hasMG1> ;
+	drw-model:wasBornIn <Place/Poltava> ;
+	drw-model:hasWL <WL/30294hasWL1> ;
+	a drw-model:ImportantPerson ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30294.jpg> ;
+	drw-model:hasP <P/30294hasP1> ;
+	rdfs:label "Gaevskij, Semën Fëdorovič" ;
+	drw-model:hasW <W/30294hasW5> ;
+	drw-model:fatherIs <RelatedPerson/30294fatherIs1> ;
+	drw-model:hasID "30294" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_innere_Medizin> ;
+	drw-model:hasMainName <MainName/30294hasMainName1> .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Date/2_9_1862>
+	a drw-model:Date ;
+	rdfs:label "2.9.1862" .
+
+<A/30294hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Bis 1796 Besuch des Priesterseminars in Poltava, 1796-1800 Studium in St. Petersburg an der Mediko-chirurgischen Lehranstalt bzw. (ab 1799) an der Mediko-chirurgischen Akademie (MCA), mit dem Abschluss \"Kandidat der Chirurgie 1. Klasse\", 1806 Diss. und 1807 Anerkennung des Titels \"Dr. med.\"." .
+
+<GeneralLabor/Professor_fr_innere_Medizin>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für innere Medizin" .
+
+<MainName/30294hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30294hasNameVariation1> ;
+	rdfs:label "Gaevskij, Semën Fëdorovič" ;
+	drw-model:hasNameVariation <NameVariation/30294hasNameVariation2> .
+
+<P/30294hasP1>
+	a drw-model:P ;
+	rdfs:label "Boris Aleksandrovič Nachapetov: S. F. Gaevskij. Zeichnung. Aus: Nachapetov 2003, 102. Abgedruckt in: Fischer 2010, 102." .
+
+<Place/Poltava>
+	a drw-model:Place ;
+	rdfs:label "Poltava" .
+
+<SL/30294hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Gennadi. Bd. 1 (1876), 192." .
+
+<MG/30294hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Voenno-medicinskij naučnyj komitet [Militärmedizinisches Gelehrtenkomitee] (ab 1843), S.-Peterburgskoe farmacevtičeskoe obščestvo [St.-Petersburger pharmazeutische Gesellschaft], Vilenskoe medicinskoe obščestvo [Medizinische Gesellschaft zu Wilna], Vilenskaja mediko-chirurgičeskaja akademija [Mediko-chirurgische Akademie in Wilna], Obščestvo russkich vračej v Peterburge [Gesellschaft russischer Ärzte in St. Petersburg], Moskovskoe obščestvo ispytatelej prirody [Gesellschaft der Naturforscher zu Moskau], Mediko-chirurgičeskaja akademija v S.-Peterburge [Mediko-chirurgische Akademie zu St. Petersburg], Medicinskoe obščestvo v Varšave [Medizinische Gesellschaft zu Warschau], Gesellschaft von Freunden der Entbindungskunst zu Göttingen u.a." .
+
+<Date/14_9_1778>
+	a drw-model:Date ;
+	rdfs:label "14.9.1778" .
+
+<GPV/30294hasGPV1>
+	rdfs:label "Veröffentlichungen 1806-1854 in: Zmeev (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<GeneralLabor/Generalstabsarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Generalstabsarzt" .
+
+<W/30294hasW1>
+	rdfs:label "Dissertatio vermium intestinalium corporis humani historiam synopticam sistens. S.-Peterburg 1806." ;
+	a drw-model:W .
+
+<SL/30294hasSL2>
+	rdfs:label "Professora MCA/VMA, 62." ;
+	a drw-model:SL .
+
+<W/30294hasW3>
+	rdfs:label "Nastavlenie o lečenii bolezni, nazyvaemoj cholera morbus. S.-Peterburg 1823." ;
+	a drw-model:W .
+
+<W/30294hasW5>
+	rdfs:label "Eine Bemerkung zu dem Nekrologe des Baronet Dr. J. W. Wyllie. Medicinische Zeitung Russlands 11 (1854), 101-103." ;
+	a drw-model:W .
+

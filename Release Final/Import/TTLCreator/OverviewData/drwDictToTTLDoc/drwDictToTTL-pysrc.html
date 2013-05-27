@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>drwDictToTTL</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://pcai042.informatik.uni-leipzig.de/~swp13-wb/">DRW Personendatenbank - TTLConverter and HTML Parser</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Module&nbsp;drwDictToTTL
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="drwDictToTTL-pysrc.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<h1 class="epydoc">Source Code for <a href="drwDictToTTL-module.html">Module drwDictToTTL</a></h1>
+<pre class="py-src">
+<a name="L1"></a><tt class="py-lineno">  1</tt>  <tt class="py-line"><tt class="py-comment">#!/usr/bin/python</tt> </tt>
+<a name="L2"></a><tt class="py-lineno">  2</tt>  <tt class="py-line"><tt class="py-comment"># -*- coding: latin-1 -*-</tt> </tt>
+<a name="L3"></a><tt class="py-lineno">  3</tt>  <tt class="py-line"> </tt>
+<a name="L4"></a><tt class="py-lineno">  4</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt class="py-name">os</tt> </tt>
+<a name="L5"></a><tt class="py-lineno">  5</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt class="py-name">sys</tt> </tt>
+<a name="L6"></a><tt class="py-lineno">  6</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt id="link-0" class="py-name" targets="Module drwHelper=drwHelper-module.html"><a title="drwHelper" class="py-name" href="#" onclick="return doclink('link-0', 'drwHelper', 'link-0');">drwHelper</a></tt> <tt class="py-keyword">import</tt> <tt id="link-1" class="py-name" targets="Function drwHelper.saveTTL()=drwHelper-module.html#saveTTL"><a title="drwHelper.saveTTL" class="py-name" href="#" onclick="return doclink('link-1', 'saveTTL', 'link-1');">saveTTL</a></tt> </tt>
+<a name="L7"></a><tt class="py-lineno">  7</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt id="link-2" class="py-name"><a title="drwHelper" class="py-name" href="#" onclick="return doclink('link-2', 'drwHelper', 'link-0');">drwHelper</a></tt> <tt class="py-keyword">import</tt> <tt id="link-3" class="py-name" targets="Function drwHelper.openPickle()=drwHelper-module.html#openPickle"><a title="drwHelper.openPickle" class="py-name" href="#" onclick="return doclink('link-3', 'openPickle', 'link-3');">openPickle</a></tt> </tt>
+<a name="L8"></a><tt class="py-lineno">  8</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt id="link-4" class="py-name"><a title="drwHelper" class="py-name" href="#" onclick="return doclink('link-4', 'drwHelper', 'link-0');">drwHelper</a></tt> <tt class="py-keyword">import</tt> <tt id="link-5" class="py-name" targets="Function drwHelper.printWhatItIs()=drwHelper-module.html#printWhatItIs"><a title="drwHelper.printWhatItIs" class="py-name" href="#" onclick="return doclink('link-5', 'printWhatItIs', 'link-5');">printWhatItIs</a></tt> </tt>
+<a name="L9"></a><tt class="py-lineno">  9</tt>  <tt class="py-line"> </tt>
+<a name="L10"></a><tt class="py-lineno"> 10</tt>  <tt class="py-line"> </tt>
+<a name="L11"></a><tt class="py-lineno"> 11</tt>  <tt class="py-line"><tt class="py-comment">#Das ist der Kopf der zu erstellenden .ttl Datei</tt> </tt>
+<a name="L12"></a><tt class="py-lineno"> 12</tt>  <tt class="py-line"><tt id="link-6" class="py-name" targets="Variable drwDictToTTL.ttlHeader=drwDictToTTL-module.html#ttlHeader"><a title="drwDictToTTL.ttlHeader" class="py-name" href="#" onclick="return doclink('link-6', 'ttlHeader', 'link-6');">ttlHeader</a></tt> <tt class="py-op">=</tt> <tt class="py-string">"""</tt> </tt>
+<a name="L13"></a><tt class="py-lineno"> 13</tt>  <tt class="py-line"><tt class="py-string">@base &lt;http://drw-catalog.saw-leipzig.de/&gt; .</tt> </tt>
+<a name="L14"></a><tt class="py-lineno"> 14</tt>  <tt class="py-line"><tt class="py-string">@prefix drw-model: &lt;http://drw-model.saw-leipzig.de/&gt; .</tt> </tt>
+<a name="L15"></a><tt class="py-lineno"> 15</tt>  <tt class="py-line"><tt class="py-string">@prefix drw-catalog: &lt;http://drw-catalog.saw-leipzig.de/&gt; .</tt> </tt>
+<a name="L16"></a><tt class="py-lineno"> 16</tt>  <tt class="py-line"><tt class="py-string">@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .</tt> </tt>
+<a name="L17"></a><tt class="py-lineno"> 17</tt>  <tt class="py-line"><tt class="py-string">@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .</tt> </tt>
+<a name="L18"></a><tt class="py-lineno"> 18</tt>  <tt class="py-line"><tt class="py-string">@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .</tt> </tt>
+<a name="L19"></a><tt class="py-lineno"> 19</tt>  <tt class="py-line"><tt class="py-string">&lt;&gt; a owl:Ontology ;</tt> </tt>
+<a name="L20"></a><tt class="py-lineno"> 20</tt>  <tt class="py-line"><tt class="py-string">   rdfs:label "DRW-Katalog" ;</tt> </tt>
+<a name="L21"></a><tt class="py-lineno"> 21</tt>  <tt class="py-line"><tt class="py-string">   owl:imports &lt;http://drw-model.saw-leipzig.de/&gt; .</tt> </tt>
+<a name="L22"></a><tt class="py-lineno"> 22</tt>  <tt class="py-line"><tt class="py-string"></tt> </tt>
+<a name="L23"></a><tt class="py-lineno"> 23</tt>  <tt class="py-line"><tt class="py-string">"""</tt> </tt>
+<a name="main"></a><div id="main-def"><a name="L24"></a><tt class="py-lineno"> 24</tt> <a class="py-toggle" href="#" id="main-toggle" onclick="return toggle('main');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="drwDictToTTL-module.html#main">main</a><tt class="py-op">(</tt><tt class="py-param">argv</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="main-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="main-expanded"><a name="L25"></a><tt class="py-lineno"> 25</tt>  <tt class="py-line">        <tt class="py-docstring">""" Oeffnet die pickle Datei, fuerhrt die Umwandlung durch, speichert das</tt> </tt>
+<a name="L26"></a><tt class="py-lineno"> 26</tt>  <tt class="py-line"><tt class="py-docstring">        Ergebnis"""</tt> </tt>
+<a name="L27"></a><tt class="py-lineno"> 27</tt>  <tt class="py-line">        <tt class="py-name">dictList</tt> <tt class="py-op">=</tt> <tt id="link-7" class="py-name"><a title="drwHelper.openPickle" class="py-name" href="#" onclick="return doclink('link-7', 'openPickle', 'link-3');">openPickle</a></tt><tt class="py-op">(</tt><tt class="py-name">os</tt><tt class="py-op">.</tt><tt class="py-name">getcwd</tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">,</tt><tt class="py-string">"personDict.pickle"</tt><tt class="py-op">)</tt>   </tt>
+<a name="L28"></a><tt class="py-lineno"> 28</tt>  <tt class="py-line"><tt class="py-comment">#       print print_what_it_is(dictList)</tt> </tt>
+<a name="L29"></a><tt class="py-lineno"> 29</tt>  <tt class="py-line">        <tt class="py-name">ttltext</tt> <tt class="py-op">=</tt> <tt id="link-8" class="py-name" targets="Function drwDictToTTL.createTTL()=drwDictToTTL-module.html#createTTL"><a title="drwDictToTTL.createTTL" class="py-name" href="#" onclick="return doclink('link-8', 'createTTL', 'link-8');">createTTL</a></tt><tt class="py-op">(</tt><tt class="py-name">dictList</tt><tt class="py-op">)</tt> </tt>
+<a name="L30"></a><tt class="py-lineno"> 30</tt>  <tt class="py-line">        <tt id="link-9" class="py-name"><a title="drwHelper.saveTTL" class="py-name" href="#" onclick="return doclink('link-9', 'saveTTL', 'link-1');">saveTTL</a></tt><tt class="py-op">(</tt><tt class="py-name">ttltext</tt><tt class="py-op">,</tt> <tt class="py-name">os</tt><tt class="py-op">.</tt><tt class="py-name">getcwd</tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> <tt class="py-string">"ttlExportOverview"</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L31"></a><tt class="py-lineno"> 31</tt>  <tt class="py-line"> </tt>
+<a name="L32"></a><tt class="py-lineno"> 32</tt>  <tt class="py-line"> </tt>
+<a name="L33"></a><tt class="py-lineno"> 33</tt>  <tt class="py-line"> </tt>
+<a name="createTTL"></a><div id="createTTL-def"><a name="L34"></a><tt class="py-lineno"> 34</tt> <a class="py-toggle" href="#" id="createTTL-toggle" onclick="return toggle('createTTL');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="drwDictToTTL-module.html#createTTL">createTTL</a><tt class="py-op">(</tt><tt class="py-param">dicts</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="createTTL-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="createTTL-expanded"><a name="L35"></a><tt class="py-lineno"> 35</tt>  <tt class="py-line">        <tt class="py-docstring">"""     Geht das Dictionary, dass aus der .pickle Datei geladen wurde, durch,</tt> </tt>
+<a name="L36"></a><tt class="py-lineno"> 36</tt>  <tt class="py-line"><tt class="py-docstring">        erstellt neue Eintraege fuer Ressourcennamen und erstellt dann einen ttl </tt> </tt>
+<a name="L37"></a><tt class="py-lineno"> 37</tt>  <tt class="py-line"><tt class="py-docstring">        Text</tt> </tt>
+<a name="L38"></a><tt class="py-lineno"> 38</tt>  <tt class="py-line"><tt class="py-docstring">        @param dictionary aller Personen mit den Dazugehoerigen Daten</tt> </tt>
+<a name="L39"></a><tt class="py-lineno"> 39</tt>  <tt class="py-line"><tt class="py-docstring">        @return ttl als text</tt> </tt>
+<a name="L40"></a><tt class="py-lineno"> 40</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L41"></a><tt class="py-lineno"> 41</tt>  <tt class="py-line">        <tt class="py-name">ttl</tt> <tt class="py-op">=</tt> <tt id="link-10" class="py-name"><a title="drwDictToTTL.ttlHeader" class="py-name" href="#" onclick="return doclink('link-10', 'ttlHeader', 'link-6');">ttlHeader</a></tt> </tt>
+<a name="L42"></a><tt class="py-lineno"> 42</tt>  <tt class="py-line">        <tt class="py-keyword">for</tt> <tt class="py-name">eachDict</tt> <tt class="py-keyword">in</tt> <tt class="py-name">dicts</tt><tt class="py-op">:</tt> </tt>
+<a name="L43"></a><tt class="py-lineno"> 43</tt>  <tt class="py-line"><tt class="py-comment">#               print dicts[eachDict]</tt> </tt>
+<a name="L44"></a><tt class="py-lineno"> 44</tt>  <tt class="py-line">                <tt class="py-name">ttlDict</tt> <tt class="py-op">=</tt> <tt id="link-11" class="py-name" targets="Function drwDictToTTL.prepPersonDict()=drwDictToTTL-module.html#prepPersonDict"><a title="drwDictToTTL.prepPersonDict" class="py-name" href="#" onclick="return doclink('link-11', 'prepPersonDict', 'link-11');">prepPersonDict</a></tt><tt class="py-op">(</tt><tt class="py-name">dicts</tt><tt class="py-op">[</tt><tt class="py-name">eachDict</tt><tt class="py-op">]</tt><tt class="py-op">)</tt> </tt>
+<a name="L45"></a><tt class="py-lineno"> 45</tt>  <tt class="py-line">                <tt class="py-keyword">print</tt> <tt class="py-name">dicts</tt><tt class="py-op">[</tt><tt class="py-name">eachDict</tt><tt class="py-op">]</tt><tt class="py-op">[</tt><tt class="py-string">"nameRes"</tt><tt class="py-op">]</tt> </tt>
+<a name="L46"></a><tt class="py-lineno"> 46</tt>  <tt class="py-line"><tt class="py-comment">#       print printWhatItIs(dicts)</tt> </tt>
+<a name="L47"></a><tt class="py-lineno"> 47</tt>  <tt class="py-line">                <tt class="py-name">ttl</tt> <tt class="py-op">+=</tt> <tt id="link-12" class="py-name" targets="Function drwDictToTTL.prepTTLForPerson()=drwDictToTTL-module.html#prepTTLForPerson"><a title="drwDictToTTL.prepTTLForPerson" class="py-name" href="#" onclick="return doclink('link-12', 'prepTTLForPerson', 'link-12');">prepTTLForPerson</a></tt><tt class="py-op">(</tt><tt class="py-name">ttlDict</tt><tt class="py-op">)</tt> </tt>
+<a name="L48"></a><tt class="py-lineno"> 48</tt>  <tt class="py-line">         </tt>
+<a name="L49"></a><tt class="py-lineno"> 49</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">ttl</tt> </tt>
+</div><a name="L50"></a><tt class="py-lineno"> 50</tt>  <tt class="py-line"> </tt>
+<a name="prepPersonDict"></a><div id="prepPersonDict-def"><a name="L51"></a><tt class="py-lineno"> 51</tt> <a class="py-toggle" href="#" id="prepPersonDict-toggle" onclick="return toggle('prepPersonDict');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="drwDictToTTL-module.html#prepPersonDict">prepPersonDict</a><tt class="py-op">(</tt><tt class="py-param">personDict</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="prepPersonDict-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="prepPersonDict-expanded"><a name="L52"></a><tt class="py-lineno"> 52</tt>  <tt class="py-line">        <tt class="py-docstring">"""     Stellt einzelne Werte als neue Werte oder Bearbeitete Werte zusammen"""</tt> </tt>
+<a name="L53"></a><tt class="py-lineno"> 53</tt>  <tt class="py-line">        <tt class="py-keyword">for</tt> <tt class="py-name">entry</tt> <tt class="py-keyword">in</tt> <tt class="py-name">personDict</tt><tt class="py-op">:</tt>                 </tt>
+<a name="L54"></a><tt class="py-lineno"> 54</tt>  <tt class="py-line">                <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-name">entry</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-name">entry</tt><tt class="py-op">]</tt><tt class="py-op">.</tt><tt class="py-name">replace</tt><tt class="py-op">(</tt><tt class="py-string">"&lt;br&gt;"</tt><tt class="py-op">,</tt> <tt class="py-string">" "</tt><tt class="py-op">)</tt> </tt>
+<a name="L55"></a><tt class="py-lineno"> 55</tt>  <tt class="py-line">                <tt id="link-13" class="py-name" targets="Function drwDictToTTL.isErrorInText()=drwDictToTTL-module.html#isErrorInText"><a title="drwDictToTTL.isErrorInText" class="py-name" href="#" onclick="return doclink('link-13', 'isErrorInText', 'link-13');">isErrorInText</a></tt><tt class="py-op">(</tt><tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-name">entry</tt><tt class="py-op">]</tt><tt class="py-op">)</tt>  </tt>
+<a name="L56"></a><tt class="py-lineno"> 56</tt>  <tt class="py-line"><tt class="py-comment">#       Erstellt Namen, die als Ressourcen verwendet werden koennen</tt> </tt>
+<a name="L57"></a><tt class="py-lineno"> 57</tt>  <tt class="py-line">        <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"sterbeortRes"</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt id="link-14" class="py-name" targets="Function drwDictToTTL.cleanTextForResName()=drwDictToTTL-module.html#cleanTextForResName"><a title="drwDictToTTL.cleanTextForResName" class="py-name" href="#" onclick="return doclink('link-14', 'cleanTextForResName', 'link-14');">cleanTextForResName</a></tt><tt class="py-op">(</tt><tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"sterbeort"</tt><tt class="py-op">]</tt><tt class="py-op">)</tt> </tt>
+<a name="L58"></a><tt class="py-lineno"> 58</tt>  <tt class="py-line">        <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"sterbeortRes"</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt id="link-15" class="py-name" targets="Function drwDictToTTL.delSpecialChar()=drwDictToTTL-module.html#delSpecialChar"><a title="drwDictToTTL.delSpecialChar" class="py-name" href="#" onclick="return doclink('link-15', 'delSpecialChar', 'link-15');">delSpecialChar</a></tt><tt class="py-op">(</tt><tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"sterbeortRes"</tt><tt class="py-op">]</tt><tt class="py-op">)</tt> </tt>
+<a name="L59"></a><tt class="py-lineno"> 59</tt>  <tt class="py-line">        <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"sterbejahrRes"</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt id="link-16" class="py-name"><a title="drwDictToTTL.cleanTextForResName" class="py-name" href="#" onclick="return doclink('link-16', 'cleanTextForResName', 'link-14');">cleanTextForResName</a></tt><tt class="py-op">(</tt><tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"sterbejahr"</tt><tt class="py-op">]</tt><tt class="py-op">)</tt> </tt>
+<a name="L60"></a><tt class="py-lineno"> 60</tt>  <tt class="py-line">        <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"sterbejahrRes"</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt id="link-17" class="py-name"><a title="drwDictToTTL.delSpecialChar" class="py-name" href="#" onclick="return doclink('link-17', 'delSpecialChar', 'link-15');">delSpecialChar</a></tt><tt class="py-op">(</tt><tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"sterbejahrRes"</tt><tt class="py-op">]</tt><tt class="py-op">)</tt> </tt>
+<a name="L61"></a><tt class="py-lineno"> 61</tt>  <tt class="py-line">        <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"geburtsortRes"</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt id="link-18" class="py-name"><a title="drwDictToTTL.cleanTextForResName" class="py-name" href="#" onclick="return doclink('link-18', 'cleanTextForResName', 'link-14');">cleanTextForResName</a></tt><tt class="py-op">(</tt><tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"geburtsort"</tt><tt class="py-op">]</tt><tt class="py-op">)</tt> </tt>
+<a name="L62"></a><tt class="py-lineno"> 62</tt>  <tt class="py-line">        <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"geburtsortRes"</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt id="link-19" class="py-name"><a title="drwDictToTTL.delSpecialChar" class="py-name" href="#" onclick="return doclink('link-19', 'delSpecialChar', 'link-15');">delSpecialChar</a></tt><tt class="py-op">(</tt><tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"geburtsortRes"</tt><tt class="py-op">]</tt><tt class="py-op">)</tt> </tt>
+<a name="L63"></a><tt class="py-lineno"> 63</tt>  <tt class="py-line">        <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"geburtsjahrRes"</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt id="link-20" class="py-name"><a title="drwDictToTTL.cleanTextForResName" class="py-name" href="#" onclick="return doclink('link-20', 'cleanTextForResName', 'link-14');">cleanTextForResName</a></tt><tt class="py-op">(</tt><tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"geburtsjahr"</tt><tt class="py-op">]</tt><tt class="py-op">)</tt> </tt>
+<a name="L64"></a><tt class="py-lineno"> 64</tt>  <tt class="py-line">        <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"geburtsjahrRes"</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt id="link-21" class="py-name"><a title="drwDictToTTL.delSpecialChar" class="py-name" href="#" onclick="return doclink('link-21', 'delSpecialChar', 'link-15');">delSpecialChar</a></tt><tt class="py-op">(</tt><tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"geburtsjahrRes"</tt><tt class="py-op">]</tt><tt class="py-op">)</tt>  </tt>
+<a name="L65"></a><tt class="py-lineno"> 65</tt>  <tt class="py-line">        <tt class="py-name">nameConcat</tt> <tt class="py-op">=</tt> <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"name"</tt><tt class="py-op">]</tt> <tt class="py-op">+</tt> <tt class="py-string">"_"</tt> <tt class="py-op">+</tt> <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"vornamen"</tt><tt class="py-op">]</tt> </tt>
+<a name="L66"></a><tt class="py-lineno"> 66</tt>  <tt class="py-line">        <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"nameRes"</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt id="link-22" class="py-name"><a title="drwDictToTTL.cleanTextForResName" class="py-name" href="#" onclick="return doclink('link-22', 'cleanTextForResName', 'link-14');">cleanTextForResName</a></tt><tt class="py-op">(</tt><tt class="py-name">nameConcat</tt><tt class="py-op">)</tt> </tt>
+<a name="L67"></a><tt class="py-lineno"> 67</tt>  <tt class="py-line">        <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"nameRes"</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt id="link-23" class="py-name"><a title="drwDictToTTL.delSpecialChar" class="py-name" href="#" onclick="return doclink('link-23', 'delSpecialChar', 'link-15');">delSpecialChar</a></tt><tt class="py-op">(</tt><tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"nameRes"</tt><tt class="py-op">]</tt><tt class="py-op">)</tt> </tt>
+<a name="L68"></a><tt class="py-lineno"> 68</tt>  <tt class="py-line"><tt class="py-comment">#       print (personDict["nameRes"])</tt> </tt>
+<a name="L69"></a><tt class="py-lineno"> 69</tt>  <tt class="py-line">         </tt>
+<a name="L70"></a><tt class="py-lineno"> 70</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">personDict</tt> </tt>
+</div><a name="L71"></a><tt class="py-lineno"> 71</tt>  <tt class="py-line"> </tt>
+<a name="L72"></a><tt class="py-lineno"> 72</tt>  <tt class="py-line"> </tt>
+<a name="prepTTLForPerson"></a><div id="prepTTLForPerson-def"><a name="L73"></a><tt class="py-lineno"> 73</tt> <a class="py-toggle" href="#" id="prepTTLForPerson-toggle" onclick="return toggle('prepTTLForPerson');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="drwDictToTTL-module.html#prepTTLForPerson">prepTTLForPerson</a><tt class="py-op">(</tt><tt class="py-param">personDict</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="prepTTLForPerson-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="prepTTLForPerson-expanded"><a name="L74"></a><tt class="py-lineno"> 74</tt>  <tt class="py-line">        <tt class="py-docstring">"""     Erstellt aus einem preparierten Dict ein .ttl Text Fragment"""</tt> </tt>
+<a name="L75"></a><tt class="py-lineno"> 75</tt>  <tt class="py-line">        <tt class="py-name">ttlText</tt> <tt class="py-op">=</tt> <tt class="py-string">""</tt> </tt>
+<a name="L76"></a><tt class="py-lineno"> 76</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"sterbeortRes"</tt><tt class="py-op">]</tt> <tt class="py-op">!=</tt> <tt class="py-string">""</tt><tt class="py-op">:</tt> </tt>
+<a name="L77"></a><tt class="py-lineno"> 77</tt>  <tt class="py-line">                <tt class="py-name">ttlText</tt> <tt class="py-op">+=</tt> <tt class="py-string">"""</tt> </tt>
+<a name="L78"></a><tt class="py-lineno"> 78</tt>  <tt class="py-line"><tt class="py-string">&lt;Place/%(sterbeortRes)s&gt; </tt> </tt>
+<a name="L79"></a><tt class="py-lineno"> 79</tt>  <tt class="py-line"><tt class="py-string">                a drw-model:place;</tt> </tt>
+<a name="L80"></a><tt class="py-lineno"> 80</tt>  <tt class="py-line"><tt class="py-string">                drw-model:deathPlaceOf &lt;Person/%(nameRes)s&gt; ;</tt> </tt>
+<a name="L81"></a><tt class="py-lineno"> 81</tt>  <tt class="py-line"><tt class="py-string">                rdfs:label "%(sterbeort)s" .</tt> </tt>
+<a name="L82"></a><tt class="py-lineno"> 82</tt>  <tt class="py-line"><tt class="py-string">                """</tt><tt class="py-op">%</tt><tt class="py-name">personDict</tt> </tt>
+<a name="L83"></a><tt class="py-lineno"> 83</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"sterbejahrRes"</tt><tt class="py-op">]</tt> <tt class="py-op">!=</tt> <tt class="py-string">""</tt><tt class="py-op">:</tt> </tt>
+<a name="L84"></a><tt class="py-lineno"> 84</tt>  <tt class="py-line">                <tt class="py-name">ttlText</tt> <tt class="py-op">+=</tt> <tt class="py-string">"""</tt> </tt>
+<a name="L85"></a><tt class="py-lineno"> 85</tt>  <tt class="py-line"><tt class="py-string">&lt;Year/%(sterbejahrRes)s&gt; </tt> </tt>
+<a name="L86"></a><tt class="py-lineno"> 86</tt>  <tt class="py-line"><tt class="py-string">                a drw-model:year;</tt> </tt>
+<a name="L87"></a><tt class="py-lineno"> 87</tt>  <tt class="py-line"><tt class="py-string">                drw-model:yearOfDeathOf &lt;Person/%(nameRes)s&gt; ;</tt> </tt>
+<a name="L88"></a><tt class="py-lineno"> 88</tt>  <tt class="py-line"><tt class="py-string">                rdfs:label "%(sterbejahr)s" .</tt> </tt>
+<a name="L89"></a><tt class="py-lineno"> 89</tt>  <tt class="py-line"><tt class="py-string">                """</tt><tt class="py-op">%</tt><tt class="py-name">personDict</tt> </tt>
+<a name="L90"></a><tt class="py-lineno"> 90</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"geburtsortRes"</tt><tt class="py-op">]</tt> <tt class="py-op">!=</tt> <tt class="py-string">""</tt><tt class="py-op">:</tt> </tt>
+<a name="L91"></a><tt class="py-lineno"> 91</tt>  <tt class="py-line">                <tt class="py-name">ttlText</tt> <tt class="py-op">+=</tt> <tt class="py-string">"""</tt> </tt>
+<a name="L92"></a><tt class="py-lineno"> 92</tt>  <tt class="py-line"><tt class="py-string">&lt;Place/%(geburtsortRes)s&gt; </tt> </tt>
+<a name="L93"></a><tt class="py-lineno"> 93</tt>  <tt class="py-line"><tt class="py-string">                a drw-model:place;</tt> </tt>
+<a name="L94"></a><tt class="py-lineno"> 94</tt>  <tt class="py-line"><tt class="py-string">                drw-model:birthPlaceOf &lt;Person/%(nameRes)s&gt; ; </tt> </tt>
+<a name="L95"></a><tt class="py-lineno"> 95</tt>  <tt class="py-line"><tt class="py-string">                rdfs:label "%(geburtsort)s" .</tt> </tt>
+<a name="L96"></a><tt class="py-lineno"> 96</tt>  <tt class="py-line"><tt class="py-string">                """</tt><tt class="py-op">%</tt><tt class="py-name">personDict</tt> </tt>
+<a name="L97"></a><tt class="py-lineno"> 97</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"geburtsjahrRes"</tt><tt class="py-op">]</tt> <tt class="py-op">!=</tt> <tt class="py-string">""</tt><tt class="py-op">:</tt> </tt>
+<a name="L98"></a><tt class="py-lineno"> 98</tt>  <tt class="py-line">                <tt class="py-name">ttlText</tt> <tt class="py-op">+=</tt> <tt class="py-string">"""</tt> </tt>
+<a name="L99"></a><tt class="py-lineno"> 99</tt>  <tt class="py-line"><tt class="py-string">&lt;Year/%(geburtsjahrRes)s&gt; </tt> </tt>
+<a name="L100"></a><tt class="py-lineno">100</tt>  <tt class="py-line"><tt class="py-string">                a drw-model:year;</tt> </tt>
+<a name="L101"></a><tt class="py-lineno">101</tt>  <tt class="py-line"><tt class="py-string">                drw-model:yearOfBirthOf &lt;Person/%(nameRes)s&gt; ;</tt> </tt>
+<a name="L102"></a><tt class="py-lineno">102</tt>  <tt class="py-line"><tt class="py-string">                rdfs:label "%(geburtsjahr)s" .</tt> </tt>
+<a name="L103"></a><tt class="py-lineno">103</tt>  <tt class="py-line"><tt class="py-string">                """</tt><tt class="py-op">%</tt><tt class="py-name">personDict</tt> </tt>
+<a name="L104"></a><tt class="py-lineno">104</tt>  <tt class="py-line">        <tt class="py-name">ttlText</tt> <tt class="py-op">+=</tt> <tt class="py-string">"""</tt> </tt>
+<a name="L105"></a><tt class="py-lineno">105</tt>  <tt class="py-line"><tt class="py-string">&lt;Person/%(nameRes)s&gt; </tt> </tt>
+<a name="L106"></a><tt class="py-lineno">106</tt>  <tt class="py-line"><tt class="py-string">        a drw-model:person ;</tt> </tt>
+<a name="L107"></a><tt class="py-lineno">107</tt>  <tt class="py-line"><tt class="py-string">    drw-model:labor "%(beruf)s" ;</tt> </tt>
+<a name="L108"></a><tt class="py-lineno">108</tt>  <tt class="py-line"><tt class="py-string">    drw-model:lastName "%(name)s";</tt> </tt>
+<a name="L109"></a><tt class="py-lineno">109</tt>  <tt class="py-line"><tt class="py-string">        drw-model:firstName "%(vornamen)s" ;</tt> </tt>
+<a name="L110"></a><tt class="py-lineno">110</tt>  <tt class="py-line"><tt class="py-string">        rdfs:label "%(name)s, %(vornamen)s" ;"""</tt><tt class="py-op">%</tt><tt class="py-name">personDict</tt> </tt>
+<a name="L111"></a><tt class="py-lineno">111</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"sterbejahrRes"</tt><tt class="py-op">]</tt> <tt class="py-op">!=</tt> <tt class="py-string">""</tt><tt class="py-op">:</tt> </tt>
+<a name="L112"></a><tt class="py-lineno">112</tt>  <tt class="py-line">                <tt class="py-name">ttlText</tt> <tt class="py-op">+=</tt> <tt class="py-string">u'\n\tdrw-model:yearOfDeathIs drw-catalog:Year/'</tt> </tt>
+<a name="L113"></a><tt class="py-lineno">113</tt>  <tt class="py-line">                <tt class="py-name">ttlText</tt> <tt class="py-op">+=</tt> <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"sterbejahrRes"</tt><tt class="py-op">]</tt> <tt class="py-op">+</tt> <tt class="py-string">' ;'</tt> </tt>
+<a name="L114"></a><tt class="py-lineno">114</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"sterbeortRes"</tt><tt class="py-op">]</tt> <tt class="py-op">!=</tt> <tt class="py-string">""</tt><tt class="py-op">:</tt> </tt>
+<a name="L115"></a><tt class="py-lineno">115</tt>  <tt class="py-line">                <tt class="py-name">ttlText</tt> <tt class="py-op">+=</tt> <tt class="py-string">u'\n\tdrw-model:deathPlaceIs drw-catalog:Place/'</tt> </tt>
+<a name="L116"></a><tt class="py-lineno">116</tt>  <tt class="py-line">                <tt class="py-name">ttlText</tt> <tt class="py-op">+=</tt> <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"sterbeortRes"</tt><tt class="py-op">]</tt> <tt class="py-op">+</tt><tt class="py-string">u' ;'</tt> </tt>
+<a name="L117"></a><tt class="py-lineno">117</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"geburtsjahrRes"</tt><tt class="py-op">]</tt> <tt class="py-op">!=</tt> <tt class="py-string">""</tt><tt class="py-op">:</tt> </tt>
+<a name="L118"></a><tt class="py-lineno">118</tt>  <tt class="py-line">                <tt class="py-name">ttlText</tt> <tt class="py-op">+=</tt> <tt class="py-string">u'\n\tdrw-model:yearOfBirthIs drw-catalog:Year/'</tt> </tt>
+<a name="L119"></a><tt class="py-lineno">119</tt>  <tt class="py-line">                <tt class="py-name">ttlText</tt> <tt class="py-op">+=</tt> <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"geburtsjahrRes"</tt><tt class="py-op">]</tt> <tt class="py-op">+</tt> <tt class="py-string">u' ;'</tt> </tt>
+<a name="L120"></a><tt class="py-lineno">120</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"geburtsortRes"</tt><tt class="py-op">]</tt> <tt class="py-op">!=</tt> <tt class="py-string">""</tt><tt class="py-op">:</tt> </tt>
+<a name="L121"></a><tt class="py-lineno">121</tt>  <tt class="py-line">                <tt class="py-name">ttlText</tt> <tt class="py-op">+=</tt> <tt class="py-string">u'\n\tdrw-model:birthPlaceIs drw-catalog:Place/'</tt> </tt>
+<a name="L122"></a><tt class="py-lineno">122</tt>  <tt class="py-line">                <tt class="py-name">ttlText</tt> <tt class="py-op">+=</tt> <tt class="py-name">personDict</tt><tt class="py-op">[</tt><tt class="py-string">"geburtsortRes"</tt><tt class="py-op">]</tt> <tt class="py-op">+</tt> <tt class="py-string">' ;'</tt> </tt>
+<a name="L123"></a><tt class="py-lineno">123</tt>  <tt class="py-line">        <tt class="py-name">ttlText</tt> <tt class="py-op">=</tt> <tt class="py-name">ttlText</tt><tt class="py-op">[</tt><tt class="py-op">:</tt><tt class="py-op">-</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> </tt>
+<a name="L124"></a><tt class="py-lineno">124</tt>  <tt class="py-line">        <tt class="py-name">ttlText</tt> <tt class="py-op">+=</tt> <tt class="py-string">u'.'</tt> </tt>
+<a name="L125"></a><tt class="py-lineno">125</tt>  <tt class="py-line"> </tt>
+<a name="L126"></a><tt class="py-lineno">126</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">ttlText</tt> </tt>
+</div><a name="L127"></a><tt class="py-lineno">127</tt>  <tt class="py-line"> </tt>
+<a name="L128"></a><tt class="py-lineno">128</tt>  <tt class="py-line"> </tt>
+<a name="isErrorInText"></a><div id="isErrorInText-def"><a name="L129"></a><tt class="py-lineno">129</tt> <a class="py-toggle" href="#" id="isErrorInText-toggle" onclick="return toggle('isErrorInText');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="drwDictToTTL-module.html#isErrorInText">isErrorInText</a><tt class="py-op">(</tt><tt class="py-param">text</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="isErrorInText-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="isErrorInText-expanded"><a name="L130"></a><tt class="py-lineno">130</tt>  <tt class="py-line">        <tt class="py-docstring">""" checkt einen string auf Fehler (Es steckt noch ein &lt;</tt> </tt>
+<a name="L131"></a><tt class="py-lineno">131</tt>  <tt class="py-line"><tt class="py-docstring">        oder ein &gt; drin. Das kann passieren, wenn die eingelesene html Fehlerhaft </tt> </tt>
+<a name="L132"></a><tt class="py-lineno">132</tt>  <tt class="py-line"><tt class="py-docstring">        war.</tt> </tt>
+<a name="L133"></a><tt class="py-lineno">133</tt>  <tt class="py-line"><tt class="py-docstring">        Wenn ein Fehler enthalten ist wirft die MEthode eine Exception"""</tt> </tt>
+<a name="L134"></a><tt class="py-lineno">134</tt>  <tt class="py-line">        <tt class="py-name">errorList</tt> <tt class="py-op">=</tt> <tt class="py-op">[</tt><tt class="py-string">u'&lt;'</tt><tt class="py-op">,</tt> <tt class="py-string">u'&gt;'</tt><tt class="py-op">,</tt><tt class="py-string">'*'</tt><tt class="py-op">,</tt><tt class="py-string">u'\u2020 '</tt><tt class="py-op">]</tt> </tt>
+<a name="L135"></a><tt class="py-lineno">135</tt>  <tt class="py-line">        <tt class="py-keyword">for</tt> <tt class="py-name">error</tt> <tt class="py-keyword">in</tt> <tt class="py-name">errorList</tt><tt class="py-op">:</tt> </tt>
+<a name="L136"></a><tt class="py-lineno">136</tt>  <tt class="py-line">                <tt class="py-keyword">if</tt> <tt class="py-name">error</tt> <tt class="py-keyword">in</tt> <tt class="py-name">text</tt><tt class="py-op">:</tt> </tt>
+<a name="L137"></a><tt class="py-lineno">137</tt>  <tt class="py-line">                        <tt class="py-name">errortext</tt> <tt class="py-op">=</tt> <tt class="py-string">u'Das darf nicht enthalten sein: "'</tt> <tt class="py-op">+</tt> <tt class="py-name">error</tt> <tt class="py-op">+</tt> <tt class="py-string">'"\n'</tt> </tt>
+<a name="L138"></a><tt class="py-lineno">138</tt>  <tt class="py-line">                        <tt class="py-name">errortext</tt> <tt class="py-op">+=</tt>  <tt class="py-name">text</tt> </tt>
+<a name="L139"></a><tt class="py-lineno">139</tt>  <tt class="py-line">                        <tt class="py-keyword">raise</tt> <tt class="py-name">Exception</tt><tt class="py-op">(</tt><tt class="py-name">errortext</tt><tt class="py-op">)</tt> </tt>
+<a name="L140"></a><tt class="py-lineno">140</tt>  <tt class="py-line"> </tt>
+<a name="L141"></a><tt class="py-lineno">141</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">text</tt> </tt>
+</div><a name="L142"></a><tt class="py-lineno">142</tt>  <tt class="py-line"> </tt>
+<a name="L143"></a><tt class="py-lineno">143</tt>  <tt class="py-line"> </tt>
+<a name="cleanTextForResName"></a><div id="cleanTextForResName-def"><a name="L144"></a><tt class="py-lineno">144</tt> <a class="py-toggle" href="#" id="cleanTextForResName-toggle" onclick="return toggle('cleanTextForResName');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="drwDictToTTL-module.html#cleanTextForResName">cleanTextForResName</a><tt class="py-op">(</tt><tt class="py-param">text</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="cleanTextForResName-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="cleanTextForResName-expanded"><a name="L145"></a><tt class="py-lineno">145</tt>  <tt class="py-line">        <tt class="py-docstring">""" Sorgt dafuer, dass ein Text als Ressourcenname verwendet werden kann"""</tt> </tt>
+<a name="L146"></a><tt class="py-lineno">146</tt>  <tt class="py-line">        <tt class="py-name">forbiddenTokens</tt> <tt class="py-op">=</tt> <tt class="py-string">".,:;()'!"</tt> <tt class="py-comment">#sollen geloescht werden</tt> </tt>
+<a name="L147"></a><tt class="py-lineno">147</tt>  <tt class="py-line">        <tt class="py-keyword">for</tt> <tt class="py-name">token</tt> <tt class="py-keyword">in</tt> <tt class="py-name">forbiddenTokens</tt><tt class="py-op">:</tt> </tt>
+<a name="L148"></a><tt class="py-lineno">148</tt>  <tt class="py-line">                <tt class="py-name">text</tt> <tt class="py-op">=</tt> <tt class="py-name">text</tt><tt class="py-op">.</tt><tt class="py-name">replace</tt><tt class="py-op">(</tt><tt class="py-name">token</tt><tt class="py-op">,</tt> <tt class="py-string">""</tt><tt class="py-op">)</tt> </tt>
+<a name="L149"></a><tt class="py-lineno">149</tt>  <tt class="py-line">        <tt class="py-name">text</tt> <tt class="py-op">=</tt> <tt class="py-name">text</tt><tt class="py-op">.</tt><tt class="py-name">strip</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
+<a name="L150"></a><tt class="py-lineno">150</tt>  <tt class="py-line">        <tt class="py-name">text</tt> <tt class="py-op">=</tt> <tt class="py-name">text</tt><tt class="py-op">.</tt><tt class="py-name">replace</tt><tt class="py-op">(</tt><tt class="py-string">" "</tt><tt class="py-op">,</tt> <tt class="py-string">"_"</tt><tt class="py-op">)</tt> </tt>
+<a name="L151"></a><tt class="py-lineno">151</tt>  <tt class="py-line">         </tt>
+<a name="L152"></a><tt class="py-lineno">152</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">text</tt> </tt>
+</div><a name="L153"></a><tt class="py-lineno">153</tt>  <tt class="py-line"> </tt>
+<a name="L154"></a><tt class="py-lineno">154</tt>  <tt class="py-line"> </tt>
+<a name="deleteHTMLCode"></a><div id="deleteHTMLCode-def"><a name="L155"></a><tt class="py-lineno">155</tt> <a class="py-toggle" href="#" id="deleteHTMLCode-toggle" onclick="return toggle('deleteHTMLCode');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="drwDictToTTL-module.html#deleteHTMLCode">deleteHTMLCode</a><tt class="py-op">(</tt><tt class="py-param">text</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="deleteHTMLCode-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="deleteHTMLCode-expanded"><a name="L156"></a><tt class="py-lineno">156</tt>  <tt class="py-line">        <tt class="py-docstring">""" Loescht "&lt;br&gt;" aus dem Text. Kann noch aus dem dict stammen."""</tt> </tt>
+<a name="L157"></a><tt class="py-lineno">157</tt>  <tt class="py-line">        <tt class="py-name">text</tt> <tt class="py-op">=</tt> <tt class="py-name">text</tt><tt class="py-op">.</tt><tt class="py-name">replace</tt><tt class="py-op">(</tt><tt class="py-string">"&lt;br&gt;"</tt><tt class="py-op">,</tt> <tt class="py-string">" "</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L158"></a><tt class="py-lineno">158</tt>  <tt class="py-line"> </tt>
+<a name="printDict"></a><div id="printDict-def"><a name="L159"></a><tt class="py-lineno">159</tt> <a class="py-toggle" href="#" id="printDict-toggle" onclick="return toggle('printDict');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="drwDictToTTL-module.html#printDict">printDict</a><tt class="py-op">(</tt><tt class="py-param">dictToPrint</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="printDict-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="printDict-expanded"><a name="L160"></a><tt class="py-lineno">160</tt>  <tt class="py-line">        <tt class="py-docstring">"""     Printfunktion fuer das Dict (Zum anschauen)"""</tt> </tt>
+<a name="L161"></a><tt class="py-lineno">161</tt>  <tt class="py-line">        <tt class="py-name">printText</tt> <tt class="py-op">=</tt> <tt class="py-string">u''</tt> </tt>
+<a name="L162"></a><tt class="py-lineno">162</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-name">isinstance</tt><tt class="py-op">(</tt><tt class="py-name">dictToPrint</tt><tt class="py-op">,</tt> <tt class="py-name">type</tt><tt class="py-op">(</tt><tt class="py-op">{</tt><tt class="py-op">}</tt><tt class="py-op">)</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L163"></a><tt class="py-lineno">163</tt>  <tt class="py-line">                <tt class="py-keyword">for</tt> <tt class="py-name">entry</tt> <tt class="py-keyword">in</tt> <tt class="py-name">dictToPrint</tt><tt class="py-op">:</tt> </tt>
+<a name="L164"></a><tt class="py-lineno">164</tt>  <tt class="py-line">                        <tt class="py-name">printText</tt> <tt class="py-op">+=</tt> <tt class="py-name">entry</tt> <tt class="py-op">+</tt> <tt class="py-string">"\n"</tt>  </tt>
+<a name="L165"></a><tt class="py-lineno">165</tt>  <tt class="py-line">                        <tt class="py-name">printText</tt> <tt class="py-op">+=</tt> <tt id="link-24" class="py-name" targets="Function drwDictToTTL.printDict()=drwDictToTTL-module.html#printDict"><a title="drwDictToTTL.printDict" class="py-name" href="#" onclick="return doclink('link-24', 'printDict', 'link-24');">printDict</a></tt><tt class="py-op">(</tt><tt class="py-name">dictToPrint</tt><tt class="py-op">[</tt><tt class="py-name">entry</tt><tt class="py-op">]</tt><tt class="py-op">)</tt> <tt class="py-op">+</tt> <tt class="py-string">"\n"</tt> </tt>
+<a name="L166"></a><tt class="py-lineno">166</tt>  <tt class="py-line">        <tt class="py-keyword">else</tt><tt class="py-op">:</tt> </tt>
+<a name="L167"></a><tt class="py-lineno">167</tt>  <tt class="py-line">                <tt class="py-name">printText</tt> <tt class="py-op">+=</tt> <tt class="py-name">dictToPrint</tt> </tt>
+<a name="L168"></a><tt class="py-lineno">168</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">printText</tt>         </tt>
+</div><a name="L169"></a><tt class="py-lineno">169</tt>  <tt class="py-line"> </tt>
+<a name="delSpecialChar"></a><div id="delSpecialChar-def"><a name="L170"></a><tt class="py-lineno">170</tt> <a class="py-toggle" href="#" id="delSpecialChar-toggle" onclick="return toggle('delSpecialChar');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="drwDictToTTL-module.html#delSpecialChar">delSpecialChar</a><tt class="py-op">(</tt><tt class="py-param">unicodeString</tt><tt class="py-op">,</tt> <tt class="py-param">htmlCode</tt><tt class="py-op">=</tt><tt class="py-name">True</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="delSpecialChar-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="delSpecialChar-expanded"><a name="L171"></a><tt class="py-lineno">171</tt>  <tt class="py-line">    <tt class="py-docstring">"""    Konvertiert einen unicode String in einen ASCII String mit HTML </tt> </tt>
+<a name="L172"></a><tt class="py-lineno">172</tt>  <tt class="py-line"><tt class="py-docstring">        Entitaeten</tt> </tt>
+<a name="L173"></a><tt class="py-lineno">173</tt>  <tt class="py-line"><tt class="py-docstring">        Wenn htmlCode=False angegeben wird, dann werden auch &lt;,&gt;,\", &amp; </tt> </tt>
+<a name="L174"></a><tt class="py-lineno">174</tt>  <tt class="py-line"><tt class="py-docstring">        uebertragen. Das funktioniert natuerlich nicht mit htmlCode.Der ist ja </tt> </tt>
+<a name="L175"></a><tt class="py-lineno">175</tt>  <tt class="py-line"><tt class="py-docstring">        dann nicht mehr lesbar"""</tt> </tt>
+<a name="L176"></a><tt class="py-lineno">176</tt>  <tt class="py-line">    <tt class="py-keyword">if</tt> <tt class="py-name">htmlCode</tt> <tt class="py-op">==</tt> <tt class="py-name">False</tt><tt class="py-op">:</tt> </tt>
+<a name="L177"></a><tt class="py-lineno">177</tt>  <tt class="py-line">        <tt class="py-name">unicodeString</tt> <tt class="py-op">=</tt> <tt class="py-name">cgi</tt><tt class="py-op">.</tt><tt class="py-name">escape</tt><tt class="py-op">(</tt><tt class="py-name">unicodeString</tt><tt class="py-op">,</tt> <tt class="py-name">quote</tt><tt class="py-op">=</tt><tt class="py-name">True</tt><tt class="py-op">)</tt> </tt>
+<a name="L178"></a><tt class="py-lineno">178</tt>  <tt class="py-line">    <tt class="py-name">asciiString</tt> <tt class="py-op">=</tt> <tt class="py-name">unicodeString</tt><tt class="py-op">.</tt><tt class="py-name">encode</tt><tt class="py-op">(</tt><tt class="py-string">'ascii'</tt><tt class="py-op">,</tt> <tt class="py-string">'ignore'</tt><tt class="py-op">)</tt> </tt>
+<a name="L179"></a><tt class="py-lineno">179</tt>  <tt class="py-line">    <tt class="py-keyword">del</tt><tt class="py-op">(</tt><tt class="py-name">unicodeString</tt><tt class="py-op">)</tt> </tt>
+<a name="L180"></a><tt class="py-lineno">180</tt>  <tt class="py-line">     </tt>
+<a name="L181"></a><tt class="py-lineno">181</tt>  <tt class="py-line">    <tt class="py-keyword">return</tt> <tt class="py-name">asciiString</tt> </tt>
+</div><a name="L182"></a><tt class="py-lineno">182</tt>  <tt class="py-line">                                 </tt>
+<a name="L183"></a><tt class="py-lineno">183</tt>  <tt class="py-line"> </tt>
+<a name="L184"></a><tt class="py-lineno">184</tt>  <tt class="py-line"><tt class="py-keyword">if</tt> <tt class="py-name">__name__</tt> <tt class="py-op">==</tt> <tt class="py-string">"__main__"</tt><tt class="py-op">:</tt> </tt>
+<a name="L185"></a><tt class="py-lineno">185</tt>  <tt class="py-line">        <tt id="link-25" class="py-name" targets="Function drwDictToTTL.main()=drwDictToTTL-module.html#main,Function drwHelper.main()=drwHelper-module.html#main"><a title="drwDictToTTL.main
+drwHelper.main" class="py-name" href="#" onclick="return doclink('link-25', 'main', 'link-25');">main</a></tt><tt class="py-op">(</tt><tt class="py-name">sys</tt><tt class="py-op">.</tt><tt class="py-name">argv</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">:</tt><tt class="py-op">]</tt><tt class="py-op">)</tt> </tt>
+<a name="L186"></a><tt class="py-lineno">186</tt>  <tt class="py-line"> </tt><script type="text/javascript">
+<!--
+expandto(location.href);
+// -->
+</script>
+</pre>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://pcai042.informatik.uni-leipzig.de/~swp13-wb/">DRW Personendatenbank - TTLConverter and HTML Parser</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Mon May 20 22:51:37 2013
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

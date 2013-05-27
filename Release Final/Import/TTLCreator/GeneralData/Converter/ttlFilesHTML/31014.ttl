@@ -1,0 +1,93 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<ImportantPerson/30462>
+	a drw-model:ImportantPerson .
+
+<Place/Moskau>
+	a drw-model:Place ;
+	rdfs:label "Moskau" .
+
+<GeneralLabor/Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Arzt" .
+
+<Q/31014hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Eigene Vita in Latein in: De brassica ... (vgl. <b>W</b>), XIV-XVI." .
+
+<RelatedPerson/31014fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Karl Gottlieb († 1771), Praktischer Arzt und Chirurg" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<RelatedPerson/31014motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Charlotta Helena, geb. Ithimaean" .
+
+<RelatedPerson/31014hasSibling1>
+	drw-model:hasNameLink <ImportantPerson/30462> ;
+	a drw-model:RelatedPerson ;
+	rdfs:label "Vermutlich Bruder von Johann Wilhelm Ludwig <span style='font-variant:small-caps;'>THIEMANN</span>" .
+
+<W/31014hasW2>
+	rdfs:label "De seminum ad sementem praeparatione. Diss. Wittenberg 1781, 47 S." ;
+	a drw-model:W .
+
+<Q/31014hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Universitäts- und Landesbibliothek Sachsen-Anhalt in Halle/Saale, Abt. Sondersammlungen: Sign. Yo 9, f. 126v, f. 139v." .
+
+<Date/?>
+	rdfs:label "?" ;
+	a drw-model:Date .
+
+<NameVariation/31014hasNameVariation1>
+	rdfs:label "TIEMANN" ;
+	a drw-model:NameVariation .
+
+<ImportantPerson/31014>
+	drw-model:hasEducation <A/31014hasEducation1> ;
+	drw-model:hasQ <Q/31014hasQ2> ;
+	drw-model:hasW <W/31014hasW1> ;
+	drw-model:fatherIs <RelatedPerson/31014fatherIs1> ;
+	drw-model:hasMainName <MainName/31014hasMainName1> ;
+	drw-model:hasQ <Q/31014hasQ1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Arzt> ;
+	drw-model:wasBornOn <Date/12_9_1758> ;
+	drw-model:motherIs <RelatedPerson/31014motherIs1> ;
+	drw-model:hasSibling <RelatedPerson/31014hasSibling1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:diedOn <Date/?> ;
+	rdfs:label "Thiemann, Johann Gottlieb" ;
+	drw-model:hasID "31014" ;
+	drw-model:wasBornIn <Place/Moskau> ;
+	drw-model:hasW <W/31014hasW2> .
+
+<W/31014hasW1>
+	rdfs:label "De brassica, puerperis ipso festo amphidromiorum die, in commodum alimentum et salutare simul remedium oblata atque apposita. Wittenberg 1781, XVI S.; darin eigene Vita." ;
+	a drw-model:W .
+
+<A/31014hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Anfangs Schulbildung im Privatinstitut Johann Bernhard PFUNDHELLERS in Moskau, 1767-1772 Besuch des Moskauer Gymnasiums bei Rektor Johannes Matthias SCHADEN (1731-1797), bei PFUNDHELLER u.a., 1773-1775 Übungen in Chirurgie und Anatomie im Allgemeinen Krankenhaus in Moskau, 1775-1777 Studium bei Anton Alekseevič BARSOV (1730-1791), Dmitrij Sergeevič ANIČKOV (1733-1788), Johannes Joachim Julius ROST (1726-1791) und Johann Gottfried REICHEL († 1778) an der Universität Moskau, 1777-1781 Studium bei Johann Friedrich HILLER (1718-1790), Johann Daniel TITIUS (1729-1796), Johann Matthias SCHROECKH (1733-1808), Georg Rudolph BÖHMER (1723-1803), Christian Friedrich NÜRNBERGER (1744-1795), Georg August LANGGUTH (1711-1782) u.a. und 1781 Dr. med. an der Universität Wittenberg; weitere Daten nicht bekannt." .
+
+<MainName/31014hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/31014hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/31014hasNameVariation1> ;
+	rdfs:label "Thiemann, Johann Gottlieb" .
+
+<NameVariation/31014hasNameVariation2>
+	rdfs:label "TIMAN" ;
+	a drw-model:NameVariation .
+
+<Date/12_9_1758>
+	a drw-model:Date ;
+	rdfs:label "12.9.1758" .
+

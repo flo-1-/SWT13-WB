@@ -1,0 +1,128 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<GeneralLabor/Chemiker>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Chemiker" .
+
+<SL/10001hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Volkov, Vladimir Akimovič, Kulikova, Marina Vladimirovna: Rossijskaja professura XVIII - načalo XX v. Chimičeskie nauki. Biografičeskij slovar'. Sankt-Peterburg 2004, 11-12." .
+
+<RelatedPerson/10001fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Nikolaj Ivanovič (1802-1860), Gutsbesitzer, Fachautor für Landwirtschaft" .
+
+<NameVariation/10001hasNameVariation1>
+	rdfs:label "ABASCHEW" ;
+	a drw-model:NameVariation .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/10001hasW5>
+	rdfs:label "O mechaničeskom analize počvy. Zapiski Imperatorskago Novorossijskago Universiteta 4 (1871), 361-367." ;
+	a drw-model:W .
+
+<W/10001hasW3>
+	rdfs:label "Zemledelie v Anglii. Moskva 1865, 56 S.; auch in: Russkij vestnik (1865) Nr. 4." ;
+	a drw-model:W .
+
+<MainName/10001hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Abašev, Dmitrij Nikolaevič" ;
+	drw-model:hasNameVariation <NameVariation/10001hasNameVariation1> .
+
+<W/10001hasW1>
+	rdfs:label "Issledovanija o javlenijach vzaimnogo rastvorenija židkostej. Mag. Diss. Moskva 1858, 40 S." ;
+	a drw-model:W .
+
+<MG/10001hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Imperatorskoe Moskovskoe obščestvo ispytatelej prirody [Kaiserliche Gesellschaft der Naturforscher zu Moskau] (ab 1857), Imperatorskoe sel'sko-chozjastvennoe obščestvo Južnoj Rossii [Kaiserliche Gesellschaft für Landwirtschaft Südrusslands] (ab 1865, Vizepräsident 1875-1879)." .
+
+<SL/10001hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Hausmann, Guido: Universität und städtische Gesellschaft in Odessa, 1865-1917. Soziale und nationale Selbstorganisation an der Peripherie des Zarenreiches. Stuttgart 1998 (Quellen und Studien zur Geschichte des östlichen Europa 49), 581." .
+
+<SL/10001hasSL3>
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA." .
+
+<Date/11_or_23_oder_5_or_17_1_1880>
+	a drw-model:Date ;
+	rdfs:label "11./23. oder 5./17.1.1880" .
+
+<B/10001hasStationOfLife1>
+	rdfs:label "1854-1858 Lehrer für Naturwissenschaften, 4. Gymnasium in Moskau; 1858-1859 Adjunkt-Professor für Chemie, 1860-1862 Leiter des Chemie-Laboratoriums, Universität Kiev, 1859-1860 Studienaufenthalte bei Robert <span style='font-variant:small-caps;'>BUNSEN</span> an der Universität Heidelberg und in Paris; 1865-1868 Doz. für Agronomie, 1869 ao. Professor, 1869-1879 o. Professor, Universität Odessa." ;
+	a drw-model:B ;
+	drw-model:hasNameLink <ImportantPerson/10029> .
+
+<Date/1829>
+	a drw-model:Date ;
+	rdfs:label "1829" .
+
+<ImportantPerson/10001>
+	drw-model:hasSL <SL/10001hasSL3> ;
+	drw-model:hasW <W/10001hasW2> ;
+	drw-model:hasSL <SL/10001hasSL2> ;
+	drw-model:hasEducation <A/10001hasEducation1> ;
+	drw-model:hasStationOfLife <B/10001hasStationOfLife1> ;
+	drw-model:hasID "10001" ;
+	drw-model:hasMG <MG/10001hasMG1> ;
+	drw-model:diedOn <Date/11_or_23_oder_5_or_17_1_1880> ;
+	drw-model:hasMainName <MainName/10001hasMainName1> ;
+	drw-model:hasW <W/10001hasW4> ;
+	rdfs:label "Abašev, Dmitrij Nikolaevič" ;
+	drw-model:hasW <W/10001hasW1> ;
+	drw-model:hasWL <WL/10001hasWL1> ;
+	drw-model:wasBornOn <Date/1829> ;
+	drw-model:hasQ <Q/10001hasQ1> ;
+	drw-model:wasBornIn <Place/Familiengut_im_Kreis_Belsk_Smo> ;
+	a drw-model:ImportantPerson ;
+	drw-model:fatherIs <RelatedPerson/10001fatherIs1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Chemiker> ;
+	drw-model:hasW <W/10001hasW5> ;
+	drw-model:diedIn <Place/Odessa> ;
+	drw-model:hasSL <SL/10001hasSL1> ;
+	drw-model:hasW <W/10001hasW3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Agrarchemie> .
+
+<Place/Odessa>
+	a drw-model:Place ;
+	rdfs:label "Odessa;" .
+
+<Q/10001hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Ob otpravlenii za granicu s učenoj cel'ju. In: Kratkij otčet po universitetu Sv. Vladimira v 1858-1859 učebnom godu. Kiev 1864, 14." .
+
+<W/10001hasW4>
+	rdfs:label "O teplovych javlenijach obnaruživajuščichsja pri soedinenii židkostej. Diss. Char'kov 1868; auch in: Zapiski Imperatorskago Novorossijskago Universiteta 1 (1867/68) 6, 13-77." ;
+	a drw-model:W .
+
+<Place/Familiengut_im_Kreis_Belsk_Smo>
+	a drw-model:Place ;
+	rdfs:label "Familiengut im Kreis Bel'sk, Smolensker Gouvernement oder St. Petersburger Gouvernement" .
+
+<WL/10001hasWL1>
+	rdfs:label "Pionier bei der Erforschung der gegenseitigen Auflösung der Flüssigkeiten und der Entwicklung der Lehre über die Lösungen: A. sagte zum ersten Mal den kritischen Zustand für das Flüssigkeit-Flüssigkeit-System voraus und untersuchte diesen experimentell. Seine Schlussfolgerungen: 1) Lösungen können Molekularverbindungen genannt werden; 2) Die gegenseitige Lösbarkeit der Flüssigkeiten wächst mit der Erhöhung der Temperatur; 3) Einige Flüssigkeiten werden \"bei den niedrigeren Temperaturen [...] in bestimmten, weniger bedeutenden Proportionen einander aufgelöst, bei höheren verbinden sie sich in allen Proportionen\"." ;
+	a drw-model:WL .
+
+<W/10001hasW2>
+	rdfs:label "Agronomičeskoe učenie Libicha [Liebigs Agrikulturlehre]. Russkij vestnik (1864) Nr. 7. - Chimija v priloženii k zemledeliju i fiziologii rastenij. Russkij vestnik (1864), ebenda." ;
+	a drw-model:W .
+
+<GeneralLabor/Professor_fr_Agrarchemie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Agrarchemie" .
+
+<ImportantPerson/10029>
+	a drw-model:ImportantPerson .
+
+<A/10001hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Bis 1851 Studium an der Physikalisch-Mathematischen Fakultät mit dem Abschluss \"Kandidat der Naturwissenschaften\", Universität St. Petersburg, 1858 Mag. chem., Universität Moskau oder Kiev, 1868 Dr. chem., Universität Char'kov." .
+

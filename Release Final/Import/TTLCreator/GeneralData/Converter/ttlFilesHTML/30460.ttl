@@ -1,0 +1,130 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30460hasW1>
+	rdfs:label "Operacija brjucha. Drug zdorov'ja (1836) Nr. 36 und 39." ;
+	a drw-model:W .
+
+<B/30460hasStationOfLife1>
+	rdfs:label "1818-1819 Bataillonsarzt im Preobraženskij-Leibgarde-Regiment, 1819-1820 Kanzleiverwalter der militärmedizinischen Abteilung des Präsidenten der MCA, 1820-1825 Hofarzt und Leibarzt des Zaren ALEKSANDR I. (1777-1825) während seiner Westeuropareisen, darunter insbesondere 1820 in Wien, wo T. alle Wiener Krankenhäuser, die Therapeutische, Chirurgische und Augenklinik, die Universität sowie das Anatomische Kabinett der Medicinisch-Chirurgischen Josephs-Akademie besuchte und den Leiter der Chirurgischen Klinik Vinzenz von KERN (1760-1829), den Leiter der Augenklinik Friedrich JAEGER VON JAXTHAL (1784-1871), den Professor für Physiologie Mihály Ignác von LENHOSSÉK (1773-1840) u.a. kennenlernte, 1826-1827 Oberarzt des Artillerie-Hospitals, ab 1827 Generalstabsarzt des Zivilressorts, ab 1829 \"Ehrenleibchirurg\" am Hofe des Zaren NIKOLAJ I. (1796-1855), 1836-1846 Direktor des Medizinaldepartments des Kriegsministeriums, ab 1847 Mitglied des Medizinalrats des Ministeriums des Innern.
+Inhaber der Ehrentitel \"Staatsrat\" (1831) und \"Geheimrat\" (1866) sowie des St.-Vladimir-Ordens 4. (oder 2.) Klasse, 1839 Ehrendoktorwürde an der MCA." ;
+	a drw-model:B .
+
+<RelatedPerson/30460fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Kliment, Geistlicher" .
+
+<RelatedPerson/30460hasDescendant1>
+	rdfs:label "Aleksandr Dmitrievič (1839-1872), Kammerherr, Beamter im Staatsministerium" ;
+	a drw-model:RelatedPerson .
+
+<ImportantPerson/30460>
+	drw-model:hasEducation <A/30460hasEducation1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Ehrenleibchirurg> ;
+	rdfs:label "Tarasov, Dmitrij Klement'evič" ;
+	drw-model:hasW <W/30460hasW1> ;
+	drw-model:wasBornOn <Date/26_10_1792> ;
+	drw-model:fatherIs <RelatedPerson/30460fatherIs1> ;
+	drw-model:hasW <W/30460hasW5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasW <W/30460hasW4> ;
+	drw-model:hasDescendant <RelatedPerson/30460hasDescendant1> ;
+	drw-model:wasBornIn <Place/Tarasov_Gouvernement_Rjazan> ;
+	drw-model:hasStationOfLife <B/30460hasStationOfLife1> ;
+	drw-model:hasSL <SL/30460hasSL1> ;
+	drw-model:hasID "30460" ;
+	a drw-model:ImportantPerson ;
+	drw-model:diedOn <Date/Juli_1866> ;
+	drw-model:hasQ <Q/30460hasQ1> ;
+	drw-model:hasMG <MG/30460hasMG1> ;
+	drw-model:hasW <W/30460hasW3> ;
+	drw-model:hasMainName <MainName/30460hasMainName1> ;
+	drw-model:hasW <W/30460hasW2> .
+
+<GeneralLabor/Ehrenleibchirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ehrenleibchirurg" .
+
+<MainName/30460hasMainName1>
+	rdfs:label "Tarasov, Dmitrij Klement'evič" ;
+	drw-model:hasNameVariation <NameVariation/30460hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30460hasNameVariation4> ;
+	drw-model:hasNameVariation <NameVariation/30460hasNameVariation3> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30460hasNameVariation2> .
+
+<MG/30460hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Imperatorskoe čelovekoljubimoe obščestvo [Kaiserliche Philanthropische Gesellschaft] (ab 1830), Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee], S.-Peterburgskoe obščestvo russkich vračej [St.-Petersburger Gesellschaft russischer Ärzte] (Ehrenmitglied)." .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<NameVariation/30460hasNameVariation4>
+	a drw-model:NameVariation ;
+	rdfs:label "Kлимeнтoвич" .
+
+<NameVariation/30460hasNameVariation3>
+	rdfs:label "Kлимeнтьeвич" ;
+	a drw-model:NameVariation .
+
+<W/30460hasW4>
+	rdfs:label "Tifoznaja gorjačka u trechletnjago mal'čika. Protokoly Peterburgskogo Obščestva russkich vračej (1858/59), 233." ;
+	a drw-model:W .
+
+<A/30460hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1800-1810 Besuch des Priesterseminars in Rjazan' und 1810-1814 des dortigen Theologiekurses, zugleich bis 1815 Lehrer für Latein und Griechisch am Rjazaner Priesterseminar, 1815-1818 Studium an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg." .
+
+<Place/Tarasov_Gouvernement_Rjazan>
+	a drw-model:Place ;
+	rdfs:label "Tarasov, Gouvernement Rjazan'" .
+
+<Date/26_10_1792>
+	a drw-model:Date ;
+	rdfs:label "26.10.1792" .
+
+<Q/30460hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Vospominanija mojej žizni. Zapiski početnogo lejb-chirurga D. K. Tarasova. Russkaja starina 4 (1871), 223-261, 597-645; 5 (1872), 355-388; 6 (1872), 99-143; später erschienen auch u. d. T.: Imperator Aleksandr I. Poslednie gody carstvovanija, bolezn', končina i pogrebenie. Po ličnym vospominanijam lejb-chirurga D. K. Tarasova. Petrograd 1915, 226 S." .
+
+<W/30460hasW2>
+	a drw-model:W ;
+	rdfs:label "Ėnciklopedičeskij medicinskij leksikon. Mit Andrej Petrovič Lej und Petr Antonovič Strelkovskij. Bd. 1-6. S.-Peterburg 1842-1850." .
+
+<Date/Juli_1866>
+	a drw-model:Date ;
+	rdfs:label "Juli 1866" .
+
+<NameVariation/30460hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Klimentovič" .
+
+<SL/30460hasSL1>
+	rdfs:label "WBIS RBA: R 452,101-108." ;
+	a drw-model:SL .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<NameVariation/30460hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Kliment'evič" .
+
+<W/30460hasW3>
+	rdfs:label "Dva slučaja ukušenija ljudej pticami. Protokoly Peterburgskogo Obščestva russkich vračej (1856), 43." ;
+	a drw-model:W .
+
+<W/30460hasW5>
+	rdfs:label "Beteiligte sich außerdem an der Herausgabe der 2. Auflage von <i>Pharmacopoea Castrensis Ruthenica</i> von James Wyllie (1768-1854)." ;
+	a drw-model:W .
+

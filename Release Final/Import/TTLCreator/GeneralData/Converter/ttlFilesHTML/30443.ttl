@@ -1,0 +1,138 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30443hasSL1>
+	rdfs:label "Nachapetov 2003, 221." ;
+	a drw-model:SL .
+
+<SL/30443hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Pridvornyj kalendar': na 1910 god. S.-Peterburg [o. J.], 291-292; ~ 1911, 303; ~ 1913, 317; ~ 1914, 397." .
+
+<ImportantPerson/30443>
+	drw-model:hasW <W/30443hasW2> ;
+	drw-model:hasSL <SL/30443hasSL1> ;
+	drw-model:hasID "30443" ;
+	drw-model:hasW <W/30443hasW6> ;
+	drw-model:hasEducation <A/30443hasEducation1> ;
+	drw-model:hasW <W/30443hasW8> ;
+	drw-model:hasW <W/30443hasW1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30443.jpg> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Ehrenleibmedikus> ;
+	drw-model:hasSL <SL/30443hasSL2> ;
+	drw-model:diedOn <Date/nach_1917> ;
+	drw-model:hasSL <SL/30443hasSL4> ;
+	drw-model:hasMainName <MainName/30443hasMainName1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <W/30443hasW5> ;
+	drw-model:hasSL <SL/30443hasSL3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Therapie> ;
+	drw-model:fatherIs <RelatedPerson/30443fatherIs1> ;
+	drw-model:hasSL <SL/30443hasSL5> ;
+	drw-model:hasStationOfLife <B/30443hasStationOfLife1> ;
+	drw-model:wasBornOn <Date/1863_oder_1862_oder_1861> ;
+	rdfs:label "Popov, Pëtr Michajlovič" ;
+	drw-model:hasP <P/30443hasP1> ;
+	drw-model:hasW <W/30443hasW3> ;
+	drw-model:hasW <W/30443hasW4> ;
+	drw-model:hasW <W/30443hasW7> .
+
+<NameVariation/30443hasNameVariation1>
+	rdfs:label "POPOFF" ;
+	a drw-model:NameVariation .
+
+<SL/30443hasSL5>
+	rdfs:label "WBIS RBA: R 377, 14." ;
+	a drw-model:SL .
+
+<A/30443hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Bis 1886 Studium der Medizin und 1892 Dr. med. an der Universität Moskau." .
+
+<W/30443hasW6>
+	rdfs:label "Ueber die Einwirkung von eiweissverdauenden Fermenten auf die Nucleinstoffe. Zeitschrift für physiologische Chemie 18 (1894), 533-539." ;
+	a drw-model:W .
+
+<B/30443hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "1886(oder 1888)-1890 Ordinator, ab 1890 Assistent, 1891-1894 ao. Professor, ab 1894 o. Professor und ab 1896 Direktor der Klinik für innere Medizin der Universität Moskau, 1893 Studienaufenthalt bei Emil DU BOIS-REYMOND (1818-1896) am Physiologischen Institut in Berlin, zeitweise Konsultant am Militärkrankenhaus in Moskau, ab 1894 \"Ehrenleibmedikus\" am Hofe des Zaren NIKOLAJ II. (1868-1918).
+Inhaber der Ehrentitel \"Kollegienassessor\" und \"Wirklicher Russischer Staatsrat\" sowie der Medaillen \"Zum Gedenken an Zar Aleksandr III.\" (1894) und \"300 Jahre Romanov-Dynastie\" (1913)." .
+
+<RelatedPerson/30443fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Michail" .
+
+<W/30443hasW4>
+	rdfs:label "Kariokinez v želudočnych železach. Medicina (1892), 10 S." ;
+	a drw-model:W .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30443hasW2>
+	rdfs:label "Katarr želudka. Diss. Moskva 1892, 137 S." ;
+	a drw-model:W .
+
+<Date/1863_oder_1862_oder_1861>
+	a drw-model:Date ;
+	rdfs:label "1863 oder 1862 oder 1861" .
+
+<W/30443hasW8>
+	rdfs:label "Aortitis und Fieber. Zeitschrift für klinische Medizin 75 (1912), 506-517." ;
+	a drw-model:W .
+
+<SL/30443hasSL2>
+	rdfs:label "Pfrepper, Regine, Pfrepper, Gerd: Studienaufenthalte russischer Mediziner an deutschen Universitäten im 19. Jahrhundert. In: Ingrid Kästner, Regine Pfrepper (Hgg.), \"... so ist die Naturwissenschaft das wahre internationale Band der Völker\". Aachen 2004 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaften 9), 273-292." ;
+	a drw-model:SL .
+
+<NameVariation/30443hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Пeтр" .
+
+<GeneralLabor/Professor_fr_Therapie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Therapie" .
+
+<SL/30443hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Professora MU - Professora Moskovskogo universiteta. Online Ressource Online Ressource (8.3.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.hist.msu.ru/Science/HisUni/Profess/Alfp.htm" .
+
+<Date/nach_1917>
+	a drw-model:Date ;
+	rdfs:label "nach 1917" .
+
+<W/30443hasW7>
+	rdfs:label "Ueber Magenkatarrh. Zeitschrift für klinische Medicin 32 (1897), 389-414." ;
+	a drw-model:W .
+
+<P/30443hasP1>
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.hist.msu.ru/Science/HisUni/Profess/Image88.gif" ;
+	rdfs:label "Foto aus: Professora MU (<b>SL</b>). Online Ressource Online Ressource (8.3.2012), abgedruckt in: Fischer 2010, 190." .
+
+<GeneralLabor/Ehrenleibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ehrenleibmedikus" .
+
+<W/30443hasW5>
+	rdfs:label "Podkožnye vpryskivanija myš'jačnogo Fovlerova rastvora, Medicina (1892), 12 S.; <b>deutsch</b>: Ueber subcutane Injektionen der Fowler'schen Arseniklösung. Berliner klinische Wochenschrift 31 (1894), 29-32." ;
+	a drw-model:W .
+
+<W/30443hasW3>
+	a drw-model:W ;
+	rdfs:label "Bakterial'noe naselenie kataral'nogo želudka. Medicina (1892), 14 S." .
+
+<MainName/30443hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Popov, Pëtr Michajlovič" ;
+	drw-model:hasNameVariation <NameVariation/30443hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30443hasNameVariation1> .
+
+<W/30443hasW1>
+	rdfs:label "Sredstvo Kocha po opytam nad životnymi. Medicina (1891), 8 S.; <b>deutsch</b>: Das Koch'sche Heilmittel nach Versuchen an Thieren. Berliner klinische Wochenschrift 28 (1891), 859-862." ;
+	a drw-model:W .
+

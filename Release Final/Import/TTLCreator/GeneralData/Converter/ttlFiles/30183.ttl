@@ -1,0 +1,566 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<W/30183hasW3>
+	rdfs:label "Morfologija osteogeneza. Sistematičeskij očerk istorii razvitija i rosta kostej čeloveka. Kiev 1887, 256 S." ;
+	a drw-model:W .
+
+<WGermanPublication/30183hasWGermanPublication2>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Neue Methode der Untersuchung des Centralnervensystems des Menschen. Archiv v. Max Schultze 1870, zit. n. <b>SL</b> WBIS RBA (Ikonnikov 1884 und Bogdanov).[5]" ;
+	drw-model:hasComment <Comment/30183_5> .
+
+<Year/1884>
+	rdfs:label "1884" ;
+	a drw-model:Year .
+
+<SL/30183hasSL6>
+	<http://xmlns.com/foaf/0.1/homepage> "http://health-ua.com/articles/3626.html" ;
+	a drw-model:SL ;
+	drw-model:hasDate "25.7.2011" ;
+	rdfs:label "Marinža, Luk’jan: V. A. Bec. Rodonačal’nik učenija o citoarchitektonike kory mozga. Zdorov’ja Ukrajiny. Medyčna gazeta (2007) Nr. 7, 74 (Online Ressource)." .
+
+<Year/1868>
+	rdfs:label "1868" ;
+	a drw-model:Year .
+
+<B/30183hasStationOfLife1>
+	rdfs:label "Prosektor am Lehrstuhl für Anatomie an der Universität Kiev" ;
+	drw-model:ended <Year/1867> ;
+	a drw-model:B ;
+	drw-model:began <Year/1863> .
+
+<A/30183hasEducation4>
+	a drw-model:A ;
+	drw-model:began <Year/1860> ;
+	rdfs:label "Gehilfe des Prosektors am Lehrstuhl für Anatomie an der Universität Kiev" ;
+	drw-model:ended <Year/1861> .
+
+<Comment/30183_5>
+	rdfs:label "Diese Arbeit ist im <i>Archiv für mikroskopische Anatomie</i>, hrsg. von Max Schultze, 1870 nicht erschienen. Vermutlich handelt es sich um ein „Vorabmanuskript“, welches später im Band 9 unter einem neuen Titel erschienen ist (s. <b>W</b>)." ;
+	a drw-model:Comment .
+
+<Comment/30183_2>
+	rdfs:label "Vgl. Chačaturjan 1950 (<b>SL</b>). In Volkov/Kulikova 2003 b (<b>SL</b>) 1889 angegeben." ;
+	a drw-model:Comment .
+
+<B/30183hasStationOfLife9>
+	drw-model:inYear <Year/1873> ;
+	a drw-model:B ;
+	rdfs:label "Delegierung (für 5 Monate) zu der 5. Weltausstellung in Wien, zugleich Vorlesungen mit Demonstrationen für Ärzte (in deutscher und russischer Sprache) im Auditorium von <span style='font-variant:small-caps;'>Brücke</span> am Josephinum" ;
+	drw-model:hasNameLink <ImportantPerson/30184> .
+
+<Year/1861>
+	rdfs:label "1861" ;
+	a drw-model:Year .
+
+<WGermanPublication/30183hasWGermanPublication3>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber die Lage der grauen Substanz des menschlichen Gehirns. Zeitschrift des Aerztlichen Verrein[!] zu Wien 1872, zit. n. <b>SL</b> WBIS RBA (Ikonnikov 1884 und Bogdanov)." .
+
+<W/30183hasW4>
+	rdfs:label "Atlas čelovečeskago mozga. [Kiev] 1860-1890." ;
+	a drw-model:W .
+
+<WL/30183hasWL1>
+	rdfs:label "Hauptforschungsgebiet: Zentralnervensystem" ;
+	a drw-model:WL .
+
+<ImportantPerson/30664>
+	a drw-model:ImportantPerson .
+
+<Comment/30183_3>
+	rdfs:label "Vgl. Roche Lexikon: Medizin. 5. Aufl. München, Jena 2003, 212, und Wikipedia (Online Ressource)." ;
+	<http://xmlns.com/foaf/0.1/homepage> <http://de.wikipedia.org/wiki/Betz-Zelle> ;
+	a drw-model:Comment ;
+	drw-model:hasDate "16.6.2011" .
+
+<Date/14_or_26_4_1834>
+	a drw-model:Date ;
+	rdfs:label "14./26.4.1834" .
+
+<WL/30183hasWL8>
+	rdfs:label "Betz-Riesenzellen, auch Betz-Zelle und Betzsche Riesenpyramide [<i>Kletki Beca</i>] (Die größten Pyramidenzellen des Neocortex in Schicht V)[3]" ;
+	drw-model:hasComment <Comment/30183_3> ;
+	a drw-model:WL .
+
+<Year/1860>
+	rdfs:label "1860" ;
+	a drw-model:Year .
+
+<P/30183hasP2>
+	rdfs:label "Portrait in: Chačaturjan 1950 (<b>GPV</b>), nach dem Titelblatt." ;
+	a drw-model:P .
+
+<Q/30183hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Pis’mo iz Veny. Sovremennaja medicina (1861) Nr. 19, 1093-1100; auch in: Chačaturjan 1950 (<b>GPV</b>), 285-293." .
+
+<Place/Kiev_Grabsttte_Gelnde_des_St_M>
+	a drw-model:Place ;
+	rdfs:label "Kiev, Grabstätte: Gelände des St.-Michael-Klosters Vydubyči (Abb. vgl. <b>SL</b> Vikipedija )" .
+
+<WGermanPublication/30183hasWGermanPublication12>
+	rdfs:label "Ueber die Aus- und Rückbildung des menschlichen Schädelknochens. Centralblatt 1883[10], zit. n. <b>SL</b> WBIS RBA (Ikonnikov 1884 und Bogdanov)." ;
+	drw-model:hasComment <Comment/30183_10> ;
+	a drw-model:WGermanPublication .
+
+<B/30183hasStationOfLife8>
+	drw-model:inYear <Year/1872> ;
+	rdfs:label "Studienreise (April-Oktober) nach Österreich, Deutschland, England und Frankreich, darunter Mai-Juli Demonstration seiner Präparate-Sammlung bei <span style='font-variant:small-caps;'>Brücke</span> und in der Gesellschaft der Ärzte in Wien sowie Teilnahme an der 45. Versammlung Deutscher Naturforscher und Ärzte zu Leipzig vom 14.-18. August" ;
+	a drw-model:B ;
+	drw-model:hasNameLink <ImportantPerson/30184> .
+
+<WL/30183hasWL6>
+	rdfs:label "1872 Gründer des Photographischen Kabinetts am Anatomischen Theater der Universität Kiev" ;
+	a drw-model:WL .
+
+<NameVariation/30183hasNameVariation1>
+	rdfs:label "Bec, Volodymyr Oleksijovyč (ukrain.)" ;
+	a drw-model:NameVariation .
+
+<SL/30183hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Kukuev, Lev Aleksandrovič: V. A. Bec, 1834-1894. Moskva 1950 (Vydajuščiesja dejateli otečestvennoj mediciny), 88 S." .
+
+<W/30183hasW5>
+	a drw-model:W ;
+	rdfs:label "Neskol’ko slov o Sanitarnoj komissii i o Kievskoj gorodskoj sanitarnoj stancii. Kiev 1892, 26 S." .
+
+<Comment/30183_8>
+	rdfs:label "Moriz Benedikt (1835-1920) dankte dafür Betz ausdrücklich: „Vor allem muss ich auch hier Herrn Professor Betz in Kiew, der mir Anreger, Leiter und Stütze zugleich war, meinen wärmsten Dank aussprechen. Nur das äusserste Vertrauen in seine Autorität und Fachkenntnis ermuthigte mich meine Studien, trotz des grossen Misstrauens, dem sie begegneten, fortzusetzen… Zudem fällt der Löwenanteil der Arbeit dem geehrten Forscher, der die Aufnahmen nach den Originalien machte und die technische Ausführung des Atlasses mit allen möglichen Opfern besorgte, anheim.“ … Wien, im Sommer 1878 (Zit. S. VI)." ;
+	a drw-model:Comment .
+
+<ImportantPerson/30184>
+	a drw-model:ImportantPerson .
+
+<B/30183hasStationOfLife3>
+	drw-model:ended <Year/1870> ;
+	rdfs:label "ao. Professor, ab 1870 o. Professor an der Universität Kiev" ;
+	drw-model:began <Year/1868> ;
+	a drw-model:B .
+
+<Year/1867>
+	rdfs:label "1867" ;
+	a drw-model:Year .
+
+<GermanPublicationComment/30183hasGermanPublicationComment1>
+	drw-model:hasComment <Comment/30183_4> ;
+	a drw-model:GermanPublicationComment ;
+	rdfs:label "Publikationen in deutscher Sprache:" .
+
+<WGermanPublication/30183hasWGermanPublication8>
+	drw-model:hasComment <Comment/30183_7> ;
+	a drw-model:WGermanPublication ;
+	rdfs:label "Offener Brief: Ueber die Gehirnen Collection des Professors Benedikt. Wiener medizinische Zeitung[7] (1875), zit. n. <b>SL</b> WBIS RBA (Ikonnikov 1884 und Bogdanov)." .
+
+<Comment/30183_9>
+	rdfs:label "Im Centralblatt für die medicinischen Wissenschaften weder im Bd. 20 (1882) noch im Bd. 21 (1883) erschienen." ;
+	a drw-model:Comment .
+
+<Q/30183hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Osnovnyj anatomičeskij muzej pri Kafedre anatomii čeloveka Nacional’nogo medicinskogo universiteta im. akademika A. A. Bogomol’ca v Kieve." .
+
+<GPV/30183hasGPV1>
+	rdfs:label "Publikationen 1860-1883 (36 Nrn.), in: Ikonnikov, V. S.: Biografičeskij slovar’ professorov i prepodavatelej Imperatorskago universiteta sv. Vladimira (1834-1884). Kiev 1884, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<WL/30183hasWL7>
+	rdfs:label "Nach ihm ist benannt:" ;
+	a drw-model:WL .
+
+<SL/30183hasSL5>
+	rdfs:label "Kukuev, Lev Aleksandrovič: Vladimir Alekseevič Bec. Nevropatologija i psichiatrija 18 (1949) 3, 5-8." ;
+	a drw-model:SL .
+
+<NameVariation/30183hasNameVariation2>
+	rdfs:label "Betz, Wladimir/Woldemar"@de ;
+	a drw-model:NameVariation .
+
+<W/30183hasW6>
+	rdfs:label "Očerk meroprijatij v ėpidemiju cholery 1892 goda na linii Jugo-zapadnych železnych dorog. Kiev 1893, 52 S." ;
+	a drw-model:W .
+
+<RelatedPerson/30183fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Aleksej, Adliger, Major" .
+
+<ImportantPerson/30411>
+	a drw-model:ImportantPerson .
+
+<A/30183hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Erstunterricht vom Lehrer der Lancasterschule Ivan <span style='font-variant:small-caps;'>Malevskij</span> in Petrovka und Besuch des Gymnasiums in Nižyn" .
+
+<B/30183hasStationOfLife2>
+	drw-model:ended <Year/1867> ;
+	rdfs:label "Vorlesungen in Anatomie an der naturwissenschaftlichen Abteilung der Physiko-mathematischen Fakultät und in Histologie an der medizinischen Fakultät der Universität Kiev" ;
+	a drw-model:B ;
+	drw-model:began <Year/1863> .
+
+<WGermanPublication/30183hasWGermanPublication1>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber den Blutstrom in der Leber, insbesondere den in der Leberarterie. Sitzungsberichte der Mathematisch-Naturwissenschaftlichen Classe der Kaiserlichen Akademie der Wissenschaften Bd. 46, II. Abt. (1862) H. VI-X, 238-254." .
+
+<RelatedPerson/30183wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "D., geb. Štram [Stramm]" .
+
+<WGermanPublication/30183hasWGermanPublication9>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Mitarbeit an: Moriz Benedikt: Anatomische Studien an Verbrecher-Gehirnen. Für Anthropologen, Mediciner, Juristen und Psychologen bearbeitet. Wien 1879, XVI + 151 S.; Anhang: Hirnatlas I-XII (<span style='font-variant:small-caps;'>Betz</span> del. et phot.).[8]" ;
+	drw-model:hasComment <Comment/30183_8> .
+
+<Date/30_9_or_12_10_1894>
+	a drw-model:Date ;
+	rdfs:label "30.9./12.10.1894" .
+
+<A/30183hasEducation6>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Universität Kiev" ;
+	drw-model:inYear <Year/1863> .
+
+<ImportantPerson/10029>
+	a drw-model:ImportantPerson .
+
+<Year/1894>
+	drw-model:hasComment <Comment/30183_2> ;
+	rdfs:label "1894" ;
+	a drw-model:Year .
+
+<GPV/30183hasGPV2>
+	rdfs:label "Publikationen 1860-1887 (37 Nrn.), in: Bogdanov, Anatol: Materialy dlja istorii naučnoj i prikladnoj dejatel’nosti v Rossii po zoologii [...] (1850-1887 g.). Tom 1-4. Moskva 1888-l892, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<Year/1870>
+	rdfs:label "1870" ;
+	a drw-model:Year .
+
+<B/30183hasStationOfLife5>
+	a drw-model:B .
+
+<W/30183hasW7>
+	rdfs:label "Außerdem Mitautor eines biographischen Werkes: Istoričeskie dejateli jugo-zapadnoj Rossii v biografijach i portretach. Sostavili Vladimir Bonifat’evič Antonovič i V. A. Bec po kollekcii Vasilija Vasil’eviča Tarnovskogo. Bd. 1. Kiev 1885, VI + II + 110 S., 19 Portraits, 2 Bl. Faks." ;
+	a drw-model:W .
+
+<WGermanPublication/30183hasWGermanPublication6>
+	rdfs:label "Die Untersuchungsmethode des Centralnerven-Systems des Menschen. Archiv für mikroskopische Anatomie 9 (1873), 101-117." ;
+	a drw-model:WGermanPublication .
+
+<MG/30183hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Obščestvo estestvoispytatelej v Kieve, v Odesse, v Tiflise [Gesellschaft der Naturforscher in Kiev, Odessa und Tiflis] (Gründungsmitglied), Imperatorskoe obščestvo ljubitelej estestvoznanija, antropologii i ėtnografii pri Moskovskom universitete [Kaiserliche Gesellschaft der Liebhaber der Naturwissenschaften, der Anthropologie und Ethnographie an der Universität Moskau] (1879), Museum für Völkerkunde zu Leipzig (1878), Société d’Anthropologie de Paris (1878), Obščestvo Odesskich vračej [Gesellschaft der Ärzte zu Odessa] (1883 Ehrenmitglied)" .
+
+<WL/30183hasWL4>
+	rdfs:label "Pionier der Mikroskopie" ;
+	a drw-model:WL .
+
+<P/30183hasP1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://en.wikipedia.org/wiki/File:Vladimir_Betz.JPG" ;
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb. [Gemälde eines unbekannten Künstlers von ca. 1880]) aus: Online Ressource (25.7.2011); Reproduktionen in <b>SL</b> Kukuev 1950, Moskalenko/Cherkasov/Vasilenko 2010." .
+
+<B/30183hasStationOfLife10>
+	drw-model:began <Year/1884> ;
+	a drw-model:B ;
+	rdfs:label "Oberarzt bei der „Süd-Westlichen Eisenbahn“ in Kiev" ;
+	drw-model:ended <Year/1894> .
+
+<Comment/30183_1>
+	rdfs:label "In Nemcy Rossii (<b>SL</b>) fälschlicherweise bei C. Ludwig in Marburg angegeben. In Marburg war Ludwig nur Student (von 1834 bis 1836)." ;
+	a drw-model:Comment .
+
+<WGermanPublication/30183hasWGermanPublication4>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Das Gesetz der Vertheilung der Gyri und Sulci der menschlichen Gehirnoberfläche. Sitzungsberichte der Wiener Psychiatern[!], zit. n. <b>SL</b> WBIS RBA (Ikonnikov 1884 und Bogdanov)." .
+
+<GPV/30183hasGPV3>
+	rdfs:label "Chačaturjan 1950 – V. A. Bec: Anatomičeskie i gistologičeskie issledovanija (Izbrannye trudy). Red. A. A. Chačaturjan. Moskva 1950, 299 S.; darin S. 295-298: Bibliografija važnejšich rabot V. A. Beca [1860-1887]." ;
+	a drw-model:GPV .
+
+<SL/30183hasSL2>
+	<http://xmlns.com/foaf/0.1/homepage> "http://88.217.241.77/amburger/" ;
+	a drw-model:SL ;
+	rdfs:label "Erik-Amburger-Datenbank. Ausländer im vorrevolutionären Russland (Online Ressource, 10.4.2012): Dokument-Id [53344/42033 (16.6.2011)]." .
+
+<Year/1871>
+	a drw-model:Year ;
+	rdfs:label "1871" .
+
+<MainName/30183hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Bec, Vladimir Alekseevič" ;
+	drw-model:hasNameVariation <NameVariation/30183hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30183hasNameVariation2> .
+
+<WGermanPublication/30183hasWGermanPublication7>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Anatomischer Nachweis zweier Gehirncentra. Centralblatt für die medicinischen Wissenschaften 12 (1874) 578-580, 595-599." .
+
+<B/30183hasStationOfLife4>
+	rdfs:label "Leiter des Lehrstuhls für Anatomie an der Universität Kiev, zeitweise Direktor des Anatomischen Theaters" ;
+	drw-model:began <Year/1868> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1890> .
+
+<WL/30183hasWL5>
+	rdfs:label "Gründer einer einzigartigen Sammlung anatomischer und histologischer Präparate (ca. 10 000 Objekte/Katalogisate/Specimina u. ä.)" ;
+	a drw-model:WL .
+
+<A/30183hasEducation3>
+	a drw-model:A ;
+	drw-model:began <Year/1853> ;
+	drw-model:ended <Year/1860> ;
+	rdfs:label "Studium der Medizin an der St.-Vladimir-Universität Kiev" .
+
+<SL/30183hasSL11>
+	a drw-model:SL ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 51-52." .
+
+<GeneralLabor/Professor_fr_Anatomie_und_Hist>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Anatomie und Histologie" .
+
+<B/30183hasStationOfLife11>
+	a drw-model:B .
+
+<Comment/30183_6>
+	rdfs:label "Vgl. dazu Leopoldina 11 (1875), 169-170, Gurlt 1895 (<b>SL</b>) und Chačaturjan 1950 (<b>GPV</b>), 270." ;
+	a drw-model:Comment .
+
+<Place/Gut_Bicovka_Tatarovina_bei_Ost>
+	a drw-model:Place ;
+	rdfs:label "Gut „Bicovka“, Tatarovščina bei Oster, Gouv. Černigov" .
+
+<ImportantPerson/30553>
+	a drw-model:ImportantPerson .
+
+<SL/30183hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Gurlt, E.: Medicinisch-naturwissenschaftlicher Nekrolog des Jahres 1894. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 139 (1895) 3, 581." .
+
+<ImportantPerson/30183>
+	drw-model:hasEducation <A/30183hasEducation6> ;
+	drw-model:hasQ <Q/30183hasQ1> ;
+	drw-model:hasSL <SL/30183hasSL9> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30183hasWGermanPublication11> ;
+	drw-model:wasMarriedTo <RelatedPerson/30183wasMarriedTo1> ;
+	drw-model:hasMainName <MainName/30183hasMainName1> ;
+	drw-model:hasComment <Comment/30183_8> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30183hasWGermanPublication5> ;
+	drw-model:wasBornIn <Place/Gut_Bicovka_Tatarovina_bei_Ost> ;
+	drw-model:hasComment <Comment/30183_7> ;
+	drw-model:diedOn <Date/30_9_or_12_10_1894> ;
+	drw-model:hasComment <Comment/30183_9> ;
+	drw-model:hasWL <WL/30183hasWL7> ;
+	drw-model:hasStationOfLife <B/30183hasStationOfLife3> ;
+	drw-model:hasStationOfLife <B/30183hasStationOfLife11> ;
+	drw-model:hasWL <WL/30183hasWL8> ;
+	drw-model:hasEducation <A/30183hasEducation5> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30183hasWGermanPublication9> ;
+	drw-model:diedIn <Place/Kiev_Grabsttte_Gelnde_des_St_M> ;
+	drw-model:hasStationOfLife <B/30183hasStationOfLife1> ;
+	drw-model:hasComment <Comment/30183_10> ;
+	drw-model:hasWL <WL/30183hasWL6> ;
+	drw-model:hasGPV <GPV/30183hasGPV3> ;
+	drw-model:hasW <W/30183hasW5> ;
+	drw-model:hasW <W/30183hasW2> ;
+	drw-model:hasSL <SL/30183hasSL1> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30183hasHonoursAndAwards1> ;
+	drw-model:hasID "30183" ;
+	drw-model:hasWL <WL/30183hasWL3> ;
+	rdfs:label "Bec, Vladimir Alekseevič" ;
+	drw-model:hasSL <SL/30183hasSL7> ;
+	drw-model:hasWL <WL/30183hasWL4> ;
+	drw-model:hasComment <Comment/30183_4> ;
+	drw-model:hasEducation <A/30183hasEducation3> ;
+	drw-model:hasWL <WL/30183hasWL2> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/30183hasSL5> ;
+	drw-model:hasStationOfLife <B/30183hasStationOfLife4> ;
+	drw-model:hasStationOfLife <B/30183hasStationOfLife10> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30183hasWGermanPublication7> ;
+	drw-model:hasP <P/30183hasP2> ;
+	drw-model:hasMG <MG/30183hasMG1> ;
+	drw-model:hasComment <Comment/30183_1> ;
+	drw-model:hasGPV <GPV/30183hasGPV2> ;
+	drw-model:hasStationOfLife <B/30183hasStationOfLife9> ;
+	drw-model:hasSL <SL/30183hasSL2> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30183hasWGermanPublication12> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30183hasWGermanPublication10> ;
+	drw-model:hasW <W/30183hasW6> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30183hasWGermanPublication4> ;
+	drw-model:hasStationOfLife <B/30183hasStationOfLife5> ;
+	drw-model:hasW <W/30183hasW3> ;
+	drw-model:hasEducation <A/30183hasEducation4> ;
+	drw-model:hasStationOfLife <B/30183hasStationOfLife6> ;
+	drw-model:hasSL <SL/30183hasSL6> ;
+	drw-model:hasComment <Comment/30183_6> ;
+	drw-model:hasGPV <GPV/30183hasGPV1> ;
+	drw-model:hasSL <SL/30183hasSL10> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30183.jpg> ;
+	drw-model:hasEducation <A/30183hasEducation1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30183hasWGermanPublication8> ;
+	drw-model:hasEducation <A/30183hasEducation2> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30183hasWGermanPublication1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30183hasWGermanPublication3> ;
+	drw-model:hasSL <SL/30183hasSL4> ;
+	drw-model:hasP <P/30183hasP1> ;
+	drw-model:hasSL <SL/30183hasSL3> ;
+	drw-model:hasComment <Comment/30183_5> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30183hasWGermanPublication2> ;
+	drw-model:hasQ <Q/30183hasQ2> ;
+	drw-model:hasWL <WL/30183hasWL5> ;
+	drw-model:hasSL <SL/30183hasSL8> ;
+	drw-model:hasGermanPublicationComment <GermanPublicationComment/30183hasGermanPublicationComment1> ;
+	drw-model:hasStationOfLife <B/30183hasStationOfLife8> ;
+	drw-model:hasComment <Comment/30183_3> ;
+	drw-model:hasSL <SL/30183hasSL11> ;
+	drw-model:hasW <W/30183hasW7> ;
+	drw-model:wasBornOn <Date/14_or_26_4_1834> ;
+	drw-model:hasStationOfLife <B/30183hasStationOfLife2> ;
+	drw-model:hasW <W/30183hasW4> ;
+	drw-model:hasW <W/30183hasW1> ;
+	drw-model:fatherIs <RelatedPerson/30183fatherIs1> ;
+	drw-model:hasComment <Comment/30183_2> ;
+	drw-model:hasStationOfLife <B/30183hasStationOfLife7> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30183hasWGermanPublication6> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Anatomie_und_Hist> ;
+	drw-model:hasWL <WL/30183hasWL1> .
+
+<Year/1872>
+	rdfs:label "1872" ;
+	a drw-model:Year .
+
+<Year/1890>
+	rdfs:label "1890" ;
+	a drw-model:Year .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<B/30183hasStationOfLife7>
+	drw-model:ended <Year/1873> ;
+	rdfs:label "öffentliche Vorlesungen in physiologischer Anatomie in Kiev" ;
+	a drw-model:B ;
+	drw-model:began <Year/1871> .
+
+<WL/30183hasWL2>
+	rdfs:label "1874 Nachweis der Existenz zweier (motorischer) Gehirnzentren im Vorderhirn" ;
+	a drw-model:WL .
+
+<A/30183hasEducation2>
+	a drw-model:A ;
+	drw-model:inYear <Year/1853> ;
+	rdfs:label "Abschluss des 2. Gymnasiums in Kiev" .
+
+<W/30183hasW1>
+	rdfs:label "O mechanisme krovoobraščenija v pečeni. Diss. Kiev 1863, 15 S." ;
+	a drw-model:W .
+
+<SL/30183hasSL10>
+	<http://xmlns.com/foaf/0.1/homepage> "http://ru.wikipedia.org/wiki/Бец,_Владимир_Алексеевич" ;
+	a drw-model:SL ;
+	drw-model:hasDate "25.7.2011" ;
+	rdfs:label "Vikipedija (Online Ressource)." .
+
+<Year/1853>
+	rdfs:label "1853" ;
+	a drw-model:Year .
+
+<WGermanPublication/30183hasWGermanPublication11>
+	drw-model:hasComment <Comment/30183_9> ;
+	a drw-model:WGermanPublication ;
+	rdfs:label "Die Fasergerüste der Gehirnoberfläche. Centralblatt 1883[9], zit. n. <b>SL</b> WBIS RBA (Ikonnikov 1884 und Bogdanov)." .
+
+<Year/1873>
+	rdfs:label "1873" ;
+	a drw-model:Year .
+
+<Comment/30183_7>
+	rdfs:label "Muss heißen: Allgemeine Wiener medizinische Zeitung. Im Bd. 20 (1875) ist der Artikel nicht abgedruckt." ;
+	a drw-model:Comment .
+
+<ImportantPerson/30366>
+	a drw-model:ImportantPerson .
+
+<SL/30183hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Moskalenko, V. F., Cherkasov, V. G., Vasilenko, D. A.: The World-Renowned Ukrainian Neuroanatomist Prof. Vladimir A. Bets (on the 175th Anniversary of His Birthday). Neurophysiology 42 (2010), 1-7." .
+
+<Year/1863>
+	rdfs:label "1863" ;
+	a drw-model:Year .
+
+<HonoursAndAwards/30183hasHonoursAndAwards1>
+	rdfs:label "1870 St.-Stanislav-Orden 2. Klasse mit Kaiserlicher Krone<br>1870 Silbermedaille auf der Allrussischen Manufakturausstellung in St. Petersburg [Abb. in Moskalenko/Cherkasov/Vasilenko 2010]<br>1873 Fortschritts-Medaille auf der 5. Weltausstellung in Wien [Abb. in Moskalenko/Cherkasov/Vasilenko 2010]<br>1873 St.-Annen-Orden 2. Klasse<br>1878 St.-Vladimir-Orden 3. Klasse<br>1882 „Wirklicher Russischer Staatsrat“<br>1888 „Verdienter o. Professor“ der Universität Kiev<br>V.-O.-Bec-Memorialmuseum im Gebäude des Lehrstuhls für normale Anatomie der Medizinischen Nationaluniversität „A. A. Bogomolec“ in Kiev" ;
+	a drw-model:HonoursAndAwards .
+
+<WGermanPublication/30183hasWGermanPublication5>
+	rdfs:label "Catalog der Gehirnpräparate. Ausgestellt von Professor Betz aus Kiew auf der 5. Weltausstellung 1873 in Wien (ausgezeichnet mit einer Medaille, s. <b>B</b>).[6]" ;
+	a drw-model:WGermanPublication ;
+	drw-model:hasComment <Comment/30183_6> .
+
+<WL/30183hasWL3>
+	rdfs:label "Einer der Begründer der modernen Neuroanatomie" ;
+	a drw-model:WL .
+
+<SL/30183hasSL1>
+	rdfs:label "Chačaturjan, A. A.: Vladimir Alekseevič Bec, 1834-1894 gg. In: Chačaturjan 1950 (<b>GPV</b>), 7-55; Osnovnye daty žizni i dejatel’nosti V. A. Beca. In: Ibid., 294-295." ;
+	a drw-model:SL .
+
+<A/30183hasEducation5>
+	drw-model:hasComment <Comment/30183_1> ;
+	drw-model:began <Year/1861> ;
+	drw-model:hasNameLink <ImportantPerson/10029> ;
+	drw-model:hasNameLink <ImportantPerson/30664> ;
+	drw-model:hasNameLink <ImportantPerson/30553> ;
+	rdfs:label "Weiterbildung in Österreich und Deutschland:
+- bei E. W. v. <span style='font-variant:small-caps;'>Brücke</span> und Josef <span style='font-variant:small-caps;'>Hyrtl</span> (1810-1894) an der Universität und bei C. <span style='font-variant:small-caps;'>Ludwig</span> an der Militär-medizinischen Akademie Josephinum in Wien[1]
+- bei Robert Wilhelm <span style='font-variant:small-caps;'>Bunsen</span> (1811-1899) und (Vorlesungen) bei Gustav Robert <span style='font-variant:small-caps;'>Kirchhoff</span> (1824-1887) und H. v. <span style='font-variant:small-caps;'>Helmholtz</span> (1821-1894) an der Universität Heidelberg
+- bei Rudolf Albert von <span style='font-variant:small-caps;'>Koelliker</span> (1817-1905) an der Universität Würzburg" ;
+	drw-model:ended <Year/1862> ;
+	drw-model:hasNameLink <ImportantPerson/30184> ;
+	a drw-model:A ;
+	drw-model:hasNameLink <ImportantPerson/30366> ;
+	drw-model:hasNameLink <ImportantPerson/30411> .
+
+<B/30183hasStationOfLife6>
+	drw-model:ended <Year/1894> ;
+	a drw-model:B ;
+	drw-model:began <Year/1871> ;
+	rdfs:label "Konsultant für Nervenkrankheiten am Städtischen St.-Kyrill-Krankenhaus in Kiev" .
+
+<W/30183hasW2>
+	rdfs:label "Dva centra v korkovom sloe čelovečeskogo mozga. Moskovskij vračebnyj vestnik (1874) Nr. 24, 26-28; (1875) Nr. [?], 9 S." ;
+	a drw-model:W .
+
+<WGermanPublication/30183hasWGermanPublication10>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber die feinere Structur der Gehirnrinde des Menschen. Centralblatt für die medicinischen Wissenschaften 19 (1881), 193-195, 209-213, 231-233; auch in: Revue d’Anthropologie (2) 4=10 (1881)." .
+
+<Comment/30183_4>
+	a drw-model:Comment ;
+	rdfs:label "Mit teilweise Korrekturen und Ergänzungen zu den ungenauen und fehlerhaften Angaben in Ikonnikov 1884 und Bogdanov (<b>GPV</b>) zu Titeln, Zeitschriften, Jahres- und Seitenzahlen. Jedoch konnten nicht alle Unkorrektheiten berichtigt werden." .
+
+<SL/30183hasSL9>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	rdfs:label "WBIS RBA: Russisches Biographisches Archiv (Online Ressource, 16.1.2013): R 52, 45-55; RS 6, 71-72." .
+
+<SL/30183hasSL8>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 99." .
+
+<Year/1862>
+	rdfs:label "1862" ;
+	a drw-model:Year .
+
+<Comment/30183_10>
+	rdfs:label "Wie Anm. 9." ;
+	a drw-model:Comment .
+

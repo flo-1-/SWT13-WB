@@ -1,0 +1,141 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<GeneralLabor/Facharzt_fr_Kinderheilkunde>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Facharzt für Kinderheilkunde" .
+
+<NameVariation/30002hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Moisej" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<SL/30002hasSL2>
+	rdfs:label "Šustov, A. S. (Hg.): Naši dejateli po medicine. S.-Peterburg 1910 (Illjustrirovannyj vestnik kul'tury, naučno-vospitatel'nago, techničeskago i torgovo-promyšlennago progressa Rossii 1)." ;
+	a drw-model:SL .
+
+<SL/30002hasSL4>
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA." .
+
+<A/30002hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1883-1889 Studium der Medizin an der Universität Dorpat und an der Universität Straßburg, 1890 Dr. med. in Dorpat." .
+
+<B/30002hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "Ab 1890 praktischer Arzt in St. Petersburg, zugleich Volontärarzt und 1892 Ordinator im Elisabeth-Kinderkrankenhaus, 1890-1892 Studienaufenthalte in Kinderkliniken in Deutschland, 1893-1900 Spezialarzt für Kinderheilkunde an der Maximilian-Heilanstalt, 1894-1902 ohne Entgelt praktizierender Arzt im Deutschen Alexanderhospital für Männer, ab 1898 Vertrauensarzt und ab 1909 Chefarzt der Versicherungsgesellschaft \"Rossija\" in St. Petersburg.
+Inhaber hoher russischer Ehrentitel, darunter 1900 \"Hofrat\", 1916 \"Wirklicher Russischer Staatsrat\"." .
+
+<W/30002hasW3>
+	rdfs:label "K učeniju o cikličeskoj al'buminurii [mit Titel in russ. u. franz. Sprache und franz. Zusammenfassung]. Ruskij archiv patologii, kliničeskoj mediciny i bakteriologii 4 (1897), 12 S." ;
+	a drw-model:W .
+
+<MG/30002hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Verein St. Petersburger Ärzte (ab 1890), Obščestvo detskich vračej Sankt-Peterburga [Verein St. Petersburger Kinderärzte] (ab 1907 Vizepräses)." .
+
+<W/30002hasW5>
+	rdfs:label "Pamjati Vladimira Nikolaeviča Rejtca. Doklady, čitanye v zasedanii obščestva detskich vračej v S.-Peterburge, 13. okt. 1904. Sankt-Peterburg 1904, 16 S." ;
+	a drw-model:W .
+
+<Date/26_10_oder_18_10_1863>
+	a drw-model:Date ;
+	rdfs:label "26.10. oder 18.10. 1863" .
+
+<Place/Kowno_Kaunas_Litauen>
+	a drw-model:Place ;
+	rdfs:label "Kowno (Kaunas, Litauen)" .
+
+<ImportantPerson/30002>
+	drw-model:hasW <W/30002hasW1> ;
+	drw-model:diedOn <Date/1916> ;
+	drw-model:wasBornIn <Place/Kowno_Kaunas_Litauen> ;
+	drw-model:hasW <W/30002hasW5> ;
+	drw-model:hasID "30002" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Facharzt_fr_Kinderheilkunde> ;
+	drw-model:hasW <W/30002hasW2> ;
+	drw-model:hasSL <SL/30002hasSL3> ;
+	drw-model:wasBornOn <Date/26_10_oder_18_10_1863> ;
+	drw-model:hasEducation <A/30002hasEducation1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30002.jpg> ;
+	drw-model:hasStationOfLife <B/30002hasStationOfLife1> ;
+	rdfs:label "Abelmann, Moses" ;
+	drw-model:hasSL <SL/30002hasSL2> ;
+	drw-model:hasP <P/30002hasP1> ;
+	drw-model:hasMainName <MainName/30002hasMainName1> ;
+	drw-model:hasSL <SL/30002hasSL4> ;
+	drw-model:hasSL <SL/30002hasSL1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:fatherIs <RelatedPerson/30002fatherIs1> ;
+	drw-model:hasW <W/30002hasW6> ;
+	drw-model:hasW <W/30002hasW3> ;
+	drw-model:hasW <W/30002hasW4> ;
+	drw-model:hasMG <MG/30002hasMG1> .
+
+<W/30002hasW1>
+	rdfs:label "Ueber die Ausnützung der Nahrungsstoffe nach Pankreasexstirpation, mit besonderer Berücksichtigung der Lehre von der Fettresorption. Diss. Dorpat 1890, 79 S." ;
+	a drw-model:W .
+
+<NameVariation/30002hasNameVariation4>
+	rdfs:label "Moric" ;
+	a drw-model:NameVariation .
+
+<NameVariation/30002hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "ABELMAN" .
+
+<SL/30002hasSL3>
+	rdfs:label "WBIS BaBA." ;
+	a drw-model:SL .
+
+<Date/1916>
+	a drw-model:Date ;
+	rdfs:label "1916" .
+
+<SL/30002hasSL1>
+	rdfs:label "Erik-Amburger-Datenbank [EAD]: Dokument-Id: [36161/52005]." ;
+	a drw-model:SL .
+
+<MainName/30002hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30002hasNameVariation5> ;
+	drw-model:hasNameVariation <NameVariation/30002hasNameVariation4> ;
+	drw-model:hasNameVariation <NameVariation/30002hasNameVariation1> ;
+	a drw-model:MainName ;
+	rdfs:label "Abelmann, Moses" ;
+	drw-model:hasNameVariation <NameVariation/30002hasNameVariation3> ;
+	drw-model:hasNameVariation <NameVariation/30002hasNameVariation2> .
+
+<P/30002hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait aus: Šustov 1910 (<b>SL</b>)." .
+
+<W/30002hasW4>
+	a drw-model:W ;
+	rdfs:label "Tetanija, laringospazm i ich otnošenie k anglijskoj bolezni. Bol'ničnaja gazeta Botkina 9 (1898), 18 S." .
+
+<W/30002hasW6>
+	rdfs:label "Estestvennoe i isskustvennoe vskarmlivanie grudnych detej. Sovremennaja klinika i terapija (1908) 7-10, 65 S." ;
+	a drw-model:W .
+
+<NameVariation/30002hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "Moritz" .
+
+<RelatedPerson/30002fatherIs1>
+	rdfs:label " Leo (Lev)" ;
+	a drw-model:RelatedPerson .
+
+<W/30002hasW2>
+	rdfs:label "Slučai bronchiėktazii, razvivšejsja pod vlijaniem kokljuša. Bol'ničnaja gazeta Botkina 4 (1893), 11 S." ;
+	a drw-model:W .
+
+<NameVariation/30002hasNameVariation5>
+	a drw-model:NameVariation ;
+	rdfs:label "Boris" .
+

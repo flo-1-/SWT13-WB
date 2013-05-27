@@ -1,0 +1,142 @@
+(dp0
+VName russisch
+p1
+(lp2
+(dp3
+S'name'
+p4
+V\u0411A\u0420\u0422\u041e\u041b\u041e\u041cE\u0419, \u0424ë\u0434\u043e\u0440 \u0418\u0432a\u043do\u0432\u0438\u0447
+p5
+sS'countryCode'
+p6
+S'ru'
+p7
+sa(dp8
+g4
+VBARTOLOMEJ, Fëdor Ivanovi\u010d (fon)
+p9
+sg6
+S'de'
+p10
+sasVB
+p11
+VKam unter der Zarin EKATERINA II. (1729-1796) nach Russland, wurde Chirurg der Flotte und vom Zaren PAVEL I. (1754-1801) zum Hof nach St. Petersburg beordert, 1822 zum Hofchirurgen ernannt.\u000aInhaber hoher russischer Ehrentitel und Auszeichnungen: 1799 "Kollegienassessor", "Kollegienrat", "Staatsrat", 1803 "Hofrat", 1808 St.-Vladimir-Orden 4. Klasse, 1826 Adelstitel mit Wappendiplom.\u000a
+p12
+sVE
+p13
+V1. Marie, geb. Severin (\u2020 1804)2. Sophia (Sof'ja Michajlovna) (1786-1867)
+p14
+sVName
+p15
+(dp16
+S'Vornamen'
+p17
+VFriedrich (von)
+p18
+sS'Nachname'
+p19
+VBartholomäi
+p20
+ssVQuelle
+p21
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 10.</i>
+p22
+sVNamensvariationen
+p23
+(lp24
+(dp25
+g4
+VBARTOLOMEY
+p26
+sS'countyCode'
+p27
+g10
+sa(dp28
+g4
+VFridrich
+p29
+sg27
+g10
+sa(dp30
+g4
+VFedor
+p31
+sg27
+g10
+sa(dp32
+g4
+V\u0424\u0440\u0438\u0434\u0440\u0438x
+p33
+sg27
+g7
+sa(dp34
+g4
+V\u0424e\u0434\u043e\u0440
+p35
+sg27
+g7
+sasVN
+p36
+VMaria (Marija Fëdorovna) (1810-1833)
+p37
+sVGeburtsdaten
+p38
+(dp39
+S'Ort'
+p40
+VSondheim (?), Fürstentum Eisenach (im Herzogtum Sachsen-Coburg-Saalfeld)
+p41
+sS'Datum'
+p42
+V24.12.1769 oder 1770
+p43
+ssVSterbedaten
+p44
+(dp45
+g42
+V11./23.10.1839
+p46
+sg40
+VSt. Petersburg
+p47
+sS'Grabst\xc3\xa4tte'
+p48
+VLutherischer Friedhof Volkovo
+p49
+ssVW
+p50
+(dp51
+S'general'
+p52
+(lp53
+VO polevoj slu\u017ebe pe\u0161ago soldata. Sanktpeterburg 1821, 40 S.
+p54
+aV[Übersetzung, zusammen mit Aleksandr Ivanovi\u010d Bartolomej, von: Bretschneider, Karl Gottlieb: Der vierjährige Krieg der Verbündeten mit Napoleon Bonaparte 1812-1815, Annaberg 1816]: Bret\u0161nejder, Karl Gotlib: \u010cetyrechletnjaja vojna sojuznych der\u017eav protiv Napoleona Bonaparte. Sanktpeterburg 1820-1821.
+p55
+assVV
+p56
+VJohann
+p57
+sVID
+p58
+V30054
+p59
+sVSL
+p60
+(dp61
+g52
+(lp62
+VBöhm 2003, 436.
+p63
+aVEAD: Dokument-Id [7952/7699, 58122/45058 und 1051990 (20.7.2010)].
+p64
+aVWBIS RBA: R 37, 275.
+p65
+assVBerufe
+p66
+(lp67
+VChirurg der Flotte
+p68
+aVHofchirurg
+p69
+as.

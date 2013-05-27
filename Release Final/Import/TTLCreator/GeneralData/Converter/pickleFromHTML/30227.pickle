@@ -1,0 +1,149 @@
+(dp0
+VA
+p1
+V1764-1771 Besuch des Gymnasiums in Hof, 1771-1776 Studium der Medizin an der Universität Jena (?) und an der Universität Erlangen, zeitweise praktische Übungen in Wien, 1776 Dr. med. in Erlangen.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u0414O\u041f\u041fE\u041b\u042cME\u0419E\u0420, \u0418\u0432a\u043d
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VDOPPEL'MEJER, Ivan
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+V1776-1783 Praktischer Arzt in Schwarzenbach an der Saale bei Hof, 1783 oder 1784 Auswanderung nach Russland und dort als Arzt zugelassen, zunächst bei der Armee angestellt, danach Hausarzt bei der Familie DEMIDOV in Moskau, ab 1799 Hofarzt, 1799-1803 Stadtphysikus in St. Petersburg, 1803-1810 im Auftrag der Universität Dorpat als "Korrespondent" in Deutschland mit Aufenthalten in Coburg, Heidelberg, Leipzig und Mannheim, 1810-1812 Stadtphysikus in Moskau, danach im Landesinneren als Lazarettarzt angestellt, lebte zuletzt als praktischer Arzt in Narva.\u000aInhaber des russischen Ehrentitels "Kollegienrat" (ab 1799), des Adelstitels sowie des Gold- und Rosenkreuzerordens.
+p14
+sVE
+p15
+VKaroline Sophie, geb. von Schlammersdorf, verw. von Schirnding (1750?-1823)
+p16
+sVName
+p17
+(dp18
+S'Vornamen'
+p19
+VJohann Georg Gottfried (von)
+p20
+sS'Nachname'
+p21
+VDoppelmaier
+p22
+ssVQuelle
+p23
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 71-72.</i>
+p24
+sVNamensvariationen
+p25
+(lp26
+(dp27
+g6
+VDOPPELMAIR
+p28
+sS'countyCode'
+p29
+g12
+sa(dp30
+g6
+VDOPPELMAYR
+p31
+sg29
+g12
+sa(dp32
+g6
+VDOPPELMEIER
+p33
+sg29
+g12
+sasVM
+p34
+VCatharina Dorothea, geb. Herdeg
+p35
+sVMG
+p36
+VDeutsche Gesellschaft zu Erlangen (1773).
+p37
+sVID
+p38
+V30227
+p39
+sVQ
+p40
+(lp41
+VGesamtkirchenverwaltung Hof:
+p42
+aV- Geburtseintrag 1753/151: "Johann Georg Gottfriedt, Dit. Herrn Johann Siegmundt Doppelmayer Die Mutter Frau Catharina Dorothea, eine gebohrene Herdegin, Liebes Söhnl. Ist gebohren Sonntag den 11. November, getauft Dienstag den 12.[?] dito."
+p43
+aV- Heiratseintrag der Eltern: " D 1744/142 Dit. Herr Johann Sigmund DoppelMayer Bürger und StadtApothecker allhier, sato: Dit. Herrn Johann Gabriel DoppelMayers, der römisch kayserlichen Academie Not. Caesarius .-. in gleichem der Kayserlichen Russischen, wie auch Der Königl. Englischen, und Königlich Preußischen Societeten, der Wissenschafften Mitglied und Professoris Matheseos, in Nürnberg ehel. Einiger Sohn, Mitt Jungfer Catharina Dorothea Herdegin, H. Georg Friederich Herdegen, gewesenen Kauf und Handelsmann in Culmbach hinterlassener ehel. Ältester Tochter ledigen Stands Werden Auf gnädigst ergangnen Hochfürstlichen Befehl Einmahl Vor alle mahl Proclamiert und werden in Bayreuth den 3. December Copuliert Wird Ihnen hier dreymahl zusammen geschlagen entrichten alle Jahre Steuher in H. Johann Adam Trögers Freytags Predigers Wöchnerei."
+p44
+aVBrief an Jean Paul. Schwarzenbach, nach dem 4. und vor dem 14. April 1783.
+p45
+asVGeburtsdaten
+p46
+(dp47
+S'Ort'
+p48
+VHof
+p49
+sS'Datum'
+p50
+V11.11.1753
+p51
+ssVSterbedaten
+p52
+(dp53
+g48
+VNarva
+p54
+sg50
+V28.3.1826
+p55
+ssVW
+p56
+(dp57
+S'general'
+p58
+(lp59
+VDe difficili in observationes anatomicas epicrisi. Commentatio 5. Diss. Erlangen 1776, 38 S.
+p60
+aV[Anonym, wird aber Doppelmaier zugeschrieben, vgl. auch Briefe an Jean Paul, Kommentare] Abhandlung und Bemerkungen über die vom Herrn Generalchirurgus Theden in Berlin bekannt gemachte Spiesglastinktur von einem Schüler aus der Gesellschaft wahrer und ächter Naturforscher. Amsterdam 1783, 45 S.
+p61
+aVAußerdem Herausgeber einer Sammlung russischer Volkslieder von 1803 und 1814.
+p62
+assVV
+p63
+VJohann Siegmund, Stadtapotheker
+p64
+sVSL
+p65
+(dp66
+g58
+(lp67
+VEAD: Dokument-Id [62415/61975 (27.7.2010)].
+p68
+aVFrick, Karl R. H.: Die Erleuchteten. Gnostisch-theosophische und alchemistisch-rosenkreuzerische Geheimgesellschaften bis zum Ende des 18. Jahrhunderts. Wiesbaden 2003, 338.
+p69
+aVPaulus, Jörg: Der Enthusiast und sein Schatten. Literarische Schwärmer- und Philisterkritik. Berlin, New York 1998, 151-152.
+p70
+aVWBIS DBA: I 248, 254; I 248, 279-280, 282-284; II 286, 54; BaBA: II 53, 40.
+p71
+assVBerufe
+p72
+(lp73
+VPraktischer Arzt
+p74
+aVHofarzt
+p75
+as.

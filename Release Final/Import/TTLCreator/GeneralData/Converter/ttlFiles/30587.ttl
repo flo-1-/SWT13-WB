@@ -1,0 +1,462 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Year/1884>
+	a drw-model:Year ;
+	rdfs:label "1884" .
+
+<SL/30587hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Sahli, H[ermann]: Prof. Dr. Hugo Kronecker, 1839-1914. In: Verhandlungen der Schweizerischen Naturforschenden Gesellschaft 1914, I, Anhang: Nekrologe verstorbener Mitglieder, 54-81." .
+
+<Year/1868>
+	rdfs:label "1868" ;
+	a drw-model:Year .
+
+<WL/30587hasWL5>
+	rdfs:label "Mitgründer des Instituts auf dem Col d’Olens (Monte Rosa), später Institut „Angelo Mosso“ (Italien)" ;
+	a drw-model:WL .
+
+<Place/Liegnitz_Schlesien>
+	a drw-model:Place ;
+	rdfs:label "Liegnitz (Schlesien)" .
+
+<Year/1875>
+	rdfs:label "1875" ;
+	a drw-model:Year .
+
+<Q/30587hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Universitätsarchiv Leipzig: Personalakten von Professoren und Dozenten bis zum Jahr 1990, Signatur PA 1468." .
+
+<B/30587hasStationOfLife3>
+	drw-model:inYear <Year/1866> ;
+	drw-model:inYear <Year/1870> ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1871> ;
+	rdfs:label "Kriegsteilnahmen als Feldarzt im Deutsch-Österreichischen und Deutsch-Französischen Krieg" .
+
+<Year/1859>
+	rdfs:label "1859" ;
+	a drw-model:Year .
+
+<B/30587hasStationOfLife10>
+	drw-model:began <Year/1902> ;
+	drw-model:hasNameLink <ImportantPerson/30785> ;
+	rdfs:label "Zeitweise Forschungsaufenthalt bei I. P. <span style='font-variant:small-caps;'>Pavlov</span> am Institut für Experimentelle Medizin (IEM) in St. Petersburg" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1906> .
+
+<P/30587hasP4>
+	rdfs:label "Portrait in: Wikipedia (<b>SL</b>)." ;
+	a drw-model:P .
+
+<ImportantPerson/30230>
+	a drw-model:ImportantPerson .
+
+<SL/30587hasSL4>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SL .
+
+<RelatedPerson/30587hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "1 Sohn, 1 Tochter [Namen unbekannt]" .
+
+<WL/30587hasWL2>
+	rdfs:label "Entdeckung des sog. Koordinationszentrums des Herzens, Einführung der Physiologischen Kochsalzlösung in die Praxis u. a." ;
+	a drw-model:WL .
+
+<NameVariation/30587hasNameVariation1>
+	rdfs:label "Kroneker, Karl Gugo/Chugo"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Кронекер, Карл Гуго/Хуго"@ru .
+
+<B/30587hasStationOfLife5>
+	drw-model:ended <Year/1875> ;
+	rdfs:label "Privatdozent an der Medizinischen Fakultät der Universität Leipzig" ;
+	a drw-model:B ;
+	drw-model:began <Year/1872> .
+
+<OtherOffices/30587hasOtherOffices1>
+	a drw-model:OtherOffices ;
+	rdfs:label "Mitglied und Vorsitzender des technischen Ausschusses des Elektrotechnischen Vereins in Berlin" .
+
+<B/30587hasStationOfLife2>
+	drw-model:inYear <Year/1865> ;
+	a drw-model:B ;
+	rdfs:label "Registrierung und Niederlassung als praktischer Arzt inBerlin" .
+
+<Q/30587hasQ2>
+	a drw-model:Q ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://histvv.uni-leipzig.de/dozenten/kronecker_h.html" ;
+	rdfs:label "Historische Vorlesungsverzeichnisse der Universität Leipzig: SS 1873 – WS 1877 (Online Ressource)." ;
+	drw-model:hasDate "29.8.2011" .
+
+<B/30587hasStationOfLife11>
+	a drw-model:B .
+
+<P/30587hasP5>
+	a drw-model:P ;
+	rdfs:label "Portraits von Hugo Kronecker in: Universitätsarchiv Leipzig: Privatarchiv von Wilhelm Wundt, Signatur 287, 1485, 1601/118, 1604/127." .
+
+<SL/30587hasSL5>
+	rdfs:label "Professorenkatalog der Universität Leipzig - Catalogus Professorum Lipsiensis. Hrsg. vom Lehrstuhl für Neuere und Neueste Geschichte, Historisches Seminar der Universität Leipzig: (Online Ressource)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.uni-leipzig.de/unigeschichte/professorenkatalog/leipzig/Kronecker_886/" ;
+	drw-model:hasDate "29.8.2011" .
+
+<WL/30587hasWL3>
+	rdfs:label "Beschäftigung mit der Höhenkrankheit und 1894 Erstellung des medizinischen Gutachtens zum Bau der Jungfraubahn" ;
+	a drw-model:WL .
+
+<Q/30587hasQ3>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr. 3152." .
+
+<A/30587hasEducation1>
+	a drw-model:A ;
+	drw-model:inYear <Year/1859> ;
+	rdfs:label "Abschluss des Gymnasiums in Liegnitz" .
+
+<B/30587hasStationOfLife4>
+	drw-model:began <Year/1868> ;
+	rdfs:label "Assistent bei C. <span style='font-variant:small-caps;'>Ludwig</span> am Physiologischen Institut der Universität Leipzig" ;
+	drw-model:hasNameLink <ImportantPerson/30664> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1872> .
+
+<GeneralLabor/Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Arzt" .
+
+<Year/1877>
+	rdfs:label "1877" ;
+	a drw-model:Year .
+
+<W/30587hasW1>
+	rdfs:label "De ratione qua musculorum defatigatio ex labore eorum pendeat. Diss. Berlin 1863, 62 S." ;
+	a drw-model:W .
+
+<RelatedPerson/30587motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johanna, geb. Prausnitzer" .
+
+<ImportantPerson/30587>
+	drw-model:hasEducation <A/30587hasEducation4> ;
+	drw-model:hasWL <WL/30587hasWL2> ;
+	drw-model:hasWL <WL/30587hasWL7> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30587hasHonoursAndAwards1> ;
+	drw-model:hasStationOfLife <B/30587hasStationOfLife8> ;
+	drw-model:hasW <W/30587hasW3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Arzt> ;
+	drw-model:hasSL <SL/30587hasSL11> ;
+	drw-model:hasP <P/30587hasP5> ;
+	drw-model:diedOn <Date/6_6_1914> ;
+	drw-model:hasSL <SL/30587hasSL5> ;
+	drw-model:hasMG <MG/30587hasMG1> ;
+	drw-model:hasStationOfLife <B/30587hasStationOfLife6> ;
+	drw-model:hasStationOfLife <B/30587hasStationOfLife3> ;
+	drw-model:hasGPV <GPV/30587hasGPV1> ;
+	drw-model:hasStationOfLife <B/30587hasStationOfLife11> ;
+	drw-model:hasSL <SL/30587hasSL10> ;
+	drw-model:hasSL <SL/30587hasSL6> ;
+	drw-model:hasEducation <A/30587hasEducation1> ;
+	drw-model:hasEducation <A/30587hasEducation2> ;
+	drw-model:hasWL <WL/30587hasWL6> ;
+	drw-model:hasDescendant <RelatedPerson/30587hasDescendant1> ;
+	drw-model:hasID "30587" ;
+	drw-model:hasStationOfLife <B/30587hasStationOfLife1> ;
+	drw-model:hasW <W/30587hasW1> ;
+	drw-model:wasBornOn <Date/27_01_1839> ;
+	drw-model:hasStationOfLife <B/30587hasStationOfLife10> ;
+	drw-model:hasP <P/30587hasP4> ;
+	drw-model:hasOtherOffices <OtherOffices/30587hasOtherOffices1> ;
+	drw-model:hasSL <SL/30587hasSL4> ;
+	drw-model:hasSL <SL/30587hasSL1> ;
+	drw-model:hasW <W/30587hasW5> ;
+	drw-model:wasBornIn <Place/Liegnitz_Schlesien> ;
+	drw-model:hasSL <SL/30587hasSL9> ;
+	drw-model:hasStationOfLife <B/30587hasStationOfLife5> ;
+	rdfs:label "Kronecker, Karl Hugo" ;
+	drw-model:hasQ <Q/30587hasQ1> ;
+	drw-model:hasW <W/30587hasW2> ;
+	drw-model:motherIs <RelatedPerson/30587motherIs1> ;
+	drw-model:hasSL <SL/30587hasSL3> ;
+	a drw-model:ImportantPerson ;
+	drw-model:fatherIs <RelatedPerson/30587fatherIs1> ;
+	drw-model:hasSL <SL/30587hasSL7> ;
+	drw-model:hasMainName <MainName/30587hasMainName1> ;
+	drw-model:hasP <P/30587hasP2> ;
+	drw-model:hasP <P/30587hasP3> ;
+	drw-model:hasQ <Q/30587hasQ2> ;
+	drw-model:hasWL <WL/30587hasWL3> ;
+	drw-model:hasWL <WL/30587hasWL5> ;
+	drw-model:hasStationOfLife <B/30587hasStationOfLife2> ;
+	drw-model:hasSL <SL/30587hasSL8> ;
+	drw-model:hasSibling <RelatedPerson/30587hasSibling1> ;
+	drw-model:hasStationOfLife <B/30587hasStationOfLife4> ;
+	drw-model:diedIn <Place/Bad_Nauheim> ;
+	drw-model:hasW <W/30587hasW4> ;
+	drw-model:hasW <W/30587hasW6> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Physiologie> ;
+	drw-model:hasWL <WL/30587hasWL4> ;
+	drw-model:hasSL <SL/30587hasSL2> ;
+	drw-model:hasP <P/30587hasP1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30587wasMarriedTo1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30587.jpg> ;
+	drw-model:hasStationOfLife <B/30587hasStationOfLife9> ;
+	drw-model:hasEducation <A/30587hasEducation3> ;
+	drw-model:hasQ <Q/30587hasQ3> ;
+	drw-model:hasWL <WL/30587hasWL1> ;
+	drw-model:hasOtherOffices <OtherOffices/30587hasOtherOffices2> ;
+	drw-model:hasStationOfLife <B/30587hasStationOfLife7> .
+
+<Place/Bad_Nauheim>
+	a drw-model:Place ;
+	rdfs:label "Bad Nauheim" .
+
+<MainName/30587hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30587hasNameVariation1> ;
+	rdfs:label "Kronecker, Karl Hugo" .
+
+<B/30587hasStationOfLife7>
+	drw-model:began <Year/1877> ;
+	rdfs:label "ao. Professor für Physiologie an der Universität Berlin" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1884> .
+
+<SL/30587hasSL10>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/pnd116554487.html" ;
+	a drw-model:SL ;
+	rdfs:label "Walter, Heinz: Kronecker, Hugo. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. 13 (1982), 81-82 (Onlinefassung unter Online Ressource)." ;
+	drw-model:hasDate "29.8.2011" .
+
+<Year/1866>
+	rdfs:label "1866" ;
+	a drw-model:Year .
+
+<RelatedPerson/30587fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Isidor, Großkaufmann und Bankier, Rittergutsbesitzer" .
+
+<Year/1902>
+	rdfs:label "1902" ;
+	a drw-model:Year .
+
+<W/30587hasW2>
+	rdfs:label "Ueber die Ermüdung und Erholung der quergestreiften Muskeln. Habil.-Schr. Arbeiten aus der Physiologischen Anstalt zu Leipzig (1871), 177-266 = Berichte der Königlich Sächsischen Gesellschaft der Wissenschaften zu Leipzig 23.1871 (1872), 690-780." ;
+	a drw-model:W .
+
+<SL/30587hasSL2>
+	rdfs:label "WBIS DBA: Deutsches Biographisches Archiv (Online Ressource, 16.1.2013): I 713, 110; II 762, 301-307; III 522, 105-107." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" .
+
+<Year/1894>
+	rdfs:label "1894" ;
+	a drw-model:Year .
+
+<Year/1914>
+	rdfs:label "1914" ;
+	a drw-model:Year .
+
+<Year/1870>
+	rdfs:label "1870" ;
+	a drw-model:Year .
+
+<Date/6_6_1914>
+	a drw-model:Date ;
+	rdfs:label "6.6.1914" .
+
+<WL/30587hasWL1>
+	rdfs:label "Forschungen über Funktionen von Herz, Muskel, Atmung mit Entwicklung neuer Methoden und Apparate, z. B. des Froschherzmanometers" ;
+	a drw-model:WL .
+
+<ImportantPerson/30664>
+	a drw-model:ImportantPerson .
+
+<W/30587hasW3>
+	rdfs:label "Das charakteristische Merkmal der Herzmuskelbewegung. Leipzig 1874." ;
+	a drw-model:W .
+
+<ImportantPerson/30785>
+	a drw-model:ImportantPerson .
+
+<A/30587hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Promotion zum Dr. med. an der Universität Berlin bei E. H. <span style='font-variant:small-caps;'>Du Bois-Reymond</span>" ;
+	drw-model:hasNameLink <ImportantPerson/30230> ;
+	drw-model:inYear <Year/1863> .
+
+<RelatedPerson/30587hasSibling1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Leopold (1823-1891), Mathematiker" .
+
+<Year/1865>
+	rdfs:label "1865" ;
+	a drw-model:Year .
+
+<Year/1895>
+	rdfs:label "1895" ;
+	a drw-model:Year .
+
+<SL/30587hasSL3>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	rdfs:label "WBIS JBA: Jüdisches Biographisches Archiv (Online Ressource, 16.1.2013): I 406, 316-327; IS 71, 93-94; II 307, 344-349." .
+
+<ImportantPerson/30599>
+	a drw-model:ImportantPerson .
+
+<Year/1871>
+	rdfs:label "1871" ;
+	a drw-model:Year .
+
+<WL/30587hasWL6>
+	rdfs:label "Ab 1889 Mitredakteur des <i>Centralblatts für die medizinischen Wissenschaften</i>" ;
+	a drw-model:WL .
+
+<MG/30587hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Bernische Naturforschende Gesellschaft (1884), Schweizerische Naturforschende Gesellschaft (1885), Reale Accademia delle Scienze del’Istituto di Bologna, Leopoldina (1902), Kaiserliche Akademie der Wissenschaften Wien, Magyar Tudományos Akadémia Budapest, Accademia delle Scienze di Torino" .
+
+<B/30587hasStationOfLife9>
+	drw-model:began <Year/1894> ;
+	drw-model:ended <Year/1895> ;
+	a drw-model:B ;
+	rdfs:label "Rektor der Universität Bern" .
+
+<A/30587hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Studium der Medizin an den Universitäten Berlin, Heidelberg und Pisa" ;
+	drw-model:began <Year/1859> ;
+	drw-model:ended <Year/1863> .
+
+<W/30587hasW4>
+	rdfs:label "Ein Verdauungsofen mit Diffusionsapparat. Leipzig 1874." ;
+	a drw-model:W .
+
+<B/30587hasStationOfLife6>
+	rdfs:label "ao. Professor für Medizin an der Medizinischen Fakultät der Universität Leipzig" ;
+	drw-model:began <Year/1875> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1877> .
+
+<SL/30587hasSL8>
+	<http://xmlns.com/foaf/0.1/homepage> "http://ru.wikipedia.org/wiki/Кронекер,_Гуго" ;
+	a drw-model:SL ;
+	drw-model:hasDate "29.8.2011" ;
+	rdfs:label "Vikipedija (Online Ressource)." .
+
+<P/30587hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Sahli 1914 (<b>SL</b>), zw. S. 54-55." .
+
+<Year/1872>
+	rdfs:label "1872" ;
+	a drw-model:Year .
+
+<GPV/30587hasGPV1>
+	rdfs:label "Verzeichnis der Arbeiten Kroneckers und seiner Schüler (1863-1914, 257 Nrn.), in: Sahli 1914 (<b>SL</b>), 68-81." ;
+	a drw-model:GPV .
+
+<WL/30587hasWL7>
+	rdfs:label "Mitherausgeber der <i>Zeitschrift für Instrumentenkunde</i>" ;
+	a drw-model:WL .
+
+<Date/27_01_1839>
+	a drw-model:Date ;
+	rdfs:label "27.01.1839" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<B/30587hasStationOfLife8>
+	drw-model:ended <Year/1914> ;
+	a drw-model:B ;
+	drw-model:began <Year/1884> ;
+	rdfs:label "o. Professor für Physiologie und Gründer und Leiter des „Hallerianums“, des spät. Physiologischen Instituts an der Universität Bern" .
+
+<SL/30587hasSL1>
+	drw-model:hasDate "29.8.2011" ;
+	a drw-model:SL ;
+	rdfs:label "Boschung, Urs: Kronecker, Hugo. In: Historisches Lexikon der Schweiz (HLS). Online unter (Online Ressource)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://hls-dhs-dss.ch/m.php?article=D42570.php" .
+
+<ImportantPerson/31038>
+	a drw-model:ImportantPerson .
+
+<W/30587hasW5>
+	rdfs:label "Über Leben und Tod. Rektoratsrede. Bern 1895." ;
+	a drw-model:W .
+
+<B/30587hasStationOfLife1>
+	drw-model:ended <Year/1868> ;
+	drw-model:hasNameLink <ImportantPerson/31038> ;
+	drw-model:hasNameLink <ImportantPerson/30599> ;
+	rdfs:label "Assistent bei L. <span style='font-variant:small-caps;'>Traube</span> sowie bei W. <span style='font-variant:small-caps;'>Kühne</span> an der Charité in Berlin" ;
+	a drw-model:B ;
+	drw-model:began <Year/1863> .
+
+<SL/30587hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Vinogradov, Jurij Abramovič, Golikov, Jurij Pavlovič, Grekova, Tat’jana Ivanovna (Sostaviteli): I. P. Pavlov: Dostovernost’ i polnota biografii. Sankt-Peterburg 2005, 138." .
+
+<OtherOffices/30587hasOtherOffices2>
+	a drw-model:OtherOffices .
+
+<RelatedPerson/30587wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Elise Gertrud Marie, geb. Bredschneider" .
+
+<HonoursAndAwards/30587hasHonoursAndAwards1>
+	rdfs:label "Dr. jur. h. c. der Universitäten Glasgow, Aberdeen, Edinburgh<br>Dr. med. h. c. der Universität Genf<br>Dr. phil. h. c. der Universität Cambridge" ;
+	a drw-model:HonoursAndAwards .
+
+<P/30587hasP2>
+	rdfs:label "Portrait in: Rothschuh 1953 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<SL/30587hasSL11>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://de.wikipedia.org/wiki/Hugo_Kronecker" ;
+	drw-model:hasDate "29.8.2011" ;
+	rdfs:label "Wikipedia (Online Ressource)." .
+
+<Year/1863>
+	rdfs:label "1863" ;
+	a drw-model:Year .
+
+<SL/30587hasSL6>
+	rdfs:label "Rothschuh, Karl Eduard: Geschichte der Physiologie. Berlin, Göttingen, Heidelberg 1953, 153-154." ;
+	a drw-model:SL .
+
+<A/30587hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Habilitation an der Universität Leipzig" ;
+	drw-model:inYear <Year/1872> .
+
+<W/30587hasW6>
+	a drw-model:W ;
+	rdfs:label "Die Bergkrankheit. Berlin, Wien 1908." .
+
+<WL/30587hasWL4>
+	rdfs:label "Gründungsinitiator und ab 1906 Präsident des Instituts Marey in Boulogne-sur-Seine bei Paris" ;
+	a drw-model:WL .
+
+<GeneralLabor/Professor_fr_Physiologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<Year/1906>
+	rdfs:label "1906" ;
+	a drw-model:Year .
+
+<P/30587hasP3>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Vikipedija (<b>SL</b>)." .
+

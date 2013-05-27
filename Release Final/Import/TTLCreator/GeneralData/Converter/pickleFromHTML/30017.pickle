@@ -1,0 +1,106 @@
+(dp0
+VA
+p1
+VBesuch der Schulanstalten in Engelhardshof und Birkenruh in Livland, 1855-1860 Studium der Zoologie und der Medizin und 1860 Dr. med. an der Universität Dorpat, 1860-1862 Studienaufenthalte in Berlin, Prag und Wien.\u000a
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u0410\u041b\u042c\u0411\u0410\u041d\u0423\u0421, \u0410\u0432\u0433\u0443\u0441\u0442 \u0410\u0434\u043e\u043b\u044c\u0444\u043e\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VAL'BANUS, Avgust Adol'fovi\u010d fon
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+V1862 zunächst Arzt im Obuchov-Krankenhaus in St. Petersburg, später im Hospital des St. Petersburger Stadt-Gefängnisses, 1871-1886 Leibmedikus des Großfürsten MICHAIL NIKOLAEVI\u010c (1832-1909) in Tiflis und in St. Petersburg, ab 1880 "Ehrenleibmedikus" am Zarenhof, lebte zuletzt im Ruhestand in Riga. Inhaber hoher russischer Ehrentitel, darunter "Geheimrat", 1887 "Wirklicher Russischer Staatsrat".
+p14
+sVE
+p15
+VHelene Karoline Luise, geb. Brückner (1836?-1871)
+p16
+sVName
+p17
+(dp18
+S'Vornamen'
+p19
+VKarl August von
+p20
+sS'Nachname'
+p21
+VAlbanus
+p22
+ssVQuelle
+p23
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 1.</i>
+p24
+sVSL
+p25
+(dp26
+S'general'
+p27
+(lp28
+VEAD: Dokument-Id [117/122 (20.7.2010)]. WBIS RBA: R 13, 301; 7, 201.
+p29
+assVM
+p30
+VHelene, geb. Dahl
+p31
+sVMG
+p32
+VVerein St. Petersburger Ärzte (ab 1867, Ehrenmitglied 1887), Deutscher ärztlicher Verein in St. Petersburg (ab 1883/4?).
+p33
+sVID
+p34
+V30017
+p35
+sVGeburtsdaten
+p36
+(dp37
+S'Ort'
+p38
+VDünamünde
+p39
+sS'Datum'
+p40
+V3./15.5.1837
+p41
+ssVSterbedaten
+p42
+(dp43
+g38
+VRiga
+p44
+sg40
+V12./24.6.1887
+p45
+ssVW
+p46
+(dp47
+g27
+(lp48
+VExperimentelle Untersuchungen über die Beziehung des Halsstranges des Sympathicus zur Temperatur des Kaninchenohres. Diss. Dorpat 1860, 64 S. http://dspace.utlib.ee/dspace/handle/10062/7023 Volltext (28.2.2012).Zwölf Fälle von Tuberculose des Bauchfelles. St. Petersburger medicinische Zeitschrift 17 (1870), 313-353.
+p49
+assVV
+p50
+VAdolph (1798-1856), Pastor in Dünamünde, Begründer einer Knabenerziehungsanstalt
+p51
+sVBerufe
+p52
+(lp53
+VArzt
+p54
+aVGroßfürstlicher Leibarzt
+p55
+as.

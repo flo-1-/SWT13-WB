@@ -1,0 +1,322 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<ImportantPerson/30071>
+	drw-model:hasSL <SL/30071hasSL1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30071hasWGermanPublication17> ;
+	drw-model:hasEducation <A/30071hasEducation1> ;
+	drw-model:wasBornOn <Date/5_or_17_2_1859> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30071hasWGermanPublication11> ;
+	drw-model:hasSL <SL/30071hasSL2> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30071hasWGermanPublication8> ;
+	drw-model:hasStationOfLife <B/30071hasStationOfLife1> ;
+	drw-model:diedOn <Date/18_3_1930_Leningrad> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Ophthalmologie> ;
+	drw-model:hasID "30071" ;
+	drw-model:wasBornIn <Place/im_Kreis_Serdobsk_Gouvernement> ;
+	drw-model:hasMG <MG/30071hasMG1> ;
+	drw-model:hasSL <SL/30071hasSL5> ;
+	drw-model:hasW <W/30071hasW1> ;
+	drw-model:hasW <W/30071hasW2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Ehrenleibmedikus> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30071hasWGermanPublication13> ;
+	drw-model:fatherIs <RelatedPerson/30071fatherIs1> ;
+	rdfs:label "Belljarminov, Leonid Georgievič" ;
+	drw-model:hasP <P/30071hasP4> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30071hasWGermanPublication16> ;
+	drw-model:hasP <P/30071hasP1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30071hasWGermanPublication7> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30071hasWGermanPublication5> ;
+	drw-model:hasGPV <GPV/30071hasGPV1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30071wasMarriedTo1> ;
+	drw-model:hasW <W/30071hasW3> ;
+	drw-model:hasGermanPublicationComment <GermanPublicationComment/30071hasGermanPublicationComment1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30071hasWGermanPublication10> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30071hasWGermanPublication12> ;
+	drw-model:hasSL <SL/30071hasSL4> ;
+	drw-model:hasSibling <RelatedPerson/30071hasSibling1> ;
+	drw-model:hasSL <SL/30071hasSL3> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30071hasWGermanPublication6> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30071hasWGermanPublication15> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/30071hasSL7> ;
+	drw-model:hasP <P/30071hasP3> ;
+	drw-model:hasW <W/30071hasW4> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30071hasWGermanPublication3> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30071hasWGermanPublication4> ;
+	drw-model:hasMainName <MainName/30071hasMainName1> ;
+	drw-model:hasComment <Comment/30071_1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30071.jpg> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30071hasWGermanPublication2> ;
+	drw-model:hasWL <WL/30071hasWL2> ;
+	drw-model:hasP <P/30071hasP2> ;
+	drw-model:hasSL <SL/30071hasSL8> ;
+	drw-model:diedIn <Place/> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Augenarzt> ;
+	drw-model:hasWL <WL/30071hasWL1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30071hasWGermanPublication9> ;
+	drw-model:hasSL <SL/30071hasSL6> ;
+	drw-model:hasSL <SL/30071hasSL9> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30071hasWGermanPublication14> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30071hasWGermanPublication1> .
+
+<WGermanPublication/30071hasWGermanPublication8>
+	rdfs:label "Demonstration von Injectionspräparaten des Hunde- und Katzenauges (Schellak-injection). Bericht [über den] periodischen internationalen Ophthalmologen-Kongress, Heidelberg, den 8.-11. August 1888. Wiesbaden 1888, 302-304." ;
+	a drw-model:WGermanPublication .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<MG/30071hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Peterburgskoe oftal'mologičeskoe obščestvo [St. Petersburger Ophthalmologische Gesellschaft] (1898-1930 Vorsitzender), Voenno-medicinskaja akademija [Militärmedizinische Akademie] St. Petersburg (ab 1903), Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee]." .
+
+<SL/30071hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Fischer, Marta; Pfrepper, Regine: Der russische Ophthalmologe Leonid Georgievič Belljarminov (1859-1930) und seine Beziehungen zu Westeuropa - Erinnerung zum 150. Geburtstag. Mitteilungen der Julius-Hirschberg-Gesellschaft [Zum Druck angenommen am 9.6.2010]." .
+
+<NameVariation/30071hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "BELLARMINOV" .
+
+<WGermanPublication/30071hasWGermanPublication6>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Verbesserter Apparat zur graphischen Untersuchung des intraoculären Druckes und der Pupillenbewegung. Bericht über die 19. Versammlung der Ophthalmologischen Gesellschaft 19 (1887), 185-192." .
+
+<NameVariation/30071hasNameVariation5>
+	rdfs:label "БEЛЛAРМИНОВ" ;
+	a drw-model:NameVariation .
+
+<WGermanPublication/30071hasWGermanPublication4>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Anwendung der graphischen Methode bei Untersuchung des intraocularen Druckes (Mit Hülfe der Photographie). Archiv für die gesammte Physiologie des Menschen und der Thiere 39 (1886), 449-472." .
+
+<NameVariation/30071hasNameVariation3>
+	rdfs:label "BELLJARMINOFF" ;
+	a drw-model:NameVariation .
+
+<RelatedPerson/30071fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Georgij, Dorfgeistlicher" .
+
+<SL/30071hasSL8>
+	rdfs:label "Šiškin, Anatolij Petrovič, Social'no-gigieničeskie aspekty v trudach i dejatel'nosti L. G. Belljarminova. Sovetskoe zdravoochranenie 65 (1981) 3, 60-63." ;
+	a drw-model:SL .
+
+<NameVariation/30071hasNameVariation7>
+	rdfs:label "Grigor'evič" ;
+	a drw-model:NameVariation .
+
+<W/30071hasW1>
+	rdfs:label "Opyt primenenija grafičeskogo metoda k issledovaniju dviženija zračka i vnutriglaznogo davlenija: Ėksperim[ental'nye] issled[ovanija]. Diss. Sankt-Peterburg 1886, 120 S." ;
+	a drw-model:W .
+
+<Date/5_or_17_2_1859>
+	a drw-model:Date ;
+	rdfs:label "5./17.2.1859" .
+
+<WGermanPublication/30071hasWGermanPublication2>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Zur Frage über die Wirkung des Cocain auf das Auge. Klinische Monatsblätter für Augenheilkunde 23 (1885), 511-519." .
+
+<P/30071hasP1>
+	rdfs:label "Foto mit persönlicher Widmung für Prof. J. Hirschberg 1906 aus: Hirschberg (<b>SL</b>), 211. \"Meinem geehrten Collegen und Freunden Prof. J. Hirschberg zur freundlichen Erinnerung. L. Bellarminoff. St. Petersburg 1906.\" Abgedruckt in: Fischer 2012, 15." ;
+	a drw-model:P .
+
+<B/30071hasStationOfLife1>
+	rdfs:label "1883-1886 Arzt und Assistent an der MMA bei Vladimir Ivanovič DOBROVOL'SKIJ (1838-1904) in der Augenklinik und bei Ivan Romanovič TARCHANOV (1846-1908) im physiologischen Laboratorium, 1886 bis 1888 Studienaufenthalte an Universitäten in Westeuropa, darunter in Deutschland am Anatomischen Institut der Universität Berlin bei Hans VIRCHOW (1852-1940) und Wilhelm WALDEYER-HARTZ (1836 bis 1921), an der augenärztlichen Abteilung der Charité Berlin bei Karl SCHWEIGGER (1830-1905), bei den Ophthalmologen Julius HIRSCHBERG (1843-1925) an der Universität Berlin, Theodor LEBER (1840-1917) an der Universität Göttingen und Hubert SATTLER (1844-1928) an der Universität Erlangen, am Physikalischen Institut der Universität Berlin bei Hermann von HELMHOLTZ (1821-1894), in einer Reihe von Augenkliniken, z.B. bei Heinrich SCHOELER (1844-1918) in Berlin sowie auch in Österreich und in der Schweiz; 1888-1893 Privatdozent, 1893-1924 Lehrstuhl für Augenheilkunde und Leiter des Akademischen Lehr- und des klinischen Krankenhauses an der MMA, zugleich ab 1893 Konsultant für Augenkrankheiten bei der Militärmedizinischen Hauptverwaltung in St. Petersburg, Gründer und 1893-1914 Mitglied und Leiter der Sonderabteilung der \"Blindenfürsorge der Zarin Marija Aleksandrovna\", ab 1910 \"Ehrenleibokulist\" am Hofe des Zaren NIKOLAJ II. (1868-1918).
+Inhaber hoher russischer Ehrentitel und weiterer Auszeichnungen, darunter \"Wirklicher Russischer Staatsrat\", \"Geheimrat\", 1914 \"Verdienter Professor\" der MMA, St.-Stanislav-Orden 2. Klasse, St.-Vladimir-Orden 4. Klasse, \"Officier de l'Instruction Publique\" (Frankreich).
+Ab Band 52 (1905) Mitglied des Redaktionskollegiums der Zeitschrift <i>Archiv für Augenheilkunde</i>, später aufgegangen in <i>Albrecht von Graefes Archiv für Ophthalmologie</i>." ;
+	a drw-model:B .
+
+<WGermanPublication/30071hasWGermanPublication12>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ein seltener Fall von Retinitis pigmentosa complicirt durch Glaucom. Archiv für Augenheilkunde 27 (1893), 25-61." .
+
+<WL/30071hasWL2>
+	rdfs:label "Nach ihm benannte im Russischen gebräuchliche medizinische Termini: <i>Belljarminova igla</i> [Belljarminov-Nadel] (Zur Tätowierung trüber Hornhaut), <i>Belljarminova operacija</i> [Belljarminov-Operation] (Chirurgische Operation zur Beseitigung der Ptosis mittels Verbindung der Sehne des Lidhebermuskels mit dem Stirnmuskel), <i>Belljarminov pincet</i> [Belljarminov-Pinzette] (dtsch.: Expressor, Instrument zum Auspressen der Trachomkörner im Augenlid), <i>Belljarminova-Zelenkovskogo teorija</i> [Belljarminov-Zelenkovskij-Theorie] (Erklärung der sympathischen Ophthalmie durch Toxine der Mikroorganismen, die aus dem zuerst betroffenen Auge durch die Lymphräume der Sehnerven in das gesunde Auge übergreifen)." ;
+	a drw-model:WL .
+
+<Date/18_3_1930_Leningrad>
+	a drw-model:Date ;
+	rdfs:label "18.3.1930 Leningrad" .
+
+<Place/>
+	a drw-model:Place .
+
+<SL/30071hasSL6>
+	rdfs:label "Pridvornyj kalendar': na 1910 god. S.-Peterburg [o. J.], 296; ~ 1911, 308; ~ 1913, 324; ~ 1914, 407." ;
+	a drw-model:SL .
+
+<SL/30071hasSL9>
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA: R 44, 382-384, 452-454." .
+
+<WGermanPublication/30071hasWGermanPublication16>
+	rdfs:label "Neue Untersuchungen über die Pathogenese der sympathischen Ophthalmie. Mit Selenkowsky [Jakov Vladimirovič Zelenkovskij]. Archiv für Augenheilkunde 44 (1902), 1-41." ;
+	a drw-model:WGermanPublication .
+
+<RelatedPerson/30071wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Luiza Ivanovna, geb. Cornil (1865-1914)" .
+
+<SL/30071hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Kladbišča Peterburga, 203, Nr. 15." .
+
+<GPV/30071hasGPV1>
+	rdfs:label "Publikationen 1885-1902, in: Hirschberg (<b>SL</b>), 212-213." ;
+	a drw-model:GPV .
+
+<W/30071hasW3>
+	rdfs:label "Patronato dell'Imperatrice Maria Alexandrovna per i ciechi in Russia. Rivista di tiflologia e per la prevenzione della cecità 10 (1914) 6, 10-17." ;
+	a drw-model:W .
+
+<WGermanPublication/30071hasWGermanPublication9>
+	rdfs:label "Schellakinjektion angewandt auf Augengefässe. Anatomischer Anzeiger 3 (1888), 648-650." ;
+	a drw-model:WGermanPublication .
+
+<P/30071hasP3>
+	rdfs:label "Foto in: Poljak (<b>SL</b>), 50." ;
+	a drw-model:P .
+
+<WGermanPublication/30071hasWGermanPublication14>
+	rdfs:label "Ueber die Diffusion ins Innere des Auges bei verschiedenen pathologischen Zuständen desselben. Mit W[ladimir Nikolajewitsch] Dolganoff. Albrecht von Graefes Archiv für Ophthalmologie 40 (1894) 4, 65-102." ;
+	a drw-model:WGermanPublication .
+
+<P/30071hasP2>
+	rdfs:label "Foto in: Emel'janova (<b>SL</b>), 77." ;
+	a drw-model:P .
+
+<WGermanPublication/30071hasWGermanPublication10>
+	rdfs:label "Zur Technik der Korrosion von Celloidinpräparaten. Anatomischer Anzeiger 3 (1888), 650-651." ;
+	a drw-model:WGermanPublication .
+
+<SL/30071hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Hirschberg, Julius: Die Augenärzte Rußlands, 1800 bis 1875. In: Geschichte der Augenheilkunde, 3. Buch, 17. Abschnitt. Leipzig 1915 (Handbuch der gesamten Heilkunde 14), 211-213." .
+
+<W/30071hasW2>
+	rdfs:label "Zapiski po oftal'mologii. Sost. po lekcijam prof. Belljarminova, čit. v 1909 g. Sost. Vasilij Aleksandrovič Borisov. Sankt-Peterburg 1910, 207 S." ;
+	a drw-model:W .
+
+<WGermanPublication/30071hasWGermanPublication11>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber intermittirende Netzhautreizung. Albrecht von Graefes Archiv für Ophthalmologie 35 (1889) 1, 25-49." .
+
+<P/30071hasP4>
+	a drw-model:P ;
+	rdfs:label "Portrait [Zeichnung, ohne weitere Angaben] in: Professora MCA/VMA (<b>SL</b>)." .
+
+<NameVariation/30071hasNameVariation2>
+	rdfs:label "BELLJARMINOW" ;
+	a drw-model:NameVariation .
+
+<WGermanPublication/30071hasWGermanPublication5>
+	rdfs:label "Ueber die Tauglichkeit und Genauigkeit der vorhandenen Probebuchstaben für Bestimmung der Sehschärfe. Archiv für Augenheilkunde 16 (1886), 284-295." ;
+	a drw-model:WGermanPublication .
+
+<Place/im_Kreis_Serdobsk_Gouvernement>
+	a drw-model:Place ;
+	rdfs:label "im Kreis Serdobsk, Gouvernement Saratov" .
+
+<NameVariation/30071hasNameVariation6>
+	rdfs:label "Georgiewitsch" ;
+	a drw-model:NameVariation .
+
+<WGermanPublication/30071hasWGermanPublication15>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber die Tätowierung der Hornhaut und der Conjunktiva. Bericht von der Ophthalmologischen Sektion des XII. Internationalen Medizinischen Kongresses in Moskau 7./19.-14./26. August 1897. Archiv für Augenheilkunde 35 (1897), 356-380." .
+
+<A/30071hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1870-1878 Besuch des Gymnasiums in Saratov, 1878-1883 Studium der Medizin und 1886 Dr. med. an der Mediko-chirurgischen Akademie (MCA) bzw. (seit 1881) Militärmedizinischen Akademie (MMA), St. Petersburg." .
+
+<NameVariation/30071hasNameVariation4>
+	a drw-model:NameVariation ;
+	rdfs:label "BELLARMINOFF" .
+
+<RelatedPerson/30071hasSibling1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Aleksandra Georgievna Bell(j)arminova († 1900)<br>Anna Georgievna Bell(j)arminova (1847?-1912)" .
+
+<GermanPublicationComment/30071hasGermanPublicationComment1>
+	rdfs:label "<b>Publikationen in deutscher Sprache 1885-1913</b>:" ;
+	a drw-model:GermanPublicationComment ;
+	drw-model:hasComment <Comment/30071_1> .
+
+<WGermanPublication/30071hasWGermanPublication3>
+	rdfs:label "Die Anwendung der Photographie bei Untersuchung der Stimmbänderschwingungen (Vorläufige Mittheilung). Mit N[ikolaj] P[etrovič] Ssimanowsky [? Simanovskij]. Archiv für die gesammte Physiologie des Menschen und der Thiere 37 (1885), 375-382." ;
+	a drw-model:WGermanPublication .
+
+<GeneralLabor/Ehrenleibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ehrenleibmedikus" .
+
+<WGermanPublication/30071hasWGermanPublication1>
+	rdfs:label "Anwendung der graphischen Methode bei Untersuchung der Pupillenbewegungen. Photocoreograph. Archiv für die gesammte Physiologie des Menschen und der Thiere 37 (1885), 107-122. Titelblatt abgedruckt in: Fischer 2010, 19." ;
+	a drw-model:WGermanPublication .
+
+<GeneralLabor/Professor_fr_Ophthalmologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Ophthalmologie" .
+
+<WGermanPublication/30071hasWGermanPublication7>
+	rdfs:label "Ein Apparat zur graphischen Untersuchung des intraocularen Druckes und der Pupillenbewegung. Archiv für Augenheilkunde 18 (1888), 194-204." ;
+	a drw-model:WGermanPublication .
+
+<W/30071hasW4>
+	rdfs:label "Glaznye bolezni. Hrsg. zusammen mit Aleksandr Ivanovič Merc. Teil 1-3. Leningrad 1928-1930." ;
+	a drw-model:W .
+
+<MainName/30071hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30071hasNameVariation5> ;
+	drw-model:hasNameVariation <NameVariation/30071hasNameVariation4> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30071hasNameVariation3> ;
+	drw-model:hasNameVariation <NameVariation/30071hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30071hasNameVariation7> ;
+	drw-model:hasNameVariation <NameVariation/30071hasNameVariation6> ;
+	drw-model:hasNameVariation <NameVariation/30071hasNameVariation8> ;
+	rdfs:label "Belljarminov, Leonid Georgievič" ;
+	drw-model:hasNameVariation <NameVariation/30071hasNameVariation1> .
+
+<SL/30071hasSL1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.glaucomajournal.ru/pdf/articles/glaucoma-2006'3/247.pdf" ;
+	a drw-model:SL ;
+	rdfs:label "Emel'janova, Natal'ja Aleksandrovna: Vklad professora L. G. Belljarminova v izučenie problemy glaukomy. Glaukoma (2006) Nr. 3, 77-80. Online Ressource Online Ressource (26.3.2012)." .
+
+<NameVariation/30071hasNameVariation8>
+	a drw-model:NameVariation .
+
+<WGermanPublication/30071hasWGermanPublication13>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Untersuchungen mit der quantitativen colorimetrischen Methode über die Resorption in die vordere Augenkammer. Albrecht von Graefes Archiv für Ophthalmologie 39 (1893) 3, 38-88." .
+
+<Comment/30071_1>
+	rdfs:label " Mit Korrekturen und Ergänzungen der Angaben im <b>GPV</b> zu Titeln, Zeitschriften, Erscheinungsjahren und Seitenzahlen." ;
+	a drw-model:Comment .
+
+<SL/30071hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Professora MCA/VMA, 108." .
+
+<WL/30071hasWL1>
+	rdfs:label "Begründer der St. Petersburger Ophthalmologen-Schule [aus dieser Schule sind elf Professoren für Augenheilkunde hervorgegangen, darunter Jakov Vladimirovič Zelenkovskij (1872-1931), Professor für Ophthalmologie an der Medizinischen Akademie in St. Petersburg; vgl. auch <b>WL</b>], erster Anwender (1885) eines photographischen Registrierverfahrens der Pupille, der sog. Streifen-Pupillo-Kymographie, Initiator der \"fliegenden\" (mobilen) Augenabteilungen und Lazarette zur Blindheitsbekämpfung in Russland (<i>Belljarminova letučie otrjady</i>), beschrieb den seltenen Fall der durch Glaukom komplizierten Retinitis pigmentosa." ;
+	a drw-model:WL .
+
+<GeneralLabor/Augenarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Augenarzt" .
+
+<SL/30071hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Poljak, Boris L'vovič: K 100-letiju so dnja roždenija L. G. Belljarminova. Vestnik oftal'mologii 72 (1959) 2, 50-51." .
+
+<WGermanPublication/30071hasWGermanPublication17>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Bericht über die ophthalmologische Abtheilung auf dem VIII. Pirogow'schen Kongress zu Moskau (4.-10. Januar 1902). Archiv für Augenheilkunde 45 (1902), 140-158." .
+

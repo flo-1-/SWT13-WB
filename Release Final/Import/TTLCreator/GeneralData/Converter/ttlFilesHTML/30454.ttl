@@ -1,0 +1,115 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<SL/30454hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Professora MCA/VMA, 126-127." .
+
+<W/30454hasW4>
+	rdfs:label "Ob issledovanii gazov, vydychaemych pri različnych boleznjach. Medicinskij vestnik (1864) 445-448, 457-461, 469-473." ;
+	a drw-model:W .
+
+<MainName/30454hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Šestov, Nikolaj Aleksandrovič" .
+
+<Place/St_Petersburg_?>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg (?)" .
+
+<W/30454hasW2>
+	rdfs:label "Issledovanie Klod-Bernara nad obrazovaniem sachara i krachmala v pečeni životnych. Voenno-medicinskij žurnal Teil 74, Jg. 37 (1859) II, 232-244." ;
+	a drw-model:W .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<ImportantPerson/30454>
+	drw-model:hasSL <SL/30454hasSL2> ;
+	drw-model:hasW <W/30454hasW3> ;
+	drw-model:hasW <W/30454hasW4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	drw-model:hasW <W/30454hasW5> ;
+	drw-model:hasSL <SL/30454hasSL1> ;
+	drw-model:wasBornIn <Place/Moskau> ;
+	drw-model:hasW <W/30454hasW2> ;
+	drw-model:hasStationOfLife <B/30454hasStationOfLife1> ;
+	drw-model:hasSL <SL/30454hasSL3> ;
+	drw-model:diedIn <Place/St_Petersburg_?> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasMG <MG/30454hasMG1> ;
+	drw-model:hasW <W/30454hasW1> ;
+	rdfs:label "Šestov, Nikolaj Aleksandrovič" ;
+	drw-model:hasID "30454" ;
+	a drw-model:ImportantPerson ;
+	drw-model:fatherIs <RelatedPerson/30454fatherIs1> ;
+	drw-model:hasEducation <A/30454hasEducation1> ;
+	drw-model:diedOn <Date/10_oder_11_5_1876> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_spezielle_Patholo> ;
+	drw-model:wasBornOn <Date/1831> ;
+	drw-model:hasMainName <MainName/30454hasMainName1> .
+
+<RelatedPerson/30454fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Aleksandr" .
+
+<Place/Moskau>
+	a drw-model:Place ;
+	rdfs:label "Moskau" .
+
+<SL/30454hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Zmeev, Lev Fëdorovič: Bd. 1. S.-Peterburg 1886, 166; Bd. 2. S.-Peterburg 1887, 75; auch in: WBIS RBA: R 508, 47." .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<MG/30454hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Peterburgskoe obščestvo praktičeskich vračej [St.-Petersburger Gesellschaft praktischer Ärzte] (Vorsitzender)." .
+
+<Date/10_oder_11_5_1876>
+	a drw-model:Date ;
+	rdfs:label "10. oder 11.5.1876" .
+
+<W/30454hasW5>
+	a drw-model:W ;
+	rdfs:label "K voprosu o pogloščenii gazov kožeju. Medicinskij vestnik (1866) Nr. 40-43, 31 S." .
+
+<Date/1831>
+	a drw-model:Date ;
+	rdfs:label "1831" .
+
+<W/30454hasW3>
+	rdfs:label "[Übersetzung von: Johann Friedrich Hermann Albers: Memoranda der Psychiatrie oder Kurzgefasste Darstellung der Pathologie und Therapie der mit Irresein verbundenen Krankheiten ... Weimar 1855, 279 S.] Iogann Fridrich Al'bers: Očerk patologii i terapii duševnych boleznej. Sankt-Peterburg 1860, 260 S." ;
+	a drw-model:W .
+
+<A/30454hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1849-1854 Studium und 1855 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg." .
+
+<B/30454hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "1854-1857 Assistenzarzt in der 5. Artillerie-Brigade, 1855 versetzt an das Ujazdovskij-Militärkrankenhaus in Warschau, 1856 Ordinator im 2. St. Petersburger Militärlandhospital, 1857-1859 Studienaufenthalte in Paris, Berlin und Prag, 1859 Arzt in der Leibgarde des Grenadier-Regiments und Leibarzt des Thronfolgers NIKOLAJ ALEKSANDROVIČ (1843-1865), ab 1860 Arzt im 1. St. Peterburger Militärlandhospital, ab 1860 Adjunkt-Professor für klinische Therapie an der MCA, 1861 Oberarzt im Militärkrankenhaus in Kiew, ab 1865 Arzt und ab 1867 Oberarzt im 2. St. Petersburger Militärlandhospital, 1866(oder 1868)-1876 ord. Professor für spezielle Pathologie und Therapie an der MCA.
+Inhaber des Ehrentitels \"Wirklicher Russischer Staatsrat\"." .
+
+<W/30454hasW1>
+	rdfs:label "De gangraena nosocomiali. Diss. [Sankt-Peterburg] 1855." ;
+	a drw-model:W .
+
+<SL/30454hasSL2>
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA: R 508, 47-50." .
+
+<GeneralLabor/Professor_fr_spezielle_Patholo>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für spezielle Pathologie und Therapie" .
+

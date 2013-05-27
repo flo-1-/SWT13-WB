@@ -1,0 +1,193 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<WL/30262hasWL3>
+	rdfs:label "1921 Gründer und Redakteur der Zeitschrift <i>Novyj chirurgičeskij archiv</i>." ;
+	a drw-model:WL .
+
+<SL/30262hasSL1>
+	rdfs:label "Ivanova, Aleksandra Timofeevna: Sergej Petrovič Fedorov (1869-1936). Naučnaja biografija. Moskva 1972, 227 S. [Exemplar der Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Haus Unter den Linden, Sign.: 27 A 9025]" ;
+	a drw-model:SL .
+
+<ImportantPerson/30262>
+	drw-model:wasMarriedTo <RelatedPerson/30262wasMarriedTo1> ;
+	drw-model:hasWL <WL/30262hasWL3> ;
+	drw-model:hasP <P/30262hasP1> ;
+	drw-model:hasP <P/30262hasP4> ;
+	drw-model:hasSL <SL/30262hasSL5> ;
+	drw-model:fatherIs <RelatedPerson/30262fatherIs1> ;
+	drw-model:hasSL <SL/30262hasSL2> ;
+	drw-model:hasEducation <A/30262hasEducation1> ;
+	drw-model:hasSL <SL/30262hasSL1> ;
+	drw-model:wasBornIn <Place/Moskau> ;
+	drw-model:wasBornOn <Date/11_or_23_1_1869> ;
+	drw-model:hasSL <SL/30262hasSL4> ;
+	drw-model:hasSL <SL/30262hasSL3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Chirurgie> ;
+	drw-model:hasW <W/30262hasW2> ;
+	drw-model:hasWL <WL/30262hasWL2> ;
+	drw-model:diedOn <Date/15_1_1936> ;
+	drw-model:hasP <P/30262hasP2> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30262.jpg> ;
+	drw-model:hasMainName <MainName/30262hasMainName1> ;
+	drw-model:hasW <W/30262hasW6> ;
+	drw-model:hasGPV <GPV/30262hasGPV1> ;
+	drw-model:hasW <W/30262hasW4> ;
+	drw-model:hasW <W/30262hasW3> ;
+	drw-model:hasDescendant <RelatedPerson/30262hasDescendant1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:diedIn <Place/Leningrad> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibchirurg> ;
+	drw-model:hasW <W/30262hasW1> ;
+	drw-model:hasWL <WL/30262hasWL1> ;
+	drw-model:hasP <P/30262hasP3> ;
+	drw-model:hasID "30262" ;
+	drw-model:hasStationOfLife <B/30262hasStationOfLife1> ;
+	drw-model:hasW <W/30262hasW5> ;
+	rdfs:label "Fedorov, Sergej Petrovič" ;
+	drw-model:hasMG <MG/30262hasMG1> .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<SL/30262hasSL3>
+	rdfs:label "Pridvornyj kalendar': na 1910 god. S.-Peterburg [o. J.], 294-295; ~ 1911, 306; ~ 1913, 320-321; ~ 1914, 403." ;
+	a drw-model:SL .
+
+<W/30262hasW4>
+	rdfs:label "Želčnye kamni i chirurgija želčnych putej. Petrograd 1918, 301 S.; 2. Aufl.: Leningrad 1934, 392 S." ;
+	a drw-model:W .
+
+<SL/30262hasSL5>
+	rdfs:label "WBIS RBA: R 471, 375-377." ;
+	a drw-model:SL .
+
+<RelatedPerson/30262fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Pëtr Nikitič, Chirurg" .
+
+<WL/30262hasWL1>
+	rdfs:label "Erwarb in Berlin 1893 neue Sterilisations- und Endoskopiegeräte und 1897 einen Röntgenapparat für die Chirurgische Universitätsklinik in Moskau, war Gründer und Leiter des ersten Röntgenkabinetts in Russland, Gründer des endoskopischen Kabinetts an der MMA, führte chirurgische Spezialgebiete (z.B. Abdominalchirurgie, Neurochirurgie und Urologie) ein, war Anwender und Erfinder neuer Behandlungs- (z.B. als Erster in Russland des Cholera-Antitoxins 1892) sowie Untersuchungsmethoden (z.B. der Ösophagoskopie). Einige urologische Operationsmethoden tragen seinen Namen: Schrägquerschnitt und schräger Lendenschnitt nach Fedorov, intrakapsuläre Nephrektomie nach Fedorov, Nephropexie nach Fedorov u.a." ;
+	a drw-model:WL .
+
+<NameVariation/30262hasNameVariation2>
+	rdfs:label "FEDOROW" ;
+	a drw-model:NameVariation .
+
+<P/30262hasP2>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Professora MCA/VMA." .
+
+<W/30262hasW5>
+	a drw-model:W ;
+	rdfs:label "Chirurgija poček i močetočnikov. Bd. 1-6. Moskva, Petrograd 1923-1926." .
+
+<P/30262hasP4>
+	rdfs:label "Bronzebüste (1963) [Künstler unbekannt], im Gebäude der S. P. Fedorov-Klinik für Chirurgie der Militärmedizinischen Akademie." ;
+	a drw-model:P .
+
+<Place/Moskau>
+	a drw-model:Place ;
+	rdfs:label "Moskau" .
+
+<RelatedPerson/30262hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Kirill Sergeevič" .
+
+<W/30262hasW1>
+	rdfs:label "Ėksperimental'no-kliničeskoe issledovanie po voprosu o stolbnjake. Diss. Moskva 1895, 273 S." ;
+	a drw-model:W .
+
+<A/30262hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Bis 1886 Besuch des 2. Moskauer Gymnasiums, 1886-1891 Studium und 1895 Dr. med. an der Medizinischen Fakultät der Universität Moskau." .
+
+<W/30262hasW3>
+	rdfs:label "Atlas cistoskopii i rektoskopii. Moskva 1911, 62 S." ;
+	a drw-model:W .
+
+<WL/30262hasWL2>
+	rdfs:label "Gründer einer großen sowjetischen Chirurgenschule und Autor von 463 Veröffentlichungen zur Urologie, Neurochirurgie, Herz- und Gefäßchirurgie, Magen-Darm-Chirurgie, Gallenwegschirurgie, Brusthöhlenchirurgie, zur Onkologie, Traumatologie, Narkose und Bakteriologie (vgl. <b>GPV</b>), davon 46 Publikationen in deutscher Sprache." ;
+	a drw-model:WL .
+
+<NameVariation/30262hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "FЁDOROV" .
+
+<B/30262hasStationOfLife1>
+	rdfs:label "1891-1892 Arzt im Krankenhaus für ungelernte Arbeiter im Moskauer Stadtbezirk Basmannyj, 1892-1893 außeretatmäßiger Ordinator an der Chirurgischen Universitätsklinik in Moskau, 1893 erster Studienaufenthalt in Deutschland, u.a. in der Chirurgischen Universitätsklinik bei Ernst von BERGMANN (1836-1907) und in der Urologischen Klinik bei Leopold CASPER (1859-1959) in Berlin, 1895-1896 etatmäßiger Oberassistent und ab 1896 Privat-Dozent an der Chirurgischen Universitätsklinik in Moskau, 1897 zweite Studienreise nach Deutschland, 1903-1936 ao. Prof. für Chirurgie am Chirurgischen Hospital und 1929-1936 Dir. des \"Instituts für chirurgische Neuropathologie\" an der Militärmedizinischen Akademie (MMA) in St. Petersburg (ab 1914) Petrograd/(ab 1924) Leningrad, zugleich 1910- 1912 \"Ehrenleibchirurg\" und 1912-1917 Leibchirurg des Zaren NIKOLAJ II. (1868 bis 1918), außerdem beratendes Mitglied des Medizinalrats des Ministeriums des Innern und zeitweilig Arzt in der Kreml'-Klinik in Moskau.
+Wurde mit hohen Ehrentiteln und Auszeichnungen geehrt, darunter 1928 \"Verdienter Wissenschaftler\", St.-Annen-Orden 3. Klasse, St.-Stanislav-Orden 3. Klasse, St.-Vladimir-Orden 4. Klasse, 1913 Gedenkmedaille \"300 Jahre Romanov-Dynastie\", 1933 Lenin-Orden u.a.
+Das Chirurgische Hospital der Militärmedizinischen Akademie trägt seit 1933 seinen Namen: \"Kafedra i klinika fakultetskoj chirurgii im. S. P. Fedorova\", ihm wurde 1955 eine Gedenktafel am Gebäude der Klinik gestiftet und 1963 ein Denkmal mit einer Bronzebüste errichtet.
+" ;
+	a drw-model:B .
+
+<SL/30262hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Knopov, Michail Šmulevič, Taranucha, Valentin Kirillovič: Vlkad školy S. P. Fedorova v otečestvennuju voenno-polevuju chirurgiju (K 140-letiju so dnja roždenija professora S. P. Fedorova). Chirurgija (2009) Nr. 1, 76-78." .
+
+<GPV/30262hasGPV1>
+	rdfs:label "Bibliografija trudov i publičnych vystuplenij S. P. Fedorova. In: Ivanova (<b>SL</b>), 206-226 [deutsche Titel korrekturbedürftig]." ;
+	a drw-model:GPV .
+
+<Date/11_or_23_1_1869>
+	a drw-model:Date ;
+	rdfs:label "11./23.1.1869" .
+
+<W/30262hasW6>
+	rdfs:label "Chirurgija na rasput'ji. Moskva 1927; <b>deutsch</b>: Die Chirurgie am Scheidewege. Moskau [Berlin] 1929, 52 S." ;
+	a drw-model:W .
+
+<MG/30262hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Urologičeskoe obščestvo [Urologische Gesellschaft] (1907 Gründer und 1907-1917 Vorsitzender), Russkoe chirurgičeskoe obščestvo im. Pirogova [Russische chirurgische Pirogov-Gesellschaft] (1910-1914, 1927 Vorsitzender), Medicinskij učenyj komitet [Medizinisches Gelehrtenkomitee] u.a." .
+
+<P/30262hasP1>
+	rdfs:label "Foto von 1914, aus: Ivanova (<b>SL</b>), 47. Abgedruckt in: Fischer 2010, 88." ;
+	a drw-model:P .
+
+<RelatedPerson/30262wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Evgenija Nikolaevna Fëdorova, geb. Konšina" .
+
+<MainName/30262hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Fedorov, Sergej Petrovič" ;
+	drw-model:hasNameVariation <NameVariation/30262hasNameVariation3> ;
+	drw-model:hasNameVariation <NameVariation/30262hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30262hasNameVariation2> .
+
+<Place/Leningrad>
+	a drw-model:Place ;
+	rdfs:label "Leningrad" .
+
+<SL/30262hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Professora MCA/VMA, 134." .
+
+<GeneralLabor/Professor_fr_Chirurgie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Chirurgie" .
+
+<GeneralLabor/Leibchirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibchirurg" .
+
+<P/30262hasP3>
+	rdfs:label "Boris Aleksandrovič Nachapetov: S. P. Fedorov. Zeichnung. In: Nachapetov 2003, 209." ;
+	a drw-model:P .
+
+<NameVariation/30262hasNameVariation3>
+	rdfs:label "FEDOROFF" ;
+	a drw-model:NameVariation .
+
+<W/30262hasW2>
+	rdfs:label "Nabljudenija iz chirurgičeskogo otdelenija bol'nicy sv. caricy Aleksandry. ?oskva 1900." ;
+	a drw-model:W .
+
+<Date/15_1_1936>
+	a drw-model:Date ;
+	rdfs:label "15.1.1936" .
+

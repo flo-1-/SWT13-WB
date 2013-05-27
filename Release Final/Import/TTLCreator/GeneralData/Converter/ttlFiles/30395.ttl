@@ -1,0 +1,383 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<RelatedPerson/30395fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ernst August Dankegott Hoppe (1774-1835), Superintendent und Pastor
+Adoptivater: Georg Seyler, Pastor" .
+
+<Year/1872>
+	rdfs:label "1872" ;
+	a drw-model:Year .
+
+<SL/30395hasSL6>
+	rdfs:label "Rothschuh, Karl Eduard: Geschichte der Physiologie. Berlin, Göttingen, Heidelberg 1953, 174-175." ;
+	a drw-model:SL .
+
+<Year/1884>
+	rdfs:label "1884" ;
+	a drw-model:Year .
+
+<B/30395hasStationOfLife5>
+	rdfs:label "o. Professor für angewandte Chemie an der Universität  Tübingen und Leiter des Laboratoriums im Schloss Hohentübingen" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1872> ;
+	drw-model:began <Year/1861> .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<SL/30395hasSL11>
+	a drw-model:SL ;
+	rdfs:label "Virchow, Rudolf: Zur Erinnerung an Felix Hoppe-Seyler. Archiv für pathologische Anatomie 142 (1895), 386-388." .
+
+<SL/30395hasSL2>
+	rdfs:label "Poggendorff - Biographisch-literarisches Handwörterbuch zur Geschichte der exacten Naturwissenschaften, enthaltend Nachweisungen über Lebensverhältnisse und Leistungen von Mathematikern, Astronomen, Physikern, Chemikern, Mineralogen, Geologen usw. aller Völker und Zeiten. Gesammelt von J. C. Poggendorff, Mitglied der Akademie der Wissenschaften zu Berlin / J. C. Poggendorff - Biographisch-literarisches Handwörterbuch der exakten Naturwissenschaften. Bd. 1-8. Leipzig, Berlin 1863-2004. Bd. 1, 1140, 1574; Bd. 3, 656-657; Bd. 4, 664." ;
+	a drw-model:SL .
+
+<SL/30395hasSL13>
+	rdfs:label "Wegbereiter unserer naturwissenschaftlich-medizinischen Moderne (Online Ressource)." ;
+	a drw-model:SL ;
+	drw-model:hasDate "25.11.2011" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://appserv5.ph-heidelberg.de/onlinelex/index.php?id=972" .
+
+<SL/30395hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Pagel, Julius: Hoppe-Seyler, Ernst Felix Immanuel. In: Allgemeine Deutsche Biographie. Bd. 1-56. Leipzig 1875–1912,  Bd. 50 (1905), 464-465." .
+
+<RelatedPerson/30395motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Friederike Wilhelmine, geb. Nitzsch (†1832)" .
+
+<W/30395hasW1>
+	a drw-model:W ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<B/30395hasStationOfLife1>
+	rdfs:label "Praktischer Arzt in Berlin" ;
+	drw-model:inYear <Year/1852> ;
+	a drw-model:B .
+
+<B/30395hasStationOfLife9>
+	a drw-model:B .
+
+<Year/1850>
+	rdfs:label "1850" ;
+	a drw-model:Year .
+
+<P/30395hasP2>
+	a drw-model:P ;
+	rdfs:label "Portraits in <b>SL</b> (Auswahl): Rothschuh 1953, Simmer 1958, VL People, Wegbereiter, Wikipedia." .
+
+<Year/1846>
+	rdfs:label "1846" ;
+	a drw-model:Year .
+
+<B/30395hasStationOfLife4>
+	drw-model:began <Year/1856> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1861> ;
+	rdfs:label "Assistent und ab 1860 Extraordinarius am Institut für pathologische Anatomie der Charité in Berlin" .
+
+<Year/1852>
+	rdfs:label "1852" ;
+	a drw-model:Year .
+
+<GeneralLabor/Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Arzt" .
+
+<A/30395hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Klinisches Studium an der Universität Berlin" ;
+	drw-model:ended <Year/1851> ;
+	drw-model:began <Year/1850> .
+
+<SL/30395hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Tarchanov, I.: Goppe-Zejler. In: Brokgauz/Efron. Bd. 9 (1893), 207-208." .
+
+<SL/30395hasSL12>
+	a drw-model:SL ;
+	rdfs:label "Vöckel, Anja: Die Anfänge der physiologischen Chemie: Ernst Felix Immanuel Hoppe-Seyler (1825-1895). Diss. Berlin 2003, 264 S." .
+
+<Year/1851>
+	rdfs:label "1851" ;
+	a drw-model:Year .
+
+<B/30395hasStationOfLife2>
+	drw-model:began <Year/1852> ;
+	rdfs:label "Assistenzarzt in einer Cholerabaracke der Berliner Choleraheilanstalten, später in einem Arbeitshaus" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1854> .
+
+<SL/30395hasSL7>
+	rdfs:label "Rothschuh, Karl Eduard: Hoppe-Seyler, Felix. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. Bd. 9 (1972), 615-616 (Online unter: Online Ressource)." ;
+	a drw-model:SL ;
+	drw-model:hasDate "25.11.2011" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://bsbndb.bsb.lrz-muenchen.de/sfz35857.html" .
+
+<A/30395hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1846> ;
+	drw-model:ended <Year/1847> ;
+	rdfs:label "Studium der Medizin an der Universität Halle" .
+
+<A/30395hasEducation8>
+	a drw-model:A ;
+	drw-model:inYear <Year/1854> ;
+	rdfs:label "Habilitation an der Universität Greifswald" .
+
+<Year/1873>
+	rdfs:label "1873" ;
+	a drw-model:Year .
+
+<A/30395hasEducation9>
+	a drw-model:A ;
+	drw-model:began <Year/1851> ;
+	drw-model:ended <Year/1852> ;
+	rdfs:label "Studienbesuche in Prag und Wien" .
+
+<RelatedPerson/30395hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sohn Georg Karl Felix (1860-1940), Professor für innere Medizin<br>Tochter Clara (1861-1946)<br>Enkel Felix Adolf (1898-1945), Professor für physiologische Chemie" .
+
+<P/30395hasP1>
+	rdfs:label "Portrait (Abb.) aus: Popular Science Monthly 53 (1898), vor S. 433; auch in: Baumann/Kossel 1895/96 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<A/30395hasEducation6>
+	a drw-model:A ;
+	drw-model:inYear <Year/1850> ;
+	rdfs:label "Freiwilligendienst im Kaiser-Alexander-Garde-Regiment" .
+
+<ImportantPerson/30395>
+	drw-model:hasStationOfLife <B/30395hasStationOfLife4> ;
+	drw-model:wasMarriedTo <RelatedPerson/30395wasMarriedTo1> ;
+	drw-model:motherIs <RelatedPerson/30395motherIs1> ;
+	drw-model:hasAlternativeName <AlternativeName/30395hasAlternativeName1> ;
+	drw-model:hasEducation <A/30395hasEducation9> ;
+	drw-model:hasStationOfLife <B/30395hasStationOfLife2> ;
+	drw-model:fatherIs <RelatedPerson/30395fatherIs1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30395.jpg> ;
+	drw-model:hasSL <SL/30395hasSL3> ;
+	drw-model:hasWL <WL/30395hasWL1> ;
+	drw-model:hasSL <SL/30395hasSL5> ;
+	drw-model:diedOn <Date/10_8_1895> ;
+	drw-model:hasEducation <A/30395hasEducation5> ;
+	drw-model:hasSL <SL/30395hasSL4> ;
+	drw-model:hasSL <SL/30395hasSL2> ;
+	drw-model:hasStationOfLife <B/30395hasStationOfLife5> ;
+	drw-model:hasEducation <A/30395hasEducation2> ;
+	drw-model:hasStationOfLife <B/30395hasStationOfLife8> ;
+	drw-model:hasSL <SL/30395hasSL7> ;
+	drw-model:hasID "30395" ;
+	drw-model:hasEducation <A/30395hasEducation7> ;
+	drw-model:hasSL <SL/30395hasSL12> ;
+	drw-model:hasSLComment <SLComment/30395hasSLComment1> ;
+	drw-model:hasComment <Comment/30395_1> ;
+	drw-model:hasSL <SL/30395hasSL8> ;
+	drw-model:hasEducation <A/30395hasEducation1> ;
+	drw-model:hasP <P/30395hasP1> ;
+	drw-model:hasSL <SL/30395hasSL13> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Physiologe> ;
+	drw-model:hasGPV <GPV/30395hasGPV1> ;
+	drw-model:wasBornOn <Date/26_12_1825> ;
+	drw-model:hasEducation <A/30395hasEducation4> ;
+	drw-model:hasEducation <A/30395hasEducation6> ;
+	drw-model:hasStationOfLife <B/30395hasStationOfLife9> ;
+	a drw-model:ImportantPerson ;
+	rdfs:label "Hoppe-Seyler, Ernst Felix Immanuel" ;
+	drw-model:hasHonoursAndAwardsComment <HonoursAndAwardsComment/30395hasHonoursAndAwardsComment1> ;
+	drw-model:hasSL <SL/30395hasSL6> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30395hasHonoursAndAwards1> ;
+	drw-model:hasDescendant <RelatedPerson/30395hasDescendant1> ;
+	drw-model:hasSL <SL/30395hasSL9> ;
+	drw-model:hasEducation <A/30395hasEducation3> ;
+	drw-model:wasBornIn <Place/Freyburg_Unstrut> ;
+	drw-model:hasSL <SL/30395hasSL11> ;
+	drw-model:hasSL <SL/30395hasSL10> ;
+	drw-model:diedIn <Place/Wasserburg_Bodensee> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_physiologische_Ch> ;
+	drw-model:hasW <W/30395hasW1> ;
+	drw-model:hasSL <SL/30395hasSL1> ;
+	drw-model:hasStationOfLife <B/30395hasStationOfLife3> ;
+	drw-model:hasStationOfLife <B/30395hasStationOfLife6> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Arzt> ;
+	drw-model:hasEducation <A/30395hasEducation8> ;
+	drw-model:hasMG <MG/30395hasMG1> ;
+	drw-model:hasMainName <MainName/30395hasMainName1> ;
+	drw-model:hasStationOfLife <B/30395hasStationOfLife7> ;
+	drw-model:hasStationOfLife <B/30395hasStationOfLife1> ;
+	drw-model:hasP <P/30395hasP2> .
+
+<Date/10_8_1895>
+	a drw-model:Date ;
+	rdfs:label "10.8.1895" .
+
+<B/30395hasStationOfLife6>
+	drw-model:ended <Year/1895> ;
+	a drw-model:B ;
+	rdfs:label "o. Professor für Physiologische Chemie an der Universität Straßburg" ;
+	drw-model:began <Year/1872> .
+
+<A/30395hasEducation5>
+	a drw-model:A ;
+	drw-model:inYear <Year/1850> ;
+	rdfs:label "Promotion zum Dr. med. in Berlin" .
+
+<MG/30395hasMG1>
+	a drw-model:MG ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<SLComment/30395hasSLComment1>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<GeneralLabor/Professor_fr_physiologische_Ch>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für physiologische Chemie" .
+
+<MainName/30395hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30395hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30395hasNameVariation2> ;
+	rdfs:label "Hoppe-Seyler, Ernst Felix Immanuel" .
+
+<SL/30395hasSL10>
+	rdfs:label "VL People (Online Ressource)." ;
+	a drw-model:SL ;
+	drw-model:hasDate "25.11.2011" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://vlp.mpiwg-berlin.mpg.de/people/data?id=per96" .
+
+<AlternativeName/30395hasAlternativeName1>
+	a drw-model:AlternativeName ;
+	rdfs:label "Hoppe, Ernst Felix Immanuel" ;
+	drw-model:hasComment <Comment/30395_1> .
+
+<WL/30395hasWL1>
+	rdfs:label "vgl. <b>SL</b>" ;
+	a drw-model:WL .
+
+<Year/1895>
+	rdfs:label "1895" ;
+	a drw-model:Year .
+
+<HonoursAndAwardsComment/30395hasHonoursAndAwardsComment1>
+	rdfs:label "Ehrungen und Auszeichnungen (Auswahl):" ;
+	a drw-model:HonoursAndAwardsComment .
+
+<SL/30395hasSL5>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SL .
+
+<RelatedPerson/30395wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Agnes Franziska Marie, geb. Borstein (1831-1917)" .
+
+<SL/30395hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 728." .
+
+<NameVariation/30395hasNameVariation2>
+	rdfs:label "Гоппе-Зейлер, Эрнст Феликс"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Goppe-Zejler, Ėrnst Feliks"@de .
+
+<Place/Freyburg_Unstrut>
+	a drw-model:Place ;
+	rdfs:label "Freyburg (Unstrut)" .
+
+<SL/30395hasSL1>
+	rdfs:label "Baumann, E., Kossel, Albrecht: Zur Erinnerung an Felix Hoppe-Seyler. Zeitschrift für physiologische Chemie 21 (1895/96), I-LXI." ;
+	a drw-model:SL .
+
+<NameVariation/30395hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Choppe-Zajler, Ėrnst Feliks"@de ;
+	rdfs:label "Хоппе-Зайлер, Эрнст Феликс"@ru .
+
+<A/30395hasEducation3>
+	a drw-model:A ;
+	drw-model:began <Year/1847> ;
+	drw-model:ended <Year/1850> ;
+	rdfs:label "Fortsetzung des Studiums an der Universität Leipzig" .
+
+<Year/1861>
+	rdfs:label "1861" ;
+	a drw-model:Year .
+
+<SL/30395hasSL8>
+	a drw-model:SL ;
+	rdfs:label "Simmer, H.: Zur Entwicklung der physiologischen Chemie. Ciba-Zeitschrift 8 (1958) Nr. 91." .
+
+<Year/1847>
+	rdfs:label "1847" ;
+	a drw-model:Year .
+
+<GPV/30395hasGPV1>
+	a drw-model:GPV ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<A/30395hasEducation1>
+	a drw-model:A ;
+	drw-model:began <Year/1837> ;
+	rdfs:label "Besuch des Gymnasiums der Franckeschen Stiftungen in Halle" ;
+	drw-model:ended <Year/1846> .
+
+<Year/1856>
+	rdfs:label "1856" ;
+	a drw-model:Year .
+
+<Date/26_12_1825>
+	rdfs:label "26.12.1825" ;
+	a drw-model:Date .
+
+<Comment/30395_1>
+	a drw-model:Comment ;
+	rdfs:label "bis 1864" .
+
+<Place/Wasserburg_Bodensee>
+	a drw-model:Place ;
+	rdfs:label "Wasserburg (Bodensee)" .
+
+<B/30395hasStationOfLife3>
+	drw-model:began <Year/1854> ;
+	drw-model:ended <Year/1856> ;
+	a drw-model:B ;
+	rdfs:label "Prosektor und Privatdozent an der Universität Greifswald" .
+
+<HonoursAndAwards/30395hasHonoursAndAwards1>
+	rdfs:label "1925 Gedenktafel am Tübinger Laboratorium<br>Felix-Hoppe-Seyler-Preis (Deutsche Gesellschaft für Laboratoriumsmedizin e.V.)" ;
+	a drw-model:HonoursAndAwards .
+
+<A/30395hasEducation7>
+	a drw-model:A ;
+	drw-model:inYear <Year/1851> ;
+	rdfs:label "Approbation zum Arzt und Wundarzt in Berlin" .
+
+<B/30395hasStationOfLife8>
+	a drw-model:B ;
+	drw-model:inYear <Year/1884> ;
+	rdfs:label "Gründer und Leiter des weltweit ersten Instituts für Physiologische Chemie in Straßburg" .
+
+<B/30395hasStationOfLife7>
+	drw-model:inYear <Year/1873> ;
+	rdfs:label "Rektor der Universität Straßburg" ;
+	a drw-model:B .
+
+<Year/1854>
+	rdfs:label "1854" ;
+	a drw-model:Year .
+
+<Year/1837>
+	rdfs:label "1837" ;
+	a drw-model:Year .
+
+<GeneralLabor/Physiologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologe" .
+

@@ -1,0 +1,22 @@
+
+<?php /* view for the picloader -> to upload pictures */?>
+
+<form action="<?php echo $this->actionUrl?>" method="post"  enctype="multipart/form-data" name="picloaderform">	
+
+<!--phtml = view for plugin--> 
+<table align="center">
+<tr>
+<td>
+<input name="userfile" type="file" size="50">
+</td>
+</tr>
+</table>
+<table align="center">
+<tr>
+<td align="center">
+<input type="submit" name="submit" value="<?php echo $this->startUpload?>">
+<!--create button and upload space for files-->
+</td>
+</tr>
+</table>
+</form>

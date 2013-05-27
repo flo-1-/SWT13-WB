@@ -1,0 +1,427 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<B/20028hasStationOfLife4>
+	rdfs:label "o. Professor für Physiologie und Leiter des Physiologischen Instituts an der Friedrich-Wilhelms-Universität in Berlin (Nachfolger von Emil <span style='font-variant:small-caps;'>Du Bois-Reymond</span>)" ;
+	drw-model:began <Year/1897> ;
+	drw-model:hasNameLink <ImportantPerson/30230> ;
+	drw-model:ended <Year/1908> ;
+	a drw-model:B .
+
+<B/20028hasStationOfLife6>
+	drw-model:hasNameLink <ImportantPerson/30785> ;
+	drw-model:began <Year/1902> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1906> ;
+	drw-model:hasComment <Comment/20028_2> ;
+	rdfs:label "Zeitweise Forschungsaufenthalt bei I. P. <span style='font-variant:small-caps;'>Pavlov</span> am Institut für Experimentelle Medizin (IEM) in St. Petersburg[2]" .
+
+<P/20028hasP4>
+	a drw-model:P ;
+	rdfs:label "Portraits in: Kingreen 1972 (<b>SL</b>): von 1905 (Abb. 1), um 1870 (Abb. 8), am Schreibtisch seines Arbeitszimmers (Abb. 13), im Physiologischen Institut Berlin (Abb. 14), 2 Karikaturen (Abb. 15 u. 16), das Ehepaar Engelmann mit Geiger Josef Joachim (Abb. 17)." .
+
+<NameVariation/20028hasNameVariation1>
+	rdfs:label "Энгельман, Федор Вильгельм"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Ėngel'man, Fedor Vil’gel’m"@de .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<SL/20028hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Kingreen, Helmut: Theodor Wilhelm Engelmann, 1843-1909. Ein bedeutender deutscher Physiologie an der Schwelle zum 20. Jahrhundert. Münster 1972 (Münstersche Beiträge zur Geschichte und Theorie der Medizin 6), 121 S., mit Bilder-Anhang; darin Abb. 18a-18c: Stammtafel der Familie Engelmann." .
+
+<WL/20028hasWL1>
+	rdfs:label "Arbeitsgebiete: vergleichende Anatomie und Biologie, Herz- und Muskelphysiologie, Bewegungsvorgänge und Funktionen der Sinnesorgane, tierische Elektrizität u. a." ;
+	a drw-model:WL .
+
+<Comment/20028_1>
+	rdfs:label "Schülerin von Clara Schumann (1819-1896). Zur Biographie vgl. Silke Wenzel (mit Portrait von 1870) in: Musik und Gender im Internet (Online Ressource, 19.8.2011) und Schumann-Portal (mit Portrait, ca. 15jährig) (Online Ressource, 19.8.2011)" ;
+	a drw-model:Comment ;
+	<http://xmlns.com/foaf/0.1/homepage> <http://mugi.hfmt-hamburg.de/A_lexartikel/lexartikel.php?id=bran1854> ;
+	<http://xmlns.com/foaf/0.1/homepage> <http://www.schumann-portal.de/pgcms/output.php?PAGE_ID=2450&amp;PHPSESSID=33daa56bb5a11901f731fd86149b5556> .
+
+<Q/20028hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr. 2835." .
+
+<W/20028hasW2>
+	rdfs:label "Über die Hornhaut des Auges. Diss. Leipzig 1867, 44 S." ;
+	a drw-model:W .
+
+<SL/20028hasSL8>
+	rdfs:label "Rothschuh, Karl Eduard: Geschichte der Physiologie. Berlin, Göttingen, Heidelberg 1953, 213-214." ;
+	a drw-model:SL .
+
+<P/20028hasP2>
+	rdfs:label "Portrait in: Pagel 1901 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<ImportantPerson/20028>
+	drw-model:hasComment <Comment/20028_4> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/20028hasHonoursAndAwards1> ;
+	drw-model:wasBornIn <Place/Leipzig> ;
+	drw-model:hasSL <SL/20028hasSL7> ;
+	drw-model:hasSL <SL/20028hasSL9> ;
+	drw-model:hasID "20028" ;
+	drw-model:hasSL <SL/20028hasSL1> ;
+	drw-model:hasP <P/20028hasP2> ;
+	drw-model:hasStationOfLife <B/20028hasStationOfLife5> ;
+	drw-model:hasSL <SL/20028hasSL4> ;
+	drw-model:hasWL <WL/20028hasWL2> ;
+	drw-model:hasSL <SL/20028hasSL11> ;
+	drw-model:hasSL <SL/20028hasSL10> ;
+	drw-model:wasBornOn <Date/14_11_1843> ;
+	drw-model:hasQ <Q/20028hasQ2> ;
+	drw-model:hasStationOfLife <B/20028hasStationOfLife6> ;
+	drw-model:hasComment <Comment/20028_5> ;
+	drw-model:hasW <W/20028hasW4> ;
+	drw-model:hasGPV <GPV/20028hasGPV2> ;
+	drw-model:hasStationOfLife <B/20028hasStationOfLife2> ;
+	drw-model:diedIn <Place/Lankwitz_bei_Berlin_Grabsttte_> ;
+	drw-model:hasMG <MG/20028hasMG1> ;
+	drw-model:hasGPV <GPV/20028hasGPV1> ;
+	drw-model:motherIs <RelatedPerson/20028motherIs1> ;
+	drw-model:hasP <P/20028hasP4> ;
+	drw-model:hasP <P/20028hasP3> ;
+	drw-model:hasSL <SL/20028hasSL5> ;
+	drw-model:hasW <W/20028hasW3> ;
+	drw-model:hasWL <WL/20028hasWL3> ;
+	drw-model:hasComment <Comment/20028_1> ;
+	drw-model:hasStationOfLife <B/20028hasStationOfLife1> ;
+	drw-model:hasStationOfLife <B/20028hasStationOfLife7> ;
+	drw-model:hasSL <SL/20028hasSL2> ;
+	drw-model:hasQ <Q/20028hasQ1> ;
+	drw-model:hasMainName <MainName/20028hasMainName1> ;
+	drw-model:wasMarriedTo <RelatedPerson/20028wasMarriedTo1> ;
+	drw-model:hasSL <SL/20028hasSL12> ;
+	drw-model:hasStationOfLife <B/20028hasStationOfLife3> ;
+	drw-model:hasComment <Comment/20028_6> ;
+	drw-model:hasW <W/20028hasW2> ;
+	drw-model:hasWL <WL/20028hasWL4> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <B/20028hasStationOfLife4> ;
+	drw-model:hasComment <Comment/20028_2> ;
+	drw-model:hasWL <WL/20028hasWL5> ;
+	drw-model:hasStationOfLife <B/20028hasStationOfLife8> ;
+	drw-model:hasEducation <A/20028hasEducation5> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/20028.png> ;
+	drw-model:hasSL <SL/20028hasSL3> ;
+	drw-model:hasSL <SL/20028hasSL6> ;
+	drw-model:diedOn <Date/20_5_1909> ;
+	drw-model:hasEducation <A/20028hasEducation3> ;
+	drw-model:hasDescendant <RelatedPerson/20028hasDescendant1> ;
+	drw-model:hasEducation <A/20028hasEducation1> ;
+	drw-model:hasSL <SL/20028hasSL8> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Physiologie> ;
+	rdfs:label "Engelmann, Theodor Wilhelm" ;
+	drw-model:hasComment <Comment/20028_7> ;
+	drw-model:hasEducation <A/20028hasEducation4> ;
+	drw-model:hasWL <WL/20028hasWL1> ;
+	drw-model:fatherIs <RelatedPerson/20028fatherIs1> ;
+	drw-model:hasQ <Q/20028hasQ3> ;
+	drw-model:hasP <P/20028hasP1> ;
+	drw-model:hasComment <Comment/20028_3> ;
+	drw-model:hasEducation <A/20028hasEducation2> ;
+	drw-model:hasW <W/20028hasW1> .
+
+<SL/20028hasSL11>
+	a drw-model:SL ;
+	rdfs:label "Vinogradov, Jurij Abramovič, Golikov, Jurij Pavlovič, Grekova, Tat’jana Ivanovna (Sostaviteli): I. P. Pavlov: Dostovernost’ i polnota biografii. Sankt-Peterburg 2005, 138." .
+
+<SL/20028hasSL10>
+	rdfs:label "Verworn, Max: Theodor Wilhelm Engelmann †. Zeitschrift für allgemeine Physiologie 10 (1910), I-VI [im Anhang]." ;
+	a drw-model:SL .
+
+<ImportantPerson/30785>
+	a drw-model:ImportantPerson .
+
+<GPV/20028hasGPV1>
+	rdfs:label "Publikationen 1868-1901, in: Poggendorff. Bd. 3 und 4 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<Year/1867>
+	rdfs:label "1867" ;
+	a drw-model:Year .
+
+<RelatedPerson/20028fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Wilhelm (1808-1878), Buchhändler und Bibliograph" .
+
+<A/20028hasEducation3>
+	a drw-model:A ;
+	drw-model:ended <Year/1866> ;
+	rdfs:label "Studium (je zwei Semester) an den Universitäten Leipzig, Heidelberg und Göttingen" ;
+	drw-model:began <Year/1863> .
+
+<HonoursAndAwards/20028hasHonoursAndAwards1>
+	rdfs:label "1894 Ehrendoktor der Universität Oxford<br>Nach ihm ist die Engelmannstraße im Leipziger Stadtteil Sellerhausen benannt" ;
+	a drw-model:HonoursAndAwards .
+
+<SL/20028hasSL2>
+	rdfs:label "Jubiläums Katalog der Verlagsbuchhandlung Wilhelm Engelmann in Leipzig, 1811-1911. Leipzig, 1911, 1-114." ;
+	a drw-model:SL .
+
+<Year/1877>
+	rdfs:label "1877" ;
+	a drw-model:Year .
+
+<W/20028hasW1>
+	rdfs:label "Zur Naturgeschichte der Infusionsthiere, Leipzig 1862, 47 S. = Zeitschrift für wissenschaftliche Zoologie 11 (1862), 347-393." ;
+	a drw-model:W .
+
+<RelatedPerson/20028motherIs1>
+	rdfs:label "Christiana Theresia, geb. Hasse (1820-1907)" ;
+	a drw-model:RelatedPerson .
+
+<B/20028hasStationOfLife2>
+	rdfs:label "ao. Professor („Buitengewoon Hoogleerar“) für allgemeine Biologie und Histologie an der Universität Utrecht" ;
+	drw-model:began <Year/1877> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1888> .
+
+<WL/20028hasWL3>
+	rdfs:label "Das Engelmann-Syndrom (eine seltene Form der Osteosklerose, gekennzeichnet durch eine generalisierte Knochenhypertrophie mit zunehmender Knochenverhärtung bei gleichzeitiger Verminderung der Knochenbelastbarkeit)[3]" ;
+	drw-model:hasComment <Comment/20028_3> ;
+	a drw-model:WL .
+
+<Comment/20028_3>
+	rdfs:label "Vgl. (Online Ressource)." ;
+	a drw-model:Comment ;
+	drw-model:hasDate "19.8.2011" ;
+	<http://xmlns.com/foaf/0.1/homepage> <http://www.enzyklo.de/Begriff/Engelmann-Syndrom> .
+
+<Date/14_11_1843>
+	a drw-model:Date ;
+	rdfs:label "14.11.1843" .
+
+<B/20028hasStationOfLife5>
+	drw-model:ended <Year/1902> ;
+	drw-model:began <Year/1901> ;
+	a drw-model:B ;
+	rdfs:label "Dekan der Medizinischen Fakultät an der Universität Berlin" .
+
+<SL/20028hasSL4>
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 460-461." ;
+	a drw-model:SL .
+
+<WL/20028hasWL5>
+	rdfs:label "1898-1908 Herausgeber der Physiologischen Abteilung von <i>Archiv für Anatomie und Physiologie</i>" ;
+	a drw-model:WL .
+
+<A/20028hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch der Thomasschule zu Leipzig" ;
+	drw-model:ended <Year/1861> ;
+	drw-model:began <Year/1857> .
+
+<Year/1901>
+	rdfs:label "1901" ;
+	a drw-model:Year .
+
+<Year/1861>
+	rdfs:label "1861" ;
+	a drw-model:Year .
+
+<Year/1863>
+	rdfs:label "1863" ;
+	a drw-model:Year .
+
+<Year/1857>
+	rdfs:label "1857" ;
+	a drw-model:Year .
+
+<A/20028hasEducation5>
+	a drw-model:A ;
+	drw-model:inYear <Year/1867> ;
+	rdfs:label "Promotion zum Dr. med. in Leipzig bei Albert von <span style='font-variant:small-caps;'>Bezold</span> (1836-1868)" .
+
+<ImportantPerson/30230>
+	a drw-model:ImportantPerson .
+
+<MainName/20028hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/20028hasNameVariation1> ;
+	rdfs:label "Engelmann, Theodor Wilhelm" .
+
+<Comment/20028_4>
+	<http://xmlns.com/foaf/0.1/homepage> <http://de.wikipedia.org/wiki/Gr%C3%BCnl%C3%BCcke> ;
+	rdfs:label "Vgl. <b>W</b> (1883) und (Online Ressource)." ;
+	a drw-model:Comment ;
+	drw-model:hasDate "19.8.2011" .
+
+<B/20028hasStationOfLife7>
+	rdfs:label "Emeritierung" ;
+	drw-model:inYear <Year/1908> ;
+	a drw-model:B .
+
+<SL/20028hasSL1>
+	rdfs:label "WBIS DBA: Deutsches Biographisches Archiv (Online Ressource, 16.1.2013): I 285, 34-35; II 331, 71-90; III 216, 139-144, 148." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" .
+
+<Year/1897>
+	rdfs:label "1897" ;
+	a drw-model:Year .
+
+<B/20028hasStationOfLife3>
+	rdfs:label "o. Professor für Physiologie an der Universität Utrecht" ;
+	drw-model:began <Year/1888> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1897> .
+
+<Q/20028hasQ3>
+	a drw-model:Q ;
+	drw-model:hasComment <Comment/20028_7> ;
+	rdfs:label "Johannes Brahms im Briefwechsel mit Th. Wilhelm Engelmann. Mit einer Einleitung von Julius Röntgen. Berlin, Leipzig 1918, 182 S. (als Google book unter Online Ressource, 23.8.2011)[7]." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.archive.org/details/johannesbrahmsim00brah" .
+
+<Year/1888>
+	rdfs:label "1888" ;
+	a drw-model:Year .
+
+<MG/20028hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Koninklijke Akademie van Wetenschappen (Niederlande) (1870), Leopoldina (1889, Fachsektion Physiologie), Académie Royale des Sciences, des Lettres et des Beaux-Arts de Belgique (1893)[5], Königlich-Preußische Akademie der Wissenschaften zu Berlin (1898), Suomen Akatemia [Finnische Akademie der Wissenschaften][6] u. a." ;
+	drw-model:hasComment <Comment/20028_5> ;
+	drw-model:hasComment <Comment/20028_6> .
+
+<Date/20_5_1909>
+	rdfs:label "20.5.1909" ;
+	a drw-model:Date .
+
+<P/20028hasP3>
+	a drw-model:P ;
+	rdfs:label "Portrait (mit Unterschrift) in: Wikipedia (<b>SL</b>)." .
+
+<B/20028hasStationOfLife1>
+	rdfs:label "Assistent bei Franciscus Cornelis <span style='font-variant:small-caps;'>Donders</span> (1818-1889) an der Universität Utrecht" ;
+	drw-model:began <Year/1867> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1877> .
+
+<GPV/20028hasGPV2>
+	rdfs:label "Bibliographie (1859-1907, 245 Nrn.), in: Kingreen 1972 (<b>SL</b>), 90-121." ;
+	a drw-model:GPV .
+
+<SL/20028hasSL9>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/pnd118684795.html" ;
+	a drw-model:SL ;
+	drw-model:hasDate "19.8.2011" ;
+	rdfs:label "Stürzbecher, Manfred: Engelmann, Theodor Wilhelm. In: Neue Deutsche Biographie (Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010.) 4 (1959), 517-518 [Onlinefassung: URL: Online Ressource)." .
+
+<P/20028hasP1>
+	rdfs:label "Portrait (Abb.) aus: Rothschuh 1953 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<Comment/20028_5>
+	a drw-model:Comment ;
+	rdfs:label "Vgl. Annuaire de l’ Académie Royale des Sciences, des Lettres et des Beaux-Arts de Belgique 70 (1904), 25." .
+
+<W/20028hasW3>
+	rdfs:label "Bacterium photometricum. Ein Beitrag zur vergleichenden Physiologie des Licht- und Farbsinnes. Archiv für die gesamte Physiologie des Menschen und der Tiere 30 (1883), 95-124." ;
+	a drw-model:W .
+
+<RelatedPerson/20028hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "1.<br>Zwillinge: Paula, verh. Krais (1870-1945), und Franz (1870-1908), Jurist<br>2.<br>Elisabeth, verh. van Heijst (Heyst) (1875-1901)<br>Anna Louisa, verh. Narath (1876-1924)<br>Wilhelm (1878-1955), Verlagsbuchhändler<br>Hans Robert (1885-1946), Jurist, Verlagsbuchhändler" .
+
+<Q/20028hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Vita in: Diss. Leipzig 1867 (vgl. <b>W</b>), 44." .
+
+<SL/20028hasSL12>
+	drw-model:hasDate "23.8.2011" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://de.wikipedia.org/wiki/Theodor_Wilhelm_Engelmann" ;
+	a drw-model:SL ;
+	rdfs:label "Wikipedia (Online Ressource)." .
+
+<A/20028hasEducation2>
+	a drw-model:A ;
+	drw-model:ended <Year/1863> ;
+	rdfs:label "Studium der Naturwissenschaften und der Medizin an der Universität Jena bei Carl <span style='font-variant:small-caps;'>Gegenbaur</span> (1826-1903)" ;
+	drw-model:began <Year/1861> .
+
+<W/20028hasW4>
+	rdfs:label "Über den Ursprung der Muskelkraft. Leipzig 1892, 59 S.; 2. Aufl. 1893, 80 S." ;
+	a drw-model:W .
+
+<Year/1866>
+	rdfs:label "1866" ;
+	a drw-model:Year .
+
+<GeneralLabor/Professor_fr_Physiologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<RelatedPerson/20028wasMarriedTo1>
+	rdfs:label "1. Maria Anna Theresia, geb. Donders (1846-1870)<br>2. Emma Wilhelmina Franziska, geb. Vick (Künstlername: Emma Brandes) (1854-1940), Pianistin[1]" ;
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/20028_1> .
+
+<Year/1908>
+	rdfs:label "1908" ;
+	a drw-model:Year .
+
+<Year/1902>
+	rdfs:label "1902" ;
+	a drw-model:Year .
+
+<B/20028hasStationOfLife8>
+	a drw-model:B .
+
+<SL/20028hasSL6>
+	rdfs:label "Piper, H.: Nachruf auf Th. W. Engelmann. Münchener Medizinische Wochenschrift 56 (1909), 1797-1800." ;
+	a drw-model:SL .
+
+<Comment/20028_2>
+	a drw-model:Comment ;
+	rdfs:label "Engelmann schlug auch als Mitglied der Leopoldina (s. <b>M</b>) zusammen mit weiteren Vertretern der Fachsektion Physiologie I. P. Pavlov zur Auszeichnung mit der Goldenen Cothenius-Medaille vor. Vgl. Pfrepper 2009 (<b>SL</b>), 112, und → Pavlov." .
+
+<WL/20028hasWL2>
+	rdfs:label "Nach ihm sind benannt:" ;
+	a drw-model:WL .
+
+<A/20028hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Fortsetzung des Studiums an der Universität Leipzig bei Carl <span style='font-variant:small-caps;'>Credé</span> (1819-1892), Christian Georg Theodor <span style='font-variant:small-caps;'>Ruete</span> (1810-1867) und Carl August <span style='font-variant:small-caps;'>Wunderlich</span> (1815-1877)" ;
+	drw-model:began <Year/1866> ;
+	drw-model:ended <Year/1867> .
+
+<Year/1906>
+	rdfs:label "1906" ;
+	a drw-model:Year .
+
+<Place/Leipzig>
+	a drw-model:Place ;
+	rdfs:label "Leipzig" .
+
+<Place/Lankwitz_bei_Berlin_Grabsttte_>
+	a drw-model:Place ;
+	rdfs:label "Lankwitz bei Berlin, Grabstätte: Berlin, Kaiser-Wilhelm-Gedächtnis-Friedhof" .
+
+<WL/20028hasWL4>
+	drw-model:hasComment <Comment/20028_4> ;
+	rdfs:label "Engelmannscher Bakterienversuch (Nachweis der Grünlücke)[4]" ;
+	a drw-model:WL .
+
+<SL/20028hasSL5>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SL .
+
+<Comment/20028_7>
+	a drw-model:Comment ;
+	rdfs:label "Engelmann war ein Freund von Johannes Brahms (1833-1897). Dieser widmete ihm das Stück „Opus 67, Quartett Nr. 3“." .
+
+<Comment/20028_6>
+	rdfs:label "Vgl. Acta Societatis Scientiarum Fennicae 36 (1909), IX." ;
+	a drw-model:Comment .
+
+<SL/20028hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Poggendorff - Biographisch-literarisches Handwörterbuch zur Geschichte der exacten Naturwissenschaften, enthaltend Nachweisungen über Lebensverhältnisse und Leistungen von Mathematikern, Astronomen, Physikern, Chemikern, Mineralogen, Geologen usw. aller Völker und Zeiten. Gesammelt von J. C. Poggendorff, Mitglied der Akademie der Wissenschaften zu Berlin / J. C. Poggendorff - Biographisch-literarisches Handwörterbuch der exakten Naturwissenschaften. Bd. 1-8. Leipzig, Berlin 1863-2004. Bd. 3, 412; Bd. 4, 385-386; Bd. 5, 339; Bd. 6, 666; Bd. 7a, Suppl., 186-187." .
+

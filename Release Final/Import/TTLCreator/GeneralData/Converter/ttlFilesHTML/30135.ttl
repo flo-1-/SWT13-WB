@@ -1,0 +1,208 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<RelatedPerson/30135wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ol'ga Vladimirovna Botkina, geb. Manujlova (1872-1946)" .
+
+<W/30135hasW6>
+	rdfs:label "O kliničeskom primenenii form rastvorenija belych šarikov krovi. [Pervaja probnaja lekcija na zvanie privat-docenta Imperatorskoj Voennno-medicinskoj akademii]. Bol'ničnaja gazeta Botkina 8 (1897), 24 S.; erschienen auch in: Sbornik vračej Sankt-Peterburgskoj Mariinskoj bol'nicy dlja bednych 5 (1898), 151-174." ;
+	a drw-model:W .
+
+<GeneralLabor/Kaiserlicher_Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Kaiserlicher Leibarzt" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<NameVariation/30135hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Eugen" .
+
+<W/30135hasW8>
+	a drw-model:W ;
+	rdfs:label "Svet i teni Russko-japonskoj vojny 1904-5 gg. (Iz pisem žene). Sankt-Peterburg 1908, 95 S." .
+
+<P/30135hasP2>
+	<http://xmlns.com/foaf/0.1/homepage> "http://his.1september.ru/2007/15/34-1.jpg" ;
+	a drw-model:P ;
+	rdfs:label "E. S. Botkin mit Familie. Online Ressource Online Ressource (1.3.2012). Abgedruckt in: Fischer 2010, 43." .
+
+<ImportantPerson/30135>
+	drw-model:diedOn <Date/17_7_1918> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt_fr_innere_Med> ;
+	drw-model:hasEducation <A/30135hasEducation1> ;
+	drw-model:hasSL <SL/30135hasSL1> ;
+	drw-model:hasSL <SL/30135hasSL4> ;
+	drw-model:diedIn <Place/Ekaterinburg> ;
+	drw-model:wasBornOn <Date/27_5_or_8_6_1865> ;
+	drw-model:hasP <P/30135hasP1> ;
+	drw-model:hasW <W/30135hasW8> ;
+	drw-model:motherIs <RelatedPerson/30135motherIs1> ;
+	drw-model:hasID "30135" ;
+	drw-model:hasSL <SL/30135hasSL5> ;
+	drw-model:hasW <W/30135hasW7> ;
+	drw-model:fatherIs <RelatedPerson/30135fatherIs1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Kaiserlicher_Leibarzt> ;
+	drw-model:hasStationOfLife <B/30135hasStationOfLife1> ;
+	drw-model:hasDescendant <RelatedPerson/30135hasDescendant1> ;
+	drw-model:hasWL <WL/30135hasWL1> ;
+	drw-model:hasSibling <RelatedPerson/30135hasSibling1> ;
+	drw-model:hasW <W/30135hasW1> ;
+	drw-model:hasW <W/30135hasW6> ;
+	drw-model:hasW <W/30135hasW5> ;
+	drw-model:hasP <P/30135hasP2> ;
+	drw-model:wasMarriedTo <RelatedPerson/30135wasMarriedTo1> ;
+	drw-model:hasSL <SL/30135hasSL2> ;
+	a drw-model:ImportantPerson ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30135.jpg> ;
+	drw-model:hasW <W/30135hasW4> ;
+	drw-model:hasW <W/30135hasW10> ;
+	drw-model:hasW <W/30135hasW3> ;
+	rdfs:label "Botkin, Evgenij Sergeevič" ;
+	drw-model:wasBornIn <Place/Carskoe_Selo_bei_St_Petersburg> ;
+	drw-model:hasMG <MG/30135hasMG1> ;
+	drw-model:hasW <W/30135hasW2> ;
+	drw-model:hasSL <SL/30135hasSL3> ;
+	drw-model:hasMainName <MainName/30135hasMainName1> ;
+	drw-model:hasW <W/30135hasW9> .
+
+<SL/30135hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Bliev, Jurij: Poslednij russkij lejb-medik. Medicinskaja gazeta Nr. 51, 11. Juli 2008. Online Ressource Online Ressource (2.4.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.mgzt.ru/article/946/" .
+
+<ImportantPerson/30414>
+	a drw-model:ImportantPerson .
+
+<W/30135hasW2>
+	rdfs:label "Ein kleiner Kniff zur Gram'schen Methode der isolirten Färbung. Centralblatt für Bacteriologie und Parasitenkunde 11 (1892), 231-232." ;
+	a drw-model:W .
+
+<RelatedPerson/30135hasSibling1>
+	a drw-model:RelatedPerson ;
+	drw-model:hasNameLink <ImportantPerson/30137> ;
+	rdfs:label "Sergej Sergeevič <span style='font-variant:small-caps;'>Botkin</span>" .
+
+<SL/30135hasSL5>
+	rdfs:label "Šustov, A. S. (Hg.): Naši dejateli po medicine. S.-Peterburg 1910 (Illjustrirovannyj vestnik kul'tury, naučno-vospitatel'nago, techničeskago i torgovo-promyšlennago progressa Rossii 1)." ;
+	a drw-model:SL .
+
+<W/30135hasW4>
+	rdfs:label "Leukocytolyse. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 141 (1895), 238-251." ;
+	a drw-model:W .
+
+<W/30135hasW10>
+	rdfs:label "Weitere Publikationen 1892-1896 bei Šustov (<b>SL</b>)." ;
+	a drw-model:W .
+
+<P/30135hasP1>
+	rdfs:label "Foto aus: Šustov (<b>SL</b>). Abgedruckt in: Fischer 2010, 40." ;
+	a drw-model:P .
+
+<SL/30135hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Nachapetov 2003, 107-126, 214." .
+
+<W/30135hasW1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://vlp.mpiwg-berlin.mpg.de/library/data/lit37691?" ;
+	rdfs:label "K voprosu o vlijanii al'bumoz i peptonov na nekotorye funkcii životnogo organizma. Dissertation. Sankt-Peterburg 1893, 79 S.; Referat in: Zur Frage nach dem Einfluss der Albumosen und Peptone auf gewisse Functionen des tierischen Organismus. Le Physiologiste Russe 4 (1905/06) 1, 71; vgl. auch: The virtual laboratory. Online Ressource Online Ressource (2.4.2012)." ;
+	a drw-model:W .
+
+<W/30135hasW9>
+	rdfs:label "Vasilij Nikolaevič <span style='font-variant:small-caps;'>Sirotinin</span>. Kratkij biografičeskij očerk. Russkij vrač (1910) Nr. 51, 11 S." ;
+	drw-model:hasNameLink <ImportantPerson/30414> ;
+	a drw-model:W .
+
+<ImportantPerson/30137>
+	a drw-model:ImportantPerson .
+
+<Place/Carskoe_Selo_bei_St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "Carskoe Selo bei St. Petersburg" .
+
+<MG/30135hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Voenno-medicinskij naučnyj komitet [Militärmedizinisches Gelehrtenkomitee] (ab 1909), Glavnoe upravlenie Russkogo obščestva Krasnogo kresta [Hauptverwaltung der Russischen Rot-Kreuz-Gesellschaft]." .
+
+<Place/Ekaterinburg>
+	a drw-model:Place ;
+	rdfs:label "Ekaterinburg" .
+
+<W/30135hasW7>
+	rdfs:label "Bol'nye v bol'nice. Vstupnaja lekcija, čitanna v Voennno-medicinskoj akademii studentam III. kursa 18. okt. 1897 g. Bol'ničnaja gazeta Botkina 8 (1897), 16 S." ;
+	a drw-model:W .
+
+<RelatedPerson/30135hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sergej Evgen'evič (1891-1993[?])<br>Dmitrij Evgen'evič (1894-1914)<br>Jurij (Georgij) Evgen'evič (1896-1941)<br>Tat'jana Evgen'evna Botkina, verh. Mel'nik (1898 oder 1899-1986)<br>Gleb Evgen'evič (1900-1968[oder 1969]), Autor, Illustrator, 1938 Gründer und Erzbischof der Neopaganisten-Kirche \"Church of Aphrodite\" in New York<br>" .
+
+<MainName/30135hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30135hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30135hasNameVariation2> ;
+	rdfs:label "Botkin, Evgenij Sergeevič" .
+
+<ImportantPerson/30136>
+	a drw-model:ImportantPerson .
+
+<NameVariation/30135hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "BOTKIN" .
+
+<W/30135hasW3>
+	rdfs:label "Ueber die Löslichkeit der weissen Blutkörperchen in Peptonlösungen. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 137 (1894), 476-485." ;
+	a drw-model:W .
+
+<A/30135hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1878-1882 Besuch des 2. St. Petersburger Gymnasiums, 1882 Beginn des Studiums an der Physikalisch-mathematischen Fakultät der St. Petersburger Universität, nach dem Examen im 1. Studienjahr 1883 Wechsel zum Studium der Medizin an die Militärmedizinische Akademie (MMA) St. Petersburg, 1889 Abschluss \"Arzt\" und 1893 Dr. med." .
+
+<RelatedPerson/30135fatherIs1>
+	a drw-model:RelatedPerson ;
+	drw-model:hasNameLink <ImportantPerson/30136> ;
+	rdfs:label "Sergej Petrovič <span style='font-variant:small-caps;'>Botkin</span>, Prof. für innere Medizin, Kaiserlicher Leibmedikus" .
+
+<W/30135hasW5>
+	rdfs:label "Zur Morphologie des Blutes und der Lymphe. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 145 (1896), 369-402." ;
+	a drw-model:W .
+
+<SL/30135hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Ronžin, S. G., Rjazancev, A. A., Ronžin, I. S.: \"Žizn' gosudarju, čest' nikomu\": Nravstvennyj vybor Evgenija Sergeeviča Botkina (k 140-letiju so dnja roždenija). Bjulleten' sibirskoj mediciny (2006) Nr. 1, 109-117. Online Ressource Online Ressource (1.3.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.ssmu.ru/bull/index/bull06_1.shtml" .
+
+<GeneralLabor/Praktischer_Arzt_fr_innere_Med>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt für innere Medizin" .
+
+<B/30135hasStationOfLife1>
+	rdfs:label "1890-1891 Assistenzarzt im Marienhospital für Arme in St. Petersburg, 1891-1892 zur Weiterbildung ins Ausland geschickt: 1891 Teilnahme an bakteriologischen Kursen im Pathologischen Institut der Universität Heidelberg bei Paul ERNST (1859-1937) sowie 1892 Besuch der Krankenhäuser in Berlin. 1892-1893 Arzt der St. Petersburger Hofgesangskapelle, 1894 Ordinator im Marienhospital für Arme. 1895-1897 erneut Studienaufenthalte in Deutschland: Im SS 1895 an der Universität Heidelberg in der Chirurgischen Klinik bei Vinzenz CZERNY (1842-1916) und im Pathologisch-anatomischen Institut bei Julius ARNOLD (1835-1915), im WS 1895/96, SS 1896 und WS 1896/97 an der Universität Berlin im Laboratorium für Physiologische Chemie bei Ernst SALKOWSKI (1844-1923), hörte Vorlesungen zur Pathologie bei Rudolf VIRCHOW (1821-1902), zur Chirurgie bei Ernst von BERGMANN (1836-1907), zu inneren Krankheiten bei Karl EWALD (1845-1915), zur Neuropathologie bei Johann HOFFMANN (1857-1919), nahm während der Herbst-Semesterferien an weiteren Kursen teil: An der Universität Berlin zur praktischen Geburtshilfe bei Alfred DÜHRSSEN (1862-1933), zur Chirurgie bei Hans SCHLANGE (1856-1922), zu Kinderkrankheiten bei Adolf BAGINSKY (1843 bis 1918), zu Nervenkrankheiten bei Martin BERNHARDT (1844-1915), zur klinischen Chemie bei Wilhelm WEINTRAUD (1866-1920) und zur klinischen Bakteriologie bei Carl RUGE (1846 bis 1926), hörte Vorlesungen zu inneren Krankheiten bei Carl GERHARDT (1833-1902), Hermann SENATOR (1834-1911) und Ernst von LEYDEN (1832-1910), zur Neurologie und Psychiatrie bei Emanuel MENDEL (1839-1907), zur Kinderheilkunde bei Otto HEUBNER (1843-1926), zur Hals-, Nasen- und Ohrenheilkunde bei Bernhard FRÄNKEL (1836-1911), arbeitete im Physiologischen Laboratorium der Tierärztlichen Hochschule in Berlin bei Hermann MUNK (1839-1912). Ab 1897 Privatdozent an der MMA, ab 1897 zugleich außeretatmäßiger Arzt und ab 1899 Chefarzt der Ambulanz im Hospital der Dreifaltigkeitsgemeinde der Barmherzigen Schwestern, zugleich ab 1899 (oder ab 1907) Chefarzt der St.-Georg-Gemeinde der Barmherzigen Schwestern, 1904-1905 Freiwilliger im Russisch-japanischen Krieg, später zum Leiter einer der medizinischen Abteilungen der russischen Rot-Kreuz-Gesellschaft in der Mandschurischen Armee ernannt, ab 1905 \"Ehrenleibmedikus\", ab 1908 Leibarzt der Zarenfamilie NIKOLAJ II. (1868-1918) und 1918 zusammen mit der gesamten Familie im Keller des Ipat'ev-Hauses in Ekaterinburg erschossen.
+Inhaber hoher Ehrentitel und Auszeichnungen, darunter \"Wirklicher Russischer Staatsrat\", St.-Vladimir-Orden 3. und 4. (oder 3. u. 2.) Klasse mit Schwertern, St.-Annen-Orden 2. Klasse, St.-Stanislav-Orden 3. Klasse, Königlich Preußischer Kronenorden 2. Klasse mit Stern. 1999 erschien ein fiktiver Roman des norwegischen Schriftstellers Tor Bormann-Larsen u. d. T. \"Livlegen\" (in deutscher Übersetzung \"Der Leibarzt des Zaren\", Berlin 2009), in dem das verschollene Tagebuch des Leibarztes Dr. E. Botkin über die letzten Tage der Zarenfamilie vom April bis Juli 1918 vom Autor fortgeschrieben wird.
+" ;
+	a drw-model:B .
+
+<Date/17_7_1918>
+	a drw-model:Date ;
+	rdfs:label "17.7.1918" .
+
+<RelatedPerson/30135motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anastasija Aleksandrovna Botkina, geb. Krylova" .
+
+<WL/30135hasWL1>
+	rdfs:label "Botkin beschäftigte sich mit Fragen der Immunologie, der Leukozytolyse und der zellulären Abwehr." ;
+	a drw-model:WL .
+
+<SL/30135hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Pridvornyj kalendar': na 1910 god. S.-Peterburg [o. J.], 286; ~ 1911, 297; ~ 1913, 313; ~ 1914, 392." .
+
+<Date/27_5_or_8_6_1865>
+	a drw-model:Date ;
+	rdfs:label "27.5./8.6.1865" .
+

@@ -1,0 +1,261 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<WGermanPublication/30241hasWGermanPublication5>
+	rdfs:label "Ueber die Lage der Eingeweide bei den Siamesischen Brüdern, nebst einigen Bemerkungen über dieselbe bei Doppelmissbildungen überhaupt. St. Petersburger medicinische Zeitschrift N.F. 1 (1870), 141-192." ;
+	a drw-model:WGermanPublication .
+
+<W/30241hasW4>
+	rdfs:label "Očerk voznikovenija i zadači Kliničeskogo instituta velikoj knjagini Eleny Pavlovny. Sankt-Peterburg 1885, 29 S." ;
+	a drw-model:W .
+
+<P/30241hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto in: Historisches Museum der St. Petersburger medizinischen Akademie (Scan zugesandt von der Leiterin des Museums Marina Viktorovna Šavrukova am 18.6.2010). Abgedruckt in: Fischer 2010, 76. Auch in: 125 let (<b>SL</b>), 19." .
+
+<W/30241hasW2>
+	rdfs:label "O kolloidnom pereroždenii jajčnikov. Diss. Sankt-Peterburg 1863, 88 + 63 S." ;
+	a drw-model:W .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<RelatedPerson/30241motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sophie Philippe Antoinette, geb. Finke (1808?-1893)" .
+
+<P/30241hasP3>
+	a drw-model:P ;
+	rdfs:label "Elena Aleksandrovna Belova-Romanova (* 1946): Eduard von Eichwald. Ölgemälde nach einem Foto, 1997. Historisches Museum der St. Petersburger medizinischen Akademie (Scan zugesandt von der Leiterin des Museums Marina Viktorovna Šavrukova am 18.6.2010). Abgedruckt in: Fischer 2010, 81 (Tafel V). Auch in: 125 let (<b>SL</b>), 158." .
+
+<W/30241hasW11>
+	rdfs:label "O raspoznavanii boleznej vnutrennich organov. S.-Peterburg 1893, 162 S." ;
+	a drw-model:W .
+
+<WGermanPublication/30241hasWGermanPublication1>
+	rdfs:label "Ueber das Wessen des Stenokardie und ihr Verhältnis zur Subparalyse des Herzens. Würzburger medicinische Zeitschrift 4 (1863), 249-269." ;
+	a drw-model:WGermanPublication .
+
+<Place/Wilna_siehe_Grabstein>
+	a drw-model:Place ;
+	rdfs:label "Wilna (siehe Grabstein)" .
+
+<W/30241hasW17>
+	rdfs:label "Beiträge zur Chemie der gewebbildenden Substanzen. Heft 1. Berlin 1873, 230 S." ;
+	a drw-model:W .
+
+<Place/St_Petersburg_siehe_Grabstein>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg (siehe Grabstein)" .
+
+<WGermanPublication/30241hasWGermanPublication3>
+	rdfs:label "Beiträge zur Chemie der gewebbildenden Substanzen und ihrer Abkömmlinge. 1. Ueber das Mucin, besonders der Weinbergschnecke. Annalen der Chemie und Pharmacie 134 (1865), 177-211." ;
+	a drw-model:WGermanPublication .
+
+<W/30241hasW6>
+	rdfs:label "K voprosu ob umen'šenii smertnosti v Rossii. Praktičeskaja medicina (1887) Nr. 11, 92 S., und (1888) Nr. 7-8/9, 64 S." ;
+	a drw-model:W .
+
+<W/30241hasW15>
+	rdfs:label "Ueber die eiweissartigen Stoffe der Blutflüssigkeit und des Herzbeutelwassers. St. Petersburger medicinische Zeitschrift 15 (1869), 239-261." ;
+	a drw-model:W .
+
+<MainName/30241hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Eichwald, Eduard Georg von" .
+
+<GeneralLabor/Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Arzt" .
+
+<WL/30241hasWL1>
+	rdfs:label "Gab mit seinen Vorlesungen, in denen er sich an die anatomisch-physiologischen Grundlagen hielt, den Anstoß zur Bildung einer besonderen Schule der praktischen Ärzte." ;
+	a drw-model:WL .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<RelatedPerson/30241wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ekaterina Nikitovna, geb. Kasakova († 1927)" .
+
+<Date/2_or_14_9_1889>
+	rdfs:label "2./14.9.1889" ;
+	a drw-model:Date .
+
+<ImportantPerson/30241>
+	drw-model:hasW <W/30241hasW8> ;
+	drw-model:hasID "30241" ;
+	drw-model:motherIs <RelatedPerson/30241motherIs1> ;
+	drw-model:fatherIs <RelatedPerson/30241fatherIs1> ;
+	drw-model:hasP <P/30241hasP1> ;
+	drw-model:hasW <W/30241hasW9> ;
+	drw-model:hasMG <MG/30241hasMG1> ;
+	drw-model:diedOn <Date/2_or_14_9_1889> ;
+	drw-model:hasSL <SL/30241hasSL4> ;
+	drw-model:hasW <W/30241hasW13> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30241hasWGermanPublication1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30241hasWGermanPublication5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Arzt> ;
+	drw-model:hasW <W/30241hasW17> ;
+	drw-model:hasW <W/30241hasW14> ;
+	drw-model:wasBornOn <Date/31_3_or_12_4_1837> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	drw-model:wasBornIn <Place/Wilna_siehe_Grabstein> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30241hasWGermanPublication2> ;
+	drw-model:hasStationOfLife <B/30241hasStationOfLife1> ;
+	drw-model:hasW <W/30241hasW1> ;
+	drw-model:hasWL <WL/30241hasWL1> ;
+	drw-model:hasW <W/30241hasW12> ;
+	drw-model:hasSL <SL/30241hasSL1> ;
+	drw-model:hasW <W/30241hasW4> ;
+	drw-model:hasSL <SL/30241hasSL2> ;
+	drw-model:hasW <W/30241hasW16> ;
+	drw-model:hasP <P/30241hasP2> ;
+	rdfs:label "Eichwald, Eduard Georg von" ;
+	drw-model:hasW <W/30241hasW7> ;
+	drw-model:hasWL <WL/30241hasWL2> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30241hasWGermanPublication3> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30241.jpg> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Prof_fr_Diagnostik_und_allgeme> ;
+	drw-model:hasW <W/30241hasW3> ;
+	drw-model:hasSL <SL/30241hasSL3> ;
+	drw-model:hasEducation <A/30241hasEducation1> ;
+	drw-model:hasW <W/30241hasW6> ;
+	drw-model:wasMarriedTo <RelatedPerson/30241wasMarriedTo1> ;
+	drw-model:hasW <W/30241hasW10> ;
+	drw-model:hasMainName <MainName/30241hasMainName1> ;
+	drw-model:hasP <P/30241hasP3> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30241hasWGermanPublication6> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30241hasWGermanPublication4> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <W/30241hasW2> ;
+	drw-model:hasWL <WL/30241hasWL3> ;
+	drw-model:hasW <W/30241hasW11> ;
+	drw-model:hasW <W/30241hasW5> ;
+	drw-model:hasP <P/30241hasP4> ;
+	drw-model:diedIn <Place/St_Petersburg_siehe_Grabstein> ;
+	drw-model:hasW <W/30241hasW15> .
+
+<SL/30241hasSL2>
+	a drw-model:SL ;
+	rdfs:label "125 let Sankt-Peterburgskoj medicinskoj akademii poslediplomnogo obrazovanija. Pod red. Otari Givievič Churcilava. Sankt-Peterburg 2010; darin S. 17-22: Pervyj direktor Kliničeskogo instituta Ė. Ė. Ėjchval'd (m. Bildnissen)." .
+
+<SL/30241hasSL4>
+	a drw-model:SL ;
+	rdfs:label "WBIS DBA: I 273, 2-3; II 318, 163-164; RBA: R 521, 36-43." .
+
+<W/30241hasW1>
+	rdfs:label "O mineral'nych vodach Rossii v estestvenno-istoričeskom otnošenii. Voenno-medicinskij žurnal Teil 77, Jg. 38 (1860) II, 1-63, 171-228; Teil 80, Jg. 39 (1861) II, 1-63 und 171-228." ;
+	a drw-model:W .
+
+<GeneralLabor/Prof_fr_Diagnostik_und_allgeme>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Prof. für Diagnostik und allgemeine Therapie" .
+
+<W/30241hasW13>
+	rdfs:label "Die Colloidentartung der Eierstöcke. Ein monographischer Versuch. Würzburger medicinische Zeitschrift 5 (1864), 270-426." ;
+	a drw-model:W .
+
+<W/30241hasW3>
+	rdfs:label "Obščaja terapija. 1. Aufl. S.-Peterburg 1872; 2. Aufl. 1875; ... 5. Aufl. bearb. von G. Šapiro. S.-Peterburg 1892, 384 S." ;
+	a drw-model:W .
+
+<WGermanPublication/30241hasWGermanPublication6>
+	rdfs:label "Beiträge zur Chemie der gewebbildenden Substanzen. Heft 1. Berlin 1873, 230 S." ;
+	a drw-model:WGermanPublication .
+
+<RelatedPerson/30241fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann Karl Eduard (Ėduard Ivanovič) (1795-1876), Prof. für Mineralogie, Zoologie und vergleichende Anatomie" .
+
+<P/30241hasP4>
+	a drw-model:P ;
+	rdfs:label "Aleksandr Vasil'evič Degtjarev (* 1929): Eduard Georg von Eichwald-Denkmal (2006) im Parkgelände der St. Petersburger Medizinischen Akademie für Postdiplomstudium. Aus: 125 let (<b>SL</b>), 52. Abgedruckt in: Fischer 2010, 80." .
+
+<MG/30241hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Verein der St. Petersburger Ärzte (ab 1869), Voenno-medicinskij naučnyj komitet [Militärmedizinisches Gelehrtenkomitee]." .
+
+<SL/30241hasSL1>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [66129/64515 (2.8.2010)]." .
+
+<P/30241hasP2>
+	rdfs:label "Zwei Portraits [Fotos] in: 125 let (<b>SL</b>), 17 und 39." ;
+	a drw-model:P .
+
+<W/30241hasW9>
+	rdfs:label "Patogenez i semiotika rasstrojstv kroovoobraščenija. S.-Peterburg 1891, 194 S." ;
+	a drw-model:W .
+
+<W/30241hasW16>
+	rdfs:label "Ueber die Lage der Eingeweide bei den Siamesischen Brüdern, nebst einigen Bemerkungen über dieselbe bei Doppelmissbildungen überhaupt. St. Petersburger medicinische Zeitschrift N.F. 1 (1870), 141-192." ;
+	a drw-model:W .
+
+<W/30241hasW7>
+	rdfs:label "Dve lekcii o \"specifičeskom sposobe lečenija\". Posmertnoe izdanie. Praktičeskaja medicina (1891) Nr. 1, 40 S." ;
+	a drw-model:W .
+
+<WGermanPublication/30241hasWGermanPublication2>
+	rdfs:label "Die Colloidentartung der Eierstöcke. Ein monographischer Versuch. Würzburger medicinische Zeitschrift 5 (1864), 270-426." ;
+	a drw-model:WGermanPublication .
+
+<W/30241hasW14>
+	rdfs:label "Beiträge zur Chemie der gewebbildenden Substanzen und ihrer Abkömmlinge. 1. Ueber das Mucin, besonders der Weinbergschnecke. Annalen der Chemie und Pharmacie 134 (1865), 177-211." ;
+	a drw-model:W .
+
+<W/30241hasW5>
+	rdfs:label "Čto delat' v ožidanii cholery i pri pervom ee pojavlenii? Praktičeskaja medicina (1886) Nr. 1, 15 S." ;
+	a drw-model:W .
+
+<WGermanPublication/30241hasWGermanPublication4>
+	rdfs:label "Ueber die eiweissartigen Stoffe der Blutflüssigkeit und des Herzbeutelwassers. St. Petersburger medicinische Zeitschrift 15 (1869), 239-261." ;
+	a drw-model:WGermanPublication .
+
+<A/30241hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1849-1853 Besuch der Annenschule, 1854-1859 Studium der Medizin und 1863 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg." .
+
+<Date/31_3_or_12_4_1837>
+	a drw-model:Date ;
+	rdfs:label "31.3./12.4.1837" .
+
+<WL/30241hasWL2>
+	rdfs:label "Entdeckte 1865 das Vorkommen von Kohlenhydraten im Mucin und untersuchte die kolloidale Degeneration der Ovarien. In weiteren Arbeiten beschäftigte er sich mit der Pathogenese und der Semiotik der Durchblutungsstörungen, den Erkrankungen der inneren Organe, der kritischen Überprüfung der medikamentösen Behandlungsmethoden, Fragen der Sterblichkeitssenkung u.a." ;
+	a drw-model:WL .
+
+<B/30241hasStationOfLife1>
+	drw-model:hasNameLink <ImportantPerson/30473> ;
+	a drw-model:B ;
+	rdfs:label "1859-1860 Arzt, 1860-1862 und Assistent bei Viktor (Vilibal'dovič) BESSER (1825-1890) und bei Nikolaus Theodor <span style='font-variant:small-caps;'>ZDEKAUER</span> (1815-1897) an der MCA, 1862-1864 Studienaufenthalte bei Rudolf VIRCHOW (1821-1902) in Berlin, bei Josef von ŠKODA (1805-1881) und Johann von OPPOLZER (1808-1871) in Wien und bei Heinrich von BAMBERGER (1822-1888) in Würzburg, 1865/66-1873 Leibarzt der Großfürstin ELENA PAVLOVNA, geb. FRIEDERIKE CHARLOTTE MARIE Prinzessin VON WÜRTTEMBERG (1806-1873), 1866-1873 Adjunkt-Prof., 1873-1875 ao. Prof. für Diagnostik und allgemeine Therapie, 1875-1883 o. Prof. für propädeutische und medizinische Klinik an der MCA und zugleich ab 1875 [nicht ab 1883] Chefarzt der I. medizinischen Abteilung des Klinischen Militärhospitals, 1873/74-1881 Dozent in den medizinischen Frauenkursen in St. Petersburg, 1883-1886 Medizinalinspektor der \"Institutionen der Zarin Marija\" in Moskau, 1885 Gründer und bis 1889 Direktor des \"Klinischen Institutes der Großfürstin Elena Pavlovna zur Fortbildung praktischer Ärzte\" in St. Petersburg, außerdem ab 1879 Mitglied des Medizinalrats des Ministeriums des Innern und ab 1885 des Ministeriums für Volksaufklärung.
+Posthume Ehrungen: Seit 1997 trägt der Lehrstuhl Nr. 1 für Therapie an der St. Petersburger Medizinischen Akademie für Postdiplomstudium seinen Namen: \"Kafedra terapii N1 im. Ė. Ė. Ėjchval'da\"; am 2. Juni 2006 wurde das Eichwald-Denkmal (abgedruckt in: Fischer 2010, 80) des Bildhauers Aleksandr Vasil'evič DEGTJAREV im Park der Medizinischen Akademie eingeweiht.
+" .
+
+<ImportantPerson/30473>
+	a drw-model:ImportantPerson .
+
+<W/30241hasW10>
+	rdfs:label "Kritičeskij obzor lekarstvennych metodov vračevanija. S.-Peterburg 1891, 92 S." ;
+	a drw-model:W .
+
+<SL/30241hasSL3>
+	rdfs:label "Professora MCA/MMA, 127." ;
+	a drw-model:SL .
+
+<W/30241hasW12>
+	rdfs:label "Ueber das Wessen des Stenokardie und ihr Verhältnis zur Subparalyse des Herzens. Würzburger medicinische Zeitschrift 4 (1863), 249-269." ;
+	a drw-model:W .
+
+<WL/30241hasWL3>
+	rdfs:label "Mitbegründer der Zeitschrift <i>Trudy po anatomii, fiziologii i kliničeskoj medicine</i>." ;
+	a drw-model:WL .
+
+<W/30241hasW8>
+	rdfs:label "O životnom magnetizme i gipnotizme. Voekresennye lekcii, čitanye v aprele 1888 g. Praktičeskaja medicina (1891) Nr. 3, 50 S." ;
+	a drw-model:W .
+

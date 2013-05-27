@@ -1,0 +1,111 @@
+(dp0
+VA
+p1
+VAnfangs Schulbildung im Privatinstitut Johann Bernhard PFUNDHELLERS in Moskau, 1767-1772 Besuch des Moskauer Gymnasiums bei Rektor Johannes Matthias SCHADEN (1731-1797), bei PFUNDHELLER u.a., 1773-1775 Übungen in Chirurgie und Anatomie im Allgemeinen Krankenhaus in Moskau, 1775-1777 Studium bei Anton Alekseevi\u010d BARSOV (1730-1791), Dmitrij Sergeevi\u010d ANI\u010cKOV (1733-1788), Johannes Joachim Julius ROST (1726-1791) und Johann Gottfried REICHEL (\u2020 1778) an der Universität Moskau, 1777-1781 Studium bei Johann Friedrich HILLER (1718-1790), Johann Daniel TITIUS (1729-1796), Johann Matthias SCHROECKH (1733-1808), Georg Rudolph BÖHMER (1723-1803), Christian Friedrich NÜRNBERGER (1744-1795), Georg August LANGGUTH (1711-1782) u.a. und 1781 Dr. med. an der Universität Wittenberg; weitere Daten nicht bekannt.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u0422\u0418\u041c\u0410\u041d, \u0413\u043e\u0442\u043b\u0438\u0431 \u0418\u0432\u0430\u043d \u041a\u0430\u0440\u043b\u043e\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VTIMANN, Gotlib Ivan Karlovi\u010d
+p11
+sg8
+S'de'
+p12
+sasVName
+p13
+(dp14
+S'Vornamen'
+p15
+VJohann Gottlieb
+p16
+sS'Nachname'
+p17
+VThiemann
+p18
+ssVG
+p19
+VVermutlich Bruder von Johann Wilhelm Ludwig #internNameLink#30462#endNameNr#THIEMANN#/internNameLink#
+p20
+sVNamensvariationen
+p21
+(lp22
+(dp23
+g6
+VTIEMANN
+p24
+sS'countyCode'
+p25
+g12
+sa(dp26
+g6
+VTIMAN
+p27
+sg25
+g12
+sasVM
+p28
+VCharlotta Helena, geb. Ithimaean
+p29
+sVQuelle
+p30
+V<i>http://drw.saw-leipzig.de/31014.html</i> (2. Mai 2012).
+p31
+sVID
+p32
+V31014
+p33
+sVQ
+p34
+(lp35
+VUniversitäts- und Landesbibliothek Sachsen-Anhalt in Halle/Saale, Abt. Sondersammlungen: Sign. Yo 9, f. 126v, f. 139v.
+p36
+aVEigene Vita in Latein in: De brassica ... (vgl. <b>W</b>), XIV-XVI.
+p37
+asVGeburtsdaten
+p38
+(dp39
+S'Ort'
+p40
+VMoskau
+p41
+sS'Datum'
+p42
+V12.9.1758
+p43
+ssVSterbedaten
+p44
+(dp45
+g42
+V?
+p46
+ssVW
+p47
+(dp48
+S'general'
+p49
+(lp50
+VDe brassica, puerperis ipso festo amphidromiorum die, in commodum alimentum et salutare simul remedium oblata atque apposita. Wittenberg 1781, XVI S.; darin eigene Vita.
+p51
+aVDe seminum ad sementem praeparatione. Diss. Wittenberg 1781, 47 S.
+p52
+assVV
+p53
+VKarl Gottlieb (\u2020 1771), Praktischer Arzt und Chirurg
+p54
+sVBerufe
+p55
+(lp56
+VArzt
+p57
+as.

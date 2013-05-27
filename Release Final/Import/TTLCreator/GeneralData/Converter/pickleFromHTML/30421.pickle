@@ -1,0 +1,89 @@
+(dp0
+VA
+p1
+VBesuch der Stadtschule in Dorpat, danach Apothekenlehre in Wolmar, 1795 Provisor-Examen in St. Petersburg, 1795-1798 Provisor in Wolmar, 1798-1804 Studium der Medizin an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg, 1805 Dr. med. an der Universität Dorpat.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+VKO\u041b\u042c
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VKOL'
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+VLeibarzt des Herzogs ALEXANDER I. von Württemberg (1771-1833).
+p14
+sVName
+p15
+(dp16
+S'Vornamen'
+p17
+VJohann Heinrich
+p18
+sS'Nachname'
+p19
+VKohl
+p20
+ssVQuelle
+p21
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 126.</i>
+p22
+sVID
+p23
+V30421
+p24
+sVGeburtsdaten
+p25
+(dp26
+S'Ort'
+p27
+VDorpat
+p28
+sS'Datum'
+p29
+V9./20.5.1775
+p30
+ssVSterbedaten
+p31
+(dp32
+g29
+V?
+p33
+ssVW
+p34
+(dp35
+S'general'
+p36
+(lp37
+VAnimadversiones in aetiologiam hydropis. Dissertation. Dorpat 1805, 22 S. http://dspace.utlib.ee/dspace/bitstream/handle/10062/7119/kohl_animadversiones.pdf?sequence=1 Online Ressource (4.4.2012).
+p38
+assVSL
+p39
+(dp40
+g36
+(lp41
+VEAD: Dokument-Id [71374/69478 (17.8.2010)].
+p42
+aVWBIS DBA: I 687, 296-297; BaBA: I 173, 156-157.
+p43
+assVBerufe
+p44
+(lp45
+VChirurg
+p46
+aVHerzoglicher Leibarzt
+p47
+as.

@@ -1,0 +1,366 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/31055hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Česnakova [Im Original Druckfehler, es muss heißen: Česnokova], Sof’ja Aleksandrovna, Lindemann, Marianne: Russische Physiologen in Laboratorien von Carl Ludwig. Wissenschaftliche Zeitschrift der Karl-Marx-Universität Leipzig, Mathematisch-naturwissenschaftliche Reihe 19 (1970), 316, 317." .
+
+<Year/1872>
+	rdfs:label "1872" ;
+	a drw-model:Year .
+
+<Place/Voznesenskoe_heute_Vladimirovk>
+	a drw-model:Place ;
+	rdfs:label " Voznesenskoe (heute Vladimirovka), Bez. Obojan’, Gouv. Kursk" ;
+	drw-model:hasComment <Comment/31055_1> .
+
+<Year/1878>
+	rdfs:label "1878" ;
+	a drw-model:Year .
+
+<B/31055hasStationOfLife10>
+	drw-model:ended <Year/1917> ;
+	drw-model:began <Year/1914> ;
+	a drw-model:B ;
+	rdfs:label "Mitglied der Staatsduma in St. Petersburg" .
+
+<WGermanPublication/31055hasWGermanPublication2>
+	rdfs:label "Ueber die angebliche zuckerzersetzende Eigenschaft des Glycerins. Archiv für die gesammte Physiologie des Menschen und der Thiere 13 (1876) 1, 453-460; Ref. in: Jahresbericht über die Fortschritte der Anatomie und Physiologie 5.1876, II. Abt. (1877), 253." ;
+	a drw-model:WGermanPublication .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<RelatedPerson/31055fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Nikolaj" .
+
+<B/31055hasStationOfLife12>
+	a drw-model:B .
+
+<Place/Voznesenskoe>
+	a drw-model:Place ;
+	rdfs:label "Voznesenskoe" ;
+	drw-model:hasComment <Comment/31055_2> .
+
+<GermanPublicationComment/31055hasGermanPublicationComment1>
+	drw-model:hasComment <Comment/31055_6> ;
+	a drw-model:GermanPublicationComment ;
+	rdfs:label "Publikationen in deutscher Sprache:" .
+
+<NameVariation/31055hasNameVariation1>
+	rdfs:label "Ustimowitsch, C."@de ;
+	a drw-model:NameVariation .
+
+<Year/1887>
+	rdfs:label "1887" ;
+	a drw-model:Year .
+
+<SL/31055hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Nozdračev, A. D., Poljakov, E. L.: Učitel’ Ivana Petroviča Pavlova perioda Mediko-chirurgičeskoj akademii Konstantin Nikolaevič Ustimovič (1838-posle 1917). Rossijskij fiziologičeskij žurnal im. I. M. Sečenova 91 (2005), 706-714." .
+
+<A/31055hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Abschluss des Ennes[3]-Jungenpensionats in Moskau" ;
+	drw-model:hasComment <Comment/31055_3> ;
+	drw-model:inYear <Year/1854> .
+
+<B/31055hasStationOfLife8>
+	rdfs:label "wieder auf seinem Anwesen in Voznesenskoe als Arzt und zeitweise in Obojan’ als Abgeordneter in der Landesverwaltung des Gouvernements Kursk tätig" ;
+	a drw-model:B ;
+	drw-model:began <Year/1879> .
+
+<Comment/31055_2>
+	rdfs:label "Starb einige Monate nach der Oktoberrevolution nach Enteignung und Vertreibung von seinem Anwesen in Armut im Kirchenasyl und wurde auf dem Dorffriedhof begraben. Vgl. Prachova 2009 (<b>SL</b>), 17-18." ;
+	a drw-model:Comment .
+
+<SL/31055hasSL1>
+	rdfs:label "Ivanovskij 1898 - Istorija Imperatorskoj voenno-medicinskoj (byvšej mediko-chirurgičeskoj) akademii za sto let 1798-1898. Glavnyj red. Ivanovskij. Sankt-Peterburg 1898, 619, 620, 643, 647." ;
+	a drw-model:SL .
+
+<Year/1859>
+	rdfs:label "1859" ;
+	a drw-model:Year .
+
+<Year/1875>
+	rdfs:label "1875" ;
+	a drw-model:Year .
+
+<Year/1873>
+	rdfs:label "1873" ;
+	a drw-model:Year .
+
+<Comment/31055_6>
+	a drw-model:Comment ;
+	rdfs:label "Mit Ergänzungen der Angaben in Kvasov/Fedorova-Grot 1970 (<b>GPV</b>) zu Titeln, Band-, Jahres- und Seitenzahlen." .
+
+<A/31055hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Moskau" ;
+	drw-model:began <Year/1854> ;
+	drw-model:ended <Year/1859> .
+
+<GeneralLabor/Abgeordneter>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Abgeordneter" .
+
+<HonoursAndAwards/31055hasHonoursAndAwards1>
+	rdfs:label "Inhaber des Ehrentitels „Hofrat“" ;
+	a drw-model:HonoursAndAwards .
+
+<B/31055hasStationOfLife5>
+	rdfs:label "bei <span style='font-variant:small-caps;'>Ludwig</span> an der Physiologischen Anstalt (bzw. am Physiologischen Institut) der Universität Leipzig" ;
+	drw-model:hasNameLink <ImportantPerson/30664> ;
+	drw-model:inYear <Year/1872> ;
+	drw-model:inYear <Year/1887> ;
+	drw-model:inYear <Year/1869> ;
+	a drw-model:B .
+
+<RelatedPerson/31055hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Jurij Konstantinovič, Offizier, nach 1917 Mediziner im Exil<br>Töchter: Ol’ga, Ljubov, Inna und Marija Konstantinovna" .
+
+<Date/1918?>
+	a drw-model:Date ;
+	rdfs:label "1918(?)" .
+
+<B/31055hasStationOfLife1>
+	drw-model:began <Year/1859> ;
+	rdfs:label "Praktischer Arzt auf seinem Anwesen in Voznesenskoe[4] und als Landarzt tätig" ;
+	a drw-model:B ;
+	drw-model:hasComment <Comment/31055_4> .
+
+<B/31055hasStationOfLife7>
+	drw-model:ended <Year/1878> ;
+	drw-model:began <Year/1875> ;
+	rdfs:label "ao. Professor und Adjunkt-Professor am Lehrstuhl für Physiologie an der MCA" ;
+	a drw-model:B .
+
+<GPV/31055hasGPV2>
+	rdfs:label "Russische Publikationen 1873-1879, in: Zmeev, Lev Fedorovič: Russkie vrači pisateli. Tom 1-5. Sankt-Peterburg 1886-1889, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<Date/1837_or_1838>
+	a drw-model:Date ;
+	rdfs:label "1837/1838" .
+
+<B/31055hasStationOfLife3>
+	rdfs:label "an der Universität Heidelberg" ;
+	drw-model:began <Year/1860> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1861> .
+
+<Comment/31055_4>
+	rdfs:label "Erbte das Anwesen von seinem Verwandten General und Gouverneur Adrian Prokof’evič Ustimovič († 1851), welcher es von Zar Aleksandr I. (1777-1825) für seine erfolgreiche Teilnahme am Krieg gegen Napoleon geschenkt bekam. Vgl. Prachova 2009 (<b>SL</b>), 8." ;
+	a drw-model:Comment .
+
+<Year/1861>
+	rdfs:label "1861" ;
+	a drw-model:Year .
+
+<Year/1863>
+	rdfs:label "1863" ;
+	a drw-model:Year .
+
+<Year/1871>
+	rdfs:label "1871" ;
+	a drw-model:Year .
+
+<Year/1917>
+	rdfs:label "1917" ;
+	a drw-model:Year .
+
+<SL/31055hasSL5>
+	rdfs:label "Prachova, Elena Andreevna: Sud’ba sela Vladimirovka v sud’be strany. Vladimirovka 2009, 32 S. (vladim-school.narod.ru/metodich/sydiba.doc, 23.5.2011)." ;
+	a drw-model:SL .
+
+<Comment/31055_1>
+	a drw-model:Comment ;
+	rdfs:label "Vermutlich durch die Umrechnung zwischen Julianischem und Gregorianischem Kalender, die eine Differenz von 12 Tagen erzeugt, beide Jahresangaben korrekt." .
+
+<SL/31055hasSL4>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 97, 104, 105, 203." ;
+	a drw-model:SL .
+
+<Year/1879>
+	a drw-model:Year ;
+	rdfs:label "1879" .
+
+<Year/1874>
+	rdfs:label "1874" ;
+	a drw-model:Year .
+
+<WGermanPublication/31055hasWGermanPublication3>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Vasotonische Aphorismen. Archiv für Anatomie und Physiologie, Physiologische Abteilung 1887, 185-194." .
+
+<MainName/31055hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/31055hasNameVariation1> ;
+	rdfs:label "Ustimovič, Konstantin Nikolaevič" .
+
+<Year/1869>
+	rdfs:label "1869" ;
+	a drw-model:Year .
+
+<ImportantPerson/31055>
+	drw-model:hasComment <Comment/31055_5> ;
+	drw-model:hasStationOfLife <B/31055hasStationOfLife2> ;
+	drw-model:hasEducation <A/31055hasEducation3> ;
+	drw-model:hasStationOfLife <B/31055hasStationOfLife11> ;
+	drw-model:fatherIs <RelatedPerson/31055fatherIs1> ;
+	drw-model:diedOn <Date/1918?> ;
+	drw-model:hasStationOfLife <B/31055hasStationOfLife4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Abgeordneter> ;
+	drw-model:hasWGermanPublication <WGermanPublication/31055hasWGermanPublication2> ;
+	drw-model:hasEducation <A/31055hasEducation2> ;
+	drw-model:hasComment <Comment/31055_4> ;
+	drw-model:hasSL <SL/31055hasSL2> ;
+	drw-model:hasMainName <MainName/31055hasMainName1> ;
+	drw-model:hasStationOfLife <B/31055hasStationOfLife9> ;
+	drw-model:hasStationOfLife <B/31055hasStationOfLife7> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:diedIn <Place/Voznesenskoe> ;
+	drw-model:hasGPV <GPV/31055hasGPV2> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/31055hasHonoursAndAwards1> ;
+	drw-model:hasStationOfLife <B/31055hasStationOfLife3> ;
+	drw-model:hasStationOfLife <B/31055hasStationOfLife5> ;
+	drw-model:hasWGermanPublication <WGermanPublication/31055hasWGermanPublication1> ;
+	drw-model:hasID "31055" ;
+	drw-model:hasSL <SL/31055hasSL3> ;
+	drw-model:wasBornIn <Place/Voznesenskoe_heute_Vladimirovk> ;
+	drw-model:hasEducation <A/31055hasEducation1> ;
+	drw-model:hasGPV <GPV/31055hasGPV1> ;
+	drw-model:hasComment <Comment/31055_3> ;
+	drw-model:hasSL <SL/31055hasSL6> ;
+	drw-model:hasComment <Comment/31055_1> ;
+	rdfs:label "Ustimovič, Konstantin Nikolaevič" ;
+	drw-model:hasStationOfLife <B/31055hasStationOfLife6> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasGermanPublicationComment <GermanPublicationComment/31055hasGermanPublicationComment1> ;
+	drw-model:hasW <W/31055hasW1> ;
+	drw-model:hasSL <SL/31055hasSL1> ;
+	drw-model:hasSL <SL/31055hasSL5> ;
+	drw-model:hasStationOfLife <B/31055hasStationOfLife10> ;
+	drw-model:hasStationOfLife <B/31055hasStationOfLife1> ;
+	drw-model:hasEducation <A/31055hasEducation4> ;
+	drw-model:hasSL <SL/31055hasSL4> ;
+	drw-model:hasDescendant <RelatedPerson/31055hasDescendant1> ;
+	drw-model:hasComment <Comment/31055_2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Physiologie> ;
+	drw-model:hasSL <SL/31055hasSL7> ;
+	drw-model:hasStationOfLife <B/31055hasStationOfLife12> ;
+	drw-model:hasWL <WL/31055hasWL1> ;
+	drw-model:hasWL <WL/31055hasWL2> ;
+	drw-model:wasBornOn <Date/1837_or_1838> ;
+	drw-model:wasMarriedTo <RelatedPerson/31055wasMarriedTo1> ;
+	drw-model:hasStationOfLife <B/31055hasStationOfLife8> ;
+	drw-model:hasWGermanPublication <WGermanPublication/31055hasWGermanPublication3> ;
+	drw-model:hasComment <Comment/31055_6> .
+
+<WL/31055hasWL2>
+	rdfs:label "Autor von Arbeiten u. a. zur Physiologie des Blutkreislaufes, der Sinnesorgane und der Absonderungsfunktion der Nieren" ;
+	a drw-model:WL .
+
+<W/31055hasW1>
+	rdfs:label "Ėksperimental’nye issledovanija teorii močeotdelenija. Diss. Sankt-Peterburg 1873, 34 S.; auch in: Voenno-medicinskij žurnal Teil 118 (1873) II, 146-178." ;
+	a drw-model:W .
+
+<WGermanPublication/31055hasWGermanPublication1>
+	rdfs:label "Experimentelle Beiträge zur Theorie der Harnabsonderung. Arbeiten aus der Physiologischen Anstalt zu Leipzig 5 (1870), 199-238 = Berichte über die Verhandlungen der Königlich-Sächsischen Gesellschaft der Wissenschaften zu Leipzig, Mathematisch-physische Classe 22 (1870), 430-470." ;
+	a drw-model:WGermanPublication .
+
+<B/31055hasStationOfLife11>
+	a drw-model:B ;
+	rdfs:label "zurück auf seinem Anwesen, Enteignung und 1918(?) Tod in Voznesenskoe" ;
+	drw-model:inYear <Year/1917> .
+
+<A/31055hasEducation4>
+	a drw-model:A ;
+	drw-model:inYear <Year/1873> ;
+	rdfs:label "Dr. med. an der Mediko-Chirurgischen Akademie (MCA) in St. Petersburg" .
+
+<B/31055hasStationOfLife9>
+	rdfs:label "außerdem Mitglied des Landesärzterates des Gouvernements Kursk [<i>Kurskij gubernskij zemskij vračebnyj sovet</i>]" ;
+	a drw-model:B ;
+	drw-model:began <Year/1879> .
+
+<Comment/31055_3>
+	rdfs:label "Louis (Ludwig) Ennes, <b>russ.</b>: Ljudvig Ėnnes (1810-1886), Pastor der Lutherischen Kirche und Gründer eines privaten Jungenpensionats in Moskau 1838." ;
+	a drw-model:Comment .
+
+<SL/31055hasSL6>
+	rdfs:label "WBIS RBA & BASU: Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (Online Ressource, 16.1.2013): R 468, 374-375; SU 445, 1-2." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" .
+
+<RelatedPerson/31055wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Julija, geb. Ksešinskaja († 1902), Sängerin" .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<GeneralLabor/Professor_fr_Physiologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<Year/1860>
+	rdfs:label "1860" ;
+	a drw-model:Year .
+
+<B/31055hasStationOfLife6>
+	drw-model:inYear <Year/1874> ;
+	rdfs:label "Privatdozent am Lehrstuhl für Physiologie der Veterinärabteilung an der MCA in St. Petersburg" ;
+	a drw-model:B .
+
+<B/31055hasStationOfLife4>
+	rdfs:label "bei C. <span style='font-variant:small-caps;'>Ludwig</span> an der Militärärztlichen Akademie Josephinum in Wien" ;
+	drw-model:hasNameLink <ImportantPerson/30664> ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1863> .
+
+<A/31055hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Rigorosum an der Universität Char’kov" ;
+	drw-model:inYear <Year/1871> .
+
+<GPV/31055hasGPV1>
+	drw-model:hasComment <Comment/31055_5> ;
+	rdfs:label "Publikationen 1870-1912, in: Kvasov/Fedorova-Grot 1970 (<b>SL</b>).[5]" ;
+	a drw-model:GPV .
+
+<SL/31055hasSL2>
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 21-23." ;
+	a drw-model:SL .
+
+<ImportantPerson/30664>
+	a drw-model:ImportantPerson .
+
+<Comment/31055_5>
+	a drw-model:Comment ;
+	rdfs:label "Enthät eine unkorrekte Angabe zum Titel „Uslovija krovoobraščenija pri pererezke i uničtoženii spinnogo mozga“: Dieser Artikel ist nicht in den Berichten über die Verhandlungen der Königlich-Sächsischen Gesellschaft der Wissenschaften zu Leipzig 1887 erschienen." .
+
+<Year/1854>
+	rdfs:label "1854" ;
+	a drw-model:Year .
+
+<Year/1914>
+	rdfs:label "1914" ;
+	a drw-model:Year .
+
+<WL/31055hasWL1>
+	rdfs:label "Gründer eines der ersten Laboratorien für experimentelle Physiologie in Russland" ;
+	a drw-model:WL .
+
+<B/31055hasStationOfLife2>
+	drw-model:began <Year/1860> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1887> ;
+	rdfs:label "Studienaufenthalte in Deutschland:" .
+

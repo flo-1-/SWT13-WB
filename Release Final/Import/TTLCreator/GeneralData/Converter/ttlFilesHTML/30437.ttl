@@ -1,0 +1,201 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<GeneralLabor/Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Arzt" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<SL/30437hasSL2>
+	rdfs:label "Istorija Kavkazskich mineral'nych vod. Ot Aleksandra I. do Nikolaja II. Online Ressource Online Ressource (7.3.2012)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.kmv-region.ru/history01/" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<GeneralLabor/Hofmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hofmedikus" .
+
+<Place/Vjatka>
+	a drw-model:Place ;
+	rdfs:label "Vjatka" .
+
+<WL/30437hasWL2>
+	rdfs:label "Untersuchte (1823) und beschrieb (1825) Mineralwasserquellen im Nordkaukasus, entdeckte neue Quellen - in Železnovodsk ist eine nach ihm benannt: <i>Neljubinskij istočnik</i> [\"Neljubin-Quelle\"], wies auf die therapeutische Wirkung der Quellen hin, verwendete das \"Neljubin-Wasser\" zur Blutstillung, schlug 1827 die Verwendung von Bleichmittel-Lösung zur Desinfektion des Wassers, der Räumlichkeiten und der Hände vor der Operation vor, verbesserte Methoden zur Herstellung einiger Drogen sowie der Apparate zur Herstellung von Schwefeläther u.a." ;
+	a drw-model:WL .
+
+<NameVariation/30437hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Alexander Petrowitsch" .
+
+<RelatedPerson/30437fatherIs1>
+	rdfs:label "Pëtr, Kaufmann" ;
+	a drw-model:RelatedPerson .
+
+<W/30437hasW3>
+	rdfs:label "Farmakografija, ili Chimiko-vračebnye predpisanija prigotovlenija i upotreblenija novejšich lekarstv. 1.-5. Aufl. S.-Peterburg 1827-1835." ;
+	a drw-model:W .
+
+<W/30437hasW5>
+	rdfs:label "Autor des Vorwortes in der russischen Übersetzung von: Hermann Moses Auerbach: Rademachers Heilmittel, für den Praktiker zusammengestellt. Berlin 1851: Doktora Rademachera specifičeskie i universal'nye vračebnye sredstva, sobrannye dlja praktičeskich vračej. S.-Peterburg 1853, 10 S." ;
+	a drw-model:W .
+
+<SL/30437hasSL4>
+	rdfs:label "Mineral'nye vody goroda Essentuki. Online Ressource Online Ressource (7.3.2012)" ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.mwz.kurortinfo.ru/essent.shtm" .
+
+<SL/30437hasSL6>
+	rdfs:label "WBIS RBA: R 327, 329-339." ;
+	a drw-model:SL .
+
+<Q/30437hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Brief von Apotheker Grassmann/St. Petersburg. In: Der Briefwechsel von Johann Bartholomäus Trommsdorff (1770-1837). Bearb. v. Wolfgang Götz, Christoph Friedrich, Hartmut Bettin. Halle (Saale) 1999 (Acta historica Leopoldina 18, 4), 95-100." .
+
+<B/30437hasStationOfLife1>
+	rdfs:label "1804-1808 Pharmazeut im Amt für öffentliche Fürsorge in Poltava, während des Studiums an der MCA Apothekergehilfe an der tierärztlichen Lehranstalt und Laborant bei Professor für Pharmazie Timofej Andreevič SMELOVSKIJ (1772-1815), 1812-1816 Adjunkt-Professor, 1816 bis 1844 Professor, ab 1821 Lehrstuhl für Pharmazie, zugleich 1824-1829 Professor für Pharmakologie, Rezeptur und Botanik an der MCA, 1838 \"Verdienter Professor\", zeitweise (Dez. 1838 bis Jan. 1839 und Juni bis Nov. 1851) Präsident der MCA, zugleich ab 1815 Ordinator und 1844-1858 Chefarzt des St. Petersburger Militärlandhospitals Nr. 2, ab 1816 auch Geburtshelfer und 1817-1831 Stadtgeburtshelfer im St. Petersburger Stadtteil Vyborg, 1822-1823 zu Untersuchungen von Mineralwässern in den Kaukasus gesandt, 1830-1857 Hofmedikus des VII. Hofbezirkes, 1830-1832 aktive Teilnahme an der Bekämpfung der Choleraepidemie in St. Petersburg, 1831-1841 wissenschaftlicher Sekretär des Medizinalrats, 1831-1837 Vize-Direktor des Medizinaldepartements.
+Inhaber der Titel \"Kollegienrat und \"Staatsrat\", Ritter mehrerer Orden, darunter St.-Vladimir-Orden 4. Klasse.
+Nach ihm ist die Straße <i>Ulica imeni Neljubina</i> in Essentuki benannt." ;
+	a drw-model:B .
+
+<MG/30437hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Mediko-chirurgičeskaja Akademija [Mediko-chirurgische Akademie] (1831), Sankt-Peterburgskoe farmacevtičeskoe obščestvo [Pharmazeutische Gesellschaft zu St. Petersburg] (1832-1844 Vorsitzender), Obščestvo russkich vračej [Gesellschaft russischer Ärzte], Mineralogičeskoe obščestvo [Mineralogische Gesellschaft], Moskovskoe obščestvo ispytatelej prirody [Gesellschaft der Naturforscher zu Moskau], Physikalisch-Medizinische Gesellschaft (Societas physico-medica) zu Würzburg, Verein studierender Pharmazeuten an der Königlichen Universität zu München (Ehrenmitglied ab 1839), Linnean Society of London, Académie des sciences Paris u.a." .
+
+<ImportantPerson/30437>
+	drw-model:hasWL <WL/30437hasWL2> ;
+	drw-model:hasW <W/30437hasW7> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Pharmazie> ;
+	drw-model:hasW <W/30437hasW4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Arzt> ;
+	drw-model:hasStationOfLife <B/30437hasStationOfLife1> ;
+	drw-model:hasW <W/30437hasW1> ;
+	rdfs:label "Neljubin, Aleksandr Petrovič" ;
+	drw-model:hasMG <MG/30437hasMG1> ;
+	drw-model:hasW <W/30437hasW5> ;
+	drw-model:hasSL <SL/30437hasSL3> ;
+	drw-model:hasEducation <A/30437hasEducation1> ;
+	drw-model:hasSL <SL/30437hasSL6> ;
+	drw-model:hasW <W/30437hasW2> ;
+	drw-model:hasWL <WL/30437hasWL1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Hofmedikus> ;
+	drw-model:hasP <P/30437hasP1> ;
+	drw-model:hasMainName <MainName/30437hasMainName1> ;
+	drw-model:hasW <W/30437hasW8> ;
+	drw-model:wasBornIn <Place/Vjatka> ;
+	drw-model:hasSL <SL/30437hasSL2> ;
+	drw-model:hasW <W/30437hasW3> ;
+	a drw-model:ImportantPerson ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30437.jpg> ;
+	drw-model:hasQ <Q/30437hasQ1> ;
+	drw-model:diedOn <Date/6_9_1858> ;
+	drw-model:hasSL <SL/30437hasSL1> ;
+	drw-model:fatherIs <RelatedPerson/30437fatherIs1> ;
+	drw-model:hasSL <SL/30437hasSL4> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasP <P/30437hasP2> ;
+	drw-model:hasID "30437" ;
+	drw-model:hasW <W/30437hasW6> ;
+	drw-model:hasGPV <GPV/30437hasGPV1> ;
+	drw-model:hasWInformation <WInformation/30437hasWInformation1> ;
+	drw-model:wasBornOn <Date/26_8_1785> ;
+	drw-model:hasSL <SL/30437hasSL5> .
+
+<Date/6_9_1858>
+	a drw-model:Date ;
+	rdfs:label "6.9.1858" .
+
+<SL/30437hasSL1>
+	rdfs:label "Gennadi. Bd. 3 (1876), 26." ;
+	a drw-model:SL .
+
+<A/30437hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Bis 1789 Besuch eines Privatpensionats und 1798-1804 Apothekenlehre in der Stadtapotheke in Vjatka, 1804 Examen zum Apothekergehilfen in Poltava und 1806 zum Provisor in Moskau, 1808-1812 Studium mit dem Abschluss \"Arzt 1. Klasse\" an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg, dort 1821 Promotion zum Dr. med." .
+
+<SL/30437hasSL3>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.essentuky-fine.ru/history.html" ;
+	rdfs:label "Istorija Essentukov. Online Ressource Online Ressource (4.4.2012)." ;
+	a drw-model:SL .
+
+<P/30437hasP1>
+	rdfs:label "Portrait aus: Professora MCA/VMA (<b>SL</b>). Abgedruckt in: Fischer 2010, 169." ;
+	a drw-model:P .
+
+<SL/30437hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Professora MCA/VMA, 45." .
+
+<NameVariation/30437hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Aleksej" .
+
+<W/30437hasW1>
+	rdfs:label "Tractatus de origine et generatione in natura, atque artificiali compositione ammonii, nec non veris constitutivis illius partibus per novissima experimenta comprobatis. Dissertation. S.-Peterburg 1822." ;
+	a drw-model:W .
+
+<WInformation/30437hasWInformation1>
+	a drw-model:WInformation ;
+	rdfs:label "Über einige seiner Werke und die Wasseranalysen wurde in zahlreichen deutschen Zeitschriften referiert, z.B. in: <i>Bibliothek der practischen Heilkunde</i> 58 (1827), 32, 39, 40, <i>Neues Journal der Pharmacie für Ärzte, Apotheker und Chemiker</i> 16 (1828), 274-280, <i>Repertorium für die Pharmazie</i> 30 (1830), 385, sowie in Franz Simon: Die Heilquellen Europa's, mit vorzüglicher Berücksichtigung ihrer chemischen Zusammensetzung. Berlin 1839, 118-121, u.a." .
+
+<W/30437hasW8>
+	rdfs:label "Kurze historische Nachricht über die kaukasischen Mineralwässer auf den Fünfbergen (Aus dem Russischen übersetzt von G. W. Grossmann [richtig: Grassmann]). Neues Journal der Pharmacie für Ärzte, Apotheker und Chemiker 16 (1828), 191-199." ;
+	a drw-model:W .
+
+<MainName/30437hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Neljubin, Aleksandr Petrovič" ;
+	drw-model:hasNameVariation <NameVariation/30437hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30437hasNameVariation3> ;
+	drw-model:hasNameVariation <NameVariation/30437hasNameVariation1> .
+
+<P/30437hasP2>
+	a drw-model:P ;
+	rdfs:label "Portrait, Online Ressource Online Ressource (4.4.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://kmvtut.ru/dostop/nelubin.jpg" .
+
+<GPV/30437hasGPV1>
+	rdfs:label "Publikationen 1822-1855, in: Zmeev. Bd. 1 (1886), 29-31; auch in: WBIS RBA: R 327, 329-332." ;
+	a drw-model:GPV .
+
+<W/30437hasW2>
+	rdfs:label "Polnoe istoričeskoe, mediko-topografičeskoe, fiziko-chimičeskoe i vračebnoe opisanie Kavkazskich mineral'nych vod. S.-Peterburg 1825, Teil I: 216 S., Teil II: S. 219-671." ;
+	a drw-model:W .
+
+<W/30437hasW4>
+	rdfs:label "Obščaja i častnaja sudebno-medicinskaja i mediko-policejskaja chimija s prisoedineniem obščej i častnoj toksikologii ili nauki o jadach i protivujadnych sredstvach. S.-Peterburg 1851-1852." ;
+	a drw-model:W .
+
+<W/30437hasW6>
+	rdfs:label "Die kaukasischen Mineralquellen in der großen Kabarda und ihre chemische Untersuchung. Archiv für die gesammte Naturlehre 13 (1828), 465-499; 14 (1828), 1-30." ;
+	a drw-model:W .
+
+<GeneralLabor/Professor_fr_Pharmazie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Pharmazie" .
+
+<WL/30437hasWL1>
+	rdfs:label "Mitbegründer der Pharmakologie und der Pharmakologenschule in Russland." ;
+	a drw-model:WL .
+
+<W/30437hasW7>
+	rdfs:label "Meteorologische Beobachtungen angestellt an der großen Kabarda und ihre chemische Untersuchung. Mineralquellen im Jahre 1820. Archiv für die gesammte Naturlehre 14 (1828), 59-65." ;
+	a drw-model:W .
+
+<Date/26_8_1785>
+	a drw-model:Date ;
+	rdfs:label "26.8.1785" .
+
+<NameVariation/30437hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "Aлeкceй" .
+

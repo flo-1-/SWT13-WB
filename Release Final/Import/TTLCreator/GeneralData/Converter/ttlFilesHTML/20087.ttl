@@ -1,0 +1,111 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/20087hasSL2>
+	rdfs:label "Bauer, Wolf: Karl I. Osse. Ein deutscher Apotheker im zaristischen Russland. Stuttgart 2003, 135 S." ;
+	a drw-model:SL .
+
+<SL/20087hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Erik-Amburger-Datenbank [EAD]: Dokument-Id [65481/63959]." .
+
+<Date/10_4_1874>
+	rdfs:label "10.4.1874" ;
+	a drw-model:Date .
+
+<P/20087hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto in: Bauer 2003, 6, 65." .
+
+<RelatedPerson/20087fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann Christian († vor 1812), Bronzemeister" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<GeneralLabor/Apothekenleiter>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Apothekenleiter" .
+
+<MainName/20087hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/20087hasNameVariation1> ;
+	rdfs:label "Osse, Karl" .
+
+<GeneralLabor/Apotheker>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Apotheker" .
+
+<GeneralLabor/Waisenhausdirektor>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Waisenhausdirektor" .
+
+<Place/Astrachan>
+	a drw-model:Place ;
+	rdfs:label "Astrachan'" .
+
+<WL/20087hasWL1>
+	rdfs:label "Salzanalyse und Salzgewinnung aus dem Kleinen Korduan-See sowie Herstellung von Astrachaner Abführsalz" ;
+	a drw-model:WL .
+
+<B/20087hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "1829 (Juni-Dezember) Assistent des Tischvorsitzenden an der Medizinisch-Chirurgischen Akademie in St. Petersburg, wahrscheinlich im Januar 1830 Übersiedlung nach Astrachan' und Gründung eigener Apotheke, ab 1836 Leiter der Anstaltsapotheke des Astrachaner Amtes für allgemeine Fürsorge, ab 1837 Direktor und ab 1845 Sekretär des Astrachaner Komitees der Gesellschaft für Gefängnisfürsorge, ab 1849 Direktor des Alexandrinischen Waisenhauses
+ Inhaber hoher russischer Ehrentitel und zahlreicher Auszeichnungen, darunter 1839 \"Titularrat mit Anciennität\", 1855 \"Kollegienrat mit Anciennität\", 1850 St. Annen-Orden 3. Klasse, 1859 St.-Stanislaus-Orden 3. und 1863 2. Klasse, 1865 St.-Vladimir-Orden 4. Klasse
+ Weitere Ehrungen und Würdigungen: \"Apteka imeni K. I. Osse\", ul. Kirova 22, Astrachan'; 1993 Gründung des Karl-I.-Osse-Vereins in Euskirchen" .
+
+<Place/Leipzig>
+	a drw-model:Place ;
+	rdfs:label "Leipzig" .
+
+<A/20087hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Bis 1824 Besuch des Gouvernementgymnasiums in St. Petersburg, 1824-1826 Volontär an der St. Petersburger Medizinisch-chirurgischen Akademie mit dem Abschluss \"Kandidat der Pharmazie 1. Klasse\", 1826-1828 Studium der Pharmazie in Dorpat mit dem Abschluss \"Provisor 2. Klasse\", 1837 Einreichen der Unterlagen für das externe Examen und 1839 Abschlussdiplom \"Apotheker 1. Klasse\" an der Universität Kazan'" .
+
+<NameVariation/20087hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Iwanowitsch" .
+
+<RelatedPerson/20087motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label " Regina, geb. Uhle " .
+
+<RelatedPerson/20087hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Karl (1838-1904) Oberst, Reitlehrer im Leibgarderegiment<br> Ernst Peter Bernhard (1846-1903), Verwaltungsjurist in Astrachan', später Unternehmer in Reval (heute Tallin, Estland)<br> Otto (1848-1874), Apotheker in Dorpat<br> Peter (1851-1925), Mathematiklehrer, Schuldirektor in Dorpat und St. Petersburg, später in Basel in der Schweiz lebend<br> Töchter: Wilhelmine (1835-18449), Dorothea (Darja) (1836-1916), Regina (1843-1923), Emma (1845-1920)<br> Enkel: Karl Gottfried (1874-1918), Leiter der großväterlichen Apotheke in Astrachan'" .
+
+<RelatedPerson/20087wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label " Adelaide (gen. Adele) Ulrike, geb. von Rehbinder (1815-1865)" .
+
+<ImportantPerson/20087>
+	drw-model:hasGeneralLabor <GeneralLabor/Apothekenleiter> ;
+	drw-model:hasP <P/20087hasP1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Waisenhausdirektor> ;
+	drw-model:hasID "20087" ;
+	drw-model:hasDescendant <RelatedPerson/20087hasDescendant1> ;
+	drw-model:wasBornIn <Place/Leipzig> ;
+	drw-model:hasEducation <A/20087hasEducation1> ;
+	drw-model:wasMarriedTo <RelatedPerson/20087wasMarriedTo1> ;
+	drw-model:hasMainName <MainName/20087hasMainName1> ;
+	drw-model:hasStationOfLife <B/20087hasStationOfLife1> ;
+	drw-model:wasBornOn <Date/6_10_1804> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/20087hasSL2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Apotheker> ;
+	drw-model:hasSL <SL/20087hasSL1> ;
+	drw-model:diedOn <Date/10_4_1874> ;
+	drw-model:motherIs <RelatedPerson/20087motherIs1> ;
+	rdfs:label "Osse, Karl" ;
+	drw-model:fatherIs <RelatedPerson/20087fatherIs1> ;
+	drw-model:hasWL <WL/20087hasWL1> ;
+	drw-model:diedIn <Place/Astrachan> .
+
+<Date/6_10_1804>
+	a drw-model:Date ;
+	rdfs:label "6.10.1804" .
+

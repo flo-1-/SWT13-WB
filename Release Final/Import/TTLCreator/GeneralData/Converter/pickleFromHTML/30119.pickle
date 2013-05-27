@@ -1,0 +1,119 @@
+(dp0
+VA
+p1
+V1879-1885 Besuch des Landesgymnasiums in Fellin, 1886-1892 Studium der Medizin an der Universität Dorpat (bzw. ab 1893 Jur'ev), 1894 Dr. med.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u0411O\u041b\u042c, \u042d\u0434\u0433a\u0440 \u0413eo\u0440\u0433\u0438e\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VBOL', \u0116dgar Georgievi\u010d
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+V1892-1897 Assistent an der Chirurgischen Universitätsklinik in Dorpat/Jur'ev, 1897-1899 Arzt im Evangelischen Krankenhaus und 1899-1900 im Deutschen Alexander-Hospital in St. Petersburg, ab 1900 Leibarzt der Herzöge von Mecklenburg-Strelitz in Oranienbaum bei St. Petersburg, 1904-1905 Arzt der 4. Einheit P[etr] von Kaufmans (1857-1926) im Rot-Kreuz-Lazarett in Sljudjanka in Sibirien während des Russisch-Japanischen Krieges.
+p14
+sVName
+p15
+(dp16
+S'Vornamen'
+p17
+VEdgar Karl Ernst
+p18
+sS'Nachname'
+p19
+VBohl
+p20
+ssVQuelle
+p21
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 37.</i>
+p22
+sVNamensvariationen
+p23
+(lp24
+(dp25
+g6
+V\u0116duard
+p26
+sS'countyCode'
+p27
+g12
+sa(dp28
+g6
+V\u042d\u0434\u0443a\u0440\u0434
+p29
+sg27
+g9
+sasVM
+p30
+VOttilie, geb. Ehmann
+p31
+sVMG
+p32
+VVerein St. Petersburger Ärzte (seit 1898).
+p33
+sVID
+p34
+V30119
+p35
+sVGeburtsdaten
+p36
+(dp37
+S'Ort'
+p38
+VWalk
+p39
+sS'Datum'
+p40
+V22.1./3.2.1867
+p41
+ssVSterbedaten
+p42
+(dp43
+g40
+Vnach 1912
+p44
+ssVW
+p45
+(dp46
+S'general'
+p47
+(lp48
+VStudien zur Lehre vom Mechanismus der Schädelfracturen. Dissertation. Jurjew 1894, 72 S. http://dspace.utlib.ee/dspace/bitstream/10062/6110/1/bohl_studien.pdf Volltext (1.3.2012)
+p49
+assVV
+p50
+VGeorg, Kaufmann
+p51
+sVSL
+p52
+(dp53
+g47
+(lp54
+VEAD: Dokument-Id [2527/2494 (22.7.2010)].
+p55
+aVKaufman, P[ëtr Michajlovi\u010d] fon: Krasnyj krest v tylu armii v japonskuju kompaniju 1904-1905 godov. Bd. 1: Sibirskij raion, Teil 1. S.-Peterburg 1909, 367.
+p56
+aVWBIS BaBA: I 38, 54; RBA: R 60, 350.
+p57
+assVBerufe
+p58
+(lp59
+VPraktischer Arzt
+p60
+aVHerzoglicher Leibarzt
+p61
+as.

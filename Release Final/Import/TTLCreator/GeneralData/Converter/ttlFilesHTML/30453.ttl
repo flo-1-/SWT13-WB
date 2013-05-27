@@ -1,0 +1,168 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<WL/30453hasWL1>
+	rdfs:label "Widmete sich hauptsächlich dem Studium der inneren und der Nervenkrankheiten, beschäftigte sich mit den Fragen der Organneurosen, der Ätiologie der Arteriosklerose (z.B. schwere körperliche Arbeit und seelische Störungen), wies auf Veränderungen des Aortenbogens bei Thoraxdeformitäten hin u.a." ;
+	a drw-model:WL .
+
+<GPV/30453hasGPV2>
+	rdfs:label "• Publikationen 1877-1899, in: Brokgauz/Efron; zit. nach WBIS RBA: R 507, 412 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<SL/30453hasSL5>
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA: R 507, 410-414." .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<A/30453hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Bis 1869 Studium und 1873 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg." .
+
+<P/30453hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto aus: G. L. I. (<b>SL</b>), 981. Abgedruckt in: Fischer 2010, 249." .
+
+<RelatedPerson/30453hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Evgenija Michajlovna Šerševskaja, verh. Studenskaja, in 2. Ehe verh. Braun (1874-1906), Dichterin und Übersetzerin" .
+
+<W/30453hasW2>
+	a drw-model:W ;
+	rdfs:label "[Übersetzung von: Ernst Buchner: Lehrbuch der gerichtlichen Medicin für Aerzte und Juristen. München 1867, 454 S.] Ėrnst Buchner: Sudebnaja medicina dlja vračej i juristov. Sankt-Peterburg 1870, 278 S." .
+
+<SL/30453hasSL6>
+	rdfs:label "Zmeev. Bd 4 (1889), 198-199; auch in: WBIS RBA: R 507, 410-412." ;
+	a drw-model:SL .
+
+<SL/30453hasSL4>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://tsushima.su/RU/libru/i/Page_7/page_18/page_19/page_27/page_27_001/" ;
+	rdfs:label "Tarakanovskij, Georgij Georgievič: Evgenija Studenskaja - perevodčik pesni \"Naverch, o tovarišči, vse po mestam!\" Kortik 3 (2004), 92-96. Auszug vgl. Online Ressource Online Ressource (27.3.2012)." .
+
+<W/30453hasW6>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.springerlink.com/content/4467485294450l74/fulltext.pdf" ;
+	rdfs:label "Ueber Thermoneurosen. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 96 (1884), 131-175. Online Ressource Volltext (5.4.2012)." ;
+	a drw-model:W .
+
+<MainName/30453hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30453hasNameVariation1> ;
+	rdfs:label "Šerševskij, Michail Markovič" .
+
+<SL/30453hasSL2>
+	rdfs:label "[Nekrolog] Niva 41 (1910) 9, 177, Bildnis auf S. 178." ;
+	a drw-model:SL .
+
+<W/30453hasW4>
+	rdfs:label "Ob inervacii matki. Diss. Sankt-Peterburg 1873, 38 S." ;
+	a drw-model:W .
+
+<W/30453hasW5>
+	rdfs:label "K patologii nejrozov kišečnogo kanala. Sankt-Peterburg 1888, 37 S." ;
+	a drw-model:W .
+
+<Date/27_6_1846_oder_1847_im_Gouvern>
+	a drw-model:Date ;
+	rdfs:label "27.6.1846 oder 1847 im Gouvernement Wilna" .
+
+<NameVariation/30453hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "SCHERSCHEWSKY" .
+
+<B/30453hasStationOfLife1>
+	rdfs:label "1869-1871 Assistenzarzt im Nikolaj- und im Klinischen Militärkrankenhaus der MCA, 1874-1876 im Medizinaldepartment der \"Institutionen der Zarin Marija\", danach 1876 im 93. Regiment und 1877 im 146. Caricynskij-Infanterieregiment, 1878-1879 Aufenthalte in verschiedenen Krankenhäusern in Deutschland und in Frankreich, 1879-1881 Arzt im Preobraženskij-Leibgarde-Regiment, zugleich Leibarzt des Großfürsten NIKOLAJ NIKOLAEVIČ (1831-1891), ab 1880 \"Ehrenleibmedikus\" und ab 1903 Leibarzt am Hofe des Zaren NIKOLAJ II. (1868-1918), insbesondere der Großfürsten und Großfürstinnen VLADIMIR ALEKSANDROVIČ (1847-1909) und MARIJA PAVLOVNA (1854-1920), PETR NIKOLAEVIČ (1864-1931) und MILICA NIKOLAEVNA (1866-1951) sowie von GEORGIJ ALEKSANDROVIČ (1871-1899), außerdem praktischer Arzt für innere Krankheiten in eigener Privatpraxis und Konsultant für Nervenkrankheiten im Nikolaj-Militärkrankenhaus.
+Inhaber hoher Ehrentitel und Auszeichnungen, z.B. \"Staatsrat\", \"Geheimrat\", St.-Stanislav-Orden 1. Klasse, St.-Vladimir- und St.-Annen-Orden 3. Klasse, Preußischer Roter-Adler-Orden, Kommandeurskreuz des Württembergischen Friedrichsordens 2. Klasse, Kommandeurskreuz des Ernestinischen Hausordens von Sachsen-Coburg-Gotha 2. Klasse." ;
+	a drw-model:B .
+
+<MG/30453hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee]." .
+
+<GPV/30453hasGPV1>
+	rdfs:label "• Publikationen 1865-1886, in: Zmeev (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<Date/6_2_1910>
+	a drw-model:Date ;
+	rdfs:label "6.2.1910" .
+
+<RelatedPerson/30453wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ol'ga Alekseevna Šerševskaja, geb. Puškareva († 1899)" .
+
+<SL/30453hasSL1>
+	a drw-model:SL ;
+	rdfs:label "G. L. I.: Pamjati M. M. Šerševskago. Istoričeskij vestnik (32) 119 (1910), 978-989." .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<GeneralLabor/Ehrenleibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ehrenleibmedikus" .
+
+<W/30453hasW3>
+	rdfs:label "[Hg. der Übersetzung von: Carl Ernst Bock: Supplementband zu allen Ausgaben von Bock's Buch vom gesunden und kranken Menschen, der Gartenlaube entnommen. Leipzig 1862] Bud'te zdorovy! Populjarno-medicinskie besedy d-ra Boka. Bd. 2. Sankt-Peterburg 1872, 315 S.; ... 6. Aufl. Sankt-Peterburg 1876, 439 S." ;
+	a drw-model:W .
+
+<ImportantPerson/30453>
+	drw-model:hasSL <SL/30453hasSL2> ;
+	drw-model:hasW <W/30453hasW6> ;
+	drw-model:hasWL <WL/30453hasWL1> ;
+	drw-model:hasW <W/30453hasW4> ;
+	drw-model:hasGPV <GPV/30453hasGPV2> ;
+	drw-model:hasW <W/30453hasW5> ;
+	drw-model:hasSL <SL/30453hasSL6> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:hasW <W/30453hasW1> ;
+	drw-model:hasMG <MG/30453hasMG1> ;
+	drw-model:hasStationOfLife <B/30453hasStationOfLife1> ;
+	drw-model:hasSL <SL/30453hasSL1> ;
+	drw-model:diedOn <Date/6_2_1910> ;
+	drw-model:hasW <W/30453hasW2> ;
+	drw-model:hasDescendant <RelatedPerson/30453hasDescendant1> ;
+	drw-model:hasGPV <GPV/30453hasGPV1> ;
+	drw-model:hasP <P/30453hasP2> ;
+	drw-model:hasW <W/30453hasW3> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasP <P/30453hasP1> ;
+	drw-model:hasEducation <A/30453hasEducation1> ;
+	drw-model:hasSL <SL/30453hasSL5> ;
+	drw-model:hasID "30453" ;
+	drw-model:wasMarriedTo <RelatedPerson/30453wasMarriedTo1> ;
+	drw-model:hasMainName <MainName/30453hasMainName1> ;
+	drw-model:hasSL <SL/30453hasSL3> ;
+	drw-model:wasBornOn <Date/27_6_1846_oder_1847_im_Gouvern> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	rdfs:label "Šerševskij, Michail Markovič" ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30453.jpg> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Ehrenleibmedikus> ;
+	drw-model:hasSL <SL/30453hasSL4> .
+
+<P/30453hasP2>
+	a drw-model:P ;
+	rdfs:label "Foto [Ausschnitt] in: [Nekrolog] (<b>SL</b>)." .
+
+<W/30453hasW1>
+	rdfs:label "[Übersetzung von: Wilhelm Griesinger, Max von Pettenkofer, Carl August Wunderlich: Cholera-Regulativ. Den Sanitätsbehörden, den Aerzten und dem Publikum vorgelegt. München 1866 oder 1867] Grizinger, Pettenkofer, Wundterlich: Predochranitel'nye mery protiv cholery. Archiv sudebnoj mediciny i obščestvennoj gigieny 5 (1869) Nr. 3." ;
+	a drw-model:W .
+
+<SL/30453hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Pridvornyj kalendar': na 1910 god. S.-Peterburg [1910], 286-287." .
+

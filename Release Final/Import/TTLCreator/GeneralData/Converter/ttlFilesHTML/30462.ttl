@@ -1,0 +1,110 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<NameVariation/30462hasNameVariation1>
+	rdfs:label "TIEMANN" ;
+	a drw-model:NameVariation .
+
+<Place/Moskau>
+	a drw-model:Place ;
+	rdfs:label "Moskau" .
+
+<SL/30462hasSL3>
+	rdfs:label "WBIS RBA: R 456, 97-99." ;
+	a drw-model:SL .
+
+<SL/30462hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Rossijskij medicinskij spisok na 1809 god. Sanktpeterburg 1809, 93." .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<Date/Juni_1761>
+	rdfs:label "Juni 1761" ;
+	a drw-model:Date .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<RelatedPerson/30462fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Karl Gottlieb († 1771), Praktischer Arzt und Chirurg (?)" .
+
+<A/30462hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Schulbildung in Moskau, danach am Moskauer Hospital, Studium an der Universität Moskau, im Juni 1775 [!] für Studium im Ausland beurlaubt, dort Hörer medizinischer Vorlesungen an verschiedenen Universitäten, zuletzt und 1781 \"Dr. med.\" in Wittenberg (?), 1781 (Dezember) Doktor-Examen am Medizinischen Kollegium in St. Petersburg für die Zulassung in Russland, 1783 Mag. in Wittenberg." .
+
+<NameVariation/30462hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "TIMON" .
+
+<RelatedPerson/30462motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Charlotta Helena, geb. Ithimaean (?)" .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<RelatedPerson/30462hasSibling1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann Gottlieb (* 1758), Arzt. Vermutlich Bruder von Johann Wilhelm Ludwig. Die Biographie der beiden Personen wird in gedruckten Quellen, selbst im Matrikelbuch \"Album Academiae Vitenbergensis\", Jüngere Reihe, Bd. 3, 473, anscheinend verwechselt. Angaben zur Biographie von J. Gottlieb Thiemann sind in seinem in der Publikation \"De brassica, puerperis ipso festo amphidromiorum die, in commodum alimentum et salutare simul remedium oblata atque apposita, Wittenberg 1781\" auf S. XIV-XVI abgedruckten Curriculum vitae zu finden." .
+
+<ImportantPerson/30462>
+	drw-model:hasSL <SL/30462hasSL1> ;
+	drw-model:hasSL <SL/30462hasSL3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	drw-model:hasSibling <RelatedPerson/30462hasSibling1> ;
+	drw-model:diedOn <Date/30_1_or_11_2_1831> ;
+	drw-model:hasStationOfLife <B/30462hasStationOfLife1> ;
+	drw-model:hasID "30462" ;
+	drw-model:hasMainName <MainName/30462hasMainName1> ;
+	rdfs:label "Thiemann, Johann Wilhelm Ludwig" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	a drw-model:ImportantPerson ;
+	drw-model:motherIs <RelatedPerson/30462motherIs1> ;
+	drw-model:wasBornIn <Place/Moskau> ;
+	drw-model:fatherIs <RelatedPerson/30462fatherIs1> ;
+	drw-model:hasSL <SL/30462hasSL2> ;
+	drw-model:hasEducation <A/30462hasEducation1> ;
+	drw-model:wasBornOn <Date/Juni_1761> .
+
+<NameVariation/30462hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "TIMANN" .
+
+<Date/30_1_or_11_2_1831>
+	a drw-model:Date ;
+	rdfs:label "30.1./11.2.1831" .
+
+<SL/30462hasSL1>
+	rdfs:label "EAD: Dokument-Id [63899/62951 (18.9.2010)] und [63900/62952 (18.9.2010)]." ;
+	a drw-model:SL .
+
+<NameVariation/30462hasNameVariation4>
+	a drw-model:NameVariation ;
+	rdfs:label "TИМAНН" .
+
+<NameVariation/30462hasNameVariation5>
+	rdfs:label "TИМOН" ;
+	a drw-model:NameVariation .
+
+<B/30462hasStationOfLife1>
+	rdfs:label "1782-1784 Arzt im Städtchen Sofija im St.-Petersburger Gouvernement, zuletzt Kreisarzt, 1784-1785 Divisionsarzt der Grenzdivision auf der Krim und 1785-1787 der 3. Division in Elisavetgrad, 1788 bis 1789 krankheitshalber nicht im Dienst, 1790-1791 Generalstabsarzt im Gouvernement Ekaterinoslav und Leibarzt des Fürsten Grigorij Aleksandrovič POTEMKIN (1739-1791) in Jassy, 1792 zum Hofarzt ernannt, 1797-1831 Leibarzt am Hofe des Zaren PAVEL I. (1754-1801).
+        Inhaber hoher russischer Ehrentitel und Auszeichnungen: \"Kollegienrat\", 1792 \"Staatsrat\", 1799 \"Wirklicher Russischer Staatsrat\", 1792 St.-Vladimir-Orden 4. Klasse." ;
+	a drw-model:B .
+
+<MainName/30462hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30462hasNameVariation3> ;
+	drw-model:hasNameVariation <NameVariation/30462hasNameVariation2> ;
+	rdfs:label "Thiemann, Johann Wilhelm Ludwig" ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30462hasNameVariation4> ;
+	drw-model:hasNameVariation <NameVariation/30462hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30462hasNameVariation5> .
+

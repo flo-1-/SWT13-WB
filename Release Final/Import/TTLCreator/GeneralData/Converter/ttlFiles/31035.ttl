@@ -1,0 +1,375 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<A/31035hasEducation4>
+	a drw-model:A ;
+	drw-model:inYear <Year/1859> ;
+	rdfs:label "Dr. chir. an der Universität Prag" .
+
+<P/31035hasP2>
+	rdfs:label "Portrait in: Kopš 1975 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<Place/Prag>
+	a drw-model:Place ;
+	rdfs:label "Prag" .
+
+<SL/31035hasSL6>
+	rdfs:label "WBIS RBA: Russisches Biographisches Archiv (Online Ressource, 16.1.2013): R 461, 289-292." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" .
+
+<Year/1884>
+	rdfs:label "1884" ;
+	a drw-model:Year .
+
+<B/31035hasStationOfLife7>
+	rdfs:label "Vorlesungen in pathologischer Anatomie an der Universität Kiev" ;
+	drw-model:began <Year/1875> ;
+	drw-model:ended <Year/1876> ;
+	a drw-model:B .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Year/1895>
+	rdfs:label "1895" ;
+	a drw-model:Year .
+
+<B/31035hasStationOfLife3>
+	drw-model:inYear <Year/1859> ;
+	rdfs:label "Volontärarzt im österreichisch-italienisch-französischen Krieg" ;
+	a drw-model:B .
+
+<ImportantPerson/30664>
+	a drw-model:ImportantPerson .
+
+<B/31035hasStationOfLife5>
+	drw-model:inYear <Year/1865> ;
+	rdfs:label "kommissarischer Leiter des Physiologischen Institutes am Josephinum Wien" ;
+	a drw-model:B .
+
+<B/31035hasStationOfLife1>
+	drw-model:ended <Year/1856> ;
+	rdfs:label "Prosektor am Lehrstuhl für physiologische Anatomie der Medizinischen Fakultät der Universität Prag" ;
+	a drw-model:B ;
+	drw-model:began <Year/1854> .
+
+<MainName/31035hasMainName1>
+	drw-model:hasNameVariation <NameVariation/31035hasNameVariation3> ;
+	rdfs:label "Tomsa, Vladimír Josef" ;
+	drw-model:hasNameVariation <NameVariation/31035hasNameVariation4> ;
+	drw-model:hasNameVariation <NameVariation/31035hasNameVariation1> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/31035hasNameVariation2> .
+
+<GPV/31035hasGPV2>
+	rdfs:label "Deutschsprachige Publikationen 1862-1873, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<B/31035hasStationOfLife8>
+	drw-model:began <Year/1883> ;
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Kiev" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1884> .
+
+<Comment/31035_2>
+	rdfs:label "Volkov/Kulikova 2003 b (<b>SL</b>); Jahr 1831 auch in <b>SL</b> Slivko 1955 und in weiteren Quellen in WBIS." ;
+	a drw-model:Comment .
+
+<SL/31035hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Kopš, Jaroslav: Fiziolog Vladimír Tomsa. Zdravotnická pracovnice 25 (1975), 172-173." .
+
+<WL/31035hasWL1>
+	rdfs:label "Gründer des Laboratoriums für experimentelle Physiologie an der Universität Kiev" ;
+	a drw-model:WL .
+
+<SL/31035hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Navrátil, Michal (Hg.): Almanach českých lékařů. S podobiznami a 1000 životopisy. Praha 1913, 333; auch in: WBIS CSBA (<b>SL</b>)." .
+
+<Comment/31035_4>
+	rdfs:label "Jahresbericht der Königlichen Böhmischen Gesellschaft der Wissenschaften für das Jahr 1895. Prag 1896, 4." ;
+	a drw-model:Comment .
+
+<Date/28_2_18301_oder_14_or_26_6_183>
+	rdfs:label "28.2.1830[1] oder 14./26.6.1831[2]" ;
+	drw-model:hasComment <Comment/31035_2> ;
+	a drw-model:Date ;
+	drw-model:hasComment <Comment/31035_1> .
+
+<Year/1859>
+	rdfs:label "1859" ;
+	a drw-model:Year .
+
+<Year/1875>
+	rdfs:label "1875" ;
+	a drw-model:Year .
+
+<NameVariation/31035hasNameVariation4>
+	rdfs:label "Tomsa, Volodymyr Bogumilovyč (ukrain.)" ;
+	a drw-model:NameVariation .
+
+<B/31035hasStationOfLife11>
+	rdfs:label "Rektor der Universität Prag" ;
+	drw-model:inYear <Year/1891> ;
+	a drw-model:B .
+
+<P/31035hasP1>
+	a drw-model:P ;
+	rdfs:label "Lithographie (Abb.) von 1890, nach einer Zeichnung von Max Švabinský (1873-1962). Aus: Narvrátil 1913 (<b>SL</b>), Bildeinlage; auch in: Vavroušek/Novák, zit. n. WBIS RBA (<b>SL</b>)." .
+
+<Year/1848>
+	a drw-model:Year ;
+	rdfs:label "1848" .
+
+<Year/1865>
+	rdfs:label "1865" ;
+	a drw-model:Year .
+
+<A/31035hasEducation2>
+	a drw-model:A ;
+	drw-model:ended <Year/1854> ;
+	drw-model:began <Year/1848> ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Prag" .
+
+<NameVariation/31035hasNameVariation2>
+	rdfs:label "Томса, Владимир-Иосиф Богумилович"@ru ;
+	rdfs:label "Tomsa, Vladimir-Iosif Bogumilovič"@de ;
+	a drw-model:NameVariation .
+
+<SL/31035hasSL8>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 441-442." ;
+	a drw-model:SL .
+
+<Year/1883>
+	rdfs:label "1883" ;
+	a drw-model:Year .
+
+<SL/31035hasSL9>
+	rdfs:label "WBIS CSBA: Český biografický archiv a Slovenský biografický archiv (Online Ressource, 16.1.2013): 625, 201-204." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" .
+
+<A/31035hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Medizinischen Fakultät der Universität Kiev" ;
+	drw-model:inYear <Year/1865> .
+
+<SL/31035hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Ottův slovník naučný. Illustrovaná encyklopaedie obecných vědomostí. Bd. 25: T – Tzschirner. Praha 1906, 552-553." .
+
+<SL/31035hasSL7>
+	rdfs:label "Slivko, E. I.: Professor fiziologiji Kyjivs’kogo universytetu V. B. Tomsa. Fiziolohičnyj žurnal 1 (1955) 4, 136-138." ;
+	a drw-model:SL .
+
+<SL/31035hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 250-252." .
+
+<WL/31035hasWL2>
+	rdfs:label "Gründer des Physiologischen Instituts an der Tschechischen Universität Prag" ;
+	a drw-model:WL .
+
+<B/31035hasStationOfLife4>
+	rdfs:label "Assistent von C. <span style='font-variant:small-caps;'>Ludwig</span> an der Medizinisch-chirurgischen Akademie (Josephinum) Wien" ;
+	drw-model:began <Year/1859> ;
+	drw-model:hasNameLink <ImportantPerson/30664> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1864> .
+
+<Year/1887>
+	rdfs:label "1887" ;
+	a drw-model:Year .
+
+<B/31035hasStationOfLife6>
+	drw-model:ended <Year/1884> ;
+	rdfs:label "Professor (1865 ao. Professor, 1867 o. Professor) und Leiter des Lehrstuhl für Physiologie an der Medizinischen Fakultät der Universität Kiev[3]" ;
+	drw-model:hasComment <Comment/31035_3> ;
+	a drw-model:B ;
+	drw-model:began <Year/1865> .
+
+<ImportantPerson/31035>
+	drw-model:hasStationOfLife <B/31035hasStationOfLife7> ;
+	drw-model:hasSL <SL/31035hasSL7> ;
+	drw-model:hasComment <Comment/31035_3> ;
+	drw-model:hasSL <SL/31035hasSL10> ;
+	drw-model:hasSL <SL/31035hasSL1> ;
+	drw-model:hasSL <SL/31035hasSL4> ;
+	drw-model:hasStationOfLife <B/31035hasStationOfLife3> ;
+	drw-model:hasEducation <A/31035hasEducation5> ;
+	drw-model:hasSL <SL/31035hasSL6> ;
+	drw-model:hasSL <SL/31035hasSL5> ;
+	drw-model:hasW <W/31035hasW2> ;
+	drw-model:hasStationOfLife <B/31035hasStationOfLife4> ;
+	drw-model:hasEducation <A/31035hasEducation1> ;
+	drw-model:hasStationOfLife <B/31035hasStationOfLife8> ;
+	drw-model:hasMG <MG/31035hasMG1> ;
+	drw-model:wasBornOn <Date/28_2_18301_oder_14_or_26_6_183> ;
+	drw-model:hasEducation <A/31035hasEducation4> ;
+	drw-model:hasStationOfLife <B/31035hasStationOfLife9> ;
+	drw-model:hasWL <WL/31035hasWL1> ;
+	drw-model:hasStationOfLife <B/31035hasStationOfLife6> ;
+	drw-model:hasStationOfLife <B/31035hasStationOfLife5> ;
+	drw-model:hasComment <Comment/31035_4> ;
+	drw-model:hasSL <SL/31035hasSL9> ;
+	drw-model:hasMainName <MainName/31035hasMainName1> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/31035hasHonoursAndAwards1> ;
+	drw-model:fatherIs <RelatedPerson/31035fatherIs1> ;
+	drw-model:hasSL <SL/31035hasSL2> ;
+	drw-model:diedIn <Place/Prag> ;
+	drw-model:hasStationOfLife <B/31035hasStationOfLife12> ;
+	drw-model:hasWL <WL/31035hasWL2> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/31035.jpg> ;
+	drw-model:hasP <P/31035hasP1> ;
+	drw-model:hasGPV <GPV/31035hasGPV2> ;
+	drw-model:hasStationOfLife <B/31035hasStationOfLife10> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Physiologie> ;
+	drw-model:hasEducation <A/31035hasEducation3> ;
+	drw-model:hasSL <SL/31035hasSL3> ;
+	drw-model:hasID "31035" ;
+	drw-model:hasComment <Comment/31035_2> ;
+	drw-model:hasComment <Comment/31035_1> ;
+	rdfs:label "Tomsa, Vladimír Josef" ;
+	drw-model:hasStationOfLife <B/31035hasStationOfLife11> ;
+	drw-model:diedOn <Date/23_3_or_4_4_1895> ;
+	drw-model:hasWL <WL/31035hasWL3> ;
+	drw-model:hasStationOfLife <B/31035hasStationOfLife2> ;
+	drw-model:hasW <W/31035hasW1> ;
+	drw-model:hasP <P/31035hasP2> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <A/31035hasEducation2> ;
+	drw-model:hasGPV <GPV/31035hasGPV1> ;
+	drw-model:wasBornIn <Place/Prag> ;
+	drw-model:hasSL <SL/31035hasSL8> ;
+	drw-model:hasStationOfLife <B/31035hasStationOfLife1> ;
+	drw-model:hasWL <WL/31035hasWL4> .
+
+<Year/1893>
+	rdfs:label "1893" ;
+	a drw-model:Year .
+
+<WL/31035hasWL4>
+	rdfs:label "Gilt als Entdecker der Nervenenden in der Haut" ;
+	a drw-model:WL .
+
+<B/31035hasStationOfLife2>
+	rdfs:label "Assistent am Lehrstuhl für pathologische Anatomie der Medizinischen Fakultät der Universität Prag" ;
+	drw-model:ended <Year/1859> ;
+	a drw-model:B ;
+	drw-model:began <Year/1856> .
+
+<A/31035hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Abschluss des Gymnasiums in Prag" ;
+	drw-model:ended <Year/1848> .
+
+<GPV/31035hasGPV1>
+	rdfs:label "Publikationen 1862-1883 (16+1 Nrn.), in: Ikonnikov, V. S.: Biografičeskij slovar’ professorov i prepodavatelej Imperatorskago universiteta sv. Vladimira (1834-1884). Kiev 1884, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<Year/1891>
+	rdfs:label "1891" ;
+	a drw-model:Year .
+
+<MG/31035hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Královská česká společnost nauk [Königliche Böhmische Gesellschaft der Wissenschaften] (1884)[4]" ;
+	drw-model:hasComment <Comment/31035_4> .
+
+<Date/23_3_or_4_4_1895>
+	a drw-model:Date ;
+	rdfs:label "23.3./4.4.1895" .
+
+<HonoursAndAwards/31035hasHonoursAndAwards1>
+	rdfs:label "1871 St.-Stanislav-Orden 2. Klasse mit Kaiserlicher Krone<br>1874 St.-Annen-Orden<br>1882 „Wirklicher Russischer Staatsrat“" ;
+	a drw-model:HonoursAndAwards .
+
+<Comment/31035_1>
+	a drw-model:Comment ;
+	<http://xmlns.com/foaf/0.1/homepage> <http://www.ukrainians-world.org.ua/about/45/49/86/106> ;
+	rdfs:label "Vgl. Ukrajinci v sviti (Online Ressource, 8.4.2011); Jahr 1830 auch in <b>SL</b> Navrátil 1913 und Vavroušek/Novák, zit. n. WBIS CSBA" .
+
+<WL/31035hasWL3>
+	rdfs:label "Autor von Arbeiten zur Physiologie des Nerven- und Herz-Kreislauf-Systems, zur Innervation des Herzens, der Blutgefäße und des lymphatischen Systems sowie zur Anatomie und Physiologie der Haut" ;
+	a drw-model:WL .
+
+<Comment/31035_3>
+	rdfs:label "Tomsa besaß von 1868-1884 die russische Staatsbürgerschaft." ;
+	a drw-model:Comment .
+
+<B/31035hasStationOfLife12>
+	a drw-model:B .
+
+<W/31035hasW2>
+	rdfs:label "Fiziologija. Zapiski studentov 2 kursa (1884/84) Medicinskogo fakul’teta Universiteta sv. Vladimira. T. 1. Kiev 1884, 254 S." ;
+	a drw-model:W .
+
+<RelatedPerson/31035fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "František Bohumil (1793-1857), Tschechischer Schriftsteller und Prosaiker, Übersetzer" .
+
+<GeneralLabor/Professor_fr_Physiologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<Year/1864>
+	rdfs:label "1864" ;
+	a drw-model:Year .
+
+<B/31035hasStationOfLife9>
+	drw-model:began <Year/1884> ;
+	a drw-model:B ;
+	rdfs:label "Professor für Physiologie an der Medizinischen Fakultät der Tschechischen Universität Prag" ;
+	drw-model:ended <Year/1895> .
+
+<B/31035hasStationOfLife10>
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Prag" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1893> ;
+	drw-model:began <Year/1887> .
+
+<Year/1876>
+	rdfs:label "1876" ;
+	a drw-model:Year .
+
+<NameVariation/31035hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "Томза, Владимир-Иосиф Богумилович"@ru ;
+	rdfs:label "Tomza, Vladimir-Iosif Bogumilovič"@de .
+
+<SL/31035hasSL10>
+	a drw-model:SL ;
+	rdfs:label "Česnakova [Im Original Druckfehler, es muss heißen: Česnokova], Sof’ja Aleksandrovna, Lindemann, Marianne: Russische Physiologen in Laboratorien von Carl Ludwig. Wissenschaftliche Zeitschrift der Karl-Marx-Universität Leipzig, Mathematisch-naturwissenschaftliche Reihe 19 (1970), 315-323." .
+
+<A/31035hasEducation3>
+	a drw-model:A ;
+	drw-model:inYear <Year/1854> ;
+	rdfs:label "Dr. med. an der Medizinischen Fakultät der Universität Prag" .
+
+<NameVariation/31035hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Tomsa, Vladimír/Wladimir Josef" .
+
+<SL/31035hasSL1>
+	rdfs:label "WBIS DBA: Deutsches Biographisches Archiv (Online Ressource, 16.1.2013): I 1278, 268." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" .
+
+<Year/1854>
+	rdfs:label "1854" ;
+	a drw-model:Year .
+
+<Year/1856>
+	rdfs:label "1856" ;
+	a drw-model:Year .
+
+<W/31035hasW1>
+	rdfs:label "Učebnik fiziologii. Universitetskie izvestija [Kiev] (1883) Nr. 3." ;
+	a drw-model:W .
+

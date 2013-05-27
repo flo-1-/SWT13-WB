@@ -1,0 +1,130 @@
+(dp0
+VA
+p1
+VSchulbildung in Moskau, danach am Moskauer Hospital, Studium an der Universität Moskau, im Juni 1775 [!] für Studium im Ausland beurlaubt, dort Hörer medizinischer Vorlesungen an verschiedenen Universitäten, zuletzt und 1781 "Dr. med." in Wittenberg (?), 1781 (Dezember) Doktor-Examen am Medizinischen Kollegium in St. Petersburg für die Zulassung in Russland, 1783 Mag. in Wittenberg.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+VT\u0418\u041cA\u041d, \u0418\u0432a\u043d Ka\u0440\u043bo\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VTIMAN, Ivan Karlovi\u010d
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+V1782-1784 Arzt im Städtchen Sofija im St.-Petersburger Gouvernement, zuletzt Kreisarzt, 1784-1785 Divisionsarzt der Grenzdivision auf der Krim und 1785-1787 der 3. Division in Elisavetgrad, 1788 bis 1789 krankheitshalber nicht im Dienst, 1790-1791 Generalstabsarzt im Gouvernement Ekaterinoslav und Leibarzt des Fürsten Grigorij Aleksandrovi\u010d POTEMKIN (1739-1791) in Jassy, 1792 zum Hofarzt ernannt, 1797-1831 Leibarzt am Hofe des Zaren PAVEL I. (1754-1801).\u000a        Inhaber hoher russischer Ehrentitel und Auszeichnungen: "Kollegienrat", 1792 "Staatsrat", 1799 "Wirklicher Russischer Staatsrat", 1792 St.-Vladimir-Orden 4. Klasse.
+p14
+sVName
+p15
+(dp16
+S'Vornamen'
+p17
+VJohann Wilhelm Ludwig
+p18
+sS'Nachname'
+p19
+VThiemann
+p20
+ssVG
+p21
+VJohann Gottlieb (* 1758), Arzt. Vermutlich Bruder von Johann Wilhelm Ludwig. Die Biographie der beiden Personen wird in gedruckten Quellen, selbst im Matrikelbuch "Album Academiae Vitenbergensis", Jüngere Reihe, Bd. 3, 473, anscheinend verwechselt. Angaben zur Biographie von J. Gottlieb Thiemann sind in seinem in der Publikation "De brassica, puerperis ipso festo amphidromiorum die, in commodum alimentum et salutare simul remedium oblata atque apposita, Wittenberg 1781" auf S. XIV-XVI abgedruckten Curriculum vitae zu finden.
+p22
+sVNamensvariationen
+p23
+(lp24
+(dp25
+g6
+VTIEMANN
+p26
+sS'countyCode'
+p27
+g12
+sa(dp28
+g6
+VTIMANN
+p29
+sg27
+g12
+sa(dp30
+g6
+VTIMON
+p31
+sg27
+g12
+sa(dp32
+g6
+VT\u0418\u041cA\u041d\u041d
+p33
+sg27
+g9
+sa(dp34
+g6
+VT\u0418\u041cO\u041d
+p35
+sg27
+g9
+sasVM
+p36
+VCharlotta Helena, geb. Ithimaean (?)
+p37
+sVQuelle
+p38
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 257.</i>
+p39
+sVID
+p40
+V30462
+p41
+sVGeburtsdaten
+p42
+(dp43
+S'Ort'
+p44
+VMoskau
+p45
+sS'Datum'
+p46
+VJuni 1761
+p47
+ssVSterbedaten
+p48
+(dp49
+g46
+V30.1./11.2.1831
+p50
+ssVV
+p51
+VKarl Gottlieb (\u2020 1771), Praktischer Arzt und Chirurg (?)
+p52
+sVSL
+p53
+(dp54
+S'general'
+p55
+(lp56
+VEAD: Dokument-Id [63899/62951 (18.9.2010)] und [63900/62952 (18.9.2010)].
+p57
+aVRossijskij medicinskij spisok na 1809 god. Sanktpeterburg 1809, 93.
+p58
+aVWBIS RBA: R 456, 97-99.
+p59
+assVBerufe
+p60
+(lp61
+VMilitärarzt
+p62
+aVLeibarzt
+p63
+as.

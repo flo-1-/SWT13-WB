@@ -1,0 +1,140 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<RelatedPerson/30070wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "1. Ursula Elisabeth, geb. von Falck 2. Marie, geb. Dressler 3. Wilhelmine Helene, geb. von Stackelberg (1771-1849 oder 1779-1851)" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Q/30070hasQ1>
+	a drw-model:Q ;
+	rdfs:label "[Curriculum vitae in:] Vir generosissimus atque praeclarissimus Petrus L. B. de Bellingshausen, medicinae baccalareus dignissimus ... [Einladungsschrift zur Disputation des Peter L[iber] B[aro] von Bellingshausen am 2. Juni 1786]. In: Ernst Gottlob Bose: De vita foetus post mortem matris superstite. Leipzig 1786, XIII-XVI." .
+
+<SL/30070hasSL1>
+	rdfs:label "EAD: Dokument-Id [1520/1586 (20.7.2010)]." ;
+	a drw-model:SL .
+
+<A/30070hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Ab 1769 Besuch des Lyzeums in Riga und bis 1782 des Akademischen Gymnasiums, der sog. Akademia Petrina, in Mitau, 1782-1785 Studium der Medizin und 1786 Dr. med. an der Universität Leipzig, 1786 Examen beim Medizinalkollegium für Zulassung in Russland." .
+
+<GeneralLabor/Medizinalinspektor>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Medizinalinspektor" .
+
+<Date/3_or_14_1_1762_nicht_1760>
+	a drw-model:Date ;
+	rdfs:label "3./14.1.1762 [nicht 1760]" .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<SL/30070hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Rußwurm - [Rußwurm, Carl]: Nachrichten über die adeliche und freiherrliche Familie von Bellingshausen. Zur Feier der Enthüllung des Denkmals für den Admiral Fabian von Bellingshausen. Reval 1870, Tab. VI: Stammtafel." .
+
+<Q/30070hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Die jüngere Matrikel der Universität Leipzig 1559-1809. Bd. 3. Leipzig 1909, 20." .
+
+<NameVariation/30070hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "BELLINGHAUSEN" .
+
+<WInformation/30070hasWInformation1>
+	rdfs:label "De solidis morborum caussis [!]. Diss. Leipzig 1786, 36 S." ;
+	a drw-model:WInformation .
+
+<NameVariation/30070hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "БEЛЛИНСГAУЗEН" .
+
+<RelatedPerson/30070hasDescendant1>
+	rdfs:label "Michael (Petrovič) (* 1814) Anna Seraphine (Petrovna) (1818-1851)" ;
+	a drw-model:RelatedPerson .
+
+<MainName/30070hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30070hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30070hasNameVariation3> ;
+	rdfs:label "Bellingshausen, Peter Freiherr (Baron) von" ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30070hasNameVariation4> ;
+	drw-model:hasNameVariation <NameVariation/30070hasNameVariation1> .
+
+<ImportantPerson/30070>
+	drw-model:hasSL <SL/30070hasSL1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	drw-model:hasID "30070" ;
+	drw-model:hasQ <Q/30070hasQ2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Medizinalinspektor> ;
+	drw-model:motherIs <RelatedPerson/30070motherIs1> ;
+	drw-model:hasWInformation <WInformation/30070hasWInformation1> ;
+	drw-model:fatherIs <RelatedPerson/30070fatherIs1> ;
+	drw-model:hasStationOfLife <B/30070hasStationOfLife1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasDescendant <RelatedPerson/30070hasDescendant1> ;
+	drw-model:hasW <W/30070hasW1> ;
+	drw-model:hasQ <Q/30070hasQ1> ;
+	drw-model:hasEducation <A/30070hasEducation1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30070wasMarriedTo1> ;
+	drw-model:hasSL <SL/30070hasSL2> ;
+	a drw-model:ImportantPerson ;
+	drw-model:diedIn <Place/Reval> ;
+	drw-model:diedOn <Date/3_oder_10_12_1823_oder_1824> ;
+	drw-model:wasBornIn <Place/Landgut_Waidau_nahe_Riga_in_Li> ;
+	rdfs:label "Bellingshausen, Peter Freiherr (Baron) von" ;
+	drw-model:wasBornOn <Date/3_or_14_1_1762_nicht_1760> ;
+	drw-model:hasSL <SL/30070hasSL3> ;
+	drw-model:hasMainName <MainName/30070hasMainName1> .
+
+<W/30070hasW1>
+	rdfs:label "De solidis morborum caussis [!]. Diss. Leipzig 1786, 36 S." ;
+	a drw-model:W .
+
+<B/30070hasStationOfLife1>
+	rdfs:label "1786 in Russland als Arzt zugelassen, lebte aber von August bis Dezember 1786 ohne Anstellung in St. Petersburg, 1786-1794 Arzt der Ukrainischen Armee, 1794-1798 Oberarzt des Militärlazaretts in Riga, 1798 in mehreren Stellungen: Arzt der Artillerie-Expedition [eine Behörde der Russischen Marine im 18. und 19. Jahrhundert] des Kriegskollegiums, Inspektor der Medizinal-Verwaltung in St. Petersburg und Arzt des Marinehospitals in Reval, 1798-1799 Inspektor der Medizinal-Verwaltung von Estland, ab 1800 Leibarzt des Zaren PAVEL I. (1754-1801) und 1809 Hofarzt in St. Petersburg, zuletzt Inspektor des Zollamtes in Reval.
+Inhaber der russischen Ehrentitel \"Kollegienrat\" (1798) und \"Staatsrat\" (1808) sowie des St.-Vladimir-Ordens 4. Klasse." ;
+	a drw-model:B .
+
+<RelatedPerson/30070fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann Friedrich Freiherr von (1728-1765), Gutsbesitzer und Kammerherr" .
+
+<RelatedPerson/30070motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Margaretha Johanna Gertruda, geb. von Zimmermann, verw. von Albedyll" .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<Place/Reval>
+	a drw-model:Place ;
+	rdfs:label "Reval" .
+
+<SL/30070hasSL3>
+	a drw-model:SL ;
+	rdfs:label "WBIS BaBA: I 24, 378-381; RBA: R 44, 407." .
+
+<NameVariation/30070hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "BELLINSGAUZEN" .
+
+<Place/Landgut_Waidau_nahe_Riga_in_Li>
+	a drw-model:Place ;
+	rdfs:label "Landgut Waidau nahe Riga in Livland" .
+
+<NameVariation/30070hasNameVariation4>
+	rdfs:label "Petr Fedorovi" ;
+	a drw-model:NameVariation .
+
+<Date/3_oder_10_12_1823_oder_1824>
+	rdfs:label "3. oder 10.12.1823 oder 1824" ;
+	a drw-model:Date .
+

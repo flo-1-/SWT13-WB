@@ -1,0 +1,243 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<P/30282hasP2>
+	a drw-model:P ;
+	rdfs:label "Cäcilie Danzer (1885-1969): Johann Peter Frank. Marmor-Büste (1931). Deutsches Hygiene-Museum Dresden." .
+
+<RelatedPerson/30282wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "1. Katharine, geb. Pierron († 1768)<br>2. Marianne, geb. Wittlinsbach († um 1808)" .
+
+<RelatedPerson/30282hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Joseph (Iosif Ivanovič) (1771-1842), Prof. für Medizin<br>Franz (1774-1796), Arzt<br>Carolina, verh. Peternell (* 1786)<br>Neffe: Ludwig (Louis) (1761-1825), Sekundararzt am Ospedale Maggiore in Pavia und Leibarzt des Fürsten von Khevenhüller in Mailand<br>" .
+
+<Place/Rodalben_Baden>
+	a drw-model:Place ;
+	rdfs:label "Rodalben (Baden)" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30282hasW1>
+	rdfs:label "De educatione infantum physica. Diss. Strasbourg 1762." ;
+	a drw-model:W .
+
+<SL/30282hasSL2>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [53480/41414 (28.7.2010)]." .
+
+<RelatedPerson/30282fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Niklas (auch Nikolaus) (1690?-1770?), Handelsmann und Glashüttenaufseher" .
+
+<RelatedPerson/30282motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Marie Margarete, geb. Würz" .
+
+<W/30282hasW3>
+	rdfs:label "System einer vollständigen medicinischen Polizey. Bd. 1-4: Mannheim 1779-1788, 2. Aufl. Bd. 1: 1784, Bd. 5: Tübingen 1813, Bd. 6: Wien 1817-1819. Online Ressource Digitalausgabe (26.3.2012)." ;
+	a drw-model:W ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://gdz.sub.uni-goettingen.de/no_cache/dms/load/toc/?IDDOC=143187" .
+
+<SL/30282hasSL8>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.johann-peter-frank.de/Publikationen%20zu%20Johann%20Peter%20Frank.pdf" ;
+	a drw-model:SL ;
+	rdfs:label "Publikationen zu Johann Peter Frank (mit Bildnis), siehe Online Ressource online Ressource (07.03.2012)." .
+
+<Q/30282hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Mémoires biographiques de Jean Pierre Frank et de Joseph Frank sons fils, rédigés par ce dernier; Manuscript de la Societé de Médecine à Wilno 1848. Bde. 1-4 und 6." .
+
+<WL/30282hasWL1>
+	rdfs:label "Begründer des modernen öffentlichen Gesundheitswesens und der Sozialmedizin." ;
+	a drw-model:WL .
+
+<SL/30282hasSL10>
+	rdfs:label "Schulz-Nieswandt, Frank: Die Konzeption der \"medizinischen Polizey\" bei Johann Peter Frank (1745-1821) im Kontext seiner Zeit. ein Beitrag zur Entstehungsgeschichte der modernen öffentlichen Gesundheitslehrepolitik. Berlin 1997 (Diskussionspapiere aus dem DZA 8), 30 S." ;
+	a drw-model:SL .
+
+<GeneralLabor/Hofarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hofarzt" .
+
+<SL/30282hasSL12>
+	rdfs:label "Wurzbach, Constanin von: Biographisches Lexikon des Kaiserthums Österreich: enthaltend die Lebensskizzen der denkwürdigen Personen, welche 1750 bis 1850 im Kaiserstaate und in seinen Kronländern gelebt haben. Bd. 4. Wien 1858, 320-326." ;
+	a drw-model:SL .
+
+<Date/19_3_1745>
+	a drw-model:Date ;
+	rdfs:label "19.3.1745" .
+
+<P/30282hasP4>
+	a drw-model:P ;
+	rdfs:label "Lithographie [ohne weitere Angaben] in: Biographie (<b>Q</b>), Frontispiz." .
+
+<GPV/30282hasGPV1>
+	rdfs:label "• Schriften 1776-1794, in: Biographie des D. Johann Peter Frank (<b>Q</b>), 43 Nrn., zw. S. 74 und 127." ;
+	a drw-model:GPV .
+
+<ImportantPerson/30282>
+	drw-model:hasSL <SL/30282hasSL1> ;
+	drw-model:hasP <P/30282hasP5> ;
+	drw-model:hasID "30282" ;
+	drw-model:hasP <P/30282hasP4> ;
+	drw-model:hasSL <SL/30282hasSL13> ;
+	drw-model:hasSL <SL/30282hasSL2> ;
+	drw-model:hasSL <SL/30282hasSL8> ;
+	drw-model:hasP <P/30282hasP3> ;
+	rdfs:label "Frank, Johann Peter" ;
+	drw-model:hasWL <WL/30282hasWL1> ;
+	drw-model:hasSL <SL/30282hasSL12> ;
+	drw-model:hasSL <SL/30282hasSL5> ;
+	drw-model:hasGPV <GPV/30282hasGPV4> ;
+	drw-model:wasBornIn <Place/Rodalben_Baden> ;
+	drw-model:hasGPV <GPV/30282hasGPV1> ;
+	drw-model:diedOn <Date/24_4_1821> ;
+	drw-model:hasMG <MG/30282hasMG1> ;
+	drw-model:motherIs <RelatedPerson/30282motherIs1> ;
+	drw-model:hasSL <SL/30282hasSL11> ;
+	drw-model:hasQ <Q/30282hasQ1> ;
+	drw-model:hasP <P/30282hasP2> ;
+	drw-model:hasSL <SL/30282hasSL6> ;
+	drw-model:hasSL <SL/30282hasSL4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Hofarzt> ;
+	drw-model:hasQ <Q/30282hasQ2> ;
+	drw-model:hasStationOfLife <B/30282hasStationOfLife1> ;
+	drw-model:fatherIs <RelatedPerson/30282fatherIs1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasDescendant <RelatedPerson/30282hasDescendant1> ;
+	drw-model:hasSL <SL/30282hasSL10> ;
+	drw-model:hasSL <SL/30282hasSL9> ;
+	drw-model:hasW <W/30282hasW1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Medizin> ;
+	drw-model:hasGPV <GPV/30282hasGPV2> ;
+	drw-model:diedIn <Place/Wien> ;
+	drw-model:hasW <W/30282hasW2> ;
+	drw-model:hasMainName <MainName/30282hasMainName1> ;
+	drw-model:wasBornOn <Date/19_3_1745> ;
+	drw-model:hasSL <SL/30282hasSL3> ;
+	drw-model:hasSL <SL/30282hasSL7> ;
+	drw-model:hasEducation <A/30282hasEducation1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30282.jpg> ;
+	drw-model:hasGPV <GPV/30282hasGPV3> ;
+	drw-model:wasMarriedTo <RelatedPerson/30282wasMarriedTo1> ;
+	drw-model:hasW <W/30282hasW3> ;
+	drw-model:hasP <P/30282hasP1> .
+
+<NameVariation/30282hasNameVariation1>
+	rdfs:label "FRANCK" ;
+	a drw-model:NameVariation .
+
+<GPV/30282hasGPV3>
+	rdfs:label "• Werke und Schriften von Johann Peter Frank. [Literaturverzeichnis]. Aus dem Lateinischen übersetzt von Georg Falk. Hg. von Werner Ludy. Rodalben 2000 (Schriftenreihe [der] Johann Peter Frank-Gesellschaft 2)." ;
+	a drw-model:GPV .
+
+<SL/30282hasSL6>
+	a drw-model:SL ;
+	rdfs:label "NDB. Bd. 5 (1961), 341-342." .
+
+<SL/30282hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Engelhardt, Dietrich von (Hg.): Biographische Enzyklopädie deutschsprachiger Mediziner. München 2002, 186." .
+
+<P/30282hasP5>
+	a drw-model:P ;
+	rdfs:label "Karl Nuding: Johann Peter Frank. Bronze-Büste (1972). Johann Peter Frank-Gesellschaft in Rodalben." .
+
+<W/30282hasW2>
+	rdfs:label "Dissertatio inauguralis medica curas infantum physico-medicas exhibens. Heidelberg 1766, 56 S." ;
+	a drw-model:W .
+
+<P/30282hasP3>
+	a drw-model:P ;
+	rdfs:label "Cäcilie Danzer (1885-1969): Johann Peter Frank. Bronze-Büste (1933). 1. Hof des Spitals (Altes Allgemeines Krankenhaus) in Wien." .
+
+<GPV/30282hasGPV4>
+	rdfs:label "• Werke und Schriften von Johann Peter Frank, siehe Online Ressource online Ressource (07.03.2012)" ;
+	a drw-model:GPV ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.johann-peter-frank.de/Werke%20von%20Johann%20Peter%20Frank.pdf" .
+
+<P/30282hasP1>
+	rdfs:label "Adolph Friedrich Kunike. Johann Peter Frank (1819). Lithographie. Online Ressource Online Ressource (26.3.2012). Abgedruckt in: Fischer 2010, 96." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Johann_Peter_Frank.jpg/496px-Johann_Peter_Frank.jpg" ;
+	a drw-model:P .
+
+<SL/30282hasSL3>
+	rdfs:label "Dauenhauer, Alois, Matheis, Hermann: Johann Peter Frank (1745-1821). Gegen Armut und Krankheit. Leben und Wirken eines großen Arztes. Dokumentation aus Texten, Urkunden und Bildern. Rodalben 2004, 322 S." ;
+	a drw-model:SL .
+
+<MG/30282hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Churfürstlich Mayntzische Academie nützlicher Wissenschaften zu Erfurt (auch Academiae Electoralis Moguntinae Scientiarum genannt) (1781), Societät der Wissenschaften zu Göttingen (1784), Königlich Patriotische Gesellschaft zu Mailand (1786), Helvetische Gesellschaft der Ärzte und Wundärzte (1791); Königlich-Spanisches Kollegium der Ärzte zu Madrid (1798), Kollegium der Ärzte und Wundärzte zu Venedig (1800), Königlich-Preußische Akademie der Wissenschaften zu Berlin (1814)." .
+
+<SL/30282hasSL13>
+	a drw-model:SL ;
+	rdfs:label "Zeiss, Heinz: Johann Peter Franks Tätigkeit in St. Petersburg. Klinische Wochenschrift 12 (1933), 353-356." .
+
+<Place/Wien>
+	a drw-model:Place ;
+	rdfs:label "Wien" .
+
+<SL/30282hasSL9>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.johann-peter-frank.de/" ;
+	rdfs:label "Schriftenreihe [der] Online Ressource Johann-Peter-Frank-Gesellschaft 1 (2000) - 6 (2001)." .
+
+<Date/24_4_1821>
+	rdfs:label "24.4.1821" ;
+	a drw-model:Date .
+
+<SL/30282hasSL11>
+	rdfs:label "WBIS DBA: I 336, 381-413; II 389, 226-291; III 255, 112-152; BaBA: I 87, 108; II 65, 13; RBA: R 480, 168-174." ;
+	a drw-model:SL .
+
+<Q/30282hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Biographie des D. Johann Peter Frank, k. k. Hofrathes, Spitaldirektors und Professors der praktischen Arzneywissenschaft auf der Hohenschule zu Wien, Mitgliedes verschiedener Gelehrten Gesellschaften. Von ihm selbst geschrieben. Wien 1802 und 1821; Neuausgabe des Originals: Johann Peter Frank. Seine Selbstbiographie. Herausgegeben, eingeleitet und mit Erläuterungen versehen von Erna Lesky, Wien. Bern, Stuttgart 1969 (Hubers Klassiker der Medizin und der Naturwissenschaften 12), 166 S. Online Ressource Volltext der Seiten 26-160 (Biographie) (26.3.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.zeno.org/Naturwissenschaften/M/Frank,%20Johann%20Peter/Seine%20Selbstbiographie" .
+
+<B/30282hasStationOfLife1>
+	rdfs:label "1766-1769 Praktischer Arzt in Bitsch und in der Markgrafschaft Baden, 1769-1772 Hofmedikus in Rastatt, 1772-1784 Stadt- und Landphysikus in Bruchsal, Bretten und Zaisenhausen, ab 1774 Leibarzt des Fürstbischofs von Speyer DAMIAN AUGUST PHILIPP CARL Reichsgraf VON LIMBURG-STYRUM (1721-1797), 1778-1784 zugleich Lehrer für Hebammenwesen, Anatomie und Physiologie am Chirurgischen Institut zu Bruchsal, 1784-1875 o. Prof. und Vorsteher des Klinischen Instituts in Göttingen, 1785-1795 Prof. und ab 1786 Dir. des Spitals in Pavia, zugleich ab 1786 Protophysikus und Generaldirektor des Medizinalwesens in der österreichischen Lombardei und im Herzogtum Mantua, 1795-1804 Dir. des allgemeinen Krankenhauses und o. Prof. für praktische Medizin der Universität Wien, 1804 (10 Monate) Prof. für Pathologie und Direktor der Medizinischen Anstalten der Universität Wilna, 1805-1808 Leibarzt des Zaren ALEKSANDR I. (1777-1825), zugleich Prof., 1806-1808 Lehrstuhl für allgemeine Therapie und 1805-1808 Rektor der Mediko-chirurgischen Akademie (MCA) in St. Petersburg, 1808 wieder in Wien und zugleich medizinischer Berater von NAPOLEON I. (1869-1821), 1809-1811 Aufenthalt in Freiburg/Br., 1814-1821 Leibarzt von MARIE LUISE VON ÖSTERREICH (1791-1841) und ihrem Sohn NAPOLEON [II.] Franz Joseph Karl Bonaparte (1811-1832) in Wien.
+        Inhaber hoher Ehrentitel und Auszeichnungen, darunter 1776 \"Hochfürstlicher Geheimer Rat\", 1795 \"Königlich-Kaiserlicher Hofrat\", 1804 \"Russisch-Kaiserlicher Hofrat\", 1807 \"Wirklicher Russischer Staatsrat\", 1810 St.-Vladimir-Orden 4 Klasse, 1819 St. Georgs-Ritterorden.
+        Posthume Ehrungen: 1931 Marmorbüste im Deutschen Hygiene-Museum Dresden und 1933 Bronzebüste im 1. Hof des Spitals (Altes Allgemeines Krankenhaus) in Wien, beide von der Bildhauerin Cäcilie DANZER, 1855 Gedenktafel am Geburtshaus in der Dr. Johann Peter Frank-Straße und 1965 Johann Peter Frank-Denkmal in Rodalben, 1971 Bronzebüste Franks des Bildhauers Karl NUDING, gestiftet von Dr. Hermann SCHWORM, in den Räumlichkeiten der Johann Peter Frank-Gesellschaft in Rodalben, 1972 Johann Peter Frank-Medaille, jährlich verliehen vom Bundesverband der Ärzte des Öffentlichen Gesundheitsdienstes (BVÖGD), 1987 Johann Peter Frank-Museum in Rodalben, 1995 Johann Peter Frank-Gesellschaft, seit 2000 \"Frank-van Swieten Lectures\" (eine internationale, gemeinsam von den Universitäten Amsterdam, Heidelberg, TU Braunschweig, UMIT in Hall bei Innsbruck und der Fachhochschule Heilbronn durchgeführte Lehrveranstaltung über strategisches Informationsmanagement in Krankenhäusern) u.a." ;
+	a drw-model:B .
+
+<MainName/30282hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Frank, Johann Peter" ;
+	drw-model:hasNameVariation <NameVariation/30282hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30282hasNameVariation1> .
+
+<SL/30282hasSL1>
+	rdfs:label "ADB. Bd. 7 (1878), 254-257." ;
+	a drw-model:SL .
+
+<A/30282hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1754-1755 Besuch der Piaristenschule (Schola Latinorum) in Rastatt in Baden, danach der Jesuitenschule in Bockenheim (Boucquenom) in Lothringen; 1761-1762 Studium der Philosophie in Metz und 1762-1763 an der Universität Pont-à-Mousson mit Promotion zum Dr. phil., 1763-1765 Studium der Medizin in Heidelberg und 1765 in Straßburg, 1766 Dr. med., Universität Heidelberg." .
+
+<GPV/30282hasGPV2>
+	rdfs:label "• Schriften 1766-1839, in: Wurzbach (<b>SL</b>), 322-325." ;
+	a drw-model:GPV .
+
+<GeneralLabor/Professor_fr_Medizin>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Medizin" .
+
+<SL/30282hasSL7>
+	rdfs:label "ÖBL 1815-1950. Bd. 1 (Lfg. 4), 344." ;
+	a drw-model:SL .
+
+<NameVariation/30282hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Iogann Petr" .
+
+<SL/30282hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Helm, Jürgen, Stukenbrock, Karin: Johann Peter Frank. In: Dictionary of Medical Biography. Bd. 2. Westport/CT, London 2007, 514-516." .
+

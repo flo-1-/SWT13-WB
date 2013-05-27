@@ -1,0 +1,545 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<W/30732hasW2>
+	rdfs:label "Zakony piščevarenija. Diss. Sankt-Peterburg 1881, 55 S." ;
+	a drw-model:W .
+
+<ImportantPerson/30046>
+	a drw-model:ImportantPerson .
+
+<Year/1884>
+	a drw-model:Year ;
+	rdfs:label "1884" .
+
+<Comment/30732_9>
+	<http://xmlns.com/foaf/0.1/homepage> <http://baza.vgd.ru/1/22086/> ;
+	drw-model:hasDate "2.5.2011" ;
+	a drw-model:Comment ;
+	rdfs:label "Vgl. (Online Ressource)." .
+
+<Year/1896>
+	rdfs:label "1896" ;
+	a drw-model:Year .
+
+<MG/30732hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Fiziko-medicinskoe obščestvo [Physiko-medizinische Gesellschaft] (1883) und Psichologičeskoe obščestvo [Psychologische Gesellschaft] (1885) der Universität Moskau, Imperatorskoe obščestvo ljubitelej estestvoznanija, antropologii i ėtnografii v Moskve [Kaiserliche Gesellschaft der Liebhaber der Naturwissenschaften, der Anthropologie und Ethnographie zu Moskau] (1896 Gründer und bis 1915 Vorsitzender)" .
+
+<Year/1868>
+	rdfs:label "1868" ;
+	a drw-model:Year .
+
+<B/30732hasStationOfLife10>
+	drw-model:ended <Year/1912> ;
+	drw-model:began <Year/1901> ;
+	a drw-model:B ;
+	rdfs:label "Professor und Lehrstuhl für Physiologie (1907-1912 „Verdienter Professor“) an der Medizinischen Fakultätder Universität Moskau" .
+
+<Comment/30732_11>
+	rdfs:label "Vertrieben von der Fa. Carl Schleicher &amp; Schüll, Düren. Vgl. Filtrir-Papiere in Bogen, Rollen, runden Scheiben und Faltenfiltern (Online Ressource, 1.5.2011), S. 30." ;
+	a drw-model:Comment ;
+	<http://xmlns.com/foaf/0.1/homepage> <http://cnum.cnam.fr/PDF/cnum_M9965_2.pdf> .
+
+<Q/30732hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Universitätsarchiv Heidelberg: Akte der Medizinischen Fakultät 1875/76, Signatur: UAH H-III-111/85, fol. 337-343 (Promotionsvorgang Leo Morochowetz: Gesuch um Promotion vom 25.2.1876, eigenhändiger Lebenslauf, Gutachten über die Dissertation vom 4. und 7.3.1876, Zulassung zur Promotion vom 5.3.1876, Protokoll mündliche Prüfung vom 8.3.1876, Promotionsurkunde)." .
+
+<Comment/30732_1>
+	rdfs:label "Die Schreibweise Zarachovič (Zarach’evič) Mochorovec in Pfrepper 2009 (<b>SL</b>) ist ein Druckfehler." ;
+	a drw-model:Comment .
+
+<WL/30732hasWL4>
+	rdfs:label "Feststellung der Identität von Nuclein, Mucin und Amyloidsubstanz" ;
+	a drw-model:WL .
+
+<SL/30732hasSL3>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.hist.msu.ru/Science/HisUni/Profess/1875.htm" ;
+	a drw-model:SL ;
+	rdfs:label "Professora MU [Moskovskogo universiteta] (Online Ressource)." ;
+	drw-model:hasDate "16.3.2011" .
+
+<NameVariation/30732hasNameVariation1>
+	rdfs:label "Morochovec, Lev Zacharovič/Zachar’evič"@de ;
+	drw-model:hasComment <Comment/30732_1> ;
+	a drw-model:NameVariation ;
+	rdfs:label "Мороховец, Лев Захарович/Захарьевич"@ru .
+
+<W/30732hasW5>
+	a drw-model:W ;
+	rdfs:label "Ėnciklopedija mediciny. Lekcii, čitannye professorom L. Z. Morochovcom, 1896/97 akademičeskogo goda. Red. V. P. G. Statkevič. Moskva [1897], 116 S." .
+
+<W/30732hasW3>
+	rdfs:label "Fotochimičeskie processy zrenija. Diss. pro venia docendi. Moskva 1885." ;
+	a drw-model:W .
+
+<HonoursAndAwards/30732hasHonoursAndAwards1>
+	rdfs:label "Festsammelband <i>Sbornik statej po fiziologii, posvjaščennyj professoru L’vu Zacharoviču Morochovcu</i>. Moskva 1893, 176 S.<br>Festband <i>Le Physiologiste Russe</i> 6 (1914)." ;
+	a drw-model:HonoursAndAwards .
+
+<B/30732hasStationOfLife11>
+	rdfs:label "Physiologie-Vorlesungen als außeretatmäßiger Assistent (1882-1885), Dozent (1885-1891), ao. Professor (1891-1892) und außeretatmäßiger Professor (1892-1912) an der Land- und Forstwirtschaftsakademie Petrovskoe-Razumovskoebei Moskau" ;
+	drw-model:began <Year/1882> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1912> .
+
+<ImportantPerson/30929>
+	a drw-model:ImportantPerson .
+
+<Year/1901>
+	rdfs:label "1901" ;
+	a drw-model:Year .
+
+<B/30732hasStationOfLife7>
+	rdfs:label "Dr. med. habil. an der Medizinischen Fakultät der Universität Moskau" ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1885> .
+
+<WL/30732hasWL5>
+	rdfs:label "Entwicklung und Einführung der Chronophotographie in die Praxis" ;
+	a drw-model:WL .
+
+<SL/30732hasSL6>
+	rdfs:label "Volkov, Vladimir Akimovič, Kulikova, Marina Vladimirovna: Moskovskie professora XVIII - načala XX vekov. Estestvennye i techničeskie nauki. Moskva 2003, 161-162." ;
+	a drw-model:SL .
+
+<Year/1876>
+	rdfs:label "1876" ;
+	a drw-model:Year .
+
+<Comment/30732_2>
+	rdfs:label "Die Schreibweise Mochorowetz in Pfrepper 2009 (<b>SL</b>) ist ein Druckfehler." ;
+	a drw-model:Comment .
+
+<Date/19185_oder_19196_oder_19227>
+	a drw-model:Date ;
+	drw-model:hasComment <Comment/30732_7> ;
+	rdfs:label "1918[5] oder 1919[6] oder 1922[7]" ;
+	drw-model:hasComment <Comment/30732_5> ;
+	drw-model:hasComment <Comment/30732_6> .
+
+<Year/1878>
+	rdfs:label "1878" ;
+	a drw-model:Year .
+
+<Year/1886>
+	rdfs:label "1886" ;
+	a drw-model:Year .
+
+<GeneralLabor/Medizinhistoriker>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Medizinhistoriker" .
+
+<SL/30732hasSL5>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 314-315." ;
+	a drw-model:SL .
+
+<Year/1867>
+	rdfs:label "1867" ;
+	a drw-model:Year .
+
+<B/30732hasStationOfLife6>
+	drw-model:ended <Year/1892> ;
+	drw-model:began <Year/1884> ;
+	a drw-model:B ;
+	rdfs:label "Prosektor und Laborleiter am Lehrstuhl für Physiologie der Medizinischen Fakultät der Universität Moskau" .
+
+<Year/1877>
+	rdfs:label "1877" ;
+	a drw-model:Year .
+
+<B/30732hasStationOfLife3>
+	drw-model:inYear <Year/1881> ;
+	a drw-model:B ;
+	rdfs:label "Dr. med. an der MCA St. Petersburg" .
+
+<Place/Tiflis_Georgien_oder_nahe_Eriw>
+	a drw-model:Place ;
+	drw-model:hasComment <Comment/30732_4> ;
+	rdfs:label "Tiflis (Georgien) oder nahe Eriwan (Armenien)" ;
+	drw-model:hasComment <Comment/30732_3> .
+
+<MainName/30732hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30732hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30732hasNameVariation5> ;
+	rdfs:label "Morochovec, Lev Zacharovič" ;
+	drw-model:hasNameVariation <NameVariation/30732hasNameVariation4> ;
+	drw-model:hasNameVariation <NameVariation/30732hasNameVariation1> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30732hasNameVariation3> .
+
+<SL/30732hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 192-195." .
+
+<W/30732hasW1>
+	rdfs:label "Ueber die chemische Zusammensetzung der Cornea. Diss. Heidelberg 1876; <b>russ.</b>: Chimičeskij sostav rogovoj oboločki glaza. Moskovskij vračebnyj vestnik 1 (1876)." ;
+	a drw-model:W .
+
+<Comment/30732_3>
+	rdfs:label "Eigene Angabe in Curriculum vitae (<b>Q</b>)." ;
+	a drw-model:Comment .
+
+<WL/30732hasWL6>
+	drw-model:hasComment <Comment/30732_11> ;
+	rdfs:label "Entwicklung des Dialysator-Filters[11]" ;
+	a drw-model:WL .
+
+<SL/30732hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Česnakova [Im Original Druckfehler, es muss heißen: Česnokova], Sof’ja Aleksandrovna, Lindemann, Marianne: Russische Physiologen in Laboratorien von Carl Ludwig. Wissenschaftliche Zeitschrift der Karl-Marx-Universität Leipzig, Mathematisch-naturwissenschaftliche Reihe 19 (1970), 315-323." .
+
+<Year/1881>
+	rdfs:label "1881" ;
+	a drw-model:Year .
+
+<P/30732hasP2>
+	rdfs:label "Portrait in: Volkov/Kulikova 2003 a (<b>SL</b>)." ;
+	a drw-model:P .
+
+<SL/30732hasSL4>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	rdfs:label "WBIS RBA: Russisches Biographisches Archiv (Online Ressource, 16.1.2013): R 318, 335-342; RS 43, 114." .
+
+<NameVariation/30732hasNameVariation4>
+	a drw-model:NameVariation ;
+	rdfs:label "Morokhovetz, Léon (franz.)" .
+
+<B/30732hasStationOfLife5>
+	drw-model:began <Year/1882> ;
+	rdfs:label "Privatdozent am Lehrstuhl für Physiologie der Medizinischen Fakultät der Universität Moskau" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1884> .
+
+<Comment/30732_4>
+	a drw-model:Comment ;
+	rdfs:label "Volkov/Kulikova 2003 b (<b>SL</b>)." .
+
+<A/30732hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Medizinischen Fakultät der Universität Heidelberg" ;
+	drw-model:inYear <Year/1876> .
+
+<WL/30732hasWL7>
+	rdfs:label "1890/93 Mitgründer des Instituts für Physiologie an der Universität Moskau" ;
+	a drw-model:WL .
+
+<Year/1892>
+	rdfs:label "1892" ;
+	a drw-model:Year .
+
+<W/30732hasW6>
+	rdfs:label "Istorija i sootnošenie medicinskich znanij. Moskva 1903, 392 S." ;
+	a drw-model:W .
+
+<P/30732hasP3>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Volkov/Kulikova 2003 b (<b>SL</b>), Bildeinlage zw. S. 312-313." .
+
+<ImportantPerson/30732>
+	drw-model:hasSL <SL/30732hasSL6> ;
+	drw-model:hasSL <SL/30732hasSL3> ;
+	drw-model:hasStationOfLife <B/30732hasStationOfLife3> ;
+	drw-model:hasP <P/30732hasP1> ;
+	drw-model:hasWL <WL/30732hasWL4> ;
+	drw-model:wasMarriedTo <RelatedPerson/30732wasMarriedTo1> ;
+	drw-model:hasP <P/30732hasP3> ;
+	drw-model:wasBornOn <Date/24_6_or_6_7_1848> ;
+	drw-model:hasW <W/30732hasW4> ;
+	drw-model:hasComment <Comment/30732_6> ;
+	drw-model:hasComment <Comment/30732_9> ;
+	drw-model:hasID "30732" ;
+	drw-model:hasWL <WL/30732hasWL7> ;
+	drw-model:hasStationOfLife <B/30732hasStationOfLife6> ;
+	drw-model:hasEducation <A/30732hasEducation3> ;
+	drw-model:hasStationOfLife <B/30732hasStationOfLife13> ;
+	drw-model:hasStationOfLife <B/30732hasStationOfLife10> ;
+	drw-model:hasComment <Comment/30732_7> ;
+	drw-model:hasEducation <A/30732hasEducation5> ;
+	drw-model:hasWL <WL/30732hasWL3> ;
+	drw-model:fatherIs <RelatedPerson/30732fatherIs1> ;
+	drw-model:hasW <W/30732hasW2> ;
+	drw-model:hasWL <WL/30732hasWL9> ;
+	drw-model:hasW <W/30732hasW7> ;
+	drw-model:hasSL <SL/30732hasSL2> ;
+	drw-model:hasStationOfLife <B/30732hasStationOfLife7> ;
+	drw-model:hasStationOfLife <B/30732hasStationOfLife2> ;
+	drw-model:hasMainName <MainName/30732hasMainName1> ;
+	drw-model:hasWL <WL/30732hasWL8> ;
+	drw-model:hasStationOfLife <B/30732hasStationOfLife12> ;
+	drw-model:hasW <W/30732hasW6> ;
+	drw-model:hasAComment <AComment/30732hasAComment1> ;
+	drw-model:hasSL <SL/30732hasSL5> ;
+	drw-model:hasComment <Comment/30732_8> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30732hasHonoursAndAwards1> ;
+	drw-model:hasP <P/30732hasP2> ;
+	drw-model:diedOn <Date/19185_oder_19196_oder_19227> ;
+	drw-model:hasGPV <GPV/30732hasGPV1> ;
+	drw-model:hasW <W/30732hasW3> ;
+	drw-model:hasComment <Comment/30732_5> ;
+	drw-model:hasQ <Q/30732hasQ1> ;
+	drw-model:hasStationOfLife <B/30732hasStationOfLife1> ;
+	drw-model:hasWL <WL/30732hasWL1> ;
+	drw-model:hasSL <SL/30732hasSL1> ;
+	drw-model:hasComment <Comment/30732_11> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30732.png> ;
+	drw-model:hasComment <Comment/30732_3> ;
+	drw-model:hasComment <Comment/30732_1> ;
+	drw-model:motherIs <RelatedPerson/30732motherIs1> ;
+	drw-model:hasWL <WL/30732hasWL6> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/30732hasSL4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Medizinhistoriker> ;
+	drw-model:hasStationOfLife <B/30732hasStationOfLife9> ;
+	drw-model:hasW <W/30732hasW5> ;
+	drw-model:hasGPV <GPV/30732hasGPV3> ;
+	drw-model:hasStationOfLife <B/30732hasStationOfLife5> ;
+	drw-model:hasStationOfLife <B/30732hasStationOfLife15> ;
+	drw-model:hasSL <SL/30732hasSL7> ;
+	drw-model:hasComment <Comment/30732_4> ;
+	drw-model:hasStationOfLife <B/30732hasStationOfLife8> ;
+	drw-model:hasWL <WL/30732hasWL5> ;
+	drw-model:hasStationOfLife <B/30732hasStationOfLife4> ;
+	drw-model:diedIn <Place/Moskau> ;
+	rdfs:label "Morochovec, Lev Zacharovič" ;
+	drw-model:hasStationOfLife <B/30732hasStationOfLife11> ;
+	drw-model:hasComment <Comment/30732_2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Physiologie> ;
+	drw-model:hasMG <MG/30732hasMG1> ;
+	drw-model:hasEducation <A/30732hasEducation1> ;
+	drw-model:wasBornIn <Place/Tiflis_Georgien_oder_nahe_Eriw> ;
+	drw-model:hasEducation <A/30732hasEducation4> ;
+	drw-model:hasW <W/30732hasW1> ;
+	drw-model:hasStationOfLife <B/30732hasStationOfLife14> ;
+	drw-model:hasWL <WL/30732hasWL2> ;
+	drw-model:hasGPV <GPV/30732hasGPV2> ;
+	drw-model:hasEducation <A/30732hasEducation2> .
+
+<RelatedPerson/30732fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Zacharias, Kollegienassessor" .
+
+<Date/24_6_or_6_7_1848>
+	a drw-model:Date ;
+	rdfs:label "24.6./6.7.1848" .
+
+<NameVariation/30732hasNameVariation5>
+	a drw-model:NameVariation ;
+	rdfs:label "Morokhowetz, Léon (franz.)" .
+
+<GPV/30732hasGPV2>
+	rdfs:label "Publikationen 1876-1888, in: Bogdanov, Anatol: Materialy dlja istorii naučnoj i prikladnoj dejatel’nosti v Rossii po zoologii [...] (1850-1887 g.). Tom 1-4. Moskva 1888-l892, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<B/30732hasStationOfLife4>
+	drw-model:ended <Year/1885> ;
+	rdfs:label "Assistenzarzt im 2. Infanterieregiment, 1884-1885 bei der Militärmedizinischen Kreisverwaltung Moskau, 1885 Rücktritt vom Militärdienst" ;
+	drw-model:began <Year/1881> ;
+	a drw-model:B .
+
+<Comment/30732_5>
+	rdfs:label "Česnakova/Lindemann 1970 (<b>SL</b>), 317." ;
+	a drw-model:Comment .
+
+<Place/Moskau>
+	a drw-model:Place ;
+	rdfs:label "Moskau" .
+
+<WL/30732hasWL8>
+	rdfs:label "1900 Gründer des Medizinhistorischen Museums am Lehrstuhl für Geschichte der Medizin in Moskau" ;
+	a drw-model:WL .
+
+<ImportantPerson/30599>
+	a drw-model:ImportantPerson .
+
+<B/30732hasStationOfLife14>
+	drw-model:began <Year/1901> ;
+	rdfs:label "Leiter des Lehrstuhls für Geschichte der Medizin an der Universität Moskau" ;
+	drw-model:ended <Year/1911> ;
+	a drw-model:B .
+
+<A/30732hasEducation4>
+	a drw-model:A ;
+	drw-model:ended <Year/1876> ;
+	drw-model:hasNameLink <ImportantPerson/30599> ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Heidelberg bei W. <span style='font-variant:small-caps;'>Kühne</span>" ;
+	drw-model:began <Year/1872> .
+
+<B/30732hasStationOfLife15>
+	a drw-model:B .
+
+<Year/1893>
+	rdfs:label "1893" ;
+	a drw-model:Year .
+
+<W/30732hasW7>
+	rdfs:label "Osnovnye zvuki čelovečeskoj reči i universal’nyj alfavit. Moskva 1906 (Trudy Fiziologičeskogo instituta Moskovskogo universiteta 5,9), 58 S." ;
+	a drw-model:W .
+
+<B/30732hasStationOfLife2>
+	drw-model:hasNameLink <ImportantPerson/10026> ;
+	rdfs:label "Physiologe an der Medizinischen Fakultät der Universität Moskau in Laboratorien von Aleksandr Dmitrievič <span style='font-variant:small-caps;'>Bulyginskij</span> (1838-1907), A. I. <span style='font-variant:small-caps;'>Babuchin</span> und F. P.<span style='font-variant:small-caps;'>Šeremetevskij</span>" ;
+	drw-model:ended <Year/1881> ;
+	a drw-model:B ;
+	drw-model:began <Year/1878> ;
+	drw-model:hasNameLink <ImportantPerson/30046> ;
+	drw-model:hasNameLink <ImportantPerson/30929> .
+
+<A/30732hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Studium an der Mediko-Chirurgischen Akademie (MCA) St. Petersburg" ;
+	drw-model:began <Year/1868> ;
+	drw-model:ended <Year/1872> .
+
+<Comment/30732_6>
+	a drw-model:Comment ;
+	rdfs:label "<b>SL</b> Pfrepper 2009 und Volkov/Kulikova 2003 a+ b." .
+
+<GPV/30732hasGPV3>
+	rdfs:label "Deutschsprachige und in deutschen Zeitschriften referierte russische Publikationen 1877-1908, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<WL/30732hasWL1>
+	rdfs:label "Forschungsgebiete: Chemische und bakteriologische Untersuchungen der Nahrung, Histochemie, Elektrophysiologie und Physiologie der Sinnes-, Hals- und Sprachorgane" ;
+	a drw-model:WL .
+
+<NameVariation/30732hasNameVariation2>
+	drw-model:hasComment <Comment/30732_2> ;
+	a drw-model:NameVariation ;
+	rdfs:label "Morochowetz, Leo"@de .
+
+<WL/30732hasWL9>
+	rdfs:label "Herausgeber physiologischer Fachzeitschriften: <i>Trudy fiziologičeskoj laboratorii</i> bzw. <i>Trudy fiziologičeskogo instituta Moskovskogo universiteta</i> (1888-1898), <i>Le Physiologiste Russe</i> (1897-1914), <i>Trudy kafedry istorii i ėnciklopedii mediciny</i> (1903-1914)" ;
+	a drw-model:WL .
+
+<Year/1912>
+	rdfs:label "1912" ;
+	a drw-model:Year .
+
+<Year/1872>
+	rdfs:label "1872" ;
+	a drw-model:Year .
+
+<B/30732hasStationOfLife12>
+	rdfs:label "zugleich Physiologie-Vorlesungen an den Frauenkursen des 3. Moskauer Gymnasiums" ;
+	a drw-model:B ;
+	drw-model:began <Year/1883> .
+
+<B/30732hasStationOfLife9>
+	drw-model:began <Year/1893> ;
+	drw-model:ended <Year/1901> ;
+	a drw-model:B ;
+	rdfs:label "ao. Professor am Lehrstuhl für Physiologie der Medizinischen Fakultät der Universität Moskau" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<ImportantPerson/10026>
+	a drw-model:ImportantPerson .
+
+<B/30732hasStationOfLife1>
+	drw-model:began <Year/1876> ;
+	drw-model:hasNameLink <ImportantPerson/30599> ;
+	a drw-model:B ;
+	rdfs:label "Assistent von <span style='font-variant:small-caps;'>Kühne</span> in Heidelberg" ;
+	drw-model:ended <Year/1877> .
+
+<SL/30732hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Katalog staropečatnych izdanij. Russkie knigi graždanskoj pečati (1760-1825) biblioteki T. I. Vjazemskogo. Sevastopol’ 2008, 34-47." .
+
+<AComment/30732hasAComment1>
+	rdfs:label "Die Jahresangaben zu Studienzeiten entstammen teilweise dem Curriculum vitae (<b>Q</b>)." ;
+	a drw-model:AComment .
+
+<Comment/30732_7>
+	rdfs:label "Professora MU (<b>SL</b>)." ;
+	a drw-model:Comment .
+
+<Year/1911>
+	rdfs:label "1911" ;
+	a drw-model:Year .
+
+<WL/30732hasWL2>
+	rdfs:label "Feststellung des Zerfalls der Peptone in Aminosäuren im Zwölffingerdarm" ;
+	a drw-model:WL .
+
+<A/30732hasEducation2>
+	a drw-model:A ;
+	drw-model:inYear <Year/1867> ;
+	rdfs:label "Studium der Mechanik am Technologischen Institut St. Petersburg" .
+
+<NameVariation/30732hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "Morohowez, Leo"@de .
+
+<Year/1883>
+	rdfs:label "1883" ;
+	a drw-model:Year .
+
+<B/30732hasStationOfLife13>
+	rdfs:label "Vorlesungen zur Geschichte der Medizin und Enzyklopädie an der Universität Moskau" ;
+	drw-model:began <Year/1896> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1898> .
+
+<Year/1885>
+	rdfs:label "1885" ;
+	a drw-model:Year .
+
+<Comment/30732_8>
+	rdfs:label "In Curriculum vitae (<b>Q</b>) deutsche Schreibweise: Copitolene Welitschko." ;
+	a drw-model:Comment .
+
+<B/30732hasStationOfLife8>
+	drw-model:inYear <Year/1886> ;
+	a drw-model:B ;
+	rdfs:label "Reise nach Wien, Bern, Zürich, Genf, Paris, Straßburg, München, Bonn, Leipzig, Berlin und Heidelberg (Teilnahme an 500-Jahrfeier der Universität), um Bau und Ausstattung der physiologischen Institute zu studieren" .
+
+<RelatedPerson/30732motherIs1>
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30732_8> ;
+	rdfs:label "Kopitolina, geb. Veličko[8]" .
+
+<GPV/30732hasGPV1>
+	rdfs:label "Publikationen 1874-1884, in: Zmeev, Lev Fedorovič: Russkie vrači pisateli. Tom 1-5. Sankt-Peterburg 1886-1889, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<GeneralLabor/Professor_fr_Physiologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<WL/30732hasWL3>
+	rdfs:label "Erkenntnis der Einheit der Proteinstoffe" ;
+	a drw-model:WL .
+
+<A/30732hasEducation1>
+	a drw-model:A ;
+	drw-model:inYear <Year/1867> ;
+	rdfs:label "Abschluss des Gymnasiums in Tiflis (Georgien)" .
+
+<Year/1882>
+	rdfs:label "1882" ;
+	a drw-model:Year .
+
+<RelatedPerson/30732wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Nina Georgievna, geb. Manarovskaja[9]" ;
+	drw-model:hasComment <Comment/30732_9> .
+
+<W/30732hasW4>
+	rdfs:label "Edinstvo proteinovych tel. Istorija i ėksperimental’nye issledovanija. Bd. 1. Moskva 1892." ;
+	a drw-model:W .
+
+<P/30732hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto (Abb.) aus: Professora MU (<b>SL</b>)." .
+
+<Year/1898>
+	rdfs:label "1898" ;
+	a drw-model:Year .
+

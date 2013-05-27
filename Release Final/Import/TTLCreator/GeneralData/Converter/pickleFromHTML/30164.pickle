@@ -1,0 +1,139 @@
+(dp0
+VA
+p1
+VBesuch der Goetschelschen Pestalozzi-Anstalt in Riga, danach der Assmusschen, Hachfeldschen und Dittlerschen Anstalt in Dorpat, 1815-1819 des Gymnasiums in Dorpat, 1819-1824 Studium der Medizin an der Universität Dorpat, 1825-1826 Studien in Berlin, Göttingen und Paris, 1826 Dr. med. in Dorpat.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u0411\u0418\u0428, A\u0433a\u0444o\u043d E\u0433o\u0440o\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VBI\u0160, Agafon Egorovi\u010d
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+VAb 1827 Assistent an verschiedenen Hospitälern in St. Petersburg, 1845-1852 Hofmedikus, 1852-1862 Hofarzt des VI. Hof-Medizinalbezirkes, danach Direktor der Musterkinderbewahranstalt in St. Petersburg.\u000aInhaber der russischen Ehrentitel "Staatsrat" (1842) und "Wirklicher Russischer Staatsrat" (1860).
+p14
+sVE
+p15
+VLuise Charlotte, geb. Gerdau (1812?-1889?)
+p16
+sVName
+p17
+(dp18
+S'Vornamen'
+p19
+VAgathon
+p20
+sS'Nachname'
+p21
+VBuesch
+p22
+ssVQuelle
+p23
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 60.</i>
+p24
+sVNamensvariationen
+p25
+(lp26
+(dp27
+g6
+VBÜSCH
+p28
+sS'countyCode'
+p29
+g12
+sa(dp30
+g6
+VBJU\u0160
+p31
+sg29
+g12
+sa(dp32
+g6
+V\u0411\u042e\u0428
+p33
+sg29
+g9
+sasVM
+p34
+VAnna, geb. Johannson, oder Anna Christina, geb. Joha(n)nsen (\u2020 1859)
+p35
+sVMG
+p36
+VDeutscher ärztlicher Verein in St. Petersburg (ab 1843).
+p37
+sVN
+p38
+VKarl (Carl) Ferdinand (Agafonovi\u010d) (1835-1895), Kollegienassessor\u000aJulius (Agafonovi\u010d) (* 1838), Akzisebeamter
+p39
+sVGeburtsdaten
+p40
+(dp41
+S'Ort'
+p42
+VWolmar
+p43
+sS'Datum'
+p44
+V20. oder 19.6./2.7.1801
+p45
+ssVSterbedaten
+p46
+(dp47
+g42
+VSt. Petersburg
+p48
+sg44
+V7.8./19.8.1873
+p49
+ssVW
+p50
+(dp51
+S'letzteZeile'
+p52
+VDe glandula thyreoidea strumosa in genere et de eius specie lymphatica. Diss. Dorpat 1826, 40 S. http://dspace.utlib.ee/dspace/bitstream/10062/1486/1/buesch.pdf Volltext (1.3.2012).
+p53
+sS'general'
+p54
+(lp55
+g53
+assVV
+p56
+VGeorg Matthias, Konsistoriumssekretär
+p57
+sVID
+p58
+V30164
+p59
+sVSL
+p60
+(dp61
+g54
+(lp62
+VEAD: Dokument-Id [1282/1379 und 1043729 (26.7.20109].
+p63
+aVWBIS DBA: I 162, 200-201; BaBA: I 48, 110-111.
+p64
+assVBerufe
+p65
+(lp66
+VArzt
+p67
+aVHofmedikus
+p68
+aVDirektor einer Kinderbewahranstalt
+p69
+as.

@@ -1,0 +1,205 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<P/30419hasP6>
+	rdfs:label "Photo (Jakob Kõrv, Ado Reinvald, Philipp Jakob Karell, Gustav Hirsch) Online Ressource Online Ressource (4.4.2012)." ;
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://kreutzwald.kirmus.ee/tmp/img_c/resize_d775b3e36484253ac4222a7b079b029b?cached=1305895208" .
+
+<P/30419hasP2>
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://upload.wikimedia.org/wikipedia/commons/2/27/Philipp_Karell_1886.jpg" ;
+	rdfs:label "Johann Köler (1826-1899): Philipp Jakob von Karell (1886). Öl auf Leinwand. Estnisches Kunstmuseum Tallinn. Abgedruckt in: Fischer 2010, 123. Online Ressource Online Ressource (14.3.2012)." .
+
+<GeneralLabor/Kaiserlicher_Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Kaiserlicher Leibarzt" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<RelatedPerson/30419hasSibling1>
+	a drw-model:RelatedPerson ;
+	drw-model:hasNameLink <ImportantPerson/30385> ;
+	rdfs:label "Frederika Johanna., verh. Hirsch (Mutter von Gustav Reinhold <span style='font-variant:small-caps;'>Hirsch</span>)" .
+
+<P/30419hasP3>
+	a drw-model:P ;
+	rdfs:label "Photo Online Ressource Online Ressource (4.4.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://kreutzwald.kirmus.ee/tmp/img_c/resize_4b68274ebf18f62c40a69441c9eb9ed2?cached=1305825659" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<W/30419hasW2>
+	rdfs:label "Vollständige Beschreibung von Baron Heurteloup's Lithotripsie und Lithocenose durch Percussion: nach dessen eigenen mündlichen Mittheilungen und Papieren. Zeitschrift für die gesamte Medizin 7 (1838), 289-314." ;
+	a drw-model:W .
+
+<Date/18_or_30_8_1886_im_Palast_Elag>
+	rdfs:label "18./30.8.1886 im Palast Elagin" ;
+	a drw-model:Date .
+
+<RelatedPerson/30419hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Nikolai (Nikolaj Filippovič) (1845-1908), Jurist, Landwirt<br>        Alexander (Aleksandr Filippovič)<br>        Ol'ga Filippovna (1847-1862)" .
+
+<W/30419hasW4>
+	rdfs:label "Ueber die Milchkur. Vortrag, gehalten im deutschen ärztlichen Verein zu St.-Petersburg. St. Petersburger medicinische Zeitschrift 8 (1865), 193-220; Neuausg. Odessa 1879." ;
+	a drw-model:W .
+
+<P/30419hasP1>
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://kreutzwald.kirmus.ee/tmp/img_c/resize_76985c28e102bda1efe92a44418eae68?cached=1304875710" ;
+	rdfs:label "Portrait [ohne weitere Angaben]. Abgedruckt in: Fischer 2010, 121. Online Ressource Online Ressource (4.4.2012)." .
+
+<SL/30419hasSL3>
+	a drw-model:SL ;
+	rdfs:label "[Kurzbiographie.] Baltische familiengeschichtliche Mitteilungen 2 (1932), 58." .
+
+<MG/30419hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Deutscher Ärztlicher Verein in St. Petersburg (ab 1849), Gelehrte Estnische Gesellschaft zu Dorpat, Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee] (Ehrenmitglied ab 1851), Mediko-filantropičeskij komitet [Mediko-philanthropisches Komitee] (ab 1862), Obščestvo russkich vračej v pamjat' N. I. Pirogova [N. I. Pirogov-Gesellschaft russischer Ärzte]." .
+
+<ImportantPerson/30385>
+	a drw-model:ImportantPerson .
+
+<SL/30419hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Peterburgskij nekropol'. Bd. 2 (1912), 330." .
+
+<P/30419hasP4>
+	a drw-model:P ;
+	rdfs:label "Photo Online Ressource Online Ressource (4.4.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://kreutzwald.kirmus.ee/tmp/img_c/resize_66962e21152a492837c4abdfbb74ba09?cached=1310359156" .
+
+<SL/30419hasSL7>
+	a drw-model:SL ;
+	rdfs:label "WBIS DBA: II 681,86; BaBA: I 156, 74-78; II 113, 161-170; RBA: R 225, 310-312." .
+
+<B/30419hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "1832-1834 Bataillonsarzt in der Leibgarde des Grenadier-Regiments, 1834-1838 Assistenzarzt und 1838-1840 Stabsarzt der Leibgarde zu Pferde, 1840-1844(?) Arzt im Generalstabs-Departement, ab 1844 stellvertretender Oberarzt am Militärhospital und 1855-1886 Leiter des Hospitals des Leibgarde-Regiments zu Pferde in Krasnoe Selo, zugleich 1849-1855 Leibarzt des Zaren NIKOLAJ I. (1796-1855), 1853 zum \"Ehrenhofmedikus\" und 1855 zum Leibchirurgen des Zarenhofs ernannt, 1855-1860 Leibarzt der Zarinwitwe ALEKSANDRA FЁDOROVNA, geb. CHARLOTTE VON PREUßEN (1798-1860), und 1861-1879 des Zaren ALEKSANDR II. (1818-1881), außerdem ab 1865 Beratendes Mitglied im Medizinalrat des Ministeriums des Innern.
+        Inhaber hoher russischer Ehrentitel und Auszeichnungen: \"Kollegienassessor\", 1856 \"Wirklicher Russischer Staatsrat\", 1864 Adelsdiplom mit Wappen, 1867 \"Geheimrat\", Ehrendoktor der Universität Dorpat, 1885 Ehrenbürger der Stadt Reval, Kavalier des Ordens des Hl. Andreas des Erstberufenen u.a.
+        Nach ihm ist seit 2003 Karell Arstikeskus (Karellsches Medizinisches Zentrum) in Tallinn benannt.
+        In Estland ist über Karell ein Drama erschienen: Jaan Kross: Doktor Karelli raske öö. Vend Enrico ja tema piiskop. Tallinn 2000 (Loomingu raamatukogu 28), 112 S." .
+
+<MainName/30419hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Karell, Philipp Jakob (von)" .
+
+<Q/30419hasQ1>
+	a drw-model:Q ;
+	drw-model:hasNameLink <ImportantPerson/30380> ;
+	rdfs:label "<span style='font-variant:small-caps;'>Higginbotham</span>, William: Philipp Karell . St. Petersburger medicinische Wochenschrift N.F. 3 [= 11] (1886), 311-312." .
+
+<RelatedPerson/30419motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Marie, geb. Hansson" .
+
+<SL/30419hasSL1>
+	rdfs:label "EAD: Dokument-Id [83245/81744 (2.8.2010)]." ;
+	a drw-model:SL .
+
+<ImportantPerson/30419>
+	drw-model:hasID "30419" ;
+	drw-model:hasW <W/30419hasW1> ;
+	drw-model:hasSL <SL/30419hasSL7> ;
+	drw-model:hasStationOfLife <B/30419hasStationOfLife1> ;
+	drw-model:hasSL <SL/30419hasSL2> ;
+	drw-model:wasBornIn <Place/Reval> ;
+	drw-model:hasP <P/30419hasP4> ;
+	drw-model:hasSL <SL/30419hasSL1> ;
+	drw-model:hasW <W/30419hasW2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Kaiserlicher_Leibarzt> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasEducation <A/30419hasEducation1> ;
+	drw-model:hasSibling <RelatedPerson/30419hasSibling1> ;
+	drw-model:hasMainName <MainName/30419hasMainName1> ;
+	drw-model:hasP <P/30419hasP3> ;
+	drw-model:wasMarriedTo <RelatedPerson/30419wasMarriedTo1> ;
+	drw-model:hasSL <SL/30419hasSL6> ;
+	drw-model:hasP <P/30419hasP2> ;
+	drw-model:hasWL <WL/30419hasWL1> ;
+	drw-model:hasSL <SL/30419hasSL5> ;
+	drw-model:hasDescendant <RelatedPerson/30419hasDescendant1> ;
+	drw-model:diedOn <Date/18_or_30_8_1886_im_Palast_Elag> ;
+	drw-model:hasP <P/30419hasP1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:wasBornOn <Date/28_11_or_10_12_1806> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30419.jpg> ;
+	drw-model:motherIs <RelatedPerson/30419motherIs1> ;
+	rdfs:label "Karell, Philipp Jakob (von)" ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasSL <SL/30419hasSL4> ;
+	drw-model:hasW <W/30419hasW3> ;
+	drw-model:fatherIs <RelatedPerson/30419fatherIs1> ;
+	drw-model:hasSL <SL/30419hasSL3> ;
+	drw-model:hasP <P/30419hasP5> ;
+	drw-model:hasMG <MG/30419hasMG1> ;
+	drw-model:hasQ <Q/30419hasQ1> ;
+	drw-model:hasP <P/30419hasP6> ;
+	drw-model:hasW <W/30419hasW4> .
+
+<A/30419hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1817-1820 Besuch der Kreisschule und 1820-1826 des Gouvernement-Gymnasiums in Reval, 1826-1832 Studium der Medizin mit dem Abschluss Dr. med. an der Universität Dorpat, 1838 Studienaufenthalt in Holland." .
+
+<RelatedPerson/30419fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Jakob, auch Carell (bis 1799: Jacob Jacobsohn) (1759-1824), Leibeigener" .
+
+<W/30419hasW1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/dspace/bitstream/10062/2506/1/karell.pdf" ;
+	rdfs:label "De rheumatismo uteri. Dissertation. Dorpat 1832, 43 S. Online Ressource Volltext (14.3.2012)." ;
+	a drw-model:W .
+
+<W/30419hasW3>
+	rdfs:label "De la cure de lait. Archives générales de Médecine (6) 8 (1866), 513-533, 694-704." ;
+	a drw-model:W .
+
+<P/30419hasP5>
+	a drw-model:P ;
+	rdfs:label "Photo Online Ressource Online Ressource (4.4.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://kreutzwald.kirmus.ee/tmp/img_c/resize_0245046b7637ef531c57242c0319139c?cached=1308500019" .
+
+<SL/30419hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Kalnin, Viktor (Hg.): Eesti arstiteaduse ajaloost. Tartu 1996, 63-67." .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<SL/30419hasSL4>
+	rdfs:label "Lüüs, Aadu: Philipp Karell. Zu seinem 120. Geburtstage. Münchener medizinische Wochenschrift 72 (1926), 2083." ;
+	a drw-model:SL .
+
+<ImportantPerson/30380>
+	a drw-model:ImportantPerson .
+
+<Place/Reval>
+	a drw-model:Place ;
+	rdfs:label "Reval" .
+
+<SL/30419hasSL6>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.eestiarst.ee/eng/eesti_arst/archive/aid-950/Philipp-Jakob-Karell-%E2%80%93-physician-of-the-Russian-czar?abstract=1" ;
+	rdfs:label "Toomsalu, Maie: Philipp Jakob Karell - physician of the Russian czar. Eesti Arst 4 (2007), 6 S. Online Ressource Online Ressource (4.4.2012). Online Ressource Abstract (4.4.2012)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.eestiarst.ee/static/files/007/tsaaritohter_philipp_jakob_karell.pdf" .
+
+<WL/30419hasWL1>
+	rdfs:label "1870 Erfinder der Milchkuren, der sog. \"Karellkuren\", erster Anwender von Stärkeverbänden bei Knochenbrüchen in Russland, 1867 Mitbegründer des Roten Kreuzes in Russland." ;
+	a drw-model:WL .
+
+<Date/28_11_or_10_12_1806>
+	a drw-model:Date ;
+	rdfs:label "28.11./10.12.1806" .
+
+<RelatedPerson/30419wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Marie (Marija Jakovlevna), geb. Lebeau, verw. Nestler († 1900)" .
+

@@ -1,0 +1,130 @@
+(dp0
+VA
+p1
+VBesuch eines Gymnasiums in St. Petersburg, 1830-1836 Studium der Medizin mit dem Abschluss "Arzt 2. Klasse" an der Universität Dorpat.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u0418E\u041dKE\u041d, \u042e\u043b\u0438\u0439 \u0424ë\u0434o\u0440o\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VIENKEN, Julij Fëdorovi\u010d
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+V1837-1842 außeretatmäßiger Arzt, 1842-1850 Assistenzarzt und ab 1850 Oberarzt am Kaiserlichen Findelhaus in St. Petersburg, zugleich 1838-1842 Chirurg an der Augenheilanstalt, 1844 Stabsarzt, auch Beamter der Medizinalverwaltung des Ministerium des Innern, Arzt beim "Pupillenrat" (Auch Waisen- oder Vormundschaftsrat = Obervormundschaftsbehörde) und bei der 4. Abteilung der Kaiserlichen Kanzlei, später Leibarzt des Prinzen Peter von OLDENBURG, russ. Petr Georgievi\u010d OL'DENBURGSKIJ (1812-1881).\u000aInhaber hoher russischer Ehrentitel und Auszeichnungen: "Wirklicher Russischer Staatsrat", 1855 "Hofrat", 1859 "Kollegienrat", Bronzemedaille zum Gedächtnis an den Krimkrieg 1853-1856.
+p14
+sVE
+p15
+VEmilie, geb. von Eversmann (1818-1866)
+p16
+sVName
+p17
+(dp18
+S'Vornamen'
+p19
+VJulius
+p20
+sS'Nachname'
+p21
+VJencken
+p22
+ssVQuelle
+p23
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 115-116.</i>
+p24
+sVNamensvariationen
+p25
+(lp26
+(dp27
+g6
+VGENKEN
+p28
+sS'countyCode'
+p29
+g12
+sa(dp30
+g6
+V\u0413E\u041dKE\u041d
+p31
+sg29
+g9
+sasVM
+p32
+VAnnette, geb. Möller, oder A. S. (Nanny), geb. Müller, oder Josepha Renata, geb. Muller (* 1791)
+p33
+sVID
+p34
+V30415
+p35
+sVWL
+p36
+VSoll als erster Chirurg in Russland 1838 eine Hornhauttransplantation am linken Auge eines Jungen mit der Cornea eines Kaninchens durchgeführt haben. Sein Hauptbeschäftigungsgebiet war ab 1847 jedoch die Pockenkrankheit.
+p37
+sVGeburtsdaten
+p38
+(dp39
+S'Ort'
+p40
+VReval
+p41
+sS'Datum'
+p42
+V8.8.1810
+p43
+ssVSterbedaten
+p44
+(dp45
+g42
+V21.9.1870 Sankt Petersburg
+p46
+ssVW
+p47
+(dp48
+S'letzteZeile'
+p49
+VO sochranenii ospennoj materii v volosnych trubo\u010dkach i o sposobe peresylki ee. Sankt-Peterburg 1856, 13 S.
+p50
+sS'general'
+p51
+(lp52
+g50
+assVV
+p53
+VFerdinand Johann (1785/86-1864), Arzt, Gründer einer orthopädischen Anstalt
+p54
+sVSL
+p55
+(dp56
+g51
+(lp57
+VEAD: Dokument-Id [70137/68653 (26.7.2010)].
+p58
+aVKrasjukov, Aleksandr Pavlovi\u010d: General - Gitarrist Sarenko. Illjustrirovannyj biografi\u010deskij \u0117nciklopedi\u010deskij slovar'. http://abc-guitar.narod.ru/pages/sarenko.htm Online Ressource (26.3.2012).
+p59
+aVMagil'nickij, Solomon Gir\u0161evi\u010d: Pervaja v Rossii peresadka rogovoj oboro\u010dki \u010deloveku (1838). http://www.keratoconus.narod.ru/rus1.htm Online Ressource (26.3.2012).
+p60
+aVWBIS BaBA: I 143, 52.
+p61
+assVBerufe
+p62
+(lp63
+VArzt
+p64
+aVAugenchirurg
+p65
+aVLeibarzt
+p66
+as.

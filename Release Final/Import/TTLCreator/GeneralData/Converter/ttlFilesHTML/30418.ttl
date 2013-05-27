@@ -1,0 +1,150 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30418hasSL2>
+	rdfs:label "EAD: Dokument-Id [70312/68828 und 1048348 (2.8.2010)]." ;
+	a drw-model:SL .
+
+<MainName/30418hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Kade, Ernst (von)" ;
+	drw-model:hasNameVariation <NameVariation/30418hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30418hasNameVariation1> .
+
+<SL/30418hasSL4>
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA: R 218, 359-361." .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Q/30418hasQ1>
+	a drw-model:Q ;
+	rdfs:label "[Anonym:] Geheimrath Dr. Ernst von Kade . St. Petersburger medicinische Wochenschrift N. F. 6 [= 14] (1889), 427-428." .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<NameVariation/30418hasNameVariation2>
+	rdfs:label "Эрнeст Вильгeльмoвич" ;
+	a drw-model:NameVariation .
+
+<W/30418hasW7>
+	rdfs:label "Zur Frage von der Knochen- und Gelenktuberculose. St. Petersburger medicinische Wochenschrift 7 (1882), 117-120." ;
+	a drw-model:W .
+
+<RelatedPerson/30418fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Friedrich Wilhelm" .
+
+<W/30418hasW5>
+	rdfs:label "Das temporäre Kriegslazareth des Ressorts der Anstalten der Kaiserin Maria im Kloster Mariahimmelfahrt bei Sistowa. St. Petersburger medicinische Wochenschrift 2 (1877), 381-385; 3 (1878), 19-29." ;
+	a drw-model:W .
+
+<GeneralLabor/Ehrenleibchirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ehrenleibchirurg" .
+
+<Date/22_11_or_4_12_1889>
+	a drw-model:Date ;
+	rdfs:label "22.11./4.12.1889" .
+
+<W/30418hasW3>
+	rdfs:label "Zur chirurgischen Casuistik. St. Petersburger medicinische Zeitschrift 10 (1866), 202-245." ;
+	a drw-model:W .
+
+<W/30418hasW1>
+	rdfs:label "O ranach sustavov. [Diss.] Sankt-Peterburg 1861, 123 S." ;
+	a drw-model:W .
+
+<RelatedPerson/30418wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "oh. Amalie Auguste, geb. Knoop (1833-1882)" .
+
+<Place/Mitau>
+	a drw-model:Place ;
+	rdfs:label "Mitau" .
+
+<SL/30418hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Nemcy Rossii. Bd. 2 (2004), 8." .
+
+<Date/3_or_15_10_1817>
+	rdfs:label "3./15.10.1817" ;
+	a drw-model:Date .
+
+<A/30418hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch des Gymnasiums in Mitau, 1836-1841 Studium an der Medizinischen Fakultät der Universität Moskau, 1861 Dr. med. in St. Petersburg." .
+
+<WL/30418hasWL1>
+	rdfs:label "Initiierte die Gründung der Russischen chirurgischen Pirogov-Gesellschaft." ;
+	a drw-model:WL .
+
+<NameVariation/30418hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Ėrnest Vil'gel'movič" .
+
+<W/30418hasW6>
+	a drw-model:W ;
+	rdfs:label "Chirurgische Mittheilungen. St. Petersburger medicinische Wochenschrift 6 (1881), 50-52, 67-69 und 83-84." .
+
+<SL/30418hasSL1>
+	rdfs:label "Böhm 1998, 59." ;
+	a drw-model:SL .
+
+<W/30418hasW4>
+	rdfs:label "Aneurysma der art. ischiadica, Unterbindung der art. iliaca communis sinistra. St. Petersburger medicinische Wochenschrift 1 (1876) 8, 2-5." ;
+	a drw-model:W .
+
+<B/30418hasStationOfLife1>
+	rdfs:label "1841-1843 Studienaufenthalte zwecks chirurgischer Weiterbildung im Ausland, darunter bei Bernhard von LANGENBECK (1810-1887) an der Chirurgischen Klinik und bei Johann Lucas SCHÖNLEIN (1793-1864) an der Medizinischen Klinik der Charité in Berlin, nach der Rückkehr bis 1851 Chirurg in der Gesandtschaft in Teheran, 1851-1854 außeretatmäßiger Arzt und 1857 etatmäßiger Arzt im Marien-Hospital für Arme in St. Petersburg, 1854-1855 Chirurg und Assistent von Nikolaj Ivanovič PIROGOV (1810-1881) in Sevastopol' während des Krimkrieges, ab 1856 Hofchirurg beim Großfürsten NIKOLAJ NIKOLAEVIČ (1831-1891), 1858-1860 erneut Studienaufenthalt bei Bernhard von LANGENBECK in Berlin und Studien in Paris, 1864-1867 Leiter der chirurgischen Abteilung und 1867-1871 Chefarzt des Marien-Hospitals für Arme, 1871-1884 Beratendes Mitglied im Medizinalrat des Ministeriums des Innern, 1877-1878 Feldchirurg während des Russisch-türkischen Krieges im Sonderhospital der \"Institutionen der Zarin Marija\" in Sistovo sowie in mehreren \"fliegenden\" (mobilen) Ambulanzen, ab 1874 \"Ehrenleibchirurg\" des Zaren ALEKSANDR II. (1818-1881).
+Inhaber der Ehrentitel \"Wirklicher Russischer Staatsrat\" (1869) und \"Geheimrat\" (1881)." ;
+	a drw-model:B .
+
+<W/30418hasW2>
+	a drw-model:W ;
+	rdfs:label "Ueber conservative und operative Indicationen bei Gliedverletzungen - wie soll operiert werden und wann? St. Petersburger medicinische Zeitschrift 7 (1864), 32-63 und 133-206." .
+
+<GeneralLabor/Chirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Chirurg" .
+
+<ImportantPerson/30418>
+	drw-model:hasWL <WL/30418hasWL1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Ehrenleibchirurg> ;
+	drw-model:hasW <W/30418hasW1> ;
+	drw-model:hasQ <Q/30418hasQ1> ;
+	drw-model:hasMG <MG/30418hasMG1> ;
+	drw-model:wasBornIn <Place/Mitau> ;
+	drw-model:hasStationOfLife <B/30418hasStationOfLife1> ;
+	drw-model:hasW <W/30418hasW5> ;
+	drw-model:hasSL <SL/30418hasSL1> ;
+	drw-model:hasSL <SL/30418hasSL4> ;
+	rdfs:label "Kade, Ernst (von)" ;
+	drw-model:wasMarriedTo <RelatedPerson/30418wasMarriedTo1> ;
+	drw-model:hasEducation <A/30418hasEducation1> ;
+	drw-model:hasSL <SL/30418hasSL2> ;
+	drw-model:diedOn <Date/22_11_or_4_12_1889> ;
+	drw-model:wasBornOn <Date/3_or_15_10_1817> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Chirurg> ;
+	drw-model:hasID "30418" ;
+	a drw-model:ImportantPerson ;
+	drw-model:fatherIs <RelatedPerson/30418fatherIs1> ;
+	drw-model:hasW <W/30418hasW3> ;
+	drw-model:hasW <W/30418hasW4> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasW <W/30418hasW7> ;
+	drw-model:hasW <W/30418hasW2> ;
+	drw-model:hasSL <SL/30418hasSL3> ;
+	drw-model:hasMainName <MainName/30418hasMainName1> ;
+	drw-model:hasW <W/30418hasW6> .
+
+<MG/30418hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Verein St. Petersburger Ärzte, Russkoe chirurgičeskoe obščestvo Pirogova [Russische chirurgische Pirogov-Gesellschaft] (Gründungsinitiator, zeitweise Präses)." .
+

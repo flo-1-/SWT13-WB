@@ -1,0 +1,224 @@
+{
+ 'Quelle': 
+  <unicode>
+ 'WL': 
+  <unicode>
+ 'Bildbeschreibung': 
+  <unicode>
+ 'A': 
+  [
+   [
+    <unicode>
+    [
+     [
+      <unicode>
+      <unicode>
+     ]
+     [
+      <unicode>
+      <unicode>
+     ]
+     [
+      <unicode>
+      <unicode>
+     ]
+     [
+      <unicode>
+      <unicode>
+     ]
+     [
+      <unicode>
+      <unicode>
+     ]
+    ]
+   ]
+  ]
+ 'B': 
+  [
+   [
+    <unicode>
+    [
+     [
+      <unicode>
+      <unicode>
+     ]
+     [
+      <unicode>
+      <unicode>
+     ]
+     [
+      <unicode>
+      <unicode>
+     ]
+     [
+      <unicode>
+      <unicode>
+     ]
+     [
+      <unicode>
+      <unicode>
+     ]
+     [
+      <unicode>
+      <unicode>
+     ]
+     [
+      <unicode>
+      <unicode>
+     ]
+     [
+      <unicode>
+      <unicode>
+     ]
+    ]
+   ]
+   [
+    <unicode>
+    <unicode>
+   ]
+  ]
+ 'E': 
+  <unicode>
+ 'Name': 
+{
+   'Vornamen': 
+    <unicode>
+   'Nachname': 
+    <unicode>
+}
+ 'PortraitURL': 
+  <string>
+ 'M': 
+  <unicode>
+ 'N': 
+  <unicode>
+ 'Q': 
+  [
+   <unicode>
+   <unicode>
+   <unicode>
+  ]
+ 'P': 
+  [
+   <unicode>
+   <unicode>
+   <unicode>
+   <unicode>
+  ]
+ 'Geburtsdaten': 
+{
+   'Jahr': 
+    <unicode>
+   'Ort': 
+    <unicode>
+   'Datum': 
+    <unicode>
+}
+ 'Namensvariationen': 
+  [
+{
+    'vornamen': 
+     [
+      [
+       <unicode>
+      ]
+      [
+       <unicode>
+      ]
+     ]
+    'nachname': 
+     <unicode>
+    'sprache': 
+     <unicode>
+}
+{
+    'vornamen': 
+     [
+      [
+       <unicode>
+      ]
+      [
+       <unicode>
+      ]
+     ]
+    'nachname': 
+     <unicode>
+    'sprache': 
+     <unicode>
+}
+  ]
+ 'W': 
+{
+   'general': 
+    [
+     <unicode>
+     <unicode>
+     <unicode>
+     <unicode>
+    ]
+}
+ 'V': 
+  <unicode>
+ 'GPV': 
+{
+   'general': 
+    [
+     <unicode>
+     <unicode>
+    ]
+}
+ 'ID': 
+  <string>
+ 'MG': 
+  <unicode>
+ 'First Page': 
+  <string>
+ 'Last Page': 
+  <string>
+ 'Sterbedaten': 
+{
+   'Jahr': 
+    <unicode>
+   'Ort': 
+    <unicode>
+   'Datum': 
+    <unicode>
+}
+ 'SL': 
+{
+   'general': 
+    [
+     <unicode>
+     <unicode>
+     <unicode>
+     <unicode>
+     <unicode>
+     <unicode>
+     <unicode>
+     <unicode>
+     <unicode>
+     <unicode>
+     <unicode>
+     <unicode>
+    ]
+}
+ 'footnotes': 
+{
+   '1': 
+    <unicode>
+   '2': 
+    <unicode>
+   '3': 
+    <unicode>
+   '4': 
+    <unicode>
+   '5': 
+    <unicode>
+   '6': 
+    <unicode>
+   '7': 
+    <unicode>
+}
+ 'Berufe': 
+  <unicode>
+}

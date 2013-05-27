@@ -1,0 +1,134 @@
+(dp0
+VA
+p1
+V1810 Studium der Chirurgie an der Universität Würzburg, 1811-1812(oder 1813) Studium und 1814 Dr. med. an der Universität Dorpat.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u0412O\u041b\u042cKE\u041dA\u0423, \u0418\u0432a\u043d \u0412ac\u0438\u043b\u044ce\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VVOL'KENAU, Ivan Vasil'evi\u010d (fon)
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+VAb Herbst 1810 im russischen Dienst als Arzt, später Divisionsstabschirurg bei Moskau und Operateur im Militärhospital in Riga, danach Arzt beim Ingenieur-Departement, ab 1836 bei der Haupt-Ingenieurschule in St. Petersburg, zuletzt Arzt im Palais des Zaren NIKOLAJ I. (1796-1855).\u000aInhaber hoher russischer Ehrentitel und Auszeichnungen: 1825 "Hofrat", 1835 "Staatsrat", "Wirklicher Russischer Staatsrat", 1841 Adelsdiplom, Ritter des St.-Vladimir-Ordens 4. Klasse und des St.-Annen-Ordens 3. Klasse.
+p14
+sVE
+p15
+VMarija Vasil'evna, geb. \u0160i\u0161mareva (\u2020 1868)
+p16
+sVName
+p17
+(dp18
+S'Vornamen'
+p19
+VJohann Peter Paul (von)
+p20
+sS'Nachname'
+p21
+VWolkenau
+p22
+ssVQuelle
+p23
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 276.</i>
+p24
+sVNamensvariationen
+p25
+(lp26
+(dp27
+g6
+VVOLKENAU
+p28
+sS'countyCode'
+p29
+g12
+sa(dp30
+g6
+VWOLCKENAU
+p31
+sg29
+g12
+sa(dp32
+g6
+VJohannes
+p33
+sg29
+g12
+sasVM
+p34
+VFranziska, geb. Huter
+p35
+sVID
+p36
+V30471
+p37
+sVQ
+p38
+(lp39
+VKatholisches Pfarramt Wallerstein: Kirchenbuch 1786, Geburtseintrag: 23.10.1786 Joannes Petrus Paulus Wolkenau (Schriftliche Mitteilung vom 10.6.2009).
+p40
+asVGeburtsdaten
+p41
+(dp42
+S'Ort'
+p43
+VFürstentum Oettingen-Wallerstein
+p44
+sS'Datum'
+p45
+V23.10.1786 Wallerstein
+p46
+ssVSterbedaten
+p47
+(dp48
+g43
+VSt. Petersburg
+p49
+sg45
+V19.9./1.10.1854
+p50
+ssVW
+p51
+(dp52
+S'letzteZeile'
+p53
+VSpecimen inaugurale medicum sistens bigam observationum de morbis nervorum. Dissertation. Dorpat 1814, 24 S. http://dspace.utlib.ee/dspace/bitstream/10062/3247/1/volkenau278.pdf Volltext (12.3.2012).
+p54
+sS'general'
+p55
+(lp56
+g54
+assVV
+p57
+VWilhelm, Hof-Fourier
+p58
+sVSL
+p59
+(dp60
+g55
+(lp61
+VEAD: Dokument-Id [64470/63312 (15.8.2010)].
+p62
+aVWBIS DBA: I 1392, 266; 1431, 373-374; RBA: R 104, 67.
+p63
+assVBerufe
+p64
+(lp65
+VChirurg
+p66
+aVHofarzt
+p67
+as.

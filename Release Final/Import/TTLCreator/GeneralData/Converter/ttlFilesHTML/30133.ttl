@@ -1,0 +1,150 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30133hasSL3>
+	rdfs:label "RBS. Bd. [3] (1908), 291-293." ;
+	a drw-model:SL .
+
+<ImportantPerson/30133>
+	rdfs:label "Bosse, Karl Julius (von)" ;
+	drw-model:wasMarriedTo <RelatedPerson/30133wasMarriedTo1> ;
+	drw-model:hasW <W/30133hasW2> ;
+	drw-model:wasBornIn <Place/Wesenberg> ;
+	drw-model:hasSL <SL/30133hasSL2> ;
+	drw-model:hasMainName <MainName/30133hasMainName1> ;
+	drw-model:hasID "30133" ;
+	drw-model:hasDescendant <RelatedPerson/30133hasDescendant1> ;
+	drw-model:wasBornOn <Date/1_or_13_7_1806> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:diedOn <Date/5_or_17_3_1857> ;
+	drw-model:hasSL <SL/30133hasSL3> ;
+	drw-model:fatherIs <RelatedPerson/30133fatherIs1> ;
+	drw-model:hasMG <MG/30133hasMG1> ;
+	drw-model:hasW <W/30133hasW1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <A/30133hasEducation1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Hofchirurg> ;
+	drw-model:hasSL <SL/30133hasSL1> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:motherIs <RelatedPerson/30133motherIs1> ;
+	drw-model:hasW <W/30133hasW3> ;
+	drw-model:hasW <W/30133hasW4> ;
+	drw-model:hasStationOfLife <B/30133hasStationOfLife1> .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<A/30133hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Bis 1826 Studium an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg mit dem Abschluss Arzt 1. Klasse, 1840 Diplom \"Mediko-Chirurg\"." .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<B/30133hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "1826-1827 Arzt am Militär-Krankenhaus in Narva, 1828-1830 Ordinator im Kalinkin-Krankenhaus in St. Petersburg, 1830 Stabsarzt, 1830-1831 Kreisarzt in Kiev, 1831-1842 als Hofbeamter in der Funktion des Arztes der Fayence-Fabrik von Mežigor'e bei Kiev, zugleich acht Jahre privat praktizierender Chirurg, 1842-1853 Arzt der Kaiserlichen Gobelin-Manufaktur in St. Petersburg, zugleich 1843-1849 Senior-Ordinator, 1849-1851 Gehilfe des Chefarztes und 1851 Chefarzt im St. Petersburger Militärlandhospital Nr. 1, ab 1853 Leibchirurg am Zarenhof, bereits 1850 und 1851 Arzt der Großfürsten NIKOLAJ NIKOLAEVIČ (1831-1891) und MICHAIL NIKOLAEVIČ (1832-1909) auf ihrer Russlandreise, 1852 auf zwei Auslandsreisen, 1854 auf der Reise nach Sevastopol' während des Krim-Krieges und 1855 auf den Reisen nach Warschau, Nikolaev und Reval.
+Inhaber hoher russischer Ehrentitel und Auszeichnungen: 1850 \"Staatsrat\", 1856 \"Wirklicher Russischer Staatsrat\", 1854 oder 1855 Adelstitel mit Wappendiplom, 1853 Ritter des St.-Annen-Ordens 2. Klasse, 1854 St.-Vladimir-Orden 3. Klasse mit Schwertern." .
+
+<W/30133hasW1>
+	rdfs:label "O bercotarannoj amputacii (amputatio tibio-tarsalis). Voenno-medicinskij žurnal Teil 54 (1849) Nr. 1." ;
+	a drw-model:W .
+
+<NameVariation/30133hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Julius-Karl" .
+
+<RelatedPerson/30133hasDescendant1>
+	rdfs:label "Vladimir Karlovič (1834-1904), Armeeoffizier<br>Fëdor Karlovič (* 1854), Armeeoffizier<br>Aleksandr Karlovič, Architekt<br>Nikolaj Karlovič<br>Tochter [Name unbekannt]" ;
+	a drw-model:RelatedPerson .
+
+<NameVariation/30133hasNameVariation6>
+	a drw-model:NameVariation ;
+	rdfs:label "Фeдoрoвич" .
+
+<SL/30133hasSL1>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [2120/2088 (22.7.2010)]." .
+
+<MG/30133hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Kievskoe obščestvo vračej [Gesellschaft der Ärzte in Kiew] (ab 1840), Voenno-medicinskij naučnyj komitet [Militärmedizinisches Gelehrtenkomitee] (Ehrenmitglied ab 1852)." .
+
+<Date/1_or_13_7_1806>
+	a drw-model:Date ;
+	rdfs:label "1./13.7.1806" .
+
+<RelatedPerson/30133wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Olga Fëdorovna, geb. Mason, oder geb. Zylow (Cylova) (1810-1872)" .
+
+<Date/5_or_17_3_1857>
+	a drw-model:Date ;
+	rdfs:label "5./17.3.1857" .
+
+<Place/Wesenberg>
+	a drw-model:Place ;
+	rdfs:label "Wesenberg" .
+
+<SL/30133hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Nemcy Rossii. Bd. 1 (1999), 234-235." .
+
+<W/30133hasW4>
+	rdfs:label "[Übersetzung von: Zehetmayer, Franz: Grundzüge der Percussion und Auscultation und ihrer Anwendung auf die Diagnostik der Brustfell- und Lungenkrankheiten: als Leitfaden zum Selbstunterrichte für Ärzte. 2. Aufl. Wien 1845] Zeėtmajer, Franc: Pustukivanie i vyslušivanie (percussio et auscultatio), s primeneniem ėtich sredstv k raspoznavaniju boleznej grudnoj plevy i legkich. Sankt-Peterburg 1849, VIII + 298 S." ;
+	a drw-model:W .
+
+<NameVariation/30133hasNameVariation1>
+	rdfs:label "Carl" ;
+	a drw-model:NameVariation .
+
+<GeneralLabor/Hofchirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hofchirurg" .
+
+<W/30133hasW2>
+	rdfs:label "O dejstvii gal'vanopunktury pri lečenii anevrizm. Voenno-medicinskij žurnal Teil 55 (1850) Nr. 1." ;
+	a drw-model:W .
+
+<NameVariation/30133hasNameVariation3>
+	rdfs:label "Karl Fëdorovič" ;
+	a drw-model:NameVariation .
+
+<NameVariation/30133hasNameVariation5>
+	rdfs:label "Кaрл Фëдoрoвич" ;
+	a drw-model:NameVariation .
+
+<W/30133hasW3>
+	rdfs:label "O vospalenii glubokich limfatičeskich sosudov. Voenno-medicinskij žurnal Teil 55 (1850) Nr. 2." ;
+	a drw-model:W .
+
+<RelatedPerson/30133fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann Matthias, Weißgerber, Kaufmann" .
+
+<NameVariation/30133hasNameVariation4>
+	a drw-model:NameVariation ;
+	rdfs:label "Fedorovič" .
+
+<RelatedPerson/30133motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Christina Wilhelmine, geb. Tallquist (* 1784)" .
+
+<MainName/30133hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30133hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30133hasNameVariation4> ;
+	drw-model:hasNameVariation <NameVariation/30133hasNameVariation5> ;
+	rdfs:label "Bosse, Karl Julius (von)" ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30133hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30133hasNameVariation3> ;
+	drw-model:hasNameVariation <NameVariation/30133hasNameVariation6> .
+

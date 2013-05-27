@@ -1,0 +1,190 @@
+(dp0
+VA
+p1
+V1823-1830 Besuch der Muralt-Pensionats*) in St. Petersburg und 1830-1833 des Gymnasiums in Dorpat, 1833-1834 Studium der Philosophie und 1834-1838 der Medizin an der Universität Dorpat, 1839-1840 Studium an den Universitäten Berlin, Wien und Prag, 1840 Dr. med. et chir. an der Universität Würzburg, 1841 Arzt 1. Klasse in Dorpat, 1842-1843 Weiterbildung in London und in Paris, 1847 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg.\u000a*) Johannes von Muralt, russ.: Iogannes fon Muralt, franz.: Jean de Muralt (1780-1850), Schweizer Theologe und Pädagoge, ab 1810 Pastor der reformierten Kirche und 1811 Gründer eines Erziehungspensionats in St. Petersburg.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u0413\u0418\u0413\u0413\u0418\u041d\u0412OTAM, \u0412\u0438\u043b\u043b\u0438a\u043c \u0418\u0432a\u043do\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VGIGGINBOTAM, Villiam Ivanovi\u010d
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+VAb 1843 praktischer Arzt und Hofarzt, 1844-1854 Arzt bei der Gemeinde der Barmherzigen Schwestern in St. Petersburg, 1851 zugleich Leibarzt der Großfürstin MARIJA NIKOLAEVNA (1819-1876) und ihrer Kinder auf Auslandsreisen, 1856-1872 (oder 1880) Arzt an der Maksimilian-Invalidenanstalt und zugleich 1864-1886 bei der Brüdergemeinde der Mariä-Geburtskirche, ab 1866 Mitglied der Sanitätskommission und Medizinalinspektor des Aleksandr-Nevskij-Stadtteils in St. Petersburg, lebte ab 1895/96 abwechselnd in England und an der französischen Riviera.\u000a        Ab 1867 Inhaber des Ehrentitels "Wirklicher Russischer Staatsrat".
+p14
+sVE
+p15
+VAuguste Lucie, geb. von Unzer (1823-1895)
+p16
+sVName
+p17
+(dp18
+S'Vornamen'
+p19
+VWilliam
+p20
+sS'Nachname'
+p21
+VHigginbotham
+p22
+ssVQuelle
+p23
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 109-11.</i>
+p24
+sVNamensvariationen
+p25
+(lp26
+(dp27
+g6
+VHIGGINBOTHOM
+p28
+sS'countyCode'
+p29
+g12
+sa(dp30
+g6
+VGIGINBOTOM
+p31
+sg29
+g12
+sa(dp32
+g6
+V\u0413\u0418\u0413\u0418\u041d\u0412OTOM
+p33
+sg29
+g9
+sa(dp34
+g6
+VWilliam G.
+p35
+sg29
+g12
+sa(dp36
+g6
+VVilljam
+p37
+sg29
+g12
+sa(dp38
+g6
+VVasilij
+p39
+sg29
+g12
+sa(dp40
+g6
+V\u0412\u0438\u043b\u043b\u044f\u043c
+p41
+sg29
+g9
+sa(dp42
+g6
+V\u0412ac\u0438\u043b\u0438\u0439
+p43
+sg29
+g9
+sasVM
+p44
+VAmalie, geb. Schleich (* 1771)
+p45
+sVMG
+p46
+VVerein St. Petersburger Ärzte (ab 1861, Ehrenmitglied ab 1893), Deutscher ärztlicher Verein in St. Petersburg (ab 1887 Ehrenmitglied), Kru\u017eok Peterburgskich vra\u010dej Pirogova [Pirogovs Verein Petersburger Ärzte] (ab 1849, ab 1855 zeitweise Sekretär), Ob\u0161\u010destvo russkich vra\u010dej v pamjat' N. I. Pirogova [N. I. Pirogov-Gesellschaft russischer Ärzte] (1884 Mitstifter), Russkoe geografi\u010deskoe ob\u0161\u010destvo [Russische geographische Gesellschaft] (1865-1870).
+p47
+sVN
+p48
+VMary (Marie) Sarah (Vasil'evna) Higginbothom, verh. Berg (1852-1927)\u000aJohn (Vasil'evi\u010d) Higginbothom (1854-1917)\u000aLucy (Vasil'evna) Higginbothom (1856-1927)
+p49
+sVGeburtsdaten
+p50
+(dp51
+S'Ort'
+p52
+VSt. Petersburg
+p53
+sS'Datum'
+p54
+V5./17.10.1813
+p55
+ssVSterbedaten
+p56
+(dp57
+g54
+V26.4./9.5. oder 25.4/8.5.1907
+p58
+sg52
+VMenton
+p59
+sS'Grabst\xc3\xa4tte'
+p60
+VSt. Petersburg, Evangelischer Friedhof Smolenskoe
+p61
+ssVW
+p62
+(dp63
+S'general'
+p64
+(lp65
+VDe peritonitide foetus. Dissertation. Würzburg 1840, 36 S. (Titelblatt Abgedruckt in: Fischer 2010, 111 [Exemplar der Universitätbibliothek Würzburg, Sign. 1840,24]). http://books.google.de/books?id=TzNPAAAAcAAJ&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false Volltext (4.4.2012).
+p66
+aVEin Fall von Prolapsus uteri mit gleichzeitigem Vorfall des Mastdarms. St. Petersburger medicinische Zeitschrift 15 (1869), 343-346.
+p67
+aVZwei Beobachtungen über Bluter. St. Petersburger medicinische Zeitschrift 16 (1869), 111-114.
+p68
+aVEin Fall von Scarlatina haemorrhagica, - Iridochoreoiditis, - Morbilli und Pneumonia catarrhalis. St. Petersburger medicinische Zeitschrift N.F. 1 (1870), 344-352.
+p69
+aVHistorischer Bericht über die Gründung des "Golitzin"schen Hospitals in Moskau. St. Petersburger medicinische Zeitschrift 17 (1870), 33-35.
+p70
+aVUeber mikroskopische und chemische Analysen und ihre Beziehungen zur Sanitätsfrage. St. Petersburger medicinische Wochenschrift 2 (1877), 70-74.
+p71
+aVUeber Verproviantirung Europa's mit Fleisch. St. Petersburger medicinische Wochenschrift 2 (1877), 182-184.
+p72
+aVUeber Attribute der Mechanik in ihrer Beziehung zur Heilkunde. Vorgetragen im Verein deutscher Ärzte zu St. Petersburg, d. 2. Nov. 1881. St. Petersburger medicinische Wochenschrift 6 (1881), 394-397.
+p73
+aVPhilipp #internNameLink#30419#endNameNr#Karell#/internNameLink# . St. Petersburger medicinische Wochenschrift N.F. 3 [= 11] (1886), 311-312.
+p74
+assVV
+p75
+VJohn Higginbothom (1766-1831), Kaufmann
+p76
+sVID
+p77
+V30380
+p78
+sVSL
+p79
+(dp80
+g64
+(lp81
+VEAD: Dokument-Id [62144/60187 (29.7.2010)].
+p82
+aVPeterburgskij nekropol'. Bd. 1 (1912), 594.
+p83
+aVWBIS BaBA: I 125, 35; RBA: R 124, 277.
+p84
+assVBerufe
+p85
+(lp86
+VPraktischer Arzt
+p87
+aVHofarzt
+p88
+aVGroßfürstlicher Leibarzt
+p89
+aVMedizinalinspektor
+p90
+as.

@@ -1,0 +1,227 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30452hasSL6>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.liveinternet.ru/users/3464209/post126156118/" ;
+	a drw-model:SL ;
+	rdfs:label "Zavirochin, Valerij Alekseevič: Razdum'ja o vračach i vračebnom dolge. Pamjati Borisa Michajloviča Šapirova - pervogo medicinskogo inspektora Otdel'nogo korpusa pograninoj straži Rossii - posvjaščaju. Moskva 2004, 102 S.; davon Auszug u. d. T. \"Pervyj sanitarnyj inspektor. K 115 godovščine so dnja roždenija B. M. Šapirova\", S. 83-89. Online Ressource (1.9.2010), nicht mehr vorhanden." .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30452hasW5>
+	rdfs:label "Naši pograničnye okrainy v Srednej Azii. Putevye nabroski Borisa Šapirova. Sankt-Peterburg 1901, 82 S.; Neuausgabe: ~. S 32 risunkami v tekste i priloženiem karty kavkazskich brigad pograničnoj straži. Sankt-Peterburg 1909, 222 S." ;
+	a drw-model:W .
+
+<Q/30452hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Bestand L, Nr. 212, Bl. 1-5: Anschreiben des Dekans an die Fakultät vom 15.3.1886, 4 Briefe Šapirovs an den Dekan der Medizinischen Fakultät: Gesuch um Erwerb des Titels \"Dr. med.\" vom 1.2.1886 (Abgedruckt in: Fischer 2010, 247) und Briefe vom 27.2., 18.3. und 23.4.1886." .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<W/30452hasW7>
+	rdfs:label "Lečebnoe mestnosti (kurorty) v Galicii. Ėkskursija v rajonach starych kurortov vo vnov' zavoevšem russkom krae. S priloženiem karty galicijskich kurortov. Vestnik Krasnogo kresta (1915) Nr. 1, 32 S." ;
+	a drw-model:W .
+
+<B/30452hasStationOfLife1>
+	drw-model:hasNameLink <ImportantPerson/30241> ;
+	a drw-model:B ;
+	rdfs:label "1874-1875 Stadtarzt in Sapožok im Gouvernement Rjazan', 1875-1877 Weiterbildung als Assistent bei Eduard Georg von <span style='font-variant:small-caps;'>EICHWALD</span> an der Klinik für innere Krankheiten der Mediko-chirurgischen Akademie (MCA) in St. Petersburg, 1877-1878 im Russisch-türkischen Krieg Oberarzt im Vologodaer- und Orenburger mobilen Krankenhaus, danach Arzt im Pavlovskij Leibgarde-Regiment, ab 1880 Junior-Ordinator im Nikolaj-Militärkrankenhaus in St. Petersburg, 1886-1887 delegiert von der Kaiserlichen philanthropischen Gesellschaft zur Besichtigung von Wohltätigkeitseinrichtungen im Ausland, u.a. in Deutschland (zugleich von Mai bis Juni 1886 an der Universität Jena zur Promotion) und 1887 in Frankreich, Sommer 1890 Forschungsreise zur Untersuchung von Mineralwässern im Kreis Stryjsk, z.B. in Moršin (damals Galizien), ab 1892 Arzt im Nikolaj-Militärkrankenhaus, im Militärbezirk Kazan' und in der Maksimilian-Invalidenheilanstalt in St. Petersburg, 1896-1912 Korpsarzt sowie 1902-1904 Leiter der Medizinalabteilung und 1904-1912 Medizinalinspektor des Grenzschutzkorps, zugleich 1901-1903 Leiter des Sanitäts-medizinischen Dienstes beim Bau der Chinesischen Osteisenbahn in der Mandschurei, 1912-1915 Vorsitzender der Gesundheitskommission bei der Hauptverwaltung des Roten Kreuzes, ab 1911 \"Ehrenleibmedikus\" am Hofe des Zaren NIKOLAJ II. (1868-1918), war auch Mitglied des Medizinalrats des Ministeriums des Innern und Vorsitzender der Kommission der Gesellschaft zur Wahrung der Volksgesundheit.
+        Wurde mit den Titeln \"Geheimrat\" und \"Wirklicher Geheimrat\", mit dem St.-Vladimir-Orden 2. Klasse, dem St.-Annen-Orden 1. Klasse, dem St.-Stanislav-Orden 1. Klasse und dem Aleksandr-Nevskij-Orden, mit der Gedenkmedaille \"300 Jahre Romanov-Dynastie\" sowie weiteren Auszeichnungen geehrt." .
+
+<MG/30452hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Imperatorskoe čelovekoljubimoe obščestvo [Kaiserliche philanthropische Gesellschaft], Vserossijskaja liga bor'by s tuberkulezom [Gesamtrussische Liga im Kampf gegen Tuberkulose] u.a." .
+
+<W/30452hasW1>
+	rdfs:label "Lečenie nevralgii podkožnymi vpryskivanijami os'mievoj kisloty. Russkaja medicina (1885) Nr. 14, 15 und 16, 32 S.; in deutscher Sprache u. d. T.: Die Behandlung von Neuralgien mit Injectionen von Osmiumsäure. Diss. Jena 1886, 24 S." ;
+	a drw-model:W .
+
+<Date/29_7_or_11_8_1915>
+	a drw-model:Date ;
+	rdfs:label "29.7./11.8.1915" .
+
+<SL/30452hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Pridvornyj kalendar': na 1911 god. Sankt-Peterburg [o. J.], 298; ~ 1913, 315; ~ 1914, 394." .
+
+<RelatedPerson/30452fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Michail" .
+
+<Place/Finnland>
+	a drw-model:Place ;
+	rdfs:label "Finnland" .
+
+<SL/30452hasSL4>
+	rdfs:label "Vikipedija. Online Ressource Online Ressource (5.4.2012)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D0%BF%D0%B8%D1%80%D0%BE%D0%B2,_%D0%91%D0%BE%D1%80%D0%B8%D1%81_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87" .
+
+<NameVariation/30452hasNameVariation3>
+	rdfs:label "CHAPIROFF" ;
+	a drw-model:NameVariation .
+
+<WL/30452hasWL3>
+	rdfs:label "Ab 1898 Redakteur der Berichtsreihe <i>Sanitatrnyj otčet po Otdel'nomu korpusu pograničnoj straži.</i>" ;
+	a drw-model:WL .
+
+<ImportantPerson/30241>
+	a drw-model:ImportantPerson .
+
+<NameVariation/30452hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "(DE) SCHAPIROFF" .
+
+<RelatedPerson/30452wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sof'ja Vasil'evna Šapirova, geb. Semičova (1862-1926)" .
+
+<P/30452hasP2>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.pobeda.ru/biblioteka/images/shapirov1.jpg" ;
+	a drw-model:P ;
+	rdfs:label "Portrait, Online Ressource Online Ressource (26.3.2012)." .
+
+<Place/Odessa>
+	a drw-model:Place ;
+	rdfs:label "Odessa" .
+
+<SL/30452hasSL1>
+	rdfs:label "Kladbišča Peterburga, 349." ;
+	a drw-model:SL .
+
+<Q/30452hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Friedrich-Schiller-Universität Jena, Universitätsarchiv:" .
+
+<SL/30452hasSL7>
+	rdfs:label "Šapirov, Boris Michajlovič Online Ressource Online Ressource (5.4.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.numiturar.ru/a/shapirov_boris_mihaylovich" ;
+	a drw-model:SL .
+
+<Q/30452hasQ3>
+	a drw-model:Q ;
+	rdfs:label "Bestand L, Nr. 215, Bl. 44: Promotionsurkunde vom 25.6.1886. Abgedruckt in: Fischer 2010, 248." .
+
+<SL/30452hasSL5>
+	rdfs:label "WBIS RBA: R 502,109." ;
+	a drw-model:SL .
+
+<A/30452hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Bis 1874 Studium an der Medizinischen Fakultät der St.-Vladimir-Universität in Kiev, 1886 Dr. med. et chir. an der Medizinischen Fakultät der Universität Jena, 1896 Dr. med. an der Universität Jur'ev (vormals Dorpat)." .
+
+<WL/30452hasWL1>
+	rdfs:label "Reformer des Medizinalwesens in Russland, z.B. Bildung medizinischer Ausschüsse, Einrichtung von Stipendien zur Feldscherausbildung, Gründung von 60 Militärfeldscherschulen, Neuausstattung von ca. 100 Lazaretten und Sanitäts- und Heilstationen u.a." ;
+	a drw-model:WL .
+
+<W/30452hasW3>
+	a drw-model:W ;
+	rdfs:label "Materialy k fiziologii želudočnago piščevarenija. Diss. Jur'ev 1896." .
+
+<MainName/30452hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30452hasNameVariation3> ;
+	rdfs:label "Šapirov, Boris Michajlovič" ;
+	drw-model:hasNameVariation <NameVariation/30452hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30452hasNameVariation2> .
+
+<W/30452hasW6>
+	rdfs:label "Rossijskoe obščestvo Krasnogo kresta na Meždunarodnoj gigieničeskoj vystavke v Drezdene. Vestnik Krasnogo kresta (1912) Nr. 1, 13 S." ;
+	a drw-model:W .
+
+<ImportantPerson/30452>
+	drw-model:wasBornOn <Date/24_11_or_6_12_1851> ;
+	drw-model:hasP <P/30452hasP2> ;
+	drw-model:hasSL <SL/30452hasSL5> ;
+	drw-model:hasW <W/30452hasW1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30452.jpg> ;
+	drw-model:hasP <P/30452hasP3> ;
+	drw-model:diedIn <Place/Finnland> ;
+	drw-model:hasWL <WL/30452hasWL3> ;
+	drw-model:hasDescendant <RelatedPerson/30452hasDescendant1> ;
+	drw-model:hasSL <SL/30452hasSL6> ;
+	drw-model:wasBornIn <Place/Odessa> ;
+	drw-model:fatherIs <RelatedPerson/30452fatherIs1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:hasW <W/30452hasW7> ;
+	drw-model:hasMainName <MainName/30452hasMainName1> ;
+	drw-model:hasMG <MG/30452hasMG1> ;
+	drw-model:hasW <W/30452hasW2> ;
+	drw-model:hasID "30452" ;
+	drw-model:diedOn <Date/29_7_or_11_8_1915> ;
+	rdfs:label "Šapirov, Boris Michajlovič" ;
+	drw-model:hasW <W/30452hasW6> ;
+	drw-model:hasSL <SL/30452hasSL7> ;
+	drw-model:hasQ <Q/30452hasQ3> ;
+	drw-model:hasSL <SL/30452hasSL3> ;
+	drw-model:wasMarriedTo <RelatedPerson/30452wasMarriedTo1> ;
+	drw-model:hasW <W/30452hasW5> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasP <P/30452hasP1> ;
+	drw-model:hasQ <Q/30452hasQ2> ;
+	drw-model:hasWL <WL/30452hasWL1> ;
+	drw-model:hasStationOfLife <B/30452hasStationOfLife1> ;
+	drw-model:hasQ <Q/30452hasQ1> ;
+	drw-model:hasW <W/30452hasW4> ;
+	drw-model:hasEducation <A/30452hasEducation1> ;
+	drw-model:hasW <W/30452hasW3> ;
+	drw-model:hasWL <WL/30452hasWL2> ;
+	drw-model:hasSL <SL/30452hasSL1> ;
+	drw-model:hasSL <SL/30452hasSL4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Ehrenleibmedikus> ;
+	drw-model:hasSL <SL/30452hasSL2> .
+
+<RelatedPerson/30452hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Tat'jana Borisovna Šapirova, verh. Lozinskaja (1885-1955)" .
+
+<SL/30452hasSL3>
+	rdfs:label "Šustov, A. S. (Hg.): Naši dejateli po medicine. S.-Peterburg 1910 (Illjustrirovannyj vestnik kul'tury, naučno-vospitatel'nago, techničeskago i torgovo-promyšlennago progressa Rossii 1)." ;
+	a drw-model:SL .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<GeneralLabor/Ehrenleibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ehrenleibmedikus" .
+
+<W/30452hasW2>
+	rdfs:label "Slučaj upornoj nevralgii trojničnogo nerva (Iz gel'mintol. kazuistiki). Medicina (1889) Nr. 22, 8 S." ;
+	a drw-model:W .
+
+<WL/30452hasWL2>
+	rdfs:label "Autor mehrerer Arbeiten zur Hygiene, zum Sanitätswesen, zu Fragen der therapeutischen und ärztlichen Praxis u.a." ;
+	a drw-model:WL .
+
+<NameVariation/30452hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "SCHAPIROW" .
+
+<W/30452hasW4>
+	a drw-model:W ;
+	rdfs:label "Kavkazskie brigady Otdel'nogo Korpusa pograničnoj straži v sanitarnom otnošenii. Voenno-medicinskij žurnal (1898) Nr. 5, 57 S." .
+
+<P/30452hasP1>
+	rdfs:label "Portrait aus: Zavirochin (<b>SL</b>). Abgedruckt in: Fischer 2010, 244." ;
+	a drw-model:P .
+
+<Date/24_11_or_6_12_1851>
+	a drw-model:Date ;
+	rdfs:label "24.11./6.12.1851" .
+
+<P/30452hasP3>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.people.su/images/aboutbio/item_2077.jpg" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://zasluga.ru/catalog_photos/shapirov3.jpg" ;
+	rdfs:label "Medaille zu Ehren Šapirovs, Online Ressource Online Ressource sowie Online Ressource Online Ressource bzw. Online Ressource Rückseite (5.4.2012)." ;
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://zasluga.ru/catalog_photos/shapirov1.jpg" .
+

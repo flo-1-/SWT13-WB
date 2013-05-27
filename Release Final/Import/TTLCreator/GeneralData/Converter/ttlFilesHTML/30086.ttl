@@ -1,0 +1,188 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30086hasSL3>
+	rdfs:label "WBIS DBA: I 92, 229; BaBA: I 29, 119-120; RBA: R 50, 207-210, R 533, 43-45." ;
+	a drw-model:SL .
+
+<W/30086hasW5>
+	rdfs:label "Rudol'f Virchov. Iz reči, proiznes. v S.-Peterb. med. o-ve 5 nojab. sego goda: Medicina (1891), 6 S." ;
+	a drw-model:W .
+
+<NameVariation/30086hasNameVariation1>
+	rdfs:label "Josef" ;
+	a drw-model:NameVariation .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30086hasW7>
+	rdfs:label "Pamjati vračej, pogibšich v bor'be s cholernoj ėpidemiej, v tečenie leta 1892 goda. Soobščenija i protokoly S.-Peterb. medicinskogo obščestva za 1892 g. (1893), 17 S." ;
+	a drw-model:W .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<W/30086hasW1>
+	rdfs:label "Nonnulla de neochondroplasmatum articulorum origine et cura. Diss. Dorpat 1857, 56 S. Online Ressource Volltext (26.3.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/dspace/bitstream/10062/2141/1/berthenson.pdf" ;
+	a drw-model:W .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<Date/1833_oder_1834_oder_1835>
+	rdfs:label "1833 oder 1834 oder 1835" ;
+	a drw-model:Date .
+
+<MainName/30086hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30086hasNameVariation1> ;
+	rdfs:label "Berthenson, Joseph" .
+
+<Place/Nikolaev_oder_Odessa_getaufter>
+	a drw-model:Place ;
+	rdfs:label "Nikolaev oder Odessa (getaufter Jude)" .
+
+<SL/30086hasSL1>
+	rdfs:label "EAD: Dokument-Id [8500/8209 (21.7.2010)]." ;
+	a drw-model:SL .
+
+<WL/30086hasWL1>
+	rdfs:label "Trug zur Entwicklung der Hygiene in Russland bei, führte in Russland das Barackensystem bei Lazaretten ein*), verfasste ca. 60 Veröffentlichungen zu Hygiene und öffentlicher Gesundheitspflege, Gerichtsmedizin, medizinischer Frauenausbildung in Russland u.a." ;
+	a drw-model:WL .
+
+<W/30086hasW8>
+	rdfs:label "Zur Frage von der Diagnose primärer Neoplasmen des Herzens. Myxom des linken Vorhofes. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 132 (1893), 390-407." ;
+	a drw-model:W .
+
+<WL/30086hasWL3>
+	rdfs:label "*)Das o.g. Roždestvenskij-Barackenlazarett bestand aus sieben Baracken: Baracke Nr. 1: \"Im Gedenken an Marija Aleksandrovna\" - für Männer mit nicht übertragbaren Krankheiten, Baracke Nr. 2: [...] - für Männer mit Typhusfieber, Baracke Nr. 3: \"Poljakov\" - für Frauen mit nicht übertragbaren Krankheiten, Baracke [Nr. 4]: für Frauen mit Typhusfieber, Baracke Nr. 5: Gynäkologische, Baracke Nr. 6: Für Gebärende, Baracke Nr. 7: Chirurgische namens Aleksandr III. Vgl.: Bulletin international des Sociétès de la Croix-Rouge 21 (1890), 26." ;
+	a drw-model:WL .
+
+<RelatedPerson/30086fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Vasilij, Kaufmann" .
+
+<ImportantPerson/30086>
+	drw-model:diedOn <Date/29_3_or_10_oder_17_4_1895> ;
+	drw-model:hasP <P/30086hasP1> ;
+	drw-model:hasW <W/30086hasW1> ;
+	drw-model:hasMainName <MainName/30086hasMainName1> ;
+	drw-model:hasWL <WL/30086hasWL3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Medizinalinspektor> ;
+	drw-model:hasW <W/30086hasW6> ;
+	drw-model:motherIs <RelatedPerson/30086motherIs1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Direktor_einer_Heilanstalt> ;
+	drw-model:hasEducation <A/30086hasEducation1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30086.jpg> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Ehrenleibmedikus> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:wasBornOn <Date/1833_oder_1834_oder_1835> ;
+	drw-model:fatherIs <RelatedPerson/30086fatherIs1> ;
+	drw-model:hasWL <WL/30086hasWL2> ;
+	drw-model:hasW <W/30086hasW8> ;
+	drw-model:hasStationOfLife <B/30086hasStationOfLife1> ;
+	drw-model:hasW <W/30086hasW9> ;
+	drw-model:hasW <W/30086hasW2> ;
+	drw-model:hasSL <SL/30086hasSL3> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <W/30086hasW4> ;
+	drw-model:hasW <W/30086hasW7> ;
+	drw-model:hasW <W/30086hasW3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Hygieniker> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasID "30086" ;
+	drw-model:hasWL <WL/30086hasWL1> ;
+	rdfs:label "Berthenson, Joseph" ;
+	drw-model:hasSL <SL/30086hasSL2> ;
+	drw-model:wasMarriedTo <RelatedPerson/30086wasMarriedTo1> ;
+	drw-model:hasGPV <GPV/30086hasGPV1> ;
+	drw-model:hasW <W/30086hasW5> ;
+	drw-model:hasMG <MG/30086hasMG1> ;
+	drw-model:wasBornIn <Place/Nikolaev_oder_Odessa_getaufter> ;
+	drw-model:hasSL <SL/30086hasSL1> .
+
+<W/30086hasW2>
+	rdfs:label "Baračnye lazarety v voennoe i mirnoe vremja. Sankt-Peterburg 1871, 177 S." ;
+	a drw-model:W .
+
+<RelatedPerson/30086wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Marija Michajlovna, geb. Chrapovickaja<br>" .
+
+<W/30086hasW4>
+	rdfs:label "Ueber die Sanitätsverhältnisse des Baracken-Lazareth's der Gesellschaft zur Pflege verwundeter und kranker Krieger in St. Petersburg. St. Petersburg 1874, 48 S." ;
+	a drw-model:W .
+
+<SL/30086hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Nekrolog. Novoe vremja 1895, Nr. 7084. Vgl. Online Ressource Text(02.04.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://az.lib.ru/j/jazykow_d_d/text_0040.shtml" .
+
+<GPV/30086hasGPV1>
+	rdfs:label "Publikationen 1858-1880, in: Znakomye. Al'bom Michaila Ivanoviča Semevskago [...]. Kniga avtobiografičeskich sobstvennoručnych zametok 850 lic. Vospominanija. Stichotvorenija. Epigramy. Šutki. Podpisi. 1867-1888. S.-Peterburg 1888; zit. nach WBIS RBA: R 533, 43-44." ;
+	a drw-model:GPV .
+
+<GeneralLabor/Medizinalinspektor>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Medizinalinspektor" .
+
+<W/30086hasW6>
+	rdfs:label "Imperatrica Marija Aleksandrovna v Ee zabotach o dejatel'nosti Rossijskogo obščestva Krasnogo kresta. Russkaja starina (1892) Jan.-Nr., 14 S." ;
+	a drw-model:W .
+
+<GeneralLabor/Hygieniker>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hygieniker" .
+
+<GeneralLabor/Direktor_einer_Heilanstalt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Direktor einer Heilanstalt" .
+
+<P/30086hasP1>
+	rdfs:label "Foto aus dem Bilder-Anhang \"Russkie dejateli\", in: Novyj ėnciklopedičeskij slovar'. Fri(e)drich Arnold Brokgauz, Il'ja Abramovič Efron (Hgg.). Konstantin Konstantinovič Arsen'ev (Red.). Bd. 6. S.-Peterburg 1912, XXI. Abgedruckt in: Fischer 2010, 22." ;
+	a drw-model:P .
+
+<Date/29_3_or_10_oder_17_4_1895>
+	a drw-model:Date ;
+	rdfs:label "29.3./10. oder 17.4.1895" .
+
+<GeneralLabor/Ehrenleibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ehrenleibmedikus" .
+
+<W/30086hasW9>
+	rdfs:label "O vračebnoj tajne s točki zrenija trebovanija pravosudija, administracii i vračebnoj ėtiki. Sankt-Peterburg 1894, 36 S." ;
+	a drw-model:W .
+
+<WL/30086hasWL2>
+	rdfs:label "1865 Redakteur von Archiv sudebnoj mediciny i obščestvennoj gigieny und 1870-1876 von Vestnik Obščestva popečenija o bol'nych i ranenych voinach." ;
+	a drw-model:WL .
+
+<MG/30086hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Verein St. Petersburger Ärzte (ab 1864), Sankt-Peterburgskoe obščestvo praktičeskich vračej [St. Petersburger Gesellschaft praktischer Ärzte], Obščestvo vračej v Kieve, Vitebske, Vilne i Rige [Kiever, Vitebsker, Vilnaer und Rigaer Ärztegesellschaft], Imperatorskoe Kavkazskoe medicinskoe obščestvo [Kaiserliche Kaukasische medizinische Gesellschaft], Obščestvo ochranenija narodnago zdravja [Gesellschaft zur Wahrung der Volksgesundheit]." .
+
+<B/30086hasStationOfLife1>
+	rdfs:label "1857-1859 praktischer Arzt auf den Gütern von V. S. KONŠIN im Gouvernement Kaluga, 1859-1861 Oberarzt am \"Collegium für allgemeine Fürsorge\" in Vitebsk, 1861-1863 Studienaufenthalte an der Universität Berlin bei Rudolf VIRCHOW (1821-1902) und Ludwig TRAUBE (1818-1876), an der Universität Heidelberg bei Hermann von HELMHOLTZ (1821-1894) sowie in Wien, Prag und Paris, ab 1863 praktischer Arzt, 1865-1868 Inspektor des Physikats und 1868-70 Inspektor der Gouvernement-Medizinalverwaltung, 1866-1870 Leiter der Cholera-Heilanstalt (1867 in Erstes städtisches Krankenhaus umgewandelt) in St. Petersburg, 1870-1871 Begleiter Nikolaj Ivanovič PIROGOVs (1810-1881) im Deutsch-Französischen Krieg, 1871 Gründer und bis 1894 Direktor des \"Roždestvenskij-Barackenkrankenhauses\", zugleich ab 1872 Gründer und Direktor der angeschlossenen Lehranstalt \"Roždestvenskie kursy\" für Arztgehilfinnen und Feldscherinnen (später Schule für Arzt- und Geburtshelferinnen) sowie ab 1875 der \"Heilanstalt für arme Kranke der Großfürstin Marija Aleksandrovna\" in St. Petersburg, ab 1881 \"Ehrenleibmedikus\" am Hofe des Zaren ALEKSANDR III. (1845-1894), außerdem Beratungsmitglied im Veterinärmedizinischen Komitee des Innenministeriums.
+Inhaber hoher russischer Ehrentitel und Auszeichnungen: \"Wirklicher Russischer Staatsrat\" (1873), \"Geheimrat\" u.a." ;
+	a drw-model:B .
+
+<W/30086hasW3>
+	rdfs:label "Baraki Sankt-Peterburgskogo damskogo lazaretnogo komiteta Obščestva popečenija o bol'nych i ranenych voinach. Sankt-Peterburg 1874, 253 S." ;
+	a drw-model:W .
+
+<RelatedPerson/30086motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sophia, geb. Brigger" .
+
+<A/30086hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Bis 1849 Besuch des Gymnasiums und 1849-1850 der Jura-Vorlesungen am Richelieu-Lyzeum in Odessa, 1850-1854 Studium an der Medizinischen Fakultät in Char'kov und 1854-1857 in Dorpat, 1857 Dr. med. an der Universität Dorpat." .
+

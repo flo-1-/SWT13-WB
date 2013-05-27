@@ -1,0 +1,125 @@
+(dp0
+VA
+p1
+V1863-1871 Jura- und Medizinstudium und 1871 Dr. med. an der Universität Dorpat, 1871-1872 Studienaufenthalt bei Carl LUDWIG (1816-1895) an der Physiologischen Anstalt der Universität Leipzig.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u0413A\u0423\u0414E\u041b\u0418\u041d, E\u0432\u0433e\u043d\u0438\u0439 \u041fa\u0432\u043bo\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VGAUDELIN, Evgenij Pavlovi\u010d
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+V1872-1875 Ordinator eines Hospitals in Kron\u0161tadt nahe St. Petersburg, 1875-1878 Assistent und 1878-1880 Junior-Ordinator am Nikolaj-Kinderhospital in St. Petersburg, 1877-1878 Oberarzt im Rot-Kreuz-Hospital in Bender während des Russisch-türkischen Krieges, 1880 bis 1900 Senior-Ordinator und zuletzt Assistent des Oberarztes im Stadthospital in Tiflis, dazwischen 1886-1887 Leibarzt des Großfürsten MICHAIL NIKOLAEVI\u010c (1832-1909) in St. Petersburg, zeitweilig Mitglied der Medizinischen Abteilung des Zivilverwaltungsamtes im Kaukasus, ab 1900 im Ruhestand in Riga.\u000aInhaber des russischen Ehrentitels "Staatsrat".
+p14
+sVName
+p15
+(dp16
+S'Vornamen'
+p17
+VEugen Paul
+p18
+sS'Nachname'
+p19
+VHaudelin
+p20
+ssVQuelle
+p21
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 106.</i>
+p22
+sVNamensvariationen
+p23
+(lp24
+(dp25
+g6
+VOjgen
+p26
+sS'countyCode'
+p27
+g12
+sa(dp28
+g6
+VO\u0439\u0433e\u043d
+p29
+sg27
+g9
+sasVM
+p30
+VTherese Justine Emilie, geb. Mickwitz (1813-1887)
+p31
+sVMG
+p32
+VVerein St. Petersburger Ärzte (ab 1875, 1877-1880 Bibliothekar, ab 1880 korrespondierendes Mitglied).
+p33
+sVID
+p34
+V30358
+p35
+sVGeburtsdaten
+p36
+(dp37
+S'Ort'
+p38
+VStaraja Russa, Gouvernement Novgorod
+p39
+sS'Datum'
+p40
+V28.2./12.3.1845
+p41
+ssVSterbedaten
+p42
+(dp43
+g38
+VRiga
+p44
+sg40
+V25.1./7.2.1907
+p45
+ssVW
+p46
+(dp47
+S'letzteZeile'
+p48
+VEin Beitrag zur Kenntniss [!] des Mutterkorns in physiologisch-chemischer Beziehung. Dissertation. Dorpat 1871, 42 S. http://books.google.de/books?id=DL1MAAAAcAAJ&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false Volltext (4.4.2012).
+p49
+sS'general'
+p50
+(lp51
+g49
+assVV
+p52
+VPaul Peter (1810-1869), Militärarzt
+p53
+sVSL
+p54
+(dp55
+g50
+(lp56
+VEAD: Dokument-Id [68925/67733 (29.7.2010)].
+p57
+aVPfrepper, Regine, Pfrepper, Gerd: Studienaufenthalte russischer Mediziner an deutschen Universitäten im 19. Jahrhundert. In: Ingrid Kästner, Regine Pfrepper (Hgg.): "... so ist die Naturwissenschaft das wahre internationale Band der Völker". Aachen 2004 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaften 9), 273-292.
+p58
+aVWBIS BaBA: I 118, 100; RBA: R 117, 3.
+p59
+assVBerufe
+p60
+(lp61
+VMilitärarzt
+p62
+aVGroßfürstlicher Leibarzt
+p63
+as.

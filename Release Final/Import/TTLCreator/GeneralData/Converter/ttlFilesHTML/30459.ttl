@@ -1,0 +1,154 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30459hasSL4>
+	rdfs:label "Heine, Maximilian: Die bekanntesten Aerzte Russlands unter der Regierung der Kaiserin Catharina II. Medicinische Zeitung Russlands 12 (1855), 317-318." ;
+	a drw-model:SL .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<ImportantPerson/30459>
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	drw-model:hasDescendant <RelatedPerson/30459hasDescendant1> ;
+	drw-model:hasSL <SL/30459hasSL3> ;
+	drw-model:wasBornIn <Place/Wiburg_Gouvernement_St_Petersb> ;
+	drw-model:hasQ <Q/30459hasQ1> ;
+	drw-model:hasSL <SL/30459hasSL2> ;
+	drw-model:wasMarriedTo <RelatedPerson/30459wasMarriedTo1> ;
+	drw-model:hasW <W/30459hasW1> ;
+	drw-model:diedOn <Date/1_10_1836> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Geburtshilfe> ;
+	drw-model:hasWInformation <WInformation/30459hasWInformation1> ;
+	drw-model:hasSL <SL/30459hasSL6> ;
+	drw-model:hasID "30459" ;
+	drw-model:hasStationOfLife <B/30459hasStationOfLife1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:wasBornOn <Date/2_12_1765> ;
+	drw-model:diedIn <Place/Sankt_Petersburg> ;
+	drw-model:hasSL <SL/30459hasSL5> ;
+	drw-model:motherIs <RelatedPerson/30459motherIs1> ;
+	drw-model:fatherIs <RelatedPerson/30459fatherIs1> ;
+	drw-model:hasMainName <MainName/30459hasMainName1> ;
+	drw-model:hasEducation <A/30459hasEducation1> ;
+	rdfs:label "Sutthoff, Nikolaus Joachim" ;
+	drw-model:hasSL <SL/30459hasSL4> ;
+	drw-model:hasSL <SL/30459hasSL1> .
+
+<NameVariation/30459hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Nicolai" .
+
+<RelatedPerson/30459fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Martin (1732-1780), Kaufmann" .
+
+<NameVariation/30459hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "SUDHOFF" .
+
+<RelatedPerson/30459hasDescendant1>
+	a drw-model:RelatedPerson ;
+	drw-model:hasNameLink <ImportantPerson/30420> ;
+	rdfs:label "Nikolai (Nikolaevič) (1792-1828), Staatsrat<br>        Sophia Luise (Sofija Luiza Nikolaevna), verw. Kimmel (Witwe von Carl Gottfried Benjamin <span style='font-variant:small-caps;'>Kimmel</span>), in 2. Ehe verh. Crichton (Krejton) (1798-1869)<br>        Natalie (Nikolaevna) (1799-1867)<br>        Alexander (Nikolaevič) (1800-1874), Infanterie-General, Direktor einer Kadettenanstalt" .
+
+<SL/30459hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Böhm 2003, 341, 502." .
+
+<A/30459hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1783 Beginn des Studiums der Staatskunde, aber 1786 Dr. med. an der Universität Göttingen, 1787 Doktor-Examen am Medizinischen Kollegium in St. Petersburg für die Zulassung in Russland." .
+
+<SL/30459hasSL2>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [62077/60120 (12.8.2010)]." .
+
+<Date/1_10_1836>
+	a drw-model:Date ;
+	rdfs:label "1.10.1836" .
+
+<Date/2_12_1765>
+	rdfs:label "2.12.1765" ;
+	a drw-model:Date .
+
+<SL/30459hasSL6>
+	rdfs:label "WBIS RBA: R 449, 303." ;
+	a drw-model:SL .
+
+<B/30459hasStationOfLife1>
+	rdfs:label "1787-1790 Gouvernementsarzt in Kostroma, ab 1790 (oder 1792) in St. Petersburg: 1790-1796 Gehilfe des Stadtgeburtshelfers, 1796 Arzt des Senats, ab 1798 Direktor des \"Kaiserlichen Klinischen Instituts für Geburtshilfe\", ab 1799 Stadtgeburtshelfer, 1803-1833 Direktor des Kaiserlichen Hebammeninstitutes, zugleich Professor für Geburtshilfe an den geburtshilflichen Anstalten des Findelhauses, ab 1807 Mitglied des Medizinalrats des Ministeriums des Innern, ab 1819 auch Hofgeburtshelfer und ab 1824 Leibarzt am Zarenhof, 1835 aus gesundheitlichen Gründen aus dem Dienst ausgeschieden.
+        Inhaber hoher russischer Ehrentitel und Auszeichnungen, darunter 1798 \"Hofrat\", 1799 \"Staatsrat\", 1800 \"Wirklicher Russischer Staatsrat\", 1803 St.-Vladimir-Orden 4. Klasse, Großkreuz des St.-Annen und des St.-Vladimir-Ordens 2. Klasse.
+        Ihm widmete Joseph <span style='font-variant:small-caps;'>Rehmann</span> seine Herausgabe \"Zwey chinesische Abhandlungen über die Geburtshülfe\"." ;
+	a drw-model:B ;
+	drw-model:hasNameLink <ImportantPerson/30447> .
+
+<SL/30459hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Nemcy Rossii. Bd. 3 (2006), 497-498." .
+
+<Place/Wiburg_Gouvernement_St_Petersb>
+	a drw-model:Place ;
+	rdfs:label "Wiburg, Gouvernement St. Petersburg" .
+
+<RelatedPerson/30459wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Hedwig Katharina (Gedviga Katarina), geb. Orraeus (1774-1847)" .
+
+<Place/Sankt_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "Sankt Petersburg" .
+
+<WInformation/30459hasWInformation1>
+	a drw-model:WInformation ;
+	rdfs:label "Dissertatio inauguralis medico-obstetricia sistens vectis Roonhuysiani historiam fata et usum. Diss. Göttingen 1786, 47 S. Titelblatt abgedruckt in: Fischer 2010, 243 [Exemplar der Universitätsbibliothek Leipzig, Signatur: Gbh.3186]." .
+
+<RelatedPerson/30459motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sophia Elisabeth, geb. Jaenisch (1744-1821)" .
+
+<Q/30459hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Goetz von Selle (Hg.): Die Matrikel der Georg-August-Universität Göttingen. Bd. [1]: 1734-1837. Hildesheim 1937, 274." .
+
+<NameVariation/30459hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "Iachim" .
+
+<NameVariation/30459hasNameVariation4>
+	rdfs:label "Иaxим" ;
+	a drw-model:NameVariation .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<ImportantPerson/30447>
+	a drw-model:ImportantPerson .
+
+<MainName/30459hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30459hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30459hasNameVariation4> ;
+	drw-model:hasNameVariation <NameVariation/30459hasNameVariation3> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30459hasNameVariation2> ;
+	rdfs:label "Sutthoff, Nikolaus Joachim" .
+
+<GeneralLabor/Professor_fr_Geburtshilfe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Geburtshilfe" .
+
+<SL/30459hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Erpenbeck, Dirk-Gerd: Die Familien Sutthoff. Bochum 2002 (Auszug aus dem Manuskript, zugesandt vom Autor am 12.2.2009)." .
+
+<ImportantPerson/30420>
+	a drw-model:ImportantPerson .
+
+<W/30459hasW1>
+	rdfs:label "Dissertatio inauguralis medico-obstetricia sistens vectis Roonhuysiani historiam fata et usum. Diss. Göttingen 1786, 47 S. Titelblatt abgedruckt in: Fischer 2010, 243 [Exemplar der Universitätsbibliothek Leipzig, Signatur: Gbh.3186]." ;
+	a drw-model:W .
+

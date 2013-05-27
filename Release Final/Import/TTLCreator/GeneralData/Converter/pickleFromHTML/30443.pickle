@@ -1,0 +1,132 @@
+(dp0
+VPortraittext
+p1
+VFoto aus: Professora MU (SL). Abgedruckt in: Fischer 2010, 190.
+p2
+sVA
+p3
+VBis 1886 Studium der Medizin und 1892 Dr. med. an der Universität Moskau.
+p4
+sVName russisch
+p5
+(lp6
+(dp7
+S'name'
+p8
+V\u041fO\u041fO\u0412, \u041fë\u0442\u0440 M\u0438xa\u0439\u043bo\u0432\u0438\u0447
+p9
+sS'countryCode'
+p10
+S'ru'
+p11
+sasVB
+p12
+V1886(oder 1888)-1890 Ordinator, ab 1890 Assistent, 1891-1894 ao. Professor, ab 1894 o. Professor und ab 1896 Direktor der Klinik für innere Medizin der Universität Moskau, 1893 Studienaufenthalt bei Emil DU BOIS-REYMOND (1818-1896) am Physiologischen Institut in Berlin, zeitweise Konsultant am Militärkrankenhaus in Moskau, ab 1894 "Ehrenleibmedikus" am Hofe des Zaren NIKOLAJ II. (1868-1918).\u000aInhaber der Ehrentitel "Kollegienassessor" und "Wirklicher Russischer Staatsrat" sowie der Medaillen "Zum Gedenken an Zar Aleksandr III." (1894) und "300 Jahre Romanov-Dynastie" (1913).
+p13
+sVName
+p14
+(dp15
+S'Vornamen'
+p16
+VPëtr Michajlovi\u010d
+p17
+sS'Nachname'
+p18
+VPopov
+p19
+ssVQuelle
+p20
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 190-191.</i>
+p21
+sVportraitURL
+p22
+V30443.jpg
+p23
+sVNamensvariationen
+p24
+(lp25
+(dp26
+g8
+VPOPOFF
+p27
+sS'countyCode'
+p28
+S'de'
+p29
+sa(dp30
+g8
+V\u041fe\u0442\u0440
+p31
+sg28
+g11
+sasVID
+p32
+V30443
+p33
+sVP
+p34
+(lp35
+VFoto aus: Professora MU (<b>SL</b>). http://www.hist.msu.ru/Science/HisUni/Profess/Image88.gif Online Ressource (8.3.2012), abgedruckt in: Fischer 2010, 190.
+p36
+asVGeburtsdaten
+p37
+(dp38
+S'Datum'
+p39
+V1863 oder 1862 oder 1861
+p40
+ssVSterbedaten
+p41
+(dp42
+g39
+Vnach 1917
+p43
+ssVW
+p44
+(dp45
+S'general'
+p46
+(lp47
+VSredstvo Kocha po opytam nad \u017eivotnymi. Medicina (1891), 8 S.; <b>deutsch</b>: Das Koch'sche Heilmittel nach Versuchen an Thieren. Berliner klinische Wochenschrift 28 (1891), 859-862.
+p48
+aVKatarr \u017eeludka. Diss. Moskva 1892, 137 S.
+p49
+aVBakterial'noe naselenie kataral'nogo \u017eeludka. Medicina (1892), 14 S.
+p50
+aVKariokinez v \u017eeludo\u010dnych \u017eelezach. Medicina (1892), 10 S.
+p51
+aVPodko\u017enye vpryskivanija my\u0161'ja\u010dnogo Fovlerova rastvora, Medicina (1892), 12 S.; <b>deutsch</b>: Ueber subcutane Injektionen der Fowler'schen Arseniklösung. Berliner klinische Wochenschrift 31 (1894), 29-32.
+p52
+aVUeber die Einwirkung von eiweissverdauenden Fermenten auf die Nucleinstoffe. Zeitschrift für physiologische Chemie 18 (1894), 533-539.
+p53
+aVUeber Magenkatarrh. Zeitschrift für klinische Medicin 32 (1897), 389-414.
+p54
+aVAortitis und Fieber. Zeitschrift für klinische Medizin 75 (1912), 506-517.
+p55
+assVV
+p56
+VMichail
+p57
+sVSL
+p58
+(dp59
+g46
+(lp60
+VNachapetov 2003, 221.
+p61
+aVPfrepper, Regine, Pfrepper, Gerd: Studienaufenthalte russischer Mediziner an deutschen Universitäten im 19. Jahrhundert. In: Ingrid Kästner, Regine Pfrepper (Hgg.), "... so ist die Naturwissenschaft das wahre internationale Band der Völker". Aachen 2004 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaften 9), 273-292.
+p62
+aVPridvornyj kalendar': na 1910 god. S.-Peterburg [o. J.], 291-292; ~ 1911, 303; ~ 1913, 317; ~ 1914, 397.
+p63
+aVProfessora MU - Professora Moskovskogo universiteta. http://www.hist.msu.ru/Science/HisUni/Profess/Alfp.htm Online Ressource (8.3.2012).
+p64
+aVWBIS RBA: R 377, 14.
+p65
+assVBerufe
+p66
+(lp67
+VProfessor für Therapie
+p68
+aVEhrenleibmedikus
+p69
+as.

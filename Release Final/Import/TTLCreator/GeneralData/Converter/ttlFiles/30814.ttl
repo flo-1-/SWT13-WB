@@ -1,0 +1,563 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Year/1884>
+	rdfs:label "1884" ;
+	a drw-model:Year .
+
+<WGermanPublication/30814hasWGermanPublication12>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Die Sekretionstätigkeit der Bauchspeicheldrüse unter dem Einfluss von Salzsäure und Darmextrakt (des sogenannten Sekretins). Ibid. 120 (1907), 451-491." .
+
+<WL/30814hasWL4>
+	rdfs:label "1920 Entdecker der Wirkung des Histamins auf die Magensaftsekretion" ;
+	a drw-model:WL .
+
+<SL/30814hasSL3>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 196-198; auch in: WBIS BASU: Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (Online Ressource, 16.1.2013): SU 359, 433-434." .
+
+<WGermanPublication/30814hasWGermanPublication6>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber die physiologische Wirkung und chemische Natur des Sekretins. Ibid. 19 (1905), 801-805." .
+
+<A/30814hasEducation4>
+	a drw-model:A ;
+	drw-model:ended <Year/1888> ;
+	rdfs:label "Studium am Technologischen Institut St. Petersburg, wegen Teilnahme am Studentenaufstand ausgeschlossen und bis 1889 Repetitor auf finnischen Gütern des St. Petersburger General-Gouverneurs" ;
+	drw-model:began <Year/1887> .
+
+<ImportantPerson/30479>
+	a drw-model:ImportantPerson .
+
+<P/30814hasP1>
+	drw-model:hasDate "1.11.2011" ;
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.sandomierskie.com/kraj/sandomierski/sosniczany/sosniczany.htm" ;
+	rdfs:label "Portrait (Abb. [Gemälde von einem Foto, Künstler und Aufbewahrungsort unbekannt]) aus: Sandomierskie Klimaty: Sośniczany (Online Ressource)." .
+
+<Year/1899>
+	rdfs:label "1899" ;
+	a drw-model:Year .
+
+<GeneralLabor/Professor_fr_Pharmakologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Pharmakologie" .
+
+<WGermanPublication/30814hasWGermanPublication23>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Blutdruck und Ungerinnbarkeit des Blutes bei der Tätigkeit der Verdauungsdrüsen. Pflüger’s Archiv für die gesamte Physiologie des Menschen und der Tiere 144 (1912), 135-151." .
+
+<B/30814hasStationOfLife3>
+	rdfs:label "Prosektor am Lehrstuhl für Physiologie an der MMA" ;
+	drw-model:ended <Year/1900> ;
+	a drw-model:B ;
+	drw-model:began <Year/1898> .
+
+<W/30814hasW3>
+	rdfs:label "Reflektornaja dejatel’nost’ periferičeskich nervnych kletok v podželudočnoj železe. Russkij archiv patologii, kliničeskoj mediciny i bakteriologii (1901), 28 S." ;
+	a drw-model:W .
+
+<Year/1887>
+	rdfs:label "1887" ;
+	a drw-model:Year .
+
+<WGermanPublication/30814hasWGermanPublication13>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Über den Charakter der Sekretionstätigkeit des Pankreas unter dem Einfluss von Salzsäure und Darmextrakt. Ibid. 121 (1907), 239-264." .
+
+<HonoursAndAwards/30814hasHonoursAndAwards1>
+	rdfs:label "1897 <i>Premija Buša</i> (MMA)<br>1923 Gedenktafel mit Relief Popel’skijs von der Bildhauerin Luna <span style='font-variant:small-caps;'>Drexlerówna</span> (1882-1933) im Hörsaal der Pharmakologie an der Universität Lwów<br>Gedenkband der Zeitschrift <i>Kosmos, Seria A</i> 56 (1931)" ;
+	a drw-model:HonoursAndAwards .
+
+<Year/1897>
+	rdfs:label "1897" ;
+	a drw-model:Year .
+
+<WGermanPublication/30814hasWGermanPublication5>
+	rdfs:label "Ueber die Grundeigenschaften des Pankreassaftes. Centralblatt für Physiologie 17 (1903), 65-70." ;
+	a drw-model:WGermanPublication .
+
+<SL/30814hasSL2>
+	rdfs:label "Brzozowski, Stanisław M.: Popielski Leon (1866-1920). In: Polski slownik biograficzny. Bd. 27: Pniowski Jan – Potocki Ignacy. Wrocław, Warszawa, Kraków u. a. 1983, 585-586." ;
+	a drw-model:SL .
+
+<RelatedPerson/30814wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Helena Popielska, geb. Iwanow, Ärztin" .
+
+<B/30814hasStationOfLife12>
+	a drw-model:B .
+
+<A/30814hasEducation5>
+	a drw-model:A ;
+	drw-model:ended <Year/1894> ;
+	drw-model:began <Year/1889> ;
+	rdfs:label "Studium der Medizin (Spezialisierung: Physiologie und Bakteriologie) an der Militärmedizinischen Akademie (MMA) in St. Petersburg" .
+
+<B/30814hasStationOfLife8>
+	rdfs:label "zur Bekämpfung der Typhus-Epidemie während des Russisch-Japanischen Krieges in der Mandschurei eingesetzt" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1905> ;
+	drw-model:began <Year/1904> .
+
+<WGermanPublication/30814hasWGermanPublication22>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Untersuchungen über die Bedeutung der temporären Isolierungsmethode bei Untersuchungen über die Verdauungsprozesse. Zeitschrift für Physiologische Chemie 71 (1911), 186-191." .
+
+<W/30814hasW4>
+	rdfs:label "In russischer Sprache weitere Artikel zur Physiologie der Verdauung, z. B. in den Zeitschriften <i>Bol’ničnaja gazeta Botkina</i> (1897, 1900), <i>Vrač</i> (1898, 1899, 1900, 1901) und <i>Russkij vrač</i> (1903)." ;
+	a drw-model:W .
+
+<Year/1916>
+	rdfs:label "1916" ;
+	a drw-model:Year .
+
+<WGermanPublication/30814hasWGermanPublication18>
+	rdfs:label "Über den Einfluss der Durchleitung von wechselnden Mengen Ernährungsflüssigkeit durch die Kranzarterien auf die Tätigkeit des isolierten Säugetierherzens, nebst Bemerkungen über die dynamischen und hemmenden Nerven. Ibid. 130 (1909), 375-393." ;
+	a drw-model:WGermanPublication .
+
+<WGermanPublication/30814hasWGermanPublication10>
+	rdfs:label "Erscheinungen bei direkter Einführung von chemischen Körpern in die Blutbahn. Ibid. 24 (1910), 1102-1104." ;
+	a drw-model:WGermanPublication .
+
+<W/30814hasW2>
+	a drw-model:W ;
+	rdfs:label "Istoričeskij očerk kafedry fiziologii v Imperatorskoj Voenno-medicinskoj akademii za 100 let (1798-1898). S.-Peterburg 1899, 155 S." .
+
+<B/30814hasStationOfLife1>
+	drw-model:began <Year/1894> ;
+	rdfs:label "Assistent am Lehrstuhl für Physiologie an der MMA bei I. R. <span style='font-variant:small-caps;'>Tarchanov</span>" ;
+	drw-model:hasNameLink <ImportantPerson/30479> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1895> .
+
+<A/30814hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Abschluss des Gymnasiums in Piotrków (Petrokov)" ;
+	drw-model:inYear <Year/1884> .
+
+<WL/30814hasWL2>
+	rdfs:label "Forschungsschwerpunkt: Physiologie der Verdauung" ;
+	a drw-model:WL .
+
+<Date/11_3_1868>
+	rdfs:label "11.3.1868" ;
+	a drw-model:Date .
+
+<Year/1909>
+	rdfs:label "1909" ;
+	a drw-model:Year .
+
+<Comment/30814_2>
+	rdfs:label "Vgl. auch (Online Ressource)." ;
+	a drw-model:Comment ;
+	<http://xmlns.com/foaf/0.1/homepage> <http://pl.wikipedia.org/wiki/Boles%C5%82aw_Popielski> ;
+	drw-model:hasDate "1.11.2011" .
+
+<B/30814hasStationOfLife9>
+	drw-model:ended <Year/1920> ;
+	a drw-model:B ;
+	rdfs:label "o. Professor, Leiter des Lehrstuhls für Pharmakologie und Pharmakognosie und Direktor des Instituts für experimentelle Pharmakologie an der Universität Lemberg (ab 1918 Lwów)" ;
+	drw-model:began <Year/1905> .
+
+<WGermanPublication/30814hasWGermanPublication4>
+	rdfs:label "Zur Physiologie des Plexus coeliacus: Experimentelle Untersuchung. Archiv für Anatomie und Physiologie, Anatomische Abteilung 27 (1903), 338-360." ;
+	a drw-model:WGermanPublication .
+
+<WGermanPublication/30814hasWGermanPublication19>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Über den Einfluss des Peptons Witte auf die Tätigkeit des isolierten Säugetierherzens. Ibid. 130 (1909), 394-399." .
+
+<Year/1901>
+	rdfs:label "1901" ;
+	a drw-model:Year .
+
+<B/30814hasStationOfLife6>
+	drw-model:began <Year/1901> ;
+	drw-model:ended <Year/1903> ;
+	a drw-model:B ;
+	rdfs:label "Leiter des Chemisch-bakteriologischen Laboratoriums im Militärhospital in Moskau" .
+
+<WL/30814hasWL1>
+	rdfs:label "Gründer der Physiologen- und Pharmakologenschule in Polen" ;
+	a drw-model:WL .
+
+<W/30814hasW1>
+	rdfs:label "O sekretorno-zaderživajuščich nervach podželudočnoj železy. Diss. S.-Peterburg 1896, 118 S." ;
+	a drw-model:W .
+
+<Place/Lww_bis_1918_Lemberg_ab_1939_L>
+	a drw-model:Place ;
+	rdfs:label "Lwów (bis 1918: Lemberg, ab 1939: L’viv, Ukraine)" .
+
+<A/30814hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Studium der Mathematik und Physik an der Universität St. Petersburg" ;
+	drw-model:ended <Year/1887> ;
+	drw-model:began <Year/1884> .
+
+<WGermanPublication/30814hasWGermanPublication21>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Über die innere Sekretion der Nebenniere. Pflüger’s Archiv für die gesamte Physiologie des Menschen und der Tiere 139 (1911), 571-578." .
+
+<WGermanPublication/30814hasWGermanPublication29>
+	a drw-model:WGermanPublication ;
+	rdfs:label "β-imidazolyläthylamin und die Organextrakte. Erster Teil: ß-imidazolyläthylamin als mächtiger Erreger der Magendrüsen. Ibid. 178 (1920), 214-236; ~ Zweiter Teil: Einfluss der Säuren auf die die Magensaftsekretion erregende Wirkung der Organextrakte, 237-259." .
+
+<Year/1900>
+	rdfs:label "1900" ;
+	a drw-model:Year .
+
+<WGermanPublication/30814hasWGermanPublication11>
+	rdfs:label "Ueber das peripherische reflectorische Nervencentrum des Pankreas. Archiv für die gesammte Physiologie des Menschen und der Thiere 86 (1901), 215-246." ;
+	a drw-model:WGermanPublication .
+
+<Comment/30814_1>
+	rdfs:label "Vgl. auch M. J. Minakowski: Wielka genealogia Minakowskiego. 6. Aufl. Bd. 27. Kraków 2011, 585, und (Online Ressource)." ;
+	a drw-model:Comment ;
+	<http://xmlns.com/foaf/0.1/homepage> <http://wielcy.pl/psb_szukani.php?tom=27> ;
+	drw-model:hasDate "1.11.2011" .
+
+<WGermanPublication/30814hasWGermanPublication3>
+	rdfs:label "Ueber die Grösse der zuckerzurückhaltenden Function der Leber. Centralblatt für Physiologie 14 (1900), 193-195; vgl. auch Pfrepper 2009 (<b>SL</b>), 210." ;
+	a drw-model:WGermanPublication .
+
+<SL/30814hasSL1>
+	rdfs:label "Brzozowski, S. M.: Popielski Leon. In: ÖBL. Bd. 8 (1981), 197." ;
+	a drw-model:SL .
+
+<Year/1894>
+	rdfs:label "1894" ;
+	a drw-model:Year .
+
+<Year/1914>
+	rdfs:label "1914" ;
+	a drw-model:Year .
+
+<B/30814hasStationOfLife7>
+	drw-model:hasNameLink <ImportantPerson/10154> ;
+	drw-model:hasNameLink <ImportantPerson/30908> ;
+	drw-model:inYear <Year/1904> ;
+	a drw-model:B ;
+	rdfs:label "Weiterbildungsaufenthalte in Laboratorien für experimentelle Medizin, Chemie und Pharmazie bei Oswald <span style='font-variant:small-caps;'>Schmiedeberg</span> (1838-1921) in Straßburg, bei Rudolf <span style='font-variant:small-caps;'>Böhm</span> (1844-1926), Wilhelm <span style='font-variant:small-caps;'>Ostwald</span> (1853-1932) und Arthur <span style='font-variant:small-caps;'>Hantzsch</span> (1857-1935) an der Universität Leipzig" .
+
+<WGermanPublication/30814hasWGermanPublication7>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Über eine neue blutdrucksteigernde Substanz des Organismus auf Grund von Untersuchungen von Extrakten der gl. Thymus, Speicheldrüsen, Schilddrüse, des Pankreas und Gehirns. Ibid. 23 (1909), 137-141." .
+
+<WGermanPublication/30814hasWGermanPublication20>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Bemerkungen zu der Mitteilung von S. Samelson Über gefäßverengernde und erweiternde Substanzen nach Versuchen an überlebenden Froschgefäßen. Archiv für experimentelle Pathologie und Pharmakologie 67 (1911), 408." .
+
+<WGermanPublication/30814hasWGermanPublication28>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Die Wasserstoffionen und die sekretorische Tätigkeit der Bauchspeicheldrüse. Ibid. 174 (1919), 152-176." .
+
+<ImportantPerson/30785>
+	a drw-model:ImportantPerson .
+
+<WGermanPublication/30814hasWGermanPublication16>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Über die physiologische Wirkung von Extrakten aus sämtlichen Teilen des Verdauungskanales (Magen, Dick- und Dünndarm), sowie des Gehirns, Pankreas und Blutes und über die chemischen Eigenschaften des darin wirkenden Körpers. Ibid. 128 (1909), 191-221." .
+
+<SL/30814hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Wojtkiewicz-Rok, Wanda: Dzieje Wydziału Lekarskiego Uniwersytetu Lwowskiego w latach 1894-1918. Wroclaw 1992 (Historia 96; Acta Universitatis Wratislaviensis 1335), 14, 40-42, 89-90, 124, 131." .
+
+<Year/1903>
+	rdfs:label "1903" ;
+	a drw-model:Year .
+
+<Year/1889>
+	rdfs:label "1889" ;
+	a drw-model:Year .
+
+<MG/30814hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Lwowskie towarzystwo naukowe [Wissenschaftliche Gesellschaft in Lwów], Akademia nauk lekarskich w Warszawie [Gesellschaft der Medizinischen Wissenschaften in Warschau]" .
+
+<WGermanPublication/30814hasWGermanPublication2>
+	rdfs:label "Ueber secretorische Hemmungsnerven des Pankreas. Centralblatt für Physiologie 10 (1896), 405-409; vgl. auch Pfrepper 2009 (<b>SL</b>), 210." ;
+	a drw-model:WGermanPublication .
+
+<Date/8_10_1920>
+	a drw-model:Date ;
+	rdfs:label "8.10.1920" .
+
+<ImportantPerson/10154>
+	a drw-model:ImportantPerson .
+
+<SL/30814hasSL8>
+	a drw-model:SL ;
+	rdfs:label "Zakrzewska, Józefa: Prof. Dr. Leon Popielski. Acta physiologica Polonica 12 (1961), 331-345." .
+
+<ImportantPerson/30908>
+	a drw-model:ImportantPerson .
+
+<WGermanPublication/30814hasWGermanPublication27>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Über die sekretorische Innervation der Nebennieren. Kritische Bemerkungen über die Arbeiten von: Asher, Elliott, Cannon und de la Paz, Anrep, Tscheboksareff, Kahn und Eiger. Ibid. 170 (1918), 245-259." .
+
+<A/30814hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch des Gymnasiums in Sandomierz" ;
+	drw-model:ended <Year/1884> .
+
+<ImportantPerson/30814>
+	drw-model:hasSL <SL/30814hasSL3> ;
+	drw-model:hasSL <SL/30814hasSL8> ;
+	drw-model:hasStationOfLife <B/30814hasStationOfLife3> ;
+	drw-model:hasStationOfLife <B/30814hasStationOfLife11> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Pharmakologie> ;
+	drw-model:hasP <P/30814hasP3> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication25> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication15> ;
+	drw-model:diedOn <Date/8_10_1920> ;
+	drw-model:hasStationOfLife <B/30814hasStationOfLife8> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication29> ;
+	drw-model:hasStationOfLife <B/30814hasStationOfLife4> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication24> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication9> ;
+	drw-model:hasStationOfLife <B/30814hasStationOfLife12> ;
+	drw-model:wasBornOn <Date/11_3_1868> ;
+	drw-model:hasStationOfLife <B/30814hasStationOfLife6> ;
+	drw-model:hasP <P/30814hasP1> ;
+	drw-model:hasEducation <A/30814hasEducation7> ;
+	drw-model:hasEducation <A/30814hasEducation5> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication28> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication23> ;
+	drw-model:fatherIs <RelatedPerson/30814fatherIs1> ;
+	drw-model:hasMG <MG/30814hasMG1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication4> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication6> ;
+	drw-model:motherIs <RelatedPerson/30814motherIs1> ;
+	drw-model:hasEducation <A/30814hasEducation1> ;
+	rdfs:label "Popielski, Leon" ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication11> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication13> ;
+	drw-model:hasW <W/30814hasW1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication7> ;
+	drw-model:wasBornIn <Place/Soniczany_Bez_Sandomierz_Polen> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30814.jpg> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication16> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication10> ;
+	drw-model:hasMainName <MainName/30814hasMainName1> ;
+	drw-model:hasComment <Comment/30814_2> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication27> ;
+	drw-model:wasMarriedTo <RelatedPerson/30814wasMarriedTo1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasGeneralLabor <GeneralLabor/Dozent_fr_Physiologie> ;
+	drw-model:hasID "30814" ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30814hasHonoursAndAwards1> ;
+	drw-model:hasEducation <A/30814hasEducation3> ;
+	drw-model:hasSL <SL/30814hasSL1> ;
+	drw-model:hasStationOfLife <B/30814hasStationOfLife7> ;
+	drw-model:hasSL <SL/30814hasSL6> ;
+	drw-model:hasComment <Comment/30814_1> ;
+	drw-model:hasWL <WL/30814hasWL3> ;
+	drw-model:diedIn <Place/Lww_bis_1918_Lemberg_ab_1939_L> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication1> ;
+	drw-model:hasSL <SL/30814hasSL4> ;
+	drw-model:hasDescendant <RelatedPerson/30814hasDescendant1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication8> ;
+	drw-model:hasStationOfLife <B/30814hasStationOfLife1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication21> ;
+	drw-model:hasWL <WL/30814hasWL1> ;
+	drw-model:hasSL <SL/30814hasSL2> ;
+	drw-model:hasW <W/30814hasW3> ;
+	drw-model:hasStationOfLife <B/30814hasStationOfLife2> ;
+	drw-model:hasEducation <A/30814hasEducation6> ;
+	drw-model:hasEducation <A/30814hasEducation4> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication12> ;
+	drw-model:hasStationOfLife <B/30814hasStationOfLife10> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication20> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication22> ;
+	drw-model:hasWL <WL/30814hasWL4> ;
+	drw-model:hasSL <SL/30814hasSL7> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication2> ;
+	drw-model:hasStationOfLife <B/30814hasStationOfLife5> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication17> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication18> ;
+	drw-model:hasSL <SL/30814hasSL5> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication26> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication3> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication5> ;
+	drw-model:hasW <W/30814hasW4> ;
+	drw-model:hasP <P/30814hasP2> ;
+	drw-model:hasWL <WL/30814hasWL2> ;
+	drw-model:hasStationOfLife <B/30814hasStationOfLife9> ;
+	drw-model:hasEducation <A/30814hasEducation2> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication14> ;
+	drw-model:hasW <W/30814hasW2> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30814hasWGermanPublication19> .
+
+<RelatedPerson/30814fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Bernard" .
+
+<Year/1895>
+	rdfs:label "1895" ;
+	a drw-model:Year .
+
+<WGermanPublication/30814hasWGermanPublication17>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Chemische Untersuchung über das Vasodilatin, den wirksamen Körper der Extrakte aus sämtlichen Teilen des Verdauungskanales, dem Gehirn, Pankreas und Pepton Witte. Mit K. Panek. Ibid. 128 (1909), 222-225." .
+
+<WGermanPublication/30814hasWGermanPublication9>
+	rdfs:label "Über die Blutdruckwirkung des Cholins. Ibid. 24 (1910), 925-927." ;
+	a drw-model:WGermanPublication .
+
+<SL/30814hasSL6>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	rdfs:label "WBIS PAB: Polskie Archiwum Biograficzne (Online Ressource, 16.1.2013): I 457, 176; II 292, 333-334." .
+
+<Year/1888>
+	rdfs:label "1888" ;
+	a drw-model:Year .
+
+<WGermanPublication/30814hasWGermanPublication1>
+	rdfs:label "Ueber Veränderungen der Leistungsfähigkeit und Erregbarkeit der Nerven unter dem Einflusse von Cocaïn. Centralblatt für Physiologie 10 (1896), 251-253; vgl. auch Pfrepper 2009 (<b>SL</b>), 210." ;
+	a drw-model:WGermanPublication .
+
+<Year/1920>
+	rdfs:label "1920" ;
+	a drw-model:Year .
+
+<Place/Soniczany_Bez_Sandomierz_Polen>
+	a drw-model:Place ;
+	rdfs:label "Sośniczany, Bez. Sandomierz (Polen)" .
+
+<Year/1904>
+	rdfs:label "1904" ;
+	a drw-model:Year .
+
+<WGermanPublication/30814hasWGermanPublication26>
+	rdfs:label "Adrenalin und Nebennieren. Erster Teil: Das Komprimieren der Nebenniere und das Adrenalin. Ibid. 165 (1916), 565-580; ~ Zweiter Teil. Normales Blut, Nn. splanchnici und Adrenalin, 581-593." ;
+	a drw-model:WGermanPublication .
+
+<WGermanPublication/30814hasWGermanPublication14>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Über die physiologischen und chemischen Eigenschaften des Peptons Witte. Ibid. 126 (1909), 483-510." .
+
+<A/30814hasEducation6>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der MMA" ;
+	drw-model:inYear <Year/1897> .
+
+<RelatedPerson/30814hasDescendant1>
+	rdfs:label "Wacław, Gasingenieur<br>Bolesław (1907-1997), Arzt, Professor für Rechtsmedizin[2]<br>Wanda Popielska, Lehrerin" ;
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30814_2> .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<B/30814hasStationOfLife5>
+	drw-model:ended <Year/1901> ;
+	drw-model:began <Year/1899> ;
+	a drw-model:B ;
+	rdfs:label "Weiterbildungsaufenthalte an medizinischen Institutenu. a. in Wien, München und Berlin, Italien und Frankreich" .
+
+<P/30814hasP3>
+	rdfs:label "Foto in: Wojtkiewicz-Rok 1992 (<b>SL</b>), Bildeinlage zw. S. 16-17." ;
+	a drw-model:P .
+
+<B/30814hasStationOfLife11>
+	rdfs:label "im I. Weltkrieg Flucht mit Familie nach Wien und Brünn, dort zeitweise als Lazarettarzt tätig" ;
+	drw-model:began <Year/1914> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1916> .
+
+<SL/30814hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 32, 210." .
+
+<WGermanPublication/30814hasWGermanPublication8>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Über die Eigenschaft des Harnes, den Blutdruck herabzusetzen. Ibid. 24 (1910), 635-639." .
+
+<Year/1905>
+	rdfs:label "1905" ;
+	a drw-model:Year .
+
+<GeneralLabor/Dozent_fr_Physiologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Dozent für Physiologie" .
+
+<WGermanPublication/30814hasWGermanPublication25>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Zur Frage des Magensekretins. Bemerkungen zu der Arbeit von Dr. B. E. Maydell mit dem gleichen Titel. Ibid. 152 (1913), 168-170." .
+
+<WL/30814hasWL3>
+	rdfs:label "1901 Einführung des Begriffs <i>Vasodilation</i>" ;
+	a drw-model:WL .
+
+<MainName/30814hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Popielski, Leon" ;
+	drw-model:hasNameVariation <NameVariation/30814hasNameVariation1> .
+
+<A/30814hasEducation7>
+	a drw-model:A ;
+	drw-model:inYear <Year/1899> ;
+	rdfs:label "Habilitation und Privatdozent für Physiologie an der MMA" .
+
+<RelatedPerson/30814motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Antonina Popielska, geb. Łopatka[1]" ;
+	drw-model:hasComment <Comment/30814_1> .
+
+<WGermanPublication/30814hasWGermanPublication15>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Über die Gesetze der Speicheldrüsentätigkeit. Ibid. 127 (1909), 443-473." .
+
+<B/30814hasStationOfLife4>
+	drw-model:ended <Year/1900> ;
+	rdfs:label "zugleich Assistent am Lehrstuhl für Physiologie am Medizinischen Institut für Frauen in St. Petersburg" ;
+	a drw-model:B ;
+	drw-model:began <Year/1898> .
+
+<B/30814hasStationOfLife10>
+	drw-model:began <Year/1909> ;
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Lemberg" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1910> .
+
+<SL/30814hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Laskiewicz, A.: Leon Popielski, Founder of the Polish School of Physio-Pharmacological Research. Polish Medical Science History Bulletin 10 (1967), 147-148." .
+
+<P/30814hasP2>
+	rdfs:label "Portrait in: Zakrzewska 1961 (<b>SL</b>), 332." ;
+	a drw-model:P .
+
+<NameVariation/30814hasNameVariation1>
+	rdfs:label "Popel'skij, Lev Bernardovič"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Попельский, Лев Бернардович"@ru .
+
+<Year/1910>
+	rdfs:label "1910" ;
+	a drw-model:Year .
+
+<WGermanPublication/30814hasWGermanPublication24>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Die Ungerinnbarkeit des Blutes bei der reflektorischen Tätigkeit der Speicheldrüsen und der Bauchspeicheldrüse. Das allgemeine Sekretionsgesetz der Verdauungssäfte. Ibid. 150 (1913), 1-14." .
+
+<Year/1898>
+	rdfs:label "1898" ;
+	a drw-model:Year .
+
+<B/30814hasStationOfLife2>
+	drw-model:began <Year/1895> ;
+	drw-model:hasNameLink <ImportantPerson/30785> ;
+	rdfs:label "Assistent bei I. P. <span style='font-variant:small-caps;'>Pavlov</span> (Spezialisierung in Physiologie) und bei Marcel(lij Vil’gelmovič) <span style='font-variant:small-caps;'>Nencki(j)</span> (1847-1901) (Spezialisierung in Bakteriologie) am physiologischen Laboratorium des Instituts für Experimentelle Medizin (IEM) in St. Petersburg" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1905> .
+

@@ -1,0 +1,94 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<SL/30235hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Böhm 1998, 46." .
+
+<RelatedPerson/30235motherIs1>
+	rdfs:label "Alexandra (Fëdorovna), geb. Zdekauer (1824-1870), Schwester von Nicolaus Theodor von <span style='font-variant:small-caps;'>ZDEKAUER</span>" ;
+	a drw-model:RelatedPerson ;
+	drw-model:hasNameLink <ImportantPerson/30473> .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<RelatedPerson/30235fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Woldemar Herman(n) (Vladimir Egorovič) (1818-1875), Arzt, Prof. für spezielle Pathologie und Therapie" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<Date/1854>
+	rdfs:label "1854" ;
+	a drw-model:Date .
+
+<MainName/30235hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30235hasNameVariation1> ;
+	rdfs:label "Eck, Woldemar" .
+
+<SL/30235hasSL2>
+	rdfs:label "Böhm 2003, 447." ;
+	a drw-model:SL .
+
+<ImportantPerson/30473>
+	a drw-model:ImportantPerson .
+
+<NameVariation/30235hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "EECK" .
+
+<Date/1_4_1888>
+	rdfs:label "1.4.1888" ;
+	a drw-model:Date .
+
+<A/30235hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1866-1870 Besuch der Annenschule und 1870(?)-1876 Studium der Medizin an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg, 1888 Dr. med." .
+
+<B/30235hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "1877-1878 Arzt in der Donauarmee, danach vermutlich praktischer Arzt, 1883 Studienaufenthalt an der Universität Paris bei Jean-Martin CHARCOT (1825-1893), ab 1886 Leibarzt des Großfürsten MICHAIL NIKOLAEVIČ (1832-1909) und dessen Gemahlin, der Großfürstin OL'GA FЁDOROVNA, geb. Prinzessin CÄCILIE AUGUSTE VON BADEN (1839-1891), zugleich Arzt in eigener Privatpraxis.
+Erhielt 1888 den Ehrentitel \"Hofrat\"." .
+
+<SL/30235hasSL4>
+	rdfs:label "WBIS RBA: R 521, 122." ;
+	a drw-model:SL .
+
+<SL/30235hasSL3>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [59701/93963 (27.7.2010)]." .
+
+<ImportantPerson/30235>
+	drw-model:hasStationOfLife <B/30235hasStationOfLife1> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasSL <SL/30235hasSL2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	drw-model:hasSL <SL/30235hasSL3> ;
+	drw-model:hasID "30235" ;
+	drw-model:hasEducation <A/30235hasEducation1> ;
+	drw-model:diedOn <Date/1_4_1888> ;
+	drw-model:hasSL <SL/30235hasSL1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:fatherIs <RelatedPerson/30235fatherIs1> ;
+	rdfs:label "Eck, Woldemar" ;
+	drw-model:hasSL <SL/30235hasSL4> ;
+	drw-model:hasMainName <MainName/30235hasMainName1> ;
+	drw-model:wasBornOn <Date/1854> ;
+	drw-model:motherIs <RelatedPerson/30235motherIs1> .
+

@@ -1,0 +1,201 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<NameVariation/30380hasNameVariation3>
+	rdfs:label "ГИГИНВOTOM" ;
+	a drw-model:NameVariation .
+
+<W/30380hasW8>
+	rdfs:label "Ueber Attribute der Mechanik in ihrer Beziehung zur Heilkunde. Vorgetragen im Verein deutscher Ärzte zu St. Petersburg, d. 2. Nov. 1881. St. Petersburger medicinische Wochenschrift 6 (1881), 394-397." ;
+	a drw-model:W .
+
+<SL/30380hasSL3>
+	a drw-model:SL ;
+	rdfs:label "WBIS BaBA: I 125, 35; RBA: R 124, 277." .
+
+<NameVariation/30380hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "HIGGINBOTHOM" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<RelatedPerson/30380hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Mary (Marie) Sarah (Vasil'evna) Higginbothom, verh. Berg (1852-1927)<br>John (Vasil'evič) Higginbothom (1854-1917)<br>Lucy (Vasil'evna) Higginbothom (1856-1927)" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<RelatedPerson/30380fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "John Higginbothom (1766-1831), Kaufmann" .
+
+<W/30380hasW4>
+	rdfs:label "Ein Fall von Scarlatina haemorrhagica, - Iridochoreoiditis, - Morbilli und Pneumonia catarrhalis. St. Petersburger medicinische Zeitschrift N.F. 1 (1870), 344-352." ;
+	a drw-model:W .
+
+<GeneralLabor/Grofrstlicher_Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Großfürstlicher Leibarzt" .
+
+<Place/Menton>
+	a drw-model:Place ;
+	rdfs:label "Menton" .
+
+<B/30380hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "Ab 1843 praktischer Arzt und Hofarzt, 1844-1854 Arzt bei der Gemeinde der Barmherzigen Schwestern in St. Petersburg, 1851 zugleich Leibarzt der Großfürstin MARIJA NIKOLAEVNA (1819-1876) und ihrer Kinder auf Auslandsreisen, 1856-1872 (oder 1880) Arzt an der Maksimilian-Invalidenanstalt und zugleich 1864-1886 bei der Brüdergemeinde der Mariä-Geburtskirche, ab 1866 Mitglied der Sanitätskommission und Medizinalinspektor des Aleksandr-Nevskij-Stadtteils in St. Petersburg, lebte ab 1895/96 abwechselnd in England und an der französischen Riviera.
+        Ab 1867 Inhaber des Ehrentitels \"Wirklicher Russischer Staatsrat\"." .
+
+<W/30380hasW2>
+	rdfs:label "Ein Fall von Prolapsus uteri mit gleichzeitigem Vorfall des Mastdarms. St. Petersburger medicinische Zeitschrift 15 (1869), 343-346." ;
+	a drw-model:W .
+
+<GeneralLabor/Hofarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hofarzt" .
+
+<MainName/30380hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30380hasNameVariation3> ;
+	drw-model:hasNameVariation <NameVariation/30380hasNameVariation8> ;
+	drw-model:hasNameVariation <NameVariation/30380hasNameVariation6> ;
+	drw-model:hasNameVariation <NameVariation/30380hasNameVariation7> ;
+	drw-model:hasNameVariation <NameVariation/30380hasNameVariation2> ;
+	a drw-model:MainName ;
+	rdfs:label "Higginbotham, William" ;
+	drw-model:hasNameVariation <NameVariation/30380hasNameVariation4> ;
+	drw-model:hasNameVariation <NameVariation/30380hasNameVariation5> ;
+	drw-model:hasNameVariation <NameVariation/30380hasNameVariation1> .
+
+<W/30380hasW6>
+	rdfs:label "Ueber mikroskopische und chemische Analysen und ihre Beziehungen zur Sanitätsfrage. St. Petersburger medicinische Wochenschrift 2 (1877), 70-74." ;
+	a drw-model:W .
+
+<NameVariation/30380hasNameVariation5>
+	rdfs:label "Villjam" ;
+	a drw-model:NameVariation .
+
+<RelatedPerson/30380wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Auguste Lucie, geb. von Unzer (1823-1895)" .
+
+<NameVariation/30380hasNameVariation7>
+	rdfs:label "Виллям" ;
+	a drw-model:NameVariation .
+
+<ImportantPerson/30419>
+	a drw-model:ImportantPerson .
+
+<NameVariation/30380hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "GIGINBOTOM" .
+
+<GeneralLabor/Medizinalinspektor>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Medizinalinspektor" .
+
+<A/30380hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1823-1830 Besuch der Muralt-Pensionats*) in St. Petersburg und 1830-1833 des Gymnasiums in Dorpat, 1833-1834 Studium der Philosophie und 1834-1838 der Medizin an der Universität Dorpat, 1839-1840 Studium an den Universitäten Berlin, Wien und Prag, 1840 Dr. med. et chir. an der Universität Würzburg, 1841 Arzt 1. Klasse in Dorpat, 1842-1843 Weiterbildung in London und in Paris, 1847 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg.
+*) Johannes von Muralt, russ.: Iogannes fon Muralt, franz.: Jean de Muralt (1780-1850), Schweizer Theologe und Pädagoge, ab 1810 Pastor der reformierten Kirche und 1811 Gründer eines Erziehungspensionats in St. Petersburg." .
+
+<MG/30380hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Verein St. Petersburger Ärzte (ab 1861, Ehrenmitglied ab 1893), Deutscher ärztlicher Verein in St. Petersburg (ab 1887 Ehrenmitglied), Kružok Peterburgskich vračej Pirogova [Pirogovs Verein Petersburger Ärzte] (ab 1849, ab 1855 zeitweise Sekretär), Obščestvo russkich vračej v pamjat' N. I. Pirogova [N. I. Pirogov-Gesellschaft russischer Ärzte] (1884 Mitstifter), Russkoe geografičeskoe obščestvo [Russische geographische Gesellschaft] (1865-1870)." .
+
+<NameVariation/30380hasNameVariation8>
+	a drw-model:NameVariation ;
+	rdfs:label "Вacилий" .
+
+<W/30380hasW5>
+	a drw-model:W ;
+	rdfs:label "Historischer Bericht über die Gründung des \"Golitzin\"schen Hospitals in Moskau. St. Petersburger medicinische Zeitschrift 17 (1870), 33-35." .
+
+<SL/30380hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Peterburgskij nekropol'. Bd. 1 (1912), 594." .
+
+<RelatedPerson/30380motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Amalie, geb. Schleich (* 1771)" .
+
+<W/30380hasW9>
+	drw-model:hasNameLink <ImportantPerson/30419> ;
+	a drw-model:W ;
+	rdfs:label "Philipp <span style='font-variant:small-caps;'>Karell</span> . St. Petersburger medicinische Wochenschrift N.F. 3 [= 11] (1886), 311-312." .
+
+<W/30380hasW3>
+	rdfs:label "Zwei Beobachtungen über Bluter. St. Petersburger medicinische Zeitschrift 16 (1869), 111-114." ;
+	a drw-model:W .
+
+<SL/30380hasSL1>
+	rdfs:label "EAD: Dokument-Id [62144/60187 (29.7.2010)]." ;
+	a drw-model:SL .
+
+<W/30380hasW1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://books.google.de/books?id=TzNPAAAAcAAJ&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false" ;
+	rdfs:label "De peritonitide foetus. Dissertation. Würzburg 1840, 36 S. (Titelblatt Abgedruckt in: Fischer 2010, 111 [Exemplar der Universitätbibliothek Würzburg, Sign. 1840,24]). Online Ressource Volltext (4.4.2012)." ;
+	a drw-model:W .
+
+<ImportantPerson/30380>
+	drw-model:hasW <W/30380hasW3> ;
+	drw-model:hasW <W/30380hasW4> ;
+	drw-model:diedIn <Place/Menton> ;
+	drw-model:hasEducation <A/30380hasEducation1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Medizinalinspektor> ;
+	drw-model:hasSL <SL/30380hasSL3> ;
+	drw-model:wasBornOn <Date/5_or_17_10_1813> ;
+	drw-model:hasW <W/30380hasW2> ;
+	drw-model:hasMG <MG/30380hasMG1> ;
+	drw-model:motherIs <RelatedPerson/30380motherIs1> ;
+	drw-model:hasW <W/30380hasW6> ;
+	drw-model:fatherIs <RelatedPerson/30380fatherIs1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:hasW <W/30380hasW1> ;
+	drw-model:diedOn <Date/26_4_or_9_5_oder_25_4_or_8_5_1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30380wasMarriedTo1> ;
+	drw-model:hasSL <SL/30380hasSL1> ;
+	drw-model:hasW <W/30380hasW8> ;
+	drw-model:wasBornIn <Place/St_Petersburg> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Hofarzt> ;
+	drw-model:hasStationOfLife <B/30380hasStationOfLife1> ;
+	drw-model:hasID "30380" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasMainName <MainName/30380hasMainName1> ;
+	drw-model:hasDescendant <RelatedPerson/30380hasDescendant1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Grofrstlicher_Leibarzt> ;
+	drw-model:hasW <W/30380hasW7> ;
+	drw-model:hasW <W/30380hasW5> ;
+	rdfs:label "Higginbotham, William" ;
+	drw-model:hasSL <SL/30380hasSL2> ;
+	drw-model:hasW <W/30380hasW9> .
+
+<Date/26_4_or_9_5_oder_25_4_or_8_5_1>
+	rdfs:label "26.4./9.5. oder 25.4/8.5.1907" ;
+	a drw-model:Date .
+
+<W/30380hasW7>
+	a drw-model:W ;
+	rdfs:label "Ueber Verproviantirung Europa's mit Fleisch. St. Petersburger medicinische Wochenschrift 2 (1877), 182-184." .
+
+<NameVariation/30380hasNameVariation4>
+	rdfs:label "William G." ;
+	a drw-model:NameVariation .
+
+<Date/5_or_17_10_1813>
+	a drw-model:Date ;
+	rdfs:label "5./17.10.1813" .
+
+<NameVariation/30380hasNameVariation6>
+	a drw-model:NameVariation ;
+	rdfs:label "Vasilij" .
+

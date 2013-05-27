@@ -1,0 +1,264 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30465hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Engelhardt, Dietrich von (Hg.): Biographische Enzyklopädie deutschsprachiger Mediziner. München 2002, 634." .
+
+<MainName/30465hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30465hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30465hasNameVariation3> ;
+	rdfs:label "Trinius, Carl Bernhard (von)" ;
+	drw-model:hasNameVariation <NameVariation/30465hasNameVariation4> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30465hasNameVariation5> ;
+	drw-model:hasNameVariation <NameVariation/30465hasNameVariation1> .
+
+<GPV/30465hasGPV2>
+	rdfs:label "• Recke, Johann Friedrich von; Napiersky, Carl Eduard: Allgemeines Schriftsteller- und Gelehrten-Lexikon der Provinzen Livland, Esthland und Kurland. Nachträge und Fortsetzungen. Unter Mitwirkung von C. E. Napiersky, bearb. von Theodor Beise. Bd. 2. Mitau 1861, 244-247; auch in: WBIS DBA: I 1285, 62-64, 66-70, und BaBA: I 375, 11-18." ;
+	a drw-model:GPV .
+
+<SL/30465hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Nemcy Rossii. Bd. 3 (2006), 569." .
+
+<Date/6_3_1778>
+	a drw-model:Date ;
+	rdfs:label "6.3.1778" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30465hasW4>
+	rdfs:label "Clavis agrostographiae antiquioris: Uebersicht des Zustandes der Agrostographie bis auf Linné ... Coburg 1822." ;
+	a drw-model:W .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<W/30465hasW2>
+	rdfs:label "Flore des environs de St.-Pétersbourg et de Moscou. Mit Joseph Liboschitz. St.-Petersbourg 1811, 121 S." ;
+	a drw-model:W .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<W/30465hasW6>
+	rdfs:label "De graminibus paniceis. Diss. bot. altera. Sankt-Peterburg 1826." ;
+	a drw-model:W .
+
+<SL/30465hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Biographie in: Gedichte (<b>W</b>), 1-24." .
+
+<NameVariation/30465hasNameVariation5>
+	rdfs:label "Бeрнxaрд" ;
+	a drw-model:NameVariation .
+
+<SL/30465hasSL4>
+	rdfs:label "EAD: Dokument-Id [52987/40476 (12.8.2010)]." ;
+	a drw-model:SL .
+
+<Place/Eisleben>
+	a drw-model:Place ;
+	rdfs:label "Eisleben" .
+
+<SL/30465hasSL7>
+	rdfs:label "WBIS DBA: I 1285, 60-70, 73-74; II 1318, 121; BaBA: I 375, 11-21; RBA: R 463, 46-49." ;
+	a drw-model:SL .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<W/30465hasW9>
+	rdfs:label "Archiv der Deutschen Akademie der Naturforscher Leopoldina: MNr. 1233: * 6.3.1778, Eisleben, † 12.3.1844, St. Petersburg; Lebensorte: St. Petersburg, Jena, Halle/Saale, Leipzig, Göttingen, Hasenpoth; mit Kurzbiographie aus DBE Bd. 10 (1999), 524." ;
+	a drw-model:W .
+
+<NameVariation/30465hasNameVariation2>
+	rdfs:label "Karl Berngard" ;
+	a drw-model:NameVariation .
+
+<W/30465hasW1>
+	rdfs:label "De morbis inflammatoriis. Diss. med. Göttingen 1802." ;
+	a drw-model:W .
+
+<P/30465hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait [ohne weitere Angaben]. Aus: Rossijskaja akademija nauk. Personal'nyj sostav. Kniga 1: 1724-1917. Moskva 1999, 41. Abgedruckt in: Fischer 2010, 262." .
+
+<WL/30465hasWL2>
+	rdfs:label "Entdeckte und beschrieb eine Vielzahl neuer Gräserarten russischer und anderer Gebiete, veröffentlichte 34 Abhandlungen sowie viele Einzelabhandlungen und Manuskripte zur Botanik (vgl. <b>GPV</b>), stellte zwischen 1824 und 1844 eine Sammlung mit 4000-5000 Pflanzenbeschreibungen zusammen, das sog. \"Herbarium Trinii\", und vermachte es dem Botanischen Museum in St. Petersburg.*" ;
+	a drw-model:WL .
+
+<RelatedPerson/30465fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann Anton [nicht Anton Bernhard] (1722-1784), Pfarrer, Theologe und Schriftsteller" .
+
+<WL/30465hasWL4>
+	rdfs:label "Sein botanisches Autorenkürzel ist \"TRIN.\"" ;
+	a drw-model:WL .
+
+<GeneralLabor/Botaniker>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Botaniker" .
+
+<WL/30465hasWL6>
+	rdfs:label "**) Ab 1804 Professor für Botanik und Pharmakologie und Gründer und Direktor des Botanischen Gartens an der Universität Moskau." ;
+	a drw-model:WL .
+
+<W/30465hasW7>
+	rdfs:label "Gedichte. Mit der Biographie des Verfassers nach seinem Tode hrsg. von zweien seiner Freunde [Michael Eugen von Bulmerincq, Georg Adolf Dietrich von <span style='font-variant:small-caps;'>Rauch</span>]. Berlin 1848, 273 S." ;
+	a drw-model:W ;
+	drw-model:hasNameLink <ImportantPerson/30445> .
+
+<B/30465hasStationOfLife1>
+	rdfs:label "Ab 1804 in Kurland, zunächst Arzt des Kammerherrn Johann Emmerich von KEYSERLING († 1811) in Gawesen, 1805-1807 praktischer Arzt in Hasenpoth, teilweise auch in Wien (?),1808-1824 Leibarzt der Herzogin ANTOINETTE VON WÜRTTEMBERG, geb. Prinzessin VON SACHSEN-COBURG-SAALFELD (1779-1824) in Deutschland und in Russland, davon 1811-1815 und 1822-1824 in St. Petersburg und 1816-1822 in Vitebsk, 1823 Gründer und erster Direktor des Botanischen Museums der Kaiserlichen Akademie der Wissenschaften in St. Petersburg, 1824-1827 Leibarzt der Großfürstin ELENA PAVLOVNA, geb. FRIEDERIKE CHARLOTTE MARIE Prinzessin VON WÜRTTEMBERG (1806-1873), 1829-1833 Lehrer des Thronfolgers ALEKSANDR NIKOLAEVIČ (1818-1881), 1836-1838 Auslandsreisen im Auftrag der Kaiserlichen Akademie zur Besichtigung botanischer Sammlungen, u.a. in Berlin, Leipzig, Halle, Wien, 1837 in München und zuletzt 1838 in Dresden, danach Rückkehr nach St. Petersburg.
+Inhaber hoher russischer Ehrentitel und Auszeichnungen, darunter \"Kaiserlicher Russischer Hofrat\" und \"Staatsrat\", Adelstitel, Ritter des St.-Vladimir-Ordens, 1828 Ritter des St.-Annen-Ordens 2. Klasse und 1830 mit der Kaiserkrone." ;
+	a drw-model:B .
+
+<W/30465hasW5>
+	rdfs:label "De graminibus unifloris et sesquifloris. Diss. bot. Sankt-Peterburg 1824." ;
+	a drw-model:W .
+
+<W/30465hasW3>
+	rdfs:label "Fundamenta agrostographiae sive theoria constructionis floris graminei. Wien 1820." ;
+	a drw-model:W .
+
+<WL/30465hasWL1>
+	rdfs:label "Gehörte zu den ersten homöopathischen Ärzten im Russischen Zarenreich." ;
+	a drw-model:WL .
+
+<Date/29_2_or_12_3_1844>
+	a drw-model:Date ;
+	rdfs:label "29.2./12.3.1844" .
+
+<SL/30465hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Stieda, Ludwig: Trinius, Karl Bernhard. Allgemeine Deutsche Biographie 38 (1894), 619-621. Online Ressource Online Ressource (5.4.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/sfz26838.html" .
+
+<ImportantPerson/30465>
+	drw-model:hasSL <SL/30465hasSL7> ;
+	drw-model:hasMainName <MainName/30465hasMainName1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	drw-model:hasSL <SL/30465hasSL1> ;
+	drw-model:hasSL <SL/30465hasSL4> ;
+	drw-model:hasP <P/30465hasP1> ;
+	drw-model:hasWL <WL/30465hasWL4> ;
+	drw-model:hasW <W/30465hasW4> ;
+	drw-model:hasGPV <GPV/30465hasGPV2> ;
+	drw-model:hasW <W/30465hasW9> ;
+	drw-model:hasWL <WL/30465hasWL5> ;
+	drw-model:hasW <W/30465hasW2> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30465.jpg> ;
+	drw-model:hasEducation <A/30465hasEducation1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:hasW <W/30465hasW8> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Botaniker> ;
+	drw-model:hasSL <SL/30465hasSL5> ;
+	drw-model:hasSL <SL/30465hasSL6> ;
+	drw-model:hasWL <WL/30465hasWL6> ;
+	drw-model:hasDescendant <RelatedPerson/30465hasDescendant1> ;
+	drw-model:hasSL <SL/30465hasSL2> ;
+	drw-model:wasBornIn <Place/Eisleben> ;
+	drw-model:hasWL <WL/30465hasWL1> ;
+	drw-model:motherIs <RelatedPerson/30465motherIs1> ;
+	drw-model:wasBornOn <Date/6_3_1778> ;
+	drw-model:hasGPV <GPV/30465hasGPV1> ;
+	drw-model:fatherIs <RelatedPerson/30465fatherIs1> ;
+	rdfs:label "Trinius, Carl Bernhard (von)" ;
+	drw-model:hasW <W/30465hasW1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <W/30465hasW7> ;
+	drw-model:hasWL <WL/30465hasWL7> ;
+	drw-model:hasWL <WL/30465hasWL2> ;
+	drw-model:wasMarriedTo <RelatedPerson/30465wasMarriedTo1> ;
+	drw-model:hasP <P/30465hasP2> ;
+	drw-model:hasSL <SL/30465hasSL3> ;
+	drw-model:hasID "30465" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Dichter> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasW <W/30465hasW5> ;
+	drw-model:hasStationOfLife <B/30465hasStationOfLife1> ;
+	drw-model:hasW <W/30465hasW3> ;
+	drw-model:diedOn <Date/29_2_or_12_3_1844> ;
+	drw-model:hasWL <WL/30465hasWL3> ;
+	drw-model:hasW <W/30465hasW6> ;
+	drw-model:hasMG <MG/30465hasMG1> .
+
+<RelatedPerson/30465wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Josepha Karol. Gottlieb, geb. Borikovsky (1775-1857)" .
+
+<SL/30465hasSL3>
+	rdfs:label "Dörges, Anke: Julius Schweikert (1807-1876) - ein homöopathischer Arzt im Russland des 19. Jahrhunderts. In: Regine Pfrepper, Sabine Fahrenbach, Natalja Decker (Hgg.): \"Wer vieles bringt, wird manchem etwas bringen\" - ein medizin- und wissenschaftshistorisches Florilegium. Festgabe für Ingrid Kästner zum 60. Geburtstag. Aachen 2002 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaft 5), 91-102." ;
+	a drw-model:SL .
+
+<NameVariation/30465hasNameVariation4>
+	rdfs:label "Kaрл Бeрнгaрд" ;
+	a drw-model:NameVariation .
+
+<GPV/30465hasGPV1>
+	rdfs:label "• Gedichte (<b>W</b>), 32-38." ;
+	a drw-model:GPV .
+
+<ImportantPerson/30445>
+	a drw-model:ImportantPerson .
+
+<MG/30465hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Imperatorskaja Akademija nauk [Kaiserliche Akademie der Wissenschaften] St. Petersburg (1810 korresp. und 1823 ord. Mitglied), Deutsche Akademie der Naturforscher Leopoldina (ab 1821), Deutscher Ärztlicher Verein in St. Petersburg (1824-1840), außerdem Physikalische Gesellschaft zu Göttingen, Botanische Gesellschaft zu Regensburg, Imperatorskoe Moskovskoe obščestvo ispytatelej prirody [Kaiserliche Gesellschaft der Naturforscher zu Moskau], Kurländische Gesellschaft für Literatur und Kunst." .
+
+<NameVariation/30465hasNameVariation3>
+	rdfs:label "Bernchard" ;
+	a drw-model:NameVariation .
+
+<RelatedPerson/30465hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Tochter Amalie Julie Charlotte (Karlovna), verh. von Bulmerincq (1805-1891)<br>        Tochter [Vorname und Lebensdaten unbekannt], verh. Hermann" .
+
+<P/30465hasP2>
+	<http://xmlns.com/foaf/0.1/homepage> "http://upload.wikimedia.org/wikipedia/commons/0/08/Carl-Bernhard-Trinius.jpg" ;
+	a drw-model:P ;
+	rdfs:label "Portrait, Online Ressource Online Ressource (5.4.2012)." .
+
+<W/30465hasW8>
+	rdfs:label "St.-Andreas-Kirche Eisleben [Kirchenbuch]: Geb. 6.3.1778, Vater: Johann Anton, Großvater: Franz Friedrich Bernhard Trinius (Telefonische Mitteilung vom 15.4.2009)." ;
+	a drw-model:W .
+
+<NameVariation/30465hasNameVariation1>
+	rdfs:label "Karl" ;
+	a drw-model:NameVariation .
+
+<WL/30465hasWL3>
+	<http://xmlns.com/foaf/0.1/homepage> "http://luirig.altervista.org/cpm/albums/fitch2/wal-hoo00444-trinia-glauca.jpg" ;
+	rdfs:label "Nach ihm wurde 1814 von Georg Franz HOFFMANN (1760-1826)** die Pflanzengattung <i>Trinia (Apiaceae)</i> = Faserschirm benannt,*** deren heimischer Vertreter <i>Trinia glauca</i> = Blaugrüner Faserschirm ist (abgedruckt in: Fischer 2010, 265). Online Ressource Online Ressource (5.4.2012)." ;
+	a drw-model:WL .
+
+<WL/30465hasWL7>
+	rdfs:label "***) Vgl. Ergänzungsblätter zur Jenaischen allgemeinen Literatur-Zeitung (1816) Nr. 31, 244." ;
+	a drw-model:WL .
+
+<WL/30465hasWL5>
+	rdfs:label "*) Die digitalisierte Form, das Ergebnis eines Gemeinschaftsprojektes des Smithsonian Institute (USA) und des Botanischen Instituts V. L. Komarov (St. Petersburg) ist seit 1995 als IDC Microfiches u. d. T. \"Catalogue of the C. B. Trinius Herbarium\" veröffentlicht, Online Ressource Online Ressourse (27.3.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://botany.si.edu/projects/trinius.html" ;
+	a drw-model:WL .
+
+<A/30465hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Bis 1796 Besuch des Gymnasiums in Eisleben, 1796 Studium der Medizin an der Universität Jena, 1797 an der Universität Halle, 1798 an der Universität Leipzig, 1899-1802 und 1802 Dr. med. et chir. an der Universität Göttingen, 1803 Staatsprüfung bei Christoph Wilhelm HUFELAND (1762-1836) in Berlin, 1804 Arzt-Examen an der Universität Dorpat." .
+
+<RelatedPerson/30465motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Charlotte Gerhardine, geb. Hahnemann (1752-1812), Schwester von Samuel Hahnemann (1755-1843), dem Begründer der Homöopathie." .
+
+<GeneralLabor/Dichter>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Dichter" .
+

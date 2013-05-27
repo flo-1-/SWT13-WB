@@ -1,0 +1,623 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<B/30028hasStationOfLife14>
+	rdfs:label "Direktor des Medizinaldepartements des Innenministeriums" ;
+	drw-model:began <Year/1902> ;
+	drw-model:ended <Year/1904> ;
+	a drw-model:B .
+
+<Year/1884>
+	a drw-model:Year ;
+	rdfs:label "1884" .
+
+<Comment/30028_2>
+	a drw-model:Comment ;
+	rdfs:label "<b>SL</b> Stoljarenko 2003 und Yentis/Vlassakov 1999." .
+
+<SL/30028hasSL6>
+	rdfs:label "Ippolitova, Galina A.: Vasilij Konstantinovič v. Anrep (1852-1927) – Arzt, Gelehrter und Parlamentarier. In: Ingrid Kästner, Regine Pfrepper (Hgg.): „... so ist die Naturwissenschaft das wahre internationale Band der Völker.“ Wissenschaftsbeziehungen in Medizin und Naturwissenschaften zwischen Deutschland und dem Russischen Reich im 18. und 19. Jahrhundert. Aachen 2004 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaft 9), 191-200." ;
+	a drw-model:SL .
+
+<W/30028hasW2>
+	rdfs:label "[Hauptred.] Sbornik rabot o čume. Bd. 1. Sankt-Peterburg 1907." ;
+	a drw-model:W .
+
+<Year/1927>
+	rdfs:label "1927" ;
+	a drw-model:Year .
+
+<SL/30028hasSL12>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://ru.wikipedia.org/wiki/Анреп_Василий_Константинович_фон" ;
+	drw-model:hasDate "25.10.2010" ;
+	rdfs:label "Vikipedija (Online Ressource)." .
+
+<P/30028hasP8>
+	rdfs:label "2 Fotos in: Šustov 1910 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<Year/1899>
+	rdfs:label "1899" ;
+	a drw-model:Year .
+
+<B/30028hasStationOfLife2>
+	drw-model:ended <Year/1878> ;
+	drw-model:began <Year/1876> ;
+	a drw-model:B ;
+	rdfs:label "Teilnahme am Russisch-Türkischen Krieg" .
+
+<P/30028hasP7>
+	rdfs:label "Foto in: [Zum 150. Geburtstag] Jaickij (<b>SL</b>)." ;
+	a drw-model:P .
+
+<Year/1917>
+	rdfs:label "1917" ;
+	a drw-model:Year .
+
+<Year/1907>
+	rdfs:label "1907" ;
+	a drw-model:Year .
+
+<B/30028hasStationOfLife15>
+	drw-model:ended <Year/1907> ;
+	rdfs:label "Medizinischer Hauptinspektor" ;
+	a drw-model:B ;
+	drw-model:began <Year/1904> .
+
+<Year/1887>
+	rdfs:label "1887" ;
+	a drw-model:Year .
+
+<Comment/30028_3>
+	rdfs:label "Ippolitova 2004 (<b>SL</b>), 193." ;
+	a drw-model:Comment .
+
+<SL/30028hasSL7>
+	<http://xmlns.com/foaf/0.1/homepage> "http://art.1september.ru/view_article.php?ID=201001208" ;
+	a drw-model:SL ;
+	rdfs:label "Knjazeva, Elena: Portret Vasilija fon Anrepa s sobakoj Šamilem. Isskustvo (2010) Nr. 12 (Online Ressource)." ;
+	drw-model:hasDate "25.10.2010" .
+
+<Year/1897>
+	rdfs:label "1897" ;
+	a drw-model:Year .
+
+<WL/30028hasWL2>
+	rdfs:label "Mitherausgeber von <i>Kalendar’ dlja vračej vsech vedomstv</i> (1886-1897 mit Nikolaj Alekseevič Voronichin, 1898 mit Pavel Nikolaevič Bulatov)" ;
+	a drw-model:WL .
+
+<SL/30028hasSL15>
+	rdfs:label "Česnakova [Im Original Druckfehler, es muss heißen: Česnokova], Sof’ja Aleksandrovna, Lindemann, Marianne: Russische Physiologen in Laboratorien von Carl Ludwig. Wissenschaftliche Zeitschrift der Karl-Marx-Universität Leipzig, Mathematisch-naturwissenschaftliche Reihe 19 (1970), 318." ;
+	a drw-model:SL .
+
+<Year/1901>
+	rdfs:label "1901" ;
+	a drw-model:Year .
+
+<P/30028hasP9>
+	a drw-model:P ;
+	rdfs:label "2 Fotos in: Vikipedija (<b>SL</b>)." .
+
+<B/30028hasStationOfLife5>
+	drw-model:began <Year/1882> ;
+	rdfs:label "Privatdozent für Pharmakologie an der Militärmedizinischen Akademie (MMA)" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1884> .
+
+<Year/1876>
+	rdfs:label "1876" ;
+	a drw-model:Year .
+
+<GeneralLabor/Physiologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologe" .
+
+<AlsoImportantInfo/30028hasAlsoImportantInfo1>
+	a drw-model:AlsoImportantInfo ;
+	rdfs:label "Besitzer der Brauerei „Kerstengof“ in Livland [heute Kärstna, Estland]" .
+
+<SL/30028hasSL4>
+	rdfs:label "Genealogisches Handbuch der baltischen Ritterschaften, Teil 2, 1.2: Estland. Görlitz 1930, 646." ;
+	a drw-model:SL .
+
+<Year/1878>
+	rdfs:label "1878" ;
+	a drw-model:Year .
+
+<B/30028hasStationOfLife16>
+	rdfs:label "Mitglied der III. Staatsduma" ;
+	drw-model:ended <Year/1912> ;
+	drw-model:began <Year/1907> ;
+	a drw-model:B .
+
+<SL/30028hasSL14>
+	rdfs:label "[Zum 150. Geburtstag] Učenye zapiski Sankt-Peterburgskogo gosudarstvennogo medicinskogo universiteta im. akademika I. P. Pavlova 9 (2002) Nr. 4: N. A. Jaickij: Professor Vasilij Konstantinovič fon Anrep (7-10); V. A. Korjačkin: Professor Vasilij Konstantinovič Anrep – pervyj vootkryvatel’ mestnoj anestezii (29-32); J. Bening: Zabytyj pioner ėksperimental’noj farmakotoksikologii Vasilij fon Anrep: Načalo naučnoj kar’ery v Vjurcburge (32); V. P. Bjakina: V. K. fon Anrep i ženskij medicinskij institut (32-35); I. V. Zimin: Professor V. K. Anrep kak obščestvenno-političeskij dejatel’ (35-39); Ju. P. Golikov: Vasilij Konstantinovič i Gleb Vasil’evič fon Anrepy (kratkij očerk ich dejatel’nosti) (40-43)." ;
+	a drw-model:SL .
+
+<GeneralLabor/Pharmakologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Pharmakologe" .
+
+<Place/Paris_Grabsttte_Friedhof_Pre_L>
+	a drw-model:Place ;
+	rdfs:label "Paris, Grabstätte: Friedhof Père-Lachaise" .
+
+<A/30028hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch des Wiedemann-Gymnasiums[8] in St. Petersburg" ;
+	drw-model:hasComment <Comment/30028_8> ;
+	drw-model:ended <Year/1864> .
+
+<NameVariation/30028hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Anrep, Wassili/Vassili/Basil/Basilius von" .
+
+<B/30028hasStationOfLife4>
+	drw-model:inYear <Year/1881> ;
+	rdfs:label "Dr. med. an der Mediko-Chirurgischen Akademie St. Petersburg" ;
+	a drw-model:B .
+
+<W/30028hasW3>
+	rdfs:label "Dokladnaja zapiska popečitelja Char’kovskogo učebnogo okruga, predstavlennaja v 1900 godu gospodinu ministru narodnogo prosveščenija. Sankt-Peterburg 1908, 33 S." ;
+	a drw-model:W .
+
+<Year/1915>
+	rdfs:label "1915" ;
+	a drw-model:Year .
+
+<B/30028hasStationOfLife21>
+	drw-model:ended <Year/1927> ;
+	a drw-model:B ;
+	rdfs:label "in Großbritannien und Frankreich" ;
+	drw-model:began <Year/1922> .
+
+<P/30028hasP1>
+	rdfs:label "Foto (Abb.) um 1910. Aus: Šustov 1910 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<Comment/30028_8>
+	rdfs:label "Privatgymnasium und Handelsschule, auch als Wiedemannsche Anstalt bezeichnet [<i>Gimnazija i real’noe učilišče Videmana</i>], 1859 gegründet von Dr. Hermann Wiedemann († 1866), 1845-1859 Direktor der St. Annen-Kirchenschule in St. Petersburg." ;
+	a drw-model:Comment .
+
+<ImportantPerson/30028>
+	drw-model:hasStationOfLife <B/30028hasStationOfLife1> ;
+	drw-model:fatherIs <RelatedPerson/30028fatherIs1> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife20> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife4> ;
+	drw-model:hasComment <Comment/30028_2> ;
+	drw-model:hasComment <Comment/30028_7> ;
+	drw-model:hasEducation <A/30028hasEducation1> ;
+	drw-model:hasSL <SL/30028hasSL15> ;
+	drw-model:hasW <W/30028hasW3> ;
+	drw-model:hasMainName <MainName/30028hasMainName1> ;
+	drw-model:hasP <P/30028hasP5> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife10> ;
+	drw-model:hasComment <Comment/30028_6> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30028.png> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Parlamentarier> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife2> ;
+	drw-model:hasP <P/30028hasP4> ;
+	drw-model:hasW <W/30028hasW2> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife3> ;
+	drw-model:motherIs <RelatedPerson/30028motherIs1> ;
+	drw-model:hasP <P/30028hasP10> ;
+	drw-model:hasEducation <A/30028hasEducation4> ;
+	drw-model:hasP <P/30028hasP8> ;
+	drw-model:wasBornOn <Date/29_9_or_11_10_1852> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife15> ;
+	drw-model:hasDescendant <RelatedPerson/30028hasDescendant1> ;
+	drw-model:hasP <P/30028hasP6> ;
+	drw-model:wasBornIn <Place/St_Petersburg> ;
+	drw-model:hasSL <SL/30028hasSL7> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife21> ;
+	drw-model:hasSL <SL/30028hasSL16> ;
+	drw-model:hasEducation <A/30028hasEducation2> ;
+	drw-model:hasAlsoImportantInfo <AlsoImportantInfo/30028hasAlsoImportantInfo1> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife19> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Prof_fr_gerichtliche_Medizin> ;
+	drw-model:hasW <W/30028hasW4> ;
+	rdfs:label "Anrep, Wassili von" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/30028hasSL5> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife13> ;
+	drw-model:diedOn <Date/1_10_1927> ;
+	drw-model:hasSL <SL/30028hasSL1> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife22> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife6> ;
+	drw-model:diedIn <Place/Paris_Grabsttte_Friedhof_Pre_L> ;
+	drw-model:hasW <W/30028hasW1> ;
+	drw-model:hasComment <Comment/30028_1> ;
+	drw-model:hasP <P/30028hasP9> ;
+	drw-model:hasID "30028" ;
+	drw-model:hasSL <SL/30028hasSL9> ;
+	drw-model:hasGPV <GPV/30028hasGPV2> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife16> ;
+	drw-model:hasP <P/30028hasP3> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife9> ;
+	drw-model:hasSL <SL/30028hasSL2> ;
+	drw-model:hasP <P/30028hasP2> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife14> ;
+	drw-model:hasSL <SL/30028hasSL6> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife18> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife7> ;
+	drw-model:hasGPV <GPV/30028hasGPV1> ;
+	drw-model:hasSL <SL/30028hasSL10> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife17> ;
+	drw-model:wasMarriedTo <RelatedPerson/30028wasMarriedTo1> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife5> ;
+	drw-model:hasP <P/30028hasP7> ;
+	drw-model:hasSL <SL/30028hasSL4> ;
+	drw-model:hasComment <Comment/30028_5> ;
+	drw-model:hasWL <WL/30028hasWL2> ;
+	drw-model:hasSL <SL/30028hasSL3> ;
+	drw-model:hasSL <SL/30028hasSL12> ;
+	drw-model:hasP <P/30028hasP11> ;
+	drw-model:hasEducation <A/30028hasEducation5> ;
+	drw-model:hasComment <Comment/30028_8> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Pharmakologe> ;
+	drw-model:hasComment <Comment/30028_4> ;
+	drw-model:hasSL <SL/30028hasSL8> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife11> ;
+	drw-model:hasP <P/30028hasP1> ;
+	drw-model:hasSL <SL/30028hasSL14> ;
+	drw-model:hasWL <WL/30028hasWL1> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife8> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Physiologe> ;
+	drw-model:hasSL <SL/30028hasSL11> ;
+	drw-model:hasAlsoImportantInfo <AlsoImportantInfo/30028hasAlsoImportantInfo2> ;
+	drw-model:hasComment <Comment/30028_3> ;
+	drw-model:hasEducation <A/30028hasEducation3> ;
+	drw-model:hasSL <SL/30028hasSL13> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30028hasHonoursAndAwards1> ;
+	drw-model:hasStationOfLife <B/30028hasStationOfLife12> .
+
+<GPV/30028hasGPV1>
+	rdfs:label "Nosova, L. A.: Spisok trudov professora Vasilija Konstantinoviča Anrepa 1877-1897 (39 Nrn.), in: Učenye zapiski Sankt-Peterburgskogo gosudarstvennogo medicinskogo universiteta im. akademika I. P. Pavlova 9 (2002) 4, 28." ;
+	a drw-model:GPV .
+
+<ImportantPerson/30865>
+	a drw-model:ImportantPerson .
+
+<SL/30028hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Ippolitova, Galina A.: V. K. Fon Anrep – vrač, učenyj, deputat III gosudarstvennoj dumy. In: Nemcy v Rossii. Tri veka naučnogo sotrudničestva – Die Deutschen in Russland. Drei Jahrhunderte der wissenschaftlichen Zusammenarbeit. G. I. Smagina (Otv. Red.). S.-Peterburg 2003, 325-341." .
+
+<AlsoImportantInfo/30028hasAlsoImportantInfo2>
+	a drw-model:AlsoImportantInfo .
+
+<B/30028hasStationOfLife17>
+	drw-model:ended <Year/1917> ;
+	rdfs:label "Medizinischer Berater des Obersten Chefs der Sanitäts- und Evakuierungsabteilung der Prinz Alexander von Oldenburg-Armee" ;
+	a drw-model:B ;
+	drw-model:began <Year/1915> .
+
+<Year/1881>
+	rdfs:label "1881" ;
+	a drw-model:Year .
+
+<NameVariation/30028hasNameVariation2>
+	rdfs:label "Anrep, Vasilij/Bazil’ Konstantinovič fon"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Анреп, Василий/Базиль Константинович фон"@ru .
+
+<MainName/30028hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30028hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30028hasNameVariation2> ;
+	rdfs:label "Anrep, Wassili von" .
+
+<Comment/30028_1>
+	a drw-model:Comment ;
+	rdfs:label "Ippolitova 2004 (<b>SL</b>), 191." .
+
+<HonoursAndAwards/30028hasHonoursAndAwards1>
+	rdfs:label "„Kollegienrat“<br>1890  „Wirklicher Russischer Staatsrat“<br>1900  „Geheimrat“<br>1878  St.-Stanislav-Orden 3. Klasse und 1895 1. Klasse<br>1884  St.-Annen-Orden 3. Klasse, 1888 2. Klasse und 1896 1. Klasse<br>1892  St.-Vladimir-Orden 3. Klasse und 1904 2. Klasse<br>1906  Weißer-Adler-Orden<br>1870  Silbermedaille am Vladimirband „Za spasenie pogibavšich“<br>Silberne Medaille zur Erinnerung an die Zarenherrschaft Aleksandr III.<br>1904  Commandeur de la Légion d’Honneur (France)<br>1906 Ehrenzeichen und Medaille des Roten-Kreuzes im Russisch-Japanischen Krieg 1904-1906<br>1916  Aleksandr-Nevskij-Orden" ;
+	a drw-model:HonoursAndAwards .
+
+<GeneralLabor/Prof_fr_gerichtliche_Medizin>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Prof. für gerichtliche Medizin" .
+
+<Year/1922>
+	rdfs:label "1922" ;
+	a drw-model:Year .
+
+<B/30028hasStationOfLife7>
+	rdfs:label "Professor für Physiologie und 1893-1895 Vorsitzender des Kuratoriums am „Klinischen Institut der Großfürstin Elena Pavlovna“ St. Petersburg" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1890> ;
+	drw-model:began <Year/1887> .
+
+<RelatedPerson/30028motherIs1>
+	drw-model:hasComment <Comment/30028_2> ;
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30028_1> ;
+	rdfs:label "Julie Auguste Catherine (Julija Vasil’evna), geb. Žukotinskaja[1] oder Ozerskaja[2] (1828-1896)" .
+
+<W/30028hasW4>
+	rdfs:label "O fiziologičeskom vozdejstvii kokaina [Erstveröffentlichung in russischer Sprache von <i>Ueber die physiologische Wirkung des Cocaïn</i> (vgl. <b>GPV</b>, Pfrepper 2009, 144 [A 9])]. Učenye zapiski Sankt-Peterburgskogo gosudarstvennogo medicinskogo universiteta im. akademika I. P. Pavlova 9 (2002) 4, 11-27." ;
+	a drw-model:W .
+
+<B/30028hasStationOfLife20>
+	drw-model:inYear <Year/1921> ;
+	rdfs:label "Emigration nach Westeuropa" ;
+	a drw-model:B .
+
+<GPV/30028hasGPV2>
+	rdfs:label "Publikationen 1879-1886 in deutscher Sprache, in: Pfrepper 2009, 143-145." ;
+	a drw-model:GPV .
+
+<P/30028hasP11>
+	a drw-model:P ;
+	rdfs:label "V. K. von Anrep mit Familie, St. Petersburg ca. 1917. Foto in: Yentis/Vlassakov 1999 (<b>SL</b>), 891." .
+
+<Year/1870>
+	rdfs:label "1870" ;
+	a drw-model:Year .
+
+<B/30028hasStationOfLife9>
+	rdfs:label "wiss. Sekretär des Medizinischen Rates im Innenministerium" ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1890> .
+
+<WL/30028hasWL1>
+	rdfs:label "Entdeckte 1879/80 an der Julius-Maximilians-Universität Würzburg die schmerzstillende Wirkung des Kokains und gilt als Pionier der Lokalanästhesie." ;
+	a drw-model:WL .
+
+<P/30028hasP4>
+	a drw-model:P ;
+	rdfs:label "Foto in: Ippolitova 2003 und 2004 (<b>SL</b>)." .
+
+<ImportantPerson/30664>
+	a drw-model:ImportantPerson .
+
+<Comment/30028_6>
+	rdfs:label "Nicht 1890 wie in <b>SL</b> Stoljarenko 2003 und Yentis/Vlassakov 1999; vgl. Ippolitova 2004 (<b>SL</b>), 193." ;
+	a drw-model:Comment .
+
+<B/30028hasStationOfLife1>
+	drw-model:inYear <Year/1876> ;
+	rdfs:label "Junior-Ordinator im Militärhospital Nr. 43 in St. Petersburg" ;
+	a drw-model:B .
+
+<A/30028hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Studium an der Juristischen Fakultät der Universität St. Petersburg" ;
+	drw-model:inYear <Year/1870> .
+
+<B/30028hasStationOfLife18>
+	rdfs:label "Aufsichtsratsvorsitzender der Russisch-französischen Kommerzbank" ;
+	drw-model:ended <Year/1917> ;
+	a drw-model:B ;
+	drw-model:began <Year/1915> .
+
+<B/30028hasStationOfLife6>
+	drw-model:ended <Year/1887> ;
+	a drw-model:B ;
+	drw-model:began <Year/1884> ;
+	rdfs:label "ao. Professor für gerichtliche Medizin an der Medizinischen Fakultät der Universität Char’kov" .
+
+<SL/30028hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Dedjulin,V. I.: Professor V. K. Anrep (1852-1927 gg.) – stranicy biografii. Problemy social’noj gigieny i istorija mediciny (1998) Nr. 4, 54-56." .
+
+<B/30028hasStationOfLife10>
+	drw-model:inYear <Year/1891> ;
+	a drw-model:B ;
+	rdfs:label "Mitglied des Rates beim Ministerium für Volksbildung" .
+
+<Year/1871>
+	a drw-model:Year ;
+	rdfs:label "1871" .
+
+<RelatedPerson/30028hasDescendant1>
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30028_5> ;
+	drw-model:hasComment <Comment/30028_6> ;
+	drw-model:hasComment <Comment/30028_7> ;
+	rdfs:label "Boris Vasil’evič (1883-1969), Mosaikkünstler, Lyriker, Kunstkritiker[5]<br>Gleb Vasil’evič (1889[6]-1955), Neurophysiologe an der Universität Kairo<br>Stiefsöhne[7]: Vladimir (* 1878), Ėrast (* 1880)" .
+
+<B/30028hasStationOfLife8>
+	rdfs:label "Professor für Gerichtsmedizin an der Schule für Rechtswissenschaft in St. Petersburg" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1898> ;
+	drw-model:began <Year/1890> .
+
+<P/30028hasP5>
+	rdfs:label "Foto in: Stoljarenko 2003 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<A/30028hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Abschluss des Gymnasiums in Ekaterinoslav" ;
+	drw-model:inYear <Year/1870> .
+
+<P/30028hasP6>
+	a drw-model:P ;
+	rdfs:label "Foto in: [Tretij] 3-j sozyv (<b>SL</b>)." .
+
+<Comment/30028_7>
+	rdfs:label "In <b>SL</b> Ippolitova 2003, 326, und 2004, 193, fälschlicherweise als leibliche Kinder Anreps genannt; es waren aber Söhne aus der ersten Ehe von Praskov’ja Michajlovna und wuchsen in der Familie Anrep auf; vgl. <b>SL</b> Stoljarenko und Yentis/Vlassakov." ;
+	a drw-model:Comment .
+
+<SL/30028hasSL11>
+	a drw-model:SL ;
+	drw-model:hasDate "25.10.2010" ;
+	rdfs:label "Stoljarenko, Pavel Jur’evič: Istorija novokaina. Teil 3: Stranicy iz biografij učenych, vnesšich vklad v otkrytie i izučenie novokaina. Samara 2003 (Online Ressource)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.critical.ru/actual/stolyarenko/novokain_3.htm" .
+
+<B/30028hasStationOfLife19>
+	rdfs:label "Bevollmächtigter der St. Petersburger städtischen Kreditgesellschaft" ;
+	drw-model:ended <Year/1917> ;
+	a drw-model:B ;
+	drw-model:began <Year/1915> .
+
+<Year/1864>
+	rdfs:label "1864" ;
+	a drw-model:Year .
+
+<SL/30028hasSL16>
+	a drw-model:SL ;
+	rdfs:label "Šustov, A. S. (Hg.): Naši dejateli po medicine. Sankt-Peterburg 1910 (Illjustrirovannyj vestnik kul’tury, naučno-vospitatel’nago, techničeskago i torgovo-promyšlennago progressa Rossii 1) [Microfiche, ohne Seitenangaben]" .
+
+<Year/1902>
+	rdfs:label "1902" ;
+	a drw-model:Year .
+
+<P/30028hasP3>
+	a drw-model:P ;
+	rdfs:label "Foto in: Boiovič, M. M.: Členy Gosudarstvennoj Dumy. Tretij sozyv 1907-1912 g. Portrety i biografii. Moskva 1908, zit. n.WBIS RBA (<b>SL</b>)." .
+
+<Date/29_9_or_11_10_1852>
+	a drw-model:Date ;
+	rdfs:label "29.9./11.10.1852" .
+
+<Year/1904>
+	rdfs:label "1904" ;
+	a drw-model:Year .
+
+<Date/1_10_1927>
+	rdfs:label "1.10.1927" ;
+	a drw-model:Date .
+
+<SL/30028hasSL3>
+	<http://xmlns.com/foaf/0.1/homepage> "http://88.217.241.77/amburger/" ;
+	a drw-model:SL ;
+	rdfs:label "Erik-Amburger-Datenbank. Ausländer im vorrevolutionären Russland (Online Ressource, 10.4.2012): Dokument-Id [219/223 (25.10.2010)]." .
+
+<A/30028hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Studienaufenthalt bei C. <span style='font-variant:small-caps;'>Ludwig</span> an der Universität Leipzig" ;
+	drw-model:hasNameLink <ImportantPerson/30664> ;
+	drw-model:inYear <Year/1871> .
+
+<Year/1912>
+	rdfs:label "1912" ;
+	a drw-model:Year .
+
+<B/30028hasStationOfLife22>
+	a drw-model:B .
+
+<B/30028hasStationOfLife11>
+	drw-model:began <Year/1897> ;
+	drw-model:ended <Year/1899> ;
+	a drw-model:B ;
+	rdfs:label "Gründer und Direktor des Medizinischen Instituts für Frauen in St. Petersburg" .
+
+<Year/1890>
+	rdfs:label "1890" ;
+	a drw-model:Year .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<GeneralLabor/Parlamentarier>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Parlamentarier" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<RelatedPerson/30028wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Praskov’ja Michajlovna, geb. Zacepina, verw. Šuberskaja (1856[3]/57[4]-1918)" ;
+	drw-model:hasComment <Comment/30028_3> ;
+	drw-model:hasComment <Comment/30028_4> .
+
+<Year/1921>
+	rdfs:label "1921" ;
+	a drw-model:Year .
+
+<Comment/30028_4>
+	a drw-model:Comment ;
+	rdfs:label "Stoljarenko 2003 (<b>SL</b>)." .
+
+<B/30028hasStationOfLife3>
+	drw-model:hasNameLink <ImportantPerson/30865> ;
+	rdfs:label "Weiterbildung in Deutschland:
+- bei I. <span style='font-variant:small-caps;'>Rosenthal</span> an der Universität Erlangen
+- bei Michael Josef <span style='font-variant:small-caps;'>Rossbach</span> (1842-1894) an der Universität Würzburg
+- bei <span style='font-variant:small-caps;'>Ludwig</span> in Leipzig" ;
+	drw-model:hasNameLink <ImportantPerson/30664> ;
+	drw-model:ended <Year/1881> ;
+	a drw-model:B ;
+	drw-model:began <Year/1878> .
+
+<SL/30028hasSL10>
+	rdfs:label "WBIS RBA: Russisches Biographisches Archiv (Online Ressource, 16.1.2013): R 20, 307-314." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" .
+
+<SL/30028hasSL8>
+	rdfs:label "Nemcy Rossii. Ėnciklopedija. Die Deutschen Russlands. Enzyklopädie. Bd. 1. Hauptred. Vladislav Michajlovič Karev. Moskva 1999; Bd. 2. Red. Vladislav Michajlovič Karev. 2004, Bd. 3. Red. O. Kubickaja. Moskva 2006. Bd. 1, 60-61; Bd. 2, 435." ;
+	a drw-model:SL .
+
+<B/30028hasStationOfLife12>
+	drw-model:ended <Year/1901> ;
+	rdfs:label "Generalgouvernement-Kurator des Lehrbezirkes Char’kov" ;
+	drw-model:began <Year/1899> ;
+	a drw-model:B .
+
+<RelatedPerson/30028fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Konstantin Joseph (Fedorovič, auch Iosifovič) (1819-1852), Marineoffizier" .
+
+<B/30028hasStationOfLife13>
+	drw-model:ended <Year/1902> ;
+	rdfs:label "Kurator des Lehrbezirkes St. Petersburg" ;
+	drw-model:began <Year/1901> ;
+	a drw-model:B .
+
+<W/30028hasW1>
+	a drw-model:W ;
+	rdfs:label "Vlijanie kristalličeskogo akonitina Duquesnel’ja na organizm životnych. Diss. Sankt-Peterburg 1881, 151 S." .
+
+<Year/1891>
+	rdfs:label "1891" ;
+	a drw-model:Year .
+
+<SL/30028hasSL1>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://dlib.rsl.ru/view.php?path=/rsl01004000000/rsl01004165000/rsl01004165846/rsl01004165846.pdf#page53" ;
+	drw-model:hasDate "17.10.2010" ;
+	rdfs:label "3-j [Tretij] sozyv Gosudarstvennoj Dumy. Portrety, biografii, avtografy. Sankt-Peterburg 1910, 53, 54 (Online Ressource, 17.10.2010, Online Ressource)." .
+
+<Comment/30028_5>
+	rdfs:label "Ihm widmete die russische Dichterin Anna Andreevna Achmatova (1889-1966) 31 Liebesgedichte." ;
+	a drw-model:Comment .
+
+<P/30028hasP10>
+	rdfs:label "Stelleckij, Dmitrij Semenovič (1875-1947): Portret Vasilija fon Anrepa s sobakoj Šamilem. Skulptur (1906). Staatliches Kunstmuseum St. Petersburg. Vgl. Knjazeva 2010 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<A/30028hasEducation4>
+	a drw-model:A ;
+	drw-model:ended <Year/1876> ;
+	rdfs:label "Studium an der Mediko-Chirurgischen Akademie (MCA) St. Petersburg" ;
+	drw-model:began <Year/1871> .
+
+<SL/30028hasSL13>
+	a drw-model:SL ;
+	rdfs:label "Yentis, Steve M., Vlassakov, Kamen V.: Vassily von Anrep, Forgotten Pioneer of Regional Anesthesia. Anesthesiology 90 (1999), 890-95." .
+
+<P/30028hasP2>
+	a drw-model:P ;
+	rdfs:label "Foto in: Al’manach sovremennych russkich gosudarstvennych dejatelej. Tom 1-2. Sankt-Peterburg 1897., zit. n. WBIS RBA (<b>SL</b>)." .
+
+<SL/30028hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 143-145." .
+
+<Year/1882>
+	rdfs:label "1882" ;
+	a drw-model:Year .
+
+<Year/1898>
+	rdfs:label "1898" ;
+	a drw-model:Year .
+

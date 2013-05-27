@@ -1,0 +1,150 @@
+(dp0
+VA
+p1
+V1782-1785 Apothekerlehre in einer staatlichen Apotheke, ab 1785 Studium an der Mediko-chirurgischen Lehranstalt in St. Petersburg, 1791 Arzt-Examen, 1816 Dr. med. et chir.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u0414A\u041bE\u0420, \u041aa\u0440\u043b \u0424\u0440\u0438\u0434\u0440\u0438\u0445
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VDALER, Karl Fridrich (fon)
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+V1788 Unterarzt der Flotte im Russisch-türkischen Krieg, zunächst auf dem Schiff "Izjaslav", danach zum Revaler Hafen abkommandiert, ab 1790 im Marinehospital in Kron\u0161tadt tätig, später Dienst auf dem Schiff "Evgenij", 1797 zum Stabsarzt ernannt, ab 1798 in der Leibgarde des Artilleriebataillons, 1805 Teilnahme an der Schlacht bei Austerlitz, 1807 im Lager bei Vitebsk eingesetzt, 1808 zum Kriegsministerium beordert, 1812-1814 Teilnahme am Krieg und an Auslandsmärschen der Russischen Armee, wegen fürsorglicher Behandlung der Verwundeten zum Oberarzt (oder Stabsarzt) der Artilleriebrigade des Gardekorps ernannt, ab 1821 (oder 1827) Stabsarzt und Leiter der Korpsärzte im Grenadier- und 3. Reservekavalleriekorps, der Truppenoberärzte und des gesamten medizinischen Teils der Militäransiedlungen, ab 1822 Leibmedikus am Hofe des Zaren ALEKSANDR I. (1777-1825).\u000aInhaber hoher russischer Ehrentitel und Auszeichnungen: "Kollegienassessor" (1800), "Hofrat" (1808), "Kollegienrat" (1812), "Staatsrat" (1816), "Wirklicher Russischer Staatsrat" (1821), St.-Vladimir-Orden 4. Klasse (1809) und 3. Klasse (1822), St.-Annen-Orden 2. Klasse (1813), Preußischer Roter-Adler-Orden (1813), Schwedischer Wasa-Orden 2. Klasse (1814).\u000a
+p14
+sVE
+p15
+V1. Emilie Juliane (\u0116milija Julijana), geb. Schumacher (1788-1828)\u000a2. Charlotte (\u0160arlotta), geb. Schaffransky (1794-1881)\u000a
+p16
+sVName
+p17
+(dp18
+S'Vornamen'
+p19
+VKarl Friedrich (von)
+p20
+sS'Nachname'
+p21
+VDahler
+p22
+ssVG
+p23
+VGeschwister-Genealogie
+p24
+sVNamensvariationen
+p25
+(lp26
+(dp27
+g6
+VDALLER
+p28
+sS'countyCode'
+p29
+g12
+sa(dp30
+g6
+VDOLER
+p31
+sg29
+g12
+sa(dp32
+g6
+V\u0414A\u041b\u041bE\u0420
+p33
+sg29
+g9
+sa(dp34
+g6
+V\u0414O\u041bE\u0420
+p35
+sg29
+g9
+sa(dp36
+g6
+VChristoforovi\u010d
+p37
+sg29
+g12
+sa(dp38
+g6
+VX\u0440\u0438\u0441\u0442o\u0444o\u0440o\u0432\u0438\u0447
+p39
+sg29
+g9
+sasVM
+p40
+VAnna Katharina, geb. Henning (1743-1830)
+p41
+sVMG
+p42
+VMoskovskoe fiziko-medicinskoe ob\u0161\u010destvo [Physiko-medizinische Gesellschaft zu Moskau] (ab 1817), Mediko-filantropi\u010deskij komitet [Mediko-philanthropisches Komitee].
+p43
+sVID
+p44
+V30204
+p45
+sVGeburtsdaten
+p46
+(dp47
+S'Datum'
+p48
+V5.11.1768
+p49
+ssVSterbedaten
+p50
+(dp51
+S'Ort'
+p52
+VSt. Petersburg
+p53
+sg48
+V2.6.1838
+p54
+ssVV
+p55
+VChristoph Philipp (1725-1785), Waffenschmied und Kaufmann
+p56
+sVSL
+p57
+(dp58
+S'general'
+p59
+(lp60
+VEAD: Dokument-Id [59501/46864 und 1064064 (27.7.2010)].
+p61
+aVKurzeintrag zur Biographie. http://dic.academic.ru/dic.nsf/enc_biography/17740 Online Ressource (2.4.2012).
+p62
+aVL'vov, A. F.: Zapiski. In: Aleksej Andreevi\u010d Arak\u010deev: Sviditel'stva sovremennikov. Moskva 2000. http://hronos.km.ru/libris/lib_a/arak_lvov.html Online Ressource (7.3.2012).
+p63
+aVNachapetov 2003, 216.
+p64
+aVNemcy Rossii. Bd. 1 (1999), 659-660.
+p65
+aVPeterburgskij nekropol'. Bd. 2 (1912), 6.
+p66
+assVBerufe
+p67
+(lp68
+VMilitärarzt
+p69
+aVKaiserlicher Leibmedikus
+p70
+asVQuelle
+p71
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 67-68.</i>
+p72
+s.

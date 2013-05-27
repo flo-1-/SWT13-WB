@@ -1,0 +1,350 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Date/16_3_1910>
+	rdfs:label "16.3.1910" ;
+	a drw-model:Date .
+
+<Place/Bonn>
+	a drw-model:Place ;
+	rdfs:label "Bonn" .
+
+<Year/1890>
+	rdfs:label "1890" ;
+	a drw-model:Year .
+
+<RelatedPerson/30800wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Christine, geb. Marc" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<P/30800hasP1>
+	rdfs:label "Portrait (Abb.) aus: VL People (<b>SL</b>)." ;
+	a drw-model:P .
+
+<Year/1868>
+	rdfs:label "1868" ;
+	a drw-model:Year .
+
+<GPV/30800hasGPV1>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:GPV .
+
+<Place/Hanau>
+	a drw-model:Place ;
+	rdfs:label "Hanau" .
+
+<SL/30800hasSL9>
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 1290-1291." ;
+	a drw-model:SL .
+
+<SL/30800hasSL10>
+	rdfs:label "Pavlov, Ivan Petrovič: Ėduard Pfljuger, 1829-1910: Nekrolog. S.-Peterburg 1910, 2 S." ;
+	a drw-model:SL .
+
+<B/30800hasStationOfLife2>
+	drw-model:began <Year/1859> ;
+	a drw-model:B ;
+	rdfs:label "o. Professor am Lehrstuhl für Physiologie an der Universität Bonn" ;
+	drw-model:ended <Year/1910> .
+
+<P/30800hasP3>
+	a drw-model:P ;
+	rdfs:label "Hela Peters-Ebbecke (1885-1973): Eduard Pflüger. Gemälde. Physiologisch-chemisches Institut Bonn." .
+
+<Year/1889>
+	rdfs:label "1889" ;
+	a drw-model:Year .
+
+<Year/1853>
+	rdfs:label "1853" ;
+	a drw-model:Year .
+
+<SL/30800hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Cyon, Elie von: Eduard Pflüger: ein Nachruf. Bonn 1910, 21 S." .
+
+<SL/30800hasSL16>
+	rdfs:label "Wegbereiter unserer naturwissenschaftlich-medizinischen Moderne (Online Ressource)." ;
+	drw-model:hasDate "2.1.2012" ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://appserv5.ph-heidelberg.de/onlinelex/index.php?id=708" .
+
+<SLComment/30800hasSLComment1>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<A/30800hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Promotion zum Dr. med. in Berlin" ;
+	drw-model:inYear <Year/1853> .
+
+<Year/1851>
+	rdfs:label "1851" ;
+	a drw-model:Year .
+
+<B/30800hasStationOfLife1>
+	rdfs:label "Assistent von <span style='font-variant:small-caps;'>Du Bois-Reymond</span> und Privatdozent in Berlin" ;
+	drw-model:began <Year/1853> ;
+	drw-model:hasNameLink <ImportantPerson/30230> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1859> .
+
+<SL/30800hasSL7>
+	rdfs:label "Nussbaum, Moritz: E. F. W. Pflüger als Naturforscher. Verzeichnis der veröffentlichten Werke und Schriften nebst kurzer Inhaltsangabe. Bonn 1909, 40 S." ;
+	a drw-model:SL .
+
+<B/30800hasStationOfLife3>
+	rdfs:label "Rektor der Universität Bonn" ;
+	drw-model:began <Year/1889> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1890> .
+
+<ImportantPerson/30739>
+	a drw-model:ImportantPerson .
+
+<Year/1859>
+	rdfs:label "1859" ;
+	a drw-model:Year .
+
+<SL/30800hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Niesen 2009 – Niesen, Josef: Bonner Personenlexikon. Bonn 2007, 238-239." .
+
+<A/30800hasEducation1>
+	a drw-model:A ;
+	drw-model:ended <Year/1849> ;
+	rdfs:label "Handelsschullehre" .
+
+<SL/30800hasSL14>
+	a drw-model:SL ;
+	rdfs:label "Rothschuh, Karl Eduard: Geschichte der Physiologie. Berlin, Göttingen, Heidelberg 1953, 133-135." .
+
+<SL/30800hasSL12>
+	rdfs:label "Pieper, Herbert K. O.: Die Berufung von Eduard Pflüger an die Universität Bonn. Berlin 1997 (Helmholtz-Editionen, Wissenschaftshistorische Manuskripte 11), 47 S.; Dokumente zur Berufung von Eduard Pflüger an die Universität in Bonn (~ 12), 55 S." ;
+	a drw-model:SL .
+
+<A/30800hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Beginn des Studiums der Medizin an der Universität Marburg" ;
+	drw-model:ended <Year/1851> ;
+	drw-model:began <Year/1850> .
+
+<B/30800hasStationOfLife5>
+	drw-model:inYear <Year/1868> ;
+	a drw-model:B ;
+	rdfs:label "Gründer der Zeitschrift <i>Archiv für die gesammte Physiologie des Menschen und der Thiere</i>, ab Bd. 132 (1910) <i>Pflügers Archiv</i>" .
+
+<SL/30800hasSL11>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SL .
+
+<P/30800hasP2>
+	a drw-model:P ;
+	rdfs:label "Portraits in <b>SL</b> (Auswahl): Niesen 2009, Orden Pour le Mérite [mit Unterschrift], RAN, Rothschuh 1953, Wegbereiter." .
+
+<ImportantPerson/30230>
+	a drw-model:ImportantPerson .
+
+<RelatedPerson/30800hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "3 Töchter, u. a. Anna, verh. Anschütz" .
+
+<P/30800hasP4>
+	a drw-model:P ;
+	rdfs:label "Albert Hermann Küppers (1842-1929): Eduard Pflüger. Bronzebüste. Physiologisch-chemisches Institut Bonn." .
+
+<SL/30800hasSL15>
+	rdfs:label "VL People (Online Ressource)." ;
+	a drw-model:SL ;
+	drw-model:hasDate "2.1.2012" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://vlp.mpiwg-berlin.mpg.de/people/data?id=per123" .
+
+<ImportantPerson/30800>
+	drw-model:hasSL <SL/30800hasSL17> ;
+	drw-model:hasP <P/30800hasP2> ;
+	drw-model:hasW <W/30800hasW1> ;
+	drw-model:hasID "30800" ;
+	drw-model:hasSL <SL/30800hasSL11> ;
+	drw-model:hasStationOfLife <B/30800hasStationOfLife1> ;
+	drw-model:hasEducation <A/30800hasEducation5> ;
+	drw-model:fatherIs <RelatedPerson/30800fatherIs1> ;
+	drw-model:hasEducation <A/30800hasEducation3> ;
+	drw-model:hasSL <SL/30800hasSL4> ;
+	drw-model:hasSL <SL/30800hasSL16> ;
+	drw-model:hasSL <SL/30800hasSL10> ;
+	drw-model:hasSL <SL/30800hasSL2> ;
+	drw-model:hasSL <SL/30800hasSL7> ;
+	rdfs:label "Pflüger, Eduard Friedrich Wilhelm" ;
+	drw-model:wasBornIn <Place/Hanau> ;
+	drw-model:hasEducation <A/30800hasEducation6> ;
+	drw-model:hasEducation <A/30800hasEducation4> ;
+	drw-model:hasHonoursAndAwardsComment <HonoursAndAwardsComment/30800hasHonoursAndAwardsComment1> ;
+	drw-model:hasP <P/30800hasP4> ;
+	drw-model:hasSLComment <SLComment/30800hasSLComment1> ;
+	drw-model:hasSL <SL/30800hasSL15> ;
+	drw-model:hasGPV <GPV/30800hasGPV1> ;
+	drw-model:hasEducation <A/30800hasEducation1> ;
+	drw-model:hasStationOfLife <B/30800hasStationOfLife6> ;
+	drw-model:wasMarriedTo <RelatedPerson/30800wasMarriedTo1> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30800hasHonoursAndAwards1> ;
+	drw-model:hasP <P/30800hasP1> ;
+	drw-model:diedOn <Date/16_3_1910> ;
+	drw-model:hasSL <SL/30800hasSL12> ;
+	drw-model:diedIn <Place/Bonn> ;
+	drw-model:hasSL <SL/30800hasSL14> ;
+	drw-model:hasSL <SL/30800hasSL9> ;
+	drw-model:hasWL <WL/30800hasWL2> ;
+	drw-model:hasSL <SL/30800hasSL1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Physiologie> ;
+	drw-model:hasStationOfLife <B/30800hasStationOfLife3> ;
+	drw-model:hasSL <SL/30800hasSL6> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30800.jpg> ;
+	drw-model:hasMG <MG/30800hasMG1> ;
+	drw-model:hasSL <SL/30800hasSL13> ;
+	drw-model:hasP <P/30800hasP3> ;
+	drw-model:hasDescendant <RelatedPerson/30800hasDescendant1> ;
+	drw-model:hasWL <WL/30800hasWL1> ;
+	drw-model:hasMainName <MainName/30800hasMainName1> ;
+	drw-model:hasStationOfLife <B/30800hasStationOfLife5> ;
+	drw-model:hasSL <SL/30800hasSL8> ;
+	a drw-model:ImportantPerson ;
+	drw-model:motherIs <RelatedPerson/30800motherIs1> ;
+	drw-model:hasSL <SL/30800hasSL5> ;
+	drw-model:hasStationOfLife <B/30800hasStationOfLife4> ;
+	drw-model:hasStationOfLife <B/30800hasStationOfLife2> ;
+	drw-model:hasEducation <A/30800hasEducation2> ;
+	drw-model:wasBornOn <Date/7_6_1829> ;
+	drw-model:hasSL <SL/30800hasSL3> .
+
+<HonoursAndAwards/30800hasHonoursAndAwards1>
+	rdfs:label "1868 „Geheimer Medizinalrat“<br>1893 Orden Pour le Mérite für Wissenschaften und Künste<br>1909 Ehrenbürger der Stadt Bonn<br>Grabstein-Medaillon in Bronze des Bildhauers Gottfried <span style='font-variant:small-caps;'>Welter</span> (1871-1940) auf dem Poppelsdorfer Friedhof in Bonn<br>Eduard-Pflüger-Straße in Bonn" ;
+	a drw-model:HonoursAndAwards .
+
+<W/30800hasW1>
+	rdfs:label "vgl.: <b>SL</b>" ;
+	a drw-model:W .
+
+<MG/30800hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Mitglied der Kaiserlichen Akademie der Wissenschaften in St. Petersburg. Weiteres vgl.: <b>SL</b>" .
+
+<RelatedPerson/30800fatherIs1>
+	rdfs:label "Johann Georg (1806-1871), Kaufmann, Politiker, Jurist" ;
+	a drw-model:RelatedPerson .
+
+<RelatedPerson/30800motherIs1>
+	rdfs:label "Charlotte Wilhelmine, geb. Richter († 1855)" ;
+	a drw-model:RelatedPerson .
+
+<SL/30800hasSL5>
+	drw-model:hasDate "2.1.2012" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/pnd116168080.html" ;
+	a drw-model:SL ;
+	rdfs:label "Gerabek, Werner E:. Pflüger, Eduard Friedrich Wilhelm. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. 20 (2001), 356 (Onlinefassung unter Online Ressource)." .
+
+<SL/30800hasSL1>
+	rdfs:label "BSĖ. Bd. 21 (1875), 260." ;
+	a drw-model:SL .
+
+<A/30800hasEducation6>
+	a drw-model:A ;
+	drw-model:inYear <Year/1858> ;
+	rdfs:label "Habilitation für Physiologie in Berlin" .
+
+<SL/30800hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Engelhardt, Dietrich von (Hg.): Biographische Enzyklopädie deutschsprachiger Mediziner. Bd. 1-2. München 2002, 466." .
+
+<B/30800hasStationOfLife4>
+	a drw-model:B ;
+	rdfs:label "Nach ihm sind das „Pflüger’sche Grundgesetz“ und das „Pflügersche Zuckungsgesetz“ benannt" .
+
+<SL/30800hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Brokgauz/Efron. Bd. 25 (1898), 862." .
+
+<HonoursAndAwardsComment/30800hasHonoursAndAwardsComment1>
+	rdfs:label "Ehrungen und Auszeichnungen (Auswahl):" ;
+	a drw-model:HonoursAndAwardsComment .
+
+<Year/1910>
+	rdfs:label "1910" ;
+	a drw-model:Year .
+
+<WL/30800hasWL1>
+	rdfs:label "Entdecker der intrazellulären Atmung" ;
+	a drw-model:WL .
+
+<GeneralLabor/Professor_fr_Physiologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<SL/30800hasSL17>
+	<http://xmlns.com/foaf/0.1/homepage> "http://de.wikipedia.org/wiki/Eduard_Pfl%C3%BCger" ;
+	drw-model:hasDate "2.1.2012" ;
+	a drw-model:SL ;
+	rdfs:label "Wikipedia (Online Ressource)." .
+
+<WL/30800hasWL2>
+	rdfs:label "Weiteres vgl.: <b>SL</b>" ;
+	a drw-model:WL .
+
+<MainName/30800hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Pflüger, Eduard Friedrich Wilhelm" ;
+	drw-model:hasNameVariation <NameVariation/30800hasNameVariation1> .
+
+<Year/1849>
+	rdfs:label "1849" ;
+	a drw-model:Year .
+
+<Year/1850>
+	rdfs:label "1850" ;
+	a drw-model:Year .
+
+<Date/7_6_1829>
+	a drw-model:Date ;
+	rdfs:label "7.6.1829" .
+
+<B/30800hasStationOfLife6>
+	a drw-model:B .
+
+<NameVariation/30800hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Пфлюгер, Эдуард Фридрих Вильгельм"@ru ;
+	rdfs:label "Pfljuger, Ėduard Fridrich Vil’gel’m"@de .
+
+<Year/1858>
+	rdfs:label "1858" ;
+	a drw-model:Year .
+
+<A/30800hasEducation4>
+	drw-model:hasNameLink <ImportantPerson/30230> ;
+	drw-model:ended <Year/1853> ;
+	rdfs:label "Fortsetzung des Studiums an der Universität Berlin bei J. <span style='font-variant:small-caps;'>Müller</span> und E. <span style='font-variant:small-caps;'>Du Bois-Reymond</span>" ;
+	drw-model:hasNameLink <ImportantPerson/30739> ;
+	drw-model:began <Year/1851> ;
+	a drw-model:A .
+
+<SL/30800hasSL13>
+	a drw-model:SL ;
+	rdfs:label "Rossijskaja akademija nauk. Personal’nyj sostav. Kniga 1: 1724-1917. Moskva 1999; Kniga 2: 1918-1973. Moskva 1999 Kniga 1 (1999), 481." .
+
+<SL/30800hasSL8>
+	rdfs:label "Orden Pour le Mérite (Online Ressource)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.orden-pourlemerite.de/mitglieder/eduard-friedrich-wilhelm-pflueger?m=4&amp;u=7" ;
+	a drw-model:SL ;
+	drw-model:hasDate "2.11.2012" .
+
+<A/30800hasEducation2>
+	a drw-model:A ;
+	drw-model:ended <Year/1850> ;
+	rdfs:label "Politik- und Jurastudium an der Universität Heidelberg" ;
+	drw-model:began <Year/1849> .
+

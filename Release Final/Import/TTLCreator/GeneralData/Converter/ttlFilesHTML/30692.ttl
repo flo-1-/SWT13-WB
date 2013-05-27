@@ -1,0 +1,120 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Place/Braunschweig>
+	a drw-model:Place ;
+	rdfs:label "Braunschweig" .
+
+<SL/30692hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Erik-Amburger-Datenbank [EAD]: Dokument-Id [61219/60885 und 1059515]." .
+
+<Date/1_oder_5_1_1793>
+	a drw-model:Date ;
+	rdfs:label "1. oder 5.1.1793" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<B/30692hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "Von 1815 bis 1822 vermutlich als praktischer Arzt tätig, ab 1822 Hofarzt, 1826 als Reisebegleiter eines Grafen von KOTSCHEBCY [vielleicht KOTZEBUE ?] in Deutschland, davon von März bis April in Würzburg, 1826-1833 kaiserlicher Leibchirurg, zugleich 1826-1848 Chefarzt am Obuchov-Hospital in St. Petersburg und ab 1828 Direktor der dortigen Feldscherschule, 1859-1865 Ehrenkurator und Präsident des Verwaltungsrates des Evangelischen Hospitals in St. Petersburg, außerdem 1845 und 1848 Direktor des Kinderasyls Vvedenskoe in Moskau.
+Ihm sind die hohen russischen Ehrentitel \"Hofrat\", \"Wirklicher russischer Staatsrat\" (1837) und \"Geheimrat\" zuteil geworden." .
+
+<RelatedPerson/30692fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann Anton (Ėmanuilovič) (1761-1838), Arzt, Medizinalinspektor" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<W/30692hasW3>
+	rdfs:label "Übersicht der Bestandteile der Mineralwässer des Kaukasus. (Trommsdorffs) Neues Journal der Pharmacie 12 (1826) 1, 288-290." ;
+	a drw-model:W .
+
+<MainName/30692hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Mayer, Carl Wilhelm Christoph von" .
+
+<MG/30692hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Deutscher ärztlicher Verein (ab 1822, 1826-29 Sekretär), Medicinskij filantropičeskij komitet [Medizinisch-philanthrophisches Komitee] (1862 Präsident)." .
+
+<RelatedPerson/30692motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Soph. Aug. Kath., geb. Ploettner (1761-1832)" .
+
+<W/30692hasW1>
+	a drw-model:W ;
+	rdfs:label "Tractatus de vulneribus pectoris penetrantibus. Pt. 1. St.-Petersburg 1823, 183 S." .
+
+<SL/30692hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Böhm, Benedikt: Wolkowo lutherischer Friedhof in St. Petersburg. Volkovskoe ljuteranskoe kladbišče Sankt-Peterburga. Bd. [I]. Sankt-Peterburg 1998, 68." .
+
+<GeneralLabor/Kaiserlicher_Leibchirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Kaiserlicher Leibchirurg" .
+
+<W/30692hasW2>
+	rdfs:label "Kaukasische Mineralwasser. Tabellen. Journal der practischen Heilkunde 61 (1825) 5, 111-115." ;
+	a drw-model:W .
+
+<A/30692hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Kam um 1808 mit ca. 15 Jahren nach Russland (Berufung des Vaters in russische Dienste), studierte Medizin und wurde zum Dr. med. promoviert." .
+
+<RelatedPerson/30692hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Carl Anton Julius Paul (Karl Karlovič) (1830-1883), Arzt, Direktor des Evangelischen Hospitals in St. Petersburg<br>" .
+
+<ImportantPerson/30692>
+	drw-model:hasSL <SL/30692hasSL1> ;
+	drw-model:hasW <W/30692hasW3> ;
+	drw-model:hasMainName <MainName/30692hasMainName1> ;
+	rdfs:label "Mayer, Carl Wilhelm Christoph von" ;
+	drw-model:hasEducation <A/30692hasEducation1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Kaiserlicher_Leibchirurg> ;
+	drw-model:hasW <W/30692hasW2> ;
+	drw-model:wasMarriedTo <RelatedPerson/30692wasMarriedTo1> ;
+	drw-model:fatherIs <RelatedPerson/30692fatherIs1> ;
+	drw-model:wasBornOn <Date/1_oder_5_1_1793> ;
+	drw-model:hasID "30692" ;
+	drw-model:hasStationOfLife <B/30692hasStationOfLife1> ;
+	drw-model:hasDescendant <RelatedPerson/30692hasDescendant1> ;
+	drw-model:hasMG <MG/30692hasMG1> ;
+	drw-model:hasWL <WL/30692hasWL1> ;
+	drw-model:diedOn <Date/31_12_1865_or_12_1_1866> ;
+	drw-model:hasSL <SL/30692hasSL2> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:motherIs <RelatedPerson/30692motherIs1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:wasBornIn <Place/Braunschweig> ;
+	drw-model:hasW <W/30692hasW1> ;
+	drw-model:hasQ <Q/30692hasQ1> .
+
+<Date/31_12_1865_or_12_1_1866>
+	rdfs:label "31.12.1865/12.1.1866" ;
+	a drw-model:Date .
+
+<RelatedPerson/30692wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sophie, geb. von Meyer (1806-1886)" .
+
+<Q/30692hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Briefe an Johann Bartholomäus Trommsdorff vom 9. März und 6. und 10. April 1826 aus Würzburg. In: Der Briefwechsel von Johann Bartholomäus von Trommsdorff (1770-1837). Bearb. von Hartmut Bettin, Christoph Friedrich, Wolfgang Götz. Halle (Saale), Stuttgart 2002 (Acta historica Leopoldina 18, Lfg. 7), 127-129." .
+
+<WL/30692hasWL1>
+	rdfs:label "1859 Mitgründer des Diakonissenkrankenhauses und des Evangelischen Hospitals in St. Petersburg." ;
+	a drw-model:WL .
+

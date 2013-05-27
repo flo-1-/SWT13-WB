@@ -1,0 +1,392 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<NameVariation/30749hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "Nawrocki, Feliks Franciszek (polnisch)" .
+
+<ImportantPerson/30749>
+	drw-model:hasComment <Comment/30749_4> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30749.jpg> ;
+	drw-model:hasWL <WL/30749hasWL2> ;
+	drw-model:hasStationOfLife <B/30749hasStationOfLife5> ;
+	drw-model:hasStationOfLife <B/30749hasStationOfLife4> ;
+	drw-model:hasSL <SL/30749hasSL7> ;
+	drw-model:hasGPV <GPV/30749hasGPV4> ;
+	drw-model:hasGPV <GPV/30749hasGPV2> ;
+	drw-model:hasStationOfLife <B/30749hasStationOfLife6> ;
+	drw-model:hasEducation <A/30749hasEducation3> ;
+	drw-model:hasComment <Comment/30749_6> ;
+	drw-model:motherIs <RelatedPerson/30749motherIs1> ;
+	drw-model:hasW <W/30749hasW4> ;
+	drw-model:hasGPV <GPV/30749hasGPV5> ;
+	drw-model:hasMG <MG/30749hasMG1> ;
+	drw-model:hasW <W/30749hasW1> ;
+	drw-model:hasSL <SL/30749hasSL6> ;
+	drw-model:hasSL <SL/30749hasSL3> ;
+	rdfs:label "Navrockij, Feliks Feliksovič" ;
+	drw-model:fatherIs <RelatedPerson/30749fatherIs1> ;
+	drw-model:hasSL <SL/30749hasSL8> ;
+	drw-model:hasSL <SL/30749hasSL5> ;
+	drw-model:hasID "30749" ;
+	drw-model:hasStationOfLife <B/30749hasStationOfLife3> ;
+	drw-model:hasWL <WL/30749hasWL1> ;
+	drw-model:hasW <W/30749hasW2> ;
+	drw-model:hasEducation <A/30749hasEducation4> ;
+	drw-model:hasP <P/30749hasP2> ;
+	drw-model:hasEducation <A/30749hasEducation5> ;
+	drw-model:hasEducation <A/30749hasEducation1> ;
+	drw-model:hasMainName <MainName/30749hasMainName1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasComment <Comment/30749_1> ;
+	drw-model:hasComment <Comment/30749_3> ;
+	drw-model:hasSL <SL/30749hasSL4> ;
+	drw-model:hasStationOfLife <B/30749hasStationOfLife1> ;
+	drw-model:hasSL <SL/30749hasSL2> ;
+	drw-model:hasSL <SL/30749hasSL9> ;
+	drw-model:hasComment <Comment/30749_5> ;
+	drw-model:hasW <W/30749hasW3> ;
+	drw-model:diedIn <Place/Warschau_Grabsttte_Evangelisch> ;
+	drw-model:hasSL <SL/30749hasSL1> ;
+	drw-model:hasGPV <GPV/30749hasGPV3> ;
+	drw-model:hasGPV <GPV/30749hasGPV1> ;
+	drw-model:hasP <P/30749hasP3> ;
+	drw-model:hasWL <WL/30749hasWL3> ;
+	drw-model:wasBornOn <Date/8_or_20_11_18371_oder_8_2_1838> ;
+	drw-model:hasEducation <A/30749hasEducation6> ;
+	drw-model:hasStationOfLife <B/30749hasStationOfLife2> ;
+	drw-model:diedOn <Date/20_5_or_2_6_1902> ;
+	drw-model:hasWL <WL/30749hasWL4> ;
+	drw-model:hasP <P/30749hasP1> ;
+	drw-model:hasComment <Comment/30749_2> ;
+	drw-model:hasEducation <A/30749hasEducation2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Physiologie> ;
+	drw-model:wasBornIn <Place/Tworki_Kreis_Grojec_Gouv_Warsc> .
+
+<RelatedPerson/30749fatherIs1>
+	rdfs:label "Feliks (* 1803 ?)[3], Anwalt" ;
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30749_3> .
+
+<Year/1878>
+	rdfs:label "1878" ;
+	a drw-model:Year .
+
+<P/30749hasP3>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Trzebski/Szczepańska-Sadowska (<b>SL</b>), 893." .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<MainName/30749hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Navrockij, Feliks Feliksovič" ;
+	drw-model:hasNameVariation <NameVariation/30749hasNameVariation3> ;
+	drw-model:hasNameVariation <NameVariation/30749hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30749hasNameVariation2> .
+
+<NameVariation/30749hasNameVariation1>
+	rdfs:label "Navrockij, Feliks-František"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Навроцкий, Феликс-Франтишек"@ru .
+
+<Year/1868>
+	rdfs:label "1868" ;
+	a drw-model:Year .
+
+<SL/30749hasSL6>
+	rdfs:label "WBIS RBA: Russisches Biographisches Archiv (Online Ressource, 16.1.2013): R 322, 123-126." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" .
+
+<SL/30749hasSL2>
+	rdfs:label "International Genealogical Index (Online Ressource, Nr. 19 und 22, 21.3.2011)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.familysearch.org/Eng/Search/ancestorsearchresults.asp?last_name=Nawrocki" .
+
+<SL/30749hasSL8>
+	rdfs:label "Trzebski, Andrzej: Feliks Nawrocki, 1837-1902. Acta physiologica Polonica 38 (1987) 2, 66-73; in engl. Ausgabe auf S. 66-70." ;
+	a drw-model:SL .
+
+<W/30749hasW3>
+	rdfs:label "[Hg.] Raboty, proizvedennye v laboratorijach Medicinskogo fakul’teta Imperatorskogo Varšavskogo universiteta. Bd. 1-8. Varšava 1874-1882." ;
+	a drw-model:W .
+
+<B/30749hasStationOfLife5>
+	drw-model:inYear <Year/1871> ;
+	drw-model:hasNameLink <ImportantPerson/30664> ;
+	a drw-model:B ;
+	rdfs:label "Weiterbildung in Deutschland bei C. <span style='font-variant:small-caps;'>Ludwig</span> an der Universität Leipzig" .
+
+<W/30749hasW1>
+	rdfs:label "De Claudii Bernardi methodo oxygenii copiam in sanguine determinandi. Diss. Breslau 1863, 15 S." ;
+	a drw-model:W .
+
+<WL/30749hasWL2>
+	rdfs:label "Autor von Publikationen in polnischer, russischer, deutscher und französischer Sprache, z. B. über Untersuchungen zu Schweißdrüsen und -nerven, Speichelabsonderung, Stoffwechsel im Muskel, Einfluss des Blutdrucks auf die Herztätigkeit u. a." ;
+	a drw-model:WL .
+
+<B/30749hasStationOfLife1>
+	drw-model:hasNameLink <ImportantPerson/10145> ;
+	drw-model:began <Year/1865> ;
+	drw-model:ended <Year/1867> ;
+	rdfs:label "Assistent am Physiologischen Institut der Universität Breslau bei <span style='font-variant:small-caps;'>Heidenhain</span> und Julius Lothar <span style='font-variant:small-caps;'>Meyer</span> (1830-1895) und Dozent für Geschichte der Medizin, Enzyklopädie und Methodologie" ;
+	drw-model:hasNameLink <ImportantPerson/30362> ;
+	a drw-model:B .
+
+<Year/1871>
+	rdfs:label "1871" ;
+	a drw-model:Year .
+
+<WL/30749hasWL1>
+	rdfs:label "Hauptforschungsgebiet: Nervenphysiologie" ;
+	a drw-model:WL .
+
+<SL/30749hasSL4>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 196-198." ;
+	a drw-model:SL .
+
+<P/30749hasP2>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Wielka encyklopedya powszechna ilustrowana. Red. Jerzy Alexandrowicz. Tom 1-48. Warszawa 1890-1912, zit. n. WBIS PAB (<b>SL</b>)." .
+
+<Year/1867>
+	rdfs:label "1867" ;
+	a drw-model:Year .
+
+<GPV/30749hasGPV2>
+	rdfs:label "Major publications 1861-1880 (25 Nrn.), in: Trzebski (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<P/30749hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Volkov/Kulikova 2003 b (<b>SL</b>), Bildeinlage zw. S. 368-369." .
+
+<Comment/30749_3>
+	rdfs:label "Vgl. Online Ressource, Nr. 19 (21.3.2011)." ;
+	a drw-model:Comment ;
+	<http://xmlns.com/foaf/0.1/homepage> <http://www.familysearch.org/Eng/Search/ancestorsearchresults.asp?last_name=Nawrocki> .
+
+<Date/8_or_20_11_18371_oder_8_2_1838>
+	rdfs:label "8./20.11.1837[1] oder 8.2.1838[2]" ;
+	drw-model:hasComment <Comment/30749_2> ;
+	a drw-model:Date ;
+	drw-model:hasComment <Comment/30749_1> .
+
+<A/30749hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Weiterbildung in Frankreich und Holland:
+- bei Claude <span style='font-variant:small-caps;'>Bernard</span> (1813-1878) am College de France in Paris
+- Adjunkt für medizinische Chemie am Physiologischen Institut der Universität Groningen bei Jan K. van <span style='font-variant:small-caps;'>Deen</span>" ;
+	drw-model:ended <Year/1864> ;
+	drw-model:began <Year/1863> .
+
+<Year/1865>
+	rdfs:label "1865" ;
+	a drw-model:Year .
+
+<Comment/30749_5>
+	rdfs:label "Zum Zeitraum 1874-1883 seiner Professur gibt es in der <b>SL</b> widersprüchliche Angaben: 1) „Die Physiko-mathematische Fakultät der Universität Kazan’ bot ihm 1874 die Leitung des Lehrstuhls für Physiologie an.“ (Bogdanov, zit. n. WBIS RBA); 2) „Den Ruf an die Universität Kazan’ 1874 lehnte er ab.“ (Połski słownik biograficzny, zit. n. WBIS PAB); 3) „1874 übernahm er an der Universität Kazan’ den Lehrstuhl für Physiologie. 1883 kehrte er an die Universität Warschau an den Lehrstuhl für Physiologie zurück.“ (Brokgauz i Efron, zit. n. WBIS RBA). Diese Angabe ist nicht korrekt; Nawrocki wurde nicht Professor an der Universität Kazan’. Vgl. auch <b>W</b> [Hg.]." ;
+	a drw-model:Comment .
+
+<SL/30749hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 320-321." .
+
+<GPV/30749hasGPV4>
+	rdfs:label "Publikationen 1861-1891 (27 Nrn.), in: Bogdanov, Anatol: Materialy dlja istorii naučnoj i prikladnoj dejatel’nosti v Rossii po zoologii [...] (1850-1887 g.). Tom 1-4. Moskva 1888-l892, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<GPV/30749hasGPV1>
+	rdfs:label "Publikationen 1861-1876, in: Kośmiński, Stanisław: Słownik lekarzów polskich. Obemujący oprócz krótkich życiorysów lekarzy polaków oraz cudzoziemców w Polsce osiadłych, dokładną bibliografią lekarską polską od czasów najdawniejszych aż do 1885 r. Warszawa 1888 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<Year/1863>
+	rdfs:label "1863" ;
+	a drw-model:Year .
+
+<Comment/30749_1>
+	a drw-model:Comment ;
+	rdfs:label "Volkov/Kulikova 2003 b (<b>SL</b>): „So im Formulareintrag“ [von 1881 oder 1902 ?]; auch in <b>SL</b> Wielka encyklopedya powszechna ilustrowana. Red. Jerzy Alexandrowicz. Tom 1-48. Warszawa 1890-1912, Polski słownik biograficzny. Polska Akademia Nauk, Instytut Historii. T. 1-38. Kraków u. a. 1935-1991 und Czajka, Michał, Kamler, Marcin, Sienkiewicz, Witold: Leksykon historii Polski. Warszawa 1995, zit. n. WBIS PAB, und Trzebski 1987." .
+
+<SL/30749hasSL7>
+	rdfs:label "Trzebski, Andrzej, Szczepańska-Sadowska, Ewa: Katedra i Zakład Fizjologii Doświadczalnej i Klinicznej (Online Ressource, 22.3.2011), 893-894." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://fizjologia.amwaw.edu.pl/dokumenty/historia.pdf" .
+
+<Year/1879>
+	rdfs:label "1879" ;
+	a drw-model:Year .
+
+<B/30749hasStationOfLife2>
+	drw-model:ended <Year/1868> ;
+	drw-model:began <Year/1867> ;
+	rdfs:label "Adjunkt für Histologie und physiologische Chemie in der Medizinischen Abteilung der Haupt-Schule in Warschau" ;
+	a drw-model:B .
+
+<Year/1881>
+	rdfs:label "1881" ;
+	a drw-model:Year .
+
+<Date/20_5_or_2_6_1902>
+	a drw-model:Date ;
+	rdfs:label "20.5./2.6.1902" .
+
+<Comment/30749_6>
+	rdfs:label "Korrektur zu <b>SL</b> WBIS PAB: Die Angaben zu Feliks Nawrocki in I 396, 161-164 wurden mit Angaben zu Marcelli Nencki (1847-1901) in I 397, 105-108 vertauscht und falsch gescannt: Die Biographie von Nawrocki ist unvollständig und wird bei Nencki mit der dazugehörigen Bibliographie fortgesetzt. Die bei Nawrocki angegebene Bibliographie gehört zu Nencki." ;
+	a drw-model:Comment .
+
+<MG/30749hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Towarzystwo Lekarskie Warszawskie, Vilenskoe medicinskoe obščestvo [Medizinische Gesellschaft zu Wilna] (1874), Obščestvo russkich vračej St. Peterburg [Gesellschaft russischer Ärzte St. Petersburg] (1884 Ehrenmitglied), Société des médecins et des naturalistes de Bruxelles (1891)" .
+
+<NameVariation/30749hasNameVariation2>
+	rdfs:label "Nawrocki, Felix Franz"@de ;
+	a drw-model:NameVariation .
+
+<SL/30749hasSL3>
+	rdfs:label "Kośmiński, Stanisław: Słownik lekarzów polskich. Obejmujący oprócz krótkich zyciorysów lekarzy polaków oraz cudzoziemców w Polsce osiadłych, dokładną bibliografią lekarską polską od czasow najdawniejszych aż do 1885 r. Warszawa 1888, 343-344." ;
+	a drw-model:SL .
+
+<A/30749hasEducation1>
+	a drw-model:A ;
+	drw-model:inYear <Year/1855> ;
+	rdfs:label "Abschluss des Gymnasiums in Poznan’/Posen (Polen)" .
+
+<ImportantPerson/30362>
+	a drw-model:ImportantPerson .
+
+<GeneralLabor/Professor_fr_Physiologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<W/30749hasW4>
+	rdfs:label "[Hg.] Trudy pjatogo S-ezda russkich estestvoispytatelej i vračej v Varšave, proischodivšego s 31-go avgusta po 9-oe sentjabrja 1876 goda. [Varšava 1876], 85 S." ;
+	a drw-model:W .
+
+<Place/Warschau_Grabsttte_Evangelisch>
+	a drw-model:Place ;
+	rdfs:label "Warschau, Grabstätte: Evangelisch-reformierter Friedhof" .
+
+<A/30749hasEducation3>
+	a drw-model:A ;
+	drw-model:began <Year/1858> ;
+	drw-model:ended <Year/1863> ;
+	drw-model:hasNameLink <ImportantPerson/30362> ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Breslau bei R. <span style='font-variant:small-caps;'>Heidenhain</span>" .
+
+<B/30749hasStationOfLife4>
+	drw-model:ended <Year/1902> ;
+	rdfs:label "o. Professor (ab 1894 „Verdienter Professor“) für Physiologie an der Medizinischen Fakultät der Universität Warschau" ;
+	drw-model:began <Year/1881> ;
+	a drw-model:B .
+
+<SL/30749hasSL1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	a drw-model:SL ;
+	rdfs:label "WBIS DBA: Deutsches Biographisches Archiv (Online Ressource, 16.1.2013): II 937, 427." .
+
+<Year/1855>
+	rdfs:label "1855" ;
+	a drw-model:Year .
+
+<SL/30749hasSL5>
+	drw-model:hasComment <Comment/30749_6> ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	rdfs:label "WBIS PAB: Polskie Archiwum Biograficzne (Online Ressource, 16.1.2013): I 396, 158-178; II 455, 12; 254, 7.[6]" .
+
+<B/30749hasStationOfLife6>
+	drw-model:inYear <Year/1879> ;
+	a drw-model:B ;
+	rdfs:label "Dozent am Lehrstuhl für medizinische Chemie der Universität Warschau" ;
+	drw-model:inYear <Year/1878> .
+
+<Place/Tworki_Kreis_Grojec_Gouv_Warsc>
+	a drw-model:Place ;
+	rdfs:label "Tworki, Kreis Grojec, Gouv. Warschau" .
+
+<WL/30749hasWL4>
+	rdfs:label "1873-1874 Hauptredakteur von <i>Pamiętnik Towarzystwa Lekarskiego Warszawskiego</i>" ;
+	a drw-model:WL .
+
+<A/30749hasEducation6>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Mediko-Chirurgischen Akademie St. Petersburg" ;
+	drw-model:inYear <Year/1870> .
+
+<B/30749hasStationOfLife3>
+	drw-model:began <Year/1868> ;
+	drw-model:ended <Year/1881> ;
+	rdfs:label "ao. Professor für Physiologie der Haupt-Schule, ab 1869 Russische Kaiserliche Universität Warschau[5]" ;
+	a drw-model:B ;
+	drw-model:hasComment <Comment/30749_5> .
+
+<Comment/30749_2>
+	rdfs:label "Volkov/Kulikova 2003 b (<b>SL</b>): „In der Autobiographie: 8(20).2.1838.“; auch in <b>SL</b> WBIS DBA, WBIS PAB (6x, 1x auch 1836 angegeben) und Pfrepper 2009" ;
+	a drw-model:Comment .
+
+<Year/1864>
+	rdfs:label "1864" ;
+	a drw-model:Year .
+
+<A/30749hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Studium in Berlin (alte und östliche Sprachen)" ;
+	drw-model:ended <Year/1858> ;
+	drw-model:began <Year/1855> .
+
+<Year/1902>
+	rdfs:label "1902" ;
+	a drw-model:Year .
+
+<W/30749hasW2>
+	rdfs:label "O vlijanii davlenija krovi na centr bluždajuščjich nervov. Diss. S.-Peterburg 1870, 24 S." ;
+	a drw-model:W .
+
+<A/30749hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Medizinischen Fakultät der Universität Breslau" ;
+	drw-model:inYear <Year/1863> .
+
+<GPV/30749hasGPV3>
+	rdfs:label "Publikationen 1867-1884, in Zmeev, Lev Fedorovič: Russkie vrači pisateli. Tom 1-5. Sankt-Peterburg 1886-1889, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<Comment/30749_4>
+	rdfs:label "1836 Heirat mit Feliks Nawrocki. Vgl. (Online Ressource)." ;
+	drw-model:hasDate "21.3.2011" ;
+	a drw-model:Comment ;
+	<http://xmlns.com/foaf/0.1/homepage> <http://www.familysearch.org/Eng/Search/IGI/individual_record.asp?recid=100020491865&amp;lds=1&amp;region=5&amp;frompage=99> .
+
+<ImportantPerson/30664>
+	a drw-model:ImportantPerson .
+
+<Year/1858>
+	rdfs:label "1858" ;
+	a drw-model:Year .
+
+<ImportantPerson/10145>
+	a drw-model:ImportantPerson .
+
+<GPV/30749hasGPV5>
+	rdfs:label "Deutschsprachige Publikationen 1861-1891, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<RelatedPerson/30749motherIs1>
+	rdfs:label "Paulina Nawrocka, geb. Manstein (* 1808)[4]" ;
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30749_4> .
+
+<Year/1870>
+	rdfs:label "1870" ;
+	a drw-model:Year .
+
+<WL/30749hasWL3>
+	rdfs:label "1867-1868 Mitredakteur von <i>Gazeta lekarska</i>" ;
+	a drw-model:WL .
+

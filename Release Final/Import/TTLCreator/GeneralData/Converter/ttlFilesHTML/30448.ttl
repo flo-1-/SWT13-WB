@@ -1,0 +1,219 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<P/30448hasP4>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Professora MCA/VMA (<b>SL</b>)." .
+
+<SL/30448hasSL2>
+	rdfs:label "Nemcy Rossii. Bd. 2 (2004), 434; Bd. 3 (2006), 235-237." ;
+	a drw-model:SL .
+
+<RelatedPerson/30448fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Hermann, Klempnermeister oder Unteroffizier" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30448hasW4>
+	rdfs:label "Iz perežitogo, 1907-1918. 2 Bde. Berlin 1935, 275 S. und 311 S." ;
+	a drw-model:W .
+
+<RelatedPerson/30448hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Tat'jana (Georgievna) (* 1888)<br>Adoptivtöchter Nina (* 1879) und Tamara, verh. Verbickaja (* 1883)" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<P/30448hasP2>
+	a drw-model:P ;
+	rdfs:label "Boris Aleksandrovič Nachapetov: G. E. Rejn. Zeichnung. In: Nachapetov 2003, 187." .
+
+<WGermanPublication/30448hasWGermanPublication1>
+	rdfs:label "Beitrag zur Lehre von den lymphangiectatischen Fibromyomen des Uterus in pathologisch-anatomischer und klinischer Beziehung. Archiv für Gynäkologie 9 (1876), 414-425. Anfangsseite abgedruckt in: Fischer 2010, 207." ;
+	a drw-model:WGermanPublication .
+
+<B/30448hasStationOfLife1>
+	rdfs:label "1874-1876 Ordinator in der Klinik für Geburtshilfe, 1875 zugleich am Militärkrankenhaus der MCA, 1876-1878 Oberchirurg in Militärlazaretten während des Russisch-Türkischen Krieges, 1878-1880 erneut Ordinator in der Klinik für Geburtshilfe und 1880-1883 Privatdozent an der MCA (seit 1881 Militärmedizinische Akademie, MMA), zugleich zeitweise Arzt im 89. Belozerskij-Infanterieregiment, 1880-1882 Studienaufenthalte in geburtshilflichen und chirurgischen Kliniken in Westeuropa, darunter bei Theodor von BILLROTH (1829-1894) und Carl BRAUN (1822-1891) in Wien, bei Wilhelm Alexander FREUND (1833-1917), Albert LUECKE (1829-1894), Heinrich Wilhelm WALDEYER-HARTZ (1826 bis 1921) und Felix HOPPE-SEYLER (1825-1925) in Straßburg, bei Vinzenz CZERNY (1842-1916) in Heidelberg, bei Robert OLSHAUSEN (1835-1915) und Richard von VOLKMANN (1830-1889) in Halle, bei Carl SCHROEDER (1838-1887), Bernhard von LANGENBECK (1810-1887) und Adolf von BARDELEBEN (1819-1895) in Berlin, bei Carl THIERSCH (1822-1895) und Carl CREDÉ (1819-1892) in Leipzig, 1883(oder 1884)-1900 ao. Professor an der St.-Vladimir-Universität in Kiev, 1900-1910 o. Professor und Lehrstuhl für Geburtshilfe und Frauenkrankheiten, ab 1901 Akademiemitglied und ab 1905 \"Verdienter Professor\" an der MMA, ab 1908 \"Ehrenleibchirurg\" am Hofe des Zaren NIKOLAJ II. (1868-1918), zugleich ab 1907 Abgeordneter der Duma, 1908-1915 Vorsitzender des Medizinalrats des Ministeriums des Innern, ab 1915 Mitglied des Staatsrates, 1916-1917 Leiter (mit Rechten eines Ministers) der Hauptverwaltung des Gesundheitswesens, nach 1917 Emigration über Deutschland, Frankreich und Konstantinopel nach Bulgarien, dort 1920-1922 und 1924-1926 Professor und Lehrstuhl für Geburtshilfe und Gynäkologie an der Universität Sofia, danach Emigration nach Nizza.
+Inhaber hoher russischen Ehrentitel und Auszeichnungen, darunter \"Wirklicher Russischer Staatsrat\" (1896), \"Geheimrat\" (1906), \"Wirklicher Geheimrat\" (1917), St.-Annen-Orden 3. Klasse mit Schwertern (1877), 2. Klasse (1886) und 1. Klasse (1911), St.-Stanislav-Orden 2. Klasse (1879) und 1. Klasse (1908), St.-Vladimir-Orden 4. Klasse (1900), 3. Klasse (1903) und 2. Klasse (1913).
+1911 wurde anlässlich seines 25. Dienstjubiläums an der St.-Vladimir-Universität Kiev eine Prämie für die beste wissenschaftliche Publikation verliehen: <i>Premija imeni Akademika G. E. Rejna</i>." ;
+	a drw-model:B .
+
+<MainName/30448hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Rein, Georg" .
+
+<W/30448hasW2>
+	rdfs:label "Otčet po bor'be s choleroj. Vestnik Krasnogo Kresta (1911), 140 S." ;
+	a drw-model:W .
+
+<RelatedPerson/30448wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Lidia Sergeevna, geb. Saburova (1856-1941)" .
+
+<P/30448hasP6>
+	rdfs:label "Zwei Portraits in: Boiovič, Milan Michajlovič: Členy Gosudarstvennoj Dumy. Vtoroj sozyv 1907-1912 g. Portrety i biografii. Moskva 1907; ~ Četvertij sozyv 1912-1917 g. Moskva 1913; zit. nach WBIS RBA: R 393,110-111 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<WGermanPublication/30448hasWGermanPublication5>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Beiträge zur Kenntniss der Reifungserscheinungen und Befruchtungsvorgänge am Säugethierei. Archiv für mikroskopische Anatomie 22 (1883), 233-270." .
+
+<P/30448hasP5>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Šustov (<b>SL</b>)." .
+
+<GeneralLabor/Gesundheitspolitiker>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Gesundheitspolitiker" .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<WGermanPublication/30448hasWGermanPublication3>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Beitrag zur Lehre von der Innervation des Uterus. Archiv für die gesamte Physiologie des Menschen und der Tiere 23 (1880), 68-84." .
+
+<SL/30448hasSL6>
+	rdfs:label "WBIS RBA: R 393,106-118; BASU 374,132-136." ;
+	a drw-model:SL .
+
+<Comment/30448_1>
+	rdfs:label " Mit Korrekturen und Ergänzungen der Angaben in <b>GPV</b> zu Titeln, Jahres- und Seitenzahlen." ;
+	a drw-model:Comment .
+
+<GeneralLabor/Professor_fr_Geburtshilfe_und_>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Geburtshilfe und Gynäkologie" .
+
+<SL/30448hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Professora MCA/VMA, 37." .
+
+<WL/30448hasWL1>
+	rdfs:label "Gründer der Geburtshilflich-gynäkologischen Klinik an der Universität Kiev und 1908 an der MMA, eines Verwundetenlazaretts an der Baronet-Wyllie-Klinik, Autor zahlreicher Veröffentlichungen zur Geburtshilfe und operativen Gynäkologie." ;
+	a drw-model:WL .
+
+<Date/4_12_1942>
+	a drw-model:Date ;
+	rdfs:label "4.12.1942" .
+
+<Place/Nizza_Frankreich_oder_1943_in_>
+	a drw-model:Place ;
+	rdfs:label "Nizza (Frankreich) oder † 1943 in Sofia" .
+
+<ImportantPerson/30448>
+	drw-model:hasW <W/30448hasW1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30448hasWGermanPublication3> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30448hasWGermanPublication4> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30448hasWGermanPublication1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	drw-model:hasMG <MG/30448hasMG1> ;
+	drw-model:hasW <W/30448hasW2> ;
+	drw-model:hasGPV <GPV/30448hasGPV1> ;
+	drw-model:diedIn <Place/Nizza_Frankreich_oder_1943_in_> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30448hasWGermanPublication2> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30448.jpg> ;
+	drw-model:wasMarriedTo <RelatedPerson/30448wasMarriedTo1> ;
+	drw-model:hasComment <Comment/30448_1> ;
+	drw-model:hasP <P/30448hasP6> ;
+	drw-model:hasP <P/30448hasP1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Geburtshilfe_und_> ;
+	drw-model:hasW <W/30448hasW3> ;
+	drw-model:hasWL <WL/30448hasWL2> ;
+	drw-model:hasStationOfLife <B/30448hasStationOfLife1> ;
+	drw-model:hasSL <SL/30448hasSL1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Gesundheitspolitiker> ;
+	drw-model:hasSL <SL/30448hasSL4> ;
+	drw-model:hasDescendant <RelatedPerson/30448hasDescendant1> ;
+	drw-model:hasWL <WL/30448hasWL1> ;
+	drw-model:diedOn <Date/4_12_1942> ;
+	drw-model:wasBornIn <Place/St_Petersburg> ;
+	drw-model:hasGermanPublicationComment <GermanPublicationComment/30448hasGermanPublicationComment1> ;
+	drw-model:hasMainName <MainName/30448hasMainName1> ;
+	drw-model:hasEducation <A/30448hasEducation1> ;
+	drw-model:wasBornOn <Date/20_4_or_2_5_1854_oder_1852> ;
+	drw-model:hasSL <SL/30448hasSL5> ;
+	drw-model:hasP <P/30448hasP3> ;
+	drw-model:hasID "30448" ;
+	drw-model:hasSL <SL/30448hasSL3> ;
+	drw-model:hasSL <SL/30448hasSL6> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30448hasWGermanPublication5> ;
+	rdfs:label "Rein, Georg" ;
+	drw-model:fatherIs <RelatedPerson/30448fatherIs1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasP <P/30448hasP5> ;
+	drw-model:hasP <P/30448hasP2> ;
+	drw-model:hasW <W/30448hasW4> ;
+	drw-model:hasSL <SL/30448hasSL2> ;
+	drw-model:hasP <P/30448hasP4> .
+
+<W/30448hasW1>
+	rdfs:label "K voprosu ob udalenii fibromiom matki posredstvom črevosečenija. Diss. Sankt-Peterburg 1876, 118 S." ;
+	a drw-model:W .
+
+<SL/30448hasSL3>
+	rdfs:label "Pridvornyj kalendar': na 1910 god. S.-Peterburg [o. J.], 294; ~ 1911, 305; ~ 1913, 321-322; ~ 1914, 404." ;
+	a drw-model:SL .
+
+<GPV/30448hasGPV1>
+	rdfs:label "Publikationen 1876-1884, in: Ikonnikov, Vladimir Stepanovič: Biografičeskij slovar' professorov i prepodavatelej Imperatorskago universiteta sv. Vladimira (1834-1884). Kiev 1884; zit. nach WBIS RBA: R 393,107-108 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<SL/30448hasSL1>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [53721/41655 (4.8.2010)]." .
+
+<P/30448hasP3>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Levenson, Mark L'vovič: Gosudarstvennyj sovet. Petrograd 1915; zit. nach WBIS RBA: R 393,113 (<b>SL</b>)." .
+
+<P/30448hasP1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://all-photo.ru/empire/index.ru.html?big=on&img=15739&id=15738" ;
+	a drw-model:P ;
+	rdfs:label "Foto, Online Ressource Online Ressource (7.3.2012). Abgedruckt in: Fischer 2010, 204." .
+
+<W/30448hasW3>
+	rdfs:label "Operativno akušerstvo. Sofija 1926 (Universitetska Biblioteka 52), 428 S." ;
+	a drw-model:W .
+
+<A/30448hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch des 4. St. Petersburger Gymnasiums, 1869-1874 Studium und 1876 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg." .
+
+<WGermanPublication/30448hasWGermanPublication4>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Untersuchungen über die embryonale Entwicklungsgeschichte der Milchdrüse, 1. Archiv für mikroskopische Anatomie 20 (1881), 431-501; ~ 2: Vergleichend-anatomische Ergebnisse und Schlussresultate. Ibid. 22 (1883), 678-694." .
+
+<MG/30448hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Obščestvo praktičeskich vračej v St. Peterburge [Gesellschaft praktischer Ärzte in St. Petersburg] (ab 1876), Obščestvo russkich vračej [Gesellschaft russischer Ärzte] (ab 1878), Obščestvo Kievskich vračej [Gesellschaft Kiever Ärzte] (ab 1883), Akušersko-ginokologičeskoe obščestvo v Kieve [Geburtshilflich-gynäkologische Gesellschaft in Kiev] (1886 Gründer und bis 1900 Vorsitzender), Imperatorskaja Akademia nauk [Kaiserliche Akademie der Wissenschaften] (ab 1901), Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee] (ab 1901), Obščestvo Krasnogo Kresta Rossii [Rot-Kreuz-Gesellschaft Russlands] (ab 1910 Vorsitzender), Gesellschaft für Geburtshilfe und Gynäkologie zu Leipzig u.a." .
+
+<Date/20_4_or_2_5_1854_oder_1852>
+	a drw-model:Date ;
+	rdfs:label "20.4./2.5.1854 oder 1852" .
+
+<WGermanPublication/30448hasWGermanPublication2>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Myxoma enchondromatodes arborescens colli uteri. Archiv für Gynäkologie 15 (1880), 187-197." .
+
+<WL/30448hasWL2>
+	rdfs:label "1886-1900 Redakteur der <i>Protokoly zasedanij Akušersko-ginokologičeskogo obščestva v Kieve</i> und 1905-1909 der Zeitschrift <i>Akušerstvo i ženskie bolezni</i>." ;
+	a drw-model:WL .
+
+<SL/30448hasSL5>
+	rdfs:label "Šustov, A. S. (Hg.): Naši dejateli po medicine. S.-Peterburg 1910 (Illjustrirovannyj vestnik kul'tury, naučno-vospitatel'nago, techničeskago i torgovo-promyšlennago progressa Rossii 1)." ;
+	a drw-model:SL .
+
+<GermanPublicationComment/30448hasGermanPublicationComment1>
+	drw-model:hasComment <Comment/30448_1> ;
+	rdfs:label "<b>Publikationen in deutscher Sprache</b>:" ;
+	a drw-model:GermanPublicationComment .
+

@@ -1,0 +1,136 @@
+(dp0
+VA
+p1
+V1800-1810 Besuch des Priesterseminars in Rjazan' und 1810-1814 des dortigen Theologiekurses, zugleich bis 1815 Lehrer für Latein und Griechisch am Rjazaner Priesterseminar, 1815-1818 Studium an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+VTAPACO\u0412, \u0414\u043c\u0438\u0442\u0440\u0438\u0439 K\u043be\u043ce\u043d\u0442\u044ce\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sasVB
+p10
+V1818-1819 Bataillonsarzt im Preobra\u017eenskij-Leibgarde-Regiment, 1819-1820 Kanzleiverwalter der militärmedizinischen Abteilung des Präsidenten der MCA, 1820-1825 Hofarzt und Leibarzt des Zaren ALEKSANDR I. (1777-1825) während seiner Westeuropareisen, darunter insbesondere 1820 in Wien, wo T. alle Wiener Krankenhäuser, die Therapeutische, Chirurgische und Augenklinik, die Universität sowie das Anatomische Kabinett der Medicinisch-Chirurgischen Josephs-Akademie besuchte und den Leiter der Chirurgischen Klinik Vinzenz von KERN (1760-1829), den Leiter der Augenklinik Friedrich JAEGER VON JAXTHAL (1784-1871), den Professor für Physiologie Mihály Ignác von LENHOSSÉK (1773-1840) u.a. kennenlernte, 1826-1827 Oberarzt des Artillerie-Hospitals, ab 1827 Generalstabsarzt des Zivilressorts, ab 1829 "Ehrenleibchirurg" am Hofe des Zaren NIKOLAJ I. (1796-1855), 1836-1846 Direktor des Medizinaldepartments des Kriegsministeriums, ab 1847 Mitglied des Medizinalrats des Ministeriums des Innern.\u000aInhaber der Ehrentitel "Staatsrat" (1831) und "Geheimrat" (1866) sowie des St.-Vladimir-Ordens 4. (oder 2.) Klasse, 1839 Ehrendoktorwürde an der MCA.
+p11
+sVName
+p12
+(dp13
+S'Vornamen'
+p14
+VDmitrij Klement'evi\u010d
+p15
+sS'Nachname'
+p16
+VTarasov
+p17
+ssVQuelle
+p18
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 253-254.</i>
+p19
+sVNamensvariationen
+p20
+(lp21
+(dp22
+g6
+VKliment'evi\u010d
+p23
+sS'countyCode'
+p24
+S'de'
+p25
+sa(dp26
+g6
+VKlimentovi\u010d
+p27
+sg24
+g25
+sa(dp28
+g6
+VK\u043b\u0438\u043ce\u043d\u0442\u044ce\u0432\u0438\u0447
+p29
+sg24
+g9
+sa(dp30
+g6
+VK\u043b\u0438\u043ce\u043d\u0442o\u0432\u0438\u0447
+p31
+sg24
+g9
+sasVMG
+p32
+VImperatorskoe \u010delovekoljubimoe ob\u0161\u010destvo [Kaiserliche Philanthropische Gesellschaft] (ab 1830), Voenno-medicinskij u\u010denyj komitet [Militärmedizinisches Gelehrtenkomitee], S.-Peterburgskoe ob\u0161\u010destvo russkich vra\u010dej [St.-Petersburger Gesellschaft russischer Ärzte] (Ehrenmitglied).
+p33
+sVN
+p34
+VAleksandr Dmitrievi\u010d (1839-1872), Kammerherr, Beamter im Staatsministerium
+p35
+sVQ
+p36
+(lp37
+VVospominanija mojej \u017eizni. Zapiski po\u010detnogo lejb-chirurga D. K. Tarasova. Russkaja starina 4 (1871), 223-261, 597-645; 5 (1872), 355-388; 6 (1872), 99-143; später erschienen auch u. d. T.: Imperator Aleksandr I. Poslednie gody carstvovanija, bolezn', kon\u010dina i pogrebenie. Po li\u010dnym vospominanijam lejb-chirurga D. K. Tarasova. Petrograd 1915, 226 S.
+p38
+asVGeburtsdaten
+p39
+(dp40
+S'Ort'
+p41
+VTarasov, Gouvernement Rjazan'
+p42
+sS'Datum'
+p43
+V26.10.1792
+p44
+ssVSterbedaten
+p45
+(dp46
+g43
+VJuli 1866
+p47
+ssVW
+p48
+(dp49
+S'general'
+p50
+(lp51
+VOperacija brjucha. Drug zdorov'ja (1836) Nr. 36 und 39.
+p52
+aV\u0116nciklopedi\u010deskij medicinskij leksikon. Mit Andrej Petrovi\u010d Lej und Petr Antonovi\u010d Strelkovskij. Bd. 1-6. S.-Peterburg 1842-1850.
+p53
+aVDva slu\u010daja uku\u0161enija ljudej pticami. Protokoly Peterburgskogo Ob\u0161\u010destva russkich vra\u010dej (1856), 43.
+p54
+aVTifoznaja gorja\u010dka u trechletnjago mal'\u010dika. Protokoly Peterburgskogo Ob\u0161\u010destva russkich vra\u010dej (1858/59), 233.
+p55
+aVBeteiligte sich außerdem an der Herausgabe der 2. Auflage von <i>Pharmacopoea Castrensis Ruthenica</i> von James Wyllie (1768-1854).
+p56
+assVV
+p57
+VKliment, Geistlicher
+p58
+sVID
+p59
+V30460
+p60
+sVSL
+p61
+(dp62
+g50
+(lp63
+VWBIS RBA: R 452,101-108.
+p64
+assVBerufe
+p65
+(lp66
+VMilitärarzt
+p67
+aVLeibarzt
+p68
+aVEhrenleibchirurg
+p69
+as.

@@ -1,0 +1,139 @@
+(dp0
+VA
+p1
+VSchulbesuch und Studium in Deutschland, 1809 Examen als "Mediko-Chirurg" an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+VM\u0438\u043b\u043be\u0440, Ka\u0440\u043b \u042f\u043ao\u0432\u043b\u0435\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VMILLER, Karl Jakovlevi\u010d (fon)
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+VKam 1808 aus Königsberg in russische Dienste und wurde als Assistenzarzt im Kavaliergarderegiment angestellt, 1812-1814 Hofarzt beim Zaren ALEKSANDR I. (1777-1825), danach Aufenthalte im Ausland, später Leibmedikus am Zarenhof.\u000aErhielt die russischen Ehrentitel "Kollegienassessor" (1809) und "Staatsrat" sowie den Adelstitel.
+p14
+sVE
+p15
+V1. Katharina Elisabeth, geb. Vorbrodt (1791-1820)\u000a2. Elizaveta Pavlovna, geb. Schröter (1800-1825)
+p16
+sVName
+p17
+(dp18
+S'Vornamen'
+p19
+VKarl Wilhelm David (von)
+p20
+sS'Nachname'
+p21
+VMüller
+p22
+ssVQuelle
+p23
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 163.</i>
+p24
+sVNamensvariationen
+p25
+(lp26
+(dp27
+g6
+VMJULLER
+p28
+sS'countyCode'
+p29
+g12
+sa(dp30
+g6
+VM\u042e\u041b\u041b\u0415\u0420
+p31
+sg29
+g9
+sa(dp32
+g6
+VCarl
+p33
+sg29
+g12
+sa(dp34
+g6
+VKarl Vil'gel'movi\u010d
+p35
+sg29
+g12
+sa(dp36
+g6
+VKa\u0440\u043b \u0412\u0438\u043b\u044c\u0433\u0435\u043b\u044c\u043c\u043e\u0432\u0438\u0447
+p37
+sg29
+g9
+sasVMG
+p38
+VDeutscher ärztlicher Verein in St. Petersburg (1819 Mitgründer).
+p39
+sVN
+p40
+VAlexander Christian Jakob (Karlovi\u010d) (1811-1863), Beamter in der Kreditkanzlei des Finanzministeriums
+p41
+sVGeburtsdaten
+p42
+(dp43
+S'Ort'
+p44
+VBerlin
+p45
+sS'Datum'
+p46
+V10. oder 12. /21.12.1779
+p47
+ssVSterbedaten
+p48
+(dp49
+g44
+VSt. Petersburg
+p50
+sg46
+V28.11./10.12.1828
+p51
+ssVV
+p52
+VJakob Wilhelm (?)
+p53
+sVID
+p54
+V30430
+p55
+sVSL
+p56
+(dp57
+S'general'
+p58
+(lp59
+VBöhm 2003, 481.
+p60
+aVEAD: Dokument-Id [61484/61150 (6.8.2010)].
+p61
+aVSbornik biografij kavalergardov 1826-1908. Red. Sergej Alekseevi\u010d Pan\u010dulidzev. Reprint izdanija 1908 goda. Moskva 2008, 399-400.
+p62
+assVBerufe
+p63
+(lp64
+VMilitärarzt
+p65
+aVHofarzt
+p66
+aVLeibmedikus
+p67
+as.

@@ -1,0 +1,465 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<WL/30281hasWL2>
+	rdfs:label "Entdeckte die bedingten Hemmungsreflexe sowie den Einfluss der sympathischen Nerven auf die Sekretionsaktivität des Magens." ;
+	a drw-model:WL .
+
+<HonoursAndAwards/30281hasHonoursAndAwards1>
+	rdfs:label "1942 Pavlov-Prämie (Akademie der Wissenschaften der UdSSR)<br>1943 „Verdienter Wissenschaftler“ der USSR<br>1953 Leninorden" ;
+	a drw-model:HonoursAndAwards .
+
+<Year/1896>
+	rdfs:label "1896" ;
+	a drw-model:Year .
+
+<Year/1927>
+	rdfs:label "1927" ;
+	a drw-model:Year .
+
+<P/30281hasP3>
+	a drw-model:P ;
+	rdfs:label "Portrait in: [Nekrolog] (<b>SL</b>)." .
+
+<A/30281hasEducation3>
+	a drw-model:A ;
+	rdfs:label "bereits als Student Forschungstätigkeit in den Laboratorien von I. P. <span style='font-variant:small-caps;'>Pavlov</span>" ;
+	drw-model:hasNameLink <ImportantPerson/30785> ;
+	drw-model:began <Year/1906> .
+
+<Year/1946>
+	rdfs:label "1946" ;
+	a drw-model:Year .
+
+<B/30281hasStationOfLife10>
+	drw-model:inYear <Year/1927> ;
+	a drw-model:B ;
+	rdfs:label "Gründer des Laboratoriums zur Erforschung der Verdauung am Ukrainischen Institut für experimentelle Endokrinologie in Char’kov" .
+
+<B/30281hasStationOfLife7>
+	drw-model:ended <Year/1926> ;
+	a drw-model:B ;
+	drw-model:began <Year/1923> ;
+	rdfs:label "zugleich Professor an der Staatsuniversität in Petrograd/Leningrad" .
+
+<WL/30281hasWL1>
+	rdfs:label "Forschungsthemen: Höhere Nerventätigkeit, Blutkreislauf, Verdauung, physiologische Prozesse der Ermüdung und Erholung u. a." ;
+	a drw-model:WL .
+
+<Year/1948>
+	rdfs:label "1948" ;
+	a drw-model:Year .
+
+<SL/30281hasSL7>
+	<http://xmlns.com/foaf/0.1/homepage> "http://staff.lesgaft.spb.ru/2221" ;
+	drw-model:hasDate "26.1.2012" ;
+	a drw-model:SL ;
+	rdfs:label "Zal slavy NGU imeni P. F. Lesgafta (Online Ressource)." .
+
+<P/30281hasP2>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Kvasov/Fedorova-Grot 1967 (<b>SL</b>), Bildeinlage zw. S. 224-225." .
+
+<Year/1924>
+	rdfs:label "1924" ;
+	a drw-model:Year .
+
+<W/30281hasW3>
+	rdfs:label "Voprosy fiziologii processov atomlenija i vosstanovlenija. Hauptred. G. V. Fol’bort. Kiev 1958, 242 S." ;
+	a drw-model:W .
+
+<Place/Kiev>
+	a drw-model:Place ;
+	rdfs:label "Kiev" .
+
+<Year/1916>
+	rdfs:label "1916" ;
+	a drw-model:Year .
+
+<B/30281hasStationOfLife4>
+	drw-model:began <Year/1924> ;
+	drw-model:ended <Year/1925> ;
+	a drw-model:B ;
+	rdfs:label "Leiter [kommissarisch] des Lehrstuhls für Physiologie an der MMA" .
+
+<SL/30281hasSL8>
+	rdfs:label "[Nekrolog] Žurnal vysšej nervnoj dejatel’nosti I. P. Pavlova 10 (1960) 4, 639-640." ;
+	a drw-model:SL .
+
+<B/30281hasStationOfLife5>
+	rdfs:label "zugleich Professor am Lehrstuhl für Physiologie der Tiere an den Höheren Landwirtschaftlichen Frauenkursen in St. Petersburg/Petrograd" ;
+	a drw-model:B ;
+	drw-model:began <Year/1916> ;
+	drw-model:ended <Year/1923> .
+
+<Year/1949>
+	rdfs:label "1949" ;
+	a drw-model:Year .
+
+<RelatedPerson/30281fatherIs1>
+	rdfs:label "Woldemar (Vladimir Aleksandrovič) (1838-1889)[4], Bibliophile und Antiquitätensammler" ;
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30281_4> .
+
+<SL/30281hasSL6>
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA & BASU: Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (Online Ressource, 16.1.2013): R 479, 151; SU 453, 166-171." .
+
+<Year/1909>
+	rdfs:label "1909" ;
+	a drw-model:Year .
+
+<Year/1925>
+	rdfs:label "1925" ;
+	a drw-model:Year .
+
+<ImportantPerson/30785>
+	a drw-model:ImportantPerson .
+
+<P/30281hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Prichod’kova/Putilin 1955 (<b>SL</b>); darin auch weitere Portraits und Gruppenfotos, u. a. mit I. P. Pavlov." .
+
+<W/30281hasW2>
+	rdfs:label "Processy utomlenija i vosstanovlenija v vysšej nervnoj dejatel’nosti i praktičeskoe značenie ich izučenija. In: Fiziologičeskie processy utomlenija i vosstanovlenija. Red. G. V. Fol’bort. Kiev 1951, 7-25." ;
+	a drw-model:W .
+
+<B/30281hasStationOfLife12>
+	rdfs:label "Professor und Leiter des Lehrstuhls für normale Physiologie am Medizinischen Institut in Kiev" ;
+	drw-model:began <Year/1946> ;
+	drw-model:ended <Year/1960> ;
+	a drw-model:B .
+
+<A/30281hasEducation1>
+	a drw-model:A ;
+	drw-model:began <Year/1896> ;
+	rdfs:label "Besuch der deutschen Petrischule in St. Petersburg" ;
+	drw-model:ended <Year/1903> .
+
+<B/30281hasStationOfLife2>
+	drw-model:hasComment <Comment/30281_6> ;
+	rdfs:label "auch Arzt am Klinischen Militärhospital in St. Petersburg[6]" ;
+	a drw-model:B ;
+	drw-model:began <Year/1909> ;
+	drw-model:ended <Year/1912> .
+
+<Year/1930>
+	rdfs:label "1930" ;
+	a drw-model:Year .
+
+<Year/1926>
+	rdfs:label "1926" ;
+	a drw-model:Year .
+
+<Comment/30281_6>
+	a drw-model:Comment ;
+	rdfs:label "Nur in EAD (<b>SL</b>) angegeben: „Arzt am Klin. Kriegshosp.“." .
+
+<B/30281hasStationOfLife15>
+	a drw-model:B .
+
+<W/30281hasW1>
+	rdfs:label "Tormoznye uslovnye refleksy. Diss. St. Petersburg 1912, 83 S." ;
+	a drw-model:W .
+
+<B/30281hasStationOfLife13>
+	drw-model:ended <Year/1948> ;
+	drw-model:began <Year/1946> ;
+	rdfs:label "zugleich Professor am Institut für Biochemie der Akademie der Wissenschaften der Ukrainischen SSR (AW USSR) und" ;
+	a drw-model:B .
+
+<B/30281hasStationOfLife3>
+	drw-model:ended <Year/1924> ;
+	rdfs:label "Assistent bei <span style='font-variant:small-caps;'>Pavlov</span>, ab 1914 Prosektor, später Dozent am Lehrstuhl für Physiologie an der MMA" ;
+	drw-model:hasNameLink <ImportantPerson/30785> ;
+	a drw-model:B ;
+	drw-model:began <Year/1912> .
+
+<WTranslations/30281hasWTranslations2>
+	a drw-model:WTranslations ;
+	rdfs:label "[Friedrich Schenck: Leitfaden der Physiologie des Menschen für Studierende der Medizin und der Zahnheilkunde. 22. Aufl. Stuttgart 1925, 309 S.] Fridrich Vil’gel’m Julius Šenk: Kratkie osnovy fiziologii čeloveka. Übersetzt von A. E. Braunštejn. Moskva, Leningrad 1929, 339 S." .
+
+<Year/1923>
+	rdfs:label "1923" ;
+	a drw-model:Year .
+
+<WL/30281hasWL6>
+	rdfs:label "Übersetzer einiger Werke von <span style='font-variant:small-caps;'>Pavlov</span> ins Deutsche (vgl. <b>W</b> und <b>SL</b> Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 300 S.) sowie Redakteur von Übersetzungen ins Deutsche und ins Russische (Auswahl vgl. <b>W</b>)" ;
+	drw-model:hasNameLink <ImportantPerson/30785> ;
+	a drw-model:WL .
+
+<MainName/30281hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Fol'bort, Georgij Vladimirovič" ;
+	drw-model:hasNameVariation <NameVariation/30281hasNameVariation1> .
+
+<GPV/30281hasGPV2>
+	a drw-model:GPV ;
+	rdfs:label "G. V. Fol’bort. Izbrannye trudy. Kiev 1962, 454 S." .
+
+<Year/1903>
+	rdfs:label "1903" ;
+	a drw-model:Year .
+
+<Comment/30281_5>
+	<http://xmlns.com/foaf/0.1/homepage> <http://www.visz.nlr.ru/search/lists/blkd/244_380.html> ;
+	a drw-model:Comment ;
+	rdfs:label "EAD: Dokument-Id [49107/36449 (26.1.2012)] und (Online Ressource)." ;
+	drw-model:hasDate "27.1.2012" .
+
+<MG/30281hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Akademia nauk USSR [Akademie der Wissenschaften der Ukrainischen SSR] (1951)" .
+
+<SL/30281hasSL5>
+	rdfs:label "Prichod’kova, Elizaveta Konstantinovna, Putilin, Nikolaj Ivanovič: K 70-letiju so dnja roždenija i 50-letiju naučnoj, pedagogičeskoj i obščestvennoj dejatel’nosti G. V. Fol’borta. In: Fiziologija nervnych processov. Sbornik. Hauptred. A. M. Vorob’ev. Kiev 1955, 5-23." ;
+	a drw-model:SL .
+
+<B/30281hasStationOfLife14>
+	drw-model:ended <Year/1960> ;
+	a drw-model:B ;
+	rdfs:label "am Institut für klinische Physiologie (ab 1953 A. A. Bogomolec-Institut für Physiologie) der AW USSR" ;
+	drw-model:began <Year/1949> .
+
+<RelatedPerson/30281motherIs1>
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30281_5> ;
+	rdfs:label "Dorothea Karoline Luise (Dar’ja Romanovna), geb. King (1855/56-1941)[5]" .
+
+<WTranslations/30281hasWTranslations1>
+	a drw-model:WTranslations ;
+	rdfs:label "[Nikolaj Aleksandrovič Podkopaev: Metodika izučenija uslovnych refleksov. Moskva 1926, 63 S.] N. A. Podkopaew: Die Methodik der Erforschung der bedingten Reflexe. Übersetzt von M. Krich. München 1926, 64 S." .
+
+<WL/30281hasWL5>
+	rdfs:label "Gründungsinitiator des Ukrainischen I. I. Mečnikov-Instituts für experimentelle Biologie und Medizin in Char’kov" ;
+	a drw-model:WL .
+
+<Comment/30281_3>
+	rdfs:label "Estestvoznanie - Biografičeskij slovar’ dejatelej estestvoznanija i techniki. Otvetstvennyj redaktor A. A. Zvorykin. Tom 1-2. Moskva 1958-1959, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:Comment .
+
+<Year/1932>
+	rdfs:label "1932" ;
+	a drw-model:Year .
+
+<GPV/30281hasGPV1>
+	rdfs:label "Publikationen 1908-1959, in: Kvasov/Fedorova-Grot 1967 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<SL/30281hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 257-259; auch in WBIS RBA (<b>SL</b>)." .
+
+<Date/17_4_1960>
+	a drw-model:Date ;
+	rdfs:label "17.4.1960" .
+
+<Comment/30281_4>
+	a drw-model:Comment ;
+	rdfs:label "EAD: Dokument-Id [49107/36449 (26.1.2012)]." .
+
+<SL/30281hasSL4>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SL .
+
+<A/30281hasEducation4>
+	a drw-model:A ;
+	drw-model:inYear <Year/1912> ;
+	rdfs:label "Dr. med. am Institut für experimentelle Medizin (IEM) in St. Petersburg" .
+
+<ImportantPerson/30281>
+	drw-model:diedOn <Date/17_4_1960> ;
+	drw-model:hasComment <Comment/30281_2> ;
+	drw-model:hasWL <WL/30281hasWL5> ;
+	drw-model:hasStationOfLife <B/30281hasStationOfLife7> ;
+	drw-model:hasEducation <A/30281hasEducation2> ;
+	drw-model:hasP <P/30281hasP4> ;
+	drw-model:hasWTranslationsToGerman <WTranslationsToGerman/30281hasWTranslationsToGerman1> ;
+	drw-model:hasGPV <GPV/30281hasGPV1> ;
+	drw-model:hasP <P/30281hasP1> ;
+	drw-model:hasStationOfLife <B/30281hasStationOfLife8> ;
+	drw-model:hasMG <MG/30281hasMG1> ;
+	drw-model:hasSL <SL/30281hasSL1> ;
+	drw-model:hasStationOfLife <B/30281hasStationOfLife12> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30281hasHonoursAndAwards1> ;
+	drw-model:hasStationOfLife <B/30281hasStationOfLife14> ;
+	drw-model:hasWL <WL/30281hasWL3> ;
+	drw-model:hasMainName <MainName/30281hasMainName1> ;
+	drw-model:hasStationOfLife <B/30281hasStationOfLife9> ;
+	drw-model:hasStationOfLife <B/30281hasStationOfLife4> ;
+	drw-model:hasSL <SL/30281hasSL6> ;
+	drw-model:hasW <W/30281hasW3> ;
+	drw-model:hasStationOfLife <B/30281hasStationOfLife1> ;
+	drw-model:hasComment <Comment/30281_3> ;
+	drw-model:hasW <W/30281hasW2> ;
+	drw-model:hasWL <WL/30281hasWL6> ;
+	drw-model:wasMarriedTo <RelatedPerson/30281wasMarriedTo1> ;
+	drw-model:hasStationOfLife <B/30281hasStationOfLife15> ;
+	drw-model:hasSL <SL/30281hasSL5> ;
+	drw-model:hasW <W/30281hasW1> ;
+	drw-model:hasWTranslationsToGerman <WTranslationsToGerman/30281hasWTranslationsToGerman3> ;
+	drw-model:hasID "30281" ;
+	drw-model:hasStationOfLife <B/30281hasStationOfLife5> ;
+	drw-model:hasWTranslationsToGerman <WTranslationsToGerman/30281hasWTranslationsToGerman2> ;
+	drw-model:hasGPV <GPV/30281hasGPV2> ;
+	drw-model:fatherIs <RelatedPerson/30281fatherIs1> ;
+	drw-model:hasSL <SL/30281hasSL7> ;
+	drw-model:hasSL <SL/30281hasSL2> ;
+	drw-model:wasBornIn <Place/St_Petersburg> ;
+	drw-model:hasStationOfLife <B/30281hasStationOfLife10> ;
+	drw-model:hasStationOfLife <B/30281hasStationOfLife13> ;
+	rdfs:label "Fol'bort, Georgij Vladimirovič" ;
+	drw-model:hasComment <Comment/30281_4> ;
+	drw-model:hasStationOfLife <B/30281hasStationOfLife2> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasComment <Comment/30281_1> ;
+	drw-model:hasSL <SL/30281hasSL4> ;
+	drw-model:hasStationOfLife <B/30281hasStationOfLife11> ;
+	drw-model:hasStationOfLife <B/30281hasStationOfLife6> ;
+	drw-model:wasBornOn <Date/22_1_or_3_2_1_oder_23_1_or_4_2> ;
+	drw-model:hasWL <WL/30281hasWL1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30281.jpg> ;
+	drw-model:hasWTranslations <WTranslations/30281hasWTranslations2> ;
+	drw-model:hasEducation <A/30281hasEducation4> ;
+	drw-model:hasSL <SL/30281hasSL3> ;
+	drw-model:motherIs <RelatedPerson/30281motherIs1> ;
+	drw-model:hasSL <SL/30281hasSL8> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Physiologie> ;
+	drw-model:hasComment <Comment/30281_6> ;
+	drw-model:hasComment <Comment/30281_5> ;
+	drw-model:hasEducation <A/30281hasEducation3> ;
+	drw-model:hasStationOfLife <B/30281hasStationOfLife3> ;
+	drw-model:hasEducation <A/30281hasEducation1> ;
+	drw-model:diedIn <Place/Kiev> ;
+	drw-model:hasP <P/30281hasP2> ;
+	drw-model:hasWL <WL/30281hasWL2> ;
+	drw-model:hasP <P/30281hasP3> ;
+	drw-model:hasWL <WL/30281hasWL4> ;
+	drw-model:hasWTranslations <WTranslations/30281hasWTranslations1> .
+
+<B/30281hasStationOfLife8>
+	drw-model:ended <Year/1946> ;
+	drw-model:began <Year/1926> ;
+	rdfs:label "Professor und Leiter des Lehrstuhls für Physiologie am Medizinischen Institut in Char’kov" ;
+	a drw-model:B .
+
+<WTranslationsToGerman/30281hasWTranslationsToGerman3>
+	rdfs:label "[I. P. Pavlov: Lekcii o rabote bol’šich polušarij golovnogo mozga. Leningrad, Moskva 1927, 372 S.] I. P. Pawlow: Vorlesungen über die Arbeit der Grosshirnhemisphären. Leningrad 1932, 480 S." ;
+	a drw-model:WTranslationsToGerman .
+
+<Year/1912>
+	rdfs:label "1912" ;
+	a drw-model:Year .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<B/30281hasStationOfLife1>
+	drw-model:began <Year/1909> ;
+	drw-model:hasNameLink <ImportantPerson/30785> ;
+	a drw-model:B ;
+	rdfs:label "Weiterbildung an der MMA und am IEM bei <span style='font-variant:small-caps;'>Pavlov</span>" ;
+	drw-model:ended <Year/1912> .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<Year/1922>
+	rdfs:label "1922" ;
+	a drw-model:Year .
+
+<WL/30281hasWL4>
+	rdfs:label "Etablierte die von Pavlov als „Fol’bort-Regeln“ benannten Grundgesetze der Ermüdungs- und Erholungsprozesse." ;
+	a drw-model:WL .
+
+<Comment/30281_2>
+	rdfs:label "<b>SL</b> Bol’šaja Sovetskaja Ėnciklopedija. Glavnyj red. A. M. Prochorov. 3e izdanie. Tom 1-30. Moskva 1970-1978, zit. n. WBIS RBA, und Zal slavy." ;
+	a drw-model:Comment .
+
+<SL/30281hasSL2>
+	<http://xmlns.com/foaf/0.1/homepage> "http://kocmi.ru/slavnaya-dinastiya-folbortov.html" ;
+	a drw-model:SL ;
+	rdfs:label "Gurskaja, Ljudmila, Chomizuri, Georgij: Slavnaja dinastija Fol’bortov (Online Ressource)." ;
+	drw-model:hasDate "27.1.2012" .
+
+<Year/1960>
+	rdfs:label "1960" ;
+	a drw-model:Year .
+
+<B/30281hasStationOfLife9>
+	drw-model:ended <Year/1946> ;
+	drw-model:began <Year/1926> ;
+	a drw-model:B ;
+	rdfs:label "zugleich zeitweilig Leiter des Laboratoriums zur Erforschung der bedingten Reflexe am Ukrainischen Psycho-neurologischen Institut in Char’kov" .
+
+<WTranslationsToGerman/30281hasWTranslationsToGerman2>
+	a drw-model:WTranslationsToGerman ;
+	rdfs:label "[I. P. Pavlov: Dvadcatiletnij opyt obektivnogo izučenija vysšej nervnoj dejatel’nosti (povedenija) životnych. Uslovnye refleksy. Sbornik statej. 3. Aufl. Leningrad, Moskva 1923, 397 S.] I. P. Pawlow: Die höchste Nerventätigkeit (das Verhalten) von Tieren. Eine zwanzigjährige Prüfung der objektiven Forschung. Bedingte Reflexe. Sammlung von Artikeln, Berichten, Vorlesungen und Reden. München 1926, 329 S." .
+
+<WL/30281hasWL3>
+	rdfs:label "Entwickelte eine chirurgische Technik zum Anlegen einer Gallenblasenfistel für die Untersuchung der Gallenabsonderung." ;
+	a drw-model:WL .
+
+<P/30281hasP4>
+	rdfs:label "Portrait in: Zal slavy (<b>SL</b>)." ;
+	a drw-model:P .
+
+<Comment/30281_1>
+	rdfs:label "EAD (<b>SL</b>)." ;
+	a drw-model:Comment .
+
+<SL/30281hasSL1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://88.217.241.77/amburger/" ;
+	a drw-model:SL ;
+	rdfs:label "Erik-Amburger-Datenbank. Ausländer im vorrevolutionären Russland (Online Ressource, 10.4.2012): Dokument-Id [64100/62276 (27.1.2012)] (Enthält einige abweichende Jahresangaben)." .
+
+<NameVariation/30281hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Volborth, Georg W."@de .
+
+<GeneralLabor/Professor_fr_Physiologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<A/30281hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1903> ;
+	drw-model:ended <Year/1909> ;
+	rdfs:label "Studium der Medizin mit dem Abschluss „Arzt“ an der Militärmedizinischen Akademie (MMA) in St. Petersburg" .
+
+<RelatedPerson/30281wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Jadwiga, geb. von Grunner" .
+
+<B/30281hasStationOfLife11>
+	drw-model:began <Year/1930> ;
+	drw-model:ended <Year/1932> ;
+	a drw-model:B ;
+	rdfs:label "zugleich Forschungstätigkeit und Gründer des physiologischen Laboratoriums am Ukrainischen Institut für Ernährung in Char’kov" .
+
+<Date/22_1_or_3_2_1_oder_23_1_or_4_2>
+	drw-model:hasComment <Comment/30281_3> ;
+	a drw-model:Date ;
+	drw-model:hasComment <Comment/30281_2> ;
+	drw-model:hasComment <Comment/30281_1> ;
+	rdfs:label "22.1./3.2.[1] oder 23.1./4.2.[2] oder 4./16.[3]2.1885" .
+
+<Year/1906>
+	rdfs:label "1906" ;
+	a drw-model:Year .
+
+<B/30281hasStationOfLife6>
+	rdfs:label "zugleich wissenschaftlicher Mitarbeiter und Gründer des physiologischen Laboratoriums in der Nordwestlichen Landwirtschaftlichen Gebietsversuchsstation in Petrograd" ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1923> ;
+	drw-model:inYear <Year/1922> .
+
+<WTranslationsToGerman/30281hasWTranslationsToGerman1>
+	a drw-model:WTranslationsToGerman ;
+	rdfs:label "[I. P. Pavlov: Estestvoznanie i mozg. Moskva 1910, 12 S.] I. P. Pawlow: Naturwissenschaft und Gehirn. (Vortrag gehalten in der allgemeinen Versammlung des XII. Kongresses Russischer Naturforscher und Ärzte in Moskau am 28. Dezember 1909/10. Januar 1910 n. St.). Wiesbaden 1910, 19 S.; Reprint: Zürich, Białogard 1998, 18 S." .
+

@@ -1,0 +1,469 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<WL/30995hasWL5>
+	rdfs:label "Entwicklung des „Straubschen Froschherzens“" ;
+	a drw-model:WL .
+
+<SL/30995hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Haffner, F.: An Walther Straub [Zum 70. Geburtstag]. Münchener medizinische Wochenschrift 91 (1944), 343-344." .
+
+<W/30995hasW4>
+	rdfs:label "Die Digitalisgruppe. In: Handbuch der experimentellen Pharmakologie. Hrsg. von Arthur Heffter, fortgeführt von Wolfgang Heubner. Bd. 2,2: Atropingruppe. München 1924, 1355-1452; Die Filixgruppe. Ibid., 1548-1562." ;
+	a drw-model:W .
+
+<Year/1899>
+	rdfs:label "1899" ;
+	a drw-model:Year .
+
+<B/30995hasStationOfLife5>
+	rdfs:label "Studienaufenthalt bei I. P. <span style='font-variant:small-caps;'>Pavlov</span> in der physiologischen Abteilung des Instituts für Experimentelle Medizin (IEM) in St. Petersburg" ;
+	drw-model:hasNameLink <ImportantPerson/30785> ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1902> .
+
+<SL/30995hasSL12>
+	a drw-model:SL ;
+	rdfs:label "Starke, Klaus: Die Geschichte des Pharmakologischen Instituts der Universität Freiburg. 2. Aufl. Berlin, Heidelberg, New York u. a. 2007, 3-15." .
+
+<Year/1917>
+	rdfs:label "1917" ;
+	a drw-model:Year .
+
+<Comment/30995_4>
+	a drw-model:Comment ;
+	rdfs:label "In Kvasov/Fedorova-Grot 1967 (<b>SL</b>) fälschlicherweise als Privatdozent der Berliner Universität angegeben." .
+
+<Year/1907>
+	rdfs:label "1907" ;
+	a drw-model:Year .
+
+<WL/30995hasWL4>
+	rdfs:label "Einführung des Avertins als erstem parapulmonalen Narkotikum und des Begriffs der Basisnarkose" ;
+	a drw-model:WL .
+
+<SL/30995hasSL6>
+	rdfs:label "Gremels, Hans: Walther Straub †. Naunyn-Schmiedebergs Archiv für experimentelle Pathologie und Pharmakologie 204 (1947) 1/3, 1-12." ;
+	a drw-model:SL .
+
+<Year/1897>
+	rdfs:label "1897" ;
+	a drw-model:Year .
+
+<Year/1908>
+	rdfs:label "1908" ;
+	a drw-model:Year .
+
+<W/30995hasW3>
+	rdfs:label "Versuche und Bemerkungen zur Theorie der Urethanwirkung. Archiv biologi-českich nauk Suppl. zu 11 (1905), 49-54." ;
+	a drw-model:W .
+
+<RelatedPerson/30995motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Lina" .
+
+<GPV/30995hasGPV3>
+	rdfs:label "Publikationen 1920-1944, in: Poggendorff Bd. 7a (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<B/30995hasStationOfLife2>
+	drw-model:began <Year/1898> ;
+	drw-model:ended <Year/1900> ;
+	a drw-model:B ;
+	rdfs:label "Assistent am Pharmakologischen Institut der Universität Leipzig bei Rudolph <span style='font-variant:small-caps;'>Böhm</span> (1844-1926)" .
+
+<SL/30995hasSL13>
+	rdfs:label "Vinogradov, Jurij Abramovič, Golikov, Jurij Pavlovič, Grekova, Tat’jana Ivanovna (Sostaviteli): I. P. Pavlov: Dostovernost’ i polnota biografii. Sankt-Peterburg 2005, 135." ;
+	a drw-model:SL .
+
+<Comment/30995_3>
+	rdfs:label "Bei Gremels 1947 (<b>SL</b>) irrtümlich 1904 angegeben." ;
+	a drw-model:Comment .
+
+<Year/1916>
+	rdfs:label "1916" ;
+	a drw-model:Year .
+
+<Year/1900>
+	rdfs:label "1900" ;
+	drw-model:hasComment <Comment/30995_3> ;
+	a drw-model:Year .
+
+<GeneralLabor/Physiologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologe" .
+
+<ImportantPerson/30995>
+	drw-model:hasMG <MG/30995hasMG1> ;
+	drw-model:hasEducation <A/30995hasEducation3> ;
+	drw-model:hasStationOfLife <B/30995hasStationOfLife6> ;
+	drw-model:hasW <W/30995hasW2> ;
+	drw-model:hasWL <WL/30995hasWL2> ;
+	drw-model:motherIs <RelatedPerson/30995motherIs1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Pharmakologie> ;
+	drw-model:diedIn <Place/Bad_Tlz_Grabsttte_ab_1955_Mnch> ;
+	drw-model:hasSL <SL/30995hasSL2> ;
+	drw-model:hasGPV <GPV/30995hasGPV1> ;
+	drw-model:hasW <W/30995hasW4> ;
+	drw-model:hasSL <SL/30995hasSL8> ;
+	drw-model:hasStationOfLife <B/30995hasStationOfLife3> ;
+	drw-model:hasID "30995" ;
+	drw-model:hasWL <WL/30995hasWL5> ;
+	drw-model:hasSL <SL/30995hasSL14> ;
+	drw-model:hasComment <Comment/30995_2> ;
+	drw-model:hasEducation <A/30995hasEducation2> ;
+	drw-model:hasWL <WL/30995hasWL8> ;
+	drw-model:hasDescendant <RelatedPerson/30995hasDescendant1> ;
+	drw-model:hasSL <SL/30995hasSL9> ;
+	drw-model:hasGPV <GPV/30995hasGPV3> ;
+	drw-model:hasStationOfLife <B/30995hasStationOfLife7> ;
+	drw-model:hasSL <SL/30995hasSL6> ;
+	drw-model:hasWL <WL/30995hasWL3> ;
+	drw-model:hasWL <WL/30995hasWL6> ;
+	drw-model:hasSL <SL/30995hasSL4> ;
+	drw-model:diedOn <Date/22_10_1944> ;
+	drw-model:hasStationOfLife <B/30995hasStationOfLife8> ;
+	drw-model:hasW <W/30995hasW1> ;
+	drw-model:hasP <P/30995hasP1> ;
+	drw-model:hasStationOfLife <B/30995hasStationOfLife12> ;
+	drw-model:hasStationOfLife <B/30995hasStationOfLife14> ;
+	drw-model:hasComment <Comment/30995_3> ;
+	drw-model:hasStationOfLife <B/30995hasStationOfLife9> ;
+	drw-model:hasStationOfLife <B/30995hasStationOfLife4> ;
+	drw-model:hasQ <Q/30995hasQ2> ;
+	drw-model:hasWL <WL/30995hasWL4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Physiologe> ;
+	drw-model:hasEducation <A/30995hasEducation1> ;
+	drw-model:hasSL <SL/30995hasSL3> ;
+	drw-model:hasSL <SL/30995hasSL7> ;
+	drw-model:hasSL <SL/30995hasSL12> ;
+	drw-model:wasMarriedTo <RelatedPerson/30995wasMarriedTo1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:wasBornOn <Date/8_5_1874> ;
+	drw-model:hasP <P/30995hasP2> ;
+	drw-model:hasQ <Q/30995hasQ1> ;
+	drw-model:wasBornIn <Place/Augsburg> ;
+	drw-model:hasStationOfLife <B/30995hasStationOfLife5> ;
+	drw-model:hasW <W/30995hasW3> ;
+	drw-model:hasSL <SL/30995hasSL5> ;
+	drw-model:hasSL <SL/30995hasSL1> ;
+	drw-model:fatherIs <RelatedPerson/30995fatherIs1> ;
+	drw-model:hasWL <WL/30995hasWL7> ;
+	rdfs:label "Straub, Walter Carl Ferdinand" ;
+	drw-model:hasSL <SL/30995hasSL13> ;
+	drw-model:hasStationOfLife <B/30995hasStationOfLife1> ;
+	drw-model:hasStationOfLife <B/30995hasStationOfLife10> ;
+	drw-model:hasStationOfLife <B/30995hasStationOfLife13> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30995.jpg> ;
+	drw-model:hasComment <Comment/30995_4> ;
+	drw-model:hasGPV <GPV/30995hasGPV2> ;
+	drw-model:hasMainName <MainName/30995hasMainName1> ;
+	drw-model:hasStationOfLife <B/30995hasStationOfLife2> ;
+	drw-model:hasWL <WL/30995hasWL1> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30995hasHonoursAndAwards1> ;
+	drw-model:hasSL <SL/30995hasSL11> ;
+	drw-model:hasComment <Comment/30995_1> ;
+	drw-model:hasStationOfLife <B/30995hasStationOfLife15> ;
+	drw-model:hasSL <SL/30995hasSL10> ;
+	drw-model:hasStationOfLife <B/30995hasStationOfLife11> .
+
+<SL/30995hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Forst, A. W.: Walther Straub 100 Jahre. Münchener medizinische Wochenschrift 116 (1974), 1171-1174." .
+
+<B/30995hasStationOfLife11>
+	rdfs:label "o. Professor und Direktor des Pharmakologischen Instituts an der LMU München" ;
+	drw-model:ended <Year/1940> ;
+	a drw-model:B ;
+	drw-model:began <Year/1923> .
+
+<Year/1909>
+	rdfs:label "1909" ;
+	a drw-model:Year .
+
+<Q/30995hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/S., Archiv: MNr. 3530." .
+
+<B/30995hasStationOfLife8>
+	rdfs:label "o. Professor für Pharmakologie an der Universität Freiburg i. Br." ;
+	drw-model:began <Year/1907> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1923> .
+
+<W/30995hasW2>
+	rdfs:label "Über die Wirkung des Antiarins am ausgeschnittenen, suspensierten Froschherzen. Habil.-Schr. Archiv für experimentelle Pathologie und Pharmakologie 45 (1900) 346-379." ;
+	a drw-model:W .
+
+<GPV/30995hasGPV2>
+	rdfs:label "Publikationen 1899-1931, in: Poggendorff Bd. 6 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<Date/8_5_1874>
+	rdfs:label "8.5.1874" ;
+	a drw-model:Date .
+
+<SL/30995hasSL10>
+	a drw-model:SL ;
+	rdfs:label "Romeis, Benno: Jahrbuch der Bayerischen Akademie der Wissenschaften 1944/1948, 199-202." .
+
+<A/30995hasEducation1>
+	a drw-model:A ;
+	drw-model:ended <Year/1897> ;
+	rdfs:label "Studium der Medizin in München, Tübingen und Straßburg" ;
+	drw-model:began <Year/1892> .
+
+<Comment/30995_2>
+	rdfs:label "Tochter des norwegischen Mathematikers Sophus Lie (1842-1899), 1886-1898 ordentlicher Professor für Geometrie an der Philosophischen Fakultät der Universität Leipzig." ;
+	a drw-model:Comment .
+
+<RelatedPerson/30995hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Harald (1905-1973), Physiker<br>Peter (* 1909), Jurist" .
+
+<WL/30995hasWL3>
+	rdfs:label "Schöpfer der Potentialgifttheorie" ;
+	a drw-model:WL .
+
+<Year/1940>
+	rdfs:label "1940" ;
+	a drw-model:Year .
+
+<SL/30995hasSL4>
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	a drw-model:SL ;
+	rdfs:label "WBIS DBA: Deutsches Biographisches Archiv (Online Ressource, 16.1.2013): II 1277, 14-20; III 894, 203-306." .
+
+<Comment/30995_1>
+	rdfs:label "Nach seinem Tod wurde Straub im Tölzer Waldfriedhof beerdigt, am 18.3.1955 exhumiert und auf dem Waldfriedhof München bestattet. Schriftliche Mitteilung der Friedhofsverwaltung Bad Tölz am 20.7.2011." ;
+	a drw-model:Comment .
+
+<B/30995hasStationOfLife9>
+	drw-model:ended <Year/1909> ;
+	drw-model:began <Year/1908> ;
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Freiburg i. Br." ;
+	a drw-model:B .
+
+<B/30995hasStationOfLife10>
+	drw-model:ended <Year/1917> ;
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Freiburg i. Br." ;
+	a drw-model:B ;
+	drw-model:began <Year/1916> .
+
+<Q/30995hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Universität Leipzig, Universitätsarchiv: Personalakten von Professoren und Dozenten bis zum Jahr 1990, Signatur: PA 1626." .
+
+<W/30995hasW1>
+	rdfs:label "Über den Einfluß des Kochsalzes auf die Eiweiss-Zersetzung. Diss. München 1899, 25 S." ;
+	a drw-model:W .
+
+<SL/30995hasSL11>
+	a drw-model:SL ;
+	rdfs:label "Rost, Eugen: Walther Straub in memoriam! Medizinische Klinik 42 (1947), 202-204." .
+
+<Year/1902>
+	rdfs:label "1902" ;
+	a drw-model:Year .
+
+<WL/30995hasWL2>
+	rdfs:label "Hauptforschungsgebiete: Physiologie und Pharmakologie des Herzens bei Tieren, Wirkungsmechanismus von Herzglykosiden, Narkose und Narkotika" ;
+	a drw-model:WL .
+
+<Place/Bad_Tlz_Grabsttte_ab_1955_Mnch>
+	a drw-model:Place ;
+	drw-model:hasComment <Comment/30995_1> ;
+	rdfs:label "Bad Tölz, Grabstätte: ab 1955 München, Waldfriedhof 308-W-11" .
+
+<Year/1892>
+	rdfs:label "1892" ;
+	a drw-model:Year .
+
+<MainName/30995hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30995hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30995hasNameVariation1> ;
+	rdfs:label "Straub, Walter Carl Ferdinand" .
+
+<ImportantPerson/30785>
+	a drw-model:ImportantPerson .
+
+<B/30995hasStationOfLife6>
+	rdfs:label "ao. Professor für Pharmakologie an der Universität Marburg" ;
+	drw-model:ended <Year/1906> ;
+	a drw-model:B ;
+	drw-model:began <Year/1905> .
+
+<GPV/30995hasGPV1>
+	rdfs:label "Publikationen 1897-1944 (191 Nrn.), in: Gremels 1947 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<B/30995hasStationOfLife13>
+	rdfs:label "Vertretung des Lehrstuhls für Pharmakologie an der LMU München" ;
+	drw-model:ended <Year/1944> ;
+	a drw-model:B ;
+	drw-model:began <Year/1940> .
+
+<WL/30995hasWL1>
+	rdfs:label "Gründer des Pharmakologischen Instituts an der Universität Freiburg" ;
+	a drw-model:WL .
+
+<B/30995hasStationOfLife1>
+	drw-model:ended <Year/1898> ;
+	drw-model:began <Year/1897> ;
+	a drw-model:B ;
+	rdfs:label "Assistent am Physiologischen Institut in München bei Carl von <span style='font-variant:small-caps;'>Voit</span> (1831-1908), zeitweilig (vertretungsweise) Landarzt" .
+
+<Year/1923>
+	a drw-model:Year ;
+	rdfs:label "1923" .
+
+<GeneralLabor/Professor_fr_Pharmakologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Pharmakologie" .
+
+<SL/30995hasSL3>
+	rdfs:label "Deutsche Biographische Enzyklopädie. Hrsg. v. Walther Killy und Rudolf Vierhaus. Bd. 1-10. München u. a. 1995-1999,  Bd. 9. München 1998, 571-572." ;
+	a drw-model:SL .
+
+<Place/Augsburg>
+	a drw-model:Place ;
+	rdfs:label "Augsburg" .
+
+<SL/30995hasSL14>
+	drw-model:hasDate "7.7.2011" ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://de.wikipedia.org/wiki/Walther_Straub" ;
+	rdfs:label "Wikipedia (Online Ressource)." .
+
+<B/30995hasStationOfLife12>
+	rdfs:label "Emeritierung" ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1940> .
+
+<B/30995hasStationOfLife7>
+	drw-model:ended <Year/1907> ;
+	rdfs:label "o. Professor für Pharmakologie an der Universität Würzburg" ;
+	a drw-model:B ;
+	drw-model:began <Year/1906> .
+
+<WL/30995hasWL8>
+	rdfs:label "1921-1944 Mitherausgeber von <i>(Naunyn-Schmiedebergs) Archiv für experimentelle Pathologie und Pharmakologie</i>" ;
+	a drw-model:WL .
+
+<SL/30995hasSL2>
+	<http://xmlns.com/foaf/0.1/homepage> "http://bigmeden.ru/article/Штрауб" ;
+	drw-model:hasDate "8.7.2011" ;
+	a drw-model:SL ;
+	rdfs:label "Bol’šaja medicinskaja ėnciklopedija (Online Ressource)." .
+
+<NameVariation/30995hasNameVariation2>
+	rdfs:label "Штрауб, Вальтер"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Štraub, Val’ter"@de .
+
+<HonoursAndAwards/30995hasHonoursAndAwards1>
+	rdfs:label "Großherzoglicher Badischer Geheimer Hofrat<br>1927  Dr. phil. h. c. (Universität Marburg)<br>1937  Dr. jur. h. c. (University of Calcutta, Indien)<br>1944  Goethe-Medaille für Kunst und Wissenschaft<br>seit 1985 Walther-Straub-Institut für Pharmakologie und Toxikologie an der LMU München<br>Walther-Straub-Hörsaal, Institut für Rechtsmedizin, LMU München" ;
+	a drw-model:HonoursAndAwards .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<WL/30995hasWL7>
+	rdfs:label "1920 Mitgründer der Deutschen Pharmakologischen Gesellschaft" ;
+	a drw-model:WL .
+
+<B/30995hasStationOfLife15>
+	a drw-model:B .
+
+<RelatedPerson/30995wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Dagny, geb. Lie[2] (1880-1945)" ;
+	drw-model:hasComment <Comment/30995_2> .
+
+<Date/22_10_1944>
+	rdfs:label "22.10.1944" ;
+	a drw-model:Date .
+
+<A/30995hasEducation2>
+	a drw-model:A ;
+	drw-model:inYear <Year/1897> ;
+	rdfs:label "Dr. med. an der Universität München" .
+
+<B/30995hasStationOfLife4>
+	rdfs:label "Privatdozent für Pharmakologie an der Universität Leipzig[4]" ;
+	drw-model:hasComment <Comment/30995_4> ;
+	a drw-model:B ;
+	drw-model:began <Year/1900> ;
+	drw-model:ended <Year/1905> .
+
+<Year/1944>
+	rdfs:label "1944" ;
+	a drw-model:Year .
+
+<SL/30995hasSL9>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 114." ;
+	a drw-model:SL .
+
+<RelatedPerson/30995fatherIs1>
+	rdfs:label "Philipp v., Senatspräsident am Oberlandesgericht" ;
+	a drw-model:RelatedPerson .
+
+<SL/30995hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Poggendorff - Biographisch-literarisches Handwörterbuch zur Geschichte der exacten Naturwissenschaften, enthaltend Nachweisungen über Lebensverhältnisse und Leistungen von Mathematikern, Astronomen, Physikern, Chemikern, Mineralogen, Geologen usw. aller Völker und Zeiten. Gesammelt von J. C. Poggendorff, Mitglied der Akademie der Wissenschaften zu Berlin / J. C. Poggendorff - Biographisch-literarisches Handwörterbuch der exakten Naturwissenschaften. Bd. 1-8. Leipzig, Berlin 1863-2004. Bd. 6, 2560-2561; Bd. 7a, 569-570." .
+
+<Year/1905>
+	a drw-model:Year ;
+	rdfs:label "1905" .
+
+<P/30995hasP2>
+	a drw-model:P ;
+	rdfs:label "Fotos in <b>SL</b>: Reichshandbuch der deutschen Gesellschaft. Das Handbuch der Persönlichkeiten in Wort und Bild. Bd. 2. Berlin 1931, zit. n. WBIS DBA, und Forst 1974, 1172." .
+
+<WL/30995hasWL6>
+	rdfs:label "1911 Entdeckung des „Straubschen Mäuseschwanzphänomens“ (erste biologische Nachweismethode von Morphin)" ;
+	a drw-model:WL .
+
+<B/30995hasStationOfLife14>
+	rdfs:label "Außerdem Mitglied des Bayerischen Obermedizinalausschusses, des Reichsgesundheitsrats, der Hygiene-Kommission des Völkerbundes in Genf" ;
+	a drw-model:B .
+
+<B/30995hasStationOfLife3>
+	rdfs:label "Forschungsaufenthalt an der Zoologischen Station in Neapel" ;
+	drw-model:inYear <Year/1899> ;
+	a drw-model:B .
+
+<A/30995hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Habilitation an der Universität Leipzig" ;
+	drw-model:inYear <Year/1900> .
+
+<P/30995hasP1>
+	rdfs:label "Foto (Abb. [Original mit Unterschrift]), aus: Gremels 1947 (<b>SL</b>); auch in: Starke 2007 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<SL/30995hasSL8>
+	a drw-model:SL ;
+	rdfs:label "Kvasov, Dmitrij Grigor’evič, Fedorova-Grot, Aleksandra Konstantinovna: Fiziologičeskaja škola I. P. Pavlova. Portrety i charakteristiki sotrudnikov i učenikov. Leningrad 1967, 291." .
+
+<Year/1906>
+	rdfs:label "1906" ;
+	a drw-model:Year .
+
+<MG/30995hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Leopoldina (1925), Bayerische Akademie der Wissenschaften (1928), Deutsche Pharmakologische Gesellschaft (1944 Ehrenmitglied), British Pharmacological Society (Ehrenmitglied)" .
+
+<Year/1898>
+	rdfs:label "1898" ;
+	a drw-model:Year .
+
+<NameVariation/30995hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Straub, Walter/Walther Carl Ferdinand"@de .
+

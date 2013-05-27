@@ -1,0 +1,106 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<ImportantPerson/30109>
+	drw-model:hasSL <SL/30109hasSL2> ;
+	drw-model:hasID "30109" ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasQ <Q/30109hasQ2> ;
+	rdfs:label "Bodungen, Carl Friedrich Wilhelm von" ;
+	drw-model:hasQ <Q/30109hasQ3> ;
+	drw-model:wasBornOn <Date/1804> ;
+	drw-model:diedOn <Date/21_3_1863> ;
+	drw-model:hasStationOfLife <B/30109hasStationOfLife1> ;
+	drw-model:hasEducation <A/30109hasEducation1> ;
+	drw-model:hasMainName <MainName/30109hasMainName1> ;
+	drw-model:hasQ <Q/30109hasQ1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30109wasMarriedTo1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:motherIs <RelatedPerson/30109motherIs1> ;
+	drw-model:fatherIs <RelatedPerson/30109fatherIs1> ;
+	drw-model:hasSL <SL/30109hasSL1> ;
+	drw-model:wasBornIn <Place/Witzenhausen_oder_Mnden_gebore> ;
+	drw-model:hasDescendant <RelatedPerson/30109hasDescendant1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Hofchirurg> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Arzt> .
+
+<Date/21_3_1863>
+	rdfs:label "21.3.1863" ;
+	a drw-model:Date .
+
+<Place/Witzenhausen_oder_Mnden_gebore>
+	a drw-model:Place ;
+	rdfs:label "Witzenhausen oder Münden, geboren als LAZARUS, Carl (vermutlich jüdischer Herkunft)" .
+
+<GeneralLabor/Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Arzt" .
+
+<RelatedPerson/30109fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Jakob Lazarus (Leiblicher Vater)
+Friedrich Wilhelm von Bodungen, Senator und Bürgermeister in Hannoversch Münden (Adoptivvater)" .
+
+<RelatedPerson/30109motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Lea, geb. Hirsch" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<GeneralLabor/Hofchirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hofchirurg" .
+
+<RelatedPerson/30109hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Gustav Karl (Karlovič) (1836-1893), Gynäkologe, Kinderarzt<br>Friedrich Wilhelm (Fridrich Karlovič) (1838-1912), Geographielehrer<br>Nikolai Karl (Karl Karlovič), Ingenieur, Deutschlehrer<br>Adolf Lorenz (Karlovič) (1848-1911), Gouverneurssekretär<br>Johanna Charlotte (Karlovna), verh. Kölln<br>Ottilie (Karlovna) († 1912)<br>Julie (Karlovna) († 1916)" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<SL/30109hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Böhm 2003, 36." .
+
+<Q/30109hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Georg-August-Universität Göttingen, Universitätsarchiv (schriftliche Mitteilung vom 23.4.2009):" .
+
+<B/30109hasStationOfLife1>
+	rdfs:label "Ab 1830 in Russland, vermutlich zunächst als praktischer Arzt tätig, ab 1845 Hofchirurg der Großfürstin MARIJA NIKOLAEVNA (1819-1876) und ihres Gemahls Maximilian DE BEAUHARNAIS (1817-1852), 3. Herzog von Leuchtenberg (russ. Maksimilian Evgen'evič LEJCHTENBERGSKIJ).
+Inhaber der russischen Ehrentitel \"Titularrat\" (1852) und \"Hofrat\" (1862)." ;
+	a drw-model:B .
+
+<MainName/30109hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Bodungen, Carl Friedrich Wilhelm von" .
+
+<SL/30109hasSL2>
+	rdfs:label "EAD: Dokument-Id [59171/46534 (30.7.2010)]." ;
+	a drw-model:SL .
+
+<Q/30109hasQ3>
+	a drw-model:Q ;
+	rdfs:label "Bestand Med. Prom. 1827: Antrag, Promotionsurkunde vom 29.12.1827, Curriculum vitae in lateinischer Sprache (abgedruckt in: Fischer 2010, 33-34)." .
+
+<RelatedPerson/30109wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anna, geb. Weppener (1806-1888)" .
+
+<A/30109hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Bis 1817 Besuch der Lateinschule in Münden, 1817-1819 Privatunterricht bei Pastor OPPERMANN in Grona (bei Göttingen), daraufhin ca. 1 Jahr eigene Studien in Göttingen, danach 4 Jahre Besuch der Klosterschule und 1823 Reifeprüfung in Holzminden, 1824-1827 Studium der Medizin und 1827 Dr. med. (ohne schriftliche Dissertation) an der Universität Göttingen." .
+
+<Q/30109hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Matrikeleintrag: 23. April 1824, Carl Friedrich Wilhelm von Bodungen, Hannover, med., Zeugnis von Holzminden, Vater: Senator in Münden." .
+
+<Date/1804>
+	a drw-model:Date ;
+	rdfs:label "1804" .
+

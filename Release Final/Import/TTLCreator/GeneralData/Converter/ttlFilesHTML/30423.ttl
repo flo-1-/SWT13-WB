@@ -1,0 +1,193 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<P/30423hasP3>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Professora MCA/VMA (<b>SL</b>)." .
+
+<GeneralLabor/Leib_Geburtshelfer>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leib-Geburtshelfer" .
+
+<GeneralLabor/Professor_fr_Gynkologie_und_Ge>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Gynäkologie und Geburtshilfe" .
+
+<Date/6_3_1821_oder_6_or_18_3_1823>
+	a drw-model:Date ;
+	rdfs:label "6.3.1821 oder 6./18.3.1823" .
+
+<NameVariation/30423hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Eduard Anton" .
+
+<GPV/30423hasGPV1>
+	rdfs:label "• Publikationen 1851-1886, in: Zmeev. Bd. 1 (1886), 160, Bd. 2 (1887), 32; auch in: WBIS RBA: R 257, 193 und 204-205." ;
+	a drw-model:GPV .
+
+<NameVariation/30423hasNameVariation4>
+	rdfs:label "Ėduard-Anton" ;
+	a drw-model:NameVariation .
+
+<SL/30423hasSL5>
+	rdfs:label "Tarnovskij, I[ppolit Michajlovič]: Nekrolog A. Ja. Krassovskogo. Žurnal akušerstva i ženskich boleznej 12 (1898), 430-441." ;
+	a drw-model:SL .
+
+<P/30423hasP1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.rulex.ru/portret/24-002.jpg" ;
+	rdfs:label "Foto, Online Ressource online Ressource (26.3.2012). Abgedruckt in: Fischer 2010, 129." ;
+	a drw-model:P .
+
+<ImportantPerson/30423>
+	drw-model:hasP <P/30423hasP1> ;
+	drw-model:wasBornIn <Place/Sluck_Gouvernement_Minsk> ;
+	drw-model:diedOn <Date/1_or_13_4_oder_13_3_1898> ;
+	drw-model:hasSL <SL/30423hasSL2> ;
+	drw-model:fatherIs <RelatedPerson/30423fatherIs1> ;
+	drw-model:hasW <W/30423hasW2> ;
+	drw-model:hasP <P/30423hasP2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leib_Geburtshelfer> ;
+	drw-model:wasBornOn <Date/6_3_1821_oder_6_or_18_3_1823> ;
+	drw-model:hasW <W/30423hasW1> ;
+	drw-model:hasP <P/30423hasP3> ;
+	drw-model:diedIn <Place/Carskoe_Selo_bei_St_Petersburg> ;
+	drw-model:hasW <W/30423hasW5> ;
+	drw-model:hasWL <WL/30423hasWL1> ;
+	rdfs:label "Krassovskij, Anton Jakovlevič" ;
+	drw-model:hasSL <SL/30423hasSL6> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Gynkologie_und_Ge> ;
+	drw-model:hasMG <MG/30423hasMG1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30423.jpg> ;
+	drw-model:hasSL <SL/30423hasSL4> ;
+	drw-model:hasMainName <MainName/30423hasMainName1> ;
+	drw-model:hasW <W/30423hasW4> ;
+	drw-model:hasGPV <GPV/30423hasGPV1> ;
+	drw-model:hasSL <SL/30423hasSL1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <B/30423hasStationOfLife1> ;
+	drw-model:hasQ <Q/30423hasQ1> ;
+	drw-model:hasW <W/30423hasW3> ;
+	drw-model:hasWL <WL/30423hasWL2> ;
+	drw-model:hasGPV <GPV/30423hasGPV2> ;
+	drw-model:hasSL <SL/30423hasSL5> ;
+	drw-model:hasID "30423" ;
+	drw-model:hasEducation <A/30423hasEducation1> ;
+	drw-model:hasSL <SL/30423hasSL3> .
+
+<Date/1_or_13_4_oder_13_3_1898>
+	rdfs:label "1./13.4. oder 13.3.1898" ;
+	a drw-model:Date .
+
+<W/30423hasW1>
+	rdfs:label "Meletemata quaedam de uteri ruptura. Diss. S.-Peterburg 1852, 108 S." ;
+	a drw-model:W .
+
+<Place/Carskoe_Selo_bei_St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "Carskoe Selo bei St. Petersburg" .
+
+<SL/30423hasSL6>
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA: R 257, 193-195, 204-209; SU 249, 364." .
+
+<MainName/30423hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30423hasNameVariation4> ;
+	drw-model:hasNameVariation <NameVariation/30423hasNameVariation5> ;
+	drw-model:hasNameVariation <NameVariation/30423hasNameVariation1> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30423hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30423hasNameVariation3> ;
+	rdfs:label "Krassovskij, Anton Jakovlevič" .
+
+<W/30423hasW3>
+	rdfs:label "Kurzer Bericht über die vom 16. October 1885 bis zum 1. Januar 1888 ausgeführten Kaiserschnitte in der St. Petersburger Gebäranstalt. Archiv für Gynäkologie 32 (1888), 282-286." ;
+	a drw-model:W .
+
+<WL/30423hasWL2>
+	rdfs:label "1887 Mitgründer und bis 1892 Redakteur der Zeitschrift <i>Žurnal akušerstva i ženskich boleznej</i>." ;
+	a drw-model:WL .
+
+<SL/30423hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Berlin, Wien 1901, Sp. 909." .
+
+<Q/30423hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Otčet o zanjatijach vo vremja putešestvija s učenoju celiju za graniceju. Voenno-medicinskij žurnal Teil 72, Jg. 36 (1858) II, 1-16, 109-131, 339-367." .
+
+<A/30423hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Nach dem Besuch des Gymnasiums in Sluzk bis 1848 Studium und 1852 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg." .
+
+<P/30423hasP2>
+	a drw-model:P ;
+	rdfs:label "Foto in: Ivanovskij 1898 (<b>SL</b>), Bildtafel zw. S. 408 und 409." .
+
+<SL/30423hasSL1>
+	rdfs:label "Hirsch, August (Hg.): Biographisches Lexikon der hervorragenden Ärzte aller Zeiten und Völker. 2. Aufl. Bd. 3. Berlin, Wien 1931, 602." ;
+	a drw-model:SL .
+
+<W/30423hasW5>
+	rdfs:label "Slučaj simfizeotomii. Žurnal akušerstva i ženskich boleznej (1893) Nr. 1, 5 S." ;
+	a drw-model:W .
+
+<W/30423hasW2>
+	rdfs:label "Ob ovariotomii. De l'ovariotomie. Sanktpeterburg 1868, 70 S. (russ. u. franz.)." ;
+	a drw-model:W .
+
+<B/30423hasStationOfLife1>
+	rdfs:label "1848-1849 Arzt in den Militärhospitälern in Krasnoe Selo, Carskoe Selo und Oranienbaum, 1849-1850 Ordinator in der Frauen- und Kinderklinik des 2. Militärlandhospitals in St. Petersburg, 1850-1854 Assistent an der Klinik für Geburtshilfe und 1854-1856 Adjunkt-Professor an der MCA, zugleich ab 1852 Stadtgeburtshelfer in St. Petersburg, 1856-1858 (oder 1852-1854 oder ab 1854) Studien im Ausland, darunter in Deutschland, so an der Universität Breslau in der Entbindungsanstalt bei Julius Wilhelm BETSCHLER (1796-1865), in der medizinischen Klinik bei Friedrich Theodor von FRERICHS (1819-1885) und in der chirurgischen Klinik bei Albrecht Theodor MIDDELDORF (1824-1868), an der Universität Würzburg in den medizinischen Kliniken bei Friedrich Wilhelm von SCANZONI (1821-1891) und Heinrich von BAMBERGER (1822-1888), in der chirurgischen Klinik bei Wenzel von LINHART (1821-1877), hörte dort auch Vorlesungen zur Mikroskopie bei Albert von KÖLLIKER (1817-1905) und zu Kinderkrankheiten bei Franz von RINECKER (1811-1883), an der Universität Bonn in der gynäkologischen Klinik bei Hermann Friedrich KILIAN (1800-1863), an der Universität Heidelberg in der Entbindungsanstalt bei Wilhelm LANGE (1813-1881), in Wien an der geburtshilflichen Klinik bei Gustav August BRAUN (1829-1911) und an der Kinderklinik bei Alois BEDNAR (1816-1888), in München an der Gebäranstalt bei Anselm MARTIN (1807-1882), in Dresden an der Medizinisch-chirurgischen Akademie bei Woldemar Ludwig GRENSER (1812-1872), an der Universität Leipzig in der Entbindungsanstalt bei Carl CREDÉ (1819-1892), an der Charité in Berlin bei Julius Viktor SCHÖLLER (1811-1883), machte auch Reisen zu den Rheinischen Mineralwasserquellen, 1858-1876 Lehrstuhl für Geburtshilfe, Frauen- und Kinderkrankheiten, ab 1872 Akademiemitglied an der MCA, zugleich ab 1859 Leiter der Frauenabteilung des Militärkrankenhauses sowie ab 1873 der beiden neu errichteten geburtshilflich-gynäkologischen Kliniken am Michail-Krankenhaus, ab 1861 Oberarzt im 2. Militärlandhospital, 1871(oder 1876)-1898 Direktor der St. Petersburger Entbindungsanstalt, 1866-1870 \"Ehrenleib-Geburtshelfer\", 1870(oder 1874)-1898 Leib-Geburtshelfer am Zarenhof ALEKSANDR II. (1818-1881), außerdem ab 1868 beratendes Mitglied des Medizinalrats des Ministeriums des Innern.
+Inhaber der Ehrentitel \"Wirklicher russischer Staatsrat\" und \"Wirklicher Russischer Geheimrat\" sowie des Aleksandr-Nevskij-Ordens.
+Die Klinik für Geburtshilfe und Gynäkologie der Militärmedizinischen Akademie (MMA) in St.-Petersburg trägt seinen Namen: <i>Klinika akušerstva i ginekologii im. A. Ja. Krassovskogo</i>." ;
+	a drw-model:B .
+
+<NameVariation/30423hasNameVariation5>
+	rdfs:label "Эдуaрд Aнтoн" ;
+	a drw-model:NameVariation .
+
+<WL/30423hasWL1>
+	rdfs:label "Trug zur Verbesserung der operativen Gynäkologie und Geburtshilfe in Russland bei, führte 1862 als Erster in Russland die operative Entfernung des Eierstocks durch, begann mit der Anwendung des Kaiserschnitts, legte 1872 den Grundstein für das medizinische Frauenstudium in Russland." ;
+	a drw-model:WL .
+
+<W/30423hasW4>
+	a drw-model:W ;
+	rdfs:label "21 ovariotomija (Prodolženie otčeta ob ovariotomijach, ...). Žurnal akušerstva i ženskich boleznej (1892) Nr. 2, 43 S." .
+
+<NameVariation/30423hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "KRASSOWSKI" .
+
+<SL/30423hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Professora MCA/VMA, 35-36." .
+
+<NameVariation/30423hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "Jakowlevic Jakovlevich" .
+
+<SL/30423hasSL2>
+	rdfs:label "Ivanovskij 1898, 386-387, 408, 559, 630-631." ;
+	a drw-model:SL .
+
+<Place/Sluck_Gouvernement_Minsk>
+	a drw-model:Place ;
+	rdfs:label "Sluck, Gouvernement Minsk" .
+
+<MG/30423hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Obščestvo russkich vračej v S.-Peterburge [Gesellschaft russischer Ärzte in St. Petersburg], Medicinskoe obščestvo v Moskve [Medizinische Gesellschaft zu Moskau ], Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee] (ab 1875), Akušersko-ginekologičeskoe obščestvo [Geburtshilflich-gynäkologische Gesellschaft] (1885 Gründungsmitglied und erster Vorsitzender), Mitglied und Ehrenmitglied zahlreicher einheimischer und ausländischer Gesellschaften, darunter der Gesellschaft für Geburtshilfe und Gynäkologie in Berlin und der Gesellschaft für Geburtshilfe und Gynäkologie zu Leipzig." .
+
+<RelatedPerson/30423fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Jakov" .
+
+<GPV/30423hasGPV2>
+	rdfs:label "• Publikationen 1851-1888, in: Tarnovskij (<b>SL</b>), 438-439." ;
+	a drw-model:GPV .
+

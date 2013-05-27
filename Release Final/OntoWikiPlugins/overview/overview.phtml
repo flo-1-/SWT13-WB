@@ -1,0 +1,116 @@
+<!-- Formular, zum absenden der anfrage-->
+<form action="<?php echo $this->urlBase; ?>overview/overview" method="post" name="overview">		
+	<input type="hidden" name="letter" value="">		
+</form>
+
+<br>
+<!-- Alle wählbaren Zeichen
+	 # führt nicht von aktueller seite weg 	 
+-->
+<!-- <div style="width:100%; text-align:center; word-spacing:10px"> -->
+<table style="width:100%; text-align:center;">
+	<tr>
+		<td><a href="#" onClick="return list('A');">A</a></td>
+		<td><a href="#" onClick="return list('B');">B</a></td>
+		<td><a href="#" onClick="return list('C');">C</a></td>
+		<td><a href="#" onClick="return list('Č');">Č</a></td>
+		<td><a href="#" onClick="return list('D');">D</a></td>
+		<td><a href="#" onClick="return list('E');">E</a></td>
+		<td><a href="#" onClick="return list('Ė');">Ė</a></td>
+		<td><a href="#" onClick="return list('F');">F</a></td>
+		<td><a href="#" onClick="return list('G');">G</a></td>
+		<td><a href="#" onClick="return list('H');">H</a></td>
+		<td><a href="#" onClick="return list('I');">I</a></td>
+		<td><a href="#" onClick="return list('J');">J</a></td>
+		<td><a href="#" onClick="return list('K');">K</a></td>
+		<td><a href="#" onClick="return list('L');">L</a></td>
+		<td><a href="#" onClick="return list('M');">M</a></td>
+		<td><a href="#" onClick="return list('N');">N</a></td>
+		<td><a href="#" onClick="return list('O');">O</a></td>
+		<td><a href="#" onClick="return list('P');">P</a></td>
+		<td><a href="#" onClick="return list('Q');">Q</a></td>
+		<td><a href="#" onClick="return list('R');">R</a></td>
+		<td><a href="#" onClick="return list('S');">S</a></td>
+		<td><a href="#" onClick="return list('Š');">Š</a></td>
+		<td><a href="#" onClick="return list('Šč');">Šč</a></td>
+		<td><a href="#" onClick="return list('T');">T</a></td>
+		<td><a href="#" onClick="return list('U');">U</a></td>
+		<td><a href="#" onClick="return list('V');">V</a></td>
+		<td><a href="#" onClick="return list('W');">W</a></td>
+		<td><a href="#" onClick="return list('X');">X</a></td>
+		<td><a href="#" onClick="return list('Y');">Y</a></td>
+		<td><a href="#" onClick="return list('Z');">Z</a></td>
+		<td><a href="#" onClick="return list('Ž');">Ž</a></td>
+	</tr>
+</table>
+
+<table style="width:100%; text-align:center;">
+	<tr>
+		<td><a href="#" onClick="return list('A');">A</a></td>
+		<td><a href="#" onClick="return list('B');">Б</a></td>
+		<td><a href="#" onClick="return list('V');">B</a></td>
+		<td><a href="#" onClick="return list('G');">Г</a></td>
+		<td><a href="#" onClick="return list('D');">Д</a></td>
+		<td><a href="#" onClick="return list('E');">E/Ё</a></td>
+		<td><a href="#" onClick="return list('Ž');">Ж</a></td>
+		<td><a href="#" onClick="return list('I');">И</a></td>
+		<td><a href="#" onClick="return list('K');">K</a></td>
+		<td><a href="#" onClick="return list('L');">Л</a></td>
+		<td><a href="#" onClick="return list('M');">M</a></td>
+		<td><a href="#" onClick="return list('N');">Н</a></td>
+		<td><a href="#" onClick="return list('O');">O</a></td>
+		<td><a href="#" onClick="return list('P');">П</a></td>
+		<td><a href="#" onClick="return list('R');">Р</a></td>
+		<td><a href="#" onClick="return list('S');">C</a></td>
+		<td><a href="#" onClick="return list('T');">T</a></td>
+		<td><a href="#" onClick="return list('U');">У</a></td>
+		<td><a href="#" onClick="return list('F');">Ф</a></td>
+		<td><a href="#" onClick="return list('X');">X</a></td>
+		<td><a href="#" onClick="return list('C');">Ц</a></td>
+		<td><a href="#" onClick="return list('Č');">Ч</a></td>
+		<td><a href="#" onClick="return list('Š');">Ш</a></td>
+		<td><a href="#" onClick="return list('Šč');">Щ</a></td>
+		<td><a href="#" onClick="return list('Ė');">Э</a></td>
+		<td><a href="#" onClick="return list('Ju');">Ю</a></td>
+		<td><a href="#" onClick="return list('Ja');">Я</a></td>
+	</tr>
+</table>
+<!-- 
+A B B G D E / Ё Ž Z I K L M N O P R C T U F X C Č Š Ŝ Ė Û Â
+A Б B Г Д E / Ё Ж З И K Л M Н O П Р C T У Ф X Ц Ч Ш Щ Э Ю Я
+
+A   B   C   Č   D   E   Ė   F   G   H   I   J   K   L   M   N   O   P   R   S   Š   Šč   T   U   V   W   X   Y   Z   Ž 
+ 
+  A   Б   B   Г   Д   E / Ё   Ж   З   И  K   Л   M   Н   O   П   Р   C   T   У   Ф   X   Ц   Ч   Ш   Щ   Э   Ю   Я
+  -->
+<script>
+	// füge zeichen in formular ein und schicke es ab
+	var list = function(literal){
+		document.overview.letter.value = literal;	 
+		document.overview.submit();		
+		return false;
+	}
+</script>
+
+<br>
+
+<h2><u><?php echo $this->literal; ?></u></h2>
+<br>
+
+<?php 
+	if ($this->result){
+		echo "<table>";
+		foreach($this->result as $row){
+				echo "<tr>";
+					//echo "<td>".$row['uri']."</td>";
+					//echo "<td>".$row['label']."</td>";	
+					echo "<td>";
+					// zeige Person an, lasse evtl. expandieren, link führt zu personenview			
+					echo '<a class="hasMenu expandable Resource" about="'.$row['uri'].'"  href="'.$this->urlBase.'personview/personview/?r='.$row['uri'].'">'.$row['label'].'</a>';
+					echo "</td>";
+				echo "</tr>";
+		}
+		
+		echo "</table>";
+	}	
+?>

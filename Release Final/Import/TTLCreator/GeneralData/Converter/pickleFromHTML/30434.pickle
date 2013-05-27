@@ -1,0 +1,125 @@
+(dp0
+VA
+p1
+V1779-1781 Studium in Fulda, ab 1788 Studium der Medizin und 1790 Dr. med. in Jena, 1793 in Russland zugelassen.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+VME\u0420\u0426, \u042f\u043ao\u0432 \u0418\u0432a\u043do\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VMERC, Jakov Ivanovi\u010d
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+VNach dem Studium vermutlich zunächst als praktischer Arzt in Erfurt (?) und ab 1793 in St. Petersburg tätig, 1815-1822 Leibmedikus am Hofe des Zaren ALEKSANDR I. (1777-1825), zugleich Mitglied des Medizinalrats des Ministeriums des Innern, danach wieder in Deutschland, lebte vermutlich zeitweise in Würzburg.\u000a        Inhaber des russischen Ehrentitels "Staatsrat".
+p14
+sVE
+p15
+VElisabeth, geb. Boehtlingk (1776-1847)
+p16
+sVName
+p17
+(dp18
+S'Vornamen'
+p19
+VJohann Jakob Balthasar
+p20
+sS'Nachname'
+p21
+VMerz
+p22
+ssVQuelle
+p23
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 162.</i>
+p24
+sVNamensvariationen
+p25
+(lp26
+(dp27
+g6
+VJohannes
+p28
+sS'countyCode'
+p29
+g12
+sasVM
+p30
+VAnna Sidonia, geb. Weikard (Schwester von Adam Melchior Weikard und Georg Nikolaus #internNameLink#30467#endNameNr#Weikard#/internNameLink#)
+p31
+sVMG
+p32
+VMediko-filantropi\u010deskij komitet [Mediko-philanthropisches Komitee]
+p33
+sVN
+p34
+VWilhelm (geb. in Erfurt)\u000a        Sophie Elisabeth (geb. in St. Petersburg)
+p35
+sVQ
+p36
+(lp37
+VDie Matrikel der Universität Jena. Bd. 8.: Joann. Jacobus Merz, Hammelburg, Immatrikulation: 21.4.1788 [Universitätsbibliothek, Signatur: Ms. Prov, fol 116] (Schriftliche Mitteilung des Universitätsarchivs der Friedrich-Schiller-Universität Jena vom 21.9.2010).
+p38
+asVGeburtsdaten
+p39
+(dp40
+S'Ort'
+p41
+VHammelburg
+p42
+sS'Datum'
+p43
+V17.6.1766
+p44
+ssVSterbedaten
+p45
+(dp46
+g43
+V?
+p47
+ssVW
+p48
+(dp49
+S'letzteZeile'
+p50
+VDigitali purpurea eiusque usu in scrofulis medico. Dissertation. Jena 1790, 16 S.
+p51
+sS'general'
+p52
+(lp53
+g51
+assVV
+p54
+VJohann Balthasar (1729-1804), Apotheker, Ratsherr und Kirchenpfleger
+p55
+sVID
+p56
+V30434
+p57
+sVSL
+p58
+(dp59
+g52
+(lp60
+VEAD: Dokument-Id [62513/62073 (21.9.2010)]
+p61
+assVBerufe
+p62
+(lp63
+VArzt
+p64
+aVLeibmedikus
+p65
+as.

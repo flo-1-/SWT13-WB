@@ -1,0 +1,126 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30076hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Sbornik biografij kavalergardov 1826-1908. Red. Sergej Alekseevič Pančulidzev. Reprint izdanija 1908 goda. Moskva 2008, 406." .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Q/30076hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Archiv i Biblioteka Voenno-medicinskogo muzeja v St. Peterburge [Archiv und Bibliothek des Militär-medizinischen Museums in St. Petersburg]. Angaben aus: Kalendar' dlja vračej 1897 g.; Rossijskij medicinskij spisok na 1897 g.; Kalendar' dlja vračej 1904 g.; Rossijskij medicinskij spisok na 1914 g., S. 34; Ves' Peterburg na 1914 g. (adresnaja kniga)." .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<B/30076hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "Nach dem Studium Fortbildung und Tätigkeit an der MMA in der therapeutischen Klinik bei Fëdor Ivanovič PASTERNACKIJ (1845-1902), im Laboratorium bei Ivan Romanovič TARCHANOV (1846-1908) sowie im Institut für experimentelle Medizin bei Marcelij Vil'gel'movič NENCKIJ (1847-1901), zeitweise beim Reservedienst aufgenommen, 1894 im Medizinaldepartement angestellt, ab 1895 Assistenzarzt im Lebedinskij-Reservebatallion in Char'kov, Ende 1895 zum Regiment der Kavalliergarde versetzt, 1900-1901 Leibarzt von Eugéne de BEAUHARNAIS (1847-1901), 5. Herzog von Leuchtenberg, russ. Evgenij Maksimilianovič LEJCHTENBERGSKIJ, während dessen Aufenthaltes in Paris, wo er außerdem Kliniken von Albert ROBIN (1847-1928), Paul Georges DIEULAFOY (1839-1911) und Anatole CHAUFFARD (1855-1932) besuchte, ab 1901 oder 1902 Oberarzt und ab 1909 außerplanmäßiger Konsultant im Aleksandr-Militärkrankenhaus des Semenovskij-Regiments in St. Petersburg, ab 1905 \"Ehrenleibmedikus\" am Hofe des Zaren NIKOLAJ II. (1868-1918).
+Inhaber hoher russischer Ehrentitel und zahlreicher Auszeichnungen, darunter \"Staatsrat\", St.-Vladimir-Orden 4. Klasse, St.-Stanislav-Orden 2. Klasse, Oldenburgischer Haus- und Verdienstorden des Herzogs Peter Friedrich Ludwig 1. Klasse, Ritterkreuz des Greifenordens von Mecklenburg-Schwerin, 1896 Krönungsmedaille Nikolaj II." .
+
+<W/30076hasW1>
+	rdfs:label "Topografičeskoe raspredelenie chlora v normal'nom životnom organizme. Diss. Sankt-Peterburg 1894, 41 S." ;
+	a drw-model:W .
+
+<RelatedPerson/30076hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Praskov'ja Petrovna Berëzkina (* 1896)<br>Aleksandr Petrovič (* 1898)" .
+
+<SL/30076hasSL1>
+	rdfs:label "Nachapetov 2003, 213." ;
+	a drw-model:SL .
+
+<RelatedPerson/30076wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Praskov'ja Petrovna Berëzkina, geb. Parfent'eva" .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<A/30076hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Bis 1890 Studium an der Militärmedizinischen Akademie (MMA) in St. Petersburg mit dem Abschluss \"Arzt\", 1894 Dr. med. am Kaiserlichen Institut für experimentelle Medizin in St. Petersburg." .
+
+<P/30076hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto aus: Sbornik biografij kavalergardov (<b>SL</b>). Abgedruckt in: Fischer 2010, 20." .
+
+<SL/30076hasSL2>
+	rdfs:label "Pridvornyj kalendar': na 1910 god. S.-Peterburg [o. J.], 291; ~1911, 301; ~1913, 317-318; ~1914, 398-399." ;
+	a drw-model:SL .
+
+<ImportantPerson/30076>
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	drw-model:wasMarriedTo <RelatedPerson/30076wasMarriedTo1> ;
+	drw-model:hasID "30076" ;
+	drw-model:hasMainName <MainName/30076hasMainName1> ;
+	drw-model:hasEducation <A/30076hasEducation1> ;
+	drw-model:hasW <W/30076hasW1> ;
+	drw-model:hasDescendant <RelatedPerson/30076hasDescendant1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30076.jpg> ;
+	drw-model:hasSL <SL/30076hasSL3> ;
+	drw-model:fatherIs <RelatedPerson/30076fatherIs1> ;
+	rdfs:label "Berёzkin, Pëtr Kuz'mič" ;
+	drw-model:wasBornOn <Date/1_2_1867> ;
+	drw-model:wasBornIn <Place/St_Petersburg> ;
+	a drw-model:ImportantPerson ;
+	drw-model:diedOn <Date/nach_1917> ;
+	drw-model:hasSL <SL/30076hasSL1> ;
+	drw-model:hasSL <SL/30076hasSL4> ;
+	drw-model:hasP <P/30076hasP1> ;
+	drw-model:hasWInformation <WInformation/30076hasWInformation1> ;
+	drw-model:hasSL <SL/30076hasSL2> ;
+	drw-model:motherIs <RelatedPerson/30076motherIs1> ;
+	drw-model:hasQ <Q/30076hasQ1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Ehrenleibmedikus> ;
+	drw-model:hasP <P/30076hasP2> ;
+	drw-model:hasStationOfLife <B/30076hasStationOfLife1> .
+
+<SL/30076hasSL4>
+	rdfs:label "Šustov, A. S. (Hg.): Naši dejateli po medicine. S.-Peterburg 1910 (Illjustrirovannyj vestnik kul'tury, naučno-vospitatel'nago, techničeskago i torgovo-promyšlennago progressa Rossii 1)." ;
+	a drw-model:SL .
+
+<WInformation/30076hasWInformation1>
+	rdfs:label "Topografičeskoe raspredelenie chlora v normal'nom životnom organizme. Diss. Sankt-Peterburg 1894, 41 S." ;
+	a drw-model:WInformation .
+
+<Date/1_2_1867>
+	a drw-model:Date ;
+	rdfs:label "1.2.1867" .
+
+<Date/nach_1917>
+	a drw-model:Date ;
+	rdfs:label "nach 1917" .
+
+<RelatedPerson/30076fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Koz'ma Ivanovič" .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<GeneralLabor/Ehrenleibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ehrenleibmedikus" .
+
+<RelatedPerson/30076motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Mar'ja Savel'evna Berëzkina, geb. Šutova" .
+
+<MainName/30076hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Berёzkin, Pëtr Kuz'mič" .
+
+<P/30076hasP2>
+	rdfs:label "Foto in: Šustov (<b>SL</b>)." ;
+	a drw-model:P .
+

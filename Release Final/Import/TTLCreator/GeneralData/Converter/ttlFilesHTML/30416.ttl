@@ -1,0 +1,166 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<RelatedPerson/30416hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Alexander Eberhard (Aleksandr Jakovlevič) (1791-1815), Militär- u. Bezirksarzt<br>        Jakob Johann(es) (Georg?) (Jakov Jakovlevič) (*1794), Verwaltungsbeamter<br>        Sophie (Sof'ja Jakovlevna), verh. von Budberg (1793-1831)<br>        Elisabeth (Elizaveta Jakovlevna), verh. von Budberg (1789?-1835)<br>        Marie (Marija Jakovlevna) (1806-1871)<br>        Anna (Jakovlevna) (1806?-1881)" .
+
+<Date/7_or_19_7_1829>
+	a drw-model:Date ;
+	rdfs:label "7./19.7.1829" .
+
+<SL/30416hasSL4>
+	a drw-model:SL ;
+	rdfs:label "WBIS DBA: I 718, 292; II 768, 184; BaBA: I 186, 26-28; RBA: R 232, 96-97." .
+
+<NameVariation/30416hasNameVariation8>
+	rdfs:label "Jakov Genrich" ;
+	a drw-model:NameVariation .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<RelatedPerson/30416wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anna Elisabeth, geb. Hippius (1770-1825)" .
+
+<SL/30416hasSL2>
+	rdfs:label "EAD: Dokument-Id [71968/70421 (2.8.2010)]." ;
+	a drw-model:SL .
+
+<MG/30416hasMG1>
+	a drw-model:MG ;
+	rdfs:label "S.-Peterburgskaja Mediko-chirurgičeskaja akademija [St. Petersburger Mediko-chirurgische Akademie] (ab 1813)." .
+
+<ImportantPerson/30416>
+	drw-model:motherIs <RelatedPerson/30416motherIs1> ;
+	drw-model:hasSL <SL/30416hasSL3> ;
+	drw-model:hasMG <MG/30416hasMG1> ;
+	drw-model:hasStationOfLife <B/30416hasStationOfLife1> ;
+	drw-model:diedOn <Date/7_or_19_7_1829> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Kaiserlicher_Leibchirurg> ;
+	drw-model:hasID "30416" ;
+	rdfs:label "Kühlewein, Jakob Heinrich (von)" ;
+	drw-model:hasMainName <MainName/30416hasMainName1> ;
+	drw-model:wasBornIn <Place/Riga> ;
+	drw-model:wasMarriedTo <RelatedPerson/30416wasMarriedTo1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <A/30416hasEducation1> ;
+	drw-model:hasSL <SL/30416hasSL1> ;
+	drw-model:wasBornOn <Date/30_8_or_10_9_1765_oder_1766> ;
+	drw-model:fatherIs <RelatedPerson/30416fatherIs1> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasSL <SL/30416hasSL2> ;
+	drw-model:hasW <W/30416hasW2> ;
+	drw-model:hasSL <SL/30416hasSL4> ;
+	drw-model:hasW <W/30416hasW1> ;
+	drw-model:hasDescendant <RelatedPerson/30416hasDescendant1> .
+
+<B/30416hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "Ab August 1786 (oder 1784 oder 1787) in Russland zugelassen, 1787-1792 und 1795-1797 Gouvernement-Arzt in Novgorod, 1793 Arzt der 6. Division in Smolensk und 1794 in der Armee Nikolaj Vasil'evič REPNINS (1734-1801) in Polen, 1797-1800 Chirurg in Vologda, zeitweise 1797 und 1798 auch in Orël, 1800-1802 Arzt des Kavaliergarderegiments und Polizeiarzt in St. Petersburg, 1802 Hofchirurg, 1805 Arzt des Kaiserlichen Gefolges im Felde, ab 1806 Arzt am Findelhaus in St. Petersburg, 1808 Leibchirurg, 1811 Hofarzt und ab 1824 Leibmedikus am Zarenhof.
+        Inhaber hoher russischer Ehrentitel und Auszeichnungen: 1798 \"Hofrat\", 1806 \"Kollegienrat\", 1810 \"Wirklicher Russischer Staatsrat\", Ritter des St.-Annen-Ordens 2. Klasse und 1807 des St.-Vladimir-Ordens 3. Klasse." .
+
+<NameVariation/30416hasNameVariation2>
+	rdfs:label "KIL'VEJN" ;
+	a drw-model:NameVariation .
+
+<NameVariation/30416hasNameVariation6>
+	a drw-model:NameVariation ;
+	rdfs:label "Jacob" .
+
+<A/30416hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1783 Beginn des Jurastudiums und Wechsel zur Medizin an der Universität Halle/Saale, 1784-1785 Fortsetzung des Medizinstudiums an der Universität Erfurt, danach 1785-1786 an der Universität Göttingen und dort 1786 Dr. med." .
+
+<NameVariation/30416hasNameVariation4>
+	rdfs:label "KИЛЬВEЙН" ;
+	a drw-model:NameVariation .
+
+<RelatedPerson/30416fatherIs1>
+	rdfs:label "Christian Jakob, Kaufmann" ;
+	a drw-model:RelatedPerson .
+
+<NameVariation/30416hasNameVariation9>
+	a drw-model:NameVariation ;
+	rdfs:label "Якoв Xриcтиaнoвич" .
+
+<GeneralLabor/Kaiserlicher_Leibchirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Kaiserlicher Leibchirurg" .
+
+<RelatedPerson/30416motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Margaretha Luise, geb. Schroeter" .
+
+<Date/30_8_or_10_9_1765_oder_1766>
+	rdfs:label "30.8./10.9.1765 oder 1766" ;
+	a drw-model:Date .
+
+<SL/30416hasSL3>
+	rdfs:label "Peterburgskij nekropol'. Bd. 2 (1912), 583." ;
+	a drw-model:SL .
+
+<NameVariation/30416hasNameVariation10>
+	a drw-model:NameVariation ;
+	rdfs:label "Якoв Гeнриx" .
+
+<W/30416hasW2>
+	rdfs:label "Anweisung zur Impfung der Schutzblattern (Entwurf); lettisch: Eerasdischana kà glahbschanas-bakkes irr eedehstijamas (o. O. 1825); estnisch (übersetzt von O. W. Masing): Öppetus, kuida usi-rougid panna. Riga 1825." ;
+	a drw-model:W .
+
+<SL/30416hasSL1>
+	rdfs:label "Böhm 2003, 187 und 472." ;
+	a drw-model:SL .
+
+<Place/Riga>
+	a drw-model:Place ;
+	rdfs:label "Riga" .
+
+<W/30416hasW1>
+	rdfs:label "Dissertatio inauguralis medica de duireticorum medicamentorum temere adhibitorum noxa in hydrope. Dissertation. Göttingen 1786, 22 S. Online Ressource Online Ressource (4.4.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=PPN654836639&IDDOC=727571" ;
+	a drw-model:W .
+
+<NameVariation/30416hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "KJULEVEJN" .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<NameVariation/30416hasNameVariation1>
+	rdfs:label "KÜLEWEIN" ;
+	a drw-model:NameVariation .
+
+<NameVariation/30416hasNameVariation5>
+	rdfs:label "KЮЛEВEЙН" ;
+	a drw-model:NameVariation .
+
+<NameVariation/30416hasNameVariation7>
+	rdfs:label "Jakov Christianovič" ;
+	a drw-model:NameVariation .
+
+<MainName/30416hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30416hasNameVariation5> ;
+	drw-model:hasNameVariation <NameVariation/30416hasNameVariation8> ;
+	drw-model:hasNameVariation <NameVariation/30416hasNameVariation9> ;
+	drw-model:hasNameVariation <NameVariation/30416hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30416hasNameVariation3> ;
+	drw-model:hasNameVariation <NameVariation/30416hasNameVariation6> ;
+	drw-model:hasNameVariation <NameVariation/30416hasNameVariation7> ;
+	a drw-model:MainName ;
+	rdfs:label "Kühlewein, Jakob Heinrich (von)" ;
+	drw-model:hasNameVariation <NameVariation/30416hasNameVariation10> ;
+	drw-model:hasNameVariation <NameVariation/30416hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30416hasNameVariation4> .
+

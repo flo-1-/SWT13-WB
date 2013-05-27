@@ -1,0 +1,156 @@
+(dp0
+VA
+p1
+V1783 Beginn des Studiums der Staatskunde, aber 1786 Dr. med. an der Universität Göttingen, 1787 Doktor-Examen am Medizinischen Kollegium in St. Petersburg für die Zulassung in Russland.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+VC\u0423T\u0413O\u0424, \u041d\u0438\u043ao\u043ba\u0439-\u0418oax\u0438\u043c \u041ca\u0440\u0442\u044b\u043do\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VSUTGOF, Nikolaj-Ioachim Martynovi\u010d
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+V1787-1790 Gouvernementsarzt in Kostroma, ab 1790 (oder 1792) in St. Petersburg: 1790-1796 Gehilfe des Stadtgeburtshelfers, 1796 Arzt des Senats, ab 1798 Direktor des "Kaiserlichen Klinischen Instituts für Geburtshilfe", ab 1799 Stadtgeburtshelfer, 1803-1833 Direktor des Kaiserlichen Hebammeninstitutes, zugleich Professor für Geburtshilfe an den geburtshilflichen Anstalten des Findelhauses, ab 1807 Mitglied des Medizinalrats des Ministeriums des Innern, ab 1819 auch Hofgeburtshelfer und ab 1824 Leibarzt am Zarenhof, 1835 aus gesundheitlichen Gründen aus dem Dienst ausgeschieden.\u000a        Inhaber hoher russischer Ehrentitel und Auszeichnungen, darunter 1798 "Hofrat", 1799 "Staatsrat", 1800 "Wirklicher Russischer Staatsrat", 1803 St.-Vladimir-Orden 4. Klasse, Großkreuz des St.-Annen und des St.-Vladimir-Ordens 2. Klasse.\u000a        Ihm widmete Joseph #internNameLink#30447#endNameNr#Rehmann#/internNameLink# seine Herausgabe "Zwey chinesische Abhandlungen über die Geburtshülfe".
+p14
+sVE
+p15
+VHedwig Katharina (Gedviga Katarina), geb. Orraeus (1774-1847)
+p16
+sVName
+p17
+(dp18
+S'Vornamen'
+p19
+VNikolaus Joachim
+p20
+sS'Nachname'
+p21
+VSutthoff
+p22
+ssVQuelle
+p23
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 242-243.</i>
+p24
+sVNamensvariationen
+p25
+(lp26
+(dp27
+g6
+VSUDHOFF
+p28
+sS'countyCode'
+p29
+g12
+sa(dp30
+g6
+VNicolai
+p31
+sg29
+g12
+sa(dp32
+g6
+VIachim
+p33
+sg29
+g12
+sa(dp34
+g6
+V\u0418ax\u0438\u043c
+p35
+sg29
+g9
+sasVM
+p36
+VSophia Elisabeth, geb. Jaenisch (1744-1821)
+p37
+sVN
+p38
+VNikolai (Nikolaevi\u010d) (1792-1828), Staatsrat\u000a        Sophia Luise (Sofija Luiza Nikolaevna), verw. Kimmel (Witwe von Carl Gottfried Benjamin #internNameLink#30420#endNameNr#Kimmel#/internNameLink#), in 2. Ehe verh. Crichton (Krejton) (1798-1869)\u000a        Natalie (Nikolaevna) (1799-1867)\u000a        Alexander (Nikolaevi\u010d) (1800-1874), Infanterie-General, Direktor einer Kadettenanstalt
+p39
+sVQ
+p40
+(lp41
+VGoetz von Selle (Hg.): Die Matrikel der Georg-August-Universität Göttingen. Bd. [1]: 1734-1837. Hildesheim 1937, 274.
+p42
+asVGeburtsdaten
+p43
+(dp44
+S'Ort'
+p45
+VWiburg, Gouvernement St. Petersburg
+p46
+sS'Datum'
+p47
+V2.12.1765
+p48
+ssVSterbedaten
+p49
+(dp50
+g47
+V1.10.1836
+p51
+sg45
+VSankt Petersburg
+p52
+sS'Grabst\xc3\xa4tte'
+p53
+VLutherischer Friedhof Volkovo
+p54
+ssVW
+p55
+(dp56
+S'letzteZeile'
+p57
+VDissertatio inauguralis medico-obstetricia sistens vectis Roonhuysiani historiam fata et usum. Diss. Göttingen 1786, 47 S. Titelblatt abgedruckt in: Fischer 2010, 243 [Exemplar der Universitätsbibliothek Leipzig, Signatur: Gbh.3186].
+p58
+sS'general'
+p59
+(lp60
+g58
+assVV
+p61
+VMartin (1732-1780), Kaufmann
+p62
+sVID
+p63
+V30459
+p64
+sVSL
+p65
+(dp66
+g59
+(lp67
+VBöhm 2003, 341, 502.
+p68
+aVEAD: Dokument-Id [62077/60120 (12.8.2010)].
+p69
+aVErpenbeck, Dirk-Gerd: Die Familien Sutthoff. Bochum 2002 (Auszug aus dem Manuskript, zugesandt vom Autor am 12.2.2009).
+p70
+aVHeine, Maximilian: Die bekanntesten Aerzte Russlands unter der Regierung der Kaiserin Catharina II. Medicinische Zeitung Russlands 12 (1855), 317-318.
+p71
+aVNemcy Rossii. Bd. 3 (2006), 497-498.
+p72
+aVWBIS RBA: R 449, 303.
+p73
+assVBerufe
+p74
+(lp75
+VProfessor für Geburtshilfe
+p76
+aVLeibarzt
+p77
+as.

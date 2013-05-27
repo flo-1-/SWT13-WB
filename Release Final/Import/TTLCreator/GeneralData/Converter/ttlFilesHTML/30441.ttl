@@ -1,0 +1,136 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30441hasSL1>
+	rdfs:label "Amburger 1966, 155." ;
+	a drw-model:SL .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<RelatedPerson/30441motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Margarethe Elisabeth, geb. Geyer" .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<WL/30441hasWL1>
+	rdfs:label "Auf seine Initiative hin wurden in den St. Petersburger Zivilkrankenhäusern viele Umgestaltungen und Verbesserungen eingeführt, u.a. wissenschaftliche Ärzte-Beratungen, Ämter der Prosektoren, Anwendung der Mikroskopie und von Laboruntersuchungen zur Erkennung von Krankheiten, Einführung der künstlichen Beatmung." ;
+	a drw-model:WL .
+
+<MainName/30441hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Person, Johann Friedrich (von)" .
+
+<WInformation/30441hasWInformation1>
+	rdfs:label "Disquisitiones sterilitatis muliebris. S.-Peterburg 1835, 90 S." ;
+	a drw-model:WInformation .
+
+<ImportantPerson/30441>
+	drw-model:hasEducation <A/30441hasEducation1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30441wasMarriedTo1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Medizinalinspektor> ;
+	drw-model:hasSL <SL/30441hasSL5> ;
+	drw-model:hasSL <SL/30441hasSL6> ;
+	drw-model:hasWL <WL/30441hasWL1> ;
+	drw-model:wasBornOn <Date/12_or_23_8_1797> ;
+	drw-model:hasMainName <MainName/30441hasMainName1> ;
+	drw-model:hasStationOfLife <B/30441hasStationOfLife1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Ehrenleibmedikus> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	rdfs:label "Person, Johann Friedrich (von)" ;
+	drw-model:hasWInformation <WInformation/30441hasWInformation1> ;
+	drw-model:hasSL <SL/30441hasSL1> ;
+	drw-model:hasSL <SL/30441hasSL4> ;
+	drw-model:hasSL <SL/30441hasSL2> ;
+	drw-model:hasID "30441" ;
+	drw-model:wasBornIn <Place/St_Petersburg> ;
+	drw-model:hasSL <SL/30441hasSL3> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasWL <WL/30441hasWL2> ;
+	drw-model:hasMG <MG/30441hasMG1> ;
+	drw-model:motherIs <RelatedPerson/30441motherIs1> ;
+	drw-model:hasDescendant <RelatedPerson/30441hasDescendant1> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:fatherIs <RelatedPerson/30441fatherIs1> ;
+	drw-model:hasW <W/30441hasW1> ;
+	drw-model:diedOn <Date/10_or_22_10_1867> .
+
+<RelatedPerson/30441hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Friedrich Julius (Ivanovič) (1836-1892) [?]<br>        Carl Georg (Ivanovič) (1836-1890) [?]<br>" .
+
+<SL/30441hasSL3>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [61772/60632 und 10441136 (9.8.2010)]." .
+
+<Date/10_or_22_10_1867>
+	a drw-model:Date ;
+	rdfs:label "10./22.10.1867" .
+
+<SL/30441hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Böhm 2003, 486, Akte pn3-388." .
+
+<A/30441hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1805-1813 Besuch des deutschen Petri-Gymnasiums in St. Petersburg, 1813-1817 Studium und 1835 Dr. med. an der Mediko-chirurgischen Akademie (MCA) St. Petersburg." .
+
+<WL/30441hasWL2>
+	rdfs:label "Außerdem beteiligte sich P. an der Ausarbeitung zahlreicher medizinischer Schutzmaßnahmen, insbesondere gegen Infektionskrankheiten." ;
+	a drw-model:WL .
+
+<GeneralLabor/Medizinalinspektor>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Medizinalinspektor" .
+
+<SL/30441hasSL6>
+	rdfs:label "WBIS RBA: R 359, 7-12." ;
+	a drw-model:SL .
+
+<MG/30441hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Deutscher ärztlicher Verein (ab 1835), Deutsche Akademie der Naturforscher Leopoldina (ab 1856), Mediko-filantropičeskij komitet [Mediko-philanthropisches Komitee] (ab 1862)." .
+
+<W/30441hasW1>
+	rdfs:label "Disquisitiones sterilitatis muliebris. S.-Peterburg 1835, 90 S." ;
+	a drw-model:W .
+
+<SL/30441hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Gennadi. Bd. 3 (1876), 123." .
+
+<SL/30441hasSL5>
+	a drw-model:SL ;
+	rdfs:label "RBS. Bd. [13]: Pavel, prepodobnyj - Petr (Ilejka) (1902), 571-572; auch in: WBIS RBA: R 359, 7-11." .
+
+<B/30441hasStationOfLife1>
+	rdfs:label "1817 Ordinator im Obuchov-Krankenhaus in St. Petersburg, danach vier Jahre Studienaufenthalte an Universitäten in Westeuropa, nach der Rückkehr in St. Petersburg als praktischer Arzt in der Reichsbank, im Münzhof und im Findelhaus beschäftigt, 1832-1863 behandelnder Arzt im Petri-Waisenhaus, zugleich 30 Jahre in der Lehranstalt für Taubstumme tätig, bereits vor 1863 Assistent des Medizinalinspektors und 1863-1867 Medizinalinspektor der \"Institutionen der Zarin Marija\", ab 1864 \"Ehrenleibmedikus\" am Hofe des Zaren ALEKSANDR II. (1818-1881) und Mitglied des Medizinalrats des Ministeriums des Innern, außerdem zeitweise Konsultant im Maksimilian-Krankenhaus.
+Erhielt die Ehrentitel \"Wirklicher Russischer Staatsrat\" (1849) und \"Geheimrat\" (1865), 1877 wurde an der MCA ein jährliches Person-Stipendium eingerichtet." ;
+	a drw-model:B .
+
+<RelatedPerson/30441fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann Heinrich (1759-1830), Schmiedemeister" .
+
+<GeneralLabor/Ehrenleibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ehrenleibmedikus" .
+
+<Date/12_or_23_8_1797>
+	a drw-model:Date ;
+	rdfs:label "12./23.8.1797" .
+
+<RelatedPerson/30441wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Henriette Marie, geb. Frischmann (1806-1869)" .
+

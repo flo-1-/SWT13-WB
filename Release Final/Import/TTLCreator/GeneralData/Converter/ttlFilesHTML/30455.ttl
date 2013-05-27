@@ -1,0 +1,166 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<MainName/30455hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30455hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30455hasNameVariation1> ;
+	rdfs:label "Schlegel, Johann Gottlieb (von)" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<SL/30455hasSL3>
+	rdfs:label "Ivanovskij 1898, 359-364; auch in: WBIS RBA: R 510, 241-246." ;
+	a drw-model:SL .
+
+<P/30455hasP2>
+	rdfs:label "Medaillon-Ausschnitt [bearb.] in: Professora MCA/VMA (<b>SL</b>)." ;
+	a drw-model:P .
+
+<SL/30455hasSL5>
+	rdfs:label "Professora MCA/VMA, 11." ;
+	a drw-model:SL .
+
+<WL/30455hasWL2>
+	rdfs:label "        Praktizierte als Erster unter russischen Ärzten die Obduktion zur Feststellung der Todesursache." ;
+	a drw-model:WL .
+
+<Q/30455hasQ1>
+	a drw-model:Q ;
+	rdfs:label "2 Briefe von Karl Ernst von Baer an Schlegel, undatiert [vor 18.03.1841] und vom 03.09.1849. Vgl. Erki Tammiksaar: Findbuch zum Nachlass Karl Ernst von Baer (1792-1876). Nach Vorarbeiten von Vello Kaavere eingeleitet, bearbeitet und zusammengestellt von Erki Tammiksaar. Gießen 1999, 97." .
+
+<Date/20_9_or_2_10_1851>
+	a drw-model:Date ;
+	rdfs:label "20.9./2.10.1851" .
+
+<Date/19_or_30_8_1787>
+	a drw-model:Date ;
+	rdfs:label "19./30.8.1787" .
+
+<NameVariation/30455hasNameVariation1>
+	rdfs:label "Iogann" ;
+	a drw-model:NameVariation .
+
+<B/30455hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "Ab 1808 im russischen Dienst als Militärarzt: 1808-1809 im Estländischen Musketier-Regiment, 1810 bei der Schwarzmeerflotte, 1811-1816 Oberarzt in den Schlachten des 5. Jäger-Regiments, 1817-1818 Genesungspause, ab 1818 Gehilfe des Generalstabsarztes der 2. Armee und 1820 Divisionsarzt der 16. Infanterie-Division in Tul'čino, 1821 Divisionsarzt der 28. Infanterie-Division, 1828 Oberarzt im Hauptquartier der 2. Armee, 1819-1820 Organisator der Pestbekämpfung in Bessarabien und 1825, 1828 sowie 1829 in Bukarest, 1829 zum \"Ehrenleibmedikus\" am Hofe des Zaren NIKOLAJ I. (1796-1855) ernannt, 1830 Divisionsarzt beim General-Gouvernement von Novorossija (Neurussland), zugleich (oder 1833) Inspektor der Medizinalverwaltung in Odessa, 1831-1832 Oberarzt der Lazarette in Warschau und Leiter der Cholerabekämpfung, 1832 Generalstabsarzt des Heeres, 1833 Oberarzt des Militärhospitals in Riga und 1834-1838 in Moskau, 1838-1851 Präsident der Mediko-chirurgischen Akademie (MCA) in St. Petersburg (vgl. <b>WL</b>).
+Inhaber hoher russischer Ehrentitel und Auszeichnungen: 1823 \"Kollegien-Rat\", 1831 \"Wirklicher Russischer Staatsrat\", 1813 St.-Vladimir-Orden 4. Klasse, 1829 3. Klasse und 1850 2. Klasse, 1820 St.-Annen-Orden 2. Klasse, 1825 mit diamantenem Abzeichen, 1846 1. Klasse und 1848 mit der Kaiserkrone, 1832 St.-Stanislav-Orden 2. Klasse mit Stern und 1842 1. Klasse." .
+
+<RelatedPerson/30455motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anna Sibylla, geb. Maczewsky († 1811)" .
+
+<RelatedPerson/30455fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Julius Heinrich Gottlieb (1739-1810), Geistlicher, Professor der Theologie" .
+
+<W/30455hasW1>
+	rdfs:label "Dissertatio inauguralis medica sistens scrutationem febris. [Bamberg] 1803." ;
+	a drw-model:W .
+
+<SL/30455hasSL2>
+	rdfs:label "EAD: Dokument-Id [77732/75395 (10.8.2010)]." ;
+	a drw-model:SL .
+
+<P/30455hasP1>
+	a drw-model:P ;
+	rdfs:label "Medaillon-Ausschnitt. Aus: Ivanovskij (<b>SL</b>), Bildtafel zwischen S. 360 und 361. Abgedruckt in: Fischer 2010, 221." .
+
+<A/30455hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Private Ausbildung vom Vater und von Professor Johann Ernst Daniel PAROW (1771-1836) in Greifswald, 1800-1803 Studium der Medizin in Jena und Bamberg, 1803 (16-jährig) Dr. med. et chir. an der Universität Bamberg, danach Fortbildung als Hörer medizinischer Vorlesungen an einigen deutschen Universitäten, darunter in Würzburg und 1807 in Wien, 1808 Doktor-Examen an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg." .
+
+<W/30455hasW2>
+	a drw-model:W ;
+	rdfs:label "O čume. Voenno-medicinskij žurnal Teil 30 (1825) Nr. 3." .
+
+<SL/30455hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Peterburgskij nekropol'. Bd. 4 (1913), 556-557." .
+
+<P/30455hasP3>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Čistovič (<b>SL</b>)." .
+
+<SL/30455hasSL6>
+	a drw-model:SL ;
+	rdfs:label "WBIS BaBA: I 320, 70-71; RBA: R 510, 226-246." .
+
+<Place/Riga>
+	a drw-model:Place ;
+	rdfs:label "Riga" .
+
+<WL/30455hasWL1>
+	rdfs:label "Initiator von Reformen an der MCA, darunter 1839 Einführung des Französisch-Unterrichts, Gründung neuer Lehrstühle, z.B. 1841 des Lehrstuhls für vergleichende Anatomie und Physiologie, 1842 des Lehrstuhls für Geburtshilfe und Kinderkrankheiten, 1848 des außeretatmäßigen Lehrstuhls für allgemeine Pathologie, allgemeine Therapie und medizinische Diagnostik, 1845 Ausarbeitung neuer Prüfungsregeln und 1848 der neuen Verordnung über die Wahl der Professoren auf die unbesetzten Lehrstühle, 1847 Einführung staatlicher Stipendien, 1840 Anschluss des 2. Militärlazaretts und 1849 des Marinehospitals an die MCA, 1843 Gründung des botanischen Gartens." ;
+	a drw-model:WL .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<GeneralLabor/Ehrenleibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ehrenleibmedikus" .
+
+<WL/30455hasWL3>
+	rdfs:label "        Gründungsinitiator von <i>Zapiski po časti vračebnych nauk</i>." ;
+	a drw-model:WL .
+
+<SL/30455hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Čistovič, Jakov Alekseevič: Ivan Bogdanovič Šlegel' (Biografičeskij očerk). Voenno-medicinskij žurnal Teil 59 (1852) Nr. 1, 40 S." .
+
+<ImportantPerson/30455>
+	drw-model:hasMG <MG/30455hasMG1> ;
+	drw-model:hasStationOfLife <B/30455hasStationOfLife1> ;
+	rdfs:label "Schlegel, Johann Gottlieb (von)" ;
+	drw-model:hasSL <SL/30455hasSL1> ;
+	drw-model:hasSL <SL/30455hasSL4> ;
+	drw-model:hasSL <SL/30455hasSL2> ;
+	drw-model:hasP <P/30455hasP3> ;
+	drw-model:hasSL <SL/30455hasSL3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Ehrenleibmedikus> ;
+	drw-model:hasWL <WL/30455hasWL1> ;
+	drw-model:diedOn <Date/20_9_or_2_10_1851> ;
+	drw-model:wasMarriedTo <RelatedPerson/30455wasMarriedTo1> ;
+	drw-model:wasBornIn <Place/Riga> ;
+	drw-model:hasP <P/30455hasP2> ;
+	drw-model:hasQ <Q/30455hasQ1> ;
+	drw-model:hasWL <WL/30455hasWL3> ;
+	drw-model:hasP <P/30455hasP1> ;
+	drw-model:hasW <W/30455hasW1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30455.jpg> ;
+	drw-model:motherIs <RelatedPerson/30455motherIs1> ;
+	drw-model:hasEducation <A/30455hasEducation1> ;
+	drw-model:hasMainName <MainName/30455hasMainName1> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasSL <SL/30455hasSL6> ;
+	drw-model:hasW <W/30455hasW2> ;
+	a drw-model:ImportantPerson ;
+	drw-model:fatherIs <RelatedPerson/30455fatherIs1> ;
+	drw-model:hasWL <WL/30455hasWL2> ;
+	drw-model:hasSL <SL/30455hasSL5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasID "30455" ;
+	drw-model:wasBornOn <Date/19_or_30_8_1787> .
+
+<MG/30455hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Ordentliches und Ehrenmitglied zahlreicher staatlicher und gesellschaftlicher Organisationen und internationaler Gesellschaften, darunter Medicinskij sovet Ministerstva vnutrennich del [Medizinalrat des Ministeriums des Innern], Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee], Varšavskij Medicinskij sovet [Warschauer Medizinalrat] (zeitweise Vorsitzender), Vilenskaja Mediko-chirurgičeskaja akademija [Mediko-chirurgische Akademie in Wilna], Obščestvo russkich vračej [Gesellschaft russischer Ärzte], Deutscher Ärztlicher Verein in St. Petersburg, Peterburgskoe farmacevtičeskoe obščestvo [Pharmazeutische Gesellschaft zu St. Petersburg], Moskovskoe Fiziko-medicinskoe obščestvo [Physikalisch-medizinische Gesellschaft zu Moskau], Physikalisch-medizinische Societät zu Erlangen, Gesellschaft der Ärzte in Wien." .
+
+<NameVariation/30455hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Иoгaнн" .
+
+<RelatedPerson/30455wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Helene Eleonore, geb. von Paucker (1817-1840)" .
+

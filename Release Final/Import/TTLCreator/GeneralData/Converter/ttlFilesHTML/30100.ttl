@@ -1,0 +1,140 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<MG/30100hasMG1>
+	a drw-model:MG ;
+	rdfs:label "1770-1794 Anglijskij klub [Englischer Club in St. Petersburg]." .
+
+<Date/10_10_1735_nicht_1734>
+	a drw-model:Date ;
+	rdfs:label "10.10.1735 [nicht 1734]" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Q/30100hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Kirchenbuch von Dömitz 1735: \"Block, Johann Friedrich, geb./get. 10.10.1735 Dömitz\"." .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<NameVariation/30100hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Iogann Fridrich" .
+
+<SL/30100hasSL6>
+	rdfs:label "WBIS RBA: R 55, 136." ;
+	a drw-model:SL .
+
+<RelatedPerson/30100wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Katharina (Ekaterina Danilovna), geb. Witz (Vic) (1749/50-1813)" .
+
+<RelatedPerson/30100fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ludwig (1698-1752), Garnisonsfeldscher" .
+
+<SL/30100hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Nachapetov 2003, 214." .
+
+<SL/30100hasSL3>
+	rdfs:label "Kladbišča Peterburga, 357 und 368, Nr. 10." ;
+	a drw-model:SL .
+
+<RelatedPerson/30100motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Susanne Katharina, geb. Sill (Zil') († 1753)" .
+
+<Q/30100hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Landeskirchenarchiv Schwerin (schriftliche Mitteilung vom 9.3.2009):" .
+
+<Place/Dmitz_Mecklenburg_Schwerin>
+	a drw-model:Place ;
+	rdfs:label "Dömitz, Mecklenburg-Schwerin" .
+
+<NameVariation/30100hasNameVariation2>
+	rdfs:label "Иoгaнн Фридриx" ;
+	a drw-model:NameVariation .
+
+<Q/30100hasQ3>
+	a drw-model:Q ;
+	rdfs:label "Begräbnisregister von Dömitz 1752: \"d. 25. Jan. der Garnisonsfeldscher Block\", und 1753: \"Sept. Fr. Blocken, Glockengeld an den H. Provisor\"." .
+
+<A/30100hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Medizinische Ausbildung in Rostock und Berlin, 1754 Abschluss als \"Medico-Chirurg\"." .
+
+<SL/30100hasSL1>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [9545/9228 und 1055175 (21.7.2010)]." .
+
+<MainName/30100hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30100hasNameVariation1> ;
+	rdfs:label "Block, Johann Friedrich (von)" ;
+	drw-model:hasNameVariation <NameVariation/30100hasNameVariation2> .
+
+<ImportantPerson/30100>
+	drw-model:fatherIs <RelatedPerson/30100fatherIs1> ;
+	drw-model:hasSL <SL/30100hasSL2> ;
+	drw-model:hasMG <MG/30100hasMG1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:wasMarriedTo <RelatedPerson/30100wasMarriedTo1> ;
+	drw-model:hasMainName <MainName/30100hasMainName1> ;
+	drw-model:hasSL <SL/30100hasSL3> ;
+	drw-model:hasSL <SL/30100hasSL6> ;
+	drw-model:hasStationOfLife <B/30100hasStationOfLife1> ;
+	drw-model:hasDescendant <RelatedPerson/30100hasDescendant1> ;
+	drw-model:hasSL <SL/30100hasSL1> ;
+	drw-model:hasSL <SL/30100hasSL4> ;
+	drw-model:hasQ <Q/30100hasQ3> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasQ <Q/30100hasQ2> ;
+	drw-model:wasBornIn <Place/Dmitz_Mecklenburg_Schwerin> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibchirurg> ;
+	drw-model:hasQ <Q/30100hasQ1> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasSL <SL/30100hasSL5> ;
+	drw-model:hasEducation <A/30100hasEducation1> ;
+	rdfs:label "Block, Johann Friedrich (von)" ;
+	drw-model:hasID "30100" ;
+	drw-model:diedOn <Date/5_or_15_7_1811_nicht_1810_oder> ;
+	drw-model:motherIs <RelatedPerson/30100motherIs1> ;
+	drw-model:wasBornOn <Date/10_10_1735_nicht_1734> .
+
+<SL/30100hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Nemcy Rossii. Bd. 1 (1999), 214-215." .
+
+<Date/5_or_15_7_1811_nicht_1810_oder>
+	a drw-model:Date ;
+	rdfs:label "5./15.7.1811 [nicht 1810 oder 1816]" .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<SL/30100hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Gennadi. Bd. 1. Berlin 1876, 93." .
+
+<GeneralLabor/Leibchirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibchirurg" .
+
+<RelatedPerson/30100hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Katharina (Ekaterina Ivanovna) (1770-nach 1791)<br>Elisabeth (Elizaveta Ivanovna), verh. von Timroth (1775-1845)<br>Elena (Ivanovna), verh. Bek (1777-1856)<br>Friedrich Ludwig (Fridrich Ljudvig, Fëdor Ivanovič) (1781-1814), Oberst<br>Alexander (Aleksandr Ivanovič) (1786-1848), Hofbeamter<br>Maria (Marija Ivanovna), verh. Elagin (1788-1841)<br>Dorothea Henriette (Doroteja Genrietta, Dar'ja Ivanovna), verh. von Aller (1790-1854)<br>Ururenkel: Aleksandr Aleksandrovič Blok (1880-1921), russischer Dichter" .
+
+<B/30100hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "Ab 1755 in russischen Diensten zunächst als Leibchirurg der Zarin ELIZAVETA PETROVNA (1709-1761), im Siebenjährigen Krieg ab 1757 Unterchirurg des Novgorodskij-Infanterieregiments, ab 1763 Chirurg des Astrachaner Dragoner- und des Bombardier-Artillerie-Regiments, ab 1765 Stabsarzt der Leibgarde des Izmajlovskij-Leibgarde-Regiments, ab 1785 Leibchirurg des Thronfolgers PAVEL PETROVIČ (1754-1801) und seiner Gemahlin MARIJA FЁDOROVNA, geb. SOPHIE DOROTHEE VON WÜRTTEMBERG (1759-1828) in St. Petersburg sowie Begleiter der Großfürsten ALEKSANDR PAVLOVIČ (1777-1825) und KONSTANTIN PAVLOVIČ (1779-1831) auf ihren Auslandsreisen.
+Inhaber hoher russischer Ehrentitel und Auszeichnungen: 1791 Erhebung in den Adelsstand (Diplom 1796), 1796 \"Kollegienrat\", 1797 \"Staatsrat\", 1799 \"Wirklicher Russischer Staatsrat\", 1805 St.-Annen-Orden 2. Klasse, ab 1797 Besitzer eines Guts mit 600 Seelen im Kreis Jamburg (Geschenk des Zaren PAVEL I. für langjährigen Dienst)." .
+

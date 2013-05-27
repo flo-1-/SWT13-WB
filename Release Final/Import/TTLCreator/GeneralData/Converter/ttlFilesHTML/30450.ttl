@@ -1,0 +1,133 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<WInformation/30450hasWInformation1>
+	a drw-model:WInformation ;
+	rdfs:label "K voprosu o razdvoenii matki. Diss. Sankt-Peterburg 1872, 60 S." .
+
+<Date/14_or_26_7_1835>
+	a drw-model:Date ;
+	rdfs:label "14./26.7.1835" .
+
+<GeneralLabor/Kaiserlicher_Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Kaiserlicher Leibarzt" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<SL/30450hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Hesse, Erich: Album Nevanorum 1847-1908. 2. Aufl. Dorpat 1909, 87-89." .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<Place/Abas_Tuman>
+	a drw-model:Place ;
+	rdfs:label "Abas Tuman" .
+
+<P/30450hasP1>
+	rdfs:label "Portrait aus: Voenno-istoričeskij žurnal (2007) Nr. 6, 58. Abgedruckt in: Fischer 2010, 211." ;
+	a drw-model:P .
+
+<SL/30450hasSL4>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.kommersant.ru/doc.aspx?DocsID=727014" ;
+	rdfs:label "Žirov, Evgenij: Mineral'nyj puzyr'. Den'gi Nr. 48 (604) vom 4.12.2006. Online Ressource Online Ressource (7.3.2012)." .
+
+<WL/30450hasWL1>
+	rdfs:label "Gründer des Transkaukasischen Hebammen-Institutes und der Veterinär-Feldscherschule in Tiflis, des Kurortes Abas-Tuman und Verfasser des dortigen Kur-Regimes, Begründer und Förderer der Fabrik für Militär-medizinische Präparate und Instrumente in St. Petersburg." ;
+	a drw-model:WL .
+
+<Date/26_7_or_8_8_1902>
+	a drw-model:Date ;
+	rdfs:label "26.7./8.8.1902" .
+
+<MainName/30450hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Remmert, Adolf" .
+
+<RelatedPerson/30450hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Alexander (Aleksandr Adol'fovič) (1861-1931), Marineoffizier<br>Nina (Adol'fovna), verh. Sander († 1909)" .
+
+<SL/30450hasSL1>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [62757/61560 (9.8.2010)]." .
+
+<SL/30450hasSL3>
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA: R 394, 207-210." .
+
+<ImportantPerson/30450>
+	drw-model:hasID "30450" ;
+	drw-model:hasW <W/30450hasW1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30450wasMarriedTo1> ;
+	drw-model:hasSL <SL/30450hasSL3> ;
+	drw-model:hasWInformation <WInformation/30450hasWInformation1> ;
+	drw-model:fatherIs <RelatedPerson/30450fatherIs1> ;
+	drw-model:hasSL <SL/30450hasSL1> ;
+	drw-model:hasStationOfLife <B/30450hasStationOfLife1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:hasP <P/30450hasP1> ;
+	drw-model:hasWL <WL/30450hasWL1> ;
+	drw-model:wasBornIn <Place/St_Petersburg> ;
+	drw-model:hasMG <MG/30450hasMG1> ;
+	drw-model:hasMainName <MainName/30450hasMainName1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <A/30450hasEducation1> ;
+	drw-model:hasP <P/30450hasP2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Kaiserlicher_Leibarzt> ;
+	drw-model:wasBornOn <Date/14_or_26_7_1835> ;
+	rdfs:label "Remmert, Adolf" ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30450.jpg> ;
+	drw-model:hasDescendant <RelatedPerson/30450hasDescendant1> ;
+	drw-model:hasSL <SL/30450hasSL2> ;
+	drw-model:diedOn <Date/26_7_or_8_8_1902> ;
+	drw-model:diedIn <Place/Abas_Tuman> ;
+	drw-model:hasSL <SL/30450hasSL4> .
+
+<RelatedPerson/30450wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anna Nikolaevna (lebte noch 1912 in St. Petersburg)" .
+
+<P/30450hasP2>
+	rdfs:label "Portrait in: Al'manach sovremennych russkich gosudarstvennych dejatelej. Bd. 2. S.-Peterburg 1897, 1191; auch in: WBIS RBA: R 394, 207." ;
+	a drw-model:P .
+
+<A/30450hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch des Gymnasium in St. Petersburg, 1853-1858 Studium der Medizin und 1872 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg" .
+
+<MG/30450hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Verein St. Petersburger Aerzte (ab 1864), Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee] (ab 1887, 1887-1902 Präses).
+        Ehrenmitglied: Veterinärmedizinisches Institut der Universität Dorpat (1898), Voenno-medicinskaja akademija [Militärmedizinische Akademie St. Petersburg] (1901)." .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<B/30450hasStationOfLife1>
+	rdfs:label "In St. Petersburg 1859-1862 Ordinator am Elisabeth-Kinderhospital, 1859-1865 außeretatmäßiger Ordinator im Kaiserlichen Hebammeninstitut, zugleich 1862-1865 Arzt im \"Kinderasyl des Prinzen von Oldenburg\", 1866 Ordinator am Cholerahospital und 1867 Leibarzt der Kinder des Großfürsten MICHAIL NIKOLAEVIČ (1832-1909), 1868-1872 beratendes Mitglied und 1872-1887 Chef der Kaukasischen und der Transkaukasischen Zivil-Medizinalverwaltung, ab 1869 zugleich Leiter der Kurorte im Gouvernement Tiflis, 1877-1880 Ausübung verschiedener militär-medizinischen Funktionen im Russisch-türkischen Krieg, 1878 zugleich stellvertretender Feld-Militär-Medizinalinspektor der Kaukasischen Armee, 1878-1887 Militär-Medizinalinspektor und 1887-1902 Ober-Militär-Medizinalinspektor des Kaukasischen Militärbezirkes, ab 1882 \"Ehrenleibmedikus\" am Zarenhof, 1893 und 1896 Aufenthalte in Deutschland, Frankreich, England und in der Schweiz zum Kennenlernen der Organisation der militärmedizinischen Heeresversorgung, außerdem ständiges Mitglied des Medizinalrats des Ministeriums des Innern und des Sanitätskomitees beim Rat des Kriegsministeriums.
+        Inhaber hoher russischer Ehrentitel und anderer Auszeichnungen, darunter 1878 \"Wirklicher Russischer Staatsrat\", 1888 \"Geheimrat\" und 1898 \"Wirklicher Russischer Geheimrat\", Ritter des Aleksandr-Nevskij-Ordens, des Preußischen Roten-Adler-Ordens, Commandeur de la Légion d'honneur (Frankreich)." ;
+	a drw-model:B .
+
+<RelatedPerson/30450fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Alexander (Aleksandr Iv.), Apotheker" .
+
+<W/30450hasW1>
+	rdfs:label "K voprosu o razdvoenii matki. Diss. Sankt-Peterburg 1872, 60 S." ;
+	a drw-model:W .
+

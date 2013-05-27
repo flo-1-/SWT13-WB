@@ -1,0 +1,116 @@
+(dp0
+VA
+p1
+VBis 1872 Studium und 1875 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+VM\u0423\u0420\u0418\u041dO\u0412, \u0414\u043c\u0438\u0442\u0440\u0438\u0439 A\u043d\u0434\u0440ee\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sasVB
+p10
+V1872-1875 Assistenzarzt im Marinehospital in Kron\u0161tadt, ab 1873 in der 8. (7.?) St. Petersburger Flottenequipage und an der MCA angestellt, ab 1875 Assistenzarzt im Kalinkin-Militärhospital, 1879-1881 Studienaufenthalt in der chirurgischen Klinik der Universität Wien bei Theodor BILLROTH (1829-1894) und der Universität Halle bei Richard VOLKMANN (1830-1889), ab 1884 Schiffsarzt des Gardekorps und Oberarzt im Kalinkin-Militärmarinehospital, ab 1886 Leiter des Gardekorps-Lazaretts, um 1892 Arzt des 4. St. Petersburger medizinischen Bezirkes, später zunächst "Ehrenleibchirurg" und ab 1905 Leibchirurg am Hofe sowie Hausarzt der Großfürstin ALEKSANDRA IOSIFOVNA, geb. ALEXANDRA VON SACHSEN-ALTENBURG (1830-1911), 1912- 1915 Leibchirurg des Großfürsten KONSTANTIN KONSTANTINOVI\u010c (1858-1915).\u000aInhaber der russischen Ehrentitel "Kollegienrat" und "Geheimrat", des St.-Vladimir-Ordens 4. Klasse, des St.-Annen-Ordens 1. und 2. Klasse, des St.-Stanislav-Ordens 2. Klasse, der Gedenkmedaille "300 Jahre Romanov-Dynastie" von 1913, war Komtur 2. Klasse des Herzoglich Sachsen-Ernestinischen Hausordens u.a.
+p11
+sVName
+p12
+(dp13
+S'Vornamen'
+p14
+VDmitrij Andreevi\u010d
+p15
+sS'Nachname'
+p16
+VMurinov
+p17
+ssVQuelle
+p18
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 164-165.</i>
+p19
+sVNamensvariationen
+p20
+(lp21
+(dp22
+g6
+VMURINOFF
+p23
+sS'countyCode'
+p24
+S'de'
+p25
+sa(dp26
+g6
+VD.
+p27
+sg24
+g25
+sasVID
+p28
+V30435
+p29
+sVQ
+p30
+(lp31
+VO pose\u0161\u010denii chirurgi\u010deskoj kliniki Bil'rota v Vene i Volkmana v Galle v 1879-1880 g. Medicinskoe pribavlenie k Morskomu sborniku 20 (1881), 71 ff.
+p32
+asVGeburtsdaten
+p33
+(dp34
+S'Datum'
+p35
+V1845
+p36
+ssVSterbedaten
+p37
+(dp38
+g35
+Vnach 1917
+p39
+ssVW
+p40
+(dp41
+S'general'
+p42
+(lp43
+VOb izmenenii strunnych ligatur, posle nalo\u017eenija ich na matku i krovenosnye sosudy. Dissertation. Sankt-Peterburg 1875, 29 S.; Referat: Ueber Veränderungen der Darmsaitenligaturen. Zentralblatt für Chirurgie 2 (1875), 675.
+p44
+aV\u0116pidemija cholery v 1892 g. Ot\u010det po 4 medicinskomu u\u010dastku S.-Petersburgskogo uezdnogo zemstva doktora D. A. Murinova. Sankt-Peterburg 1892, 26 S.
+p45
+assVV
+p46
+VAndrej
+p47
+sVGPV
+p48
+VPublikationen 1874-1884, in: Zmeev (<b>SL</b>).
+p49
+sVSL
+p50
+(dp51
+g42
+(lp52
+VLoba\u0161kova, T. A.: Prime\u010danija: Pis'ma knja\u017eny Tat'jany Konstantinovny knjazju Ioannu Konstantinovi\u010du, 1908-1910 g. In: Rossijskij Archiv: Istorija Ote\u010destva v svidetel'stvach i dokumentach XVIII-XX vv.: Al'manach. Bd. 15. Moskva 2007, 461. http://feb-web.ru/feb/rosarc/raf/RAF-461-.htm?cmd=p Online Ressource (14.3.2012).
+p53
+aVMolin, Jurij Aleksandrovi\u010d: Medicinskie aspekty biografii Velikogo Knjaza Konstantina Konstantinovi\u010da. http://www.kirshin.ru/about/arsii/02_03.html Online Ressource (14.3.2012).
+p54
+aVNachapetov 2003, 220.
+p55
+aVPridvornyj kalendar': na 1910 god. S.-Peterburg [o.J.], 293; ~ 1911, 304; ~ 1913, 320; ~ 1914, 402.
+p56
+aVZmeev. Bd. 4 (1889), 24; auch in: WBIS RBA: R 320,144.
+p57
+assVBerufe
+p58
+(lp59
+VMarinearzt
+p60
+aVGroßfürstlicher Leibchirurg
+p61
+as.

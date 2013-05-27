@@ -1,0 +1,454 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Comment/30635_4>
+	drw-model:hasDate "6.12.2010" ;
+	rdfs:label "Vgl. (Online Ressource)." ;
+	a drw-model:Comment ;
+	<http://xmlns.com/foaf/0.1/homepage> <http://www.cmpk.ru/info/vse_voyzi_moskvi/spisok_voyzov/mcxa/print/> .
+
+<MainName/30635hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30635hasNameVariation1> ;
+	rdfs:label "Leontovič, Aleksandr Vasil'evič" .
+
+<Date/20_10_or_1_11_11869>
+	a drw-model:Date ;
+	rdfs:label "20.10./1.11.[1]1869" ;
+	drw-model:hasComment <Comment/30635_1> .
+
+<Comment/30635_6>
+	rdfs:label "1931-1941 Name der Hauptstadt der Autonomen Sozialistischen Sowjetrepublik der Wolgadeutschen." ;
+	a drw-model:Comment .
+
+<Place/Moskau>
+	a drw-model:Place ;
+	rdfs:label "Moskau" .
+
+<HonoursAndAwards/30635hasHonoursAndAwards1>
+	rdfs:label "1939 „Verdienter Wissenschaftler der Ukrainischen SSR“" ;
+	a drw-model:HonoursAndAwards .
+
+<B/30635hasStationOfLife9>
+	rdfs:label "Privatdozent am Lehrstuhl für Zoologie, Physiologie und vergleichende Anatomie der Universität Moskau" ;
+	a drw-model:B ;
+	drw-model:began <Year/1917> .
+
+<W/30635hasW2>
+	rdfs:label "Materialy k voprosu o kompleksnych vanadievo- i molibdeno-vol’framatach. Izvestija Kievskogo politechničeskogo instituta imperatora Aleksandra II 1 (1909), 16 S." ;
+	a drw-model:W .
+
+<Date/15_12_1943>
+	a drw-model:Date ;
+	rdfs:label "15.12.1943" .
+
+<P/30635hasP1>
+	rdfs:label "Foto (Abb.) aus: Leontovič, T. A. (<b>SL</b>)." ;
+	a drw-model:P .
+
+<W/30635hasW5>
+	rdfs:label "Sincellij, kak dominirujuščaja kletočnaja struktura životnogo organizma (Posvjaščaetsja pamjati Schwann’a). Izvestija Kievskogo politechničeskogo instituta imperatora Aleksandra II 3 (1912), 54 S." ;
+	a drw-model:W .
+
+<WL/30635hasWL3>
+	rdfs:label "1928-1939 Entwicklung der Theorie vom Neuron als Wechselstromapparat (Verfahren zum Kennzeichnen und Fixieren von Nervenstrukturen mit Methylenblau) und dadurch Entdeckung des peripheren autonomen Nervenplexus (<i>spletenie Leontoviča</i> [Leontovič-Geflecht]) sowie der Feinstruktur der Nervenenden" ;
+	a drw-model:WL .
+
+<A/30635hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Medizinischen Fakultät der Universität Kiev" ;
+	drw-model:inYear <Year/1900> .
+
+<GPV/30635hasGPV1>
+	rdfs:label "Publikationen-Auswahl 1900-1939 [Titel auch in Englisch], in: Who Was Who in the USSR. A Biographic Directory Containing 5015 Biographies of Prominent Soviet Historical Personalities. Heinrich E. Schulz, Paul K. Urban, Andrew I. Lebed (Eds.). Metuchen 1972, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<RelatedPerson/30635hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Michail Aleksandrovič (1903-1981), Physiker<br>Evgenija Aleksandrovna, verh. Andronova (1905-1997), Mathematikerin[3]<br>Vera Aleksandrovna (* 1911)<br>Boris Aleksandrovič (1921-1941)<br>Tat’jana Aleksandrovna (* 1923), Neurologin, Professorin am Institut für Hirnforschung in Moskau" ;
+	drw-model:hasComment <Comment/30635_3> .
+
+<Comment/30635_2>
+	rdfs:label "Deutsch: Wera Kirpitschowa-Leontowitsch, Verfasserin der Publikation „Zur Frage der Irisinnervation beim Kaninchen“ in <i>Albrecht von Graefes Archiv für Ophthalmologie</i> 79 (1911), 385-392." ;
+	a drw-model:Comment .
+
+<SL/30635hasSL7>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 276-277." ;
+	a drw-model:SL .
+
+<WL/30635hasWL1>
+	rdfs:label "Forschungsgebiet: Physiologie und Histologie des vegetativen Nervensystems" ;
+	a drw-model:WL .
+
+<W/30635hasW14>
+	rdfs:label "Außerdem zwei Veröffentlichungen in <i>Universitetskie izvestija [Kiev]</i> für das Jahr 1907: Zakon Weber-Fechner’a pri razdraženii koži čeloveka indukcionnymi tokami, 40 S.; Mesto materializma v estestvoznaii, 16 S." ;
+	a drw-model:W .
+
+<GeneralLabor/Neurohistologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Neurohistologe" .
+
+<SL/30635hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 187-189." .
+
+<Year/1899>
+	rdfs:label "1899" ;
+	a drw-model:Year .
+
+<B/30635hasStationOfLife4>
+	rdfs:label "Weiterbildung in Deutschland und Österreich:
+- bei Oskar <span style='font-variant:small-caps;'>Langendorff</span> (1853-1908) an der Universität Rostock
+- bei Siegmund von <span style='font-variant:small-caps;'>Exner</span> (1846-1926) an der Universität Wien" ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1906> .
+
+<W/30635hasW12>
+	drw-model:hasComment <Comment/30635_6> ;
+	rdfs:label "Anatomie und Physiologie der landwirtschaftlichen Haustiere. Mit B. K. Gindze. Engels[6] 1940, 100 S." ;
+	a drw-model:W .
+
+<Year/1911>
+	rdfs:label "1911" ;
+	a drw-model:Year .
+
+<SL/30635hasSL6>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	rdfs:label "WBIS RBA & BASU: Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (Online Ressource, 16.1.2013): R 280, 147; SU 274, 71-72." .
+
+<A/30635hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität „Sv. Vladimir“ Kiev bei S. I. <span style='font-variant:small-caps;'>Čir'ev</span>" ;
+	drw-model:hasNameLink <ImportantPerson/30194> ;
+	drw-model:began <Year/1888> ;
+	drw-model:ended <Year/1893> .
+
+<WL/30635hasWL6>
+	rdfs:label "Unter seiner Leitung Beginn systematischer Untersuchungen der Verdauung bei Vögeln" ;
+	a drw-model:WL .
+
+<MG/30635hasMG1>
+	a drw-model:MG ;
+	drw-model:hasComment <Comment/30635_5> ;
+	rdfs:label "Akademija nauk Ukrainskoj SSR [Akademie der Wissenschaften der Ukrainischen SSR] (ab 1929, Präsidiumsmitglied ab 1939)[5], Vsesojuznoe i Ukrainskoe obščestvo fiziologov, biochimikov i farmakologov [Russische und Ukrainische Gesellschaft der Physiologen Biochemiker und Pharmakologen] (Vorstandsmitglied), Obščestvo rossijskich fiziologov im. I. M. Sečenova [Gesellschaft russischer Physiologen I. M. Sečenov] (Vorstandsmitglied)" .
+
+<W/30635hasW10>
+	rdfs:label "Variacionnaja statistika. Mit G. A. Grigor’ev und A. I. Mandzjuk. Moskva 1935, 203 S." ;
+	a drw-model:W .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<B/30635hasStationOfLife3>
+	rdfs:label "Privatdozent für Physiologie" ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1904> .
+
+<B/30635hasStationOfLife1>
+	rdfs:label "Gehilfe des Prosektors am histologischen und physiologischen Lehrstuhl der Universität Kiev" ;
+	drw-model:ended <Year/1899> ;
+	a drw-model:B ;
+	drw-model:began <Year/1893> .
+
+<Year/1917>
+	rdfs:label "1917" ;
+	a drw-model:Year .
+
+<RelatedPerson/30635motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Vera Petrovna, geb. Godzevič" .
+
+<Year/1913>
+	rdfs:label "1913" ;
+	a drw-model:Year .
+
+<ImportantPerson/30194>
+	a drw-model:ImportantPerson .
+
+<W/30635hasW1>
+	rdfs:label "Novye dannye po innervacii koži čeloveka. Diss. Zapiski Akademii nauk po Fiziko-matematičeskomu otdeleniju 9 (1900) Nr. 9; deutsch: Die Innervation der menschlichen Haut. Internationale Monatsschrift für Anatomie und Physiologie 18 (1901), 142-310 (vgl. <b>B 1</b> bei Pfrepper 2009 im <b>GPV</b>)." ;
+	a drw-model:W .
+
+<SL/30635hasSL3>
+	<http://xmlns.com/foaf/0.1/homepage> "http://r-g-d.org/L/leontjev.htm" ;
+	a drw-model:SL ;
+	drw-model:hasDate "6.12.2010" ;
+	rdfs:label "Genealogičeskoe drevo (Online Ressource)." .
+
+<W/30635hasW8>
+	rdfs:label "Zur Frage über die Nervenendkörperchen im Herzen des Frosches. Zeitschrift für Zellforschung und mikroskopische Anatomie 9 (1929), 277-280." ;
+	a drw-model:W .
+
+<B/30635hasStationOfLife6>
+	drw-model:inYear <Year/1911> ;
+	drw-model:hasNameLink <ImportantPerson/30373> ;
+	a drw-model:B ;
+	rdfs:label "Weiterbildung in Deutschland:
+- bei L. <span style='font-variant:small-caps;'>Hermann</span> und Otto <span style='font-variant:small-caps;'>Weiss</span> (1871-1943) an der Universität Königsberg" .
+
+<ImportantPerson/30635>
+	drw-model:hasStationOfLife <B/30635hasStationOfLife2> ;
+	drw-model:hasGPV <GPV/30635hasGPV1> ;
+	drw-model:hasWL <WL/30635hasWL1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30635.jpg> ;
+	drw-model:hasStationOfLife <B/30635hasStationOfLife1> ;
+	drw-model:hasEducation <A/30635hasEducation1> ;
+	drw-model:diedIn <Place/Moskau> ;
+	drw-model:diedOn <Date/15_12_1943> ;
+	drw-model:hasW <W/30635hasW13> ;
+	drw-model:hasStationOfLife <B/30635hasStationOfLife5> ;
+	drw-model:hasW <W/30635hasW8> ;
+	drw-model:hasComment <Comment/30635_2> ;
+	drw-model:hasW <W/30635hasW2> ;
+	drw-model:hasW <W/30635hasW9> ;
+	drw-model:hasGPV <GPV/30635hasGPV2> ;
+	drw-model:hasComment <Comment/30635_3> ;
+	drw-model:hasSL <SL/30635hasSL4> ;
+	drw-model:hasSL <SL/30635hasSL1> ;
+	drw-model:hasW <W/30635hasW7> ;
+	drw-model:hasWL <WL/30635hasWL3> ;
+	drw-model:hasWL <WL/30635hasWL5> ;
+	drw-model:hasW <W/30635hasW4> ;
+	drw-model:hasMG <MG/30635hasMG1> ;
+	drw-model:hasW <W/30635hasW1> ;
+	drw-model:hasComment <Comment/30635_5> ;
+	drw-model:hasStationOfLife <B/30635hasStationOfLife12> ;
+	drw-model:hasStationOfLife <B/30635hasStationOfLife9> ;
+	drw-model:hasWL <WL/30635hasWL4> ;
+	drw-model:wasMarriedTo <RelatedPerson/30635wasMarriedTo1> ;
+	drw-model:hasEducation <A/30635hasEducation2> ;
+	drw-model:hasStationOfLife <B/30635hasStationOfLife4> ;
+	drw-model:hasW <W/30635hasW14> ;
+	drw-model:wasBornOn <Date/20_10_or_1_11_11869> ;
+	drw-model:hasDescendant <RelatedPerson/30635hasDescendant1> ;
+	drw-model:hasComment <Comment/30635_4> ;
+	drw-model:hasStationOfLife <B/30635hasStationOfLife3> ;
+	drw-model:hasWL <WL/30635hasWL2> ;
+	drw-model:hasW <W/30635hasW5> ;
+	drw-model:hasComment <Comment/30635_6> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Physiologe> ;
+	drw-model:hasW <W/30635hasW10> ;
+	drw-model:hasSL <SL/30635hasSL7> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <B/30635hasStationOfLife11> ;
+	rdfs:label "Leontovič, Aleksandr Vasil'evič" ;
+	drw-model:hasP <P/30635hasP1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Neurohistologe> ;
+	drw-model:motherIs <RelatedPerson/30635motherIs1> ;
+	drw-model:hasMainName <MainName/30635hasMainName1> ;
+	drw-model:hasSL <SL/30635hasSL2> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30635hasHonoursAndAwards1> ;
+	drw-model:hasEducation <A/30635hasEducation3> ;
+	drw-model:hasW <W/30635hasW6> ;
+	drw-model:hasP <P/30635hasP2> ;
+	drw-model:hasStationOfLife <B/30635hasStationOfLife7> ;
+	drw-model:hasStationOfLife <B/30635hasStationOfLife6> ;
+	drw-model:fatherIs <RelatedPerson/30635fatherIs1> ;
+	drw-model:hasWL <WL/30635hasWL6> ;
+	drw-model:hasW <W/30635hasW12> ;
+	drw-model:hasW <W/30635hasW3> ;
+	drw-model:wasBornIn <Place/Kiev> ;
+	drw-model:hasSL <SL/30635hasSL6> ;
+	drw-model:hasSL <SL/30635hasSL3> ;
+	drw-model:hasStationOfLife <B/30635hasStationOfLife8> ;
+	drw-model:hasStationOfLife <B/30635hasStationOfLife10> ;
+	drw-model:hasSL <SL/30635hasSL5> ;
+	drw-model:hasID "30635" ;
+	drw-model:hasW <W/30635hasW11> ;
+	drw-model:hasSL <SL/30635hasSL8> ;
+	drw-model:hasComment <Comment/30635_1> .
+
+<B/30635hasStationOfLife12>
+	a drw-model:B .
+
+<B/30635hasStationOfLife10>
+	rdfs:label "Leiter der Abteilung für normale Physiologie am Institut für Klinische Physiologie der Ukrainischen Akademie der Wissenschaften in Kiev" ;
+	drw-model:ended <Year/1943> ;
+	drw-model:began <Year/1936> ;
+	a drw-model:B .
+
+<Year/1893>
+	a drw-model:Year ;
+	rdfs:label "1893" .
+
+<RelatedPerson/30635fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Vasilij Fedorovič (1842-1888), Arzt" .
+
+<SL/30635hasSL8>
+	a drw-model:SL ;
+	rdfs:label "Volkov, Vladimir Akimovič, Kulikova, Marina Vladimirovna: Moskovskie professora XVIII - načala XX vekov. Estestvennye i techničeskie nauki. Moskva 2003, 138-139." .
+
+<SL/30635hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Bodrova, N. V.: Pamjati A. V. Leontoviča. Priroda 37 (1948) 3, 84-86." .
+
+<B/30635hasStationOfLife8>
+	drw-model:ended <Year/1939> ;
+	drw-model:began <Year/1914> ;
+	a drw-model:B ;
+	drw-model:hasComment <Comment/30635_4> ;
+	rdfs:label "Professor für Physiologie am Lehrstuhl für Anatomie und Physiologie der Tiere an der Land- und Forstwirtschaftsakademie Petrovskoe-Razumovskoe bei Moskau (seit 1930 Moskauer Landwirtschaftsakademie „K. A. Timirjazev“)[4]" .
+
+<W/30635hasW4>
+	rdfs:label "Udobnaja konstrukcija kapilljarnogo ėlektromera. Zapisky Kievskogo obščestva estestvoispytatelej 21 (1909) 1, 167-170." ;
+	a drw-model:W .
+
+<B/30635hasStationOfLife5>
+	drw-model:ended <Year/1911> ;
+	drw-model:began <Year/1908> ;
+	a drw-model:B ;
+	rdfs:label "Privatdozent am Lehrstuhl für Physiologie der Physikomathematischen Fakultät der Universität Kiev" .
+
+<Comment/30635_1>
+	a drw-model:Comment ;
+	rdfs:label "Volkov/Kulikova 2003 b (<b>SL</b>), 277, Anm *: „So in der im Russischen Staatlichen Historischen Archiv (РГИА) aufbewahrten Autobiographie L. Im Formular [von 1904 oder 1917] ist ein anderes Datum angegeben – 12(24.)10.“" .
+
+<ImportantPerson/30373>
+	a drw-model:ImportantPerson .
+
+<Year/1936>
+	rdfs:label "1936" ;
+	a drw-model:Year .
+
+<P/30635hasP2>
+	rdfs:label "Foto [A. V. Leontovič im Laboratorium] in: Bodrova 1948 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<WL/30635hasWL2>
+	rdfs:label "1900 Bestimmung der doppelten Innervation der menschlichen Haut" ;
+	a drw-model:WL .
+
+<Year/1939>
+	rdfs:label "1939" ;
+	a drw-model:Year .
+
+<Comment/30635_3>
+	rdfs:label "L. P. Šil’nikov: K 100-letiju so dnja roždenija Evgenii Aleksandrovny Leontovič-Andronovoj (1905-1997). Vestnik NNGU, Serija matematika (2005) H. 1(3), 191-204 (Online Ressource)." ;
+	a drw-model:Comment ;
+	drw-model:hasDate "7.12.2010" ;
+	<http://xmlns.com/foaf/0.1/homepage> <http://www.unn.ru/rus/math/pdf/Leontovich100.pdf> .
+
+<WL/30635hasWL4>
+	rdfs:label "Physiologische Regeneration des Nervensystems, Bekämpfungsmaßnahmen gegen die Kleidermotte und Methoden der fermentativen Reinigung von benutztem Verbandsmaterial (1942)" ;
+	a drw-model:WL .
+
+<SL/30635hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Bodrova, N. V., Krajuchin, B. V.: Akademik Aleksandr Vasil’evič Leontovič (K 100-letiju so dnja roždenija). Fiziologičeskij žurnal SSSR im. I. M. Sečenova 55 (1969) 11, 1425-1426." .
+
+<SL/30635hasSL4>
+	a drw-model:SL ;
+	drw-model:hasDate "30.11.2010" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://vivovoco.rsl.ru/VV/PAPERS/BIO/LEONT/LEONT00.HTM" ;
+	rdfs:label "Leontovič, Tat’jana Aleksandrovna: Zametki k rodoslovnoj. K 100-letiju Michaila Aleksandroviča Leontoviča. Priroda (2003) Nr. 3 (Online Ressource)." .
+
+<Comment/30635_5>
+	rdfs:label "Die Angabe „Mitglied der Akademie der Wissenschaften der UdSSR ab 1935“ in Genealogičeskoe drevo (<b>SL</b>) ist nicht korrekt. Nicht Aleksandr Vasil’evič Leontovič war Mitglied der AW der UdSSR, sondern sein Sohn Michail Aleksandrovič (ab 1939). Vgl. Rossijskaja akademija nauk. Personal’nyj sostav. Bd. 2: 1918-1973. Moskva 1999, 63 und 199, oder das Online-Mitgliederverzeichnis: (Online Ressource)." ;
+	a drw-model:Comment ;
+	drw-model:hasDate "7.12.2010" ;
+	<http://xmlns.com/foaf/0.1/homepage> <http://www.ras.ru/members/personalstaff1724.aspx> .
+
+<A/30635hasEducation1>
+	a drw-model:A ;
+	drw-model:inYear <Year/1888> ;
+	rdfs:label "Abschluss des 2. Gymnasiums in Kiev" .
+
+<Year/1888>
+	rdfs:label "1888" ;
+	a drw-model:Year .
+
+<NameVariation/30635hasNameVariation1>
+	rdfs:label "Leontowitsch, Alexander W."@de ;
+	a drw-model:NameVariation .
+
+<Year/1943>
+	rdfs:label "1943" ;
+	a drw-model:Year .
+
+<W/30635hasW13>
+	rdfs:label "[Hauptred.] Problemy biologii i mediciny. Sbornik, posvjaščennyj tridcatiletiju naučnoj, pedagogičeskoj i obščestvennoj dejatel’nosti zaslužennogo dejatelja nauki Liny Solomonovny Štern. Moskva, Leningrad 1935, 696 S." ;
+	a drw-model:W .
+
+<Year/1908>
+	rdfs:label "1908" ;
+	a drw-model:Year .
+
+<W/30635hasW3>
+	rdfs:label "Ėlementarnoe posobie k primeneniju metodov Gauss’a i Pearson’a pri ocenke ošibok v statistike i biologii. Teil 1-3. Kiev 1909-1911." ;
+	a drw-model:W .
+
+<W/30635hasW11>
+	rdfs:label "Sučasna metodika zažittjevogo farbuvannja nerviv metilenovoju sin’koju i inšimi farbnikami. Kiïv 1939, 87 S. [Russischer Titel vgl. <b>GPV</b>]" ;
+	a drw-model:W .
+
+<GPV/30635hasGPV2>
+	rdfs:label "Deutschsprachige und in deutschen Zeitschriften referierte russische Publikationen 1901-1915, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<B/30635hasStationOfLife2>
+	rdfs:label "Vorlesungen zur Physiologie der Tiere an der landwirtschaftlichen Abteilung des Polytechnischen Instituts Kiev und Prosektor an der Universität Kiev" ;
+	drw-model:began <Year/1899> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1906> .
+
+<Place/Kiev>
+	a drw-model:Place ;
+	rdfs:label "Kiev" .
+
+<W/30635hasW6>
+	rdfs:label "Učebnik fiziologii domašnich životnych. Moskva 1916, 480 S.; … 3. Aufl.: 1927; … 5. Aufl.: 1935." ;
+	a drw-model:W .
+
+<Year/1906>
+	rdfs:label "1906" ;
+	a drw-model:Year .
+
+<Year/1904>
+	rdfs:label "1904" ;
+	a drw-model:Year .
+
+<B/30635hasStationOfLife7>
+	drw-model:began <Year/1913> ;
+	rdfs:label "Adjunkt-Professor und" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1914> .
+
+<W/30635hasW9>
+	rdfs:label "Über die Ganglienzellen der Blutgefässe. Zeitschrift für Zellforschung und mikroskopische Anatomie 11 (1930), 23-45." ;
+	a drw-model:W .
+
+<W/30635hasW7>
+	rdfs:label "Biologičeskaja statistika v primenenii k sel’skomu chozjajstvu. Moskva 1922, 16 S." ;
+	a drw-model:W .
+
+<Year/1900>
+	rdfs:label "1900" ;
+	a drw-model:Year .
+
+<RelatedPerson/30635wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "1. Vera Viktorovna, geb. Kirpičeva († 1919), Augenärztin[2]<br>2. Natal’ja Vsevolodovna, geb. Flerova" ;
+	drw-model:hasComment <Comment/30635_2> .
+
+<Year/1914>
+	rdfs:label "1914" ;
+	a drw-model:Year .
+
+<GeneralLabor/Physiologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologe" .
+
+<B/30635hasStationOfLife11>
+	drw-model:inYear <Year/1943> ;
+	rdfs:label "Rückkehr nach Moskau" ;
+	a drw-model:B .
+
+<WL/30635hasWL5>
+	rdfs:label "Pionier in der Bionik, einer der Begründer der zootechnischen Physiologie in Russland" ;
+	a drw-model:WL .
+

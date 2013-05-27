@@ -1,0 +1,161 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Place/Moskau>
+	a drw-model:Place ;
+	rdfs:label "Moskau" .
+
+<W/30464hasW2>
+	rdfs:label "Slučaj otpravlenija nitrobenzolom (\"Essence de Mirbane\"). Soobščenija, v zasedanii Obščestva russkich vračej 20 apr. 1889. Sankt-Peterburg 1889, 5 S." ;
+	a drw-model:W .
+
+<B/30464hasStationOfLife1>
+	drw-model:hasNameLink <ImportantPerson/30136> ;
+	rdfs:label "1886-1889 Assistent und Ordinator in der Klinik für innere Medizin bei Sergej Petrovič <span style='font-variant:small-caps;'>BOTKIN</span> an der MCA, 1889 Spezialisierung in Psychiatrie und ein halbes Jahr Tätigkeit in der Psychiatrischen Heilanstalt in Kazan', danach ein Jahr Studien in verschiedenen psychiatrischen Heilanstalten in Europa, 1892-1914 Direktor der Fürsorgeanstalt für Geisteskranke in St. Petersburg, zeitweise Mitglied des Verwaltungsrates und Initiator zahlreicher baulicher Maßnahmen, außerdem \"Ehrenleibmedikus\" am Hofe des Zaren NIKOLAJ II. (1868-1918), 1914 zur Teilnahme am I. Weltkrieg in die Armee eingezogen.
+Inhaber des Ehrentitels \"Wirklicher russischer Staatsrat\" sowie des St.-Stanislav-Ordens 1. Klasse, des St.-Vladimir-Ordens 3. Klasse, des St.-Annen-Ordens 2. Klasse, des Bucharischen Goldener-Stern-Ordens 1. Klasse, der Gedenkmedaille \"300 Jahre Romanov-Dynastie\" (1913) u.a." ;
+	a drw-model:B .
+
+<ImportantPerson/30464>
+	drw-model:hasW <W/30464hasW7> ;
+	drw-model:hasP <P/30464hasP1> ;
+	drw-model:hasW <W/30464hasW4> ;
+	drw-model:hasW <W/30464hasW3> ;
+	drw-model:hasSL <SL/30464hasSL4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Psychiater> ;
+	drw-model:wasBornOn <Date/1860_oder_1861_oder_1862> ;
+	drw-model:wasBornIn <Place/Moskau> ;
+	drw-model:hasSL <SL/30464hasSL3> ;
+	drw-model:hasEducation <A/30464hasEducation1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Ehrenleibmedikus> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:hasW <W/30464hasW1> ;
+	rdfs:label "Timofeev, Aleksandr Viktorovič" ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30464.jpg> ;
+	drw-model:hasW <W/30464hasW10> ;
+	drw-model:hasWL <WL/30464hasWL2> ;
+	drw-model:hasW <W/30464hasW6> ;
+	drw-model:hasSL <SL/30464hasSL2> ;
+	drw-model:hasSL <SL/30464hasSL1> ;
+	drw-model:hasID "30464" ;
+	drw-model:hasW <W/30464hasW5> ;
+	drw-model:hasW <W/30464hasW8> ;
+	drw-model:hasMainName <MainName/30464hasMainName1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:diedOn <Date/nach_1917> ;
+	drw-model:hasStationOfLife <B/30464hasStationOfLife1> ;
+	drw-model:fatherIs <RelatedPerson/30464fatherIs1> ;
+	drw-model:hasW <W/30464hasW9> ;
+	drw-model:hasSL <SL/30464hasSL5> ;
+	drw-model:hasWL <WL/30464hasWL1> ;
+	drw-model:hasW <W/30464hasW2> .
+
+<W/30464hasW4>
+	rdfs:label "O dlitel'nych izmenenijach v dychanii posle pererezki bluždajuščich nervov. Eženedel'naja kliničeskaja gazeta (1889), 15 S." ;
+	a drw-model:W .
+
+<W/30464hasW6>
+	rdfs:label "K voprosu o trofičeskom vlijanii bluždajuščich nervov na serdce. Eženedel'naja kliničeskaja gazeta (1889), 11 S." ;
+	a drw-model:W .
+
+<SL/30464hasSL4>
+	rdfs:label "Šustov, A. S. (Hg.): Naši dejateli po medicine. S.-Peterburg 1910 (Illjustrirovan-nyj vestnik kul'tury, naučno-vospitatel'nago, techničeskago i torgovo-promyšlennago progressa Rossii 1)." ;
+	a drw-model:SL .
+
+<W/30464hasW10>
+	rdfs:label "O vypiske bol'nych. Obozrenie psichiatrii, nevrologii i ėksperimental'noj psichologii (1906) Juli-Nr., 14 S." ;
+	a drw-model:W .
+
+<MainName/30464hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Timofeev, Aleksandr Viktorovič" .
+
+<W/30464hasW8>
+	rdfs:label "Očerki francuzkich lečebnic dlja duševno-bol'nych. Vestnik obščestvennoj gigieny, sudebnoj i praktičeskoj mediciny (1892), 67 S." ;
+	a drw-model:W .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<WL/30464hasWL2>
+	rdfs:label "*) Seit den 1890-er Jahren eine gängige Form zur Therapie bzw. zur sicheren Verwahrung von \"unruhigen Kranken\"." ;
+	a drw-model:WL .
+
+<Date/1860_oder_1861_oder_1862>
+	a drw-model:Date ;
+	rdfs:label "1860 oder 1861 oder 1862" .
+
+<SL/30464hasSL2>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.mediasphera.ru/uppic/Zhurnal%20nevrologii%20i%20psikhiatrii%20imeni%20S.S.%20Korsakova/2007/5/9/NEV_2007_05_09.pdf" ;
+	a drw-model:SL ;
+	rdfs:label "Poppe, Konrad Karlovič: Istorija 3-j gorodskoj psichiatričeskoj bol'nicy im. I. I. Skvorcova-Stepanova v Sankt-Peterburge. Žurnal nevrologii i psichiatrii 5 (2007), 55-62. Online Ressource Online Ressource (12.3.2012)." .
+
+<W/30464hasW7>
+	rdfs:label "O lečenii duševno-bol'nych v krovati. [Metod t. n. Bettbehandlung]. Archiv psichiatrii, nevrologii i sudebnoj psichopatologii (1892), 14 S." ;
+	a drw-model:W .
+
+<RelatedPerson/30464fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Viktor" .
+
+<GeneralLabor/Psychiater>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Psychiater" .
+
+<W/30464hasW1>
+	rdfs:label "K voprosu o nedostatočnosti polulunnych klapanov aorty. Diss. Sankt-Peterburg 1888, 25 S." ;
+	a drw-model:W .
+
+<ImportantPerson/30136>
+	a drw-model:ImportantPerson .
+
+<WL/30464hasWL1>
+	rdfs:label "Führte eine neue Methode, die sog. \"Bettbehandlung\"*) der Geisteskranken, in Russland ein." ;
+	a drw-model:WL .
+
+<W/30464hasW3>
+	rdfs:label "K voprosu o razvitii gipertrofii serdca pri ėksperimental'nych porokach ego. Eženedel'naja kliničeskaja gazeta (1889), 13 S." ;
+	a drw-model:W .
+
+<W/30464hasW5>
+	rdfs:label "Nervnaja sistema serdca v tečenii ėksperimental'nych porokov ego. Eženedel'naja kliničeskaja gazeta (1889), 17 S." ;
+	a drw-model:W .
+
+<Date/nach_1917>
+	a drw-model:Date ;
+	rdfs:label "nach 1917" .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<GeneralLabor/Ehrenleibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ehrenleibmedikus" .
+
+<A/30464hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Bis 1879 Besuch des 3. Moskauer und des 2. St. Petersburger Gymnasiums, 1879-1883 Studium der Naturwissenschaften an der Physikalisch-mathematischen Fakultät an der Universität, danach 1883-1886 der Medizin und 1888 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg." .
+
+<W/30464hasW9>
+	rdfs:label "Osnovy psichiatričeskoj ėkspertizy. Mit Michail Vasil'evič Ignat'ev. Sankt-Peterburg 1893, 117 S." ;
+	a drw-model:W .
+
+<SL/30464hasSL1>
+	rdfs:label "Nachapetov 2003, 223." ;
+	a drw-model:SL .
+
+<SL/30464hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Pridvornyj kalendar': na 1910 god. S.-Peterburg [o. J.], 289; ~ 1911, 300; ~ 1913, 315; ~ 1914, 394." .
+
+<P/30464hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto aus: Afanas'ev, Nikolaj Ivanovič: Sovremenniki: Al'bom biografij. Bd. 2. [Sankt-Peterburg] 1910, 414; auch in: WBIS RBA: R 456, 382. Abgedruckt in: Fischer 2010, 260." .
+
+<SL/30464hasSL5>
+	rdfs:label "WBIS RBA: R 456, 381-383." ;
+	a drw-model:SL .
+

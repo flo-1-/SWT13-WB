@@ -1,0 +1,109 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<GeneralLabor/Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Arzt" .
+
+<NameVariation/30434hasNameVariation1>
+	rdfs:label "Johannes" ;
+	a drw-model:NameVariation .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30434hasW1>
+	rdfs:label "Digitali purpurea eiusque usu in scrofulis medico. Dissertation. Jena 1790, 16 S." ;
+	a drw-model:W .
+
+<GeneralLabor/Leibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibmedikus" .
+
+<ImportantPerson/30467>
+	a drw-model:ImportantPerson .
+
+<MG/30434hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Mediko-filantropičeskij komitet [Mediko-philanthropisches Komitee]" .
+
+<B/30434hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "Nach dem Studium vermutlich zunächst als praktischer Arzt in Erfurt (?) und ab 1793 in St. Petersburg tätig, 1815-1822 Leibmedikus am Hofe des Zaren ALEKSANDR I. (1777-1825), zugleich Mitglied des Medizinalrats des Ministeriums des Innern, danach wieder in Deutschland, lebte vermutlich zeitweise in Würzburg.
+        Inhaber des russischen Ehrentitels \"Staatsrat\"." .
+
+<SL/30434hasSL1>
+	rdfs:label "EAD: Dokument-Id [62513/62073 (21.9.2010)]" ;
+	a drw-model:SL .
+
+<RelatedPerson/30434motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anna Sidonia, geb. Weikard (Schwester von Adam Melchior Weikard und Georg Nikolaus <span style='font-variant:small-caps;'>Weikard</span>)" ;
+	drw-model:hasNameLink <ImportantPerson/30467> .
+
+<Date/?>
+	rdfs:label "?" ;
+	a drw-model:Date .
+
+<RelatedPerson/30434hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Wilhelm (geb. in Erfurt)<br>        Sophie Elisabeth (geb. in St. Petersburg)" .
+
+<Place/Hammelburg>
+	a drw-model:Place ;
+	rdfs:label "Hammelburg" .
+
+<ImportantPerson/30434>
+	drw-model:hasDescendant <RelatedPerson/30434hasDescendant1> ;
+	drw-model:hasMG <MG/30434hasMG1> ;
+	drw-model:diedOn <Date/?> ;
+	drw-model:hasW <W/30434hasW1> ;
+	drw-model:fatherIs <RelatedPerson/30434fatherIs1> ;
+	drw-model:wasBornIn <Place/Hammelburg> ;
+	rdfs:label "Merz, Johann Jakob Balthasar" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Arzt> ;
+	drw-model:wasMarriedTo <RelatedPerson/30434wasMarriedTo1> ;
+	drw-model:hasMainName <MainName/30434hasMainName1> ;
+	drw-model:hasWInformation <WInformation/30434hasWInformation1> ;
+	drw-model:hasSL <SL/30434hasSL1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30434" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibmedikus> ;
+	drw-model:hasEducation <A/30434hasEducation1> ;
+	drw-model:motherIs <RelatedPerson/30434motherIs1> ;
+	drw-model:wasBornOn <Date/17_6_1766> ;
+	drw-model:hasStationOfLife <B/30434hasStationOfLife1> ;
+	drw-model:hasQ <Q/30434hasQ1> .
+
+<MainName/30434hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Merz, Johann Jakob Balthasar" ;
+	drw-model:hasNameVariation <NameVariation/30434hasNameVariation1> .
+
+<WInformation/30434hasWInformation1>
+	rdfs:label "Digitali purpurea eiusque usu in scrofulis medico. Dissertation. Jena 1790, 16 S." ;
+	a drw-model:WInformation .
+
+<A/30434hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1779-1781 Studium in Fulda, ab 1788 Studium der Medizin und 1790 Dr. med. in Jena, 1793 in Russland zugelassen." .
+
+<RelatedPerson/30434wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Elisabeth, geb. Boehtlingk (1776-1847)" .
+
+<RelatedPerson/30434fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann Balthasar (1729-1804), Apotheker, Ratsherr und Kirchenpfleger" .
+
+<Date/17_6_1766>
+	rdfs:label "17.6.1766" ;
+	a drw-model:Date .
+
+<Q/30434hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Die Matrikel der Universität Jena. Bd. 8.: Joann. Jacobus Merz, Hammelburg, Immatrikulation: 21.4.1788 [Universitätsbibliothek, Signatur: Ms. Prov, fol 116] (Schriftliche Mitteilung des Universitätsarchivs der Friedrich-Schiller-Universität Jena vom 21.9.2010)." .
+

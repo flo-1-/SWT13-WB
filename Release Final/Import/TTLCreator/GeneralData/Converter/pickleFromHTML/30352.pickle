@@ -1,0 +1,120 @@
+(dp0
+VA
+p1
+VAb 1784 Studium an der Mediko-chirurgischen Lehranstalt in St. Petersburg, ein Jahr Fortbildung in England, 1803 Dr. med. an der Universität Dorpat.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u0413A\u0420\u0414E\u0420, \u0414a\u0432\u0438\u0434 \u0414a\u0432\u0438\u0434o\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VGARDER, David Davidovi\u010d (fon)
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+V1793-1796 Chirurg in der Baltischen Flotte, mit der Flotte in England, 1797-1817 praktischer Arzt in Reval, ab 1817 in St. Petersburg, zunächst Hofarzt, später Leibarzt des Zaren ALEKSANDR I. (1777-1825), außerdem Mitglied des Medizinalrats des Ministeriums des Innern und des Komitees der St. Petersburger Augenheilanstalt.\u000aInhaber der Ehrentitel "Kollegienrat" und "Wirklicher Russischer Staatsrat" sowie des St.-Annen-Ordens 2. Klasse (1828).
+p14
+sVE
+p15
+VNancy, geb. Collman (1774-1848)
+p16
+sVName
+p17
+(dp18
+S'Vornamen'
+p19
+VDavid Johann (von)
+p20
+sS'Nachname'
+p21
+VHarder
+p22
+ssVQuelle
+p23
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 104-105.</i>
+p24
+sVSL
+p25
+(dp26
+S'general'
+p27
+(lp28
+VEAD: Dokument-Id [68708/67520 (29.7.2010)].
+p29
+aVRBS. Bd. 4. Moskva 1914, 230-231; auch in WBIS RBA: R 115, 406-407.
+p30
+aVWBIS DBA: I 472, 436-439; II 523, 253; BaBA: I 116, 137-140; RBA: R 115, 405-408.
+p31
+assVM
+p32
+VLuise Charlotte Elisabeth, geb. Klipping (1736-1821)
+p33
+sVMG
+p34
+VMediko-chirurgi\u010deskaja akademija [Mediko-chirurgische Akademie (MCA)], Deutscher ärztlicher Verein (1819 Mitgründer), Deutsche Akademie der Naturforscher Leopoldina (1829).
+p35
+sVN
+p36
+VJohann (John) David (Davidovi\u010d) (1797-1871), Holländischer Generalkonsul\u000aLudwig (Lewis) (Davidovi\u010d) (1799-1860), Kaufmann\u000aNancy Charlotte (Davidovna), verh. Scholz, in 2. Ehe verh. Heiler (1802-1887)\u000aWilliam Charles (Davidovi\u010d) (1807/8-1845), Gutsbesitzer\u000aElisabeth (Betsy) Marie (Maria Davidovna), verh. Kaul (1809-1856)
+p37
+sVGeburtsdaten
+p38
+(dp39
+S'Ort'
+p40
+VSt. Petersburg
+p41
+sS'Datum'
+p42
+V2.6./13.6.1769
+p43
+ssVSterbedaten
+p44
+(dp45
+g40
+VSt. Petersburg
+p46
+sg42
+V24.7./5.8.1833
+p47
+ssVW
+p48
+(dp49
+g27
+(lp50
+VDe variolis vaccinis. Diss. Dorpat 1803, 20 S. http://dspace.utlib.ee/dspace/bitstream/10062/2292/2/harder.pdf Volltext (7.3.2012).
+p51
+aVAutor mehrerer vermischter Abhandlungen in deutscher Sprache, z.B. über Pseudokrupp und Vakzination (vgl. <b>GPV</b>).
+p52
+assVV
+p53
+VDavid Johann (1730-1805)
+p54
+sVGPV
+p55
+VPublikationen 1821-1835, in: RBS (<b>SL</b>).
+p56
+sVBerufe
+p57
+(lp58
+VChirurg
+p59
+aVHof- und Leibarzt
+p60
+asVID
+p61
+V30352
+p62
+s.

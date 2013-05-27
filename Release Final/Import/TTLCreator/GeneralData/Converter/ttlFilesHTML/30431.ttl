@@ -1,0 +1,197 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<NameVariation/30431hasNameVariation5>
+	rdfs:label "Džon" ;
+	a drw-model:NameVariation .
+
+<NameVariation/30431hasNameVariation3>
+	rdfs:label "Johannes" ;
+	a drw-model:NameVariation .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<WL/30431hasWL2>
+	rdfs:label "1887 Mitbegründer der <i>Mitteilungen aus der St. Petersburger Augenheilkunde</i>." ;
+	a drw-model:WL .
+
+<SL/30431hasSL3>
+	rdfs:label "Hirschberg, Julius: Die Augenärzte Rußlands, 1800 bis 1875. In: Geschichte der Augenheilkunde, 3. Buch, 17. Abschnitt. Leipzig 1916 (Handbuch der gesamten Heilkunde 14), 190-193; auch in: WBIS RBA: R 297, 21-23." ;
+	a drw-model:SL .
+
+<SL/30431hasSL1>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [62153/60196 (4.8.2010)]." .
+
+<P/30431hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto aus Hirschberg (<b>SL</b>), 191, Abgedruckt in: Fischer 2010, 150." .
+
+<Place/Kummingshof_bei_Riga>
+	a drw-model:Place ;
+	rdfs:label "Kummingshof bei Riga" .
+
+<W/30431hasW1>
+	rdfs:label "De ratione, qua nonnulli sales organici et anorganici in tractu intestinali mutantur. Dissertation. Dorpat 1856, 51 S. Online Ressource Volltext (14.3.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/xmlui/bitstream/handle/10062/2297/magawly.pdf?sequence=1" ;
+	a drw-model:W .
+
+<GeneralLabor/Kaiserlicher_Leibokulist>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Kaiserlicher Leibokulist" .
+
+<MainName/30431hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30431hasNameVariation3> ;
+	drw-model:hasNameVariation <NameVariation/30431hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30431hasNameVariation6> ;
+	drw-model:hasNameVariation <NameVariation/30431hasNameVariation1> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30431hasNameVariation5> ;
+	drw-model:hasNameVariation <NameVariation/30431hasNameVariation4> ;
+	rdfs:label "Magawly, John Philipp Christoph Hugo Graf" .
+
+<WGermanPublication/30431hasWGermanPublication2>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber Chondritis syphilitica. St. Petersburger medicinische Zeitschrift 12 (1867), 219-225." .
+
+<Date/16_or_29_8_1904>
+	a drw-model:Date ;
+	rdfs:label "16./29.8.1904" .
+
+<RelatedPerson/30431hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Julie Sophie Alexandrine (Ivanovna) (1866-1846)<br>Philipp Georg Hellmut (Gel'mut Ivanovič) (1870-nach 1934), Prediger<br>Roland (Ivanovič) (* 1875), Jurist" .
+
+<ImportantPerson/30431>
+	drw-model:hasSL <SL/30431hasSL4> ;
+	drw-model:hasW <W/30431hasW4> ;
+	drw-model:hasDescendant <RelatedPerson/30431hasDescendant1> ;
+	drw-model:hasSL <SL/30431hasSL2> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30431hasWGermanPublication3> ;
+	drw-model:hasWL <WL/30431hasWL1> ;
+	drw-model:hasMainName <MainName/30431hasMainName1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30431hasWGermanPublication1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Kaiserlicher_Leibokulist> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30431.jpg> ;
+	drw-model:diedIn <Place/Salzungen_Thringen> ;
+	drw-model:fatherIs <RelatedPerson/30431fatherIs1> ;
+	drw-model:hasSL <SL/30431hasSL1> ;
+	drw-model:wasBornOn <Date/7_7_or_19_7_1831> ;
+	drw-model:wasBornIn <Place/Kummingshof_bei_Riga> ;
+	drw-model:motherIs <RelatedPerson/30431motherIs1> ;
+	drw-model:hasStationOfLife <B/30431hasStationOfLife1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30431wasMarriedTo1> ;
+	drw-model:hasID "30431" ;
+	drw-model:hasP <P/30431hasP1> ;
+	drw-model:hasW <W/30431hasW5> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30431hasWGermanPublication2> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <W/30431hasW6> ;
+	drw-model:hasW <W/30431hasW1> ;
+	drw-model:diedOn <Date/16_or_29_8_1904> ;
+	drw-model:hasW <W/30431hasW2> ;
+	drw-model:hasEducation <A/30431hasEducation1> ;
+	drw-model:hasSL <SL/30431hasSL3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Augenarzt> ;
+	drw-model:hasMG <MG/30431hasMG1> ;
+	drw-model:hasW <W/30431hasW3> ;
+	rdfs:label "Magawly, John Philipp Christoph Hugo Graf" ;
+	drw-model:hasWL <WL/30431hasWL2> .
+
+<W/30431hasW5>
+	a drw-model:W ;
+	rdfs:label "Ueber Chondritis syphilitica. St. Petersburger medicinische Zeitschrift 12 (1867), 219-225." .
+
+<NameVariation/30431hasNameVariation1>
+	rdfs:label "MAGAVLYJ" ;
+	a drw-model:NameVariation .
+
+<W/30431hasW3>
+	a drw-model:W ;
+	rdfs:label "Slučaj cisticerka v steklovidnom tele. Vestnik oftal'mologii (1890) Nr. 1-2, 6 S." .
+
+<RelatedPerson/30431fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Christopher Henry (oder Harry) (Augustovič) (1800-1840), Offizier, Vize-Gouverneur von Livland" .
+
+<A/30431hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1845-1848 Besuch der Lehranstalten in Werro und Birkenruh, 1849-1850 Studium der Philosophie, 1850-1855 Studium der Medizin und 1856 Dr. med. an der Universität Dorpat." .
+
+<NameVariation/30431hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "MAГAВЛЫЙ" .
+
+<RelatedPerson/30431wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Barbara Katharina (Varvara Karlovna), geb. v. Voss (Foss) (1840-1921)" .
+
+<SL/30431hasSL4>
+	rdfs:label "WBIS DBA: II 846, 337; BaBA: I 219, 49-52; RBA: R 297, 20-23." ;
+	a drw-model:SL .
+
+<NameVariation/30431hasNameVariation6>
+	a drw-model:NameVariation ;
+	rdfs:label "Джoн" .
+
+<Place/Salzungen_Thringen>
+	a drw-model:Place ;
+	rdfs:label "Salzungen (Thüringen)" .
+
+<NameVariation/30431hasNameVariation4>
+	a drw-model:NameVariation ;
+	rdfs:label "Christopher" .
+
+<WGermanPublication/30431hasWGermanPublication1>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Beitrag zur Casuistik des Glaukoms. St. Petersburger medicinischen Zeitschrift 6 (1864), 193-201." .
+
+<SL/30431hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Fahrenbach, Sabine: Russische Augenärzte in Deutschland 1850 bis 1870. In: Ingrid Kästner (Hg.): Deutsch-russische Beziehungen in der Medizin des 18. und 19. Jahrhunderts. Aachen 2000 (Deutsch-russische Wissenschaftsbeziehungen in Medizin und Naturwissenschaft 1), 93-98." .
+
+<RelatedPerson/30431motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Alexandra Elis. Helene, geb. von Stryk (1808-1839)" .
+
+<B/30431hasStationOfLife1>
+	rdfs:label "1855-1856 Assistent an der Klinik für innere Medizin der Universität Dorpat, 1856-1859 Studienaufenthalte bei Albrecht von GRAEFE (1828-1870) in Berlin, bei Ferdinand von ARLT (1812-1887) in Wien sowie in Würzburg, Prag, Paris, zuletzt erneut bei GRAEFE in Berlin, nach der Rückkehr 1859 Niederlassung als praktischer Arzt in St. Petersburg, zugleich 1859-1861 außeretatmäßiger, 1861-1878 etatmäßiger Ordinator und 1878-1900 Oberarzt und Direktor an der Augenklinik in Sankt Petersburg, 1861 auch Konsultant für Augenkrankheiten in der Philanthropischen Gesellschaft, 1863 an der Maksimilian-Heilanstalt und 1865 in den Erziehungsanstalten der \"Institutionen der Zarin Marija\", ab 1873 zugleich \"Ehrenleibokulist\" am Hofe des Zaren ALEKSANDR II. (1818-1881), ab 1880 Verwaltungsrat der \"Anstalt für erwachsene Blinde, gegründet zur Erinnerung an Dr. Robert Blessig\", ab 1884 Leibokulist am Hofe des Zaren NIKOLAJ II. (1868-1918), ab 1885 Mitglied des Medizinalrats des Ministeriums des Innern, 1901 Übersiedlung nach Leutzsch bei Leipzig.
+Inhaber der Ehrentitel \"Wirklicher Russischer Staatsrat\" (1883) und \"Geheimrat\"." ;
+	a drw-model:B .
+
+<MG/30431hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Verein Sankt Petersburger Ärzte (ab 1859, 1865-1891 Geschäftsführender Sekretär, 1899 Ehrenmitglied), Deutscher ärztlicher Verein (ab 1872), Sankt-Peterburgskoe oftal'mologičeskoe obščestvo [St.-Petersburger Ophthalmologische Gesellschaft] (1897 Mitstifter und Ehrenmitglied)." .
+
+<WGermanPublication/30431hasWGermanPublication3>
+	rdfs:label "Außerdem zahlreiche Mitteilungen in den <i>Protokollen des Vereins St. Petersburger Ärzte</i> und Sitzungsberichte in der <i>St. Petersburger medicinischen Wochenschrift</i>, darunter z.B.: Über Amblyopie in Folge von Kontusion des Kopfes in Bd. 3 (1878), 5, über Fälle von Tumoren des Auges in Bd. 4 (1879), 52, über einen Fall von Eserin-Vergiftung im Bd. 6 (1881), 166, über Thränenfistel-Operation in Bd. 8 (1883), 230, über Antiseptik in der Augenheilkunde in N.F. Bd. 1 [= 9] (1884), 200, über Lepra-Knoten der Cornea in Bd. 2 [= 10] (1885), 9 und 313, über einen Fall von Cysticercus im Glaskörper in Bd. 7 [= 15] (1890), 1, über den Ausfall der beiden linken Gesichtsfeldhälften bei einem Patienten in Bd. 10 [= 18] (1893), 451 u.a." ;
+	a drw-model:WGermanPublication .
+
+<Date/7_7_or_19_7_1831>
+	a drw-model:Date ;
+	rdfs:label "7.7./19.7.1831" .
+
+<W/30431hasW6>
+	rdfs:label "Außerdem zahlreiche Mitteilungen in den <i>Protokollen des Vereins St. Petersburger Ärzte</i> und Sitzungsberichte in der <i>St. Petersburger medicinischen Wochenschrift</i>, darunter z.B.: Über Amblyopie in Folge von Kontusion des Kopfes in Bd. 3 (1878), 5, über Fälle von Tumoren des Auges in Bd. 4 (1879), 52, über einen Fall von Eserin-Vergiftung im Bd. 6 (1881), 166, über Thränenfistel-Operation in Bd. 8 (1883), 230, über Antiseptik in der Augenheilkunde in N.F. Bd. 1 [= 9] (1884), 200, über Lepra-Knoten der Cornea in Bd. 2 [= 10] (1885), 9 und 313, über einen Fall von Cysticercus im Glaskörper in Bd. 7 [= 15] (1890), 1, über den Ausfall der beiden linken Gesichtsfeldhälften bei einem Patienten in Bd. 10 [= 18] (1893), 451 u.a." ;
+	a drw-model:W .
+
+<WL/30431hasWL1>
+	rdfs:label "Mitbegründer der modernen Ophthalmologie in Russland, behandelte als Erster in Russland zusammen mit Robert BLESSIG (1830-1878) das Glaukom durch Iridektomie." ;
+	a drw-model:WL .
+
+<W/30431hasW4>
+	rdfs:label "Beitrag zur Casuistik des Glaukoms. St. Petersburger medicinischen Zeitschrift 6 (1864), 193-201." ;
+	a drw-model:W .
+
+<GeneralLabor/Augenarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Augenarzt" .
+
+<W/30431hasW2>
+	rdfs:label "Istorija Sankt-Peterburgskoj glaznoj lečebnicy i organizacija eja. In: Soobščenija S.-Peterburgskoj glaznoj lečebnicy. Kniga 2. S.-Peterburg 1888, 3-29." ;
+	a drw-model:W .
+

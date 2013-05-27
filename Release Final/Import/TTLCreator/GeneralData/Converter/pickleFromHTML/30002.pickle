@@ -1,0 +1,156 @@
+(dp0
+VPortraittext
+p1
+VPortrait aus: \u0160ustov 1910 (SL).
+p2
+sVA
+p3
+V1883-1889 Studium der Medizin an der Universität Dorpat und an der Universität Straßburg, 1890 Dr. med. in Dorpat.
+p4
+sVName russisch
+p5
+(lp6
+(dp7
+S'name'
+p8
+V\u0410\u0411\u0415\u041b\u042c\u041c\u0410\u041d, \u041c\u043e\u0440\u0438\u0441 \u041b\u044c\u0432\u043e\u0432\u0438\u0447
+p9
+sS'countryCode'
+p10
+S'ru'
+p11
+sa(dp12
+g8
+VABEL'MAN, Moris L'vovi\u010d
+p13
+sg10
+S'de'
+p14
+sasVB
+p15
+VAb 1890 praktischer Arzt in St. Petersburg, zugleich Volontärarzt und 1892 Ordinator im Elisabeth-Kinderkrankenhaus, 1890-1892 Studienaufenthalte in Kinderkliniken in Deutschland, 1893-1900 Spezialarzt für Kinderheilkunde an der Maximilian-Heilanstalt, 1894-1902 ohne Entgelt praktizierender Arzt im Deutschen Alexanderhospital für Männer, ab 1898 Vertrauensarzt und ab 1909 Chefarzt der Versicherungsgesellschaft "Rossija" in St. Petersburg.\u000aInhaber hoher russischer Ehrentitel, darunter 1900 "Hofrat", 1916 "Wirklicher Russischer Staatsrat".
+p16
+sVName
+p17
+(dp18
+S'Vornamen'
+p19
+VMoses
+p20
+sS'Nachname'
+p21
+VAbelmann
+p22
+ssVQuelle
+p23
+V<i>http://drw.saw-leipzig.de/30002.html</i> (2. Mai 2012).
+p24
+sVportraitURL
+p25
+V30002.jpg
+p26
+sVNamensvariationen
+p27
+(lp28
+(dp29
+g8
+VABELMAN
+p30
+sS'countyCode'
+p31
+g14
+sa(dp32
+g8
+VMoisej
+p33
+sg31
+g14
+sa(dp34
+g8
+VMoritz
+p35
+sg31
+g14
+sa(dp36
+g8
+VMoric
+p37
+sg31
+g14
+sa(dp38
+g8
+VBoris
+p39
+sg31
+g14
+sasVMG
+p40
+VVerein St. Petersburger Ärzte (ab 1890), Ob\u0161\u010destvo detskich vra\u010dej Sankt-Peterburga [Verein St. Petersburger Kinderärzte] (ab 1907 Vizepräses).
+p41
+sVID
+p42
+V30002
+p43
+sVP
+p44
+(lp45
+VPortrait aus: \u0160ustov 1910 (<b>SL</b>).
+p46
+asVGeburtsdaten
+p47
+(dp48
+S'Ort'
+p49
+VKowno (Kaunas, Litauen)
+p50
+sS'Datum'
+p51
+V26.10. oder 18.10. 1863
+p52
+ssVSterbedaten
+p53
+(dp54
+g51
+V1916
+p55
+ssVW
+p56
+(dp57
+S'general'
+p58
+(lp59
+VUeber die Ausnützung der Nahrungsstoffe nach Pankreasexstirpation, mit besonderer Berücksichtigung der Lehre von der Fettresorption. Diss. Dorpat 1890, 79 S.
+p60
+aVSlu\u010dai bronchi\u0117ktazii, razviv\u0161ejsja pod vlijaniem koklju\u0161a. Bol'ni\u010dnaja gazeta Botkina 4 (1893), 11 S.
+p61
+aVK u\u010deniju o cikli\u010deskoj al'buminurii [mit Titel in russ. u. franz. Sprache und franz. Zusammenfassung]. Ruskij archiv patologii, klini\u010deskoj mediciny i bakteriologii 4 (1897), 12 S.
+p62
+aVTetanija, laringospazm i ich otno\u0161enie k anglijskoj bolezni. Bol'ni\u010dnaja gazeta Botkina 9 (1898), 18 S.
+p63
+aVPamjati Vladimira Nikolaevi\u010da Rejtca. Doklady, \u010ditanye v zasedanii ob\u0161\u010destva detskich vra\u010dej v S.-Peterburge, 13. okt. 1904. Sankt-Peterburg 1904, 16 S.
+p64
+aVEstestvennoe i isskustvennoe vskarmlivanie grudnych detej. Sovremennaja klinika i terapija (1908) 7-10, 65 S.
+p65
+assVV
+p66
+V Leo (Lev)
+p67
+sVSL
+p68
+(dp69
+g58
+(lp70
+VErik-Amburger-Datenbank [EAD]: Dokument-Id: [36161/52005].
+p71
+aV\u0160ustov, A. S. (Hg.): Na\u0161i dejateli po medicine. S.-Peterburg 1910 (Illjustrirovannyj vestnik kul'tury, nau\u010dno-vospitatel'nago, techni\u010deskago i torgovo-promy\u0161lennago progressa Rossii 1).
+p72
+aVWBIS BaBA.
+p73
+aVWBIS RBA.
+p74
+assVBerufe
+p75
+(lp76
+VFacharzt für Kinderheilkunde
+p77
+as.

@@ -1,0 +1,152 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<MainName/30470hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Wilczkowski, Nicolaus" ;
+	drw-model:hasNameVariation <NameVariation/30470hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30470hasNameVariation2> .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<Date/19_10_oder_5_12_1823_oder_1824>
+	rdfs:label "19.10. oder 5.12.1823 oder 1824" ;
+	a drw-model:Date .
+
+<MG/30470hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee] (ab 1869), Rotes Kreuz (Ehrenmitglied)." .
+
+<GeneralLabor/Hofmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hofmedikus" .
+
+<W/30470hasW2>
+	rdfs:label "Das Militär-Hospital in Krasnoe Selo im Sommer 1857 [, Teil 1] (Der Scorbut, Typhus, Krankheiten der Lungen und des Brustfells). Deutsche Klinik 10 (1858), 93-96; ~ [, Teil 2] (Cholera, Chirurgische Krankheiten, Augenentzündungen). Ibid., 100-103." ;
+	a drw-model:W .
+
+<ImportantPerson/30470>
+	drw-model:hasSL <SL/30470hasSL4> ;
+	drw-model:hasW <W/30470hasW3> ;
+	drw-model:hasMG <MG/30470hasMG1> ;
+	drw-model:fatherIs <RelatedPerson/30470fatherIs1> ;
+	drw-model:hasQ <Q/30470hasQ2> ;
+	drw-model:hasW <W/30470hasW2> ;
+	drw-model:wasBornOn <Date/19_10_oder_5_12_1823_oder_1824> ;
+	drw-model:hasSL <SL/30470hasSL5> ;
+	drw-model:wasBornIn <Place/Fellin> ;
+	drw-model:hasMainName <MainName/30470hasMainName1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasSL <SL/30470hasSL1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Hofmedikus> ;
+	drw-model:hasQ <Q/30470hasQ1> ;
+	rdfs:label "Wilczkowski, Nicolaus" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/30470hasSL2> ;
+	drw-model:hasSL <SL/30470hasSL3> ;
+	drw-model:hasGPV <GPV/30470hasGPV1> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasStationOfLife <B/30470hasStationOfLife1> ;
+	drw-model:hasEducation <A/30470hasEducation1> ;
+	drw-model:hasDescendant <RelatedPerson/30470hasDescendant1> ;
+	drw-model:hasW <W/30470hasW1> ;
+	drw-model:motherIs <RelatedPerson/30470motherIs1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30470wasMarriedTo1> ;
+	drw-model:diedOn <Date/1_11_1906> ;
+	drw-model:hasID "30470" .
+
+<NameVariation/30470hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Nikolai" .
+
+<Q/30470hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Otčet o zanjatijach za granicej v 1859-61. Voenno-medicinskij žurnal Teil 79, Jg. 38 (1860) III, 372-385, Teil 80, Jg. 39 (1861) II, 443 ff., Teil 83, Jg. 40 (1862) II, 46-106, 114-121." .
+
+<RelatedPerson/30470fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Alexander, Roßarzt" .
+
+<RelatedPerson/30470hasDescendant1>
+	rdfs:label "Nikolaj Nikolaevič (1862-1900)" ;
+	a drw-model:RelatedPerson .
+
+<Q/30470hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Kliničeskija lekcii Langenbeka v Berline. Voenno-medicinskij žurnal Teil 77, Jg. 38 (1860) IV, 352-372." .
+
+<SL/30470hasSL5>
+	rdfs:label "WBIS BaBA: I 405, 362; RBA: R 96, 166-167; RS 10, 329." ;
+	a drw-model:SL .
+
+<B/30470hasStationOfLife1>
+	rdfs:label "1848-1849 Ordinator am Militär-Hospital in Warschau, 1849-1851 Arzt im Leibgarde-Jägerregiment, 1851-1855 Oberarzt im 1. Reserve-Pionier-Bataillon, 1855-1857 im 1. Militärlandhospital in St. Petersburg, 1857-1858 im Militärhospital in Krasnosel'sk und 1858-1859 in der Militärgarde von Staraja Russa, 1859-1860 Studienaufenthalte im Ausland, z.B. in Berlin bei Bernhard Rudolf Konrad von LANGENBECK (1810-1887), Rudolf VIRCHOW (1821-1902), Albrecht von GRAEFE (1828-1870) und Felix HOPPE-SEYLER (1825-1895) an der Charité, bei Moritz Michael EULENBURG (1811-1887) und Heimann Wolff BEREND (1809-1873) an den Orthopädischen Instituten sowie im Bethanien-Krankenhaus und im Feldlarazett, 1861-1864 Assistent des Chefarztes, ab 1864 Chefarzt, ab 1876 Leiter der \"Medizinischen Kurse für Frauen\" am Nikolaj-Militärlandhospital und ab 1866 Konsultant im \"Marien-Institut für adlige Fräulein\" in St. Petersburg, ab 1875 Hofarzt des III. Hofmedizinalbezirkes, ab 1882 Assistent des Verwalters der Medizinalabteilung am Hofe sowie \"Ehrenleibchirurg\" des Zaren NIKOLAJ II. (1868-1918).
+Inhaber des russischen Ehrentitels \"Geheimrat\" (1888)." ;
+	a drw-model:B .
+
+<SL/30470hasSL3>
+	rdfs:label "[Nekrolog] Istoričeskij vestnik 106 (1906), 1145-1146." ;
+	a drw-model:SL .
+
+<SL/30470hasSL1>
+	rdfs:label "EAD: Dokument-Id [82108/80054 (16.8.2010)]." ;
+	a drw-model:SL .
+
+<SL/30470hasSL2>
+	rdfs:label "Grekova, T. I., Golikov, Jurij P.: Medicinskij Peterburg. Biomedicinskij žurnal - Medline.ru (2001), 67-167, zit. 135. Online Ressource Online Ressource (12.3.2012)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.economyphone.com/public/histm/medmono/100/43.phtml#top" .
+
+<A/30470hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1843-1848 Studium der Medizin und 1848 Dr. med. an der Universität Dorpat." .
+
+<W/30470hasW1>
+	rdfs:label "De entropio, trichiasi et distichiasi [!] animadversiones. Diss. Dorpat 1848, 39 S. Online Ressource Volltext (12.3.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/dspace/bitstream/10062/3246/1/wilczkowski.pdf" ;
+	a drw-model:W .
+
+<W/30470hasW3>
+	rdfs:label "Autor einiger Veröffentlichungen in <i>Voenno-medicinskij žurnal</i> (vgl. <b>GPV</b>), darunter zwei Berichte über seine Studienaufenthalte im Ausland (vgl. <b>Q</b>)." ;
+	a drw-model:W .
+
+<RelatedPerson/30470wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ekaterina Grigor'evna (1833-1897)" .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<NameVariation/30470hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "WILCZKOWSKY" .
+
+<Place/Fellin>
+	a drw-model:Place ;
+	rdfs:label "Fellin" .
+
+<SL/30470hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Peterburgskij nekropol'. Bd. 1 (1912), 437." .
+
+<GPV/30470hasGPV1>
+	rdfs:label "Publikationen 1848-1868, in: Zmeev, Lev Fëdorovič: Russkie vrači pisateli. Bd 1-4. S.-Peterburg 1886-1889; zit. nach WBIS RBA: R 96, 166-167." ;
+	a drw-model:GPV .
+
+<RelatedPerson/30470motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Wilh., geb. Hohndorff" .
+
+<Date/1_11_1906>
+	a drw-model:Date ;
+	rdfs:label "1.11.1906" .
+

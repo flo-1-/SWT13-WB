@@ -1,0 +1,406 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Year/1890>
+	rdfs:label "1890" ;
+	a drw-model:Year .
+
+<RelatedPerson/30893fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Petr Dmitrievič († 1845), Kaufmann" .
+
+<Year/1884>
+	a drw-model:Year ;
+	rdfs:label "1884" .
+
+<ImportantPerson/30230>
+	a drw-model:ImportantPerson .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Place/Charkov>
+	a drw-model:Place ;
+	rdfs:label "Char’kov" .
+
+<Date/14_or_27_5_1909>
+	a drw-model:Date ;
+	rdfs:label "14./27.5.1909" .
+
+<ImportantPerson/30184>
+	a drw-model:ImportantPerson .
+
+<ImportantPerson/30664>
+	a drw-model:ImportantPerson .
+
+<Year/1894>
+	rdfs:label "1894" ;
+	a drw-model:Year .
+
+<ImportantPerson/30893>
+	drw-model:hasWL <WL/30893hasWL3> ;
+	drw-model:hasGPV <GPV/30893hasGPV4> ;
+	drw-model:hasWL <WL/30893hasWL4> ;
+	drw-model:hasSibling <RelatedPerson/30893hasSibling1> ;
+	rdfs:label "Ščelkov, Ivan Petrovič" ;
+	drw-model:hasStationOfLife <B/30893hasStationOfLife2> ;
+	drw-model:hasStationOfLife <B/30893hasStationOfLife5> ;
+	drw-model:hasSL <SL/30893hasSL8> ;
+	drw-model:diedOn <Date/14_or_27_5_1909> ;
+	drw-model:hasSL <SL/30893hasSL3> ;
+	drw-model:hasOtherOffices <OtherOffices/30893hasOtherOffices1> ;
+	drw-model:hasEducation <A/30893hasEducation1> ;
+	drw-model:hasSL <SL/30893hasSL6> ;
+	drw-model:hasSL <SL/30893hasSL4> ;
+	drw-model:hasOtherOffices <OtherOffices/30893hasOtherOffices2> ;
+	drw-model:hasW <W/30893hasW3> ;
+	drw-model:hasStationOfLife <B/30893hasStationOfLife1> ;
+	drw-model:hasP <P/30893hasP2> ;
+	drw-model:hasStationOfLife <B/30893hasStationOfLife6> ;
+	drw-model:wasBornOn <Date/21_2_or_5_3_1833> ;
+	drw-model:hasGPV <GPV/30893hasGPV1> ;
+	drw-model:hasComment <Comment/30893_2> ;
+	drw-model:hasW <W/30893hasW2> ;
+	drw-model:hasGPV <GPV/30893hasGPV2> ;
+	drw-model:hasEducation <A/30893hasEducation5> ;
+	drw-model:hasSL <SL/30893hasSL2> ;
+	drw-model:hasSL <SL/30893hasSL7> ;
+	drw-model:hasWL <WL/30893hasWL1> ;
+	drw-model:hasStationOfLife <B/30893hasStationOfLife11> ;
+	drw-model:hasMainName <MainName/30893hasMainName1> ;
+	drw-model:hasEducation <A/30893hasEducation2> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30893.jpg> ;
+	drw-model:hasSL <SL/30893hasSL5> ;
+	drw-model:hasStationOfLife <B/30893hasStationOfLife4> ;
+	drw-model:hasStationOfLife <B/30893hasStationOfLife9> ;
+	drw-model:hasGPV <GPV/30893hasGPV3> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30893" ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30893hasHonoursAndAwards1> ;
+	drw-model:hasW <W/30893hasW1> ;
+	drw-model:hasEducation <A/30893hasEducation3> ;
+	drw-model:hasOtherOffices <OtherOffices/30893hasOtherOffices3> ;
+	drw-model:hasComment <Comment/30893_1> ;
+	drw-model:hasP <P/30893hasP1> ;
+	drw-model:fatherIs <RelatedPerson/30893fatherIs1> ;
+	drw-model:diedIn <Place/Sudak_Krim> ;
+	drw-model:hasStationOfLife <B/30893hasStationOfLife3> ;
+	drw-model:hasStationOfLife <B/30893hasStationOfLife10> ;
+	drw-model:hasEducation <A/30893hasEducation4> ;
+	drw-model:hasWL <WL/30893hasWL2> ;
+	drw-model:hasSL <SL/30893hasSL1> ;
+	drw-model:hasStationOfLife <B/30893hasStationOfLife7> ;
+	drw-model:wasBornIn <Place/Charkov> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Physiologie> ;
+	drw-model:hasStationOfLife <B/30893hasStationOfLife8> ;
+	drw-model:hasSL <SL/30893hasSL9> .
+
+<A/30893hasEducation4>
+	a drw-model:A ;
+	drw-model:began <Year/1850> ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Char’kov" ;
+	drw-model:ended <Year/1855> .
+
+<B/30893hasStationOfLife1>
+	drw-model:ended <Year/1857> ;
+	drw-model:began <Year/1856> ;
+	a drw-model:B ;
+	rdfs:label "Gehilfe des Ordinators an der Chirurgischen Klinik der Universität Char’kov" .
+
+<SL/30893hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Finkel’štejn, Evgenij Aleksandrovič: I. P. Ščelkov – vydajuščijsja russkij fiziolog-materialist. Trudy Instituta istorii estestvoznanija i techniki 4 (1955), 133-148." .
+
+<B/30893hasStationOfLife3>
+	drw-model:ended <Year/1862> ;
+	a drw-model:B ;
+	rdfs:label "Assistent an der Medizinischen Fakultät der Universität Char’kov" ;
+	drw-model:began <Year/1861> .
+
+<OtherOffices/30893hasOtherOffices1>
+	rdfs:label "Ehrenamtlicher Richter (ab 1870)" ;
+	a drw-model:OtherOffices .
+
+<WL/30893hasWL4>
+	rdfs:label "Verfasser eines Lehrbuchs zur Physiologie (vgl. <b>W</b>)" ;
+	a drw-model:WL .
+
+<A/30893hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1844> ;
+	rdfs:label "Besuch des deutschen Privatpensionats von J. K. Zobel[1] in Char’kov" ;
+	drw-model:hasComment <Comment/30893_1> ;
+	drw-model:ended <Year/1846> .
+
+<B/30893hasStationOfLife7>
+	drw-model:ended <Year/1870> ;
+	rdfs:label "Dekan und der Medizinischen Fakultät der Universität Char’kov" ;
+	drw-model:began <Year/1867> ;
+	a drw-model:B .
+
+<GPV/30893hasGPV3>
+	rdfs:label "Trudy prof. I. P. Ščelkova (1860-1890, 15 Nrn.), in: Skvorcov/Bagalej 1905/06 (<b>SL</b>), 40-41." ;
+	a drw-model:GPV .
+
+<SL/30893hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Skvorcov, I. P., Bagalej, D. I. (Red): Medicinskij fakul’tet Char’kovskago universiteta za pervych sto let ego suščestvovanija (1805-1905). Teil 3: Biografičeskij slovar’ professorov i prepodavatelej medicinskago fakul’teta. Char’kov 1905-1906, 35-41." .
+
+<Date/21_2_or_5_3_1833>
+	a drw-model:Date ;
+	rdfs:label "21.2./5.3.1833" .
+
+<B/30893hasStationOfLife4>
+	drw-model:ended <Year/1863> ;
+	a drw-model:B ;
+	drw-model:began <Year/1862> ;
+	rdfs:label "Adjunkt-Professor an der Medizinischen Fakultät der Universität Char’kov" .
+
+<MainName/30893hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30893hasNameVariation1> ;
+	rdfs:label "Ščelkov, Ivan Petrovič" .
+
+<Year/1855>
+	rdfs:label "1855" ;
+	a drw-model:Year .
+
+<P/30893hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb. [Ausschnitt]) aus: Volkov/Kulikova 2003 (<b>SL</b>), Bildeinlage zw. S. 528-529." .
+
+<NameVariation/30893hasNameVariation1>
+	rdfs:label "Sczelkow, Johann"@de ;
+	a drw-model:NameVariation .
+
+<A/30893hasEducation1>
+	a drw-model:A ;
+	drw-model:ended <Year/1844> ;
+	rdfs:label "Anfangs häuslicher Unterricht" .
+
+<GPV/30893hasGPV2>
+	rdfs:label "Publikationen 1860-1876 (12 Nrn.), in: Bogdanov, Anatol: Materialy dlja istorii naučnoj i prikladnoj dejatel’nosti v Rossii po zoologii [...] (1850-1887 g.). Tom 1-4. Moskva 1888-l892, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<OtherOffices/30893hasOtherOffices3>
+	a drw-model:OtherOffices .
+
+<B/30893hasStationOfLife8>
+	drw-model:began <Year/1881> ;
+	rdfs:label "Prorektor der Universität Char’kov" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1884> .
+
+<Place/Sudak_Krim>
+	a drw-model:Place ;
+	rdfs:label "Sudak (Krim)" .
+
+<Year/1881>
+	rdfs:label "1881" ;
+	a drw-model:Year .
+
+<SL/30893hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Česnakova [Im Original Druckfehler, es muss heißen: Česnokova], Sof’ja Aleksandrovna, Lindemann, Marianne: Russische Physiologen in Laboratorien von Carl Ludwig. Wissenschaftliche Zeitschrift der Karl-Marx-Universität Leipzig, Mathematisch-naturwissenschaftliche Reihe 19 (1970), 315-323." .
+
+<Year/1844>
+	rdfs:label "1844" ;
+	a drw-model:Year .
+
+<ImportantPerson/30395>
+	a drw-model:ImportantPerson .
+
+<Comment/30893_2>
+	rdfs:label "Die Angabe 1859 bei Zmeev (<b>GPV</b>) muss ein Druckfehler sein." ;
+	a drw-model:Comment .
+
+<Year/1863>
+	rdfs:label "1863" ;
+	a drw-model:Year .
+
+<Year/1857>
+	a drw-model:Year ;
+	rdfs:label "1857" .
+
+<W/30893hasW1>
+	rdfs:label "Anatomica et physiologica apparatus urinarii in animalibus vertebralis [!] descriptio. Char’kov 1857.[2]" ;
+	a drw-model:W ;
+	drw-model:hasComment <Comment/30893_2> .
+
+<ImportantPerson/31069>
+	a drw-model:ImportantPerson .
+
+<Year/1846>
+	rdfs:label "1846" ;
+	a drw-model:Year .
+
+<RelatedPerson/30893hasSibling1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Vladimir Petrovič (1835-1902), 1883-1900 Kommunalpolitiker, 1892 Bürgermeister von Char’kov" .
+
+<SL/30893hasSL2>
+	drw-model:hasDate "1.4.2011" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://svtyr.narod.ru/rektor.html" ;
+	a drw-model:SL ;
+	rdfs:label "Biobibliografičeskij slovar’ učenych Char’kovskogo universiteta. T. 1: Rektory (1805-2004). Hauptred. V. S. Bakirov. Char’kov 1995, 51-53; Neuausg.: Char’kov 2004, 55-58. (Vgl. auch Online Ressource)." .
+
+<WL/30893hasWL3>
+	rdfs:label "Forschungsthemen: Untersuchungen des Gasaustausches in verschiedenen Organen und der Biochemie des Muskelgewebes, vergleichende Untersuchungen des Stoffwechsels, Spektrophotometrie des Blutes u. a." ;
+	a drw-model:WL .
+
+<Year/1867>
+	rdfs:label "1867" ;
+	a drw-model:Year .
+
+<OtherOffices/30893hasOtherOffices2>
+	a drw-model:OtherOffices ;
+	rdfs:label "Mitglied des Char’kover Friedensgerichts (ab 1876) und Vorsitzender der Zivilabteilung (ab 1881)" .
+
+<Year/1886>
+	rdfs:label "1886" ;
+	a drw-model:Year .
+
+<B/30893hasStationOfLife10>
+	drw-model:ended <Year/1894> ;
+	a drw-model:B ;
+	rdfs:label "Rektor der Universität Warschau" ;
+	drw-model:began <Year/1890> .
+
+<Comment/30893_1>
+	<http://xmlns.com/foaf/0.1/homepage> <http://88.217.241.77/amburger/> ;
+	a drw-model:Comment ;
+	rdfs:label "Johann Karl Zobel, <b>russ.</b>: Karl Ivanovič Cobel’ (1797-1873), Lehrer und Pensionatsgründer in Char’kov. Vgl. Erik-Amburger-Datenbank. Ausländer im vorrevolutionären Russland (Online Ressource, 10.4.2012): Dokument-Id [52671/40164 und 55801/44723 (1.4.2011)]." .
+
+<SL/30893hasSL8>
+	a drw-model:SL ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 507-508" .
+
+<W/30893hasW3>
+	rdfs:label "Učebnik fiziologii [In 3 Teilen]. Char’kov 1871-1874: 1: Fiziologija nervnoj sistemy (1871), 147 S.; 2: Fiziologija organov čuvstv (1871), 148-334; 3: Fiziologija myšečnoj sistemy (1874), 335-397." ;
+	a drw-model:W .
+
+<GPV/30893hasGPV4>
+	rdfs:label "Deutschsprachige Publikationen 1860-1887, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<WL/30893hasWL1>
+	rdfs:label "Begründer der Char’kover Physiologenschule" ;
+	a drw-model:WL .
+
+<Year/1870>
+	rdfs:label "1870" ;
+	a drw-model:Year .
+
+<A/30893hasEducation3>
+	a drw-model:A ;
+	drw-model:began <Year/1846> ;
+	rdfs:label "Besuch des II. Gymnasiums in Char’kov" ;
+	drw-model:ended <Year/1850> .
+
+<B/30893hasStationOfLife2>
+	drw-model:hasNameLink <ImportantPerson/31069> ;
+	drw-model:began <Year/1858> ;
+	drw-model:hasNameLink <ImportantPerson/30230> ;
+	drw-model:hasNameLink <ImportantPerson/30395> ;
+	drw-model:hasNameLink <ImportantPerson/30664> ;
+	a drw-model:B ;
+	rdfs:label "Weiterbildung in Deutschland und Österreich mit Stipendium des Ministeriums für Volksaufklärung:
+- bei E. W. von <span style='font-variant:small-caps;'>Brücke</span> und Carl von <span style='font-variant:small-caps;'>Rokitansky</span> (1804-1878) an der Universität Wien
+- bei Vilém Dušan (Wilhelm) <span style='font-variant:small-caps;'>Lambl</span> (1824-1895) an der Universität Prag
+- bei R. <span style='font-variant:small-caps;'>Virchow</span>, F. <span style='font-variant:small-caps;'>Hoppe-Seyler</span> und E. <span style='font-variant:small-caps;'>Du Bois-Reymond</span> an der Universität Berlin
+- bei C. <span style='font-variant:small-caps;'>Ludwig</span> an der Militärärztlichen Akademie Josephinum in Wien" ;
+	drw-model:ended <Year/1861> ;
+	drw-model:hasNameLink <ImportantPerson/30184> .
+
+<B/30893hasStationOfLife6>
+	rdfs:label "o. Professor für Physiologie und allgemeine Pathologie und ab 1864 Leiter des Laboratoriums für Physiologie an der Medizinischen Fakultät der Universität Char’kov" ;
+	drw-model:ended <Year/1886> ;
+	a drw-model:B ;
+	drw-model:began <Year/1863> .
+
+<A/30893hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Dr. med. an der Universität Char’kov" ;
+	drw-model:inYear <Year/1857> .
+
+<W/30893hasW2>
+	rdfs:label "[Red. der Übersetzung von: Odling, William: Lectures on animal chemistry, delivered at the Royal College of Physicians. London 1866, 165 S.] Životnaja chimija. Lekcii V. Odlinga. Sankt-Peterburg 1867, 245 S." ;
+	a drw-model:W .
+
+<GeneralLabor/Professor_fr_Physiologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<WL/30893hasWL2>
+	rdfs:label "1864 Gründer und Leiter des ersten Laboratoriums für vergleichende Physiologie in Russland" ;
+	a drw-model:WL .
+
+<GPV/30893hasGPV1>
+	rdfs:label "Publikationen 1859-1880, in: Zmeev, Lev Fedorovič: Russkie vrači pisateli. Tom 1-5. Sankt-Peterburg 1886-1889, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<B/30893hasStationOfLife5>
+	drw-model:ended <Year/1863> ;
+	a drw-model:B ;
+	drw-model:began <Year/1862> ;
+	rdfs:label "zugleich Dozent für Naturwissenschaften am Institut für adlige Mädchen in Char’kov" .
+
+<SL/30893hasSL1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.provisor.com.ua/archive/2005/N22/art_29.php" ;
+	a drw-model:SL ;
+	rdfs:label "Aržanov, N. P.: Zabytaja istorija. Ivan Ščelkov. Provisor (2005) Nr. 22 (Online Ressource)." ;
+	drw-model:hasDate "31.3.2011" .
+
+<SL/30893hasSL6>
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA: Russisches Biographisches Archiv (Online Ressource, 16.1.2013): R 517, 362-366." .
+
+<B/30893hasStationOfLife9>
+	drw-model:ended <Year/1890> ;
+	rdfs:label "Rektor der Universität Char’kov" ;
+	a drw-model:B ;
+	drw-model:began <Year/1884> .
+
+<SL/30893hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 245-247." .
+
+<Year/1850>
+	rdfs:label "1850" ;
+	a drw-model:Year .
+
+<B/30893hasStationOfLife11>
+	a drw-model:B .
+
+<Year/1861>
+	rdfs:label "1861" ;
+	a drw-model:Year .
+
+<HonoursAndAwards/30893hasHonoursAndAwards1>
+	rdfs:label "1892 Ehrenmitglied der Universität Char’kov<br>St.-Annen-Orden 2. Klasse<br>St.-Stanislav-Orden 1. Klasse<br>St.-Vladimir-Orden 3. Klasse" ;
+	a drw-model:HonoursAndAwards .
+
+<SL/30893hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine, Pfrepper, Gerd: Wissensspuren. Reisen russischer Mediziner nach Westeuropa im 19. Jahrhundert. Aachen 2012 (Relationes 11)" .
+
+<Year/1858>
+	rdfs:label "1858" ;
+	a drw-model:Year .
+
+<P/30893hasP2>
+	a drw-model:P ;
+	rdfs:label "Portrait in: <b>SL</b> Aržanov 2005, Finkel’štejn 1955 und Skvorcov/Bagalej 1905/06." .
+
+<Year/1856>
+	rdfs:label "1856" ;
+	a drw-model:Year .
+
+<Year/1862>
+	rdfs:label "1862" ;
+	a drw-model:Year .
+

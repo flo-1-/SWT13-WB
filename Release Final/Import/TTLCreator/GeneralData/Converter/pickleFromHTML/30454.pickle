@@ -1,0 +1,105 @@
+(dp0
+VA
+p1
+V1849-1854 Studium und 1855 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u0428ECTO\u0412, \u041d\u0438\u043ao\u043ba\u0439 A\u043be\u043aca\u043d\u0434\u0440o\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sasVB
+p10
+V1854-1857 Assistenzarzt in der 5. Artillerie-Brigade, 1855 versetzt an das Ujazdovskij-Militärkrankenhaus in Warschau, 1856 Ordinator im 2. St. Petersburger Militärlandhospital, 1857-1859 Studienaufenthalte in Paris, Berlin und Prag, 1859 Arzt in der Leibgarde des Grenadier-Regiments und Leibarzt des Thronfolgers NIKOLAJ ALEKSANDROVI\u010c (1843-1865), ab 1860 Arzt im 1. St. Peterburger Militärlandhospital, ab 1860 Adjunkt-Professor für klinische Therapie an der MCA, 1861 Oberarzt im Militärkrankenhaus in Kiew, ab 1865 Arzt und ab 1867 Oberarzt im 2. St. Petersburger Militärlandhospital, 1866(oder 1868)-1876 ord. Professor für spezielle Pathologie und Therapie an der MCA.\u000aInhaber des Ehrentitels "Wirklicher Russischer Staatsrat".
+p11
+sVName
+p12
+(dp13
+S'Vornamen'
+p14
+VNikolaj Aleksandrovi\u010d
+p15
+sS'Nachname'
+p16
+V\u0160estov
+p17
+ssVQuelle
+p18
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 252.</i>
+p19
+sVSL
+p20
+(dp21
+S'general'
+p22
+(lp23
+VProfessora MCA/VMA, 126-127.
+p24
+aVWBIS RBA: R 508, 47-50.
+p25
+aVZmeev, Lev Fëdorovi\u010d: Bd. 1. S.-Peterburg 1886, 166; Bd. 2. S.-Peterburg 1887, 75; auch in: WBIS RBA: R 508, 47.
+p26
+assVMG
+p27
+VPeterburgskoe ob\u0161\u010destvo prakti\u010deskich vra\u010dej [St.-Petersburger Gesellschaft praktischer Ärzte] (Vorsitzender).
+p28
+sVID
+p29
+V30454
+p30
+sVGeburtsdaten
+p31
+(dp32
+S'Ort'
+p33
+VMoskau
+p34
+sS'Datum'
+p35
+V1831
+p36
+ssVSterbedaten
+p37
+(dp38
+g33
+VSt. Petersburg (?)
+p39
+sg35
+V10. oder 11.5.1876
+p40
+ssVW
+p41
+(dp42
+g22
+(lp43
+VDe gangraena nosocomiali. Diss. [Sankt-Peterburg] 1855.
+p44
+aVIssledovanie Klod-Bernara nad obrazovaniem sachara i krachmala v pe\u010deni \u017eivotnych. Voenno-medicinskij \u017eurnal Teil 74, Jg. 37 (1859) II, 232-244.
+p45
+aV[Übersetzung von: Johann Friedrich Hermann Albers: Memoranda der Psychiatrie oder Kurzgefasste Darstellung der Pathologie und Therapie der mit Irresein verbundenen Krankheiten ... Weimar 1855, 279 S.] Iogann Fridrich Al'bers: O\u010derk patologii i terapii du\u0161evnych boleznej. Sankt-Peterburg 1860, 260 S.
+p46
+aVOb issledovanii gazov, vydychaemych pri razli\u010dnych boleznjach. Medicinskij vestnik (1864) 445-448, 457-461, 469-473.
+p47
+aVK voprosu o poglo\u0161\u010denii gazov ko\u017eeju. Medicinskij vestnik (1866) Nr. 40-43, 31 S.
+p48
+assVV
+p49
+VAleksandr
+p50
+sVBerufe
+p51
+(lp52
+VMilitärarzt
+p53
+aVLeibarzt
+p54
+aVProfessor für spezielle Pathologie und Therapie
+p55
+as.

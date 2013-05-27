@@ -1,0 +1,231 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<GeneralLabor/Professor_fr_Anatomie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Anatomie" .
+
+<GPV/30436hasGPV1>
+	rdfs:label "Publikationen 1823-1866, in: Zmeev. Bd. 1 (1886), 27, Bd. 2 (1887), 40; auch in: WBIS RBA: R 323, 304-307." ;
+	a drw-model:GPV .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Q/30436hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Protoierej Andrej Naranovič - synu svoemu Pavlu. [Brief vom 5. und 4. September 1824]. Russkaja starina 72 (1891), 480-484." .
+
+<P/30436hasP1>
+	rdfs:label "Foto aus: Professora MCA/VMA (<b>SL</b>), 12. Abgedruckt in: Fischer 2010, 166." ;
+	a drw-model:P .
+
+<SL/30436hasSL5>
+	rdfs:label "Volkov/Kulikova 2003 b, 322." ;
+	a drw-model:SL .
+
+<Q/30436hasQ3>
+	a drw-model:Q ;
+	rdfs:label "Zamečanija po osmotru klinik v Berline i učreždeniju sanitarnoj časti v Prusskoj armii vo vremja vojny v 1866 godu. Voenno-medicinskij žurnal Teil 97, Jg. 44 (1866) VII, 1-42." .
+
+<SL/30436hasSL7>
+	a drw-model:SL ;
+	rdfs:label "<span style='font-variant:small-caps;'>Zdekauer</span>, Nikolaj Fëdorovič: Pavel Andreevič Naranovič. Russkaja starina 72 (1891), 477-479." ;
+	drw-model:hasNameLink <ImportantPerson/30473> .
+
+<WL/30436hasWL2>
+	rdfs:label "*) Zerdrücker, Zerquetscher. Instrument, um gestielte Geschwülste, Polypen, durch sehr allmähliches Abquetschen unblutig zu entfernen, wurde 1850 von Charles Marie Édouard Chassaignac (1805-1879) beschrieben. Meyers Großes Konversations-Lexikon. Band 5. Leipzig 1906, 586." ;
+	a drw-model:WL .
+
+<WL/30436hasWL4>
+	rdfs:label "War Befürworter der medizinischen Ausbildung für Frauen." ;
+	a drw-model:WL .
+
+<NameVariation/30436hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "NARANOWITSCH" .
+
+<WTranslations/30436hasWTranslations3>
+	a drw-model:WTranslations ;
+	rdfs:label "[Heinrich Robert Göppert: Ueber die chemischen Gegengifte zum Gebrauche für Ärzte, Wundärzte und Pharmaceuten, sowie für academische Vorlesungen. 2. Aufl. Breslau 1843, 103 S.] G. R. Geppert: O sredstvach k posobiju otravlennym raznymi jadovitymi sostavami. Sankt-Peterburg 1844, 175 S.." .
+
+<SL/30436hasSL2>
+	rdfs:label "Hirschberg, August (Hg.): Biographisches Lexikon der hervorragenden Aerzte aller Zeiten und Völker. Bd. 4. Wien, Leipzig 1886, 335." ;
+	a drw-model:SL .
+
+<MainName/30436hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30436hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30436hasNameVariation1> ;
+	rdfs:label "Naranovič, Pavel Andreevič" .
+
+<WTranslations/30436hasWTranslations1>
+	rdfs:label "[Adolph Friedrich Hempel: Anfangsgründe der Anatomie des gesunden menschlichen Körpers. 1. und 2. Teil. 6. Aufl. Göttingen 1832] Adol'f Fridrich Gempel': Načal'nye osnovanija anatomii čelovečeskogo tela v zdorovom sostojanii. Teil 1 und 2. Sankt-Peterburg 1837, 459 und 463 S." ;
+	a drw-model:WTranslations .
+
+<SL/30436hasSL4>
+	rdfs:label "Professora MCA/VMA, 12-13 und 50." ;
+	a drw-model:SL .
+
+<Date/1801_oder_1802>
+	rdfs:label "1801 oder 1802" ;
+	a drw-model:Date .
+
+<W/30436hasW3>
+	rdfs:label "[Adolph Friedrich Hempel: Anfangsgründe der Anatomie des gesunden menschlichen Körpers. 1. und 2. Teil. 6. Aufl. Göttingen 1832] Adol'f Fridrich Gempel': Načal'nye osnovanija anatomii čelovečeskogo tela v zdorovom sostojanii. Teil 1 und 2. Sankt-Peterburg 1837, 459 und 463 S." ;
+	a drw-model:W .
+
+<SL/30436hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Ivanovskij 1898, 591-592; auch in: WBIS: R 323, 317-318." .
+
+<W/30436hasW1>
+	rdfs:label "Tractatus de herniis. Dissertation. S.-Peterburg 1836." ;
+	a drw-model:W .
+
+<WL/30436hasWL5>
+	rdfs:label "Redakteur der Zeitschriften <i>Vonenno-medicinskij žurnal</i> (1839-1846 oder bis 1842/48) und <i>Trudy obščestva russkich vračej</i>." ;
+	a drw-model:WL .
+
+<Place/Carskoe_Selo>
+	a drw-model:Place ;
+	rdfs:label "Carskoe Selo" .
+
+<W/30436hasW5>
+	rdfs:label "[Heinrich Robert Göppert: Ueber die chemischen Gegengifte zum Gebrauche für Ärzte, Wundärzte und Pharmaceuten, sowie für academische Vorlesungen. 2. Aufl. Breslau 1843, 103 S.] G. R. Geppert: O sredstvach k posobiju otravlennym raznymi jadovitymi sostavami. Sankt-Peterburg 1844, 175 S.." ;
+	a drw-model:W .
+
+<Q/30436hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Zamečanija o sostojanii sanitarnoj časti v prusskoj armii vo vremja vojny v Šlezvig-Gol'štejne v 1864 godu. Voenno-medicinskij žurnal Teil 89, Jg. 42 (1864) II, 59 S." .
+
+<Date/2_1_1874_oder_1873>
+	a drw-model:Date ;
+	rdfs:label "2.1.1874 oder 1873" .
+
+<A/30436hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch der Geistlichen Lehranstalt in Novgorod-Seversk und des Priesterseminars in Černigov (kein Abschluss), 1820-1824 Studium der Medizin mit dem Abschluss \"Arzt 1. Klasse\", 1836 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg." .
+
+<MG/30436hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Obščestvo russkich vračej [Gesellschaft russischer Ärzte] (1839 Mitgründer, 1852-1866 Vize-Präsident und 1867 Ehrenmitglied), Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee] (ab 1869) u.a." .
+
+<WL/30436hasWL1>
+	rdfs:label "Autor von ca. 40 Arbeiten zur Anatomie und Chirurgie (schrieb z.B. über Herz- und Knochenkrankheiten, über Äthernarkose bei Operationen, über den Ekraseur*), über Untersuchungen mit dem Augenspiegel) sowie von drei Übersetzungen aus dem Deutschen (vgl. <b>GPV</b> und <b>W</b>)." ;
+	a drw-model:WL .
+
+<SL/30436hasSL6>
+	rdfs:label "WBIS RBA: R 323, 304-319." ;
+	a drw-model:SL .
+
+<WL/30436hasWL3>
+	rdfs:label "Als Anatom balsamierte er die Leichen der Zarin MARIJA FЁDOROVNA (1759-1828) und des Zaren NIKOLAJ I. (1796-1855) ein." ;
+	a drw-model:WL .
+
+<SL/30436hasSL1>
+	rdfs:label "Gennadi. Bd. 3 (1876), 11." ;
+	a drw-model:SL .
+
+<Place/eplevka_Gouvernement_ernigov>
+	a drw-model:Place ;
+	rdfs:label "Čeplevka, Gouvernement Černigov" .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<P/30436hasP2>
+	rdfs:label "Boris Aleksandrovič Nachapetov: P. A. Naranovič. Zeichnung. In: Nachapetov 2003, 165." ;
+	a drw-model:P .
+
+<B/30436hasStationOfLife1>
+	rdfs:label "Bereits 1823 Prosektor der Zootomie an der MCA, 1824-1829 Assistent des Prosektors der Anatomie, 1829-1833 Prosektor der Anatomie, 1833-1839 Adjunkt-Professor, 1840-1844 ao. Professor für Chirurgie, 1844-1849 o. Professor und 1844-1862 Lehrstuhl für beschreibende Anatomie, 1849-1854 \"Verdienter Professor\", 1855-1867 Professor und 1862-1867 Leiter der Chirurgischen Klinik, außerdem 1852 wissenschaftlicher Sekretär, 1860 Vize-Präsident, 1865 Präsident und 1867-1869 \"Vorsteher\" [načal'nik] der MCA, zugleich 1824-1867 Arzt (1827 Stabsarzt) der chirurgischen Abteilung und im St. Petersburger Militärlandhospital, 1830-1831 Chefchirurg der Armee während des Polnischen Aufstands, 1833-1839 Assistent des Leiters und 1856-1865 Leiter der technischen Abteilung in der St. Petersburger Instrumentenwerkstatt, 1840 Chefarzt des St. Petersburger Münzhofes, zeitweilig chirurgischer Konsultant z.B. im Obuchov-, Maria-Magdalena- und Peter-Paul-Krankenhaus, ab 1858 Leibchirurg am Hofe des Zaren ALEKSANDR II. (1818-1881), 1864 Militärarzt im Schleswig-Holstein-Krieg mit Besuch von Krankenhäusern in Berlin und der Johanniter-Krankenhäuser in Flensburg, während des Preußisch-Österreichischen Krieges 1866 Aufenthalte in Krankenhäusern in Berlin, darunter an der Chirurgischen Klinik bei Bernhard von LANGENBECK (1810-1887), an der Medizinischen Klinik der Charité bei Friedrich Theodor von FRERICHS (1819-1885) und an der chirurgischen Abteilung der Charité bei Johann Christian JÜNGKEN (1793-1875) sowie im Bethanien-Krankenhaus bei Robert Friedrich WILMS (1824-1880), danach Inspektionen in einigen Lazaretteinrichtungen, insbesondere in Kissingen.
+Mitgründer und Mitglied der Hauptverwaltung der Gesellschaft für Fürsorge kranker und verwundeter Soldaten [<i>Obščestvo popečenija o bol'nych i ranenych voinov</i>]; Inhaber des Ehrentitels \"Geheimrat\".
+" ;
+	a drw-model:B .
+
+<RelatedPerson/30436fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Andrej, Protopresbyter" .
+
+<WTranslations/30436hasWTranslations2>
+	a drw-model:WTranslations ;
+	rdfs:label "[Übersetzung der deutschen Ausgabe von M. S. Krüger: James Hope: Grundzüge der pathologischen Anatomie in ihrer Verbindung mit den Krankheitssymptomen. Berlin 1836] Džems Choup: Osnovanija patologičeskoj anatomii s prisovokupleniem boleznennych pripadkov. Sankt-Peterburg 1837, 416 S." .
+
+<W/30436hasW4>
+	a drw-model:W ;
+	rdfs:label "[Übersetzung der deutschen Ausgabe von M. S. Krüger: James Hope: Grundzüge der pathologischen Anatomie in ihrer Verbindung mit den Krankheitssymptomen. Berlin 1836] Džems Choup: Osnovanija patologičeskoj anatomii s prisovokupleniem boleznennych pripadkov. Sankt-Peterburg 1837, 416 S." .
+
+<ImportantPerson/30473>
+	a drw-model:ImportantPerson .
+
+<NameVariation/30436hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Paul" .
+
+<RelatedPerson/30436hasDescendant1>
+	rdfs:label "Nikolaj Pavlovič" ;
+	a drw-model:RelatedPerson .
+
+<GeneralLabor/Professor_fr_Chirurgie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Chirurgie" .
+
+<GeneralLabor/Leibchirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibchirurg" .
+
+<W/30436hasW2>
+	a drw-model:W ;
+	rdfs:label "O boleznjach kostej. Voenno-medicinskij žurnal 23 (1845) Nr. 2 und 3, 82 S." .
+
+<ImportantPerson/30436>
+	drw-model:hasWL <WL/30436hasWL1> ;
+	drw-model:hasSL <SL/30436hasSL2> ;
+	drw-model:hasQ <Q/30436hasQ1> ;
+	drw-model:hasMainName <MainName/30436hasMainName1> ;
+	drw-model:hasSL <SL/30436hasSL3> ;
+	drw-model:hasSL <SL/30436hasSL7> ;
+	drw-model:hasW <W/30436hasW5> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30436.jpg> ;
+	drw-model:hasWL <WL/30436hasWL2> ;
+	drw-model:fatherIs <RelatedPerson/30436fatherIs1> ;
+	drw-model:hasQ <Q/30436hasQ3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Chirurgie> ;
+	drw-model:hasWTranslations <WTranslations/30436hasWTranslations2> ;
+	drw-model:hasStationOfLife <B/30436hasStationOfLife1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasW <W/30436hasW3> ;
+	drw-model:hasW <W/30436hasW4> ;
+	drw-model:diedIn <Place/Carskoe_Selo> ;
+	drw-model:hasEducation <A/30436hasEducation1> ;
+	drw-model:hasWTranslations <WTranslations/30436hasWTranslations1> ;
+	rdfs:label "Naranovič, Pavel Andreevič" ;
+	drw-model:wasBornIn <Place/eplevka_Gouvernement_ernigov> ;
+	drw-model:hasID "30436" ;
+	drw-model:wasBornOn <Date/1801_oder_1802> ;
+	drw-model:hasSL <SL/30436hasSL5> ;
+	drw-model:hasWL <WL/30436hasWL3> ;
+	drw-model:hasW <W/30436hasW2> ;
+	drw-model:hasQ <Q/30436hasQ2> ;
+	drw-model:hasP <P/30436hasP1> ;
+	drw-model:diedOn <Date/2_1_1874_oder_1873> ;
+	drw-model:hasP <P/30436hasP2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Anatomie> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasWL <WL/30436hasWL4> ;
+	drw-model:hasW <W/30436hasW1> ;
+	drw-model:hasSL <SL/30436hasSL1> ;
+	drw-model:hasSL <SL/30436hasSL4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibchirurg> ;
+	drw-model:hasWL <WL/30436hasWL5> ;
+	drw-model:hasGPV <GPV/30436hasGPV1> ;
+	drw-model:hasSL <SL/30436hasSL6> ;
+	drw-model:hasWTranslations <WTranslations/30436hasWTranslations3> ;
+	drw-model:hasDescendant <RelatedPerson/30436hasDescendant1> ;
+	drw-model:hasMG <MG/30436hasMG1> .
+

@@ -1,0 +1,115 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30237hasSL2>
+	rdfs:label "WBIS DBA: I 266, 209-214; 1428, 27; II 308, 460; BaBA: I 72, 324-327; RBA: R 521, 93-94." ;
+	a drw-model:SL .
+
+<Date/3_11_1750>
+	a drw-model:Date ;
+	rdfs:label "3.11.1750" .
+
+<Place/Goldingen>
+	a drw-model:Place ;
+	rdfs:label "Goldingen" .
+
+<W/30237hasW1>
+	a drw-model:W ;
+	rdfs:label "De causis sterilitatis non absolutis in utroque sexu. Dissertation. Halle an der Saale 1773, 23 S." .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<MainName/30237hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Eckhoff, Johann Heinrich (von)" ;
+	drw-model:hasNameVariation <NameVariation/30237hasNameVariation1> .
+
+<ImportantPerson/30237>
+	drw-model:fatherIs <RelatedPerson/30237fatherIs1> ;
+	drw-model:hasSL <SL/30237hasSL1> ;
+	drw-model:diedOn <Date/21_7_1810> ;
+	rdfs:label "Eckhoff, Johann Heinrich (von)" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:diedIn <Place/Mitau_?> ;
+	drw-model:wasBornIn <Place/Goldingen> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Herzoglicher_Leibarzt> ;
+	drw-model:hasMG <MG/30237hasMG1> ;
+	drw-model:hasStationOfLife <B/30237hasStationOfLife1> ;
+	drw-model:hasW <W/30237hasW1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30237wasMarriedTo1> ;
+	drw-model:hasW <W/30237hasW2> ;
+	drw-model:hasMainName <MainName/30237hasMainName1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:motherIs <RelatedPerson/30237motherIs1> ;
+	drw-model:hasWL <WL/30237hasWL1> ;
+	drw-model:hasEducation <A/30237hasEducation1> ;
+	drw-model:hasID "30237" ;
+	drw-model:hasDescendant <RelatedPerson/30237hasDescendant1> ;
+	drw-model:wasBornOn <Date/3_11_1750> ;
+	drw-model:hasSL <SL/30237hasSL2> .
+
+<A/30237hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Erster Unterricht durch privaten Hauslehrer, ab 1769 Studium anfangs der Philosophie an der Universität Halle an der Saale, ab 1770 der Anatomie, Physiologie und Chirurgie in Berlin, danach Abschluss des Medizinstudiums und 1773 Dr. med. in Halle." .
+
+<GeneralLabor/Herzoglicher_Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Herzoglicher Leibarzt" .
+
+<Place/Mitau_?>
+	a drw-model:Place ;
+	rdfs:label "Mitau (?)" .
+
+<Date/21_7_1810>
+	a drw-model:Date ;
+	rdfs:label "21.7.1810" .
+
+<SL/30237hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Iodko, Olga V.: Die Rolle der Deutschen bei der Beschreibung und Erforschung des Kurortes Bad Baldohn in Kurland. In: Regine Pfrepper, Ingrid Kästner, Dietrich von Engelhardt (Hgg.): Von Samuel Gottlieb Gmelins Reise durch Russland bis zum Niedergang der Apothekerfamilie Poehl. Aachen 2001 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaften 4), 133-144." .
+
+<W/30237hasW2>
+	rdfs:label "Beschreibung des Baldohnschen und Barbernschen Mineral-Wassers nebst einer Anweisung zum innerlichen und äußerlichen Gebrauch derselben. Mitau 1795, 6 + 64 S. Titelblatt abgedruckt in: Fischer 2010, 75." ;
+	a drw-model:W .
+
+<B/30237hasStationOfLife1>
+	rdfs:label "1773-1790 Praktischer Arzt in Goldingen, danach 1790-1793 praktischer Arzt, 1793-1797 Stadt- und Landphysikus und zeitweise Leibarzt des Herzogs von Kurland Peter von BIRON (1724-1800) in Mitau, 1798 Operateur und ab 1798 Accoucheur bei der Kurländischen Medizinalverwaltung.
+Wurde 1800 mit dem russischen Titel \"Hofrat\" geehrt." ;
+	a drw-model:B .
+
+<WL/30237hasWL1>
+	rdfs:label "Beschrieb als Erster die Schwefelquelle von Bad Baldohn in Kurland und stellte in 13 Punkten das Verhalten des Wassers gegenüber verschiedenen Reagenzien dar." ;
+	a drw-model:WL .
+
+<RelatedPerson/30237wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Benigna Gottlieb, geb. Huhn († 1849)" .
+
+<NameVariation/30237hasNameVariation1>
+	rdfs:label "ECKHOF" ;
+	a drw-model:NameVariation .
+
+<MG/30237hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Gosudarstvennaja medicinskaja kollegija v Peterburge [Staatliches Medizinisches Kollegium in St. Petersburg] (1802 Ehrenmitglied), Moskovskoe obščestvo estestvoispytatelej [Moskauer Gesellschaft der Naturforscher] (ab 1806), Deutschsprachige Freimaurerloge \"Peter zur Wahrheit\"." .
+
+<RelatedPerson/30237fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Heinrich († 1767), Apotheker und Ratsherr" .
+
+<RelatedPerson/30237motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Marie Luise, geb. Wäber († nach 1782)" .
+
+<RelatedPerson/30237hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Karoline, verh. von Ockel<br>Johann Otto (1793-1826), Praktischer, Militär- und Badearzt<br>" .
+

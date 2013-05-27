@@ -1,0 +1,224 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<P/30836hasP2>
+	rdfs:label "Fotoportrait, Online Ressource Online Ressource der Russländischen Akademie der Wissenschaften. Siehe auch Online Ressource Online Ressource der Russländischen Akademie der Wissenschaften (30.5.2012)." ;
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.ras.ru/win/db/show_per.asp?P=.id-51892.ln-ru" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.ras.ru/ph/ras/a/a306.jpg" .
+
+<WL/30836hasWL2>
+	a drw-model:WL .
+
+<ImportantPerson/30047>
+	a drw-model:ImportantPerson .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30836hasW8>
+	rdfs:label "Beiträge zur vergleichenden Anatomie und Physiologie: Reisebemerkungen aus Skandinavien ; nebst einem Anhange über die rückschreitende Metamorphose der Thiere. Danzig 1842." ;
+	a drw-model:W .
+
+<SL/30836hasSL1>
+	rdfs:label "Gustav Zaddach: Heinrich Rathke. Eine Gedächtnißrede, gehalten in der Königl. physikalisch-ökonomischen Gesellschaft zu Königsberg am 21. December 1860. Von Dr. Gustav Zaddach, Professor. Der neuen Preußischen Provinzial-Blätter dritte Folge 6 (1860) 1/2, 271-312." ;
+	a drw-model:SL .
+
+<NameVariation/30836hasNameVariation1>
+	rdfs:label "Мартин-Генрих" ;
+	a drw-model:NameVariation .
+
+<SL/30836hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Heike Menz: Martin Heinrich Rathke (1793-1860): ein Embryologe des 19. Jahrhunderts. Marburg 2000 (Acta biohistorica; 7)." .
+
+<GPV/30836hasGPV1>
+	rdfs:label "Bibliographie von 125 Arbeiten in: Zaddach 1860, 297-312 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<GeneralLabor/Anatom>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Anatom" .
+
+<W/30836hasW6>
+	a drw-model:W ;
+	rdfs:label "Anatomisch-philosophische Untersuchungen über den Kiemenapparat und das Zungenbein der Wirbelthiere. Riga, Dorpat 1832." .
+
+<W/30836hasW4>
+	<http://xmlns.com/foaf/0.1/homepage> "http://bl460-134.gbv.de/goobi/ppnresolver/?PPN679566643" ;
+	rdfs:label "Die Physiologie als Erfahrungswissenschaft. Bd. 2: Mit Beiträgen von Karl Ernst von Baer, Heinrich Rathke und Ernst H. F. Meyer. Leipzig 1828. Online Ressource Online Ressource (1.6.2012)." ;
+	a drw-model:W .
+
+<ImportantPerson/30739>
+	a drw-model:ImportantPerson .
+
+<W/30836hasW2>
+	rdfs:label "Kiemen bey Säugethieren. Isis 6 (1825), Sp. 747-749." ;
+	a drw-model:W .
+
+<RelatedPerson/30836hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "zwei Söhne, u.a. Heinrich Bernhard (1840-1923), ord. Professor für Chemie in Marburg<br>" .
+
+<RelatedPerson/30836fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Georg Heinrich (?-?), Schiffbaumeister in Danzig
+" .
+
+<ImportantPerson/30779>
+	a drw-model:ImportantPerson .
+
+<RelatedPerson/30836wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Martha Elmire Malonek (?-?)" .
+
+<A/30836hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Ab Ostern 1814 studierte RATHKE Medizin in Göttingen, wo Johann Friedrich <span style='font-variant:small-caps;'>BLUMENBACH</span> sein Lehrer und Christian Heinrich <span style='font-variant:small-caps;'>PANDER</span> sein Studienkollege waren. Er entwickelte ein Interesse für Zoologie und vergleichende Anatomie. 1817 wechselte RATHKE nach Berlin und legte 1818 seine Inaugural-Dissertation <i>De Salamandrarum corporibus adiposis, ovariis, et oviductibus, eorumque evolutione</i> vor, in der er die Entwicklungsgeschichte von Fettkörper und weiblichem Genitalapparat von Schwanzlurchen untersuchte (<b>W</b> Rathke 1818). Damit erwarb er den Doktorgrad in der Medizin.
+" ;
+	drw-model:hasNameLink <ImportantPerson/30779> ;
+	drw-model:hasNameLink <ImportantPerson/30107> .
+
+<WL/30836hasWL1>
+	drw-model:hasNameLink <ImportantPerson/30779> ;
+	drw-model:hasNameLink <ImportantPerson/30047> ;
+	rdfs:label "RATHKEs gesamte wissenschaftliche Arbeit hat von Anfang an die vergleichende Embryologie zum Inhalt. Seine wissenschaftlichen Verdienste liegen \"im Bereich der Embryologie und vergleichenden Anatomie\", wobei das Gesamtwerk über hundert Veröffentlichungen umfasst; er etablierte gemeinsam mit <span style='font-variant:small-caps;'>PANDER</span> und <span style='font-variant:small-caps;'>BAER</span> die vergleichende Embryologie. Zu den wichtigsten Arbeiten gehören seine Untersuchungen zum Urogenitalsystem (<b>W</b> Rathke 1825), die Aufsätze zu den \"Kiemen\" und \"Kiemenandeutungen\" bei Mensch und Säugetieren (<b>W</b> Rathke 1825 und 1828), die Studien am Flusskrebs (<b>W</b> Rathke 1829), an Reptilien (<b>W</b> Rathke u.a. 1839 und 1848) und die Arbeit über die rückschreitende Metamorphose (<b>W</b> Rathke 1842)." ;
+	a drw-model:WL .
+
+<ImportantPerson/30173>
+	a drw-model:ImportantPerson .
+
+<W/30836hasW9>
+	rdfs:label "Über die Entwickelung der Schildkröten: Untersuchungen. Braunschweig 1848." ;
+	a drw-model:W .
+
+<W/30836hasW1>
+	a drw-model:W ;
+	rdfs:label "De salamandrarum corporibus adiposis, ovariis, et oviductibus, eorumque evolutione. Med. Diss. Berlin 1818." .
+
+<Date/5_8_1793_in_Danzig>
+	a drw-model:Date ;
+	rdfs:label "5.8.1793 in Danzig" .
+
+<SL/30836hasSL2>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://daten.digitale-sammlungen.de/bsb00008385/images/index.html?seite=354" ;
+	rdfs:label "Ludwig Stieda: Rathke, Heinrich. In: Allgemeine Deutsche Biographie 27 (1888), 352-355. Online Ressource Online Ressource (1.6.2012)." .
+
+<RelatedPerson/30836motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Catharina Elisabeth Streege (?-?)" .
+
+<GeneralLabor/Embryologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Embryologe" .
+
+<MG/30836hasMG1>
+	a drw-model:MG ;
+	rdfs:label "
+Mitglied der <i>Kaiserlich-Leopoldinisch-Carolinischen Deutschen Akademie der Naturforscher</i> (1825), Korrespondierendes Mitglied der Kaiserlichen Akademie der Wissenschaften zu St. Petersburg (12.12.1832), Korrespondierendes Mitglied der Preußischen Akademie der Wissenschaften (1834), Auswärtiges Mitglied der Bayerischen Akademie der Wissenschaften, Mathematisch-physikalische Klasse (1858)." .
+
+<W/30836hasW7>
+	a drw-model:W ;
+	rdfs:label "Bemerkungen über die Entwickelung des Schädels der Wirbelthiere. Königsberg 1839." .
+
+<SL/30836hasSL5>
+	rdfs:label "Heike Menz: \"Kiemen bey Säugethieren\" (1825) - Embryologische Studien an Wirbeltieren. In: Ekkehard Höxtermann; Joachim Kaasch, Michael Kaasch (Hgg.): Von der \"Entwickelungsmechanik\" zur Entwicklungsbiologie. Berlin 2004, 117-134 (Verhandlungen zur Geschichte und Theorie der Biologie 10)." ;
+	a drw-model:SL .
+
+<Q/30836hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Briefe Rathkes an seine Frau Mathilde über seine Reisen 1832, 1833 und 1835, in: M. Br. [Max Braun]: Zur Erinnerung an Heinrich Rathke. Zoologische Annalen 3 (1910), 284-335." .
+
+<W/30836hasW5>
+	rdfs:label "Untersuchungen über die Bildung und Entwickelung des Flusskrebses. Leipzig 1829." ;
+	a drw-model:W .
+
+<W/30836hasW3>
+	rdfs:label "Ueber das Daseyn von Kiemenandeutungen bey menschlichen Embryonen. Isis 21 (1828) 1, Sp. 108-109." ;
+	a drw-model:W .
+
+<P/30836hasP1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/dspace/bitstream/10062/3805/2/fo2887b.jpg" ;
+	rdfs:label "Portrait, University of Tartu Library, Photo Collection, Sign. Fo 2887B. Online Ressource Online Ressource (30.5.2012). Abgedruckt in: Schmuck 2009, 221." ;
+	a drw-model:P .
+
+<ImportantPerson/30107>
+	a drw-model:ImportantPerson .
+
+<Date/15_9_1860_in_Knigsberg>
+	a drw-model:Date ;
+	rdfs:label "15.9.1860 in Königsberg" .
+
+<SL/30836hasSL4>
+	rdfs:label "Volker Hess: Rathke, Martin Heinrich. In: Neue Deutsche Biographie 21 (2003), 180-181. Online Ressource Online Ressource (1.6.2012)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/pnd116337591.html" .
+
+<ImportantPerson/30836>
+	drw-model:hasP <P/30836hasP2> ;
+	drw-model:hasStationOfLife <B/30836hasStationOfLife1> ;
+	drw-model:hasW <W/30836hasW7> ;
+	drw-model:hasSL <SL/30836hasSL6> ;
+	drw-model:hasW <W/30836hasW3> ;
+	drw-model:hasSL <SL/30836hasSL3> ;
+	drw-model:wasMarriedTo <RelatedPerson/30836wasMarriedTo1> ;
+	drw-model:hasW <W/30836hasW6> ;
+	drw-model:hasDescendant <RelatedPerson/30836hasDescendant1> ;
+	drw-model:wasBornOn <Date/5_8_1793_in_Danzig> ;
+	drw-model:hasW <W/30836hasW2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Embryologe> ;
+	drw-model:hasGPV <GPV/30836hasGPV1> ;
+	drw-model:hasW <W/30836hasW5> ;
+	drw-model:hasSL <SL/30836hasSL2> ;
+	drw-model:hasW <W/30836hasW9> ;
+	drw-model:hasW <W/30836hasW1> ;
+	drw-model:fatherIs <RelatedPerson/30836fatherIs1> ;
+	drw-model:hasSL <SL/30836hasSL1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Anatom> ;
+	drw-model:diedOn <Date/15_9_1860_in_Knigsberg> ;
+	drw-model:hasQ <Q/30836hasQ1> ;
+	rdfs:label "Rathke, Martin Heinrich" ;
+	drw-model:hasSL <SL/30836hasSL4> ;
+	drw-model:hasW <W/30836hasW8> ;
+	drw-model:hasID "30836" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/30836hasSL5> ;
+	drw-model:hasWL <WL/30836hasWL1> ;
+	drw-model:hasP <P/30836hasP1> ;
+	drw-model:hasMG <MG/30836hasMG1> ;
+	drw-model:hasMainName <MainName/30836hasMainName1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30836.jpg> ;
+	drw-model:hasEducation <A/30836hasEducation1> ;
+	drw-model:motherIs <RelatedPerson/30836motherIs1> ;
+	drw-model:hasW <W/30836hasW4> ;
+	drw-model:hasWL <WL/30836hasWL2> .
+
+<SL/30836hasSL6>
+	rdfs:label "Schmuck, Thomas: Baltische Genesis. Die Grundlegung der Embryologie im 19. Jahrhundert. Aachen 2009 (Relationes 2), 215-223." ;
+	a drw-model:SL .
+
+<B/30836hasStationOfLife1>
+	drw-model:hasNameLink <ImportantPerson/30739> ;
+	drw-model:hasNameLink <ImportantPerson/30173> ;
+	drw-model:hasNameLink <ImportantPerson/30047> ;
+	a drw-model:B ;
+	rdfs:label "Noch 1818 nach Danzig zurückgekehrt, arbeitete RATHKE als Arzt und Hilfslehrer. Er war praktischer Arzt (mit Armenpraxis), 1825 Oberarzt im Bürgerhospital, 1826 Kreisphysikus und 1820-1823 \"Hülfslehrer\" für Physik und physische Geographie (vgl. <b>SL</b> Menz 2000, 34; Zaddach 1860, 274). Hier lernte er die Königsberger <span style='font-variant:small-caps;'>BURDACH</span> und <span style='font-variant:small-caps;'>BAER</span> kennen, 1828 in Berlin auch Johannes <span style='font-variant:small-caps;'>MÜLLER</span>, der ihm seine <i>Bildungsgeschichte der Genitalien</i> (Düsseldorf 1830) widmete. Sie war zugleich eine Replik auf RATHKEs frühere Arbeiten zur Embryologie der Genitalorgane (<b>W</b> Rathke 1825; vgl. <b>SL</b> Zaddach 1860, 277-278). Mit <span style='font-variant:small-caps;'>BAER</span> stand RATHKE in Briefwechsel und freundschaftlicher Verbindung; so schickte er RATHKE Schlangenembryonen (<b>SL</b> Menz 2000, 46). Auszüge der 35 (nach Menz 2004, 120 nur 32!) Briefe von <span style='font-variant:small-caps;'>BAER</span> an RATHKE, geschrieben zwischen 1820 und 1829 (die Gegenbriefe sind nicht erhalten), bei Menz 2000, 43-50. Die Briefe <span style='font-variant:small-caps;'>BAERs</span>, die nur in Abschrift vorliegen, befinden sich im Baer-Nachlass in Gießen. Zaddach (1860, 293) berichtet, dass RATHKE erst mit <span style='font-variant:small-caps;'>BAER</span>, später mit Johannes <span style='font-variant:small-caps;'>MÜLLER</span> eng befreundet war. 1829 erhielt RATHKE eine Berufung an die Universität Dorpat.
+RATHKE verließ Danzig im März 1829, um in russische Dienste zu treten. Von 1829 bis 1835 war er Professor für Physiologie, Pathologie und Semiotik an der Universität Dorpat. <span style='font-variant:small-caps;'>BAER</span> hatte ihn empfohlen, nachdem er selbst abgesagt hatte. Ab 1831, nach dem Tod von Johann Friedrich von ESCHSCHOLTZ (1793-1831) übernahm RATHKE auch interimistisch Vorlesungen für Zoologie und vergleichende Anatomie. Von 1830 bis 1835 war RATHKE Mitherausgeber der <i>Dorpater Jahrbücher für Literatur, Statistik und Kunst, besonders Russlands</i>. Er vergab auch Dissertationen mit embryologischer Fragestellung, so an den Livländer Julius von BOEHLENDORFF, der bei ihm mit <i>De liquoris amnii natura, origine atque utilitate, quam fetui praestat</i> promovierte (Boehlendorff 1835).
+RATHKE unternahm mehrere Bildungs- und Forschungsreisen durch das Russische Reich. Zusammen mit dem Zoologen Hermann Martin ASSMUS (1812-1859) reiste er 1832 über das damals russische Finnland nach St. Petersburg, 1833 mit Stepan Semenovič KUTORGA (1805/08-1861) über Novgorod, Moskau und Char'kov auf die Krym. Die Reise ans Schwarze Meer sollte der Untersuchung der Entwicklungsgeschichte von Meerestieren dienen.
+Als Nachfolger von <span style='font-variant:small-caps;'>BAER</span> kam RATHKE 1835 als Professor für Anatomie und Zoologie an die Universität Königsberg. <span style='font-variant:small-caps;'>BURDACH</span> hatte ihn in einem Brief an den Staatsminister empfohlen (<b>SL</b> Menz 2000, 68-69; vgl. auch Menz 2004, 121). Russland und Preußen tauschten gewissermaßen ihre Embryologen: <span style='font-variant:small-caps;'>BAER</span> ging 1835 von Königsberg nach St. Petersburg, RATHKE kam von Dorpat nach Königsberg zurück. Da die neue Stelle in Königsberg finanziell schlechter gestellt war als die in Dorpat, bewarb sich RATHKE auch um eine vakante Stelle als Medizinalrat.
+Nun kam es aber wegen RATHKEs beruflichem Schwanken zu Verwicklungen: Aufgrund vor allem privater Umstände reichte RATHKE noch 1835 in Königsberg ein Entlassungsgesuch ein, dem auch stattgegeben wurde, als er neuerlich aus Dorpat ein Angebot erhielt, das er auch annahm. Zum Medizinalrat ernannt, zog er das Entlassungsansuchen wieder zurück, was von König FRIEDRICH WILHELM III. (reg. 1797-1840) persönlich bewilligt werden musste, und sagte auch die angenommene Stelle in Dorpat wieder ab, was dort für Verstimmung sorgte (<b>SL</b> Menz 2000, 74-87).
+In Königsberg hielt RATHKE Vorlesungen über Anatomie und Zoologie. Seine Schüler waren u.a. der Physiologe Wilhelm von WITTICH (1821-1882) und der Pathologe Franz Ernst Christian NEUMANN (1834-1918).
+RATHKE verstarb mit 67 Jahren - nach einem \"heftigen Katarrh\" im Sommer - unerwartet am 15. September 1860, am Morgen des Tages, in dem in Königsberg die 35. Versammlung deutscher Naturforscher und Ärzte stattfand; RATHKE als Geschäftsführer hatte die Versammlung organisiert.
+RATHKE ist der Namensgeber u.a. der 1834 von ihm zuerst beschriebenen \"Rathkeschen Tasche\", einer Einstülpung des Daches der ektodermalen Mundbucht als Anlage der Adenohypophyse, des \"Rathkeschen Divertikels\", des \"Rathkeschen Schädelbalkens\" (der <i>Trabeculae cranii</i>) sowie der Medusen-Familie der Rathkeidae bzw. des Genus <i>Rathkea</i>, zweier Taxa von Cnidaria, Nesseltieren (weitere Eponyme bei <b>SL</b> Menz 2004, 118).
+
+" .
+
+<MainName/30836hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Rathke, Martin Heinrich" ;
+	drw-model:hasNameVariation <NameVariation/30836hasNameVariation1> .
+

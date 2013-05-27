@@ -1,0 +1,170 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<RelatedPerson/30469wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Helena Elisabeth, geb. Baronesse Freedericksz, verw. von Pirch (*1771)" .
+
+<MainName/30469hasMainName1>
+	rdfs:label "Weltzien, Johann Christian (von)" ;
+	drw-model:hasNameVariation <NameVariation/30469hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30469hasNameVariation3> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30469hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30469hasNameVariation4> ;
+	drw-model:hasNameVariation <NameVariation/30469hasNameVariation5> .
+
+<GeneralLabor/Kaiserlicher_Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Kaiserlicher Leibarzt" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Date/14_2_1767>
+	a drw-model:Date ;
+	rdfs:label "14.2.1767" .
+
+<A/30469hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Studium der Medizin 1785-1786 in Jena und 1787-1788 in Berlin [nicht in Leipzig], 1788-1789 und 1789 Dr. med. in Göttingen, danach wissenschaftliche Aufenthalte an Kliniken in Berlin, London und Paris, 1790 als Arzt in Russland zugelassen." .
+
+<SL/30469hasSL3>
+	rdfs:label "Heine, Maximilian: Die bekanntesten Aerzte Russlands unter der Regierung der Kaiserin Catharina II. Medizinische Zeitung Russlands 12 (1855), 294." ;
+	a drw-model:SL .
+
+<NameVariation/30469hasNameVariation1>
+	rdfs:label "WELZIN" ;
+	a drw-model:NameVariation .
+
+<NameVariation/30469hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "ВEЛЬЦИН" .
+
+<ImportantPerson/30469>
+	drw-model:hasW <W/30469hasW2> ;
+	drw-model:hasSL <SL/30469hasSL1> ;
+	drw-model:hasID "30469" ;
+	drw-model:motherIs <RelatedPerson/30469motherIs1> ;
+	drw-model:hasWL <WL/30469hasWL1> ;
+	drw-model:hasW <W/30469hasW1> ;
+	drw-model:fatherIs <RelatedPerson/30469fatherIs1> ;
+	rdfs:label "Weltzien, Johann Christian (von)" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Kaiserlicher_Leibarzt> ;
+	drw-model:hasSL <SL/30469hasSL2> ;
+	drw-model:hasMG <MG/30469hasMG1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Pathologie_und_Th> ;
+	drw-model:hasSL <SL/30469hasSL4> ;
+	drw-model:hasDescendant <RelatedPerson/30469hasDescendant1> ;
+	drw-model:wasBornOn <Date/14_2_1767> ;
+	drw-model:diedIn <Place/Landgut_Somel_bei_Torma_oder_S> ;
+	a drw-model:ImportantPerson ;
+	drw-model:wasBornIn <Place/Riga> ;
+	drw-model:hasSL <SL/30469hasSL3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Hygieniker> ;
+	drw-model:wasMarriedTo <RelatedPerson/30469wasMarriedTo1> ;
+	drw-model:hasSL <SL/30469hasSL5> ;
+	drw-model:hasEducation <A/30469hasEducation1> ;
+	drw-model:diedOn <Date/25_3_oder_26_11_1829> ;
+	drw-model:hasMainName <MainName/30469hasMainName1> ;
+	drw-model:hasStationOfLife <B/30469hasStationOfLife1> ;
+	drw-model:hasW <W/30469hasW3> ;
+	drw-model:hasW <W/30469hasW4> .
+
+<SL/30469hasSL5>
+	a drw-model:SL ;
+	rdfs:label "WBIS DBA: I 1350, 60-61; II 1387, 298; BaBA: I 402, 424-426; RBA: R 89, 416-419." .
+
+<W/30469hasW4>
+	a drw-model:W ;
+	rdfs:label "Osnovy sanitarno-policejskogo nadzora. Sankt-Peterburg 1800." .
+
+<SL/30469hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Agranovskij, M. Z.: Ivan Vel'cin kak gigienist. Gigiena i sanitarija 33 (1968), 62-64." .
+
+<NameVariation/30469hasNameVariation2>
+	rdfs:label "VEL'CIN" ;
+	a drw-model:NameVariation .
+
+<RelatedPerson/30469motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anna Margaretha, geb. Klein" .
+
+<GeneralLabor/Professor_fr_Pathologie_und_Th>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Pathologie und Therapie" .
+
+<GeneralLabor/Hygieniker>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hygieniker" .
+
+<SL/30469hasSL2>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [81729/79675 (15.8.2010)]." .
+
+<WL/30469hasWL1>
+	rdfs:label "Gilt als einer der Begründer der öffentlichen Gesundheitsfürsorge im Russischen Reich (vgl. <b>W</b> 1795)." ;
+	a drw-model:WL .
+
+<RelatedPerson/30469hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Constantin Emanuel (Ivanovič) (1798-1821[oder 1824]), Arzt<br>        Marie (Ivanovna), verh. von Seidlitz (1808-1833), Erste Ehefrau von Carl Johann von <span style='font-variant:small-caps;'>Seidlitz</span>." ;
+	drw-model:hasNameLink <ImportantPerson/30412> .
+
+<NameVariation/30469hasNameVariation4>
+	rdfs:label "Vasil'evič" ;
+	a drw-model:NameVariation .
+
+<SL/30469hasSL4>
+	rdfs:label "Nemcy Rossii. Bd. 1 (1999), 342-343." ;
+	a drw-model:SL .
+
+<RelatedPerson/30469fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Jürgen Christian, Gerber, Fabrikant" .
+
+<Place/Riga>
+	a drw-model:Place ;
+	rdfs:label "Riga" .
+
+<Place/Landgut_Somel_bei_Torma_oder_S>
+	a drw-model:Place ;
+	rdfs:label "Landgut Somel bei Torma (oder St. Petersburg)" .
+
+<W/30469hasW2>
+	rdfs:label "Rede, welche im kaiserl. Medicinisch-chirurgischen Institute bey der feierlichen Eröffnung ihres (sic) neuen Wohngebäudes gehalten worden. St. Petersburg 1791, 14 S." ;
+	a drw-model:W .
+
+<NameVariation/30469hasNameVariation5>
+	rdfs:label "Вacильeвич" ;
+	a drw-model:NameVariation .
+
+<ImportantPerson/30412>
+	a drw-model:ImportantPerson .
+
+<MG/30469hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Mediko-filantropičeskij komitet [Mediko-philanthropisches Komitee] (Mitbegründer und 1802 Präsident), Mediko-chirurgičeskaja akademija [Mediko-chirurgische Akademie (MCA)] in St. Petersburg (ab 1819)." .
+
+<B/30469hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "1790-1792 Assistenzarzt am Haupt-Militärlandhospital und Professor für Pathologie und Therapie am Mediko-chirurgischen Kalinkin-Institut in St. Petersburg, 1792-1795 Gouvernementsarzt in Jaroslavl', ab 1795 Hofarzt und 1798 sowie 1802-1809 Leibmedikus des Großfürsten KONSTANTIN PAVLOVIČ (1779-1831) auf dessen Heereszügen, ab 1804 Mitglied des Medizinalrats des Ministeriums des Innern, 1807 Gründer von Militärkrankenhäusern in den Gouvernements Grodno, Wilna, Minsk und Kurland, 1810-1825(oder bis 1821) Oberarzt des Pagenkorps in St. Petersburg, ab 1819 zugleich Leibarzt des Zaren ALEKSANDR I. (1777-1825), lebte ab 1825 im Ruhestand auf seinem Landgut Somel in Livland.
+        Inhaber folgender russischer Ehrentitel und Auszeichnungen: 1797 \"Kollegienrat\", 1799 \"Staatsrat\", \"Wirklicher Russischer Staatsrat\", 1807 St.-Annen-Orden 2. Klasse mit Brillanten." .
+
+<W/30469hasW3>
+	rdfs:label "Načertanie vračebnogo blagoustrojstva, ili o sredstvach, zavisjaščich ot pravitel'stva k sochraneniju narodnogo zdorov'ja. Sankt-Peterburg 1795, 239 S." ;
+	a drw-model:W .
+
+<Date/25_3_oder_26_11_1829>
+	rdfs:label "25.3. oder 26.11.1829" ;
+	a drw-model:Date .
+
+<W/30469hasW1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=PPN654600406&IDDOC=761848" ;
+	rdfs:label "De affectuum animi usu medico. Dissertation. Göttingen 1789, 44 S. Online Ressource Volltext (5.4.2012). Titelblatt des Exemplars der Universitätsbibliothek Leipzig [Signatur: Allg.Path.1914] abgedruckt in: Fischer 2010, 273." ;
+	a drw-model:W .
+

@@ -1,0 +1,125 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<B/30420hasStationOfLife1>
+	rdfs:label "Leibarzt des russischen Gesandten in Europa Grigorij Aleksandrovič STROGANOV (1770-1857), ab 1809 in Russland, 1811 Forschungsreisen zu den Mineralwasserquellen im Kaukasus, ab 1814 in St. Petersburg Hofarzt beim Zaren ALEKSANDR I. (1777-1825)." ;
+	a drw-model:B .
+
+<NameVariation/30420hasNameVariation1>
+	rdfs:label "Karl" ;
+	a drw-model:NameVariation .
+
+<A/30420hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1802-1804 Studium der Medizin und 1805 Dr. med. an der Universität Leipzig." .
+
+<Place/Kreischa_bei_Dresden>
+	a drw-model:Place ;
+	rdfs:label "Kreischa bei Dresden" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<RelatedPerson/30420wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sophia Luise (Sofija Luiza Nikolaevna), geb. von Sutthoff, in 2. Ehe verh. Crichton (Krejton) (1798-1869)" .
+
+<SL/30420hasSL2>
+	rdfs:label "EAD: Dokument-Id [58878]." ;
+	a drw-model:SL .
+
+<WL/30420hasWL1>
+	rdfs:label "Untersuchung und Beschreibung des Mineralwassers in Železnovodsk, Autor einer Karte aller Bäder der Großen Kabarda im Kaukasus." ;
+	a drw-model:WL .
+
+<RelatedPerson/30420motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Eleon[ore] Luise, geb. Ludwig" .
+
+<SL/30420hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Peterburgskij nekropol'. Bd. 2 (1912), 368-369." .
+
+<Date/10_10_1783_oder_1782>
+	a drw-model:Date ;
+	rdfs:label "10.10.1783 oder 1782" .
+
+<SL/30420hasSL6>
+	a drw-model:SL ;
+	rdfs:label "WBIS DBA: I 648, 254." .
+
+<MainName/30420hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Kimmel, Carl Gottfried Benjamin" ;
+	drw-model:hasNameVariation <NameVariation/30420hasNameVariation1> .
+
+<GeneralLabor/Leib_und_Hofarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leib- und Hofarzt" .
+
+<W/30420hasW1>
+	rdfs:label "Observatio anatomico-pathologica de canali carotico carie syphilitica exeso. Diss. Leipzig 1805, 26 S. (Titelblatt abgedruckt in: Fischer 2010, 125 [Exemplar der Universitätsbibliothek Leipzig, Signatur: Spez.Path.1016])." ;
+	a drw-model:W .
+
+<SL/30420hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Kovalenko, V. I.: Železnovodsk. In: Kavkazskie Mineral'nye Vody. Putevoditel'. Sost. V. V. Savel'eva. Moskva 1987." .
+
+<SL/30420hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Scherer, Alexander Nicolaus: Versuch einer systematischen Uebersicht der Heilquellen des Russischen Reichs. Mit eilf Charten. St. Petersburg 1820, 45, 49, 130, 304. Online Ressource Online Ressource (4.4.2012)" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://books.google.de/books?id=zO08AAAAcAAJ&pg=PR14&lpg=PR14&dq=ersuch+einer+systematischen+%C3%9Cbersicht+der+Heilquellen+des+Russischen+Reichs&source=bl&ots=GaoCCWe4-T&sig=gbvT4aeKXupLof2O9FRYeJQjzGo&hl=de&sa=X&ei=MyJ7T6A6wdK0BveTnewB&ved=0CCIQ6AEwAA#v=onepage&q&f=false" .
+
+<SL/30420hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Böhm 2003, 467." .
+
+<RelatedPerson/30420fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Carl Gottfried, Pastor" .
+
+<W/30420hasW2>
+	rdfs:label "Lettres écrites dans un voyage de Moscou au Caucase. Pour servir de guide aux personnes qui se rend aux eaux de ce pays. Avec une vue et une carte topographique (La grande Habarda). Moscou 1812, 187 S." ;
+	a drw-model:W .
+
+<Date/18_2_or_1_3_oder_13_1_1816>
+	a drw-model:Date ;
+	rdfs:label "18.2./1.3. oder 13.1.1816" .
+
+<Q/30420hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Universitätsarchiv Leipzig, Matrikel zwischen 1798 und 1822, Signatur 1: Rektor M 11, Film 583." .
+
+<ImportantPerson/30420>
+	drw-model:hasID "30420" ;
+	drw-model:hasMainName <MainName/30420hasMainName1> ;
+	drw-model:hasStationOfLife <B/30420hasStationOfLife1> ;
+	drw-model:hasQ <Q/30420hasQ1> ;
+	drw-model:diedOn <Date/18_2_or_1_3_oder_13_1_1816> ;
+	drw-model:hasSL <SL/30420hasSL2> ;
+	rdfs:label "Kimmel, Carl Gottfried Benjamin" ;
+	drw-model:motherIs <RelatedPerson/30420motherIs1> ;
+	drw-model:fatherIs <RelatedPerson/30420fatherIs1> ;
+	drw-model:wasBornOn <Date/10_10_1783_oder_1782> ;
+	drw-model:wasMarriedTo <RelatedPerson/30420wasMarriedTo1> ;
+	drw-model:hasW <W/30420hasW2> ;
+	drw-model:hasSL <SL/30420hasSL1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/30420hasSL4> ;
+	drw-model:wasBornIn <Place/Kreischa_bei_Dresden> ;
+	drw-model:hasSL <SL/30420hasSL3> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasEducation <A/30420hasEducation1> ;
+	drw-model:hasSL <SL/30420hasSL6> ;
+	drw-model:hasW <W/30420hasW1> ;
+	drw-model:hasSL <SL/30420hasSL5> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leib_und_Hofarzt> ;
+	drw-model:hasWL <WL/30420hasWL1> .
+

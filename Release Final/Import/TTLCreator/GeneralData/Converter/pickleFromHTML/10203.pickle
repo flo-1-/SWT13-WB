@@ -1,0 +1,123 @@
+(dp0
+VA
+p1
+VBesuch des Gymnasiums in Gleiwitz (polnisch: Gliwice), 1822-1825 Lehre in der Apotheke Cochler in Tarnowitz, 1832 (?) Examen "Apotheker 1. Klasse" in Berlin, 1836 russisches Diplom "Apotheker 1. Klasse" an der Mediko-Chirurgischen Akademie (MCA) in Moskau, 1839 Dr. phil. "in absentia" an der Universität Jena.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u0421\u0415\u0413\u0415\u0422, \u041b\u044e\u0434\u0432\u0438\u0433 \u0424\u0440\u0430\u043d\u0446\u043e\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VSEGET, Ljudvig Francovi\u010d
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+VNach der Apothekenlehre Anstellung im Laboratorium des Medizinalrats H. OLEARIUS in Breslau, Besuch privater Vorlesungen bei den Professoren Nathaniel Wolfgang FISCHER (1782-1850), Ludolph Christian TREVIRANUS (1779-1864), Heinrich GÖPPERT (1800-1884) u.a. in Breslau und ab 1830 bei den Professoren Eilhard MITSCHERLICH (1794-1864), Heinrich ROSE (1795-1864), Ernst Ludwig SCHUBARTH (1797-1868) u.a. in Berlin, nach dem Examen als 2. Chemiker in der "Mineralwasseranstalt Dr. Struve & Soltmann" in Berlin angestellt, 1835 [nicht 1834] zur Gründung einer Mineralwassereinrichtung nach Kiev gesandt, in Kiev Chemiker und Direktor der "Anstalt für Bereitung künstlicher Mineralwässer nach Dr. Struve's Methode", ab 1843 Dozent für Pharmazie und Pharmakognosie an der St.-Vladimir-Universität in Kiev.\u000aInhaber des russischen Ehrentitels "Kollegienrat".
+p14
+sVName
+p15
+(dp16
+S'Vornamen'
+p17
+VLudwig
+p18
+sS'Nachname'
+p19
+VSegeth
+p20
+ssVQuelle
+p21
+V<i>http://drw.saw-leipzig.de/10203.html</i> (2. Mai 2012).
+p22
+sVWL
+p23
+VBeschreibung von Heilpflanzen des Gouvernements Kiev; 1843-1853 kostenlose gerichtsmedizinische Analysen in Kiev.
+p24
+sVMG
+p25
+VPharmazeutische Vereine in Breslau und Berlin, Berliner Botanischer Privat-Verein, Teilnehmer an Versammlungen der Gesellschaft für Vaterländische Cultur in Schlesien in Breslau.
+p26
+sVN
+p27
+VSohn Fedor Ljudvigovi\u010d (* 1830), Accoucheur und Kreisarzt in Kiev
+p28
+sVQ
+p29
+(lp30
+VArchiv der Friedrich-Schiller-Universität Jena, Bestand M Nr. 289.
+p31
+asVGeburtsdaten
+p32
+(dp33
+S'Ort'
+p34
+VOberschlesien (heute Tarnowskie Góry, Polen)
+p35
+sS'Datum'
+p36
+V1806 Tarnowitz
+p37
+ssVSterbedaten
+p38
+(dp39
+g34
+VKiev (?)
+p40
+sg36
+V20.6./2.7.1853
+p41
+ssVW
+p42
+(dp43
+S'general'
+p44
+(lp45
+VKurs farmakognozii [Manuskript, nicht erschienen].
+p46
+aVAnaliz vod razli\u010dnych isto\u010dnikov g. Kieva. o.O. u. J.
+p47
+aVUeber den Labradorstein bei (von) Kijew: Bulletin scientifique, Académie impériale des Sciences de St. Pétersbourg 7 (1840), 26-28 = Journal für praktische Chemie 20 (1840), 253-256.
+p48
+aVPhosphorsaures Eisen von Kertsch in der Krimm: Bulletin scientifique, Académie impériale des Sciences de St. Pétersbourg 7 (1840), 28-29 = Journal für praktische Chemie 20 (1840), 256-258.
+p49
+aVNabljudenija nad solne\u010dnym zatmeniem, byv\u0161im v Kieve 16 (28) julja 1851 g. Kiev 1852.
+p50
+assVV
+p51
+VFranz (?), Bergzehndner in Berg- und Hüttenwerken Tarnowitz
+p52
+sVID
+p53
+V10203
+p54
+sVSL
+p55
+(dp56
+g44
+(lp57
+VErik-Amburger-Datenbank [EAD]: Dokument-Id [65742/65067].
+p58
+aVWBIS RBA.
+p59
+assVBerufe
+p60
+(lp61
+VApotheker
+p62
+aVChemiker
+p63
+aVDozent für Pharmazie und Pharmakognosie
+p64
+as.

@@ -1,0 +1,219 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<GeneralLabor/Ehrenleibotiater>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ehrenleibotiater" .
+
+<B/30472hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "Ab 1859 Arzt des Leibgarderegiments zu Pferde, zugleich in St. Petersburg 1859-1864 Ordinator an der Maksimilian-Invalidenheilanstalt und 1862 bis 1866 am \"Hebammenanstitut der Großfürstin Elena Pavlovna\", ab 1864 Inhaber und Direktor der ersten privaten Ohrenheilanstalt in Russland, ab 1867 Konsultant am \"Marien-Institut für adlige Fräulein\", ab 1867 (oder 1871) Konsultant bei den \"Institutionen der Zarin Marija\", ab 1873 Konsultant an der Militärmedizinischen Hauptverwaltung sowie \"Ehrenleibotiater\" am Hofe des Zaren ALEKSANDR II. (1818-1881); hielt außerdem Vorlesungen in seiner Privatanstalt und am Nikolaj-Militärhospital.
+Wurde mit den Titeln \"Staatsrat\" und \"Wirklicher Russischer Staatsrat\" (1878 oder 1891) geehrt." .
+
+<W/30472hasW10>
+	rdfs:label "Ein Fall von Verbrennung der Paukenhöhle durch unvorsichtigen Gebrauch von Riechspiritus, nebst anschliessenden Bemerkungen über die locale Behandlung der geschlossenen Paukenhöhle vermittelst des Paukenhöhlen Katheters. St. Petersburger medicinische Zeitschrift. N.F. 1 (1871), 98 S." ;
+	a drw-model:W .
+
+<W/30472hasW8>
+	rdfs:label "Bemerkenswerte Fälle von Fremdkörpern im Ohr. Monatsschrift für Ohrenheilkunde sowie für Nasen-, Rachen-, Kehlkopf- und Luftröhrenkrankheiten 3 (1869), 165-170." ;
+	a drw-model:W .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<SL/30472hasSL1>
+	a drw-model:SL ;
+	rdfs:label "EAD Dokument-Id: [81317/82567 und 1061345 (15.9.2010)]." .
+
+<WL/30472hasWL6>
+	rdfs:label "        Autor von 30 wissenschaftlichen Publikationen in russischer, deutscher und französischer Sprache (Auswahl vgl. <b>W</b>)." ;
+	a drw-model:WL .
+
+<RelatedPerson/30472wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "1. Eugenie, geb. Ehrenberg († 1875)<br>        2. Alice (Andreevna), geb. Plincke" .
+
+<Place/Abas_Tuman>
+	a drw-model:Place ;
+	rdfs:label "Abas Tuman" .
+
+<SL/30472hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Kiselev, A. S.: Iz istorii otečestvennoj mediciny. Pervaja otiatričeskaja dissertacija Rossii. Novosti otolaringologii i logopatologii (2000) Nr. 2, 96-102. Online Ressource Online Ressource (27.3.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://scholar.google.com/scholar_host?q=info:2GjsJu5o8WIJ:scholar.google.com/&output=viewport&pg=91#P1,M1" .
+
+<W/30472hasW12>
+	rdfs:label "O medicinskom duplex-induktore. Sankt-Peterbrug 1887, 12 S." ;
+	a drw-model:W .
+
+<P/30472hasP1>
+	rdfs:label "Portrait von 1873 aus: Vavilova (<b>SL</b>). Abgedruckt in: Fischer 2010, 277; auch in: Kiselev (<b>SL</b>), 99." ;
+	a drw-model:P .
+
+<W/30472hasW2>
+	a drw-model:W ;
+	rdfs:label "Katarral'noe vospalenie srednjago ucha i operacija isskustvennago probodenija barabana. Dissertation. Sankt-Peterburg 1863, 112 S." .
+
+<WL/30472hasWL1>
+	rdfs:label "Verfasser der ersten Dissertation zur Ohrenheilkunde in Russland, Gründer der ersten Spezialabteilung für Ohrenkrankheiten im Leibgarderegiment zu Pferde, Initiator der 1866-1893 bestehenden Privatdozentur für Otiatrie und für Rhinolaryngologie an der MCA.*)" ;
+	a drw-model:WL .
+
+<SL/30472hasSL5>
+	a drw-model:SL ;
+	rdfs:label "WBIS DBA: I 1395, 393; BaBA:I 410,449; RBA: R 107,105." .
+
+<RelatedPerson/30472hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Robert (Roman Romanovič) (1867-1934), Chirurg, Professor für Orthopädie, Gründer des ersten orthopädischen Instituts (1906), heute Rossijskij naučno-issledovatel'skij institut  travmatologii i ortopedii im. R. R. Vredena, in St. Petersburg, Begründer der operativen Orthopädie und Traumatologie in Russland" .
+
+<ImportantPerson/30472>
+	drw-model:motherIs <RelatedPerson/30472motherIs1> ;
+	drw-model:hasW <W/30472hasW3> ;
+	drw-model:hasW <W/30472hasW4> ;
+	drw-model:hasWL <WL/30472hasWL4> ;
+	drw-model:fatherIs <RelatedPerson/30472fatherIs1> ;
+	drw-model:hasW <W/30472hasW7> ;
+	drw-model:hasWL <WL/30472hasWL5> ;
+	drw-model:wasBornOn <Date/23_8_or_4_9_1837_oder_1839> ;
+	drw-model:hasP <P/30472hasP2> ;
+	drw-model:wasMarriedTo <RelatedPerson/30472wasMarriedTo1> ;
+	drw-model:hasW <W/30472hasW2> ;
+	drw-model:hasSL <SL/30472hasSL2> ;
+	drw-model:hasW <W/30472hasW12> ;
+	drw-model:hasP <P/30472hasP1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Facharzt_fr_Ohrenkrankheiten> ;
+	drw-model:hasW <W/30472hasW6> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasStationOfLife <B/30472hasStationOfLife1> ;
+	drw-model:hasW <W/30472hasW1> ;
+	drw-model:hasWL <WL/30472hasWL1> ;
+	drw-model:wasBornIn <Place/Riga> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30472.jpg> ;
+	drw-model:hasW <W/30472hasW8> ;
+	drw-model:hasMainName <MainName/30472hasMainName1> ;
+	drw-model:hasEducation <A/30472hasEducation1> ;
+	drw-model:hasSL <SL/30472hasSL1> ;
+	drw-model:hasSL <SL/30472hasSL4> ;
+	drw-model:hasWL <WL/30472hasWL2> ;
+	drw-model:diedOn <Date/23_8_or_4_9_1893> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <W/30472hasW11> ;
+	drw-model:hasSL <SL/30472hasSL3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Ehrenleibotiater> ;
+	drw-model:hasID "30472" ;
+	drw-model:hasMG <MG/30472hasMG1> ;
+	rdfs:label "Wreden, Friedrich Robert von" ;
+	drw-model:hasW <W/30472hasW5> ;
+	drw-model:hasSL <SL/30472hasSL5> ;
+	drw-model:hasWL <WL/30472hasWL3> ;
+	drw-model:hasWL <WL/30472hasWL6> ;
+	drw-model:hasDescendant <RelatedPerson/30472hasDescendant1> ;
+	drw-model:hasW <W/30472hasW9> ;
+	drw-model:hasW <W/30472hasW10> ;
+	drw-model:diedIn <Place/Abas_Tuman> .
+
+<W/30472hasW6>
+	rdfs:label "Die Myringomykosis aspergillina und ihre Bedeutung für das Gehörorgan. Ein Beitrag zur Lehre von den am lebenden Menschen vorkommenden Schimmelbildungen. St. Petersburger medicinische Zeitschrift 13 (1868), 53 S." ;
+	a drw-model:W .
+
+<Date/23_8_or_4_9_1837_oder_1839>
+	a drw-model:Date ;
+	rdfs:label "23.8./4.9.1837 oder 1839" .
+
+<SL/30472hasSL4>
+	rdfs:label "Vavilova, A. A.: Vredeny. Otec i syn. Vestnik MAPO (2006) Nr. 10 (58), 5. Online Ressource Online Ressource (27.3.2012)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.maps.spb.ru/publish/pdf/10_06.pdf" .
+
+<RelatedPerson/30472motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Amalie Maria Elisabeth, geb. Kölbel († 1896)" .
+
+<MainName/30472hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Wreden, Friedrich Robert von" .
+
+<W/30472hasW11>
+	rdfs:label "Zwei demonstrative Vorträge über elektrische Reizung des Gehörorganes, im Auszuge mitgetheilt. Archiv für die gesamte Physiologie des Menschen und der Tiere 6 (1872), 574-588." ;
+	a drw-model:W .
+
+<GeneralLabor/Facharzt_fr_Ohrenkrankheiten>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Facharzt für Ohrenkrankheiten" .
+
+<WL/30472hasWL5>
+	rdfs:label "        1890-1893 Redaktionsmitglied von <i>Voenno-medicinskij žurnal</i>." ;
+	a drw-model:WL .
+
+<W/30472hasW5>
+	rdfs:label "Sphyrotomie. Ein neues Verfahren gegen gewisse Fälle von Taubheit und Ohrensausen. Monatsschrift für Ohrenheilkunde sowie für Nasen-, Rachen-, Kehlkopf- und Luftröhrenkrankheiten 1 (1867), 22-24." ;
+	a drw-model:W .
+
+<SL/30472hasSL2>
+	rdfs:label "Jazykov, Dmitrij Dmitrievič: Obzor žizni i trudov russkich pisatelej i pisatel'nic. Bd. 13. Petrograd 1916 (Sbornik Otdelenija russkogo jazyka i slovesnosti Imperatorskoj Akademii nauk 95,3), 46-47." ;
+	a drw-model:SL .
+
+<MG/30472hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Verein St. Petersburger Ärzte (ab 1859), Obščestvo russkich vračej v pamjat' N. I. Pirogova [Pirogov-Gesellschaft russischer Ärzte in St. Petersburg] (Mitgründer), Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee] (ab 1891)." .
+
+<W/30472hasW9>
+	rdfs:label "Zur Casuistik der angeborenen Missbildungen des Ohres. Monatsschrift für Ohrenheilkunde sowie für Nasen-, Rachen-, Kehlkopf- und Luftröhrenkrankheiten 4 (1870), 21-29." ;
+	a drw-model:W .
+
+<Place/Riga>
+	a drw-model:Place ;
+	rdfs:label "Riga" .
+
+<W/30472hasW3>
+	rdfs:label "Gnojnyj katarr srednego ucha = Otitis interna. Sankt-Peterburg 1864, 92 S." ;
+	a drw-model:W .
+
+<A/30472hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch des Larin-Gymnasiums*), danach bis 1859 Studium und 1863 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg.
+*) Benannt nach dem St. Petersburger Kaufmann und Mäzen Peter Danilovič Larin (1735-1778)." .
+
+<W/30472hasW1>
+	rdfs:label "Über die quantitative Bestimmung der Hippursäure vermittelst der Titrirmethode. Mélanges physiques et chimiques tirés du Bulletin physico-mathématique de l'Académie impériale des sciences de St.-Pétersbourg. Bd. 1,3 (1859), 615-628." ;
+	a drw-model:W .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<WL/30472hasWL2>
+	rdfs:label "*) Wredens Empfehlungsschreiben wurde am 12.2.1866 vom Gelehrtenkomitee der MCA befürwortet und vom Kriegsminister Dmitrij Alekseev Miljutin (1816-1912) bestätigt. Nach zwei Probevorlesungen wurde Wreden jedoch nicht zum Privatdozenten bestimmt. Die Privatdozentur erhielt Vasilij Timofeevič Pokrovskij (1838-1877) nach seiner Rückkehr vom Studienaufenthalt im westeuropäischen Ausland. Vgl. Kiselev und Vavilova (<b>SL</b>)." ;
+	a drw-model:WL .
+
+<W/30472hasW7>
+	a drw-model:W ;
+	rdfs:label "Die Otitis media neonatorum vom anatomisch-pathologischen Standpunkte. Eine auf Grund der Sectionsergebnisse von 80 Kinderleichen entworfenen Schilderung. Monatsschrift für Ohrenheilkunde sowie für Nasen-, Rachen-, Kehlkopf- und Luftröhrenkrankheiten 2 (1868), 97-107, 113-121, 129-137, 149-155; 3 (1869), 133-141; Separatdruck: Berlin 1868, 66 S." .
+
+<WL/30472hasWL4>
+	rdfs:label "*) Vgl. G. Jobba, T. Sándor: Über die gerichtlich-medizinische Bewertung der Wreden-Wendtschen Paukenhöhlenprobe. Zeitschrift für Rechtsmedizin 69 (1971), 173-176." ;
+	a drw-model:WL .
+
+<Date/23_8_or_4_9_1893>
+	rdfs:label "23.8./4.9.1893" ;
+	a drw-model:Date .
+
+<RelatedPerson/30472fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Robert (Vasil'evič ?) (1811-1882), Lehrer an einem Kadettenkorps" .
+
+<P/30472hasP2>
+	a drw-model:P ;
+	rdfs:label "Portrait von 1893 in: Kiselev (<b>SL</b>), 100." .
+
+<WL/30472hasWL3>
+	rdfs:label "        Nach ihm ist benannt: <i>Wreden-Symptom</i> (gallertartiges Gerinnsel im äußeren Gehörgang des Fötus als Ursache einer Totgeburt), <i>Wreden-Wendtsche Paukenhöhlenprobe</i> (Ohrenprobe in der Gerichtsmedizin).*" ;
+	a drw-model:WL .
+
+<W/30472hasW4>
+	rdfs:label "Sechs Fälle von Myringomykosis (Aspergillus glaucus Lk.). Archiv für Ohrenheilkunde 3 (1867), 1-21." ;
+	a drw-model:W .
+

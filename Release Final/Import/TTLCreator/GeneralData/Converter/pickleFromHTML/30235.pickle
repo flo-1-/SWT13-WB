@@ -1,0 +1,104 @@
+(dp0
+VA
+p1
+V1866-1870 Besuch der Annenschule und 1870(?)-1876 Studium der Medizin an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg, 1888 Dr. med.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u042dKK, \u0412\u043ba\u0434\u0438\u043c\u0438\u0440 \u0412\u043ba\u0434\u0438\u043c\u0438\u0440o\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+V\u0116KK, Vladimir Vladimirovi\u010d
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+V1877-1878 Arzt in der Donauarmee, danach vermutlich praktischer Arzt, 1883 Studienaufenthalt an der Universität Paris bei Jean-Martin CHARCOT (1825-1893), ab 1886 Leibarzt des Großfürsten MICHAIL NIKOLAEVI\u010c (1832-1909) und dessen Gemahlin, der Großfürstin OL'GA F\u0401DOROVNA, geb. Prinzessin CÄCILIE AUGUSTE VON BADEN (1839-1891), zugleich Arzt in eigener Privatpraxis.\u000aErhielt 1888 den Ehrentitel "Hofrat".
+p14
+sVName
+p15
+(dp16
+S'Vornamen'
+p17
+VWoldemar
+p18
+sS'Nachname'
+p19
+VEck
+p20
+ssVQuelle
+p21
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 73.</i>
+p22
+sVNamensvariationen
+p23
+(lp24
+(dp25
+g6
+VEECK
+p26
+sS'countyCode'
+p27
+g12
+sasVM
+p28
+VAlexandra (Fëdorovna), geb. Zdekauer (1824-1870), Schwester von Nicolaus Theodor von #internNameLink#30473#endNameNr#ZDEKAUER#/internNameLink#
+p29
+sVID
+p30
+V30235
+p31
+sVGeburtsdaten
+p32
+(dp33
+S'Datum'
+p34
+V1854
+p35
+ssVSterbedaten
+p36
+(dp37
+S'Ort'
+p38
+VSt. Petersburg
+p39
+sg34
+V1.4.1888
+p40
+ssVV
+p41
+VWoldemar Herman(n) (Vladimir Egorovi\u010d) (1818-1875), Arzt, Prof. für spezielle Pathologie und Therapie
+p42
+sVSL
+p43
+(dp44
+S'general'
+p45
+(lp46
+VBöhm 1998, 46.
+p47
+aVBöhm 2003, 447.
+p48
+aVEAD: Dokument-Id [59701/93963 (27.7.2010)].
+p49
+aVWBIS RBA: R 521, 122.
+p50
+assVBerufe
+p51
+(lp52
+VPraktischer Arzt
+p53
+aVLeibarzt
+p54
+as.

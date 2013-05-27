@@ -1,0 +1,484 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<A/30734hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Dozent für Anatomie und Verbandslehre an der MCSE, zugleich Operateur am Militärhospital" ;
+	drw-model:began <Year/1791> ;
+	drw-model:ended <Year/1795> .
+
+<B/30734hasStationOfLife5>
+	drw-model:began <Year/1802> ;
+	drw-model:ended <Year/1808> ;
+	rdfs:label "zugleich Dozent an der Slawisch-Griechisch-Lateinischen Akademie und an der Geistlichen Akademie in Moskau" ;
+	a drw-model:B .
+
+<Year/1816>
+	rdfs:label "1816" ;
+	a drw-model:Year .
+
+<Year/1820>
+	rdfs:label "1820" ;
+	a drw-model:Year .
+
+<SL/30734hasSL4>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	rdfs:label "WBIS RBA & BASU: Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (Online Ressource, 16.1.2013): R 320, 420-441; SU 316, 169." .
+
+<WL/30734hasWL7>
+	rdfs:label "1830 Einführung der Bleichmittelanwendung zur Vorbeugung gegen Cholera-Infektion" ;
+	a drw-model:WL .
+
+<Year/1804>
+	a drw-model:Year ;
+	rdfs:label "1804" .
+
+<W/30734hasW1>
+	rdfs:label "De stimulis corpus humanum vivum afficientibus. Göttingen 1804." ;
+	a drw-model:W .
+
+<P/30734hasP1>
+	a drw-model:P ;
+	rdfs:label "Aleksandr Aleksandrovič Florov (Frolov) (1788-1830): Efrem Osipovič Muchin (Abb.). Gravur [ohne Jahresangabe]. Aus: Volkov/Kulikova 2003 a (<b>SL</b>), 164; Ausschnitt in: <b>SL</b> Strašun 1940 und Volkov/Kulikova 2003 b, Bildeinlage zw. S. 368-369." .
+
+<WL/30734hasWL1>
+	rdfs:label "Organisator des ersten Anatomischen Theaters am Militärhospital in Elizavetgrad, Initiator des Wiederaufbaus des Anatomischen Theaters an der MCAM und Mitgründer des Anatomischen Theaters an der Universität Moskau" ;
+	a drw-model:WL .
+
+<WL/30734hasWL5>
+	rdfs:label "1801 Initiator und Befürworter der Pockenimpfung in Russland" ;
+	a drw-model:WL .
+
+<A/30734hasEducation4>
+	a drw-model:A ;
+	drw-model:ended <Year/1791> ;
+	drw-model:began <Year/1789> ;
+	rdfs:label "Unterarzt und Prosektor der anatomischen Abteilung am Militärhospital in Elizavetgrad" .
+
+<Comment/30734_6>
+	a drw-model:Comment ;
+	rdfs:label "<b>SL</b> Volkov/Kulikova 2003 a, b, Moskovskij universitet, zit. n. WBIS RBA (<b>SL</b>)" .
+
+<B/30734hasStationOfLife4>
+	drw-model:ended <Year/1814> ;
+	rdfs:label "Wissenschaftlicher Sekretär der MCAM" ;
+	a drw-model:B ;
+	drw-model:began <Year/1812> .
+
+<Year/1817>
+	rdfs:label "1817" ;
+	a drw-model:Year .
+
+<Year/1789>
+	rdfs:label "1789" ;
+	a drw-model:Year .
+
+<SL/30734hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Kvasov, D. G.: Fiziologičeskie idei E. O. Muchina. Fiziologičeskij žurnal SSSR imeni I. M. Sečenova 40 (1954) 1, 115-127." .
+
+<SL/30734hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Strašun, Il’ja D. (Hauptred.): 175 let Moskovskogo Gosudarstvennogo Medicinskogo Instituta. Moskva, Leningrad 1940, 436 S., 66-68." .
+
+<OtherOffices/30734hasOtherOffices4>
+	a drw-model:OtherOffices ;
+	rdfs:label "Mitglied in Ausschüssen, Komitees und Schlichtungskommissionen der Universität Moskau u. a." .
+
+<WL/30734hasWL6>
+	rdfs:label "1815 Präpariermethode an gefrorenen Leichen" ;
+	a drw-model:WL .
+
+<Year/1795>
+	rdfs:label "1795" ;
+	a drw-model:Year .
+
+<Year/1781>
+	rdfs:label "1781" ;
+	a drw-model:Year .
+
+<NameVariation/30734hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Muchin, Efrem [Ritter]"@de .
+
+<W/30734hasW3>
+	a drw-model:W ;
+	rdfs:label "Kurs anatomii dlja vospitannikov, obučajuščichsja mediko-chirurgičeskoj nauke. 7 častej [1813-1815]. Moskva 1815; 2. Aufl. Moskva 1818." .
+
+<B/30734hasStationOfLife7>
+	drw-model:ended <Year/1835> ;
+	a drw-model:B ;
+	drw-model:began <Year/1813> ;
+	rdfs:label "o. Professor am Lehrstuhl für Anatomie, Physiologie und Gerichtsmedizin an der Universität Moskau" .
+
+<A/30734hasEducation7>
+	a drw-model:A ;
+	drw-model:ended <Year/1800> ;
+	rdfs:label "Adjunkt-Professor für Pathologie und Therapie und Prosektor (1796) an der Mediko-Chirurgischen Schule (MCSM) und am Militärhospital Moskau" ;
+	drw-model:began <Year/1795> .
+
+<Place/Rittergut_bei_uguev_Gouv_Belgo>
+	a drw-model:Place ;
+	rdfs:label "Rittergut bei Čuguev, Gouv. Belgorod (später: Char’kov)" .
+
+<Year/1814>
+	rdfs:label "1814" ;
+	a drw-model:Year .
+
+<OtherOffices/30734hasOtherOffices5>
+	a drw-model:OtherOffices .
+
+<SL/30734hasSL3>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 34-35, 122." ;
+	a drw-model:SL .
+
+<Comment/30734_4>
+	rdfs:label "Die Dissertation wurde 1804 in Göttingen gedruckt (vgl. <b>W</b>). Über die Vergabe des Doktordiploms der Universität Göttingen gibt es im Universitätsarchiv in den Promotionskarteien der Medizinischen Fakultät jedoch keinerlei Unterlagen (Schriftliche Mitteilung vom 16.6.2011)." ;
+	a drw-model:Comment .
+
+<MG/30734hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Société galvanique de Paris (1804), Gesellschaft von Freunden der Entbindungswissenschaft zu Göttingen (1805), Moskovskoe fiziko-medicinskoe obščestvo [Physikalisch-medizinische Gesellschaft zu Moskau] (1805), S.-Peterburgskoe Mediko-filantropičeskoe obščestvo [Mediko-philanthropische Gesellschaft zu St. Petersburg] (1806), Moskovskoe obščestvo ispytatelej prirody [Gesellschaft der Naturforscher zu Moskau] (1807), Komitet Imperatorskago čelovekoljubivago obščestva [Komitee der Kaiserlichen Philanthropischen Gesellschaft] (1817)" .
+
+<Year/1826>
+	drw-model:hasComment <Comment/30734_6> ;
+	rdfs:label "1826" ;
+	a drw-model:Year .
+
+<WL/30734hasWL4>
+	rdfs:label "Vorlesungen zur Anatomie in 7 Teilen" ;
+	a drw-model:WL .
+
+<Comment/30734_5>
+	a drw-model:Comment ;
+	rdfs:label "Pfrepper 2009, 34." .
+
+<B/30734hasStationOfLife6>
+	drw-model:ended <Year/1817> ;
+	rdfs:label "Oberarzt am Erziehungshaus und Chefarzt der Krankenabteilung an der Handelsschule in Moskau" ;
+	a drw-model:B ;
+	drw-model:began <Year/1813> .
+
+<NameVariation/30734hasNameVariation2>
+	rdfs:label "Muchin, Ephremus de [Ritter]"@de ;
+	a drw-model:NameVariation .
+
+<Year/1815>
+	rdfs:label "1815" ;
+	a drw-model:Year .
+
+<Date/28_11_or_8_2_1766>
+	a drw-model:Date ;
+	rdfs:label "28.[1]1./8.2.1766" ;
+	drw-model:hasComment <Comment/30734_1> .
+
+<A/30734hasEducation6>
+	a drw-model:A ;
+	drw-model:inYear <Year/1795> ;
+	rdfs:label "Weiterbildung in medizinisch-physiologischen Wissenschaften an der Universität Moskau" .
+
+<W/30734hasW4>
+	rdfs:label "Redakteur mehrerer Übersetzungen aus dem Deutschen ins Russische, darunter:" ;
+	a drw-model:W .
+
+<GeneralLabor/Physiologie_und_Gerichtsmedizi>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologie und Gerichtsmedizin" .
+
+<Year/1809>
+	rdfs:label "1809" ;
+	a drw-model:Year .
+
+<OtherOffices/30734hasOtherOffices2>
+	a drw-model:OtherOffices ;
+	rdfs:label "ab 1825 Leiter der Universitätsapotheke" .
+
+<B/30734hasStationOfLife1>
+	rdfs:label "Chefarzt am Öffentlichen Golicyn-Krankenhaus in Moskau" ;
+	drw-model:began <Year/1800> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1810> .
+
+<A/30734hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch des Kollegiums in Char’kov[3]" ;
+	drw-model:began <Year/1781> ;
+	drw-model:ended <Year/1787> ;
+	drw-model:hasComment <Comment/30734_3> .
+
+<Comment/30734_2>
+	a drw-model:Comment ;
+	rdfs:label "WBIS RBA (<b>SL</b>): R 320, 408; RS 44, 311-314." .
+
+<A/30734hasEducation9>
+	a drw-model:A ;
+	rdfs:label "Doktordiplom der Universität Göttingen (?)[4]" ;
+	drw-model:inYear <Year/1804> ;
+	drw-model:hasComment <Comment/30734_4> .
+
+<Year/1800>
+	rdfs:label "1800" ;
+	a drw-model:Year .
+
+<B/30734hasStationOfLife10>
+	rdfs:label "praktischer Arzt in Moskau" ;
+	a drw-model:B ;
+	drw-model:began <Year/1835> .
+
+<B/30734hasStationOfLife9>
+	drw-model:began <Year/1820> ;
+	drw-model:ended <Year/1826> ;
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Moskau" ;
+	drw-model:began <Year/1821> ;
+	drw-model:ended <Year/1824> ;
+	a drw-model:B .
+
+<W/30734hasW5>
+	rdfs:label "[Christian Friedrich Ludwig Wildberg: Handbuch der Diaetetik für Menschen im gesunden Zustande. Leipzig 1828, 354 S.] Christian Fridrich Vil’dberg: Dietetika, ili nauka o sochranenii i prodolženii zdravija i žizni. Moskva 1833, 460 S.; 2. Aufl.: Moskva 1853." ;
+	a drw-model:W .
+
+<Year/1812>
+	rdfs:label "1812" ;
+	a drw-model:Year .
+
+<OtherOffices/30734hasOtherOffices3>
+	a drw-model:OtherOffices ;
+	rdfs:label "1830 Inspektor eines Cholera-Krankenhauses in Moskau" .
+
+<Year/1808>
+	rdfs:label "1808" ;
+	a drw-model:Year .
+
+<Year/1824>
+	rdfs:label "1824" ;
+	drw-model:hasComment <Comment/30734_5> ;
+	a drw-model:Year .
+
+<Comment/30734_3>
+	rdfs:label "Volkov/Kulikova 2003 a, b (<b>SL</b>). Quellen in WBIS RBA (<b>SL</b>) geben als Zeitraum auf dem Kollegium 1786-1787 (8 Monate) an." ;
+	a drw-model:Comment .
+
+<HonoursAndAwards/30734hasHonoursAndAwards1>
+	rdfs:label "1803 „Kollegienassessor“<br>1804 „Hofrat“<br>1807 St.-Vladimir-Orden 4. Klasse<br>1816 „Kollegienrat“<br>1817 „Staatsrat“ und Ehrenmitglied der Char’kover Universität<br>1824 St.-Annen-Orden 2. Klasse<br>1826 „Wirklicher Russischer Staatsrat“<br>1831 St.-Annen-Oden mit Kaiserlicher Krone<br>1835 St.-Vladimir-Orden 3. Klasse<br>1835 „Verdienter Professor“ der Universität Moskau" ;
+	a drw-model:HonoursAndAwards .
+
+<RelatedPerson/30734fatherIs1>
+	rdfs:label "Osip, Adliger" ;
+	a drw-model:RelatedPerson .
+
+<A/30734hasEducation8>
+	a drw-model:A ;
+	rdfs:label "Dissertation zum Dr. med. am Medizinalkontor in Moskau" ;
+	drw-model:inYear <Year/1800> .
+
+<B/30734hasStationOfLife11>
+	rdfs:label "lebte auf seinem Anwesen nahe Smolensk" ;
+	a drw-model:B .
+
+<Place/nahe_Smolensk>
+	a drw-model:Place ;
+	rdfs:label "nahe Smolensk" .
+
+<B/30734hasStationOfLife8>
+	rdfs:label "Dekan der Medizinischen Fakultät der Universität Moskau" ;
+	drw-model:ended <Year/1817> ;
+	drw-model:began <Year/1816> ;
+	a drw-model:B .
+
+<Year/1813>
+	a drw-model:Year ;
+	rdfs:label "1813" .
+
+<SL/30734hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Bukin, Ju. V.: Russkij anatom E. O. Muchin. Archiv anatomii, gistologii i ėmbriologii 30 (1953) 4, 83-89." .
+
+<Year/1791>
+	rdfs:label "1791" ;
+	a drw-model:Year .
+
+<Date/Januar_1850>
+	a drw-model:Date ;
+	rdfs:label "Januar 1850" .
+
+<WL/30734hasWL2>
+	rdfs:label "Wegbereiter der anatomisch-physiologischen Grundlegung der Medizin in Russland" ;
+	a drw-model:WL .
+
+<GPV/30734hasGPV1>
+	rdfs:label "Publikationen 1795-1834, in: Zmeev, Lev Fedorovič: Russkie vrači pisateli. Tom 1-5. Sankt-Peterburg 1886-1889, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<B/30734hasStationOfLife3>
+	drw-model:began <Year/1809> ;
+	rdfs:label "Professor für Anatomie und Physiologie an der Mediko-Chirurgischen Akademie Moskau (MCAM)" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1815> .
+
+<GeneralLabor/Professor_fr_Anatomie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Anatomie" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<RelatedPerson/30734hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Aleksandr Efremovič (1805-1861), Stabskapitän, Schriftsteller[2]" ;
+	drw-model:hasComment <Comment/30734_2> .
+
+<ImportantPerson/30734>
+	drw-model:hasEducation <A/30734hasEducation2> ;
+	rdfs:label "Muchin, Efrem Osipovič (Kavaler)" ;
+	drw-model:hasW <W/30734hasW4> ;
+	drw-model:hasOtherOffices <OtherOffices/30734hasOtherOffices4> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife9> ;
+	drw-model:hasSL <SL/30734hasSL4> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife7> ;
+	drw-model:hasComment <Comment/30734_6> ;
+	drw-model:hasEducation <A/30734hasEducation7> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife10> ;
+	drw-model:hasOtherOffices <OtherOffices/30734hasOtherOffices3> ;
+	drw-model:hasEducation <A/30734hasEducation9> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30734hasHonoursAndAwards1> ;
+	drw-model:hasSL <SL/30734hasSL6> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife2> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30734.jpg> ;
+	drw-model:hasW <W/30734hasW3> ;
+	drw-model:hasW <W/30734hasW5> ;
+	drw-model:hasWL <WL/30734hasWL4> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife1> ;
+	drw-model:hasGPV <GPV/30734hasGPV1> ;
+	drw-model:fatherIs <RelatedPerson/30734fatherIs1> ;
+	drw-model:diedOn <Date/Januar_1850> ;
+	drw-model:hasComment <Comment/30734_5> ;
+	drw-model:hasHonoursAndAwardsComment <HonoursAndAwardsComment/30734hasHonoursAndAwardsComment1> ;
+	drw-model:hasW <W/30734hasW1> ;
+	drw-model:hasP <P/30734hasP1> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife8> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife5> ;
+	drw-model:hasSL <SL/30734hasSL3> ;
+	drw-model:hasComment <Comment/30734_1> ;
+	drw-model:hasWL <WL/30734hasWL3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Physiologie_und_Gerichtsmedizi> ;
+	drw-model:hasComment <Comment/30734_4> ;
+	drw-model:hasSL <SL/30734hasSL7> ;
+	drw-model:wasBornOn <Date/28_11_or_8_2_1766> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife6> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife12> ;
+	drw-model:diedIn <Place/nahe_Smolensk> ;
+	drw-model:hasEducation <A/30734hasEducation3> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife4> ;
+	drw-model:hasSL <SL/30734hasSL5> ;
+	drw-model:hasID "30734" ;
+	drw-model:hasGPV <GPV/30734hasGPV2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Anatomie> ;
+	drw-model:hasSL <SL/30734hasSL2> ;
+	drw-model:hasComment <Comment/30734_3> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <A/30734hasEducation4> ;
+	drw-model:hasWL <WL/30734hasWL2> ;
+	drw-model:hasEducation <A/30734hasEducation6> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife3> ;
+	drw-model:hasMG <MG/30734hasMG1> ;
+	drw-model:hasOtherOffices <OtherOffices/30734hasOtherOffices1> ;
+	drw-model:hasWL <WL/30734hasWL1> ;
+	drw-model:wasBornIn <Place/Rittergut_bei_uguev_Gouv_Belgo> ;
+	drw-model:hasEducation <A/30734hasEducation5> ;
+	drw-model:hasMainName <MainName/30734hasMainName1> ;
+	drw-model:hasOtherOffices <OtherOffices/30734hasOtherOffices5> ;
+	drw-model:hasOtherOffices <OtherOffices/30734hasOtherOffices2> ;
+	drw-model:hasWL <WL/30734hasWL5> ;
+	drw-model:hasStationOfLife <B/30734hasStationOfLife11> ;
+	drw-model:hasComment <Comment/30734_2> ;
+	drw-model:hasDescendant <RelatedPerson/30734hasDescendant1> ;
+	drw-model:hasEducation <A/30734hasEducation1> ;
+	drw-model:hasEducation <A/30734hasEducation8> ;
+	drw-model:hasWL <WL/30734hasWL6> ;
+	drw-model:hasW <W/30734hasW2> ;
+	drw-model:hasSL <SL/30734hasSL1> ;
+	drw-model:hasWL <WL/30734hasWL7> .
+
+<A/30734hasEducation3>
+	a drw-model:A ;
+	drw-model:inYear <Year/1789> ;
+	drw-model:inYear <Year/1787> ;
+	rdfs:label "Krankenpfleger im Hauptquartier des Generalfeldmarschalls Grigorij Aleksandrovič <span style='font-variant:small-caps;'>Potemkin</span> (1739-1791) während des Türkenkriegs" .
+
+<B/30734hasStationOfLife12>
+	a drw-model:B .
+
+<Year/1802>
+	rdfs:label "1802" ;
+	a drw-model:Year .
+
+<SL/30734hasSL6>
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 316-317." ;
+	a drw-model:SL .
+
+<Year/1810>
+	rdfs:label "1810" ;
+	a drw-model:Year .
+
+<OtherOffices/30734hasOtherOffices1>
+	rdfs:label "1816 Mitglied der Medizinalabteilung beim Ministerium für Volksaufklärung" ;
+	a drw-model:OtherOffices .
+
+<GPV/30734hasGPV2>
+	a drw-model:GPV ;
+	rdfs:label "Publikationen 1804-1834 (22 Nrn.), in: Moskovskij universitet - Biografičeskij slovar’ professorov i prepodavatelej Imperatorskago Moskovskago universiteta za istekajusčee stoletie [...]. Čast’ 1-2. Moskva 1855., zit. n. WBIS RBA" .
+
+<HonoursAndAwardsComment/30734hasHonoursAndAwardsComment1>
+	rdfs:label "Ehrungen und Auszeichnungen (Auswahl):" ;
+	a drw-model:HonoursAndAwardsComment .
+
+<WL/30734hasWL3>
+	rdfs:label "Grundlegung der Traumatologie in Russland" ;
+	a drw-model:WL .
+
+<A/30734hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Studium an der Mediko-Chirurgischen Schule (MCSE) des Militärhospitals in Elizavetgrad, Abschluß „Arzt“" ;
+	drw-model:ended <Year/1791> ;
+	drw-model:began <Year/1787> .
+
+<Comment/30734_1>
+	rdfs:label "In Estestvoznanie - Biografičeskij slovar’ dejatelej estestvoznanija i techniki. Otvetstvennyj redaktor A. A. Zvorykin. Tom 1-2. Moskva 1958-1959, zit. n. WBIS RBA (<b>SL</b>), ist 26. angegeben. Vermutlich Druckfehler." ;
+	a drw-model:Comment .
+
+<B/30734hasStationOfLife2>
+	drw-model:began <Year/1800> ;
+	rdfs:label "Professor für Anatomie und Physiologie an der Mediko-Chirurgischen Akademie Moskau (MCAM)" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1804> .
+
+<Year/1787>
+	rdfs:label "1787" ;
+	a drw-model:Year .
+
+<Year/1821>
+	rdfs:label "1821" ;
+	a drw-model:Year .
+
+<SL/30734hasSL7>
+	rdfs:label "Volkov, Vladimir Akimovič, Kulikova, Marina Vladimirovna: Moskovskie professora XVIII - načala XX vekov. Estestvennye i techničeskie nauki. Moskva 2003, 163-164." ;
+	a drw-model:SL .
+
+<W/30734hasW2>
+	rdfs:label "Razgovor o pol’ze privivanija korov’ej ospy. Moskva 1804." ;
+	a drw-model:W .
+
+<MainName/30734hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Muchin, Efrem Osipovič (Kavaler)" ;
+	drw-model:hasNameVariation <NameVariation/30734hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30734hasNameVariation2> .
+
+<Year/1835>
+	a drw-model:Year ;
+	rdfs:label "1835" .
+

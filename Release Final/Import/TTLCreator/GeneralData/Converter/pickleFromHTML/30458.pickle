@@ -1,0 +1,163 @@
+(dp0
+VA
+p1
+VBis 1784 [nicht 1782] Schulbesuch in Einbeck [nicht in Riga], 1784-1788 Studium der Medizin bei August Gottlob RICHTER (1742-1812), Johan Andreas MURRAY (1740-1791), Heinrich August WRISBERG (1739-1808), Johann Friedrich GMELIN (1748-1804), Johann Friedrich BLUMENBACH (1752-1840), Johann Heinrich FISCHER (1759-1814) und 1788 Dr. med. an der Universität Göttingen.
+p2
+sVB
+p3
+VAb 1785, bereits als Student, zeitweise Gehilfe des Vaters in Riga, 1788-1797 Kreisarzt in Riga, danach praktischer Arzt in St. Petersburg, 1806-1807 Divisionsarzt des Ingenieurcorps, u.a. während der Schlacht bei Preußisch-Eylau, 1808-1826 Leibarzt der Zarin ELIZAVETA ALEKSEEVNA, geb. Prinzessin LUISE VON BADEN (1779-1826), zugleich ab 1811 Mitglied des Medizinalrats des Polizeiministeriums, 1827 vom Amt entbunden und nach Reval beurlaubt, 1833 (oder 1834) pensioniert, lebte danach abwechselnd in Mannheim und in Dresden.\u000a        Inhaber hoher russischer Ehrentitel und Auszeichnungen: 1807 "Kollegienrat", 1808 "Staatsrat", 1817 "Wirklicher Russischer Staatsrat", 1826 "Geheimrat", 1831 Adelsdiplom, Ritter mehrerer Orden, darunter des St.-Vladimir-Ordens 2. (1825) und 3. Klasse.
+p4
+sVE
+p5
+V1. Anna Elisabeth, geb. Ebel (\u2020 1813)\u000a        2. Rosalie, geb. Bienenmann von Bienenstamm (1783-1812)\u000a        3. Alexandrine, geb. Bienenmann von Bienenstamm (1785-1830)
+p6
+sVName
+p7
+(dp8
+S'Vornamen'
+p9
+VKonrad Christian (von)
+p10
+sS'Nachname'
+p11
+VStoffregen
+p12
+ssVQuelle
+p13
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 237-241.</i>
+p14
+sVNamensvariationen
+p15
+(lp16
+(dp17
+S'name'
+p18
+VConrad
+p19
+sS'countyCode'
+p20
+S'de'
+p21
+sa(dp22
+g18
+VKondratij Kondrat'evi\u010d
+p23
+sg20
+g21
+sa(dp24
+g18
+VKo\u043d\u0434\u0440a\u0442\u0438\u0439 Ko\u043d\u0434\u0440a\u0442\u044ce\u0432\u0438\u0447
+p25
+sg20
+S'ru'
+p26
+sasVM
+p27
+VAnna Dorothea, geb. Bert (oder Beß oder Best [?])
+p28
+sVMG
+p29
+VDeutscher Ärztlicher Verein in St. Petersburg (1819 Mitbegründer), Mediko-filantropi\u010deskij komitet [Mediko-philanthropisches Komitee], Medizinisch-chirurgische Gesellschaft zu Berlin.
+p30
+sVN
+p31
+VErnst Konrad (Kondrat'evi\u010d) (1793-1813), Junker der Kavallerie\u000a        August Ferdinand (Kondrat'evi\u010d) (1795-1884), Generalkonsul in Amsterdam\u000a        Karl Raphael (Kondrat'evi\u010d) (1798-1844), Konsul in Le Havre\u000a        Alexander (Kondrat'evi\u010d) (1816-1842)\u000a        Konstantin Konrad (Kondratij Kondrat'evi\u010d) (1817-1873), Vizeadmiral, Chef des Rigaer Zollbezirkes\u000a        Rosalie (Rozalija Kondrat'evna) (* 1821)\u000a        Sophie (Sofija Kondrat'evna), verh. Hoffmann (1822-1850)
+p32
+sVQ
+p33
+(lp34
+VGeorg-August-Universität Göttingen, Universitätsarchiv: Bestand: Med. Prom. 1788: Promotionsantrag, Lebenslauf in lateinischer Sprache, abgedruckt in: Fischer 2010, 239-240. Schriftliche Mitteilung mit Zusendung der Scans am 9.6.2009.
+p35
+asVP
+p36
+(lp37
+VPortrait in Pastell. [Ohne weitere Angaben, früher im Privatbesitz von K. K. Stoffregen in St. Petersburg]. Aus: Russkie portrety (<b>SL</b>), 84, Bild-Nr. 154. Abgedruckt in: Fischer 2010, 237.
+p38
+aVGerhard Franz von Kügelgen (1772-1820): Konrad Stoffregen (1795-1798). Öl auf Leinwand. Estnisches Kunstmuseum im Ritterhaus zu Tallinn. Abb. aus: Anne Lõugas (Hg.): Deutschbaltische Porträtkunst in Estland 1750-1900. Tallinn, Helsinki 2003 [Privatexemplar Thomas Schmuck], 64 (mit Bildbeschreibung auf S. 109-110). Abgedruckt in: Fischer 2010, 241 (Tafel X).
+p39
+asVGeburtsdaten
+p40
+(dp41
+S'Ort'
+p42
+VEinbeck (Hannover)
+p43
+sS'Datum'
+p44
+V1766 oder 5.10. oder 5./16.12.1767
+p45
+ssVW
+p46
+(dp47
+S'letzteZeile'
+p48
+VDe haemoptysi ex hypochondriis. Diss. Göttingen 1788. Thesen, 2 Bl.
+p49
+sS'general'
+p50
+(lp51
+g49
+assVV
+p52
+VJohann Konrad (1742-1790), Arzt in Einbeck, Stadtphysikus in Riga
+p53
+sVID
+p54
+V30458
+p55
+sVPortraittext
+p56
+VPortrait in Pastell. [Ohne weitere Angaben, früher im Privatbesitz von K. K. Stoffregen in St. Petersburg]. Aus: Russkie portrety (SL), 84, Bild-Nr. 154. Abgedruckt in: Fischer 2010, 237.
+p57
+sVName russisch
+p58
+(lp59
+(dp60
+g18
+V\u0428TO\u0424\u0420E\u0413E\u041d, Ko\u043d\u0440a\u0434 Ko\u043d\u0440a\u0434o\u0432\u0438\u0447
+p61
+sS'countryCode'
+p62
+g26
+sa(dp63
+g18
+V\u0160TOFREGEN, Konrad Konradovi\u010d (fon)
+p64
+sg62
+g21
+sasVportraitURL
+p65
+V30458.jpg
+p66
+sVSterbedaten
+p67
+(dp68
+g42
+VDresden
+p69
+sg44
+V23.5./4.6.1841
+p70
+ssVSL
+p71
+(dp72
+g50
+(lp73
+VEAD: Dokument-Id [79772/77904 (12.8.2010)].
+p74
+aVMolin, Jurij Aleksandrovi\u010d: Analiz versij smerti imperatricy Elisavety Alekseevny. http://www.arsii.ru/article.php?id=36 Online Ressource (12.3.2012).
+p75
+aVRusskie portrety XVIII i XIX vekov. Izd. Velikogo Knjazja Nikolaja Michajlovi\u010da Romanova. Bd. 4. Moskva 2000 [1908], 516-518 [Biographie russ. u. franz.].
+p76
+aVTröhler, Ulrich: Vom Medizinstudenten zum Doktor. Die Göttinger Medizinischen Promotionen im 18. Jahrhundert, Göttingen 1993, 190.
+p77
+aVWBIS DBA: I 1232, 405, 409; BaBA: I 353, 176-178; RBA: R 513, 289-291.
+p78
+assVBerufe
+p79
+(lp80
+VPraktischer Arzt
+p81
+aVLeibarzt
+p82
+as.

@@ -1,0 +1,166 @@
+(dp0
+VA
+p1
+V1798-1805 (oder 1808) Studium an der Universität Wilna, 1806 Mag. und 1806 (nicht 1809) Dr. med. et chir. an der Universität Dorpat.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u041b\u0418\u0411O\u0428\u0418\u0426, Oc\u0438\u043f \u042f\u043ao\u0432\u043be\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VLIBO\u0160IC, Osip Jakovlevi\u010d
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+VAnfangs praktischer Arzt zunächst in Wilna, danach in St. Petersburg, ab 1812 Hofarzt, ab 1822 Leibarzt des Zaren ALEKSANDR I. (1777-1825), Gründer eines Kinderkrankenhauses für Arme in St. Petersburg.
+p14
+sVName
+p15
+(dp16
+S'Vornamen'
+p17
+VJoseph
+p18
+sS'Nachname'
+p19
+VLiboschitz
+p20
+ssVQuelle
+p21
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 140-141.</i>
+p22
+sVNamensvariationen
+p23
+(lp24
+(dp25
+g6
+VLIBOSCHÜTZ
+p26
+sS'countyCode'
+p27
+g12
+sa(dp28
+g6
+VLIBOSZYC
+p29
+sg27
+g12
+sa(dp30
+g6
+VLIBO\u0160I\u010c
+p31
+sg27
+g12
+sa(dp32
+g6
+V\u041b\u0418\u0411O\u0428\u0418\u0427
+p33
+sg27
+g9
+sa(dp34
+g6
+VJózef
+p35
+sg27
+g12
+sa(dp36
+g6
+VIosif
+p37
+sg27
+g12
+sa(dp38
+g6
+V\u0418oc\u0438\u0444
+p39
+sg27
+g9
+sasVWL
+p40
+VVon ihm stammt die Erstbeschreibung von <i>Rehmannia chinensis Libosch</i>. [heute <i>R. glutinosa</i>], einer bedeutenden chinesischen Heilpflanze (Vgl. Joseph #internNameLink#30447#endNameNr#Rehmann#/internNameLink#), Abgedruckt in: Fischer 2010, 141.
+p41
+sVMG
+p42
+VS.-Peterburgskoe mineralogi\u010deskoe ob\u0161\u010destvo [St. Petersburger Mineralogische Gesellschaft], U\u010denyj komitet Filantropi\u010deskogo ob\u0161\u010destva [Gelehrtenkomitee der Philanthropischen Gesellschaft] (Korrespondent); Mitbegründer der Gesellschaft der Ärzte zu Wilna (?).
+p43
+sVID
+p44
+V30427
+p45
+sVGeburtsdaten
+p46
+(dp47
+S'Ort'
+p48
+VWilna (getaufter Jude)
+p49
+sS'Datum'
+p50
+V1783
+p51
+ssVSterbedaten
+p52
+(dp53
+g48
+VKarlsruhe in Baden (oder Wien oder Wilna oder 1832 in St. Petersburg)
+p54
+sg50
+V5.1.1824
+p55
+ssVW
+p56
+(dp57
+S'general'
+p58
+(lp59
+VDe morbis primi paris nervorum. Diss. Dorpat 1806, 51 S.
+p60
+aVFlore des environs de St.-Pétersbourg et de Moscou. Mit Carl Bernhard #internNameLink#30465#endNameNr#Trinius#/internNameLink#. St.-Petersbourg 1811, 121 S.
+p61
+aVFriedrich Tiedemann, Michael Oppel, Joseph Liboschütz (Hgg.): Naturgeschichte der Amphibien. 3 Hefte. Heidelberg 1817; Tafeln: München 1817.
+p62
+assVV
+p63
+VJacob (Jakob) (1736-1827 [oder * 1741, nicht \u2020 1824]), Praktischer Arzt, Generalstabsarzt der litauischen Armee
+p64
+sVGPV
+p65
+VPublikationen 1805-1818, in: RBS (<b>SL</b>).
+p66
+sVSL
+p67
+(dp68
+g58
+(lp69
+VBielinski, Josef: Stan nauk lekarskich za czasów Akademii medyko-chirurgicznej Wilenskiej bibliograficznie prezdstawiony. Warszawa 1888, 133.
+p70
+aVEAD: Dokument-Id [60982/59076 (4.8.2010)].
+p71
+aVPoggendorff. Bd. 1 (1863), 1450 und 1582.
+p72
+aVRBS. Bd. [9] (1914), 420; vgl. auch WBIS RBA: R 284, 38-39.
+p73
+aVWBIS DBA: I 761, 45-47; BaBA: I 204, 252; RBA: R 284, 37-41; PAB: I 300, 356-359; II 207, 79.
+p74
+assVBerufe
+p75
+(lp76
+VPraktischer Arzt
+p77
+aVKaiserlicher Leibarzt
+p78
+aVBotaniker
+p79
+as.

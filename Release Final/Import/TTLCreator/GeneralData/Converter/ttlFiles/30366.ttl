@@ -1,0 +1,471 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<MG/30366hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Mitglied der Kaiserlichen Akademie der Wissenschaften in St. Petersburg. Weiteres vgl. <b>SL</b>" .
+
+<SL/30366hasSL14>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SL .
+
+<SL/30366hasSL8>
+	rdfs:label "Koenigsberger, Leo: Hermann von Helmholtz. 3 Bde. Braunschweig 1902-1903." ;
+	a drw-model:SL .
+
+<B/30366hasStationOfLife10>
+	a drw-model:B ;
+	drw-model:inYear <Year/1862> ;
+	rdfs:label "Prorektor der Universität Heidelberg" .
+
+<SL/30366hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Poggendorff - Biographisch-literarisches Handwörterbuch zur Geschichte der exacten Naturwissenschaften, enthaltend Nachweisungen über Lebensverhältnisse und Leistungen von Mathematikern, Astronomen, Physikern, Chemikern, Mineralogen, Geologen usw. aller Völker und Zeiten. Gesammelt von J. C. Poggendorff, Mitglied der Akademie der Wissenschaften zu Berlin / J. C. Poggendorff - Biographisch-literarisches Handwörterbuch der exakten Naturwissenschaften. Bd. 1-8. Leipzig, Berlin 1863-2004. Bd. 1, Sp. 1059-1060; Bd. 3, 611-612; Bd. 4, 612-613; Bd. 5, 517; Bd. 6, 1076; Bd. 7a Suppl., 267-277." .
+
+<A/30366hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1838> ;
+	rdfs:label "Studium der Medizin am Medicinisch-Chirurgischen Friedrich-Wilhelm-Institut in Berlin" ;
+	drw-model:ended <Year/1842> .
+
+<HonoursAndAwardsComment/30366hasHonoursAndAwardsComment1>
+	rdfs:label "Ehrungen und Auszeichnungen (Auswahl):" ;
+	a drw-model:HonoursAndAwardsComment .
+
+<B/30366hasStationOfLife2>
+	drw-model:ended <Year/1848> ;
+	drw-model:began <Year/1843> ;
+	a drw-model:B ;
+	rdfs:label "Eskadronchirurg und Militärarzt in Potsdam" .
+
+<GeneralLabor/Professor_fr_Physik>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physik" .
+
+<RelatedPerson/30366wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "1. Olga, geb. von Velten (1827-1859)<br>2. Anna, geb. von Mohl (1834-1899), Salonnière" .
+
+<P/30366hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Van Rhyn 1874 (<b>SL</b>)." .
+
+<SL/30366hasSL15>
+	rdfs:label "Rechenberg 1994 – Rechenberg, Helmut: Hermann von Helmholtz. Bilder seines Lebens und Wirkens. Weinheim u. a. 1994, 335 S." ;
+	a drw-model:SL .
+
+<SL/30366hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Hoffmann, Dieter (Hg.): Hermann von Helmholtz (1821 bis 1894). Berliner Kolloquium zum 100. Todestag. Bremerhaven 1996 (PTB-Texte 5), 140 S." .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<Year/1847>
+	rdfs:label "1847" ;
+	a drw-model:Year .
+
+<A/30366hasEducation3>
+	a drw-model:A ;
+	drw-model:inYear <Year/1842> ;
+	rdfs:label "Medizinisches Examen (Juni) und Dr. med. (Nov.)" .
+
+<B/30366hasStationOfLife13>
+	drw-model:began <Year/1877> ;
+	drw-model:ended <Year/1878> ;
+	a drw-model:B ;
+	rdfs:label "Rektor der Universität Berlin" .
+
+<B/30366hasStationOfLife3>
+	drw-model:inYear <Year/1846> ;
+	rdfs:label "Militärarzt im königlichen Regiment" ;
+	a drw-model:B .
+
+<SL/30366hasSL25>
+	rdfs:label "Šojfet, M. S.: Sto velikich vračej. Moskva 2004, 273-281." ;
+	a drw-model:SL .
+
+<NameVariation/30366hasNameVariation1>
+	rdfs:label "Gel'mgol'c, German Ljudvig Ferdinand fon"@de ;
+	a drw-model:NameVariation ;
+	rdfs:label "Гельмгольц, Герман Людвиг Фердинанд фон"@ru .
+
+<Year/1878>
+	rdfs:label "1878" ;
+	a drw-model:Year .
+
+<Place/Potsdam>
+	a drw-model:Place ;
+	rdfs:label "Potsdam" .
+
+<Date/8_9_1894>
+	a drw-model:Date ;
+	rdfs:label "8.9.1894" .
+
+<Year/1838>
+	rdfs:label "1838" ;
+	a drw-model:Year .
+
+<SL/30366hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Hirsch, Gustav (Hg.): Biographisches Lexikon der hervorragenden Ärzte aller Zeiten und Völker. 2. Aufl. Bd. 2. Berlin, Wien 1930 Bd. 1 (1929), 515-516." .
+
+<RelatedPerson/30366fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "August Ferdinand Julius (1792-1859), Gymnasiallehrer" .
+
+<SL/30366hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Eckart 2006 – Eckart, Wolfgang U.: Helmholtz, Hermann Julius Ferdinand von. In: Eckart, Wolfgang U., Gradmann, Christoph: Ärzte Lexikon. Von der Antike bis zur Gegenwart. 3. Aufl. Heidelberg u. a. 2006, 160-161." .
+
+<Year/1846>
+	rdfs:label "1846" ;
+	a drw-model:Year .
+
+<RelatedPerson/30366hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "1.<br>Zwei Kinder, darunter:<br>Richard (1852-1934), Eisenbahnkonstrukteur<br>2.<br>Robert (1862-1889)<br>Ellen, verh. von Siemens (1864-1941)<br>Friedrich Julius (1868-1901)" .
+
+<B/30366hasStationOfLife8>
+	drw-model:began <Year/1855> ;
+	drw-model:ended <Year/1858> ;
+	rdfs:label "o. Professor für Anatomie und Physiologie an der Universität Bonn" ;
+	a drw-model:B .
+
+<B/30366hasStationOfLife12>
+	rdfs:label "Professor für Physik und Direktor des Physikalischen Instituts an der Universität Berlin" ;
+	a drw-model:B ;
+	drw-model:began <Year/1871> ;
+	drw-model:ended <Year/1877> .
+
+<SL/30366hasSL24>
+	drw-model:hasDate "23.11.2011" ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://de.wikipedia.org/wiki/Hermann_von_Helmholtz" ;
+	rdfs:label "Wikipedia (Online Ressource)." .
+
+<SL/30366hasSL13>
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 713-715." ;
+	a drw-model:SL .
+
+<SL/30366hasSL5>
+	rdfs:label "Engelhardt, Dietrich von (Hg.): Biographische Enzyklopädie deutschsprachiger Mediziner. Bd. 1-2. München 2002, 266-268." ;
+	a drw-model:SL .
+
+<B/30366hasStationOfLife14>
+	a drw-model:B .
+
+<B/30366hasStationOfLife9>
+	rdfs:label "o. Professor für Physiologie und Direktor des Physiologischen Instituts an der Universität Heidelberg" ;
+	drw-model:ended <Year/1871> ;
+	a drw-model:B ;
+	drw-model:began <Year/1858> .
+
+<Year/1866>
+	rdfs:label "1866" ;
+	a drw-model:Year .
+
+<Year/1849>
+	rdfs:label "1849" ;
+	a drw-model:Year .
+
+<Year/1851>
+	rdfs:label "1851" ;
+	a drw-model:Year .
+
+<SL/30366hasSL23>
+	rdfs:label "Wegbereiter unserer naturwissenschaftlich-medizinischen Moderne (Online Ressource)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://appserv5.ph-heidelberg.de/onlinelex/index.php?id=961" ;
+	drw-model:hasDate "23.11.2011" ;
+	a drw-model:SL .
+
+<B/30366hasStationOfLife1>
+	rdfs:label "Unterchirurg an der Charité" ;
+	drw-model:began <Year/1842> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1843> .
+
+<SL/30366hasSL10>
+	a drw-model:SL ;
+	rdfs:label "Lazarev, Petr P.: Gel’mgol’c. Moskva 1959, 103 S." .
+
+<RelatedPerson/30366motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Caroline, geb. Penne (1797-1854)" .
+
+<Place/Charlottenburg_bei_Berlin>
+	a drw-model:Place ;
+	rdfs:label "Charlottenburg bei Berlin" .
+
+<Year/1855>
+	rdfs:label "1855" ;
+	a drw-model:Year .
+
+<SL/30366hasSL12>
+	a drw-model:SL ;
+	rdfs:label "Paatzow, A.: Helmholtz, Hermann von. In: Allgemeine Deutsche Biographie. Bd. 1-56. Leipzig 1875–1912,  Bd. 51 (1906), 461-472." .
+
+<B/30366hasStationOfLife6>
+	drw-model:ended <Year/1851> ;
+	a drw-model:B ;
+	rdfs:label "ao. Professor der Physiologie und Pathologie an der Universität Königsberg" ;
+	drw-model:began <Year/1849> .
+
+<Year/1848>
+	rdfs:label "1848" ;
+	a drw-model:Year .
+
+<Year/1865>
+	rdfs:label "1865" ;
+	a drw-model:Year .
+
+<SL/30366hasSL22>
+	<http://xmlns.com/foaf/0.1/homepage> "http://ru.wikipedia.org/wiki/Гельмгольц,_Герман_Людвиг_Фердинанд" ;
+	a drw-model:SL ;
+	drw-model:hasDate "23.11.2011" ;
+	rdfs:label "Vikipedija (Online Ressource)." .
+
+<SL/30366hasSL18>
+	a drw-model:SL ;
+	rdfs:label "Rothschuh, Karl Eduard: Geschichte der Physiologie. Berlin, Göttingen, Heidelberg 1953, 123-127." .
+
+<SL/30366hasSL20>
+	rdfs:label "VL People (Online Ressource)." ;
+	drw-model:hasDate "23.11.2011" ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://vlp.mpiwg-berlin.mpg.de/people/data?id=per87" .
+
+<Year/1871>
+	a drw-model:Year ;
+	rdfs:label "1871" .
+
+<A/30366hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch des Gymnasiums „Große Stadtschule“ in Potsdam" ;
+	drw-model:ended <Year/1838> .
+
+<SL/30366hasSL21>
+	a drw-model:SL ;
+	rdfs:label "Van Rhyn, G. A. F.: Sketch of Prof Helmholtz. Popular Science Monthly 5 (1874), 231-234." .
+
+<SL/30366hasSL11>
+	a drw-model:SL ;
+	rdfs:label "Lebedinskij, Andrej V., Frankfurt, Ušer Iojnovič, Frenk, Aleksandr M.: Gel’mgol’c (1821-1894). Moskva 1966, 318 S." .
+
+<Year/1852>
+	rdfs:label "1852" ;
+	a drw-model:Year .
+
+<WL/30366hasWL2>
+	rdfs:label "Helmholtz-Spule, Helmholtz-Resonator, Helmholtz-Differentialgleichung, Überlagerungsprinzip nach Helmholtz. Weiteres vgl. <b>SL</b>" ;
+	a drw-model:WL .
+
+<P/30366hasP4>
+	a drw-model:P ;
+	rdfs:label "Portraits in <b>SL</b> (Auswahl): Eckart 2006, Lazarev 1959, Lebedinskij/Frankfurt/Frenk 1966, Pagel 1901, RAN, Rechenberg 1994, Rektoren KWU, Rothschuh 1953, Ruoff 2008, Šojfet 2004, VL People, Vikipedija, Wegbereiter, Wikipedia." .
+
+<Comment/30366_1>
+	rdfs:label "In <b>SL</b> Drüll 1986 und Eckart/Gradmann (Hgg.) 2006 irrtümlich Julius angegeben." ;
+	a drw-model:Comment .
+
+<Year/1843>
+	rdfs:label "1843" ;
+	a drw-model:Year .
+
+<SL/30366hasSL19>
+	a drw-model:SL ;
+	rdfs:label "Ruoff, Michael: Hermann von Helmholtz. Paderborn 2008, 108 S." .
+
+<HonoursAndAwards/30366hasHonoursAndAwards1>
+	rdfs:label "1858 Ritterkreuz des Königlischen Niederländischen Löwenordens<br>1860 Dr. phil. h.c. Berlin<br>1861 Hofrat, 1865 Geheimer Rat III. Klasse und 1868 II. Klasse<br>1865 St.-Stanislav-Orden II. Kasse<br>1867 Maximiliansorden für Wissenschaft und Kunst<br>1873 Copley Medal (The Royal Society of London)<br>1873 Ehrenmitglied der Kaiserlichen Universität Moskau<br>1883 Erhebung in den Adelsstand<br>1868 Commandeurkreuz II. Klasse des Ordens vom Zähringer Löwen<br>1891 Geheimer Regierungs-Rat<br>1891 Marmorbüste des Bildhauers Adolf von Hildebrand (1847-1921), Humboldt-Universität Berlin<br>Helmholtz-Statue vor der Humboldt-Universität Berlin auf einem Sockel aus Marxgrüner Marmor<br>seit 1892 Helmholtz-Medaille der Preußischen Akademie der Wissenschaften<br>Helmholtz-Medaille der Deutsche Gesellschaft für Akustik<br>1995 Helmholtz-Gemeinschaft Deutscher Forschungszentren<br>Helmholtz-Gymnasium in Heidelberg<br>Hermann-von-Helmholtz-Schule in Berlin-Neukölln<br>Festschrift <i>Helmholtz als Physiker, Physiologe und Philosoph. Drei Vorträge gehalten zur Feier seines 100. Geburtstages.</i> Von E. Warburg, M. Rubner und M. Schlick. Karlsruhe 1922, 39 S." ;
+	a drw-model:HonoursAndAwards .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30366hasW1>
+	a drw-model:W ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<B/30366hasStationOfLife7>
+	drw-model:began <Year/1852> ;
+	a drw-model:B ;
+	rdfs:label "o. Professor in Königsberg" .
+
+<GPV/30366hasGPV1>
+	a drw-model:GPV ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<SL/30366hasSL16>
+	drw-model:hasDate "23.11.2011" ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.hu-berlin.de/ueberblick/geschichte/rektoren/helmholtz" ;
+	rdfs:label "Rektoren KWU (Online Ressource)." .
+
+<Date/31_8_1821>
+	a drw-model:Date ;
+	rdfs:label "31.8.1821" .
+
+<WL/30366hasWL1>
+	rdfs:label "Nach ihm sind folgende physikalische Begriffe benannt:" ;
+	a drw-model:WL .
+
+<SL/30366hasSL3>
+	rdfs:label "Drüll, Dagmar: Heidelberger Gelehrtenlexikon. Bd. 2: 1803-1932. Heidelberg 1986, 108-109." ;
+	a drw-model:SL .
+
+<ImportantPerson/30366>
+	drw-model:hasStationOfLife <B/30366hasStationOfLife2> ;
+	drw-model:hasStationOfLife <B/30366hasStationOfLife8> ;
+	drw-model:hasMG <MG/30366hasMG1> ;
+	drw-model:hasP <P/30366hasP2> ;
+	drw-model:hasStationOfLife <B/30366hasStationOfLife14> ;
+	drw-model:hasStationOfLife <B/30366hasStationOfLife9> ;
+	drw-model:hasStationOfLife <B/30366hasStationOfLife4> ;
+	drw-model:fatherIs <RelatedPerson/30366fatherIs1> ;
+	drw-model:wasBornIn <Place/Potsdam> ;
+	drw-model:hasSL <SL/30366hasSL20> ;
+	drw-model:hasSL <SL/30366hasSL21> ;
+	drw-model:hasSL <SL/30366hasSL17> ;
+	drw-model:diedIn <Place/Charlottenburg_bei_Berlin> ;
+	drw-model:hasSL <SL/30366hasSL25> ;
+	drw-model:hasSL <SL/30366hasSL1> ;
+	drw-model:hasSL <SL/30366hasSL4> ;
+	drw-model:hasSLComment <SLComment/30366hasSLComment1> ;
+	drw-model:hasSL <SL/30366hasSL9> ;
+	drw-model:hasSL <SL/30366hasSL12> ;
+	drw-model:hasStationOfLife <B/30366hasStationOfLife3> ;
+	drw-model:hasHonoursAndAwardsComment <HonoursAndAwardsComment/30366hasHonoursAndAwardsComment1> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30366hasHonoursAndAwards1> ;
+	drw-model:wasBornOn <Date/31_8_1821> ;
+	drw-model:hasComment <Comment/30366_1> ;
+	drw-model:hasP <P/30366hasP4> ;
+	drw-model:hasP <P/30366hasP3> ;
+	drw-model:hasID "30366" ;
+	drw-model:hasSL <SL/30366hasSL24> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30366.jpg> ;
+	drw-model:hasEducation <A/30366hasEducation5> ;
+	drw-model:hasWL <WL/30366hasWL1> ;
+	drw-model:hasSL <SL/30366hasSL2> ;
+	drw-model:hasGPV <GPV/30366hasGPV1> ;
+	drw-model:hasSL <SL/30366hasSL13> ;
+	drw-model:hasEducation <A/30366hasEducation3> ;
+	drw-model:wasMarriedTo <RelatedPerson/30366wasMarriedTo1> ;
+	drw-model:hasSL <SL/30366hasSL6> ;
+	drw-model:hasSL <SL/30366hasSL15> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Physik> ;
+	drw-model:hasStationOfLife <B/30366hasStationOfLife11> ;
+	drw-model:hasSL <SL/30366hasSL23> ;
+	drw-model:hasStationOfLife <B/30366hasStationOfLife12> ;
+	drw-model:hasStationOfLife <B/30366hasStationOfLife10> ;
+	drw-model:hasEducation <A/30366hasEducation4> ;
+	drw-model:hasWL <WL/30366hasWL2> ;
+	drw-model:hasSL <SL/30366hasSL7> ;
+	drw-model:hasStationOfLife <B/30366hasStationOfLife7> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <B/30366hasStationOfLife6> ;
+	drw-model:hasEducation <A/30366hasEducation2> ;
+	drw-model:hasSL <SL/30366hasSL18> ;
+	rdfs:label "Helmholtz, Hermann Ludwig Ferdinand (von)" ;
+	drw-model:hasSL <SL/30366hasSL22> ;
+	drw-model:hasDescendant <RelatedPerson/30366hasDescendant1> ;
+	drw-model:hasEducation <A/30366hasEducation1> ;
+	drw-model:hasStationOfLife <B/30366hasStationOfLife13> ;
+	drw-model:hasSL <SL/30366hasSL10> ;
+	drw-model:hasSL <SL/30366hasSL11> ;
+	drw-model:hasStationOfLife <B/30366hasStationOfLife5> ;
+	drw-model:hasSL <SL/30366hasSL3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Physiologie> ;
+	drw-model:hasSL <SL/30366hasSL14> ;
+	drw-model:hasSL <SL/30366hasSL19> ;
+	drw-model:hasP <P/30366hasP1> ;
+	drw-model:hasW <W/30366hasW1> ;
+	drw-model:hasStationOfLife <B/30366hasStationOfLife1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:diedOn <Date/8_9_1894> ;
+	drw-model:motherIs <RelatedPerson/30366motherIs1> ;
+	drw-model:hasSL <SL/30366hasSL16> ;
+	drw-model:hasMainName <MainName/30366hasMainName1> ;
+	drw-model:hasSL <SL/30366hasSL5> ;
+	drw-model:hasSL <SL/30366hasSL8> .
+
+<SLComment/30366hasSLComment1>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<P/30366hasP3>
+	rdfs:label "Helmholtz, Hermann von: Brustbild, frontal (nach 1861), Photogravur. Archiv der Berlin-Brandenburgischen Akademie der Wissenschaften: Helmholtz_198." ;
+	a drw-model:P .
+
+<A/30366hasEducation4>
+	a drw-model:A ;
+	drw-model:inYear <Year/1846> ;
+	rdfs:label "Staatsprüfung als Arzt und Wundarzt in Berlin" .
+
+<Year/1842>
+	rdfs:label "1842" ;
+	a drw-model:Year .
+
+<SL/30366hasSL17>
+	rdfs:label "Rossijskaja akademija nauk. Personal’nyj sostav. Kniga 1: 1724-1917. Moskva 1999; Kniga 2: 1918-1973. Moskva 1999 Kniga 1 (1999), 424." ;
+	a drw-model:SL .
+
+<SL/30366hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Krüger, Lorenz (Hg.): Universalgenie Helmholtz. Rückblick nach 100 Jahren. Berlin 1994, 422 S." .
+
+<B/30366hasStationOfLife11>
+	drw-model:began <Year/1865> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1866> ;
+	rdfs:label "Dekan der Medizinischen Fakultät in Heidelberg" .
+
+<GeneralLabor/Professor_fr_Physiologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<SL/30366hasSL2>
+	rdfs:label "Brokgauz/Efron. Bd. 8 (1892), 287-288." ;
+	a drw-model:SL .
+
+<A/30366hasEducation5>
+	a drw-model:A ;
+	rdfs:label "Approbation als praktischer Arzt in Berlin" ;
+	drw-model:inYear <Year/1847> .
+
+<Year/1877>
+	rdfs:label "1877" ;
+	a drw-model:Year .
+
+<B/30366hasStationOfLife5>
+	rdfs:label "zugleich Gehilfe der Anatomisch-Zootomischen Sammlung in Berlin" ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1848> .
+
+<Year/1858>
+	rdfs:label "1858" ;
+	a drw-model:Year .
+
+<MainName/30366hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Helmholtz, Hermann Ludwig Ferdinand (von)" ;
+	drw-model:hasComment <Comment/30366_1> ;
+	drw-model:hasNameVariation <NameVariation/30366hasNameVariation1> .
+
+<P/30366hasP2>
+	rdfs:label "Ludwig Knaus (1829-1910): Hermann von Helmholtz (1881). Öl auf Holz. Staatliche Museen zu Berlin, Nationalgalerie, Inv.-Nr. A I 314." ;
+	a drw-model:P .
+
+<B/30366hasStationOfLife4>
+	rdfs:label "Anatomielehrer an der Kunstakademie Berlin" ;
+	a drw-model:B ;
+	drw-model:inYear <Year/1848> .
+
+<Year/1862>
+	rdfs:label "1862" ;
+	a drw-model:Year .
+

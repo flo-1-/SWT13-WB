@@ -1,0 +1,14 @@
+<?php
+	$count = 0;
+	#if (is_array($this->ausgabe))
+	foreach($this->ausgabe as $row){
+		echo "<br><p>Zeile: ".$count++."</p>";
+		foreach($row as $data){
+			echo $data."<br>";
+		}				
+	}
+	echo 'test';
+	echo "<p>Query: <br>".$this->escape($this->query)."</p>";
+	echo '<div style="float:center;  text-align:center; padding:20px; border:thin solid red; margin:25px">
+			<p><b>Message: </b><br>' . $this->message . '</p>
+			</div>';

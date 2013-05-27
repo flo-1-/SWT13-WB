@@ -1,0 +1,188 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<RelatedPerson/30444fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Friedrich Ludwig (1736-1792?), Arzt, Kaiserlicher Hofchirurg" .
+
+<RelatedPerson/30444wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "1. [Name unbekannt]<br>2. Evdokija (Avdot'ja) Sergeevna (1785-1848)" .
+
+<A/30444hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Bis 1784 Privatunterricht vom Vater, 1784-1787 medizinische Ausbildung im Mediko-chirurgischen Institut, dem sog. Kalinkin-Institut, in St. Petersburg mit dem Abschluss \"Praktischer Medico-Chirurg\", 1792 Dr. med. et chir. an der Universität Erfurt [nicht in Erlangen]." .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<NameVariation/30444hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Iogann Georg" .
+
+<MG/30444hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Mediko-chirurgičeskaja akademija [Mediko-chirurgische Akademie] St. Petersburg (1813 korrespondierendes und 1815 Ehrenmitglied), Mediko-filantropičeskij komitet [Mediko-philanthropisches Komitee] (1828 Vorsitzender), Demidovskij dom prizrenija [Demidovskij Fürsorge-Haus] (Ehrenmitglied 1833), Sovet Imperatorskogo čelovekoljubivogo občestva [Rat der Kaiserlichen philanthropischen Gesellschaft] (Ehrenmitglied 1837), Imperatorskoe vol'no-ėkonomičeskoe obščestvo [Kaiserliche freie ökonomische Gesellschaft zu St. Petersburg] (1838-1846 Vorsitzender der 5. Sektion)." .
+
+<WL/30444hasWL1>
+	rdfs:label "Spielte eine bedeutende Rolle in der öffentlichen Gesundheitsfürsorge im Russischen Zarenreich, war 1831 Mitorganisator der medizinischen Maßnahmen während der Choleraepidemie,1 Reorganisator der psychiatrischen Betreuung, Autor von Statuten des Krankenhauses \"Aller Leidtragenden\", Stifter einiger Preise, z.B. der \"I. F. Rühl-Prämie\" für gute Leistungen von Absolventen der Feldscherschulen, 1818 Entwicklung einer Unterschenkel-Prothese, 1835 Erfinder der Couveuse = der \"Ruehlschen Wiege\" (Inkubator für zu früh geborene Kinder)." ;
+	a drw-model:WL .
+
+<SL/30444hasSL5>
+	rdfs:label "WBIS DBA: I 1065, 96-98; II 1107, 95; BaBA: I 307, 25-29; RBA: R 411, 158-170." ;
+	a drw-model:SL .
+
+<RelatedPerson/30444motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Katharina Dorothea, geb. Heitmann" .
+
+<Q/30444hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Stadtarchiv Erfurt: Matrikel der philosophischen Fakultät der Universität Erfurt 1-1/X B XIII-46, Bd. 5, S. 75: 24. Januar 1792: Georg Ruehl, Livonus, M.[ed.] C[and.] (Schriftliche Mitteilung vom 11.8.2009)." .
+
+<SL/30444hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Böhm 1998, 81." .
+
+<ImportantPerson/30444>
+	drw-model:hasSibling <RelatedPerson/30444hasSibling1> ;
+	drw-model:hasStationOfLife <B/30444hasStationOfLife1> ;
+	drw-model:hasMainName <MainName/30444hasMainName1> ;
+	drw-model:hasQ <Q/30444hasQ1> ;
+	drw-model:hasW <W/30444hasW5> ;
+	drw-model:hasSL <SL/30444hasSL3> ;
+	drw-model:diedOn <Date/17_or_29_12_1846_nicht_29_12_1> ;
+	drw-model:hasW <W/30444hasW6> ;
+	drw-model:hasW <W/30444hasW1> ;
+	drw-model:hasID "30444" ;
+	drw-model:wasMarriedTo <RelatedPerson/30444wasMarriedTo1> ;
+	drw-model:hasP <P/30444hasP1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasSL <SL/30444hasSL2> ;
+	drw-model:hasEducation <A/30444hasEducation1> ;
+	drw-model:hasP <P/30444hasP2> ;
+	drw-model:hasW <W/30444hasW3> ;
+	drw-model:hasSL <SL/30444hasSL5> ;
+	drw-model:hasW <W/30444hasW2> ;
+	drw-model:hasW <W/30444hasW4> ;
+	drw-model:hasDescendant <RelatedPerson/30444hasDescendant1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibmedikus> ;
+	a drw-model:ImportantPerson ;
+	drw-model:diedIn <Place/Sankt_Petersburg> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Hofchirurg> ;
+	drw-model:hasSL <SL/30444hasSL4> ;
+	drw-model:hasSL <SL/30444hasSL1> ;
+	drw-model:hasP <P/30444hasP3> ;
+	drw-model:wasBornIn <Place/Dohremuisch_bei_Marienburg> ;
+	drw-model:wasBornOn <Date/21_5_1768_nicht_20_or_31_5_176> ;
+	drw-model:hasMG <MG/30444hasMG1> ;
+	drw-model:fatherIs <RelatedPerson/30444fatherIs1> ;
+	drw-model:hasWL <WL/30444hasWL1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30444.jpg> ;
+	rdfs:label "Rühl, Johann Georg von" ;
+	drw-model:motherIs <RelatedPerson/30444motherIs1> .
+
+<B/30444hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "1787-1788 Ordinator im Obuchov-Krankenhaus in St. Petersburg, 1788-1790 Arzt der Schiffsflotte im Russisch-schwedischen Krieg, mit Aufenthalten u.a. in Kopenhagen, wo er während der Winterpause der Flotte 1788 an der dortigen Universität Vorlesungen bei Frederik Christian WINSLØW (1752-1811), Christian Gottlieb KRATZENSTEIN [russ. Krazenštejn, nicht Kostenštejn] (1723-1795) und Johann Clemens TODE (1736-1806) hörte, 1790-1793 Stabsarzt im Generallandhospital in St. Petersburg und 1793-1794 in Moskau, 1794-1798 Arzt im Preobraženskij-Leibgarde-Regiment, 1798-1802 Junior-Hofchirurg, ab 1802 Hofchirurg des Zarenhofs sowie am Hofe der Großfürstin EKATERINA PAVLOVNA (1788-1819), 1804-1805 Leibarzt der Zarin MARIJA FЁDOROVNA, geb. SOPHIE DOROTHEE VON WÜRTTEMBERG (1759-1828), 1805-1806 Chefarzt der Wolhynischen Armee im Russisch-österreichisch-französischen Krieg, u.a. in der Schlacht bei Austerlitz, ab 1806 Leibarzt der Kaiserlichen Familie und Aufseher der Krankenhäuser der Erziehungs- und Wohltätigkeitsanstalten, ab 1810 Leibchirurg und 1823-1828 erneut Leibarzt der Zarin MARIJA FЁDOROVNA, ab 1823 Mitglied des Medizinalrats des Ministeriums des Innern, 1828-1846 Medizinalinspektor der \"Institutionen der Zarin Marija\", 1832 Gründer und ab 1835 Kurator des Krankenhauses \"Aller Leidtragenden\" in St. Petersburg.
+Inhaber der russischen Ehrentitel \"Hofrat\" (1799), \"Kollegienrat\" (1800), \"Staatsrat\" (1808), \"Wirklicher Russischer Staatsrat\" (1817), \"Geheimrat\" (1825), \"Wirklicher Russischer Geheimrat\" (1843) sowie zahlreicher Auszeichnungen, darunter 1806 St.-Vladimir-Orden 4. Klasse und 1821 Großkreuz 2. Klasse, 1819 Preußischer Roter-Adler-Orden, 1821 St.-Annen-Orden 1. Klasse mit der Kaiserkrone, 1837 Weißer-Adler-Orden und Medaille anlässlich des 50-jährigen Dienstjubiläums, 1842 Aleksandr-Nevskij-Orden." .
+
+<RelatedPerson/30444hasSibling1>
+	rdfs:label "Otto Friedrich Paul (1764-1835), Propst, Konsistorialrat" ;
+	a drw-model:RelatedPerson .
+
+<P/30444hasP2>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.rybmuseum.ru/images2/00063259.jpg" ;
+	a drw-model:P ;
+	rdfs:label "Portrait, Staatliches Museum für Geschichte, Architektur und Kunst, Rybinsk, Online Ressource Online Ressource (4.4.2012)." .
+
+<W/30444hasW6>
+	rdfs:label "Kratkoe nastavlenie, kakim obrazom dolžno obchodit'sja s umališennymi ... Sankt-Peterburg 1839, 23 S." ;
+	a drw-model:W .
+
+<Date/17_or_29_12_1846_nicht_29_12_1>
+	a drw-model:Date ;
+	rdfs:label "17./29.12.1846 [nicht 29.12.1846/10.1.1847]" .
+
+<W/30444hasW4>
+	rdfs:label "Farmakopeja dlja rukovodstva vračam bednych, sostojaščich v vedomstve Filantropičeskogo komiteta. Sankt-Peterburg 1829, 36 S.; 2. Aufl. 1845, 24 S.; 3. Aufl. 1860, 46 S." ;
+	a drw-model:W .
+
+<SL/30444hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Nemcy Rossii. Bd. 3 (2006), 364-365." .
+
+<W/30444hasW2>
+	rdfs:label "Ueber die Ersetzungschirurgie im Allgemeinen, nebst Abbildung und Beschreibung eines künstlichen Unterschenkels. Journal der practischen Arzneykunde 47 (1818), 3-16." ;
+	a drw-model:W .
+
+<SL/30444hasSL2>
+	rdfs:label "EAD: Dokument-Id [77315/75681 (4.8.2010)]." ;
+	a drw-model:SL .
+
+<MainName/30444hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30444hasNameVariation1> ;
+	rdfs:label "Rühl, Johann Georg von" ;
+	drw-model:hasNameVariation <NameVariation/30444hasNameVariation2> .
+
+<GeneralLabor/Hofchirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hofchirurg" .
+
+<GeneralLabor/Leibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibmedikus" .
+
+<NameVariation/30444hasNameVariation2>
+	rdfs:label "Иoгaнн Гeoрг" ;
+	a drw-model:NameVariation .
+
+<Place/Sankt_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "Sankt Petersburg" .
+
+<P/30444hasP1>
+	rdfs:label "Portrait in Pastell. [Ohne weitere Angaben, früher im Privatbesitz von M. Ja. Wyllie in St. Petersburg]. Aus: Russkie portrety (<b>SL</b>), 84, Bild-Nr. 155. Abgedruckt in: Fischer 2010, 216." ;
+	a drw-model:P .
+
+<SL/30444hasSL4>
+	rdfs:label "Russkie portrety XVIII i XIX vekov. Izd. Velikogo Knjazja Nikolaja Michajloviča Romanova. Bd. 4. Moskva 2000 [1908], 519-521 [russ. u. franz.]." ;
+	a drw-model:SL .
+
+<W/30444hasW1>
+	rdfs:label "Dissertatio de usu medicamentorum antimonialium in febribus intermittentibus. Erfurt 1792, 10 S." ;
+	a drw-model:W .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<P/30444hasP3>
+	rdfs:label "Medaille mit dem Portrait von Johann Georg von Rühl. St. Petersburger Münzhof 1837. Künstler der Kopfseite Aleksandr Pavlovič Ljalin (1802-1862). Online Ressource Online Ressource (9.3.2012). Abgedruckt in: Fischer 2010, 219." ;
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.numismat.ru/auct-lo/13088a.jpg" .
+
+<RelatedPerson/30444hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Aleksej (* 1794)<br>Emilie (Emilija Ivanovna), verh. von Arpshoven (1795[oder 1802]-1863)<br>Vera (Ivanovna), verh. Wyllie (1811-1893)" .
+
+<W/30444hasW5>
+	rdfs:label "Projekt ustava dlja Sanktpeterburgskogo Doma umališennych, nyne Bol'nicy vsech skorbjaščich. Sankt-Peterburg 1832, 93 S.; <b>deutsch</b>.: Project zum Reglement der Verwaltung des St. Petersburgischen Irrenhauses. St. Petersburg 1837, 94 S." ;
+	a drw-model:W .
+
+<Place/Dohremuisch_bei_Marienburg>
+	a drw-model:Place ;
+	rdfs:label "Dohremuisch bei Marienburg" .
+
+<Date/21_5_1768_nicht_20_or_31_5_176>
+	a drw-model:Date ;
+	rdfs:label "21.5.1768 [nicht 20./31.5.1769]" .
+
+<W/30444hasW3>
+	rdfs:label "Beschreibung eines neuen Stelzfusses, vom Russisch-Kaiserl. wirklichen Staatsrath und Leibarzte von Rühl. Journal der practischen Arzneykunde 47 (1818), 108-110." ;
+	a drw-model:W .
+

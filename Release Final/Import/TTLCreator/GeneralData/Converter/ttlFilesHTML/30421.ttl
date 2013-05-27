@@ -1,0 +1,70 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30421hasSL2>
+	rdfs:label "WBIS DBA: I 687, 296-297; BaBA: I 173, 156-157." ;
+	a drw-model:SL .
+
+<Place/Dorpat>
+	a drw-model:Place ;
+	rdfs:label "Dorpat" .
+
+<B/30421hasStationOfLife1>
+	rdfs:label "Leibarzt des Herzogs ALEXANDER I. von Württemberg (1771-1833)." ;
+	a drw-model:B .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30421hasW1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/dspace/bitstream/handle/10062/7119/kohl_animadversiones.pdf?sequence=1" ;
+	rdfs:label "Animadversiones in aetiologiam hydropis. Dissertation. Dorpat 1805, 22 S. Online Ressource Online Ressource (4.4.2012)." ;
+	a drw-model:W .
+
+<SL/30421hasSL1>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [71374/69478 (17.8.2010)]." .
+
+<Date/9_or_20_5_1775>
+	rdfs:label "9./20.5.1775" ;
+	a drw-model:Date .
+
+<Date/?>
+	rdfs:label "?" ;
+	a drw-model:Date .
+
+<A/30421hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch der Stadtschule in Dorpat, danach Apothekenlehre in Wolmar, 1795 Provisor-Examen in St. Petersburg, 1795-1798 Provisor in Wolmar, 1798-1804 Studium der Medizin an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg, 1805 Dr. med. an der Universität Dorpat." .
+
+<MainName/30421hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Kohl, Johann Heinrich" .
+
+<GeneralLabor/Herzoglicher_Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Herzoglicher Leibarzt" .
+
+<GeneralLabor/Chirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Chirurg" .
+
+<ImportantPerson/30421>
+	drw-model:hasGeneralLabor <GeneralLabor/Chirurg> ;
+	drw-model:hasW <W/30421hasW1> ;
+	drw-model:hasSL <SL/30421hasSL2> ;
+	drw-model:hasSL <SL/30421hasSL1> ;
+	drw-model:wasBornIn <Place/Dorpat> ;
+	drw-model:hasMainName <MainName/30421hasMainName1> ;
+	drw-model:hasEducation <A/30421hasEducation1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:diedOn <Date/?> ;
+	drw-model:hasID "30421" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Herzoglicher_Leibarzt> ;
+	rdfs:label "Kohl, Johann Heinrich" ;
+	drw-model:hasStationOfLife <B/30421hasStationOfLife1> ;
+	drw-model:wasBornOn <Date/9_or_20_5_1775> .
+

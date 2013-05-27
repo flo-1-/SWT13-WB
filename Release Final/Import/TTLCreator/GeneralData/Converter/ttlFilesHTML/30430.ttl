@@ -1,0 +1,125 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<MainName/30430hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30430hasNameVariation4> ;
+	drw-model:hasNameVariation <NameVariation/30430hasNameVariation5> ;
+	drw-model:hasNameVariation <NameVariation/30430hasNameVariation1> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30430hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30430hasNameVariation3> ;
+	rdfs:label "Müller, Karl Wilhelm David (von)" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Place/Berlin>
+	a drw-model:Place ;
+	rdfs:label "Berlin" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<SL/30430hasSL2>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [61484/61150 (6.8.2010)]." .
+
+<RelatedPerson/30430fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Jakob Wilhelm (?)" .
+
+<NameVariation/30430hasNameVariation5>
+	rdfs:label "Kaрл Вильгельмович" ;
+	a drw-model:NameVariation .
+
+<GeneralLabor/Hofarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hofarzt" .
+
+<NameVariation/30430hasNameVariation1>
+	rdfs:label "MJULLER" ;
+	a drw-model:NameVariation .
+
+<RelatedPerson/30430wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "1. Katharina Elisabeth, geb. Vorbrodt (1791-1820)<br>2. Elizaveta Pavlovna, geb. Schröter (1800-1825)" .
+
+<NameVariation/30430hasNameVariation3>
+	rdfs:label "Carl" ;
+	a drw-model:NameVariation .
+
+<B/30430hasStationOfLife1>
+	rdfs:label "Kam 1808 aus Königsberg in russische Dienste und wurde als Assistenzarzt im Kavaliergarderegiment angestellt, 1812-1814 Hofarzt beim Zaren ALEKSANDR I. (1777-1825), danach Aufenthalte im Ausland, später Leibmedikus am Zarenhof.
+Erhielt die russischen Ehrentitel \"Kollegienassessor\" (1809) und \"Staatsrat\" sowie den Adelstitel." ;
+	a drw-model:B .
+
+<MG/30430hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Deutscher ärztlicher Verein in St. Petersburg (1819 Mitgründer)." .
+
+<Date/28_11_or_10_12_1828>
+	a drw-model:Date ;
+	rdfs:label "28.11./10.12.1828" .
+
+<GeneralLabor/Leibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibmedikus" .
+
+<SL/30430hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Sbornik biografij kavalergardov 1826-1908. Red. Sergej Alekseevič Pančulidzev. Reprint izdanija 1908 goda. Moskva 2008, 399-400." .
+
+<Date/10_oder_12__or_21_12_1779>
+	a drw-model:Date ;
+	rdfs:label "10. oder 12. /21.12.1779" .
+
+<SL/30430hasSL1>
+	rdfs:label "Böhm 2003, 481." ;
+	a drw-model:SL .
+
+<NameVariation/30430hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "MЮЛЛЕР" .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<ImportantPerson/30430>
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasSL <SL/30430hasSL2> ;
+	drw-model:hasMG <MG/30430hasMG1> ;
+	drw-model:diedOn <Date/28_11_or_10_12_1828> ;
+	drw-model:fatherIs <RelatedPerson/30430fatherIs1> ;
+	drw-model:hasMainName <MainName/30430hasMainName1> ;
+	drw-model:wasBornIn <Place/Berlin> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibmedikus> ;
+	drw-model:hasID "30430" ;
+	drw-model:hasStationOfLife <B/30430hasStationOfLife1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasGeneralLabor <GeneralLabor/Hofarzt> ;
+	drw-model:hasSL <SL/30430hasSL1> ;
+	drw-model:hasDescendant <RelatedPerson/30430hasDescendant1> ;
+	drw-model:wasBornOn <Date/10_oder_12__or_21_12_1779> ;
+	drw-model:hasSL <SL/30430hasSL3> ;
+	drw-model:hasEducation <A/30430hasEducation1> ;
+	rdfs:label "Müller, Karl Wilhelm David (von)" ;
+	drw-model:wasMarriedTo <RelatedPerson/30430wasMarriedTo1> .
+
+<NameVariation/30430hasNameVariation4>
+	a drw-model:NameVariation ;
+	rdfs:label "Karl Vil'gel'movič" .
+
+<RelatedPerson/30430hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Alexander Christian Jakob (Karlovič) (1811-1863), Beamter in der Kreditkanzlei des Finanzministeriums" .
+
+<A/30430hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Schulbesuch und Studium in Deutschland, 1809 Examen als \"Mediko-Chirurg\" an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg." .
+

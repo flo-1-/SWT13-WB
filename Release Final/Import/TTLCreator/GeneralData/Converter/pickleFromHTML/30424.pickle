@@ -1,0 +1,152 @@
+(dp0
+VA
+p1
+VBesuch der Petri-Schule in St. Petersburg, ab 1764 der Fürstenschule in Neustadt an der Aisch in Bayern,*) ab 1771 medizinische Ausbildung in Berlin, ab 1772 Beginn des Medizinstudiums in Göttingen, ab 1774 in Straßburg, 1777 Dr. med. et chir. in Göttingen, ab 1778 als Arzt in Russland zugelassen.\u000a*) Lerch(e)s Onkel Johann Christian Lerche (1691-1768) war Superintendent an der Fürstenschule. Durch die Vermittlung über seinen Bruder Johann Jakob (s.o.) kamen etwa 50 Schüler aus Riga (Livland) und St. Petersburg nach Neustadt. Vgl. August Wolfschmidt: Die Matrikel der Fürstenschule Neustadt an der Aisch. Zeitschrift für bayerische Kirchengeschichte 55 (1986), 24, 38.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u041bE\u0420XE, X\u0440\u0438c\u0442o\u0444o\u0440 [\u0418\u0432a\u043do\u0432\u0438\u0447]
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VLERCHE, Christofor [Ivanovi\u010d] (fon)
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+VMilitärarzt der St. Petersburger Division, u.a. in Wiburg, Generalstabschirurg der Finnländischen Armee, Generalstabsarzt des Saltykov-Korps an der Dvina und ab 1795 in St. Petersburg und Finnland, 1797 zum Hofstaat des Großfürsten und späteren Zaren ALEKSANDR PAVLOVI\u010c (1777-1825) beordert, 1799-1802(?) Hofarzt und ab 1809 Leibchirurg am Hofe des Zaren ALEKSANDR I.\u000aInhaber der Ehrentitel "Hofrat", "Kollegienrat" (1797), "Staatsrat" (1799).
+p14
+sVE
+p15
+VSophia Ulrika, geb. Hosenfelder
+p16
+sVName
+p17
+(dp18
+S'Vornamen'
+p19
+VChristoph Casimir (von)
+p20
+sS'Nachname'
+p21
+VLerche
+p22
+ssVQuelle
+p23
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 134.</i>
+p24
+sVNamensvariationen
+p25
+(lp26
+(dp27
+g6
+VLERCH
+p28
+sS'countyCode'
+p29
+g12
+sa(dp30
+g6
+VKasimir
+p31
+sg29
+g12
+sa(dp32
+g6
+VKazimir-Christofor
+p33
+sg29
+g12
+sa(dp34
+g6
+VKa\u0437\u0438\u043c\u0438\u0440-X\u0440\u0438c\u0442o\u0444o\u0440
+p35
+sg29
+g9
+sasVM
+p36
+VJohanna Gertrud (Olympe), geb. Possiet (* 1714)
+p37
+sVN
+p38
+VSophia Helena (* 1789)
+p39
+sVQ
+p40
+(lp41
+VGoetz von Selle (Hg.): Die Matrikel der Georg-August-Universität Göttingen. Bd. [1]: 1734-1837. Hildesheim 1937, 195, Nr. 9124.
+p42
+asVGeburtsdaten
+p43
+(dp44
+S'Ort'
+p45
+VMoskau
+p46
+sS'Datum'
+p47
+V13./24.10.1749
+p48
+ssVSterbedaten
+p49
+(dp50
+g47
+V13./25.4. oder 15.4.1825
+p51
+sg45
+VSt. Petersburg
+p52
+sS'Grabst\xc3\xa4tte'
+p53
+VLutherischer Friedhof Volkovo [Grab nicht erhalten]
+p54
+ssVW
+p55
+(dp56
+S'letzteZeile'
+p57
+VObservationes de cancro mammarum. Dissertation. Göttingen 1777, 27 S. http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10854509_00003.html Online Ressource (4.4.2012).
+p58
+sS'general'
+p59
+(lp60
+g58
+assVV
+p61
+VJohann Jakob (Ivan Jakovlevi\u010d) (1708-1780), Militärarzt und Stadtphysikus in Moskau und St. Petersburg
+p62
+sVID
+p63
+V30424
+p64
+sVSL
+p65
+(dp66
+g59
+(lp67
+VEAD: Dokument Id[ 62495/62055 (8.10.2010).
+p68
+aVPeterburgskij nekropol'. Bd. 2 (1912), 655.
+p69
+aVRBS. Bd. [10] (1914), 317.
+p70
+assVBerufe
+p71
+(lp72
+VMilitärarzt
+p73
+aVHofarzt
+p74
+aVLeibchirurg
+p75
+as.

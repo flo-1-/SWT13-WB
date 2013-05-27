@@ -1,0 +1,85 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<MainName/30175hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Busch, Alexander Johann" ;
+	drw-model:hasNameVariation <NameVariation/30175hasNameVariation1> .
+
+<GeneralLabor/Ehrenleibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ehrenleibmedikus" .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<SL/30175hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Nachapetov 2003, 215." .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Date/nach_1917>
+	a drw-model:Date ;
+	rdfs:label "nach 1917" .
+
+<B/30175hasStationOfLife1>
+	rdfs:label "Nach 1884 Arzt in St. Petersburg, ab 1890 Assistenzarzt im Garde-Ulanen-Regiment, seit 1900 Älterer Ordinator im Nikolaj-Militärhospital in St. Petersburg, später Oberarzt im Preobraženskij-Leibgarde-Regiment und ab 1914 Korpsarzt des Gardekorps, ab 1912 \"Ehrenleibmedikus\" am Hofe des Zaren NIKOLAJ II. (1868-1918).
+Inhaber hoher russischer Ehrentitel und Auszeichnungen, darunter 1911 \"Wirklicher Russischer Staatsrat\", 1915 \"Geheimrat\", Ritter des St.-Stanislav-Ordens 2. Klasse, des St.-Annen-Ordens 3. Klasse und des St. Vladmir-Ordens 4. Klasse, 1913 Gedenkmedaille \"300 Jahre Romanov-Dynastie\"." ;
+	a drw-model:B .
+
+<A/30175hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1873 Absolvent des 1. Gymnasiums zu Wilna, 1884 Abschluss des Medizinstudiums in Russland." .
+
+<SL/30175hasSL1>
+	rdfs:label "EAD: Dokument-ID [59404/46767 (26.7.2010)]." ;
+	a drw-model:SL .
+
+<RelatedPerson/30175wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Lidija Arsen'evna, geb. Dvukraeva<br>" .
+
+<ImportantPerson/30175>
+	drw-model:hasSL <SL/30175hasSL2> ;
+	drw-model:wasBornOn <Date/1857> ;
+	drw-model:hasSL <SL/30175hasSL3> ;
+	drw-model:motherIs <RelatedPerson/30175motherIs1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasEducation <A/30175hasEducation1> ;
+	drw-model:hasStationOfLife <B/30175hasStationOfLife1> ;
+	rdfs:label "Busch, Alexander Johann" ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30175" ;
+	drw-model:fatherIs <RelatedPerson/30175fatherIs1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Ehrenleibmedikus> ;
+	drw-model:hasSL <SL/30175hasSL1> ;
+	drw-model:hasMainName <MainName/30175hasMainName1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30175wasMarriedTo1> ;
+	drw-model:diedOn <Date/nach_1917> .
+
+<RelatedPerson/30175fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Julius, Kaufmann" .
+
+<Date/1857>
+	a drw-model:Date ;
+	rdfs:label "1857" .
+
+<SL/30175hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Pridvornyj kalendar': na 1913 god. S.-Peterburg [1913], 317; ~ 1914, 398." .
+
+<NameVariation/30175hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Юлиeвич" .
+
+<RelatedPerson/30175motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Charl[otte], geb. Lange" .
+

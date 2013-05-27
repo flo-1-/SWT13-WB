@@ -1,0 +1,143 @@
+(dp0
+VA
+p1
+VBesuch des Gymnasiums in Fulda, ab 1770 Studium der Medizin und 1776 Dr. med. (vermutlich ohne schriftliche Dissertation) an der Bischöflichen Universität Fulda, 1782 Zulassung zur ärztlichen Praxis in Russland.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+VBE\u0419KAPT, E\u0433o\u0440 \u041d\u0438\u043ao\u043bae\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VVEJKART, Egor Nikolaevi\u010d
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+VAb 1777 Weiterbildung und danach bis 1782 praktischer Arzt in Paris, 1782 Arzt des Grafen Andrej Petrovi\u010d \u0160UVALOV (1744-1789) und dessen Ehefrau während ihrer Reise von Paris nach St. Petersburg, danach ihr Hausarzt in St. Petersburg, ab 1784 Hofarzt, März bis Mai 1800 behandelnder Arzt des erkrankten Generals Aleksandr Vasil'evi\u010d SUVOROV (1729-1800) in Kobrin, ab 1809 Leibmedikus am Hofe des Zaren ALEKSANDR I. (1777-1825).\u000aInhaber der russischen Ehrentitel "Kollegienrat" (1797) und "Staatsrat" (1799).
+p14
+sVE
+p15
+VMaria (Sophie?) (Karlovna), geb. Amburger (1776-1855)
+p16
+sVName
+p17
+(dp18
+S'Vornamen'
+p19
+VGeorg Nikolaus
+p20
+sS'Nachname'
+p21
+VWeikard
+p22
+ssVG
+p23
+VAdam Melchior Weikard (1742-1803), Hof- und Leibarzt, Philosoph\u000a        Anna Sidonia, verh. Merz, Mutter von Johann(es) Jakob Balthasar #internNameLink#30434#endNameNr#Merz#/internNameLink#
+p24
+sVNamensvariationen
+p25
+(lp26
+(dp27
+g6
+VWEIKART
+p28
+sS'countyCode'
+p29
+g12
+sa(dp30
+g6
+VWEICHARD
+p31
+sg29
+g12
+sa(dp32
+g6
+VVEJKARDT
+p33
+sg29
+g12
+sa(dp34
+g6
+VBE\u0419KAP\u0414
+p35
+sg29
+g9
+sa(dp36
+g6
+VBE\u0419KAP\u0414T
+p37
+sg29
+g9
+sasVM
+p38
+VSabina Franziska, geb. Kluberdanz (1719-1758)
+p39
+sVMG
+p40
+VAnglijskij klub [Englischer Club in St. Petersburg] (1787-1806).
+p41
+sVN
+p42
+VSophie (Egorovna), verh. Poggenpohl (1798-1879)\u000a        Georg Karl (Egor Egorovi\u010d) (1800-1865?), Stabskapitän, zuletzt Zollbeamter\u000a        Alexander (Egorovi\u010d) (1804-1855), Chef des Dienstkommandos im Außenministerium
+p43
+sVGeburtsdaten
+p44
+(dp45
+S'Ort'
+p46
+VRömershag in Franken
+p47
+sS'Datum'
+p48
+V6.3.1756
+p49
+ssVSterbedaten
+p50
+(dp51
+g46
+VSt. Petersburg
+p52
+sg48
+V7./19.6.1810
+p53
+ssVV
+p54
+VJohann Nikolaus (1719-1796), Gastwirt
+p55
+sVID
+p56
+V30467
+p57
+sVSL
+p58
+(dp59
+S'general'
+p60
+(lp61
+VAmburger, Erik: Deutsche in Staat, Wirtschaft und Gesellschaft Russlands. Die Familie Amburger in St. Petersburg 1770-1920. Wiesbaden 1986, 69-76, 198, 269.
+p62
+aVEAD: Dokument-Id [62602/62162 und 1037255 (13.8.2010)].
+p63
+assVBerufe
+p64
+(lp65
+VHofarzt
+p66
+aVLeibmedikus
+p67
+asVQuelle
+p68
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 269.</i>
+p69
+s.

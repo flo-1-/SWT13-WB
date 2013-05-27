@@ -1,0 +1,122 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<GeneralLabor/Kinderchirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Kinderchirurg" .
+
+<MainName/30225hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30225hasNameVariation1> ;
+	rdfs:label "Dombrowsky, Xaver Julius (von)" .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<Place/Friedrichstadt>
+	a drw-model:Place ;
+	rdfs:label "Friedrichstadt" .
+
+<ImportantPerson/30225>
+	drw-model:wasBornOn <Date/10_or_22_5_1852> ;
+	drw-model:hasW <W/30225hasW1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Ehrenleibchirurg> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30225.jpg> ;
+	drw-model:wasBornIn <Place/Friedrichstadt> ;
+	drw-model:diedOn <Date/19_12_1921> ;
+	drw-model:fatherIs <RelatedPerson/30225fatherIs1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Kinderchirurg> ;
+	drw-model:hasSL <SL/30225hasSL2> ;
+	drw-model:hasW <W/30225hasW2> ;
+	drw-model:hasMainName <MainName/30225hasMainName1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:hasMG <MG/30225hasMG1> ;
+	drw-model:hasP <P/30225hasP1> ;
+	drw-model:hasID "30225" ;
+	drw-model:hasSL <SL/30225hasSL1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <A/30225hasEducation1> ;
+	drw-model:hasStationOfLife <B/30225hasStationOfLife1> ;
+	drw-model:diedIn <Place/Petrograd> ;
+	rdfs:label "Dombrowsky, Xaver Julius (von)" ;
+	drw-model:motherIs <RelatedPerson/30225motherIs1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30225wasMarriedTo1> ;
+	drw-model:hasSL <SL/30225hasSL3> .
+
+<GeneralLabor/Ehrenleibchirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ehrenleibchirurg" .
+
+<MG/30225hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Verein der St. Petersburger Ärzte (ab 1883 und 1921-1922 letzter Präsident), Deutscher ärztlicher Verein in St. Petersburg (ab 1886)." .
+
+<RelatedPerson/30225fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Peter, Postmeister" .
+
+<B/30225hasStationOfLife1>
+	rdfs:label "1880-1881 Assistent an der Chirurgischen Klinik in Dorpat, 1882 Studien in Heidelberg, Wien, Berlin und Paris, 1883-1895 Assistenzarzt am Peter-Paul-Hospital und 1895-1905 Oberarzt am \"Kinderhospital des Prinzen von Oldenburg\" in St. Petersburg, ab 1904 \"Ehrenleibchirurg\" am Hofe des Zaren NIKOLAJ II. (1868-1918), zugleich 1904-1906 Chefarzt des \"Lazaretts der Zarin Aleksandra Fëdorovna\" in Carskoe Selo, 1905-1920 Oberarzt am \"Aleksandr-Börsenbarackenkrankenhaus\", 1920-1921 Direktor des Deutschen Alexander-Hospitals in St. Petersburg, bzw. (ab 1914) in Petrograd.
+Inhaber der Ehrentitel \"Wirklicher russischer Staatsrat\", Träger des St.-Annen-Ordens 2. Klasse, des St.-Stanislav-Ordens 2. Klasse, des St.-Vladimir-Ordens 3. (4.?) Klasse sowie der Gedenkmedaille \"300 Jahre Romanov-Dynastie\" (1913).
+" ;
+	a drw-model:B .
+
+<W/30225hasW1>
+	a drw-model:W ;
+	rdfs:label "Zur orthopädischen Behandlung der fungösen Gelenkkrankheiten und Fracturen an den unteren Extremitäten. Diss. Dorpat 1881, 71 S." .
+
+<P/30225hasP1>
+	rdfs:label "Foto aus: Šustov, A. S. (Hg.): Naši dejateli po medicine. S.-Peterburg 1910 (Illjustrirovannyj vestnik kul'tury, naučno-vospitatel'nago, techničeskago i torgovo-promyšlennago progressa Rossii 1). Abgedruckt in: Fischer 2010, 69." ;
+	a drw-model:P .
+
+<SL/30225hasSL3>
+	rdfs:label "WBIS BaBA: I 66, 386-387; RBA: R 165, 317." ;
+	a drw-model:SL .
+
+<SL/30225hasSL1>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [3357/3303 (27.7.2010)]." .
+
+<RelatedPerson/30225wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ellinor Josephine Henriette Eleonore, geb. Baronesse Girard de Soucanton (1860-1923)" .
+
+<W/30225hasW2>
+	a drw-model:W ;
+	rdfs:label "Mittheilungen aus der Dorpater Chirurgischen Klinik. St. Petersburger medicinische Wochenschrift 6 (1881), 279-283 und 423-427." .
+
+<Date/19_12_1921>
+	a drw-model:Date ;
+	rdfs:label "19.12.1921" .
+
+<Date/10_or_22_5_1852>
+	rdfs:label "10./22.5.1852" ;
+	a drw-model:Date .
+
+<SL/30225hasSL2>
+	rdfs:label "Pridvornyj kalendar': na 1910 god. S.-Peterburg [o. J.], 294; ~ 1911, 305; ~ 1913, 322; ~ 1914, 404." ;
+	a drw-model:SL .
+
+<A/30225hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1864-1871 Besuch des Gouvernement-Gymnasiums in Mitau, 1873-1880 Studium der Medizin und 1880 Dr. med. an der Universität Dorpat." .
+
+<RelatedPerson/30225motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Dorothea, geb. Jeschke" .
+
+<NameVariation/30225hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "DOMBROWSKI" .
+
+<Place/Petrograd>
+	a drw-model:Place ;
+	rdfs:label "Petrograd" .
+

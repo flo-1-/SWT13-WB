@@ -1,0 +1,138 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Q/30424hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Goetz von Selle (Hg.): Die Matrikel der Georg-August-Universität Göttingen. Bd. [1]: 1734-1837. Hildesheim 1937, 195, Nr. 9124." .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<NameVariation/30424hasNameVariation2>
+	rdfs:label "Kasimir" ;
+	a drw-model:NameVariation .
+
+<WInformation/30424hasWInformation1>
+	rdfs:label "Observationes de cancro mammarum. Dissertation. Göttingen 1777, 27 S. Online Ressource Online Ressource (4.4.2012)." ;
+	a drw-model:WInformation ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10854509_00003.html" .
+
+<RelatedPerson/30424fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann Jakob (Ivan Jakovlevič) (1708-1780), Militärarzt und Stadtphysikus in Moskau und St. Petersburg" .
+
+<GeneralLabor/Hofarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hofarzt" .
+
+<SL/30424hasSL1>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument Id[ 62495/62055 (8.10.2010)." .
+
+<SL/30424hasSL3>
+	a drw-model:SL ;
+	rdfs:label "RBS. Bd. [10] (1914), 317." .
+
+<Place/Moskau>
+	a drw-model:Place ;
+	rdfs:label "Moskau" .
+
+<Date/13_or_24_10_1749>
+	rdfs:label "13./24.10.1749" ;
+	a drw-model:Date .
+
+<MainName/30424hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30424hasNameVariation4> ;
+	drw-model:hasNameVariation <NameVariation/30424hasNameVariation1> ;
+	a drw-model:MainName ;
+	rdfs:label "Lerche, Christoph Casimir (von)" ;
+	drw-model:hasNameVariation <NameVariation/30424hasNameVariation3> ;
+	drw-model:hasNameVariation <NameVariation/30424hasNameVariation2> .
+
+<RelatedPerson/30424motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johanna Gertrud (Olympe), geb. Possiet (* 1714)" .
+
+<NameVariation/30424hasNameVariation3>
+	rdfs:label "Kazimir-Christofor" ;
+	a drw-model:NameVariation .
+
+<NameVariation/30424hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "LERCH" .
+
+<NameVariation/30424hasNameVariation4>
+	rdfs:label "Kaзимир-Xриcтoфoр" ;
+	a drw-model:NameVariation .
+
+<RelatedPerson/30424hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sophia Helena (* 1789)" .
+
+<ImportantPerson/30424>
+	drw-model:hasMainName <MainName/30424hasMainName1> ;
+	drw-model:hasQ <Q/30424hasQ1> ;
+	drw-model:hasWInformation <WInformation/30424hasWInformation1> ;
+	drw-model:hasSL <SL/30424hasSL3> ;
+	drw-model:wasBornIn <Place/Moskau> ;
+	drw-model:wasBornOn <Date/13_or_24_10_1749> ;
+	drw-model:diedOn <Date/13_or_25_4_oder_15_4_1825> ;
+	drw-model:hasID "30424" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasEducation <A/30424hasEducation1> ;
+	drw-model:hasSL <SL/30424hasSL2> ;
+	drw-model:hasDescendant <RelatedPerson/30424hasDescendant1> ;
+	drw-model:hasSL <SL/30424hasSL1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Hofarzt> ;
+	drw-model:wasMarriedTo <RelatedPerson/30424wasMarriedTo1> ;
+	rdfs:label "Lerche, Christoph Casimir (von)" ;
+	drw-model:hasW <W/30424hasW1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibchirurg> ;
+	drw-model:motherIs <RelatedPerson/30424motherIs1> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasStationOfLife <B/30424hasStationOfLife1> ;
+	drw-model:fatherIs <RelatedPerson/30424fatherIs1> ;
+	a drw-model:ImportantPerson .
+
+<W/30424hasW1>
+	rdfs:label "Observationes de cancro mammarum. Dissertation. Göttingen 1777, 27 S. Online Ressource Online Ressource (4.4.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10854509_00003.html" ;
+	a drw-model:W .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<SL/30424hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Peterburgskij nekropol'. Bd. 2 (1912), 655." .
+
+<A/30424hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch der Petri-Schule in St. Petersburg, ab 1764 der Fürstenschule in Neustadt an der Aisch in Bayern,*) ab 1771 medizinische Ausbildung in Berlin, ab 1772 Beginn des Medizinstudiums in Göttingen, ab 1774 in Straßburg, 1777 Dr. med. et chir. in Göttingen, ab 1778 als Arzt in Russland zugelassen.
+*) Lerch(e)s Onkel Johann Christian Lerche (1691-1768) war Superintendent an der Fürstenschule. Durch die Vermittlung über seinen Bruder Johann Jakob (s.o.) kamen etwa 50 Schüler aus Riga (Livland) und St. Petersburg nach Neustadt. Vgl. August Wolfschmidt: Die Matrikel der Fürstenschule Neustadt an der Aisch. Zeitschrift für bayerische Kirchengeschichte 55 (1986), 24, 38." .
+
+<RelatedPerson/30424wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sophia Ulrika, geb. Hosenfelder" .
+
+<Date/13_or_25_4_oder_15_4_1825>
+	rdfs:label "13./25.4. oder 15.4.1825" ;
+	a drw-model:Date .
+
+<GeneralLabor/Leibchirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibchirurg" .
+
+<B/30424hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "Militärarzt der St. Petersburger Division, u.a. in Wiburg, Generalstabschirurg der Finnländischen Armee, Generalstabsarzt des Saltykov-Korps an der Dvina und ab 1795 in St. Petersburg und Finnland, 1797 zum Hofstaat des Großfürsten und späteren Zaren ALEKSANDR PAVLOVIČ (1777-1825) beordert, 1799-1802(?) Hofarzt und ab 1809 Leibchirurg am Hofe des Zaren ALEKSANDR I.
+Inhaber der Ehrentitel \"Hofrat\", \"Kollegienrat\" (1797), \"Staatsrat\" (1799)." .
+

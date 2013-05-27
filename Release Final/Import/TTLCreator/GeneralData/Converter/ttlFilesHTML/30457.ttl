@@ -1,0 +1,134 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30457hasSL2>
+	rdfs:label "EAD: Dokument-Id [78075/76472 (10.8.2010)]." ;
+	a drw-model:SL .
+
+<W/30457hasW1>
+	rdfs:label "Zapiska o bolezni i smerti poėta. In: Pavel Eliseevič Ščegolev: Duėl' i smert' Puškina. Issledovanie i materialy. Moskva, Leningrad 1928, 199-200." ;
+	a drw-model:W .
+
+<MainName/30457hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Scholz, August Wilhelm (von)" ;
+	drw-model:hasNameVariation <NameVariation/30457hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30457hasNameVariation1> .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<ImportantPerson/30030>
+	a drw-model:ImportantPerson .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<SL/30457hasSL4>
+	rdfs:label "Nemcy Rossii. Bd. 2 (2004), 426." ;
+	a drw-model:SL .
+
+<SL/30457hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Čerejskij, Lazar' A.: Puškin i ego okruženie. Leningrad 1975, 478." .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<Date/16_12_1798>
+	a drw-model:Date ;
+	rdfs:label "16.12.1798" .
+
+<WInformation/30457hasWInformation1>
+	a drw-model:WInformation ;
+	rdfs:label "Zapiska o bolezni i smerti poėta. In: Pavel Eliseevič Ščegolev: Duėl' i smert' Puškina. Issledovanie i materialy. Moskva, Leningrad 1928, 199-200." .
+
+<Place/Wesenberg>
+	a drw-model:Place ;
+	rdfs:label "Wesenberg" .
+
+<NameVariation/30457hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Вacилий" .
+
+<RelatedPerson/30457hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Marie Dorothea (Vil'gel'movna), verh. Rosen (1824-1899), Vorsteherin des Pavlovsker Fräulein-Stifts<br>        Wilhelm Christoph (Vasilij Vil'gel'movič) (1829-1913), Offizier, Chef eines Militärlazaretts<br>        Nikolai Georg (Vil'gel'movič) (1835-1877), Kanzleidirektor in einem Kinderasyl<br>        Emil August Karl Ludwig (Vil'gel'movič) (1841-1913), Senator" .
+
+<RelatedPerson/30457fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Wilhelm Gottlieb, Buchhalter" .
+
+<RelatedPerson/30457wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johanna Wilhelmine, geb. Mickwitz (1801-1872)" .
+
+<A/30457hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Studium und 1818 Arzt-Examen \"Medico-Chirurg\", später auch Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg." .
+
+<SL/30457hasSL5>
+	rdfs:label "Schrader, Tat'jana A.: Der Beitrag deutscher Ärzte zur Entwicklung der Krankenhäuser in St. Petersburg im 19. Jahrhundert. In: Ingrid Kästner, Regine Pfrepper (Hgg.): Medizin und Pharmazie im 18. und 19. Jahrhundert. Beiträge zur Geschichte der Wissenschaftsbeziehungen zwischen Deutschland und dem Russischen Reich. Aachen 2000 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaft 2), 129-138." ;
+	a drw-model:SL .
+
+<RelatedPerson/30457motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sophie Wilhelmine, geb. Meiser" .
+
+<Date/31_3_1860>
+	a drw-model:Date ;
+	rdfs:label "31.3.1860" .
+
+<SL/30457hasSL3>
+	rdfs:label "Lenz, Wilhelm (Hg.): Deutschbaltisches biographisches Lexikon 1710-1960. Köln, Wien 1970, 695-696." ;
+	a drw-model:SL .
+
+<ImportantPerson/30457>
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	drw-model:hasDescendant <RelatedPerson/30457hasDescendant1> ;
+	drw-model:wasBornIn <Place/Wesenberg> ;
+	drw-model:hasMainName <MainName/30457hasMainName1> ;
+	rdfs:label "Scholz, August Wilhelm (von)" ;
+	drw-model:hasSL <SL/30457hasSL4> ;
+	drw-model:hasSL <SL/30457hasSL1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:fatherIs <RelatedPerson/30457fatherIs1> ;
+	drw-model:motherIs <RelatedPerson/30457motherIs1> ;
+	drw-model:hasW <W/30457hasW1> ;
+	drw-model:hasMG <MG/30457hasMG1> ;
+	drw-model:hasStationOfLife <B/30457hasStationOfLife1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30457wasMarriedTo1> ;
+	drw-model:hasSL <SL/30457hasSL3> ;
+	a drw-model:ImportantPerson ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasID "30457" ;
+	drw-model:wasBornOn <Date/16_12_1798> ;
+	drw-model:hasSL <SL/30457hasSL2> ;
+	drw-model:hasEducation <A/30457hasEducation1> ;
+	drw-model:hasWInformation <WInformation/30457hasWInformation1> ;
+	drw-model:hasSL <SL/30457hasSL5> ;
+	drw-model:diedOn <Date/31_3_1860> .
+
+<B/30457hasStationOfLife1>
+	drw-model:hasNameLink <ImportantPerson/30030> ;
+	a drw-model:B ;
+	rdfs:label "Ab 1818 im Staatsdienst, 1822-1825 Repetitor, ab 1825 Professor für Geburtshilfe im \"Kaiserlichen Klinischen Institut für Geburtshilfe\" in St. Petersburg, 1837 behandelnder Arzt, gemeinsam mit Nikolaus Martin von <span style='font-variant:small-caps;'>ARENDT</span> und anderen Ärzten, des im Duell mit Georges-Charles D'ANTH ÈS [de Heeckeren] (1812-1895) verwundeten Aleksandr Sergeevič PUŠKIN (1799-1837), 1840-1852 Direktor der Entbindungsanstalt des Findelhauses, 1844(oder 1845)-1860 Leibgeburtshelfer am Zarenhof, ab 1848 Leibarzt der Großfürstin MARIJA NIKOLAEVNA (1819-1876) und ihrer Kinder, zugleich ab 1850 Konsultant im Maksimilian-Krankenhaus in St. Petersburg, ab 1859 \"Ehrenleibmedikus\" beim Zaren ALEKSANDR II. (1818-1881).
+        Inhaber des russischen Adelsdiploms (ab 1837) und der Ehrentitel \"Kollegienassessor\" (1835), \"Hofrat\", \"Staatsrat\" (1845), \"Wirklicher Russischer Staatsrat\" (1847)." .
+
+<NameVariation/30457hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Vasilij" .
+
+<MG/30457hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Deutscher ärztlicher Verein in St. Petersburg (ab 1834)." .
+

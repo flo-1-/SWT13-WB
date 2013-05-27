@@ -1,0 +1,120 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<RelatedPerson/30258fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Nikolaus, Gutsbesitzer" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<ImportantPerson/30258>
+	drw-model:hasEducation <A/30258hasEducation1> ;
+	drw-model:fatherIs <RelatedPerson/30258fatherIs1> ;
+	drw-model:wasBornIn <Place/Uman_Gouvernement_Kiev> ;
+	drw-model:hasSL <SL/30258hasSL2> ;
+	drw-model:diedOn <Date/8_or_20_11_1890> ;
+	rdfs:label "Etlinger, Wilhelm Rudolf von" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:wasMarriedTo <RelatedPerson/30258wasMarriedTo1> ;
+	drw-model:hasWL <WL/30258hasWL1> ;
+	drw-model:hasSL <SL/30258hasSL3> ;
+	drw-model:hasStationOfLife <B/30258hasStationOfLife1> ;
+	drw-model:hasID "30258" ;
+	drw-model:hasDescendant <RelatedPerson/30258hasDescendant1> ;
+	drw-model:hasW <W/30258hasW1> ;
+	drw-model:hasSL <SL/30258hasSL1> ;
+	drw-model:hasWInformation <WInformation/30258hasWInformation1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasMG <MG/30258hasMG1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Gynkologe> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibgeburtshelfer> ;
+	drw-model:hasMainName <MainName/30258hasMainName1> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:wasBornOn <Date/14_or_26_3_oder_15_3_1819_oder> ;
+	drw-model:hasQ <Q/30258hasQ1> .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<RelatedPerson/30258wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Edmonde Georgine Gottliebe, geb. Baronesse Fölkersam (1836-1918)" .
+
+<W/30258hasW1>
+	rdfs:label "Observationes obstetriciae per tredecim menses in clinico Bonnensi institutae, adiectis adnotationibus epicriticis. Dissertation. Bonn 1844, 60 S." ;
+	a drw-model:W .
+
+<Date/8_or_20_11_1890>
+	a drw-model:Date ;
+	rdfs:label "8./20.11.1890" .
+
+<WInformation/30258hasWInformation1>
+	rdfs:label "Observationes obstetriciae per tredecim menses in clinico Bonnensi institutae, adiectis adnotationibus epicriticis. Dissertation. Bonn 1844, 60 S." ;
+	a drw-model:WInformation .
+
+<SL/30258hasSL3>
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA: R 523, 65-67." .
+
+<MainName/30258hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Etlinger, Wilhelm Rudolf von" .
+
+<Q/30258hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Rheinische Friedrich-Wilhelms-Universität Bonn, Universitätsarchiv: Immatrikulationsalbum 1841: Signatur UAB AB 03, Nr. 171; Promotionsalbum 1843: Signatur UAB AB 41 (Promotionstag: 4. Juni 1844). Auszug aus dem Immatrikulationsalbum des Universitätsarchivs Bonn (Nr. 171, jeweils letzte Zeile) abgedruckt in: Fischer 2010, 87. Schriftliche Mitteilung und Scans zugesandt am 1.7.2010." .
+
+<SL/30258hasSL1>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [59815/94077 (27.7.2010)]." .
+
+<A/30258hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Bis 1836 Besuch des Richelieu-Gymnasiums in Odessa, 1836-1840 Studium der Medizin an der Universität Berlin, 1841-1842 an der Universität Bonn und 1844 Dr. med. in Bonn, 1845 Examen zum Arzt 1. Klasse an der Universität Dorpat." .
+
+<Place/Uman_Gouvernement_Kiev>
+	a drw-model:Place ;
+	rdfs:label "Uman', Gouvernement Kiev" .
+
+<Date/14_or_26_3_oder_15_3_1819_oder>
+	a drw-model:Date ;
+	rdfs:label "14./26.3. oder 15.3.1819 oder 15.3.1818" .
+
+<WL/30258hasWL1>
+	rdfs:label "Unter seiner Leitung wurde das Hebammeninstitut in St. Petersburg zur ersten geburtshilflichen Ausbildungsstätte in Russland." ;
+	a drw-model:WL .
+
+<SL/30258hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Peterburgskij nekropol'. Bd. 4 (1913), 656." .
+
+<GeneralLabor/Leibgeburtshelfer>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibgeburtshelfer" .
+
+<GeneralLabor/Gynkologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Gynäkologe" .
+
+<RelatedPerson/30258hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Sophie Elisabeth (Vil'gel'movna), gesch. Fölkersam, verh. Neander (1867-1944)<br>Esther Gottlieb (Vil'gel'movna), verh. von Obermüller (1872-1916)<br>Eugenie Agnes (Vil'gel'movna), verh. von Etlinger" .
+
+<B/30258hasStationOfLife1>
+	rdfs:label "1842-1844 Assistent an der gynäkologischen Klinik bei Hermann Friedrich KILIAN (1800-1863) an der Universität Bonn, 1845-1850 Ordinator und Professor und 1850[nicht 1870]-1874 Direktor des \"Hebammeninstituts der Großfürstin Elena Pavlovna\" in St. Petersburg, zugleich 1845-1890 praktischer Arzt in St. Petersburg, ab 1874 beratendes Mitglied des Medizinalrats des Ministeriums des Innern, ab 1879 Leibgeburtshelfer am Zarenhof und der Großfürstin MARIJA PAVLOVNA, geb. MARIE ZU MECKLENBURG[-SCHWERIN] (1854-1920).
+Inhaber der Ehrentitel \"Wirklicher Russischer Staatsrat\" (1867) und \"Geheimrat\" (1882)." ;
+	a drw-model:B .
+
+<MG/30258hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Verein St. Petersburger Ärzte (Stifter und ab 1874 Ehrenmitglied), Deutscher ärztlicher Verein in St. Petersburg (ab 1864 und ab 1874 Ehrenmitglied)." .
+

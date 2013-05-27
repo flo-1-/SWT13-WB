@@ -1,0 +1,269 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Date/3_or_15_3_1870>
+	a drw-model:Date ;
+	rdfs:label "3./15.3.1870" .
+
+<SL/30980hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 241-243." .
+
+<W/30980hasW2>
+	a drw-model:W ;
+	rdfs:label "[Red.] Ėnciklopedija mediciny. Lekcii, čitannye prof. L’vom Zacharovičem Morochovcom 1896/97 akademičeskogo goda. Moskva [1897], 116 S." .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Year/1896>
+	rdfs:label "1896" ;
+	a drw-model:Year .
+
+<Comment/30980_1>
+	drw-model:hasDate "29.3.2011" ;
+	<http://xmlns.com/foaf/0.1/homepage> <http://www.ahleague.ru/index.php?option=com_content&amp;view=article&amp;id=351&amp;Itemid=213&amp;lang=en> ;
+	a drw-model:Comment ;
+	rdfs:label "Vgl. Texte zu Portraits unter den URL-Adressen in P, Russische Staatsbibliothek: [ФБ Осн. хран.] U 426/122, und (Online Ressource)." .
+
+<ImportantPerson/30807>
+	a drw-model:ImportantPerson .
+
+<W/30980hasW4>
+	rdfs:label "Slučaj ostrogo korsakovskogo psichoza u alkagolika pri piėmii. Medicinskoe obozrenie (1900) Oktober-Nr., 10 S." ;
+	a drw-model:W .
+
+<A/30980hasEducation3>
+	a drw-model:A ;
+	rdfs:label "Studium an der Medizinischen Fakultät der Universität Kiev bei Vladimir Valerianovič <span style='font-variant:small-caps;'>Podvysockij</span> (1857-1913)" ;
+	drw-model:began <Year/1889> ;
+	drw-model:ended <Year/1894> ;
+	drw-model:hasNameLink <ImportantPerson/30807> .
+
+<B/30980hasStationOfLife5>
+	drw-model:inYear <Year/1910> ;
+	rdfs:label "Mitgründer (zusammen mit Aleksandr Borisovič <span style='font-variant:small-caps;'>Izačik</span>, *1871) des privaten Medizinischen Fraueninstituts in Moskau und Leiter des Lehrstuhls für Physiologie" ;
+	a drw-model:B .
+
+<W/30980hasW6>
+	rdfs:label "Gal’vanotropizm i gal’vanotaksis životnych. Diss. Moskva 1903, 160 S." ;
+	a drw-model:W .
+
+<B/30980hasStationOfLife1>
+	rdfs:label "Mitarbeiter am Physiologischen Institut und externer Mitarbeiter an der Psychiatrischen Klinik von Sergej Sergeevič <span style='font-variant:small-caps;'>Korsakov</span> (1854-1900) an der Universität Moskau" ;
+	drw-model:began <Year/1894> ;
+	drw-model:ended <Year/1896> ;
+	a drw-model:B .
+
+<ImportantPerson/30732>
+	a drw-model:ImportantPerson .
+
+<B/30980hasStationOfLife7>
+	a drw-model:B .
+
+<A/30980hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch der Griechischen Kommerzschule in Odessa (Ukraine)" ;
+	drw-model:ended <Year/1889> .
+
+<Year/1889>
+	rdfs:label "1889" ;
+	a drw-model:Year .
+
+<WL/30980hasWL1>
+	rdfs:label "Hauptforschungsthema: Galvanotropismus und Galvanotaxis der Ciliata" ;
+	a drw-model:WL .
+
+<RelatedPerson/30980fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Grigorij" .
+
+<B/30980hasStationOfLife2>
+	drw-model:ended <Year/1904> ;
+	rdfs:label "Assistent am Lehrstuhl für Physiologie der Tiere an der Land- und Forstwirtschaftsakademie Petrovskoe-Razumovskoe bei Moskau" ;
+	drw-model:began <Year/1896> ;
+	a drw-model:B .
+
+<Year/1911>
+	rdfs:label "1911" ;
+	a drw-model:Year .
+
+<W/30980hasW1>
+	rdfs:label "Otčego kosti nepronicaemy dlja x-lučej Roentgen’a. Russkij archiv patologii, kliničeskoj mediciny i bakteriologii 1896, 5 S. [mit französischer Zusammenfassung]." ;
+	a drw-model:W .
+
+<P/30980hasP2>
+	rdfs:label "Gruppenfoto (Mitarbeiter des Lehrstuhls für Physiologie des Medizinischen Fraueninstituts 1915/1916), in: (Online Ressource)." ;
+	a drw-model:P ;
+	drw-model:hasDate "29.3.2011" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.rusalbom.ru/photo/default/14618?_path=/photo/default/4220" .
+
+<W/30980hasW9>
+	a drw-model:W ;
+	rdfs:label "[Red. der Übersetzung von: Ernst Lecher: Lehrbuch der Physik für Mediziner und Biologen. Leipzig, Berlin 1912, 451 S.] Ėrnest Lecher: Kurs fiziki dlja medikov i biologov. Moskva 1914, 406 S." .
+
+<Year/1917>
+	rdfs:label "1917" ;
+	a drw-model:Year .
+
+<Place/>
+	a drw-model:Place .
+
+<W/30980hasW7>
+	rdfs:label "Polemičeskie priemy B. Birukova. Po povodu ego stat’i „K teorii gal’vano-taksisa“. Trudy fiziologičeskogo instituta Moskovskogo universiteta 5 (1906) 10, 33 S." ;
+	a drw-model:W .
+
+<Place/Odessa>
+	a drw-model:Place ;
+	rdfs:label "Odessa" .
+
+<A/30980hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Dr. med. am Lehrstuhl für Physiologie der Medizinischen Fakultät der Universität Moskau" ;
+	drw-model:inYear <Year/1904> .
+
+<W/30980hasW3>
+	rdfs:label "Obščedostupnye besedy o čelovečeskom tele. Voskresnye ob-jasnenija kollekcij dlja naroda. Moskva 1898, 43 S." ;
+	a drw-model:W .
+
+<ImportantPerson/30980>
+	drw-model:hasStationOfLife <B/30980hasStationOfLife2> ;
+	drw-model:hasW <W/30980hasW9> ;
+	drw-model:hasWL <WL/30980hasWL1> ;
+	drw-model:hasStationOfLife <B/30980hasStationOfLife3> ;
+	drw-model:hasGPV <GPV/30980hasGPV1> ;
+	drw-model:hasEducation <A/30980hasEducation2> ;
+	drw-model:hasW <W/30980hasW3> ;
+	drw-model:hasEducation <A/30980hasEducation4> ;
+	drw-model:hasStationOfLife <B/30980hasStationOfLife7> ;
+	drw-model:hasP <P/30980hasP2> ;
+	drw-model:wasBornIn <Place/Odessa> ;
+	drw-model:fatherIs <RelatedPerson/30980fatherIs1> ;
+	rdfs:label "Statkevič, Pavel Grigor'evič" ;
+	drw-model:hasStationOfLife <B/30980hasStationOfLife4> ;
+	drw-model:hasP <P/30980hasP1> ;
+	drw-model:hasW <W/30980hasW5> ;
+	drw-model:hasW <W/30980hasW2> ;
+	drw-model:hasW <W/30980hasW8> ;
+	drw-model:hasSL <SL/30980hasSL1> ;
+	drw-model:hasW <W/30980hasW1> ;
+	drw-model:hasWL <WL/30980hasWL2> ;
+	drw-model:hasW <W/30980hasW4> ;
+	drw-model:hasMainName <MainName/30980hasMainName1> ;
+	drw-model:hasStationOfLife <B/30980hasStationOfLife5> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30980" ;
+	drw-model:hasEducation <A/30980hasEducation1> ;
+	drw-model:hasStationOfLife <B/30980hasStationOfLife1> ;
+	drw-model:diedOn <Date/nach_1917> ;
+	drw-model:hasW <W/30980hasW7> ;
+	drw-model:hasSL <SL/30980hasSL3> ;
+	drw-model:hasStationOfLife <B/30980hasStationOfLife6> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30980hasHonoursAndAwards1> ;
+	drw-model:diedIn <Place/> ;
+	drw-model:wasBornOn <Date/3_or_15_3_1870> ;
+	drw-model:hasW <W/30980hasW6> ;
+	drw-model:hasComment <Comment/30980_1> ;
+	drw-model:hasSL <SL/30980hasSL2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Physiologie> ;
+	drw-model:hasEducation <A/30980hasEducation3> .
+
+<W/30980hasW8>
+	a drw-model:W ;
+	rdfs:label "[Übersetzung von: Oscar Hagemann: Lehrbuch der Anatomie und Physiologie der Haustiere. Gemeinfaßliche Belehrung für Studierende der Landwirtschaft und Veterinärmedicin, Landwirte, Tierärzte und Tierbesitzer. Bd. 2: Physiologie der Haus-Säugetiere. Stuttgart 1906, 460 S.] Oskar Gageman: Fiziologija domašnich životnych. Rukovodstvo dlja šatelej sel’sko-chozjastvennych i veterinarnych institutov i dlja sel’skich chozjaev. Sankt-Peterburg 1908, 493 S." .
+
+<W/30980hasW5>
+	a drw-model:W ;
+	rdfs:label "O boleznjach detskogo vozrasta. In: Ėnciklopedija semejnogo vospitanija i obučenija . Bd. 41. Sankt-Peterburg 1901, 64 S." .
+
+<A/30980hasEducation2>
+	a drw-model:A ;
+	drw-model:ended <Year/1889> ;
+	rdfs:label "Abschluss des 2. Gymnasiums in Odessa" .
+
+<B/30980hasStationOfLife4>
+	rdfs:label "Privatdozent am Lehrstuhl für Physiologie der Medizi-nischen Fakultät der Universität Moskau bei L. Z. <span style='font-variant:small-caps;'>Morochovec</span>" ;
+	drw-model:ended <Year/1911> ;
+	drw-model:hasNameLink <ImportantPerson/30732> ;
+	a drw-model:B ;
+	drw-model:began <Year/1904> .
+
+<HonoursAndAwards/30980hasHonoursAndAwards1>
+	rdfs:label "Das Moskauer Medizinische Fraueninstitut wurde nach seinen Gründern benannt: <i>Ženskij medicinskij institut prof. Statkeviča i p-d Izačika</i>[1]" ;
+	drw-model:hasComment <Comment/30980_1> ;
+	a drw-model:HonoursAndAwards .
+
+<SL/30980hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Volkov, Vladimir Akimovič, Kulikova, Marina Vladimirovna: Moskovskie professora XVIII - načala XX vekov. Estestvennye i techničeskie nauki. Moskva 2003, 225." .
+
+<SL/30980hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 420." .
+
+<Date/nach_1917>
+	a drw-model:Date ;
+	rdfs:label "nach 1917" .
+
+<Year/1910>
+	rdfs:label "1910" ;
+	a drw-model:Year .
+
+<B/30980hasStationOfLife3>
+	drw-model:ended <Year/1904> ;
+	drw-model:began <Year/1900> ;
+	a drw-model:B ;
+	rdfs:label "zugleich außerplanmäßiger Assistent am Physiologischen Institut der Universität Moskau" .
+
+<GeneralLabor/Professor_fr_Physiologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<P/30980hasP1>
+	rdfs:label "Foto um 1915/16 [am Schreibtisch sitzend], in: (Online Ressource)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.rusalbom.ru/photo/default/22643" ;
+	a drw-model:P ;
+	drw-model:hasDate "19.6.2012" .
+
+<GPV/30980hasGPV1>
+	rdfs:label "Deutschsprachige und in deutschen Zeitschriften referierte russische Publikationen 1894-1907, in: Pfrepper 2009 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<B/30980hasStationOfLife6>
+	rdfs:label "ao. Professor für Physiologie an der Medizinischen Fakultät der Universität Moskau" ;
+	drw-model:ended <Year/1917> ;
+	drw-model:began <Year/1912> ;
+	a drw-model:B .
+
+<NameVariation/30980hasNameVariation1>
+	rdfs:label "Statkewitsch, Paul"@de ;
+	a drw-model:NameVariation .
+
+<MainName/30980hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Statkevič, Pavel Grigor'evič" ;
+	drw-model:hasNameVariation <NameVariation/30980hasNameVariation1> .
+
+<Year/1904>
+	rdfs:label "1904" ;
+	a drw-model:Year .
+
+<Year/1894>
+	rdfs:label "1894" ;
+	a drw-model:Year .
+
+<Year/1900>
+	rdfs:label "1900" ;
+	a drw-model:Year .
+
+<Year/1912>
+	rdfs:label "1912" ;
+	a drw-model:Year .
+
+<WL/30980hasWL2>
+	rdfs:label "Verfasser von 10 Arbeiten in deutscher Sprache (vgl. <b>GPV</b>) und einer Übersetzung aus dem Deutschen (vgl. <b>W</b>)" ;
+	a drw-model:WL .
+

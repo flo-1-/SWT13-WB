@@ -1,0 +1,172 @@
+(dp0
+VPortraittext
+p1
+VPortrait aus: Professora MCA/VMA (SL). Abgedruckt in: Fischer 2010, 169.
+p2
+sVA
+p3
+VBis 1789 Besuch eines Privatpensionats und 1798-1804 Apothekenlehre in der Stadtapotheke in Vjatka, 1804 Examen zum Apothekergehilfen in Poltava und 1806 zum Provisor in Moskau, 1808-1812 Studium mit dem Abschluss "Arzt 1. Klasse" an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg, dort 1821 Promotion zum Dr. med.
+p4
+sVName russisch
+p5
+(lp6
+(dp7
+S'name'
+p8
+V\u041dE\u041b\u042e\u0411\u0418\u041d, A\u043be\u043aca\u043d\u0434\u0440 \u041fe\u0442\u0440o\u0432\u0438\u0447
+p9
+sS'countryCode'
+p10
+S'ru'
+p11
+sasVB
+p12
+V1804-1808 Pharmazeut im Amt für öffentliche Fürsorge in Poltava, während des Studiums an der MCA Apothekergehilfe an der tierärztlichen Lehranstalt und Laborant bei Professor für Pharmazie Timofej Andreevi\u010d SMELOVSKIJ (1772-1815), 1812-1816 Adjunkt-Professor, 1816 bis 1844 Professor, ab 1821 Lehrstuhl für Pharmazie, zugleich 1824-1829 Professor für Pharmakologie, Rezeptur und Botanik an der MCA, 1838 "Verdienter Professor", zeitweise (Dez. 1838 bis Jan. 1839 und Juni bis Nov. 1851) Präsident der MCA, zugleich ab 1815 Ordinator und 1844-1858 Chefarzt des St. Petersburger Militärlandhospitals Nr. 2, ab 1816 auch Geburtshelfer und 1817-1831 Stadtgeburtshelfer im St. Petersburger Stadtteil Vyborg, 1822-1823 zu Untersuchungen von Mineralwässern in den Kaukasus gesandt, 1830-1857 Hofmedikus des VII. Hofbezirkes, 1830-1832 aktive Teilnahme an der Bekämpfung der Choleraepidemie in St. Petersburg, 1831-1841 wissenschaftlicher Sekretär des Medizinalrats, 1831-1837 Vize-Direktor des Medizinaldepartements.\u000aInhaber der Titel "Kollegienrat und "Staatsrat", Ritter mehrerer Orden, darunter St.-Vladimir-Orden 4. Klasse.\u000aNach ihm ist die Straße <i>Ulica imeni Neljubina</i> in Essentuki benannt.
+p13
+sVName
+p14
+(dp15
+S'Vornamen'
+p16
+VAleksandr Petrovi\u010d
+p17
+sS'Nachname'
+p18
+VNeljubin
+p19
+ssVQuelle
+p20
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 169-171.</i>
+p21
+sVportraitURL
+p22
+V30437.jpg
+p23
+sVNamensvariationen
+p24
+(lp25
+(dp26
+g8
+VAlexander Petrowitsch
+p27
+sS'countyCode'
+p28
+S'de'
+p29
+sa(dp30
+g8
+VAleksej
+p31
+sg28
+g29
+sa(dp32
+g8
+VA\u043be\u043ace\u0439
+p33
+sg28
+g11
+sasVMG
+p34
+VMediko-chirurgi\u010deskaja Akademija [Mediko-chirurgische Akademie] (1831), Sankt-Peterburgskoe farmacevti\u010deskoe ob\u0161\u010destvo [Pharmazeutische Gesellschaft zu St. Petersburg] (1832-1844 Vorsitzender), Ob\u0161\u010destvo russkich vra\u010dej [Gesellschaft russischer Ärzte], Mineralogi\u010deskoe ob\u0161\u010destvo [Mineralogische Gesellschaft], Moskovskoe ob\u0161\u010destvo ispytatelej prirody [Gesellschaft der Naturforscher zu Moskau], Physikalisch-Medizinische Gesellschaft (Societas physico-medica) zu Würzburg, Verein studierender Pharmazeuten an der Königlichen Universität zu München (Ehrenmitglied ab 1839), Linnean Society of London, Académie des sciences Paris u.a.
+p35
+sVQ
+p36
+(lp37
+VBrief von Apotheker Grassmann/St. Petersburg. In: Der Briefwechsel von Johann Bartholomäus Trommsdorff (1770-1837). Bearb. v. Wolfgang Götz, Christoph Friedrich, Hartmut Bettin. Halle (Saale) 1999 (Acta historica Leopoldina 18, 4), 95-100.
+p38
+asVWL
+p39
+VMitbegründer der Pharmakologie und der Pharmakologenschule in Russland.\u000aUntersuchte (1823) und beschrieb (1825) Mineralwasserquellen im Nordkaukasus, entdeckte neue Quellen - in \u017deleznovodsk ist eine nach ihm benannt: <i>Neljubinskij isto\u010dnik</i> ["Neljubin-Quelle"], wies auf die therapeutische Wirkung der Quellen hin, verwendete das "Neljubin-Wasser" zur Blutstillung, schlug 1827 die Verwendung von Bleichmittel-Lösung zur Desinfektion des Wassers, der Räumlichkeiten und der Hände vor der Operation vor, verbesserte Methoden zur Herstellung einiger Drogen sowie der Apparate zur Herstellung von Schwefeläther u.a.
+p40
+sVP
+p41
+(lp42
+VPortrait aus: Professora MCA/VMA (<b>SL</b>). Abgedruckt in: Fischer 2010, 169.
+p43
+aVPortrait, http://kmvtut.ru/dostop/nelubin.jpg Online Ressource (4.4.2012).
+p44
+asVGeburtsdaten
+p45
+(dp46
+S'Ort'
+p47
+VVjatka
+p48
+sS'Datum'
+p49
+V26.8.1785
+p50
+ssVSterbedaten
+p51
+(dp52
+g47
+VSt. Petersburg
+p53
+sg49
+V6.9.1858
+p54
+ssVW
+p55
+(dp56
+S'letzteZeile'
+p57
+VÜber einige seiner Werke und die Wasseranalysen wurde in zahlreichen deutschen Zeitschriften referiert, z.B. in: <i>Bibliothek der practischen Heilkunde</i> 58 (1827), 32, 39, 40, <i>Neues Journal der Pharmacie für Ärzte, Apotheker und Chemiker</i> 16 (1828), 274-280, <i>Repertorium für die Pharmazie</i> 30 (1830), 385, sowie in Franz Simon: Die Heilquellen Europa's, mit vorzüglicher Berücksichtigung ihrer chemischen Zusammensetzung. Berlin 1839, 118-121, u.a.
+p58
+sS'general'
+p59
+(lp60
+VTractatus de origine et generatione in natura, atque artificiali compositione ammonii, nec non veris constitutivis illius partibus per novissima experimenta comprobatis. Dissertation. S.-Peterburg 1822.
+p61
+aVPolnoe istori\u010deskoe, mediko-topografi\u010deskoe, fiziko-chimi\u010deskoe i vra\u010debnoe opisanie Kavkazskich mineral'nych vod. S.-Peterburg 1825, Teil I: 216 S., Teil II: S. 219-671.
+p62
+aVFarmakografija, ili Chimiko-vra\u010debnye predpisanija prigotovlenija i upotreblenija novej\u0161ich lekarstv. 1.-5. Aufl. S.-Peterburg 1827-1835.
+p63
+aVOb\u0161\u010daja i \u010dastnaja sudebno-medicinskaja i mediko-policejskaja chimija s prisoedineniem ob\u0161\u010dej i \u010dastnoj toksikologii ili nauki o jadach i protivujadnych sredstvach. S.-Peterburg 1851-1852.
+p64
+aVAutor des Vorwortes in der russischen Übersetzung von: Hermann Moses Auerbach: Rademachers Heilmittel, für den Praktiker zusammengestellt. Berlin 1851: Doktora Rademachera specifi\u010deskie i universal'nye vra\u010debnye sredstva, sobrannye dlja prakti\u010deskich vra\u010dej. S.-Peterburg 1853, 10 S.
+p65
+aVDie kaukasischen Mineralquellen in der großen Kabarda und ihre chemische Untersuchung. Archiv für die gesammte Naturlehre 13 (1828), 465-499; 14 (1828), 1-30.
+p66
+aVMeteorologische Beobachtungen angestellt an der großen Kabarda und ihre chemische Untersuchung. Mineralquellen im Jahre 1820. Archiv für die gesammte Naturlehre 14 (1828), 59-65.
+p67
+aVKurze historische Nachricht über die kaukasischen Mineralwässer auf den Fünfbergen (Aus dem Russischen übersetzt von G. W. Grossmann [richtig: Grassmann]). Neues Journal der Pharmacie für Ärzte, Apotheker und Chemiker 16 (1828), 191-199.
+p68
+assVV
+p69
+VPëtr, Kaufmann
+p70
+sVGPV
+p71
+VPublikationen 1822-1855, in: Zmeev. Bd. 1 (1886), 29-31; auch in: WBIS RBA: R 327, 329-332.
+p72
+sVSL
+p73
+(dp74
+g59
+(lp75
+VGennadi. Bd. 3 (1876), 26.
+p76
+aVIstorija Kavkazskich mineral'nych vod. Ot Aleksandra I. do Nikolaja II. http://www.kmv-region.ru/history01/ Online Ressource (7.3.2012).
+p77
+aVIstorija Essentukov. http://www.essentuky-fine.ru/history.html Online Ressource (4.4.2012).
+p78
+aVMineral'nye vody goroda Essentuki. http://www.mwz.kurortinfo.ru/essent.shtm Online Ressource (7.3.2012)
+p79
+aVProfessora MCA/VMA, 45.
+p80
+aVWBIS RBA: R 327, 329-339.
+p81
+assVBerufe
+p82
+(lp83
+VArzt
+p84
+aVProfessor für Pharmazie
+p85
+aVHofmedikus
+p86
+asVID
+p87
+V30437
+p88
+s.

@@ -1,0 +1,156 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Date/26_2_1845_oder_1847>
+	rdfs:label "26.2.1845 oder 1847" ;
+	a drw-model:Date .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<B/30440hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "1869 Arzt im Warschauer Provinzhospital, 1869-1870 Ordinator an der Chirurgischen Klinik der MCA, 1870-1871 Hospitationen in Paris, Brüssel, in militärischen Heilanstalten in Köln und Berlin, 1871 Assistenzarzt des 145. Novočerkasskij-Artillerie-Regiments, 1873-1878 Privat-Dozent, ab 1878 Prosektor, ab 1888-1891 ao. Professor für operative Chirurgie und topographische Anatomie und 1891-1894 für \"Desmurgie\" und \"Mechanurgie\" an der MCA, zugleich ab 1873 Leiter der chirurgischen Abteilungen des Aleksandr-Militärkranken-hauses des Semenovskij-Regiments, ab 1875 Chirurg der Heilig-Kreuz-Gemeinde der Barmherzigen Schwestern, ab 1876 Leiter der Chirurgieabteilung und 1885-1888 Chefarzt des Krankenhauses der Heilig-Dreifaltigkeitsgemeinde der Barmherzigen Schwestern in St. Petersburg, 1877-1878 Lazarettarzt in Montenegro im Russisch-türkischen Krieg, ab 1883 Chefarzt der Chirurgischen Heilanstalt der Aleksandra-Gemeinde der Barmherzigen Schwestern beim Roten Kreuz, ab 1893 Mitglied der Hauptverwaltung des Roten Kreuzes, 1894-1899 Direktor des Marien-Krankenhauses für Arme und ab 1894 auch des Aleksandra-Krankenhauses für Frauen, ab 1895 Leibchirurg am Hofe des Zaren NIKOLAJ II. (1868-1918), 1898-1899 zur Typhus- und Skorbutbekämpfung in die Gouvernements Samara, Ufa und Kazan' delegiert, 1900-1904 Medizinalinspektor der \"Institutionen der Zarin Marija\" und Mitglied des Medizinalrats, während des Russisch-japanischen Krieges 1904 Dozent für Feldchirurgie und 1905 Inspektor aller Verbands- und Sanitätsstätten im Felde, ab 1904 wieder Chefarzt der Chirurgischen Heilanstalt der Aleksandra-Gemeinde der Barmherzigen Schwestern.
+Inhaber des Ehrentitels \"Geheimrat\", des Weißer-Adlerordens, des St.-Vladimir-Ordens 2. Klasse, des St.-Annen-Ordens 1. Klasse, des St.-Stanislav-Ordens 1. Klasse, des Aleksandr-Nevskij-Ordens, des Kommandeurskreuzes 1. Klasse des Ordens Philipps des Großmütigen von Hessen-Darmstadt, der Gedenkmedaille \"300 Jahre Romanov-Dynastie\" von 1913 u.a." .
+
+<W/30440hasW4>
+	rdfs:label "O pol'zovanii avstrijskimi i germanskimi vojskami razryvčatymi puljami vo vremja tekuščej vojny. Russkij vrač 14 (1915) 7, 20 S." ;
+	a drw-model:W .
+
+<SL/30440hasSL5>
+	rdfs:label "Šustov, A. S. (Hg.): Naši dejateli po medicine. S.-Peterburg 1910 (Illjustrirovannyj vestnik kul'tury, naučno-vospitatel'nago, techničeskago i torgovo-promyšlennago progressa Rossii 1)." ;
+	a drw-model:SL .
+
+<P/30440hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto aus: WBIS RBA: R 348, 169 (Afanas'ev, <b>SL</b>). Abgedruckt in: Fischer 2010, 180." .
+
+<W/30440hasW3>
+	rdfs:label "Iz nabljudenij po chirurgičeskim klinikam Zapadnoj Evropy. Trudy Russkogo chirurgičeskogo obščestva Pirogova 1891-1892 (1892), 111-170." ;
+	a drw-model:W .
+
+<W/30440hasW1>
+	rdfs:label "[Übersetzung von: Nikolaus Friedreich: Krankheiten des Herzens. In: Handbuch der speciellen Pathologie und Therapie. Hg. v. Rudolf Virchow. Bd. 5, 2. Abt. Erlangen 1861] Fridrejch: Bolezni serdca. Sankt-Peterburg 1864." ;
+	a drw-model:W .
+
+<WL/30440hasWL2>
+	rdfs:label "1882-1883 Redakteur der Zeitschrift <i>Lipeckij letnij listok</i>." ;
+	a drw-model:WL .
+
+<GPV/30440hasGPV1>
+	rdfs:label "Publikationen 1864-1886, in: Zmeev (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<SL/30440hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Afanas'ev, Nikolaj Ivanovič: Sovremenniki: Al'bom biografij. Bd. 2. [Sankt-Peterburg] 1910; zit. nach WBIS RBA: R 348, 169-173." .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<ImportantPerson/30440>
+	drw-model:hasMG <MG/30440hasMG1> ;
+	drw-model:hasGPV <GPV/30440hasGPV1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	drw-model:diedOn <Date/1916> ;
+	rdfs:label "Pavlov, Evgenij Vasil'evič" ;
+	drw-model:hasEducation <A/30440hasEducation1> ;
+	drw-model:hasSL <SL/30440hasSL5> ;
+	drw-model:hasP <P/30440hasP3> ;
+	drw-model:hasMainName <MainName/30440hasMainName1> ;
+	drw-model:hasW <W/30440hasW4> ;
+	drw-model:hasSL <SL/30440hasSL3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Chirurgie> ;
+	drw-model:hasSL <SL/30440hasSL1> ;
+	drw-model:hasW <W/30440hasW1> ;
+	drw-model:hasWL <WL/30440hasWL2> ;
+	drw-model:diedIn <Place/St_Petersburg_?_war_auf_dem_Fr> ;
+	drw-model:hasW <W/30440hasW2> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30440.jpg> ;
+	drw-model:hasSL <SL/30440hasSL4> ;
+	drw-model:hasP <P/30440hasP2> ;
+	drw-model:hasSL <SL/30440hasSL2> ;
+	drw-model:hasSL <SL/30440hasSL7> ;
+	drw-model:hasWL <WL/30440hasWL1> ;
+	drw-model:hasW <W/30440hasW3> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasP <P/30440hasP1> ;
+	drw-model:hasID "30440" ;
+	drw-model:hasSL <SL/30440hasSL6> ;
+	drw-model:wasBornOn <Date/26_2_1845_oder_1847> ;
+	drw-model:hasStationOfLife <B/30440hasStationOfLife1> ;
+	drw-model:fatherIs <RelatedPerson/30440fatherIs1> ;
+	drw-model:wasBornIn <Place/Carskoe_Selo> .
+
+<P/30440hasP3>
+	a drw-model:P ;
+	rdfs:label "Il'ja Efimovič Repin (1844-1930): Evgenij Vasil'evič Pavlov im Operationssaal (1888). Öl auf Leinwand. Standort: Staatliche Tret'jakov-Galerie in Moskau. Abgedruckt in: Fischer 2010, 183 (Tafel VIII)." .
+
+<RelatedPerson/30440fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Vasilij, Kavallerieoffizier" .
+
+<MG/30440hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Obščestvo russkich vračej [Gesellschaft russischer Ärzte], Russkoe chirurgičeskoe obščestvo Pirogova [Russische chirurgische Pirogov-Gesellschaft], Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee] sowie Mitglied in zahlreichen medizinischen Kommissionen, z.B. Vospytatel'naja komissia medicinskogo fakul'teta Moskovskogo universiteta [Bildungskommission der medizinischen Fakultät der Universität Moskau] (Vorsitzender ab 1895), Komitet Elizavetinskoj detskoj bol'nicy [Komitee des Elisabeth-Kinderkrankenhauses] (ab 1900, später auch Vorsitzender), Vospytatel'naja komissia Sankt-Peterburgskogo Ženskogo medicinskogo instituta [Bildungskommission des St.-Petersburger medizinischen Fraueninstituts] (Vorsitzender ab 1902)." .
+
+<SL/30440hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Pridvornyj kalendar': na 1910 god. S.-Peterburg [o. J.], 292; ~ 1911, 303; ~ 1913, 319; ~ 1914, 401." .
+
+<WL/30440hasWL1>
+	rdfs:label "Seine zahlreichen Veröffentlichungen sind überwiegend den Schussverletzungen sowie der Beschreibung seltener Fälle seiner Operationen gewidmet. Er beschäftigte sich auch mit den Untersuchungen über die Wirkung der russischen Mineralquellen bei chirurgischen Erkrankungen." ;
+	a drw-model:WL .
+
+<Place/Carskoe_Selo>
+	a drw-model:Place ;
+	rdfs:label "Carskoe Selo" .
+
+<W/30440hasW2>
+	rdfs:label "Amputacija vlagališčnoj časti matki (u morskoj svinki). Diss. Sankt-Peterburg 1871, 19 S." ;
+	a drw-model:W .
+
+<A/30440hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Bis 1863 Besuch des Militärgymnasiums in Voronež, 1863-1868 Studium, 1869 Examen zum Militär-Feldchirurgen und 1871 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg." .
+
+<Date/1916>
+	a drw-model:Date ;
+	rdfs:label "1916" .
+
+<Place/St_Petersburg_?_war_auf_dem_Fr>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg (?) [war auf dem Friedhof Novodevič'e beigesetzt]" .
+
+<SL/30440hasSL6>
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA: R 348, 164-174." .
+
+<SL/30440hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Zmeev. Bd. 4 (1889), 48; auch in: WBIS RBA: R 348, 164-165." .
+
+<SL/30440hasSL4>
+	rdfs:label "Professora MCA/VMA, 176." ;
+	a drw-model:SL .
+
+<P/30440hasP2>
+	rdfs:label "Foto in: Professora MCA/VMA (<b>SL</b>)." ;
+	a drw-model:P .
+
+<GeneralLabor/Professor_fr_Chirurgie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Chirurgie" .
+
+<MainName/30440hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Pavlov, Evgenij Vasil'evič" .
+
+<SL/30440hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Kladbišča Peterburga, 382-383." .
+

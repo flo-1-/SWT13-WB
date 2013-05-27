@@ -1,0 +1,121 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/31219hasSL2>
+	rdfs:label "Sengbusch, E[duard Ferdinand von]: Nekrolog. Medicinische Zeitung Russlands 13 (1856) 69-72." ;
+	a drw-model:SL .
+
+<RelatedPerson/31219fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Philipp Johann (1742-1820), Oberlandgerichtsadvokat" .
+
+<W/31219hasW2>
+	rdfs:label "Notizen über das Kaiserliche Erziehungshaus in St. Petersburg während der Jahre 1820 bis 1833. Vermischte Abhandlungen aus dem Gebiete der Heilkunde: von einer Gesellschaft praktischer Ärzte zu St. Petersburg 5 (1835); russ.: Mediko-statitičeskaja zapiska ob Imperatorskom Sanktpeterburgskom vospitatel'nom dome v tečenie 1830, 1831, 1832 i 1833 godov. Sankt-Peterburg 1835, 60 S." ;
+	a drw-model:W .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Place/Landgut_Muromitz>
+	a drw-model:Place ;
+	rdfs:label "Landgut Muromitz" .
+
+<Place/Wesenberg_estnisch_Rakvere>
+	a drw-model:Place ;
+	rdfs:label "Wesenberg (estnisch: Rakvere)" .
+
+<NameVariation/31219hasNameVariation1>
+	rdfs:label "DIEPP" ;
+	a drw-model:NameVariation .
+
+<W/31219hasW3>
+	rdfs:label "Notizen über das Kaiserliche Erziehungshaus in St. Petersburg während der Jahre 1834 bis 1840. Vermischte Abhandlungen aus dem Gebiete der Heilkunde: von einer Gesellschaft praktischer Ärzte zu St. Petersburg 6 (1842)." ;
+	a drw-model:W .
+
+<B/31219hasStationOfLife1>
+	rdfs:label "1814 und 1815-1816 Arzt am Marienhospital in St. Petersburg, 1814-1815 im Hauptquartier der Russischen Armee, ab 1816 Assistenzarzt und 1823-1829 Oberarzt am Stadtkrankenhaus in Gatčina, ab 1829 Oberarzt am Kaiserlichen Erziehungshaus zu St. Petersburg.
+Inhaber hoher russischer Ehrentitel und Auszeichnungen, darunter 1816 \"Stabsarzt\", 1820 \"Kollegienassessor\", 1825 \"Hofrat\", 1832 \"Kollegienrat\", 1836 \"Staatsrat\", 1842 \"Wirklicher Russischer Staatsrat\", 1841 [nicht 1851] Wappendiplom, Vladimir-Orden 4. und 3. Klasse, St.-Annen-Orden 2. Klasse, Stanislav-Orden 3. und 1. Klasse.
+Mitbegründer und zeitweise Präsident der wohltätigen Stiftung \"Marien-Casse für die Witwen und Waisen der Ärzte\"." ;
+	a drw-model:B .
+
+<RelatedPerson/31219hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Philipp (Filipp Filippovič) (1824-1866), Jurist, Verwaltungsbeamter<br>Alexander August (Aleksandr Filippovič) (1835-1889), Militäringenieur<br>Nikolaus Julius (Nikolaj Filippovič) (1838-1880), Jurist<br>Georg (Georgij Filippovič) (1854-1921), Professor für angewandte Mechanik<br>" .
+
+<A/31219hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1807 Abschluss der Kreisschule in Wesenberg, danach 2-jährige Ausbildung im Kaiserlichen Erziehungshaus in St. Petersburg, 1810-1814 Studium an der Mediko-Chirurgischen Akademie (MCA) mit dem Abschluss \"Arzt 1. Klasse\", 1835 Grad des Medico-Chirurgen, 1839 Diplom \"Dr. med.\"" .
+
+<SL/31219hasSL3>
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA." .
+
+<GeneralLabor/Kinderarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Kinderarzt" .
+
+<ImportantPerson/31219>
+	drw-model:diedIn <Place/Landgut_Muromitz> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Kinderarzt> ;
+	drw-model:wasBornOn <Date/2_or_13_10_1793> ;
+	drw-model:hasEducation <A/31219hasEducation1> ;
+	drw-model:hasMainName <MainName/31219hasMainName1> ;
+	drw-model:hasSL <SL/31219hasSL1> ;
+	drw-model:wasMarriedTo <RelatedPerson/31219wasMarriedTo1> ;
+	drw-model:diedOn <Date/15_or_27_8_1855> ;
+	drw-model:wasBornIn <Place/Wesenberg_estnisch_Rakvere> ;
+	drw-model:hasW <W/31219hasW1> ;
+	drw-model:hasMG <MG/31219hasMG1> ;
+	drw-model:motherIs <RelatedPerson/31219motherIs1> ;
+	rdfs:label "Doepp, Heinrich Philipp (von)" ;
+	drw-model:fatherIs <RelatedPerson/31219fatherIs1> ;
+	drw-model:hasID "31219" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Chirurg> ;
+	drw-model:hasSL <SL/31219hasSL2> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <W/31219hasW3> ;
+	drw-model:hasDescendant <RelatedPerson/31219hasDescendant1> ;
+	drw-model:hasW <W/31219hasW2> ;
+	drw-model:hasStationOfLife <B/31219hasStationOfLife1> ;
+	drw-model:hasSL <SL/31219hasSL3> .
+
+<RelatedPerson/31219motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Christina Maria (oder Marie Christiane), geb. Paucker (1767-1812)" .
+
+<W/31219hasW1>
+	rdfs:label "[Beschreibung der Erfahrungen und Beobachtungen sowie der Resultate der Cholera-Kurmethode], in: Mittheilungen practischer Aerzte über die Cholera-Epidemie zu St. Petersburg im Sommer 1831." ;
+	a drw-model:W .
+
+<MainName/31219hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/31219hasNameVariation1> ;
+	rdfs:label "Doepp, Heinrich Philipp (von)" .
+
+<Date/2_or_13_10_1793>
+	rdfs:label "2./13.10.1793" ;
+	a drw-model:Date .
+
+<SL/31219hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Erik-Amburger-Datenbank [EAD]: Dokument-Id [3306/3253]." .
+
+<RelatedPerson/31219wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "1. Sophie (Izakovna), geb. Granbaum († 1850)<br>2. Helene Wilhelmine Julie Caroline, geb. Paucker (1831-1896)" .
+
+<MG/31219hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Deutscher ärztlicher Verein in St. Petersburg (1831), Imperatorskoe vol'no-ėkonomičeskoe obščestvo [Kaiserliche freie ökonomische Gesellschaft zu St. Petersburg] (ab 1846 Präsident der 5. Sektion), Mediko-filantropičeskij komitet [Mediko-philanthropisches Komitee] (1845?), Medicinische Gesellschaft zu Hamburg." .
+
+<Date/15_or_27_8_1855>
+	a drw-model:Date ;
+	rdfs:label "15./27.8.1855" .
+
+<GeneralLabor/Chirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Chirurg" .
+

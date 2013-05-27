@@ -1,0 +1,153 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Place/Nicolai_Oberschlesien>
+	a drw-model:Place ;
+	rdfs:label "Nicolai, Oberschlesien" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<MainName/30461hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30461hasNameVariation1> ;
+	rdfs:label "Thielmann, Karl Heinrich (von)" .
+
+<SL/30461hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Ljaščinskij, Mitrofan Fëdorovič: Karl Andreevič Til'man (Biografičeskij očerk). Sankt-Peterburg 1874, 38 S." .
+
+<GeneralLabor/Ehrenleibokulist>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ehrenleibokulist" .
+
+<B/30461hasStationOfLife1>
+	drw-model:hasNameLink <ImportantPerson/30425> ;
+	a drw-model:B ;
+	rdfs:label "1827-1831 Hauslehrer der Kinder des Leibokulisten und Direktors des Augenhospitals Theodor Heinrich Wilhelm <span style='font-variant:small-caps;'>LERCHE</span> in St. Petersburg, 1832-1833 Marinearzt der 18. Flottenequipage, 1833-1837 Ordinator im Marinehospital in Oranienbaum bei St. Petersburg, 1837-1868 Oberarzt am Peter-Paul-Hospital in Sankt Petersburg, zugleich ab 1845 Direktor des Laval'schen Kinderasyls*) und ab 1851 \"Ehrenleibokulist\" am Hofe des Zaren NIKOLAJ I. (1796-1855), ab 1868 Arzt in eigener Privatpraxis.
+*) 1838 gegründet von Gräfin Aleksandra Grigor'evna Laval' (1772-1850) und nach ihr benannt.
+Inhaber der Ehrentitel \"Staatsrat\" (1848), \"Wirklicher Russischer Staatsrat\" (1855) und \"Geheimrat\"." .
+
+<W/30461hasW3>
+	a drw-model:W ;
+	rdfs:label "Der Darmtyphus. Beobachtet im Jahre 1840 im Peter-Pauls-Hospitale zu St. Petersburg. Leipzig 1841, 63 S." .
+
+<ImportantPerson/30425>
+	a drw-model:ImportantPerson .
+
+<W/30461hasW1>
+	rdfs:label "Veterum opiniones de angiologia atque sanguinis motu, inde ab antiquissimis temporibus usque ad Galenum enarratae, sive quaestio Utrum sanguinis circulatio veteribus innotuerit nec ne? e fontibus ipsis soluta. Dissertation. Dorpat 1832, 90 S. Online Ressource Volltext (12.3.2013)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/dspace/bitstream/10062/3437/1/thielmann276.pdf" ;
+	a drw-model:W .
+
+<Date/7_or_19_12_1802_oder_1801>
+	rdfs:label "7./19.12.1802 oder 1801" ;
+	a drw-model:Date .
+
+<NameVariation/30461hasNameVariation1>
+	rdfs:label "Carl" ;
+	a drw-model:NameVariation .
+
+<WL/30461hasWL2>
+	rdfs:label "        Autor von ca. 60 Veröffentlichungen zu Ophthalmologie und inneren Krankheiten sowie medizinischer Jahresberichte des Peter-Paul-Hospitals 1840-1841." ;
+	a drw-model:WL .
+
+<Date/14_or_26_8_1872_oder_1875>
+	a drw-model:Date ;
+	rdfs:label "14./26.8.1872 oder 1875" .
+
+<SL/30461hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Böhm 2003, 504." .
+
+<SL/30461hasSL5>
+	rdfs:label "WBIS DBA: I 1266, 223-224, II 1302, 24, III 915, 70; BaBA: I 366, 419; RBA: R 456, 78-82." ;
+	a drw-model:SL .
+
+<Place/Sankt_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "Sankt Petersburg" .
+
+<GPV/30461hasGPV1>
+	rdfs:label "Perečen' literaturnych medicinskich trudov doktora Til'mana. In: Ljaščinskij (<b>SL</b>), 28-34." ;
+	a drw-model:GPV .
+
+<A/30461hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1817 Patent zum Chirurggehilfen, 1823-1827 Studium zunächst der Philologie, dann der Medizin an der Universität Breslau, 1831 Abschluss des Medizinstudiums, Examen in Naturwissenschaften und 1832 Dr. med. an der Universität Dorpat." .
+
+<RelatedPerson/30461fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Heinrich (?)" .
+
+<ImportantPerson/30461>
+	drw-model:hasWL <WL/30461hasWL2> ;
+	drw-model:hasGPV <GPV/30461hasGPV1> ;
+	drw-model:hasSL <SL/30461hasSL4> ;
+	rdfs:label "Thielmann, Karl Heinrich (von)" ;
+	drw-model:wasBornIn <Place/Nicolai_Oberschlesien> ;
+	drw-model:hasSL <SL/30461hasSL1> ;
+	drw-model:hasID "30461" ;
+	drw-model:hasStationOfLife <B/30461hasStationOfLife1> ;
+	drw-model:hasWL <WL/30461hasWL3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Ehrenleibokulist> ;
+	drw-model:wasMarriedTo <RelatedPerson/30461wasMarriedTo1> ;
+	drw-model:hasSL <SL/30461hasSL5> ;
+	drw-model:hasEducation <A/30461hasEducation1> ;
+	drw-model:hasW <W/30461hasW3> ;
+	drw-model:hasW <W/30461hasW4> ;
+	drw-model:wasBornOn <Date/7_or_19_12_1802_oder_1801> ;
+	drw-model:hasSL <SL/30461hasSL2> ;
+	a drw-model:ImportantPerson ;
+	drw-model:diedIn <Place/Sankt_Petersburg> ;
+	drw-model:hasW <W/30461hasW2> ;
+	drw-model:fatherIs <RelatedPerson/30461fatherIs1> ;
+	drw-model:hasMainName <MainName/30461hasMainName1> ;
+	drw-model:diedOn <Date/14_or_26_8_1872_oder_1875> ;
+	drw-model:hasWL <WL/30461hasWL1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Augenarzt> ;
+	drw-model:hasSL <SL/30461hasSL3> ;
+	drw-model:hasW <W/30461hasW1> .
+
+<RelatedPerson/30461wasMarriedTo1>
+	rdfs:label "Alexandra (Andreevna), geb. Otsolig (1803-1875)" ;
+	a drw-model:RelatedPerson .
+
+<W/30461hasW2>
+	rdfs:label "Ueber die skorbutischen Augenentzündungen. Medicinische Zeitung Russlands 1 (1844) Nr. 1 und 2." ;
+	a drw-model:W .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<WL/30461hasWL1>
+	rdfs:label "Zahlreiche Kurmethoden bei epidemischen Augenentzündungen, Therapieversuche bei Typhus und Cholera: T. entwickelte z.B. Choleratropfen gegen prämonitorische Diarrhöen." ;
+	a drw-model:WL .
+
+<WL/30461hasWL3>
+	rdfs:label "        1844 Mitbegründer und bis 1860 Mitredakteur der wöchentlich in St. Petersburg erscheinenden <i>Medicinischen Zeitung Russlands</i>." ;
+	a drw-model:WL .
+
+<SL/30461hasSL1>
+	rdfs:label "Pagel, Julius Leopold: Thielmann, Karl Heinrich Th. Allgemeine Deutsche Biographie 37 (1894), 759. Online Ressource Online Ressource (1.8.2012)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/sfz82485.html" .
+
+<SL/30461hasSL3>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [63897]." .
+
+<GeneralLabor/Augenarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Augenarzt" .
+
+<W/30461hasW4>
+	<http://xmlns.com/foaf/0.1/homepage> "http://books.google.de/books?id=n80_AAAAcAAJ&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false" ;
+	rdfs:label "Appendix zu Dr. C. Canstatt's Jahresbericht über die Fortschritte der gesammten Medicin in allen Ländern, Jahrg. 1, Heft 7, Erlangen 1842. St. Petersburg 1843, 14 S. Online Ressource Volltext (5.4.2012)." ;
+	a drw-model:W .
+

@@ -1,0 +1,116 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<GeneralLabor/Arzt_fr_Geburtshilfe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Arzt für Geburtshilfe" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30428hasW2>
+	rdfs:label "Eine Cystoplegie, welche Vorbereitungen zur Ovariotomie veranlasste. St. Petersburger medicinische Zeitschrift 16 (1869), 377-384." ;
+	a drw-model:W .
+
+<ImportantPerson/30428>
+	drw-model:motherIs <RelatedPerson/30428motherIs1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	drw-model:hasW <W/30428hasW3> ;
+	drw-model:hasMainName <MainName/30428hasMainName1> ;
+	drw-model:hasW <W/30428hasW1> ;
+	drw-model:hasSL <SL/30428hasSL3> ;
+	drw-model:fatherIs <RelatedPerson/30428fatherIs1> ;
+	drw-model:hasMG <MG/30428hasMG1> ;
+	drw-model:diedOn <Date/18_or_31_7_1900> ;
+	drw-model:hasEducation <A/30428hasEducation1> ;
+	drw-model:hasSL <SL/30428hasSL1> ;
+	rdfs:label "Lieven, Paul Julius" ;
+	drw-model:hasP <P/30428hasP1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30428wasMarriedTo1> ;
+	drw-model:hasSL <SL/30428hasSL2> ;
+	drw-model:wasBornOn <Date/18_or_30_9_1836> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <B/30428hasStationOfLife1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30428.jpg> ;
+	drw-model:diedIn <Place/Riga> ;
+	drw-model:wasBornIn <Place/Hasenpoth> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Arzt_fr_Geburtshilfe> ;
+	drw-model:hasW <W/30428hasW2> ;
+	drw-model:hasID "30428" .
+
+<Date/18_or_30_9_1836>
+	rdfs:label "18./30.9.1836" ;
+	a drw-model:Date .
+
+<Date/18_or_31_7_1900>
+	a drw-model:Date ;
+	rdfs:label "18./31.7.1900" .
+
+<Place/Hasenpoth>
+	a drw-model:Place ;
+	rdfs:label "Hasenpoth" .
+
+<SL/30428hasSL2>
+	a drw-model:SL ;
+	rdfs:label "M-z.: Dr. med. Paul Lieven . St. Petersburger medicinische Wochenschrift N.F. 17 [= 25] (1900), 288-289." .
+
+<W/30428hasW1>
+	rdfs:label "Ein Beitrag zur Aetiologie der Geschwüre der Vaginalportion. Dissertation. Würzburg 1864, 26 S. = Würzburger medicinische Zeitschrift 5 (1864), 177-200." ;
+	a drw-model:W .
+
+<MainName/30428hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Lieven, Paul Julius" .
+
+<P/30428hasP1>
+	rdfs:label "Foto von Hebensperger & Co., Litauische Akademiebibliothek Riga, Manuskript- und Rara-Abteilung (Scan zugesandt von der Leiterin der Bibliothek Gunta Jaunmuktane am 1.10.2009). Abgedruckt in: Fischer 2010, 142." ;
+	a drw-model:P .
+
+<W/30428hasW3>
+	rdfs:label "Mittheilung aus der gynäkologischen Abtheilung des Hebammen-Instituts Ihrer Kaiserlichen Hoheit der Frau Grosfürstin Catharina Michailowna. St. Petersburger medicinische Zeitschrift N. F. 4 (1873/74), 173-215." ;
+	a drw-model:W .
+
+<RelatedPerson/30428wasMarriedTo1>
+	rdfs:label "Hermine, geb. Goldmann († 1933)" ;
+	a drw-model:RelatedPerson .
+
+<RelatedPerson/30428motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Betty Luise, geb. Bergholz (* 1816)" .
+
+<Place/Riga>
+	a drw-model:Place ;
+	rdfs:label "Riga" .
+
+<RelatedPerson/30428fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Samuel (Samarius) Paul († 1855), Stadtarzt" .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<A/30428hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch der Gymnasien in Hasenpoth, in Mitau und 1853-1855 in Dorpat, 1856-1859 Studium der Medizin an der Universität Dorpat, dann an der Universität Berlin, zuletzt bis 1861 mit Promotion zum Dr. med. et chir. an der Universität Würzburg." .
+
+<MG/30428hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Verein St. Petersburger Aerzte (ab 1864), Deutscher Ärztlicher Verein in St. Petersburg (ab 1890)." .
+
+<SL/30428hasSL1>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [72659]." .
+
+<B/30428hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "1861-1863 Assistenzarzt an der Klinik für Geburtshilfe bei Professor Friedrich Wilhelm von SCANZONI (1821-1891) in Würzburg, ab 1863 stellvertretender Leibarzt der Zarin MARIJA ALEKSANDROVNA, geb. MARIE VON HESSEN-DARMSTADT (1824-1880), in St. Petersburg, 1863-1864 Reisen nach England und Frankreich, 1864-1865 außeretatmäßiger Ordinator und 1865-1873 Ordinator und Dozent am \"Hebammeninstitut der Großfürstin Elena Pavlovna\" in St. Petersburg, zugleich 1864-1894 Arzt in eigener Privatpraxis, ab 1865 Hofmedikus des 1. Hof-Medizinalbezirkes, ab 1873 Hofgeburtshelfer am Zarenhof und 1888-1894 in der St. Petersburger Palast-Verwaltung, ab 1876 Konsultant, später Ehrenkonsultant für Frauenkrankheiten an der Maksimilian-Heilanstalt in St. Petersburg, 1880-1894 Mitglied des Medizinalrats des Ministeriums des Innern, ab 1894 im Ruhestand, nach kurzem Aufenthalt in Stuttgart ab 1895 in Riga.
+Inhaber des Ehrentitels \"Wirklicher Russischer Staatsrat\" (1882), des St.-Stanislav-Ordens und des St.-Annen-Ordens 1. Klasse." .
+
+<SL/30428hasSL3>
+	rdfs:label "WBIS BaBA: I 206, 154-156; RBA: R 284, 131." ;
+	a drw-model:SL .
+

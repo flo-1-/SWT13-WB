@@ -1,0 +1,146 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Q/30449hasQ4>
+	a drw-model:Q ;
+	rdfs:label "- Teil einer Retoursendung [vermutlich Zeitungsbanderole] an Reinhold von der Leopoldina nach St. Petersburg. [Mit fehlerhafter Eintragung des Todesjahres: † 21.1.64 !] (Wiedergabe mit freundlicher Genehmigung des Leopoldina-Archivs). Abgedruckt in: Fischer 2010, 210." .
+
+<RelatedPerson/30449motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anna Henrietta, geb. Cretschmar (* 1744) (?)" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Date/4_or_15_6_1785_oder_1782_oder_>
+	a drw-model:Date ;
+	rdfs:label "4./15.6.1785 oder 1782 oder 1787" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<ImportantPerson/30449>
+	drw-model:hasEducation <A/30449hasEducation1> ;
+	drw-model:wasBornOn <Date/4_or_15_6_1785_oder_1782_oder_> ;
+	drw-model:wasMarriedTo <RelatedPerson/30449wasMarriedTo1> ;
+	drw-model:hasSL <SL/30449hasSL1> ;
+	drw-model:hasQ <Q/30449hasQ4> ;
+	drw-model:hasSL <SL/30449hasSL2> ;
+	drw-model:fatherIs <RelatedPerson/30449fatherIs1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Kaiserlicher_Leibarzt> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30449.jpg> ;
+	drw-model:wasBornIn <Place/vermutlich_Mettmann_nicht_Dsse> ;
+	drw-model:hasDescendant <RelatedPerson/30449hasDescendant1> ;
+	drw-model:hasID "30449" ;
+	drw-model:motherIs <RelatedPerson/30449motherIs1> ;
+	drw-model:hasQ <Q/30449hasQ3> ;
+	drw-model:diedOn <Date/9_or_21_1_1867> ;
+	drw-model:hasSL <SL/30449hasSL4> ;
+	drw-model:hasQ <Q/30449hasQ2> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <B/30449hasStationOfLife1> ;
+	rdfs:label "Reinhold, Emil (von)" ;
+	drw-model:hasSL <SL/30449hasSL3> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasMainName <MainName/30449hasMainName1> ;
+	drw-model:hasP <P/30449hasP1> ;
+	drw-model:hasQ <Q/30449hasQ1> ;
+	drw-model:hasMG <MG/30449hasMG1> .
+
+<MG/30449hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Deutscher ärztlicher Verein in St. Petersburg (ab 1824), Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee] (Beratendes Mitglied ab 1843), Mediko-chirurgičeskaja akademija [Mediko-chirurgische Akademie] St. Petersburg (1850 Ehrenmitglied), Obščestvo russkich vračej [Gesellschaft russischer Ärzte], Moskovskoe obščestvo ispytatelej prirody [Gesellschaft der Naturforscher zu Moskau], Deutsche Akademie der Naturforscher Leopoldina (ab 1857), Badische Gerichtsmedizinische Gesellschaft u.a." .
+
+<SL/30449hasSL2>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [62732/61535 und 1067115 (9.8.2010)]." .
+
+<P/30449hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto aus: Sbornik biografij (<b>SL</b>), 400. Abgedruckt in: Fischer 2010, 208." .
+
+<GeneralLabor/Kaiserlicher_Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Kaiserlicher Leibarzt" .
+
+<NameVariation/30449hasNameVariation1>
+	rdfs:label "REINHOLDT" ;
+	a drw-model:NameVariation .
+
+<Q/30449hasQ3>
+	a drw-model:Q ;
+	rdfs:label "- \"† 1867, Januar 21. Petersburg. Wirkl. Geheimr. Dr. E. Reinhold, geb. 1782 zu Düsseldorf, 1807 Militairarzt, Leibarzt des Kaisers Nicolaus.\" Aus: Stricker, Wilhelm: Medicinisch-naturwissenschaftlicher Nekrolog des Jahres 1867. [Virchow's] Archiv für pathologische Anatomie und Physiologie, 42. Band, S. 305." .
+
+<SL/30449hasSL4>
+	rdfs:label "Sbornik biografij kavalergardov 1826-1908. Red. Sergej Alekseevič Pančulidzev. Reprint izdanija 1908 goda. Moskva 2008, 400-401." ;
+	a drw-model:SL .
+
+<NameVariation/30449hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "РEЙНГOЛЬДТ" .
+
+<RelatedPerson/30449hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Alexander (Aleksandr Ėmilievič) (1810-1856), Oberst der Husaren-Garde<br>        Konstantin (Ėmilievič) (1812-1864), Rittmeister" .
+
+<SL/30449hasSL3>
+	a drw-model:SL ;
+	rdfs:label "RBS. Bd. [15]: Pritvic - Rejs (1910), 550." .
+
+<MainName/30449hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30449hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30449hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30449hasNameVariation3> ;
+	rdfs:label "Reinhold, Emil (von)" .
+
+<SL/30449hasSL1>
+	rdfs:label "Böhm 1998, 79." ;
+	a drw-model:SL .
+
+<Q/30449hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Archiv der Evangelischen Kirchengemeinde im Rheinland, Düsseldorf, Trauregister der Lutherischen Gemeinde 1776: \"Trauung am 12.11.1776 des Apothekers Johann Friedrich Reinhold aus Mettmann (östlich von Düsseldorf) mit Anna Henrietta Cretschmar, * 16.03.1744 Düsseldorf, Tochter des Kaufmanns Johann Friedrich C. und Dorothea Helena Böhmer.\" Nachgewiesen auch in: Düsseldorfer Trauregister. Bd. 10. Bearb. von Alfred Strahl. Düsseldorf [1985], 104. (Schriftliche Mitteilung vom 18.12.2009: \"Der Stand - Apotheker - lässt darauf schließen, dass der Wohnsitz der Familie Mettmann gewesen sein dürfte. Wir schließen daraus, dass Emil R. wahrscheinlich in Mettmann geboren und getauft wurde.\")" .
+
+<RelatedPerson/30449wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Amalie Charlotte (Jakovlevna), geb. Franz (1793-1863)" .
+
+<A/30449hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1803-1807 Studium der Medizin mit Abschluss \"Arzt 1. Klasse\" und 1820 Dr. med. et chir. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg." .
+
+<B/30449hasStationOfLife1>
+	rdfs:label "1807-1812 Militärarzt im Izmajlovskij-Regiment, 1812 zu den Stabsärzten des Kavaliergarde-Regiments versetzt, 1815 zum Stabsarzt ernannt, September bis November 1825 behandelnder Arzt des Zaren ALEKSANDR I. (1777-1825) vor dessen Tod in Taganrog und der Zarin ELIZAVETA ALEKSEEVNA, geb. Prinzessin LUISE VON BADEN (1779-1826) bis zu ihrem Tod 1826 in Belev, ab 1826 Leibarzt des Zaren NIKOLAJ I. (1796-1855), nach dem Ausscheiden aus dem Dienst im Regiment 1828 zugleich Leibarzt der Fürstin von ŁOWICZ, geb. Joanna GRUDZINSKA (1795-1831), der Gemahlin vom Großfürsten KONSTANTIN PAVLOVIČ (1779-1831), 1865-1867 Chef des Hofmedizinalwesens, außerdem ab 1836 beratendes Mitglied des Medizinalrats des Ministeriums des Innern.
+        Inhaber der russischen Ehrentitel \"Wirklicher Russischer Staatsrat\" (1834), \"Geheimrat\" (1849) und \"Wirklicher Russischer Geheimrat\" (1866), ab 1845 des Adelsdiploms sowie einiger Orden und Auszeichnungen, darunter 1812 [nicht 1822] St.-Vladimir-Orden 4. Klasse und St.-Annen-Orden 2. Klasse (für die Schlacht von Borodino), 1814 St.-Annen-Orden mit Brillanten (für die Schlacht bei Fère-Champenoise)." ;
+	a drw-model:B .
+
+<Place/vermutlich_Mettmann_nicht_Dsse>
+	a drw-model:Place ;
+	rdfs:label "vermutlich Mettmann [nicht Düsseldorf]" .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<NameVariation/30449hasNameVariation2>
+	rdfs:label "REJNGOL'DT" ;
+	a drw-model:NameVariation .
+
+<Q/30449hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Archiv der Deutschen Akademie der Naturforscher Leopoldina, MNr. 1796:" .
+
+<Date/9_or_21_1_1867>
+	a drw-model:Date ;
+	rdfs:label "9./21.1.1867" .
+
+<RelatedPerson/30449fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johann Friedrich Reinhold, Apotheker (?)" .
+

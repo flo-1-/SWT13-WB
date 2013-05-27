@@ -1,0 +1,426 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<ImportantPerson/30717>
+	rdfs:label "Miram, Karl Eduard" ;
+	drw-model:hasEducation <A/30717hasEducation3> ;
+	drw-model:hasID "30717" ;
+	drw-model:hasWCorrectedAndCompletedInfoOfGPV <WCorrectedAndCompletedInfoOfGPV/30717hasWCorrectedAndCompletedInfoOfGPV1> ;
+	drw-model:hasStationOfLife <B/30717hasStationOfLife2> ;
+	drw-model:hasWL <WL/30717hasWL2> ;
+	drw-model:hasWL <WL/30717hasWL4> ;
+	drw-model:hasStationOfLife <B/30717hasStationOfLife1> ;
+	drw-model:hasStationOfLife <B/30717hasStationOfLife9> ;
+	drw-model:hasEducation <A/30717hasEducation7> ;
+	drw-model:fatherIs <RelatedPerson/30717fatherIs1> ;
+	drw-model:diedOn <Date/24_13_or_5_4_1887> ;
+	drw-model:hasStationOfLife <B/30717hasStationOfLife8> ;
+	drw-model:hasSL <SL/30717hasSL7> ;
+	drw-model:hasSL <SL/30717hasSL2> ;
+	drw-model:wasBornIn <Place/Mitau> ;
+	drw-model:hasEducation <A/30717hasEducation2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Zoologie> ;
+	drw-model:hasSL <SL/30717hasSL9> ;
+	drw-model:hasSL <SL/30717hasSL4> ;
+	drw-model:hasSL <SL/30717hasSL6> ;
+	drw-model:hasComment <Comment/30717_4> ;
+	drw-model:hasStationOfLife <B/30717hasStationOfLife3> ;
+	drw-model:hasEducation <A/30717hasEducation6> ;
+	drw-model:hasMG <MG/30717hasMG1> ;
+	drw-model:hasWL <WL/30717hasWL3> ;
+	drw-model:hasGPV <GPV/30717hasGPV1> ;
+	drw-model:hasEducation <A/30717hasEducation5> ;
+	drw-model:hasSL <SL/30717hasSL3> ;
+	drw-model:hasEducation <A/30717hasEducation8> ;
+	drw-model:hasSL <SL/30717hasSL8> ;
+	drw-model:wasBornOn <Date/4_or_16_8_1811> ;
+	drw-model:wasMarriedTo <RelatedPerson/30717wasMarriedTo1> ;
+	drw-model:hasSL <SL/30717hasSL5> ;
+	drw-model:hasW <W/30717hasW1> ;
+	drw-model:hasEducation <A/30717hasEducation1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Physiologie_und_A> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30717hasHonoursAndAwards1> ;
+	drw-model:hasComment <Comment/30717_2> ;
+	drw-model:hasComment <Comment/30717_1> ;
+	drw-model:hasStationOfLife <B/30717hasStationOfLife6> ;
+	drw-model:hasP <P/30717hasP1> ;
+	drw-model:hasQ <Q/30717hasQ1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30717.jpg> ;
+	drw-model:hasStationOfLife <B/30717hasStationOfLife4> ;
+	drw-model:hasMainName <MainName/30717hasMainName1> ;
+	drw-model:hasSL <SL/30717hasSL1> ;
+	drw-model:hasStationOfLife <B/30717hasStationOfLife5> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <B/30717hasStationOfLife7> ;
+	drw-model:hasWL <WL/30717hasWL1> ;
+	drw-model:hasComment <Comment/30717_3> ;
+	drw-model:diedIn <Place/Kiev> ;
+	drw-model:hasStationOfLife <B/30717hasStationOfLife10> ;
+	drw-model:hasEducation <A/30717hasEducation4> ;
+	drw-model:motherIs <RelatedPerson/30717motherIs1> .
+
+<Comment/30717_1>
+	rdfs:label "In [Todesanzeige] (<b>SL</b>) ist 21. angegeben; vermutlich Druckfehler." ;
+	a drw-model:Comment .
+
+<NameVariation/30717hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Мирам, Эдуард Эрнестович"@ru ;
+	rdfs:label "Miram, Ėduard Ėrnestovič"@de .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Comment/30717_3>
+	rdfs:label "Nach der Verteidigung der Dissertation, mit Datum vom 31.7.1842. In <b>SL</b> EAD und WBIS BaBA irrtümlich als Ort Kiev angegeben. Wechsel nach Kiev erfolgte erst am 30. August 1842." ;
+	a drw-model:Comment .
+
+<ImportantPerson/31029>
+	a drw-model:ImportantPerson .
+
+<Date/4_or_16_8_1811>
+	a drw-model:Date ;
+	rdfs:label "4./16.8.1811" .
+
+<W/30717hasW1>
+	rdfs:label "De ossibus nasi. Diss. Wilna 1842, 28 S." ;
+	a drw-model:W .
+
+<WL/30717hasWL4>
+	rdfs:label "Verdienste bei der Cholera-Bekämpfung 1846 und 1848 (gewürdigt durch besondere Gunst des Zaren)" ;
+	a drw-model:WL .
+
+<A/30717hasEducation2>
+	a drw-model:A ;
+	rdfs:label "Abschluss des Gymnasiums in Mitau" ;
+	drw-model:inYear <Year/1829> .
+
+<Year/1843>
+	rdfs:label "1843" ;
+	a drw-model:Year .
+
+<A/30717hasEducation6>
+	a drw-model:A ;
+	drw-model:began <Year/1833> ;
+	rdfs:label "Gehilfe des Prosektors an der MCA in Wilna und Abschluss des Medizinstudiums als Arzt" ;
+	drw-model:ended <Year/1836> .
+
+<SL/30717hasSL2>
+	<http://xmlns.com/foaf/0.1/homepage> "http://88.217.241.77/amburger/" ;
+	a drw-model:SL ;
+	rdfs:label "Erik-Amburger-Datenbank. Ausländer im vorrevolutionären Russland (Online Ressource, 10.4.2012): Dokument-Id [74020/94194 (18.5.2011)]." .
+
+<RelatedPerson/30717fatherIs1>
+	rdfs:label "Ernst Karl, Stadtwäger, Kaufmann 2. Gilde" ;
+	a drw-model:RelatedPerson .
+
+<GPV/30717hasGPV1>
+	rdfs:label "Publikationen 1834-1858 (12 Nrn.), in: Bogdanov, Anatol: Materialy dlja istorii naučnoj i prikladnoj dejatel’nosti v Rossii po zoologii [...] (1850-1887 g.). Tom 1-4. Moskva 1888-l892 und Ikonnikov, V. S.: Biografičeskij slovar’ professorov i prepodavatelej Imperatorskago universiteta sv. Vladimira (1834-1884). Kiev 1884, beide zit. n. WBIS RBA (<b>SL</b>).[4]" ;
+	drw-model:hasComment <Comment/30717_4> ;
+	a drw-model:GPV .
+
+<A/30717hasEducation4>
+	drw-model:began <Year/1831> ;
+	drw-model:ended <Year/1833> ;
+	drw-model:hasNameLink <ImportantPerson/30836> ;
+	rdfs:label "Fortsetzung des Studiums an der Universität Dorpat bei Martin Heinrich <span style='font-variant:small-caps;'>Rathke</span> (1793-1860), Alexander Friedrich von <span style='font-variant:small-caps;'>Hueck</span> (1802-1842) u. a." ;
+	a drw-model:A ;
+	drw-model:hasNameLink <ImportantPerson/30405> .
+
+<RelatedPerson/30717motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Susanne Marie, geb. Langmann (Laupmann in Lenz, Wilhelm (Hg.): Deutschbaltisches biographisches Lexikon 1710-1960. Köln, Wien 1970. vermutlich Druckfehler)" .
+
+<WL/30717hasWL1>
+	rdfs:label "Gründer und Leiter des ersten Lehrstuhls für Physiologie an der Universität Kiev" ;
+	a drw-model:WL .
+
+<B/30717hasStationOfLife10>
+	a drw-model:B .
+
+<B/30717hasStationOfLife8>
+	drw-model:began <Year/1847> ;
+	rdfs:label "zugleich Leiter von zwei Cholera-Krankenhäusern in Kiev und von einigen Gouvernement-Militärhospitälern" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1857> .
+
+<ImportantPerson/30836>
+	a drw-model:ImportantPerson .
+
+<B/30717hasStationOfLife4>
+	drw-model:began <Year/1842> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1843> ;
+	rdfs:label "zugleich Vorlesungen in Zoologie und Leiter des Zoologischen Kabinetts an der Universität Kiev" .
+
+<WL/30717hasWL2>
+	rdfs:label "Arbeiten zur vergleichenden Anatomie und Zoologie mit helminthologischem Inhalt" ;
+	a drw-model:WL .
+
+<B/30717hasStationOfLife6>
+	rdfs:label "Dekan der Medizinischen Fakultät an der Universität Kiev (2 Vierjahresperioden)" ;
+	drw-model:ended <Year/1862> ;
+	a drw-model:B ;
+	drw-model:began <Year/1854> .
+
+<A/30717hasEducation1>
+	a drw-model:A ;
+	drw-model:ended <Year/1829> ;
+	rdfs:label "Anfangs Besuch der Elementarschule zu St.-Annen für Knaben von Friedrich <span style='font-variant:small-caps;'>Spekovius</span> (1764-1826) in Mitau" .
+
+<B/30717hasStationOfLife2>
+	drw-model:hasNameLink <ImportantPerson/30332> ;
+	drw-model:hasNameLink <ImportantPerson/30173> ;
+	drw-model:hasNameLink <ImportantPerson/31029> ;
+	drw-model:hasNameLink <ImportantPerson/30739> ;
+	rdfs:label "Weiterbildung in Deutschland, Frankreich, England und der Schweiz, darunter:
+- in Königsberg bei <span style='font-variant:small-caps;'>Rathke</span>, Karl Friedrich <span style='font-variant:small-caps;'>Burdach</span> (1776-1847), Karl Heinrich <span style='font-variant:small-caps;'>Burow</span> (1809-1874) und Wilhelm Sigismund <span style='font-variant:small-caps;'>Grube</span> (1827-1898)
+- in Berlin bei J. <span style='font-variant:small-caps;'>Müller</span>, Martin Hinrich <span style='font-variant:small-caps;'>Lichtenstein</span> (1780-1857) u. a.
+- in Dresden bei Carl Gustav <span style='font-variant:small-caps;'>Carus</span> (1789-1869), Burkhard Wilhelm <span style='font-variant:small-caps;'>Seiler</span> (1779-1843), Heinrich Gottlieb Ludwig <span style='font-variant:small-caps;'>Reichenbach</span> (1793-1879) u. a.
+- in Leipzig bei Wilhelm Gottlieb <span style='font-variant:small-caps;'>Tilesius</span> (1769-1857), Ernst Heinrich <span style='font-variant:small-caps;'>Weber</span> (1795-1878), Eduard Friedrich <span style='font-variant:small-caps;'>Weber</span> (1806-1871) und Carl Ernst <span style='font-variant:small-caps;'>Bock</span> (1809-1874)
+- außerdem Besuch weiterer Universitätsstädte, z. B. Halle, Göttingen, Marburg, Gießen, Frankfurt a. Main, Darmstadt, Wiesbaden, Bonn, Köln und München
+- in Wien am Allgemeinen Krankenhaus bei Carl von <span style='font-variant:small-caps;'>Rokitansky</span> (1804-1878) u. a.
+- in der Schweiz bei Friedrich <span style='font-variant:small-caps;'>Miescher-His</span> (1811-1887) in Basel, bei Gabriel Gustav <span style='font-variant:small-caps;'>Valentin</span> (1810-1883) in Bern, bei Lorenz <span style='font-variant:small-caps;'>Oken</span> (1779-1851) und Friedrich Gustav Jacob <span style='font-variant:small-caps;'>Henle</span> (1809-1885) in Zürich
+- in Paris bei Claud <span style='font-variant:small-caps;'>Bernard</span> (1813-1878) u. a.
+- Juni/Juli 1842 Rückkehr über Königsberg nach Wilna" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1842> ;
+	drw-model:hasNameLink <ImportantPerson/31106> ;
+	drw-model:hasNameLink <ImportantPerson/31204> ;
+	drw-model:began <Year/1840> .
+
+<ImportantPerson/30739>
+	a drw-model:ImportantPerson .
+
+<P/30717hasP1>
+	rdfs:label "Portrait (Abb.) aus: Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003., Bildeinlage zw. S. 312-313." ;
+	a drw-model:P .
+
+<Year/1836>
+	rdfs:label "1836" ;
+	a drw-model:Year .
+
+<SL/30717hasSL8>
+	a drw-model:SL ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 311-312." .
+
+<Year/1840>
+	a drw-model:Year ;
+	rdfs:label "1840" .
+
+<ImportantPerson/30405>
+	a drw-model:ImportantPerson .
+
+<Year/1842>
+	rdfs:label "1842" ;
+	a drw-model:Year .
+
+<Year/1857>
+	rdfs:label "1857" ;
+	a drw-model:Year .
+
+<Place/Mitau>
+	a drw-model:Place ;
+	rdfs:label "Mitau" .
+
+<GeneralLabor/Professor_fr_Zoologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Zoologie" .
+
+<ImportantPerson/30173>
+	a drw-model:ImportantPerson .
+
+<Year/1887>
+	rdfs:label "1887" ;
+	a drw-model:Year .
+
+<WL/30717hasWL3>
+	rdfs:label "Anfertigung zahlreicher Präparate für das Anatomische Kabinett der Universität Dorpat (ausgezeichnet mit einer Geldprämie von 200 Rubel Assignaten)" ;
+	a drw-model:WL .
+
+<WCorrectedAndCompletedInfoOfGPV/30717hasWCorrectedAndCompletedInfoOfGPV1>
+	a drw-model:WCorrectedAndCompletedInfoOfGPV ;
+	rdfs:label "1) Bemerkungen über Ascaris megalocephala Cloq. Dorpater Jahrbücher für Literatur, Statistik und Kunst, besonders Rußlands 2 (1834), 466-468.
+2) Bemerkungen über die Anatomie des Pentastoma taenioides. Archiv für Anatomie, Physiologie und wissenschaftliche Medicin [Fortsetzung von Meckels Archiv] 1834 (?) [Angaben fraglich. Weder im Jahrgang 1834 noch 1835 ist diese Arbeit enthalten].
+3) Beitrag zu einer Anatomie des Pentastoma taenioides R. Nova acta physico-medica Academiae Caesareae Leopoldino-Carolinae 17, 2. Abt. (1835), 623-646 + Tabelle 46.
+4) Recherches sur l’anatomie des pentastoma tœnioides R. Annales des Sciences naturelles (2) 6 (1836), 135-151.
+5) Beschreibung eines monströsen Huhnes mit hundeähnlichem Gesichte. Ein Vortrag. Vgl. Bulletin scientifique publié par l’Académie Impériale des Sciences de Saint-Pétersbourg 7 (1840), 209.
+6) Beobachtungen über die schädliche Einwirkung thierischer Stoffe auf den menschlichen Körper. Neue Notizen aus dem Gebiete der Natur- und Heilkunde 5 (1838), 108-111.
+7) Ueber die Lebenskraft der Eingeweidewürmer. Archiv für Naturgeschichte Jg. 6, Bd. 1 (1840), 35-37.
+8) Beschreibung einer merkwürdigen Bildungshemmung des Sehorgans nebst Betrachtungen über die Entwickelung des Auges, besonders der Netzhaut und Crystalllinse. Monatsschrift für Medicin, Augenheilkunde und Chirurgie 3 (1840), 113-146.
+9) Ueber einige neue noch nicht beschriebene Eingeweidewürmer. Bjulleten’ Moskovskogo Obščestva Ispytatelej Prirody = Bulletin de la Société Impériale des Naturalistes de Moscou 1840 (?) [Zeitschriften-Angabe unkorrekt. Im Register-Band 1829/1881 (1882) ist diese Arbeit nicht verzeichnet!]
+10) Ueber den eigenthümlichen Bau des Gehörganges bei einigen Säugethieren. Aus der Ordnung der Nager. Bjulleten’ Moskovskogo Obščestva Ispytatelej Prirody = Bulletin de la Société Impériale des Naturalistes de Moscou 13 (1840) II, 210-233; Nachtrag: 14 (1841) III, 541-543.
+11) Beschreibung eines monströsen Kalbes. Monatsschrift für Literatur und Kunst, Mitau 1841 [Angaben fraglich. Weder Titel der Arbeit noch Zeitschrift konnten nachgewiesen werden].
+12) Beiträge zur Naturgeschichte der Sumpf-Schildkröte (Emys europaea). Bjulleten’ Moskovskogo Obščestva Ispytatelej Prirody = Bulletin de la Société Impériale des Naturalistes de Moscou 30 (1857) I, 482-489." .
+
+<SL/30717hasSL6>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 67, 68, 93." ;
+	a drw-model:SL .
+
+<Comment/30717_2>
+	rdfs:label "Als Anerkennung für seine vorbildliche Tätigkeit als Adjunkt-Professor und Prosektor an der MCA in Wilna und für seine für die Weiterentwicklung der Naturwissenschaften bedeutenden Arbeiten auf dem Gebiet der vergleichenden Anatomie, mit Datum vom 14.6.1842. Vgl. <b>SL</b> Ikonnikov, zit. n. WBIS RBA, und EAD" ;
+	a drw-model:Comment .
+
+<HonoursAndAwards/30717hasHonoursAndAwards1>
+	rdfs:label "1850 „Staatsrat“<br>1851 St.-Annen-Orden 3. Klasse<br>1853 St.-Annen-Orden 2. Klasse<br>1858 St.-Stanislav-Orden 2. Klasse mit Kaiserlicher Krone<br>1862 St.-Annen-Orden 2. Klasse mit Kaiserlicher Krone" ;
+	a drw-model:HonoursAndAwards .
+
+<Comment/30717_4>
+	a drw-model:Comment ;
+	rdfs:label "Die beiden Publikationsverzeichnisse sind stark korrekturbedürftig. Sie enthalten unvollständige und fehlerhafte Angaben zu Titeln der Arbeiten, zu Zeitschriften und Erscheinungsjahren. Korrekturen dazu sowie Ergänzungen zu Band- und Seitenzahlen vgl. <b>W</b>." .
+
+<A/30717hasEducation5>
+	a drw-model:A ;
+	drw-model:began <Year/1831> ;
+	drw-model:ended <Year/1833> ;
+	rdfs:label "zugleich Lehrer für Naturgeschichte am Knabenpensionat von Dr. phil. <span style='font-variant:small-caps;'>Raunach</span> in Dorpat" .
+
+<ImportantPerson/31204>
+	a drw-model:ImportantPerson .
+
+<SL/30717hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Lenz, Wilhelm (Hg.): Deutschbaltisches biographisches Lexikon 1710-1960. Köln, Wien 1970, 523 = WBIS BaBA: I 236, 376." .
+
+<Q/30717hasQ1>
+	a drw-model:Q ;
+	rdfs:label "1 Brief von Miram an Karl Ernst von Baer vom 9.12.1839 aus Wilna. Vgl. Erki Tammiksaar: Findbuch zum Nachlass Karl Ernst von Baer (1792-1876). Nach Vorarbeiten von Vello Kaavere eingeleitet, bearbeitet und zusammengestellt von Erki Tammiksaar. Gießen 1999, 58." .
+
+<A/30717hasEducation3>
+	a drw-model:A ;
+	drw-model:began <Year/1829> ;
+	rdfs:label "Studium an der Mediko-Chirurgischen Akademie (MCA) in St.-Petersburg" ;
+	drw-model:ended <Year/1831> .
+
+<MainName/30717hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Miram, Karl Eduard" ;
+	drw-model:hasNameVariation <NameVariation/30717hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30717hasNameVariation2> .
+
+<A/30717hasEducation7>
+	a drw-model:A ;
+	drw-model:hasComment <Comment/30717_2> ;
+	drw-model:inYear <Year/1842> ;
+	rdfs:label "Dr. med. et chir. der Universität Königsberg[2]" .
+
+<ImportantPerson/31106>
+	a drw-model:ImportantPerson .
+
+<NameVariation/30717hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Miram, Karl/Carl Eduard" .
+
+<RelatedPerson/30717wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Emilie, geb. Laupmann (1810-1890)" .
+
+<Year/1829>
+	rdfs:label "1829" ;
+	a drw-model:Year .
+
+<Year/1833>
+	rdfs:label "1833" ;
+	a drw-model:Year .
+
+<B/30717hasStationOfLife9>
+	drw-model:ended <Year/1887> ;
+	rdfs:label "praktischer Arzt in Kiev" ;
+	a drw-model:B ;
+	drw-model:began <Year/1862> .
+
+<SL/30717hasSL7>
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA: Russisches Biographisches Archiv (Online Ressource, 16.1.2013): R 314, 125-140." .
+
+<GeneralLabor/Professor_fr_Physiologie_und_A>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie und Anatomie" .
+
+<Date/24_13_or_5_4_1887>
+	drw-model:hasComment <Comment/30717_1> ;
+	a drw-model:Date ;
+	rdfs:label "24.[1]3./5.4.1887" .
+
+<Year/1847>
+	rdfs:label "1847" ;
+	a drw-model:Year .
+
+<SL/30717hasSL1>
+	rdfs:label "WBIS BaBA: Baltisches Biographisches Archiv (Online Ressource, 16.1.2013): I 236, 375-376." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" .
+
+<SL/30717hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine, Pfrepper, Gerd: Wissensspuren. Reisen russischer Mediziner nach Westeuropa im 19. Jahrhundert. Aachen 2012 (Relationes 11)" .
+
+<MG/30717hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Kurljandskoe obščestvo slovesnosti i izjaščnych iskusstv [Kurländische Gesellschaft für Literatur und Kunst] (1839), Imperatorskoe Moskovskoe obščestvo estestvoispytatelej prirody [Kaiserliche Gesellschaft der Naturforscher zu Moskau] (1839), Imperatorskoe Vilenskoe medicinskoe obščestvo [Kaiserliche medizinische Gesellschaft zu Wilna] (1840), Kievskoe medicinskoe obščestvo [Medizinische Gesellschaft zu Kiev] (1843), Kongelige Nordiske Oldskriftselskab København [Königliche Gesellschaft für Nordische Altertumskunde zu Kopenhagen] (1845)" .
+
+<ImportantPerson/30332>
+	a drw-model:ImportantPerson .
+
+<SL/30717hasSL3>
+	rdfs:label "Hirsch, Gustav (Hg.): Biographisches Lexikon der hervorragenden Ärzte aller Zeiten und Völker. 2. Aufl. Bd. 4. Berlin, Wien 1932, 219 = WBIS DBA: Deutsches Biographisches Archiv (Online Ressource, 16.1.2013): II 900, 219." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" .
+
+<B/30717hasStationOfLife7>
+	a drw-model:B ;
+	rdfs:label "zugleich Arzt (ohne Gehalt) beim Kiever Postamt" ;
+	drw-model:began <Year/1843> .
+
+<SL/30717hasSL9>
+	rdfs:label "[Todesanzeige.] Leopoldina 23 (1887), 109." ;
+	a drw-model:SL .
+
+<Place/Kiev>
+	a drw-model:Place ;
+	rdfs:label "Kiev" .
+
+<A/30717hasEducation8>
+	a drw-model:A ;
+	drw-model:inYear <Year/1842> ;
+	drw-model:hasComment <Comment/30717_3> ;
+	rdfs:label "Dr. med. an der MCA in Wilna[3]" .
+
+<B/30717hasStationOfLife3>
+	drw-model:ended <Year/1843> ;
+	drw-model:began <Year/1842> ;
+	a drw-model:B ;
+	rdfs:label "ao. Professor von zwei Lehrstühlen: für Physiologie des gesunden Menschen und für Physiologie des kranken Menschen an der St.-Vladimir-Universität Kiev" .
+
+<B/30717hasStationOfLife5>
+	rdfs:label "o. Professor am Lehrstuhl für Physiologie des gesunden Menschen an der Universität Kiev" ;
+	drw-model:ended <Year/1862> ;
+	a drw-model:B ;
+	drw-model:began <Year/1843> .
+
+<B/30717hasStationOfLife1>
+	drw-model:ended <Year/1840> ;
+	drw-model:began <Year/1837> ;
+	a drw-model:B ;
+	rdfs:label "Prosektor für vergleichende Anatomie und Adjunkt-Professor an der MCA in Wilna" .
+
+<Year/1831>
+	rdfs:label "1831" ;
+	a drw-model:Year .
+
+<Year/1854>
+	rdfs:label "1854" ;
+	a drw-model:Year .
+
+<Year/1837>
+	rdfs:label "1837" ;
+	a drw-model:Year .
+
+<Year/1862>
+	rdfs:label "1862" ;
+	a drw-model:Year .
+

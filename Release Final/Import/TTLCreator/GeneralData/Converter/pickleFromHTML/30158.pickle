@@ -1,0 +1,130 @@
+(dp0
+VA
+p1
+VBesuch des 3. Gymnasiums in Moskau, danach bis 1861 Studium der Medizin und 1862 Arzt-Examen an der Universität Moskau, 1864 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u0411\u0423\u0411\u041dO\u0412, \u041d\u0438\u043ao\u043ba\u0439 \u0414e\u043ce\u043d\u0442\u044ce\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sasVB
+p10
+V1862-1864 Assistenzarzt im Preobra\u017eenskij-Leibgarde-Regiment, 1866-1868 Studienaufenthalte im Ausland, z.B. 1867 an der Universität Würzburg im Pathologischen Institut bei Friedrich Daniel von RECKLINGHAUSEN (1833-1910) und 1868 an der Universität Wien am Institut für experimentelle Pathologie bei Salomon STRICKER (1834-1898), 1869 höherer Beamter am Medizinaldepartement des Ministeriums des Innern, 1869-1878 Leibarzt des Prinzen Peter von OLDENBURG, russ. Petr Georgievi\u010d OL'DENBURGSKIJ (1812-1881), zugleich erneut Arzt im Preobra\u017eenskij-Leibgarde-Regiment mit Beteiligung am Deutsch-französischen Krieg 1870-1871 und am Russisch-türkischen Krieg 1877-1878, ab 1879 "Ehrenleibmedikus" am Hofe des Zaren ALEKSANDR II. (1818-1881) und Arzt der Kaiserlichen Lehranstalt für Recht, 1880-1882 Konsultant und 1887-1889 Medizinalinspektor der "Institutionen der Zarin Marija" in Moskau, ab 1882 Vizedirektor der Medizinalverwaltung, ab 1883 Mitglied des Medizinalrats des Ministeriums des Innern, außerdem beratendes Mitglied im Veterinärkomitee sowie in weiteren medizinischen Kommissionen.\u000aInhaber des Ehrentitels "Wirklicher Russischer Staatsrat" und des St.-Vladimir-Ordens 4. Klasse.\u000a
+p11
+sVName
+p12
+(dp13
+S'Vornamen'
+p14
+VNikolaj Dement'evi\u010d
+p15
+sS'Nachname'
+p16
+VBubnov
+p17
+ssVQuelle
+p18
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 58-59.</i>
+p19
+sVNamensvariationen
+p20
+(lp21
+(dp22
+g6
+VBUBNOFF
+p23
+sS'countyCode'
+p24
+S'de'
+p25
+sa(dp26
+g6
+VN.
+p27
+sg24
+g25
+sasVM
+p28
+VEvgenija Aleksandrovna Bubnova, geb. Demidova (1846-1877)
+p29
+sVID
+p30
+V30158
+p31
+sVGeburtsdaten
+p32
+(dp33
+S'Ort'
+p34
+VMoskau
+p35
+sS'Datum'
+p36
+V7.3.1837
+p37
+ssVSterbedaten
+p38
+(dp39
+g34
+VSt. Petersburg
+p40
+sg36
+V19.7.1889
+p41
+ssVW
+p42
+(dp43
+S'letzteZeile'
+p44
+VB. soll außerdem eine Abhandlung über die Notwendigkeit der Umgestaltung in der medizinischen Verwaltung verfasst haben.
+p45
+sS'general'
+p46
+(lp47
+VIskrivlenija matki, mechanizm i uslovija ich obrazovanija. Diss. Sankt-Peterburg 1864, 56 S.
+p48
+aVUeber die Organisation des Trombus. Vorläufige Mittheilung. Centralblatt für die medicinischen Wissenschaften 5 (1867), 753-756.
+p49
+aVUeber die Organisation des Trombus. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 44 (1868), 462-472.
+p50
+aVBeiträge zur Kenntniß der Structur des Knorpels. Sitzungsberichte der mathematisch-naturwissenschaftlichen Classe der Kaiserlichen Akademie der Wissenschaften [Wien] 57 (1868) Abt 1, 912-915.
+p51
+aVAkupressura, kak sredstvo ostanavlivat' krovote\u010denie.(Acupressura, Acufilopressura et Acutorsio). Voenno-medicinskij \u017eurnal Teil 103, Jg. 46 (1868) III, 75-80.
+p52
+aV\u010castnaja pomo\u0161\u010d nejtral'nych gosudarstv v vojnu 1870-1871 godov. Russkij invalid (1873) Nr. 243.
+p53
+aVO sbere\u017eenii zdorov'ja soldata. Iz lekcij, \u010ditanych v kazarmach polka. In: Soldatskaja kniga. Sankt-Peterburg 1877.
+p54
+assVV
+p55
+VDementij
+p56
+sVSL
+p57
+(dp58
+g46
+(lp59
+VJazykov, Dmitrij Dmitrievi\u010d: Obzor \u017eizni i trudov pokojnych russkich pisatelej. Bd. 9: Russkie pisateli i pisatel'nicy umer\u0161ie v 1889 godu. Moskva 1905, 11.
+p60
+aVPfrepper, Regine, Pfrepper, Gerd: Studienaufenthalte russischer Mediziner an deutschen Universitäten im 19. Jahrhundert. In: Ingrid Kästner, Regine Pfrepper (Hgg.), "... so ist die Naturwissenschaft das wahre internationale Band der Völker". Aachen 2004 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaften 9), 273-292.
+p61
+aVWBIS RBA: R 69, 337-341.
+p62
+assVBerufe
+p63
+(lp64
+VMilitärarzt
+p65
+aVLeibmedikus
+p66
+aVFührungskraft in der Medizinalverwaltung
+p67
+as.

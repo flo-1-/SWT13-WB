@@ -1,0 +1,159 @@
+(dp0
+VA
+p1
+VMittlere Schulbildung in der Lehranstalt in Birju\u010d, danach Besuch des Gymnasiums in Char'kov, anschließend bis 1835 Studium der Medizin mit dem Abschluss "Arzt 1. Klasse", 1839-1841 Fortbildungsstudium und 1841 Dr. med. an der Universität Dorpat.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u0426\u042b\u0426\u0423\u0420\u0418\u041d, \u0424ë\u0434o\u0440 C\u0442e\u043fa\u043do\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sasVB
+p10
+V1835-1839 praktischer Arzt im Gouvernement Char'kov, 1841-1843 Besuche und Weiterbildungsaufenthalte an medizinischen Einrichtungen in Westeuropa, darunter in Königsberg an der Medizinischen Klinik bei Ludwig Wilhelm SACHS (1787-1848), in Danzig am Städtischen Krankenhaus bei Wilhelm BAUM (1799-1883), in Dresden an der Medizinischen Klinik und der Medizinisch-chirurgischen Akademie bei Johann Ludwig CHOULANT (1791-1861), in Leipzig an der Universitätsklinik bei Carl Ewald HASSE (1810-1902) und bei Johann Christian August CLARUS (1774-1854), in Halle an der Universitätsklinik bei Peter KRUKENBERG (1787-1865), in Berlin an der Charité, insbesondere an der Medizinischen Klinik bei Johann Lucas SCHÖNLEIN (1793-1864), bei Eduard WOLFF (1794-1878), bei Moritz Heinrich ROMBERG (1795-1873), bei Friedrich Theodor FRERICHS (1819-1885) und bei Johann Franz SIMON (1813-1843), in Wien an der Medizinischen Fakultät bei Franz Wilhelm LIPPICH (LIPIC) (1799-1845) und bei Stanislaus TÖLTÉNYI (1795-1852), im Allgemeinen Krankenhaus bei Josef von \u0160KODA (1805-1881) und bei Carl von ROKITANSKY (1804-1878), an der Medizinisch-chirurgischen Josephs-Akademie bei Carl HEIDLER, Ritter VON EGEREGG (\u2020 1887), im Gumpendorfer Hospital der Barmherzigen Schwestern bei Friedrich Wilhelm Carl FLEISCHMANN (1799-1868), in Linz im Spital der Barmherzigen Brüder, in Salzburg im Josephs- und Leprosen-Spital, in den Solebädern in Ischl sowie in verschiedenen Kliniken in der Schweiz, in Italien, in Frankreich und in England, nach der Rückkehr 1844 Probevorlesung in St. Petersburg, 1844-1857 o. Prof. am Lehrstuhl für Therapie und Semiotik und 1847-1850 Dekan der Medizinischen Fakultät an der St.-Vladimir-Universität in Kiev, zugleich Konsultant am Studenten-Krankenhaus, am Institut für höhere Töchter, an der Gräfin Leva\u0161ova-Lehranstalt für arme Mädchen und am 1. Kiever Gymnasium, 1849 im Südwestgebiet Russlands zur Skorbut-Bekämpfung und 1852 im Dnepr-Gebiet für die Untersuchung gesundheitsschädlicher Einwirkungen auf die Arbeiter eingesetzt, 1856 Fortbildungsreise nach Deutschland, darunter in Breslau an der Medizinischen Klinik bei FRERICHS und an der Chirurgischen Klinik bei Albrecht MIDDELDORF (1834-1868), in Berlin wieder bei SCHÖNLEIN, WOLFF und ROMBERG, an der Chirurgischen Klinik bei Bernhard von LANGENBECK (1810-1887) und an der Augenklinik bei Albrecht von GRAEFE (1828-1870), in Leipzig bei Carl August WUNDERLICH (1815-1877), bei Gustav GÜNTHER (1801-1866), bei Eduard WEBER (1806-1871) und bei Hermann Julius CLARUS (1819-1863), in Halle bei Julius VOGEL (1814-1880), bei Ernst BLASIUS (1802-1875) und bei Alfred Wilhelm VOLKMANN (1801-1877) sowie in Würzburg, Bonn und Heidelberg und in zahlreichen Heilbädern in Süddeutschland, weiterhin Reise nach Frankreich, erneuter Aufenthalt in Wien, darunter wieder bei \u0160KODA und ROKITANSKY sowie bei Theodor von OPPOLTZER (1841-1886), Johann Florian HELLER (1813-1871) und Karl Ludwig SIGMUND (1810-1883), nahm dort an der 32. Versammlung Deutscher Naturforscher und Ärzte teil, 1857-1861 Präsident der Kaiserlichen Mediko-chirurgischen Akademie in Warschau, später Mitglied des Medizinalrats des Ministeriums des Innern, 1863-1867 Direktor des Medizinaldepartements des Kriegsministeriums, ab 1863 "Ehrenleibmedikus", ab 1865 Leibmedikus und 1867-1882 Leiter der Medizinalabteilung am Hofe des Zaren ALEKSANDR II. (1818-1881).\u000aInhaber des russischen Ehrentitels "Wirklicher Russischer Staatsrat", des St.-Annen-Ordens 2. Klasse (1848), mit Kaiserlicher Krone (1854) und 1. Klasse, des St.-Vladimir-Ordens 3. Klasse (1857) und 2. Klasse, des St.-Stanislav-Ordens 1. Klasse, des Weißer-Adler-Ordens, des Aleksandr-Nevskij-Ordens u.a.
+p11
+sVName
+p12
+(dp13
+S'Vornamen'
+p14
+VFëdor Stepanovi\u010d
+p15
+sS'Nachname'
+p16
+VCycurin
+p17
+ssVQuelle
+p18
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 64-66.</i>
+p19
+sVNamensvariationen
+p20
+(lp21
+(dp22
+g6
+VZIZURIN
+p23
+sS'countyCode'
+p24
+S'de'
+p25
+sa(dp26
+g6
+VZYZURIN
+p27
+sg24
+g25
+sa(dp28
+g6
+V\u0426\u0418\u0426\u0423\u0420\u0418\u041d Theodor
+p29
+sg24
+g9
+sa(dp30
+g6
+V\u0424e\u0434o\u0440
+p31
+sg24
+g9
+sa(dp32
+g6
+V\u0422eo\u0434o\u0440
+p33
+sg24
+g9
+sasVWL
+p34
+VVerdienste im Kampf gegen Cholera-Epidemien, Befürwortung und Anwendung der physikalischen Krankenuntersuchung, legte den Grundstein für die Kiever therapeutische Schule.
+p35
+sVMG
+p36
+VVoenno-medicinskij u\u010denyj komitet [Militärmedizinisches Gelehrtenkomitee] (ab 1861), St. Peterburgskoe ob\u0161\u010destvo russkich vra\u010dej [St. Petersburger Gesellschaft russischer Ärzte], Moskovskoe fiziko-medicinskoe ob\u0161\u010destvo [Moskauer Physiko-medizinische Gesellschaft], Kievskoe i Var\u0161avskoe medicinskoe ob\u0161\u010destvo [Kiewer und Warschauer Medizinische Gesellschaft], St. Peterburgskoe farmacevti\u010deskoe ob\u0161\u010destvo [St. Petersburger Pharmazeutische Gesellschaft], Mediko-filantropi\u010deskij komitet [Mediko-philanthropisches Komitee], Deutsche Naturforscher und Ärzte zu Wien, Naturwissenschaftliche Gesellschaft Isis zu Dresden, Deutsche Akademie der Naturforscher Leopoldina (ab 1863) u.a.
+p37
+sVID
+p38
+V30219
+p39
+sVQ
+p40
+(lp41
+VDonesenie doktora mediciny Cycurina, g. ministru narodnogo prosve\u0161\u010denija, iz Berlina o zanjatijach ego s 27 Avgusta 1841 do 1 Aprelja 1842 goda. \u017durnal Ministerstva narodnago prosve\u0161\u010denija 35 (1842) IV, 1-12.
+p42
+aVDonesenie doktora mediciny Cycurina, g. ministru narodnogo prosve\u0161\u010denija, iz Veny, ot 6 Avgusta 1842 goda. \u017durnal Ministerstva narodnago prosve\u0161\u010denija 37 (1843) IV, 75-98.
+p43
+aVOt\u010det o pute\u0161estvii doktora mediciny Cycurina, s 15 Avgusta 1842 do 15 Fevralja 1843 goda [und] s 15 Marta do 15 Avgusta 1843 goda. \u017durnal Ministerstva narodnago prosve\u0161\u010denija 42 (1844) IV, 1-82 und 43 (1844) IV, 31-52.
+p44
+aVOt\u010det o pute\u0161estvii za granicu s u\u010denoju cel'ju. \u017durnal Ministerstva narodnago prosve\u0161\u010denija 95 (1857) IV, 1-16 und 96 (1857) IV, 1-78.
+p45
+asVGeburtsdaten
+p46
+(dp47
+S'Ort'
+p48
+VBirju\u010d, Gouvernement Vorone\u017e
+p49
+sS'Datum'
+p50
+V12.6. oder 11./23.6.1814
+p51
+ssVSterbedaten
+p52
+(dp53
+g48
+VSt. Petersburg
+p54
+sg50
+V19.12.1895/Jan. 1896
+p55
+ssVW
+p56
+(dp57
+S'general'
+p58
+(lp59
+VNonnulla de typho abdominali (fièvre typhoide Gallorum), praecipue quod attinet ad causam proximam et diversam adhibendae curationis rationem. Diss. Dorpat 1841, 85 S. http://dspace.utlib.ee/dspace/bitstream/10062/3556/1/zizurin.pdf Volltext (7.03.2012).
+p60
+aVUeber den Zustand der vorzüglichsten Heilanstalten Oberitaliens und über das Pellagra und den Kretinismus. Medizinische Zeitung Russlands 1 (1844), 253-255, 271-272.
+p61
+aVEin Blick auf den jetzigen Zustand der Medicin in Frankreich. Medizinische Zeitung Russlands 1 (1844), 321-327, 333-336, 349-351.
+p62
+aVAus den Reiseberichten. Medizinische Zeitung Russlands 2 (1845), 193-198, 201-207.
+p63
+aV[Übersetzung einer Arbeit von Julius Lindpaintner aus der Chirurgischen Abteilung des Allgemeinen Krankenhauses München]: Lindpajntner, Julij: Tri slu\u010daja antisepti\u010deskogo le\u010denija ran po sposobu Listera. Medicinskij vestnik (1875) Nr. 34, 8 S.
+p64
+assVV
+p65
+VStepan, Gutsbesitzer
+p66
+sVGPV
+p67
+VPublikationen 1841-1862, in: Zmeev, Lev Fëdorovi\u010d: Russkie vra\u010di pisateli. Bd. 1. S.-Peterburg 1886, 147; vgl. auch: WBIS RBA: R 491, 102-103.
+p68
+sVSL
+p69
+(dp70
+g58
+(lp71
+VJazykov, Dmitrij Dmitrievi\u010d: Materialy dlja "Obzora \u017eizni i so\u010dinenij russkich pisatelej i pisatel'nic". Lfg. 15: Russkie pisateli i pisatel'nicy umer\u0161ie v 1895 godu. In: Rossijskij archiv. Istorija Ote\u010destva v svidetel'stvach i dokumentach XVIII - XX vv.: Al'manach. Bd. 11. Moskva 2001, 569-596. http://feb-web.ru/feb/rosarc/rab/rab-569-.htm Online Ressorce (17.3.2012).
+p72
+aVWBIS RBA: R 491, 98-104; RS 73, 145-146.
+p73
+aV\u017dukovskij, L. I.: Pervyj Kievskij professor-terapevt F. C. Cycurin. Vra\u010debnoe delo = Likars'ka sprava (1965) Nr. 2, 113-115.
+p74
+assVBerufe
+p75
+(lp76
+VProfessor für Therapie und Semiotik
+p77
+aVHof- und Leibarzt
+p78
+aVGesundheitspolitiker
+p79
+as.

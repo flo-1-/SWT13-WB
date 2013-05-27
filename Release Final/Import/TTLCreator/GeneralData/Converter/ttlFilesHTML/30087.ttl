@@ -1,0 +1,225 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<P/30087hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto aus: Afanas'ev, N. I.: Sovremenniki. Al'bom biografij Bd. 2. [Sanktpeterburg] 1910, 35; vgl. auch WBIS RBA: R 50, 211. Abgedruckt in: Fischer 2010, 25." .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30087hasW2>
+	rdfs:label "Ivan Sergeevič Turgenev. S.-Peterburg 1883, 15 S." ;
+	a drw-model:W .
+
+<SL/30087hasSL6>
+	rdfs:label "Šustov, A. S. (Hg.): Naši dejateli po medicine. S.-Peterburg 1910 (Illjustrirovannyj vestnik kul'tury, naučno-vospitatel'nago, techničeskago i torgovo-promyšlennago progressa Rossii 1)." ;
+	a drw-model:SL .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<W/30087hasW4>
+	rdfs:label "Sanitarno-vračebnoe delo na gornych zavodach i promyslach Urala. Gornyj žurnal 68 (1892) Febr.-Nr., 53 S." ;
+	a drw-model:W .
+
+<Date/10_12_1929>
+	a drw-model:Date ;
+	rdfs:label "10.12.1929" .
+
+<W/30087hasW5>
+	a drw-model:W ;
+	rdfs:label "Nabljudenija nad dejstviem Kochovskoj limpfy na bol'nych bugorčatkoj vnutrennich organov. Voenno-medicinskij žurnal Jg. 88 (1891) und 89 (1892); deutsch: Beobachtungen über die Wirkung des Koch'schen Heilmittels bei Tuberculose innerer Organe. Deutsche medizinische Wochenschrift 18 (1892), 53-55 und 77-78." .
+
+<NameVariation/30087hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Бeрнгaрдoвич" .
+
+<Q/30087hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Rossijskij gosudarstvennyj archiv literatury i isskustva Moskva [Russisches Staatliches Archiv für Literatur und Kunst Moskau]: РГАЛИ: Фонд 39: Bertensony: Vasilij Bernardovič (1853-1933), Lev Bernardovič (1850-1929). Online Ressource Online Ressource (26.3.2012)" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.rgali.ru/object/11004712?lc=ru" .
+
+<P/30087hasP3>
+	a drw-model:P ;
+	rdfs:label "Portrait aus: Aržanov: Lejb-medik Bertenson (<b>SL</b>). Abgedruckt in: Fischer 2010, 28." .
+
+<ImportantPerson/30235>
+	a drw-model:ImportantPerson .
+
+<A/30087hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Nach dem Besuch des Gymnasiums in Odessa bis 1872 Studium der Medizin an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg." .
+
+<SL/30087hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Böhm 1998, 38." .
+
+<B/30087hasStationOfLife1>
+	rdfs:label "Nach dem Studium Spezialisierung in innerer Medizin bei Woldemar Hermann ECK (1818-1875) (Vater von Woldemar <span style='font-variant:small-caps;'>ECK</span>) und Eduard Georg von <span style='font-variant:small-caps;'>EICHWALD</span> (1837-1889) an der MCA, anschließend Ordinator im \"Städtischen Roždestvenskij-Krankenhaus\" und Konsultant im Nikolaj-Militärhospital in St. Petersburg, 1887-1917 medizinische Tätigkeit, z.B. für das Ministerium für Landwirtschaft in St. Petersburg, als Dozent im Bergbauinstitut, außerdem 23 Jahre Dozent für innere Medizin und Diagnostik an der Lehranstalt \"Roždestvenskie kursy\" für Arztgehilfinnen und Feldscherinnen (später Schule für Arzt- und Geburtshelferinnen) in St. Petersburg, 1881 behandelnder Arzt von Modest Petrovič MUSORGSKIJ (1839-1881) und 1893 von Petr Il'ič ČAJKOVSKIJ (1840-1893) sowie von Ivan Sergeevič TURGENEV (1818-1883) und Lev Nikolaevič TOLSTOJ (1828-1910), ab 1897 \"Ehrenleibmedikus\" am Hofe und 1903 Leibmedikus des Zaren NIKOLAJ II. (1868-1918) im Kaiserlichen Hauptquartier in St. Petersburg, außerdem Mitglied des Wissenschaftlichen Bergbau-Komitees (ab 1890), des Medizinalrats des Ministeriums des Innern (ab 1898) sowie Vorsitzender der Kommission \"Kampf gegen die Tuberkulose\", lebte 1917-1921 in Odessa und 1922-1929 in einem Altenheim in Leningrad.
+Inhaber hoher russischer Ehrentitel und zahlreicher Auszeichnungen, darunter 1912 \"Geheimrat\", 1914 \"Wirklicher Geheimrat\", 1907 Goldmedaille der Russischen Gesellschaft für Wahrung der Volksgesundheit, Weißer-Adler-Orden, St.-Vladimir-Orden 2. Klasse, St.-Annen-Orden 1. Klasse, St.-Stanislav-Orden 1. Klasse, Kaiserlich-Österreichischer Franz-Joseph-Orden." ;
+	a drw-model:B ;
+	drw-model:hasNameLink <ImportantPerson/30235> ;
+	drw-model:hasNameLink <ImportantPerson/30241> .
+
+<P/30087hasP2>
+	rdfs:label "Foto in: Šustov (<b>SL</b>)." ;
+	a drw-model:P .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<SL/30087hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Pridvornyj kalendar': na 1910 god. Sankt-Peterburg [o. J.], 286; ~ 1911, 297; ~ 1913, 313; ~ 1914, 392." .
+
+<MG/30087hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Russkoe obščestvo ochranenija narodnogo zdravija [Russische Gesellschaft zur Wahrung der Volksgesundheit], Obščestvo russkich vračej v pamjat' N. I. Pirogova [Gesellschaft russischer Ärzte im Gedenken an N. I. Pirogov], Imperatorskoe mineralogičeskoe obščestvo [Kaiserliche mineralogische Gesellschaft], Balneologičeskoe obščestvo [Balneologische Gesellschaft], Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee] (ab 1903), Berliner medicinische Gesellschaft, Société française d'hygiène, Société thérapeutique und Société d'hydrologie médicale de Paris, The Sanitary Institute London u. a." .
+
+<W/30087hasW6>
+	a drw-model:W ;
+	rdfs:label "Sanitarno-vračebnoe delo na gornych promyslach Carstva Pol'skogo. Gornyj žurnal 69 (1893) Okt.-Nr., 129 S." .
+
+<ImportantPerson/30241>
+	a drw-model:ImportantPerson .
+
+<SL/30087hasSL7>
+	rdfs:label "WBIS RBA: R 50, 211-215." ;
+	a drw-model:SL .
+
+<Place/Odessa>
+	a drw-model:Place ;
+	rdfs:label "Odessa" .
+
+<SL/30087hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Aržanov, N. P.: Sem'ja Bertensonov. Vzjatie Peterburga. Provizor 2004, Nr. 17." .
+
+<GeneralLabor/Balneologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Balneologe" .
+
+<W/30087hasW10>
+	rdfs:label "Untersuchungen über die Wohnungsfrage in Russland. Neue Untersuchungen über die Wohnungsfrage in Deutschland und im Ausland 3 (1901), 269-284." ;
+	a drw-model:W .
+
+<NameVariation/30087hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Berngardovič" .
+
+<GeneralLabor/Hygieniker>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hygieniker" .
+
+<W/30087hasW3>
+	rdfs:label "Vnutrennie bolezni v S.-Peterburgskom Nikolaevskom voennom gospitale v 1890 godu. Sankt-Peterburg 1891, 115 S." ;
+	a drw-model:W .
+
+<W/30087hasW1>
+	rdfs:label "Mineral'nye vody, morskie kupan'ja i grjazi v Rossii i zagraniceju. L'va Bertensona i Nikolaja Voronichina ([St. Petersburg 1873]); 2. und 3. Aufl. u. d. T.: Mineral'nye vody, grjazi i morskie kupan'ja v Rossii i zagraniceju: Klassifikacija, chim. sostav, fiziol. dejstvie i pokazanija k upotrebleniju. 2. Aufl. Sankt-Peterburg 1882, 839, 343 S., 3. Aufl. Sankt-Peterburg 1884, 425 S.; 4. Aufl. u. d. T.: Lečebnye vody, grjazi i morskie kupan'ja v Rossii i zagranicej. Sankt-Peterburg 1901, 778 S." ;
+	a drw-model:W .
+
+<W/30087hasW8>
+	rdfs:label "O neobchodimosti obučenija technikov podaniju pervoj pomošči pri nesčastnych slučajach i vnezapnych zabolevanijach do pribytija vrača. Sankt-Peterburg 1896. Vstup. lekcija ... čit. studentam Gorn. in-ta 15 okt. 1896. Obščestvenno-sanitarnoe obozrenie (1896), 17 S.; <b>deutsch</b>: Ueber die Nothwendigkeit der Belehrung der Techniker in der \"Ersten Hilfe bei Unglücksfällen und plötzlichen Erkrankungen bis zur Ankunft des Arztes\". Antrittsvorlesung, gehalten am 27. October 1896. Zeitschrift für Gewerbe-Hygiene, Unfall-Verhütung und Arbeiter-Wohlfahrts-Einrichtungen 3 (1896), 18 S." ;
+	a drw-model:W .
+
+<SL/30087hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Aržanov, N. P.: Lejb-medik Bertenson. L'vinyj sled. Provizor 2004, Nr. 18." .
+
+<W/30087hasW9>
+	rdfs:label "O russkich buddistach i o tak nazyvaemoj tibetskoj medicine. Russkij vrač 5 (1906), 418-421; <b>deutsch</b>: Über russische Buddhisten und die sogenannte tibetische Medizin. St. Petersburger medicinische Wochenschrift N. F. 24 [= 31] (1907), 253-257." ;
+	a drw-model:W .
+
+<WL/30087hasWL1>
+	rdfs:label "Initiator einer Reihe von arbeitsmedizinischen Vorschriften, der Einführung von Erste-Hilfe-Lehrgängen und des Hygiene-Unterrichts in Bergbaulehranstalten sowie der Gründung von Heilbädern, Gründer der Russischen Liga für den Kampf gegen die Tuberkulose, Gründer des ersten Hygiene-Museums im Bergbauinstitut in St. Petersburg, Autor des ersten russischen Standard-Werkes zur Balneologie und Thalassotherapie." ;
+	a drw-model:WL .
+
+<MainName/30087hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30087hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30087hasNameVariation1> ;
+	rdfs:label "Berthenson, Leo" .
+
+<RelatedPerson/30087hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Boris L'vovič (1878-1904/5?), Marinearzt<br>Michail L'vovič (1882-1938), Marineoffizier<br>Sergej L'vovič (1885-1962), Bibliograph, Literatur- und Theaterhistoriker<br>" .
+
+<SL/30087hasSL4>
+	rdfs:label "EAD: Dokument-Id [8501/8210 (21.7.2010)]." ;
+	a drw-model:SL .
+
+<W/30087hasW7>
+	a drw-model:W ;
+	rdfs:label "K diagnostike novoobrazovanij serdca. Miksoma levogo predserdija. Vrač 14 (1893); <b>deutsch</b>: Zur Frage von der Diagnose primärer Neoplasmen des Herzens. Myxom des linken Vorhofes. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 132 (1893), 390-407." .
+
+<Place/Leningrad>
+	a drw-model:Place ;
+	rdfs:label "Leningrad" .
+
+<ImportantPerson/30087>
+	drw-model:hasSL <SL/30087hasSL1> ;
+	drw-model:hasSL <SL/30087hasSL4> ;
+	drw-model:hasW <W/30087hasW1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	drw-model:hasW <W/30087hasW4> ;
+	drw-model:hasDescendant <RelatedPerson/30087hasDescendant1> ;
+	drw-model:hasID "30087" ;
+	drw-model:hasP <P/30087hasP3> ;
+	drw-model:hasW <W/30087hasW7> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Hygieniker> ;
+	drw-model:motherIs <RelatedPerson/30087motherIs1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Balneologe> ;
+	drw-model:wasBornIn <Place/Odessa> ;
+	drw-model:hasSL <SL/30087hasSL5> ;
+	drw-model:hasMG <MG/30087hasMG1> ;
+	drw-model:hasW <W/30087hasW8> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:hasSL <SL/30087hasSL2> ;
+	drw-model:hasW <W/30087hasW6> ;
+	drw-model:hasQ <Q/30087hasQ1> ;
+	drw-model:hasW <W/30087hasW9> ;
+	drw-model:hasW <W/30087hasW2> ;
+	drw-model:hasW <W/30087hasW10> ;
+	drw-model:hasEducation <A/30087hasEducation1> ;
+	drw-model:hasW <W/30087hasW5> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30087.jpg> ;
+	a drw-model:ImportantPerson ;
+	drw-model:diedIn <Place/Leningrad> ;
+	drw-model:hasSL <SL/30087hasSL6> ;
+	drw-model:hasMainName <MainName/30087hasMainName1> ;
+	drw-model:hasStationOfLife <B/30087hasStationOfLife1> ;
+	drw-model:hasSL <SL/30087hasSL3> ;
+	rdfs:label "Berthenson, Leo" ;
+	drw-model:diedOn <Date/10_12_1929> ;
+	drw-model:hasW <W/30087hasW3> ;
+	drw-model:wasMarriedTo <RelatedPerson/30087wasMarriedTo1> ;
+	drw-model:wasBornOn <Date/29_7_1850> ;
+	drw-model:hasP <P/30087hasP2> ;
+	drw-model:hasWL <WL/30087hasWL1> ;
+	drw-model:hasSL <SL/30087hasSL7> ;
+	drw-model:fatherIs <RelatedPerson/30087fatherIs1> ;
+	drw-model:hasP <P/30087hasP1> .
+
+<RelatedPerson/30087fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Bernhard (Bern(g)ard Vasil'evič) (1815-1871), Stadtverordneter, Publizist" .
+
+<RelatedPerson/30087motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anna Samojlovna" .
+
+<RelatedPerson/30087wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ol'ga Apollonovna, geb. Skal'kovskaja (1855-1941), Sopranistin, Gesangspädagogin" .
+
+<Date/29_7_1850>
+	a drw-model:Date ;
+	rdfs:label "29.7.1850" .
+

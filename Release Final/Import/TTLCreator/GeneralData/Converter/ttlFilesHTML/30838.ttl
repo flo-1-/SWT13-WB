@@ -1,0 +1,321 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<P/30838hasP7>
+	rdfs:label "Reliefportrait in: Tartu University of Tartu Library, Photo Collection, Sign. F 78, Fo Norm 17:231. Online Ressource Online Ressource (1.8.2012)." ;
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/dspace/bitstream/handle/10062/19313/f78fonorm17_231_august_rauber.jpg?sequence=2" .
+
+<P/30838hasP2>
+	rdfs:label "Portrait um etwa 1890. University of Tartu Library, Photo Collection, Sign. Fo 1992C. Online Ressource Online Ressource (1.8.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/dspace/bitstream/handle/10062/22781/fo1992c_august_rauber.jpg" ;
+	a drw-model:P .
+
+<SL/30838hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Ajalugu. Anatoomia ja histoloogia õpetamisest Tartu ülikoolis. Online Ressource Online Ressource (1.6.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://biomedicum.ut.ee/aran/index.php?menu=6&lang=Est" .
+
+<Date/6_2_1917>
+	a drw-model:Date ;
+	rdfs:label "6.2.1917" .
+
+<W/30838hasW8>
+	rdfs:label "mit W. Moldenhauer: Ist die Tuben-Paukenhöhle Product des Vorderdarms oder der Mundbucht? Archiv für Ohrenheilkunde 14 (1878) 1, 36-52. Online Ressource Online Ressource (1.8.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.springerlink.com/content/l743n357805j415t/fulltext.pdf" ;
+	a drw-model:W .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30838hasW1>
+	rdfs:label "Vater'sche Körper der Bänder- und Periostnerven und ihre Beziehung zum sogenannten Muskelsinne. Diss. med. München 1865. Online Ressource Online Ressource (1.8.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://reader.digitale-sammlungen.de/resolve/display/bsb10855590.html" ;
+	a drw-model:W .
+
+<P/30838hasP6>
+	rdfs:label "Portrait in: <b>SL</b> Ajalugu. Anatoomia ja histoloogia õpetamisest Tartu ülikoolis. Online Ressource Online Ressource (1.8.2012)." ;
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://biomedicum.ut.ee/aran/images/rauber.jpg" .
+
+<WL/30838hasWL1>
+	a drw-model:WL .
+
+<W/30838hasW16>
+	rdfs:label "Altas der Krystallregeneration. 4 Bde. Leipzig 1896-1897." ;
+	a drw-model:W .
+
+<Q/30838hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Autobiographie. In: <b>SL</b> Levickij 1903." .
+
+<P/30838hasP4>
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/dspace/bitstream/handle/10062/19312/f78fonorm17_230_august_rauber.jpg?sequence=2" ;
+	rdfs:label "Photoportrait in: Tartu University of Tartu Library, Photo Collection, Sign. F 78, Neg.Norm 15:12. Online Ressource Online Ressource (1.8.2012)." .
+
+<W/30838hasW2>
+	<http://xmlns.com/foaf/0.1/homepage> "http://books.google.de/books/about/Untersuchungen_%C3%BCber_Vorkommen_und_die_B.html?id=hyY_AAAAcAAJ&redir_esc=y" ;
+	rdfs:label "Untersuchungen über das Vorkommen und die Bedeutung der Vater'schen Körper. München 1867. Online Ressource Online Ressource (1.8.2012). \"Seinem hochverehrten Lehrer Herrn Professor Dr. Theodor Ludwig Wilhelm Bischoff gewidmet\".\"" ;
+	a drw-model:W .
+
+<W/30838hasW9>
+	rdfs:label "Über den Ursprung der Milch und die Ernährung der Frucht im Allgemeinen. Leipzig 1879." ;
+	a drw-model:W .
+
+<W/30838hasW18>
+	rdfs:label "Ontogenese als Regeneration betrachtet. Dorpat 1908. 2. Aufl. Dorpat 1909." ;
+	a drw-model:W .
+
+<GeneralLabor/Anatom>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Anatom" .
+
+<W/30838hasW17>
+	rdfs:label "Wirkungen des Alkohols auf Tiere und Pflanzen. Leipzig 1902." ;
+	a drw-model:W .
+
+<NameVariation/30838hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "Август Антоний" .
+
+<W/30838hasW4>
+	rdfs:label "Elasticität und Festigkeit der Knochen. Anatomisch-physiologische Studie. Leipzig 1876. Online Ressource Online Ressource (1.8.2012)." ;
+	a drw-model:W ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://bl460-134.gbv.de/goobi/ppnresolver/?PPN616622406" .
+
+<GPV/30838hasGPV2>
+	a drw-model:GPV ;
+	rdfs:label "• <b>SL</b> Lubosch 1924, 169-172." .
+
+<RelatedPerson/30838wasMarriedTo1>
+	rdfs:label "Christina, estnische Köchin, Heirat in Dorpat<br>   " ;
+	a drw-model:RelatedPerson .
+
+<W/30838hasW6>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.springerlink.com/content/h47p02h588154852/fulltext.pdf" ;
+	rdfs:label "Die Theorien der excessiven Monstra. Zweiter Beitrag. Archiv für Pathologische Anatomie und Physiologie und für Klinische Medicin 73 (1878) 4, 551-594, Taf. XIV-XVI. Online Ressource Online Ressource (1.8.2012); Schluss ibid. 74 (1878) 1, 66-125. Online Ressource Online Ressource (1.8.2012)." ;
+	a drw-model:W ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.springerlink.com/content/qm762r7482467478/fulltext.pdf" .
+
+<A/30838hasEducation1>
+	a drw-model:A ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/sfz085_00351_1.html" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/sfz68915.html" ;
+	rdfs:label "
+1850-1854 Besuch der Lateinschule in Neustadt an der Haardt, 1854-1859 Gymnasium in Speyer. Studium der Jura und dann der Medizin an der Universität München. Seine wichtigen Lehrer dort waren Theodor Ludwig Wilhelm Online Ressource BISCHOFF (1807-1882), Nicolaus Online Ressource RÜDINGER (1832-1896) und Julius Online Ressource KOLLMANN (1834-1918). Promotion in München 1865 mit der Arbeit \"Vater'sche Körper der Bänder- und Periostnerven und ihre Beziehung zum sogenannten Muskelsinne\" (<b>W</b> Rauber 1865)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/sfz4592.html" .
+
+<NameVariation/30838hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Avgust Stepanovič" .
+
+<SL/30838hasSL8>
+	rdfs:label "Toomsalu, Maie: Anatoomiaprofessor August Antonius Rauber. Tartu Ülikooli Anatoomia instituut. Tartu 2009." ;
+	a drw-model:SL .
+
+<Date/9_3_1841>
+	rdfs:label "9.3.1841" ;
+	a drw-model:Date .
+
+<W/30838hasW11>
+	a drw-model:W ;
+	rdfs:label "Urgeschichte der Menschen. 2 Bde. Leipzig 1884." .
+
+<W/30838hasW14>
+	rdfs:label "Die Lehren von Victor Hugo, Leo Tolstoj und Emile Zola über die Aufgaben des Lebens vom biologischen Standpunkte aus betrachtet: zugleich ein Beitrag zur Frauenfrage. Leipzig 1896." ;
+	a drw-model:W .
+
+<MG/30838hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Gesellschaft zur Unterstützung hilfsbedürftiger Studierender in Dorpat: ordentliches Mitglied, dann Ehrenmitglied." .
+
+<Place/Obermoschel_Pfalz_laut_Angaben>
+	a drw-model:Place ;
+	rdfs:label "Obermoschel, Pfalz (laut Angaben in der Autobiographie am 22.3.1841 in Rheinpfalz, " .
+
+<W/30838hasW13>
+	a drw-model:W ;
+	rdfs:label "mit Carl Hennig: Ein neuer Fall von geschwänztem Menschen. Archiv für Pathologische Anatomie und Physiologie und für Klinische Medicin 105 (1886) 1, 83-109." .
+
+<SL/30838hasSL5>
+	rdfs:label "Brauckmann, Sabine : August Rauber (1841-1917): from the primitive streak to Cellularmechanik. The International journal of developmental biology 50 (2006), 439-449." ;
+	a drw-model:SL .
+
+<MainName/30838hasMainName1>
+	rdfs:label "Rauber, August Antonius" ;
+	drw-model:hasNameVariation <NameVariation/30838hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30838hasNameVariation3> ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30838hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30838hasNameVariation4> .
+
+<Place/Jurev_Dorpat_or_Tartu_Zeichnun>
+	a drw-model:Place ;
+	rdfs:label "Jur'ev (Dorpat/Tartu). Zeichnung der Grabstätte in: Tartu University of Tartu Library" .
+
+<WL/30838hasWL2>
+	rdfs:label "Bedeutende Studien auf dem Gebiet der Anatomie, der Antropologie sowie der Evolutionsgeschichte. RAUBER bemühte sich auch, die Frauenfrage vom biologischen Standpunkt zu lösen (siehe Autobiographie in: <b>SL</b> Levickij 1903)." ;
+	a drw-model:WL .
+
+<W/30838hasW15>
+	rdfs:label "mit Carl Ernst Emil Hoffmann: Lehrbuch der Anatomie des Menschen. 2 Bde. Erlangen 1886. 5. Aufl. 1897/98, fortgeführt von Friedrich Wilhelm Kopsch." ;
+	a drw-model:W .
+
+<B/30838hasStationOfLife1>
+	rdfs:label "1866 Assistent bei Theodor Ludwig Wilhelm Online Ressource BISCHOFF am Anatomischen Institut der Universität München, 1869 Habilitation ebenda, ab 1869 Dozent für Anatomie in München, 1872 Prosektor der Universität Basel, im gleichen Jahr 1872 Prosektor der Universität Leipzig, er folgte dem berufenen Ordinarius für Anatomie Wilhelm Online Ressource HIS (1831-1904). 1872-1873 Privatdozent für Anatomie und 1873-1886 a.o. Professor für Anatomie und Anthropologie an der Medizinischen Fakultät der Universität Leipzig. Von 1886 bis 1911 o. Professor für Anatomie und Direktor des Anatomischen Instituts an der Universität Dorpat (1893 umbenannt in Jur'ev), zeitweise Dekan der medizinischen Fakultät.
+
+   " ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/sfz70166.html" ;
+	a drw-model:B ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/sfz4592.html" .
+
+<SL/30838hasSL7>
+	rdfs:label "Rauber, August. Deutschbaltische Biographische Lexikon 1710-1960. Köln, Wien 1970. Nachdruck Wedemark 1998, 608. Siehe auch: BBLd - Baltisches Biographisches Lexikon digital. Online Ressource Online Ressource (1.8.2012)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.bbl-digital.de/eintrag/Rauher-August-1841-1917/" .
+
+<SL/30838hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Lubosch, W.: August Rauber. Sein Leben und seine Werke. Anatomischer Anzeiger: Centralblatt für die gesamte wissenschaftliche Anatomie 58 (1924), 129-172." .
+
+<W/30838hasW3>
+	<http://xmlns.com/foaf/0.1/homepage> "http://books.google.de/books/about/Ueber_die_Nerven_der_Knochenhaut_und_Kno.html?hl=de&id=iCY_AAAAcAAJ" ;
+	rdfs:label "Ueber die Nerven der Knochenhaut und Knochen des Vorderarmes und Unterschenkels. München 1868. Online Ressource Online Ressource (1.8.2012)." ;
+	a drw-model:W .
+
+<P/30838hasP5>
+	rdfs:label "Portraitübersicht in: Tartu University of Tartu Library, Photo Collection, Sign. Fo 908D. Online Ressource Online Ressource (1.8.2012)." ;
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/dspace/bitstream/handle/10062/22615/fo908d_tu_arstiteaduskond_u_1908.jpg?sequence=2" .
+
+<P/30838hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait in: <b>SL</b> Lubosch 1924." .
+
+<Q/30838hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Übersicht der Lehrveranstaltungen von Rauber an der Universität Leipzig (SS 1873 bis SS 1886). In: Professorenkatalog der Universität Leipzig. Online Ressource Online Ressource (1.6.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://histvv.uni-leipzig.de/dozenten/rauber_a.html" .
+
+<SL/30838hasSL2>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://88.217.241.77/amburger/index.php?id=88703" ;
+	rdfs:label "Erik-Amburger-Datenbank. Online Ressource Online Ressource (7.8.2012)." .
+
+<P/30838hasP3>
+	a drw-model:P ;
+	rdfs:label "Photoportrait aus dem Album von N. D. Talysin. In: N. D. Tomilin-Landesmuseum in Kurtamyš. Online Ressource Online Ressource (1.8.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.kurtamysh.com/sc-pic/i1406.jpg" .
+
+<RelatedPerson/30838motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Rosalie Rauber, geb. Oberlé, aus Kirchheimbolanden" .
+
+<W/30838hasW5>
+	rdfs:label "Die Theorien der excessiven Monstra. Archiv für Pathologische Anatomie und Physiologie und für Klinische Medicin 71 (1877) 2, 133-206." ;
+	a drw-model:W .
+
+<W/30838hasW12>
+	rdfs:label "Homo sapiens ferus: oder die Zustände der Verwilderten und ihre Bedeutung für Wissenschaft, Politik und Schule. Biologische Untersuchung. Leipzig 1885. 2. Aufl. Leipzig 1888." ;
+	a drw-model:W .
+
+<NameVariation/30838hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Avgust Antonij" .
+
+<W/30838hasW7>
+	rdfs:label "Ueber Doppelbildungen bei Wirbelthieren. Archiv für Pathologische Anatomie und Physiologie und für Klinische Medicin 72 (1878) 3, 443-444. Online Ressource Online Ressource (1.8.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.springerlink.com/content/r547w60544224372/fulltext.pdf" ;
+	a drw-model:W .
+
+<GPV/30838hasGPV1>
+	rdfs:label "• Publikationsliste, zusammengestellt von August Rauber. In: <b>SL</b> Levickij 1903. 30838-GPV-Rauber.pdf Online Ressource." ;
+	a drw-model:GPV .
+
+<SL/30838hasSL9>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.uni-leipzig.de/unigeschichte/professorenkatalog/leipzig/Rauber_947" ;
+	a drw-model:SL ;
+	rdfs:label "Prof. Dr. med. August Antinous Rauber. Professorenkatalog der Universität Leipzig. Online Ressource Online Ressource (1.8.2012)." .
+
+<SL/30838hasSL3>
+	rdfs:label "Левицкiй, Г. В.: Бiографическiй словарь профессоровъ и преподавателей Императорскaго Юрьевскaго, бывшaго Дерптскaго, университета за сто лѣтъ его существованiя (1802-1902). Том 2. Юрьев 1903. - Levickij, G. V.: Biografičeskij slovar' professorov i prepodavatelej Imperatorskago Jur'evskago, byvšago Derptskago Universiteta: za sto lět ego suščestvovanija; (1802-1902). Bd. 2. Jur'ev 1903, 37-40." ;
+	a drw-model:SL .
+
+<NameVariation/30838hasNameVariation4>
+	a drw-model:NameVariation ;
+	rdfs:label "Антониус." .
+
+<RelatedPerson/30838fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Stephan Rauber, Gerichtsvollzieher" .
+
+<W/30838hasW10>
+	rdfs:label "Zur Beurtheilung der pluralen Monstra. Ein Nachtrag zur Radiationstheorie derselben. Archiv für Pathologische Anatomie und Physiologie und für Klinische Medicin 91 (1883) 3, 564-567." ;
+	a drw-model:W .
+
+<SL/30838hasSL1>
+	a drw-model:SL ;
+	rdfs:label "WBIS Baltisches Biographisches Archiv (BaBA), Deutsches Biographisches Archiv (DBA), Russisches Biographisches Archiv & Biographisches Archiv der Sowjetunion (RBA & BASU)." .
+
+<ImportantPerson/30838>
+	drw-model:hasQ <Q/30838hasQ2> ;
+	drw-model:hasW <W/30838hasW5> ;
+	drw-model:hasW <W/30838hasW2> ;
+	drw-model:hasW <W/30838hasW16> ;
+	drw-model:hasW <W/30838hasW11> ;
+	drw-model:hasSL <SL/30838hasSL5> ;
+	drw-model:hasW <W/30838hasW1> ;
+	rdfs:label "Rauber, August Antonius" ;
+	drw-model:diedIn <Place/Jurev_Dorpat_or_Tartu_Zeichnun> ;
+	drw-model:hasW <W/30838hasW17> ;
+	drw-model:hasSL <SL/30838hasSL8> ;
+	drw-model:hasSL <SL/30838hasSL6> ;
+	drw-model:hasW <W/30838hasW4> ;
+	drw-model:hasW <W/30838hasW18> ;
+	drw-model:wasMarriedTo <RelatedPerson/30838wasMarriedTo1> ;
+	drw-model:hasW <W/30838hasW13> ;
+	drw-model:wasBornIn <Place/Obermoschel_Pfalz_laut_Angaben> ;
+	drw-model:hasP <P/30838hasP2> ;
+	drw-model:hasP <P/30838hasP3> ;
+	drw-model:hasW <W/30838hasW7> ;
+	drw-model:hasID "30838" ;
+	drw-model:hasW <W/30838hasW15> ;
+	drw-model:fatherIs <RelatedPerson/30838fatherIs1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30838.jpg> ;
+	drw-model:hasSL <SL/30838hasSL7> ;
+	drw-model:hasMainName <MainName/30838hasMainName1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Anatom> ;
+	drw-model:hasW <W/30838hasW12> ;
+	drw-model:hasWL <WL/30838hasWL1> ;
+	drw-model:hasP <P/30838hasP1> ;
+	drw-model:hasP <P/30838hasP6> ;
+	drw-model:hasStationOfLife <B/30838hasStationOfLife1> ;
+	drw-model:hasSL <SL/30838hasSL9> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasP <P/30838hasP4> ;
+	drw-model:hasP <P/30838hasP7> ;
+	drw-model:hasW <W/30838hasW9> ;
+	drw-model:hasW <W/30838hasW14> ;
+	drw-model:wasBornOn <Date/9_3_1841> ;
+	drw-model:hasQ <Q/30838hasQ1> ;
+	drw-model:hasP <P/30838hasP5> ;
+	drw-model:hasSL <SL/30838hasSL2> ;
+	drw-model:hasW <W/30838hasW10> ;
+	drw-model:motherIs <RelatedPerson/30838motherIs1> ;
+	drw-model:hasSL <SL/30838hasSL4> ;
+	drw-model:hasSL <SL/30838hasSL3> ;
+	drw-model:hasMG <MG/30838hasMG1> ;
+	drw-model:hasGPV <GPV/30838hasGPV2> ;
+	drw-model:hasW <W/30838hasW3> ;
+	drw-model:hasW <W/30838hasW8> ;
+	drw-model:hasSL <SL/30838hasSL1> ;
+	drw-model:diedOn <Date/6_2_1917> ;
+	drw-model:hasGPV <GPV/30838hasGPV1> ;
+	drw-model:hasW <W/30838hasW6> ;
+	drw-model:hasEducation <A/30838hasEducation1> ;
+	drw-model:hasWL <WL/30838hasWL2> .
+

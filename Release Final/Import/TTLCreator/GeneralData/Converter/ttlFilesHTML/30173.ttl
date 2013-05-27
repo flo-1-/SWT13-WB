@@ -1,0 +1,281 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30173hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Gedrucktes Literaturverzeichnis in: 30173-SL.pdf Schmuck 2009, 261-301." .
+
+<Date/16_Juli_1847_in_Knigsberg>
+	a drw-model:Date ;
+	rdfs:label "16. Juli 1847 in Königsberg" .
+
+<WL/30173hasWL4>
+	rdfs:label "Aus embryologiehistorischer Perspektive hat BURDACH mehr durch seine Anregungen, d.h. durch seine Schüler, als durch konkret benennbare eigene wissenschaftliche Entdeckungen oder Leistungen gewirkt. In seinem umfangreichen Werk spielen jedoch embryologische und entwicklungsgeschichtliche Fragestellungen, die immer mit allgemeinen naturphilosophischen Überlegungen verbunden sind, eine wichtige Rolle. Diese konzeptionellen Wechselwirkungen sollen nun betrachtet werden, auch wenn sie in sich nicht immer ganz konsistent sind. Dies erscheint umso dringlicher, als sich die Forschung bisher offenbar genau deswegen von einer näheren Beschäftigung mit BURDACH abschrecken ließ." ;
+	a drw-model:WL .
+
+<Date/12_Juni_1776_in_Leipzig>
+	a drw-model:Date ;
+	rdfs:label "12. Juni 1776 in Leipzig" .
+
+<SL/30173hasSL3>
+	rdfs:label "Carl Voit: Burdach, Karl Friedrich. In: Allgemeine Deutsche Biographie 3 (1876), 578-580. Online Ressource Online Ressource." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/pnd119498170.html?anchor=adb" ;
+	a drw-model:SL .
+
+<ImportantPerson/30047>
+	a drw-model:ImportantPerson .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30173hasW6>
+	rdfs:label "Die Physiologie als Erfahrungswissenschaft. Mit Beiträgen von Karl Ernst von Baer, Heinrich Rathke und Ernst H. F. Meyer. Bd. 2. Leipzig 1828." ;
+	a drw-model:W .
+
+<W/30173hasW9>
+	rdfs:label "Die Physiologie als Erfahrungswissenschaft. 2 Bde. 2. Aufl. Leipzig 1835, 1837." ;
+	a drw-model:W .
+
+<ImportantPerson/30447>
+	a drw-model:ImportantPerson .
+
+<P/30173hasP4>
+	rdfs:label "Karl Friedrich Burdach als Mitglied der Kaiserlichen Akademie der Wissenschaften zu St. Petersburg. Online Ressource Online Ressource (22.5.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.ras.ru/win/db/show_per.asp?P=.id-49732.ln-ru" ;
+	a drw-model:P .
+
+<SL/30173hasSL5>
+	rdfs:label "Olaf Breidbach: Karl Friedrich Burdach. In: Thomas Bach, Olaf Breidbach (Hgg.): Naturphilosophie nach Schelling. Stuttgart, Bad Cannstatt 2005, 73-105 (Schellingiana 17)." ;
+	a drw-model:SL .
+
+<RelatedPerson/30173hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "• Otto (* vor 1801), Adoptivsohn aus erster Ehe seiner Ehefrau, Landgerichtsrat<br>• Ernst Burdach (1801-1876) studierte Medizin in Königsberg, habilitierte sich 1829 und wurde 1844 Professor für Anatomie<br>" .
+
+<SL/30173hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Auswahl der Sekundärliteratur:" .
+
+<ImportantPerson/30123>
+	a drw-model:ImportantPerson .
+
+<SL/30173hasSL7>
+	a drw-model:SL ;
+	rdfs:label "K. Feremutsch: Organ der Seele: Beiträge zur Geschichte der romantischen Medizin nach den Werken Karl Friedrich Burdachs. Monatsschrift für Psychiatrie und Neurologie 125 (1953), 371-385." .
+
+<GeneralLabor/Anatom>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Anatom" .
+
+<W/30173hasW8>
+	a drw-model:W ;
+	rdfs:label "Die Zeitrechnung des menschlichen Lebens. Am 3. August 1829 in der öffentlichen Versammlung der Königlichen Deutschen Gesellschaft vorgetragen. Leipzig 1829." .
+
+<RelatedPerson/30173fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Daniel Christian Burdach (1739-1777), Dozent der Medizin und praktischer Arzt in Leipzig. (Diss. <i>De laesione partium foetus nutritioni inservientium abortus caussa</i>. Lipsiae 1768).
+" .
+
+<W/30173hasW4>
+	rdfs:label "Vom Baue und Leben des Gehirns. 3 Bde. Leipzig 1819, 1822, 1826." ;
+	a drw-model:W .
+
+<Q/30173hasQ1>
+	a drw-model:Q ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://books.google.de/books?id=5706AAAAcAAJ&pg=PA196&dq=Burdach:+R%C3%BCckblick+auf+mein+Leben.+Selbstbiographie.+Leipzig+1848&hl=de&sa=X&ei=BfUGUJOjDYjLtAb-razABg&ved=0CEQQ6AEwAQ#v=onepage&q&f=false" ;
+	rdfs:label "Karl Friedrich Burdach: Rückblick auf mein Leben. Selbstbiographie. Leipzig 1848 (Blicke ins Leben 4). Online Ressource Online Ressource (17.7.2012)." .
+
+<ImportantPerson/30739>
+	a drw-model:ImportantPerson .
+
+<ImportantPerson/30282>
+	a drw-model:ImportantPerson .
+
+<SL/30173hasSL11>
+	rdfs:label "Ajalugu. Anatoomia ja histoloogia õpetamisest Tartu ülikoolis (University of Tartu). Online Ressource Online Ressource (1.6.2012)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://biomedicum.ut.ee/aran/index.php?menu=6&lang=Est" .
+
+<W/30173hasW3>
+	rdfs:label "Über die Aufgabe der Morphologie: bey Eröffnung der Kgl. anatomischen Anstalt in Königsberg geschrieben. Leipzig 1817." ;
+	a drw-model:W .
+
+<WL/30173hasWL2>
+	rdfs:label "Etwa gleichzeitig (1817-1819) wurde BURDACHs vierbändiges <i>System der Arzneimittellehre</i> ein zweites Mal aufgelegt; zu seinen wissenschaftlich bedeutendsten Arbeiten gehört das dreibändige Werk <i>Vom Baue und Leben des Gehirns</i> (1819, 1822, 1826) (vgl. <b>SL</b> Meyer 1970, 560)." ;
+	a drw-model:WL .
+
+<SL/30173hasSL9>
+	rdfs:label "Борис Евгеньевич Райков: Германские биологи-эволюционисты до Дарвина. Лоренц Окен, Карл Фридрих Бурдах, Мартин Генрих Ратке. Ленинград 1969. - Boris Evgen'evič Rajkov: Germanskie biologi-ėvoljucionisty do Darvina : Lorenc Oken, Karl Fridrich Burdach, Martin Genrich Ratke. Leningrad 1969." ;
+	a drw-model:SL .
+
+<ImportantPerson/30779>
+	a drw-model:ImportantPerson .
+
+<W/30173hasW1>
+	rdfs:label "De primis momentis formationis foetus. Diss. Königsberg 1814." ;
+	a drw-model:W .
+
+<P/30173hasP1>
+	a drw-model:P ;
+	rdfs:label "Karl Friedrich Burdach 1847. Abgedruckt in: Schmuck 2009, 45." .
+
+<B/30173hasStationOfLife1>
+	drw-model:hasNameLink <ImportantPerson/30047> ;
+	rdfs:label "1799 erwarb BURDACH den medizinischen Doktorgrad in Leipzig und ließ sich als praktizierender Arzt nieder. 1811 wurde er als Professor der Anatomie, Physiologie und Gerichtsmedizin an die Universität des damals russischen Dorpat berufen. In Dorpat arbeitete er an entwicklungsgeschichtlichen und an neuroanatomischen Fragestellungen.
+BURDACH vergab in Dorpat auch Doktorarbeiten, darunter eine embryologische an den Kurländer Ernst Leberecht Friedrich ATTELMAYER (1791-1814), einen Pastorensohn aus Talsen (lett. Talsi, heute Lettland). Diese blieb dessen einzige wissenschaftliche Untersuchung, denn ATTELMAYER, der 1809-1812 in Dorpat Medizin studiert hatte, starb bereits 1814 in Goldingen (Kurland) an Typhus. Die Dissertation mit dem Titel <i>Exhibens monumenta quaedam de embryonis humani formatione</i> (Dorpat 1812) argumentierte rein naturphilosophisch und wurde nur anonym rezensiert.
+Die russische Periode seines Lebens endete nach vier Jahren, als BURDACH 1814 einen Ruf an die Universität in Königsberg annahm. Im gleichen Jahr verfasste er ein kurzes embryologisches Werk, die <i>Dissertatio de primis momentis formationis foetus</i>. BURDACH selbst schätzte den wissenschaftlichen Wert dieser Studie, die Voraussetzung für seine Anstellung in Königsberg war, nicht besonders hoch ein (<b>Q</b> Burdach 1848, 283).
+In Königsberg baute BURDACH die 1817 eröffnete Königliche anatomische Anstalt auf und gab deren zuletzt neun Bände umfassende <i>Berichte</i> heraus, eine Reihe, die er überwiegend selbst schrieb, in der aber auch <span style='font-variant:small-caps;'>BAER</span> und BURDACHs Sohn, der Mediziner Ernst BURDACH, publizierten. In der Eröffnungsrede formulierte er sein später unter dem Titel <i>Über die Aufgabe der Morphologie</i> erschienenes Forschungsprogramm. Dieses enthält nicht nur das Beschreiben der organischen Gestalt, sondern auch die Erforschung ihrer Bildungsgesetze (vgl. <b>SL</b> Breidbach 2005, 76).
+In <i>Rückblick auf mein Leben</i> erwähnt BURDACH aus diesen Jahren namentlich zwei Studenten, <span style='font-variant:small-caps;'>PANDER</span> und <span style='font-variant:small-caps;'>BAER</span>, die, von ihm angeregt, später embryologisch forschen sollten (<b>Q</b> Burdach 1848, 231).
+1826 unternahm BURDACH eine achtmonatige Reise durch Deutschland (die Habsburgischen Länder eingeschlossen), Frankreich und die Schweiz, um befreundete Gelehrte zu besuchen. Die Reisebeschreibung, die er in <i>Rückblick auf mein Leben</i> gegeben hat, liest sich wie ein Who is Who der Wissenschaftsgeschichte. BURDACH reiste am 3. März 1826 in Königsberg ab, kam über Danzig nach Berlin, wo er mit Karl (Carl) Asmund RUDOLPHI (1771-1832), Friedrich SCHLEMM (1795-1859), Christoph Wilhelm HUFELAND (1762-1836) und Georg Wilhelm Friedrich HEGEL (1770-1831) zusammenkam. Über Leipzig und Halle, wo er Johann Friedrich MECKEL d.J. traf, reiste BURDACH nach Würzburg, Frankfurt (zu SOEMMERING), Darmstadt (dort besuchte er den schwerkranken <span style='font-variant:small-caps;'>BOJANUS</span>, der aus dem Russischen Reich zurückgekehrt war), Tübingen (zu AUTENRIETH), Paris (wo er CUVIER, HUMBOLDT, BRESCHET, VELPEAU, GEOFFROY ST. HILAIRE und GALL begegnete), dann über die Schweiz nach München und schließlich über Linz, Wien, Prag und Dresden (Carl Gustav <span style='font-variant:small-caps;'>CARUS</span>) wieder in Richtung Königsberg, wo BURDACH Ende Oktober 1826 ankam.
+BURDACH starb am 16. Juli 1847 in Königsberg. Im Jahr nach seinem Tod erschien die 600 Seiten umfassende Autobiographie <i>Rückblick auf mein Leben</i>, die er, durch Alter und Krankheit behindert, nicht mehr fertig stellen konnte und die von seinem Sohn Ernst herausgegeben wurde. Sie ist auch literarisch bemerkenswert und enthält eine Fülle von Informationen zur Medizin- und Wissenschaftsgeschichte des frühen 19. Jahrhunderts, gerade auch unter dem Aspekt transnationaler Wissenschaftsbeziehungen." ;
+	drw-model:hasNameLink <ImportantPerson/30779> ;
+	a drw-model:B ;
+	drw-model:hasNameLink <ImportantPerson/30123> ;
+	drw-model:hasNameLink <ImportantPerson/31204> .
+
+<ImportantPerson/30173>
+	rdfs:label "Burdach, Karl Friedrich von" ;
+	drw-model:fatherIs <RelatedPerson/30173fatherIs1> ;
+	drw-model:hasEducation <A/30173hasEducation1> ;
+	drw-model:hasW <W/30173hasW3> ;
+	drw-model:hasP <P/30173hasP2> ;
+	drw-model:hasGPV <GPV/30173hasGPV1> ;
+	drw-model:hasW <W/30173hasW6> ;
+	drw-model:hasQ <Q/30173hasQ1> ;
+	drw-model:hasDescendant <RelatedPerson/30173hasDescendant1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30173wasMarriedTo1> ;
+	drw-model:hasW <W/30173hasW9> ;
+	drw-model:hasW <W/30173hasW2> ;
+	drw-model:hasSL <SL/30173hasSL11> ;
+	drw-model:hasMG <MG/30173hasMG1> ;
+	drw-model:hasSL <SL/30173hasSL4> ;
+	drw-model:hasW <W/30173hasW5> ;
+	drw-model:hasStationOfLife <B/30173hasStationOfLife1> ;
+	drw-model:hasP <P/30173hasP4> ;
+	drw-model:hasP <P/30173hasP3> ;
+	drw-model:hasSL <SL/30173hasSL2> ;
+	drw-model:hasWL <WL/30173hasWL1> ;
+	drw-model:hasW <W/30173hasW8> ;
+	drw-model:hasID "30173" ;
+	drw-model:hasMainName <MainName/30173hasMainName1> ;
+	drw-model:hasSL <SL/30173hasSL3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Anatom> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Physiologe> ;
+	drw-model:hasWL <WL/30173hasWL2> ;
+	drw-model:hasSL <SL/30173hasSL5> ;
+	drw-model:hasWL <WL/30173hasWL4> ;
+	drw-model:hasSL <SL/30173hasSL10> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/30173hasSL8> ;
+	drw-model:hasWL <WL/30173hasWL5> ;
+	drw-model:hasSL <SL/30173hasSL12> ;
+	drw-model:diedOn <Date/16_Juli_1847_in_Knigsberg> ;
+	drw-model:hasW <W/30173hasW1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30173.jpg> ;
+	drw-model:hasWL <WL/30173hasWL3> ;
+	drw-model:hasSL <SL/30173hasSL1> ;
+	drw-model:hasW <W/30173hasW4> ;
+	drw-model:hasP <P/30173hasP1> ;
+	drw-model:wasBornOn <Date/12_Juni_1776_in_Leipzig> ;
+	drw-model:hasSL <SL/30173hasSL9> ;
+	drw-model:hasSL <SL/30173hasSL6> ;
+	drw-model:hasW <W/30173hasW7> ;
+	drw-model:hasSL <SL/30173hasSL7> .
+
+<RelatedPerson/30173wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Die Ehefrau von Karl Friedrich von Burdach stammte aus Österreich und war in erster Ehe mit dem sächsischen Offizier in russischen Diensten, Joh. Frdr. Hager, verheiratet" .
+
+<WL/30173hasWL5>
+	a drw-model:WL .
+
+<MG/30173hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Auswärtiges Korrespondierendes Mitglied der <i> Kaiserlichen Akademie der Wissenschaften zu St. Petersburg</i> (1818)." .
+
+<MainName/30173hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Burdach, Karl Friedrich von" ;
+	drw-model:hasNameVariation <NameVariation/30173hasNameVariation1> .
+
+<W/30173hasW7>
+	rdfs:label "De foetu humano adnotationes anatomicae. Leipzig 1828." ;
+	a drw-model:W .
+
+<SL/30173hasSL8>
+	a drw-model:SL ;
+	rdfs:label "Arthur William Meyer: Human Generation: Conclusions of Burdach, Döllinger and von Baer. Stanford, CA, London 1956." .
+
+<P/30173hasP2>
+	a drw-model:P ;
+	rdfs:label "Karl Friedrich Burdach, Lithographie von Josef Kriehuber, 1832. Online Ressource Online Ressource (22.5.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://upload.wikimedia.org/wikipedia/de/4/49/Burdach_Litho.jpg" .
+
+<W/30173hasW5>
+	rdfs:label "Die Physiologie als Erfahrungswissenschaft. Mit Beiträgen von Karl Ernst von Baer und Heinrich Rathke. Bd. 1. Leipzig 1826." ;
+	a drw-model:W .
+
+<P/30173hasP3>
+	a drw-model:P ;
+	rdfs:label "Karl Friedrich Burdach. Abgedruckt in: Meyer A. Karl Friedrich Burdach and his place in the history of neuroanatomy. Journal of Neurology, Neurosurgery, and Psychiatry 33 (1971), 5, 553-561. Online Ressource Online Ressource (22.5.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://upload.wikimedia.org/wikipedia/commons/7/71/FriedrichBurdach.JPG" .
+
+<SL/30173hasSL4>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.ostdeutsche-biographie.de/burdka97.htm" ;
+	a drw-model:SL ;
+	rdfs:label "Werner E. Gerabek: Burdach, Karl Friedrich. Online Ressource Online Ressource (22.5.2012)." .
+
+<SL/30173hasSL6>
+	rdfs:label "A. Chazanov: Karl Bėr i Karl-Fridrich Burdach. Folia Baeriana 2 (1976), 39-45." ;
+	a drw-model:SL .
+
+<ImportantPerson/31204>
+	a drw-model:ImportantPerson .
+
+<A/30173hasEducation1>
+	a drw-model:A ;
+	drw-model:hasNameLink <ImportantPerson/30282> ;
+	rdfs:label "Karl Friedrich von BURDACH studierte von 1793 bis 1798 Medizin und Philosophie in Leipzig. 1798 ging er, nachdem er den philosophischen Doktorgrad erworben hatte, nach Wien, wo er bei Johann Peter <span style='font-variant:small-caps;'>FRANK</span> studierte." .
+
+<WL/30173hasWL1>
+	drw-model:hasNameLink <ImportantPerson/30447> ;
+	rdfs:label "Unter den oft umfangreichen Schriften und Bibliographien BURDACHs (siehe <b>GPV</b>) ist besonders die zweibändige <i>Russische Sammlung für Naturwissenschaft und Heilkunst</i> (1816-1817) als sozial- und kulturhistorische Quelle für deutsch-russische Wissenschaftsbeziehungen hervorzuheben, die ein eindrucksvolles Dokument des gegenseitigen Interesses und Respekts darstellt. Im zweiten Band schrieben die drei Herausgeber beispielsweise zwei Preisaufgaben zu je 500 Rubel aus für Abhandlungen zu den Themen <i>Ueber wirksame russische Volksheilmittel</i> und <i>Ueber die Typhus-Epidemie in Russland</i> (1812 und 1813). BURDACH gab die <i>Russische Sammlung</i> gemeinsam mit den Leibärzten des Zaren ALEKSANDR I. (reg. 1801-1825), Sir Alexander CRICHTON (1763-1856) und Joseph <span style='font-variant:small-caps;'>REHMANN</span>, heraus; es gab zwei Verlagsorte, Riga im Russischen Reich und Zentrum der Deutschbalten, und Leipzig im Deutschen Bund als bedeutende Buch- und Handelsstadt." ;
+	a drw-model:WL .
+
+<ImportantPerson/30836>
+	a drw-model:ImportantPerson .
+
+<SL/30173hasSL10>
+	rdfs:label "Alfred Meyer: Karl Friedrich Burdach and his place in the history of neuroanatomy. Journal of Neurology, Neurosurgery and Psychiatry 33 (1970), 553-561." ;
+	a drw-model:SL .
+
+<WL/30173hasWL3>
+	drw-model:hasNameLink <ImportantPerson/30739> ;
+	drw-model:hasNameLink <ImportantPerson/30779> ;
+	drw-model:hasNameLink <ImportantPerson/30836> ;
+	rdfs:label "In den 20er Jahren schrieb BURDACH <i>De foetu humano adnotationes anatomicae</i> (1828) und vor allem die beiden ersten Teile seiner bekannten sechsbändigen und über 3.500 Seiten umfassenden Monographie <i>Die Physiologie als Erfahrungswissenschaft</i> (1826/1828), die der \"Zeugung\" und dem \"Fruchtleben\", d.h. der Embryonalentwicklung gewidmet sind. Diese zwei Bände der <i>Physiologie</i> umfassen ein Textcorpus von ca. 1200 Seiten und behandeln die Entwicklungsgeschichte aller Organismengruppen, von den \"Infusorien\", Pilzen und Pflanzen bis zum Menschen. Das Interesse BURDACHs liegt dabei auf allgemeinen Fragestellungen, die theoretisch erörtert, bibliographisch stupend aufgearbeitet und teilweise experimentell untersucht werden. Dazu gehören auch Fragen der Sexualität, des Trieblebens, der Urzeugung, des Hermaphroditismus und der Teratologie. Beiträge stammen u.a. von <span style='font-variant:small-caps;'>PANDER</span>, <span style='font-variant:small-caps;'>RATHKE</span>, Johannes <span style='font-variant:small-caps;'>MÜLLER</span> und <span style='font-variant:small-caps;'>BAER</span>; die Kooperation verlief jedoch nicht immer reibungslos. Die Humanembryologie spielt außerdem in BURDACHs populärwissenschaftlicher Schrift <i>Die Zeitrechnung des menschlichen Lebens</i> (1829) eine Rolle." ;
+	a drw-model:WL .
+
+<W/30173hasW2>
+	rdfs:label "Russische Sammlung für Naturwissenschaft und Heilkunst, hrsg. von Dr. A. Crichton, Dr. Jos. Rehmann und Dr. K. Fr. Burdach. 2 Bde. Riga, Leipzig 1816, 1817." ;
+	a drw-model:W .
+
+<GPV/30173hasGPV1>
+	rdfs:label "Bibliographie der selbstständigen Schriften Karl Friedrich Burdachs: 30173-GPV.pdf Online Ressource (Schmuck 2009, 248-256)." ;
+	a drw-model:GPV .
+
+<SL/30173hasSL12>
+	rdfs:label "Schmuck, Thomas: Karl Friedrich von Burdach. In: Baltische Genesis. Die Grundlegung der Embryologie im 19. Jahrhundert. Aachen: Shaker 2009 (Relationes 2), 40-58, 248-256." ;
+	a drw-model:SL .
+
+<GeneralLabor/Physiologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Physiologe" .
+
+<NameVariation/30173hasNameVariation1>
+	rdfs:label "Bourdach" ;
+	a drw-model:NameVariation .
+

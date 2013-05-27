@@ -1,0 +1,102 @@
+(dp0
+VA
+p1
+V1873 Absolvent des 1. Gymnasiums zu Wilna, 1884 Abschluss des Medizinstudiums in Russland.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u0411\u0423\u0428, A\u043be\u043aca\u043d\u0434\u0440 \u042e\u043b\u0438\u0443co\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VBU\u0160, Aleksandr Juliusovi\u010d
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+VNach 1884 Arzt in St. Petersburg, ab 1890 Assistenzarzt im Garde-Ulanen-Regiment, seit 1900 Älterer Ordinator im Nikolaj-Militärhospital in St. Petersburg, später Oberarzt im Preobra\u017eenskij-Leibgarde-Regiment und ab 1914 Korpsarzt des Gardekorps, ab 1912 "Ehrenleibmedikus" am Hofe des Zaren NIKOLAJ II. (1868-1918).\u000aInhaber hoher russischer Ehrentitel und Auszeichnungen, darunter 1911 "Wirklicher Russischer Staatsrat", 1915 "Geheimrat", Ritter des St.-Stanislav-Ordens 2. Klasse, des St.-Annen-Ordens 3. Klasse und des St. Vladmir-Ordens 4. Klasse, 1913 Gedenkmedaille "300 Jahre Romanov-Dynastie".
+p14
+sVE
+p15
+VLidija Arsen'evna, geb. Dvukraeva\u000a
+p16
+sVName
+p17
+(dp18
+S'Vornamen'
+p19
+VAlexander Johann
+p20
+sS'Nachname'
+p21
+VBusch
+p22
+ssVQuelle
+p23
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 63.</i>
+p24
+sVNamensvariationen
+p25
+(lp26
+(dp27
+g6
+V\u042e\u043b\u0438e\u0432\u0438\u0447
+p28
+sS'countyCode'
+p29
+g9
+sasVM
+p30
+VCharl[otte], geb. Lange
+p31
+sVID
+p32
+V30175
+p33
+sVGeburtsdaten
+p34
+(dp35
+S'Datum'
+p36
+V1857
+p37
+ssVSterbedaten
+p38
+(dp39
+g36
+Vnach 1917
+p40
+ssVV
+p41
+VJulius, Kaufmann
+p42
+sVSL
+p43
+(dp44
+S'general'
+p45
+(lp46
+VEAD: Dokument-ID [59404/46767 (26.7.2010)].
+p47
+aVNachapetov 2003, 215.
+p48
+aVPridvornyj kalendar': na 1913 god. S.-Peterburg [1913], 317; ~ 1914, 398.
+p49
+assVBerufe
+p50
+(lp51
+VMilitärarzt
+p52
+aVEhrenleibmedikus
+p53
+as.

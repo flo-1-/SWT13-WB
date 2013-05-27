@@ -1,0 +1,753 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Year/1884>
+	a drw-model:Year ;
+	rdfs:label "1884" .
+
+<P/30785hasP17>
+	a drw-model:P ;
+	rdfs:label "Portraits in: Penzlin 2004 (<b>SL</b>)." .
+
+<Place/Leningrad_Grabsttte_Friedhof_V>
+	a drw-model:Place ;
+	rdfs:label "Leningrad, Grabstätte: Friedhof Volkovo, Literatorskie mostki" .
+
+<RelatedPerson/30785wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30785_1> ;
+	rdfs:label "Serafima (Sara) Vasil’evna Pavlova, geb. Karčevska (1859-1947), Lehrerin[1]" .
+
+<SL/30785hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Dube, Werner: Iwan Petrowitsch Pawlow. Bibliographie der Veröffentlichungen über sein Lebenswerk in deutscher Sprache. Leipzig 1953 (Schriften zum Bibliotheks- und Büchereiwesen in Sachsen-Anhalt 7), 73 S." .
+
+<RelatedPerson/30785motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Varvara Ivanovna Pavlova, geb. Uspenskaja (1826-1890)" .
+
+<GPVComment/30785hasGPVComment1>
+	a drw-model:GPVComment ;
+	rdfs:label "(Auswahl)" .
+
+<GPV/30785hasGPV1>
+	rdfs:label "Perečen’ početnych izbranij professora I. P. Pavlova. In: [Festschrift] (<b>SL</b>), XX-XXI." ;
+	a drw-model:GPV .
+
+<Date/14_or_26_9_1849>
+	a drw-model:Date ;
+	rdfs:label "14./26.9.1849" .
+
+<Date/27_2_1936>
+	a drw-model:Date ;
+	rdfs:label "27.2.1936" .
+
+<Year/1875>
+	rdfs:label "1875" ;
+	a drw-model:Year .
+
+<SL/30785hasSL15>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), 203-210." .
+
+<Comment/30785_3>
+	a drw-model:Comment ;
+	rdfs:label "Die vollständige Liste bei Grigor’jan 1999 (<b>SL</b>), 301-304." .
+
+<RelatedPerson/30785fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Petr Dmitrievič (1823-1899), Lehrer für Griechisch und Latein und orthodoxer Geistlicher" .
+
+<NameVariation/30785hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Pawloff, I."@de .
+
+<SL/30785hasSL24>
+	rdfs:label "Schmelzer, Dieter, Schmelzer, Christina: Pawlow, Iwan Petrowitsch. Stationen seines Leben [!]. In: G. Stumm, A. Pritz u. a. (Hgg.): Personenlexikon der Psychotherapie. Wien, New York 2005, 358-359." ;
+	a drw-model:SL .
+
+<Year/1907>
+	rdfs:label "1907" ;
+	a drw-model:Year .
+
+<A/30785hasEducation3>
+	a drw-model:A ;
+	drw-model:ended <Year/1875> ;
+	rdfs:label "Studium an der naturwissenschaftlichen Abteilung der Physiko-mathematischen Fakultät der Universität St. Petersburg" ;
+	drw-model:began <Year/1870> .
+
+<P/30785hasP6>
+	a drw-model:P ;
+	rdfs:label "Portrait [Zeichnung von E. Korn] in: [Nekrolog], Umschlagseite." .
+
+<HonoursAndAwardsComment/30785hasHonoursAndAwardsComment1>
+	rdfs:label "Ehrungen und Auszeichnungen (Auswahl):" ;
+	a drw-model:HonoursAndAwardsComment .
+
+<SL/30785hasSL2>
+	rdfs:label "Asratjan, Esras Asratovitsch: Das wissenschaftliche Erbe Pawlows. [Übersetzung und Redaktion: Lothar Pickenhain]. Leipzig 1980, 168 S." ;
+	a drw-model:SL .
+
+<P/30785hasP24>
+	rdfs:label "Michail Vasil’evič Nesterov (1862-1942): Ivan Petrovič Pavlov [am Schreibtisch sitzend] (1935). Öl auf Leinwand. Staatliche Tret’jakov-Galerie Moskau; Kopie von Sergej Filippovič Bobkov (* 1948) im I.-P.-Pavlov-Museum in Koltuši; als Reproduktion auf der Briefmarke von 1949." ;
+	a drw-model:P .
+
+<B/30785hasStationOfLife2>
+	drw-model:began <Year/1884> ;
+	drw-model:ended <Year/1889> ;
+	a drw-model:B ;
+	rdfs:label "Privatdozent am Lehrstuhl für Physiologie der MMA" .
+
+<ImportantPerson/30136>
+	a drw-model:ImportantPerson .
+
+<P/30785hasP16>
+	rdfs:label "Portraits und Gruppenbilder [retuschierte Fotos], in: Grigor’jan 1999 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<ImportantPerson/30362>
+	a drw-model:ImportantPerson .
+
+<Year/1936>
+	rdfs:label "1936" ;
+	a drw-model:Year .
+
+<B/30785hasStationOfLife3>
+	drw-model:ended <Year/1886> ;
+	drw-model:hasNameLink <ImportantPerson/30664> ;
+	drw-model:began <Year/1884> ;
+	drw-model:hasNameLink <ImportantPerson/30362> ;
+	a drw-model:B ;
+	rdfs:label "Weiterbildung in Deutschland:
+- bei <span style='font-variant:small-caps;'>Heidenhain</span> an der Universität Breslau
+- bei C. <span style='font-variant:small-caps;'>Ludwig</span> an der Universität Leipzig" .
+
+<GPV/30785hasGPV2>
+	rdfs:label "Perečen’ trudov professora I. P. Pavlova (1878-1904). In: [Festschrift] (<b>SL</b>), XXII-XXXII." ;
+	a drw-model:GPV .
+
+<Year/1924>
+	rdfs:label "1924" ;
+	a drw-model:Year .
+
+<SL/30785hasSL14>
+	rdfs:label "Penzlin, Heinz: Ivan Petrovič Pavlov erhält den Nobelpreis für Physiologie. Biologie in unserer Zeit 34 (2004) 6, 398-400 [<b>L</b>]." ;
+	a drw-model:SL .
+
+<SL/30785hasSL31>
+	rdfs:label "[Festschrift] Ivanu Petroviču Pavlovu v čest’ 25-letija ego naučnoj dejatel’nosti. Archiv biologičeskich nauk Suppl. zu 11 (1905); darin u. a. biographische Artikel von Kamenskij (s. u.) und Tigerstedt (s. u.), Verzeichnis von Pavlovs Arbeiten und Sondersammlungen (vgl. <b>GPV</b>)." ;
+	a drw-model:SL .
+
+<Year/1860>
+	rdfs:label "1860" ;
+	a drw-model:Year .
+
+<GPV/30785hasGPV9>
+	rdfs:label "I. P. Pavlov. Izbrannye trudy. Sost. Noravard Andreevna Grigorjan. Moskva 1999, 447 S." ;
+	a drw-model:GPV .
+
+<A/30785hasEducation2>
+	a drw-model:A ;
+	drw-model:began <Year/1864> ;
+	rdfs:label "Besuch des Priesterseminars in Rjazan’" ;
+	drw-model:ended <Year/1869> .
+
+<P/30785hasP1>
+	rdfs:label "Portrait (Abb.) aus den 20-er Jahren, aus: Asratjan 1978 (<b>SL</b>), Bildeinlage zw. S. 96-97, Bild 1; auch in: Pickenhain 2000 (<b>SL</b>), 21." ;
+	a drw-model:P .
+
+<SL/30785hasSL30>
+	a drw-model:SL ;
+	rdfs:label "[Anonym] Iwan Petrowitsch Pawlow und die medizinische Wissenschaft. [Berlin 1952], 140 S." .
+
+<SL/30785hasSL25>
+	rdfs:label "Tigerstedt, Robert: Iwan Petrowitsch Pawlow. In: [Festschrift] (s. o.), S. I-XI; auch als Sonderdruck: [Saint-Pétersbourg] 1904, 11 S. [<b>L</b>]." ;
+	a drw-model:SL .
+
+<WL/30785hasWL5>
+	rdfs:label "Entdecker des bedingten (konditionierten) Reflexes (Pawlow-Reflex [<i>refleks Pavlova</i>]) im Zentralnervensystem" ;
+	a drw-model:WL .
+
+<SL/30785hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Asratjan, Esras Asratowitsch: Iwan Petrowitsch Pawlow. [Übersetzt von Lothar Pickenhain]. Leipzig 1978 (Humanisten der Tat 31), 252 S." .
+
+<P/30785hasP25>
+	a drw-model:P ;
+	rdfs:label "Isaak Izrailevič Brodskij (1884-1939): Ivan Petrovič Pavlov (1935). Zeichnung. I.-P.-Pavlov-Museum in Koltuši; Reproduktion in: Vinogradov/Golikov/Grekova 2005 (<b>SL</b>), 292." .
+
+<W/30785hasW1>
+	rdfs:label "Centrobežnye nervy serdca. Diss. Sankt-Peterburg 1883, 77 S." ;
+	a drw-model:W .
+
+<Year/1886>
+	rdfs:label "1886" ;
+	a drw-model:Year .
+
+<GPV/30785hasGPV3>
+	rdfs:label "Publikationen 1878-1913 (67 Nrn.), in: Materialy, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<Year/1925>
+	rdfs:label "1925" ;
+	a drw-model:Year .
+
+<P/30785hasP7>
+	a drw-model:P ;
+	rdfs:label "Fotos [retuschiert, auf Einlageseiten] in: Asratjan 1978 (<b>SL</b>)." .
+
+<Year/1877>
+	rdfs:label "1877" ;
+	a drw-model:Year .
+
+<GPV/30785hasGPV11>
+	rdfs:label "Bibliographie von Pavlovs Arbeiten in: Gal’perina/Ksenzova 2000 (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<WL/30785hasWL2>
+	rdfs:label "Schöpfer der materialistischen Theorie der höheren Nerventätigkeit" ;
+	a drw-model:WL .
+
+<P/30785hasP3>
+	rdfs:label "Portraits (von 1903 [Zeichnung], von 1907, von 1911 [in Uniform], von 1923 und 1929] und zwei Gruppenfotos, in: Kellog 1929 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<A/30785hasEducation5>
+	a drw-model:A ;
+	drw-model:inYear <Year/1877> ;
+	rdfs:label "Weiterbildung in Deutschland: bei R. <span style='font-variant:small-caps;'>Heidenhain</span> an der Universität Breslau" ;
+	drw-model:hasNameLink <ImportantPerson/30362> .
+
+<SL/30785hasSL26>
+	a drw-model:SL ;
+	rdfs:label "Vinogradov, Jurij Abramovič, Golikov, Jurij Pavlovič, Grekova, Tat’jana Ivanovna (Sostaviteli): I. P. Pavlov: Dostovernost’ i polnota biografii. Sankt-Peterburg 2005, 416 S." .
+
+<P/30785hasP5>
+	rdfs:label "Portrait von 1935, in: Blok/Kuljabko 1949 (<b>GPV</b>), Frontispiz." ;
+	a drw-model:P .
+
+<B/30785hasStationOfLife5>
+	drw-model:ended <Year/1936> ;
+	drw-model:began <Year/1891> ;
+	a drw-model:B ;
+	rdfs:label "Leiter des physiologischen Laboratoriums des Instituts für Experimentelle Medizin (IEM) St. Petersburg/Petrograd/Leningrad" .
+
+<SL/30785hasSL17>
+	a drw-model:SL ;
+	rdfs:label "Pickenhain, Lothar: Ivan Petrovič Pavlov (1849-1936) – Leben, Werk und Vermächtnis. In: Ingrid Kästner, Regine Pfrepper (Hgg.): Medizin und Pharmazie im 18. und 19. Jahrhundert. Beiträge zur Geschichte der Wissenschaftsbeziehungen zwischen Deutschland und dem Russischen Reich. Aachen 2000 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaft 2), 1-22." .
+
+<Comment/30785_1>
+	rdfs:label "Vgl. auch (Online Ressource)." ;
+	drw-model:hasDate "12.4.2011" ;
+	a drw-model:Comment ;
+	<http://xmlns.com/foaf/0.1/homepage> <http://www.museum.infran.ru/win/museum/serafima.htm> .
+
+<P/30785hasP18>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Šojfet 2004 (<b>SL</b>)." .
+
+<GPVGerman/30785hasGermanGPV1>
+	rdfs:label "Krause, Gerhard: Die Lehre I. Pawlows. Bibliographie deutschsprachiger Veröffentlichungen. Das deutsche Gesundheitswesen 30 (1975) Beilage, 12 S." ;
+	a drw-model:GPVGerman .
+
+<Year/1879>
+	rdfs:label "1879" ;
+	a drw-model:Year .
+
+<Year/1889>
+	rdfs:label "1889" ;
+	a drw-model:Year .
+
+<P/30785hasP8>
+	a drw-model:P ;
+	rdfs:label "Portrait in: [Anonym] (<b>SL</b>), 5." .
+
+<Q/30785hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Leopoldina. Nationale Akademie der Wissenschaften Halle/Saale, Archiv: MNr. 3582 (1. Schreiben vom 21.12.1902 [Vorschlag zur Auszeichnung mit der Cothenius-Medaille, unterzeichnet von Carl Voit] und vom 21.12.1902 [Mitteilung an Pavlov, unterzeichnet von K. v. Fritsch], Empfehlungsschreiben zur Aufnahme in die Leopoldina, Dankschreiben Pavlovs an die Leopoldina vom 29.1.1903, vom 19.12.1925 und vom 6.1.1925[muss heißen 1926 – Schreibfehler von Pavlov]; 2. Sammlung von Festschriften, Nekrologen und Gedenkartikeln [Auswahl vgl. <b>SL</b>, gekennzeichnet mit <b>L</b>]; 3. Foto mit Unterschrift [Bildsammlung Ärzte Nr. 302])." .
+
+<P/30785hasP22>
+	rdfs:label "Il’ja Efimovič Repin (1844-1930): Ivan Petrovič Pavlov (1924). Öl auf Leinwand. Staatliche Tret’jakov-Galerie Moskau." ;
+	a drw-model:P .
+
+<W/30785hasW2>
+	rdfs:label "Innervacija želudočnych želez u sobaki. Mit E. A. Šumova-Simanovskaja. Vrač 41 (1890), 24 S." ;
+	a drw-model:W .
+
+<GPV/30785hasGPV4>
+	rdfs:label "Blok, G. P., Kuljabko, E. S. (Sost.): Rukopisnye materialy I. P. Pavlova v archive Akademii Nauk SSSR. Naučnoe opisanie. Moskva, Leningrad 1949 (Akademija Nauk Sojuza Sovetskich Socialističeskich Respublik, Trudy Archiva 8), 156 S." ;
+	a drw-model:GPV .
+
+<GPV/30785hasGPV8>
+	rdfs:label "Ivan P. Pawlow: Gesammelte Werke über die Physiologie und Pathologie der höheren Nerventätigkeit. Hg. v. Lothar Pickenhain. Würzburg 1998, 417 S." ;
+	a drw-model:GPV .
+
+<SL/30785hasSL28>
+	a drw-model:SL ;
+	rdfs:label "Voronin, Sergej A.: Žizneopisanie Ivana Petroviča Pavlova. Dokumental’naja povest’ Leningrad 1984, 318 S." .
+
+<GPV/30785hasGPV10>
+	rdfs:label "Hauptwerke I. P. Pawlows [Titelangabe in Deutsch], in: Frolow 1955 (<b>SL</b>), 157." ;
+	a drw-model:GPV .
+
+<WL/30785hasWL3>
+	rdfs:label "Schöpfer wichtiger Grundlagen für die Verhaltensforschung" ;
+	a drw-model:WL .
+
+<ImportantPerson/30013>
+	a drw-model:ImportantPerson .
+
+<SL/30785hasSL27>
+	a drw-model:SL ;
+	rdfs:label "Volkov, V. A., Kulikova, M. V.: Rossijskaja professura XVIII - načalo XX v. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar’. Sankt-Peterburg 2003, 338-339." .
+
+<P/30785hasP15>
+	rdfs:label "Portrait in: Rossijskaja akademija nauk. Personal'nyj sostav. Kniga 1: 1724-1917. Moskva 1999, 91; auch in: WBIS RBA (<b>SL</b>)." ;
+	a drw-model:P .
+
+<A/30785hasEducation4>
+	drw-model:hasNameLink <ImportantPerson/30478> ;
+	rdfs:label "Studium an der Mediko-Chirurgischen Akademie (MCA) St. Petersburg F. V. <span style='font-variant:small-caps;'>Ovsjannikov</span>, I. F. <span style='font-variant:small-caps;'>Cion</span> und K. N. <span style='font-variant:small-caps;'>Ustimovič</span>" ;
+	drw-model:hasNameLink <ImportantPerson/31055> ;
+	drw-model:hasNameLink <ImportantPerson/31212> ;
+	drw-model:ended <Year/1879> ;
+	a drw-model:A ;
+	drw-model:began <Year/1875> .
+
+<SL/30785hasSL8>
+	a drw-model:SL ;
+	rdfs:label "Gal’perina, Inna G., Ksenzova, T. E.: Ivan Petrovič Pavlov. Žizn’ i naučnaja dejatel’nost’. Biobibliografičeskij ukazatel’ publikacij trudov I. P. Pavlova i literatury o ego žizni i dejatel’nosti. Moskva 2000, 169 S." .
+
+<SL/30785hasSL16>
+	rdfs:label "Pfrepper, Regine: Wirksubstanzen. Deutsch-russische Beziehungen in der Pharmakologie des 19. Jahrhunderts. Aachen 2012 (Relationes 8), 176-183." ;
+	a drw-model:SL .
+
+<Year/1870>
+	rdfs:label "1870" ;
+	a drw-model:Year .
+
+<B/30785hasStationOfLife4>
+	drw-model:began <Year/1890> ;
+	drw-model:ended <Year/1895> ;
+	a drw-model:B ;
+	rdfs:label "Leiter des Lehrstuhls für Pharmakologie an der MMA" .
+
+<P/30785hasP13>
+	rdfs:label "Portrait in: Rothschuh 1953 (<b>SL</b>)." ;
+	a drw-model:P .
+
+<GPVGerman/30785hasGermanGPV2>
+	rdfs:label "Deutschsprachige und in deutschen Zeitschriften referierte russische Publikationen 1878-1914, in: Pfrepper 2009 und 2012 (<b>SL</b>)." ;
+	a drw-model:GPVGerman .
+
+<A/30785hasEducation7>
+	a drw-model:A ;
+	drw-model:inYear <Year/1883> ;
+	rdfs:label "Dr. med. an der Militärmedizinischen Akademie (MMA) St. Petersburg" .
+
+<P/30785hasP9>
+	rdfs:label "Portrait in: I. P. Pawlow 1953 (<b>GPV</b>), Frontispiz." ;
+	a drw-model:P .
+
+<ImportantPerson/30664>
+	a drw-model:ImportantPerson .
+
+<P/30785hasP23>
+	a drw-model:P ;
+	rdfs:label "Michail Vasil’evič Nesterov (1862-1942): Ivan Petrovič Pavlov (1930). Öl auf Leinwand. Russisches Staatsmuseum St. Petersburg." .
+
+<GPV/30785hasGPV5>
+	a drw-model:GPV ;
+	rdfs:label "Pawlow 1953 – I. P. Pawlow. Ausgewählte Werke. [Übersetzt aus dem Russischen von Georg Kirpatsch u. a., Redaktion Lothar Pickenhain]. Berlin 1953, 514 S." .
+
+<ImportantPerson/30785>
+	drw-model:hasSLComment <SLComment/30785hasSLComment1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Pharmakologie> ;
+	drw-model:hasEducation <A/30785hasEducation2> ;
+	drw-model:hasP <P/30785hasP8> ;
+	drw-model:hasSL <SL/30785hasSL24> ;
+	drw-model:hasP <P/30785hasP1> ;
+	drw-model:wasBornOn <Date/14_or_26_9_1849> ;
+	drw-model:hasP <P/30785hasP7> ;
+	drw-model:hasEducation <A/30785hasEducation7> ;
+	drw-model:diedOn <Date/27_2_1936> ;
+	drw-model:hasWL <WL/30785hasWL5> ;
+	drw-model:hasGermanGPV <GPVGerman/30785hasGermanGPV1> ;
+	drw-model:hasP <P/30785hasP17> ;
+	drw-model:hasSL <SL/30785hasSL26> ;
+	drw-model:hasGPV <GPV/30785hasGPV8> ;
+	drw-model:hasComment <Comment/30785_3> ;
+	drw-model:hasSL <SL/30785hasSL21> ;
+	drw-model:hasStationOfLife <B/30785hasStationOfLife1> ;
+	drw-model:hasStationOfLife <B/30785hasStationOfLife2> ;
+	drw-model:hasW <W/30785hasW3> ;
+	drw-model:hasHonoursAndAwardsComment <HonoursAndAwardsComment/30785hasHonoursAndAwardsComment1> ;
+	drw-model:hasSL <SL/30785hasSL2> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30785.jpg> ;
+	drw-model:hasSL <SL/30785hasSL23> ;
+	drw-model:hasP <P/30785hasP22> ;
+	drw-model:hasSL <SL/30785hasSL32> ;
+	drw-model:hasSL <SL/30785hasSL28> ;
+	drw-model:hasWL <WL/30785hasWL1> ;
+	drw-model:hasP <P/30785hasP14> ;
+	drw-model:hasP <P/30785hasP13> ;
+	drw-model:fatherIs <RelatedPerson/30785fatherIs1> ;
+	drw-model:hasSL <SL/30785hasSL25> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30785hasHonoursAndAwards1> ;
+	drw-model:hasP <P/30785hasP6> ;
+	drw-model:hasSL <SL/30785hasSL30> ;
+	drw-model:hasStationOfLife <B/30785hasStationOfLife9> ;
+	drw-model:hasMainName <MainName/30785hasMainName1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasP <P/30785hasP4> ;
+	drw-model:hasSL <SL/30785hasSL11> ;
+	drw-model:hasSL <SL/30785hasSL6> ;
+	drw-model:hasSL <SL/30785hasSL3> ;
+	drw-model:hasEducation <A/30785hasEducation6> ;
+	drw-model:hasGPV <GPV/30785hasGPV5> ;
+	drw-model:diedIn <Place/Leningrad_Grabsttte_Friedhof_V> ;
+	drw-model:hasSL <SL/30785hasSL27> ;
+	drw-model:hasGPV <GPV/30785hasGPV9> ;
+	drw-model:hasQ <Q/30785hasQ1> ;
+	drw-model:hasGPV <GPV/30785hasGPV2> ;
+	drw-model:hasP <P/30785hasP9> ;
+	drw-model:hasStationOfLife <B/30785hasStationOfLife6> ;
+	drw-model:wasBornIn <Place/Rjazan> ;
+	drw-model:hasSL <SL/30785hasSL18> ;
+	drw-model:hasSL <SL/30785hasSL33> ;
+	drw-model:hasWL <WL/30785hasWL6> ;
+	drw-model:hasSL <SL/30785hasSL13> ;
+	drw-model:hasSL <SL/30785hasSL4> ;
+	drw-model:hasSL <SL/30785hasSL1> ;
+	drw-model:hasW <W/30785hasW1> ;
+	drw-model:hasP <P/30785hasP19> ;
+	drw-model:hasGPV <GPV/30785hasGPV11> ;
+	drw-model:hasP <P/30785hasP10> ;
+	drw-model:hasP <P/30785hasP23> ;
+	drw-model:hasStationOfLife <B/30785hasStationOfLife5> ;
+	drw-model:hasP <P/30785hasP20> ;
+	drw-model:hasP <P/30785hasP25> ;
+	drw-model:motherIs <RelatedPerson/30785motherIs1> ;
+	drw-model:hasSL <SL/30785hasSL31> ;
+	drw-model:wasMarriedTo <RelatedPerson/30785wasMarriedTo1> ;
+	drw-model:hasSL <SL/30785hasSL8> ;
+	drw-model:hasSL <SL/30785hasSL15> ;
+	drw-model:hasSL <SL/30785hasSL7> ;
+	drw-model:hasStationOfLife <B/30785hasStationOfLife7> ;
+	drw-model:hasGPV <GPV/30785hasGPV1> ;
+	drw-model:hasID "30785" ;
+	drw-model:hasWL <WL/30785hasWL3> ;
+	drw-model:hasGPV <GPV/30785hasGPV4> ;
+	drw-model:hasSL <SL/30785hasSL29> ;
+	drw-model:hasWL <WL/30785hasWL4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Physiologie> ;
+	drw-model:hasComment <Comment/30785_1> ;
+	drw-model:hasEducation <A/30785hasEducation3> ;
+	drw-model:hasP <P/30785hasP21> ;
+	drw-model:hasGermanGPV <GPVGerman/30785hasGermanGPV2> ;
+	drw-model:hasP <P/30785hasP16> ;
+	drw-model:hasWL <WL/30785hasWL2> ;
+	drw-model:hasSL <SL/30785hasSL17> ;
+	drw-model:hasSL <SL/30785hasSL5> ;
+	drw-model:hasStationOfLife <B/30785hasStationOfLife8> ;
+	drw-model:hasP <P/30785hasP3> ;
+	drw-model:hasP <P/30785hasP15> ;
+	drw-model:hasSL <SL/30785hasSL10> ;
+	drw-model:hasSL <SL/30785hasSL19> ;
+	rdfs:label "Pavlov, Ivan Petrovič" ;
+	drw-model:hasComment <Comment/30785_2> ;
+	drw-model:hasP <P/30785hasP2> ;
+	drw-model:hasP <P/30785hasP11> ;
+	drw-model:hasEducation <A/30785hasEducation1> ;
+	drw-model:hasGPV <GPV/30785hasGPV10> ;
+	drw-model:hasSL <SL/30785hasSL9> ;
+	drw-model:hasStationOfLife <B/30785hasStationOfLife10> ;
+	drw-model:hasGPV <GPV/30785hasGPV3> ;
+	drw-model:hasGPV <GPV/30785hasGPV7> ;
+	drw-model:hasSL <SL/30785hasSL22> ;
+	drw-model:hasW <W/30785hasW2> ;
+	drw-model:hasP <P/30785hasP24> ;
+	drw-model:hasP <P/30785hasP5> ;
+	drw-model:hasP <P/30785hasP12> ;
+	drw-model:hasSL <SL/30785hasSL12> ;
+	drw-model:hasSL <SL/30785hasSL20> ;
+	drw-model:hasStationOfLife <B/30785hasStationOfLife4> ;
+	drw-model:hasDescendant <RelatedPerson/30785hasDescendant1> ;
+	drw-model:hasSL <SL/30785hasSL14> ;
+	drw-model:hasGPVComment <GPVComment/30785hasGPVComment1> ;
+	drw-model:hasEducation <A/30785hasEducation5> ;
+	drw-model:hasEducation <A/30785hasEducation4> ;
+	drw-model:hasP <P/30785hasP18> ;
+	drw-model:hasGPV <GPV/30785hasGPV6> ;
+	drw-model:hasMG <MG/30785hasMG1> ;
+	drw-model:hasStationOfLife <B/30785hasStationOfLife3> ;
+	drw-model:hasSL <SL/30785hasSL16> .
+
+<SL/30785hasSL29>
+	rdfs:label "Wikipedia: Online Ressource (12.4.2011) und (Online Ressource)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://ru.wikipedia.org/wiki/Павлов,_Иван_Петрович" ;
+	drw-model:hasDate "12.4.2011" ;
+	a drw-model:SL .
+
+<SL/30785hasSL1>
+	rdfs:label "Abderhalden, Emil: J. P. Pawlow †. Münchener medizinische Wochenschrift 20 (1936), 816-817 [<b>L</b>]." ;
+	a drw-model:SL .
+
+<GeneralLabor/Professor_fr_Pharmakologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Pharmakologie" .
+
+<HonoursAndAwards/30785hasHonoursAndAwards1>
+	drw-model:hasNameLink <ImportantPerson/30013> ;
+	rdfs:label "1875        Goldmedaille für zusammen mit M. I. <span style='font-variant:small-caps;'>Afanas'ev</span> 1874 durchgeführte Untersuchungen zur Physiologie der Pankreasnerven<br>1903        Cothenius-Medaille der Leopoldina<br>1904        Nobelpreis für Physiologie oder Medizin (für seine Arbeiten über die Verdauungsdrüsen)<br>1912        Ehrendoktor der Universität Cambridge (England)<br>1915        Ordre de la Légion d’Honneur (France) und Copley Medal (Royal Society of London)<br>1916        Ehrendoktor der Universität Moskau<br>1949        Akademik Ivan Pavlov – Spielfilm über sein Leben und die wissenschaftliche Tätigkeit (Regie: Grigorij <span style='font-variant:small-caps;'>Rošal’</span>)<br>1949        Briefmarke (1 Rubel)<br>1969        Briefmarke (4 Kopeek)<br>1991        Briefmarke (15 Kopeek)<br>1999        Silberne Gedenkmünze (2 Rubel) der Russischen Bank anlässlich des 150. Geburtstages<br>Gedenktafel am Gebäude des Lehrstuhls für Physiologie der MMA<br><i>Muzej I. P. Pavlova</i> im Geburtshaus in Rjazan’<br>Denkmale (Auswahl):<br>1935        in Koltuši Bronzebüste des Bildhauers Innoketij Fedorovič <span style='font-variant:small-caps;'>Bespalov</span> (1877-1959) in der Büsten-Allee großer Wissenschaftler<br>1949        in Rjazan’ (Bronze auf Granit) des Bildhauers Matvej Genrichovič <span style='font-variant:small-caps;'>Manizer</span> (1891-1966) und des Architekten A. A. <span style='font-variant:small-caps;'>Dzeržkovič</span><br>1953        in Koltuši des Bildhauers Vsevolod Vsevolodovič <span style='font-variant:small-caps;'>Lišev</span> (1877-1960) <br>1954        in Moskau des Bildhauers <span style='font-variant:small-caps;'>Manizer</span> in der Allee der Wissenschaftler der Lomonossov-Universität<br>2004        in St. Petersburg am I. P. Pavlov-Institut für Physiologie des Bildhauers Anatolij Georgievič <span style='font-variant:small-caps;'>Dema</span> und des Architekten I. <span style='font-variant:small-caps;'>Bilibin</span><br>in Kiev auf dem Territorium des Zentralmilitärhospitals in den Städten Klin und Svetlogorsk und in Suchumi (Abchasien)<br>Nach ihm wurden u. a. benannt:<br><i>1-j Leningradskij medicinskij institut bzw. Sankt-Peterburgskij gosudarstvennyj medicinskij universitet imeni akademika Ivana Petroviča Pavlova</i><br><i>Institut fiziologii im. I. P. Pavlova</i> an der Russischen Akademie der Wissenschaften in St. Petersburg<br><i>Rjazanskij gosudarstvennyj medicinskij universitet imeni akademika I. P. Pavlova</i><br><i>Fiziologičeskoe obščestvo im. I. P. Pavlova</i><br><i>Gimnazija Nr. 2 imeni akademika Pavlova</i> in Rjazan’<br>Dorf <i>Pavlovo</i> (vgl. Koltuši ) im Kreis Vsevoložskoe, Region Leningrad<br>Straßen, z. B.: Ulica akademika Pavlova in Moskau, 2x in St. Petersburg, in Samara, <i>Ulica Pavlova</i> in Rjazan’ und Char’kov, <i>Pavlovi tänav</i> in Sillamäe (Estland), <i>Iwan-Pawlow-Straße</i> in Schmölln (Thüringen), <i>Pawlowstraße</i> in Rostock und Schwerin (Mecklenburg), <i>Prof.-Dr.-Pawlow-Straße</i> in Crimmitschau (Sachsen), <i>Ulica Iwana Pawłowa</i> in Wrocław (Polen), <i>Ulice I. P. Pavlova</i> in Prag, Olomouc, Karlovy Vary u. a. in Tschechien<br><i>Mondkrater Pavlov</i> (Koordinate: 28°48′S 142°30′E / 28.8°S 142.5°E)<br><i>Asteroid (1007) Pawlowia</i> (entdeckt am 5. Oktober 1923 von Vladimir Alexandrovič Albizki am Krim-Observatorium in Simejis)<br><i>Žurnal vysšej nervnoj dejatel’nosti im. I. P. Pavlova</i> (seit 1951)" ;
+	a drw-model:HonoursAndAwards .
+
+<MG/30785hasMG1>
+	a drw-model:MG ;
+	rdfs:label "(Ehren)Mitglied von 22 Akademien und von ca. 100 wissenschaftlichen Gesellschaften[3], darunter: Obščestvo estestvoispytatelej Mediko-chirurgičeskoj akademii [Gesellschaft der Naturforscher der MCA] (1877),Obščestvo russkich vračej [Gesellschaft russischer Ärzte] (ab 1907 Vorsitzender), Rossijskaja akademija nauk [Russische Akademie der Wissenschaften] (ab 1907), bzw. Akademija nauk SSSR [Akademie der Wissenschaften der UdSSR] (ab 1925), Leopoldina (1925, Ehrenmitglied 1935), Royal Society of London, The Physiological Society, London (Ehrenmitglied), Académie des sciences (Paris)" ;
+	drw-model:hasComment <Comment/30785_3> .
+
+<SL/30785hasSL20>
+	a drw-model:SL ;
+	rdfs:label "Početnye členy, doktora i professora Moskovskogo universiteta: 1804-1994 gg. Biografičeskij slovar’. Moskva 1996, 165." .
+
+<SL/30785hasSL11>
+	a drw-model:SL ;
+	rdfs:label "Kamenskij, D. A.: Ivan Petrovič Pavlov kak professor farmakologii. In: [Festschrift] (s. o.), S. XII-XIX." .
+
+<Year/1895>
+	rdfs:label "1895" ;
+	a drw-model:Year .
+
+<P/30785hasP14>
+	rdfs:label "Portrait in: Pickenhain 1991 (<b>SL</b>), 285." ;
+	a drw-model:P .
+
+<SL/30785hasSL9>
+	a drw-model:SL ;
+	rdfs:label "Golikov, Ju., Lange, K (Sost.): I. P. Pavlov: pro et contra. Antologija (K 150-letiju so dnja roždenija). S.-Peterburg 1999, 800 S." .
+
+<B/30785hasStationOfLife7>
+	rdfs:label "Leiter des physiologischen Laboratoriums der Akademie der Wissenschaften St. Petersburg/Petrograd" ;
+	drw-model:began <Year/1907> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1925> .
+
+<P/30785hasP12>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Professora MCA/VMA (<b>SL</b>)." .
+
+<B/30785hasStationOfLife6>
+	drw-model:began <Year/1895> ;
+	rdfs:label "Leiter des Lehrstuhls für Physiologie an der MMA St. Petersburg/Petrograd" ;
+	a drw-model:B ;
+	drw-model:ended <Year/1924> .
+
+<SL/30785hasSL19>
+	a drw-model:SL ;
+	rdfs:label "Popel’skij, Lew: Istoričeskij očerk kafedry fiziologii v Imperatorskoj Voenno-medicinskoj akademii za 100 let (1798-1898). S.-Peterburg 1899, 142-157." .
+
+<A/30785hasEducation6>
+	a drw-model:A ;
+	rdfs:label "Approbation als praktischer Arzt" ;
+	drw-model:inYear <Year/1879> .
+
+<ImportantPerson/31055>
+	a drw-model:ImportantPerson .
+
+<P/30785hasP2>
+	rdfs:label "Porträt [Kopfzeichnung, um die 65 Jahre alt], in: Universität Leipzig, Universitätsarchiv: Fotosammlung seit 1857, Signatur Ü00007." ;
+	a drw-model:P .
+
+<ImportantPerson/31212>
+	a drw-model:ImportantPerson .
+
+<SL/30785hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Durig, A.: Iwan Petrowitsch Pawlow [Nekrolog]. Wiener medizinische Wochenschrift 1936, Nr. 11, 4 S. [<b>L</b>]." .
+
+<SL/30785hasSL21>
+	rdfs:label "Professora MCA/VMA - Professora Voenno-medicinskoj (Mediko-chirurgičeskoj) akademii (1798-1998). Glavnyj red. Jurij Leonidovič Ševčenko. Sankt-Peterburg 1998, 58." ;
+	a drw-model:SL .
+
+<WL/30785hasWL1>
+	drw-model:hasComment <Comment/30785_2> ;
+	rdfs:label "Begründer der größten modernen Physiologenschule[2]" ;
+	a drw-model:WL .
+
+<Year/1864>
+	rdfs:label "1864" ;
+	a drw-model:Year .
+
+<WL/30785hasWL4>
+	rdfs:label "Begründer behavioristischer Lerntheorien, z. B. der Theorie der klassischen Konditionierung" ;
+	a drw-model:WL .
+
+<SL/30785hasSL33>
+	a drw-model:SL ;
+	rdfs:label "Šojfet, M. S.: Sto velikich vračej. Moskva 2004, 403-409." .
+
+<SL/30785hasSL10>
+	a drw-model:SL ;
+	rdfs:label "Grigor’jan, Noravard Andreevna: Ivan Petrovič Pavlov, 1849-1936. Učenyj, graždanin, gumanist. K 150-letiju so dnja roždenija. Moskva 1999, 309 S." .
+
+<RelatedPerson/30785hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Vladimir Ivanovič (1884-1954)<br>Vera Ivanovna Pavlova (1890-1964)<br>Viktor Ivanovič (1892-1919)<br>Vsevolod Ivanovič (1893-1935)" .
+
+<W/30785hasW3>
+	rdfs:label "Lekcii o rabote glavnych piščevaritel’nych želez. Sankt-Peterburg 1897, 223 S.; Neuausgabe: Moskva 1917 (Klassiki estestvoznanija 2), 230 S." ;
+	a drw-model:W .
+
+<SL/30785hasSL18>
+	a drw-model:SL ;
+	rdfs:label "Pickenhain, Lothar: Iwan Petrowitsch Pawlow. In: Dietrich von Engelhardt, Fritz Hartmann (Hgg.): Klassiker der Medizin. Bd. 2. München 1991, 284-298." .
+
+<B/30785hasStationOfLife1>
+	rdfs:label "Leiter des physiologischen Laboratoriums an der Medizinischen Klinik von Sergej Petrovič <span style='font-variant:small-caps;'>Botkin</span> (1832-1889)" ;
+	drw-model:hasNameLink <ImportantPerson/30136> ;
+	drw-model:ended <Year/1889> ;
+	a drw-model:B ;
+	drw-model:began <Year/1879> .
+
+<Year/1890>
+	rdfs:label "1890" ;
+	a drw-model:Year .
+
+<P/30785hasP11>
+	rdfs:label "Portrait [mit Unterschrift] in: I. P. Pawlow. Sämtliche Werke. 2. Aufl. Bd. 5. Berlin 1956 (<b>GPV</b>), Frontispiz." ;
+	a drw-model:P .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<SL/30785hasSL7>
+	a drw-model:SL ;
+	rdfs:label "Frolow, Jurij P.: I. P. Pawlow, ein großer russischer Gelehrter (Übersetzt von Sonnele Koppe). Berlin 1955, 157 S." .
+
+<B/30785hasStationOfLife10>
+	a drw-model:B .
+
+<SL/30785hasSL22>
+	a drw-model:SL ;
+	rdfs:label "Rothschuh, Karl Eduard: Geschichte der Physiologie. Berlin, Göttingen, Heidelberg 1953, 157-159." .
+
+<WL/30785hasWL6>
+	rdfs:label "Nach ihm ist außerdem <i>Simptom Pavlova</i> [Pawlow-Symptom] (Zeichen des katatonischen Stupors) benannt" ;
+	a drw-model:WL .
+
+<B/30785hasStationOfLife9>
+	rdfs:label "Leiter der Biologischen Station des IEM (ab 1939 Institut für vergleichende Physiologie der höheren Nerventätigkeit, später I. P. Pavlov-Institut für Physiologie) in Koltuši (heute Ortsteil von <i>Pavlovo</i>, s. u.)" ;
+	drw-model:began <Year/1926> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1936> .
+
+<SL/30785hasSL13>
+	rdfs:label "Kästner, Ingrid: Ivan Petrovič Pavlov (1849-1936) und die Pharmakologie in Russland. In: Ingrid Kästner, Regine Pfrepper (Hgg.): „...so ist die Naturwissenschaft das wahre internationale Band der Völker.“ Wissenschaftsbeziehungen in Medizin und Naturwissenschaften zwischen Deutschland und dem Russischen Reich im 18. und 19. Jahrhundert. Aachen 2004 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaft 9), 315-334." ;
+	a drw-model:SL .
+
+<GPV/30785hasGPV6>
+	a drw-model:GPV ;
+	rdfs:label "I. P. Pavlov. Polnoe sobranie sočinenij. T. 1-6. Moskva, Leningrad 1951-1952; 2. Aufl.: 1961-1962." .
+
+<P/30785hasP20>
+	a drw-model:P ;
+	rdfs:label "Portraits und Gruppenbilder in: Vinogradov/Golikov/Grekova 2005 (<b>SL</b>): Pavlov im Alter (Vorderer Umschlag); als Student (S. 28); im Operationssaal 1929 (S. 32); Foto von 1926 (S. 131); mit IEM-Mitarbeitern 1906, darunter G. F. → Nicolai (S. 137); am runden Tisch 1935 (S. 394)." .
+
+<Year/1883>
+	rdfs:label "1883" ;
+	a drw-model:Year .
+
+<A/30785hasEducation1>
+	a drw-model:A ;
+	drw-model:began <Year/1860> ;
+	rdfs:label "Besuch der Kirchenschule in Rjazan’" ;
+	drw-model:ended <Year/1864> .
+
+<Place/Rjazan>
+	a drw-model:Place ;
+	rdfs:label "Rjazan’" .
+
+<SL/30785hasSL32>
+	rdfs:label "[Nekrolog] – I. P. Pawlow †. Die Umschau in Wissenschaft und Technik 40 (1936) 15, 295 [<b>L</b>]." ;
+	a drw-model:SL .
+
+<Year/1869>
+	rdfs:label "1869" ;
+	a drw-model:Year .
+
+<P/30785hasP10>
+	a drw-model:P ;
+	rdfs:label "Portraits und Gruppenbilder [Zeichnungen und retuschierte Fotos], in: Frolow 1955 (<b>SL</b>)." .
+
+<Year/1891>
+	rdfs:label "1891" ;
+	a drw-model:Year .
+
+<SLComment/30785hasSLComment1>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<Year/1926>
+	rdfs:label "1926" ;
+	a drw-model:Year .
+
+<SL/30785hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Bickel, Adolf: J. P. Pawlow †. Archiv für Verdauungskrankheiten 60 (1936), 126-128 [<b>L</b>]." .
+
+<ImportantPerson/30478>
+	a drw-model:ImportantPerson .
+
+<P/30785hasP4>
+	rdfs:label "Portrait [auf dem Stuhl sitzend] mit Unterschrift in <b>SL</b>: Abderhalden 1936, Durig 1936 und [Festschrift]." ;
+	a drw-model:P .
+
+<GeneralLabor/Professor_fr_Physiologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<SL/30785hasSL12>
+	a drw-model:SL ;
+	rdfs:label "Kellog, John Harvey: A Visit to Pavlov’s Laboratory. Bulletin of the Battle Creek Sanatorium and Hospital Clinic. Special-Issue in Honor of the Eightieth Birthday of Professor Ivan P. Pavlov 24 (1929), 203-211 [<b>L</b>]." .
+
+<Comment/30785_2>
+	a drw-model:Comment ;
+	rdfs:label "Die Namen der zahlreichen Pavlov-Schüler sowie deren deutschsprachige und in deutschen Zeitschriften referierte Publikationen von 1894-1913 bei Pfrepper 2009 (<b>SL</b>), 210-225." .
+
+<GPV/30785hasGPV7>
+	rdfs:label "I. P. Pawlow. Sämtliche Werke. [Aus d. Russ. von G. Kirpatsch]. Gesamtredaktion der deutschen Ausgabe: Lothar Pickenhain. Bd. 1-6. Berlin 1953-1954; Reg.-Bd.: Zusammengest. v. Annemarie Künzel. Berlin 1955, 95 S.; 2. Aufl.: 1956." ;
+	a drw-model:GPV .
+
+<B/30785hasStationOfLife8>
+	drw-model:began <Year/1925> ;
+	drw-model:ended <Year/1936> ;
+	rdfs:label "Leiter des Instituts für Physiologie der Akademie der Wissenschaften der UdSSR in Leningrad" ;
+	a drw-model:B .
+
+<MainName/30785hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Pavlov, Ivan Petrovič" ;
+	drw-model:hasNameVariation <NameVariation/30785hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30785hasNameVariation1> .
+
+<NameVariation/30785hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Pawlow, Iwan/Johann Petrowitsch"@de .
+
+<P/30785hasP21>
+	rdfs:label "Portraits in: Estestvoznanie und Znatnye Rjazancy, zit. n. WBIS RBA (<b>SL</b>)." ;
+	a drw-model:P .
+
+<SL/30785hasSL23>
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA & BASU: Russisches Biographisches Archiv und Biographisches Archiv der Sowjetunion (Online Ressource, 16.1.2013): R 348, 195-232; SU 340, 299-324." .
+
+<P/30785hasP19>
+	a drw-model:P ;
+	rdfs:label "Portrait in: Schmelzer/Schmelzer 2005 (<b>SL</b>), 358." .
+

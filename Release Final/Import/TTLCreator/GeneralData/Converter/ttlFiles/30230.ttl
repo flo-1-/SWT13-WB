@@ -1,0 +1,507 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Date/26_12_1896>
+	a drw-model:Date ;
+	rdfs:label "26.12.1896" .
+
+<Year/1896>
+	rdfs:label "1896" ;
+	a drw-model:Year .
+
+<SL/30230hasSL2>
+	rdfs:label "Poggendorff - Biographisch-literarisches Handwörterbuch zur Geschichte der exacten Naturwissenschaften, enthaltend Nachweisungen über Lebensverhältnisse und Leistungen von Mathematikern, Astronomen, Physikern, Chemikern, Mineralogen, Geologen usw. aller Völker und Zeiten. Gesammelt von J. C. Poggendorff, Mitglied der Akademie der Wissenschaften zu Berlin / J. C. Poggendorff - Biographisch-literarisches Handwörterbuch der exakten Naturwissenschaften. Bd. 1-8. Leipzig, Berlin 1863-2004. Bd. 1, 228; Bd. 3, 152-153; Bd. 4, 150-151; Bd. 6, 269; Bd. 7a Suppl., 98-102." ;
+	a drw-model:SL .
+
+<SL/30230hasSL10>
+	a drw-model:SL ;
+	rdfs:label "Festschrift zum 100. Todestag von Emil du Bois-Reymond (1818-1896). Berlin-Brandenburgische Akademie der Wissenschaften: Berichte und Abhandlungen 4 (1997), 146-190." .
+
+<SL/30230hasSL13>
+	rdfs:label "Istoričeskie ličnosti. Ljudi, sobytija, idei (Online Ressource)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.hipersona.ru/scientists/sci-physiologists/2139-emil-du-bois-reymond" ;
+	a drw-model:SL ;
+	drw-model:hasDate "18.11.2011" .
+
+<MG/30230hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Mitglied der Kaiserlichen Akademie der Wissenschaften in St. Petersburg. Weiteres vgl. <b>SL</b>" .
+
+<SL/30230hasSL23>
+	a drw-model:SL ;
+	rdfs:label "Rossijskaja akademija nauk. Personal’nyj sostav. Kniga 1: 1724-1917. Moskva 1999; Kniga 2: 1918-1973. Moskva 1999 Kniga 1 (1999), 475." .
+
+<B/30230hasStationOfLife4>
+	rdfs:label "ao. Professor für Physiologie an der Universität Berlin" ;
+	drw-model:ended <Year/1858> ;
+	drw-model:began <Year/1855> ;
+	a drw-model:B .
+
+<SL/30230hasSL24>
+	a drw-model:SL ;
+	rdfs:label "Rothschuh, Karl Eduard, Tutte, Elisabeth: Emil du Bois-Reymond (1818-1896): Bibliographie. Originalien und Sekundärliteratur. Acta Historica Leopoldina 9 (1975), 113-136." .
+
+<NameVariation/30230hasNameVariation1>
+	rdfs:label "Дюбуа-Реймон, Эмиль Генрих"@ru ;
+	a drw-model:NameVariation ;
+	rdfs:label "Djubua-Rejmon, Ėmil’ Genrich"@de .
+
+<ImportantPerson/30230>
+	drw-model:hasStationOfLife <B/30230hasStationOfLife4> ;
+	drw-model:hasEducation <A/30230hasEducation1> ;
+	drw-model:hasSL <SL/30230hasSL11> ;
+	drw-model:hasSL <SL/30230hasSL23> ;
+	drw-model:hasGPV <GPV/30230hasGPV1> ;
+	drw-model:diedOn <Date/26_12_1896> ;
+	drw-model:hasStationOfLife <B/30230hasStationOfLife8> ;
+	drw-model:hasSL <SL/30230hasSL15> ;
+	drw-model:hasComment <Comment/30230_1> ;
+	drw-model:hasSL <SL/30230hasSL10> ;
+	drw-model:motherIs <RelatedPerson/30230motherIs1> ;
+	drw-model:hasQ <Q/30230hasQ1> ;
+	drw-model:hasSL <SL/30230hasSL3> ;
+	drw-model:hasStationOfLife <B/30230hasStationOfLife5> ;
+	drw-model:hasSL <SL/30230hasSL8> ;
+	drw-model:hasP <P/30230hasP1> ;
+	drw-model:hasP <P/30230hasP3> ;
+	drw-model:hasStationOfLife <B/30230hasStationOfLife1> ;
+	drw-model:hasSL <SL/30230hasSL12> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/portraits/30230.jpg> ;
+	drw-model:hasHonoursAndAwardsComment <HonoursAndAwardsComment/30230hasHonoursAndAwardsComment1> ;
+	drw-model:hasStationOfLife <B/30230hasStationOfLife10> ;
+	drw-model:wasBornIn <Place/Berlin> ;
+	drw-model:hasStationOfLife <B/30230hasStationOfLife2> ;
+	drw-model:hasSL <SL/30230hasSL30> ;
+	drw-model:hasSL <SL/30230hasSL29> ;
+	drw-model:wasBornOn <Date/7_11_1818> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Erforscher_der_tierischen_Elek> ;
+	drw-model:wasMarriedTo <RelatedPerson/30230wasMarriedTo1> ;
+	drw-model:hasSL <SL/30230hasSL25> ;
+	drw-model:hasEducation <A/30230hasEducation4> ;
+	drw-model:hasStationOfLife <B/30230hasStationOfLife6> ;
+	drw-model:hasSLComment <SLComment/30230hasSLComment1> ;
+	drw-model:hasWL <WL/30230hasWL1> ;
+	drw-model:hasSL <SL/30230hasSL20> ;
+	drw-model:diedIn <Place/Berlin> ;
+	drw-model:hasHonoursAndAwards <HonoursAndAwards/30230hasHonoursAndAwards1> ;
+	drw-model:hasStationOfLife <B/30230hasStationOfLife7> ;
+	drw-model:hasStationOfLife <B/30230hasStationOfLife11> ;
+	drw-model:hasEducation <A/30230hasEducation3> ;
+	drw-model:hasMG <MG/30230hasMG1> ;
+	drw-model:hasSL <SL/30230hasSL1> ;
+	drw-model:hasSL <SL/30230hasSL28> ;
+	drw-model:hasP <P/30230hasP2> ;
+	drw-model:hasSL <SL/30230hasSL16> ;
+	drw-model:hasSL <SL/30230hasSL5> ;
+	drw-model:hasW <W/30230hasW1> ;
+	drw-model:hasStationOfLife <B/30230hasStationOfLife3> ;
+	drw-model:hasSL <SL/30230hasSL6> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasID "30230" ;
+	drw-model:hasSL <SL/30230hasSL21> ;
+	drw-model:hasSL <SL/30230hasSL22> ;
+	drw-model:hasEducation <A/30230hasEducation2> ;
+	drw-model:fatherIs <RelatedPerson/30230fatherIs1> ;
+	drw-model:hasStationOfLife <B/30230hasStationOfLife12> ;
+	drw-model:hasSL <SL/30230hasSL18> ;
+	drw-model:hasMainName <MainName/30230hasMainName1> ;
+	drw-model:hasSL <SL/30230hasSL17> ;
+	drw-model:hasSL <SL/30230hasSL13> ;
+	drw-model:hasSL <SL/30230hasSL19> ;
+	drw-model:hasSL <SL/30230hasSL27> ;
+	drw-model:hasStationOfLife <B/30230hasStationOfLife13> ;
+	drw-model:hasStationOfLife <B/30230hasStationOfLife9> ;
+	drw-model:hasSL <SL/30230hasSL24> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_Physiologie> ;
+	rdfs:label "Du Bois-Reymond, Emil Heinrich" ;
+	drw-model:hasEducation <A/30230hasEducation5> ;
+	drw-model:hasSL <SL/30230hasSL7> ;
+	drw-model:hasSL <SL/30230hasSL2> ;
+	drw-model:hasSL <SL/30230hasSL26> ;
+	drw-model:hasSL <SL/30230hasSL14> ;
+	drw-model:hasDescendant <RelatedPerson/30230hasDescendant1> ;
+	drw-model:hasSL <SL/30230hasSL31> ;
+	drw-model:hasSL <SL/30230hasSL9> ;
+	drw-model:hasSL <SL/30230hasSL4> .
+
+<Year/1887>
+	rdfs:label "1887" ;
+	a drw-model:Year .
+
+<SL/30230hasSL1>
+	rdfs:label "Abašnik, Vladimir A.: Emil Heinrich Du Bois-Reymond (1818-1896) und die Char’kover Universitätsmediziner – Emil Heinrich Du Bois-Reymond (1818-1896) and the Kharkov University Physicians. In: Riha, Ortrun, Fischer Marta (Hgg.): „Naturwissenschaft als Kommunikationsraum“. Internationale Tagung, Leipzig 29.9.-1.10.2010. Aachen 2011 (Relationes 6), 202-218." ;
+	a drw-model:SL .
+
+<SL/30230hasSL9>
+	rdfs:label "Emil du Bois-Reymond: 1818-1896. Red. Peter Schneck. Berlin 1996, 160 S." ;
+	a drw-model:SL .
+
+<B/30230hasStationOfLife2>
+	drw-model:began <Year/1849> ;
+	drw-model:ended <Year/1855> ;
+	a drw-model:B ;
+	rdfs:label "Assistent am Anatomischen Museum Berlin bei J. P. <span style='font-variant:small-caps;'>Müller</span>" ;
+	drw-model:hasNameLink <ImportantPerson/30739> .
+
+<SL/30230hasSL22>
+	a drw-model:SL ;
+	rdfs:label "Rosenthal, Isidor: Emil du Bois-Reymond. Gedächtnisrede am 22. Januar 1897. Biologisches Centralblatt 17 (1897), 81-99." .
+
+<A/30230hasEducation4>
+	a drw-model:A ;
+	rdfs:label "Promotion zum Dr. med. in Berlin" ;
+	drw-model:inYear <Year/1843> .
+
+<B/30230hasStationOfLife5>
+	rdfs:label "o. Professor und Lehrstuhl für Physiologie an der Universität Berlin" ;
+	drw-model:ended <Year/1896> ;
+	a drw-model:B ;
+	drw-model:began <Year/1858> .
+
+<SLComment/30230hasSLComment1>
+	rdfs:label "(Auswahl):" ;
+	a drw-model:SLComment .
+
+<Year/1876>
+	rdfs:label "1876" ;
+	a drw-model:Year .
+
+<WL/30230hasWL1>
+	rdfs:label "vgl. <b>SL</b>" ;
+	a drw-model:WL .
+
+<P/30230hasP3>
+	a drw-model:P ;
+	rdfs:label "Portraits in <b>SL</b> (Auswahl): Bychovskij, Emil Du Bois-Reymond – Rektor, Katalog HUB, Pagel 1901, RAN, Rothschuh 1953, Šojfet 2004, VL People." .
+
+<Year/1837>
+	rdfs:label "1837" ;
+	a drw-model:Year .
+
+<Year/1878>
+	rdfs:label "1878" ;
+	a drw-model:Year .
+
+<Year/1886>
+	rdfs:label "1886" ;
+	a drw-model:Year .
+
+<A/30230hasEducation5>
+	a drw-model:A ;
+	drw-model:inYear <Year/1846> ;
+	rdfs:label "Habilitation in Berlin" .
+
+<HonoursAndAwardsComment/30230hasHonoursAndAwardsComment1>
+	rdfs:label "Ehrungen und Auszeichnungen (Auswahl):" ;
+	a drw-model:HonoursAndAwardsComment .
+
+<B/30230hasStationOfLife3>
+	drw-model:ended <Year/1853> ;
+	rdfs:label "zusätzlich Dozent für Anatomie an der Akademie der Künste" ;
+	a drw-model:B ;
+	drw-model:began <Year/1849> .
+
+<SL/30230hasSL21>
+	a drw-model:SL ;
+	rdfs:label "Rosenthal, Isidor: Emil DuBois-Reymond, geb. 7. Nov. 1818, gest. 26. Dez. 1896. Biologisches Zentralblatt 17 (1897), 82-99." .
+
+<Year/1846>
+	rdfs:label "1846" ;
+	a drw-model:Year .
+
+<Year/1867>
+	rdfs:label "1867" ;
+	a drw-model:Year .
+
+<Year/1877>
+	rdfs:label "1877" ;
+	a drw-model:Year .
+
+<Place/Berlin>
+	a drw-model:Place ;
+	rdfs:label "Berlin" .
+
+<ImportantPerson/30739>
+	a drw-model:ImportantPerson .
+
+<SL/30230hasSL18>
+	rdfs:label "Pagel, Julius Leopold: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts. Mit einer historischen Einleitung. Berlin u. a. 1901, 207-210." ;
+	a drw-model:SL .
+
+<P/30230hasP2>
+	a drw-model:P ;
+	rdfs:label "Max Koner (1854-1900): Emil Heinrich Du Bois-Reymond. Heliogravüre der Fotografie eines Gemäldes. Vgl. Wikipedia (<b>SL</b>); auch in: Istoričeskie ličnosti (<b>SL</b>)." .
+
+<SL/30230hasSL7>
+	rdfs:label "Du Bois-Reymond, Estelle: Biographie Emil du Bois-Reymonds. In: Estelle du Bois-Reymond (Hg.): Emil du Bois-Reymond. Reden. 2. Aufl. In zwei Bänden, mit einer Gedächtnisrede von Julius Rosenthal (s. u.). Leipzig 1912, X." ;
+	a drw-model:SL .
+
+<Comment/30230_1>
+	rdfs:label "Nur in Vita (<b>Q</b>): Guilelma e gente Henry." ;
+	a drw-model:Comment .
+
+<Year/1839>
+	rdfs:label "1839" ;
+	a drw-model:Year .
+
+<A/30230hasEducation2>
+	a drw-model:A ;
+	drw-model:ended <Year/1839> ;
+	rdfs:label "Studium der Theologie, Philosophie, Mathematik und Geologie an den Universitäten Berlin und Bonn" ;
+	drw-model:began <Year/1837> .
+
+<SL/30230hasSL20>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/pnd118527665.html" ;
+	drw-model:hasDate "18.11.2011" ;
+	rdfs:label "Ronge, Grete: Du Bois-Reymond, Emil Heinrich. In: Neue Deutsche Biographie. Bd. 1-24. Berlin 1953-2010. 4 (1959), 146-148 (Onlinefassung unter: Online Ressource)." ;
+	a drw-model:SL .
+
+<RelatedPerson/30230motherIs1>
+	rdfs:label "Minette Wilhelma[1], geb. Henry (1789-1865)" ;
+	a drw-model:RelatedPerson ;
+	drw-model:hasComment <Comment/30230_1> .
+
+<SL/30230hasSL16>
+	a drw-model:SL ;
+	rdfs:label "Marseille, Jürgen: Das physiologische Lebenswerk von Emil du Bois-Reymond: Mit besonderer Berücksichtigung seiner Schüler. Münster 1968, 120 S." .
+
+<SL/30230hasSL29>
+	drw-model:hasDate "18.11.2011" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://de.wikipedia.org/wiki/Emil_Heinrich_Du_Bois-Reymond" ;
+	a drw-model:SL ;
+	rdfs:label "Wikipedia (Online Ressource)." .
+
+<Year/1866>
+	rdfs:label "1866" ;
+	a drw-model:Year .
+
+<SL/30230hasSL11>
+	rdfs:label "Grützner Paul von: Du Bois-Reymond, Emil Heinrich. In: Allgemeine Deutsche Biographie. Bd. 1-56. Leipzig 1875–1912,  Bd. 48 (1904), 118-126 (Onlinefassung unter: Online Ressource)." ;
+	drw-model:hasDate "18.11.2011" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://de.wikisource.org/w/index.php?title=Allgemeine_Deutsche_Biographie._Bd._1-56._Leipzig_1875–1912,_:Du_Bois-Reymond,_Emil&amp;oldid=1705086" ;
+	a drw-model:SL .
+
+<Year/1849>
+	rdfs:label "1849" ;
+	a drw-model:Year .
+
+<SL/30230hasSL8>
+	drw-model:hasDate "18.11.2011" ;
+	rdfs:label "Emil Du Bois-Reymond – Rektor der Friedrich-Wilhelms-Universität zu Berlin (Online Ressource)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.hu-berlin.de/ueberblick/geschichte/rektoren/dubois" .
+
+<SL/30230hasSL19>
+	rdfs:label "Pfrepper, Regine: Lebensvorgänge Deutsch-russische Wechselbeziehungen in der Physiologie des 19. Jahrhunderts. Aachen 2009 (Relationes 3), passim." ;
+	a drw-model:SL .
+
+<Date/7_11_1818>
+	a drw-model:Date ;
+	rdfs:label "7.11.1818" .
+
+<Year/1870>
+	rdfs:label "1870" ;
+	a drw-model:Year .
+
+<RelatedPerson/30230hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "4 Söhne und 5 Töchter, darunter:<br>Claude (1855-1925), Augenarzt, Professor für Physiologie<br>Lucy (1858-1915), Malerin<br>Aimée, verh. Runge (1862-1941)<br>René (1863-1938), Professor für Physiologie<br>Estelle (1865-1955), Schriftstellerin" .
+
+<SL/30230hasSL6>
+	a drw-model:SL ;
+	rdfs:label "Dierig, Sven [SD]: Du Bois-Reymond, Emil Heinrich. In: Hoffmann, Dieter, Laitko, Hubert, Müller-Wille, Staffan (Hgg.): Lexikon der bedeutenden Naturwissenschaftler. Unter Mitarb. von Ilse Jahn. Sonderausgabe. Bd. 1-3. München 2007, Bd. 1, 427-428." .
+
+<MainName/30230hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30230hasNameVariation1> ;
+	rdfs:label "Du Bois-Reymond, Emil Heinrich" .
+
+<SL/30230hasSL27>
+	drw-model:hasDate "18.11.2011" ;
+	rdfs:label "VL People (Online Ressource)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://vlp.mpiwg-berlin.mpg.de/people/data?id=per64" .
+
+<Q/30230hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Vita. In: Emil du Bois: Quae apud veteres de piscibus electris exstant argumenta. Dissertation. Berlin 1843, Anhang (2 S.)." .
+
+<A/30230hasEducation3>
+	a drw-model:A ;
+	drw-model:began <Year/1839> ;
+	rdfs:label "Studium der Medizin an der Universität Berlin" ;
+	drw-model:ended <Year/1843> .
+
+<SL/30230hasSL17>
+	a drw-model:SL ;
+	rdfs:label "Metze, Erich A.: Emil du Bois-Reymond (1818-1896). Neue Weltauschauung 3 (1911); 2. Aufl. : Lebensbild eines Naturforschers. Brackwede 1912 (Humboldt-Bibliothek 8), 50 S.; 3. Aufl.: Sein Wirken und seine Weltanschauung (zum hundersten Geburtstage). Bielefeld 1918, 58 S." .
+
+<B/30230hasStationOfLife1>
+	drw-model:began <Year/1846> ;
+	rdfs:label "Privatdozent an der Universität Berlin" ;
+	a drw-model:B .
+
+<Year/1855>
+	rdfs:label "1855" ;
+	a drw-model:Year .
+
+<B/30230hasStationOfLife8>
+	drw-model:began <Year/1877> ;
+	drw-model:ended <Year/1878> ;
+	a drw-model:B ;
+	rdfs:label "Dekan der Medizinischen Fakultät Universität Berlin" .
+
+<B/30230hasStationOfLife11>
+	drw-model:began <Year/1882> ;
+	drw-model:ended <Year/1883> ;
+	a drw-model:B ;
+	rdfs:label "Rektor der Universität Berlin" .
+
+<SL/30230hasSL28>
+	rdfs:label "Wegbereiter unserer naturwissenschaftlich-medizinischen Moderne (Online Ressource)." ;
+	drw-model:hasDate "18.11.2011" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://appserv5.ph-heidelberg.de/onlinelex/index.php?id=854" ;
+	a drw-model:SL .
+
+<SL/30230hasSL26>
+	a drw-model:SL ;
+	rdfs:label "Ruff, Peter W.: Emil du Bois-Reymond. Leipzig 1981 (Biographien hervorragender Naturwissenschaftler, Techniker und Mediziner 54), 106 S.; Neuaufl.: 1997." .
+
+<RelatedPerson/30230fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Félix Henri Du Bois (1782-1864), Regierungsrat und Abteilungsleiter im Preußischen Außenministerium in Berlin" .
+
+<B/30230hasStationOfLife6>
+	drw-model:began <Year/1877> ;
+	a drw-model:B ;
+	rdfs:label "Direktor des Physiologischen Instituts Universität Berlin" .
+
+<SL/30230hasSL14>
+	drw-model:hasDate "18.11.2011" ;
+	a drw-model:SL ;
+	rdfs:label "Katalog HUB (Katalog der wissenschaftlichen Sammlungen der Humboldt-Universität zu Berlin: Online Ressource)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.sammlungen.hu-berlin.de/dokumente/185/" .
+
+<SL/30230hasSL5>
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://db.saur.de/WBIS/basicSearch.jsf" ;
+	rdfs:label "WBIS DBA: Deutsches Biographisches Archiv (Online Ressource, 16.1.2013): I 122, 289-300; 254, 414-416; II 150, 336-344, 346-348; 294, 253-258, 338-343; III 96, 161-171; 191, 280-316." .
+
+<SL/30230hasSL30>
+	rdfs:label "Ėmil’ dju Bua Rejmond (nekrolog). Vestnik opytnoj fiziki i ėlementarnoj matematiki (1896) Nr. 246, 160-162." ;
+	a drw-model:SL .
+
+<Year/1843>
+	rdfs:label "1843" ;
+	a drw-model:Year .
+
+<B/30230hasStationOfLife9>
+	drw-model:began <Year/1886> ;
+	a drw-model:B ;
+	drw-model:ended <Year/1887> ;
+	rdfs:label "Dekan der Medizinischen Fakultät Universität Berlin" .
+
+<GeneralLabor/Erforscher_der_tierischen_Elek>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Erforscher der tierischen Elektrizität" .
+
+<B/30230hasStationOfLife10>
+	drw-model:ended <Year/1870> ;
+	a drw-model:B ;
+	rdfs:label "Rektor der Universität Berlin" ;
+	drw-model:began <Year/1869> .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<A/30230hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Hochschulreife am Französischen Gymnasium in Berlin" ;
+	drw-model:inYear <Year/1837> .
+
+<SL/30230hasSL15>
+	a drw-model:SL ;
+	rdfs:label "Mann, Gunter (Hg.): Naturwissen und Erkenntnis im 19. Jahrhundert: Emil Du Bois-Reymond. Hildesheim 1981, 243 S. (Mit Bibliographie von E. Du Bois-Reymond, S. 233-242)." .
+
+<B/30230hasStationOfLife7>
+	drw-model:began <Year/1866> ;
+	drw-model:ended <Year/1867> ;
+	a drw-model:B ;
+	rdfs:label "Dekan der Medizinischen Fakultät Universität Berlin" .
+
+<SL/30230hasSL31>
+	a drw-model:SL ;
+	rdfs:label "Šojfet, M. S.: Sto velikich vračej. Moskva 2004, 241-248." .
+
+<Year/1853>
+	rdfs:label "1853" ;
+	a drw-model:Year .
+
+<SL/30230hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Bychovskij, B. Ė.: Djubua-Rejmon, Ėmil’: BSĖ. 3. Aufl. Bd. 8 (1972), 570." .
+
+<Year/1883>
+	rdfs:label "1883" ;
+	a drw-model:Year .
+
+<B/30230hasStationOfLife13>
+	a drw-model:B .
+
+<HonoursAndAwards/30230hasHonoursAndAwards1>
+	rdfs:label "1878  Ehrenmitglied der Kaiserlichen Universität Moskau<br>1892  Verleihung der Helmholtz-Medaille<br>1996 Gedenktafel (Metall) am Gebäude des alten Physiologischen Instituts der Universität Berlin" ;
+	a drw-model:HonoursAndAwards .
+
+<Year/1869>
+	rdfs:label "1869" ;
+	a drw-model:Year .
+
+<B/30230hasStationOfLife12>
+	rdfs:label "Mitherausgeber von <i>Archiv für Anatomie und Physiologie und wissenschaftliche Medizin</i>" ;
+	drw-model:began <Year/1858> ;
+	drw-model:ended <Year/1876> ;
+	a drw-model:B .
+
+<SL/30230hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Boruttau, Heinrich: Emil du Bois-Reymond. Wien u. a. 1922 (Meister der Heilkunde 3), 111 S." .
+
+<SL/30230hasSL12>
+	a drw-model:SL ;
+	rdfs:label "Hagner, Michael: Du Bois-Reymond, Emil (Heinrich). In: Engelhardt, Dietrich von (Hg.): Biographische Enzyklopädie deutschsprachiger Mediziner. Bd. 1-2. München 2002, Bd. 1, 136-137." .
+
+<RelatedPerson/30230wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Jeanette, geb. Claude (1833-1910)" .
+
+<GeneralLabor/Professor_fr_Physiologie>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für Physiologie" .
+
+<SL/30230hasSL25>
+	rdfs:label "Rothschuh, Karl Eduard: Geschichte der Physiologie. Berlin, Göttingen, Heidelberg 1953, 130-133." ;
+	a drw-model:SL .
+
+<Year/1882>
+	rdfs:label "1882" ;
+	a drw-model:Year .
+
+<W/30230hasW1>
+	a drw-model:W ;
+	rdfs:label "vgl. <b>SL</b>" .
+
+<P/30230hasP1>
+	a drw-model:P ;
+	rdfs:label "Portrait (Abb.) aus: Bildersammlung des Karl-Sudhoff-Instituts für Geschichte der Medizin und Naturwissenschaften der Universität Leipzig, E 7738 (<b>SL</b>)." .
+
+<Year/1858>
+	rdfs:label "1858" ;
+	a drw-model:Year .
+
+<GPV/30230hasGPV1>
+	a drw-model:GPV ;
+	rdfs:label "vgl. <b>SL</b>" .
+

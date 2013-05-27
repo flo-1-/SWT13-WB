@@ -1,0 +1,116 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<MainName/30060hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Beck, Johann" ;
+	drw-model:hasNameVariation <NameVariation/30060hasNameVariation3> ;
+	drw-model:hasNameVariation <NameVariation/30060hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30060hasNameVariation2> .
+
+<SL/30060hasSL2>
+	rdfs:label "Nemcy Rossii. Bd. 1 (1999), 144." ;
+	a drw-model:SL .
+
+<Place/Martykino>
+	a drw-model:Place ;
+	rdfs:label "Martyškino" .
+
+<NameVariation/30060hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Jean" .
+
+<MG/30060hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Fiziko-medicinskoe obščestvo Moskvy [Physiko-medizinische Gesellschaft zu Moskau], Mediko-chirurgičeskaja akademija [Mediko-chirurgische Akademie] St. Petersburg (Ehrenmitglied), Deutsche Akademie der Naturforscher Leopoldina (ab 1781).
+" .
+
+<Date/2_or_17_9_1811>
+	a drw-model:Date ;
+	rdfs:label "2./17.9.1811" .
+
+<RelatedPerson/30060wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Aksinija Timofeevna († 1782), Staatsrätin" .
+
+<GeneralLabor/Leib_und_Hofarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leib- und Hofarzt" .
+
+<B/30060hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "Ab 1755 im russischen Militärdienst, zunächst am Militärlandhospital in St. Petersburg, besuchte an der dortigen Ärzteschule zwei Jahre Vorlesungen, wurde 1757 zum Chirurgen befördert, diente dann im Krankenhaus in der St. Petersburger Admiralität, 1758-1761 Arzt bei der russischen Feldarmee, 1761 zur Hauptartillerieverwaltung kommandiert und Ende des Jahres zum Hofchirurgen ernannt, ab 1773 Leibchirurg des Thronfolgers PAVEL PETROVIČ (1754-1801), ab 1786 Leibmedikus der Großfürsten und der Großfürstinnen, ab 1796 Stabsmedikus beim Zaren PAVEL I., ab 1803 Mitglied des Medizinalrats des Ministeriums des Innern.
+Inhaber hoher russischer Ehrentitel und Auszeichnungen, darunter \"Wirklicher Russischer Staatsrat\", 1797 \"Geheimrat\", 1799 St. Annen-Orden 1. Klasse, 1803 goldene Tabakdose, ab 1797 Besitzer eines Guts mit 1500 Seelen im Kreis Bronnicy, Gouvernement Moskau (Geschenk des Zaren PAVEL I. als Dank für eine besondere Kurmethode zur Behandlung des Bandwurms [nach einem von BECK gekauften geheimen Rezept])." .
+
+<NameVariation/30060hasNameVariation3>
+	a drw-model:NameVariation ;
+	rdfs:label "Иoгaнн" .
+
+<SL/30060hasSL1>
+	rdfs:label "EAD: Dokument-Id [2506/2474 (20.7.2010)]." ;
+	a drw-model:SL .
+
+<ImportantPerson/30060>
+	drw-model:hasDescendant <RelatedPerson/30060hasDescendant1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30060wasMarriedTo1> ;
+	drw-model:hasMG <MG/30060hasMG1> ;
+	rdfs:label "Beck, Johann" ;
+	drw-model:hasSL <SL/30060hasSL1> ;
+	drw-model:fatherIs <RelatedPerson/30060fatherIs1> ;
+	drw-model:hasSL <SL/30060hasSL2> ;
+	drw-model:hasEducation <A/30060hasEducation1> ;
+	drw-model:wasBornOn <Date/20_5_1735> ;
+	drw-model:hasMainName <MainName/30060hasMainName1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:diedOn <Date/2_or_17_9_1811> ;
+	drw-model:diedIn <Place/Martykino> ;
+	drw-model:hasSL <SL/30060hasSL3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Chirurg> ;
+	drw-model:wasBornIn <Place/Riga> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leib_und_Hofarzt> ;
+	drw-model:hasID "30060" ;
+	drw-model:hasStationOfLife <B/30060hasStationOfLife1> .
+
+<SL/30060hasSL3>
+	a drw-model:SL ;
+	rdfs:label "WBIS BaBA: I 22, 445; RBA: R 42, 252-253; RS 4, 448-451." .
+
+<Date/20_5_1735>
+	a drw-model:Date ;
+	rdfs:label "20.5.1735" .
+
+<RelatedPerson/30060fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Philipp" .
+
+<NameVariation/30060hasNameVariation2>
+	rdfs:label "Iogann" ;
+	a drw-model:NameVariation .
+
+<Place/Riga>
+	a drw-model:Place ;
+	rdfs:label "Riga" .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<RelatedPerson/30060hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Alexander (Aleksandr Ivanovič) (1777-1850), Archivar<br>Maria (Marija Ivanovna), verh. Renny (1781-1816)<br>Enkel: Ivan Aleksandrovič (1807-1842), Diplomat, Lyriker, Übersetzer<br>" .
+
+<GeneralLabor/Chirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Chirurg" .
+
+<A/30060hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Bis 1755 wundärztliche Ausbildung in Kiel und Berlin, 1781 Immatrikulation an der Universität Frankfurt/Oder und als Dr. med. ohne Examen in Russland anerkannt." .
+

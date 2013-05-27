@@ -1,0 +1,137 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<RelatedPerson/30468wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "1. Henriette, geb. Stier<br>2. Johanna Henriette, geb. von Rüdiger (1815-1870)" .
+
+<SL/30468hasSL1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.deutsche-biographie.de/sfz84918.html" ;
+	a drw-model:SL ;
+	rdfs:label "Stieda, Ludwig: Weiße, Johann Friedrich. Allgemeine Deutsche Biographie 41 (1896), 594-596. Online Ressource Online Ressource (1.8.2012)." .
+
+<WL/30468hasWL1>
+	rdfs:label "Autor einer Reihe von Beiträgen über Kinderheilkunde in verschiedenen Journalen sowie umfangreicher Abhandlungen über \"Infusorien\" und verwandte Tierformen in den <i>Mémoires</i> und dem <i>Bulletin</i> der St. Petersburger Akademie; W. beschrieb über 156 in St. Petersburg von ihm beobachtete \"Infusorien\"-Arten, untersuchte den Badeschlamm von Staraja Russa, Hapsal, Arensburg u.a." ;
+	a drw-model:WL .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<Date/22_2_or_4_3_1792>
+	a drw-model:Date ;
+	rdfs:label "22.2./4.3.1792" .
+
+<W/30468hasW2>
+	rdfs:label "Enchiridium botanicum plantas Ingermanniae indigenas continens; Enchiridion botanicum petropolitanum [2 Manuskripte aus dem Nachlass]." ;
+	a drw-model:W .
+
+<GPV/30468hasGPV1>
+	a drw-model:GPV ;
+	rdfs:label "• Publikationen 1815-1831, in: Recke, Johann Friedrich von, Napiersky, Karl Eduard: Allgemeines Schriftsteller- und Gelehrten-Lexikon der Provinzen Livland, Esthland und Kurland. Bd. 4. Mitau 1832; zit. nach WBIS DBA: I 1347, 155-156." .
+
+<RelatedPerson/30468motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anna Rosina, geb. Boehmer" .
+
+<SL/30468hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Volkov/Kulikova 2003 b, 108. Bei der Angabe \"1860-1861 Leiter des Lehrstuhls für Biologie an der MCA, Verdienter Professor (1860)\" handelt es sich um eine Verwechslung mit dem Botaniker Vejs (Weiss), Leopol'd (Lev) Ivanovič (1811-1861)." .
+
+<NameVariation/30468hasNameVariation2>
+	rdfs:label "Иoгaнн Фридриx" ;
+	a drw-model:NameVariation .
+
+<B/30468hasStationOfLife1>
+	rdfs:label "1812-1813 Krankenpfleger in den Kriegslazaretten in Riga, 1815-1819 Studienaufenthalte in Westeuropa, darunter in Deutschland bei Christoph Wilhelm HUFELAND (1762-1836), Ernst HORN (1774-1848) und Karl Christian WOLFART (1778-1832) in Berlin, bei Johann Friedrich BLUMENBACH (1752-1840) in Göttingen, bei Lorenz OKEN (1779-1851) in Jena und bei Leopold Anton GOELIS (1764-1827) am Kinderkrankenhaus in Wien sowie in Heidelberg, kehrte 1819 über Königsberg mit Besuch bei Karl Ernst von BAER (1792-1876) zunächst nach Reval zurück, ließ sich 1820 als praktischer Arzt in St. Petersburg nieder, war zugleich 1820-1846 Arzt des Stadtgefängnisses sowie Schularzt des 1., 2. u. 3. Gymnasiums, 1835-1865 (oder 1859) Oberarzt und Dir. des Nikolaj-Kinderhospitals Nr. 1, auch Leibmedikus, 1865 bis 1866 Aufenthalt in Italien, danach in Reval lebend.
+        Erhielt die Ehrentitel \"Hofrat\" (1824), \"Wirklicher Russischer Staatsrat\" (1843), später \"Geheimrat\" und den Adelstitel." ;
+	a drw-model:B .
+
+<MainName/30468hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Weisse, Johann Friedrich (von)" ;
+	drw-model:hasNameVariation <NameVariation/30468hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30468hasNameVariation1> .
+
+<GPV/30468hasGPV2>
+	rdfs:label "• Publikationen 1845-1868, in: Lipšic, Sergej Ju.: Russkie botaniki. Biografo-bibliografičeskij slovar'. Botanicorum Rossicorum. Lexicon biographo-bibliographicum. Bd. 2. Moskva 1947, 79-80; auch in: WBIS RBA: SU 82, 16-18." ;
+	a drw-model:GPV .
+
+<GeneralLabor/Leibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibmedikus" .
+
+<GeneralLabor/Naturforscher>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Naturforscher" .
+
+<NameVariation/30468hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Iogann Fridrich" .
+
+<ImportantPerson/30468>
+	drw-model:motherIs <RelatedPerson/30468motherIs1> ;
+	drw-model:hasEducation <A/30468hasEducation1> ;
+	drw-model:hasSL <SL/30468hasSL4> ;
+	drw-model:wasBornIn <Place/Reval> ;
+	drw-model:hasMainName <MainName/30468hasMainName1> ;
+	drw-model:hasGPV <GPV/30468hasGPV1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30468wasMarriedTo1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:wasBornOn <Date/22_2_or_4_3_1792> ;
+	drw-model:hasID "30468" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Naturforscher> ;
+	drw-model:hasSL <SL/30468hasSL1> ;
+	drw-model:diedOn <Date/5_or_17_8_1869> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibmedikus> ;
+	drw-model:hasSL <SL/30468hasSL2> ;
+	a drw-model:ImportantPerson ;
+	drw-model:diedIn <Place/Reval> ;
+	drw-model:hasGPV <GPV/30468hasGPV2> ;
+	drw-model:hasW <W/30468hasW1> ;
+	drw-model:hasStationOfLife <B/30468hasStationOfLife1> ;
+	drw-model:fatherIs <RelatedPerson/30468fatherIs1> ;
+	drw-model:hasMG <MG/30468hasMG1> ;
+	drw-model:hasWL <WL/30468hasWL1> ;
+	rdfs:label "Weisse, Johann Friedrich (von)" ;
+	drw-model:hasW <W/30468hasW2> ;
+	drw-model:hasSL <SL/30468hasSL3> .
+
+<W/30468hasW1>
+	rdfs:label "Pathologia consensus. Diss. Dorpat 1815, 44 S." ;
+	a drw-model:W .
+
+<Place/Reval>
+	a drw-model:Place ;
+	rdfs:label "Reval" .
+
+<SL/30468hasSL2>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [81680/80635 und 1052280 (13.8.2010)]." .
+
+<A/30468hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1806-1810 Besuch des Gouvernement-Gymnasiums in Reval, 1811-1815 Studium der Medizin und 1815 Dr. med. an der Universität Dorpat." .
+
+<RelatedPerson/30468fatherIs1>
+	rdfs:label "Johann Gottfried, Gerbermeister, Kaufmann" ;
+	a drw-model:RelatedPerson .
+
+<Date/5_or_17_8_1869>
+	a drw-model:Date ;
+	rdfs:label "5./17.8.1869" .
+
+<MG/30468hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Deutscher ärztlicher Verein (ab 1820, 1822-1825 und 1829-1834 Sekretär, 1864-1866 Präses), Mediko-filantropičeskij komitet [Mediko-philanthrophisches Komitee] (1833, 1848, 1852, ab 1862 Ehrenmitglied), Imperatorskaja Sankt-Peterburgskaja Akademija nauk [Kaiserliche St. Petersburger Akademie der Wissenschaften] (ab 1855), Deutsche Akademie der Naturforscher Leopoldina (ab 1859), Russkoe mineralogičeskoe obščestvo [Russische Mineralogische Gesellschaft] (ab 1865 Ehrenmitglied)." .
+
+<SL/30468hasSL4>
+	a drw-model:SL ;
+	rdfs:label "WBIS DBA: I 1347, 153-157, II 1383, 431; BaBA: I 402, 252-255; RBA: R 88, 405, SU 82, 16-18, RS 10, 6." .
+

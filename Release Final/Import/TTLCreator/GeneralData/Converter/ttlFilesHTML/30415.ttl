@@ -1,0 +1,122 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Place/Reval>
+	a drw-model:Place ;
+	rdfs:label "Reval" .
+
+<RelatedPerson/30415fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ferdinand Johann (1785/86-1864), Arzt, Gründer einer orthopädischen Anstalt" .
+
+<SL/30415hasSL2>
+	rdfs:label "Krasjukov, Aleksandr Pavlovič: General - Gitarrist Sarenko. Illjustrirovannyj biografičeskij ėnciklopedičeskij slovar'. Online Ressource Online Ressource (26.3.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://abc-guitar.narod.ru/pages/sarenko.htm" ;
+	a drw-model:SL .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Date/8_8_1810>
+	a drw-model:Date ;
+	rdfs:label "8.8.1810" .
+
+<NameVariation/30415hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "ГEНKEН" .
+
+<WInformation/30415hasWInformation1>
+	a drw-model:WInformation ;
+	rdfs:label "O sochranenii ospennoj materii v volosnych trubočkach i o sposobe peresylki ee. Sankt-Peterburg 1856, 13 S." .
+
+<GeneralLabor/Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Arzt" .
+
+<WL/30415hasWL1>
+	rdfs:label "Soll als erster Chirurg in Russland 1838 eine Hornhauttransplantation am linken Auge eines Jungen mit der Cornea eines Kaninchens durchgeführt haben. Sein Hauptbeschäftigungsgebiet war ab 1847 jedoch die Pockenkrankheit." ;
+	a drw-model:WL .
+
+<GeneralLabor/Augenchirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Augenchirurg" .
+
+<B/30415hasStationOfLife1>
+	rdfs:label "1837-1842 außeretatmäßiger Arzt, 1842-1850 Assistenzarzt und ab 1850 Oberarzt am Kaiserlichen Findelhaus in St. Petersburg, zugleich 1838-1842 Chirurg an der Augenheilanstalt, 1844 Stabsarzt, auch Beamter der Medizinalverwaltung des Ministerium des Innern, Arzt beim \"Pupillenrat\" (Auch Waisen- oder Vormundschaftsrat = Obervormundschaftsbehörde) und bei der 4. Abteilung der Kaiserlichen Kanzlei, später Leibarzt des Prinzen Peter von OLDENBURG, russ. Petr Georgievič OL'DENBURGSKIJ (1812-1881).
+Inhaber hoher russischer Ehrentitel und Auszeichnungen: \"Wirklicher Russischer Staatsrat\", 1855 \"Hofrat\", 1859 \"Kollegienrat\", Bronzemedaille zum Gedächtnis an den Krimkrieg 1853-1856." ;
+	a drw-model:B .
+
+<SL/30415hasSL3>
+	rdfs:label "Magil'nickij, Solomon Girševič: Pervaja v Rossii peresadka rogovoj oboročki čeloveku (1838). Online Ressource Online Ressource (26.3.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.keratoconus.narod.ru/rus1.htm" ;
+	a drw-model:SL .
+
+<RelatedPerson/30415wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Emilie, geb. von Eversmann (1818-1866)" .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<RelatedPerson/30415motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Annette, geb. Möller, oder A. S. (Nanny), geb. Müller, oder Josepha Renata, geb. Muller (* 1791)" .
+
+<ImportantPerson/30415>
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Arzt> ;
+	drw-model:wasBornIn <Place/Reval> ;
+	drw-model:hasSL <SL/30415hasSL3> ;
+	drw-model:hasW <W/30415hasW1> ;
+	drw-model:hasWInformation <WInformation/30415hasWInformation1> ;
+	drw-model:wasBornOn <Date/8_8_1810> ;
+	drw-model:wasMarriedTo <RelatedPerson/30415wasMarriedTo1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Augenchirurg> ;
+	drw-model:hasSL <SL/30415hasSL2> ;
+	drw-model:hasID "30415" ;
+	drw-model:hasEducation <A/30415hasEducation1> ;
+	drw-model:hasMainName <MainName/30415hasMainName1> ;
+	drw-model:hasSL <SL/30415hasSL4> ;
+	drw-model:hasSL <SL/30415hasSL1> ;
+	drw-model:hasStationOfLife <B/30415hasStationOfLife1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:diedOn <Date/21_9_1870_Sankt_Petersburg> ;
+	drw-model:hasWL <WL/30415hasWL1> ;
+	drw-model:motherIs <RelatedPerson/30415motherIs1> ;
+	drw-model:fatherIs <RelatedPerson/30415fatherIs1> ;
+	rdfs:label "Jencken, Julius" .
+
+<SL/30415hasSL1>
+	rdfs:label "EAD: Dokument-Id [70137/68653 (26.7.2010)]." ;
+	a drw-model:SL .
+
+<MainName/30415hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30415hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30415hasNameVariation2> ;
+	rdfs:label "Jencken, Julius" .
+
+<Date/21_9_1870_Sankt_Petersburg>
+	rdfs:label "21.9.1870 Sankt Petersburg" ;
+	a drw-model:Date .
+
+<NameVariation/30415hasNameVariation1>
+	rdfs:label "GENKEN" ;
+	a drw-model:NameVariation .
+
+<W/30415hasW1>
+	rdfs:label "O sochranenii ospennoj materii v volosnych trubočkach i o sposobe peresylki ee. Sankt-Peterburg 1856, 13 S." ;
+	a drw-model:W .
+
+<A/30415hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch eines Gymnasiums in St. Petersburg, 1830-1836 Studium der Medizin mit dem Abschluss \"Arzt 2. Klasse\" an der Universität Dorpat." .
+
+<SL/30415hasSL4>
+	a drw-model:SL ;
+	rdfs:label "WBIS BaBA: I 143, 52." .
+

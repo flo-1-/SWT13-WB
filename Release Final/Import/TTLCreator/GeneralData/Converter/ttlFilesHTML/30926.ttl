@@ -1,0 +1,252 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<NameVariation/30926hasNameVariation3>
+	rdfs:label "SCHEPILEWSKI" ;
+	a drw-model:NameVariation .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<SL/30926hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Kalnin, V. V.: Professor gigieny i bakteriologii Tartuskogo Universiteta E.A. Šepilevskij. Tartu Ülikooli ajaloo küsimusi 6 (1977), 41-62." .
+
+<NameVariation/30926hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "ŠEPILEVSKY" .
+
+<WInformation/30926hasWInformation1>
+	a drw-model:WInformation ;
+	rdfs:label "Angaben über diverse Publikationen von Šepilevskij in: Brennsohn 1905 und 1922 (<b>SL</b>). 30926-Brennsohn.pdf Online Ressource." .
+
+<NameVariation/30926hasNameVariation5>
+	rdfs:label "Eugen Alexejewitsch" ;
+	a drw-model:NameVariation .
+
+<Q/30926hasQ5>
+	a drw-model:Q ;
+	rdfs:label "Tätigkeitsbericht der Universität Jur'ev für das Jahr 1913 in: Eesti Ajalooarhiiv, f. 402, op. 4, Nr. 1475, 51ff." .
+
+<SL/30926hasSL9>
+	<http://xmlns.com/foaf/0.1/homepage> "http://ihst.nw.ru/images/pdf/ibi2012_2/3%20bjorn.pdf" ;
+	a drw-model:SL ;
+	rdfs:label "Фельдер, Бьёрн М.: Расовая гигиена в России: Евгений Алексеевич Шепилевский (1857-1920) и зарождение евгеники в Российской империи. - Felder, Björn M.: Racial Hygiene in Russia: Evgenij A. Šepilevskij (1857-1920) and his Role in Transferring Eugenics to Russia. Историко-биологические исследования [Istoriko-biologičeskie issledovanija] 4, Nr. 2 (2012), 39-60. Online Ressource Online Ressource (17.7.2012)." .
+
+<B/30926hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "1883-1893 Tätigkeit als Arzt am Militärhospital in Riga, nach der Promotion als Militärarzt in Kursk und in Riga tätig. 1903 wurde ŠEPILEVSKIJ Privatdozent an der Militärmedizinischen Akademie in St. Petersburg (Dozent für Hygiene), 1904 erhielt er den Ruf nach Jur'ev (Dorpat). Am 11.1.1904 wurde ŠEPILEVSKIJ zum außerordentlichen Professor der Staatsarzneikunde an der Universität Jur'ev (Dorpat) ernannt (<b>SL</b> Brennsohn 1905). Ab April 1911 bis 1918 hatte er die ordentliche Professur für Hygiene und Epizootiologie an der Universität Jur'ev inne. ŠEPILEVSKIJ verfügte über sehr gute Kontakte in Deutschland. Noch im Mai 1914, kurz vor dem Ersten Weltkrieg fuhr er auf eine Dienstreise nach Deutschland und in die Schweiz (<b>Q</b>). ŠEPILEVSKIJ verließ Jur'ev im Sommer 1918 mit der Evakuierung der Universität nach Voronež. Dort bekleidete er an der Universität den Lehrstuhl für Hygiene. Am 3. Februar 1920 verstarb er an den Folgen einer Grippe (<b>SL</b> Kalnin 1977, 55); als Todesursache wird auch eine Erkrankung der Blutgefäße angegeben (<b>SL</b> Volkov/Kulikova 2003, 504)." .
+
+<SL/30926hasSL1>
+	a drw-model:SL ;
+	rdfs:label "WBIS [Schepilewski] Baltisches Biographisches Archiv (BaBA) sowie [Šepilevskij] Russisches Biographisches Archiv & Biographisches Archiv der Sowjetunion (RBA & BASU)." .
+
+<WL/30926hasWL2>
+	a drw-model:WL .
+
+<GeneralLabor/Bakteriologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Bakteriologe" .
+
+<SL/30926hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Siilivask, Karl (Hg.): Tartu Ülikooli Ajalugu II 1798-1918. Tartu 1982, 370-371." .
+
+<W/30926hasW6>
+	rdfs:label "Diverse Publikationen in: <i>Centralblatt für Bacteriologie und Parasitenkunde</i>, <i>Zeitschrift für Hygiene und Infektionskrankheiten</i>, <i>Archiv fur Hygiene</i> und in den russischen medizinischen Zeitschriften." ;
+	a drw-model:W .
+
+<Q/30926hasQ4>
+	a drw-model:Q ;
+	rdfs:label "Fakultätsratsprotokoll der medizinischen Fakultät vom 16.3.1914 über die Reise von Šepilevskij nach Deutschland und in die Schweiz in: Eesti Ajalooarhiiv, f. 402, op. 5, Nr. 195, 65." .
+
+<W/30926hasW5>
+	rdfs:label "Основы и средства расовой гигиены (гигиена размножения) [Osnovy i sredstva rasovoj gigieny (gigiena razmnoženija)]. Труды и протоколы заседаний Медицинского общества им. Н.И. Пирогова [Trudy i protokoly zasedanij Medicinskago obščestva imeni N. I. Pirogova] 6 (1915), 61-137." ;
+	a drw-model:W .
+
+<SL/30926hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Brennsohn, I.: Die Aerzte Livlands. Riga 1905 sowie Riga 1922." .
+
+<ImportantPerson/30695>
+	a drw-model:ImportantPerson .
+
+<P/30926hasP1>
+	a drw-model:P ;
+	rdfs:label "Photoportrait, abgedruckt in: Siilivask 1982 (<b>SL</b>) sowie in: Volkov/Kulikova 2003, zwischen 504/505(<b>SL</b>) und in: Felder 2011, 339 und Felder 2012, 41 (<b>SL</b>)." .
+
+<Q/30926hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Angaben nach Felder 2011, 338, 340-341 (<b>SL</b>), siehe auch Käbin 1986 (<b>SL</b>), Kalinin 1977 (<b>SL</b>), Felder 2012 (<b>SL</b>):" .
+
+<W/30926hasW2>
+	rdfs:label "Ueber den Nachweis der Typhusbakterien nach der Methode von Dr. A. W. Windelbandt. Centralblatt fur Bakteriologie 33 (1903), 394." ;
+	a drw-model:W .
+
+<ImportantPerson/30550>
+	a drw-model:ImportantPerson .
+
+<SL/30926hasSL6>
+	rdfs:label "Isakov, S. G.: Russkie obščestvennye i kulturnye dejateli v Ėstonii. Tallinn 1996." ;
+	a drw-model:SL .
+
+<ImportantPerson/31069>
+	a drw-model:ImportantPerson .
+
+<WL/30926hasWL1>
+	rdfs:label "ŠEPILEVSKIJ leistete wesentliche Beiträge zur Debatte über die Eugenik in Russland." ;
+	a drw-model:WL .
+
+<W/30926hasW4>
+	a drw-model:W ;
+	rdfs:label "Основы и средства расовой гигиены (гигиена размножения) [Osnovy i sredstva rasovoj gigieny (gigiena razmnoženija)]. Jur'ev 1914." .
+
+<NameVariation/30926hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "SCHEPILEWSKIJ" .
+
+<Q/30926hasQ6>
+	a drw-model:Q ;
+	rdfs:label "Angaben nach Volkov/Kulikova 2003, 505(<b>SL</b>):" .
+
+<GeneralLabor/Hygieniker>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Hygieniker" .
+
+<SL/30926hasSL8>
+	rdfs:label "Felder, Björn M.: Rassenhygiene in Russland. Der Hygieniker und Bakteriologe Evgenij A. Šepilevskij (1857-1920) und die Anfänge der Eugenik in Russischen Zarenreich. In: Ortrun Riha und Marta Fischer (Hgg.): \"Naturwissenschaft als Kommunikationsraum\". Internationale Tagung, Leipzig 29.9.-1.10.2010. Aachen 2011 (Relationes 6), 335-365." ;
+	a drw-model:SL .
+
+<NameVariation/30926hasNameVariation4>
+	rdfs:label "SCHEPILEWSKY" ;
+	a drw-model:NameVariation .
+
+<Q/30926hasQ7>
+	a drw-model:Q ;
+	rdfs:label "Studentenakte in: Rossijskij gosudarstvennyj voenno-istoričeskij archiv (RGVIA). - Российский государственный военно-исторический архив (РГВИА), фонд 316, опись 68, дело 269." .
+
+<Place/Friedrichsham_bei_Wyborg>
+	a drw-model:Place ;
+	rdfs:label "Friedrichsham bei Wyborg" .
+
+<Q/30926hasQ3>
+	a drw-model:Q ;
+	rdfs:label "Berufungsakte mit Lebenslauf in: Eesti Ajalooarhiiv, f. 402, op. 9, Nr. 424." .
+
+<Q/30926hasQ8>
+	a drw-model:Q ;
+	rdfs:label "Autobiographie in der Promotionsakte in: Rossijskij gosudarstvennyj voenno-istoričeskij archiv (RGVIA). - Российский государственный военно-исторический архив (РГВИА), фонд 316, опись 40, дело 2129." .
+
+<SL/30926hasSL7>
+	rdfs:label "Волков, В. А., Куликова, М. В.: Российская профессура XVIII - начала XX вв. Биологические и медико-биологические науки. Биографический словарь. Санкт-Петербург 2003, 491-492. - Volkov, V. A.; Kulikova, M. V.: Rossijskaja professura XVIII - načala XX vv. Biologičeskie i mediko-biologičeskie nauki. Biografičeskij slovar'. Sankt-Peterburg 2003, 491-492." ;
+	a drw-model:SL .
+
+<P/30926hasP2>
+	rdfs:label "Portraitübersicht in: Tartu University of Tartu Library, Photo Collection, Sign. Fo 908D. Online Ressource Online Ressource (1.8.2012)." ;
+	a drw-model:P ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://dspace.utlib.ee/dspace/bitstream/handle/10062/22615/fo908d_tu_arstiteaduskond_u_1908.jpg?sequence=2" .
+
+<MG/30926hasMG1>
+	a drw-model:MG ;
+	rdfs:label "• Begründer der Gesellschaft russischer Aerzte in Riga.
+• 1910-1911 und 1913-1914 Vorsitzender der Pirogov-Gesellschaft an der Universität Dorpat [Медицинскоe обществo им. Н.И. Пирогова].
+• 1911-1918 Präsident der Naturforschergesellschaft an der Universität Dorpat.
+" .
+
+<Date/3_2_1920>
+	a drw-model:Date ;
+	rdfs:label "3.2.1920" .
+
+<SL/30926hasSL5>
+	a drw-model:SL ;
+	rdfs:label "Käbin, Ilo: Die medizinische Forschung und Lehre an der Universität Dopat/Tartu 1802-1940. Ergebnisse und Bedeutung für die Entwicklung der Medizin. Lüneburg 1986." .
+
+<ImportantPerson/30926>
+	drw-model:hasSL <SL/30926hasSL9> ;
+	drw-model:hasSL <SL/30926hasSL2> ;
+	drw-model:wasBornIn <Place/Friedrichsham_bei_Wyborg> ;
+	drw-model:hasQ <Q/30926hasQ8> ;
+	drw-model:diedIn <Place/Vorone> ;
+	drw-model:hasMG <MG/30926hasMG1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30926.jpg> ;
+	drw-model:hasQ <Q/30926hasQ6> ;
+	drw-model:hasSL <SL/30926hasSL5> ;
+	drw-model:hasQ <Q/30926hasQ3> ;
+	drw-model:hasW <W/30926hasW3> ;
+	drw-model:hasQ <Q/30926hasQ2> ;
+	drw-model:hasWL <WL/30926hasWL1> ;
+	drw-model:fatherIs <RelatedPerson/30926fatherIs1> ;
+	drw-model:hasSL <SL/30926hasSL6> ;
+	drw-model:hasP <P/30926hasP1> ;
+	drw-model:hasW <W/30926hasW6> ;
+	drw-model:hasQ <Q/30926hasQ1> ;
+	drw-model:hasW <W/30926hasW5> ;
+	drw-model:hasW <W/30926hasW2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Bakteriologe> ;
+	drw-model:hasQ <Q/30926hasQ5> ;
+	drw-model:hasW <W/30926hasW1> ;
+	drw-model:hasSL <SL/30926hasSL7> ;
+	rdfs:label "Šepilevskij, Evgenij Alekseevič" ;
+	drw-model:hasStationOfLife <B/30926hasStationOfLife1> ;
+	drw-model:hasW <W/30926hasW4> ;
+	drw-model:hasP <P/30926hasP2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Hygieniker> ;
+	drw-model:hasMainName <MainName/30926hasMainName1> ;
+	drw-model:hasSL <SL/30926hasSL8> ;
+	drw-model:hasWL <WL/30926hasWL2> ;
+	drw-model:hasQ <Q/30926hasQ4> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/30926hasSL4> ;
+	drw-model:wasBornOn <Date/29_1_or_10_2_1857> ;
+	drw-model:hasID "30926" ;
+	drw-model:diedOn <Date/3_2_1920> ;
+	drw-model:hasWInformation <WInformation/30926hasWInformation1> ;
+	drw-model:hasEducation <A/30926hasEducation1> ;
+	drw-model:hasSL <SL/30926hasSL1> ;
+	drw-model:hasSL <SL/30926hasSL3> ;
+	drw-model:hasQ <Q/30926hasQ7> .
+
+<Place/Vorone>
+	a drw-model:Place ;
+	rdfs:label "Voronež" .
+
+<Q/30926hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Šepilevskijs Personalakte in: Eesti Ajalooarhiiv, f. 402, op. 3, Nr. 1857." .
+
+<MainName/30926hasMainName1>
+	drw-model:hasNameVariation <NameVariation/30926hasNameVariation5> ;
+	drw-model:hasNameVariation <NameVariation/30926hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30926hasNameVariation3> ;
+	rdfs:label "Šepilevskij, Evgenij Alekseevič" ;
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30926hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30926hasNameVariation4> .
+
+<W/30926hasW1>
+	rdfs:label "Формальдегидъ какъ средство для дезинфекции [Formal'degid, kak sredstvo dezinfekcii]. Diss. med. St. Petersburg 1895." ;
+	a drw-model:W .
+
+<Date/29_1_or_10_2_1857>
+	a drw-model:Date ;
+	rdfs:label "29.1./10.2.1857" .
+
+<RelatedPerson/30926fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Priester in Friedrichsham bei Wyborg
+" .
+
+<W/30926hasW3>
+	rdfs:label "Международная гигиеническая выставка в Дрездене 1911 г. [Meždunarodnaja gigeničenskaja vystavka v Drezdene v 1911 g.] Вестник общественной гигиены, судебной и практической медицины [Vestnik obščestvennoj gigieny sudebnoj i praktičeskoj mediciny] 47 (1911) 11, 1676-1688." ;
+	a drw-model:W .
+
+<A/30926hasEducation1>
+	a drw-model:A ;
+	drw-model:hasNameLink <ImportantPerson/31069> ;
+	drw-model:hasNameLink <ImportantPerson/30695> ;
+	drw-model:hasNameLink <ImportantPerson/30550> ;
+	rdfs:label "Gymnasium in St. Petersburg (Priesterseminar in St. Petersburg, siehe <b>SL</b> Volkov/Kulikova 2003, 504), Militärmedizinische Akademie (Voenno-medicinskaja akademija) in St. Petersburg, Abschluss des Studiums im Jahre 1882, 1893-1895 Forschung im bakteriologischen Labor der Militärmedizinischen Akademie, Promotion ebenda im Jahre 1897 (Dr. med. 1895 in: <b>SL</b> Brennsohn 1905) mit der Arbeit \"Формальдегидъ какъ средство для дезинфекции\" [Formaldehyd als Mittel der Desinfektion] (<b>W</b> Šepilevskij 1895), 1895-1897 Fortbildungsreise nach Westeuropa, Arbeit am Institut von Robert <span style='font-variant:small-caps;'>KOCH</span> (1843-1910) in Berlin bei KOCHs Mitarbeitern: den Bakteriologen Richard PFEIFFER (1858-1945) und August von WASSERMANN (1866-1925) sowie dem Chemiker Bernhard PROSKAUER (1851-1915). In Berlin hörte ŠEPILEVSKIJ Vorlesungen von Rudolf <span style='font-variant:small-caps;'>VIRCHOW</span> (1821-1902). Später wechselte er nach Würzburg zu dem Bakteriologen Karl LEHMANN (1858-1940). Abschließend ging er an das Pasteur-Institut in Paris, wo er unter Il'ja <span style='font-variant:small-caps;'>MEČNIKOV</span> (1845-1916) und Émile ROUX (1853-1933) arbeitete." .
+

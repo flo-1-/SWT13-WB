@@ -1,0 +1,142 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<Q/30417hasQ1>
+	a drw-model:Q ;
+	rdfs:label "[Todesanzeige]. St. Petersburger medicinische Wochenschrift N.F. 1 [= 9] (1884), 134." .
+
+<MG/30417hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Mediko-chirurgičeskaja akademija [Mediko-chirurgische Akademie] (Ehrenmitglied ab 1861), Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee]." .
+
+<SL/30417hasSL5>
+	rdfs:label "WBIS RBA: R 218, 27-31." ;
+	a drw-model:SL .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<SL/30417hasSL3>
+	rdfs:label "Ivanovskij 1898, 433 und 559." ;
+	a drw-model:SL .
+
+<W/30417hasW2>
+	rdfs:label "Proekt ob ustrojstve narodnych prijutov dlja prizrenija bol'nych i ranenych vo vremja vojny. Mit V. S. Sacharov. Sankt-Peterburg 1877, 14 S." ;
+	a drw-model:W .
+
+<SL/30417hasSL1>
+	rdfs:label "Emel'janova/Jakovlev - Emel'janova, Natal'ja Aleksandrovna, Jakovlev, Aleksandr Andreevič: Al'brecht von Grefe - vydajuščijsja nemeckij oftal'molog (ego žizn', vračebnaja i naučnaja dejatel'nost'). Online Ressource Vestnik oftal'mologii (2001) Nr. 6, 54-55. Online Ressource Résumé (4.4.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.medlit.ru/medrus/vestof.htm" ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.fesmu.ru/elib/Article.aspx?id=67929" ;
+	a drw-model:SL .
+
+<WL/30417hasWL2>
+	rdfs:label "        Verdienste bei der Einrichtung von Militär-Sanitätsstationen für Augenkranke in Südrussland." ;
+	a drw-model:WL .
+
+<NameVariation/30417hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "KAББAT" .
+
+<W/30417hasW4>
+	rdfs:label "Krasnyj krest na sanitarnych stancijach v Slavjanske, na Kavkaze i v Krymu v 1878 g. Sankt-Peterburg 1880, 42 S." ;
+	a drw-model:W .
+
+<Date/3_oder_4_or_15_4_1884>
+	rdfs:label "3. oder 4./15.4.1884" ;
+	a drw-model:Date .
+
+<Date/1812>
+	a drw-model:Date ;
+	rdfs:label "1812" .
+
+<MainName/30417hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30417hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30417hasNameVariation1> ;
+	rdfs:label "Kabat, Johann von" .
+
+<SL/30417hasSL4>
+	rdfs:label "Kladbišča Peterburga, 383." ;
+	a drw-model:SL .
+
+<RelatedPerson/30417hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ivan Ivanovič (1843-1902), Hofmeister, Landwirtschaftsministerialbeamter, Senator" .
+
+<ImportantPerson/30417>
+	drw-model:hasSL <SL/30417hasSL4> ;
+	drw-model:hasMG <MG/30417hasMG1> ;
+	drw-model:hasW <W/30417hasW4> ;
+	drw-model:hasSL <SL/30417hasSL2> ;
+	drw-model:wasBornOn <Date/1812> ;
+	drw-model:diedOn <Date/3_oder_4_or_15_4_1884> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Kaiserlicher_Leibokulist> ;
+	drw-model:hasEducation <A/30417hasEducation1> ;
+	drw-model:hasSL <SL/30417hasSL3> ;
+	drw-model:hasWL <WL/30417hasWL2> ;
+	drw-model:hasSL <SL/30417hasSL1> ;
+	drw-model:hasID "30417" ;
+	drw-model:hasQ <Q/30417hasQ1> ;
+	drw-model:hasWL <WL/30417hasWL1> ;
+	rdfs:label "Kabat, Johann von" ;
+	drw-model:hasW <W/30417hasW5> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <W/30417hasW1> ;
+	drw-model:hasSL <SL/30417hasSL5> ;
+	drw-model:hasMainName <MainName/30417hasMainName1> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasStationOfLife <B/30417hasStationOfLife1> ;
+	drw-model:hasW <W/30417hasW2> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Augenarzt> ;
+	drw-model:hasDescendant <RelatedPerson/30417hasDescendant1> ;
+	drw-model:hasW <W/30417hasW3> .
+
+<W/30417hasW5>
+	rdfs:label "Barak-šater i barak-saklja. Sankt-Peterburg 1882, 14 S." ;
+	a drw-model:W .
+
+<B/30417hasStationOfLife1>
+	rdfs:label "Ab 1834 Assistenzarzt, 1840-1846 Oberarzt am St. Petersburger Militärlandhospital, währenddessen 1840 zur Bekämpfung von Augenkrankheiten in der Armee eingesetzt, ab 1846 Professor und Leiter der Augenklinik an der MCA, 1856 Studienaufenthalte in Deutschland bei Albrecht von GRAEFE (1828-1870) in Berlin sowie in Frankreich und in England, nahm 1857 am 1. augenärztlichen Kongress in Brüssel teil, 1847-1881 zugleich Leib-Okulist des Zaren ALEKSANDR II. (1818-1881).
+Inhaber des Ehrentitels \"Geheimrat\"." ;
+	a drw-model:B .
+
+<SL/30417hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Hirschberg, Julius: Die Augenärzte Rußlands, 1800 bis 1875. In: Geschichte der Augenheilkunde, 3. Buch, 17. Abschnitt. Leipzig 1916 (Handbuch der gesamten Heilkunde 14), 207-208; auch in: WBIS RBA: R 218, 29-30." .
+
+<W/30417hasW3>
+	rdfs:label "Zapiska ob ujstrojstve sanitarnych stancij v voennych okrugach. Mit V. S. Sacharov. Sankt-Peterburg 1878." ;
+	a drw-model:W .
+
+<W/30417hasW1>
+	rdfs:label "Opyt primenenija gal'vano-magnitnogo toka k lečeniju glaznych boleznej. Sankt-Peterburg 1844." ;
+	a drw-model:W .
+
+<NameVariation/30417hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "KABBAT" .
+
+<WL/30417hasWL1>
+	rdfs:label "Führte 1858 als Erster in Russland die Iridektomie nach GRAEFE durch, brachte den ersten Augenspiegel (Ophthalmoskop) aus Deutschland an die Mediko-chirurgische Akademie." ;
+	a drw-model:WL .
+
+<A/30417hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1827-1833 Studium an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg, 1835 Abschluss als \"Medico-Chirurg\"." .
+
+<GeneralLabor/Kaiserlicher_Leibokulist>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Kaiserlicher Leibokulist" .
+
+<GeneralLabor/Augenarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Augenarzt" .
+

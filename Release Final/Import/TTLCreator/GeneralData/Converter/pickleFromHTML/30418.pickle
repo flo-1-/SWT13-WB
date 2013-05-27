@@ -1,0 +1,149 @@
+(dp0
+VA
+p1
+VBesuch des Gymnasiums in Mitau, 1836-1841 Studium an der Medizinischen Fakultät der Universität Moskau, 1861 Dr. med. in St. Petersburg.
+p2
+sVQ
+p3
+(lp4
+V[Anonym:] Geheimrath Dr. Ernst von Kade . St. Petersburger medicinische Wochenschrift N. F. 6 [= 14] (1889), 427-428.
+p5
+asVName russisch
+p6
+(lp7
+(dp8
+S'name'
+p9
+VKA\u0414E, \u042d\u0440a\u0441\u0442 \u0412a\u0441\u0438\u043b\u044ce\u0432\u0438\u0447
+p10
+sS'countryCode'
+p11
+S'ru'
+p12
+sa(dp13
+g9
+VKADE, \u0116rast Vasil'evi\u010d (fon)
+p14
+sg11
+S'de'
+p15
+sasVB
+p16
+V1841-1843 Studienaufenthalte zwecks chirurgischer Weiterbildung im Ausland, darunter bei Bernhard von LANGENBECK (1810-1887) an der Chirurgischen Klinik und bei Johann Lucas SCHÖNLEIN (1793-1864) an der Medizinischen Klinik der Charité in Berlin, nach der Rückkehr bis 1851 Chirurg in der Gesandtschaft in Teheran, 1851-1854 außeretatmäßiger Arzt und 1857 etatmäßiger Arzt im Marien-Hospital für Arme in St. Petersburg, 1854-1855 Chirurg und Assistent von Nikolaj Ivanovi\u010d PIROGOV (1810-1881) in Sevastopol' während des Krimkrieges, ab 1856 Hofchirurg beim Großfürsten NIKOLAJ NIKOLAEVI\u010c (1831-1891), 1858-1860 erneut Studienaufenthalt bei Bernhard von LANGENBECK in Berlin und Studien in Paris, 1864-1867 Leiter der chirurgischen Abteilung und 1867-1871 Chefarzt des Marien-Hospitals für Arme, 1871-1884 Beratendes Mitglied im Medizinalrat des Ministeriums des Innern, 1877-1878 Feldchirurg während des Russisch-türkischen Krieges im Sonderhospital der "Institutionen der Zarin Marija" in Sistovo sowie in mehreren "fliegenden" (mobilen) Ambulanzen, ab 1874 "Ehrenleibchirurg" des Zaren ALEKSANDR II. (1818-1881).\u000aInhaber der Ehrentitel "Wirklicher Russischer Staatsrat" (1869) und "Geheimrat" (1881).
+p17
+sVE
+p18
+Voh. Amalie Auguste, geb. Knoop (1833-1882)
+p19
+sVName
+p20
+(dp21
+S'Vornamen'
+p22
+VErnst (von)
+p23
+sS'Nachname'
+p24
+VKade
+p25
+ssVQuelle
+p26
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 119-120.</i>
+p27
+sVNamensvariationen
+p28
+(lp29
+(dp30
+g9
+V\u0116rnest Vil'gel'movi\u010d
+p31
+sS'countyCode'
+p32
+g15
+sa(dp33
+g9
+V\u042d\u0440\u043de\u0441\u0442 \u0412\u0438\u043b\u044c\u0433e\u043b\u044c\u043co\u0432\u0438\u0447
+p34
+sg32
+g12
+sasVMG
+p35
+VVerein St. Petersburger Ärzte, Russkoe chirurgi\u010deskoe ob\u0161\u010destvo Pirogova [Russische chirurgische Pirogov-Gesellschaft] (Gründungsinitiator, zeitweise Präses).
+p36
+sVID
+p37
+V30418
+p38
+sVWL
+p39
+VInitiierte die Gründung der Russischen chirurgischen Pirogov-Gesellschaft.
+p40
+sVGeburtsdaten
+p41
+(dp42
+S'Ort'
+p43
+VMitau
+p44
+sS'Datum'
+p45
+V3./15.10.1817
+p46
+ssVSterbedaten
+p47
+(dp48
+g45
+V22.11./4.12.1889
+p49
+sg43
+VSt. Petersburg
+p50
+sS'Grabst\xc3\xa4tte'
+p51
+VLutherischer Friedhof Volkovo, Abt. 23-53
+p52
+ssVW
+p53
+(dp54
+S'general'
+p55
+(lp56
+VO ranach sustavov. [Diss.] Sankt-Peterburg 1861, 123 S.
+p57
+aVUeber conservative und operative Indicationen bei Gliedverletzungen - wie soll operiert werden und wann? St. Petersburger medicinische Zeitschrift 7 (1864), 32-63 und 133-206.
+p58
+aVZur chirurgischen Casuistik. St. Petersburger medicinische Zeitschrift 10 (1866), 202-245.
+p59
+aVAneurysma der art. ischiadica, Unterbindung der art. iliaca communis sinistra. St. Petersburger medicinische Wochenschrift 1 (1876) 8, 2-5.
+p60
+aVDas temporäre Kriegslazareth des Ressorts der Anstalten der Kaiserin Maria im Kloster Mariahimmelfahrt bei Sistowa. St. Petersburger medicinische Wochenschrift 2 (1877), 381-385; 3 (1878), 19-29.
+p61
+aVChirurgische Mittheilungen. St. Petersburger medicinische Wochenschrift 6 (1881), 50-52, 67-69 und 83-84.
+p62
+aVZur Frage von der Knochen- und Gelenktuberculose. St. Petersburger medicinische Wochenschrift 7 (1882), 117-120.
+p63
+assVV
+p64
+VFriedrich Wilhelm
+p65
+sVSL
+p66
+(dp67
+g55
+(lp68
+VBöhm 1998, 59.
+p69
+aVEAD: Dokument-Id [70312/68828 und 1048348 (2.8.2010)].
+p70
+aVNemcy Rossii. Bd. 2 (2004), 8.
+p71
+aVWBIS RBA: R 218, 359-361.
+p72
+assVBerufe
+p73
+(lp74
+VChirurg
+p75
+aVEhrenleibchirurg
+p76
+as.

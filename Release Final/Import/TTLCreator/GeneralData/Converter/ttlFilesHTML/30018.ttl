@@ -1,0 +1,158 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<ImportantPerson/30018>
+	drw-model:hasQ <Q/30018hasQ2> ;
+	drw-model:hasW <W/30018hasW2> ;
+	drw-model:hasSL <SL/30018hasSL4> ;
+	drw-model:diedIn <Place/Moskau> ;
+	drw-model:hasSL <SL/30018hasSL1> ;
+	drw-model:hasEducation <A/30018hasEducation1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Balneologe> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leibarzt> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30018.jpg> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Praktischer_Arzt> ;
+	drw-model:hasSL <SL/30018hasSL5> ;
+	drw-model:wasMarriedTo <RelatedPerson/30018wasMarriedTo1> ;
+	rdfs:label "Albini, Apollinarius Anton (von)" ;
+	drw-model:fatherIs <RelatedPerson/30018fatherIs1> ;
+	drw-model:hasID "30018" ;
+	drw-model:hasStationOfLife <B/30018hasStationOfLife1> ;
+	drw-model:diedOn <Date/23_oder_22_10_1830> ;
+	drw-model:hasW <W/30018hasW1> ;
+	drw-model:hasP <P/30018hasP1> ;
+	drw-model:hasDescendant <RelatedPerson/30018hasDescendant1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasQ <Q/30018hasQ1> ;
+	drw-model:hasMainName <MainName/30018hasMainName1> ;
+	drw-model:wasBornOn <Date/1771_oder_1773> ;
+	drw-model:hasSL <SL/30018hasSL3> ;
+	drw-model:motherIs <RelatedPerson/30018motherIs1> ;
+	drw-model:wasBornIn <Place/oder_um_1780_Tersnaus_im_Lugne> ;
+	drw-model:hasWL <WL/30018hasWL1> ;
+	drw-model:hasSL <SL/30018hasSL2> .
+
+<Date/1771_oder_1773>
+	rdfs:label "1771 oder 1773" ;
+	a drw-model:Date .
+
+<ImportantPerson/30282>
+	a drw-model:ImportantPerson .
+
+<B/30018hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "Nach dem Studium 1802 Arzt am Wiener Allgemeinen Krankenhaus, ging 1802 mit Fürst Nikolaj Grigor'evič REPNIN-VOLKONSKIJ (1778-1845) als dessen Leibarzt nach Russland und gründete in Moskau eine eigene Privatpraxis, ab 1804 in Lipeck (Gouvernement Tambovsk) zwecks Untersuchungen chemischer Verbindungen und physiologischer Wirkungen der örtlichen Mineralwässer auf den menschlichen Organismus, 1804-1808 Chefarzt des Kurbades \"Lipezker Mineralwässer\" der Stadt Lipeck, 1808-1810 Leibmedikus am Hofe des Zaren ALEKSANDR I. (1777-1825) und Leibarzt des Fürsten Dmitrij Vladimirovič GOLICYN (1771-1844) in St. Petersburg, 1811-1820 Arzt im Golicyn-Hospital und 1820-1830 Chefarzt im Erziehungshaus in Moskau, 1825-1827 als Begleiter des Fürsten GOLICYN in Wien.
+Inhaber hoher russischer Ehrentitel und Auszeichnungen, darunter 1802 \"Hofrat\", \"Wirklicher Russischer Staatsrat\", 1812 St.-Vladimir-Orden 4. Klasse, 1822 Wappendiplom.
+Nach ihm benannt: Quelle \"Al'bini\" im Trinkpavillon des Kurortes Lipezk." .
+
+<RelatedPerson/30018fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Bartholomäus, Seckelmeister" .
+
+<W/30018hasW2>
+	rdfs:label "Ueber das Stahlwasser zu Lipetzk im Gouvernement Tamboff. Dorpat 1805, 90 S." ;
+	a drw-model:W .
+
+<GeneralLabor/Praktischer_Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Praktischer Arzt" .
+
+<Q/30018hasQ2>
+	a drw-model:Q ;
+	rdfs:label "Kantonsbibliothek Graubünden in Chur: Be 2003: Portrait (vgl. <b>P</b>) (Scan zugesandt am 25.8.2008)." .
+
+<SL/30018hasSL2>
+	a drw-model:SL ;
+	rdfs:label "HBLS - Historisch-biographisches Lexikon der Schweiz. Bd. 1. Neuenburg 1921, 210." .
+
+<GeneralLabor/Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leibarzt" .
+
+<SL/30018hasSL5>
+	rdfs:label "RBS. Bd. 2 (1900), 70; auch in: WBIS RBA: R 13, 347." ;
+	a drw-model:SL .
+
+<A/30018hasEducation1>
+	a drw-model:A ;
+	drw-model:hasNameLink <ImportantPerson/30282> ;
+	rdfs:label "Besuch der Klosterschule zu Pfäfers, heute Kanton St. Gallen, 1793 Studium der Theologie in Dillingen an der Donau und 1793-1802 der Medizin bei Johann Peter <span style='font-variant:small-caps;'><b>FRANK</b></span> (1745-1821) in Wien, 1804 russisches Arzt-Examen." .
+
+<WL/30018hasWL1>
+	rdfs:label "1804 Analyse und Beschreibung der Mineralquelle von Lipezk, 1805 Mitgründer des Kurbades <i>Lipeckie mineral'nye vody</i> \"Lipezker Mineralwässer\"." ;
+	a drw-model:WL .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30018hasW1>
+	rdfs:label "Der Gesundbrunnen in Lipezk (Aus einer noch ungebundenen Abhandlung des Herrn Doktor Albini zu Moskau). In: Heinrich Storch (Hg.): Rußland unter Alexander dem Ersten. Bd. 4. St. Petersburg, Leipzig 1804, 94-110." ;
+	a drw-model:W .
+
+<RelatedPerson/30018motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Anna Maria, geb. Capaul" .
+
+<Place/oder_um_1780_Tersnaus_im_Lugne>
+	a drw-model:Place ;
+	rdfs:label "oder um 1780, Tersnaus im Lugnez, Kanton Graubünden, Schweiz" .
+
+<NameVariation/30018hasNameVariation1>
+	rdfs:label "ALBIN" ;
+	a drw-model:NameVariation .
+
+<GeneralLabor/Balneologe>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Balneologe" .
+
+<NameVariation/30018hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Apollinaris Antonius" .
+
+<P/30018hasP1>
+	rdfs:label "J. L. Lutz: Apolinaris von Albini. Lithographie [ohne weitere Angaben]. Quelle: Album in der Sammlung bündnerischer Graphica - Kantonsbibliothek Graubünden in Chur (vgl. <b>Q</b>)." ;
+	a drw-model:P .
+
+<RelatedPerson/30018hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Elisa (Ėliza Antonovna), verh. Richter (1805-1894)Nikolai (Nikolaj Antonovič) (1812-1871)<br>Alexandra (Aleksandra Antonovna), verh. Annenkov (1820-1892)Nadežda Antonovna (1825-1893)" .
+
+<Date/23_oder_22_10_1830>
+	a drw-model:Date ;
+	rdfs:label "23. oder 22.10.1830" .
+
+<Q/30018hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Staatsarchiv Graubünden in Chur: Bestand B/N 946: Nachforschungen über die Familie Emnich, Nachkommen des Hofarztes in Russland Apollinaris von Albin (1773-1830) aus Tersnaus im Lugnez: Manuskript von Dr. Alfred Engler aus Weisweil vom 15.5.1957, Brief von Irene Andre aus Buenos Aires vom 14.3.1969 (Zugesandt am 15.8.2008)." .
+
+<SL/30018hasSL1>
+	rdfs:label "EAD: Dokument-Id [7174/6976, 62191/60234 und 1042868 (20.7.2010)]." ;
+	a drw-model:SL .
+
+<MainName/30018hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30018hasNameVariation2> ;
+	rdfs:label "Albini, Apollinarius Anton (von)" ;
+	drw-model:hasNameVariation <NameVariation/30018hasNameVariation1> .
+
+<SL/30018hasSL3>
+	<http://xmlns.com/foaf/0.1/homepage> "http://lipetskkurort.ru/history3" ;
+	a drw-model:SL ;
+	drw-model:hasDate "4.8.2008" ;
+	rdfs:label "Lipeckie kurorty - starejšij kurort Rossii. Istorija kurorta ot Petra I do Aleksandra I (Online Ressource)." .
+
+<Place/Moskau>
+	a drw-model:Place ;
+	rdfs:label "Moskau" .
+
+<SL/30018hasSL4>
+	rdfs:label "Sprecher, Johann Andreas von: Kulturgeschichte der drei Bünde im 18. Jahrhundert. Bearb. u. neu hrsg. v. Rudolf Jenny. [3.] Aufl. Chur 1976, 426-427." ;
+	a drw-model:SL .
+
+<RelatedPerson/30018wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Dorothea, geb. von Ellisen (Doroteja [Dar’ja] Egorovna, rožd. fon Ėllizen) (1786-1863)" .
+

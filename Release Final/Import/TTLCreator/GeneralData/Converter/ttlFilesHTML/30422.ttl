@@ -1,0 +1,140 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<MainName/30422hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Korovin, Ivan Pavlovič" ;
+	drw-model:hasNameVariation <NameVariation/30422hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30422hasNameVariation1> .
+
+<NameVariation/30422hasNameVariation2>
+	rdfs:label "I. (Joh.)" ;
+	a drw-model:NameVariation .
+
+<RelatedPerson/30422fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Pavel" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<B/30422hasStationOfLife1>
+	rdfs:label "1870-1896 Assistent am Lehrstuhl für Kinderkrankheiten bei Nikolaj Ivanovič BYSTROV (1841-1906) in der Kinderklinik bzw. (ab 1874) am Klinischen Michail-Krankenhaus des Baronet Wyllie an der MCA, 1876 Studienaufenthalt im Ausland, vermutlich auch in Deutschland, außerdem später auch Leiter der Studentenausbildung in der Kinderklinik des Baronet-Wyllie-Krankenhauses, Oberarzt in der Kinderklinik am Nikolaj-Militärkrankenhaus, zugleich Kinderarzt in eigener Privatpraxis in St. Petersburg sowie zuerst \"Ehrenleibmedikus\" und ab 1905 Leib-Pädiater am Hofe des Zaren NIKOLAJ II. (1868-1918)." ;
+	a drw-model:B .
+
+<W/30422hasW8>
+	rdfs:label "Po Rusi. Zdorov'e (1881) Nr. 153-158." ;
+	a drw-model:W .
+
+<WL/30422hasWL1>
+	rdfs:label "Seine Dissertation Zur Frage des Gebrauchs der Stärkenahrung bei Brustkindern war eine der ersten Studien über die Physiologie der Verdauung und des Stoffwechsels im frühen Kindesalter in Russland." ;
+	a drw-model:WL .
+
+<Date/25_8_1908>
+	rdfs:label "25.8.1908" ;
+	a drw-model:Date .
+
+<Date/1843>
+	rdfs:label "1843" ;
+	a drw-model:Date .
+
+<W/30422hasW6>
+	a drw-model:W ;
+	rdfs:label "K voprosu ob upotreblenii krachmalistoj pišči grudnymi det'mi. Diss. S.-Peterburg 1874, 47 S." .
+
+<W/30422hasW4>
+	rdfs:label "Ueber die fermentative Wirkung des pankreatischen Saftes und der Glandula Parotis von Neugeborenen und Brustkindern auf Stärke. Centralblatt für die medicinischen Wissenschaften 11 (1873), 261-262." ;
+	a drw-model:W .
+
+<SL/30422hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Zmeev. Bd. 3 (1888), 162; auch in: WBIS RBA: R 250, 87." .
+
+<W/30422hasW2>
+	rdfs:label "O fermentirujuščej sposobnosti vydelenij polosti rta i eja diastatičeskoj sposobnosti, u novoroždennych i grudnych detej, različnych vozrastov. Medicinskij vestnik (1873), 16 ff." ;
+	a drw-model:W .
+
+<SL/30422hasSL2>
+	rdfs:label "Šengelidze, V.: Pamjati Ivana Pavloviča Korovina. Russkij vrač 7 (1908), 1202-1203." ;
+	a drw-model:SL .
+
+<GeneralLabor/Kinderarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Kinderarzt" .
+
+<A/30422hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch des Priesterseminars in Perm', anschließend Studium der Medizin zunächst in Kazan', danach bis 1870 in St. Petersburg an der Mediko-chirurgischen Akademie (MCA) und 1874 Promotion zum Dr. med." .
+
+<W/30422hasW9>
+	rdfs:label "Außerdem Berichte in Protokoly zasedanij Obščestva russkich vračej 1872-1873." ;
+	a drw-model:W .
+
+<GeneralLabor/Leib_Pdiater>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Leib-Pädiater" .
+
+<P/30422hasP1>
+	a drw-model:P ;
+	rdfs:label "Foto aus: Šengelidze (<b>SL</b>), 1202, Abgedruckt in: Fischer 2010, 127." .
+
+<W/30422hasW1>
+	rdfs:label "O fermentativnom vlijanii na krachmal' nastoev pancreas i parotis u grudnych detej. Medicinskij vestnik (1873), 13 ff." ;
+	a drw-model:W .
+
+<GeneralLabor/Ehrenleibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ehrenleibmedikus" .
+
+<W/30422hasW7>
+	rdfs:label "Zur Frage über Assimilation der stärkehaltigen Speise bei Säuglingen. Jahrbuch für Kinderheilkunde und physische Erziehung N.F. 8 (1875), 381-416." ;
+	a drw-model:W .
+
+<ImportantPerson/30422>
+	drw-model:hasID "30422" ;
+	drw-model:hasP <P/30422hasP1> ;
+	drw-model:hasW <W/30422hasW5> ;
+	drw-model:hasSL <SL/30422hasSL3> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Kinderarzt> ;
+	drw-model:hasW <W/30422hasW6> ;
+	drw-model:hasW <W/30422hasW1> ;
+	drw-model:hasW <W/30422hasW2> ;
+	drw-model:hasMainName <MainName/30422hasMainName1> ;
+	drw-model:diedOn <Date/25_8_1908> ;
+	drw-model:hasStationOfLife <B/30422hasStationOfLife1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Ehrenleibmedikus> ;
+	drw-model:hasW <W/30422hasW7> ;
+	drw-model:hasSL <SL/30422hasSL2> ;
+	rdfs:label "Korovin, Ivan Pavlovič" ;
+	drw-model:hasW <W/30422hasW3> ;
+	drw-model:hasWL <WL/30422hasWL1> ;
+	drw-model:hasEducation <A/30422hasEducation1> ;
+	drw-model:hasW <W/30422hasW4> ;
+	drw-model:hasW <W/30422hasW8> ;
+	a drw-model:ImportantPerson ;
+	drw-model:wasBornOn <Date/1843> ;
+	drw-model:hasW <W/30422hasW9> ;
+	drw-model:hasSL <SL/30422hasSL1> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30422.jpg> ;
+	drw-model:fatherIs <RelatedPerson/30422fatherIs1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Leib_Pdiater> .
+
+<W/30422hasW5>
+	rdfs:label "Ueber die Absonderung des Speichels und seine distatische Eigenschaft bei Neugeborenen und Säuglingen. Centralblatt für die medicinischen Wissenschaften 11 (1873), 305-307." ;
+	a drw-model:W .
+
+<SL/30422hasSL1>
+	a drw-model:SL ;
+	rdfs:label "[Nekrolog.] Istoričeskij vestnik 114 (1908) 10, 373-374." .
+
+<NameVariation/30422hasNameVariation1>
+	rdfs:label "KOROWIN" ;
+	a drw-model:NameVariation .
+
+<W/30422hasW3>
+	rdfs:label "O fermentativnoj dejatel'nosti kišečnych ispražnenij u novoroždennych. Medicinskij vestnik (1873), 226 ff." ;
+	a drw-model:W .
+

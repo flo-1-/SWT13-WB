@@ -1,0 +1,127 @@
+(dp0
+VA
+p1
+VBis 1755 wundärztliche Ausbildung in Kiel und Berlin, 1781 Immatrikulation an der Universität Frankfurt/Oder und als Dr. med. ohne Examen in Russland anerkannt.
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u0411EK, \u0418\u0432a\u043d \u0424\u0438\u043b\u0438\u043f\u043f\u043e\u0432\u0438\u0447
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VBEK, Ivan Filippovi\u010d
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+VAb 1755 im russischen Militärdienst, zunächst am Militärlandhospital in St. Petersburg, besuchte an der dortigen Ärzteschule zwei Jahre Vorlesungen, wurde 1757 zum Chirurgen befördert, diente dann im Krankenhaus in der St. Petersburger Admiralität, 1758-1761 Arzt bei der russischen Feldarmee, 1761 zur Hauptartillerieverwaltung kommandiert und Ende des Jahres zum Hofchirurgen ernannt, ab 1773 Leibchirurg des Thronfolgers PAVEL PETROVI\u010c (1754-1801), ab 1786 Leibmedikus der Großfürsten und der Großfürstinnen, ab 1796 Stabsmedikus beim Zaren PAVEL I., ab 1803 Mitglied des Medizinalrats des Ministeriums des Innern.\u000aInhaber hoher russischer Ehrentitel und Auszeichnungen, darunter "Wirklicher Russischer Staatsrat", 1797 "Geheimrat", 1799 St. Annen-Orden 1. Klasse, 1803 goldene Tabakdose, ab 1797 Besitzer eines Guts mit 1500 Seelen im Kreis Bronnicy, Gouvernement Moskau (Geschenk des Zaren PAVEL I. als Dank für eine besondere Kurmethode zur Behandlung des Bandwurms [nach einem von BECK gekauften geheimen Rezept]).
+p14
+sVE
+p15
+VAksinija Timofeevna (\u2020 1782), Staatsrätin
+p16
+sVName
+p17
+(dp18
+S'Vornamen'
+p19
+VJohann
+p20
+sS'Nachname'
+p21
+VBeck
+p22
+ssVQuelle
+p23
+V<i>Fischer, Marta: Russische Karrieren. Leibärzte im 19. Jahrhundert. Aachen: Shaker 2010 (Relationes 4), 11-12.</i>
+p24
+sVNamensvariationen
+p25
+(lp26
+(dp27
+g6
+VJean
+p28
+sS'countyCode'
+p29
+g12
+sa(dp30
+g6
+VIogann
+p31
+sg29
+g12
+sa(dp32
+g6
+V\u0418o\u0433a\u043d\u043d
+p33
+sg29
+g9
+sasVMG
+p34
+VFiziko-medicinskoe ob\u0161\u010destvo Moskvy [Physiko-medizinische Gesellschaft zu Moskau], Mediko-chirurgi\u010deskaja akademija [Mediko-chirurgische Akademie] St. Petersburg (Ehrenmitglied), Deutsche Akademie der Naturforscher Leopoldina (ab 1781).\u000a
+p35
+sVN
+p36
+VAlexander (Aleksandr Ivanovi\u010d) (1777-1850), Archivar\u000aMaria (Marija Ivanovna), verh. Renny (1781-1816)\u000aEnkel: Ivan Aleksandrovi\u010d (1807-1842), Diplomat, Lyriker, Übersetzer\u000a
+p37
+sVGeburtsdaten
+p38
+(dp39
+S'Ort'
+p40
+VRiga
+p41
+sS'Datum'
+p42
+V20.5.1735
+p43
+ssVSterbedaten
+p44
+(dp45
+g40
+VMarty\u0161kino
+p46
+sg42
+V2./17.9.1811
+p47
+ssVV
+p48
+VPhilipp
+p49
+sVID
+p50
+V30060
+p51
+sVSL
+p52
+(dp53
+S'general'
+p54
+(lp55
+VEAD: Dokument-Id [2506/2474 (20.7.2010)].
+p56
+aVNemcy Rossii. Bd. 1 (1999), 144.
+p57
+aVWBIS BaBA: I 22, 445; RBA: R 42, 252-253; RS 4, 448-451.
+p58
+assVBerufe
+p59
+(lp60
+VChirurg
+p61
+aVMilitärarzt
+p62
+aVLeib- und Hofarzt
+p63
+as.

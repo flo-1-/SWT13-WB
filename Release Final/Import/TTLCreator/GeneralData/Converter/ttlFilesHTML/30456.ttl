@@ -1,0 +1,106 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<MainName/30456hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30456hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30456hasNameVariation2> ;
+	rdfs:label "Schmidt, Alexander" .
+
+<ImportantPerson/30456>
+	drw-model:hasGeneralLabor <GeneralLabor/Geburtshelfer> ;
+	drw-model:hasSL <SL/30456hasSL1> ;
+	drw-model:hasID "30456" ;
+	drw-model:wasBornIn <Place/St_Petersburg> ;
+	drw-model:hasEducation <A/30456hasEducation1> ;
+	drw-model:wasBornOn <Date/1848> ;
+	drw-model:fatherIs <RelatedPerson/30456fatherIs1> ;
+	drw-model:hasMainName <MainName/30456hasMainName1> ;
+	drw-model:hasSL <SL/30456hasSL4> ;
+	drw-model:hasW <W/30456hasW2> ;
+	drw-model:hasStationOfLife <B/30456hasStationOfLife1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Ehrenleibmedikus> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <W/30456hasW1> ;
+	drw-model:diedOn <Date/um_1911> ;
+	drw-model:hasWInformation <WInformation/30456hasWInformation1> ;
+	drw-model:hasSL <SL/30456hasSL2> ;
+	rdfs:label "Schmidt, Alexander" ;
+	drw-model:hasSL <SL/30456hasSL3> .
+
+<Date/um_1911>
+	a drw-model:Date ;
+	rdfs:label "um 1911" .
+
+<SL/30456hasSL1>
+	rdfs:label "Afanas'ev, Nikolaj Ivanovič: Sovremenniki: Al'bom biografij. Bd. 2. [Sankt-Peterburg] 1910; zit. nach WBIS RBA: R 511, 39-40." ;
+	a drw-model:SL .
+
+<GeneralLabor/Ehrenleibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Ehrenleibmedikus" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<GeneralLabor/Geburtshelfer>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Geburtshelfer" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<W/30456hasW2>
+	rdfs:label "Kritičeskie i ėksperimental'nye issledovanija o matočnom šve. Material k technike kesarskogo sečenija. Dissertation. Sankt-Peterburg 1881, 123 S." ;
+	a drw-model:W .
+
+<SL/30456hasSL3>
+	rdfs:label "Pridvornyj kalendar': na 1910 god. S.-Peterburg [o. J.], 288." ;
+	a drw-model:SL .
+
+<NameVariation/30456hasNameVariation2>
+	rdfs:label "Гeнриxoвич" ;
+	a drw-model:NameVariation .
+
+<A/30456hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch des Larin-Gymnasiums*), anschließend bis 1873 Studium und 1881 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg.
+*) Benannt nach dem St. Petersburger Kaufmann und Mäzen Peter Danilovič Larin (1735-1778)." .
+
+<W/30456hasW1>
+	rdfs:label "Kanal matočnoj šejki v rodil'nom periode. Medicinskij vestnik (1876) Nr. 9-13, 31 S." ;
+	a drw-model:W .
+
+<WInformation/30456hasWInformation1>
+	rdfs:label "Außerdem Verfasser zahlreicher medizinischen Berichte." ;
+	a drw-model:WInformation .
+
+<RelatedPerson/30456fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Eduard Heinrich (?)" .
+
+<B/30456hasStationOfLife1>
+	rdfs:label "1874 außeretatmäßiger Ordinator im Marien-Gebärhaus in St. Petersburg, 1875-1877 Assistent in den Höheren medizinischen Frauenkursen und an der Geburtshilflich-gynäkologischen Klinik der MCA, 1877-1778 Armeearzt während des Russischen-türkischen Krieges, 1879-1881 Studienaufenthalte im Ausland, ab 1883 Dozent im Hebammeninstitut des Marien-Gebärhauses, 1883-1884 kommissarischer Direktor und 1884-1894(oder bis 1910) Direktor des Marien-Gebärhauses, dort Gründer der gynäkologischen Abteilung, der Fachbibliothek und des Museums, ab 1903 zugleich Höherer Beamter des Medizinaldepartments, 1909-1910 \"Ehrenleibmedikus\" am Hofe des Zaren NIKOLAJ II. (1868-1918).
+        Inhaber des Ehrentitels \"Wirklicher Russischer Staatsrat\" (1892), des St.-Annen-Ordens 1. Klasse, des St.-Stanislav-Ordens 1. Klasse und des St.-Vladimir-Ordens 3. Klasse." ;
+	a drw-model:B .
+
+<NameVariation/30456hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "Genrichovič" .
+
+<SL/30456hasSL2>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [ 63227]." .
+
+<Date/1848>
+	a drw-model:Date ;
+	rdfs:label "1848" .
+
+<SL/30456hasSL4>
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA: R 511, 38-40." .
+

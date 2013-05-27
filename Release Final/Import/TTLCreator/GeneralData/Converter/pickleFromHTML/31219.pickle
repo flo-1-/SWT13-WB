@@ -1,0 +1,128 @@
+(dp0
+VA
+p1
+V1807 Abschluss der Kreisschule in Wesenberg, danach 2-jährige Ausbildung im Kaiserlichen Erziehungshaus in St. Petersburg, 1810-1814 Studium an der Mediko-Chirurgischen Akademie (MCA) mit dem Abschluss "Arzt 1. Klasse", 1835 Grad des Medico-Chirurgen, 1839 Diplom "Dr. med."
+p2
+sVName russisch
+p3
+(lp4
+(dp5
+S'name'
+p6
+V\u0414\u0415\u041f\u041f, \u0424\u0438\u043b\u0438\u043f\u043f \u0424\u0438\u043b\u0438\u043f\u043f\u043e\u0432\u0438\u0447 (\u0444\u043e\u043d)
+p7
+sS'countryCode'
+p8
+S'ru'
+p9
+sa(dp10
+g6
+VDEPP, Filipp Filippovi\u010d (fon)
+p11
+sg8
+S'de'
+p12
+sasVB
+p13
+V1814 und 1815-1816 Arzt am Marienhospital in St. Petersburg, 1814-1815 im Hauptquartier der Russischen Armee, ab 1816 Assistenzarzt und 1823-1829 Oberarzt am Stadtkrankenhaus in Gat\u010dina, ab 1829 Oberarzt am Kaiserlichen Erziehungshaus zu St. Petersburg.\u000aInhaber hoher russischer Ehrentitel und Auszeichnungen, darunter 1816 "Stabsarzt", 1820 "Kollegienassessor", 1825 "Hofrat", 1832 "Kollegienrat", 1836 "Staatsrat", 1842 "Wirklicher Russischer Staatsrat", 1841 [nicht 1851] Wappendiplom, Vladimir-Orden 4. und 3. Klasse, St.-Annen-Orden 2. Klasse, Stanislav-Orden 3. und 1. Klasse.\u000aMitbegründer und zeitweise Präsident der wohltätigen Stiftung "Marien-Casse für die Witwen und Waisen der Ärzte".
+p14
+sVE
+p15
+V1. Sophie (Izakovna), geb. Granbaum (\u2020 1850)\u000a2. Helene Wilhelmine Julie Caroline, geb. Paucker (1831-1896)
+p16
+sVName
+p17
+(dp18
+S'Vornamen'
+p19
+VHeinrich Philipp (von)
+p20
+sS'Nachname'
+p21
+VDoepp
+p22
+ssVQuelle
+p23
+V<i>http://drw.saw-leipzig.de/31219.html</i> (2. Mai 2012).
+p24
+sVNamensvariationen
+p25
+(lp26
+(dp27
+g6
+VDIEPP
+p28
+sS'countyCode'
+p29
+g12
+sasVM
+p30
+VChristina Maria (oder Marie Christiane), geb. Paucker (1767-1812)
+p31
+sVMG
+p32
+VDeutscher ärztlicher Verein in St. Petersburg (1831), Imperatorskoe vol'no-\u0117konomi\u010deskoe ob\u0161\u010destvo [Kaiserliche freie ökonomische Gesellschaft zu St. Petersburg] (ab 1846 Präsident der 5. Sektion), Mediko-filantropi\u010deskij komitet [Mediko-philanthropisches Komitee] (1845?), Medicinische Gesellschaft zu Hamburg.
+p33
+sVN
+p34
+VPhilipp (Filipp Filippovi\u010d) (1824-1866), Jurist, Verwaltungsbeamter\u000aAlexander August (Aleksandr Filippovi\u010d) (1835-1889), Militäringenieur\u000aNikolaus Julius (Nikolaj Filippovi\u010d) (1838-1880), Jurist\u000aGeorg (Georgij Filippovi\u010d) (1854-1921), Professor für angewandte Mechanik\u000a
+p35
+sVGeburtsdaten
+p36
+(dp37
+S'Ort'
+p38
+VWesenberg (estnisch: Rakvere)
+p39
+sS'Datum'
+p40
+V2./13.10.1793
+p41
+ssVSterbedaten
+p42
+(dp43
+g38
+VLandgut Muromitz
+p44
+sg40
+V15./27.8.1855
+p45
+ssVW
+p46
+(dp47
+S'general'
+p48
+(lp49
+V[Beschreibung der Erfahrungen und Beobachtungen sowie der Resultate der Cholera-Kurmethode], in: Mittheilungen practischer Aerzte über die Cholera-Epidemie zu St. Petersburg im Sommer 1831.
+p50
+aVNotizen über das Kaiserliche Erziehungshaus in St. Petersburg während der Jahre 1820 bis 1833. Vermischte Abhandlungen aus dem Gebiete der Heilkunde: von einer Gesellschaft praktischer Ärzte zu St. Petersburg 5 (1835); russ.: Mediko-statiti\u010deskaja zapiska ob Imperatorskom Sanktpeterburgskom vospitatel'nom dome v te\u010denie 1830, 1831, 1832 i 1833 godov. Sankt-Peterburg 1835, 60 S.
+p51
+aVNotizen über das Kaiserliche Erziehungshaus in St. Petersburg während der Jahre 1834 bis 1840. Vermischte Abhandlungen aus dem Gebiete der Heilkunde: von einer Gesellschaft praktischer Ärzte zu St. Petersburg 6 (1842).
+p52
+assVV
+p53
+VPhilipp Johann (1742-1820), Oberlandgerichtsadvokat
+p54
+sVID
+p55
+V31219
+p56
+sVSL
+p57
+(dp58
+g48
+(lp59
+VErik-Amburger-Datenbank [EAD]: Dokument-Id [3306/3253].
+p60
+aVSengbusch, E[duard Ferdinand von]: Nekrolog. Medicinische Zeitung Russlands 13 (1856) 69-72.
+p61
+aVWBIS RBA.
+p62
+assVBerufe
+p63
+(lp64
+VChirurg
+p65
+aVKinderarzt
+p66
+as.

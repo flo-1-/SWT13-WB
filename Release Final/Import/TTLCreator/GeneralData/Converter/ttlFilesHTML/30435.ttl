@@ -1,0 +1,112 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<NameVariation/30435hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "D." .
+
+<W/30435hasW1>
+	rdfs:label "Ob izmenenii strunnych ligatur, posle naloženija ich na matku i krovenosnye sosudy. Dissertation. Sankt-Peterburg 1875, 29 S.; Referat: Ueber Veränderungen der Darmsaitenligaturen. Zentralblatt für Chirurgie 2 (1875), 675." ;
+	a drw-model:W .
+
+<SL/30435hasSL1>
+	rdfs:label "Lobaškova, T. A.: Primečanija: Pis'ma knjažny Tat'jany Konstantinovny knjazju Ioannu Konstantinoviču, 1908-1910 g. In: Rossijskij Archiv: Istorija Otečestva v svidetel'stvach i dokumentach XVIII-XX vv.: Al'manach. Bd. 15. Moskva 2007, 461. Online Ressource Online Ressource (14.3.2012)." ;
+	a drw-model:SL ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://feb-web.ru/feb/rosarc/raf/RAF-461-.htm?cmd=p" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Date/1845>
+	a drw-model:Date ;
+	rdfs:label "1845" .
+
+<SL/30435hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Nachapetov 2003, 220." .
+
+<RelatedPerson/30435fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Andrej" .
+
+<GeneralLabor/Marinearzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Marinearzt" .
+
+<W/30435hasW2>
+	a drw-model:W ;
+	rdfs:label "Ėpidemija cholery v 1892 g. Otčet po 4 medicinskomu učastku S.-Petersburgskogo uezdnogo zemstva doktora D. A. Murinova. Sankt-Peterburg 1892, 26 S." .
+
+<SL/30435hasSL5>
+	rdfs:label "Zmeev. Bd. 4 (1889), 24; auch in: WBIS RBA: R 320,144." ;
+	a drw-model:SL .
+
+<SL/30435hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Pridvornyj kalendar': na 1910 god. S.-Peterburg [o.J.], 293; ~ 1911, 304; ~ 1913, 320; ~ 1914, 402." .
+
+<ImportantPerson/30435>
+	drw-model:hasEducation <A/30435hasEducation1> ;
+	drw-model:hasW <W/30435hasW1> ;
+	drw-model:hasSL <SL/30435hasSL4> ;
+	drw-model:hasSL <SL/30435hasSL1> ;
+	rdfs:label "Murinov, Dmitrij Andreevič" ;
+	drw-model:hasSL <SL/30435hasSL5> ;
+	drw-model:wasBornOn <Date/1845> ;
+	drw-model:hasID "30435" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Grofrstlicher_Leibchirurg> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Marinearzt> ;
+	drw-model:hasStationOfLife <B/30435hasStationOfLife1> ;
+	drw-model:hasGPV <GPV/30435hasGPV1> ;
+	drw-model:fatherIs <RelatedPerson/30435fatherIs1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasW <W/30435hasW2> ;
+	drw-model:hasQ <Q/30435hasQ1> ;
+	drw-model:hasMainName <MainName/30435hasMainName1> ;
+	drw-model:hasSL <SL/30435hasSL2> ;
+	drw-model:hasSL <SL/30435hasSL3> ;
+	drw-model:diedOn <Date/nach_1917> .
+
+<A/30435hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Bis 1872 Studium und 1875 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg." .
+
+<GPV/30435hasGPV1>
+	rdfs:label "Publikationen 1874-1884, in: Zmeev (<b>SL</b>)." ;
+	a drw-model:GPV .
+
+<SL/30435hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Molin, Jurij Aleksandrovič: Medicinskie aspekty biografii Velikogo Knjaza Konstantina Konstantinoviča. Online Ressource Online Ressource (14.3.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://www.kirshin.ru/about/arsii/02_03.html" .
+
+<NameVariation/30435hasNameVariation1>
+	rdfs:label "MURINOFF" ;
+	a drw-model:NameVariation .
+
+<GeneralLabor/Grofrstlicher_Leibchirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Großfürstlicher Leibchirurg" .
+
+<MainName/30435hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30435hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30435hasNameVariation1> ;
+	rdfs:label "Murinov, Dmitrij Andreevič" .
+
+<Date/nach_1917>
+	a drw-model:Date ;
+	rdfs:label "nach 1917" .
+
+<B/30435hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "1872-1875 Assistenzarzt im Marinehospital in Kronštadt, ab 1873 in der 8. (7.?) St. Petersburger Flottenequipage und an der MCA angestellt, ab 1875 Assistenzarzt im Kalinkin-Militärhospital, 1879-1881 Studienaufenthalt in der chirurgischen Klinik der Universität Wien bei Theodor BILLROTH (1829-1894) und der Universität Halle bei Richard VOLKMANN (1830-1889), ab 1884 Schiffsarzt des Gardekorps und Oberarzt im Kalinkin-Militärmarinehospital, ab 1886 Leiter des Gardekorps-Lazaretts, um 1892 Arzt des 4. St. Petersburger medizinischen Bezirkes, später zunächst \"Ehrenleibchirurg\" und ab 1905 Leibchirurg am Hofe sowie Hausarzt der Großfürstin ALEKSANDRA IOSIFOVNA, geb. ALEXANDRA VON SACHSEN-ALTENBURG (1830-1911), 1912- 1915 Leibchirurg des Großfürsten KONSTANTIN KONSTANTINOVIČ (1858-1915).
+Inhaber der russischen Ehrentitel \"Kollegienrat\" und \"Geheimrat\", des St.-Vladimir-Ordens 4. Klasse, des St.-Annen-Ordens 1. und 2. Klasse, des St.-Stanislav-Ordens 2. Klasse, der Gedenkmedaille \"300 Jahre Romanov-Dynastie\" von 1913, war Komtur 2. Klasse des Herzoglich Sachsen-Ernestinischen Hausordens u.a." .
+
+<Q/30435hasQ1>
+	a drw-model:Q ;
+	rdfs:label "O poseščenii chirurgičeskoj kliniki Bil'rota v Vene i Volkmana v Galle v 1879-1880 g. Medicinskoe pribavlenie k Morskomu sborniku 20 (1881), 71 ff." .
+

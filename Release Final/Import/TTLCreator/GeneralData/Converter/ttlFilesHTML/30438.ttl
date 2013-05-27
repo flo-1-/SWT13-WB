@@ -1,0 +1,126 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<MG/30438hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Verein St. Petersburger Ärzte (1859 Gründer), Russkoe chirurgičeskoe obščestvo Pirogova [Russische chirurgische Pirogov-Gesellschaft] (1882 Gründungsmitglied, Vorsitzender und ab 1892 Ehrenmitglied), Deutscher ärztlicher Verein in St. Petersburg (ab 1878), Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee], Mediko-filantropičeskij komitet [Medizinisch-philanthropisches Komitee] u.a." .
+
+<Date/10_or_22_8_1892>
+	a drw-model:Date ;
+	rdfs:label "10./22.8.1892" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<Date/4_or_16_10_1828>
+	a drw-model:Date ;
+	rdfs:label "4./16.10.1828" .
+
+<SL/30438hasSL4>
+	rdfs:label "RBS. Bd. [12]: Obez'janinov - Očkin (1905), 2-3; auch in: WBIS RBA: R 336, 26-31." ;
+	a drw-model:SL .
+
+<ImportantPerson/30438>
+	drw-model:fatherIs <RelatedPerson/30438fatherIs1> ;
+	drw-model:hasStationOfLife <B/30438hasStationOfLife1> ;
+	drw-model:wasMarriedTo <RelatedPerson/30438wasMarriedTo1> ;
+	drw-model:diedIn <Place/Peterhof> ;
+	drw-model:hasSL <SL/30438hasSL2> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30438.jpg> ;
+	drw-model:hasP <P/30438hasP1> ;
+	drw-model:hasMainName <MainName/30438hasMainName1> ;
+	rdfs:label "Obermüller, Alexander von" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Kaiserlicher_Leibchirurg> ;
+	drw-model:hasMG <MG/30438hasMG1> ;
+	drw-model:hasSL <SL/30438hasSL3> ;
+	drw-model:hasSL <SL/30438hasSL1> ;
+	drw-model:hasSL <SL/30438hasSL4> ;
+	drw-model:wasBornIn <Place/St_Petersburg> ;
+	drw-model:hasID "30438" ;
+	drw-model:hasDescendant <RelatedPerson/30438hasDescendant1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasEducation <A/30438hasEducation1> ;
+	drw-model:diedOn <Date/10_or_22_8_1892> ;
+	drw-model:hasP <P/30438hasP2> ;
+	drw-model:wasBornOn <Date/4_or_16_10_1828> ;
+	drw-model:hasSL <SL/30438hasSL5> .
+
+<SL/30438hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Pr-v [Priselkov], V.: A. L. Obermiller [Nekrolog]. Niva. Illjustrirovannyj žurnal literatury i sovremennoj žizni 23 (1892), 1013 und 1015." .
+
+<RelatedPerson/30438fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Ludwig Eberhard (* 1798)" .
+
+<P/30438hasP1>
+	a drw-model:P ;
+	rdfs:label "Ivan Ivanovič Matjušin: Alexander von Obermüller [ohne Jahresangabe]. Gravur nach einer Zeichnung von Peter Fëdorovič Borel (1829-1898). Aus: Lejb-chirurg, tajnyj sovetnik A. L. Obermiller (<b>SL</b>), 429. Abgedruckt in: Fischer 2010, 172." .
+
+<NameVariation/30438hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "OБEРМЮЛЛEР" .
+
+<B/30438hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "1853-1854 Assistenzarzt im 2. Militärlandhospital in St. Petersburg und zugleich in der Chirurgischen Klinik der MCA, 1854-1855 Assistent Nikolaj Ivanovič PIROGOVs (1810-1881) während der Belagerung von Sevastopol' im Krimkrieg, Assistenzarzt im Militärkrankenhaus in Moskau sowie Chirurg im Feldlazarett in Sestroreck, 1855-1880 Leibarzt des Großfürsten NIKOLAJ NIKOLAEVIČ (1831-1891), 1857 Begleiter der Großfürsten NIKOLAJ NIKOLAEVIČ und MICHAIL NIKOLAEVIČ (1832-1909) im Kaukasus, ab 1863 \"Ehrenleibchirurg\" und ab 1865 Leibchirurg am Hofe des Zaren ALEKSANDR II. (1818-1881), 1876-1878 Oberarzt des Hauptquartiers im Russisch-türkischen Krieg, 1880-1882 Assistent des Direktors des Hofmedizinalwesens, 1882-1888 Direktor und 1888-1892 Inspektor des Hofmedizinalwesens, außerdem Mitglied des Medizinalrats des Ministeriums des Innern und der Hauptverwaltung des Roten Kreuzes.
+Ihm wurden hohe Ehrentitel und Auszeichnungen zuteil: 1867 \"Wirklicher Russischer Staatsrat\", 1878 \"Geheimrat\", 1855 St.-Stanislav-Orden 2. Klasse, 1856 2. Klasse mit Schwertern, 1859 2. Klasse mit der Kaiserkrone und 1873 1. Klasse, 1861 St.-Vladimir-Orden 4. Klasse, 1871 3. Klasse und 1877 2. Klasse, 1864 St.-Annen-Orden 2. Klasse und 1876 1. Klasse, 1882 Weißer-Adler-Orden, 1887 Aleksandr-Nevskij-Orden u.a." .
+
+<NameVariation/30438hasNameVariation1>
+	a drw-model:NameVariation ;
+	rdfs:label "OBERMJULLER" .
+
+<GeneralLabor/Kaiserlicher_Leibchirurg>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Kaiserlicher Leibchirurg" .
+
+<A/30438hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch des 3. St. Petersburger Gymnasiums, bis 1853 Studium mit dem Abschluss \"Arzt\" an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg." .
+
+<SL/30438hasSL1>
+	rdfs:label "Kladbišča Peterburga, 301, Nr. 146." ;
+	a drw-model:SL .
+
+<MainName/30438hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30438hasNameVariation1> ;
+	drw-model:hasNameVariation <NameVariation/30438hasNameVariation2> ;
+	rdfs:label "Obermüller, Alexander von" .
+
+<RelatedPerson/30438hasDescendant1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Marie (Aleksandrovna), verh. Schwede (* 1861)<br>Alexander (Aleksandr Aleksandrovič) (* 1862), Kollegienrat<br>Eugen (Evgenij Aleksandrovič) (1863-1916), Oberst" .
+
+<SL/30438hasSL5>
+	rdfs:label "WBIS RBA: R 336, 26-33." ;
+	a drw-model:SL .
+
+<RelatedPerson/30438wasMarriedTo1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Marie (Karlovna), geb. Hinrichs (1833-1919)" .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<Place/Peterhof>
+	a drw-model:Place ;
+	rdfs:label "Peterhof" .
+
+<SL/30438hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Lejb-chirurg, tajnyj sovetnik A. L. Obermiller. [Anlässlich des 30-jährigen Dienstjubiläums]. Vsemirnaja illjustracija 21 (1879), 429 und 454." .
+
+<P/30438hasP2>
+	rdfs:label "Portrait in: Pr-v (<b>SL</b>), 1013." ;
+	a drw-model:P .
+

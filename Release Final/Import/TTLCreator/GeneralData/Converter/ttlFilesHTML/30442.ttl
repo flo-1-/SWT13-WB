@@ -1,0 +1,271 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<A/30442hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch der Geistlichen Lehranstalt in Černigov und des Priesterseminars in Voronež, 1863-1868 Studium und 1871 Dr. med. an der Mediko-chirurgischen Akademie (MCA) in St. Petersburg." .
+
+<Date/20_2_1845>
+	rdfs:label "20.2.1845" ;
+	a drw-model:Date .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<WGermanPublication/30442hasWGermanPublication2>
+	rdfs:label "Das CO-Hämatin. Centralblatt für die medizinischen Wissenschaften 6 (1868), 657-658." ;
+	a drw-model:WGermanPublication .
+
+<Place/St_Petersburg>
+	a drw-model:Place ;
+	rdfs:label "St. Petersburg" .
+
+<WGermanPublication/30442hasWGermanPublication18>
+	rdfs:label "Hypertrophische Leberzirrhose mit chronischem Icterus, Pseudoleukaemie, I. Therapeutische Wochenschrift 11 (1895), 957-968; ~ II: Ebd., 985-993." ;
+	a drw-model:WGermanPublication .
+
+<W/30442hasW6>
+	rdfs:label "Ob otnositel'noj vremennoj nedostatočnosti polulunnych klapanov aorty. Praktičeskij vrač 1 (1902)." ;
+	a drw-model:W .
+
+<P/30442hasP1>
+	rdfs:label "Foto aus: Professora MCA/VMA (<b>SL</b>). Abgedruckt in: Fischer 2010, 186." ;
+	a drw-model:P .
+
+<W/30442hasW8>
+	rdfs:label "O serdečnom uduš'e (asthma cardiale) i srodnych s nim boleznennych pripadkach. Bol'ničnaja gazeta Botkina (1902), 90 S." ;
+	a drw-model:W .
+
+<MainName/30442hasMainName1>
+	a drw-model:MainName ;
+	drw-model:hasNameVariation <NameVariation/30442hasNameVariation3> ;
+	rdfs:label "Popov, Lev Vasil'evič" ;
+	drw-model:hasNameVariation <NameVariation/30442hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30442hasNameVariation1> .
+
+<GeneralLabor/Kaiserlicher_Leibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Kaiserlicher Leibmedikus" .
+
+<WL/30442hasWL1>
+	rdfs:label "1870 Untersuchung der Butylsäuregärung im Magen bei Pylorus-Stenose, 1875 Entdeckung der bei Flecktyphus charakteristischen Knötchen-Bildung im Gehirn, Beschreibung einer Reihe von Symptomen bei verschiedenen Herzfehlern, 1891 Beschreibung verschiedener Pulsarten in der linken Arteria radialis bei Mitral-Stenose u.a." ;
+	a drw-model:WL .
+
+<WGermanPublication/30442hasWGermanPublication14>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber die Folgen der Unterbindung der Ureteren und der Nierenarterien bei Thieren, im Zusammenhang mit einigen anderen pathologischen Prozessen. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 82 (1880), 40-88." .
+
+<Comment/30442_1>
+	a drw-model:Comment ;
+	rdfs:label " Mit Korrekturen und Ergänzungen der Angaben in Čistovič (<b>SL</b>) zu Titeln, Zeitschriften, Band-, Jahr- oder Seitenzahlen. Zmeev (<b>GPV</b>) gibt keine Hinweise auf deutsche Publikationen." .
+
+<GPV/30442hasGPV1>
+	rdfs:label "Publikationen 1866-1885, in: Zmeev. Bd. 4 (1889), 77; auch in: WBIS RBA: R 376, 261-263." ;
+	a drw-model:GPV .
+
+<W/30442hasW4>
+	a drw-model:W ;
+	rdfs:label "Po povodu odnogo slučaja miksėdemy, lečennogo preparatami ščitovidnoj železy. Bol'ničnaja gazeta Botkina (1899), 35 S." .
+
+<SL/30442hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Professora MCA/VMA, 118." .
+
+<WGermanPublication/30442hasWGermanPublication12>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber die fäulnisswidrigen Mittel und ihre Rolle in der gegenwärtigen Pharmakologie. St. Petersburger medicinische Wochenschrift 1 (1876) 32, 3-5." .
+
+<MG/30442hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Obščestvo russkich vračej [Gesellschaft russischer Ärzte] (Vorsitzender), Voenno-medicinskij učenyj komitet [Militärmedizinisches Gelehrtenkomitee]." .
+
+<NameVariation/30442hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "POPOW" .
+
+<GeneralLabor/Professor_fr_innere_Medizin>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Professor für innere Medizin" .
+
+<SL/30442hasSL4>
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA: R 376, 261-266." .
+
+<WGermanPublication/30442hasWGermanPublication9>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber Veränderungen im Gehirn bei Abdominaltyphus und traumatischer Entzündung. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 63 (1875), 421-446." .
+
+<WGermanPublication/30442hasWGermanPublication16>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber die Verschiedenheit des Pulses in den Radialarterien (pulsus differens) als ein Symptom der Stenose des linken venösen Ostium. In: Festschrift, Rudolf Virchow gewidmet zur Vollendung seines 70. Lebensjahres. Berlin 1891 (Internationale Beiträge zur wissenschaftlichen Medicin 3), 333-347. (Popovs Unterschrift zum Artikel für Rudolf Virchows 70. Geburtstag 1891 abgedruckt in: Fischer 2010, 189)." .
+
+<WGermanPublication/30442hasWGermanPublication7>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ein Fall von chronischer Vergiftung mit Zinkoxyddämpfen und Experimente über die Wirkung einiger fermentativer Mittel. Berliner klinische Wochenschrift 10 (1873), 49-52." .
+
+<WGermanPublication/30442hasWGermanPublication1>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber die Wirkung des Phosphorwasserstoffs auf das Blut und seine Pigmente, Hämoglobin und Hämatin. Vorläufige Mittheilung. Mit Dr. Koschlakow. Centralblatt für die medizinischen Wissenschaften 5 (1867), 403-405." .
+
+<WGermanPublication/30442hasWGermanPublication3>
+	rdfs:label "Ein Fall von Stenosis pylori mit consecutiver Erweiterung des Magens und Aufstossen von entzündbaren Gasen. Berliner klinische Wochenschrift 7 (1870), 453-455, 466-469, 477-480." ;
+	a drw-model:WGermanPublication .
+
+<ImportantPerson/30136>
+	a drw-model:ImportantPerson .
+
+<GermanPublicationComment/30442hasGermanPublicationComment1>
+	rdfs:label "<b>Publikationen in deutscher Sprache</b>:" ;
+	a drw-model:GermanPublicationComment ;
+	drw-model:hasComment <Comment/30442_1> .
+
+<WGermanPublication/30442hasWGermanPublication5>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Versuche über die Infection von Thieren durch die Ausleerungen Cholerakranker, mit besonderer Beziehung zur Lehre über die Wirkung von Fäulnisproducten. Berliner klinische Wochenschrift 9 (1872), 393-396." .
+
+<WGermanPublication/30442hasWGermanPublication10>
+	rdfs:label "Ueber die Veränderungen im Gehirn des Flecktyphus. Vorläufige Mittheilung. Centralblatt für die medizinischen Wissenschaften 13 (1875), 596-598." ;
+	a drw-model:WGermanPublication .
+
+<ImportantPerson/30442>
+	drw-model:hasMainName <MainName/30442hasMainName1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30442hasWGermanPublication2> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30442hasWGermanPublication4> ;
+	drw-model:hasGermanPublicationComment <GermanPublicationComment/30442hasGermanPublicationComment1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30442hasWGermanPublication12> ;
+	drw-model:hasW <W/30442hasW8> ;
+	drw-model:hasP <P/30442hasP1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30442hasWGermanPublication11> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30442hasWGermanPublication17> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30442hasWGermanPublication5> ;
+	drw-model:wasBornOn <Date/20_2_1845> ;
+	drw-model:fatherIs <RelatedPerson/30442fatherIs1> ;
+	drw-model:hasW <W/30442hasW1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30442hasWGermanPublication18> ;
+	drw-model:hasComment <Comment/30442_1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30442hasWGermanPublication8> ;
+	drw-model:diedOn <Date/25_10_1906> ;
+	drw-model:hasGPV <GPV/30442hasGPV1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30442hasWGermanPublication10> ;
+	drw-model:hasW <W/30442hasW6> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Professor_fr_innere_Medizin> ;
+	rdfs:label "Popov, Lev Vasil'evič" ;
+	drw-model:hasID "30442" ;
+	drw-model:hasWGermanPublication <WGermanPublication/30442hasWGermanPublication1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30442hasWGermanPublication6> ;
+	drw-model:hasSL <SL/30442hasSL2> ;
+	drw-model:hasSL <SL/30442hasSL4> ;
+	drw-model:hasSL <SL/30442hasSL1> ;
+	drw-model:hasW <W/30442hasW7> ;
+	drw-model:hasMG <MG/30442hasMG1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30442hasWGermanPublication15> ;
+	drw-model:hasW <W/30442hasW3> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasWGermanPublication <WGermanPublication/30442hasWGermanPublication9> ;
+	drw-model:wasBornIn <Place/Siedlung_Melechov_Region_ernig> ;
+	drw-model:hasWL <WL/30442hasWL1> ;
+	drw-model:hasStationOfLife <B/30442hasStationOfLife1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30442hasWGermanPublication13> ;
+	drw-model:hasW <W/30442hasW4> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30442hasWGermanPublication3> ;
+	drw-model:hasEducation <A/30442hasEducation1> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30442hasWGermanPublication7> ;
+	drw-model:diedIn <Place/St_Petersburg> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30442hasWGermanPublication16> ;
+	drw-model:hasW <W/30442hasW5> ;
+	drw-model:hasWGermanPublication <WGermanPublication/30442hasWGermanPublication14> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Kaiserlicher_Leibmedikus> ;
+	drw-model:hasW <W/30442hasW2> ;
+	<http://xmlns.com/foaf/0.1/img> <http://pcai042.informatik.uni-leipzig.de/~swp13-wb/30442.jpg> ;
+	drw-model:hasSL <SL/30442hasSL3> .
+
+<W/30442hasW1>
+	a drw-model:W ;
+	rdfs:label "Opyty nad zaraženiem životnych izverženijami cholernych bol'nych. Diss. Sankt-Peterburg 1871, 69 S." .
+
+<W/30442hasW7>
+	rdfs:label "Nedostatočnost' polunnych klapanov aorty i 2-stvorčatago klapana. Medicinskij žurnal (1902)." ;
+	a drw-model:W .
+
+<Date/25_10_1906>
+	rdfs:label "25.10.1906" ;
+	a drw-model:Date .
+
+<Place/Siedlung_Melechov_Region_ernig>
+	a drw-model:Place ;
+	rdfs:label "Siedlung Melechov, Region Černigov" .
+
+<WGermanPublication/30442hasWGermanPublication17>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Relative Insuffizienz der Tricuspidalklappe. Berliner klinische Wochenschrift 30 (1893), 465-467, 501-503, 523-526." .
+
+<RelatedPerson/30442fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Vasilij" .
+
+<W/30442hasW2>
+	rdfs:label "Kliničeskie lekcii. Bd. 1-2. Sankt-Peterburg 1895-1896." ;
+	a drw-model:W .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<WGermanPublication/30442hasWGermanPublication15>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber Veränderungen im Gehirn bei Abdominal- und Flecktyphus und bei traumatischer Entzündung. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 87 (1882), 39-68." .
+
+<NameVariation/30442hasNameVariation3>
+	rdfs:label "Leo" ;
+	a drw-model:NameVariation .
+
+<SL/30442hasSL1>
+	a drw-model:SL ;
+	rdfs:label "Čistovič, Nikolaj Jakovlevič: Pamjati L'va Vasil'eviča Popova. Obzor ego naučnych trudov. Russkij vrač 5 (1906) 46, 1429-1432 (Mit unvollständigen Angaben der im Text verteilten Publikationen in deutschen Zeitschriften)." .
+
+<SL/30442hasSL2>
+	rdfs:label "[Nekrolog] Istoričeskij vestnik 106 (1906) 12, 1148-1149." ;
+	a drw-model:SL .
+
+<W/30442hasW5>
+	rdfs:label "Pam'jati Rudol'fa Virchova. Bol'ničnaja gazeta Botkina 13 (1902), 22 S." ;
+	a drw-model:W .
+
+<WGermanPublication/30442hasWGermanPublication4>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Vergleichende Untersuchungen über die Wirkung einiger Arzneistoffe bei der Zuckerruhr. Berliner klinische Wochenschrift 9 (1872), 333-335." .
+
+<NameVariation/30442hasNameVariation1>
+	rdfs:label "POPOFF" ;
+	a drw-model:NameVariation .
+
+<WGermanPublication/30442hasWGermanPublication13>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber die natürliche pathologische Injection der Gallengänge und einige andere, nach der Unterbindung des Ductus choledochus bei Thieren beobachtete pathologische Erscheinungen. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 81 (1880), 524-552." .
+
+<WGermanPublication/30442hasWGermanPublication6>
+	rdfs:label "Untersuchungen über die Wirkung der Bierhefe und der in der Pasteur'schen Flüssigkeit enthaltenen Organismen auf den thierischen Körper. Berliner klinische Wochenschrift 9 (1872), 513-516." ;
+	a drw-model:WGermanPublication .
+
+<W/30442hasW3>
+	rdfs:label "Vozvratnyj tif. Sankt-Peterburg 1899, 128 S." ;
+	a drw-model:W .
+
+<B/30442hasStationOfLife1>
+	drw-model:hasNameLink <ImportantPerson/30136> ;
+	rdfs:label "1868-1871 Assistent in der Klinik für innere Medizin von Sergej Petrovič <span style='font-variant:small-caps;'>BOTKIN</span> an der MCA, zugleich Arzt im 2. Militärlandhospital in St. Petersburg, 1871-1872 Regimentsarzt in der Donsk-Armee, im 12. Velikoluckij- und im 144. Kaširskij-Infanterieregiment, 1872-1875 Studienaufenthalte an medizinischen Instituten der Universitäten in Westeuropa, darunter in Deutschland bei Rudolf VIRCHOW (1821-1902) und Ludwig TRAUBE (1818-1876) in Berlin sowie bei Friedrich Daniel von RECKLINGHAUSEN (1833-1910) und Felix HOPPE-SEYLER (1825-1895) in Straßburg, nach der Rückkehr zunächst Arzt im 94. Enisejskij-Infanterieregiment, ab 1875 Dozent am Lehrstuhl für allgemeine Pathologie und Diagnostik der MCA, 1877-1878 Arzt der Leibgarde und des Grenadier-Regiments im Russisch-türkischen Krieg, 1878-1880 Arzt am Militärkrankenhaus in St. Petersburg, 1880(oder 1881)-1882 ao. Professor und 1882-1889 o. Professor am Institut für Therapie der Universität Warschau, 1890-1898 o. Professor für Therapie und Direktor der Klinik für innere Medizin an der MCA, später \"Ehrenleibmedikus\" und ab 1905 Leibmedikus am Hofe des Zaren NIKOLAJ II. (1868-1918), außerdem beratendes Mitglied des Medizinalrats des Ministeriums des Innern.
+        Inhaber des Ehrentitels \"Wirklicher Russischer Staatsrat\"." ;
+	a drw-model:B .
+
+<WGermanPublication/30442hasWGermanPublication11>
+	rdfs:label "Ueber die Sumpfgasgährung. Archiv für die gesamte Physiologie des Menschen und der Tiere 10 (1875), 113-146." ;
+	a drw-model:WGermanPublication .
+
+<WGermanPublication/30442hasWGermanPublication8>
+	a drw-model:WGermanPublication ;
+	rdfs:label "Ueber die Veränderungen des Muskelgewebes bei einigen Infectionskrankheiten. Archiv für pathologische Anatomie und Physiologie und für klinische Medicin 61 (1874), 322-342." .
+

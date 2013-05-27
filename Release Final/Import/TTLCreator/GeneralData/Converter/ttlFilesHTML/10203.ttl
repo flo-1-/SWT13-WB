@@ -1,0 +1,125 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<GeneralLabor/Chemiker>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Chemiker" .
+
+<B/10203hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "Nach der Apothekenlehre Anstellung im Laboratorium des Medizinalrats H. OLEARIUS in Breslau, Besuch privater Vorlesungen bei den Professoren Nathaniel Wolfgang FISCHER (1782-1850), Ludolph Christian TREVIRANUS (1779-1864), Heinrich GÖPPERT (1800-1884) u.a. in Breslau und ab 1830 bei den Professoren Eilhard MITSCHERLICH (1794-1864), Heinrich ROSE (1795-1864), Ernst Ludwig SCHUBARTH (1797-1868) u.a. in Berlin, nach dem Examen als 2. Chemiker in der \"Mineralwasseranstalt Dr. Struve & Soltmann\" in Berlin angestellt, 1835 [nicht 1834] zur Gründung einer Mineralwassereinrichtung nach Kiev gesandt, in Kiev Chemiker und Direktor der \"Anstalt für Bereitung künstlicher Mineralwässer nach Dr. Struve's Methode\", ab 1843 Dozent für Pharmazie und Pharmakognosie an der St.-Vladimir-Universität in Kiev.
+Inhaber des russischen Ehrentitels \"Kollegienrat\"." .
+
+<A/10203hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Besuch des Gymnasiums in Gleiwitz (polnisch: Gliwice), 1822-1825 Lehre in der Apotheke Cochler in Tarnowitz, 1832 (?) Examen \"Apotheker 1. Klasse\" in Berlin, 1836 russisches Diplom \"Apotheker 1. Klasse\" an der Mediko-Chirurgischen Akademie (MCA) in Moskau, 1839 Dr. phil. \"in absentia\" an der Universität Jena." .
+
+<W/10203hasW1>
+	rdfs:label "Kurs farmakognozii [Manuskript, nicht erschienen]." ;
+	a drw-model:W .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<SL/10203hasSL2>
+	a drw-model:SL ;
+	rdfs:label "WBIS RBA." .
+
+<WL/10203hasWL1>
+	rdfs:label "Beschreibung von Heilpflanzen des Gouvernements Kiev; 1843-1853 kostenlose gerichtsmedizinische Analysen in Kiev." ;
+	a drw-model:WL .
+
+<ImportantPerson/10203>
+	drw-model:fatherIs <RelatedPerson/10203fatherIs1> ;
+	drw-model:hasW <W/10203hasW5> ;
+	drw-model:hasID "10203" ;
+	drw-model:hasW <W/10203hasW3> ;
+	drw-model:hasW <W/10203hasW4> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Apotheker> ;
+	drw-model:wasBornOn <Date/1806_Tarnowitz> ;
+	drw-model:hasSL <SL/10203hasSL2> ;
+	drw-model:hasStationOfLife <B/10203hasStationOfLife1> ;
+	rdfs:label "Segeth, Ludwig" ;
+	drw-model:hasGeneralLabor <GeneralLabor/Dozent_fr_Pharmazie_und_Pharma> ;
+	drw-model:hasW <W/10203hasW2> ;
+	drw-model:hasMG <MG/10203hasMG1> ;
+	drw-model:hasQ <Q/10203hasQ1> ;
+	drw-model:hasMainName <MainName/10203hasMainName1> ;
+	drw-model:hasEducation <A/10203hasEducation1> ;
+	drw-model:diedIn <Place/Kiev_?> ;
+	drw-model:hasW <W/10203hasW1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasGeneralLabor <GeneralLabor/Chemiker> ;
+	drw-model:hasWL <WL/10203hasWL1> ;
+	drw-model:wasBornIn <Place/Oberschlesien_heute_Tarnowskie> ;
+	drw-model:diedOn <Date/20_6_or_2_7_1853> ;
+	drw-model:hasDescendant <RelatedPerson/10203hasDescendant1> ;
+	drw-model:hasSL <SL/10203hasSL1> .
+
+<RelatedPerson/10203hasDescendant1>
+	rdfs:label "Sohn Fedor Ljudvigovič (* 1830), Accoucheur und Kreisarzt in Kiev" ;
+	a drw-model:RelatedPerson .
+
+<Date/20_6_or_2_7_1853>
+	rdfs:label "20.6./2.7.1853" ;
+	a drw-model:Date .
+
+<W/10203hasW3>
+	rdfs:label "Ueber den Labradorstein bei (von) Kijew: Bulletin scientifique, Académie impériale des Sciences de St. Pétersbourg 7 (1840), 26-28 = Journal für praktische Chemie 20 (1840), 253-256." ;
+	a drw-model:W .
+
+<Place/Kiev_?>
+	a drw-model:Place ;
+	rdfs:label "Kiev (?)" .
+
+<W/10203hasW4>
+	rdfs:label "Phosphorsaures Eisen von Kertsch in der Krimm: Bulletin scientifique, Académie impériale des Sciences de St. Pétersbourg 7 (1840), 28-29 = Journal für praktische Chemie 20 (1840), 256-258." ;
+	a drw-model:W .
+
+<MainName/10203hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Segeth, Ludwig" .
+
+<W/10203hasW2>
+	rdfs:label "Analiz vod različnych istočnikov g. Kieva. o.O. u. J." ;
+	a drw-model:W .
+
+<Q/10203hasQ1>
+	a drw-model:Q ;
+	rdfs:label "Archiv der Friedrich-Schiller-Universität Jena, Bestand M Nr. 289." .
+
+<SL/10203hasSL1>
+	rdfs:label "Erik-Amburger-Datenbank [EAD]: Dokument-Id [65742/65067]." ;
+	a drw-model:SL .
+
+<GeneralLabor/Apotheker>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Apotheker" .
+
+<GeneralLabor/Dozent_fr_Pharmazie_und_Pharma>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Dozent für Pharmazie und Pharmakognosie" .
+
+<Place/Oberschlesien_heute_Tarnowskie>
+	a drw-model:Place ;
+	rdfs:label "Oberschlesien (heute Tarnowskie Góry, Polen)" .
+
+<MG/10203hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Pharmazeutische Vereine in Breslau und Berlin, Berliner Botanischer Privat-Verein, Teilnehmer an Versammlungen der Gesellschaft für Vaterländische Cultur in Schlesien in Breslau." .
+
+<RelatedPerson/10203fatherIs1>
+	rdfs:label "Franz (?), Bergzehndner in Berg- und Hüttenwerken Tarnowitz" ;
+	a drw-model:RelatedPerson .
+
+<W/10203hasW5>
+	rdfs:label "Nabljudenija nad solnečnym zatmeniem, byvšim v Kieve 16 (28) julja 1851 g. Kiev 1852." ;
+	a drw-model:W .
+
+<Date/1806_Tarnowitz>
+	rdfs:label "1806 Tarnowitz" ;
+	a drw-model:Date .
+

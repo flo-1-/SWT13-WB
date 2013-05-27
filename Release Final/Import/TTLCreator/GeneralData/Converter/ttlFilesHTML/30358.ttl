@@ -1,0 +1,112 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<WInformation/30358hasWInformation1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://books.google.de/books?id=DL1MAAAAcAAJ&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false" ;
+	a drw-model:WInformation ;
+	rdfs:label "Ein Beitrag zur Kenntniss [!] des Mutterkorns in physiologisch-chemischer Beziehung. Dissertation. Dorpat 1871, 42 S. Online Ressource Volltext (4.4.2012)." .
+
+<SL/30358hasSL2>
+	a drw-model:SL ;
+	rdfs:label "Pfrepper, Regine, Pfrepper, Gerd: Studienaufenthalte russischer Mediziner an deutschen Universitäten im 19. Jahrhundert. In: Ingrid Kästner, Regine Pfrepper (Hgg.): \"... so ist die Naturwissenschaft das wahre internationale Band der Völker\". Aachen 2004 (Deutsch-russische Beziehungen in Medizin und Naturwissenschaften 9), 273-292." .
+
+<SL/30358hasSL3>
+	rdfs:label "WBIS BaBA: I 118, 100; RBA: R 117, 3." ;
+	a drw-model:SL .
+
+<ImportantPerson/30358>
+	drw-model:hasEducation <A/30358hasEducation1> ;
+	drw-model:hasID "30358" ;
+	drw-model:wasBornIn <Place/Staraja_Russa_Gouvernement_Nov> ;
+	drw-model:wasBornOn <Date/28_2_or_12_3_1845> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Militrarzt> ;
+	rdfs:label "Haudelin, Eugen Paul" ;
+	drw-model:hasSL <SL/30358hasSL1> ;
+	drw-model:motherIs <RelatedPerson/30358motherIs1> ;
+	drw-model:diedIn <Place/Riga> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasStationOfLife <B/30358hasStationOfLife1> ;
+	drw-model:hasMainName <MainName/30358hasMainName1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Grofrstlicher_Leibarzt> ;
+	drw-model:hasW <W/30358hasW1> ;
+	drw-model:fatherIs <RelatedPerson/30358fatherIs1> ;
+	drw-model:hasMG <MG/30358hasMG1> ;
+	drw-model:hasSL <SL/30358hasSL3> ;
+	drw-model:hasWInformation <WInformation/30358hasWInformation1> ;
+	drw-model:hasSL <SL/30358hasSL2> ;
+	drw-model:diedOn <Date/25_1_or_7_2_1907> .
+
+<A/30358hasEducation1>
+	a drw-model:A ;
+	rdfs:label "1863-1871 Jura- und Medizinstudium und 1871 Dr. med. an der Universität Dorpat, 1871-1872 Studienaufenthalt bei Carl LUDWIG (1816-1895) an der Physiologischen Anstalt der Universität Leipzig." .
+
+<GeneralLabor/Militrarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Militärarzt" .
+
+<Date/28_2_or_12_3_1845>
+	a drw-model:Date ;
+	rdfs:label "28.2./12.3.1845" .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<W/30358hasW1>
+	<http://xmlns.com/foaf/0.1/homepage> "http://books.google.de/books?id=DL1MAAAAcAAJ&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false" ;
+	rdfs:label "Ein Beitrag zur Kenntniss [!] des Mutterkorns in physiologisch-chemischer Beziehung. Dissertation. Dorpat 1871, 42 S. Online Ressource Volltext (4.4.2012)." ;
+	a drw-model:W .
+
+<RelatedPerson/30358motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Therese Justine Emilie, geb. Mickwitz (1813-1887)" .
+
+<MainName/30358hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Haudelin, Eugen Paul" ;
+	drw-model:hasNameVariation <NameVariation/30358hasNameVariation2> ;
+	drw-model:hasNameVariation <NameVariation/30358hasNameVariation1> .
+
+<MG/30358hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Verein St. Petersburger Ärzte (ab 1875, 1877-1880 Bibliothekar, ab 1880 korrespondierendes Mitglied)." .
+
+<SL/30358hasSL1>
+	a drw-model:SL ;
+	rdfs:label "EAD: Dokument-Id [68925/67733 (29.7.2010)]." .
+
+<RelatedPerson/30358fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Paul Peter (1810-1869), Militärarzt" .
+
+<NameVariation/30358hasNameVariation1>
+	rdfs:label "Ojgen" ;
+	a drw-model:NameVariation .
+
+<GeneralLabor/Grofrstlicher_Leibarzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Großfürstlicher Leibarzt" .
+
+<B/30358hasStationOfLife1>
+	rdfs:label "1872-1875 Ordinator eines Hospitals in Kronštadt nahe St. Petersburg, 1875-1878 Assistent und 1878-1880 Junior-Ordinator am Nikolaj-Kinderhospital in St. Petersburg, 1877-1878 Oberarzt im Rot-Kreuz-Hospital in Bender während des Russisch-türkischen Krieges, 1880 bis 1900 Senior-Ordinator und zuletzt Assistent des Oberarztes im Stadthospital in Tiflis, dazwischen 1886-1887 Leibarzt des Großfürsten MICHAIL NIKOLAEVIČ (1832-1909) in St. Petersburg, zeitweilig Mitglied der Medizinischen Abteilung des Zivilverwaltungsamtes im Kaukasus, ab 1900 im Ruhestand in Riga.
+Inhaber des russischen Ehrentitels \"Staatsrat\"." ;
+	a drw-model:B .
+
+<Date/25_1_or_7_2_1907>
+	a drw-model:Date ;
+	rdfs:label "25.1./7.2.1907" .
+
+<Place/Staraja_Russa_Gouvernement_Nov>
+	a drw-model:Place ;
+	rdfs:label "Staraja Russa, Gouvernement Novgorod" .
+
+<NameVariation/30358hasNameVariation2>
+	a drw-model:NameVariation ;
+	rdfs:label "Oйгeн" .
+
+<Place/Riga>
+	a drw-model:Place ;
+	rdfs:label "Riga" .
+

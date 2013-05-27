@@ -1,0 +1,106 @@
+@base <http://drw-catalog.saw-leipzig.de/> . 
+@prefix drw-model: <http://drw-model.saw-leipzig.de/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<SL/30426hasSL1>
+	rdfs:label "Böhm 2003, 475." ;
+	a drw-model:SL .
+
+<A/30426hasEducation1>
+	a drw-model:A ;
+	rdfs:label "Studium mit dem Abschluss \"Arzt\" an der Universität Moskau." .
+
+<GeneralLabor/Arzt>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Arzt" .
+
+<GeneralLabor/Grofrstlicher_Leibmedikus>
+	a drw-model:GeneralLabor ;
+	rdfs:label "Großfürstlicher Leibmedikus" .
+
+<SL/30426hasSL3>
+	a drw-model:SL ;
+	rdfs:label "Nachapetov 2003, 219." .
+
+<>
+	a owl:Ontology ;
+	rdfs:label "DRW-Catalog" .
+
+<SL/30426hasSL2>
+	rdfs:label "EAD: Dokument-Id [72606/71057 (4.8.2010)]." ;
+	a drw-model:SL .
+
+<RelatedPerson/30426motherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "Johanna Theodora (oder Dorothea), geb. Watson" .
+
+<B/30426hasStationOfLife1>
+	a drw-model:B ;
+	rdfs:label "Anfang der 40-er Jahre längerer Aufenthalt im Ausland, danach Konsultant für Brustkrankheiten an den Bildungseinrichtungen der \"Institutionen der Zarin Marija\", 1854-1858 Arzt in der Gobelin-Manufaktur, 1858 in der Garde-Bereiterschule und 1858-1862 im Maksimilian-Krankenhaus in St. Petersburg, Leibarzt der Großfürsten NIKOLAJ NIKOLAEVIČ (1831-1891) und 1862-1865 MICHAIL NIKOLAEVIČ (1832-1909), auch Begleiter des Letzteren in Kaukasien, 1865 zum \"Ehrenleibmedikus\" am Zarenhof ernannt, ab 1865 Krankenhausverwalter in Tiflis und bis 1871 Leiter des Zivilmedizinalwesens für Kaukasien, ab 1871 zurück in St. Petersburg.
+Inhaber der Ehrentitel \"Wirklicher Russischer Staatsrat\" und \"Geheimrat\"." .
+
+<MainName/30426hasMainName1>
+	a drw-model:MainName ;
+	rdfs:label "Libau, Heinrich Julius von" .
+
+<WL/30426hasWL1>
+	rdfs:label "Soll als einer der ersten Ärzte in Russland zur Diagnostik der Brustkrankheiten das Abklopfen und die Auskultation eingesetzt haben, erwarb große Verdienste beim Aufbau des Medizinalwesens im Kaukasus, darunter 1865 der \"nach den neuesten Forderungen der medizinischen Wissenschaft errichtete\" Bau eines neuen Krankenhauses in Tiflis, und stiftete dem Krankenhaus die Bibliothek und 10 000 Rubel." ;
+	a drw-model:WL .
+
+<Place/Gatina>
+	a drw-model:Place ;
+	rdfs:label "Gatčina" .
+
+<SL/30426hasSL5>
+	a drw-model:SL ;
+	rdfs:label "WBIS BaBA: I 204, 167, 449; RBA: R 283, 431-433." .
+
+<SL/30426hasSL4>
+	a drw-model:SL ;
+	rdfs:label "Nemeckij Tiflis. In: G., N. und Ju. Matešvili: Tiflis, Tbilisi, nostal'gija. Online Ressource Online Ressource (1.3.2012)." ;
+	<http://xmlns.com/foaf/0.1/homepage> "http://sites.google.com/site/mateshg/nemeckij-tiflis" .
+
+<ImportantPerson/30426>
+	drw-model:hasSL <SL/30426hasSL5> ;
+	rdfs:label "Libau, Heinrich Julius von" ;
+	drw-model:hasStationOfLife <B/30426hasStationOfLife1> ;
+	drw-model:hasEducation <A/30426hasEducation1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Arzt> ;
+	drw-model:motherIs <RelatedPerson/30426motherIs1> ;
+	drw-model:hasID "30426" ;
+	drw-model:fatherIs <RelatedPerson/30426fatherIs1> ;
+	drw-model:hasMG <MG/30426hasMG1> ;
+	drw-model:hasGeneralLabor <GeneralLabor/Grofrstlicher_Leibmedikus> ;
+	drw-model:hasSL <SL/30426hasSL2> ;
+	drw-model:hasSL <SL/30426hasSL1> ;
+	a drw-model:ImportantPerson ;
+	drw-model:hasSL <SL/30426hasSL4> ;
+	drw-model:hasSL <SL/30426hasSL3> ;
+	drw-model:hasWL <WL/30426hasWL1> ;
+	drw-model:wasBornOn <Date/28_11_or_10_12_1816_oder_1817> ;
+	drw-model:wasBornIn <Place/Mitau> ;
+	drw-model:diedIn <Place/Gatina> ;
+	drw-model:hasMainName <MainName/30426hasMainName1> ;
+	drw-model:diedOn <Date/12_or_24_9_1874> .
+
+<RelatedPerson/30426fatherIs1>
+	a drw-model:RelatedPerson ;
+	rdfs:label "(Joh.) Heinrich Christoph (von) Liebau (1760-1829), Gymnasialprofessor für griechische Sprache und Literatur" .
+
+<Date/28_11_or_10_12_1816_oder_1817>
+	a drw-model:Date ;
+	rdfs:label "28.11./10.12.1816 oder 1817" .
+
+<MG/30426hasMG1>
+	a drw-model:MG ;
+	rdfs:label "Verein St. Petersburger Ärzte (Gründer), Deutscher ärztlicher Verein in St. Petersburg (ab 1859)." .
+
+<Date/12_or_24_9_1874>
+	a drw-model:Date ;
+	rdfs:label "12./24.9.1874" .
+
+<Place/Mitau>
+	a drw-model:Place ;
+	rdfs:label "Mitau" .
+
