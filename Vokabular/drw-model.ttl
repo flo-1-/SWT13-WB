@@ -202,7 +202,7 @@
 # ====
 
 <spatialInformation>
-		a owl: Class ;
+		a owl:Class ;
                 rdfs:label "Spatial Information"@en ;
                 rdfs:label "Geodaten"@de ;
 		rdfs:comment "An information about geographic." .
@@ -531,6 +531,7 @@
 		rdfs:label "has the ID"@en ;
                 rdfs:label "DRW-ID"@de ;
 		rdfs:domain <Person> ;
+		rdfs:domain <ImportantPerson> ;
 		rdfs:range <xsd:string> ;
 		rdfs:comment "Property between a Person and her or his database ID." .
 
@@ -545,6 +546,7 @@
                 rdfs:label "Name"@de ;
 		owl:inverseOf <isMainNameOf> ;
 		rdfs:domain <Person> ;
+		rdfs:domain <ImportantPerson> ;
 		rdfs:range <MainName> ;
 		rdfs:comment "Property between a Person and her or his Main Name." .
 
@@ -564,6 +566,7 @@
                 rdfs:label "Alternativnamen:"@de ;
 		owl:inverseOf <isAlternativeNameOf> ;
 		rdfs:domain <Person> ;
+		rdfs:domain <ImportantPerson> ;
 		rdfs:range <AlternativeName> ;
 		rdfs:comment "Property between a Person and her or his Alternative Name." .
 
@@ -581,8 +584,8 @@
 		rdfs:label "has the Name Variation"@en ;
                 rdfs:label "hat die Namensvariation"@de ;
 		owl:inverseOf <isNameVariationOf> ;
-		rdfs:domain <Name> ;
-		rdfs:range <NameVariation> ;
+		rdfs:domain <NameVariation> ;
+		rdfs:range <Name> ;
 		rdfs:comment "Property between a Name and a Name Variation of it." .
 
 <isNameVariationOf>
@@ -590,8 +593,10 @@
 		rdfs:label "is Name Variation of"@en ;
                 rdfs:label "ist Namensvariation von"@de ;
 		owl:inverseOf <hasNameVariation> ;
-		rdfs:domain <NameVariation> ;
-		rdfs:range <Name> ;
+		rdfs:domain <Name> ;
+		rdfs:domain <AlternativeName> ;
+		rdfs:domain <MainName> ;
+		rdfs:range <NameVariation> ;
 		rdfs:comment "Inverse Property between a Name Variation and a Name." .
 
 <firstNameIs>
@@ -599,6 +604,8 @@
 		rdfs:label "first name is"@en ;
                 rdfs:label "Vorname ist"@de ;
 		rdfs:domain <Name> ;
+		rdfs:domain <AlternativeName> ;
+		rdfs:domain <MainName> ;
 		rdfs:range <FirstName> ;
 		rdfs:comment "Property between a Name object and the First Name of a Person." .
 
@@ -607,6 +614,8 @@
 		rdfs:label "last name is"@en ;
                 rdfs:label "Nachname ist"@de ;
 		rdfs:domain <Name> ;
+		rdfs:domain <AlternativeName> ;
+		rdfs:domain <MainName> ;
 		rdfs:range <LastName> ;
 		rdfs:comment "Property between a Name Object and the Last Name of a Person." .
 
@@ -619,6 +628,7 @@
         rdfs:label "was born on"@en ;
         rdfs:label "geboren am"@de ;
         rdfs:domain <Person> ;
+	rdfs:domain <ImportantPerson>;
         rdfs:range <DateInformation> ;
 		rdfs:comment "Property between a Person and a birthday." .
 	
@@ -628,6 +638,7 @@
         rdfs:label "was born in"@en ;
         rdfs:label "geboren in"@de ;
         rdfs:domain <Person> ;
+	rdfs:domain <ImportantPerson>;
         rdfs:range <SpatialInformation> ;
 		rdfs:comment "Property between a Person and her place of born." .
 
@@ -637,6 +648,7 @@
         rdfs:label "died on"@en ;
         rdfs:label "gestroben am"@de ;
         rdfs:domain <Person> ;
+	rdfs:domain <ImportantPerson>;
         rdfs:range <DateInformation> ;
 		rdfs:comment "Property between a Person and a day of death." .
 	
@@ -646,6 +658,7 @@
         rdfs:label "died in"@en ;
         rdfs:label "gestroben in"@de ;
         rdfs:domain <Person> ;
+	rdfs:domain <ImportantPerson>;
         rdfs:range <SpatialInformation> ;
 		rdfs:comment "Property between a Person and her place of death." .
 		
@@ -655,6 +668,7 @@
         rdfs:label "has grave in"@en ;
         rdfs:label "Grabstätte"@de ;
         rdfs:domain <Person> ;
+	rdfs:domain <ImportantPerson>;
         rdfs:range <SpatialInformation> ;
 		rdfs:comment "Property between a Person and her place of a grave." .
 
@@ -669,6 +683,7 @@
         rdfs:label "has General Labor"@en ;
                 rdfs:label "Tätigkeitsgebiete"@de ;
                 rdfs:domain <Person> ;
+		rdfs:domain <ImportantPerson>;
                 rdfs:range <GeneralLabor> ;
 		rdfs:comment "Property between a Person and her or his General Labor." .
 		
@@ -758,6 +773,7 @@
 		rdfs:label "has PoL"@en ;
 				rdfs:label "hat PoL"@de ;
 		rdfs:domain <Person> ;
+		rdfs:domain <ImportantPerson> ;
 		rdfs:range <PoL> ;
 		rdfs:comment "Property between a Person and a Period of her or his Life." .
 		
@@ -767,6 +783,18 @@
 		rdfs:label "is PoL of"@en ;
 				rdfs:label "ist PoL von"@de ;
 		rdfs:domain <PoL> ;
+		rdfs:domain <Death> ;
+		rdfs:domain <Birth> ;
+		rdfs:domain <A>;
+		rdfs:domain <Promotion> ;
+		rdfs:domain <Studies> ;
+		rdfs:domain <B> ;
+		rdfs:domain <Labor> ;
+		rdfs:domain <HonoursAndAwards> ;
+		rdfs:domain <OtherOffices> ;
+		rdfs:domain <AlsoImportantInformation> ;
+		rdfs:domain <MG> ;
+		rdfs:domain <WL> ;
 		rdfs:range <Person> ;
 		rdfs:comment "Inverse property between a PoL and the related Person." .
 
@@ -777,6 +805,18 @@
                 rdfs:label "begann"@de ;
 		owl:inverseOf <beginningOf> ;
 		rdfs:domain <PoL> ;
+		rdfs:domain <Death> ;
+		rdfs:domain <Birth> ;
+		rdfs:domain <A>;
+		rdfs:domain <Promotion> ;
+		rdfs:domain <Studies> ;
+		rdfs:domain <B> ;
+		rdfs:domain <Labor> ;
+		rdfs:domain <HonoursAndAwards> ;
+		rdfs:domain <OtherOffices> ;
+		rdfs:domain <AlsoImportantInformation> ;
+		rdfs:domain <MG> ;
+		rdfs:domain <WL> ;
 		rdfs:range <Date> ;
 		rdfs:comment "Property between a PoL and the Date when it began." .
 
@@ -796,6 +836,18 @@
                 rdfs:label "endete"@de ;
 		owl:inverseOf <endOf> ;
 		rdfs:domain <PoL> ;
+		rdfs:domain <Death> ;
+		rdfs:domain <Birth> ;
+		rdfs:domain <A>;
+		rdfs:domain <Promotion> ;
+		rdfs:domain <Studies> ;
+		rdfs:domain <B> ;
+		rdfs:domain <Labor> ;
+		rdfs:domain <HonoursAndAwards> ;
+		rdfs:domain <OtherOffices> ;
+		rdfs:domain <AlsoImportantInformation> ;
+		rdfs:domain <MG> ;
+		rdfs:domain <WL> ;
 		rdfs:range <Date> ;
 		rdfs:comment "Property between a PoL and the Date when it ended." .
 
@@ -838,6 +890,18 @@
                 rdfs:label "im Ort"@de ;
 		owl:inverseOf <placeOf> ;
 		rdfs:domain <PoL> ;
+		rdfs:domain <Death> ;
+		rdfs:domain <Birth> ;
+		rdfs:domain <A>;
+		rdfs:domain <Promotion> ;
+		rdfs:domain <Studies> ;
+		rdfs:domain <B> ;
+		rdfs:domain <Labor> ;
+		rdfs:domain <HonoursAndAwards> ;
+		rdfs:domain <OtherOffices> ;
+		rdfs:domain <AlsoImportantInformation> ;
+		rdfs:domain <MG> ;
+		rdfs:domain <WL> ;
 		rdfs:range <Place> ;
 		rdfs:comment "Property between a PoL and the Place where it took place." .
 
@@ -886,6 +950,7 @@
 		rdfs:label "has the Educational PoL"@en ;
 				rdfs:label "A"@de ;
 		rdfs:domain <Person> ;
+		rdfs:domain <ImportantPerson> ;
 		rdfs:range <A> ;
 		rdfs:comment "Property between a Person and one part of her or his Education." .
 		
@@ -896,6 +961,8 @@
 		rdfs:label "is Educational PoL of"@en ;
 				rdfs:label "ist Ausbildung von"@de ;
 		rdfs:domain <A> ;
+		rdfs:domain <Studies> ;
+		rdfs:domain <Promotion> ;
 		rdfs:range <Person> ;
 		rdfs:comment "Property between a part of Education and the related Person." .
 
@@ -910,6 +977,7 @@
 		rdfs:label "has the Station Of Life"@en ;
 				rdfs:label "B"@de ;
 		rdfs:domain <Person> ;
+		rdfs:domain <ImportantPerson> ;
 		rdfs:range <B> ;
 		rdfs:comment "Property between a Person and one of her or his Stations Of Life." .
 		
@@ -920,6 +988,10 @@
 		rdfs:label "is Station Of Life of"@en ;
 				rdfs:label "ist Lebensstation von"@de ;
 		rdfs:domain <B> ;
+		rdfs:domain <Labor> ;
+		rdfs:domain <HonoursAndAwards> ;
+		rdfs:domain <OtherOffices> ;
+		rdfs:domain <AlsoImportantInformation> ;
 		rdfs:range <Person> ;
 		rdfs:comment "Property between a Station Of Life and the related Person." .
 		
@@ -930,6 +1002,7 @@
 		rdfs:label "has also important information"@en ;
 				rdfs:label "B Außerdem"@de ;
 		rdfs:domain <Person> ;
+		rdfs:domain <ImportantPerson> ;
 		rdfs:range <AlsoImportantInfo> ;
 		rdfs:comment "Property between a Person and other important information." .	
 		
@@ -940,6 +1013,7 @@
 		rdfs:label "has other offices"@en ;
 		rdfs:label "B Andere Ämter"@de ;
 		rdfs:domain <Person> ;
+		rdfs:domain <ImportantPerson> ;
 		rdfs:range <OtherOffices> ;
 		rdfs:comment "Property between a Person and other offices." .	
 	
@@ -950,6 +1024,7 @@
 		rdfs:label "has honours and awards"@en ;
 				rdfs:label "B Ehrungen und Auszeichnugen"@de ;
 		rdfs:domain <Person> ;
+		rdfs:domain <ImportantPerson> ;
 		rdfs:range <HonoursAndAwards> ;
 		rdfs:comment "Property between a Person and Honours and Awards." .	
 
@@ -963,6 +1038,7 @@
 		rdfs:label "has scientific achievments"@en ;
 				rdfs:label "WL"@de ;
 		rdfs:domain <Person> ;
+		rdfs:domain <ImportantPerson> ;
 		rdfs:range <WL> ;
 		rdfs:comment "The scientific achievments of a person." .
 		
@@ -987,6 +1063,7 @@
 		rdfs:label "has membership"@en ;
 		rdfs:label "MG"@de ;
 		rdfs:domain <Person> ;
+		rdfs:domain <ImportantPerson> ;
 		rdfs:range <MG> ;
 		rdfs:comment "Property between a Person and an Institution - membership." .
 		
@@ -1017,6 +1094,7 @@
                 rdfs:label "assoziierte Literatur"@de ;
 		owl:inverseOf <associatedPerson> ;
 		rdfs:domain <Person> ;
+		rdfs:domain <ImportantPerson> ;
 		rdfs:range <Literature> ;
 		rdfs:comment "Property between a Person and a piece of Literature associated with her or him." .
 
@@ -1026,6 +1104,13 @@
                 rdfs:label "assoziierte Person"@de ;
 		owl:inverseOf <associatedLiterature> ;
 		rdfs:domain <Literature> ;
+		rdfs:domain <Publication> ;
+		rdfs:domain <Source> ;
+		rdfs:domain <GPV> ;
+		rdfs:domain <W> ;
+		rdfs:domain <Q> ;
+		rdfs:domain <SL> ;
+		rdfs:domain <P> ;
 		rdfs:range <Person> ;
 		rdfs:comment "Property between a piece of Literature and a Person associated with it." .
 
@@ -1036,6 +1121,13 @@
                 rdfs:label "hat die Linkadresse"@de ;
 		owl:inverseOf <isLinkAdressOf> ;
 		rdfs:domain <Literature> ;
+		rdfs:domain <Publication> ;
+		rdfs:domain <Source> ;
+		rdfs:domain <GPV> ;
+		rdfs:domain <W> ;
+		rdfs:domain <Q> ;
+		rdfs:domain <SL> ;
+		rdfs:domain <P> ;
 		rdfs:range <Link> ;
 		rdfs:comment "Property between a piece of Literature and a Link to further information." .
 
@@ -1103,6 +1195,7 @@
 		rdfs:label "has printed publication directory"@en ;
 		rdfs:label "GPV"@de ;
 		rdfs:domain <Person> ;
+		rdfs:domain <ImportantPerson> ;
 		rdfs:range <GPV> ;
 		rdfs:comment "Property between person and publication directories" .
 
@@ -1115,6 +1208,7 @@
 		rdfs:label "has a selection of publications"@en ;
 		rdfs:label "W"@de ;
 		rdfs:domain <Person> ;
+		rdfs:domain <ImportantPerson> ;
 		rdfs:range <GPV> ;
 		rdfs:comment "Property between person and selected publications" .
 
@@ -1126,6 +1220,7 @@
 		rdfs:label "has concrete source"@en ;
 		rdfs:label "Q"@de ;
 		rdfs:domain <Person> ;
+		rdfs:domain <ImportantPerson> ;
 		rdfs:range <Q> ;
 		rdfs:comment "Property between person and concrete Source" .
 # SL
@@ -1136,6 +1231,7 @@
 		rdfs:label "has secondary literature"@en ;
 		rdfs:label "SL"@de ;
 		rdfs:domain <Person> ;
+		rdfs:domain <ImportantPerson> ;
 		rdfs:range <SL> ;
 		rdfs:comment "Property between person and secondary literature" .
 # P
@@ -1146,6 +1242,7 @@
 		rdfs:label "has portrait"@de ;
 		rdfs:label "P"@de ;
 		rdfs:domain <Person> ;
+		rdfs:domain <ImportantPerson> ;
 		rdfs:range <P> ;
 		rdfs:comment "Property between person and a portrait" .
 
@@ -1176,6 +1273,7 @@
 		rdfs:label "is genderwise"@en ;
                 rdfs:label "ist vom Geschlecht her"@de ;
 		rdfs:domain <Person> ;
+		rdfs:domain <ImportantPerson> ;
 		rdfs:range <xsd:string> ;
 		rdfs:comment "Property between a Person and her or his gender." .
 
@@ -1184,6 +1282,7 @@
 		rdfs:label "has title"@en ;
                 rdfs:label "hat den Titel"@de ;
 		rdfs:domain <Person> ;
+		rdfs:domain <ImportantPerson> ;
 		rdfs:range <xsd:string> ;
 		rdfs:comment "Property between a Person and her or his title." .
 
