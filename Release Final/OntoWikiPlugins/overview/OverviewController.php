@@ -34,8 +34,8 @@ class OverviewController extends OntoWiki_Controller_Component {
 			$query->setProloguePart('SELECT ?uri ?label  ')
 			   	  ->setWherePart('WHERE { ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://drw-model.saw-leipzig.de/ImportantPerson> . '.
 				'?uri <http://www.w3.org/2000/01/rdf-schema#label> ?label . '.			
-				'FILTER regex (?label, "^'.$letter.'", "i") }' );  // ^xyz -> ?label muss mit xyz anfangen!
-		
+				'FILTER regex (?label, "^'.$letter.'", "i") }'.  // ^xyz -> ?label muss mit xyz anfangen!
+				'ORDER BY ASC(?label)' );
 		
 			$efApp 		= Erfurt_App::getInstance();
 			$efStore 	= $efApp->getStore();

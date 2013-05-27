@@ -56,7 +56,7 @@ class SearchboxController extends OntoWiki_Controller_Component {
 						   '<http://www.w3.org/2000/01/rdf-schema#label> ' .
 						   '?' . $property[0] . $property[1] . 'label. ');
 				if ($property[1] != '') 
-							$filter .= ('regex (?' .$property[0] . '' . $property[1] . 'label, "' . $property[1] . '" ' . '"i" 	)');
+							$filter .= ('regex (?' .$property[0] . '' . $property[1] . 'label, "' . $property[1] . '" ' . ', "i" 	)');
 			} 		
 		}
 		$filter .= ')';
