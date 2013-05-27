@@ -177,6 +177,7 @@
 
 # Arbeit, Tod und Geburt
 # ======================
+
 <GeneralLabor>
 		a owl:Class ;
                 rdfs:label "General Labor"@en ;
@@ -484,7 +485,7 @@
 
 <hasComment>
 		a owl:ObjectProperty ;
-		<hasOrder> "50" ;
+		<hasOrder> "100" ;
 		rdfs:label "has Comment"@en ;
                 rdfs:label "hat den Kommentar"@de ;
 		rdfs:domain <Thing> ;
@@ -679,22 +680,23 @@
 
 <hasGeneralLabor>
 		a owl:ObjectProperty ;
+		owl:inverseOf <isGeneralLaborOf> ;
 		<hasOrder> "410" ;
         rdfs:label "has General Labor"@en ;
                 rdfs:label "Tätigkeitsgebiete"@de ;
                 rdfs:domain <Person> ;
-		rdfs:domain <ImportantPerson>;
                 rdfs:range <GeneralLabor> ;
 		rdfs:comment "Property between a Person and her or his General Labor." .
 		
 <isGeneralLaborOf>
+		owl:inverseOf <hasGeneralLabor> ;
 		a owl:ObjectProperty ;
                 rdfs:label "is General Labor of"@en ;
                 rdfs:label "ist Tätigkeitsgebiet von"@de ;
                 rdfs:domain <GeneralLabor> ;
                 rdfs:range <Person> ;
 		rdfs:comment "Property between a General Labor and the related Person." .
-		
+				
 	
 # Background
 # Herkunft
@@ -883,6 +885,30 @@
 		rdfs:domain <Date> ;
 		rdfs:range <Year> ;
 		rdfs:comment "Property between a Date object and a specific Year." .
+
+
+<hasDeathYear>
+		a owl:ObjectProperty ;
+		owl:inverseOf <isDeathYearOf> ;
+		<hasOrder> "426" ;
+        rdfs:label "died in Year"@en ;
+        rdfs:label "Todesjahr"@de ;
+        rdfs:domain <Person> ;
+        rdfs:range <DateInformation> ;
+		rdfs:comment "Property between a Person and a Year of death." .
+
+
+<isDeathYearOf>
+		a owl:ObjectProperty ;
+		owl:inverseOf <hasDeathYear> ;
+        rdfs:label "Year of death"@en ;
+        rdfs:label "Todesjahr von"@de ;
+        rdfs:range <Person> ;
+        rdfs:domain <DateInformation> ;
+		rdfs:comment "Property between a Year of death ad a Person." .
+
+
+
 
 <inPlace>
 		a owl:ObjectProperty ;
