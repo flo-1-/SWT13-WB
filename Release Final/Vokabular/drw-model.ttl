@@ -181,7 +181,7 @@
 <GeneralLabor>
 		a owl:Class ;
                 rdfs:label "General Labor"@en ;
-                rdfs:label "Hauptbeschaeftigung"@de ;
+                rdfs:label "Hauptbeschäftigung"@de ;
 		rdfs:comment "The General Labor of a Person." .
 		
 <Birth>
@@ -247,35 +247,35 @@
 		
 <Date>
 		a owl:Class ;
-		rdfs:subClassOf <dateInformation> ;
+		rdfs:subClassOf <DateInformation> ;
                 rdfs:label "Date"@en ;
                 rdfs:label "Datum"@de ;
 		rdfs:comment "A specific Date in time." .
 
 <Day>
 		a owl:Class ;
-		rdfs:subClassOf <dateInformation> ;
+		rdfs:subClassOf <DateInformation> ;
 		rdfs:label "Day"@en ;
                 rdfs:label "Tag"@de ;
 		rdfs:comment "A Day, part of a Date." .
 
 <Month>
 		a owl:Class ;
-		rdfs:subClassOf <dateInformation> ;
+		rdfs:subClassOf <DateInformation> ;
 		rdfs:label "Month"@en ;
                 rdfs:label "Monat"@de ;
 		rdfs:comment "A Month, part of a Date." .
 
 <Year>
 		a owl:Class ;
-		rdfs:subClassOf <dateInformation> ;
+		rdfs:subClassOf <DateInformation> ;
 		rdfs:label "Year"@en ;
                 rdfs:label "Jahr"@de ;
 		rdfs:comment "A Year, part of a Date." .
 
 <YearJulian>
 		a owl:Class ;
-		rdfs:subClassOf <dateInformation> ;
+		rdfs:subClassOf <DateInformation> ;
 		rdfs:label "Julian year"@en ;
         rdfs:label "Julianisches Jahr"@de ;
 		rdfs:comment "A Year of the julian Calender." .
@@ -424,7 +424,7 @@
 		a owl:Class ;
 		rdfs:subClassOf <Source> ;
                 rdfs:label "Printed publication directory"@en ;
-                rdfs:label "Gedruckte Publikationsveryeichnisse"@de ;
+                rdfs:label "Gedruckte Publikationsverzeichnisse"@de ;
 		rdfs:comment "A GPV related to a Person." .
 
 # W
@@ -453,7 +453,7 @@
 		a owl:Class ;
 		rdfs:subClassOf <Source> ;
                 rdfs:label "Secondary Literature"@en ;
-                rdfs:label "Sekundaerliteratur"@de ;
+                rdfs:label "Sekundärliteratur"@de ;
 		rdfs:comment "A Secondary Source related to a Person." .
 
 # P
@@ -647,7 +647,7 @@
 		a owl:ObjectProperty ;
 		<hasOrder> "427" ;
         rdfs:label "died on"@en ;
-        rdfs:label "gestroben am"@de ;
+        rdfs:label "gestorben am"@de ;
         rdfs:domain <Person> ;
 	rdfs:domain <ImportantPerson>;
         rdfs:range <DateInformation> ;
@@ -657,7 +657,7 @@
 		a owl:ObjectProperty ;
 		<hasOrder> "425" ;
         rdfs:label "died in"@en ;
-        rdfs:label "gestroben in"@de ;
+        rdfs:label "gestorben in"@de ;
         rdfs:domain <Person> ;
 	rdfs:domain <ImportantPerson>;
         rdfs:range <SpatialInformation> ;
@@ -1059,7 +1059,7 @@
 <hasWL>
 		a owl:ObjectProperty ;
 		rdfs:subPropertyOf <hasPol> ;
-		owl:inverseOf <isStationOfLifeOf> ;
+		owl:inverseOf <isWLOf> ;
 		<hasOrder> "220" ;
 		rdfs:label "has scientific achievments"@en ;
 				rdfs:label "WL"@de ;
@@ -1187,7 +1187,7 @@
 <isIncomplete>
 		a owl:DatatypeProperty ;
 		rdfs:label "is incomplete"@en ;
-                rdfs:label "ist unvollstaendig"@de ;
+                rdfs:label "ist unvollständig"@de ;
 		rdfs:domain <Thing> ;
 		rdfs:range <xsd:bool> ;
 		rdfs:comment "Property between a Thing and the information if it is an incomplete information." .

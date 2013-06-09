@@ -1,4 +1,4 @@
-@base <http://drw-catalog.saw-leipzig.de/> . 
+@base <http://drw-overview.saw-leipzig.de/> . 
 @prefix drw-model: <http://drw-model.saw-leipzig.de/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -443,8 +443,7 @@
 
 <Place/Kiev>
 	a drw-model:Place ;
-	rdfs:label "Kiev" ;
-	rdfs:label "Kiev," .
+	rdfs:label "Kiev" .
 
 <Place/Mitau_Moskau_?>
 	a drw-model:Place ;
@@ -1324,15 +1323,13 @@
 	rdfs:label "Westphalen, Hermann Christian" .
 
 <ImportantPerson/20026>
-	drw-model:diedIn <Place/> ;
 	drw-model:hasGeneralLabor <GeneralLabor/Apotheker> ;
 	rdfs:label "Deringer, Friedrich Wilhelm Karl" ;
 	drw-model:hasMainName <MainName/20026hasMainName1> ;
 	drw-model:hasBirthYear <Year/1800> ;
 	a drw-model:ImportantPerson ;
 	drw-model:hasID "20026" ;
-	drw-model:hasDeathYear <Year/1876> ;
-	drw-model:wasBornIn <Place/> .
+	drw-model:hasDeathYear <Year/1876> .
 
 <ImportantPerson/10210>
 	drw-model:hasDeathYear <Year/1915> ;
@@ -1863,7 +1860,6 @@
 	drw-model:hasBirthYear <Year/1857> ;
 	rdfs:label "Lenardson, Robert" ;
 	a drw-model:ImportantPerson ;
-	drw-model:hasDeathYear <Year/> ;
 	drw-model:diedIn <Place/nach_1901> ;
 	drw-model:hasMainName <MainName/10123hasMainName1> ;
 	drw-model:wasBornIn <Place/Kellamggi_bei_Oesel> ;
@@ -2224,7 +2220,6 @@
 	drw-model:hasBirthYear <Year/1880> ;
 	a drw-model:ImportantPerson ;
 	drw-model:hasGeneralLabor <GeneralLabor/Industriechemiker> ;
-	drw-model:hasDeathYear <Year/> ;
 	drw-model:wasBornIn <Place/Elec_Gouvernement_Orel> ;
 	rdfs:label "Siebert, Rudolf" .
 
@@ -3143,11 +3138,9 @@
 
 <ImportantPerson/31155>
 	drw-model:hasID "31155" ;
-	drw-model:diedIn <Place/> ;
 	rdfs:label "Ėzov, Ivan Artem'evič" ;
 	a drw-model:ImportantPerson ;
 	drw-model:hasDeathYear <Year/nach_1878> ;
-	drw-model:wasBornIn <Place/> ;
 	drw-model:hasGeneralLabor <GeneralLabor/Arzt> ;
 	drw-model:hasMainName <MainName/31155hasMainName1> ;
 	drw-model:hasBirthYear <Year/1843> .
@@ -5065,7 +5058,6 @@
 <ImportantPerson/10035>
 	drw-model:hasDeathYear <Year/nach_1884> ;
 	drw-model:hasMainName <MainName/10035hasMainName1> ;
-	drw-model:diedIn <Place/> ;
 	drw-model:wasBornIn <Place/Babinovi_Gouvernement_Mogilev> ;
 	a drw-model:ImportantPerson ;
 	drw-model:hasID "10035" ;
@@ -5372,7 +5364,6 @@
 
 <Place/Mnchen>
 	a drw-model:Place ;
-	rdfs:label "München," ;
 	rdfs:label "München" .
 
 <ImportantPerson/30881>
@@ -6450,7 +6441,6 @@
 	a drw-model:ImportantPerson ;
 	rdfs:label "Seidel, Albert" ;
 	drw-model:wasBornIn <Place/Roie_Volynskaja_obl> ;
-	drw-model:hasDeathYear <Year/> ;
 	drw-model:hasBirthYear <Year/1855> .
 
 <Year/1866>
@@ -7106,12 +7096,10 @@
 <ImportantPerson/10041>
 	drw-model:hasMainName <MainName/10041hasMainName1> ;
 	rdfs:label "Dianin, Aleksandr Pavlovič" ;
-	drw-model:diedIn <Place/> ;
 	drw-model:hasBirthYear <Year/1851> ;
 	a drw-model:ImportantPerson ;
 	drw-model:hasID "10041" ;
 	drw-model:hasGeneralLabor <GeneralLabor/Chemiker> ;
-	drw-model:wasBornIn <Place/> ;
 	drw-model:hasDeathYear <Year/1918> .
 
 <MainName/30126hasMainName1>
@@ -8436,7 +8424,6 @@
 	drw-model:hasBirthYear <Year/1766> ;
 	a drw-model:ImportantPerson ;
 	drw-model:hasID "30434" ;
-	drw-model:hasDeathYear <Year/> ;
 	drw-model:hasGeneralLabor <GeneralLabor/Arzt> .
 
 <Place/Murom_Gouvernement_Vladimir>
@@ -8867,7 +8854,6 @@
 	drw-model:hasBirthYear <Year/1850> ;
 	drw-model:hasGeneralLabor <GeneralLabor/Physiologe> ;
 	drw-model:hasMainName <MainName/30194hasMainName1> ;
-	drw-model:diedIn <Place/> ;
 	a drw-model:ImportantPerson ;
 	rdfs:label "Čir'ev, Sergej Ivanovič" ;
 	drw-model:wasBornIn <Place/Vitebsk_Weirussland> ;
@@ -9481,10 +9467,8 @@
 	drw-model:hasGeneralLabor <GeneralLabor/Physiologe> ;
 	rdfs:label "Drozdov, Viktor Ivanovič" ;
 	drw-model:hasBirthYear <Year/1846> ;
-	drw-model:diedIn <Place/> ;
 	a drw-model:ImportantPerson ;
-	drw-model:hasMainName <MainName/30228hasMainName1> ;
-	drw-model:wasBornIn <Place/> .
+	drw-model:hasMainName <MainName/30228hasMainName1> .
 
 <MainName/30785hasMainName1>
 	a drw-model:MainName ;
@@ -11059,7 +11043,6 @@
 <ImportantPerson/30216>
 	drw-model:hasBirthYear <Year/1869> ;
 	drw-model:hasDeathYear <Year/1937> ;
-	drw-model:diedIn <Place/> ;
 	drw-model:hasID "30216" ;
 	drw-model:hasGeneralLabor <GeneralLabor/Chirurg> ;
 	a drw-model:ImportantPerson ;
@@ -12447,7 +12430,6 @@
 
 <Place/Dorpat>
 	a drw-model:Place ;
-	rdfs:label "Dorpat," ;
 	rdfs:label "Dorpat" .
 
 <ImportantPerson/20014>
@@ -13177,7 +13159,6 @@
 	drw-model:hasDeathYear <Year/1863> ;
 	rdfs:label "Döpping, Otto" ;
 	drw-model:hasID "10039" ;
-	drw-model:diedIn <Place/> ;
 	drw-model:hasMainName <MainName/10039hasMainName1> ;
 	drw-model:hasBirthYear <Year/1814> ;
 	a drw-model:ImportantPerson ;
@@ -13186,7 +13167,6 @@
 
 <Place/Leningrad>
 	a drw-model:Place ;
-	rdfs:label "Leningrad," ;
 	rdfs:label "Leningrad" .
 
 <ImportantPerson/30938>
@@ -13722,8 +13702,6 @@
 	a drw-model:MainName ;
 	rdfs:label "Sokolov, Nikolaj Andreevič" .
 
-<Place/>
-	a drw-model:Place .
 
 <MainName/30613hasMainName1>
 	a drw-model:MainName ;
@@ -13745,7 +13723,6 @@
 	drw-model:diedIn <Place/Tula_?> .
 
 <Year/1916>
-	rdfs:label "1916," ;
 	a drw-model:Year ;
 	rdfs:label "1916" .
 
@@ -13920,7 +13897,6 @@
 
 <Place/Berlin>
 	a drw-model:Place ;
-	rdfs:label "Berlin," ;
 	rdfs:label "Berlin" .
 
 <ImportantPerson/10112>
@@ -14517,9 +14493,6 @@
 	a drw-model:Place ;
 	rdfs:label "Gouvernement Simbirsk" .
 
-<Year/>
-	rdfs:label "†" ;
-	a drw-model:Year .
 
 <MainName/30756hasMainName1>
 	a drw-model:MainName ;
@@ -14668,7 +14641,6 @@
 <ImportantPerson/31216>
 	drw-model:hasBirthYear <Year/1845> ;
 	drw-model:hasID "31216" ;
-	drw-model:diedIn <Place/> ;
 	drw-model:hasGeneralLabor <GeneralLabor/Arzt> ;
 	a drw-model:ImportantPerson ;
 	rdfs:label "Cruse, Paul Karl Otto" ;
@@ -14770,7 +14742,6 @@
 
 <ImportantPerson/30215>
 	drw-model:hasMainName <MainName/30215hasMainName1> ;
-	drw-model:diedIn <Place/> ;
 	a drw-model:ImportantPerson ;
 	drw-model:hasBirthYear <Year/1842> ;
 	drw-model:wasBornIn <Place/Djatkovo_Gouvernement_Orlov> ;
@@ -15432,12 +15403,10 @@
 <ImportantPerson/30214>
 	drw-model:hasID "30214" ;
 	drw-model:hasBirthYear <Year/1858> ;
-	drw-model:diedIn <Place/> ;
 	rdfs:label "Dobroklonskij, Vasilij Pavlovič" ;
 	drw-model:hasDeathYear <Year/nach_1907> ;
 	a drw-model:ImportantPerson ;
 	drw-model:hasGeneralLabor <GeneralLabor/Pathologe> ;
-	drw-model:wasBornIn <Place/> ;
 	drw-model:hasMainName <MainName/30214hasMainName1> .
 
 <MainName/30179hasMainName1>
@@ -17981,7 +17950,6 @@
 	drw-model:hasBirthYear <Year/1865> ;
 	drw-model:hasID "30202" ;
 	drw-model:wasBornIn <Place/St_Petersburg> ;
-	drw-model:diedIn <Place/> ;
 	a drw-model:ImportantPerson ;
 	drw-model:hasGeneralLabor <GeneralLabor/Kinderarzt> ;
 	drw-model:hasMainName <MainName/30202hasMainName1> ;
@@ -18320,8 +18288,7 @@
 	drw-model:diedIn <Place/Kiev> ;
 	drw-model:hasID "31206" ;
 	drw-model:hasBirthYear <Year/1847> ;
-	drw-model:hasGeneralLabor <GeneralLabor/Ophthalmologe> ;
-	drw-model:wasBornIn <Place/> .
+	drw-model:hasGeneralLabor <GeneralLabor/Ophthalmologe> .
 
 <MainName/30843hasMainName1>
 	a drw-model:MainName ;
@@ -20263,7 +20230,7 @@
 	drw-model:hasBirthYear <Year/1818> .
 
 <>
-	rdfs:label "DRW-GeneralCatalog" ;
+	rdfs:label "DRW-Catalog" ;
 	a owl:Ontology .
 
 <Place/Lichtenheim_bei_Neuburg/Donau>
@@ -20380,7 +20347,6 @@
 <ImportantPerson/31207>
 	drw-model:hasID "31207" ;
 	drw-model:hasBirthYear <Year/1858> ;
-	drw-model:diedIn <Place/> ;
 	drw-model:hasDeathYear <Year/1921> ;
 	a drw-model:ImportantPerson ;
 	drw-model:hasGeneralLabor <GeneralLabor/Anatom_und_Zoologe> ;
@@ -22486,7 +22452,6 @@
 	rdfs:label "Loginov, Viktor Ivanovič" .
 
 <ImportantPerson/31213>
-	drw-model:diedIn <Place/> ;
 	drw-model:wasBornIn <Place/St_Petersburg> ;
 	drw-model:hasMainName <MainName/31213hasMainName1> ;
 	drw-model:hasID "31213" ;
@@ -23265,7 +23230,6 @@
 	rdfs:label "Leisnig in Sachsen" .
 
 <ImportantPerson/31208>
-	drw-model:diedIn <Place/> ;
 	drw-model:hasMainName <MainName/31208hasMainName1> ;
 	drw-model:hasID "31208" ;
 	drw-model:hasDeathYear <Year/nach_1907> ;
@@ -23877,7 +23841,6 @@
 
 <ImportantPerson/30210>
 	drw-model:hasBirthYear <Year/1875> ;
-	drw-model:diedIn <Place/> ;
 	drw-model:hasGeneralLabor <GeneralLabor/Physiologe> ;
 	drw-model:wasBornIn <Place/Sorovskoe_Gouvernement_Perm> ;
 	drw-model:hasID "30210" ;
@@ -24091,7 +24054,6 @@
 <ImportantPerson/30192>
 	drw-model:hasID "30192" ;
 	drw-model:wasBornIn <Place/Smolensk> ;
-	drw-model:diedIn <Place/> ;
 	drw-model:hasDeathYear <Year/1903> ;
 	drw-model:hasGeneralLabor <GeneralLabor/Psychiater> ;
 	a drw-model:ImportantPerson ;
@@ -24294,7 +24256,6 @@
 	drw-model:wasBornIn <Place/Torok_Gouvernement_Tver> ;
 	a drw-model:ImportantPerson ;
 	drw-model:hasBirthYear <Year/1809> ;
-	drw-model:hasDeathYear <Year/> ;
 	rdfs:label "Voskresenskij, Aleksandr Abramovič" ;
 	drw-model:hasGeneralLabor <GeneralLabor/Chemiker> ;
 	drw-model:diedIn <Place/Moajcevo_Gouvernement_Tver> .
@@ -24542,14 +24503,12 @@
 
 <ImportantPerson/31218>
 	rdfs:label "Cube, Nikolai von" ;
-	drw-model:diedIn <Place/> ;
 	drw-model:hasGeneralLabor <GeneralLabor/Arzt> ;
 	drw-model:hasDeathYear <Year/1952> ;
 	a drw-model:ImportantPerson ;
 	drw-model:hasMainName <MainName/31218hasMainName1> ;
 	drw-model:hasID "31218" ;
-	drw-model:hasBirthYear <Year/1872> ;
-	drw-model:wasBornIn <Place/> .
+	drw-model:hasBirthYear <Year/1872> .
 
 <ImportantPerson/30054>
 	drw-model:hasGeneralLabor <GeneralLabor/Chirurg_der_Flotte> ;
@@ -24653,7 +24612,6 @@
 	rdfs:label "Chlopin, Grigorij Vitalievič" ;
 	drw-model:hasDeathYear <Year/1929> ;
 	drw-model:hasID "31205" ;
-	drw-model:diedIn <Place/> ;
 	a drw-model:ImportantPerson ;
 	drw-model:hasMainName <MainName/31205hasMainName1> ;
 	drw-model:hasBirthYear <Year/1863> ;
@@ -26011,7 +25969,6 @@
 	drw-model:hasID "31024" ;
 	a drw-model:ImportantPerson ;
 	drw-model:hasMainName <MainName/31024hasMainName1> ;
-	drw-model:hasDeathYear <Year/> ;
 	drw-model:hasBirthYear <Year/1863> ;
 	drw-model:diedIn <Place/?> .
 
@@ -26443,7 +26400,6 @@
 
 <Place/Warschau>
 	a drw-model:Place ;
-	rdfs:label "Warschau," ;
 	rdfs:label "Warschau" .
 
 <Place/Glebovo-Gorodie_Gouvernement_Rjazan>
@@ -27268,7 +27224,6 @@
 	drw-model:hasGeneralLabor <GeneralLabor/Physiologe> ;
 	drw-model:diedIn <Place/1904> ;
 	a drw-model:ImportantPerson ;
-	drw-model:hasDeathYear <Year/> ;
 	rdfs:label "Massen, Vasilij Nikolaevič" ;
 	drw-model:hasMainName <MainName/30687hasMainName1> ;
 	drw-model:hasBirthYear <Year/1860> ;
@@ -27710,8 +27665,7 @@
 
 <Place/Moskau>
 	a drw-model:Place ;
-	rdfs:label "Moskau" ;
-	rdfs:label "Moskau," .
+	rdfs:label "Moskau" .
 
 <MainName/30675hasMainName1>
 	a drw-model:MainName ;
@@ -27866,7 +27820,6 @@
 	drw-model:hasID "30200" ;
 	drw-model:hasBirthYear <Year/1866> ;
 	drw-model:wasBornIn <Place/St_Petersburg> ;
-	drw-model:diedIn <Place/> ;
 	rdfs:label "Dörbeck, Franz Friedrich" ;
 	drw-model:hasGeneralLabor <GeneralLabor/Internist> ;
 	drw-model:hasDeathYear <Year/nach_1929> ;
@@ -29286,7 +29239,6 @@
 	rdfs:label "Berthenson, Leo (Lev Bernardovič)" .
 
 <ImportantPerson/20025>
-	drw-model:diedIn <Place/> ;
 	drw-model:hasGeneralLabor <GeneralLabor/Apotheker> ;
 	drw-model:hasID "20025" ;
 	drw-model:hasDeathYear <Year/1880> ;
